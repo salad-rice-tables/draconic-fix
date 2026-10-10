@@ -44,6 +44,19 @@ local function SayAt(player, entry, range, delayMs, text, voFile)
 end
 
 
+-- Umbric dissolves with the cosmetic Arcane Dissolve Out (1244360) right after his last line; the credit then ends his phase for this player.
+local function UmbricDissolve(player, delayMs)
+    player:RegisterEvent(function(_, _, _, p)
+        if not p or not p:IsInWorld() then return end
+        local ok, list = pcall(function() return p:GetCreaturesInRange(60) end)
+        if not ok or not list then return end
+        for _, c in ipairs(list) do
+            local okE, e = pcall(function() return c:GetEntry() end)
+            if okE and e == 239944 then pcall(function() c:CastSpell(c, 1244360, true) end) return end
+        end
+    end, delayMs, 1)
+end
+
 RegisterCreatureGossipEvent(235787, 2, function(_, player, _, sender, intid)
     pcall(function() PrintInfo(string.format("[diplo] player=%s menu=%s intid=%s q86734=%s", player:GetName(), tostring(sender), tostring(intid), tostring(player:GetQuestStatus(86734)))) end)
     if sender ~= 38452 then return end
@@ -58,6 +71,7 @@ RegisterCreatureGossipEvent(235787, 2, function(_, player, _, sender, intid)
     SayAt(player, 239944, 60, 37000, "Then it seems we have nothing more to discuss. I'll continue my research in Tranquillien, should you choose to see reason.", 299867)
     SayAt(player, 236778, 60, 48000, "The Grand Magister is right about one thing--protecting the Sunwell is our top priority. The Vanguard of the Light will see to its defense.", 299868)
     SayAt(player, 235787, 60, 60000, "Your aid was timely and welcome, Turalyon. But remember that Silvermoon and the Sunwell belong to the sin'dorei. You are guests in our fair city.", 299869)
+    UmbricDissolve(player, 44000)
     SayAt(player, 236778, 60, 73000, "Guests, allies, and saviors, Lor'themar. Rest assured that we will guard your city and your people with the full strength of the Light.", 299870)
 end)
 
