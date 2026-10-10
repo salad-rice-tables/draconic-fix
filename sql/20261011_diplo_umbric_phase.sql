@@ -2,7 +2,8 @@
 -- when the objective is credited (retail does this with phases; resets when the quest is taken again).
 --   P2 9600002: new phase, active while 86734 is incomplete (state 8)  -> new Umbric spawn guid 3001001200 (projection aura 166452 + purple hologram 261627)
 --   P3 9600003: the existing Umbric 3000207639 (phase 45584, "86733 complete/rewarded") now needs also NOT(86734 incomplete|complete)
---   P4 9600004: the existing Umbric 3001001106 (phase 46726, "92895 NOT complete/rewarded") now needs also NOT(86734 incomplete|complete)
+--   P4 9600004: the existing Umbric 3001001106 (phase 46726, "92895 NOT complete/rewarded") now needs also NOT(86734 incomplete|complete) and NOT(86733 complete|rewarded)
+--               (otherwise both court copies stand on each other: Umbric was there twice)
 DELETE FROM `world`.`phase_area` WHERE `PhaseId` IN (9600002, 9600003, 9600004);
 DELETE FROM `world`.`conditions` WHERE `SourceTypeOrReferenceId` = 26 AND `SourceGroup` IN (9600002, 9600003, 9600004);
 DELETE FROM `world`.`phase_name` WHERE `ID` IN (9600002, 9600003, 9600004);
@@ -13,7 +14,8 @@ INSERT INTO `world`.`conditions` (`SourceTypeOrReferenceId`,`SourceGroup`,`Sourc
  (26,9600003,15969,0,0,47,0,86733,66,0,'',0,0,0,'','86733 complete or rewarded'),
  (26,9600003,15969,0,0,47,0,86734,10,0,'',1,0,0,'','NOT 86734 incomplete/complete'),
  (26,9600004,15969,0,0,47,0,92895,66,0,'',1,0,0,'','NOT 92895 complete or rewarded'),
- (26,9600004,15969,0,0,47,0,86734,10,0,'',1,0,0,'','NOT 86734 incomplete/complete');
+ (26,9600004,15969,0,0,47,0,86734,10,0,'',1,0,0,'','NOT 86734 incomplete/complete'),
+ (26,9600004,15969,0,0,47,0,86733,66,0,'',1,0,0,'','NOT 86733 complete or rewarded (then the 45584 Umbric stands there): never two Umbrics');
 UPDATE `world`.`creature` SET `PhaseId` = 9600003 WHERE `guid` = 3000207639;
 UPDATE `world`.`creature` SET `PhaseId` = 9600004 WHERE `guid` = 3001001106;
 DELETE FROM `world`.`creature` WHERE `guid` = 3001001200;
