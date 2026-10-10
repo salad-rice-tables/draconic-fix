@@ -33,20 +33,28 @@ local function SayAt(player, entry, range, delayMs, text)
     end, delayMs, 1)
 end
 
-local function PetitionHandler(creditEntry, key)
-    return function(_, player, _, _, intid)
-        if intid == 1 then
+local function QStatus(player, qid)
+    local ok, st = pcall(function() return player:GetQuestStatus(qid) end)
+    if ok then return tostring(st) end
+    return "?"
+end
+
+local function PetitionHandler(creditEntry, menuId, key)
+    return function(_, player, _, sender, intid)
+        pcall(function() PrintInfo(string.format("[evil] player=%s npc=%d menu=%s intid=%s q91967=%s", player:GetName(), creditEntry, tostring(sender), tostring(intid), QStatus(player, 91967))) end)
+        if sender == menuId then
             pcall(function() player:KilledMonsterCredit(creditEntry) end)
             OnCooldown(player, key)
         end
     end
 end
 
-RegisterCreatureGossipEvent(249268, 2, PetitionHandler(249268, "loth-pet"))
-RegisterCreatureGossipEvent(248628, 2, PetitionHandler(248628, "senn-pet"))
-RegisterCreatureGossipEvent(249270, 2, PetitionHandler(249270, "rom-pet"))
-RegisterCreatureGossipEvent(249289, 2, function(_, player, _, _, intid)
-    if intid == 1 then
+RegisterCreatureGossipEvent(249268, 2, PetitionHandler(249268, 40158, "loth-pet"))
+RegisterCreatureGossipEvent(248628, 2, PetitionHandler(248628, 40154, "senn-pet"))
+RegisterCreatureGossipEvent(249270, 2, PetitionHandler(249270, 40147, "rom-pet"))
+RegisterCreatureGossipEvent(249289, 2, function(_, player, _, sender, intid)
+    pcall(function() PrintInfo(string.format("[evil] player=%s npc=249289 menu=%s intid=%s q91967=%s", player:GetName(), tostring(sender), tostring(intid), QStatus(player, 91967))) end)
+    if sender ~= 40163 then return end
         pcall(function() player:KilledMonsterCredit(249289) end)
         if OnCooldown(player, "anduin-scene") then return end
         SayAt(player, 249289, 60, 2000, "High Commander. You will release Magister Umbric, if you please.")
@@ -57,7 +65,6 @@ RegisterCreatureGossipEvent(249289, 2, function(_, player, _, _, intid)
         SayAt(player, 249289, 60, 22000, "Is fond of 'bold' actions. Is that what I heard you say, Grand Magister?")
         SayAt(player, 249289, 60, 26000, "Now is the time for bold actions. Release him, I accept full responsibility.")
         SayAt(player, 249268, 60, 30000, "Fine. On your head be it.")
-    end
 end)
 
 print("[you_know_this_evil] loaded")
