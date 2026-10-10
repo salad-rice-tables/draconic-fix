@@ -1,0 +1,15 @@
+-- Rising Storm 92061 Bellamy oprava: 250587 je faction 14 (cerveny), retail konzultacne NPC je 9100622 (faction 35, friendly).
+-- 9100622 uz sam dava kredit 250587 pri otvoreni gossipu (retail Oathstone riadky) - moj cerveny spawn 3001001105 bol zly
+-- pristup a duplicita. Tento subor: cerveny spawn prec, moje smart riadky na 250587 prec, link 250587 spat na retail 40367,
+-- friendly 9100622 (doteraz mrtvy link na neexistujuce menu 912046881) prelinkovat na Wiki menu 40411 + report kredit + say.
+-- Turalyon 250580 (faction 35, bez dvojnika) ostava ako je.
+-- NEPOUZIVAT pocas testu hraca; nasadit pred restartom.
+DELETE FROM `world`.`creature` WHERE `guid` = 3001001105;
+DELETE FROM `world`.`smart_scripts` WHERE `entryorguid` = 250587 AND `source_type` = 0 AND `id` IN (0, 1) AND `comment` LIKE '%(wiki)';
+UPDATE `world`.`creature_template_gossip` SET `MenuID` = 40367 WHERE `CreatureID` = 250587 AND `MenuID` = 40411;
+UPDATE `world`.`creature_template_gossip` SET `MenuID` = 40411 WHERE `CreatureID` = 9100622 AND `MenuID` = 912046881;
+DELETE FROM `world`.`creature_text` WHERE `CreatureID` = 9100622 AND `GroupID` = 0;
+INSERT INTO `world`.`creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Language`, `Probability`, `Emote`, `Duration`, `Sound`, `SoundPlayType`, `BroadcastTextId`, `TextRange`, `comment`) VALUES (9100622, 0, 0, 'Lor''themar promised his Magisters would provide a solution. It''s now or never!', 0, 0, 100.0, 0, 0, 0, 0, 0, 0, 'Rising Storm 92061 Bellamy say (wiki)');
+DELETE FROM `world`.`smart_scripts` WHERE `entryorguid` = 9100622 AND `source_type` = 0 AND `id` IN (2, 3);
+INSERT IGNORE INTO `world`.`smart_scripts` (`entryorguid`, `source_type`, `id`, `link`, `Difficulties`, `event_type`, `event_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `event_param5`, `event_param_string`, `action_type`, `action_param1`, `action_param2`, `action_param3`, `action_param4`, `action_param5`, `action_param_string`, `action_param6`, `target_type`, `target_param1`, `target_param2`, `target_param3`, `target_param4`, `target_param_string`, `target_x`, `target_y`, `target_z`, `target_o`, `comment`) VALUES (9100622, 0, 2, 3, '', 62, 0, 100, 0, 40411, 0, 0, 0, 0, '', 33, 250587, 0, 0, 0, 0, '', 0, 7, 0, 0, 0, 0, '', 0, 0, 0, 0, 'Bellamy 9100622 - Report - Kill Credit 92061 (wiki)');
+INSERT IGNORE INTO `world`.`smart_scripts` (`entryorguid`, `source_type`, `id`, `link`, `Difficulties`, `event_type`, `event_phase_mask`, `event_chance`, `event_flags`, `event_param1`, `event_param2`, `event_param3`, `event_param4`, `event_param5`, `event_param_string`, `action_type`, `action_param1`, `action_param2`, `action_param3`, `action_param4`, `action_param5`, `action_param_string`, `action_param6`, `target_type`, `target_param1`, `target_param2`, `target_param3`, `target_param4`, `target_param_string`, `target_x`, `target_y`, `target_z`, `target_o`, `comment`) VALUES (9100622, 0, 3, 0, '', 62, 0, 100, 0, 40411, 0, 0, 0, 0, '', 1, 0, 0, 0, 0, 0, '', 0, 1, 0, 0, 0, 0, '', 0, 0, 0, 0, 'Bellamy 9100622 - Report - Say (wiki)');

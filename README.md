@@ -1,0 +1,51 @@
+# draconic-fix — WoW Midnight quest fixes
+
+Verified retail-faithful fixes for **World of Warcraft: Midnight** quests
+(Into the Abyss chain + related Silvermoon City quests) on a TrinityCore-based
+(updated `master`, ~12.x) server.
+
+Every text, NPC, reward and line of dialogue is verified against
+**Wowhead** (tooltip API), **Warcraft Wiki** and the core sources.
+No fan-fiction, no guessed IDs. Each fix ships with an `_undo.sql`.
+
+## Covered quests
+
+| Quest | ID | Status |
+|---|---|---|
+| Voidstorm (optional pre-quest) | 89388 | starter fixed |
+| Rising Storm (Into the Abyss #1) | 92061 | full fix: texts, rewards, gossip, credits, says, phases |
+| Magisters' Terrace: Homecoming (#2) | 86543 | completion, next quest, accept/terrace says |
+| You Know This Evil? (83-88) | 91967 | full fix: menus, buttons, credits, Anduin scene, rewards |
+
+Details: `docs/quest_92061_rising_storm_fix.md`.
+Reusable recipe: `docs/gossip_credit_quest_pattern.md`.
+
+## Apply order
+
+SQL files are prefixed by date — **apply alphabetically** against MySQL
+(`world` + `hotfixes` databases, statements are fully qualified):
+
+```sql
+SOURCE sql/20261010_rising_storm_wiki.sql;
+-- ... one by one in alphabetical order ...
+SOURCE sql/20261011_evil91967.sql;
+```
+
+Then copy `lua/*.lua` to the server's `lua_scripts/` folder and **restart
+worldserver** (gossip/smart/lua load at startup).
+
+Verify: `ready` in `Server.log`, empty `DBErrors` log, Eluna
+`Successfully loaded` for both lua files, then test in game
+(EN window text → button → credit + NPC say).
+
+## Revert
+
+Every fix has a matching `*_undo.sql`. Apply in reverse alphabetical order.
+
+## Layout
+
+- `sql/` — fixes + undo files (English comments, sources cited per file)
+- `lua/` — Eluna dialogue/credit scripts (primary credit path)
+- `docs/` — pattern + quest write-up (incl. known follow-ups)
+
+No credentials, no dumps, no client files in this repo.
