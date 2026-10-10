@@ -9,9 +9,15 @@ Objective `Listen to the discussion` is a kill credit (235787) that retail gives
 2. While the quest is incomplete, Lor'themar's gossip hello shows only the Diplomacy window (npc_text 9500132, menu 38452: **Listen to the discussion** / **Skip conversation**), otherwise the normal quest list (hello hook returns `false` so the core opens it).
 3. Listen plays the 8-line discussion (Lor'themar, Halduron, Umbric, Rommath, Umbric, Turalyon, Lor'themar, Turalyon), each line spoken by its NPC and with its voice; the credit is given when the scene ends. Skip gives the credit at once.
 
-## Umbric
+## Umbric (per-player phase)
 
-In retail Umbric is a purple Void projection and teleports away after his last line. The projection look is the sniffed aura `166452` (`sql/20261011_umbric_projection.sql` gives it to the phased spawn; the script also adds it at scene start). After his second line the script casts `1246091` (Cosmetic - Void Teleport Away) and despawns him (he respawns with the normal timer).
+In retail Umbric is a purple Void projection that is there for the discussion and leaves afterwards. Here it is done with phases (`sql/20261011_diplo_umbric_phase.sql`, undo included):
+
+- new phase `9600002` (area 15969) is active while quest 86734 is **incomplete**; it holds a new Umbric spawn (guid 3001001200) with auras `166452` (sniffed projection look) and `261627` (purple hologram);
+- the two existing Umbric spawns (phases 45584 and 46726) moved to `9600003`/`9600004`, which keep their original condition and add "NOT 86734 incomplete/complete" - so there is only one Umbric at a time;
+- the Lua scene gives the credit 46 s after the start (right after his last line), the quest becomes complete, his phase ends **for that player only**, and he disappears. Abandon and re-take the quest and everything resets.
+
+Not used: spell `1246091` (Cosmetic - Void Teleport Away) showed nothing in game; a global despawn would hide him for everybody.
 
 ## Exact retail text and voice
 
