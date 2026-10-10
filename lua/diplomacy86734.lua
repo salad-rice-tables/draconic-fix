@@ -5,10 +5,10 @@
 --      (menu 38452: 0 = Listen to the discussion, 1 = Skip conversation). Retail does this with a second,
 --      phased Lor'themar; here the quest state (incomplete) selects the window.
 --   3. Listen -> 8 lines, each said by its NPC with the retail voice (BroadcastText 285180-285189, SoundKit
---      299863-299870 = the numbers on Wowhead /sound=), kill credit 235787 after Umbric's last line (46 s).
+--      299863-299870 = the numbers on Wowhead /sound=), kill credit 235787 after Umbric has finished and dissolved (49.5 s).
 --      Skip -> credit at once.
 -- Speakers: 235787 Lor'themar, 251587 Halduron, 239944 Umbric, 236583 Rommath, 236778 Turalyon (all at the court).
--- Umbric: his own phase (sql/20261011_diplo_umbric_phase.sql) exists only while the quest is incomplete; the credit at 46 s (after his last line) ends it for that player only.
+-- Umbric: his own phase (sql/20261011_diplo_umbric_phase.sql) exists only while the quest is incomplete; the credit at 49.5 s (after he has finished his last line and dissolved) ends it for that player only.
 -- Cooldown 60 s per player so scenes do not overlap.
 -- =====================================================================
 if IS_WORLD_STATE then return end
@@ -63,7 +63,7 @@ RegisterCreatureGossipEvent(235787, 2, function(_, player, _, sender, intid)
     pcall(function() player:GossipComplete() end)
     if intid ~= 0 then pcall(function() player:KilledMonsterCredit(235787) end) return end   -- Skip conversation: credit at once
     if OnCooldown(player, "diplo-scene") then pcall(function() player:KilledMonsterCredit(235787) end) return end
-    player:RegisterEvent(function(_, _, _, p) if p and p:IsInWorld() then pcall(function() p:KilledMonsterCredit(235787) end) end end, 46000, 1)   -- Listen: credit after Umbric's last line: the quest state flips, his phase (9600002) ends for this player and he is gone (he leaves, retail)
+    player:RegisterEvent(function(_, _, _, p) if p and p:IsInWorld() then pcall(function() p:KilledMonsterCredit(235787) end) end end, 49500, 1)   -- Listen: credit after Umbric has finished his last line and dissolved: the quest state flips, his phase (9600002) ends for this player and he is gone (he leaves, retail)
     SayAt(player, 235787, 60, 1000, "The Sunwell holds the Voidstorm at bay for now. But its current state cannot be sustained forever.", 299863)
     SayAt(player, 251587, 60, 9000, "And there's no telling how it could be affecting the rest of Eversong, especially the Lightbloom. We need an alternative course of action.", 299864)
     SayAt(player, 239944, 60, 21000, "We ren'dorei can aid you in finding one. Grant us entry into Silvermoon--", 299865)
@@ -71,7 +71,7 @@ RegisterCreatureGossipEvent(235787, 2, function(_, player, _, sender, intid)
     SayAt(player, 239944, 60, 37000, "Then it seems we have nothing more to discuss. I'll continue my research in Tranquillien, should you choose to see reason.", 299867)
     SayAt(player, 236778, 60, 48000, "The Grand Magister is right about one thing--protecting the Sunwell is our top priority. The Vanguard of the Light will see to its defense.", 299868)
     SayAt(player, 235787, 60, 60000, "Your aid was timely and welcome, Turalyon. But remember that Silvermoon and the Sunwell belong to the sin'dorei. You are guests in our fair city.", 299869)
-    UmbricDissolve(player, 44000)
+    UmbricDissolve(player, 47000)
     SayAt(player, 236778, 60, 73000, "Guests, allies, and saviors, Lor'themar. Rest assured that we will guard your city and your people with the full strength of the Light.", 299870)
 end)
 

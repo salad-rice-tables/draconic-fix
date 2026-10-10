@@ -15,9 +15,9 @@ In retail Umbric is a purple Void projection that is there for the discussion an
 
 - new phase `9600002` (area 15969) is active while quest 86734 is **incomplete**; it holds a new Umbric spawn (guid 3001001200) with auras `166452` (sniffed projection look) and `261627` (purple hologram);
 - the two existing Umbric spawns (phases 45584 and 46726) moved to `9600003`/`9600004`, which keep their original condition and add "NOT 86734 incomplete/complete" - so there is only one Umbric at a time;
-- the Lua scene gives the credit 46 s after the start (right after his last line), the quest becomes complete, his phase ends **for that player only**, and he disappears. Abandon and re-take the quest and everything resets.
+- the Lua scene lets him finish his last line (starts at 37 s), dissolves him at 47 s and gives the credit at 49.5 s, the quest becomes complete, his phase ends **for that player only**, and he disappears. Abandon and re-take the quest and everything resets.
 
-Just before the credit (44 s) Umbric casts the cosmetic **Arcane Dissolve Out (1244360)** on himself, so he dissolves instead of popping out. Not used: `1246091` (Cosmetic - Void Teleport Away) showed nothing in game; a global despawn would hide him for everybody.
+At 47 s Umbric casts the cosmetic **Arcane Dissolve Out (1244360)** on himself, so he dissolves instead of popping out. Not used: `1246091` (Cosmetic - Void Teleport Away) showed nothing in game; a global despawn would hide him for everybody.
 
 ## Exact retail text and voice
 
