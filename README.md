@@ -16,6 +16,7 @@ No fan-fiction, no guessed IDs. Each fix ships with an `_undo.sql`.
 | Rising Storm (Into the Abyss #1) | 92061 | full fix: texts, rewards, gossip, credits, says, phases |
 | Magisters' Terrace: Homecoming (#2) | 86543 | completion, next quest, accept/terrace says |
 | You Know This Evil? (83-88) | 91967 | full fix: menus, buttons, credits, Anduin scene, rewards |
+| Diplomacy (Silvermoon) | 86734 | full fix: retail gossip flow, 8-line scene with retail voices, credit at the end (`docs/quest_86734_diplomacy_fix.md`) |
 
 Details: `docs/quest_92061_rising_storm_fix.md`.
 Reusable recipe: `docs/gossip_credit_quest_pattern.md`.
