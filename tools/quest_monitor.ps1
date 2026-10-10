@@ -1,5 +1,5 @@
-# Quest/gossip monitor digest: vytiahne relevantne riadky z aktualnych logov.
-# Pouzitie: powershell -ExecutionPolicy Bypass -File C:\WowServer\Custom\tools\quest_monitor.ps1 [-Lines 400]
+# Quest/gossip monitor digest: pulls relevant lines from current logs.
+# Usage: powershell -ExecutionPolicy Bypass -File C:\WowServer\Custom\tools\quest_monitor.ps1 [-Lines 400]
 param([int]$Lines = 400)
 $Bin = "C:\WowServer\MyServer\69587Precompiled\69587Precompiled\bin\RelWithDebInfo"
 $slog = Get-ChildItem "$Bin\Server_*.log" | Sort-Object LastWriteTime -Descending | Select-Object -First 1

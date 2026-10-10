@@ -1,9 +1,10 @@
 -- =====================================================================
--- Quest 91967 You Know This Evil?: petition kredity + Anduinova scena prepustenia.
--- 4 petitioneri (Lothraxion 249268, Senn 248628, Rommath 249270, Anduin 249289):
--- kredit na "researching" buttone (opt1). Umbric 249272: bez buttonov (Find = otvorenie).
--- Anduinova scena po jeho buttone (Wiki Notes, vsetci stoja pokope): Anduin->Lothraxion->Anduin x3->Rommath->Anduin x2->Lothraxion.
--- Texty doslovne z Warcraft Wiki You_Know_This_Evil. Cooldown 300 s na hraca.
+-- Quest 91967 You Know This Evil?: petition credits + Anduin's release scene.
+-- 4 petitioners (Lothraxion 249268, Senn 248628, Rommath 249270, Anduin 249289):
+-- credit on any petition-menu button (menu-gated, all intids carry credit).
+-- Umbric 249272: no buttons (Find = opening the window).
+-- Anduin scene after his button (Wiki Notes, all standing together).
+-- Texts verbatim from Warcraft Wiki You_Know_This_Evil. Cooldown 300 s per player.
 -- =====================================================================
 if IS_WORLD_STATE then return end
 

@@ -1,8 +1,8 @@
--- 91967 Lothraxion: warlock-only gossip option + odpoved (doslovne z Wiki).
--- Menu 40158: opt2 'I use Void magic.' LEN pre warlockov (maska 256) -> submenu 40159 s odpovedou.
--- Submenu 40159: text odpovede + opt0 'I want to talk about something else.' spat na 40158.
--- Bez kreditu (lore-volba). Eluna PetitionHandler reaguje len na intid==1, takze bezpecne.
--- NEPOUZIVAT pocas testu hraca; nasadit pred restartom.
+-- 91967 Lothraxion: warlock-only gossip option + reply (verbatim from Wiki).
+-- Menu 40158: opt2 'I use Void magic.' ONLY for warlocks (mask 256) -> submenu 40159 with the reply.
+-- Submenu 40159: reply text + opt0 'I want to talk about something else.' back to 40158.
+-- No credit (lore choice). Eluna credits are menu-gated, so this is safe.
+-- Do NOT apply while players are testing; deploy before restart.
 INSERT IGNORE INTO `hotfixes`.`broadcast_text` (`Text`, `Text1`, `ID`, `LanguageID`, `ConditionID`, `EmotesID`, `Flags`, `ChatBubbleDurationMs`, `VoiceOverPriorityID`, `SoundKitID1`, `SoundKitID2`, `EmoteID1`, `EmoteID2`, `EmoteID3`, `EmoteDelay1`, `EmoteDelay2`, `EmoteDelay3`, `VerifiedBuild`) VALUES ('And you were summoned by the Sunwell. Umbric was not, which either means he is too tainted or is unworthy of such an honor.', '', 9900129, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 INSERT IGNORE INTO `world`.`npc_text` (`ID`, `Probability0`, `Probability1`, `Probability2`, `Probability3`, `Probability4`, `Probability5`, `Probability6`, `Probability7`, `BroadcastTextID0`, `BroadcastTextID1`, `BroadcastTextID2`, `BroadcastTextID3`, `BroadcastTextID4`, `BroadcastTextID5`, `BroadcastTextID6`, `BroadcastTextID7`, `VerifiedBuild`) VALUES (9500129, 1, 0, 0, 0, 0, 0, 0, 0, 9900129, 0, 0, 0, 0, 0, 0, 0, 0);
 INSERT IGNORE INTO `world`.`gossip_menu` (`MenuID`, `TextID`, `VerifiedBuild`) VALUES (40159, 9500129, 0);

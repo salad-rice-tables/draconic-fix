@@ -1,7 +1,7 @@
--- Into the Abyss EN-only: nec-anglicke locale riadky questov 89388/92061/86543 (deDE/frFR, ciastocne rozbite kodovanie)
--- prepisat default-anglickymi retail textami (Wowhead/Wiki overene). Klient v inom jazyku tak vzdy vidi anglictinu.
--- Povodne texty: world.custom_text_backup (src 'qtl'/'qol'/'qor'/'qri'). Undo: 20261010_abyss_english_undo.sql.
--- NEPOUZIVAT pocas testu hraca; nasadit pred restartom.
+-- Into the Abyss EN-only: non-English locale rows for quests 89388/92061/86543 (deDE/frFR, partly broken encoding)
+-- overwrite with default-English retail texts (Wowhead/Wiki verified). Clients in other languages always see English.
+-- Original texts: world.custom_text_backup (src 'qtl'/'qol'/'qor'/'qri'). Undo: 20261010_abyss_english_undo.sql.
+-- Do NOT apply while players are testing; deploy before restart.
 CREATE TABLE IF NOT EXISTS `world`.`custom_text_backup` (`src` varchar(8) NOT NULL, `k` varchar(64) NOT NULL, `old` mediumtext, PRIMARY KEY (`src`,`k`));
 INSERT IGNORE INTO `world`.`custom_text_backup` SELECT 'qtl', '86543:deDE:LogTitle', `LogTitle` FROM `world`.`quest_template_locale` WHERE `ID` = 86543 AND `locale` = 'deDE';
 INSERT IGNORE INTO `world`.`custom_text_backup` SELECT 'qtl', '86543:deDE:LogDescription', `LogDescription` FROM `world`.`quest_template_locale` WHERE `ID` = 86543 AND `locale` = 'deDE';

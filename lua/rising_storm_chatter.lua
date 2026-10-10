@@ -1,13 +1,13 @@
 -- =====================================================================
--- Rising Storm (92061): krizove Wiki repliky po report buttone.
--- Turalyonov report (menu 40410/opt 0) -> Lothraxion 235477 odpovie s oneskorenim.
--- Bellamyho report (menu 40411/opt 0) -> Koruth 250590 odpovie s oneskorenim.
--- Len say + KREDIT (KilledMonsterCredit, primarna cesta - SmartAI riadky ostavaju ako zaloha).
--- Texty doslovne z Warcraft Wiki Rising_Storm.
+-- Rising Storm (92061): cross Wiki replies after the report button.
+-- Turalyon report (menu 40410/opt 0) -> Lothraxion 235477 replies with a delay.
+-- Bellamy report (menu 40411/opt 0) -> Koruth 250590 replies with a delay.
+-- Says + CREDIT (KilledMonsterCredit, primary path - SmartAI rows stay as backup).
+-- Texts verbatim from Warcraft Wiki Rising_Storm.
 -- =====================================================================
 if IS_WORLD_STATE then return end
 
--- Stráž proti spamu: krížová replika max raz za 180 s na hráča (WNPC under key).
+-- Anti-spam guard: cross reply max once per 180 s per player (keyed by NPC).
 local SaidAt = {}
 local COOLDOWN = 180
 
@@ -51,9 +51,9 @@ end)
 print("[rising_storm_chatter] loaded")
 
 -- =====================================================================
--- Citizens ambience (Wiki: Silvermoon Citizens pri Shining Span obcas krical,
--- kym je 92061 rozpracovany). Ziadny civilian spawn vo faze 45749 nie je,
--- preto berieme phase-0 civilistov v dosahu hraca s aktivnym questom.
+-- Citizens ambience (Wiki: Silvermoon Citizens near Shining Span occasionally shout
+-- while 92061 is in progress). No civilian spawn exists in phase 45749,
+-- so we use phase-0 civilians in range of a player with an active quest.
 -- =====================================================================
 local YELLS = {
     "The Sunwell saved us! But for how long?",

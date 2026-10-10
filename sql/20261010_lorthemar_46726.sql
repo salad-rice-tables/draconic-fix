@@ -1,5 +1,5 @@
--- Rising Storm 92061 turn-in fix: Lor'themar 235787 chyba vo faze 46726 (hracom overene: na bode stoji Orweyna 253640).
--- Faza 46726 = Silvermoon City (phase_area 15969), bez mena v phase_name. Retail spawn 3000207578 je len vo faze 45584.
--- Aditivny custom spawn (kopie 3000207578, len guid + PhaseId ine). Retail riadky nemenene.
--- NEPOUZIVAT pocas testu hraca; nasadit pred restartom.
+-- Rising Storm 92061 turn-in fix: Lor'themar 235787 missing in phase 46726 (player-verified: Orweyna 253640 stands at the point).
+-- Phase 46726 = Silvermoon City (phase_area 15969), no name in phase_name. Retail spawn 3000207578 is only in phase 45584.
+-- Additive custom spawn (copy of 3000207578, only guid + PhaseId differ). Retail rows untouched.
+-- Do NOT apply while players are testing; deploy before restart.
 INSERT IGNORE INTO `world`.`creature` (`guid`, `id`, `map`, `zoneId`, `areaId`, `spawnDifficulties`, `phaseUseFlags`, `PhaseId`, `PhaseGroup`, `terrainSwapMap`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `wander_distance`, `currentwaypoint`, `curHealthPct`, `MovementType`, `npcflag`, `unit_flags`, `unit_flags2`, `unit_flags3`, `ScriptName`, `StringId`, `VerifiedBuild`, `size`) VALUES (3001001104, 235787, 0, 15969, 0, '0', 0, 46726, 0, -1, 0, 1, 8456.51, -4621.58, 48.258, 4.59103, 300, 0, 0, NULL, 0, NULL, 32768, NULL, NULL, '', NULL, 0, -1);

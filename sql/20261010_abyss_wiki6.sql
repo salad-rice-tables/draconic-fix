@@ -1,7 +1,7 @@
--- Rising Storm 92061: zvysne Wiki say (ambient + approach). Krizove odpovedi (Lothraxion/Koruth) riesi lua/rising_storm_chatter.lua.
--- Turalyon 250580: "Xal'atath's Voidstorm rages against the Sunwell." (Wiki, pri platforme) -> group 1, hello-say (len say, ziaden kredit).
--- Bellamy 9100622: "All Vanguard forces to the Sunwell! Now!" (Wiki) -> group 1, hello-say (len say, ziaden kredit).
--- NEPOUZIVAT pocas testu hraca; nasadit pred restartom.
+-- Rising Storm 92061: remaining Wiki says (ambient + approach). Cross replies (Lothraxion/Koruth) in lua/rising_storm_chatter.lua.
+-- Turalyon 250580: "Xal'atath's Voidstorm rages against the Sunwell." (Wiki, at the platform) -> group 1, hello-say (say only, no credit).
+-- Bellamy 9100622: "All Vanguard forces to the Sunwell! Now!" (Wiki) -> group 1, hello-say (say only, no credit).
+-- Do NOT apply while players are testing; deploy before restart.
 DELETE FROM `world`.`creature_text` WHERE `CreatureID` = 250580 AND `GroupID` = 1;
 INSERT INTO `world`.`creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Language`, `Probability`, `Emote`, `Duration`, `Sound`, `SoundPlayType`, `BroadcastTextId`, `TextRange`, `comment`) VALUES (250580, 1, 0, 'Xal''atath''s Voidstorm rages against the Sunwell.', 0, 0, 100.0, 0, 0, 0, 0, 0, 0, 'Rising Storm 92061 ambient (wiki)');
 DELETE FROM `world`.`creature_text` WHERE `CreatureID` = 9100622 AND `GroupID` = 1;
