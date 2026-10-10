@@ -9,6 +9,10 @@ Objective `Listen to the discussion` is a kill credit (235787) that retail gives
 2. While the quest is incomplete, Lor'themar's gossip hello shows only the Diplomacy window (npc_text 9500132, menu 38452: **Listen to the discussion** / **Skip conversation**), otherwise the normal quest list (hello hook returns `false` so the core opens it).
 3. Listen plays the 8-line discussion (Lor'themar, Halduron, Umbric, Rommath, Umbric, Turalyon, Lor'themar, Turalyon), each line spoken by its NPC and with its voice; the credit is given when the scene ends. Skip gives the credit at once.
 
+## Umbric
+
+In retail Umbric is a purple Void projection and teleports away after his last line. The projection look is the sniffed aura `166452` (`sql/20261011_umbric_projection.sql` gives it to the phased spawn; the script also adds it at scene start). After his second line the script casts `1246091` (Cosmetic - Void Teleport Away) and despawns him (he respawns with the normal timer).
+
 ## Exact retail text and voice
 
 The lines are BroadcastText **285180–285189** (wago `BroadcastText` CSV, build 12.1.0.69587); their `SoundKitID_0` are **299863–299870**, which are exactly the numbers on Wowhead `sound=` pages.
