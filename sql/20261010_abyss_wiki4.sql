@@ -1,9 +1,9 @@
--- Rising Storm 92061 Bellamy fix: 250587 is faction 14 (hostile/red), the retail consult NPC is 9100622 (faction 35, friendly).
--- 9100622 already grants credit 250587 on gossip open (retail Oathstone rows) - my red spawn 3001001105 was the wrong
--- approach and a duplicate. This file: red spawn removed, my smart rows on 250587 removed, link 250587 back to retail 40367,
--- friendly 9100622 (dead link to nonexistent menu 912046881 until now) relinked to Wiki menu 40411 + report credit + say.
--- Turalyon 250580 (faction 35, no twin) stays as is.
--- Do NOT apply while players are testing; deploy before restart.
+-- Rising Storm 92061 Bellamy oprava: 250587 je faction 14 (cerveny), retail konzultacne NPC je 9100622 (faction 35, friendly).
+-- 9100622 uz sam dava kredit 250587 pri otvoreni gossipu (retail Oathstone riadky) - moj cerveny spawn 3001001105 bol zly
+-- pristup a duplicita. Tento subor: cerveny spawn prec, moje smart riadky na 250587 prec, link 250587 spat na retail 40367,
+-- friendly 9100622 (doteraz mrtvy link na neexistujuce menu 912046881) prelinkovat na Wiki menu 40411 + report kredit + say.
+-- Turalyon 250580 (faction 35, bez dvojnika) ostava ako je.
+-- NEPOUZIVAT pocas testu hraca; nasadit pred restartom.
 DELETE FROM `world`.`creature` WHERE `guid` = 3001001105;
 DELETE FROM `world`.`smart_scripts` WHERE `entryorguid` = 250587 AND `source_type` = 0 AND `id` IN (0, 1) AND `comment` LIKE '%(wiki)';
 UPDATE `world`.`creature_template_gossip` SET `MenuID` = 40367 WHERE `CreatureID` = 250587 AND `MenuID` = 40411;

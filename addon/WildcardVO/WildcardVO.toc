@@ -1,0 +1,6 @@
+## Interface: 120100
+## Title: Wildcard Voice
+## Notes: Plays server-requested voice lines (Diplomacy and other scripted quest scenes).
+## Author: Draconic-WoW
+## Version: 1.0
+WildcardVO.lua

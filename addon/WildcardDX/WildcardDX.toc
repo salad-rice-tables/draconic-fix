@@ -1,0 +1,6 @@
+## Interface: 120100
+## Title: Wildcard Dev Tools
+## Notes: All-in-one GM developer window: diagnostics, cinematics, movies, scenes, sounds, quests, NPCs, reloads. /dx opens it. GM rank 1 or more.
+## Author: Draconic-WoW
+## Version: 1.0
+WildcardDX.lua

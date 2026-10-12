@@ -1,0 +1,32 @@
+-- UNDO: upstream_2026_10_03_rundok.sql (TrinityCore 7cfca5f, DB/Orgrimmar Update Rundok).
+-- Obnovi stav pred aplikaciou (snapshot 2026-10-11).
+UPDATE `world`.`creature` SET `zoneId`=1637, `areaId`=5166, `position_x`=1769.13, `position_y`=-4328.99, `position_z`=-8.19606, `orientation`=0.0698132, `VerifiedBuild`=0 WHERE `guid`=310938;
+UPDATE `world`.`creature_template` SET `npcflag`=19, `VerifiedBuild`=66384 WHERE `entry`=47253;
+UPDATE `world`.`creature_template_gossip` SET `VerifiedBuild`=48676 WHERE `CreatureID`=47253 AND `MenuID`=12235;
+UPDATE `world`.`gossip_menu` SET `VerifiedBuild`=0 WHERE `MenuID`=12235 AND `TextID`=17180;
+UPDATE `world`.`gossip_menu` SET `VerifiedBuild`=44325 WHERE `MenuID`=12235 AND `TextID`=17181;
+UPDATE `world`.`gossip_menu_option` SET `GossipOptionID`=-3132160, `VerifiedBuild`=44325 WHERE `MenuID`=12235 AND `OptionID`=0;
+DELETE FROM `world`.`conditions` WHERE `SourceTypeOrReferenceId` IN (14, 15) AND `SourceGroup`=12235;
+UPDATE `world`.`trainer` SET `VerifiedBuild`=44325 WHERE `Id`=12;
+UPDATE `world`.`trainer_spell` SET `MoneyCost`=168000, `ReqLevel`=52, `VerifiedBuild`=40906 WHERE `TrainerId`=12 AND `SpellId`=344587;
+UPDATE `world`.`trainer_spell` SET `MoneyCost`=168000, `ReqLevel`=58, `VerifiedBuild`=40906 WHERE `TrainerId`=12 AND `SpellId`=344597;
+UPDATE `world`.`trainer_spell` SET `MoneyCost`=168000, `ReqLevel`=24, `VerifiedBuild`=40906 WHERE `TrainerId`=12 AND `SpellId`=53142;
+UPDATE `world`.`trainer_spell` SET `MoneyCost`=750000, `ReqLevel`=21, `VerifiedBuild`=40906 WHERE `TrainerId`=12 AND `SpellId`=281404;
+UPDATE `world`.`trainer_spell` SET `MoneyCost`=750000, `ReqLevel`=24, `VerifiedBuild`=40906 WHERE `TrainerId`=12 AND `SpellId`=281402;
+UPDATE `world`.`trainer_spell` SET `MoneyCost`=500000, `ReqLevel`=21, `VerifiedBuild`=40906 WHERE `TrainerId`=12 AND `SpellId`=224869;
+UPDATE `world`.`trainer_spell` SET `MoneyCost`=500000, `ReqLevel`=24, `VerifiedBuild`=40906 WHERE `TrainerId`=12 AND `SpellId`=224871;
+UPDATE `world`.`trainer_spell` SET `MoneyCost`=635000, `ReqLevel`=21, `VerifiedBuild`=40906 WHERE `TrainerId`=12 AND `SpellId`=176244;
+UPDATE `world`.`trainer_spell` SET `MoneyCost`=635000, `ReqLevel`=24, `VerifiedBuild`=40906 WHERE `TrainerId`=12 AND `SpellId`=176242;
+UPDATE `world`.`trainer_spell` SET `MoneyCost`=423000, `ReqLevel`=21, `VerifiedBuild`=40906 WHERE `TrainerId`=12 AND `SpellId`=132627;
+UPDATE `world`.`trainer_spell` SET `MoneyCost`=423000, `ReqLevel`=24, `VerifiedBuild`=40906 WHERE `TrainerId`=12 AND `SpellId`=132626;
+UPDATE `world`.`trainer_spell` SET `MoneyCost`=282000, `ReqLevel`=21, `VerifiedBuild`=40906 WHERE `TrainerId`=12 AND `SpellId`=88346;
+UPDATE `world`.`trainer_spell` SET `MoneyCost`=282000, `ReqLevel`=24, `VerifiedBuild`=40906 WHERE `TrainerId`=12 AND `SpellId`=88344;
+UPDATE `world`.`trainer_spell` SET `MoneyCost`=150000, `ReqLevel`=21, `VerifiedBuild`=40906 WHERE `TrainerId`=12 AND `SpellId`=53140;
+UPDATE `world`.`trainer_spell` SET `MoneyCost`=22500, `ReqLevel`=0, `VerifiedBuild`=40906 WHERE `TrainerId`=12 AND `SpellId`=49358;
+UPDATE `world`.`trainer_spell` SET `MoneyCost`=5100, `ReqLevel`=0, `VerifiedBuild`=40906 WHERE `TrainerId`=12 AND `SpellId` IN (3566,32272,3563);
+UPDATE `world`.`trainer_spell` SET `MoneyCost`=81000, `ReqLevel`=21, `VerifiedBuild`=40906 WHERE `TrainerId`=12 AND `SpellId`=35715;
+UPDATE `world`.`trainer_spell` SET `MoneyCost`=5100, `ReqLevel`=0, `VerifiedBuild`=40906 WHERE `TrainerId`=12 AND `SpellId`=3567;
+UPDATE `world`.`trainer_spell` SET `MoneyCost`=16500, `ReqLevel`=0, `VerifiedBuild`=40906 WHERE `TrainerId`=12 AND `SpellId` IN (11420,11418,32267);
+UPDATE `world`.`trainer_spell` SET `MoneyCost`=22500, `ReqLevel`=0, `VerifiedBuild`=40906 WHERE `TrainerId`=12 AND `SpellId`=49361;
+UPDATE `world`.`trainer_spell` SET `MoneyCost`=105000, `ReqLevel`=24, `VerifiedBuild`=40906 WHERE `TrainerId`=12 AND `SpellId`=35717;
+UPDATE `world`.`trainer_spell` SET `MoneyCost`=16500, `ReqLevel`=0, `VerifiedBuild`=40906 WHERE `TrainerId`=12 AND `SpellId`=11417;

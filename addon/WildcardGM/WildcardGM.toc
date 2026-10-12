@@ -1,0 +1,6 @@
+## Interface: 120100
+## Title: Wildcard GM Tool
+## Notes: Place, move, turn and delete NPCs and objects with a 3D preview. /gmt opens it. GM rank 2 required.
+## Author: Draconic-WoW
+## Version: 1.0
+WildcardGM.lua

@@ -1,0 +1,2 @@
+-- DisplayId opravy podla wowhead npc_data_12_1 (100 NPC).
+-- UPDATE existujuceho modelu (Idx 0); kde model chyba, INSERT.

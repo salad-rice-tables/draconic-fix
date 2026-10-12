@@ -1,15 +1,8 @@
 -- =====================================================================
--- Quest 86734 Diplomacy (Lor'themar Theron, Silvermoon): retail flow.
---   1. Accept the quest -> the quest list window closes.
---   2. Talk to Lor'themar again -> a window with ONLY the Diplomacy text and two buttons
---      (menu 38452: 0 = Listen to the discussion, 1 = Skip conversation). Retail does this with a second,
---      phased Lor'themar; here the quest state (incomplete) selects the window.
---   3. Listen -> 8 lines, each said by its NPC with the retail voice (BroadcastText 285180-285189, SoundKit
---      299863-299870 = the numbers on Wowhead /sound=), kill credit 235787 after Umbric has finished and dissolved (49.5 s).
---      Skip -> credit at once.
--- Speakers: 235787 Lor'themar, 251587 Halduron, 239944 Umbric, 236583 Rommath, 236778 Turalyon (all at the court).
--- Umbric: his own phase (sql/20261011_diplo_umbric_phase.sql) exists only while the quest is incomplete; the credit at 49.5 s (after he has finished his last line and dissolved) ends it for that player only.
--- Cooldown 60 s per player so scenes do not overlap.
+-- Quest 86734 Diplomacy: listen/skip kredity + diskusna scena (Wiki Notes).
+-- Menu 38452: opt0 Listen -> scena (8 replik) + kredit; opt1 Skip -> len kredit.
+-- Scena: Lorthemar -> Halduron -> Umbric -> Rommath -> Umbric -> Turalyon -> Lorthemar -> Turalyon.
+-- Ucastnici: 235787, 251587, 239944, 236583, 236778 (vsetci pri dvore). Cooldown 300 s.
 -- =====================================================================
 if IS_WORLD_STATE then return end
 
@@ -89,7 +82,7 @@ end)
 
 print("[diplomacy86734] loaded")
 
--- Retail: accepting the quest closes the gossip window (only 86734, other quests unchanged).
+-- Retail: prevzatie questu zavrie gossip okno (len 86734, ostatne nemenene).
 RegisterCreatureEvent(235787, 31, function(_, player, _, quest)
     local ok, qid = pcall(function() return quest:GetId() end)
     if ok and qid == 86734 then

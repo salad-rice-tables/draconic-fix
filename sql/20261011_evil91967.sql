@@ -1,15 +1,14 @@
--- Quest 91967 You Know This Evil? (Wiki verified: Warcraft Wiki You_Know_This_Evil, Wowhead quest=91967).
--- State: gossip menus 40147/40154/40158/40163/40176 did NOT exist (links pointed nowhere) => no window, no button.
--- Scene (Shining Span ~9100,-4615) lives only in phase 45859, granted by retail condition (quest 91967 in progress),
--- so duplicate spawns are NOT needed.
--- Lor'themar starter/ender OK (duplicate starter row harmless, left alone).
--- A) Template: Progress, Completion (Wiki), RewardBonusMoney 234000 (23g40s, was 0).
+-- Quest 91967 You Know This Evil? (Wiki overene: Warcraft Wiki You_Know_This_Evil, Wowhead quest=91967).
+-- Stav: gossip menu 40147/40154/40158/40163/40176 NEEXISTUJU (linky visia do prazdna) => ziadne okno, ziadny button.
+-- Scena (Shining Span ~9100,-4615) je len vo faze 45859; hrac vo fazi 46726 ju nevidi => 5 aditivnych spawnow.
+-- Sefstvo: Lor'themar starter/ender OK (duplicitny starter riadok nechať, neškodí).
+-- A) Template: Progress, Completion (Wiki), RewardBonusMoney 234000 (23g40s, bol 0).
 -- B) objloc deDE/frFR (12) -> EN JOIN update.
--- C) Menu texts verbatim from Wiki (LanguageID 0!). Umbric menu WITHOUT buttons (Find = opening; credit via original Oathstone row, DO NOT DELETE).
---    Petitioners: 2-3 quest buttons (Lothraxion without warlock-only and flavor options - see warlock file), credit on any petition-menu click (Eluna, menu-gated).
--- D) SmartAI credit BACKUPS (Eluna is primary). Oathstone auto-credits of the 4 petitioners DELETED (bypassed buttons);
---    Umbric's Oathstone row stays. Lor'themar accept-say.
--- Do NOT apply while players are testing; deploy before restart.
+-- C) Menu texty doslovne z Wiki (LanguageID 0!). Umbric menu BEZ buttonov (Find = otvorenie; kredit cez povodny Oathstone riadok, NEMAZAT).
+--    Petitioneri: 2-3 quest buttony (Lothraxion bez warlock-only a flavor moznosti - follow-up), kredit na "researching" buttone (opt1).
+-- D) SmartAI ZALOHA kreditov (Eluna je primarna): (menu,1)->credit. Oathstone auto-kredity 4 petitionerov MAZAT (obchadzali button);
+--    Umbricov Oathstone riadok ostava. Lor'themar accept-say + Umbric/Senn hello-say.
+-- NEPOUZIVAT pocas testu hraca; nasadit pred restartom.
 UPDATE `world`.`quest_template` SET `AreaDescription` = 'Umbric is necessary. So is the Vanguard.\n\nI have a lot of necessary and unsavory elements to deal with these days, but I will do so if it means my people are safe.', `QuestCompletionLog` = 'Thank you for your intercession. While I pride myself on doing what is necessary for Silvermoon and the Sunwell, I have a feeling my own patience would have worn thin and I would have said something that all of us would have regretted.', `RewardBonusMoney` = 234000 WHERE `ID` = 91967;
 UPDATE `world`.`quest_objectives_locale` `l` JOIN `world`.`quest_objectives` `o` ON `o`.`ID` = `l`.`ID` SET `l`.`Description` = `o`.`Description` WHERE `l`.`QuestId` = 91967;
 INSERT IGNORE INTO `hotfixes`.`broadcast_text` (`Text`, `Text1`, `ID`, `LanguageID`, `ConditionID`, `EmotesID`, `Flags`, `ChatBubbleDurationMs`, `VoiceOverPriorityID`, `SoundKitID1`, `SoundKitID2`, `EmoteID1`, `EmoteID2`, `EmoteID3`, `EmoteDelay1`, `EmoteDelay2`, `EmoteDelay3`, `VerifiedBuild`) VALUES ('I was simply attempting to get a closer reading on the Voidstorm--\n\nLook. We do not have time for their distrust of my methods. Can''t you feel it? The Voidstorm is not growing weaker--it is getting stronger.\n\nThe Sunwell cannot maintain its defense much longer. I need to find a way into the Voidstorm, and to do that, I need to evaluate the data I just gathered WITHOUT getting killed by zealots.\n\nCan you help talk them down?', '', 9900124, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);

@@ -1,0 +1,685 @@
+From ab5a4e388a988ef00917ff97fe8019bfb8d6c5b7 Mon Sep 17 00:00:00 2001
+From: draconic-fix <draconic-fix@localhost>
+Date: Mon, 12 Oct 2026 12:27:39 +0200
+Subject: [PATCH] Draconic: player housing commands, solo dungeons, hero spell
+ costs
+
+- .house buy [plot] | info | abandon: buy the plot next to the cornerstone (7 yd) or by index; the first house is free; no unsolicited client replies
+- Failure reasons of HandleNeighborhoodBuyHouse are logged
+- Solo dungeons (draconic_solo_dungeon): lone hero in a 5-man dungeon fights creatures with reduced health and carries boon auras; Earthen Wall Totem script; leave the LFG group of one outside the dungeon; drop orphaned permanent debuffs
+- Hero spell costs: world.hero_spell_cost makes pool spells cost Essence (SpellInfo::CalcPowerCost), loaded in SpellMgr::LoadHeroSpellCosts
+
+Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+---
+ .../game/Handlers/NeighborhoodHandler.cpp     |  50 ++--
+ src/server/game/Server/WorldSession.h         |   3 +
+ src/server/game/Spells/SpellInfo.cpp          |  12 +
+ src/server/game/Spells/SpellMgr.cpp           |  24 ++
+ src/server/game/Spells/SpellMgr.h             |   5 +
+ src/server/game/World/World.cpp               |   1 +
+ src/server/scripts/Commands/cs_housing.cpp    |  92 +++++++
+ .../scripts/Custom/custom_script_loader.cpp   |   2 +
+ .../scripts/Custom/draconic_solo_dungeon.cpp  | 231 ++++++++++++++++++
+ 9 files changed, 406 insertions(+), 14 deletions(-)
+ create mode 100644 src/server/scripts/Custom/draconic_solo_dungeon.cpp
+
+diff --git a/src/server/game/Handlers/NeighborhoodHandler.cpp b/src/server/game/Handlers/NeighborhoodHandler.cpp
+index a46108d82e..d4b5aa2d99 100644
+--- a/src/server/game/Handlers/NeighborhoodHandler.cpp
++++ b/src/server/game/Handlers/NeighborhoodHandler.cpp
+@@ -983,6 +983,15 @@ void WorldSession::HandleNeighborhoodGetInvites(WorldPackets::Neighborhood::Neig
+ 
+ }
+ 
++void WorldSession::BuyHouseOnPlot(uint8 plotIndex)
++{
++    _lastClientPlotIndex = plotIndex;
++    _commandBuy = true;   // the client sent no request: skip the reply packets it would not expect
++    WorldPackets::Neighborhood::NeighborhoodBuyHouse buy{ WorldPacket{ CMSG_NEIGHBORHOOD_BUY_HOUSE } };
++    HandleNeighborhoodBuyHouse(buy);
++    _commandBuy = false;
++}
++
+ void WorldSession::HandleNeighborhoodBuyHouse(WorldPackets::Neighborhood::NeighborhoodBuyHouse const& neighborhoodBuyHouse)
+ {
+     Player* player = GetPlayer();
+@@ -993,7 +1002,8 @@ void WorldSession::HandleNeighborhoodBuyHouse(WorldPackets::Neighborhood::Neighb
+     {
+         WorldPackets::Neighborhood::NeighborhoodBuyHouseResponse response;
+         response.Result = static_cast<uint8>(HOUSING_RESULT_SERVICE_NOT_AVAILABLE);
+-        SendPacket(response.Write());
++        TC_LOG_ERROR("housing", "HandleNeighborhoodBuyHouse: player {} plot {} refused with {}", player->GetGUID().ToString(), uint32(_lastClientPlotIndex), "HOUSING_RESULT_SERVICE_NOT_AVAILABLE");
++        if (!_commandBuy) SendPacket(response.Write());
+         return;
+     }
+ 
+@@ -1003,7 +1013,8 @@ void WorldSession::HandleNeighborhoodBuyHouse(WorldPackets::Neighborhood::Neighb
+     {
+         WorldPackets::Neighborhood::NeighborhoodBuyHouseResponse response;
+         response.Result = static_cast<uint8>(HOUSING_RESULT_NEIGHBORHOOD_NOT_FOUND);
+-        SendPacket(response.Write());
++        TC_LOG_ERROR("housing", "HandleNeighborhoodBuyHouse: player {} plot {} refused with {}", player->GetGUID().ToString(), uint32(_lastClientPlotIndex), "HOUSING_RESULT_NEIGHBORHOOD_NOT_FOUND");
++        if (!_commandBuy) SendPacket(response.Write());
+ 
+         return;
+     }
+@@ -1024,7 +1035,8 @@ void WorldSession::HandleNeighborhoodBuyHouse(WorldPackets::Neighborhood::Neighb
+             {
+                 WorldPackets::Neighborhood::NeighborhoodBuyHouseResponse response;
+                 response.Result = static_cast<uint8>(HOUSING_RESULT_INCORRECT_FACTION);
+-                SendPacket(response.Write());
++                TC_LOG_ERROR("housing", "HandleNeighborhoodBuyHouse: player {} plot {} refused with {}", player->GetGUID().ToString(), uint32(_lastClientPlotIndex), "HOUSING_RESULT_INCORRECT_FACTION");
++                if (!_commandBuy) SendPacket(response.Write());
+ 
+                 return;
+             }
+@@ -1038,7 +1050,8 @@ void WorldSession::HandleNeighborhoodBuyHouse(WorldPackets::Neighborhood::Neighb
+         {
+             WorldPackets::Neighborhood::NeighborhoodBuyHouseResponse response;
+             response.Result = static_cast<uint8>(HOUSING_RESULT_MISSING_PRIVATE_NEIGHBORHOOD_INVITE);
+-            SendPacket(response.Write());
++            TC_LOG_ERROR("housing", "HandleNeighborhoodBuyHouse: player {} plot {} refused with {}", player->GetGUID().ToString(), uint32(_lastClientPlotIndex), "HOUSING_RESULT_MISSING_PRIVATE_NEIGHBORHOOD_INVITE");
++            if (!_commandBuy) SendPacket(response.Write());
+ 
+             return;
+         }
+@@ -1048,7 +1061,8 @@ void WorldSession::HandleNeighborhoodBuyHouse(WorldPackets::Neighborhood::Neighb
+         {
+             WorldPackets::Neighborhood::NeighborhoodBuyHouseResponse response;
+             response.Result = static_cast<uint8>(joinResult);
+-            SendPacket(response.Write());
++            TC_LOG_ERROR("housing", "HandleNeighborhoodBuyHouse: player {} plot {} refused with {}", player->GetGUID().ToString(), uint32(_lastClientPlotIndex), "joinResult");
++            if (!_commandBuy) SendPacket(response.Write());
+ 
+             return;
+         }
+@@ -1059,7 +1073,8 @@ void WorldSession::HandleNeighborhoodBuyHouse(WorldPackets::Neighborhood::Neighb
+     {
+         WorldPackets::Neighborhood::NeighborhoodBuyHouseResponse response;
+         response.Result = static_cast<uint8>(HOUSING_RESULT_INVALID_HOUSE);
+-        SendPacket(response.Write());
++        TC_LOG_ERROR("housing", "HandleNeighborhoodBuyHouse: player {} plot {} refused with {}", player->GetGUID().ToString(), uint32(_lastClientPlotIndex), "HOUSING_RESULT_INVALID_HOUSE");
++        if (!_commandBuy) SendPacket(response.Write());
+ 
+         return;
+     }
+@@ -1072,7 +1087,8 @@ void WorldSession::HandleNeighborhoodBuyHouse(WorldPackets::Neighborhood::Neighb
+         {
+             WorldPackets::Neighborhood::NeighborhoodBuyHouseResponse response;
+             response.Result = static_cast<uint8>(HOUSING_RESULT_INVALID_HOUSE);
+-            SendPacket(response.Write());
++            TC_LOG_ERROR("housing", "HandleNeighborhoodBuyHouse: player {} plot {} refused with {}", player->GetGUID().ToString(), uint32(_lastClientPlotIndex), "HOUSING_RESULT_INVALID_HOUSE");
++            if (!_commandBuy) SendPacket(response.Write());
+ 
+             return;
+         }
+@@ -1085,7 +1101,8 @@ void WorldSession::HandleNeighborhoodBuyHouse(WorldPackets::Neighborhood::Neighb
+         {
+             WorldPackets::Neighborhood::NeighborhoodBuyHouseResponse response;
+             response.Result = static_cast<uint8>(HOUSING_RESULT_MORE_HOUSE_SLOTS_NEEDED);
+-            SendPacket(response.Write());
++            TC_LOG_ERROR("housing", "HandleNeighborhoodBuyHouse: player {} plot {} refused with {}", player->GetGUID().ToString(), uint32(_lastClientPlotIndex), "HOUSING_RESULT_MORE_HOUSE_SLOTS_NEEDED");
++            if (!_commandBuy) SendPacket(response.Write());
+ 
+             return;
+         }
+@@ -1105,16 +1122,19 @@ void WorldSession::HandleNeighborhoodBuyHouse(WorldPackets::Neighborhood::Neighb
+     {
+         WorldPackets::Neighborhood::NeighborhoodBuyHouseResponse response;
+         response.Result = static_cast<uint8>(HOUSING_RESULT_PLOT_NOT_FOUND);
+-        SendPacket(response.Write());
++        TC_LOG_ERROR("housing", "HandleNeighborhoodBuyHouse: player {} plot {} refused with {}", player->GetGUID().ToString(), uint32(_lastClientPlotIndex), "HOUSING_RESULT_PLOT_NOT_FOUND");
++        if (!_commandBuy) SendPacket(response.Write());
+         return;
+     }
+-    uint64 const purchaseCost = boughtPlot->Cost;
++    // Retail: the first house of an account is free.
++    uint64 const purchaseCost = player->GetAllHousings().empty() ? 0 : boughtPlot->Cost;
+ 
+     if (!player->HasEnoughMoney(purchaseCost))
+     {
+         WorldPackets::Neighborhood::NeighborhoodBuyHouseResponse response;
+         response.Result = static_cast<uint8>(HOUSING_RESULT_CANNOT_AFFORD);
+-        SendPacket(response.Write());
++        TC_LOG_ERROR("housing", "HandleNeighborhoodBuyHouse: player {} plot {} refused with {}", player->GetGUID().ToString(), uint32(_lastClientPlotIndex), "HOUSING_RESULT_CANNOT_AFFORD");
++        if (!_commandBuy) SendPacket(response.Write());
+ 
+         return;
+     }
+@@ -1165,6 +1185,7 @@ void WorldSession::HandleNeighborhoodBuyHouse(WorldPackets::Neighborhood::Neighb
+         // 2. Build buy response with HouseInfo
+         WorldPackets::Neighborhood::NeighborhoodBuyHouseResponse response;
+         response.Result = static_cast<uint8>(HOUSING_RESULT_SUCCESS);
++        TC_LOG_ERROR("housing", "HandleNeighborhoodBuyHouse: player {} plot {} refused with {}", player->GetGUID().ToString(), uint32(_lastClientPlotIndex), "HOUSING_RESULT_SUCCESS");
+         if (Housing const* h = player->GetHousing())
+         {
+             response.House.HouseGUID = h->GetHouseGuid();
+@@ -1174,7 +1195,7 @@ void WorldSession::HandleNeighborhoodBuyHouse(WorldPackets::Neighborhood::Neighb
+             response.House.HouseSettingFlags = h->GetSettingsFlags();
+         }
+         WorldPacket const* buyRespPkt = response.Write();
+-        SendPacket(buyRespPkt);
++        if (!_commandBuy) SendPacket(buyRespPkt);
+ 
+         // 3. Starter favor via LEVEL_FAVOR (level -1, favor = total).
+         if (Housing* h = player->GetHousing())
+@@ -1260,7 +1281,7 @@ void WorldSession::HandleNeighborhoodBuyHouse(WorldPackets::Neighborhood::Neighb
+         {
+             WorldPackets::Housing::HousingFixtureCreateBasicHouseResponse houseResponse;
+             houseResponse.Result = static_cast<uint8>(HOUSING_RESULT_SUCCESS);
+-            SendPacket(houseResponse.Write());
++            if (!_commandBuy) SendPacket(houseResponse.Write());   // an answer to a request the client never made crashes it
+         }
+ 
+         // Refresh NeighborhoodMirrorData (Houses[] changed) on all online members
+@@ -1319,7 +1340,8 @@ void WorldSession::HandleNeighborhoodBuyHouse(WorldPackets::Neighborhood::Neighb
+     {
+         WorldPackets::Neighborhood::NeighborhoodBuyHouseResponse response;
+         response.Result = static_cast<uint8>(result);
+-        SendPacket(response.Write());
++        TC_LOG_ERROR("housing", "HandleNeighborhoodBuyHouse: player {} plot {} refused with {}", player->GetGUID().ToString(), uint32(_lastClientPlotIndex), "result");
++        if (!_commandBuy) SendPacket(response.Write());
+ 
+     }
+ }
+diff --git a/src/server/game/Server/WorldSession.h b/src/server/game/Server/WorldSession.h
+index d8671b550e..6a91271b98 100644
+--- a/src/server/game/Server/WorldSession.h
++++ b/src/server/game/Server/WorldSession.h
+@@ -1191,6 +1191,8 @@ class TC_GAME_API WorldSession
+         bool HasHousingPlayerHouseEntity() const { return _housingPlayerHouseEntity != nullptr; }
+         /// Retail only sends the player's own Housing/3 entity in neighborhoods where the account has a house.
+         bool CanSeeHousingPlayerHouseEntity() const;
++        // Server-side purchase of a plot (command .housing buy); runs the same path as CMSG_NEIGHBORHOOD_BUY_HOUSE.
++        void BuyHouseOnPlot(uint8 plotIndex);
+         bool HasHousingNeighborhoodMirrorEntity() const { return _housingNeighborhoodMirrorEntity != nullptr; }
+         HousingPlayerHouseEntity& GetHousingPlayerHouseEntity() const { return *_housingPlayerHouseEntity; }
+         HousingNeighborhoodMirrorEntity& GetHousingNeighborhoodMirrorEntity() const { return *_housingNeighborhoodMirrorEntity; }
+@@ -2453,6 +2455,7 @@ class TC_GAME_API WorldSession
+ 
+         // Client's last-used PlotIndex from OpenCornerstoneUI, cached for the subsequent BuyHouse CMSG.
+         uint32 _lastClientPlotIndex = 0;
++        bool _commandBuy = false;
+         ObjectGuid _lastCornerstoneGuid;
+ 
+         // Sliding window: HOUSING_DECOR_THROTTLE_BURST edits per HOUSING_DECOR_THROTTLE_WINDOW_MS.
+diff --git a/src/server/game/Spells/SpellInfo.cpp b/src/server/game/Spells/SpellInfo.cpp
+index 3b1985a865..3088961ac4 100644
+--- a/src/server/game/Spells/SpellInfo.cpp
++++ b/src/server/game/Spells/SpellInfo.cpp
+@@ -4296,6 +4296,18 @@ std::vector<SpellPowerCost> SpellInfo::CalcPowerCost(WorldObject const* caster,
+         }
+     }
+ 
++    // Hero system: a pool spell costs Essence only, whatever resource the retail spell used
++    if (Player const* heroCaster = caster->ToPlayer())
++    {
++        int32 heroCost = sSpellMgr->GetHeroSpellCost(Id);
++        if (heroCost > 0)
++        {
++            costs.clear();
++            costs.push_back({ .Power = POWER_ALTERNATE_POWER, .Amount = heroCost });
++        }
++        (void)heroCaster;
++    }
++
+     return costs;
+ }
+ 
+diff --git a/src/server/game/Spells/SpellMgr.cpp b/src/server/game/Spells/SpellMgr.cpp
+index 5d39433d62..6e542b4858 100644
+--- a/src/server/game/Spells/SpellMgr.cpp
++++ b/src/server/game/Spells/SpellMgr.cpp
+@@ -5747,3 +5747,27 @@ uint32 SpellMgr::GetModelForTotem(uint32 spellId, uint8 race) const
+ 
+     return 0;
+ }
++
++void SpellMgr::LoadHeroSpellCosts()
++{
++    uint32 oldMSTime = getMSTime();
++    _heroSpellCosts.clear();
++
++    QueryResult result = WorldDatabase.Query("SELECT spell_id, cost FROM hero_spell_cost");
++    if (result)
++    {
++        do
++        {
++            Field* fields = result->Fetch();
++            _heroSpellCosts[fields[0].GetUInt32()] = fields[1].GetInt32();
++        } while (result->NextRow());
++    }
++
++    TC_LOG_INFO("server.loading", ">> Loaded {} hero spell costs in {} ms", _heroSpellCosts.size(), GetMSTimeDiffToNow(oldMSTime));
++}
++
++int32 SpellMgr::GetHeroSpellCost(uint32 spellId) const
++{
++    auto itr = _heroSpellCosts.find(spellId);
++    return itr != _heroSpellCosts.end() ? itr->second : -1;
++}
+diff --git a/src/server/game/Spells/SpellMgr.h b/src/server/game/Spells/SpellMgr.h
+index 82cc50bdb7..e56a0e4eda 100644
+--- a/src/server/game/Spells/SpellMgr.h
++++ b/src/server/game/Spells/SpellMgr.h
+@@ -775,6 +775,10 @@ class TC_GAME_API SpellMgr
+         void LoadSpellInfoServerside();
+         void LoadSpellInfoCustomAttributes();
+         void LoadSpellInfoCorrections();
++
++        // Hero system: players pay every pool spell with Essence (POWER_ALTERNATE_POWER); world.hero_spell_cost: spell_id -> Essence cost
++        void LoadHeroSpellCosts();
++        int32 GetHeroSpellCost(uint32 spellId) const;
+         void LoadSpellInfoSpellSpecificAndAuraState();
+         void LoadSpellInfoDiminishing();
+         void LoadSpellInfoImmunities();
+@@ -807,6 +811,7 @@ class TC_GAME_API SpellMgr
+         PetLevelupSpellMap         mPetLevelupSpellMap;
+         PetDefaultSpellsMap        mPetDefaultSpellsMap;           // only spells not listed in related mPetLevelupSpellMap entry
+         SpellTotemModelMap         mSpellTotemModel;
++        std::unordered_map<uint32, int32> _heroSpellCosts;
+ };
+ 
+ #define sSpellMgr SpellMgr::instance()
+diff --git a/src/server/game/World/World.cpp b/src/server/game/World/World.cpp
+index a93a42fd8e..cc28e17224 100644
+--- a/src/server/game/World/World.cpp
++++ b/src/server/game/World/World.cpp
+@@ -1430,6 +1430,7 @@ bool World::SetInitialWorldSettings()
+ 
+     TC_LOG_INFO("server.loading", "Loading SpellInfo corrections...");
+     sSpellMgr->LoadSpellInfoCorrections();
++    sSpellMgr->LoadHeroSpellCosts();
+ 
+     TC_LOG_INFO("server.loading", "Loading SkillLineAbilityMultiMap Data...");
+     sSpellMgr->LoadSkillLineAbilityMap();
+diff --git a/src/server/scripts/Commands/cs_housing.cpp b/src/server/scripts/Commands/cs_housing.cpp
+index 4dd6e14e30..4346dc9dc7 100644
+--- a/src/server/scripts/Commands/cs_housing.cpp
++++ b/src/server/scripts/Commands/cs_housing.cpp
+@@ -20,6 +20,7 @@
+ #include "Chat.h"
+ #include "ChatCommand.h"
+ #include "CharacterDatabase.h"
++#include "GameObject.h"
+ #include "Housing.h"
+ #include "HousingDefines.h"
+ #include "HousingMgr.h"
+@@ -30,6 +31,7 @@
+ #include "Player.h"
+ #include "RBAC.h"
+ #include "StringConvert.h"
++#include "StringFormat.h"
+ #include "WorldSession.h"
+ 
+ using namespace Trinity::ChatCommands;
+@@ -57,14 +59,24 @@ public:
+         static ChatCommandTable housingCommandTable =
+         {
+             { "set level", HandleSetCommand,     rbac::RBAC_PERM_COMMAND_HOUSING,        Console::No },
++            { "buy",       HandleBuyCommand,     rbac::RBAC_PERM_COMMAND_HOUSING,        Console::No },
+             { "rewards",   HandleRewardsCommand, rbac::RBAC_PERM_COMMAND_HOUSING,        Console::No },
+             { "delete",    HandleDeleteCommand,  rbac::RBAC_PERM_COMMAND_HOUSING_DELETE, Console::No },
+             { "charter",   charterCommandTable },
+         };
+ 
++        // Player-facing aliases: .house buy <plot> | info | abandon
++        static ChatCommandTable houseCommandTable =
++        {
++            { "buy",     HandleBuyCommand,     rbac::RBAC_PERM_COMMAND_HOUSING, Console::No },
++            { "info",    HandleInfoCommand,    rbac::RBAC_PERM_COMMAND_HOUSING, Console::No },
++            { "abandon", HandleAbandonCommand, rbac::RBAC_PERM_COMMAND_HOUSING, Console::No },
++        };
++
+         static ChatCommandTable commandTable =
+         {
+             { "housing", housingCommandTable },
++            { "house",   houseCommandTable },
+         };
+ 
+         return commandTable;
+@@ -97,6 +109,86 @@ private:
+         return true;
+     }
+ 
++    // .house buy [plot]: buy the plot of the cornerstone you stand next to (within 7 yards), or the given plot index (the first house is free)
++    static bool HandleBuyCommand(ChatHandler* handler, Optional<uint8> plotIndex)
++    {
++        constexpr float CornerstoneRange = 7.0f;
++        constexpr uint32 CornerstoneEntry = 457142;
++
++        Player* player = handler->GetSession()->GetPlayer();
++        uint8 plot = 0;
++        if (plotIndex)
++            plot = *plotIndex;
++        else
++        {
++            std::list<GameObject*> cornerstones;
++            player->GetGameObjectListWithEntryInGrid(cornerstones, CornerstoneEntry, CornerstoneRange);
++            GameObject* nearest = nullptr;
++            for (GameObject* go : cornerstones)
++                if (go->GetHousingCornerstonePlotIndex() >= 0 && (!nearest || player->GetDistance(go) < player->GetDistance(nearest)))
++                    nearest = go;
++
++            if (!nearest)
++            {
++                handler->PSendSysMessage("Stand next to a plot cornerstone (within %.0f yards), or use .house buy <plot>.", CornerstoneRange);
++                handler->SetSentErrorMessage(true);
++                return false;
++            }
++
++            plot = uint8(nearest->GetHousingCornerstonePlotIndex());
++        }
++
++        handler->PSendSysMessage("Buying plot %u...", uint32(plot));
++        player->GetSession()->BuyHouseOnPlot(plot);
++        if (player->GetHousing())
++            handler->PSendSysMessage("Done: you own plot %u now. Walk to your door to enter.", uint32(plot));
++        else
++            handler->PSendSysMessage("The purchase was refused (the reason is in the server log, search for HandleNeighborhoodBuyHouse).");
++        return true;
++    }
++
++    static bool HandleInfoCommand(ChatHandler* handler)
++    {
++        Player* player = handler->GetSession()->GetPlayer();
++        Housing const* housing = player->GetHousing();
++        if (!housing || housing->GetHouseGuid().IsEmpty())
++        {
++            handler->PSendSysMessage("House: no. Stand next to a plot cornerstone and use .house buy.");
++            return true;
++        }
++
++        std::string where = "unknown location";
++        if (Neighborhood const* neighborhood = sNeighborhoodMgr.GetNeighborhood(housing->GetNeighborhoodGuid()))
++        {
++            for (NeighborhoodPlotData const* plot : sHousingMgr.GetPlotsForMap(neighborhood->GetNeighborhoodMapID()))
++                if (plot->PlotIndex == int32(housing->GetPlotIndex()))
++                {
++                    where = Trinity::StringFormat("{} at {:.0f}, {:.0f}, {:.0f} (map {})", neighborhood->GetName(),
++                        plot->HousePosition[0], plot->HousePosition[1], plot->HousePosition[2], neighborhood->GetNeighborhoodMapID());
++                    break;
++                }
++        }
++
++        handler->PSendSysMessage("House: yes, plot %u in %s, level %u, favor %u.",
++            uint32(housing->GetPlotIndex()), where.c_str(), uint32(housing->GetLevel()), uint32(housing->GetFavor()));
++        return true;
++    }
++
++    static bool HandleAbandonCommand(ChatHandler* handler)
++    {
++        Player* player = handler->GetSession()->GetPlayer();
++        Housing* housing = player->GetHousing();
++        if (!housing || housing->GetHouseGuid().IsEmpty())
++        {
++            handler->PSendSysMessage("You have no house.");
++            return true;
++        }
++
++        housing->Delete();
++        handler->PSendSysMessage("Your house was abandoned.");
++        return true;
++    }
++
+     static bool HandleRewardsCommand(ChatHandler* handler)
+     {
+         Player* target = handler->getSelectedPlayer();
+diff --git a/src/server/scripts/Custom/custom_script_loader.cpp b/src/server/scripts/Custom/custom_script_loader.cpp
+index 306bab73c2..2e777b52d6 100644
+--- a/src/server/scripts/Custom/custom_script_loader.cpp
++++ b/src/server/scripts/Custom/custom_script_loader.cpp
+@@ -27,6 +27,7 @@ void AddSC_CustomEffectHandler();
+ void AddSC_CustomEffectCommands();
+ void AddSC_toy_spell_scripts();
+ void AddSC_npc_perks_program_vendor();
++void AddSC_draconic_solo_dungeon();
+ 
+ // The name of this function should match:
+ // void Add${NameOfDirectory}Scripts()
+@@ -42,4 +43,5 @@ void AddCustomScripts()
+     AddSC_CustomEffectHandler();
+     AddSC_CustomEffectCommands();
+     AddSC_npc_perks_program_vendor();
++    AddSC_draconic_solo_dungeon();
+ }
+diff --git a/src/server/scripts/Custom/draconic_solo_dungeon.cpp b/src/server/scripts/Custom/draconic_solo_dungeon.cpp
+new file mode 100644
+index 0000000000..1cdb0e29b7
+--- /dev/null
++++ b/src/server/scripts/Custom/draconic_solo_dungeon.cpp
+@@ -0,0 +1,231 @@
++/*
++ * Draconic-WoW: solo dungeons, Earthen Wall Totem and leaving the LFG state.
++ *
++ *  1. Solo dungeons: a player who is the only person in a 5-player dungeon instance (the LFG follower group of one counts as alone)
++ *     meets creatures adapted to a lone hero: they keep a part of their health, and the hero carries the Manastorm boon auras
++ *     (-15% damage taken, +20% stamina, 6% leech) for as long as he is alone. As soon as a second player joins the instance everything
++ *     is restored, so groups play exactly as on retail.
++ *  2. Earthen Wall Totem (shaman): the totem shields the owner's party members around it (retail does this with a script that
++ *     this core did not have).
++ *  3. Leaving a dungeon while in an LFG group of one drops the group, so the Group Finder is usable again (Leave Queue).
++ */
++
++#include "Creature.h"
++#include "CreatureAI.h"
++#include "DungeonFinding/LFGMgr.h"
++#include "Group.h"
++#include "Map.h"
++#include "MapManager.h"
++#include "Player.h"
++#include "ScriptedCreature.h"
++#include "ScriptMgr.h"
++#include "SpellAuras.h"
++#include "SpellMgr.h"
++#include <mutex>
++#include <unordered_set>
++#include <vector>
++
++namespace
++{
++    constexpr float SOLO_HP_NORMAL = 0.40f;
++    constexpr float SOLO_HP_ELITE = 0.50f;
++    constexpr uint32 SOLO_BOONS[] = { 1402101, 1402104, 1402105 };   // -15% damage taken, +20% stamina, 6% leech (Manastorm boons)
++    constexpr uint32 SOLO_TICK_MS = 3000;
++
++    std::mutex SoloMutex;
++    std::unordered_set<ObjectGuid> SoloScaled;
++
++    void SoloSetBoons(Player* player, bool on)
++    {
++        for (uint32 spellId : SOLO_BOONS)
++        {
++            if (on)
++            {
++                if (!player->HasAura(spellId) && sSpellMgr->GetSpellInfo(spellId, DIFFICULTY_NONE))
++                    player->CastSpell(player, spellId, true);
++            }
++            else if (player->HasAura(spellId))
++                player->RemoveAurasDueToSpell(spellId);
++        }
++    }
++
++    void SoloScaleCreature(Creature* creature, bool apply)
++    {
++        if (!creature || creature->IsPet() || creature->IsSummon() || creature->IsTotem() || creature->IsVehicle())
++            return;
++
++        std::lock_guard<std::mutex> lock(SoloMutex);
++        bool const scaled = SoloScaled.count(creature->GetGUID()) != 0;
++        if (apply == scaled)
++            return;
++
++        float pct = 1.0f;
++        if (apply)
++            pct = (creature->IsElite() || creature->isWorldBoss()) ? SOLO_HP_ELITE : SOLO_HP_NORMAL;
++
++        creature->SetStatPctModifier(UNIT_MOD_HEALTH, BASE_PCT, pct);
++        creature->UpdateMaxHealth();
++        if (!creature->IsInCombat() && creature->IsAlive())
++            creature->SetFullHealth();
++
++        if (apply)
++            SoloScaled.insert(creature->GetGUID());
++        else
++            SoloScaled.erase(creature->GetGUID());
++    }
++
++    // A harmful aura without end that a creature put on a player stays forever when the creature died or is gone (retail clears it
++    // with encounter scripts this core does not have): drop it.
++    void ClearOrphanedPermanentDebuffs(Player* player)
++    {
++        std::vector<uint32> remove;
++        for (auto const& [spellId, app] : player->GetAppliedAuras())
++        {
++            Aura const* aura = app->GetBase();
++            if (!aura || !aura->IsPermanent() || app->IsPositive() || !aura->GetCasterGUID().IsCreatureOrVehicle())
++                continue;
++            Unit* caster = aura->GetCaster();
++            if (!caster || !caster->IsAlive() || !caster->IsInWorld())
++                remove.push_back(spellId);
++        }
++        for (uint32 spellId : remove)
++            player->RemoveAurasDueToSpell(spellId);
++    }
++
++    void SoloHandleMap(Map* map)
++    {
++        if (!map->IsNonRaidDungeon())
++            return;
++
++        uint32 const players = map->GetPlayersCountExceptGMs();
++        bool const alone = players == 1;
++
++        for (MapReference const& ref : map->GetPlayers())
++        {
++            Player* player = ref.GetSource();
++            if (player && !player->IsGameMaster())
++            {
++                SoloSetBoons(player, alone);
++                ClearOrphanedPermanentDebuffs(player);
++            }
++        }
++
++        if (players == 0)
++            return;
++
++        Player* first = nullptr;
++        for (MapReference const& ref : map->GetPlayers())
++            if (ref.GetSource() && !ref.GetSource()->IsGameMaster()) { first = ref.GetSource(); break; }
++        if (!first)
++            return;
++
++        for (auto const& [spawnId, creature] : map->GetCreatureBySpawnIdStore())
++        {
++            if (!creature || !creature->IsInWorld() || creature->IsFriendlyTo(first))
++                continue;
++            SoloScaleCreature(creature, alone);
++        }
++    }
++}
++
++class draconic_solo_dungeon_world : public WorldScript
++{
++public:
++    draconic_solo_dungeon_world() : WorldScript("draconic_solo_dungeon_world") { }
++
++    void OnUpdate(uint32 diff) override
++    {
++        _timer += diff;
++        if (_timer < SOLO_TICK_MS)
++            return;
++        _timer = 0;
++
++        sMapMgr->DoForAllMaps([](Map* map) { SoloHandleMap(map); });
++
++        std::lock_guard<std::mutex> lock(SoloMutex);
++        if (SoloScaled.size() > 100000)
++            SoloScaled.clear();
++    }
++
++private:
++    uint32 _timer = 0;
++};
++
++class draconic_solo_dungeon_player : public PlayerScript
++{
++public:
++    draconic_solo_dungeon_player() : PlayerScript("draconic_solo_dungeon_player") { }
++
++    void OnMapChanged(Player* player) override
++    {
++        if (!player)
++            return;
++
++        Map* map = player->GetMap();
++        if (!map || map->IsDungeon())
++            return;
++
++        // out of the dungeon: the solo boons go away, and an LFG group of one is dropped so the Group Finder is free again
++        SoloSetBoons(player, false);
++        if (Group* group = player->GetGroup())
++        {
++            if (group->isLFGGroup() && group->GetMembersCount() <= 1)
++            {
++                lfg::LfgState state = sLFGMgr->GetState(player->GetGUID());
++                if (state == lfg::LFG_STATE_DUNGEON || state == lfg::LFG_STATE_FINISHED_DUNGEON)
++                    player->RemoveFromGroup(GROUP_REMOVEMETHOD_LEAVE);
++            }
++        }
++    }
++};
++
++struct npc_sha_earthen_wall_totem : public ScriptedAI
++{
++    npc_sha_earthen_wall_totem(Creature* creature) : ScriptedAI(creature) { }
++
++    static constexpr uint32 SPELL_SHIELD = 17;      // Power Word: Shield as the absorb carrier
++    static constexpr float RANGE = 10.0f;
++
++    void Reset() override
++    {
++        _timer = 1000;
++    }
++
++    void UpdateAI(uint32 diff) override
++    {
++        if (_timer > diff)
++        {
++            _timer -= diff;
++            return;
++        }
++        _timer = 1000;
++
++        Unit* owner = me->GetOwner();
++        if (!owner)
++            return;
++
++        std::list<Player*> players;
++        me->GetPlayerListInGrid(players, RANGE);
++        for (Player* player : players)
++        {
++            if (!player->IsAlive() || player->HasAura(SPELL_SHIELD))
++                continue;
++            if (player != owner && !(owner->IsPlayer() && owner->ToPlayer()->IsInSameGroupWith(player)))
++                continue;
++
++            CastSpellExtraArgs args(TRIGGERED_FULL_MASK);
++            args.AddSpellMod(SPELLVALUE_BASE_POINT0, int32(std::max<uint32>(40, player->GetMaxHealth() / 8)));
++            me->CastSpell(player, SPELL_SHIELD, args);
++        }
++    }
++
++private:
++    uint32 _timer = 1000;
++};
++
++void AddSC_draconic_solo_dungeon()
++{
++    new draconic_solo_dungeon_world();
++    new draconic_solo_dungeon_player();
++    RegisterCreatureAI(npc_sha_earthen_wall_totem);
++}
+-- 
+2.55.0.windows.3
+

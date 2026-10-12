@@ -1,10 +1,10 @@
--- Rising Storm (92061): Wiki retail fix (Warcraft Wiki Rising_Storm + Wowhead tooltips quest/92061, npc/235787,250580,250587).
--- Giver/ender = Lor'themar Theron 235787 [45.4,70.6] Silvermoon (correct in DB, do not touch).
--- Objectives Type 0: 250580 High Exarch Turalyon + 250587 General Amias Bellamy (DB correct, tooltip-verified).
--- This file: Completion/Progress texts, 23g40s reward, next quest 86543,
--- retail gossip texts + report button + credits (Eluna primary, SmartAI backup),
--- say replies via creature_text. Old placeholder menus 40363/40367 removed (40367 is a retail taxi menu!).
--- Do NOT apply while players are testing; deploy before restart.
+-- Rising Storm (92061): Wiki retail fix (Warcraft Wiki Rising_Storm + Wowhead tooltip quest/92061, npc/235787,250580,250587).
+-- Giver/ender = Lor'themar Theron 235787 [45.4,70.6] Silvermoon (DB OK, neriesit).
+-- Objektivy Type 0: 250580 High Exarch Turalyon + 250587 General Amias Bellamy (DB OK, overene tooltipom).
+-- Tento subor riesi: Completion/Progress texty, odmenu 23g40s, next quest 86543,
+-- retail gossip texty + report button + kredity 62->33 (pattern z 20261009_deepening_shadows.sql),
+-- say odpovede cez creature_text. Stare placeholder menu 40363/40367 prec (40367 je retail taxi menu!).
+-- NEPOUZIVAT pocas testu hraca; nasadit pred restartom (gossip/smart sa citaju pri starte).
 UPDATE `world`.`quest_template` SET `QuestCompletionLog` = 'Well done. That Voidstorm is evoking fear and terror in everyone who sees it, myself included.\n\nBut I chose this life of standing up to evil and spitting in its face. Sadly not everyone had the luxury of that being a choice.', `AreaDescription` = 'Tensions are high.', `RewardBonusMoney` = 234000, `RewardNextQuest` = 86543 WHERE `ID` = 92061;
 -- Kolizia: nasa stara optiona v retail taxi menu + stare placeholder smart/menus.
 DELETE FROM `world`.`gossip_menu_option` WHERE `MenuID` = 40367 AND `OptionID` = 2 AND `OptionText` = '(Consult the Vanguard.)';

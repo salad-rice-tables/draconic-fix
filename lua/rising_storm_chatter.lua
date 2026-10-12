@@ -1,13 +1,13 @@
 -- =====================================================================
--- Rising Storm (92061): cross Wiki replies after the report button.
--- Turalyon report (menu 40410/opt 0) -> Lothraxion 235477 replies with a delay.
--- Bellamy report (menu 40411/opt 0) -> Koruth 250590 replies with a delay.
--- Says + CREDIT (KilledMonsterCredit, primary path - SmartAI rows stay as backup).
--- Texts verbatim from Warcraft Wiki Rising_Storm.
+-- Rising Storm (92061): krizove Wiki repliky po report buttone.
+-- Turalyonov report (menu 40410/opt 0) -> Lothraxion 235477 odpovie s oneskorenim.
+-- Bellamyho report (menu 40411/opt 0) -> Koruth 250590 odpovie s oneskorenim.
+-- Len say + KREDIT (KilledMonsterCredit, primarna cesta - SmartAI riadky ostavaju ako zaloha).
+-- Texty doslovne z Warcraft Wiki Rising_Storm.
 -- =====================================================================
 if IS_WORLD_STATE then return end
 
--- Anti-spam guard: cross reply max once per 180 s per player (keyed by NPC).
+-- Anti-spam guard: a cross line at most once per 180 s per player (WNPC under key).
 local SaidAt = {}
 local COOLDOWN = 180
 
@@ -17,16 +17,18 @@ local function SayDelayed(player, key, entry, delayMs, text)
     if stamp - prev < COOLDOWN then return end
     SaidAt[player:GetName() .. ":" .. key] = stamp
     player:RegisterEvent(function(_, _, _, p)
-        if not p or not p:IsInWorld() then return end
+        if not p or not p:IsInWorld() then pcall(function() PrintInfo("[abyss] say MISSED (player gone) entry=" .. entry) end) return end
         local ok, list = pcall(function() return p:GetCreaturesInRange(40) end)
-        if not ok or not list then return end
+        if not ok or not list then pcall(function() PrintInfo("[abyss] say MISSED (no range list) entry=" .. entry) end) return end
         for _, c in ipairs(list) do
             local okE, e = pcall(function() return c:GetEntry() end)
             if okE and e == entry then
-                pcall(function() c:SendUnitSay(text, 0) end)
+                local okS, err = pcall(function() c:SendUnitSay(text, 0) end)
+                pcall(function() PrintInfo("[abyss] say " .. (okS and "SENT" or "FAILED:" .. tostring(err)) .. " entry=" .. entry) end)
                 return
             end
         end
+        pcall(function() PrintInfo("[abyss] say MISSED (entry not in range) entry=" .. entry) end)
     end, delayMs, 1)
 end
 
@@ -35,7 +37,7 @@ RegisterCreatureGossipEvent(250580, 2, function(_, player, creature, sender, int
     if intid == 0 then
         pcall(function() player:KilledMonsterCredit(250580) end)
         if creature then pcall(function() creature:SendUnitSay("The situation is dire! We will accept any help. Even from Magister Umbric.", 0) end) end
-        SayDelayed(player, "lothraxion", 235477, 3000, "No! Those Void addicts are not our salvation. The Light is the only way to stop Xal'atath's evil.")
+        SayDelayed(player, "lothraxion", 235477, 8000, "No! Those Void addicts are not our salvation. The Light is the only way to stop Xal'atath's evil.")
     end
 end)
 
@@ -44,16 +46,16 @@ RegisterCreatureGossipEvent(9100622, 2, function(_, player, creature, sender, in
     if intid == 0 then
         pcall(function() player:KilledMonsterCredit(250587) end)
         if creature then pcall(function() creature:SendUnitSay("Lor'themar promised his Magisters would provide a solution. It's now or never!", 0) end) end
-        SayDelayed(player, "koruth", 250590, 3000, "If we could just take the fight to Xal'atath, we'd give her such a drumming she'd hop back inside that knife.")
+        SayDelayed(player, "koruth", 250590, 7000, "If we could just take the fight to Xal'atath, we'd give her such a drumming she'd hop back inside that knife.")
     end
 end)
 
 print("[rising_storm_chatter] loaded")
 
 -- =====================================================================
--- Citizens ambience (Wiki: Silvermoon Citizens near Shining Span occasionally shout
--- while 92061 is in progress). No civilian spawn exists in phase 45749,
--- so we use phase-0 civilians in range of a player with an active quest.
+-- Citizens ambience (Wiki: Silvermoon Citizens pri Shining Span obcas krical,
+-- kym je 92061 rozpracovany). Ziadny civilian spawn vo faze 45749 nie je,
+-- preto berieme phase-0 civilistov v dosahu hraca s aktivnym questom.
 -- =====================================================================
 local YELLS = {
     "The Sunwell saved us! But for how long?",

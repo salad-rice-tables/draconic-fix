@@ -1,16 +1,16 @@
 -- Into the Abyss Wiki-fix 2/2 (Warcraft Wiki + Wowhead tooltip API).
--- A) 89388 Voidstorm: starter was missing entirely (quest could not be picked up).
---    Source: noobtoboss guide (pick up from Umbric in Sanctum of Light) + tooltip quest/89388
---    + consistency with ender 235411 (Umbric, zone 15458).
--- B) 92061 Rising Storm: Lor'themar 235787 says (Wiki Notes).
+-- A) 89388 Voidstorm: starter chyboval uplne (quest sa nedal zobrat).
+--    Zdroj: noobtoboss guide (pick up from Umbric in Sanctum of Light) + tooltip quest/89388
+--    + konzistencia s enderom 235411 (Umbric, zone 15458).
+-- B) 92061 Rising Storm: Lor'themar 235787 say (Wiki Notes).
 --    approach: "Xal'atath's attacks grow stronger!", accept: "$N, you must get to the Vanguard leaders..."
---    event 64 = GOSSIP_HELLO, event 19 = ACCEPTED_QUEST (param = quest ID).
+--    event 64 = GOSSIP_HELLO (overeny existujucimi riadkami v DB), event 19 = ACCEPTED_QUEST (param = quest ID).
 -- C) 86543 Homecoming: Completion (Wiki Rommath text), RewardNextQuest 86549 No Fear of the Dark (Wiki Progression).
---    Money 1340000 (134g) already matches Wiki, do not touch. Choice gear (6 pieces) NOT SET: only 2/6 IDs verified
---    (Bifurcation Band 251115, Defiant Defender's Drape 260312), a partial list would be wrong.
---    Accept says: Lor'themar + Umbric 239944 (Wiki Notes/On accept). Terrace say: Umbric 235395 (Wiki).
---    Duskglow scene (Arator/Lothraxion/Maella gossip) missing: entries unverified, follow-up.
--- Do NOT apply while players are testing; deploy before restart.
+--    Money 1340000 (134g) uz sedi s Wiki, nemenit. Choice gear (6 ks) NENASTAVENY: overene ID mam len 2/6
+--    (Bifurcation Band 251115, Defiant Defender's Drape 260312), ciastocny zoznam by bol zle.
+--    Accept say: Lor'themar + Umbric 239944 (Wiki Notes/On accept). Terrace say: Umbric 235395 (Wiki).
+--    Duskglow scena (Arator/Lothraxion/Maella gossip) chyba: entry neoverene, follow-up.
+-- NEPOUZIVAT pocas testu hraca; nasadit pred restartom.
 INSERT IGNORE INTO `world`.`creature_queststarter` (`id`, `quest`, `VerifiedBuild`) VALUES (235411, 89388, 0);
 UPDATE `world`.`quest_template` SET `QuestCompletionLog` = 'That could have gone better.\n\nThen again, Rommath hasn''t killed me, yet. It could have gone worse.', `RewardNextQuest` = 86549 WHERE `ID` = 86543;
 DELETE FROM `world`.`creature_text` WHERE `CreatureID` = 235787 AND `GroupID` IN (0, 1, 2);

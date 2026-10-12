@@ -1,0 +1,4 @@
+DELETE FROM creature WHERE guid IN (3100902380,3100902381);
+DELETE FROM creature WHERE guid=3100902695;
+DELETE FROM creature_queststarter WHERE (id=237356 AND quest=86874) OR (id=237325 AND quest=94677);
+DELETE FROM creature_questender WHERE (id=237356 AND quest=86874) OR (id=235386 AND quest IN (89388,94993));

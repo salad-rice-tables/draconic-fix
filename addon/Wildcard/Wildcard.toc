@@ -1,0 +1,19 @@
+## Interface: 120100
+## Title: Wildcard
+## Notes: Draconic Hero UI: Character Advancement (N), path choice, Dice of Destiny. Art: mod-classless-wildcard (GPL-2.0).
+## Author: Draconic-WoW
+## Version: 5.0
+## SavedVariables: WildcardEssenceDB
+Wildcard.lua
+UI.lua
+TalentLayout.lua
+Advancement.lua
+MysticData.lua
+MysticCodex.lua
+CoaData.lua
+ConquestChoice.lua
+MysticForge.lua
+Guide.lua
+EssenceColor.lua
+PathChoice.lua
+SpiritHealer.lua

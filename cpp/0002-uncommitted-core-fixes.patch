@@ -1,0 +1,197 @@
+diff --git a/src/server/game/Entities/Player/Player.cpp b/src/server/game/Entities/Player/Player.cpp
+index f35601b07d..c9abe3d023 100644
+--- a/src/server/game/Entities/Player/Player.cpp
++++ b/src/server/game/Entities/Player/Player.cpp
+@@ -4954,6 +4954,30 @@ void Player::RepopAtGraveyard()
+     // stop countdown until repop
+     m_deathTimer = 0;
+ 
++    // Dungeons and raids: ghosts and wipes return to the dungeon's own entrance (world.dungeon_respawn), not to a far-away default graveyard
++    if (GetMap()->IsNonRaidDungeon() || GetMap()->IsRaid())
++    {
++        static std::unordered_map<uint32, WorldLocation> dungeonRespawn;
++        static bool dungeonRespawnLoaded = false;
++        if (!dungeonRespawnLoaded)
++        {
++            dungeonRespawnLoaded = true;
++            if (QueryResult res = WorldDatabase.Query("SELECT map, x, y, z, o FROM dungeon_respawn"))
++                do
++                {
++                    Field* f = res->Fetch();
++                    dungeonRespawn[f[0].GetUInt32()] = WorldLocation(f[0].GetUInt32(), f[1].GetFloat(), f[2].GetFloat(), f[3].GetFloat(), f[4].GetFloat());
++                } while (res->NextRow());
++        }
++        auto itr = dungeonRespawn.find(GetMapId());
++        if (itr != dungeonRespawn.end())
++        {
++            TeleportTo({ .Location = itr->second }, TELE_REVIVE_AT_TELEPORT);
++            RemovePlayerFlag(PLAYER_FLAGS_IS_OUT_OF_BOUNDS);
++            return;
++        }
++    }
++
+     // if no grave found, stay at the current location
+     // and don't show spirit healer location
+     if (closestGrave)
+@@ -12003,8 +12027,8 @@ InventoryResult Player::CanUseItem(Item* pItem, bool not_loading) const
+                             break;
+                     }
+                 }
+-                if (!allowEquip && GetSkillValue(itemSkill) == 0)
+-                    return EQUIP_ERR_PROFICIENCY_NEEDED;
++                // Draconic-WoW: every Hero may wear and wield every armor and weapon type (the class is only a body), so no proficiency is required
++                (void)allowEquip;
+             }
+ 
+             return EQUIP_ERR_OK;
+@@ -20441,6 +20465,13 @@ void Player::_LoadInventory(PreparedQueryResult result, PreparedQueryResult arti
+                     {
+                         uint16 dest;
+                         err = CanEquipItem(slot, dest, item, false, false);
++                        // Skills/proficiencies are granted after the inventory loads (Hero system), so a missing proficiency at login must not
++                        // knock worn gear out of its slot and into the mailbox: keep what was equipped
++                        if (err == EQUIP_ERR_PROFICIENCY_NEEDED || err == EQUIP_ERR_CANT_EQUIP_SKILL)
++                        {
++                            dest = uint16((INVENTORY_SLOT_BAG_0 << 8) | slot);
++                            err = EQUIP_ERR_OK;
++                        }
+                         if (err == EQUIP_ERR_OK)
+                             QuickEquipItem(dest, item);
+                     }
+@@ -31748,11 +31779,13 @@ Housing* Player::GetHousing() const
+         }
+     }
+ 
+-    // Inside a house interior: the house of that interior (any character of the account may be in it)
++    // Inside a house interior: the house of that interior (any character of the account may be in it).
++    // When the interior's house is not resolvable on this session, return nothing - falling through to
++    // "own, then the account's first" surfaces an unrelated house (e.g. the sibling's) inside someone
++    // else's interior and poisons CurrentHouse/HouseInfo/interior spawn decisions with it.
+     if (IsInWorld())
+         if (HouseInteriorMap* interiorMap = dynamic_cast<HouseInteriorMap*>(GetMap()))
+-            if (Housing* interiorHousing = GetHousingByOwner(interiorMap->GetOwnerGuid()))
+-                return interiorHousing;
++            return GetHousingByOwner(interiorMap->GetOwnerGuid());
+ 
+     // Default: this character's own house, then the account's first
+     if (Housing* own = GetHousingByOwner(GetGUID()))
+@@ -31901,21 +31934,26 @@ void Player::_LoadAccountHousings()
+     if (!owners)
+         return;
+ 
+-    do
+-    {
+-        ObjectGuid::LowType const ownerLow = (*owners)[0].GetUInt64();
+-        auto query = [ownerLow](CharacterDatabaseStatements index)
+-            {
+-                CharacterDatabasePreparedStatement* ownerStmt = CharacterDatabase.GetPreparedStatement(index);
+-                ownerStmt->setUInt64(0, ownerLow);
+-                return CharacterDatabase.Query(ownerStmt);
+-            };
+-
+-        std::unique_ptr<Housing> housing = std::make_unique<Housing>(this, ObjectGuid::Create<HighGuid::Player>(ownerLow));
+-        if (housing->LoadFromDB(query(CHAR_SEL_CHARACTER_HOUSING), query(CHAR_SEL_CHARACTER_HOUSING_DECOR),
+-            query(CHAR_SEL_CHARACTER_HOUSING_ROOMS), query(CHAR_SEL_CHARACTER_HOUSING_FIXTURES), query(CHAR_SEL_CHARACTER_HOUSING_CATALOG)))
+-            _housings.push_back(std::move(housing));
+-    } while (owners->NextRow());
++        do
++        {
++            ObjectGuid::LowType const ownerLow = (*owners)[0].GetUInt64();
++            auto query = [ownerLow](CharacterDatabaseStatements index)
++                {
++                    CharacterDatabasePreparedStatement* ownerStmt = CharacterDatabase.GetPreparedStatement(index);
++                    ownerStmt->setUInt64(0, ownerLow);
++                    return CharacterDatabase.Query(ownerStmt);
++                };
++
++            std::unique_ptr<Housing> housing = std::make_unique<Housing>(this, ObjectGuid::Create<HighGuid::Player>(ownerLow));
++            bool const loaded = housing->LoadFromDB(query(CHAR_SEL_CHARACTER_HOUSING), query(CHAR_SEL_CHARACTER_HOUSING_DECOR),
++                query(CHAR_SEL_CHARACTER_HOUSING_ROOMS), query(CHAR_SEL_CHARACTER_HOUSING_FIXTURES), query(CHAR_SEL_CHARACTER_HOUSING_CATALOG));
++            // A dropped row here makes IsHouseOwnerAccount fail inside that house's interior for every
++            // sibling - the loader of record must say so.
++            TC_LOG_INFO("housing", "Player::_LoadAccountHousings: {} (account {}) account housing owner {} -> {}",
++                GetGUID().ToString(), GetSession()->GetAccountId(), ownerLow, loaded ? "loaded" : "LoadFromDB FAILED (no character_housing row?)");
++            if (loaded)
++                _housings.push_back(std::move(housing));
++        } while (owners->NextRow());
+ }
+ 
+ void Player::_LoadHouseRooms()
+diff --git a/src/server/game/Housing/HouseInteriorMap.cpp b/src/server/game/Housing/HouseInteriorMap.cpp
+index 7bfd1c6c0d..29bad6df87 100644
+--- a/src/server/game/Housing/HouseInteriorMap.cpp
++++ b/src/server/game/Housing/HouseInteriorMap.cpp
+@@ -1816,6 +1816,32 @@ bool HouseInteriorMap::AddPlayerToMap(Player* player, bool initPlayer /*= true*/
+                 "cannot spawn rooms/decor", player->GetGUID().ToString());
+         }
+ 
++        // Nothing resolved for this player: no owner-account housing and no offline-owner snapshot.
++        // Never leave the player standing in an empty void - run the standard interior exit path,
++        // which sends them to the house's plot (or homebind when nothing resolves).
++        if (_roomMeshObjects.empty() && _decorGuidToObjGuid.empty())
++        {
++            std::string sessionHousingOwners;
++            for (auto const& h : player->GetAllHousings())
++                sessionHousingOwners += (sessionHousingOwners.empty() ? "" : ", ") + h->GetOwnerGuid().ToString();
++
++            TC_LOG_ERROR("housing", "HouseInteriorMap::AddPlayerToMap: nothing spawned for player {} "
++                "(map owner={}) - housing owners on session: [{}] - evicting via LeaveHouseInterior",
++                player->GetGUID().ToString(), _owner.ToString(), sessionHousingOwners.empty() ? "none" : sessionHousingOwners);
++
++            ObjectGuid const evicteeGuid = player->GetGUID();
++            player->m_Events.AddEventAtOffset([this, evicteeGuid]()
++            {
++                Player* evictee = ObjectAccessor::FindPlayer(evicteeGuid);
++                if (!evictee || evictee->GetMap() != this || evictee->IsBeingTeleported())
++                    return;
++
++                // A later entrant may have populated the interior meanwhile.
++                if (_roomMeshObjects.empty() && _decorGuidToObjGuid.empty())
++                    evictee->GetSession()->LeaveHouseInterior();
++            }, Seconds(1));
++        }
++
+         // Toggle WS[30906]=1 for EVERYONE entering (a houseless visitor needs it too), synchronously.
+         player->SendUpdateWorldState(WORLDSTATE_HOUSING_INTERIOR, 1);
+ 
+diff --git a/src/server/game/Spells/Spell.cpp b/src/server/game/Spells/Spell.cpp
+index 1d3ee431a9..d8ce8f08a9 100644
+--- a/src/server/game/Spells/Spell.cpp
++++ b/src/server/game/Spells/Spell.cpp
+@@ -4617,6 +4617,9 @@ void Spell::SendCastResult(SpellCastResult result, int32* param1 /*= nullptr*/,
+     if (receiver->IsLoading())  // don't send cast results at loading time
+         return;
+ 
++    if (!(_triggeredCastFlags & TRIGGERED_DONT_REPORT_CAST_ERROR))
++        TC_LOG_INFO("spells.fail", "Cast of spell {} ({}) by {} failed: result {}", m_spellInfo->Id, (m_spellInfo->SpellName ? (*m_spellInfo->SpellName)[sWorld->GetDefaultDbcLocale()] : ""), receiver->GetName(), uint32(result));
++
+     if (_triggeredCastFlags & TRIGGERED_DONT_REPORT_CAST_ERROR)
+         result = SPELL_FAILED_DONT_REPORT;
+ 
+diff --git a/src/server/game/Spells/SpellMgr.cpp b/src/server/game/Spells/SpellMgr.cpp
+index 6e542b4858..2004b795be 100644
+--- a/src/server/game/Spells/SpellMgr.cpp
++++ b/src/server/game/Spells/SpellMgr.cpp
+@@ -5763,6 +5763,22 @@ void SpellMgr::LoadHeroSpellCosts()
+         } while (result->NextRow());
+     }
+ 
++    // Hero pool spells are usable by every class: drop the class-bound cast requirements (form/stance, zone, weapon, special aura states);
++    // the resource cost is already replaced by Essence (see SpellInfo::CalcPowerCost)
++    for (auto const& heroSpell : _heroSpellCosts)
++        for (SpellInfo const& spellInfo : _GetSpellInfo(heroSpell.first))
++        {
++            SpellInfo& si = const_cast<SpellInfo&>(spellInfo);
++            si.Stances = 0;
++            si.StancesNot = 0;
++            si.RequiredAreasID = -1;
++            si.RequiresSpellFocus = 0;
++            si.CasterAuraState = 0;
++            si.EquippedItemClass = -1;
++            si.EquippedItemSubClassMask = 0;
++            si.EquippedItemInventoryTypeMask = 0;
++        }
++
+     TC_LOG_INFO("server.loading", ">> Loaded {} hero spell costs in {} ms", _heroSpellCosts.size(), GetMSTimeDiffToNow(oldMSTime));
+ }
+ 
