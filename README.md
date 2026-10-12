@@ -1,7 +1,7 @@
-# draconic-fix — WoW Midnight quest fixes
+# draconic-fix — Some quests fixes
 
-Verified retail-faithful fixes for **World of Warcraft: Midnight** quests
-(Into the Abyss chain + related Silvermoon City quests) on a TrinityCore-based
+Verified faithful fixes for *12** quests
+(Into the Abyss chain + related SM City quests) on a TrinityCore-based
 (updated `master`, ~12.x) server.
 
 Every text, NPC, reward and line of dialogue is verified against
