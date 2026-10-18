@@ -1,0 +1,72 @@
+From 0d7dfd0ee4c27dc4b8a5c92845ae7350bd833627 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Bran=C4=8Di?= <branislav.kukula@gmail.com>
+Date: Sun, 18 Oct 2026 19:10:24 +0200
+Subject: [PATCH] Core/Collections: fix OOB write when learning collections on
+ new characters
+
+CollectionMgr::AddItemAppearance only pushed the resize diff into the player update fields; characters that never ran LoadItemAppearances (LoadCharacterData runs on login only - Player.cpp:19621) had empty blocks, so AddTransmogFlag wrote out of bounds -> worldserver crash whenever a bagged soulbound item with a default ItemModifiedAppearance was stored during Player::Create (e.g. Haranir loadouts). Block guards added (mirroring Player::SetHouseRoomBit) for Transmog, TransmogIllusions, LoadWarbandScenes and AddWarbandScene.
+---
+ .../game/Entities/Player/CollectionMgr.cpp    | 26 ++++++++++++++++++-
+ 1 file changed, 25 insertions(+), 1 deletion(-)
+
+diff --git a/src/server/game/Entities/Player/CollectionMgr.cpp b/src/server/game/Entities/Player/CollectionMgr.cpp
+index 25fc823a4a..0674686768 100644
+--- a/src/server/game/Entities/Player/CollectionMgr.cpp
++++ b/src/server/game/Entities/Player/CollectionMgr.cpp
+@@ -782,6 +782,12 @@ void CollectionMgr::AddItemAppearance(ItemModifiedAppearanceEntry const* itemMod
+     _appearances->set(itemModifiedAppearance->ID);
+     uint32 blockIndex = itemModifiedAppearance->ID / 32;
+     uint32 bitIndex = itemModifiedAppearance->ID % 32;
++
++    // characters that are still being created never ran LoadItemAppearances (LoadCharacterData), so their
++    // account-wide appearance blocks are missing from the update field - create the block before flagging it
++    while (owner->m_activePlayerData->Transmog.size() <= blockIndex)
++        owner->AddTransmogBlock(0);
++
+     owner->AddTransmogFlag(blockIndex, 1 << bitIndex);
+     auto temporaryAppearance = _temporaryAppearances.find(itemModifiedAppearance->ID);
+     if (temporaryAppearance != _temporaryAppearances.end())
+@@ -997,6 +1003,10 @@ void CollectionMgr::AddTransmogIllusion(uint32 transmogIllusionId)
+     uint32 blockIndex = transmogIllusionId / 32;
+     uint32 bitIndex = transmogIllusionId % 32;
+ 
++    // see AddItemAppearance - the field may not contain the block on characters that never ran LoadItemAppearances
++    while (owner->m_activePlayerData->TransmogIllusions.size() <= blockIndex)
++        owner->AddIllusionBlock(0);
++
+     owner->AddIllusionFlag(blockIndex, 1 << bitIndex);
+ }
+ 
+@@ -1058,7 +1068,16 @@ void CollectionMgr::LoadWarbandScenes()
+ {
+     Player* owner = _owner->GetPlayer();
+     for (auto const& [warbandSceneId, _] : _warbandScenes)
+-        owner->AddWarbandScenesFlag(warbandSceneId / 32, 1 << warbandSceneId % 32);
++    {
++        uint32 blockIndex = warbandSceneId / 32;
++        uint32 bitIndex = warbandSceneId % 32;
++
++        // see AddItemAppearance - the field may not contain the block on characters that never ran LoadItemAppearances
++        while (owner->m_activePlayerData->WarbandScenes.size() <= blockIndex)
++            owner->AddWarbandScenesBlock(0);
++
++        owner->AddWarbandScenesFlag(blockIndex, 1 << bitIndex);
++    }
+ }
+ 
+ void CollectionMgr::LoadAccountWarbandScenes(PreparedQueryResult knownWarbandScenes)
+@@ -1145,6 +1164,11 @@ void CollectionMgr::AddWarbandScene(uint32 warbandSceneId)
+ 
+     uint32 blockIndex = warbandSceneId / 32;
+     uint32 bitIndex = warbandSceneId % 32;
++
++    // see AddItemAppearance - the field may not contain the block on characters that never ran LoadItemAppearances
++    while (_owner->GetPlayer()->m_activePlayerData->WarbandScenes.size() <= blockIndex)
++        _owner->GetPlayer()->AddWarbandScenesBlock(0);
++
+     _owner->GetPlayer()->AddWarbandScenesFlag(blockIndex, 1 << bitIndex);
+ }
+ 
+-- 
+2.55.0.windows.3
+
