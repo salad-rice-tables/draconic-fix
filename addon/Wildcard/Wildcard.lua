@@ -1,6 +1,6 @@
 -- =====================================================================
 -- Wildcard client UI for the Draconic-WoW server (retail 12.1).
--- Descend-style ability roll: a die tumbles, lands in the rarity's colour
+-- Ascension-style ability roll: a die tumbles, lands in the rarity's colour
 -- with the ability in its window, shows the spell's own tooltip lines and
 -- offers Keep / Reroll.
 --
@@ -34,7 +34,7 @@ local TIERS = {
 C_ChatInfo.RegisterAddonMessagePrefix(PREFIX)
 pcall(SetCVar, "scriptErrors", "1")   -- show Lua errors while the Hero UI is new
 
--- round icon (Descend emblem): a circular mask instead of SetPortraitToTexture, which newer clients lack
+-- round icon (Ascension emblem): a circular mask instead of SetPortraitToTexture, which newer clients lack
 function WildcardRoundIcon(tex, path)
     tex:SetTexture(path)
     local m = tex:GetParent():CreateMaskTexture()
@@ -159,7 +159,7 @@ for _, b in ipairs({keep, reroll}) do
     b:SetDisabledFontObject("GameFontDisableLarge")
 end
 
--- ---------------------------------------------------------------- reel (as on Descend: a glowing strip of icons runs past, then the medallion appears)
+-- ---------------------------------------------------------------- reel (as on Ascension: a glowing strip of icons runs past, then the medallion appears)
 
 local SLOT, SLOTS, LAND, VIEW = 46, 36, 28, 6
 local ROLL_TIME, OPEN_TIME = 1.1, 0.5
@@ -186,7 +186,7 @@ for i = 1, SLOTS do
     fr:SetAtlas("UI-HUD-ActionBar-IconFrame-Border"); fr:SetSize(SLOT - 2, SLOT - 2); fr:SetPoint("CENTER", t)
 end
 local function Cap(side)
-    -- the two halves of the die (art/reel_cap_L and reel_cap_R, cut from the Descend reference) frame the reel; a cyan edge glows where the strip meets them
+    -- the two halves of the die (art/reel_cap_L and reel_cap_R, cut from the Ascension reference) frame the reel; a cyan edge glows where the strip meets them
     local c = reel:CreateTexture(nil, "OVERLAY")
     c:SetSize(104, 104); c:SetPoint(side == "L" and "RIGHT" or "LEFT", reel, side == "L" and "LEFT" or "RIGHT", side == "L" and 34 or -34, 0)
     c:SetTexture("Interface/AddOns/Wildcard/art/reel_cap_" .. side)   -- the files live in the art folder
@@ -353,7 +353,7 @@ reveal:SetScript("OnUpdate", function(_, elapsed)
     end
 end)
 
--- ---------------------------------------------------------------- the starting set (four abilities, lock + roll, as on Descend)
+-- ---------------------------------------------------------------- the starting set (four abilities, lock + roll, as on Ascension)
 
 local SET_N = 6
 local setF = CreateFrame("Frame", "WildcardSetFrame", UIParent, "ButtonFrameTemplate")   -- Blizzard panel: portrait-less ButtonFrameTemplate with its Inset
@@ -517,7 +517,7 @@ end)
 
 -- ---------------------------------------------------------------- the roll prompt
 -- A pending roll (new character, new level) always shows this button at the top of the screen.
--- Nothing rolls until you click it, as on Descend.
+-- Nothing rolls until you click it, as on Ascension.
 local prompt = CreateFrame("Button", "WildcardRollPrompt", UIParent)
 prompt:SetSize(260, 120); prompt:SetPoint("TOP", 0, -90); prompt:SetFrameStrata("DIALOG"); prompt:Hide()
 local pdie = prompt:CreateTexture(nil, "ARTWORK")
@@ -827,7 +827,7 @@ ev:SetScript("OnEvent", function(_, event, prefix, msg)
     elseif kind == "LEARNED" then
         local info = C_Spell.GetSpellInfo(tonumber(a) or 0)
         -- the client shows its own "New Ability Unlocked!" banner for a learned spell, so no second one from us
-        PlaySound(888)                       -- level-up fanfare, as on Descend
+        PlaySound(888)                       -- level-up fanfare, as on Ascension
         C_Timer.After(1.5, function() if state.phase == "idle" then Send("HELLO") end end)   -- the next starting roll, if any
         UIErrorsFrame:AddMessage("Learned: " .. (info and info.name or a), 1, 0.82, 0)
     end

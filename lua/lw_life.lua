@@ -301,7 +301,7 @@ local function Tick()
     if not IsDay() then return end
     local now = os.time()
     local seen = {}
-    for _, p in ipairs(MAP_Players() or {}) do
+    for _, p in ipairs(LW_Players() or {}) do
         local ok, list = pcall(function() return p:GetCreaturesInRange(SCAN) end)
         if ok and list then
             local started = 0

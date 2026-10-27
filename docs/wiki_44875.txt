@@ -1,0 +1,85 @@
+{{Questbox
+ | id = 44875
+ | name = The Art of Flow
+ | category = Azsuna
+ | level = {{level|Suramar}}
+ | levelreq = {{level|Suramar}}
+ | start = [[Arcanist Valtrois]]
+ | reputation = +250 [[Nightfallen (faction)|The Nightfallen]]
+ | experience = 16,450
+ | rewards = [[Highly Charged Mana Clog]]
+ | money = {{cost|19|40}}
+ | previous = [[Unbeleyvable]]
+ | next = [[A Dance With Dragons]]
+}}
+
+==Objectives==
+Protect [[Arcanist Valtrois]] while she completes the ritual.
+*First beacon ritual complete
+*Second beacon ritual complete
+*Third beacon ritual complete
+
+==Description==
+All done, <name>! We have but one more step and [[Shal'Aran]] will have all the mana it needs.
+
+Now that I have better access to the ley line below I can break the pool so that it will flow through properly. Given the chaotic state of this [[ley line]] it will require all of my concentration to redirect the energy.
+
+I must warn you that we will attract attention while I am doing this. You will need to protect me while I complete the process.
+
+Speak to me when you are ready.
+
+==Rewards==
+You will receive:
+*[[Highly Charged Mana Clog]]
+*{{cost|19|40}}
+*16,450 [[XP]]
+*+250 [[reputation]] with [[Nightfallen (faction)|The Nightfallen]]
+
+==Progress==
+This ritual will shake the pool of energy loose, allowing it to flow through the ley line unimpeded.
+
+==Completion==
+It is done. Shal'Aran will have no want of mana now.
+
+==Notes==
+During the rituals, protect Valtrois and Stellagosa from incoming [[withered]]: [[Hungering Wretch]]es, [[Ley-Ruins Thirster]], and [[Hulking Wretch]].
+
+Talk to Valtrois to start the first ritual.
+
+:Are you ready to begin the ritual, <name>?
+''{{Gossip|I am ready, Valtrois.}}''
+
+:{{Text|say|Arcanist Valtrois|The ritual demands my full concentration. Please ensure I am not interrupted.}}
+:{{Text|say|Stellagosa|Allow me to aid you. This form is ill-suited for fighting in such close quarters, and we are accompanied by a capable champion.}}
+:{{Text|say|Arcanist Valtrois|You may help me find the ley lines, if you must. Just try not to get in my way.}}
+
+Talk to Valtrois again to start the second ritual.
+
+:One down, two to go. Let me know when you are ready.
+''{{Gossip|I am ready, Valtrois.}}''
+
+:{{Text|say|Arcanist Valtrois|The currents are chaotic... this will take time.}}
+:{{Text|say|Stellagosa|Whatever you plan to do, do it quickly. I sense the approach of something... hungry!}}
+
+Talk to Valtrois again to start the third and final ritual.
+
+:This is the last one. One last knot to work loose, and the energy should flow freely again.
+:I hope you are ready.
+''{{Gossip|I am ready, Valtrois.}}''
+
+:{{Text|say|Arcanist Valtrois|Almost... there. Just need to hold out a little longer!}}
+:{{Text|say|Stellagosa|Look out, champion! It is here!}}
+
+Upon finishing all rituals:
+:{{Text|say|Arcanist Valtrois|It is done! The flow has been redirected to Shal'Aran.}}
+
+==Progression==
+{{Crafting War}}
+
+==Patch changes==
+*{{Patch 7.1.0|note=Added.}}
+
+==External links==
+{{Elinks-quest|44875}}
+
+[[Category:The Nightfallen quests]]

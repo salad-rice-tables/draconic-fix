@@ -71,7 +71,7 @@ local function Wave(ref, t, wave)
 end
 
 pcall(CharDBExecute, [[CREATE TABLE IF NOT EXISTS characters.hero_nw_plans (name VARCHAR(40) NOT NULL PRIMARY KEY, plans INT UNSIGNED NOT NULL DEFAULT 0, total INT UNSIGNED NOT NULL DEFAULT 0) ENGINE=InnoDB]])
-local function Esc(s) return (string.gsub(tostring(s or ""), "'", "''")) end
+local function Esc(s) return (string.gsub(tostring(s or ""), "'", "''")) end -- local: Eluna izoluje subory, zdielany global nefunguje
 
 -- Scouts: stealthed Northwatch Scouts creep around the target before the assault. Each one carries a page of the Attack Plans.
 local function SpawnScouts(ref, t)

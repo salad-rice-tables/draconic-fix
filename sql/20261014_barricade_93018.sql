@@ -1,0 +1,9 @@
+-- Them That Were Lost (93018): Rough Barricade mechanic (user-reported retail behavior, 2026-10-14).
+-- Template 641790 (Wowhead-verified name; displayId 122605 from object page HTML).
+-- GO #1 (6961.9,-11159.5) + #2 (7092.2,-11098.6): user-pointed retail spots, Z from user .gps.
+-- Pen NPCs at user pen (6956.7,-10958.8): Dak'zor 253829, Van'zuk 259763, Tanna 259412, 4x Civilian 259692.
+-- (Shala'za: no template anywhere - skipped.) Barricade #3 after 3rd anchor refit.
+-- Script: GOSSIP_HELLO -> 261655 x1 + 253627 x4 kill credits, GO open state, despawn NPCs+GO (respawn cycle).
+-- Undo: 20261014_barricade_93018_undo.sql
+-- GO 990000000101200540 Rough Barricade at (6961.9,-11159.5)
+-- GO 990000000101200541 Rough Barricade at (7092.2,-11098.6)

@@ -1,0 +1,18 @@
+{
+  "rows": 52849,
+  "bt_ids": 234818,
+  "bt_conflicts": 321,
+  "wago_rows": 10704,
+  "kits": 337416,
+  "kits_with_files": 333215,
+  "categories": {
+    "spoken_no_audio": 28038,
+    "foreign_speaker": 8140,
+    "kit_silent": 6,
+    "tdb_text_diff": 286,
+    "tdb_bt_diff": 405,
+    "tdb_kit_diff": 64,
+    "combat_sound_as_speech": 841,
+    "gender_voice": 41
+  }
+}

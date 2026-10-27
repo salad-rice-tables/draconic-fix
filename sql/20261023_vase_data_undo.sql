@@ -1,0 +1,1 @@
+UPDATE gameobject_template SET Data0=93,Data1=0,Data2=0,Data3=0,Data4=1,Data5=0,Data6=0,Data7=0,Data8=0,Data9=0,Data10=0,Data11=0,Data12=0,Data13=0,Data14=0,Data15=0,Data16=0,Data17=0,Data18=0,Data19=0,Data20=0,Data21=0 WHERE entry=542849;

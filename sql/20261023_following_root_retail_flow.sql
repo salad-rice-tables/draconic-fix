@@ -1,0 +1,24 @@
+-- 86643 retail flow (video DGoB3uGnnR0): accept at camp -> Arator line + Halduron conversation; after cinematic Arator says 3 lines (ConversationLines 86334,81832,91563)
+DELETE FROM creature_text WHERE CreatureID=236610 AND GroupID IN (2,3,4);
+INSERT INTO creature_text (CreatureID,GroupID,ID,Text,Type,Language,Probability,Emote,Duration,Sound,SoundPlayType,BroadcastTextId,TextRange,comment) VALUES (236610,2,0,'If they were this well guarded, we''ll want to take care ahead. Follow me, and keep quiet.',12,0,100,0,0,300088,0,285072,0,'retail: after Zul''jan cinematic');
+INSERT INTO creature_text (CreatureID,GroupID,ID,Text,Type,Language,Probability,Emote,Duration,Sound,SoundPlayType,BroadcastTextId,TextRange,comment) VALUES (236610,3,0,'That weapon... the lightwood... they aren''t trying to conquer Eversong. They''re trying to defend themselves from the Twilight''s Blade.',12,0,100,0,0,300089,0,290102,0,'retail: after Zul''jan cinematic');
+INSERT INTO creature_text (CreatureID,GroupID,ID,Text,Type,Language,Probability,Emote,Duration,Sound,SoundPlayType,BroadcastTextId,TextRange,comment) VALUES (236610,4,0,'...and they''ve locked the way forward. Come on, $n. We need to follow them.',12,0,100,0,0,300090,0,298404,0,'retail: after Zul''jan cinematic');
+DELETE FROM creature_text WHERE CreatureID=236610 AND GroupID=0 AND ID=1;
+DELETE FROM smart_scripts WHERE source_type=0 AND entryorguid=241205 AND id IN (110,111,112);
+DELETE FROM smart_scripts WHERE source_type=0 AND entryorguid=241176 AND id=102;
+DELETE FROM smart_scripts WHERE source_type=0 AND entryorguid=236610 AND id=105;
+DELETE FROM smart_scripts WHERE source_type=9 AND entryorguid=23661000;
+CREATE TEMPORARY TABLE t_ss SELECT * FROM smart_scripts WHERE entryorguid=244042 AND source_type=0 AND id=101;
+UPDATE t_ss SET entryorguid=241205,source_type=0,id=111,event_type=19,event_param1=86643,event_param2=0,event_param3=0,event_param4=0,event_param5=0,event_flags=0,action_type=1,action_param1=0,action_param2=0,action_param3=0,target_type=0,comment='On quest accept 86643: Arator says retail line';
+INSERT INTO smart_scripts SELECT * FROM t_ss;
+UPDATE t_ss SET entryorguid=241205,source_type=0,id=112,event_type=19,event_param1=86643,event_param2=0,event_param3=0,event_param4=0,event_param5=0,event_flags=0,action_type=143,action_param1=9108602,action_param2=0,action_param3=0,target_type=7,comment='On quest accept 86643: Halduron conversation';
+INSERT INTO smart_scripts SELECT * FROM t_ss;
+UPDATE t_ss SET entryorguid=236610,source_type=0,id=105,event_type=62,event_param1=912046766,event_param2=0,event_param3=0,event_param4=0,event_param5=0,event_flags=0,action_type=80,action_param1=23661000,action_param2=0,action_param3=0,target_type=1,comment='Gossip select: after-cinematic Arator lines';
+INSERT INTO smart_scripts SELECT * FROM t_ss;
+UPDATE t_ss SET entryorguid=23661000,source_type=9,id=0,event_type=0,event_param1=64000,event_param2=64000,event_param3=0,event_param4=0,event_param5=0,event_flags=0,action_type=1,action_param1=2,action_param2=0,action_param3=0,target_type=1,comment='After cinematic (~64s): If they were this well guarded';
+INSERT INTO smart_scripts SELECT * FROM t_ss;
+UPDATE t_ss SET entryorguid=23661000,source_type=9,id=1,event_type=0,event_param1=6000,event_param2=6000,event_param3=0,event_param4=0,event_param5=0,event_flags=0,action_type=1,action_param1=3,action_param2=0,action_param3=0,target_type=1,comment='+6s: That weapon... the lightwood';
+INSERT INTO smart_scripts SELECT * FROM t_ss;
+UPDATE t_ss SET entryorguid=23661000,source_type=9,id=2,event_type=0,event_param1=8000,event_param2=8000,event_param3=0,event_param4=0,event_param5=0,event_flags=0,action_type=1,action_param1=4,action_param2=0,action_param3=0,target_type=1,comment='+8s: ...and they've locked the way forward';
+INSERT INTO smart_scripts SELECT * FROM t_ss;
+DROP TEMPORARY TABLE t_ss;

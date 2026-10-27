@@ -1,0 +1,6652 @@
+{
+ "final": [
+  {
+   "go": false,
+   "entry": 198029,
+   "x": -935.79,
+   "y": 610.58,
+   "z": 1237.04,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Lightfrenzied Potatoad",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841086
+  },
+  {
+   "go": false,
+   "entry": 216934,
+   "x": -700,
+   "y": -1858,
+   "z": 928,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Going to the shore",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841087
+  },
+  {
+   "go": false,
+   "entry": 237234,
+   "x": -287,
+   "y": -532,
+   "z": 997,
+   "phase": 45721,
+   "prov": "poi_quest",
+   "name": "Orweyna",
+   "kinds": [
+    "cend"
+   ],
+   "guid": 11841088
+  },
+  {
+   "go": false,
+   "entry": 237236,
+   "x": -230,
+   "y": -1111,
+   "z": 832,
+   "phase": 45722,
+   "prov": "poi_quest",
+   "name": "Amarakk",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841089
+  },
+  {
+   "go": false,
+   "entry": 237284,
+   "x": -307,
+   "y": -1091,
+   "z": 705,
+   "phase": 45726,
+   "prov": "poi_quest",
+   "name": "Amarakk",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841090
+  },
+  {
+   "go": false,
+   "entry": 237295,
+   "x": -750,
+   "y": 1203,
+   "z": 1286,
+   "phase": 45732,
+   "prov": "poi_quest",
+   "name": "Byarc",
+   "kinds": [
+    "cend"
+   ],
+   "guid": 11841091
+  },
+  {
+   "go": false,
+   "entry": 237325,
+   "x": -572,
+   "y": 1157,
+   "z": 1278,
+   "phase": 45733,
+   "prov": "poi_quest",
+   "name": "Orweyna",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841092
+  },
+  {
+   "go": false,
+   "entry": 237332,
+   "x": -208.9,
+   "y": 292.5,
+   "z": 907.79,
+   "phase": 0,
+   "prov": "poi_quest+pin_override",
+   "name": "Hagar",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841093
+  },
+  {
+   "go": false,
+   "entry": 237345,
+   "x": -58,
+   "y": -570,
+   "z": 888,
+   "phase": 45700,
+   "prov": "poi_obj",
+   "name": "Halduron Brightwing",
+   "kinds": [
+    "cend",
+    "credit",
+    "cstart"
+   ],
+   "guid": 11841094
+  },
+  {
+   "go": false,
+   "entry": 237356,
+   "x": -572,
+   "y": 1157,
+   "z": 1278,
+   "phase": 45734,
+   "prov": "poi_quest",
+   "name": "Orweyna",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841095
+  },
+  {
+   "go": false,
+   "entry": 237393,
+   "x": -562.24,
+   "y": 1155.83,
+   "z": 1335.36,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Afflicted Rutaani",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841096
+  },
+  {
+   "go": false,
+   "entry": 237483,
+   "x": -75,
+   "y": -1724,
+   "z": 1068,
+   "phase": 45699,
+   "prov": "poi_quest",
+   "name": "Orweyna",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841097
+  },
+  {
+   "go": false,
+   "entry": 237567,
+   "x": 147,
+   "y": 646,
+   "z": 1183,
+   "phase": 45703,
+   "prov": "poi_quest",
+   "name": "Hagar",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841098
+  },
+  {
+   "go": false,
+   "entry": 237582,
+   "x": -1268.95,
+   "y": 1413.31,
+   "z": 1104.15,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Lightblinded Sap Weaver",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841099
+  },
+  {
+   "go": false,
+   "entry": 237592,
+   "x": 1289.44,
+   "y": 29.2,
+   "z": 1228.1,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Captured Rutaani",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841100
+  },
+  {
+   "go": false,
+   "entry": 237623,
+   "x": 1204.53,
+   "y": 989.23,
+   "z": 1328.27,
+   "phase": 45720,
+   "prov": "backup",
+   "name": "Hungry Rotling",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841101
+  },
+  {
+   "go": false,
+   "entry": 237654,
+   "x": 1138,
+   "y": 873,
+   "z": 1339,
+   "phase": 45715,
+   "prov": "poi_obj",
+   "name": "Keem",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841102
+  },
+  {
+   "go": false,
+   "entry": 237655,
+   "x": 931,
+   "y": -579,
+   "z": 1207,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Kazat",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841103
+  },
+  {
+   "go": false,
+   "entry": 237658,
+   "x": -363,
+   "y": -1334,
+   "z": 664,
+   "phase": 45731,
+   "prov": "poi_obj",
+   "name": "Lured Manifestation",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841104
+  },
+  {
+   "go": false,
+   "entry": 237668,
+   "x": -374.47,
+   "y": -961.26,
+   "z": 714.89,
+   "phase": 45727,
+   "prov": "backup",
+   "name": "On'hiea",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841105
+  },
+  {
+   "go": false,
+   "entry": 237681,
+   "x": -542.05,
+   "y": -1176.62,
+   "z": 695.98,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Decaying Essence",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841106
+  },
+  {
+   "go": false,
+   "entry": 237683,
+   "x": -579.74,
+   "y": -1171.54,
+   "z": 695.38,
+   "phase": 46176,
+   "prov": "backup",
+   "name": "Aln Oozeling",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841107
+  },
+  {
+   "go": false,
+   "entry": 237684,
+   "x": -586.05,
+   "y": -1176.28,
+   "z": 695.31,
+   "phase": 46176,
+   "prov": "backup",
+   "name": "Coalesced Spirit",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841108
+  },
+  {
+   "go": false,
+   "entry": 237709,
+   "x": 942.04,
+   "y": -570.79,
+   "z": 1065.28,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Pilfering Petalwing",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841109
+  },
+  {
+   "go": false,
+   "entry": 237737,
+   "x": 1134,
+   "y": 875,
+   "z": 1340,
+   "phase": 45715,
+   "prov": "poi_obj",
+   "name": "Koozat",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841110
+  },
+  {
+   "go": false,
+   "entry": 237786,
+   "x": 1271,
+   "y": 935,
+   "z": 1332,
+   "phase": 45712,
+   "prov": "poi_quest",
+   "name": "Orweyna",
+   "kinds": [
+    "cend"
+   ],
+   "guid": 11841111
+  },
+  {
+   "go": false,
+   "entry": 237787,
+   "x": 1261,
+   "y": 938,
+   "z": 1332,
+   "phase": 45712,
+   "prov": "poi_objid",
+   "name": "Halduron Brightwing",
+   "kinds": [
+    "cend",
+    "credit",
+    "cstart"
+   ],
+   "guid": 11841112
+  },
+  {
+   "go": false,
+   "entry": 237837,
+   "x": 120,
+   "y": 740,
+   "z": 1161,
+   "phase": 45704,
+   "prov": "poi_obj",
+   "name": "Zur'ashar Kassameh",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841113
+  },
+  {
+   "go": false,
+   "entry": 237860,
+   "x": -128.1,
+   "y": 201.6,
+   "z": 988.14,
+   "phase": 45718,
+   "prov": "poi_quest+pin_override",
+   "name": "Orweyna",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841114
+  },
+  {
+   "go": false,
+   "entry": 238170,
+   "x": -155,
+   "y": -524,
+   "z": 1004,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Zur'ashar Kassameh",
+   "kinds": [
+    "cend",
+    "credit"
+   ],
+   "guid": 11841115
+  },
+  {
+   "go": false,
+   "entry": 239525,
+   "x": -75,
+   "y": -1724,
+   "z": 1068,
+   "phase": 0,
+   "prov": "poi_quest",
+   "name": "Ruia",
+   "kinds": [
+    "cend"
+   ],
+   "guid": 11841116
+  },
+  {
+   "go": false,
+   "entry": 239543,
+   "x": -68.67,
+   "y": -1721.35,
+   "z": 1068.26,
+   "phase": 45701,
+   "prov": "backup",
+   "name": "Petalvane",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841117
+  },
+  {
+   "go": false,
+   "entry": 239650,
+   "x": 293,
+   "y": 845,
+   "z": 1166,
+   "phase": 45705,
+   "prov": "poi_quest",
+   "name": "Zur'ashar Kassameh",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841118
+  },
+  {
+   "go": false,
+   "entry": 239668,
+   "x": 235.33,
+   "y": 1019.52,
+   "z": 1170.31,
+   "phase": 45706,
+   "prov": "backup",
+   "name": "Razorquill Remembrance",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841119
+  },
+  {
+   "go": false,
+   "entry": 239744,
+   "x": 316.1,
+   "y": 1004.38,
+   "z": 1177.62,
+   "phase": 45706,
+   "prov": "backup",
+   "name": "Pangquill Reminiscence",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841120
+  },
+  {
+   "go": false,
+   "entry": 239795,
+   "x": 367,
+   "y": 939,
+   "z": 1178,
+   "phase": 45707,
+   "prov": "poi_quest",
+   "name": "Zur'ashar Kassameh",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841121
+  },
+  {
+   "go": false,
+   "entry": 240225,
+   "x": 1145,
+   "y": 934,
+   "z": 1344,
+   "phase": 45713,
+   "prov": "poi_obj",
+   "name": "Eonka",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841122
+  },
+  {
+   "go": false,
+   "entry": 240238,
+   "x": 1313,
+   "y": 788,
+   "z": 1333,
+   "phase": 45713,
+   "prov": "poi_obj",
+   "name": "Teetem",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841123
+  },
+  {
+   "go": false,
+   "entry": 240239,
+   "x": 1227,
+   "y": 780,
+   "z": 1330,
+   "phase": 45713,
+   "prov": "poi_obj",
+   "name": "Rizam",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841124
+  },
+  {
+   "go": false,
+   "entry": 240388,
+   "x": 1234,
+   "y": 779,
+   "z": 1331,
+   "phase": 45715,
+   "prov": "poi_obj",
+   "name": "Rizam",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841125
+  },
+  {
+   "go": false,
+   "entry": 240389,
+   "x": 1310,
+   "y": 787,
+   "z": 1333,
+   "phase": 45715,
+   "prov": "poi_obj",
+   "name": "Teetem",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841126
+  },
+  {
+   "go": false,
+   "entry": 240404,
+   "x": -280,
+   "y": -272,
+   "z": 1005,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Yinaa",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841127
+  },
+  {
+   "go": false,
+   "entry": 240407,
+   "x": -34,
+   "y": -279,
+   "z": 989,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Naynar",
+   "kinds": [
+    "cend",
+    "credit"
+   ],
+   "guid": 11841128
+  },
+  {
+   "go": false,
+   "entry": 240533,
+   "x": 1249,
+   "y": 878,
+   "z": 1328,
+   "phase": 45714,
+   "prov": "poi_quest",
+   "name": "Orweyna",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841129
+  },
+  {
+   "go": false,
+   "entry": 240749,
+   "x": 321,
+   "y": 987,
+   "z": 1177,
+   "phase": 45708,
+   "prov": "poi_obj",
+   "name": "Observer Talos",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841130
+  },
+  {
+   "go": false,
+   "entry": 240839,
+   "x": 1265.1,
+   "y": 943.8,
+   "z": 1367.04,
+   "phase": 45712,
+   "prov": "poi_quest+pin_override",
+   "name": "Hagar",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841131
+  },
+  {
+   "go": false,
+   "entry": 241045,
+   "x": -283,
+   "y": -531,
+   "z": 997,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Ku'paal",
+   "kinds": [
+    "credit",
+    "cstart"
+   ],
+   "guid": 11841132
+  },
+  {
+   "go": false,
+   "entry": 241070,
+   "x": -226,
+   "y": -1110,
+   "z": 832,
+   "phase": 45722,
+   "prov": "poi_obj",
+   "name": "Orweyna",
+   "kinds": [
+    "cend",
+    "credit",
+    "cstart"
+   ],
+   "guid": 11841133
+  },
+  {
+   "go": false,
+   "entry": 241117,
+   "x": 596,
+   "y": 228,
+   "z": 1163,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Ancient Visionstone",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841134
+  },
+  {
+   "go": false,
+   "entry": 241172,
+   "x": 743,
+   "y": 454,
+   "z": 1160,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Zaratti Sword",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841135
+  },
+  {
+   "go": false,
+   "entry": 241280,
+   "x": -225,
+   "y": -1112,
+   "z": 834,
+   "phase": 45724,
+   "prov": "poi_obj",
+   "name": "Diminished Alndust",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841136
+  },
+  {
+   "go": false,
+   "entry": 241541,
+   "x": -757,
+   "y": -562,
+   "z": 1070,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Ancient Visionstone",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841137
+  },
+  {
+   "go": false,
+   "entry": 241560,
+   "x": 750.2,
+   "y": 459.1,
+   "z": 1285.24,
+   "phase": 0,
+   "prov": "poi_obj+pin_override",
+   "name": "Wey'nan",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841138
+  },
+  {
+   "go": false,
+   "entry": 241646,
+   "x": -380.52,
+   "y": -1100.9,
+   "z": 695.74,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Rift Shade",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841139
+  },
+  {
+   "go": false,
+   "entry": 241655,
+   "x": -1305,
+   "y": 1067,
+   "z": 1154,
+   "phase": 45734,
+   "prov": "poi_obj",
+   "name": "Hannan",
+   "kinds": [
+    "cend",
+    "credit",
+    "cstart"
+   ],
+   "guid": 11841140
+  },
+  {
+   "go": false,
+   "entry": 241690,
+   "x": -849.15,
+   "y": 1161.16,
+   "z": 1285.67,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Eager Volunteer",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841141
+  },
+  {
+   "go": false,
+   "entry": 241742,
+   "x": -205,
+   "y": -214,
+   "z": 1003,
+   "phase": 45736,
+   "prov": "poi_obj",
+   "name": "Orweyna",
+   "kinds": [
+    "cend",
+    "credit",
+    "cstart"
+   ],
+   "guid": 11841142
+  },
+  {
+   "go": false,
+   "entry": 241799,
+   "x": -1303,
+   "y": 1060,
+   "z": 1154,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Haranir Petalwing",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841143
+  },
+  {
+   "go": false,
+   "entry": 241831,
+   "x": 747,
+   "y": 366,
+   "z": 1182,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Wey'nan's Ward",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841144
+  },
+  {
+   "go": false,
+   "entry": 241836,
+   "x": 577,
+   "y": -1317,
+   "z": 976,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Ancient Visionstone",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841145
+  },
+  {
+   "go": false,
+   "entry": 242358,
+   "x": 1144.0,
+   "y": -1555.3,
+   "z": 1040.29,
+   "phase": 46116,
+   "prov": "poi_quest+pin_override",
+   "name": "Kuri",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841146
+  },
+  {
+   "go": false,
+   "entry": 242592,
+   "x": -264,
+   "y": -524,
+   "z": 991,
+   "phase": 46111,
+   "prov": "poi_obj",
+   "name": "Orweyna",
+   "kinds": [
+    "cend",
+    "credit",
+    "cstart"
+   ],
+   "guid": 11841147
+  },
+  {
+   "go": false,
+   "entry": 242593,
+   "x": 216,
+   "y": 7,
+   "z": 1106,
+   "phase": 46112,
+   "prov": "poi_quest",
+   "name": "Monte Gazlowe",
+   "kinds": [
+    "cstart"
+   ],
+   "guid": 11841148
+  },
+  {
+   "go": false,
+   "entry": 242594,
+   "x": 213,
+   "y": 14,
+   "z": 1106,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Nahuut",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841149
+  },
+  {
+   "go": false,
+   "entry": 242650,
+   "x": 1214.6,
+   "y": 792.3,
+   "z": 1329.59,
+   "phase": 0,
+   "prov": "poi_quest+pin_override",
+   "name": "Ney'leia",
+   "kinds": [
+    "cstart"
+   ],
+   "guid": 11841150
+  },
+  {
+   "go": false,
+   "entry": 242684,
+   "x": 905,
+   "y": -117,
+   "z": 1181,
+   "phase": 46122,
+   "prov": "poi_obj",
+   "name": "Ney'leia",
+   "kinds": [
+    "cend",
+    "credit",
+    "cstart"
+   ],
+   "guid": 11841151
+  },
+  {
+   "go": false,
+   "entry": 242689,
+   "x": 1051,
+   "y": -1677,
+   "z": 1087,
+   "phase": 46117,
+   "prov": "poi_quest",
+   "name": "Kamari",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841152
+  },
+  {
+   "go": false,
+   "entry": 242691,
+   "x": 1187,
+   "y": -1699,
+   "z": 1126,
+   "phase": 46118,
+   "prov": "poi_quest",
+   "name": "Kuri",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841153
+  },
+  {
+   "go": false,
+   "entry": 242693,
+   "x": -21.01,
+   "y": -341.73,
+   "z": 989.07,
+   "phase": 46114,
+   "prov": "backup",
+   "name": "Monte Gazlowe",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841154
+  },
+  {
+   "go": false,
+   "entry": 242698,
+   "x": 27,
+   "y": -310,
+   "z": 951,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Leave Your Mark",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841155
+  },
+  {
+   "go": false,
+   "entry": 242765,
+   "x": 1440,
+   "y": -105,
+   "z": 1260,
+   "phase": 46125,
+   "prov": "poi_obj",
+   "name": "Gomphusta",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841156
+  },
+  {
+   "go": false,
+   "entry": 242773,
+   "x": 1218.89,
+   "y": -1753.55,
+   "z": 1125.36,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Agitated Rootbat",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841157
+  },
+  {
+   "go": false,
+   "entry": 242787,
+   "x": 1140.66,
+   "y": -1856.27,
+   "z": 1096.33,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Mildewed Enmity",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841158
+  },
+  {
+   "go": false,
+   "entry": 242881,
+   "x": 30,
+   "y": -306,
+   "z": 950,
+   "phase": 46115,
+   "prov": "poi_quest",
+   "name": "Monte Gazlowe",
+   "kinds": [
+    "cend"
+   ],
+   "guid": 11841159
+  },
+  {
+   "go": false,
+   "entry": 242882,
+   "x": 31,
+   "y": -306,
+   "z": 950,
+   "phase": 46115,
+   "prov": "poi_quest",
+   "name": "Orweyna",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841160
+  },
+  {
+   "go": false,
+   "entry": 242935,
+   "x": -201,
+   "y": -473,
+   "z": 903,
+   "phase": 46114,
+   "prov": "poi_obj",
+   "name": "Tasty Mushroom Soup",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841161
+  },
+  {
+   "go": false,
+   "entry": 243053,
+   "x": 1026,
+   "y": -127,
+   "z": 1207,
+   "phase": 46123,
+   "prov": "poi_quest",
+   "name": "Ney'leia",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841162
+  },
+  {
+   "go": false,
+   "entry": 243178,
+   "x": -824.7,
+   "y": -1782.5,
+   "z": 922.55,
+   "phase": 46163,
+   "prov": "poi_quest+pin_override",
+   "name": "Brakko",
+   "kinds": [
+    "cend",
+    "credit"
+   ],
+   "guid": 11841163
+  },
+  {
+   "go": false,
+   "entry": 243179,
+   "x": -748,
+   "y": -1870,
+   "z": 919,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Motta",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841164
+  },
+  {
+   "go": false,
+   "entry": 243180,
+   "x": -806.56,
+   "y": -1774.55,
+   "z": 920.65,
+   "phase": 46163,
+   "prov": "backup",
+   "name": "Ziny",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841165
+  },
+  {
+   "go": false,
+   "entry": 243181,
+   "x": -747.38,
+   "y": -1839.62,
+   "z": 919.41,
+   "phase": 46163,
+   "prov": "backup",
+   "name": "Tuktuk",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841166
+  },
+  {
+   "go": false,
+   "entry": 243226,
+   "x": -707,
+   "y": -1856,
+   "z": 928,
+   "phase": 0,
+   "prov": "poi_quest",
+   "name": "Boletus",
+   "kinds": [
+    "cend",
+    "credit",
+    "cstart"
+   ],
+   "guid": 11841167
+  },
+  {
+   "go": false,
+   "entry": 243305,
+   "x": 119,
+   "y": 734,
+   "z": 1162,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Ancient Visionstone",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841168
+  },
+  {
+   "go": false,
+   "entry": 243306,
+   "x": 298,
+   "y": 838,
+   "z": 1166,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Ancient Visionstone",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841169
+  },
+  {
+   "go": false,
+   "entry": 243307,
+   "x": 367,
+   "y": 944,
+   "z": 1178,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Ancient Visionstone",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841170
+  },
+  {
+   "go": false,
+   "entry": 243759,
+   "x": 32,
+   "y": -464,
+   "z": 996,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Aksem",
+   "kinds": [
+    "cend",
+    "credit"
+   ],
+   "guid": 11841171
+  },
+  {
+   "go": false,
+   "entry": 243763,
+   "x": 239,
+   "y": -1030,
+   "z": 830,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Shul'ka Seila",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841172
+  },
+  {
+   "go": false,
+   "entry": 243776,
+   "x": -778.14,
+   "y": -1863.2,
+   "z": 910.32,
+   "phase": 46165,
+   "prov": "backup",
+   "name": "Ingester Glorbus",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841173
+  },
+  {
+   "go": false,
+   "entry": 243778,
+   "x": -774.25,
+   "y": -1827.9,
+   "z": 910.27,
+   "phase": 46165,
+   "prov": "backup",
+   "name": "Torbrul",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841174
+  },
+  {
+   "go": false,
+   "entry": 243779,
+   "x": -833.09,
+   "y": -1818.23,
+   "z": 910.68,
+   "phase": 46165,
+   "prov": "backup",
+   "name": "Kragthar",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841175
+  },
+  {
+   "go": false,
+   "entry": 243780,
+   "x": -805.99,
+   "y": -1814.75,
+   "z": 910.25,
+   "phase": 46165,
+   "prov": "backup",
+   "name": "Opportunistic Sporeglider",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841176
+  },
+  {
+   "go": false,
+   "entry": 243884,
+   "x": 265.6,
+   "y": 1004.4,
+   "z": 1177.83,
+   "phase": 45709,
+   "prov": "poi_quest+pin_override",
+   "name": "Zur'ashar Kassameh",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841177
+  },
+  {
+   "go": false,
+   "entry": 243930,
+   "x": 1138,
+   "y": 874,
+   "z": 1340,
+   "phase": 45713,
+   "prov": "poi_obj",
+   "name": "Keem",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841178
+  },
+  {
+   "go": false,
+   "entry": 244126,
+   "x": 1259,
+   "y": 940,
+   "z": 1367,
+   "phase": 45717,
+   "prov": "poi_obj",
+   "name": "Eonka",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841179
+  },
+  {
+   "go": false,
+   "entry": 244163,
+   "x": -249.3,
+   "y": -373.9,
+   "z": 989.41,
+   "phase": 0,
+   "prov": "poi_quest+pin_override",
+   "name": "Chua",
+   "kinds": [
+    "cstart"
+   ],
+   "guid": 11841180
+  },
+  {
+   "go": false,
+   "entry": 244242,
+   "x": -573,
+   "y": 319,
+   "z": 1158,
+   "phase": 46172,
+   "prov": "poi_quest",
+   "name": "En'liahn",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841181
+  },
+  {
+   "go": false,
+   "entry": 244394,
+   "x": -229.1,
+   "y": -1252.4,
+   "z": 854.96,
+   "phase": 46173,
+   "prov": "poi_quest+pin_override",
+   "name": "En'liahn",
+   "kinds": [
+    "cend",
+    "credit",
+    "cstart"
+   ],
+   "guid": 11841182
+  },
+  {
+   "go": false,
+   "entry": 244455,
+   "x": -621,
+   "y": -1187,
+   "z": 697,
+   "phase": 46175,
+   "prov": "poi_quest",
+   "name": "Amarakk",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841183
+  },
+  {
+   "go": false,
+   "entry": 244456,
+   "x": -614,
+   "y": -1189,
+   "z": 697,
+   "phase": 46175,
+   "prov": "poi_obj",
+   "name": "En'liahn",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841184
+  },
+  {
+   "go": false,
+   "entry": 244463,
+   "x": -539,
+   "y": -1018,
+   "z": 695,
+   "phase": 46177,
+   "prov": "poi_obj",
+   "name": "Morta'ka the Sundered Echo",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841185
+  },
+  {
+   "go": false,
+   "entry": 244465,
+   "x": -535,
+   "y": -1042,
+   "z": 696,
+   "phase": 46177,
+   "prov": "poi_obj",
+   "name": "En'liahn",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841186
+  },
+  {
+   "go": false,
+   "entry": 244473,
+   "x": -510,
+   "y": -1081,
+   "z": 697,
+   "phase": 46178,
+   "prov": "poi_quest",
+   "name": "En'liahn",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841187
+  },
+  {
+   "go": false,
+   "entry": 244890,
+   "x": -248.56,
+   "y": -1197.6,
+   "z": 817.16,
+   "phase": 46174,
+   "prov": "backup",
+   "name": "En'liahn's Inner Guide",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841188
+  },
+  {
+   "go": false,
+   "entry": 244891,
+   "x": -428.62,
+   "y": -1414.23,
+   "z": 746.63,
+   "phase": 46174,
+   "prov": "backup",
+   "name": "En'liahn's Inner Guide",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841189
+  },
+  {
+   "go": false,
+   "entry": 244892,
+   "x": -425.51,
+   "y": -1314.89,
+   "z": 705.15,
+   "phase": 46174,
+   "prov": "backup",
+   "name": "En'liahn's Inner Guide",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841190
+  },
+  {
+   "go": false,
+   "entry": 244893,
+   "x": -459.1,
+   "y": -1156.86,
+   "z": 695.88,
+   "phase": 46174,
+   "prov": "backup",
+   "name": "En'liahn's Inner Guide",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841191
+  },
+  {
+   "go": false,
+   "entry": 244894,
+   "x": -491.74,
+   "y": -1103.67,
+   "z": 696.55,
+   "phase": 46174,
+   "prov": "backup",
+   "name": "En'liahn's Inner Guide",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841192
+  },
+  {
+   "go": false,
+   "entry": 244896,
+   "x": -489.6,
+   "y": -1224.42,
+   "z": 695.49,
+   "phase": 46174,
+   "prov": "backup",
+   "name": "En'liahn's Inner Guide",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841193
+  },
+  {
+   "go": false,
+   "entry": 245022,
+   "x": 913,
+   "y": -108,
+   "z": 1183,
+   "phase": 46122,
+   "prov": "poi_obj",
+   "name": "Decaying Sporeguard",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841194
+  },
+  {
+   "go": false,
+   "entry": 245096,
+   "x": 1174.2,
+   "y": 1004.4,
+   "z": 1341.55,
+   "phase": 45847,
+   "prov": "poi_quest+pin_override",
+   "name": "Hagar",
+   "kinds": [
+    "cstart"
+   ],
+   "guid": 11841195
+  },
+  {
+   "go": false,
+   "entry": 245097,
+   "x": 1145,
+   "y": 1163,
+   "z": 1310,
+   "phase": 45851,
+   "prov": "poi_obj",
+   "name": "Hagar",
+   "kinds": [
+    "cend",
+    "credit",
+    "cstart"
+   ],
+   "guid": 11841196
+  },
+  {
+   "go": false,
+   "entry": 245166,
+   "x": 1350,
+   "y": -184,
+   "z": 1279,
+   "phase": 46124,
+   "prov": "poi_quest",
+   "name": "Ney'leia",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841197
+  },
+  {
+   "go": false,
+   "entry": 245168,
+   "x": -606,
+   "y": -1177,
+   "z": 696,
+   "phase": 46176,
+   "prov": "poi_obj",
+   "name": "Shul'ka Ward",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841198
+  },
+  {
+   "go": false,
+   "entry": 245531,
+   "x": 1489,
+   "y": -1090,
+   "z": 1286,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Ancient Visionstone",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841199
+  },
+  {
+   "go": false,
+   "entry": 245637,
+   "x": 1386.3,
+   "y": -1373.5,
+   "z": 1043.49,
+   "phase": 46126,
+   "prov": "poi_quest+pin_override",
+   "name": "Su'meera",
+   "kinds": [
+    "cstart"
+   ],
+   "guid": 11841200
+  },
+  {
+   "go": false,
+   "entry": 245639,
+   "x": 1018,
+   "y": -1027,
+   "z": 1076,
+   "phase": 46127,
+   "prov": "poi_quest",
+   "name": "Su'meera",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841201
+  },
+  {
+   "go": false,
+   "entry": 245659,
+   "x": 1058.68,
+   "y": -566.31,
+   "z": 1173.35,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Lattice Crawler",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841202
+  },
+  {
+   "go": false,
+   "entry": 245728,
+   "x": 1188,
+   "y": -640,
+   "z": 1212,
+   "phase": 46130,
+   "prov": "poi_quest",
+   "name": "Su'meera",
+   "kinds": [
+    "cend"
+   ],
+   "guid": 11841203
+  },
+  {
+   "go": false,
+   "entry": 245744,
+   "x": 1225,
+   "y": -654,
+   "z": 1238,
+   "phase": 46129,
+   "prov": "poi_obj",
+   "name": "Neekat",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841204
+  },
+  {
+   "go": false,
+   "entry": 245828,
+   "x": 34,
+   "y": -463,
+   "z": 997,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Hara'ti Herbal Tea",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841205
+  },
+  {
+   "go": false,
+   "entry": 245879,
+   "x": 1345.9,
+   "y": 913.5,
+   "z": 1345.42,
+   "phase": 45845,
+   "prov": "poi_quest+pin_override",
+   "name": "Orweyna",
+   "kinds": [
+    "cstart"
+   ],
+   "guid": 11841206
+  },
+  {
+   "go": false,
+   "entry": 245881,
+   "x": 1168,
+   "y": 1004,
+   "z": 1342,
+   "phase": 45847,
+   "prov": "poi_quest",
+   "name": "Orweyna",
+   "kinds": [
+    "cend"
+   ],
+   "guid": 11841207
+  },
+  {
+   "go": false,
+   "entry": 245986,
+   "x": 1278,
+   "y": -666,
+   "z": 1237,
+   "phase": 46128,
+   "prov": "poi_obj",
+   "name": "Su'meera",
+   "kinds": [
+    "cend",
+    "credit",
+    "cstart"
+   ],
+   "guid": 11841208
+  },
+  {
+   "go": false,
+   "entry": 246162,
+   "x": -945.88,
+   "y": -1570.42,
+   "z": 976.19,
+   "phase": 46168,
+   "prov": "backup",
+   "name": "Foraging Sporeglider",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841209
+  },
+  {
+   "go": false,
+   "entry": 246208,
+   "x": -646,
+   "y": -1883,
+   "z": 942,
+   "phase": 46161,
+   "prov": "poi_quest",
+   "name": "Brakko",
+   "kinds": [
+    "cend",
+    "credit",
+    "cstart"
+   ],
+   "guid": 11841210
+  },
+  {
+   "go": false,
+   "entry": 246210,
+   "x": -632.62,
+   "y": -1883.36,
+   "z": 941.15,
+   "phase": 46161,
+   "prov": "backup",
+   "name": "Tuktuk",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841211
+  },
+  {
+   "go": false,
+   "entry": 246211,
+   "x": -632.91,
+   "y": -1873.33,
+   "z": 941.34,
+   "phase": 46161,
+   "prov": "backup",
+   "name": "Ziny",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841212
+  },
+  {
+   "go": false,
+   "entry": 246277,
+   "x": 1224.72,
+   "y": 974.08,
+   "z": 1327.41,
+   "phase": 45844,
+   "prov": "backup",
+   "name": "Withered Plant",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841213
+  },
+  {
+   "go": false,
+   "entry": 246443,
+   "x": 279,
+   "y": -942,
+   "z": 942,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Thiever's Nest",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841214
+  },
+  {
+   "go": false,
+   "entry": 246456,
+   "x": 1105.48,
+   "y": 1034.83,
+   "z": 1339.13,
+   "phase": 45848,
+   "prov": "backup",
+   "name": "Forgotten Song",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841215
+  },
+  {
+   "go": false,
+   "entry": 246490,
+   "x": 1145,
+   "y": 1061,
+   "z": 1321,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Vision of True Calling",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841216
+  },
+  {
+   "go": false,
+   "entry": 246522,
+   "x": 1143.95,
+   "y": 1064.78,
+   "z": 1320.71,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Vision of True Calling - Event",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841217
+  },
+  {
+   "go": false,
+   "entry": 246546,
+   "x": 1144,
+   "y": 1125,
+   "z": 1313,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Forgotten Melody",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841218
+  },
+  {
+   "go": false,
+   "entry": 246607,
+   "x": 1111,
+   "y": -1377,
+   "z": 1027,
+   "phase": 0,
+   "prov": "poi_quest",
+   "name": "Greenspeaker Cyenna",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841219
+  },
+  {
+   "go": false,
+   "entry": 246710,
+   "x": 1406.45,
+   "y": -1540.12,
+   "z": 1056.2,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Allergenic Weed",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841220
+  },
+  {
+   "go": false,
+   "entry": 246719,
+   "x": -671,
+   "y": -1405,
+   "z": 704,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Ritual Offering",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841221
+  },
+  {
+   "go": false,
+   "entry": 246777,
+   "x": -1093,
+   "y": 254,
+   "z": 1167,
+   "phase": 46141,
+   "prov": "poi_quest",
+   "name": "Ghikal",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841222
+  },
+  {
+   "go": false,
+   "entry": 246780,
+   "x": -1061.05,
+   "y": 233.87,
+   "z": 1163.56,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Decanimated Blightbringer",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841223
+  },
+  {
+   "go": false,
+   "entry": 246849,
+   "x": -976.17,
+   "y": 247.08,
+   "z": 1162.49,
+   "phase": 46143,
+   "prov": "backup",
+   "name": "Blooming Corpse",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841224
+  },
+  {
+   "go": false,
+   "entry": 246889,
+   "x": 229,
+   "y": -1021,
+   "z": 895,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Thiever's Nest",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841225
+  },
+  {
+   "go": false,
+   "entry": 246892,
+   "x": -845,
+   "y": 112,
+   "z": 1114,
+   "phase": 46145,
+   "prov": "poi_obj",
+   "name": "Agericus Decanimatus",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841226
+  },
+  {
+   "go": false,
+   "entry": 246894,
+   "x": -819.71,
+   "y": 308.25,
+   "z": 1145.42,
+   "phase": 46144,
+   "prov": "backup",
+   "name": "Fruiting Mycelium",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841227
+  },
+  {
+   "go": false,
+   "entry": 247252,
+   "x": -891,
+   "y": -1541,
+   "z": 935,
+   "phase": 0,
+   "prov": "poi_quest",
+   "name": "Tuktuk",
+   "kinds": [
+    "cend"
+   ],
+   "guid": 11841228
+  },
+  {
+   "go": false,
+   "entry": 247640,
+   "x": 295.9,
+   "y": -116.4,
+   "z": 1067.93,
+   "phase": 0,
+   "prov": "poi_quest+pin_override",
+   "name": "Shao'mal",
+   "kinds": [
+    "cstart"
+   ],
+   "guid": 11841229
+  },
+  {
+   "go": false,
+   "entry": 247658,
+   "x": 444,
+   "y": -503,
+   "z": 1066,
+   "phase": 46134,
+   "prov": "poi_quest",
+   "name": "Nayeli",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841230
+  },
+  {
+   "go": false,
+   "entry": 247660,
+   "x": 1114,
+   "y": -1381,
+   "z": 1026,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Waters of Har'kuai",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841231
+  },
+  {
+   "go": false,
+   "entry": 247665,
+   "x": 16.21,
+   "y": -792.64,
+   "z": 1058.82,
+   "phase": 46135,
+   "prov": "backup",
+   "name": "Behemoth Petalwing",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841232
+  },
+  {
+   "go": false,
+   "entry": 247736,
+   "x": 53.6,
+   "y": -752.5,
+   "z": 1039.14,
+   "phase": 46136,
+   "prov": "poi_quest+pin_override",
+   "name": "Nayeli",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841233
+  },
+  {
+   "go": false,
+   "entry": 247772,
+   "x": 316.1,
+   "y": -525.35,
+   "z": 1072.64,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Territorial Petalwing",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841234
+  },
+  {
+   "go": false,
+   "entry": 247936,
+   "x": 1354,
+   "y": 481,
+   "z": 1335,
+   "phase": 46139,
+   "prov": "poi_quest",
+   "name": "Yu'relen",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841235
+  },
+  {
+   "go": false,
+   "entry": 248117,
+   "x": 1172,
+   "y": 803,
+   "z": 1335,
+   "phase": 46140,
+   "prov": "poi_quest",
+   "name": "Yu'relen",
+   "kinds": [
+    "cend"
+   ],
+   "guid": 11841236
+  },
+  {
+   "go": false,
+   "entry": 248125,
+   "x": -864,
+   "y": 111,
+   "z": 1121,
+   "phase": 46145,
+   "prov": "poi_obj",
+   "name": "Zombified Guardian",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841237
+  },
+  {
+   "go": false,
+   "entry": 248433,
+   "x": 599,
+   "y": -1188,
+   "z": 1004,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Morta'ka",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841238
+  },
+  {
+   "go": false,
+   "entry": 248574,
+   "x": 45.95,
+   "y": -850.66,
+   "z": 1057.89,
+   "phase": 46137,
+   "prov": "backup",
+   "name": "Shao'mal",
+   "kinds": [
+    "cend"
+   ],
+   "guid": 11841239
+  },
+  {
+   "go": false,
+   "entry": 248598,
+   "x": 1386,
+   "y": 621,
+   "z": 1348,
+   "phase": 46138,
+   "prov": "poi_obj",
+   "name": "Sporeglider Bloomterror",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841240
+  },
+  {
+   "go": false,
+   "entry": 248669,
+   "x": 1366.06,
+   "y": 1004.38,
+   "z": 1333.86,
+   "phase": 45719,
+   "prov": "backup",
+   "name": "Withered Lasher",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841241
+  },
+  {
+   "go": false,
+   "entry": 248749,
+   "x": 636,
+   "y": 345,
+   "z": 1173,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Bend Roots to Ruilla's Will",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841242
+  },
+  {
+   "go": false,
+   "entry": 248839,
+   "x": 781,
+   "y": 373,
+   "z": 1187,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Rootway to Azeroth",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841243
+  },
+  {
+   "go": false,
+   "entry": 248986,
+   "x": -813.8,
+   "y": -1880.36,
+   "z": 911.31,
+   "phase": 46165,
+   "prov": "backup",
+   "name": "Malgar the Uprooter",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841244
+  },
+  {
+   "go": false,
+   "entry": 249257,
+   "x": -284,
+   "y": -1895,
+   "z": 1080,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Ancient Visionstone",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841245
+  },
+  {
+   "go": false,
+   "entry": 249307,
+   "x": -421,
+   "y": -2006,
+   "z": 1076,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Tarati",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841246
+  },
+  {
+   "go": false,
+   "entry": 249308,
+   "x": -374,
+   "y": -1978,
+   "z": 1083,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Thornhat",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841247
+  },
+  {
+   "go": false,
+   "entry": 249325,
+   "x": -1167,
+   "y": -192,
+   "z": 1064,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Gelatonius",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841248
+  },
+  {
+   "go": false,
+   "entry": 249361,
+   "x": -1227,
+   "y": -339,
+   "z": 1066,
+   "phase": 0,
+   "prov": "poi_quest",
+   "name": "Shul'ka Li'tya",
+   "kinds": [
+    "cend"
+   ],
+   "guid": 11841249
+  },
+  {
+   "go": false,
+   "entry": 249403,
+   "x": -382,
+   "y": -1916,
+   "z": 1079,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Awe'ohna",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841250
+  },
+  {
+   "go": false,
+   "entry": 249567,
+   "x": -382,
+   "y": -1916,
+   "z": 1079,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Ring",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841251
+  },
+  {
+   "go": false,
+   "entry": 249704,
+   "x": 598.78,
+   "y": -1237.21,
+   "z": 993.79,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Fungarian Brawler",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841252
+  },
+  {
+   "go": false,
+   "entry": 249776,
+   "x": -852,
+   "y": 623,
+   "z": 1241,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Thorm'belan",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841253
+  },
+  {
+   "go": false,
+   "entry": 250537,
+   "x": 538.2,
+   "y": -1146.33,
+   "z": 985.77,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Pustulehelm",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841254
+  },
+  {
+   "go": false,
+   "entry": 250551,
+   "x": 629.07,
+   "y": -1222.06,
+   "z": 999.13,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Roonek",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841255
+  },
+  {
+   "go": false,
+   "entry": 250640,
+   "x": 599,
+   "y": -1144,
+   "z": 1007,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Russula",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841256
+  },
+  {
+   "go": false,
+   "entry": 250862,
+   "x": 699.74,
+   "y": -1070.6,
+   "z": 1072.04,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Warbound Fungarian",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841257
+  },
+  {
+   "go": false,
+   "entry": 251084,
+   "x": 1265.1,
+   "y": 822.62,
+   "z": 1331.6,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Withered Plant",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841258
+  },
+  {
+   "go": false,
+   "entry": 251259,
+   "x": -215,
+   "y": -151,
+   "z": 1014,
+   "phase": 0,
+   "prov": "poi_quest",
+   "name": "Mothkeeper Wew'tam",
+   "kinds": [
+    "cend"
+   ],
+   "guid": 11841259
+  },
+  {
+   "go": false,
+   "entry": 251524,
+   "x": -694,
+   "y": -1873,
+   "z": 930,
+   "phase": 0,
+   "prov": "poi_quest",
+   "name": "Sturdy Fungarian",
+   "kinds": [
+    "cend"
+   ],
+   "guid": 11841260
+  },
+  {
+   "go": false,
+   "entry": 251572,
+   "x": -819.85,
+   "y": -1840.58,
+   "z": 910.27,
+   "phase": 46166,
+   "prov": "backup",
+   "name": "Glupo",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841261
+  },
+  {
+   "go": false,
+   "entry": 251627,
+   "x": -111,
+   "y": -427,
+   "z": 988,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Swift Grimlynx",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841262
+  },
+  {
+   "go": false,
+   "entry": 251715,
+   "x": -702,
+   "y": -1855,
+   "z": 928,
+   "phase": 46164,
+   "prov": "poi_quest",
+   "name": "Tuktuk",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841263
+  },
+  {
+   "go": false,
+   "entry": 251723,
+   "x": -698,
+   "y": -1878,
+   "z": 930,
+   "phase": 46164,
+   "prov": "poi_quest",
+   "name": "Ziny",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841264
+  },
+  {
+   "go": false,
+   "entry": 251750,
+   "x": -810.36,
+   "y": -1827.12,
+   "z": 910.56,
+   "phase": 46166,
+   "prov": "backup",
+   "name": "Skullcap",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841265
+  },
+  {
+   "go": false,
+   "entry": 251751,
+   "x": -775.59,
+   "y": -1824.34,
+   "z": 910.26,
+   "phase": 46165,
+   "prov": "backup",
+   "name": "Fizzcap",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841266
+  },
+  {
+   "go": false,
+   "entry": 251914,
+   "x": 901.65,
+   "y": 595.44,
+   "z": 1330.22,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Voracious Thornmaw",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841267
+  },
+  {
+   "go": false,
+   "entry": 251915,
+   "x": 851.17,
+   "y": 595.44,
+   "z": 1328.91,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Foraging Potatoad",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841268
+  },
+  {
+   "go": false,
+   "entry": 251916,
+   "x": 1063.19,
+   "y": 595.44,
+   "z": 1342.97,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Insatiable Saptor",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841269
+  },
+  {
+   "go": false,
+   "entry": 252495,
+   "x": 805,
+   "y": 357,
+   "z": 1284,
+   "phase": 46147,
+   "prov": "poi_quest",
+   "name": "Hagar",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841270
+  },
+  {
+   "go": false,
+   "entry": 252871,
+   "x": -57,
+   "y": -1762,
+   "z": 1067,
+   "phase": 0,
+   "prov": "poi_quest",
+   "name": "Zur'ashar Shay'neia",
+   "kinds": [
+    "cstart"
+   ],
+   "guid": 11841271
+  },
+  {
+   "go": false,
+   "entry": 252872,
+   "x": -279.6,
+   "y": -1903.6,
+   "z": 1080.12,
+   "phase": 46152,
+   "prov": "poi_quest+pin_override",
+   "name": "Orn'shan",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841272
+  },
+  {
+   "go": false,
+   "entry": 252994,
+   "x": -259.37,
+   "y": -1888.48,
+   "z": 1079.15,
+   "phase": 46151,
+   "prov": "backup",
+   "name": "Paint-Crazed Firefly",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841273
+  },
+  {
+   "go": false,
+   "entry": 252997,
+   "x": -279.56,
+   "y": -1843.04,
+   "z": 1077.16,
+   "phase": 46151,
+   "prov": "backup",
+   "name": "Paint-Crazed Potatoad",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841274
+  },
+  {
+   "go": false,
+   "entry": 252998,
+   "x": -158.41,
+   "y": -1903.63,
+   "z": 1082.23,
+   "phase": 46151,
+   "prov": "backup",
+   "name": "Paint-Crazed Skipper",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841275
+  },
+  {
+   "go": false,
+   "entry": 253000,
+   "x": -148.31,
+   "y": -1858.19,
+   "z": 1068.82,
+   "phase": 46151,
+   "prov": "backup",
+   "name": "Paint-Crazed Lasher",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841276
+  },
+  {
+   "go": false,
+   "entry": 253087,
+   "x": -653,
+   "y": 502,
+   "z": 1205,
+   "phase": 0,
+   "prov": "poi_quest",
+   "name": "Luminescent Corpse",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841277
+  },
+  {
+   "go": false,
+   "entry": 253105,
+   "x": -1124,
+   "y": 751,
+   "z": 1198,
+   "phase": 46158,
+   "prov": "poi_quest",
+   "name": "Hannan",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841278
+  },
+  {
+   "go": false,
+   "entry": 253312,
+   "x": -26,
+   "y": -1687,
+   "z": 1073,
+   "phase": 0,
+   "prov": "poi_quest",
+   "name": "Ney'tar",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841279
+  },
+  {
+   "go": false,
+   "entry": 253313,
+   "x": -23,
+   "y": -1705,
+   "z": 1069,
+   "phase": 46155,
+   "prov": "poi_obj",
+   "name": "Grumpy",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841280
+  },
+  {
+   "go": false,
+   "entry": 253317,
+   "x": 528.11,
+   "y": -1585.56,
+   "z": 956.86,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Cascade Drifter",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841281
+  },
+  {
+   "go": false,
+   "entry": 253343,
+   "x": 346.4,
+   "y": 989.2,
+   "z": 1177.4,
+   "phase": 45710,
+   "prov": "poi_obj+pin_override",
+   "name": "Orweyna",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841282
+  },
+  {
+   "go": false,
+   "entry": 253390,
+   "x": -138.2,
+   "y": -1676.4,
+   "z": 1071.75,
+   "phase": 0,
+   "prov": "poi_quest+pin_override",
+   "name": "Ketan",
+   "kinds": [
+    "cstart"
+   ],
+   "guid": 11841283
+  },
+  {
+   "go": false,
+   "entry": 253392,
+   "x": -33,
+   "y": -1757,
+   "z": 1066,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Akazi",
+   "kinds": [
+    "cend",
+    "credit",
+    "cstart"
+   ],
+   "guid": 11841284
+  },
+  {
+   "go": false,
+   "entry": 253400,
+   "x": -201,
+   "y": -1614,
+   "z": 1036,
+   "phase": 46150,
+   "prov": "poi_obj",
+   "name": "Radooni",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841285
+  },
+  {
+   "go": false,
+   "entry": 253433,
+   "x": -140,
+   "y": -1719,
+   "z": 1067,
+   "phase": 0,
+   "prov": "poi_quest",
+   "name": "Ketan",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841286
+  },
+  {
+   "go": false,
+   "entry": 253443,
+   "x": -248.0,
+   "y": -1646.38,
+   "z": 1018.06,
+   "phase": 46150,
+   "prov": "backup",
+   "name": "Ketan",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841287
+  },
+  {
+   "go": false,
+   "entry": 253539,
+   "x": -1056.94,
+   "y": 398.54,
+   "z": 1214.87,
+   "phase": 46158,
+   "prov": "backup",
+   "name": "Lightspored Potadpole",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841288
+  },
+  {
+   "go": false,
+   "entry": 253558,
+   "x": -1213,
+   "y": 852,
+   "z": 1208,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Adzikel",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841289
+  },
+  {
+   "go": false,
+   "entry": 254252,
+   "x": 324,
+   "y": -1679,
+   "z": 979,
+   "phase": 46149,
+   "prov": "poi_obj",
+   "name": "Ketan",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841290
+  },
+  {
+   "go": false,
+   "entry": 254468,
+   "x": -34,
+   "y": -1757,
+   "z": 1066,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Spear Presented",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841291
+  },
+  {
+   "go": false,
+   "entry": 254620,
+   "x": -26,
+   "y": -1692,
+   "z": 1072,
+   "phase": 46155,
+   "prov": "poi_obj",
+   "name": "F'liks",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841292
+  },
+  {
+   "go": false,
+   "entry": 254621,
+   "x": -25,
+   "y": -1684,
+   "z": 1073,
+   "phase": 46155,
+   "prov": "poi_obj",
+   "name": "T'omm",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841293
+  },
+  {
+   "go": false,
+   "entry": 254622,
+   "x": -30,
+   "y": -1678,
+   "z": 1076,
+   "phase": 46155,
+   "prov": "poi_obj",
+   "name": "N'ala",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841294
+  },
+  {
+   "go": false,
+   "entry": 254658,
+   "x": 491,
+   "y": -1812,
+   "z": 973,
+   "phase": 46156,
+   "prov": "poi_obj",
+   "name": "N'ala",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841295
+  },
+  {
+   "go": false,
+   "entry": 254659,
+   "x": 233,
+   "y": -1716,
+   "z": 987,
+   "phase": 46156,
+   "prov": "poi_obj",
+   "name": "T'omm",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841296
+  },
+  {
+   "go": false,
+   "entry": 254660,
+   "x": 452,
+   "y": -1818,
+   "z": 975,
+   "phase": 46156,
+   "prov": "poi_obj",
+   "name": "F'liks",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841297
+  },
+  {
+   "go": false,
+   "entry": 254661,
+   "x": 403,
+   "y": -1644,
+   "z": 967,
+   "phase": 46156,
+   "prov": "poi_obj",
+   "name": "Grumpy",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841298
+  },
+  {
+   "go": false,
+   "entry": 255056,
+   "x": -160,
+   "y": -518,
+   "z": 906,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Doecha",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841299
+  },
+  {
+   "go": false,
+   "entry": 255723,
+   "x": -400.71,
+   "y": -1812.75,
+   "z": 1079.49,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Withered Plant",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841300
+  },
+  {
+   "go": false,
+   "entry": 255809,
+   "x": 510,
+   "y": -1843,
+   "z": 977,
+   "phase": 46149,
+   "prov": "poi_obj",
+   "name": "Ketan",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841301
+  },
+  {
+   "go": false,
+   "entry": 255828,
+   "x": -152,
+   "y": -275,
+   "z": 993,
+   "phase": 0,
+   "prov": "poi_quest",
+   "name": "Orweyna",
+   "kinds": [
+    "cend"
+   ],
+   "guid": 11841302
+  },
+  {
+   "go": false,
+   "entry": 255847,
+   "x": -168.5,
+   "y": -1858.19,
+   "z": 1069.42,
+   "phase": 46151,
+   "prov": "backup",
+   "name": "Paint-Crazed Thornmaw",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841303
+  },
+  {
+   "go": false,
+   "entry": 256243,
+   "x": -877.96,
+   "y": 427.4,
+   "z": 1149.54,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Fallen Potatoad",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841304
+  },
+  {
+   "go": false,
+   "entry": 257287,
+   "x": -702,
+   "y": -1855,
+   "z": 928,
+   "phase": 46164,
+   "prov": "poi_quest",
+   "name": "Brakko",
+   "kinds": [
+    "cend",
+    "cstart"
+   ],
+   "guid": 11841305
+  },
+  {
+   "go": true,
+   "entry": 508414,
+   "x": -1450.68,
+   "y": 1360.3,
+   "z": 1109.53,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Lightbloom Spreader",
+   "kinds": [
+    "go_obj"
+   ],
+   "guid": 19804706
+  },
+  {
+   "go": true,
+   "entry": 508743,
+   "x": 1290.34,
+   "y": 860.49,
+   "z": 1329.82,
+   "phase": 45719,
+   "prov": "backup",
+   "name": "Rotting Refuse",
+   "kinds": [
+    "go_obj"
+   ],
+   "guid": 19804707
+  },
+  {
+   "go": true,
+   "entry": 523801,
+   "x": 1179.29,
+   "y": 875.64,
+   "z": 1333.45,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Na'bala Bloom",
+   "kinds": [
+    "go_obj"
+   ],
+   "guid": 19804708
+  },
+  {
+   "go": true,
+   "entry": 525659,
+   "x": 1204.53,
+   "y": 830.2,
+   "z": 1329.09,
+   "phase": 45716,
+   "prov": "backup",
+   "name": "Light-infected Bitterbloom",
+   "kinds": [
+    "go_obj"
+   ],
+   "guid": 19804709
+  },
+  {
+   "go": true,
+   "entry": 527509,
+   "x": -360.98,
+   "y": -1357.92,
+   "z": 670.99,
+   "phase": 45731,
+   "prov": "backup",
+   "name": "Greater Alndust",
+   "kinds": [
+    "go_obj"
+   ],
+   "guid": 19804710
+  },
+  {
+   "go": true,
+   "entry": 529370,
+   "x": 1002.61,
+   "y": -1562.84,
+   "z": 1072.78,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Stray Skyshards",
+   "kinds": [
+    "go_obj"
+   ],
+   "guid": 19804711
+  },
+  {
+   "go": true,
+   "entry": 531388,
+   "x": -324,
+   "y": -286,
+   "z": 964,
+   "phase": 0,
+   "prov": "poi_objid",
+   "name": "Weapon Rack",
+   "kinds": [
+    "go_obj"
+   ],
+   "guid": 19804712
+  },
+  {
+   "go": true,
+   "entry": 553763,
+   "x": 1205.18,
+   "y": 806.03,
+   "z": 1331.73,
+   "phase": 45844,
+   "prov": "backup",
+   "name": "Invasive Fungi",
+   "kinds": [
+    "go_obj"
+   ],
+   "guid": 19804713
+  },
+  {
+   "go": true,
+   "entry": 556532,
+   "x": 316.1,
+   "y": -532.93,
+   "z": 1072.11,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Nest",
+   "kinds": [
+    "go_obj"
+   ],
+   "guid": 19804714
+  },
+  {
+   "go": true,
+   "entry": 558065,
+   "x": 1421,
+   "y": 572,
+   "z": 1352,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Wash Bed",
+   "kinds": [
+    "go_obj"
+   ],
+   "guid": 19804715
+  },
+  {
+   "go": true,
+   "entry": 558066,
+   "x": 1383,
+   "y": 537,
+   "z": 1334,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Fillet Knife",
+   "kinds": [
+    "go_obj"
+   ],
+   "guid": 19804716
+  },
+  {
+   "go": true,
+   "entry": 558126,
+   "x": 1170,
+   "y": 811,
+   "z": 1336,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Salad",
+   "kinds": [
+    "go_obj"
+   ],
+   "guid": 19804717
+  },
+  {
+   "go": true,
+   "entry": 558129,
+   "x": 1170,
+   "y": 813,
+   "z": 1336,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Fish Plate",
+   "kinds": [
+    "go_obj"
+   ],
+   "guid": 19804718
+  },
+  {
+   "go": true,
+   "entry": 558135,
+   "x": 1170,
+   "y": 806,
+   "z": 1335,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Ribs",
+   "kinds": [
+    "go_obj"
+   ],
+   "guid": 19804719
+  },
+  {
+   "go": true,
+   "entry": 558146,
+   "x": 1170,
+   "y": 809,
+   "z": 1335,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Nutrient-Rich Dirt",
+   "kinds": [
+    "go_obj"
+   ],
+   "guid": 19804720
+  },
+  {
+   "go": true,
+   "entry": 563492,
+   "x": 598.78,
+   "y": -1222.06,
+   "z": 993.89,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Containment Ward",
+   "kinds": [
+    "go_obj"
+   ],
+   "guid": 19804721
+  },
+  {
+   "go": true,
+   "entry": 564999,
+   "x": 1360,
+   "y": 487,
+   "z": 1336,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Yu'relen's Elixir",
+   "kinds": [
+    "go_obj"
+   ],
+   "guid": 19804722
+  },
+  {
+   "go": true,
+   "entry": 565800,
+   "x": 1358,
+   "y": 493,
+   "z": 1334,
+   "phase": 0,
+   "prov": "poi_obj",
+   "name": "Root Dash Delivery Crate",
+   "kinds": [
+    "go_obj"
+   ],
+   "guid": 19804723
+  },
+  {
+   "go": true,
+   "entry": 576255,
+   "x": 813.15,
+   "y": 375.85,
+   "z": 1283.59,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Withered Root Segment",
+   "kinds": [
+    "go_obj"
+   ],
+   "guid": 19804724
+  },
+  {
+   "go": true,
+   "entry": 584495,
+   "x": 512.96,
+   "y": -1737.02,
+   "z": 955.53,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Drifter Egg Sack",
+   "kinds": [
+    "go_obj"
+   ],
+   "guid": 19804725
+  },
+  {
+   "go": true,
+   "entry": 584534,
+   "x": -138.22,
+   "y": -1721.87,
+   "z": 1067.02,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Chloroceros Bone",
+   "kinds": [
+    "go_obj"
+   ],
+   "guid": 19804726
+  },
+  {
+   "go": true,
+   "entry": 602755,
+   "x": -132.25,
+   "y": -1722.54,
+   "z": 1067.55,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Sporeglider's Tail Spore",
+   "kinds": [
+    "go_obj"
+   ],
+   "guid": 19804727
+  },
+  {
+   "go": true,
+   "entry": 613789,
+   "x": -183.65,
+   "y": -1858.19,
+   "z": 1068.98,
+   "phase": 46151,
+   "prov": "backup",
+   "name": "Paint Globule",
+   "kinds": [
+    "go_obj"
+   ],
+   "guid": 19804728
+  },
+  {
+   "go": true,
+   "entry": 614157,
+   "x": -759.11,
+   "y": 489.42,
+   "z": 1238.68,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Sprouting Spores",
+   "kinds": [
+    "go_obj"
+   ],
+   "guid": 19804729
+  },
+  {
+   "go": true,
+   "entry": 618300,
+   "x": -705.57,
+   "y": 487.31,
+   "z": 1226.76,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Suspicious Tracks",
+   "kinds": [
+    "go_obj"
+   ],
+   "guid": 19804730
+  },
+  {
+   "go": true,
+   "entry": 618309,
+   "x": -843.57,
+   "y": 456.2,
+   "z": 1191.75,
+   "phase": 0,
+   "prov": "backup",
+   "name": "Disturbed Earth",
+   "kinds": [
+    "go_obj"
+   ],
+   "guid": 19804731
+  },
+  {
+   "go": true,
+   "entry": 90009387,
+   "x": 469.58,
+   "y": 1025.99,
+   "z": 1554.24,
+   "phase": 46148,
+   "prov": "backup",
+   "name": "Fire",
+   "kinds": [
+    "go_obj"
+   ],
+   "guid": 19804732
+  },
+  {
+   "go": false,
+   "entry": 237105,
+   "x": 1234.8,
+   "y": -646.5,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Livid Lasher",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841306
+  },
+  {
+   "go": false,
+   "entry": 237105,
+   "x": 1244.9,
+   "y": -661.7,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Livid Lasher",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841307
+  },
+  {
+   "go": false,
+   "entry": 237711,
+   "x": 1053.1,
+   "y": -479.9,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Petalchomper",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841308
+  },
+  {
+   "go": false,
+   "entry": 237711,
+   "x": 1123.8,
+   "y": -479.9,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Petalchomper",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841309
+  },
+  {
+   "go": false,
+   "entry": 237711,
+   "x": 1123.8,
+   "y": -426.9,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Petalchomper",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841310
+  },
+  {
+   "go": false,
+   "entry": 237711,
+   "x": 1073.3,
+   "y": -585.9,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Petalchomper",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841311
+  },
+  {
+   "go": false,
+   "entry": 237711,
+   "x": 962.2,
+   "y": -540.5,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Petalchomper",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841312
+  },
+  {
+   "go": false,
+   "entry": 240970,
+   "x": 644.2,
+   "y": 315.2,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Zaratti Fanatic",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841313
+  },
+  {
+   "go": false,
+   "entry": 240970,
+   "x": 689.6,
+   "y": 345.5,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Zaratti Fanatic",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841314
+  },
+  {
+   "go": false,
+   "entry": 240970,
+   "x": 669.4,
+   "y": 383.4,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Zaratti Fanatic",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841315
+  },
+  {
+   "go": false,
+   "entry": 240970,
+   "x": 598.8,
+   "y": 292.5,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Zaratti Fanatic",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841316
+  },
+  {
+   "go": false,
+   "entry": 240970,
+   "x": 563.4,
+   "y": 330.4,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Zaratti Fanatic",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841317
+  },
+  {
+   "go": false,
+   "entry": 241824,
+   "x": -1440.6,
+   "y": 1367.9,
+   "z": 2694,
+   "phase": 45735,
+   "prov": "pin",
+   "name": "Lightbloom Shield",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841318
+  },
+  {
+   "go": false,
+   "entry": 241824,
+   "x": -1874.7,
+   "y": 1292.1,
+   "z": 2694,
+   "phase": 45735,
+   "prov": "pin",
+   "name": "Lightbloom Shield",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841319
+  },
+  {
+   "go": false,
+   "entry": 241824,
+   "x": -1481.0,
+   "y": 1277.0,
+   "z": 2694,
+   "phase": 45735,
+   "prov": "pin",
+   "name": "Lightbloom Shield",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841320
+  },
+  {
+   "go": false,
+   "entry": 241824,
+   "x": -1642.5,
+   "y": 1125.5,
+   "z": 2694,
+   "phase": 45735,
+   "prov": "pin",
+   "name": "Lightbloom Shield",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841321
+  },
+  {
+   "go": false,
+   "entry": 241824,
+   "x": -1642.5,
+   "y": 1110.4,
+   "z": 2694,
+   "phase": 45735,
+   "prov": "pin",
+   "name": "Lightbloom Shield",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841322
+  },
+  {
+   "go": false,
+   "entry": 243799,
+   "x": -529,
+   "y": -1185,
+   "z": 700,
+   "phase": 0,
+   "prov": "blob",
+   "name": "Ritual Offering",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841323
+  },
+  {
+   "go": false,
+   "entry": 245755,
+   "x": 1699.2,
+   "y": -994.9,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Animated Paint",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841324
+  },
+  {
+   "go": false,
+   "entry": 245755,
+   "x": 1668.9,
+   "y": -994.9,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Animated Paint",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841325
+  },
+  {
+   "go": false,
+   "entry": 245755,
+   "x": 1699.2,
+   "y": -1010.0,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Animated Paint",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841326
+  },
+  {
+   "go": false,
+   "entry": 245755,
+   "x": 1679.0,
+   "y": -1010.0,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Animated Paint",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841327
+  },
+  {
+   "go": false,
+   "entry": 246360,
+   "x": 1116,
+   "y": 883,
+   "z": 1346,
+   "phase": 45845,
+   "prov": "blob",
+   "name": "Outsider",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841328
+  },
+  {
+   "go": false,
+   "entry": 246442,
+   "x": 265.6,
+   "y": -1100.9,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Thiever's Nest",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841329
+  },
+  {
+   "go": false,
+   "entry": 246718,
+   "x": -402,
+   "y": -1126,
+   "z": 698,
+   "phase": 0,
+   "prov": "blob",
+   "name": "Ritual Offering",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841330
+  },
+  {
+   "go": false,
+   "entry": 247648,
+   "x": -37.3,
+   "y": -858.6,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Weary Defender",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841331
+  },
+  {
+   "go": false,
+   "entry": 247648,
+   "x": -87.7,
+   "y": -798.0,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Weary Defender",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841332
+  },
+  {
+   "go": false,
+   "entry": 247648,
+   "x": -87.7,
+   "y": -934.3,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Weary Defender",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841333
+  },
+  {
+   "go": false,
+   "entry": 247648,
+   "x": -87.7,
+   "y": -767.7,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Weary Defender",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841334
+  },
+  {
+   "go": false,
+   "entry": 247648,
+   "x": -17.1,
+   "y": -934.3,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Weary Defender",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841335
+  },
+  {
+   "go": false,
+   "entry": 248205,
+   "x": -723.8,
+   "y": -464.8,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Auralight Moth",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841336
+  },
+  {
+   "go": false,
+   "entry": 248205,
+   "x": -733.9,
+   "y": -464.8,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Auralight Moth",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841337
+  },
+  {
+   "go": false,
+   "entry": 248205,
+   "x": -713.7,
+   "y": -479.9,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Auralight Moth",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841338
+  },
+  {
+   "go": false,
+   "entry": 248205,
+   "x": -754.1,
+   "y": -510.2,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Auralight Moth",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841339
+  },
+  {
+   "go": false,
+   "entry": 248205,
+   "x": -784.4,
+   "y": -510.2,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Auralight Moth",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841340
+  },
+  {
+   "go": false,
+   "entry": 248226,
+   "x": -774.3,
+   "y": -464.8,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Whispering Petalwing",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841341
+  },
+  {
+   "go": false,
+   "entry": 248226,
+   "x": -784.4,
+   "y": -464.8,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Whispering Petalwing",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841342
+  },
+  {
+   "go": false,
+   "entry": 248227,
+   "x": -824.7,
+   "y": -434.5,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Rancidbloom Potatoad",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841343
+  },
+  {
+   "go": false,
+   "entry": 248227,
+   "x": -804.5,
+   "y": -479.9,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Rancidbloom Potatoad",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841344
+  },
+  {
+   "go": false,
+   "entry": 248227,
+   "x": -834.8,
+   "y": -479.9,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Rancidbloom Potatoad",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841345
+  },
+  {
+   "go": false,
+   "entry": 249055,
+   "x": -229.1,
+   "y": -1100.9,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Escaping Ooze",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841346
+  },
+  {
+   "go": false,
+   "entry": 249055,
+   "x": -319.9,
+   "y": -1161.5,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Escaping Ooze",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841347
+  },
+  {
+   "go": false,
+   "entry": 249055,
+   "x": -249.3,
+   "y": -1025.2,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Escaping Ooze",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841348
+  },
+  {
+   "go": false,
+   "entry": 249055,
+   "x": -239.2,
+   "y": -1176.6,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Escaping Ooze",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841349
+  },
+  {
+   "go": false,
+   "entry": 249055,
+   "x": -279.6,
+   "y": -1010.0,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Escaping Ooze",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841350
+  },
+  {
+   "go": false,
+   "entry": 249095,
+   "x": 60,
+   "y": -1168,
+   "z": 843,
+   "phase": 0,
+   "prov": "blob",
+   "name": "Bo'ke",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841351
+  },
+  {
+   "go": false,
+   "entry": 250255,
+   "x": 518.0,
+   "y": -1615.9,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Frightened Potadpole",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841352
+  },
+  {
+   "go": false,
+   "entry": 250255,
+   "x": 487.7,
+   "y": -1585.6,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Frightened Potadpole",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841353
+  },
+  {
+   "go": false,
+   "entry": 250255,
+   "x": 568.5,
+   "y": -1600.7,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Frightened Potadpole",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841354
+  },
+  {
+   "go": false,
+   "entry": 250255,
+   "x": 528.1,
+   "y": -1525.0,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Frightened Potadpole",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841355
+  },
+  {
+   "go": false,
+   "entry": 250255,
+   "x": 588.7,
+   "y": -1631.0,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Frightened Potadpole",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841356
+  },
+  {
+   "go": false,
+   "entry": 250679,
+   "x": 619.0,
+   "y": -1025.2,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Rich Soil",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841357
+  },
+  {
+   "go": false,
+   "entry": 250679,
+   "x": 659.4,
+   "y": -1070.6,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Rich Soil",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841358
+  },
+  {
+   "go": false,
+   "entry": 250679,
+   "x": 568.5,
+   "y": -1070.6,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Rich Soil",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841359
+  },
+  {
+   "go": false,
+   "entry": 250679,
+   "x": 568.5,
+   "y": -1085.7,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Rich Soil",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841360
+  },
+  {
+   "go": false,
+   "entry": 251606,
+   "x": -158.4,
+   "y": -373.9,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Scurrying Vermin",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841361
+  },
+  {
+   "go": false,
+   "entry": 251606,
+   "x": -198.8,
+   "y": -343.6,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Scurrying Vermin",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841362
+  },
+  {
+   "go": false,
+   "entry": 251606,
+   "x": -158.4,
+   "y": -419.3,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Scurrying Vermin",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841363
+  },
+  {
+   "go": false,
+   "entry": 251606,
+   "x": -198.8,
+   "y": -419.3,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Scurrying Vermin",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841364
+  },
+  {
+   "go": false,
+   "entry": 251606,
+   "x": -97.8,
+   "y": -313.3,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Scurrying Vermin",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841365
+  },
+  {
+   "go": false,
+   "entry": 253825,
+   "x": -87.7,
+   "y": -298.2,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Dried Acorn",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841366
+  },
+  {
+   "go": false,
+   "entry": 253825,
+   "x": -148.3,
+   "y": -336.0,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Dried Acorn",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841367
+  },
+  {
+   "go": false,
+   "entry": 253825,
+   "x": -87.7,
+   "y": -336.0,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Dried Acorn",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841368
+  },
+  {
+   "go": false,
+   "entry": 253825,
+   "x": -178.6,
+   "y": -343.6,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Dried Acorn",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841369
+  },
+  {
+   "go": false,
+   "entry": 253825,
+   "x": -67.5,
+   "y": -237.6,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Dried Acorn",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841370
+  },
+  {
+   "go": false,
+   "entry": 255206,
+   "x": -713.7,
+   "y": -540.5,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Rutaani Sapling",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841371
+  },
+  {
+   "go": false,
+   "entry": 255206,
+   "x": -713.7,
+   "y": -555.6,
+   "z": 2694,
+   "phase": 0,
+   "prov": "pin",
+   "name": "Rutaani Sapling",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841372
+  },
+  {
+   "go": false,
+   "entry": 256992,
+   "x": 1061,
+   "y": -1519,
+   "z": 1027,
+   "phase": 0,
+   "prov": "blob",
+   "name": "Riverscale Feasts",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841373
+  },
+  {
+   "go": false,
+   "entry": 256992,
+   "x": 1200,
+   "y": -1491,
+   "z": 1026,
+   "phase": 0,
+   "prov": "blob",
+   "name": "Riverscale Feasts",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841374
+  },
+  {
+   "go": false,
+   "entry": 256992,
+   "x": 1237,
+   "y": -1397,
+   "z": 1026,
+   "phase": 0,
+   "prov": "blob",
+   "name": "Riverscale Feasts",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841375
+  },
+  {
+   "go": false,
+   "entry": 256992,
+   "x": 1186,
+   "y": -1351,
+   "z": 1030,
+   "phase": 0,
+   "prov": "blob",
+   "name": "Riverscale Feasts",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841376
+  },
+  {
+   "go": false,
+   "entry": 244441,
+   "x": -608,
+   "y": -1424,
+   "z": 708,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Aln'haran Tear",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841377
+  },
+  {
+   "go": false,
+   "entry": 244441,
+   "x": -526,
+   "y": -1422,
+   "z": 713,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Aln'haran Tear",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841378
+  },
+  {
+   "go": false,
+   "entry": 244441,
+   "x": -274,
+   "y": -1235,
+   "z": 807,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Aln'haran Tear",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841379
+  },
+  {
+   "go": false,
+   "entry": 244441,
+   "x": -243,
+   "y": -1196,
+   "z": 820,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Aln'haran Tear",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841380
+  },
+  {
+   "go": false,
+   "entry": 244441,
+   "x": -171,
+   "y": -1065,
+   "z": 824,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Aln'haran Tear",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841381
+  },
+  {
+   "go": false,
+   "entry": 244441,
+   "x": -151,
+   "y": -968,
+   "z": 825,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Aln'haran Tear",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841382
+  },
+  {
+   "go": false,
+   "entry": 244441,
+   "x": -157,
+   "y": -928,
+   "z": 831,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Aln'haran Tear",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841383
+  },
+  {
+   "go": false,
+   "entry": 244441,
+   "x": -217,
+   "y": -850,
+   "z": 826,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Aln'haran Tear",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841384
+  },
+  {
+   "go": false,
+   "entry": 244441,
+   "x": -275,
+   "y": -818,
+   "z": 824,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Aln'haran Tear",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841385
+  },
+  {
+   "go": false,
+   "entry": 244441,
+   "x": -313,
+   "y": -861,
+   "z": 824,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Aln'haran Tear",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841386
+  },
+  {
+   "go": false,
+   "entry": 244441,
+   "x": -572,
+   "y": -1248,
+   "z": 698,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Aln'haran Tear",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841387
+  },
+  {
+   "go": false,
+   "entry": 244441,
+   "x": -654,
+   "y": -1402,
+   "z": 705,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Aln'haran Tear",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841388
+  },
+  {
+   "go": false,
+   "entry": 247499,
+   "x": 537,
+   "y": 631,
+   "z": 1438,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Smoldering Fire",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841389
+  },
+  {
+   "go": false,
+   "entry": 247499,
+   "x": 729,
+   "y": 709,
+   "z": 1597,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Smoldering Fire",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841390
+  },
+  {
+   "go": false,
+   "entry": 247499,
+   "x": 1026,
+   "y": 830,
+   "z": 1570,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Smoldering Fire",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841391
+  },
+  {
+   "go": false,
+   "entry": 247499,
+   "x": 1016,
+   "y": 1043,
+   "z": 1644,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Smoldering Fire",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841392
+  },
+  {
+   "go": false,
+   "entry": 247499,
+   "x": 637,
+   "y": 1131,
+   "z": 1624,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Smoldering Fire",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841393
+  },
+  {
+   "go": false,
+   "entry": 247499,
+   "x": 190,
+   "y": 1015,
+   "z": 1420,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Smoldering Fire",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841394
+  },
+  {
+   "go": false,
+   "entry": 247499,
+   "x": 30,
+   "y": 925,
+   "z": 1330,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Smoldering Fire",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841395
+  },
+  {
+   "go": false,
+   "entry": 247499,
+   "x": -48,
+   "y": 796,
+   "z": 1264,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Smoldering Fire",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841396
+  },
+  {
+   "go": false,
+   "entry": 247499,
+   "x": 16,
+   "y": 731,
+   "z": 1240,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Smoldering Fire",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841397
+  },
+  {
+   "go": false,
+   "entry": 247499,
+   "x": 1224,
+   "y": 788,
+   "z": 1457,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Smoldering Fire",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841398
+  },
+  {
+   "go": false,
+   "entry": 247499,
+   "x": 1349,
+   "y": 884,
+   "z": 1474,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Smoldering Fire",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841399
+  },
+  {
+   "go": false,
+   "entry": 247499,
+   "x": 1437,
+   "y": 971,
+   "z": 1478,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Smoldering Fire",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841400
+  },
+  {
+   "go": false,
+   "entry": 247499,
+   "x": 1536,
+   "y": 1112,
+   "z": 1637,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Smoldering Fire",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841401
+  },
+  {
+   "go": false,
+   "entry": 247499,
+   "x": 1459,
+   "y": 1145,
+   "z": 1593,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Smoldering Fire",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841402
+  },
+  {
+   "go": false,
+   "entry": 247499,
+   "x": 1207,
+   "y": 1138,
+   "z": 1423,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Smoldering Fire",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841403
+  },
+  {
+   "go": false,
+   "entry": 247499,
+   "x": 1030,
+   "y": 1063,
+   "z": 1390,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Smoldering Fire",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841404
+  },
+  {
+   "go": false,
+   "entry": 247499,
+   "x": 2195,
+   "y": -2901,
+   "z": 555,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Smoldering Fire",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841405
+  },
+  {
+   "go": false,
+   "entry": 247499,
+   "x": 2238,
+   "y": -2900,
+   "z": 555,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Smoldering Fire",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841406
+  },
+  {
+   "go": false,
+   "entry": 247499,
+   "x": 2372,
+   "y": -2896,
+   "z": 555,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Smoldering Fire",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841407
+  },
+  {
+   "go": false,
+   "entry": 247499,
+   "x": 2366,
+   "y": -2886,
+   "z": 555,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Smoldering Fire",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841408
+  },
+  {
+   "go": false,
+   "entry": 247499,
+   "x": 2338,
+   "y": -2858,
+   "z": 555,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Smoldering Fire",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841409
+  },
+  {
+   "go": false,
+   "entry": 247499,
+   "x": 2318,
+   "y": -2843,
+   "z": 555,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Smoldering Fire",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841410
+  },
+  {
+   "go": false,
+   "entry": 247499,
+   "x": 2304,
+   "y": -2834,
+   "z": 555,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Smoldering Fire",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841411
+  },
+  {
+   "go": false,
+   "entry": 247499,
+   "x": 2285,
+   "y": -2829,
+   "z": 555,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Smoldering Fire",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841412
+  },
+  {
+   "go": false,
+   "entry": 247499,
+   "x": 2250,
+   "y": -2844,
+   "z": 555,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Smoldering Fire",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841413
+  },
+  {
+   "go": false,
+   "entry": 247499,
+   "x": 2196,
+   "y": -2888,
+   "z": 555,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Smoldering Fire",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841414
+  },
+  {
+   "go": false,
+   "entry": 253808,
+   "x": -1760,
+   "y": 907,
+   "z": 1100,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Orweyna's Belongings",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841415
+  },
+  {
+   "go": false,
+   "entry": 253808,
+   "x": -1727,
+   "y": 1086,
+   "z": 1100,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Orweyna's Belongings",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841416
+  },
+  {
+   "go": false,
+   "entry": 253808,
+   "x": -1880,
+   "y": 1312,
+   "z": 1100,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Orweyna's Belongings",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841417
+  },
+  {
+   "go": false,
+   "entry": 253808,
+   "x": -1887,
+   "y": 1072,
+   "z": 1100,
+   "phase": 0,
+   "prov": "blob_special",
+   "name": "Orweyna's Belongings",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841418
+  },
+  {
+   "go": false,
+   "entry": 250684,
+   "x": 228.5,
+   "y": 828.5,
+   "z": 1175,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Delectable Dinner",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841419
+  },
+  {
+   "go": false,
+   "entry": 250684,
+   "x": 208.0,
+   "y": 840.0,
+   "z": 1175,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Delectable Dinner",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841420
+  },
+  {
+   "go": false,
+   "entry": 250684,
+   "x": 222.8,
+   "y": 802.6,
+   "z": 1160,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Delectable Dinner",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841421
+  },
+  {
+   "go": false,
+   "entry": 250684,
+   "x": 241.8,
+   "y": 856.3,
+   "z": 1175,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Delectable Dinner",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841422
+  },
+  {
+   "go": false,
+   "entry": 250684,
+   "x": 177.2,
+   "y": 820.8,
+   "z": 1147,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Delectable Dinner",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841423
+  },
+  {
+   "go": false,
+   "entry": 250684,
+   "x": 265.2,
+   "y": 800.1,
+   "z": 1160,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Delectable Dinner",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841424
+  },
+  {
+   "go": false,
+   "entry": 250684,
+   "x": 218.4,
+   "y": 836.2,
+   "z": 1175,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Delectable Dinner",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841425
+  },
+  {
+   "go": false,
+   "entry": 250684,
+   "x": 212.7,
+   "y": 813.4,
+   "z": 1160,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Delectable Dinner",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841426
+  },
+  {
+   "go": false,
+   "entry": 250684,
+   "x": 244.9,
+   "y": 837.4,
+   "z": 1175,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Delectable Dinner",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841427
+  },
+  {
+   "go": false,
+   "entry": 250684,
+   "x": 188.1,
+   "y": 841.9,
+   "z": 1148,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Delectable Dinner",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841428
+  },
+  {
+   "go": false,
+   "entry": 250684,
+   "x": 239.1,
+   "y": 788.6,
+   "z": 1160,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Delectable Dinner",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841429
+  },
+  {
+   "go": false,
+   "entry": 250684,
+   "x": 236.4,
+   "y": 879.1,
+   "z": 1175,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Delectable Dinner",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841430
+  },
+  {
+   "go": false,
+   "entry": 250684,
+   "x": 213.6,
+   "y": 824.5,
+   "z": 1175,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Delectable Dinner",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841431
+  },
+  {
+   "go": false,
+   "entry": 250684,
+   "x": 237.1,
+   "y": 824.8,
+   "z": 1175,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Delectable Dinner",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841432
+  },
+  {
+   "go": false,
+   "entry": 250684,
+   "x": 205.5,
+   "y": 849.8,
+   "z": 1148,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Delectable Dinner",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841433
+  },
+  {
+   "go": false,
+   "entry": 250684,
+   "x": 216.0,
+   "y": 793.8,
+   "z": 1160,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Delectable Dinner",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841434
+  },
+  {
+   "go": false,
+   "entry": 250684,
+   "x": 254.1,
+   "y": 856.9,
+   "z": 1175,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Delectable Dinner",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841435
+  },
+  {
+   "go": false,
+   "entry": 250684,
+   "x": 167.5,
+   "y": 830.7,
+   "z": 1147,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Delectable Dinner",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841436
+  },
+  {
+   "go": false,
+   "entry": 250684,
+   "x": 226.2,
+   "y": 822.9,
+   "z": 1175,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Delectable Dinner",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841437
+  },
+  {
+   "go": false,
+   "entry": 250684,
+   "x": 219.7,
+   "y": 845.5,
+   "z": 1175,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Delectable Dinner",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841438
+  },
+  {
+   "go": false,
+   "entry": 250742,
+   "x": 218.8,
+   "y": 841.4,
+   "z": 1175,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Succulent Snack",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841439
+  },
+  {
+   "go": false,
+   "entry": 250742,
+   "x": 207.9,
+   "y": 810.5,
+   "z": 1160,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Succulent Snack",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841440
+  },
+  {
+   "go": false,
+   "entry": 250742,
+   "x": 250.8,
+   "y": 835.2,
+   "z": 1166,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Succulent Snack",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841441
+  },
+  {
+   "go": false,
+   "entry": 250742,
+   "x": 185.9,
+   "y": 848.5,
+   "z": 1148,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Succulent Snack",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841442
+  },
+  {
+   "go": false,
+   "entry": 250742,
+   "x": 235.2,
+   "y": 781.8,
+   "z": 1160,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Succulent Snack",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841443
+  },
+  {
+   "go": false,
+   "entry": 250742,
+   "x": 245.1,
+   "y": 881.0,
+   "z": 1175,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Succulent Snack",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841444
+  },
+  {
+   "go": false,
+   "entry": 250742,
+   "x": 208.5,
+   "y": 823.5,
+   "z": 1175,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Succulent Snack",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841445
+  },
+  {
+   "go": false,
+   "entry": 250742,
+   "x": 241.2,
+   "y": 821.0,
+   "z": 1160,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Succulent Snack",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841446
+  },
+  {
+   "go": false,
+   "entry": 250742,
+   "x": 206.2,
+   "y": 856.0,
+   "z": 1148,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Succulent Snack",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841447
+  },
+  {
+   "go": false,
+   "entry": 250742,
+   "x": 210.1,
+   "y": 789.9,
+   "z": 1160,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Succulent Snack",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841448
+  },
+  {
+   "go": false,
+   "entry": 250742,
+   "x": 261.8,
+   "y": 854.8,
+   "z": 1175,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Succulent Snack",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841449
+  },
+  {
+   "go": false,
+   "entry": 250742,
+   "x": 163.4,
+   "y": 838.6,
+   "z": 1147,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Succulent Snack",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841450
+  },
+  {
+   "go": false,
+   "entry": 250742,
+   "x": 228.4,
+   "y": 818.2,
+   "z": 1160,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Succulent Snack",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841451
+  },
+  {
+   "go": false,
+   "entry": 250742,
+   "x": 222.4,
+   "y": 850.4,
+   "z": 1175,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Succulent Snack",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841452
+  },
+  {
+   "go": false,
+   "entry": 250742,
+   "x": 197.6,
+   "y": 807.6,
+   "z": 1160,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Succulent Snack",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841453
+  },
+  {
+   "go": false,
+   "entry": 250742,
+   "x": 260.5,
+   "y": 828.5,
+   "z": 1166,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Succulent Snack",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841454
+  },
+  {
+   "go": false,
+   "entry": 250742,
+   "x": 184.4,
+   "y": 861.6,
+   "z": 1148,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Succulent Snack",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841455
+  },
+  {
+   "go": false,
+   "entry": 250742,
+   "x": 225.6,
+   "y": 770.7,
+   "z": 1160,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Succulent Snack",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841456
+  },
+  {
+   "go": false,
+   "entry": 250742,
+   "x": 228.4,
+   "y": 838.8,
+   "z": 1175,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Succulent Snack",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841457
+  },
+  {
+   "go": false,
+   "entry": 250742,
+   "x": 198.8,
+   "y": 824.7,
+   "z": 1148,
+   "phase": 0,
+   "prov": "blob_scatter",
+   "name": "Succulent Snack",
+   "kinds": [
+    "credit"
+   ],
+   "guid": 11841458
+  },
+  {
+   "go": false,
+   "entry": 241315,
+   "x": -318.78,
+   "y": -1272.34,
+   "z": 793.503,
+   "phase": 45725,
+   "prov": "backup_helper",
+   "name": "Ward of the Shul'ka",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841459
+  },
+  {
+   "go": false,
+   "entry": 241317,
+   "x": -418.986,
+   "y": -1267.12,
+   "z": 701.779,
+   "phase": 45725,
+   "prov": "backup_helper",
+   "name": "Ward of the Shul'ka",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841460
+  },
+  {
+   "go": false,
+   "entry": 241327,
+   "x": -297.872,
+   "y": -1081.62,
+   "z": 705.022,
+   "phase": 45725,
+   "prov": "backup_helper",
+   "name": "Ward of the Shul'ka",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841461
+  },
+  {
+   "go": false,
+   "entry": 241648,
+   "x": -416.932,
+   "y": -1171.38,
+   "z": 696.424,
+   "phase": 45729,
+   "prov": "backup_helper",
+   "name": "Ward of the Shul'ka",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841462
+  },
+  {
+   "go": false,
+   "entry": 241648,
+   "x": -448.969,
+   "y": -1206.74,
+   "z": 695.421,
+   "phase": 45729,
+   "prov": "backup_helper",
+   "name": "Ward of the Shul'ka",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841463
+  },
+  {
+   "go": false,
+   "entry": 241648,
+   "x": -463.167,
+   "y": -1157.41,
+   "z": 696.424,
+   "phase": 45729,
+   "prov": "backup_helper",
+   "name": "Ward of the Shul'ka",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841464
+  },
+  {
+   "go": false,
+   "entry": 241900,
+   "x": -270.178,
+   "y": -461.763,
+   "z": 934.152,
+   "phase": 0,
+   "prov": "backup_helper",
+   "name": "Eversong Rootway",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841465
+  },
+  {
+   "go": false,
+   "entry": 254203,
+   "x": -764.287,
+   "y": -1600.89,
+   "z": 964.801,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Scavenging Stalker",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841466
+  },
+  {
+   "go": false,
+   "entry": 254203,
+   "x": -804.542,
+   "y": -1600.71,
+   "z": 958.543,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Scavenging Stalker",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841467
+  },
+  {
+   "go": false,
+   "entry": 254203,
+   "x": -846.842,
+   "y": -1612.76,
+   "z": 937.393,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Scavenging Stalker",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841468
+  },
+  {
+   "go": false,
+   "entry": 254203,
+   "x": -883.684,
+   "y": -1545.74,
+   "z": 934.133,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Scavenging Stalker",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841469
+  },
+  {
+   "go": false,
+   "entry": 254203,
+   "x": -774.255,
+   "y": -1615.85,
+   "z": 963.296,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Scavenging Stalker",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841470
+  },
+  {
+   "go": false,
+   "entry": 254203,
+   "x": -784.35,
+   "y": -1615.85,
+   "z": 961.793,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Scavenging Stalker",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841471
+  },
+  {
+   "go": false,
+   "entry": 254203,
+   "x": -906.869,
+   "y": -1612.83,
+   "z": 936.685,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Scavenging Stalker",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841472
+  },
+  {
+   "go": false,
+   "entry": 254203,
+   "x": -632.913,
+   "y": -1631.0,
+   "z": 951.266,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Scavenging Stalker",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841473
+  },
+  {
+   "go": false,
+   "entry": 254203,
+   "x": -875.213,
+   "y": -1631.0,
+   "z": 937.312,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Scavenging Stalker",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841474
+  },
+  {
+   "go": false,
+   "entry": 254203,
+   "x": -612.721,
+   "y": -1646.15,
+   "z": 961.139,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Scavenging Stalker",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841475
+  },
+  {
+   "go": false,
+   "entry": 254203,
+   "x": -981.367,
+   "y": -1641.14,
+   "z": 953.217,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Scavenging Stalker",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841476
+  },
+  {
+   "go": false,
+   "entry": 254203,
+   "x": -572.338,
+   "y": -1721.87,
+   "z": 971.432,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Scavenging Stalker",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841477
+  },
+  {
+   "go": false,
+   "entry": 254203,
+   "x": -592.53,
+   "y": -1721.87,
+   "z": 973.636,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Scavenging Stalker",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841478
+  },
+  {
+   "go": false,
+   "entry": 254215,
+   "x": -804.542,
+   "y": -1661.29,
+   "z": 939.511,
+   "phase": 0,
+   "prov": "backup_helper",
+   "name": "Grazing Root Drifter",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841479
+  },
+  {
+   "go": false,
+   "entry": 254215,
+   "x": -663.201,
+   "y": -1585.56,
+   "z": 964.381,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Grazing Root Drifter",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841480
+  },
+  {
+   "go": false,
+   "entry": 254215,
+   "x": -824.734,
+   "y": -1661.29,
+   "z": 939.206,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Grazing Root Drifter",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841481
+  },
+  {
+   "go": false,
+   "entry": 254215,
+   "x": -723.776,
+   "y": -1676.44,
+   "z": 940.97,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Grazing Root Drifter",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841482
+  },
+  {
+   "go": false,
+   "entry": 254215,
+   "x": -776.821,
+   "y": -1698.81,
+   "z": 936.258,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Grazing Root Drifter",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841483
+  },
+  {
+   "go": false,
+   "entry": 254215,
+   "x": -904.613,
+   "y": -1713.27,
+   "z": 947.277,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Grazing Root Drifter",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841484
+  },
+  {
+   "go": false,
+   "entry": 254215,
+   "x": -705.848,
+   "y": -1745.0,
+   "z": 938.261,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Grazing Root Drifter",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841485
+  },
+  {
+   "go": false,
+   "entry": 254215,
+   "x": -763.633,
+   "y": -1733.42,
+   "z": 944.006,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Grazing Root Drifter",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841486
+  },
+  {
+   "go": false,
+   "entry": 254215,
+   "x": -824.734,
+   "y": -1691.58,
+   "z": 937.931,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Grazing Root Drifter",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841487
+  },
+  {
+   "go": false,
+   "entry": 254215,
+   "x": -834.83,
+   "y": -1691.58,
+   "z": 937.227,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Grazing Root Drifter",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841488
+  },
+  {
+   "go": false,
+   "entry": 254215,
+   "x": -895.405,
+   "y": -1752.17,
+   "z": 940.125,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Grazing Root Drifter",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841489
+  },
+  {
+   "go": false,
+   "entry": 254215,
+   "x": -895.405,
+   "y": -1767.31,
+   "z": 941.177,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Grazing Root Drifter",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841490
+  },
+  {
+   "go": false,
+   "entry": 254215,
+   "x": -945.884,
+   "y": -1797.6,
+   "z": 954.44,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Grazing Root Drifter",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841491
+  },
+  {
+   "go": false,
+   "entry": 254215,
+   "x": -572.338,
+   "y": -1827.9,
+   "z": 958.283,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Grazing Root Drifter",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841492
+  },
+  {
+   "go": false,
+   "entry": 254215,
+   "x": -582.434,
+   "y": -1827.9,
+   "z": 957.454,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Grazing Root Drifter",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841493
+  },
+  {
+   "go": false,
+   "entry": 254215,
+   "x": -572.338,
+   "y": -1843.04,
+   "z": 954.649,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Grazing Root Drifter",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841494
+  },
+  {
+   "go": false,
+   "entry": 254215,
+   "x": -582.434,
+   "y": -1843.04,
+   "z": 955.034,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Grazing Root Drifter",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841495
+  },
+  {
+   "go": false,
+   "entry": 254215,
+   "x": -622.817,
+   "y": -1949.06,
+   "z": 951.241,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Grazing Root Drifter",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841496
+  },
+  {
+   "go": false,
+   "entry": 254215,
+   "x": -632.913,
+   "y": -1949.06,
+   "z": 950.036,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Grazing Root Drifter",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841497
+  },
+  {
+   "go": false,
+   "entry": 254221,
+   "x": -713.679,
+   "y": -1676.44,
+   "z": 935.018,
+   "phase": 0,
+   "prov": "backup_helper",
+   "name": "Decomposing Shambler",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841498
+  },
+  {
+   "go": false,
+   "entry": 254221,
+   "x": -885.309,
+   "y": -1631.0,
+   "z": 935.805,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Decomposing Shambler",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841499
+  },
+  {
+   "go": false,
+   "entry": 254221,
+   "x": -855.021,
+   "y": -1661.29,
+   "z": 937.087,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Decomposing Shambler",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841500
+  },
+  {
+   "go": false,
+   "entry": 254221,
+   "x": -698.919,
+   "y": -1660.87,
+   "z": 938.247,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Decomposing Shambler",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841501
+  },
+  {
+   "go": false,
+   "entry": 254221,
+   "x": -945.884,
+   "y": -1676.44,
+   "z": 948.404,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Decomposing Shambler",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841502
+  },
+  {
+   "go": false,
+   "entry": 254221,
+   "x": -875.213,
+   "y": -1691.58,
+   "z": 933.304,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Decomposing Shambler",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841503
+  },
+  {
+   "go": false,
+   "entry": 254221,
+   "x": -702.139,
+   "y": -1716.34,
+   "z": 929.77,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Decomposing Shambler",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841504
+  },
+  {
+   "go": false,
+   "entry": 254221,
+   "x": -733.871,
+   "y": -1706.73,
+   "z": 931.081,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Decomposing Shambler",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841505
+  },
+  {
+   "go": false,
+   "entry": 254221,
+   "x": -920.103,
+   "y": -1711.32,
+   "z": 941.172,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Decomposing Shambler",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841506
+  },
+  {
+   "go": false,
+   "entry": 254221,
+   "x": -944.331,
+   "y": -1744.13,
+   "z": 945.957,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Decomposing Shambler",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841507
+  },
+  {
+   "go": false,
+   "entry": 254221,
+   "x": -663.201,
+   "y": -1752.17,
+   "z": 935.565,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Decomposing Shambler",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841508
+  },
+  {
+   "go": false,
+   "entry": 254221,
+   "x": -632.913,
+   "y": -1767.31,
+   "z": 943.872,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Decomposing Shambler",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841509
+  },
+  {
+   "go": false,
+   "entry": 254221,
+   "x": -959.429,
+   "y": -1773.9,
+   "z": 949.168,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Decomposing Shambler",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841510
+  },
+  {
+   "go": false,
+   "entry": 254221,
+   "x": -602.626,
+   "y": -1812.75,
+   "z": 951.087,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Decomposing Shambler",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841511
+  },
+  {
+   "go": false,
+   "entry": 254221,
+   "x": -572.338,
+   "y": -1827.9,
+   "z": 953.283,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Decomposing Shambler",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841512
+  },
+  {
+   "go": false,
+   "entry": 254221,
+   "x": -891.251,
+   "y": -1757.45,
+   "z": 934.877,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Decomposing Shambler",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841513
+  },
+  {
+   "go": false,
+   "entry": 254221,
+   "x": -572.338,
+   "y": -1873.33,
+   "z": 944.317,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Decomposing Shambler",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841514
+  },
+  {
+   "go": false,
+   "entry": 254221,
+   "x": -582.434,
+   "y": -1888.48,
+   "z": 942.644,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Decomposing Shambler",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841515
+  },
+  {
+   "go": false,
+   "entry": 254221,
+   "x": -592.53,
+   "y": -1918.77,
+   "z": 944.591,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Decomposing Shambler",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841516
+  },
+  {
+   "go": false,
+   "entry": 254221,
+   "x": -653.105,
+   "y": -1933.92,
+   "z": 941.563,
+   "phase": 46169,
+   "prov": "backup_helper",
+   "name": "Decomposing Shambler",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841517
+  },
+  {
+   "go": false,
+   "entry": 245104,
+   "x": 1115.41,
+   "y": 882.898,
+   "z": 1345.77,
+   "phase": 45846,
+   "prov": "backup_helper",
+   "name": "Alton Parsons",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841518
+  },
+  {
+   "go": false,
+   "entry": 245104,
+   "x": 1168.78,
+   "y": 1000.67,
+   "z": 1341.25,
+   "phase": 45847,
+   "prov": "backup_helper",
+   "name": "Alton Parsons",
+   "kinds": [
+    "obj"
+   ],
+   "guid": 11841519
+  },
+  {
+   "go": false,
+   "entry": 257671,
+   "x": 1568.28,
+   "y": -4202.1,
+   "z": 53.7,
+   "phase": 0,
+   "prov": "wowhead_pin",
+   "name": "Envoy Ir'ayi",
+   "kinds": [
+    "cend"
+   ],
+   "map": 1,
+   "guid": 11841520
+  }
+ ],
+ "skipped": [],
+ "phases_inserted": [
+  45699,
+  45700,
+  45701,
+  45703,
+  45704,
+  45705,
+  45706,
+  45707,
+  45708,
+  45709,
+  45710,
+  45712,
+  45713,
+  45714,
+  45715,
+  45716,
+  45717,
+  45718,
+  45719,
+  45720,
+  45721,
+  45722,
+  45724,
+  45725,
+  45726,
+  45727,
+  45729,
+  45731,
+  45732,
+  45733,
+  45734,
+  45735,
+  45736,
+  45844,
+  45845,
+  45846,
+  45847,
+  45848,
+  45851,
+  46111,
+  46112,
+  46114,
+  46115,
+  46116,
+  46117,
+  46118,
+  46122,
+  46123,
+  46124,
+  46125,
+  46126,
+  46127,
+  46128,
+  46129,
+  46130,
+  46134,
+  46135,
+  46136,
+  46137,
+  46138,
+  46139,
+  46140,
+  46141,
+  46143,
+  46144,
+  46145,
+  46147,
+  46148,
+  46149,
+  46150,
+  46151,
+  46152,
+  46155,
+  46156,
+  46158,
+  46161,
+  46163,
+  46164,
+  46165,
+  46166,
+  46168,
+  46169,
+  46172,
+  46173,
+  46174,
+  46175,
+  46176,
+  46177,
+  46178
+ ],
+ "hooks_added": [
+  "INSERT INTO `creature_queststarter` (`id`, `quest`) VALUES (9100629, 89402); -- Scouting Map -> 89402 (retail starter)",
+  "INSERT INTO `creature_queststarter` (`id`, `quest`) VALUES (133407, 94444); -- Org: Choose a Path",
+  "INSERT INTO `creature_questender` (`id`, `quest`) VALUES (257671, 94444); -- Org ender (Envoy Ir'ayi, spawn added)",
+  "INSERT INTO `creature_queststarter` (`id`, `quest`) VALUES (133362, 94445); -- SW: Choose a Path",
+  "INSERT INTO `creature_questender` (`id`, `quest`) VALUES (249187, 94445); -- SW ender (Envoy Manat)",
+  "INSERT INTO `creature_queststarter` (`id`, `quest`) VALUES (255828, 94464); -- Heritage of the Haranir starter (temporary, retail start not in data)"
+ ],
+ "mechanism_skips": {
+  "216930": "pet/companion (obj amt 0); no spawn needed",
+  "237857": "talk-to credit granted by SAI gossip on 237567 (starter)",
+  "253478": "credit via areatrigger-entity-custom script (world SAI)",
+  "255814": "credit via SAI gossip on 255809/254252",
+  "256211": "credit via SAI gossip on budlings 253313/254620/254621/254622",
+  "255861": "spell-credit dummy (Blacksmith)",
+  "255862": "spell-credit dummy (Blacksmith)",
+  "254226": "credited on kill of 254203/254215/254221/254291 (KillCredit1)",
+  "238015": "spawned outside map 2694 (Voidstorm, per wowhead pins)"
+ }
+}

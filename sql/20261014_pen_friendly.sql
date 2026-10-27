@@ -1,0 +1,3 @@
+-- Pen NPCs friendly (user: rescued trolls are green allies, 2026-10-14). Faction -> 35 (Friendly to all).
+-- Undo: 20261014_pen_friendly_undo.sql -- NEEDS restart (templates load at startup)
+-- 6 templates set to 35.

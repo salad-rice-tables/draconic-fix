@@ -5,7 +5,7 @@
 -- =====================================================================
 
 -- Extra experience multipliers; every system adds a function(player) -> factor.
--- descend_world.lua applies them all in its single ON_GIVE_XP hook.
+-- ascension_world.lua applies them all in its single ON_GIVE_XP hook.
 XP_FACTORS = XP_FACTORS or {}
 
 local STATS = {}   -- name -> {calls, total, max}
@@ -73,6 +73,19 @@ function MAP_Players()
     end
     local ok, l = pcall(GetPlayersOnMap)
     return (ok and l) or {}
+end
+
+-- Living-world scripts (errands, workdays, wildlife, village scenes, raids) move NPCs around players. Scripted quest maps
+-- must stay exactly as retail: there they see no players, so they touch nothing.
+LW_DISABLED_MAPS = { [2858] = true }   -- 12.0 Quel'Danas Scenario (Midnight intro: Luminous Wings civilians, ships, rowboats)
+function LW_Players()
+    if not IS_WORLD_STATE and LW_DISABLED_MAPS[STATE_MAP] then return {} end
+    local out = {}
+    for _, p in ipairs(MAP_Players()) do
+        local ok, m = pcall(function() return p:GetMapId() end)
+        if not (ok and LW_DISABLED_MAPS[m]) then out[#out + 1] = p end
+    end
+    return out
 end
 
 function FindPlayer(name)

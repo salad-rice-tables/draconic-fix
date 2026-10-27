@@ -1,0 +1,153 @@
+{
+ "html": "C:\\WowServer\\Custom\\docs\\probe_npc_248595.html",
+ "title": "Vordaza - NPC - World of Warcraft",
+ "npc_id": null,
+ "drops": [
+  {
+   "id": 246586,
+   "name": "Shell of Shadra",
+   "count": -1,
+   "percent": null,
+   "level": 1,
+   "quality": 1
+  },
+  {
+   "id": 250223,
+   "name": "Soulcatcher's Charm",
+   "count": -2,
+   "percent": null,
+   "level": 108,
+   "quality": 3
+  },
+  {
+   "id": 251161,
+   "name": "Shroud of the Soulhunter",
+   "count": -2,
+   "percent": null,
+   "level": 108,
+   "quality": 3
+  },
+  {
+   "id": 251169,
+   "name": "Footwraps of Ill-Fate",
+   "count": -2,
+   "percent": null,
+   "level": 108,
+   "quality": 3
+  },
+  {
+   "id": 251170,
+   "name": "Wickedweave Trousers",
+   "count": -2,
+   "percent": null,
+   "level": 108,
+   "quality": 3
+  },
+  {
+   "id": 251171,
+   "name": "Enthralled Bonespines",
+   "count": -2,
+   "percent": null,
+   "level": 108,
+   "quality": 3
+  },
+  {
+   "id": 251172,
+   "name": "Vilehex Bonds",
+   "count": -2,
+   "percent": null,
+   "level": 108,
+   "quality": 3
+  },
+  {
+   "id": 251178,
+   "name": "Ceremonial Hexblade",
+   "count": -2,
+   "percent": null,
+   "level": 108,
+   "quality": 3
+  },
+  {
+   "id": 262791,
+   "name": "Malacrass's Notes",
+   "count": -1,
+   "percent": null,
+   "level": 1,
+   "quality": 1
+  },
+  {
+   "id": 279573,
+   "name": "Fading Voidwhisper",
+   "count": -1,
+   "percent": null,
+   "level": 1,
+   "quality": 1
+  }
+ ],
+ "abilities": [
+  {
+   "id": 1251204,
+   "name": "wrest phantoms"
+  },
+  {
+   "id": 1250708,
+   "name": "necrotic convergence"
+  },
+  {
+   "id": 1251775,
+   "name": "final pursuit"
+  },
+  {
+   "id": 1251813,
+   "name": "lingering dread"
+  },
+  {
+   "id": 1251598,
+   "name": "deathshroud"
+  },
+  {
+   "id": 1251554,
+   "name": "drain soul"
+  },
+  {
+   "id": 1252611,
+   "name": "coalesced death"
+  },
+  {
+   "id": 1266706,
+   "name": "haunting remains"
+  },
+  {
+   "id": 1251833,
+   "name": "soulrot"
+  },
+  {
+   "id": 1264974,
+   "name": "veiled presence"
+  },
+  {
+   "id": 1252054,
+   "name": "unmake"
+  },
+  {
+   "id": 1264987,
+   "name": "withering miasma"
+  }
+ ],
+ "objective_of": [
+  {
+   "id": 93575,
+   "name": "Maisara Caverns: Maisara Hungers",
+   "currencyrewards": [
+    [
+     3316,
+     25
+    ],
+    [
+     3354,
+     250
+    ]
+   ]
+  }
+ ]
+}

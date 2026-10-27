@@ -114,7 +114,7 @@ local GREET = {
 }
 local lastGreet = {}
 local function GreetTick()
-    for _, p in ipairs(MAP_Players()) do
+    for _, p in ipairs(LW_Players()) do
         if p:IsInWorld() and not p:IsInCombat() then
             local c = ZONE_CITY[p:GetZoneId()]
             local t = c and Tier(GetRep(p, c)) or 1
@@ -157,7 +157,7 @@ end
 
 local function OpenWorldPlayers()
     local out = {}
-    for _, p in ipairs(MAP_Players()) do
+    for _, p in ipairs(LW_Players()) do
         if p:IsInWorld() and p:IsAlive() and not p:IsInCombat() and p:GetLevel() >= 5 then
             local okI, inst = pcall(function() return p:GetInstanceId() end)
             local m = p:GetMapId()
@@ -277,7 +277,7 @@ function EventBoss(ref, v, entries)
     warlord = c
     pcall(function() c:SendUnitYell("You broke my raiders three times. Now face me!", 0) end)
     pcall(function() SafeMove(c, 0, v.x, v.y, v.z) end)
-    for _, p in ipairs(MAP_Players()) do
+    for _, p in ipairs(LW_Players()) do
         if p:GetZoneId() == v.zone then
             p:SendNotification("A raider warlord marches on the village!")
             p:SendBroadcastMessage(TAG .. "|cffff4040A raider warlord marches on the village!|r Defeat " .. c:GetName() .. " for great rewards.")

@@ -1,0 +1,6 @@
+-- Barricade #3 + egg NPCs (user .gps 2026-10-14). Barricade covered by existing 641790 script.
+-- Undo: 20261014_barricade3_eggs_undo.sql -- NEEDS restart
+-- GO 990000000101200822 Rough Barricade #3 at pen
+-- egg NPC 3510000768 entry 253597 at (6937.78,-11029.38)
+-- egg NPC 3510000769 entry 257919 at (7035.96,-11092.92)
+-- egg NPC 3510000770 entry 259601 at (6947.15,-11129.64)

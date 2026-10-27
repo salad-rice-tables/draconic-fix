@@ -116,7 +116,7 @@ end
 -- one timer per map state over its players (multistate safe)
 if MAP_Timer then
     MAP_Timer("lw_ambient.Scan", function()
-        for _, p in ipairs(MAP_Players()) do pcall(Scan, nil, nil, nil, p) end
+        for _, p in ipairs(LW_Players()) do pcall(Scan, nil, nil, nil, p) end
     end, SCAN_MS)
 end
 print("[lw] wildlife routines loaded")

@@ -30,3 +30,4 @@ local function Run()
 end
 
 RegisterServerEvent(14, function() pcall(Run) end)   -- server startup
+CreateLuaEvent(function() pcall(Run) end, 15000, 1)   -- also after .reload eluna (wildcard.lua writes the id list first)

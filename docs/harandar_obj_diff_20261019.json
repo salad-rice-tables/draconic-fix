@@ -1,0 +1,3552 @@
+[
+ {
+  "id": 86851,
+  "title": "The Foundation of Aln",
+  "world": [
+   [
+    0,
+    0,
+    1,
+    238417,
+    5,
+    0,
+    ""
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    0,
+    1,
+    238417,
+    6,
+    0,
+    ""
+   ]
+  ]
+ },
+ {
+  "id": 86860,
+  "title": "Before They Grow",
+  "world": [
+   [
+    0,
+    0,
+    0,
+    245111,
+    1,
+    4,
+    "Use Amarakk's Influence on a Rift creature"
+   ],
+   [
+    0,
+    1,
+    0,
+    245111,
+    1,
+    4,
+    "Use Amarakk's Influence on a Rift creature"
+   ],
+   [
+    1,
+    -1,
+    15,
+    0,
+    1,
+    0,
+    "Defeat Alnscorned enemies in the Rift of Aln"
+   ],
+   [
+    1,
+    1,
+    15,
+    0,
+    1,
+    0,
+    "Defeat Alnscorned enemies in the Rift of Aln"
+   ],
+   [
+    2,
+    2,
+    0,
+    245693,
+    12,
+    92,
+    "Aln Mites squished"
+   ],
+   [
+    3,
+    3,
+    0,
+    241646,
+    12,
+    92,
+    ""
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    1,
+    0,
+    245111,
+    1,
+    4,
+    "Use Amarakk's Influence on a Rift creature"
+   ],
+   [
+    1,
+    -1,
+    15,
+    0,
+    1,
+    0,
+    "Defeat Alnscorned enemies in the Rift of Aln"
+   ],
+   [
+    2,
+    0,
+    0,
+    241639,
+    34,
+    92,
+    "Aln Mites squished"
+   ],
+   [
+    3,
+    2,
+    0,
+    241646,
+    20,
+    92,
+    ""
+   ],
+   [
+    4,
+    3,
+    0,
+    237681,
+    10,
+    92,
+    ""
+   ],
+   [
+    5,
+    4,
+    0,
+    245693,
+    4,
+    92,
+    ""
+   ]
+  ]
+ },
+ {
+  "id": 86862,
+  "title": "The Greater They Aln",
+  "world": [
+   [
+    0,
+    0,
+    0,
+    237658,
+    1,
+    0,
+    ""
+   ],
+   [
+    1,
+    1,
+    1,
+    238738,
+    1,
+    2,
+    ""
+   ],
+   [
+    2,
+    2,
+    2,
+    527509,
+    1,
+    28,
+    ""
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    0,
+    0,
+    237658,
+    1,
+    0,
+    ""
+   ],
+   [
+    1,
+    1,
+    1,
+    238738,
+    1,
+    2,
+    "Greater Alndust gathered"
+   ],
+   [
+    2,
+    2,
+    2,
+    527509,
+    1,
+    28,
+    ""
+   ]
+  ]
+ },
+ {
+  "id": 86864,
+  "title": "Watch the Den",
+  "world": [
+   [
+    0,
+    0,
+    0,
+    240404,
+    1,
+    0,
+    "Speak to the Innkeeper"
+   ],
+   [
+    1,
+    1,
+    0,
+    240407,
+    1,
+    0,
+    "Speak to the Quartermaster"
+   ],
+   [
+    2,
+    2,
+    0,
+    255056,
+    1,
+    0,
+    "Speak to the Flight Master"
+   ],
+   [
+    3,
+    3,
+    0,
+    241045,
+    1,
+    0,
+    "Speak to Ku'paa"
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    0,
+    0,
+    240404,
+    1,
+    0,
+    "Speak to the Innkeeper"
+   ],
+   [
+    1,
+    1,
+    0,
+    240407,
+    1,
+    0,
+    "Speak to the Quartermaster"
+   ],
+   [
+    2,
+    2,
+    0,
+    255056,
+    1,
+    0,
+    "Speak to the Flight Master"
+   ],
+   [
+    3,
+    3,
+    0,
+    241045,
+    1,
+    2,
+    "Speak to Ku'paal"
+   ]
+  ]
+ },
+ {
+  "id": 86866,
+  "title": "Can We Heal This?",
+  "world": [
+   [
+    0,
+    0,
+    0,
+    237393,
+    1,
+    0,
+    "Alndust used on the Afflicted Rutaani"
+   ],
+   [
+    1,
+    1,
+    0,
+    259101,
+    1,
+    4,
+    "Stay awhile and listen to Hannan"
+   ],
+   [
+    2,
+    2,
+    0,
+    259101,
+    1,
+    4,
+    "Stay awhile and listen to Hannan"
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    0,
+    0,
+    237393,
+    1,
+    0,
+    "Alndust used on the Afflicted Rutaani"
+   ],
+   [
+    1,
+    1,
+    0,
+    240901,
+    1,
+    28,
+    ""
+   ],
+   [
+    2,
+    2,
+    0,
+    259101,
+    1,
+    4,
+    "Stay awhile and listen to Hannan"
+   ]
+  ]
+ },
+ {
+  "id": 86867,
+  "title": "Into the Lightbloom",
+  "world": [
+   [
+    0,
+    0,
+    0,
+    241799,
+    1,
+    0,
+    "Ride the Haranir Petalwing"
+   ],
+   [
+    1,
+    1,
+    0,
+    241824,
+    0,
+    8,
+    "Lightbloom Spreader Shield destroyed"
+   ],
+   [
+    2,
+    -1,
+    15,
+    0,
+    1,
+    0,
+    "Lightbloom forces defeated"
+   ],
+   [
+    2,
+    2,
+    15,
+    0,
+    1,
+    2,
+    "Lightbloom rutaani defeated"
+   ],
+   [
+    3,
+    3,
+    0,
+    240959,
+    12,
+    92,
+    ""
+   ],
+   [
+    4,
+    4,
+    0,
+    240957,
+    12,
+    92,
+    ""
+   ],
+   [
+    5,
+    5,
+    0,
+    240956,
+    12,
+    92,
+    ""
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    1,
+    0,
+    241799,
+    1,
+    0,
+    "Ride the Haranir Petalwing"
+   ],
+   [
+    1,
+    0,
+    0,
+    241824,
+    4,
+    0,
+    "Lightbloom Spreader Shield destroyed"
+   ],
+   [
+    2,
+    -1,
+    15,
+    0,
+    1,
+    0,
+    "Lightbloom forces defeated"
+   ],
+   [
+    3,
+    2,
+    0,
+    240959,
+    20,
+    92,
+    ""
+   ],
+   [
+    4,
+    3,
+    0,
+    240957,
+    13,
+    92,
+    ""
+   ]
+  ]
+ },
+ {
+  "id": 86880,
+  "title": "Our Beloved, Returned",
+  "world": [
+   [
+    0,
+    0,
+    1,
+    238792,
+    6,
+    0,
+    ""
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    0,
+    1,
+    238792,
+    6,
+    0,
+    "Artifacts recovered"
+   ]
+  ]
+ },
+ {
+  "id": 86883,
+  "title": "The Frenzied March",
+  "world": [
+   [
+    0,
+    0,
+    0,
+    241900,
+    1,
+    0,
+    "Take the Emergency Rootway"
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    0,
+    3,
+    241900,
+    1,
+    0,
+    "Take the Emergency Rootway"
+   ]
+  ]
+ },
+ {
+  "id": 86890,
+  "title": "Tell the People What You Have Seen",
+  "world": [
+   [
+    0,
+    0,
+    0,
+    250361,
+    1,
+    0,
+    "Return to the Den"
+   ],
+   [
+    1,
+    1,
+    0,
+    241742,
+    1,
+    2,
+    "Council addressed"
+   ],
+   [
+    2,
+    1,
+    0,
+    240972,
+    1,
+    28,
+    ""
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    2,
+    0,
+    250361,
+    1,
+    0,
+    "Return to the Den"
+   ],
+   [
+    1,
+    0,
+    0,
+    241742,
+    1,
+    0,
+    "Council addressed"
+   ],
+   [
+    2,
+    1,
+    0,
+    240972,
+    1,
+    28,
+    ""
+   ]
+  ]
+ },
+ {
+  "id": 86899,
+  "title": "The Root Cause",
+  "world": [
+   [
+    0,
+    0,
+    0,
+    236704,
+    1,
+    0,
+    "Talk to Orweyna"
+   ],
+   [
+    1,
+    1,
+    0,
+    253687,
+    1,
+    2,
+    "Take the portal to Harandar"
+   ],
+   [
+    2,
+    0,
+    0,
+    253687,
+    1,
+    0,
+    "Take the portal to Harandar"
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    2,
+    0,
+    236704,
+    1,
+    0,
+    "Talk to Orweyna"
+   ],
+   [
+    1,
+    1,
+    0,
+    241042,
+    1,
+    30,
+    ""
+   ],
+   [
+    2,
+    0,
+    0,
+    253687,
+    1,
+    0,
+    "Take the portal to Harandar"
+   ]
+  ]
+ },
+ {
+  "id": 86900,
+  "title": "To Har'athir",
+  "world": [
+   [
+    0,
+    0,
+    0,
+    237209,
+    1,
+    0,
+    "Follow Orweyna"
+   ],
+   [
+    1,
+    1,
+    0,
+    237209,
+    1,
+    2,
+    "Talk to Ku'paal"
+   ],
+   [
+    2,
+    2,
+    0,
+    237866,
+    1,
+    2,
+    "Talk to Oorla"
+   ],
+   [
+    3,
+    3,
+    0,
+    237865,
+    1,
+    2,
+    "Talk to Danul"
+   ],
+   [
+    4,
+    4,
+    0,
+    237343,
+    1,
+    2,
+    "Talk to Orweyna"
+   ],
+   [
+    5,
+    5,
+    0,
+    0,
+    0,
+    8,
+    ""
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    4,
+    19,
+    36658,
+    0,
+    0,
+    "Follow Orweyna"
+   ],
+   [
+    1,
+    3,
+    0,
+    237209,
+    1,
+    2,
+    "Talk to Ku'paal"
+   ],
+   [
+    2,
+    1,
+    0,
+    237866,
+    1,
+    2,
+    "Talk to Oorla"
+   ],
+   [
+    3,
+    2,
+    0,
+    237865,
+    1,
+    0,
+    "Talk to Danul"
+   ],
+   [
+    4,
+    5,
+    0,
+    237210,
+    1,
+    2,
+    "Talk to Orweyna"
+   ],
+   [
+    5,
+    0,
+    0,
+    237343,
+    1,
+    2,
+    "Check on Halduron"
+   ]
+  ]
+ },
+ {
+  "id": 86901,
+  "title": "The Rift and the Den",
+  "world": [
+   [
+    0,
+    0,
+    0,
+    239543,
+    1,
+    4,
+    "Petalvane ridden"
+   ],
+   [
+    0,
+    0,
+    0,
+    239543,
+    1,
+    0,
+    "Petalvane ridden"
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    0,
+    0,
+    239543,
+    1,
+    4,
+    "Petalvane ridden"
+   ],
+   [
+    1,
+    1,
+    19,
+    37761,
+    0,
+    0,
+    "Follow Orweyna to the Den"
+   ]
+  ]
+ },
+ {
+  "id": 86911,
+  "title": "Echoes and Memories",
+  "world": [
+   [
+    0,
+    0,
+    0,
+    237857,
+    1,
+    4,
+    "Talk to Hagar"
+   ],
+   [
+    0,
+    3,
+    0,
+    237857,
+    1,
+    4,
+    "Talk to Hagar"
+   ],
+   [
+    1,
+    1,
+    0,
+    237837,
+    1,
+    0,
+    "Talk to Zur'ashar Kassameh"
+   ],
+   [
+    2,
+    2,
+    0,
+    243305,
+    1,
+    2,
+    "Visionstone activated"
+   ],
+   [
+    3,
+    3,
+    1,
+    239014,
+    6,
+    2,
+    ""
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    3,
+    0,
+    237857,
+    1,
+    4,
+    "Talk to Hagar"
+   ],
+   [
+    1,
+    0,
+    0,
+    237837,
+    1,
+    0,
+    "Talk to Zur'ashar Kassameh"
+   ],
+   [
+    2,
+    1,
+    3,
+    243305,
+    1,
+    258,
+    "Visionstone activated"
+   ],
+   [
+    3,
+    10,
+    1,
+    239014,
+    6,
+    2,
+    "Iceberries collected"
+   ]
+  ]
+ },
+ {
+  "id": 86912,
+  "title": "Down the Rootways",
+  "world": [
+   [
+    0,
+    0,
+    0,
+    9100605,
+    1,
+    0,
+    "Gulf of Memory entered"
+   ],
+   [
+    1,
+    1,
+    1,
+    251512,
+    1,
+    2,
+    ""
+   ],
+   [
+    2,
+    2,
+    0,
+    253343,
+    1,
+    2,
+    "Speak with Orweyna"
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    1,
+    14,
+    220035,
+    1,
+    0,
+    "Gulf of Memory entered"
+   ],
+   [
+    1,
+    3,
+    1,
+    251512,
+    1,
+    2,
+    ""
+   ],
+   [
+    2,
+    0,
+    0,
+    253343,
+    1,
+    2,
+    "Speak with Orweyna"
+   ]
+  ]
+ },
+ {
+  "id": 86914,
+  "title": "Tending to Har'mara",
+  "world": [
+   [
+    0,
+    -1,
+    15,
+    0,
+    1,
+    0,
+    "Tasks completed"
+   ],
+   [
+    0,
+    0,
+    15,
+    0,
+    1,
+    0,
+    "Tasks completed"
+   ],
+   [
+    1,
+    1,
+    2,
+    523801,
+    15,
+    92,
+    "Na'bala Blooms watered"
+   ],
+   [
+    1,
+    1,
+    2,
+    523801,
+    10,
+    92,
+    "Na'bala Blooms watere"
+   ],
+   [
+    2,
+    0,
+    0,
+    237623,
+    10,
+    92,
+    "Hungry Rotlings called to dinner"
+   ],
+   [
+    2,
+    2,
+    0,
+    237623,
+    10,
+    92,
+    "Hungry Rotlings called to dinner"
+   ],
+   [
+    3,
+    2,
+    2,
+    508743,
+    15,
+    92,
+    "Rotting Refuse shoveled"
+   ],
+   [
+    3,
+    3,
+    2,
+    508743,
+    10,
+    92,
+    "Rotting Refuse shoveled"
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    -1,
+    15,
+    0,
+    1,
+    0,
+    "Tasks completed"
+   ],
+   [
+    1,
+    1,
+    2,
+    523801,
+    15,
+    92,
+    "Na'bala Blooms watered"
+   ],
+   [
+    2,
+    0,
+    0,
+    237623,
+    10,
+    92,
+    "Hungry Rotlings called to dinner"
+   ],
+   [
+    3,
+    2,
+    2,
+    508743,
+    15,
+    92,
+    "Rotting Refuse shoveled"
+   ]
+  ]
+ },
+ {
+  "id": 86942,
+  "title": "Culling the Spread",
+  "world": [
+   [
+    0,
+    0,
+    0,
+    237737,
+    1,
+    0,
+    ""
+   ],
+   [
+    1,
+    1,
+    0,
+    237654,
+    1,
+    2,
+    ""
+   ],
+   [
+    2,
+    2,
+    0,
+    240388,
+    1,
+    2,
+    ""
+   ],
+   [
+    3,
+    3,
+    0,
+    240389,
+    1,
+    2,
+    ""
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    0,
+    0,
+    237737,
+    1,
+    0,
+    ""
+   ],
+   [
+    1,
+    1,
+    0,
+    237654,
+    1,
+    0,
+    ""
+   ],
+   [
+    2,
+    2,
+    0,
+    240388,
+    1,
+    0,
+    ""
+   ],
+   [
+    3,
+    3,
+    0,
+    240389,
+    1,
+    0,
+    ""
+   ]
+  ]
+ },
+ {
+  "id": 86944,
+  "title": "Seeds of the Rift",
+  "world": [
+   [
+    0,
+    0,
+    0,
+    244126,
+    1,
+    0,
+    "Eonka questioned again"
+   ],
+   [
+    1,
+    1,
+    0,
+    237787,
+    1,
+    2,
+    "Seed Bag given to Halduron"
+   ],
+   [
+    1,
+    2,
+    1,
+    258623,
+    1,
+    2,
+    "Glistening Seed Bag collected"
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    0,
+    0,
+    244126,
+    1,
+    0,
+    "Eonka questioned again"
+   ],
+   [
+    1,
+    2,
+    1,
+    258623,
+    1,
+    2,
+    "Glistening Seed Bag collected"
+   ],
+   [
+    2,
+    1,
+    0,
+    260275,
+    1,
+    2,
+    "Glistening Seed Bag delivered"
+   ]
+  ]
+ },
+ {
+  "id": 86973,
+  "title": "Halting Harm in Har'mara",
+  "world": [
+   [
+    0,
+    0,
+    0,
+    249654,
+    8,
+    0,
+    "Lightbloom rutaani slain"
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    0,
+    21,
+    4681,
+    8,
+    0,
+    "Lightbloom rutaani slain"
+   ]
+  ]
+ },
+ {
+  "id": 89034,
+  "title": "Burning Bitterblooms",
+  "world": [
+   [
+    0,
+    0,
+    2,
+    525659,
+    6,
+    0,
+    "Bitterblooms burned"
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    1,
+    2,
+    525659,
+    6,
+    0,
+    "Bitterblooms burned"
+   ]
+  ]
+ },
+ {
+  "id": 90094,
+  "title": "Echo of the Hunt",
+  "world": [
+   [
+    0,
+    0,
+    0,
+    243306,
+    1,
+    0,
+    "Second Visionstone activated"
+   ],
+   [
+    1,
+    1,
+    0,
+    239668,
+    4,
+    2,
+    ""
+   ],
+   [
+    1,
+    11,
+    0,
+    239668,
+    4,
+    2,
+    ""
+   ],
+   [
+    2,
+    2,
+    0,
+    239744,
+    4,
+    0,
+    ""
+   ],
+   [
+    2,
+    12,
+    0,
+    239744,
+    4,
+    0,
+    ""
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    8,
+    3,
+    243306,
+    1,
+    256,
+    "Second Visionstone activated"
+   ],
+   [
+    1,
+    11,
+    0,
+    239668,
+    4,
+    2,
+    ""
+   ],
+   [
+    2,
+    12,
+    0,
+    239744,
+    4,
+    0,
+    ""
+   ]
+  ]
+ },
+ {
+  "id": 90095,
+  "title": "Echo of the Call",
+  "world": [
+   [
+    0,
+    0,
+    0,
+    243307,
+    1,
+    0,
+    "Third Visionstone activated"
+   ],
+   [
+    1,
+    1,
+    0,
+    240749,
+    1,
+    2,
+    ""
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    8,
+    3,
+    243307,
+    1,
+    256,
+    "Third Visionstone activated"
+   ],
+   [
+    1,
+    11,
+    0,
+    240749,
+    1,
+    2,
+    ""
+   ]
+  ]
+ },
+ {
+  "id": 90470,
+  "title": "Skyglass Scavenging",
+  "world": [
+   [
+    0,
+    -1,
+    15,
+    0,
+    1,
+    0,
+    "Skyglass Recovered"
+   ],
+   [
+    1,
+    0,
+    0,
+    242773,
+    7,
+    92,
+    "First pile of skyglass recovered"
+   ],
+   [
+    2,
+    1,
+    0,
+    242798,
+    7,
+    92,
+    "Second pile of skyglass recovered"
+   ],
+   [
+    3,
+    2,
+    0,
+    242800,
+    7,
+    92,
+    "Third pile of skyglass recovered"
+   ],
+   [
+    4,
+    3,
+    2,
+    529370,
+    20,
+    92,
+    "Final pile of skyglass recovered"
+   ],
+   [
+    5,
+    4,
+    0,
+    242830,
+    20,
+    92,
+    ""
+   ],
+   [
+    6,
+    5,
+    0,
+    242773,
+    0,
+    8,
+    ""
+   ],
+   [
+    7,
+    6,
+    0,
+    242800,
+    0,
+    8,
+    "Slimes slain"
+   ],
+   [
+    8,
+    7,
+    0,
+    242798,
+    0,
+    8,
+    "Mushrooms Slain"
+   ],
+   [
+    9,
+    8,
+    0,
+    242787,
+    0,
+    8,
+    ""
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    -1,
+    15,
+    0,
+    1,
+    0,
+    "Skyglass Recovered"
+   ],
+   [
+    1,
+    0,
+    0,
+    242773,
+    7,
+    92,
+    "First pile of skyglass recovered"
+   ],
+   [
+    2,
+    1,
+    0,
+    242798,
+    7,
+    92,
+    "Second pile of skyglass recovered"
+   ],
+   [
+    3,
+    2,
+    0,
+    242800,
+    7,
+    92,
+    "Third pile of skyglass recovered"
+   ],
+   [
+    4,
+    3,
+    0,
+    242787,
+    7,
+    92,
+    "Final pile of skyglass recovered"
+   ],
+   [
+    5,
+    4,
+    0,
+    242830,
+    20,
+    92,
+    ""
+   ],
+   [
+    6,
+    5,
+    0,
+    242773,
+    1,
+    28,
+    ""
+   ],
+   [
+    7,
+    6,
+    0,
+    242800,
+    1,
+    28,
+    "Slimes slain"
+   ],
+   [
+    8,
+    7,
+    0,
+    242798,
+    1,
+    28,
+    "Mushrooms Slain"
+   ],
+   [
+    9,
+    8,
+    0,
+    242787,
+    1,
+    28,
+    ""
+   ]
+  ]
+ },
+ {
+  "id": 90474,
+  "title": "The Legend of Aln'sharan",
+  "world": [
+   [
+    0,
+    0,
+    0,
+    248037,
+    1,
+    0,
+    "Skyshards thrown"
+   ],
+   [
+    1,
+    1,
+    0,
+    248436,
+    0,
+    8,
+    "Kuri Approached"
+   ],
+   [
+    2,
+    2,
+    0,
+    248449,
+    0,
+    8,
+    "Missile Connected"
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    0,
+    0,
+    248037,
+    1,
+    0,
+    "Skyshards thrown"
+   ],
+   [
+    1,
+    1,
+    0,
+    248436,
+    1,
+    28,
+    "Kuri Approached"
+   ],
+   [
+    2,
+    2,
+    0,
+    248449,
+    1,
+    24,
+    "Missile Connected"
+   ]
+  ]
+ },
+ {
+  "id": 90534,
+  "title": "The Home of the Haranir",
+  "world": [
+   [
+    0,
+    0,
+    0,
+    242693,
+    1,
+    0,
+    "Press the Button on Gazlowe's Shredder"
+   ],
+   [
+    1,
+    2,
+    2,
+    531388,
+    1,
+    2,
+    "Pick up Hand Claws"
+   ],
+   [
+    2,
+    1,
+    0,
+    242935,
+    1,
+    2,
+    "Try the Tasty Mushroom Soup"
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    0,
+    0,
+    242693,
+    1,
+    0,
+    "Press the Button on Gazlowe's Shredder"
+   ],
+   [
+    1,
+    2,
+    0,
+    242699,
+    1,
+    2,
+    "Pick up Hand Claws"
+   ],
+   [
+    2,
+    1,
+    0,
+    242935,
+    1,
+    2,
+    "Try the Tasty Mushroom Soup"
+   ]
+  ]
+ },
+ {
+  "id": 90617,
+  "title": "A Few Fun Guys",
+  "world": [
+   [
+    0,
+    1,
+    0,
+    243179,
+    1,
+    4,
+    "Speak with Motta"
+   ],
+   [
+    1,
+    0,
+    0,
+    250988,
+    3,
+    0,
+    "Recruits found"
+   ],
+   [
+    2,
+    2,
+    0,
+    243181,
+    1,
+    29,
+    ""
+   ],
+   [
+    3,
+    3,
+    0,
+    243180,
+    1,
+    29,
+    ""
+   ],
+   [
+    4,
+    4,
+    0,
+    243178,
+    1,
+    29,
+    ""
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    1,
+    3,
+    243179,
+    1,
+    4,
+    "Speak with Motta"
+   ],
+   [
+    1,
+    0,
+    0,
+    250988,
+    3,
+    0,
+    "Recruits found"
+   ],
+   [
+    2,
+    2,
+    0,
+    243181,
+    1,
+    29,
+    ""
+   ],
+   [
+    3,
+    3,
+    0,
+    243180,
+    1,
+    29,
+    ""
+   ],
+   [
+    4,
+    4,
+    0,
+    243178,
+    1,
+    29,
+    ""
+   ]
+  ]
+ },
+ {
+  "id": 90620,
+  "title": "To the Ring",
+  "world": [
+   [
+    0,
+    0,
+    0,
+    243179,
+    1,
+    4,
+    "Speak with Motta"
+   ],
+   [
+    1,
+    1,
+    0,
+    9100633,
+    1,
+    4,
+    "Run through the entryway"
+   ],
+   [
+    2,
+    2,
+    15,
+    0,
+    1,
+    0,
+    "Fungus Force, Spore Storm and Cap Clash Defeated"
+   ],
+   [
+    3,
+    3,
+    0,
+    251572,
+    20,
+    92,
+    "Fungus Force def"
+   ],
+   [
+    4,
+    4,
+    0,
+    251751,
+    20,
+    92,
+    "Spore Storm Defeated"
+   ],
+   [
+    5,
+    5,
+    0,
+    0,
+    20,
+    92,
+    "Brakko flees the Pit"
+   ],
+   [
+    6,
+    6,
+    0,
+    251750,
+    20,
+    92,
+    "Cap Clash Defeated"
+   ],
+   [
+    7,
+    7,
+    0,
+    0,
+    20,
+    92,
+    "Ziny flees the Pit"
+   ],
+   [
+    8,
+    8,
+    0,
+    0,
+    20,
+    92,
+    "Fight in the Grudge Pit"
+   ],
+   [
+    9,
+    9,
+    0,
+    247246,
+    1,
+    6,
+    "Be Disqualified"
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    10,
+    3,
+    243179,
+    1,
+    4,
+    "Speak with Motta"
+   ],
+   [
+    1,
+    8,
+    19,
+    39544,
+    0,
+    4,
+    "Run through the entryway"
+   ],
+   [
+    2,
+    6,
+    21,
+    5582,
+    2,
+    28,
+    "Fungus Force Defeated"
+   ],
+   [
+    3,
+    2,
+    0,
+    251515,
+    1,
+    12,
+    "Tuktuk flees the Pit"
+   ],
+   [
+    4,
+    7,
+    21,
+    5587,
+    2,
+    28,
+    "Spore Storm Defeated"
+   ],
+   [
+    5,
+    1,
+    0,
+    251514,
+    1,
+    12,
+    "Brakko flees the Pit"
+   ],
+   [
+    6,
+    5,
+    21,
+    5586,
+    2,
+    28,
+    "Cap Clash Defeated"
+   ],
+   [
+    7,
+    3,
+    0,
+    251516,
+    1,
+    12,
+    "Ziny flees the Pit"
+   ],
+   [
+    8,
+    4,
+    0,
+    251517,
+    1,
+    16,
+    "Fight in the Grudge Pit"
+   ],
+   [
+    9,
+    0,
+    0,
+    247246,
+    1,
+    2,
+    "Be Disqualified"
+   ]
+  ]
+ },
+ {
+  "id": 90621,
+  "title": "Tiny Heroes' Journeys",
+  "world": [
+   [
+    0,
+    5,
+    0,
+    243179,
+    1,
+    4,
+    "Speak with Motta"
+   ],
+   [
+    1,
+    0,
+    0,
+    216930,
+    0,
+    8,
+    "Brakko assisted"
+   ],
+   [
+    2,
+    1,
+    0,
+    216932,
+    0,
+    8,
+    "Ziny assisted"
+   ],
+   [
+    3,
+    2,
+    0,
+    216934,
+    0,
+    8,
+    "Tuktuk assisted"
+   ],
+   [
+    4,
+    3,
+    0,
+    254796,
+    0,
+    8,
+    "[DNT] Park Guardians"
+   ],
+   [
+    5,
+    4,
+    0,
+    254789,
+    0,
+    8,
+    "[DNT] Brakko Parked"
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    5,
+    3,
+    243179,
+    1,
+    4,
+    "Speak with Motta"
+   ],
+   [
+    1,
+    0,
+    14,
+    216930,
+    1,
+    1,
+    "Brakko assisted"
+   ],
+   [
+    2,
+    1,
+    14,
+    216932,
+    1,
+    0,
+    "Ziny assisted"
+   ],
+   [
+    3,
+    2,
+    14,
+    216934,
+    1,
+    0,
+    "Tuktuk assisted"
+   ],
+   [
+    4,
+    3,
+    0,
+    254796,
+    1,
+    30,
+    "[DNT] Park Guardians"
+   ],
+   [
+    5,
+    4,
+    0,
+    254789,
+    1,
+    30,
+    "[DNT] Brakko Parked"
+   ]
+  ]
+ },
+ {
+  "id": 90622,
+  "title": "Not-Yet Defeated Champions",
+  "world": [
+   [
+    0,
+    5,
+    0,
+    243179,
+    1,
+    4,
+    "Speak with Motta"
+   ],
+   [
+    1,
+    3,
+    0,
+    9100633,
+    1,
+    4,
+    "Run through the entryway"
+   ],
+   [
+    2,
+    1,
+    0,
+    252783,
+    1,
+    0,
+    "Enter the Grudge Pit"
+   ],
+   [
+    3,
+    0,
+    0,
+    252770,
+    5,
+    2,
+    "Defeat the Glow Guard"
+   ],
+   [
+    4,
+    2,
+    3,
+    243226,
+    1,
+    28,
+    ""
+   ],
+   [
+    5,
+    4,
+    0,
+    254837,
+    1,
+    28,
+    "[DNT] Team is Parked"
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    5,
+    3,
+    243179,
+    1,
+    4,
+    "Speak with Motta"
+   ],
+   [
+    1,
+    3,
+    19,
+    39544,
+    0,
+    4,
+    "Run through the entryway"
+   ],
+   [
+    2,
+    1,
+    0,
+    252783,
+    1,
+    0,
+    "Enter the Grudge Pit"
+   ],
+   [
+    3,
+    0,
+    0,
+    252770,
+    5,
+    2,
+    "Defeat the Glow Guard"
+   ],
+   [
+    4,
+    2,
+    3,
+    243226,
+    1,
+    28,
+    ""
+   ],
+   [
+    5,
+    4,
+    0,
+    254837,
+    1,
+    28,
+    "[DNT] Team is Parked"
+   ]
+  ]
+ },
+ {
+  "id": 90832,
+  "title": "As Her Voice Goes Silent",
+  "world": [
+   [
+    0,
+    0,
+    0,
+    245168,
+    2,
+    0,
+    "Shul'ka Wards placed"
+   ],
+   [
+    1,
+    1,
+    0,
+    244456,
+    1,
+    2,
+    "Ritual of Severing begun"
+   ],
+   [
+    2,
+    2,
+    15,
+    0,
+    1,
+    2,
+    "Ritual of Severing completed"
+   ],
+   [
+    3,
+    3,
+    0,
+    0,
+    8,
+    92,
+    "--Label credit for ritual complete--"
+   ],
+   [
+    4,
+    4,
+    0,
+    245236,
+    8,
+    92,
+    "--1/2 Complete Event--"
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    0,
+    0,
+    245168,
+    2,
+    0,
+    "Shul'ka Wards placed"
+   ],
+   [
+    1,
+    1,
+    0,
+    244456,
+    1,
+    2,
+    "Ritual of Severing begun"
+   ],
+   [
+    2,
+    2,
+    21,
+    5102,
+    1,
+    2,
+    "Ritual of Severing completed"
+   ],
+   [
+    3,
+    3,
+    0,
+    245236,
+    15,
+    28,
+    "--Label credit for ritual complete--"
+   ],
+   [
+    4,
+    4,
+    0,
+    245236,
+    8,
+    28,
+    "--1/2 Complete Event--"
+   ]
+  ]
+ },
+ {
+  "id": 90958,
+  "title": "Roots Above All",
+  "world": [
+   [
+    0,
+    -1,
+    15,
+    0,
+    1,
+    0,
+    "Pests Removed"
+   ],
+   [
+    1,
+    1,
+    0,
+    248669,
+    12,
+    92,
+    "Pests Removed"
+   ],
+   [
+    1,
+    4,
+    0,
+    248669,
+    50,
+    92,
+    ""
+   ],
+   [
+    2,
+    0,
+    0,
+    245117,
+    13,
+    92,
+    ""
+   ],
+   [
+    2,
+    2,
+    0,
+    245117,
+    12,
+    92,
+    "Pests Removed"
+   ],
+   [
+    3,
+    1,
+    0,
+    246277,
+    10,
+    92,
+    ""
+   ],
+   [
+    3,
+    3,
+    0,
+    246277,
+    12,
+    92,
+    "Pests Removed"
+   ],
+   [
+    4,
+    2,
+    2,
+    553763,
+    9,
+    92,
+    ""
+   ],
+   [
+    4,
+    4,
+    2,
+    553763,
+    12,
+    92,
+    "Pests Removed"
+   ],
+   [
+    5,
+    3,
+    1,
+    246129,
+    1,
+    2,
+    "Mysterious Voice Investigated"
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    -1,
+    15,
+    0,
+    1,
+    0,
+    "Pests removed"
+   ],
+   [
+    1,
+    4,
+    0,
+    248669,
+    50,
+    92,
+    ""
+   ],
+   [
+    2,
+    0,
+    0,
+    245117,
+    13,
+    92,
+    ""
+   ],
+   [
+    3,
+    1,
+    0,
+    246277,
+    10,
+    92,
+    ""
+   ],
+   [
+    4,
+    2,
+    2,
+    553763,
+    9,
+    92,
+    ""
+   ],
+   [
+    5,
+    3,
+    1,
+    246129,
+    1,
+    2,
+    "Mysterious Voice investigated"
+   ]
+  ]
+ },
+ {
+  "id": 90959,
+  "title": "Traditional Duties",
+  "world": [
+   [
+    0,
+    3,
+    0,
+    253478,
+    1,
+    0,
+    "Dalnir met at the Den of Remembrance"
+   ],
+   [
+    1,
+    2,
+    0,
+    247257,
+    1,
+    2,
+    "Outsider found"
+   ],
+   [
+    2,
+    0,
+    0,
+    245114,
+    1,
+    2,
+    "Outsider rescued"
+   ],
+   [
+    2,
+    2,
+    0,
+    245114,
+    1,
+    2,
+    "Outsider rescued"
+   ],
+   [
+    3,
+    1,
+    0,
+    246360,
+    1,
+    2,
+    "Outsider directed to safety"
+   ],
+   [
+    3,
+    3,
+    0,
+    246360,
+    1,
+    4,
+    "Outsider directed to safety"
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    3,
+    0,
+    253478,
+    1,
+    0,
+    "Dalnir met at the Den of Remembrance"
+   ],
+   [
+    1,
+    2,
+    0,
+    247257,
+    1,
+    2,
+    "Outsider found"
+   ],
+   [
+    2,
+    0,
+    0,
+    245114,
+    1,
+    2,
+    "Outsider rescued"
+   ],
+   [
+    3,
+    1,
+    0,
+    246360,
+    1,
+    2,
+    "Outsider directed to safety"
+   ]
+  ]
+ },
+ {
+  "id": 90960,
+  "title": "My Story, My Legacy",
+  "world": [
+   [
+    0,
+    0,
+    0,
+    246474,
+    1,
+    0,
+    "Legacy Stone of True Self inspected"
+   ],
+   [
+    1,
+    1,
+    0,
+    246456,
+    1,
+    2,
+    "Vision of True Self concluded"
+   ],
+   [
+    2,
+    2,
+    0,
+    246490,
+    1,
+    2,
+    "Legacy Stone of True Calling inspected"
+   ],
+   [
+    3,
+    3,
+    0,
+    246522,
+    1,
+    2,
+    "Vision of True Calling concluded"
+   ],
+   [
+    3,
+    3,
+    0,
+    246522,
+    1,
+    2,
+    "Vision of True Calling concluded"
+   ],
+   [
+    4,
+    4,
+    0,
+    246543,
+    1,
+    2,
+    "Legacy Stone of the Goddess Guidance inspected"
+   ],
+   [
+    5,
+    5,
+    0,
+    246546,
+    1,
+    24,
+    "Vision of The Goddess Guidance concluded"
+   ],
+   [
+    6,
+    6,
+    0,
+    245097,
+    1,
+    2,
+    "Talk to Hagar"
+   ],
+   [
+    7,
+    7,
+    2,
+    554966,
+    1,
+    2,
+    "Legacy Stone painted"
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    0,
+    0,
+    246474,
+    1,
+    0,
+    "Legacy Stone of True Self inspected"
+   ],
+   [
+    1,
+    1,
+    0,
+    246456,
+    1,
+    2,
+    "Vision of True Self concluded"
+   ],
+   [
+    2,
+    2,
+    0,
+    246490,
+    1,
+    2,
+    "Legacy Stone of True Calling inspected"
+   ],
+   [
+    3,
+    3,
+    0,
+    246522,
+    1,
+    2,
+    "Vision of True Calling concluded"
+   ],
+   [
+    4,
+    4,
+    0,
+    246543,
+    1,
+    2,
+    "Legacy Stone of the Goddess Guidance inspected"
+   ],
+   [
+    5,
+    5,
+    0,
+    246546,
+    1,
+    24,
+    "Vision of The Goddess Guidance concluded"
+   ],
+   [
+    6,
+    6,
+    0,
+    245097,
+    1,
+    2,
+    "Talk to Hagar"
+   ],
+   [
+    7,
+    7,
+    2,
+    554966,
+    1,
+    2,
+    "Legacy Stone painted"
+   ]
+  ]
+ },
+ {
+  "id": 91381,
+  "title": "Reticent Evil",
+  "world": [
+   [
+    0,
+    0,
+    0,
+    246892,
+    1,
+    0,
+    "Agericus Decanimatus destroyed"
+   ],
+   [
+    1,
+    1,
+    0,
+    248125,
+    1,
+    0,
+    ""
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    0,
+    0,
+    246892,
+    1,
+    0,
+    "Agericus Decanimatus destroyed"
+   ],
+   [
+    1,
+    1,
+    0,
+    248125,
+    1,
+    2,
+    ""
+   ]
+  ]
+ },
+ {
+  "id": 91874,
+  "title": "Flare Up",
+  "world": [
+   [
+    0,
+    0,
+    2,
+    90009387,
+    18,
+    0,
+    "Smoldering Fires doused"
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    0,
+    0,
+    247499,
+    18,
+    0,
+    "Smoldering Fires doused"
+   ]
+  ]
+ },
+ {
+  "id": 92618,
+  "title": "Mushrooming Confidence",
+  "world": [
+   [
+    0,
+    0,
+    0,
+    9100634,
+    1,
+    0,
+    "Find Tuktuk"
+   ],
+   [
+    1,
+    1,
+    0,
+    252660,
+    3,
+    2,
+    "Face feelings with Tuktuk"
+   ],
+   [
+    2,
+    5,
+    0,
+    254780,
+    1,
+    0,
+    "Convince Tuktuk to return"
+   ],
+   [
+    3,
+    2,
+    0,
+    252657,
+    1,
+    28,
+    "[DNT] First Fear Confronted"
+   ],
+   [
+    4,
+    3,
+    0,
+    252659,
+    1,
+    28,
+    "[DNT] Second Fear Confronted"
+   ],
+   [
+    5,
+    4,
+    0,
+    252658,
+    1,
+    28,
+    "[DNT] Third Fear Confronted"
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    0,
+    19,
+    39827,
+    0,
+    0,
+    "Find Tuktuk"
+   ],
+   [
+    1,
+    1,
+    0,
+    252660,
+    3,
+    2,
+    "Face feelings with Tuktuk"
+   ],
+   [
+    2,
+    5,
+    0,
+    254780,
+    1,
+    0,
+    "Convince Tuktuk to return"
+   ],
+   [
+    3,
+    2,
+    0,
+    252657,
+    1,
+    28,
+    "[DNT] First Fear Confronted"
+   ],
+   [
+    4,
+    3,
+    0,
+    252659,
+    1,
+    28,
+    "[DNT] Second Fear Confronted"
+   ],
+   [
+    5,
+    4,
+    0,
+    252658,
+    1,
+    28,
+    "[DNT] Third Fear Confronted"
+   ]
+  ]
+ },
+ {
+  "id": 92695,
+  "title": "The Stroke of Storms",
+  "world": [
+   [
+    0,
+    5,
+    0,
+    255172,
+    0,
+    8,
+    "Use the visionstone to enter the painting"
+   ],
+   [
+    1,
+    -1,
+    15,
+    0,
+    1,
+    2,
+    "Painting cleaned up"
+   ],
+   [
+    2,
+    0,
+    0,
+    253000,
+    13,
+    92,
+    ""
+   ],
+   [
+    3,
+    1,
+    0,
+    252994,
+    13,
+    92,
+    ""
+   ],
+   [
+    4,
+    2,
+    0,
+    252997,
+    10,
+    92,
+    ""
+   ],
+   [
+    5,
+    3,
+    0,
+    252998,
+    10,
+    92,
+    ""
+   ],
+   [
+    6,
+    4,
+    2,
+    613789,
+    25,
+    92,
+    ""
+   ],
+   [
+    7,
+    7,
+    0,
+    255847,
+    9,
+    92,
+    ""
+   ],
+   [
+    8,
+    6,
+    0,
+    255172,
+    0,
+    6,
+    "Use the visonstone to return to your body"
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    5,
+    0,
+    255172,
+    1,
+    0,
+    "Use the visionstone to enter the painting"
+   ],
+   [
+    1,
+    -1,
+    15,
+    0,
+    1,
+    2,
+    "Painting cleaned up"
+   ],
+   [
+    2,
+    0,
+    0,
+    253000,
+    13,
+    92,
+    ""
+   ],
+   [
+    3,
+    1,
+    0,
+    252994,
+    13,
+    92,
+    ""
+   ],
+   [
+    4,
+    2,
+    0,
+    252997,
+    10,
+    92,
+    ""
+   ],
+   [
+    5,
+    3,
+    0,
+    252998,
+    10,
+    92,
+    ""
+   ],
+   [
+    6,
+    4,
+    2,
+    613789,
+    25,
+    92,
+    ""
+   ],
+   [
+    7,
+    7,
+    0,
+    255847,
+    9,
+    92,
+    ""
+   ],
+   [
+    8,
+    6,
+    0,
+    255172,
+    1,
+    2,
+    "Use the visonstone to return to your body"
+   ]
+  ]
+ },
+ {
+  "id": 92736,
+  "title": "Light Stroll",
+  "world": [
+   [
+    0,
+    2,
+    0,
+    260059,
+    0,
+    8,
+    "Clues found"
+   ],
+   [
+    1,
+    3,
+    2,
+    618300,
+    1,
+    2,
+    "First Clue Found"
+   ],
+   [
+    2,
+    0,
+    2,
+    614157,
+    1,
+    2,
+    "Second Clue Found"
+   ],
+   [
+    3,
+    4,
+    2,
+    618309,
+    1,
+    2,
+    "Third Clue Found"
+   ],
+   [
+    4,
+    1,
+    0,
+    256243,
+    1,
+    2,
+    "Fourth Clue Found"
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    2,
+    0,
+    260059,
+    4,
+    4,
+    "Clues found"
+   ],
+   [
+    1,
+    3,
+    0,
+    257291,
+    1,
+    24,
+    "First Clue Found"
+   ],
+   [
+    2,
+    0,
+    0,
+    255533,
+    1,
+    26,
+    "Second Clue Found"
+   ],
+   [
+    3,
+    4,
+    0,
+    257301,
+    1,
+    26,
+    "Third Clue Found"
+   ],
+   [
+    4,
+    1,
+    3,
+    256243,
+    1,
+    26,
+    "Fourth Clue Found"
+   ]
+  ]
+ },
+ {
+  "id": 92884,
+  "title": "A Hunter's Weapon",
+  "world": [
+   [
+    0,
+    3,
+    0,
+    255861,
+    1,
+    28,
+    ""
+   ],
+   [
+    1,
+    0,
+    2,
+    584534,
+    1,
+    0,
+    "Chloroceros Bone added to anvil"
+   ],
+   [
+    2,
+    2,
+    2,
+    602755,
+    1,
+    2,
+    "Sporeglider's Tail Spore used"
+   ],
+   [
+    3,
+    1,
+    0,
+    255862,
+    1,
+    28,
+    ""
+   ],
+   [
+    4,
+    4,
+    1,
+    257717,
+    1,
+    2,
+    "Ka'dani Spear acquired"
+   ],
+   [
+    5,
+    5,
+    0,
+    254468,
+    1,
+    2,
+    "Ka'dani Spear presented to Elder Akazi"
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    3,
+    0,
+    255861,
+    1,
+    28,
+    ""
+   ],
+   [
+    1,
+    0,
+    0,
+    255855,
+    1,
+    0,
+    "Chloroceros Bone added to anvil"
+   ],
+   [
+    2,
+    2,
+    0,
+    255856,
+    1,
+    2,
+    "Sporeglider's Tail Spore used"
+   ],
+   [
+    3,
+    1,
+    0,
+    255862,
+    1,
+    28,
+    ""
+   ],
+   [
+    4,
+    4,
+    1,
+    257717,
+    1,
+    2,
+    "Ka'dani Spear acquired"
+   ],
+   [
+    5,
+    5,
+    0,
+    254468,
+    1,
+    2,
+    "Ka'dani Spear presented to Elder Akazi"
+   ]
+  ]
+ },
+ {
+  "id": 92899,
+  "title": "History Lesson",
+  "world": [
+   [
+    0,
+    0,
+    0,
+    254886,
+    6,
+    0,
+    "Speak to delegates"
+   ],
+   [
+    1,
+    1,
+    0,
+    254887,
+    1,
+    2,
+    "Speak to Orweyna"
+   ],
+   [
+    1,
+    2,
+    0,
+    258062,
+    1,
+    28,
+    "Speak to Rokhan"
+   ],
+   [
+    2,
+    3,
+    0,
+    258030,
+    1,
+    28,
+    "Speak to Talanji"
+   ],
+   [
+    3,
+    4,
+    0,
+    258079,
+    1,
+    28,
+    "Speak to Umbric"
+   ],
+   [
+    4,
+    5,
+    0,
+    258179,
+    1,
+    28,
+    "Speak to Shandris"
+   ],
+   [
+    5,
+    6,
+    0,
+    258053,
+    1,
+    28,
+    "Speak to Thalyssra"
+   ],
+   [
+    6,
+    7,
+    0,
+    258263,
+    1,
+    28,
+    "Speak to Vereesa"
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    0,
+    0,
+    254886,
+    6,
+    0,
+    "Speak to delegates"
+   ],
+   [
+    1,
+    2,
+    0,
+    258062,
+    1,
+    28,
+    "Speak to Rokhan"
+   ],
+   [
+    2,
+    3,
+    0,
+    258030,
+    1,
+    28,
+    "Speak to Talanji"
+   ],
+   [
+    3,
+    4,
+    0,
+    258079,
+    1,
+    28,
+    "Speak to Umbric"
+   ],
+   [
+    4,
+    5,
+    0,
+    258179,
+    1,
+    28,
+    "Speak to Shandris"
+   ],
+   [
+    5,
+    6,
+    0,
+    258053,
+    1,
+    28,
+    "Speak to Thalyssra"
+   ],
+   [
+    6,
+    7,
+    0,
+    258263,
+    1,
+    28,
+    "Speak to Vereesa"
+   ],
+   [
+    7,
+    1,
+    0,
+    254887,
+    1,
+    2,
+    "Speak to Orweyna"
+   ]
+  ]
+ },
+ {
+  "id": 92900,
+  "title": "A Favor for Kinduru",
+  "world": [
+   [
+    0,
+    0,
+    0,
+    256013,
+    1,
+    4,
+    "Stay awhile and listen to the elves"
+   ],
+   [
+    1,
+    1,
+    0,
+    260795,
+    1,
+    4,
+    "Stay awhile and listen to the trolls"
+   ],
+   [
+    2,
+    2,
+    0,
+    254977,
+    1,
+    0,
+    "Speak to Zul'jan"
+   ],
+   [
+    3,
+    3,
+    0,
+    254978,
+    1,
+    2,
+    "Meet at the Den of Echoes"
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    2,
+    0,
+    256013,
+    1,
+    4,
+    "Stay awhile and listen to the elves"
+   ],
+   [
+    1,
+    3,
+    0,
+    260795,
+    1,
+    4,
+    "Stay awhile and listen to the trolls"
+   ],
+   [
+    2,
+    0,
+    0,
+    254977,
+    1,
+    0,
+    "Speak to Zul'jan"
+   ],
+   [
+    3,
+    1,
+    0,
+    254978,
+    1,
+    2,
+    "Meet at the Den of Echoes"
+   ]
+  ]
+ },
+ {
+  "id": 94391,
+  "title": "Special Assignment: Push Back the Light",
+  "world": [
+   [
+    0,
+    0,
+    14,
+    220996,
+    1,
+    0,
+    "Complete 3 World Quests in Harandar"
+   ]
+  ],
+  "tdb": [
+   [
+    0,
+    0,
+    14,
+    220996,
+    1,
+    16,
+    "Complete 3 World Quests in Harandar"
+   ]
+  ]
+ }
+]

@@ -1,0 +1,3 @@
+-- Midnight main campaign (batch 2): Alleria 235521 / Lothraxion 235713 already have credit on select (SAI event 62); innkeepers 236149/239630 credit via Lua on option 'Thank you for the kind welcome'.
+INSERT INTO bak_20261020_smart_scripts_gossipopen SELECT s.* FROM smart_scripts s WHERE s.source_type=0 AND s.event_type=64 AND s.action_type=33 AND s.action_param1=s.entryorguid AND s.entryorguid IN (235521,235713,236149,239630) AND NOT EXISTS (SELECT 1 FROM bak_20261020_smart_scripts_gossipopen b WHERE b.entryorguid=s.entryorguid AND b.source_type=0 AND b.id=s.id);
+DELETE FROM smart_scripts WHERE source_type=0 AND event_type=64 AND action_type=33 AND action_param1=entryorguid AND entryorguid IN (235521,235713,236149,239630);

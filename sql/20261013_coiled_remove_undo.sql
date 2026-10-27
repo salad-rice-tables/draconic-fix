@@ -1,0 +1,24 @@
+-- Undo for 20261013_coiled_remove.sql.
+INSERT IGNORE INTO `world`.`creature` SELECT * FROM `world`.`backup_20261013_coiled_remove`;
+INSERT IGNORE INTO `world`.`creature_queststarter` (`id`,`quest`,`VerifiedBuild`) VALUES (9504113,9501122,0);
+INSERT IGNORE INTO `world`.`creature_queststarter` (`id`,`quest`,`VerifiedBuild`) VALUES (9505101,9501149,0);
+INSERT IGNORE INTO `world`.`creature_queststarter` (`id`,`quest`,`VerifiedBuild`) VALUES (9505101,9501150,0);
+INSERT IGNORE INTO `world`.`creature_queststarter` (`id`,`quest`,`VerifiedBuild`) VALUES (9505101,9501151,0);
+INSERT IGNORE INTO `world`.`creature_queststarter` (`id`,`quest`,`VerifiedBuild`) VALUES (9505101,9501152,0);
+INSERT IGNORE INTO `world`.`creature_queststarter` (`id`,`quest`,`VerifiedBuild`) VALUES (9505101,9501153,0);
+INSERT IGNORE INTO `world`.`creature_queststarter` (`id`,`quest`,`VerifiedBuild`) VALUES (9505101,9501154,0);
+INSERT IGNORE INTO `world`.`creature_queststarter` (`id`,`quest`,`VerifiedBuild`) VALUES (9505101,9501155,0);
+INSERT IGNORE INTO `world`.`creature_queststarter` (`id`,`quest`,`VerifiedBuild`) VALUES (9505101,9501156,0);
+INSERT IGNORE INTO `world`.`creature_queststarter` (`id`,`quest`,`VerifiedBuild`) VALUES (9505102,9501110,0);
+INSERT IGNORE INTO `world`.`creature_queststarter` (`id`,`quest`,`VerifiedBuild`) VALUES (9505103,9501118,0);
+INSERT IGNORE INTO `world`.`creature_queststarter` (`id`,`quest`,`VerifiedBuild`) VALUES (9505103,9501119,0);
+INSERT IGNORE INTO `world`.`creature_questender` (`id`,`quest`,`VerifiedBuild`) VALUES (9504113,9501122,0);
+INSERT IGNORE INTO `world`.`creature_questender` (`id`,`quest`,`VerifiedBuild`) VALUES (9505101,9501149,0);
+INSERT IGNORE INTO `world`.`creature_questender` (`id`,`quest`,`VerifiedBuild`) VALUES (9505101,9501150,0);
+INSERT IGNORE INTO `world`.`creature_questender` (`id`,`quest`,`VerifiedBuild`) VALUES (9505101,9501151,0);
+INSERT IGNORE INTO `world`.`creature_questender` (`id`,`quest`,`VerifiedBuild`) VALUES (9505101,9501153,0);
+INSERT IGNORE INTO `world`.`creature_questender` (`id`,`quest`,`VerifiedBuild`) VALUES (9505101,9501154,0);
+INSERT IGNORE INTO `world`.`creature_questender` (`id`,`quest`,`VerifiedBuild`) VALUES (9505101,9501155,0);
+INSERT IGNORE INTO `world`.`creature_questender` (`id`,`quest`,`VerifiedBuild`) VALUES (9505101,9501156,0);
+INSERT IGNORE INTO `world`.`creature_questender` (`id`,`quest`,`VerifiedBuild`) VALUES (9505102,9501109,0);
+INSERT IGNORE INTO `world`.`creature_questender` (`id`,`quest`,`VerifiedBuild`) VALUES (9505103,9501118,0);

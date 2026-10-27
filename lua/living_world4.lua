@@ -55,7 +55,16 @@ local function Hour()
     if not ok or type(t) ~= "number" or t == 0 then t = os.time() end
     return math.floor(t / 3600) % 24
 end
-local function IsNight() local h = Hour(); return h >= 21 or h < 6 end
+local _forceNightAt, _forceNight = 0, nil
+local function ForceNight() -- GM test: world.lw_state force_night=1 (cached 30 s)
+    if os.time() - _forceNightAt > 30 then
+        _forceNightAt = os.time()
+        local ok, r = pcall(WorldDBQuery, "SELECT v FROM world.lw_state WHERE k = 'force_night'")
+        _forceNight = ok and r and r:GetString(0) == "1"
+    end
+    return _forceNight
+end
+local function IsNight() if ForceNight() then return true end; local h = Hour(); return h >= 21 or h < 6 end
 -- Obsadenost: ostatne living-world systemy, war event a piraati. Workday narok s expirovanou
 -- casovou znackou povazujeme za volny (vid workday.lua CLAIM_TTL).
 local function ClaimedByOther(c)
@@ -126,7 +135,7 @@ local function PollNews()
         local text = q:GetString(1)
         table.insert(NEWS, 1, text)
         while #NEWS > 6 do table.remove(NEWS) end
-        for _, p in ipairs(MAP_Players()) do
+        for _, p in ipairs(LW_Players()) do
             if CAPITALS[p:GetZoneId()] then p:SendBroadcastMessage(HTAG .. text) end
         end
     until not q:NextRow()
@@ -155,7 +164,7 @@ LW_QUEUE_HANDLERS["funeral"] = function(_, arg)
     local capital = (h == "1") and 1637 or 1519
     local mapOf = {[1637] = 1, [1519] = 0}
     if STATE_MAP ~= mapOf[capital] then return false end   -- not this map's job
-    for _, p in ipairs(MAP_Players()) do
+    for _, p in ipairs(LW_Players()) do
         if p:GetZoneId() == capital then
             local spoke = false
             for _, c in ipairs(p:GetCreaturesInRange(30) or {}) do
@@ -524,7 +533,7 @@ local lastHerald, lastTraveller, lastEcon = 0, {}, 0
 local LW4_SEEN = {}   -- guid -> tick ked bol tvor naposledy pri hracoch (proti zaseknutym emotom)
 local function Tick()
     local now, night, day = os.time(), IsNight(), (Hour() >= 6 and Hour() < 19)
-    local players = MAP_Players()
+    local players = LW_Players()
     PollNews()
     if now - lastHerald >= 900 then
         lastHerald = now

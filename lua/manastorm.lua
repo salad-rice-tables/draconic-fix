@@ -1,5 +1,5 @@
 -- =====================================================================
--- Manastorms (Descend): a roguelike run on a storm-torn isle.
+-- Manastorms (Ascension): a roguelike run on a storm-torn isle.
 -- Talk to a Manastorm Keeper (9900134, capital inns) alone or with your
 -- party. 5 floors of waves drawn from creatures all over Azeroth that scale
 -- to your level; every floor they grow stronger (Manastorm Empowerment) and

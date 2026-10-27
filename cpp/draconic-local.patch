@@ -1,0 +1,189 @@
+diff --git a/dep/boost/CMakeLists.txt b/dep/boost/CMakeLists.txt
+index 34f4750b..a2f186d1 100644
+--- a/dep/boost/CMakeLists.txt
++++ b/dep/boost/CMakeLists.txt
+@@ -44,16 +44,24 @@ else()
+   set(BOOST_REQUIRED_VERSION 1.74)
+ endif()
+ 
++# Draconic-WoW local: Boost from NuGet has no BoostConfig.cmake -> fall back
++# to CMake's FindBoost (module mode) when no config package is found.
+ find_package(Boost ${BOOST_REQUIRED_VERSION}
+-  REQUIRED
+-  COMPONENTS 
++  COMPONENTS
+     filesystem
+     program_options
+     regex
+     locale
+-  CONFIG
++  CONFIG QUIET
+   HINTS
+     ${BOOST_SEARCH_HINTS})
++if(NOT Boost_FOUND)
++  if(POLICY CMP0167)
++    cmake_policy(SET CMP0167 OLD)
++  endif()
++  find_package(Boost ${BOOST_REQUIRED_VERSION} REQUIRED MODULE
++    COMPONENTS filesystem program_options regex locale system thread)
++endif()
+ 
+ if(NOT Boost_FOUND)
+   if(NOT DEFINED ENV{BOOST_ROOT} AND NOT DEFINED Boost_DIR AND NOT DEFINED BOOST_ROOT AND NOT DEFINED BOOSTROOT)
+diff --git a/src/server/game/Entities/Player/Player.cpp b/src/server/game/Entities/Player/Player.cpp
+index fd8770d8..3c27cdf1 100644
+--- a/src/server/game/Entities/Player/Player.cpp
++++ b/src/server/game/Entities/Player/Player.cpp
+@@ -30373,6 +30373,10 @@ void Player::ApplyTraitEntry(int32 traitNodeEntryId, int32 rank, int32 grantedRa
+     if (!traitDefinition)
+         return;
+ 
++    // Custom (pure Hero): no retail class talents while Hero Essence (aura 1400010) is active
++    if (apply && HasAura(1400010))
++        return;
++
+     if (traitDefinition->SpellID)
+     {
+         ASSERT(traitNodeEntry->TraitDefinitionID <= 0xFFFFFF && rank + grantedRanks <= 0xFF);
+diff --git a/src/server/game/Handlers/NPCHandler.cpp b/src/server/game/Handlers/NPCHandler.cpp
+index 4ede6ef5..24e40720 100644
+--- a/src/server/game/Handlers/NPCHandler.cpp
++++ b/src/server/game/Handlers/NPCHandler.cpp
+@@ -287,6 +287,19 @@ void WorldSession::HandleGossipSelectOptionOpcode(WorldPackets::NPC::GossipSelec
+         return;
+     }
+ 
++    // Custom (Hero windows): a gossip menu the player opened for themselves (Eluna player gossip).
++    // Without this the code below falls through to go->AI() with go == nullptr and crashes.
++    if (packet.GossipUnit.IsPlayer())
++    {
++#ifdef ELUNA
++        if (Eluna* e = GetPlayer()->GetEluna())
++            e->HandleGossipSelectOption(_player, _player->PlayerTalkClass->GetGossipMenu().GetMenuId(),
++                _player->PlayerTalkClass->GetGossipOptionSender(gossipMenuItem->OrderIndex),
++                _player->PlayerTalkClass->GetGossipOptionAction(gossipMenuItem->OrderIndex), packet.PromotionCode);
++#endif
++        return;
++    }
++
+     if (!packet.PromotionCode.empty())
+     {
+         if (unit)
+diff --git a/src/server/game/Handlers/TraitHandler.cpp b/src/server/game/Handlers/TraitHandler.cpp
+index 68cae5cc..405195de 100644
+--- a/src/server/game/Handlers/TraitHandler.cpp
++++ b/src/server/game/Handlers/TraitHandler.cpp
+@@ -17,6 +17,7 @@
+ 
+ #include "WorldSession.h"
+ #include "Battleground.h"
++#include "Chat.h"
+ #include "DB2Stores.h"
+ #include "Player.h"
+ #include "SpellHistory.h"
+@@ -39,6 +40,14 @@ void WorldSession::HandleTraitsCommitConfig(WorldPackets::Traits::TraitsCommitCo
+         return;
+     }
+ 
++    // Custom (pure Hero): Hero characters (Hero Essence aura 1400010) use Hero talents, not the class tree
++    if (_player->HasAura(1400010) && static_cast<TraitConfigType>(*existingConfig->Type) == TraitConfigType::Combat)
++    {
++        ChatHandler(this).SendSysMessage("|cffff8000[Hero]|r Heroes do not use the class talent tree. Open Character Advancement (/ca) for Hero talents.");
++        SendPacket(WorldPackets::Traits::TraitConfigCommitFailed(configId, 0, TALENT_FAILED_UNKNOWN).Write());
++        return;
++    }
++
+     if (_player->GetBattleground() && _player->GetBattleground()->GetStatus() == STATUS_IN_PROGRESS)
+     {
+         SendPacket(WorldPackets::Traits::TraitConfigCommitFailed(configId, 0, TALENT_FAILED_IN_PVP_MATCH).Write());
+diff --git a/src/server/game/LuaEngine/methods/TrinityCore/UnitMethods.h b/src/server/game/LuaEngine/methods/TrinityCore/UnitMethods.h
+index 019d3593..0d644d50 100644
+--- a/src/server/game/LuaEngine/methods/TrinityCore/UnitMethods.h
++++ b/src/server/game/LuaEngine/methods/TrinityCore/UnitMethods.h
+@@ -7,6 +7,8 @@
+ #ifndef UNITMETHODS_H
+ #define UNITMETHODS_H
+ 
++#include "PathGenerator.h"
++
+ /***
+  * Inherits all methods from: [Object], [WorldObject]
+  */
+@@ -1979,6 +1981,36 @@ namespace LuaUnit
+         return 0;
+     }
+ 
++    /**
++     * Custom (living world): like MoveTo, but only moves when the navmesh has a
++     * path toward the point (partial paths are fine). Ground walkers never take the straight-line
++     * shortcut through the air, walls or under bridges.
++     *
++     * @param uint32 id : unique waypoint Id
++     * @param float x
++     * @param float y
++     * @param float z
++     * @return bool moved
++     */
++    int MoveToSafe(Eluna* E, Unit* unit)
++    {
++        uint32 id = E->CHECKVAL<uint32>(2);
++        float x = E->CHECKVAL<float>(3);
++        float y = E->CHECKVAL<float>(4);
++        float z = E->CHECKVAL<float>(5);
++
++        PathGenerator path(unit);
++        bool ok = path.CalculatePath(x, y, z, false);
++        if (!ok || (path.GetPathType() & (PATHFIND_NOPATH | PATHFIND_SHORTCUT | PATHFIND_NOT_USING_PATH)))
++        {
++            E->Push(false);
++            return 1;
++        }
++        unit->GetMotionMaster()->MovePoint(id, x, y, z, true);
++        E->Push(true);
++        return 1;
++    }
++
+     /**
+      * Makes the [Unit] jump to the coordinates
+      *
+@@ -2725,6 +2757,7 @@ namespace LuaUnit
+         { "MoveConfused", &LuaUnit::MoveConfused },
+         { "MoveFleeing", &LuaUnit::MoveFleeing },
+         { "MoveTo", &LuaUnit::MoveTo },
++        { "MoveToSafe", &LuaUnit::MoveToSafe },
+         { "MoveJump", &LuaUnit::MoveJump },
+         { "MoveStop", &LuaUnit::MoveStop },
+         { "MoveExpire", &LuaUnit::MoveExpire },
+diff --git a/src/server/game/Spells/Auras/SpellAuraEffects.cpp b/src/server/game/Spells/Auras/SpellAuraEffects.cpp
+index b506582d..38b0cc72 100644
+--- a/src/server/game/Spells/Auras/SpellAuraEffects.cpp
++++ b/src/server/game/Spells/Auras/SpellAuraEffects.cpp
+@@ -6343,6 +6343,12 @@ void AuraEffect::HandleEnableAltPower(AuraApplication const* aurApp, uint8 mode,
+         aurApp->GetTarget()->SetMaxPower(POWER_ALTERNATE_POWER, powerEntry->MaxPower);
+     else
+         aurApp->GetTarget()->SetMaxPower(POWER_ALTERNATE_POWER, 0);
++
++    // Custom (pure Hero): Hero Essence (bar 9990) turns the retail class talent tree off.
++    // Hero talents are learned by the Hero system (lua wildcard.lua) instead.
++    if (apply && altPowerId == 9990)
++        if (Player* player = aurApp->GetTarget()->ToPlayer())
++            player->ApplyTraitConfig(player->m_activePlayerData->ActiveCombatTraitConfigID, false);
+ }
+ 
+ void AuraEffect::HandleModSpellCategoryCooldown(AuraApplication const* aurApp, uint8 mode, bool apply) const
+diff --git a/src/server/game/Spells/SpellInfo.cpp b/src/server/game/Spells/SpellInfo.cpp
+index fff993a1..bcfc9518 100644
+--- a/src/server/game/Spells/SpellInfo.cpp
++++ b/src/server/game/Spells/SpellInfo.cpp
+@@ -4050,6 +4050,11 @@ Optional<SpellPowerCost> SpellInfo::CalcPowerCost(SpellPowerEntry const* power,
+     if (power->RequiredAuraSpellID && !unitCaster->HasAura(power->RequiredAuraSpellID))
+         return {};
+ 
++    // Draconic-WoW Hero Essence: abilities in the Hero pool cost Essence (alt power bar 9990)
++    // for players only. Creatures casting the same spells (NPC mages, healers...) pay nothing.
++    if (power->PowerType == POWER_ALTERNATE_POWER && power->AltPowerBarID == 9990 && !unitCaster->IsPlayer())
++        return {};
++
+     // Spell drain all exist power on cast (Only paladin lay of Hands)
+     if (HasAttribute(SPELL_ATTR1_USE_ALL_MANA))
+     {

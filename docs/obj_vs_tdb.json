@@ -1,0 +1,7355 @@
+{
+ "quests": 238,
+ "world_objectives": 1000,
+ "tdb_objectives": 862,
+ "missing_in_world": [
+  [
+   459568,
+   86545
+  ],
+  [
+   459569,
+   86545
+  ],
+  [
+   459571,
+   86545
+  ],
+  [
+   459677,
+   86544
+  ],
+  [
+   461345,
+   86545
+  ]
+ ],
+ "extra_in_world": [
+  [
+   466089,
+   86838
+  ],
+  [
+   86512000,
+   86512
+  ],
+  [
+   86512001,
+   86512
+  ],
+  [
+   86512002,
+   86512
+  ],
+  [
+   86512003,
+   86512
+  ],
+  [
+   86512004,
+   86512
+  ],
+  [
+   86512005,
+   86512
+  ],
+  [
+   86512006,
+   86512
+  ],
+  [
+   86512007,
+   86512
+  ],
+  [
+   86512008,
+   86512
+  ],
+  [
+   86745000,
+   86745
+  ],
+  [
+   86840000,
+   86840
+  ],
+  [
+   86843000,
+   86843
+  ],
+  [
+   86843001,
+   86843
+  ],
+  [
+   86843002,
+   86843
+  ],
+  [
+   86843003,
+   86843
+  ],
+  [
+   86843004,
+   86843
+  ],
+  [
+   86843005,
+   86843
+  ],
+  [
+   86843006,
+   86843
+  ],
+  [
+   86843007,
+   86843
+  ],
+  [
+   86894000,
+   86894
+  ],
+  [
+   86894001,
+   86894
+  ],
+  [
+   86894002,
+   86894
+  ],
+  [
+   86894003,
+   86894
+  ],
+  [
+   86894004,
+   86894
+  ],
+  [
+   86894005,
+   86894
+  ],
+  [
+   86902000,
+   86902
+  ],
+  [
+   86902001,
+   86902
+  ],
+  [
+   86903000,
+   86903
+  ],
+  [
+   86903001,
+   86903
+  ],
+  [
+   86903002,
+   86903
+  ],
+  [
+   88719000,
+   88719
+  ],
+  [
+   88719001,
+   88719
+  ],
+  [
+   89271000,
+   89271
+  ],
+  [
+   91000000,
+   91000
+  ],
+  [
+   91000001,
+   91000
+  ],
+  [
+   91000002,
+   91000
+  ],
+  [
+   91000003,
+   91000
+  ],
+  [
+   91000004,
+   91000
+  ],
+  [
+   91000005,
+   91000
+  ],
+  [
+   92136000,
+   92136
+  ],
+  [
+   95008001,
+   95008
+  ],
+  [
+   457239000,
+   86685
+  ],
+  [
+   457239001,
+   86685
+  ],
+  [
+   457239002,
+   86685
+  ],
+  [
+   457239003,
+   86685
+  ],
+  [
+   457239004,
+   86685
+  ],
+  [
+   457239005,
+   86685
+  ],
+  [
+   457342000,
+   86641
+  ],
+  [
+   457342001,
+   86641
+  ],
+  [
+   457342002,
+   86641
+  ],
+  [
+   457342003,
+   86641
+  ],
+  [
+   457342004,
+   86641
+  ],
+  [
+   458211000,
+   86780
+  ],
+  [
+   458211001,
+   86780
+  ],
+  [
+   458211003,
+   86780
+  ],
+  [
+   458211004,
+   86780
+  ],
+  [
+   458684000,
+   86531
+  ],
+  [
+   458684001,
+   86531
+  ],
+  [
+   458684002,
+   86531
+  ],
+  [
+   458684003,
+   86531
+  ],
+  [
+   458684004,
+   86531
+  ],
+  [
+   458684005,
+   86531
+  ],
+  [
+   458684006,
+   86531
+  ],
+  [
+   458684007,
+   86531
+  ],
+  [
+   458684008,
+   86531
+  ],
+  [
+   458684009,
+   86531
+  ],
+  [
+   458684010,
+   86531
+  ],
+  [
+   458684011,
+   86531
+  ],
+  [
+   458684012,
+   86531
+  ],
+  [
+   458855000,
+   86717
+  ],
+  [
+   458855001,
+   86717
+  ],
+  [
+   458855002,
+   86717
+  ],
+  [
+   458855003,
+   86717
+  ],
+  [
+   458855004,
+   86717
+  ],
+  [
+   458855005,
+   86717
+  ],
+  [
+   458855006,
+   86717
+  ],
+  [
+   458855007,
+   86717
+  ],
+  [
+   459484000,
+   86544
+  ],
+  [
+   459563000,
+   86644
+  ],
+  [
+   459702000,
+   86848
+  ],
+  [
+   459702001,
+   86848
+  ],
+  [
+   459702002,
+   86848
+  ],
+  [
+   459702003,
+   86848
+  ],
+  [
+   459702004,
+   86848
+  ],
+  [
+   459702005,
+   86848
+  ],
+  [
+   459702006,
+   86848
+  ],
+  [
+   459702007,
+   86848
+  ],
+  [
+   459702008,
+   86848
+  ],
+  [
+   459787000,
+   86811
+  ],
+  [
+   459787001,
+   86811
+  ],
+  [
+   459787002,
+   86811
+  ],
+  [
+   459995000,
+   86624
+  ],
+  [
+   459995001,
+   86624
+  ],
+  [
+   459995002,
+   86624
+  ],
+  [
+   459995003,
+   86624
+  ],
+  [
+   459995004,
+   86624
+  ],
+  [
+   459995005,
+   86624
+  ],
+  [
+   459995006,
+   86624
+  ],
+  [
+   459995007,
+   86624
+  ],
+  [
+   459995008,
+   86624
+  ],
+  [
+   459995009,
+   86624
+  ],
+  [
+   459995010,
+   86624
+  ],
+  [
+   459995011,
+   86624
+  ],
+  [
+   460174000,
+   86852
+  ],
+  [
+   460174001,
+   86852
+  ],
+  [
+   460174002,
+   86852
+  ],
+  [
+   460174003,
+   86852
+  ],
+  [
+   460174004,
+   86852
+  ],
+  [
+   460322000,
+   86740
+  ],
+  [
+   460987000,
+   86833
+  ],
+  [
+   460987001,
+   86833
+  ],
+  [
+   460987002,
+   86833
+  ],
+  [
+   461577000,
+   86740
+  ],
+  [
+   461622000,
+   86743
+  ],
+  [
+   461622001,
+   86743
+  ],
+  [
+   461622002,
+   86743
+  ],
+  [
+   461622003,
+   86743
+  ],
+  [
+   461622004,
+   86743
+  ],
+  [
+   461622005,
+   86743
+  ],
+  [
+   461814000,
+   86644
+  ],
+  [
+   461814001,
+   86644
+  ],
+  [
+   461957000,
+   86642
+  ],
+  [
+   461957001,
+   86642
+  ],
+  [
+   461957002,
+   86642
+  ],
+  [
+   461957003,
+   86642
+  ],
+  [
+   461957004,
+   86642
+  ],
+  [
+   462200000,
+   86663
+  ],
+  [
+   462200001,
+   86663
+  ],
+  [
+   464204000,
+   91000
+  ],
+  [
+   464247000,
+   86653
+  ],
+  [
+   464841000,
+   86638
+  ],
+  [
+   464841001,
+   86638
+  ],
+  [
+   464841002,
+   86638
+  ],
+  [
+   464841003,
+   86638
+  ],
+  [
+   464841004,
+   86638
+  ],
+  [
+   464841005,
+   86638
+  ],
+  [
+   464841006,
+   86638
+  ],
+  [
+   464841007,
+   86638
+  ],
+  [
+   464841008,
+   86638
+  ],
+  [
+   464841009,
+   86638
+  ],
+  [
+   464841010,
+   86638
+  ],
+  [
+   910030000,
+   86805
+  ]
+ ],
+ "different": [
+  {
+   "id": 456965,
+   "quest": 86558,
+   "diff": {
+    "Type": [
+     "2",
+     "0"
+    ],
+    "ObjectID": [
+     "524828",
+     "239693"
+    ]
+   }
+  },
+  {
+   "id": 456966,
+   "quest": 86557,
+   "diff": {
+    "Description": [
+     "Ingress monsters slain ",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 456982,
+   "quest": 86565,
+   "diff": {
+    "Order": [
+     "1",
+     "2"
+    ],
+    "StorageIndex": [
+     "1",
+     "0"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 456983,
+   "quest": 86565,
+   "diff": {
+    "Order": [
+     "2",
+     "3"
+    ],
+    "StorageIndex": [
+     "2",
+     "1"
+    ],
+    "Type": [
+     "2",
+     "0"
+    ],
+    "ObjectID": [
+     "504677",
+     "243789"
+    ]
+   }
+  },
+  {
+   "id": 457036,
+   "quest": 86521,
+   "diff": {
+    "Type": [
+     "0",
+     "14"
+    ],
+    "ObjectID": [
+     "241546",
+     "222779"
+    ]
+   }
+  },
+  {
+   "id": 457239,
+   "quest": 86685,
+   "diff": {
+    "Order": [
+     "0",
+     "1"
+    ],
+    "Type": [
+     "15",
+     "21"
+    ],
+    "ObjectID": [
+     "0",
+     "4662"
+    ],
+    "Amount": [
+     "1",
+     "50"
+    ],
+    "Flags": [
+     "0",
+     "92"
+    ],
+    "ProgressBarWeight": [
+     "0",
+     "2"
+    ]
+   }
+  },
+  {
+   "id": 457246,
+   "quest": 86692,
+   "diff": {
+    "Order": [
+     "1",
+     "2"
+    ],
+    "StorageIndex": [
+     "1",
+     "0"
+    ],
+    "ObjectID": [
+     "240229",
+     "254072"
+    ],
+    "Flags": [
+     "0",
+     "2"
+    ],
+    "Description": [
+     "NULL",
+     "Mor'duun slain"
+    ]
+   }
+  },
+  {
+   "id": 457321,
+   "quest": 86715,
+   "diff": {
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 457329,
+   "quest": 86639,
+   "diff": {
+    "Amount": [
+     "1",
+     "10"
+    ],
+    "Description": [
+     "Suncrown Survivors aided  ",
+     "Suncrown Survivors aided"
+    ]
+   }
+  },
+  {
+   "id": 457342,
+   "quest": 86641,
+   "diff": {
+    "Order": [
+     "0",
+     "1"
+    ],
+    "Type": [
+     "15",
+     "0"
+    ],
+    "ObjectID": [
+     "0",
+     "240397"
+    ],
+    "Amount": [
+     "1",
+     "15"
+    ],
+    "Flags": [
+     "0",
+     "92"
+    ],
+    "ProgressBarWeight": [
+     "0",
+     "7"
+    ],
+    "Description": [
+     "Troll lumber operations disrupted",
+     "Trolls T1 slain"
+    ]
+   }
+  },
+  {
+   "id": 457367,
+   "quest": 86544,
+   "diff": {
+    "Order": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  {
+   "id": 457392,
+   "quest": 86646,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "2"
+    ]
+   }
+  },
+  {
+   "id": 457480,
+   "quest": 86770,
+   "diff": {
+    "Order": [
+     "2",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 457508,
+   "quest": 86850,
+   "diff": {
+    "ObjectID": [
+     "241610",
+     "237388"
+    ],
+    "Description": [
+     "Arrive at the Sunwell",
+     "Escape on the Empowered Dragonhawk"
+    ]
+   }
+  },
+  {
+   "id": 457514,
+   "quest": 86649,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "3"
+    ]
+   }
+  },
+  {
+   "id": 457519,
+   "quest": 86900,
+   "diff": {
+    "StorageIndex": [
+     "5",
+     "0"
+    ],
+    "ObjectID": [
+     "0",
+     "237343"
+    ],
+    "Amount": [
+     "0",
+     "1"
+    ],
+    "Flags": [
+     "8",
+     "2"
+    ],
+    "Description": [
+     "NULL",
+     "Check on Halduron"
+    ]
+   }
+  },
+  {
+   "id": 457562,
+   "quest": 86880,
+   "diff": {
+    "Description": [
+     "NULL",
+     "Artifacts recovered"
+    ]
+   }
+  },
+  {
+   "id": 457603,
+   "quest": 86942,
+   "diff": {
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 457678,
+   "quest": 86973,
+   "diff": {
+    "Type": [
+     "0",
+     "21"
+    ],
+    "ObjectID": [
+     "249654",
+     "4681"
+    ]
+   }
+  },
+  {
+   "id": 457679,
+   "quest": 86900,
+   "diff": {
+    "StorageIndex": [
+     "2",
+     "1"
+    ]
+   }
+  },
+  {
+   "id": 457680,
+   "quest": 86900,
+   "diff": {
+    "StorageIndex": [
+     "3",
+     "2"
+    ],
+    "Flags": [
+     "2",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 457819,
+   "quest": 86543,
+   "diff": {
+    "StorageIndex": [
+     "2",
+     "1"
+    ],
+    "Type": [
+     "0",
+     "14"
+    ],
+    "ObjectID": [
+     "231865",
+     "218334"
+    ],
+    "Flags": [
+     "2",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 457825,
+   "quest": 86543,
+   "diff": {
+    "StorageIndex": [
+     "1",
+     "2"
+    ],
+    "Flags": [
+     "2",
+     "6"
+    ]
+   }
+  },
+  {
+   "id": 457836,
+   "quest": 86510,
+   "diff": {
+    "Order": [
+     "1",
+     "2"
+    ],
+    "StorageIndex": [
+     "1",
+     "0"
+    ],
+    "Type": [
+     "0",
+     "3"
+    ],
+    "Flags": [
+     "2",
+     "256"
+    ]
+   }
+  },
+  {
+   "id": 457837,
+   "quest": 86510,
+   "diff": {
+    "Order": [
+     "2",
+     "3"
+    ],
+    "StorageIndex": [
+     "2",
+     "1"
+    ],
+    "Type": [
+     "2",
+     "0"
+    ],
+    "ObjectID": [
+     "90009383",
+     "238188"
+    ],
+    "Flags": [
+     "2",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 457838,
+   "quest": 86510,
+   "diff": {
+    "Order": [
+     "3",
+     "4"
+    ],
+    "ObjectID": [
+     "242628",
+     "235703"
+    ],
+    "Flags": [
+     "2",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 457839,
+   "quest": 86510,
+   "diff": {
+    "ObjectID": [
+     "242628",
+     "235703"
+    ]
+   }
+  },
+  {
+   "id": 457975,
+   "quest": 86515,
+   "diff": {
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 457976,
+   "quest": 86518,
+   "diff": {
+    "Description": [
+     "Seals undone ",
+     "Seals undone"
+    ]
+   }
+  },
+  {
+   "id": 458055,
+   "quest": 86513,
+   "diff": {
+    "Type": [
+     "2",
+     "0"
+    ],
+    "ObjectID": [
+     "517326",
+     "238534"
+    ]
+   }
+  },
+  {
+   "id": 458058,
+   "quest": 86513,
+   "diff": {
+    "StorageIndex": [
+     "1",
+     "2"
+    ]
+   }
+  },
+  {
+   "id": 458059,
+   "quest": 86513,
+   "diff": {
+    "StorageIndex": [
+     "2",
+     "3"
+    ],
+    "Type": [
+     "2",
+     "0"
+    ],
+    "ObjectID": [
+     "517340",
+     "238535"
+    ]
+   }
+  },
+  {
+   "id": 458211,
+   "quest": 86780,
+   "diff": {
+    "Order": [
+     "0",
+     "2"
+    ],
+    "StorageIndex": [
+     "0",
+     "1"
+    ],
+    "Type": [
+     "15",
+     "0"
+    ],
+    "ObjectID": [
+     "0",
+     "238724"
+    ],
+    "Amount": [
+     "1",
+     "50"
+    ],
+    "Flags": [
+     "0",
+     "92"
+    ],
+    "ProgressBarWeight": [
+     "0",
+     "2"
+    ],
+    "Description": [
+     "Hinder the attacking Void forces",
+     "Cheap Stuff"
+    ]
+   }
+  },
+  {
+   "id": 458684,
+   "quest": 86531,
+   "diff": {
+    "Order": [
+     "0",
+     "3"
+    ],
+    "StorageIndex": [
+     "0",
+     "2"
+    ],
+    "Type": [
+     "15",
+     "0"
+    ],
+    "ObjectID": [
+     "0",
+     "238581"
+    ],
+    "Amount": [
+     "1",
+     "25"
+    ],
+    "Flags": [
+     "0",
+     "92"
+    ],
+    "ProgressBarWeight": [
+     "0",
+     "4"
+    ],
+    "Description": [
+     "Manaforge disrupted",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 458686,
+   "quest": 86530,
+   "diff": {
+    "Amount": [
+     "1",
+     "5"
+    ],
+    "Description": [
+     "NULL",
+     "Empty Manacell collected"
+    ]
+   }
+  },
+  {
+   "id": 458688,
+   "quest": 86538,
+   "diff": {
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 458697,
+   "quest": 86537,
+   "diff": {
+    "Flags": [
+     "0",
+     "256"
+    ]
+   }
+  },
+  {
+   "id": 458698,
+   "quest": 86537,
+   "diff": {
+    "Flags": [
+     "2",
+     "258"
+    ]
+   }
+  },
+  {
+   "id": 458699,
+   "quest": 86537,
+   "diff": {
+    "Flags": [
+     "2",
+     "258"
+    ]
+   }
+  },
+  {
+   "id": 458700,
+   "quest": 86537,
+   "diff": {
+    "Order": [
+     "3",
+     "4"
+    ],
+    "Flags": [
+     "0",
+     "2"
+    ],
+    "Description": [
+     "NULL",
+     "Final Message recovered"
+    ]
+   }
+  },
+  {
+   "id": 458712,
+   "quest": 86624,
+   "diff": {
+    "Order": [
+     "4",
+     "16"
+    ],
+    "StorageIndex": [
+     "4",
+     "1"
+    ],
+    "ObjectID": [
+     "244840",
+     "236149"
+    ],
+    "Amount": [
+     "4",
+     "1"
+    ],
+    "Flags": [
+     "92",
+     "2"
+    ],
+    "ProgressBarWeight": [
+     "25",
+     "0"
+    ],
+    "Description": [
+     "NULL",
+     "Speak with Innkeeper Kalarin"
+    ]
+   }
+  },
+  {
+   "id": 458715,
+   "quest": 86770,
+   "diff": {
+    "Order": [
+     "3",
+     "2"
+    ],
+    "StorageIndex": [
+     "3",
+     "4"
+    ]
+   }
+  },
+  {
+   "id": 458743,
+   "quest": 86624,
+   "diff": {
+    "Order": [
+     "0",
+     "1"
+    ],
+    "StorageIndex": [
+     "0",
+     "4"
+    ],
+    "Type": [
+     "15",
+     "0"
+    ],
+    "ObjectID": [
+     "239460",
+     "239457"
+    ],
+    "Flags": [
+     "0",
+     "28"
+    ],
+    "Description": [
+     "Townsfolk questioned",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 458747,
+   "quest": 86624,
+   "diff": {
+    "Order": [
+     "1",
+     "2"
+    ],
+    "StorageIndex": [
+     "1",
+     "8"
+    ],
+    "ObjectID": [
+     "239457",
+     "239406"
+    ],
+    "Amount": [
+     "4",
+     "1"
+    ],
+    "Flags": [
+     "92",
+     "28"
+    ],
+    "ProgressBarWeight": [
+     "25",
+     "0"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 458762,
+   "quest": 86900,
+   "diff": {
+    "StorageIndex": [
+     "1",
+     "3"
+    ]
+   }
+  },
+  {
+   "id": 458763,
+   "quest": 86900,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "4"
+    ],
+    "Type": [
+     "0",
+     "19"
+    ],
+    "ObjectID": [
+     "237209",
+     "36658"
+    ],
+    "Amount": [
+     "1",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 458775,
+   "quest": 86733,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  {
+   "id": 458798,
+   "quest": 86549,
+   "diff": {
+    "Order": [
+     "2",
+     "6"
+    ],
+    "StorageIndex": [
+     "2",
+     "4"
+    ],
+    "Flags": [
+     "6",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 458809,
+   "quest": 86654,
+   "diff": {
+    "Type": [
+     "0",
+     "21"
+    ],
+    "ObjectID": [
+     "236129",
+     "4632"
+    ]
+   }
+  },
+  {
+   "id": 458810,
+   "quest": 86655,
+   "diff": {
+    "Type": [
+     "15",
+     "0"
+    ],
+    "ObjectID": [
+     "0",
+     "245840"
+    ],
+    "Amount": [
+     "1",
+     "4"
+    ]
+   }
+  },
+  {
+   "id": 458814,
+   "quest": 86716,
+   "diff": {
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 458816,
+   "quest": 86658,
+   "diff": {
+    "StorageIndex": [
+     "1",
+     "0"
+    ],
+    "Type": [
+     "0",
+     "21"
+    ],
+    "ObjectID": [
+     "236185",
+     "4635"
+    ],
+    "Flags": [
+     "2",
+     "0"
+    ],
+    "Description": [
+     "Vilebranch trolls slai",
+     "Vilebranch trolls slain"
+    ]
+   }
+  },
+  {
+   "id": 458820,
+   "quest": 86664,
+   "diff": {
+    "Order": [
+     "0",
+     "2"
+    ],
+    "ObjectID": [
+     "245365",
+     "245352"
+    ]
+   }
+  },
+  {
+   "id": 458821,
+   "quest": 86664,
+   "diff": {
+    "Order": [
+     "1",
+     "3"
+    ],
+    "ObjectID": [
+     "245875",
+     "245365"
+    ]
+   }
+  },
+  {
+   "id": 458834,
+   "quest": 86665,
+   "diff": {
+    "Flags": [
+     "6",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 458855,
+   "quest": 86717,
+   "diff": {
+    "Order": [
+     "0",
+     "1"
+    ],
+    "Type": [
+     "15",
+     "0"
+    ],
+    "ObjectID": [
+     "0",
+     "236580"
+    ],
+    "Amount": [
+     "1",
+     "20"
+    ],
+    "Flags": [
+     "0",
+     "92"
+    ],
+    "ProgressBarWeight": [
+     "0",
+     "5"
+    ],
+    "Description": [
+     "Disrupt Twilight forces",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 458861,
+   "quest": 86718,
+   "diff": {
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 458866,
+   "quest": 86841,
+   "diff": {
+    "StorageIndex": [
+     "3",
+     "0"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 458867,
+   "quest": 86841,
+   "diff": {
+    "StorageIndex": [
+     "4",
+     "1"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 458868,
+   "quest": 86841,
+   "diff": {
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 458869,
+   "quest": 86841,
+   "diff": {
+    "StorageIndex": [
+     "5",
+     "3"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 458870,
+   "quest": 86841,
+   "diff": {
+    "StorageIndex": [
+     "1",
+     "4"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 458877,
+   "quest": 86652,
+   "diff": {
+    "Order": [
+     "3",
+     "5"
+    ],
+    "StorageIndex": [
+     "3",
+     "0"
+    ],
+    "Description": [
+     "NULL",
+     "Speak with Kinduru"
+    ]
+   }
+  },
+  {
+   "id": 458883,
+   "quest": 86719,
+   "diff": {
+    "Flags": [
+     "2",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 458890,
+   "quest": 86656,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "3"
+    ]
+   }
+  },
+  {
+   "id": 459057,
+   "quest": 88768,
+   "diff": {
+    "Flags": [
+     "0",
+     "1"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459058,
+   "quest": 88768,
+   "diff": {
+    "Flags": [
+     "0",
+     "1"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459059,
+   "quest": 88768,
+   "diff": {
+    "ObjectID": [
+     "244153",
+     "239806"
+    ],
+    "Flags": [
+     "0",
+     "1"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459096,
+   "quest": 86561,
+   "diff": {
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459120,
+   "quest": 86542,
+   "diff": {
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459122,
+   "quest": 86562,
+   "diff": {
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459123,
+   "quest": 86562,
+   "diff": {
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459124,
+   "quest": 86562,
+   "diff": {
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459146,
+   "quest": 86737,
+   "diff": {
+    "StorageIndex": [
+     "2",
+     "1"
+    ],
+    "Flags": [
+     "2",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 459160,
+   "quest": 86541,
+   "diff": {
+    "Flags": [
+     "0",
+     "4"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459162,
+   "quest": 86721,
+   "diff": {
+    "Type": [
+     "2",
+     "0"
+    ],
+    "ObjectID": [
+     "536906",
+     "253333"
+    ]
+   }
+  },
+  {
+   "id": 459173,
+   "quest": 86884,
+   "diff": {
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459176,
+   "quest": 86805,
+   "diff": {
+    "Order": [
+     "0",
+     "9"
+    ],
+    "StorageIndex": [
+     "0",
+     "1"
+    ],
+    "ObjectID": [
+     "240068",
+     "240050"
+    ],
+    "Amount": [
+     "10",
+     "20"
+    ],
+    "Flags": [
+     "0",
+     "2"
+    ],
+    "Description": [
+     "Rescue 10 citizens, then head to the Silver Landing.",
+     "Civilian Rescued"
+    ]
+   }
+  },
+  {
+   "id": 459267,
+   "quest": 86806,
+   "diff": {
+    "Flags": [
+     "2",
+     "0"
+    ],
+    "Description": [
+     "Void Invaders slain ",
+     "Void Invaders slain"
+    ]
+   }
+  },
+  {
+   "id": 459268,
+   "quest": 86942,
+   "diff": {
+    "Flags": [
+     "2",
+     "0"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459305,
+   "quest": 86542,
+   "diff": {
+    "Amount": [
+     "1",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 459309,
+   "quest": 86549,
+   "diff": {
+    "Order": [
+     "1",
+     "5"
+    ],
+    "StorageIndex": [
+     "1",
+     "6"
+    ],
+    "Flags": [
+     "4",
+     "6"
+    ]
+   }
+  },
+  {
+   "id": 459311,
+   "quest": 86887,
+   "diff": {
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459352,
+   "quest": 86739,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "1"
+    ],
+    "Description": [
+     "Erratic Light Wyrm slain ",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459395,
+   "quest": 86851,
+   "diff": {
+    "Amount": [
+     "5",
+     "6"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459422,
+   "quest": 86840,
+   "diff": {
+    "Order": [
+     "0",
+     "1"
+    ],
+    "Type": [
+     "15",
+     "0"
+    ],
+    "ObjectID": [
+     "0",
+     "237731"
+    ],
+    "Amount": [
+     "1",
+     "20"
+    ],
+    "Flags": [
+     "0",
+     "92"
+    ],
+    "ProgressBarWeight": [
+     "0",
+     "5"
+    ],
+    "Description": [
+     "Light's Hope defended",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459423,
+   "quest": 86840,
+   "diff": {
+    "Order": [
+     "1",
+     "2"
+    ],
+    "ObjectID": [
+     "237731",
+     "237739"
+    ],
+    "Amount": [
+     "12",
+     "34"
+    ],
+    "ProgressBarWeight": [
+     "9",
+     "3"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459435,
+   "quest": 86887,
+   "diff": {
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459436,
+   "quest": 86887,
+   "diff": {
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459456,
+   "quest": 86623,
+   "diff": {
+    "Flags": [
+     "0",
+     "2"
+    ]
+   }
+  },
+  {
+   "id": 459457,
+   "quest": 86623,
+   "diff": {
+    "Flags": [
+     "0",
+     "2"
+    ]
+   }
+  },
+  {
+   "id": 459458,
+   "quest": 86844,
+   "diff": {
+    "Order": [
+     "1",
+     "2"
+    ],
+    "StorageIndex": [
+     "1",
+     "0"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459459,
+   "quest": 86844,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "1"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459460,
+   "quest": 86844,
+   "diff": {
+    "Order": [
+     "2",
+     "3"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459468,
+   "quest": 86891,
+   "diff": {
+    "Description": [
+     "Palehill Runestone",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459469,
+   "quest": 86891,
+   "diff": {
+    "Description": [
+     "Lakegrove Runestone",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459470,
+   "quest": 86891,
+   "diff": {
+    "Description": [
+     "Barksnarl Runestone",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459477,
+   "quest": 86542,
+   "diff": {
+    "Amount": [
+     "0",
+     "1"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459483,
+   "quest": 86544,
+   "diff": {
+    "StorageIndex": [
+     "2",
+     "1"
+    ]
+   }
+  },
+  {
+   "id": 459484,
+   "quest": 86544,
+   "diff": {
+    "StorageIndex": [
+     "5",
+     "2"
+    ]
+   }
+  },
+  {
+   "id": 459485,
+   "quest": 86544,
+   "diff": {
+    "StorageIndex": [
+     "4",
+     "3"
+    ]
+   }
+  },
+  {
+   "id": 459491,
+   "quest": 86741,
+   "diff": {
+    "Order": [
+     "2",
+     "1"
+    ],
+    "StorageIndex": [
+     "2",
+     "0"
+    ],
+    "Type": [
+     "0",
+     "19"
+    ],
+    "ObjectID": [
+     "244261",
+     "36898"
+    ],
+    "Amount": [
+     "1",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 459507,
+   "quest": 89012,
+   "diff": {
+    "Flags": [
+     "0",
+     "1"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459521,
+   "quest": 86805,
+   "diff": {
+    "Order": [
+     "2",
+     "10"
+    ],
+    "StorageIndex": [
+     "2",
+     "10"
+    ]
+   }
+  },
+  {
+   "id": 459531,
+   "quest": 86807,
+   "diff": {
+    "Order": [
+     "0",
+     "2"
+    ],
+    "StorageIndex": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  {
+   "id": 459541,
+   "quest": 86545,
+   "diff": {
+    "Order": [
+     "1",
+     "3"
+    ]
+   }
+  },
+  {
+   "id": 459543,
+   "quest": 89034,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  {
+   "id": 459559,
+   "quest": 86643,
+   "diff": {
+    "Order": [
+     "1",
+     "0"
+    ],
+    "StorageIndex": [
+     "1",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 459561,
+   "quest": 86643,
+   "diff": {
+    "Order": [
+     "2",
+     "6"
+    ],
+    "Type": [
+     "2",
+     "0"
+    ],
+    "ObjectID": [
+     "574602",
+     "240558"
+    ],
+    "Amount": [
+     "2",
+     "1"
+    ],
+    "Description": [
+     "Door Blocker Totems destroyed",
+     "Speak to Arator"
+    ]
+   }
+  },
+  {
+   "id": 459562,
+   "quest": 86644,
+   "diff": {
+    "Order": [
+     "4",
+     "7"
+    ],
+    "StorageIndex": [
+     "4",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 459563,
+   "quest": 86644,
+   "diff": {
+    "Order": [
+     "5",
+     "8"
+    ],
+    "StorageIndex": [
+     "5",
+     "1"
+    ],
+    "Type": [
+     "15",
+     "0"
+    ],
+    "ObjectID": [
+     "0",
+     "240667"
+    ]
+   }
+  },
+  {
+   "id": 459567,
+   "quest": 86545,
+   "diff": {
+    "Order": [
+     "0",
+     "1"
+    ],
+    "Type": [
+     "0",
+     "19"
+    ],
+    "ObjectID": [
+     "239571",
+     "36906"
+    ],
+    "Amount": [
+     "1",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 459572,
+   "quest": 86742,
+   "diff": {
+    "Order": [
+     "4",
+     "5"
+    ],
+    "StorageIndex": [
+     "4",
+     "1"
+    ],
+    "ObjectID": [
+     "251871",
+     "237394"
+    ],
+    "Description": [
+     "Find and meet up with Arato",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459580,
+   "quest": 86545,
+   "diff": {
+    "Order": [
+     "2",
+     "7"
+    ],
+    "StorageIndex": [
+     "2",
+     "5"
+    ],
+    "ObjectID": [
+     "240691",
+     "240688"
+    ],
+    "Flags": [
+     "6",
+     "2"
+    ]
+   }
+  },
+  {
+   "id": 459611,
+   "quest": 86859,
+   "diff": {
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459646,
+   "quest": 86834,
+   "diff": {
+    "Flags": [
+     "0",
+     "1"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459657,
+   "quest": 86742,
+   "diff": {
+    "Order": [
+     "3",
+     "4"
+    ],
+    "StorageIndex": [
+     "3",
+     "2"
+    ],
+    "ObjectID": [
+     "244429",
+     "251871"
+    ],
+    "Amount": [
+     "3",
+     "1"
+    ],
+    "Flags": [
+     "92",
+     "2"
+    ],
+    "ProgressBarWeight": [
+     "34",
+     "0"
+    ],
+    "Description": [
+     "NULL",
+     "Find and meet up with Arator"
+    ]
+   }
+  },
+  {
+   "id": 459665,
+   "quest": 86834,
+   "diff": {
+    "Flags": [
+     "0",
+     "1"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459666,
+   "quest": 86834,
+   "diff": {
+    "Flags": [
+     "0",
+     "1"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459674,
+   "quest": 86530,
+   "diff": {
+    "ObjectID": [
+     "235713",
+     "240880"
+    ]
+   }
+  },
+  {
+   "id": 459692,
+   "quest": 86862,
+   "diff": {
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459693,
+   "quest": 86862,
+   "diff": {
+    "Description": [
+     "NULL",
+     "Greater Alndust gathered"
+    ]
+   }
+  },
+  {
+   "id": 459697,
+   "quest": 86514,
+   "diff": {
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459702,
+   "quest": 86848,
+   "diff": {
+    "Type": [
+     "15",
+     "0"
+    ],
+    "Amount": [
+     "1",
+     "7"
+    ]
+   }
+  },
+  {
+   "id": 459726,
+   "quest": 86877,
+   "diff": {
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459730,
+   "quest": 86683,
+   "diff": {
+    "StorageIndex": [
+     "1",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 459731,
+   "quest": 86735,
+   "diff": {
+    "StorageIndex": [
+     "5",
+     "4"
+    ]
+   }
+  },
+  {
+   "id": 459740,
+   "quest": 86736,
+   "diff": {
+    "Flags": [
+     "2",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 459741,
+   "quest": 86736,
+   "diff": {
+    "Flags": [
+     "2",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 459742,
+   "quest": 86736,
+   "diff": {
+    "Flags": [
+     "2",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 459743,
+   "quest": 86736,
+   "diff": {
+    "StorageIndex": [
+     "5",
+     "4"
+    ],
+    "Flags": [
+     "2",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 459755,
+   "quest": 86890,
+   "diff": {
+    "StorageIndex": [
+     "1",
+     "0"
+    ],
+    "Flags": [
+     "2",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 459762,
+   "quest": 86896,
+   "diff": {
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459763,
+   "quest": 86897,
+   "diff": {
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459779,
+   "quest": 86536,
+   "diff": {
+    "Order": [
+     "0",
+     "1"
+    ],
+    "ObjectID": [
+     "242210",
+     "241002"
+    ]
+   }
+  },
+  {
+   "id": 459783,
+   "quest": 86845,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "1"
+    ],
+    "Description": [
+     "Tell Alonsus you're ready to depar",
+     "Tell Alonsus you're ready to depart"
+    ]
+   }
+  },
+  {
+   "id": 459786,
+   "quest": 86811,
+   "diff": {
+    "Order": [
+     "4",
+     "1"
+    ],
+    "StorageIndex": [
+     "4",
+     "0"
+    ],
+    "Flags": [
+     "0",
+     "1"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 459787,
+   "quest": 86811,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "1"
+    ],
+    "Type": [
+     "15",
+     "0"
+    ],
+    "ObjectID": [
+     "0",
+     "238186"
+    ],
+    "Amount": [
+     "1",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": 459812,
+   "quest": 86864,
+   "diff": {
+    "Flags": [
+     "0",
+     "2"
+    ],
+    "Description": [
+     "Speak to Ku'paa",
+     "Speak to Ku'paal"
+    ]
+   }
+  },
+  {
+   "id": 459834,
+   "quest": 86723,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "2"
+    ]
+   }
+  },
+  {
+   "id": 459917,
+   "quest": 86663,
+   "diff": {
+    "Order": [
+     "4",
+     "6"
+    ],
+    "StorageIndex": [
+     "4",
+     "1"
+    ]
+   }
+  },
+  {
+   "id": 459920,
+   "quest": 86664,
+   "diff": {
+    "Order": [
+     "2",
+     "6"
+    ],
+    "StorageIndex": [
+     "2",
+     "4"
+    ],
+    "Flags": [
+     "2",
+     "258"
+    ],
+    "Description": [
+     "Coalesced Fire",
+     "Coalesced Flame placed"
+    ]
+   }
+  },
+  {
+   "id": 459943,
+   "quest": 89271,
+   "diff": {
+    "Order": [
+     "1",
+     "0"
+    ],
+    "StorageIndex": [
+     "1",
+     "3"
+    ],
+    "ObjectID": [
+     "242375",
+     "236959"
+    ],
+    "Flags": [
+     "2",
+     "0"
+    ],
+    "Description": [
+     "Reach Light's Spire",
+     "Gain Arator's assistance"
+    ]
+   }
+  },
+  {
+   "id": 459962,
+   "quest": 86842,
+   "diff": {
+    "StorageIndex": [
+     "2",
+     "1"
+    ]
+   }
+  },
+  {
+   "id": 459987,
+   "quest": 86720,
+   "diff": {
+    "StorageIndex": [
+     "1",
+     "3"
+    ],
+    "Flags": [
+     "6",
+     "2"
+    ],
+    "Description": [
+     "Mor'duun's Scrying Focus destroyed",
+     "Mor'duun's defenses destroyed"
+    ]
+   }
+  },
+  {
+   "id": 459995,
+   "quest": 86624,
+   "diff": {
+    "Order": [
+     "5",
+     "17"
+    ],
+    "StorageIndex": [
+     "5",
+     "11"
+    ],
+    "Type": [
+     "15",
+     "2"
+    ],
+    "ObjectID": [
+     "0",
+     "547449"
+    ],
+    "Description": [
+     "Clues found in Tranquillien",
+     "Kasiea's Journal found"
+    ]
+   }
+  },
+  {
+   "id": 460021,
+   "quest": 86646,
+   "diff": {
+    "StorageIndex": [
+     "1",
+     "0"
+    ],
+    "Amount": [
+     "0",
+     "1"
+    ],
+    "Flags": [
+     "8",
+     "28"
+    ]
+   }
+  },
+  {
+   "id": 460061,
+   "quest": 89334,
+   "diff": {
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 460062,
+   "quest": 89334,
+   "diff": {
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 460063,
+   "quest": 89334,
+   "diff": {
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 460084,
+   "quest": 89338,
+   "diff": {
+    "Order": [
+     "0",
+     "1"
+    ],
+    "StorageIndex": [
+     "0",
+     "6"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 460085,
+   "quest": 89338,
+   "diff": {
+    "Order": [
+     "1",
+     "2"
+    ],
+    "StorageIndex": [
+     "1",
+     "7"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 460173,
+   "quest": 86852,
+   "diff": {
+    "Order": [
+     "1",
+     "3"
+    ],
+    "Type": [
+     "15",
+     "0"
+    ],
+    "ObjectID": [
+     "0",
+     "244047"
+    ],
+    "Amount": [
+     "1",
+     "10"
+    ],
+    "Flags": [
+     "2",
+     "92"
+    ],
+    "ProgressBarWeight": [
+     "0",
+     "10"
+    ],
+    "Description": [
+     "Void forces repelled",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 460174,
+   "quest": 86852,
+   "diff": {
+    "Order": [
+     "6",
+     "7"
+    ],
+    "StorageIndex": [
+     "6",
+     "2"
+    ],
+    "ObjectID": [
+     "241575",
+     "244088"
+    ],
+    "Flags": [
+     "0",
+     "3"
+    ],
+    "Description": [
+     "NULL",
+     "Imperatus slain"
+    ]
+   }
+  },
+  {
+   "id": 460189,
+   "quest": 86824,
+   "diff": {
+    "Order": [
+     "0",
+     "1"
+    ],
+    "Type": [
+     "2",
+     "0"
+    ],
+    "ObjectID": [
+     "527621",
+     "241635"
+    ]
+   }
+  },
+  {
+   "id": 460206,
+   "quest": 86944,
+   "diff": {
+    "Order": [
+     "1",
+     "2"
+    ],
+    "ObjectID": [
+     "237787",
+     "260275"
+    ],
+    "Description": [
+     "Seed Bag given to Halduron",
+     "Glistening Seed Bag delivered"
+    ]
+   }
+  },
+  {
+   "id": 460231,
+   "quest": 86632,
+   "diff": {
+    "Order": [
+     "0",
+     "1"
+    ],
+    "StorageIndex": [
+     "0",
+     "2"
+    ],
+    "Type": [
+     "15",
+     "0"
+    ],
+    "ObjectID": [
+     "0",
+     "241694"
+    ],
+    "Amount": [
+     "1",
+     "10"
+    ],
+    "Flags": [
+     "0",
+     "92"
+    ],
+    "ProgressBarWeight": [
+     "0",
+     "10"
+    ],
+    "Description": [
+     "Fight back the Twilight's Blade",
+     "Twilight's Blade Cultists slain"
+    ]
+   }
+  },
+  {
+   "id": 460234,
+   "quest": 86632,
+   "diff": {
+    "Order": [
+     "1",
+     "2"
+    ],
+    "StorageIndex": [
+     "1",
+     "5"
+    ],
+    "ObjectID": [
+     "241694",
+     "241678"
+    ],
+    "Amount": [
+     "10",
+     "34"
+    ],
+    "ProgressBarWeight": [
+     "10",
+     "3"
+    ],
+    "Description": [
+     "NULL",
+     "Voidlings slain"
+    ]
+   }
+  },
+  {
+   "id": 460249,
+   "quest": 86900,
+   "diff": {
+    "StorageIndex": [
+     "4",
+     "5"
+    ],
+    "ObjectID": [
+     "237343",
+     "237210"
+    ]
+   }
+  },
+  {
+   "id": 460257,
+   "quest": 86806,
+   "diff": {
+    "Order": [
+     "2",
+     "3"
+    ],
+    "StorageIndex": [
+     "2",
+     "5"
+    ],
+    "ObjectID": [
+     "241823",
+     "241810"
+    ],
+    "Amount": [
+     "3",
+     "1"
+    ],
+    "Flags": [
+     "2",
+     "28"
+    ],
+    "Description": [
+     "Distressed Civilian rescued",
+     "Distressed rescued 2"
+    ]
+   }
+  },
+  {
+   "id": 460264,
+   "quest": 86806,
+   "diff": {
+    "Order": [
+     "3",
+     "7"
+    ],
+    "StorageIndex": [
+     "3",
+     "6"
+    ],
+    "ObjectID": [
+     "258837",
+     "241819"
+    ],
+    "Flags": [
+     "6",
+     "28"
+    ],
+    "Description": [
+     "Return to Silvermoon Landing",
+     "Distressed rescued 5"
+    ]
+   }
+  },
+  {
+   "id": 460302,
+   "quest": 86634,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "1"
+    ],
+    "Amount": [
+     "8",
+     "6"
+    ]
+   }
+  },
+  {
+   "id": 460320,
+   "quest": 86740,
+   "diff": {
+    "Order": [
+     "0",
+     "2"
+    ],
+    "StorageIndex": [
+     "0",
+     "2"
+    ],
+    "Type": [
+     "15",
+     "2"
+    ],
+    "ObjectID": [
+     "0",
+     "527827"
+    ],
+    "Flags": [
+     "0",
+     "28"
+    ],
+    "Description": [
+     "3 Disturbances investigated",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 460321,
+   "quest": 86740,
+   "diff": {
+    "Order": [
+     "1",
+     "3"
+    ],
+    "StorageIndex": [
+     "1",
+     "3"
+    ],
+    "ObjectID": [
+     "527829",
+     "527831"
+    ],
+    "Amount": [
+     "3",
+     "1"
+    ],
+    "Flags": [
+     "92",
+     "28"
+    ],
+    "ProgressBarWeight": [
+     "34",
+     "0"
+    ],
+    "Description": [
+     "Hasty Nest",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 460322,
+   "quest": 86740,
+   "diff": {
+    "Order": [
+     "2",
+     "4"
+    ],
+    "StorageIndex": [
+     "2",
+     "4"
+    ],
+    "ObjectID": [
+     "527827",
+     "527829"
+    ],
+    "Amount": [
+     "3",
+     "1"
+    ],
+    "Flags": [
+     "92",
+     "28"
+    ],
+    "ProgressBarWeight": [
+     "34",
+     "0"
+    ],
+    "Description": [
+     "Trampled Bush",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 460333,
+   "quest": 86636,
+   "diff": {
+    "Order": [
+     "1",
+     "3"
+    ],
+    "StorageIndex": [
+     "1",
+     "2"
+    ],
+    "Type": [
+     "1",
+     "0"
+    ],
+    "ObjectID": [
+     "253153",
+     "246717"
+    ],
+    "Flags": [
+     "0",
+     "2"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 460701,
+   "quest": 90095,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "8"
+    ],
+    "Type": [
+     "0",
+     "3"
+    ],
+    "Flags": [
+     "0",
+     "256"
+    ]
+   }
+  },
+  {
+   "id": 460702,
+   "quest": 90095,
+   "diff": {
+    "StorageIndex": [
+     "1",
+     "11"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 460719,
+   "quest": 86644,
+   "diff": {
+    "Order": [
+     "0",
+     "1"
+    ],
+    "StorageIndex": [
+     "0",
+     "6"
+    ]
+   }
+  },
+  {
+   "id": 460727,
+   "quest": 86828,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "1"
+    ],
+    "Flags": [
+     "4",
+     "28"
+    ]
+   }
+  },
+  {
+   "id": 460815,
+   "quest": 86742,
+   "diff": {
+    "Order": [
+     "0",
+     "1"
+    ],
+    "StorageIndex": [
+     "0",
+     "3"
+    ],
+    "Type": [
+     "15",
+     "0"
+    ],
+    "ObjectID": [
+     "242268",
+     "244430"
+    ],
+    "Flags": [
+     "0",
+     "28"
+    ],
+    "Description": [
+     "Lightbloom growths examined",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 460816,
+   "quest": 86742,
+   "diff": {
+    "Order": [
+     "1",
+     "2"
+    ],
+    "StorageIndex": [
+     "1",
+     "4"
+    ],
+    "Type": [
+     "2",
+     "0"
+    ],
+    "ObjectID": [
+     "508217",
+     "244428"
+    ],
+    "Amount": [
+     "3",
+     "1"
+    ],
+    "Flags": [
+     "92",
+     "28"
+    ],
+    "ProgressBarWeight": [
+     "34",
+     "0"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 460817,
+   "quest": 86742,
+   "diff": {
+    "Order": [
+     "2",
+     "3"
+    ],
+    "StorageIndex": [
+     "2",
+     "5"
+    ],
+    "ObjectID": [
+     "244428",
+     "244429"
+    ],
+    "Amount": [
+     "3",
+     "1"
+    ],
+    "Flags": [
+     "92",
+     "28"
+    ],
+    "ProgressBarWeight": [
+     "34",
+     "0"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 460864,
+   "quest": 86831,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "1"
+    ],
+    "Flags": [
+     "0",
+     "1"
+    ],
+    "Description": [
+     "NULL",
+     "Defeat the Dark Horde Leader"
+    ]
+   }
+  },
+  {
+   "id": 460903,
+   "quest": 90494,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "9"
+    ]
+   }
+  },
+  {
+   "id": 460904,
+   "quest": 90494,
+   "diff": {
+    "StorageIndex": [
+     "1",
+     "10"
+    ]
+   }
+  },
+  {
+   "id": 460905,
+   "quest": 90494,
+   "diff": {
+    "Order": [
+     "2",
+     "3"
+    ],
+    "StorageIndex": [
+     "2",
+     "11"
+    ],
+    "Type": [
+     "2",
+     "1"
+    ],
+    "ObjectID": [
+     "542854",
+     "239134"
+    ]
+   }
+  },
+  {
+   "id": 460909,
+   "quest": 86636,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "3"
+    ],
+    "Type": [
+     "0",
+     "14"
+    ],
+    "ObjectID": [
+     "246717",
+     "215988"
+    ],
+    "Description": [
+     "NULL",
+     "Deathholme Delve entered"
+    ]
+   }
+  },
+  {
+   "id": 460915,
+   "quest": 90493,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "2"
+    ]
+   }
+  },
+  {
+   "id": 460916,
+   "quest": 86735,
+   "diff": {
+    "StorageIndex": [
+     "4",
+     "5"
+    ]
+   }
+  },
+  {
+   "id": 460917,
+   "quest": 86736,
+   "diff": {
+    "StorageIndex": [
+     "4",
+     "5"
+    ],
+    "Flags": [
+     "2",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 460927,
+   "quest": 90509,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "3"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 460960,
+   "quest": 86833,
+   "diff": {
+    "Order": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  {
+   "id": 460987,
+   "quest": 86833,
+   "diff": {
+    "Order": [
+     "1",
+     "2"
+    ],
+    "Type": [
+     "15",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 460996,
+   "quest": 86842,
+   "diff": {
+    "StorageIndex": [
+     "1",
+     "3"
+    ],
+    "ObjectID": [
+     "248044",
+     "242627"
+    ],
+    "Description": [
+     "Enter the Scarlet Halls",
+     "Enter the Scarlet Monastery"
+    ]
+   }
+  },
+  {
+   "id": 461009,
+   "quest": 86537,
+   "diff": {
+    "Order": [
+     "4",
+     "3"
+    ],
+    "Type": [
+     "2",
+     "0"
+    ],
+    "ObjectID": [
+     "90009381",
+     "244412"
+    ]
+   }
+  },
+  {
+   "id": 461107,
+   "quest": 86849,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "2"
+    ]
+   }
+  },
+  {
+   "id": 461130,
+   "quest": 90571,
+   "diff": {
+    "Order": [
+     "0",
+     "1"
+    ],
+    "Flags": [
+     "8",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 461131,
+   "quest": 90571,
+   "diff": {
+    "Order": [
+     "1",
+     "2"
+    ],
+    "Flags": [
+     "2",
+     "28"
+    ],
+    "Description": [
+     "Scout the Devouring Citadel",
+     "Scry Bunny 01"
+    ]
+   }
+  },
+  {
+   "id": 461132,
+   "quest": 90571,
+   "diff": {
+    "Order": [
+     "2",
+     "3"
+    ],
+    "Flags": [
+     "2",
+     "28"
+    ],
+    "Description": [
+     "Scout the Devouring Citadel",
+     "Scry Bunny 02"
+    ]
+   }
+  },
+  {
+   "id": 461133,
+   "quest": 90571,
+   "diff": {
+    "Order": [
+     "3",
+     "4"
+    ],
+    "Flags": [
+     "2",
+     "28"
+    ],
+    "Description": [
+     "Scout the Devouring Citadel",
+     "Scry Bunny 03"
+    ]
+   }
+  },
+  {
+   "id": 461215,
+   "quest": 86544,
+   "diff": {
+    "StorageIndex": [
+     "3",
+     "5"
+    ],
+    "Flags": [
+     "2",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 461332,
+   "quest": 86565,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "3"
+    ]
+   }
+  },
+  {
+   "id": 461365,
+   "quest": 90509,
+   "diff": {
+    "StorageIndex": [
+     "1",
+     "0"
+    ],
+    "Description": [
+     "NULL",
+     "Matron Narsilla slain"
+    ]
+   }
+  },
+  {
+   "id": 461366,
+   "quest": 90509,
+   "diff": {
+    "StorageIndex": [
+     "2",
+     "1"
+    ],
+    "Description": [
+     "NULL",
+     "Guard Captain Leonic slain"
+    ]
+   }
+  },
+  {
+   "id": 461435,
+   "quest": 86632,
+   "diff": {
+    "Order": [
+     "2",
+     "3"
+    ],
+    "StorageIndex": [
+     "2",
+     "0"
+    ],
+    "Amount": [
+     "12",
+     "20"
+    ],
+    "ProgressBarWeight": [
+     "9",
+     "5"
+    ],
+    "Description": [
+     "NULL",
+     "Obelisks Destroyed"
+    ]
+   }
+  },
+  {
+   "id": 461436,
+   "quest": 86632,
+   "diff": {
+    "Order": [
+     "3",
+     "4"
+    ],
+    "StorageIndex": [
+     "3",
+     "1"
+    ],
+    "Amount": [
+     "12",
+     "34"
+    ],
+    "ProgressBarWeight": [
+     "9",
+     "3"
+    ],
+    "Description": [
+     "NULL",
+     "Supplies Destroyed"
+    ]
+   }
+  },
+  {
+   "id": 461447,
+   "quest": 86738,
+   "diff": {
+    "Flags": [
+     "6",
+     "2"
+    ]
+   }
+  },
+  {
+   "id": 461484,
+   "quest": 86739,
+   "diff": {
+    "StorageIndex": [
+     "1",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 461538,
+   "quest": 86739,
+   "diff": {
+    "Order": [
+     "3",
+     "4"
+    ],
+    "StorageIndex": [
+     "3",
+     "4"
+    ],
+    "Type": [
+     "15",
+     "0"
+    ],
+    "ObjectID": [
+     "0",
+     "243958"
+    ],
+    "Flags": [
+     "0",
+     "28"
+    ],
+    "Description": [
+     "Citizens helped",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 461548,
+   "quest": 86739,
+   "diff": {
+    "Order": [
+     "4",
+     "5"
+    ],
+    "StorageIndex": [
+     "4",
+     "5"
+    ],
+    "ObjectID": [
+     "237406",
+     "243993"
+    ],
+    "Amount": [
+     "3",
+     "5"
+    ],
+    "Flags": [
+     "92",
+     "28"
+    ],
+    "ProgressBarWeight": [
+     "34",
+     "0"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 461558,
+   "quest": 86721,
+   "diff": {
+    "Type": [
+     "2",
+     "0"
+    ],
+    "ObjectID": [
+     "536910",
+     "253334"
+    ]
+   }
+  },
+  {
+   "id": 461561,
+   "quest": 86942,
+   "diff": {
+    "Flags": [
+     "2",
+     "0"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 461562,
+   "quest": 86942,
+   "diff": {
+    "Flags": [
+     "2",
+     "0"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 461566,
+   "quest": 86739,
+   "diff": {
+    "Order": [
+     "5",
+     "6"
+    ],
+    "StorageIndex": [
+     "5",
+     "6"
+    ],
+    "Type": [
+     "2",
+     "0"
+    ],
+    "ObjectID": [
+     "536899",
+     "244042"
+    ],
+    "Amount": [
+     "3",
+     "1"
+    ],
+    "Flags": [
+     "92",
+     "28"
+    ],
+    "ProgressBarWeight": [
+     "34",
+     "0"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 461571,
+   "quest": 86621,
+   "diff": {
+    "StorageIndex": [
+     "2",
+     "3"
+    ],
+    "Description": [
+     "NULL",
+     "Mysterious corpse examined"
+    ]
+   }
+  },
+  {
+   "id": 461573,
+   "quest": 86621,
+   "diff": {
+    "StorageIndex": [
+     "3",
+     "6"
+    ]
+   }
+  },
+  {
+   "id": 461575,
+   "quest": 86740,
+   "diff": {
+    "Order": [
+     "4",
+     "5"
+    ],
+    "StorageIndex": [
+     "4",
+     "5"
+    ],
+    "Type": [
+     "15",
+     "2"
+    ],
+    "ObjectID": [
+     "0",
+     "537177"
+    ],
+    "Flags": [
+     "0",
+     "28"
+    ],
+    "Description": [
+     "3 Strange plants examined",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 461576,
+   "quest": 86740,
+   "diff": {
+    "Order": [
+     "5",
+     "6"
+    ],
+    "StorageIndex": [
+     "5",
+     "6"
+    ],
+    "Type": [
+     "0",
+     "2"
+    ],
+    "ObjectID": [
+     "537177",
+     "537178"
+    ],
+    "Amount": [
+     "3",
+     "1"
+    ],
+    "Flags": [
+     "92",
+     "28"
+    ],
+    "ProgressBarWeight": [
+     "34",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 461577,
+   "quest": 86740,
+   "diff": {
+    "Order": [
+     "6",
+     "7"
+    ],
+    "StorageIndex": [
+     "6",
+     "7"
+    ],
+    "ObjectID": [
+     "537178",
+     "537179"
+    ],
+    "Amount": [
+     "3",
+     "1"
+    ],
+    "Flags": [
+     "92",
+     "28"
+    ],
+    "ProgressBarWeight": [
+     "34",
+     "0"
+    ],
+    "Description": [
+     "Strange Lightbloom Plant",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 461588,
+   "quest": 86899,
+   "diff": {
+    "ObjectID": [
+     "253687",
+     "241042"
+    ],
+    "Flags": [
+     "2",
+     "30"
+    ],
+    "Description": [
+     "Take the portal to Harandar",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 461599,
+   "quest": 86741,
+   "diff": {
+    "Order": [
+     "6",
+     "5"
+    ],
+    "StorageIndex": [
+     "6",
+     "2"
+    ],
+    "ObjectID": [
+     "0",
+     "240555"
+    ],
+    "Amount": [
+     "0",
+     "1"
+    ],
+    "Flags": [
+     "8",
+     "2"
+    ],
+    "Description": [
+     "2",
+     "Trail followed to end"
+    ]
+   }
+  },
+  {
+   "id": 461601,
+   "quest": 86741,
+   "diff": {
+    "Order": [
+     "1",
+     "0"
+    ],
+    "StorageIndex": [
+     "1",
+     "3"
+    ]
+   }
+  },
+  {
+   "id": 461603,
+   "quest": 86741,
+   "diff": {
+    "Order": [
+     "3",
+     "2"
+    ],
+    "StorageIndex": [
+     "3",
+     "4"
+    ],
+    "Type": [
+     "0",
+     "19"
+    ],
+    "ObjectID": [
+     "244383",
+     "36899"
+    ],
+    "Amount": [
+     "1",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 461604,
+   "quest": 86741,
+   "diff": {
+    "Order": [
+     "4",
+     "3"
+    ],
+    "StorageIndex": [
+     "4",
+     "5"
+    ],
+    "ObjectID": [
+     "0",
+     "244261"
+    ],
+    "Amount": [
+     "0",
+     "1"
+    ],
+    "Flags": [
+     "8",
+     "2"
+    ],
+    "Description": [
+     "",
+     "Trail followed further"
+    ]
+   }
+  },
+  {
+   "id": 461608,
+   "quest": 86809,
+   "diff": {
+    "StorageIndex": [
+     "1",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 461609,
+   "quest": 86715,
+   "diff": {
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 461613,
+   "quest": 86656,
+   "diff": {
+    "Order": [
+     "2",
+     "3"
+    ],
+    "StorageIndex": [
+     "2",
+     "0"
+    ],
+    "Type": [
+     "2",
+     "0"
+    ],
+    "ObjectID": [
+     "546885",
+     "244356"
+    ]
+   }
+  },
+  {
+   "id": 461615,
+   "quest": 86719,
+   "diff": {
+    "StorageIndex": [
+     "4",
+     "3"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 461618,
+   "quest": 86741,
+   "diff": {
+    "Order": [
+     "5",
+     "4"
+    ],
+    "StorageIndex": [
+     "5",
+     "6"
+    ],
+    "ObjectID": [
+     "240555",
+     "244383"
+    ],
+    "Flags": [
+     "0",
+     "2"
+    ],
+    "Description": [
+     "Trail followed further",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 461622,
+   "quest": 86743,
+   "diff": {
+    "Order": [
+     "0",
+     "3"
+    ],
+    "StorageIndex": [
+     "0",
+     "2"
+    ],
+    "Type": [
+     "15",
+     "0"
+    ],
+    "ObjectID": [
+     "0",
+     "237414"
+    ],
+    "Amount": [
+     "1",
+     "13"
+    ],
+    "Flags": [
+     "0",
+     "92"
+    ],
+    "ProgressBarWeight": [
+     "0",
+     "8"
+    ],
+    "Description": [
+     "Lightbloom creatures slain",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 461625,
+   "quest": 86868,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "2"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 461630,
+   "quest": 86622,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "3"
+    ]
+   }
+  },
+  {
+   "id": 461631,
+   "quest": 86622,
+   "diff": {
+    "StorageIndex": [
+     "1",
+     "5"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 461632,
+   "quest": 86622,
+   "diff": {
+    "StorageIndex": [
+     "2",
+     "6"
+    ],
+    "Flags": [
+     "6",
+     "2"
+    ],
+    "Description": [
+     "NULL",
+     "Suspicious Missive collected"
+    ]
+   }
+  },
+  {
+   "id": 461633,
+   "quest": 86657,
+   "diff": {
+    "Order": [
+     "0",
+     "2"
+    ]
+   }
+  },
+  {
+   "id": 461635,
+   "quest": 86624,
+   "diff": {
+    "Order": [
+     "2",
+     "3"
+    ],
+    "StorageIndex": [
+     "2",
+     "12"
+    ],
+    "ObjectID": [
+     "239406",
+     "242568"
+    ],
+    "Amount": [
+     "4",
+     "1"
+    ],
+    "Flags": [
+     "92",
+     "28"
+    ],
+    "ProgressBarWeight": [
+     "25",
+     "0"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 461647,
+   "quest": 86652,
+   "diff": {
+    "Order": [
+     "1",
+     "2"
+    ],
+    "StorageIndex": [
+     "1",
+     "2"
+    ],
+    "Description": [
+     "Prepare meals with Torundo for the Atal'Aman refugees",
+     "Get a report on the Lightwood from Lilaju"
+    ]
+   }
+  },
+  {
+   "id": 461665,
+   "quest": 86901,
+   "diff": {
+    "Order": [
+     "0",
+     "1"
+    ],
+    "StorageIndex": [
+     "0",
+     "1"
+    ],
+    "Type": [
+     "0",
+     "19"
+    ],
+    "ObjectID": [
+     "239543",
+     "37761"
+    ],
+    "Amount": [
+     "1",
+     "0"
+    ],
+    "Description": [
+     "Petalvane ridden",
+     "Follow Orweyna to the Den"
+    ]
+   }
+  },
+  {
+   "id": 461672,
+   "quest": 86658,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "3"
+    ],
+    "Flags": [
+     "0",
+     "4"
+    ]
+   }
+  },
+  {
+   "id": 461680,
+   "quest": 86837,
+   "diff": {
+    "Order": [
+     "0",
+     "1"
+    ],
+    "StorageIndex": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  {
+   "id": 461681,
+   "quest": 86659,
+   "diff": {
+    "StorageIndex": [
+     "1",
+     "0"
+    ],
+    "Type": [
+     "15",
+     "0"
+    ],
+    "ObjectID": [
+     "0",
+     "245860"
+    ],
+    "Amount": [
+     "1",
+     "3"
+    ]
+   }
+  },
+  {
+   "id": 461682,
+   "quest": 86661,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "2"
+    ]
+   }
+  },
+  {
+   "id": 461702,
+   "quest": 86686,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  {
+   "id": 461711,
+   "quest": 86912,
+   "diff": {
+    "StorageIndex": [
+     "2",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 461723,
+   "quest": 86687,
+   "diff": {
+    "Order": [
+     "0",
+     "1"
+    ],
+    "StorageIndex": [
+     "0",
+     "6"
+    ],
+    "Type": [
+     "15",
+     "0"
+    ],
+    "ObjectID": [
+     "0",
+     "244881"
+    ],
+    "Amount": [
+     "1",
+     "3"
+    ],
+    "Description": [
+     "Void conduits destroyed",
+     "Conduits near Jan'alai destroyed"
+    ]
+   }
+  },
+  {
+   "id": 461726,
+   "quest": 86687,
+   "diff": {
+    "Order": [
+     "1",
+     "2"
+    ],
+    "StorageIndex": [
+     "1",
+     "9"
+    ],
+    "ObjectID": [
+     "244881",
+     "244883"
+    ],
+    "Flags": [
+     "92",
+     "0"
+    ],
+    "ProgressBarWeight": [
+     "34",
+     "0"
+    ],
+    "Description": [
+     "NULL",
+     "Conduits near Halazzi destroyed"
+    ]
+   }
+  },
+  {
+   "id": 461729,
+   "quest": 86687,
+   "diff": {
+    "Order": [
+     "2",
+     "3"
+    ],
+    "StorageIndex": [
+     "2",
+     "12"
+    ],
+    "ObjectID": [
+     "244883",
+     "244882"
+    ],
+    "Flags": [
+     "92",
+     "0"
+    ],
+    "ProgressBarWeight": [
+     "34",
+     "0"
+    ],
+    "Description": [
+     "NULL",
+     "Conduits near Akil'zon destroyed"
+    ]
+   }
+  },
+  {
+   "id": 461785,
+   "quest": 90907,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "20"
+    ]
+   }
+  },
+  {
+   "id": 461786,
+   "quest": 90907,
+   "diff": {
+    "StorageIndex": [
+     "1",
+     "21"
+    ]
+   }
+  },
+  {
+   "id": 461787,
+   "quest": 90907,
+   "diff": {
+    "StorageIndex": [
+     "2",
+     "22"
+    ],
+    "Type": [
+     "2",
+     "0"
+    ],
+    "ObjectID": [
+     "542854",
+     "241275"
+    ],
+    "Flags": [
+     "2",
+     "18"
+    ]
+   }
+  },
+  {
+   "id": 461808,
+   "quest": 86624,
+   "diff": {
+    "Order": [
+     "3",
+     "4"
+    ],
+    "StorageIndex": [
+     "3",
+     "20"
+    ],
+    "ObjectID": [
+     "242568",
+     "244840"
+    ],
+    "Amount": [
+     "4",
+     "1"
+    ],
+    "Flags": [
+     "92",
+     "28"
+    ],
+    "ProgressBarWeight": [
+     "25",
+     "0"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 461814,
+   "quest": 86644,
+   "diff": {
+    "Order": [
+     "1",
+     "2"
+    ],
+    "StorageIndex": [
+     "1",
+     "7"
+    ],
+    "Type": [
+     "15",
+     "0"
+    ],
+    "ObjectID": [
+     "0",
+     "242144"
+    ]
+   }
+  },
+  {
+   "id": 461821,
+   "quest": 86687,
+   "diff": {
+    "Order": [
+     "3",
+     "4"
+    ],
+    "StorageIndex": [
+     "3",
+     "1"
+    ],
+    "ObjectID": [
+     "244882",
+     "244880"
+    ],
+    "Flags": [
+     "92",
+     "0"
+    ],
+    "ProgressBarWeight": [
+     "34",
+     "0"
+    ],
+    "Description": [
+     "NULL",
+     "Conduits near Nalorakk destroyed"
+    ]
+   }
+  },
+  {
+   "id": 461839,
+   "quest": 86656,
+   "diff": {
+    "Order": [
+     "3",
+     "4"
+    ],
+    "StorageIndex": [
+     "3",
+     "1"
+    ],
+    "Type": [
+     "0",
+     "2"
+    ],
+    "ObjectID": [
+     "0",
+     "539214"
+    ],
+    "Amount": [
+     "0",
+     "1"
+    ],
+    "Flags": [
+     "8",
+     "284"
+    ],
+    "Description": [
+     "",
+     "[DNT]"
+    ]
+   }
+  },
+  {
+   "id": 461840,
+   "quest": 86656,
+   "diff": {
+    "Order": [
+     "4",
+     "5"
+    ],
+    "StorageIndex": [
+     "4",
+     "2"
+    ],
+    "Type": [
+     "0",
+     "2"
+    ],
+    "ObjectID": [
+     "0",
+     "544089"
+    ],
+    "Amount": [
+     "0",
+     "1"
+    ],
+    "Flags": [
+     "8",
+     "284"
+    ],
+    "Description": [
+     "NULL",
+     "[DNT]"
+    ]
+   }
+  },
+  {
+   "id": 461877,
+   "quest": 86841,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "6"
+    ]
+   }
+  },
+  {
+   "id": 461882,
+   "quest": 86866,
+   "diff": {
+    "ObjectID": [
+     "259101",
+     "240901"
+    ],
+    "Flags": [
+     "4",
+     "28"
+    ],
+    "Description": [
+     "Stay awhile and listen to Hannan",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 461886,
+   "quest": 86681,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "8"
+    ],
+    "Type": [
+     "2",
+     "0"
+    ],
+    "ObjectID": [
+     "567906",
+     "245723"
+    ]
+   }
+  },
+  {
+   "id": 461920,
+   "quest": 86655,
+   "diff": {
+    "Order": [
+     "1",
+     "5"
+    ],
+    "Flags": [
+     "6",
+     "2"
+    ]
+   }
+  },
+  {
+   "id": 461926,
+   "quest": 86656,
+   "diff": {
+    "Order": [
+     "5",
+     "6"
+    ],
+    "StorageIndex": [
+     "5",
+     "4"
+    ],
+    "Type": [
+     "0",
+     "2"
+    ],
+    "ObjectID": [
+     "254073",
+     "546885"
+    ],
+    "Amount": [
+     "0",
+     "1"
+    ],
+    "Flags": [
+     "6",
+     "284"
+    ],
+    "Description": [
+     "Stay awhile and listen",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 461957,
+   "quest": 86642,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "3"
+    ],
+    "Type": [
+     "15",
+     "0"
+    ],
+    "ObjectID": [
+     "0",
+     "245221"
+    ],
+    "Amount": [
+     "1",
+     "5"
+    ]
+   }
+  },
+  {
+   "id": 461973,
+   "quest": 90907,
+   "diff": {
+    "StorageIndex": [
+     "3",
+     "0"
+    ],
+    "Flags": [
+     "6",
+     "2"
+    ]
+   }
+  },
+  {
+   "id": 461977,
+   "quest": 86846,
+   "diff": {
+    "Order": [
+     "1",
+     "2"
+    ],
+    "StorageIndex": [
+     "1",
+     "6"
+    ]
+   }
+  },
+  {
+   "id": 461978,
+   "quest": 86846,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "7"
+    ]
+   }
+  },
+  {
+   "id": 461979,
+   "quest": 86846,
+   "diff": {
+    "Order": [
+     "2",
+     "3"
+    ],
+    "StorageIndex": [
+     "2",
+     "8"
+    ]
+   }
+  },
+  {
+   "id": 462003,
+   "quest": 91001,
+   "diff": {
+    "ObjectID": [
+     "249415",
+     "245281"
+    ],
+    "Flags": [
+     "0",
+     "28"
+    ],
+    "Description": [
+     "Meet at Conquerer's Sanctum",
+     "Talk to Zul'jan"
+    ]
+   }
+  },
+  {
+   "id": 462008,
+   "quest": 86846,
+   "diff": {
+    "Order": [
+     "3",
+     "6"
+    ],
+    "StorageIndex": [
+     "3",
+     "0"
+    ],
+    "Flags": [
+     "2",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 462017,
+   "quest": 86719,
+   "diff": {
+    "StorageIndex": [
+     "3",
+     "4"
+    ],
+    "Description": [
+     "Search for Hash'ey Staff ",
+     "Search for Hash'ey Staff"
+    ]
+   }
+  },
+  {
+   "id": 462068,
+   "quest": 86658,
+   "diff": {
+    "StorageIndex": [
+     "2",
+     "1"
+    ],
+    "Flags": [
+     "2",
+     "0"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 462070,
+   "quest": 86659,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  {
+   "id": 462071,
+   "quest": 86659,
+   "diff": {
+    "StorageIndex": [
+     "5",
+     "2"
+    ],
+    "Amount": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  {
+   "id": 462077,
+   "quest": 86652,
+   "diff": {
+    "Order": [
+     "0",
+     "1"
+    ],
+    "StorageIndex": [
+     "0",
+     "4"
+    ],
+    "Flags": [
+     "0",
+     "256"
+    ],
+    "Description": [
+     "Go outside",
+     "Prepare meals with Torundo for the Atal'Aman refugees"
+    ]
+   }
+  },
+  {
+   "id": 462098,
+   "quest": 86648,
+   "diff": {
+    "Order": [
+     "1",
+     "20"
+    ],
+    "StorageIndex": [
+     "1",
+     "12"
+    ],
+    "ObjectID": [
+     "258300",
+     "245599"
+    ],
+    "Flags": [
+     "4",
+     "2"
+    ],
+    "Description": [
+     "Sin'dorei forces dissuaded",
+     "Find Arator and Liadrin in Amani Pass"
+    ]
+   }
+  },
+  {
+   "id": 462100,
+   "quest": 86683,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  {
+   "id": 462102,
+   "quest": 86720,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  {
+   "id": 462104,
+   "quest": 86626,
+   "diff": {
+    "Order": [
+     "1",
+     "4"
+    ],
+    "StorageIndex": [
+     "1",
+     "2"
+    ]
+   }
+  },
+  {
+   "id": 462105,
+   "quest": 86648,
+   "diff": {
+    "Order": [
+     "2",
+     "21"
+    ],
+    "StorageIndex": [
+     "2",
+     "0"
+    ],
+    "ObjectID": [
+     "258299",
+     "240896"
+    ],
+    "Flags": [
+     "4",
+     "2"
+    ],
+    "Description": [
+     "Sin'dorei Banners planted and Amani Banners burned",
+     "Find Lor'themar at the top of Amani Pass"
+    ]
+   }
+  },
+  {
+   "id": 462112,
+   "quest": 86693,
+   "diff": {
+    "Order": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  {
+   "id": 462158,
+   "quest": 86682,
+   "diff": {
+    "Order": [
+     "0",
+     "1"
+    ],
+    "StorageIndex": [
+     "0",
+     "2"
+    ],
+    "Description": [
+     "Permission from the Revantusk granted",
+     "Speak with Lilaju"
+    ]
+   }
+  },
+  {
+   "id": 462179,
+   "quest": 86681,
+   "diff": {
+    "Order": [
+     "1",
+     "3"
+    ],
+    "StorageIndex": [
+     "1",
+     "0"
+    ],
+    "Amount": [
+     "1",
+     "3"
+    ],
+    "Flags": [
+     "6",
+     "2"
+    ]
+   }
+  },
+  {
+   "id": 462200,
+   "quest": 86663,
+   "diff": {
+    "Order": [
+     "1",
+     "2"
+    ],
+    "StorageIndex": [
+     "1",
+     "3"
+    ],
+    "Type": [
+     "15",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 462230,
+   "quest": 86655,
+   "diff": {
+    "Order": [
+     "2",
+     "1"
+    ],
+    "Amount": [
+     "4",
+     "1"
+    ],
+    "Flags": [
+     "92",
+     "28"
+    ],
+    "ProgressBarWeight": [
+     "25",
+     "0"
+    ],
+    "Description": [
+     "NULL",
+     "Shrine 01"
+    ]
+   }
+  },
+  {
+   "id": 462231,
+   "quest": 86655,
+   "diff": {
+    "Order": [
+     "3",
+     "2"
+    ],
+    "Amount": [
+     "4",
+     "1"
+    ],
+    "Flags": [
+     "92",
+     "28"
+    ],
+    "ProgressBarWeight": [
+     "25",
+     "0"
+    ],
+    "Description": [
+     "NULL",
+     "Shrine 02"
+    ]
+   }
+  },
+  {
+   "id": 462232,
+   "quest": 86655,
+   "diff": {
+    "Order": [
+     "4",
+     "3"
+    ],
+    "Amount": [
+     "4",
+     "1"
+    ],
+    "Flags": [
+     "92",
+     "28"
+    ],
+    "ProgressBarWeight": [
+     "25",
+     "0"
+    ],
+    "Description": [
+     "NULL",
+     "Shrine 03"
+    ]
+   }
+  },
+  {
+   "id": 462234,
+   "quest": 86655,
+   "diff": {
+    "Order": [
+     "5",
+     "4"
+    ],
+    "Amount": [
+     "4",
+     "1"
+    ],
+    "Flags": [
+     "92",
+     "28"
+    ],
+    "ProgressBarWeight": [
+     "25",
+     "0"
+    ],
+    "Description": [
+     "NULL",
+     "Shrine 04"
+    ]
+   }
+  },
+  {
+   "id": 462238,
+   "quest": 86659,
+   "diff": {
+    "StorageIndex": [
+     "2",
+     "4"
+    ],
+    "Amount": [
+     "3",
+     "1"
+    ],
+    "Flags": [
+     "92",
+     "28"
+    ],
+    "ProgressBarWeight": [
+     "34",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 462239,
+   "quest": 86659,
+   "diff": {
+    "StorageIndex": [
+     "3",
+     "5"
+    ],
+    "Amount": [
+     "3",
+     "1"
+    ],
+    "Flags": [
+     "92",
+     "28"
+    ],
+    "ProgressBarWeight": [
+     "34",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 462240,
+   "quest": 86659,
+   "diff": {
+    "StorageIndex": [
+     "4",
+     "6"
+    ],
+    "Amount": [
+     "3",
+     "1"
+    ],
+    "Flags": [
+     "92",
+     "28"
+    ],
+    "ProgressBarWeight": [
+     "34",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 462345,
+   "quest": 91274,
+   "diff": {
+    "Order": [
+     "1",
+     "0"
+    ],
+    "StorageIndex": [
+     "1",
+     "0"
+    ],
+    "Flags": [
+     "0",
+     "24"
+    ],
+    "Description": [
+     "Sentinels activated",
+     "A"
+    ]
+   }
+  },
+  {
+   "id": 462350,
+   "quest": 91274,
+   "diff": {
+    "Order": [
+     "2",
+     "1"
+    ],
+    "StorageIndex": [
+     "2",
+     "1"
+    ],
+    "Flags": [
+     "0",
+     "24"
+    ],
+    "Description": [
+     "NULL",
+     "B"
+    ]
+   }
+  },
+  {
+   "id": 462351,
+   "quest": 91274,
+   "diff": {
+    "Order": [
+     "3",
+     "2"
+    ],
+    "StorageIndex": [
+     "3",
+     "2"
+    ],
+    "Flags": [
+     "0",
+     "24"
+    ],
+    "Description": [
+     "NULL",
+     "C"
+    ]
+   }
+  },
+  {
+   "id": 462354,
+   "quest": 91274,
+   "diff": {
+    "Order": [
+     "4",
+     "3"
+    ],
+    "Flags": [
+     "0",
+     "24"
+    ],
+    "Description": [
+     "NULL",
+     "D"
+    ]
+   }
+  },
+  {
+   "id": 462355,
+   "quest": 91274,
+   "diff": {
+    "Order": [
+     "5",
+     "4"
+    ],
+    "ObjectID": [
+     "246317",
+     "246255"
+    ],
+    "Amount": [
+     "0",
+     "1"
+    ],
+    "Flags": [
+     "6",
+     "24"
+    ],
+    "Description": [
+     "Void-Breach Pylon destroyed",
+     "E"
+    ]
+   }
+  },
+  {
+   "id": 462388,
+   "quest": 90958,
+   "diff": {
+    "Description": [
+     "",
+     "Mysterious Voice investigated"
+    ]
+   }
+  },
+  {
+   "id": 462405,
+   "quest": 91281,
+   "diff": {
+    "Flags": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  {
+   "id": 462463,
+   "quest": 86781,
+   "diff": {
+    "StorageIndex": [
+     "1",
+     "0"
+    ],
+    "Flags": [
+     "6",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 462464,
+   "quest": 86781,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "1"
+    ],
+    "Flags": [
+     "0",
+     "4"
+    ]
+   }
+  },
+  {
+   "id": 462477,
+   "quest": 90960,
+   "diff": {
+    "Flags": [
+     "2",
+     "24"
+    ]
+   }
+  },
+  {
+   "id": 462566,
+   "quest": 86643,
+   "diff": {
+    "Order": [
+     "0",
+     "1"
+    ],
+    "StorageIndex": [
+     "0",
+     "6"
+    ]
+   }
+  },
+  {
+   "id": 462579,
+   "quest": 86825,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "3"
+    ],
+    "Type": [
+     "1",
+     "0"
+    ],
+    "ObjectID": [
+     "246704",
+     "245718"
+    ],
+    "Flags": [
+     "0",
+     "1"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 462581,
+   "quest": 86826,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "4"
+    ],
+    "Flags": [
+     "0",
+     "1"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 462892,
+   "quest": 86827,
+   "diff": {
+    "Order": [
+     "0",
+     "1"
+    ],
+    "StorageIndex": [
+     "0",
+     "5"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 462906,
+   "quest": 86826,
+   "diff": {
+    "StorageIndex": [
+     "1",
+     "0"
+    ],
+    "Description": [
+     "NULL",
+     "Relic Fragment recovered"
+    ]
+   }
+  },
+  {
+   "id": 462907,
+   "quest": 86831,
+   "diff": {
+    "StorageIndex": [
+     "1",
+     "0"
+    ],
+    "Description": [
+     "NULL",
+     "Third Fragment recovered"
+    ]
+   }
+  },
+  {
+   "id": 462925,
+   "quest": 86830,
+   "diff": {
+    "Type": [
+     "0",
+     "21"
+    ],
+    "ObjectID": [
+     "248160",
+     "4795"
+    ]
+   }
+  },
+  {
+   "id": 462948,
+   "quest": 86849,
+   "diff": {
+    "StorageIndex": [
+     "1",
+     "0"
+    ],
+    "Flags": [
+     "6",
+     "2"
+    ]
+   }
+  },
+  {
+   "id": 463201,
+   "quest": 86845,
+   "diff": {
+    "Order": [
+     "1",
+     "2"
+    ],
+    "StorageIndex": [
+     "1",
+     "5"
+    ]
+   }
+  },
+  {
+   "id": 463490,
+   "quest": 86902,
+   "diff": {
+    "Order": [
+     "1",
+     "3"
+    ],
+    "StorageIndex": [
+     "1",
+     "5"
+    ],
+    "Type": [
+     "0",
+     "21"
+    ],
+    "ObjectID": [
+     "248326",
+     "5346"
+    ],
+    "Amount": [
+     "1",
+     "4"
+    ],
+    "Flags": [
+     "0",
+     "24"
+    ],
+    "Description": [
+     "Relic given to Valunei",
+     "Relics Distributed"
+    ]
+   }
+  },
+  {
+   "id": 463562,
+   "quest": 91842,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "6"
+    ]
+   }
+  },
+  {
+   "id": 463589,
+   "quest": 86832,
+   "diff": {
+    "Order": [
+     "0",
+     "1"
+    ],
+    "StorageIndex": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  {
+   "id": 463693,
+   "quest": 86883,
+   "diff": {
+    "Type": [
+     "0",
+     "3"
+    ]
+   }
+  },
+  {
+   "id": 463738,
+   "quest": 86710,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  {
+   "id": 463739,
+   "quest": 86710,
+   "diff": {
+    "Order": [
+     "1",
+     "2"
+    ],
+    "StorageIndex": [
+     "1",
+     "2"
+    ],
+    "Flags": [
+     "6",
+     "2"
+    ]
+   }
+  },
+  {
+   "id": 463740,
+   "quest": 86710,
+   "diff": {
+    "Order": [
+     "2",
+     "3"
+    ],
+    "StorageIndex": [
+     "2",
+     "0"
+    ],
+    "Flags": [
+     "6",
+     "0"
+    ],
+    "Description": [
+     "NULL",
+     "Void Beast slain"
+    ]
+   }
+  },
+  {
+   "id": 463821,
+   "quest": 91958,
+   "diff": {
+    "StorageIndex": [
+     "2",
+     "0"
+    ],
+    "Type": [
+     "0",
+     "14"
+    ],
+    "ObjectID": [
+     "241287",
+     "219511"
+    ],
+    "Flags": [
+     "2",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 463822,
+   "quest": 91958,
+   "diff": {
+    "StorageIndex": [
+     "1",
+     "3"
+    ],
+    "Flags": [
+     "0",
+     "4"
+    ]
+   }
+  },
+  {
+   "id": 463981,
+   "quest": 86809,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  {
+   "id": 463982,
+   "quest": 91967,
+   "diff": {
+    "Type": [
+     "0",
+     "3"
+    ]
+   }
+  },
+  {
+   "id": 463987,
+   "quest": 91967,
+   "diff": {
+    "Type": [
+     "0",
+     "3"
+    ]
+   }
+  },
+  {
+   "id": 463991,
+   "quest": 86692,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "1"
+    ],
+    "Flags": [
+     "4",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 464103,
+   "quest": 86736,
+   "diff": {
+    "Flags": [
+     "2",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 464123,
+   "quest": 92084,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "7"
+    ]
+   }
+  },
+  {
+   "id": 464132,
+   "quest": 86711,
+   "diff": {
+    "Order": [
+     "0",
+     "1"
+    ],
+    "Flags": [
+     "0",
+     "284"
+    ],
+    "Description": [
+     "Amani War Drum sounded",
+     "Drum 1"
+    ]
+   }
+  },
+  {
+   "id": 464133,
+   "quest": 86711,
+   "diff": {
+    "Order": [
+     "1",
+     "2"
+    ],
+    "StorageIndex": [
+     "1",
+     "2"
+    ],
+    "Flags": [
+     "0",
+     "284"
+    ],
+    "Description": [
+     "Amani War Drum sounded",
+     "Drum 2"
+    ]
+   }
+  },
+  {
+   "id": 464134,
+   "quest": 86711,
+   "diff": {
+    "Order": [
+     "2",
+     "3"
+    ],
+    "StorageIndex": [
+     "2",
+     "3"
+    ],
+    "Flags": [
+     "0",
+     "284"
+    ],
+    "Description": [
+     "Amani War Drum sounded",
+     "Drum 3"
+    ]
+   }
+  },
+  {
+   "id": 464157,
+   "quest": 86652,
+   "diff": {
+    "Order": [
+     "2",
+     "4"
+    ],
+    "StorageIndex": [
+     "2",
+     "3"
+    ],
+    "Description": [
+     "Get a report on the Lightwood from Lilaju",
+     "Request Shadowpine Shamans from Tak'lejo"
+    ]
+   }
+  },
+  {
+   "id": 464204,
+   "quest": 91000,
+   "diff": {
+    "Order": [
+     "0",
+     "6"
+    ],
+    "StorageIndex": [
+     "0",
+     "1"
+    ],
+    "Type": [
+     "0",
+     "3"
+    ]
+   }
+  },
+  {
+   "id": 464205,
+   "quest": 91000,
+   "diff": {
+    "Order": [
+     "2",
+     "7"
+    ],
+    "Type": [
+     "0",
+     "3"
+    ],
+    "ObjectID": [
+     "253978",
+     "238081"
+    ],
+    "Description": [
+     "Stay awhile and listen to Dezco",
+     "Speak with Sunwalker Nadura"
+    ]
+   }
+  },
+  {
+   "id": 464247,
+   "quest": 86653,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  {
+   "id": 464269,
+   "quest": 92136,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  {
+   "id": 464296,
+   "quest": 86536,
+   "diff": {
+    "Order": [
+     "1",
+     "2"
+    ],
+    "StorageIndex": [
+     "1",
+     "2"
+    ],
+    "Type": [
+     "0",
+     "19"
+    ],
+    "ObjectID": [
+     "9100609",
+     "39237"
+    ],
+    "Amount": [
+     "1",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 464297,
+   "quest": 86536,
+   "diff": {
+    "Order": [
+     "2",
+     "3"
+    ],
+    "StorageIndex": [
+     "2",
+     "3"
+    ],
+    "ObjectID": [
+     "260236",
+     "249941"
+    ]
+   }
+  },
+  {
+   "id": 464391,
+   "quest": 86902,
+   "diff": {
+    "Order": [
+     "2",
+     "8"
+    ],
+    "StorageIndex": [
+     "2",
+     "6"
+    ],
+    "ObjectID": [
+     "248322",
+     "239623"
+    ],
+    "Flags": [
+     "0",
+     "2"
+    ],
+    "Description": [
+     "Relic given to Salandria",
+     "Give Remaining Relics to Velen"
+    ]
+   }
+  },
+  {
+   "id": 464394,
+   "quest": 86890,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "2"
+    ]
+   }
+  },
+  {
+   "id": 464496,
+   "quest": 92061,
+   "diff": {
+    "Flags": [
+     "2",
+     "0"
+    ]
+   }
+  },
+  {
+   "id": 464543,
+   "quest": 86899,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "2"
+    ]
+   }
+  },
+  {
+   "id": 464613,
+   "quest": 86912,
+   "diff": {
+    "StorageIndex": [
+     "1",
+     "3"
+    ],
+    "Description": [
+     "NULL",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 464803,
+   "quest": 86639,
+   "diff": {
+    "StorageIndex": [
+     "1",
+     "7"
+    ]
+   }
+  },
+  {
+   "id": 464804,
+   "quest": 86639,
+   "diff": {
+    "StorageIndex": [
+     "3",
+     "8"
+    ]
+   }
+  },
+  {
+   "id": 464805,
+   "quest": 86639,
+   "diff": {
+    "StorageIndex": [
+     "2",
+     "9"
+    ]
+   }
+  },
+  {
+   "id": 464806,
+   "quest": 86639,
+   "diff": {
+    "StorageIndex": [
+     "4",
+     "10"
+    ]
+   }
+  },
+  {
+   "id": 464841,
+   "quest": 86638,
+   "diff": {
+    "Order": [
+     "0",
+     "3"
+    ],
+    "StorageIndex": [
+     "0",
+     "4"
+    ],
+    "Type": [
+     "15",
+     "0"
+    ],
+    "ObjectID": [
+     "0",
+     "236557"
+    ],
+    "Amount": [
+     "1",
+     "13"
+    ],
+    "Flags": [
+     "0",
+     "92"
+    ],
+    "ProgressBarWeight": [
+     "0",
+     "8"
+    ],
+    "Description": [
+     "Lightbloom creatures slain",
+     ""
+    ]
+   }
+  },
+  {
+   "id": 464905,
+   "quest": 86643,
+   "diff": {
+    "Order": [
+     "3",
+     "2"
+    ],
+    "StorageIndex": [
+     "3",
+     "1"
+    ],
+    "Amount": [
+     "2",
+     "4"
+    ],
+    "Description": [
+     "4 Warding totems destroyed ",
+     "Warding totems destroyed"
+    ]
+   }
+  },
+  {
+   "id": 464918,
+   "quest": 86644,
+   "diff": {
+    "Order": [
+     "7",
+     "0"
+    ],
+    "StorageIndex": [
+     "7",
+     "12"
+    ]
+   }
+  },
+  {
+   "id": 465060,
+   "quest": 86663,
+   "diff": {
+    "Order": [
+     "0",
+     "1"
+    ],
+    "StorageIndex": [
+     "0",
+     "4"
+    ]
+   }
+  },
+  {
+   "id": 465094,
+   "quest": 86633,
+   "diff": {
+    "StorageIndex": [
+     "1",
+     "0"
+    ],
+    "Flags": [
+     "6",
+     "4"
+    ]
+   }
+  },
+  {
+   "id": 465095,
+   "quest": 86633,
+   "diff": {
+    "StorageIndex": [
+     "2",
+     "4"
+    ]
+   }
+  },
+  {
+   "id": 465096,
+   "quest": 86633,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "6"
+    ]
+   }
+  },
+  {
+   "id": 465228,
+   "quest": 86742,
+   "diff": {
+    "Order": [
+     "5",
+     "7"
+    ],
+    "StorageIndex": [
+     "5",
+     "6"
+    ],
+    "Flags": [
+     "6",
+     "2"
+    ]
+   }
+  },
+  {
+   "id": 465229,
+   "quest": 86742,
+   "diff": {
+    "StorageIndex": [
+     "6",
+     "7"
+    ],
+    "Type": [
+     "0",
+     "1"
+    ],
+    "ObjectID": [
+     "237394",
+     "253386"
+    ],
+    "Description": [
+     "NULL",
+     "Pick up Strange Seed"
+    ]
+   }
+  },
+  {
+   "id": 465413,
+   "quest": 86737,
+   "diff": {
+    "StorageIndex": [
+     "1",
+     "2"
+    ],
+    "Flags": [
+     "2",
+     "6"
+    ]
+   }
+  },
+  {
+   "id": 465749,
+   "quest": 86903,
+   "diff": {
+    "Order": [
+     "0",
+     "6"
+    ],
+    "StorageIndex": [
+     "0",
+     "8"
+    ],
+    "Type": [
+     "0",
+     "2"
+    ],
+    "ObjectID": [
+     "248517",
+     "584421"
+    ],
+    "Amount": [
+     "1",
+     "4"
+    ],
+    "Flags": [
+     "0",
+     "2"
+    ],
+    "Description": [
+     "Teleport to the Arcantina",
+     "Drinks served"
+    ]
+   }
+  },
+  {
+   "id": 465822,
+   "quest": 86656,
+   "diff": {
+    "StorageIndex": [
+     "1",
+     "5"
+    ]
+   }
+  },
+  {
+   "id": 466099,
+   "quest": 86842,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "4"
+    ],
+    "ObjectID": [
+     "242627",
+     "253953"
+    ],
+    "Description": [
+     "Enter the Scarlet Monastery",
+     "Stay awhile and listen to Arator"
+    ]
+   }
+  },
+  {
+   "id": 466204,
+   "quest": 91958,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "1"
+    ]
+   }
+  },
+  {
+   "id": 467970,
+   "quest": 86912,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "1"
+    ],
+    "Type": [
+     "0",
+     "14"
+    ],
+    "ObjectID": [
+     "9100605",
+     "220035"
+    ]
+   }
+  },
+  {
+   "id": 468985,
+   "quest": 86648,
+   "diff": {
+    "StorageIndex": [
+     "0",
+     "3"
+    ]
+   }
+  },
+  {
+   "id": 469289,
+   "quest": 91958,
+   "diff": {
+    "StorageIndex": [
+     "3",
+     "2"
+    ],
+    "Flags": [
+     "6",
+     "2"
+    ],
+    "Description": [
+     "Speak with Zul'jarra",
+     "Speak with Zul'jarra outside the Dungeon"
+    ]
+   }
+  },
+  {
+   "id": 469420,
+   "quest": 86510,
+   "diff": {
+    "Order": [
+     "0",
+     "1"
+    ],
+    "StorageIndex": [
+     "0",
+     "5"
+    ]
+   }
+  },
+  {
+   "id": 469671,
+   "quest": 86902,
+   "diff": {
+    "Order": [
+     "0",
+     "2"
+    ],
+    "StorageIndex": [
+     "0",
+     "7"
+    ],
+    "Type": [
+     "0",
+     "3"
+    ],
+    "ObjectID": [
+     "248323",
+     "248408"
+    ],
+    "Flags": [
+     "0",
+     "4"
+    ],
+    "Description": [
+     "Relic given to Taelia",
+     "Speak with Aelyse"
+    ]
+   }
+  },
+  {
+   "id": 470202,
+   "quest": 86839,
+   "diff": {
+    "Order": [
+     "0",
+     "1"
+    ],
+    "StorageIndex": [
+     "0",
+     "2"
+    ],
+    "Flags": [
+     "4",
+     "0"
+    ]
+   }
+  }
+ ],
+ "duplicate_storage_index": {
+  "86565:2": [
+   456983,
+   461334
+  ],
+  "86531:0": [
+   457689,
+   458684
+  ],
+  "86510:2": [
+   457837,
+   457838
+  ],
+  "86513:1": [
+   458058,
+   460857
+  ],
+  "86780:0": [
+   458206,
+   458211
+  ],
+  "86780:2": [
+   458221,
+   458211001
+  ],
+  "86780:3": [
+   458389,
+   458211003
+  ],
+  "86780:4": [
+   458391,
+   458211004
+  ],
+  "86531:1": [
+   458683,
+   458684000
+  ],
+  "86531:3": [
+   458685,
+   458684002
+  ],
+  "86624:0": [
+   458711,
+   458743
+  ],
+  "86868:0": [
+   458739,
+   461625
+  ],
+  "86531:4": [
+   458754,
+   458684003
+  ],
+  "86549:1": [
+   458757,
+   459309
+  ],
+  "86549:2": [
+   458758,
+   458798
+  ],
+  "86531:5": [
+   458769,
+   458684004
+  ],
+  "86901:0": [
+   458778,
+   461665
+  ],
+  "86531:6": [
+   458791,
+   458684005
+  ],
+  "86717:1": [
+   458856,
+   458855000
+  ],
+  "86717:2": [
+   458857,
+   458855001
+  ],
+  "86717:3": [
+   458858,
+   458855002
+  ],
+  "86717:6": [
+   458863,
+   458855005
+  ],
+  "86717:7": [
+   458864,
+   458855006
+  ],
+  "86717:8": [
+   458865,
+   458855007
+  ],
+  "86841:5": [
+   458869,
+   459949
+  ],
+  "88719:0": [
+   458871,
+   88719000,
+   88719001
+  ],
+  "86720:0": [
+   458886,
+   462102
+  ],
+  "86685:1": [
+   459177,
+   457239000
+  ],
+  "86685:2": [
+   459178,
+   457239001
+  ],
+  "86639:1": [
+   459190,
+   464803
+  ],
+  "86639:2": [
+   459191,
+   464805
+  ],
+  "86805:2": [
+   459193,
+   459521
+  ],
+  "86641:1": [
+   459365,
+   457342000
+  ],
+  "86641:2": [
+   459366,
+   457342001
+  ],
+  "86840:0": [
+   459422,
+   86840000
+  ],
+  "86843:3": [
+   459447,
+   86843003
+  ],
+  "86843:4": [
+   459448,
+   86843004
+  ],
+  "86843:5": [
+   459449,
+   86843005
+  ],
+  "86843:6": [
+   459450,
+   86843006
+  ],
+  "86843:7": [
+   459451,
+   86843007
+  ],
+  "86807:0": [
+   459527,
+   459531
+  ],
+  "86644:4": [
+   459562,
+   459600
+  ],
+  "86644:5": [
+   459563,
+   459601
+  ],
+  "86742:0": [
+   459570,
+   460815
+  ],
+  "86644:2": [
+   459581,
+   461814000
+  ],
+  "86837:0": [
+   459593,
+   461680
+  ],
+  "86839:0": [
+   459596,
+   470202
+  ],
+  "86644:3": [
+   459597,
+   461814001
+  ],
+  "86845:0": [
+   459602,
+   459783
+  ],
+  "86894:0": [
+   459738,
+   86894000
+  ],
+  "86890:1": [
+   459755,
+   460248
+  ],
+  "86899:0": [
+   459756,
+   464543
+  ],
+  "86848:1": [
+   459758,
+   459702000
+  ],
+  "86848:2": [
+   459771,
+   459702001
+  ],
+  "86848:3": [
+   459772,
+   459702002
+  ],
+  "86848:4": [
+   459773,
+   459702003
+  ],
+  "86848:5": [
+   459774,
+   459702004
+  ],
+  "86848:6": [
+   459777,
+   459702005
+  ],
+  "86848:7": [
+   459780,
+   459702006
+  ],
+  "86848:8": [
+   459781,
+   459702007
+  ],
+  "86848:9": [
+   459784,
+   459702008
+  ],
+  "86531:7": [
+   459811,
+   458684006
+  ],
+  "86745:0": [
+   459813,
+   86745000
+  ],
+  "86723:0": [
+   459834,
+   461648
+  ],
+  "86664:2": [
+   459920,
+   462241
+  ],
+  "86624:2": [
+   459935,
+   461635
+  ],
+  "86842:2": [
+   459962,
+   463188
+  ],
+  "86624:10": [
+   459994,
+   459995004
+  ],
+  "86624:13": [
+   459996,
+   459995007
+  ],
+  "86624:15": [
+   459997,
+   459995009
+  ],
+  "86624:16": [
+   459998,
+   459995010
+  ],
+  "86624:17": [
+   459999,
+   459995011
+  ],
+  "86849:1": [
+   460048,
+   462948
+  ],
+  "89338:0": [
+   460084,
+   470330
+  ],
+  "89338:1": [
+   460085,
+   464892
+  ],
+  "86852:0": [
+   460172,
+   460174004
+  ],
+  "86852:6": [
+   460174,
+   461568
+  ],
+  "86852:4": [
+   460184,
+   460174002
+  ],
+  "86806:2": [
+   460257,
+   460261
+  ],
+  "86806:3": [
+   460262,
+   460264
+  ],
+  "86633:1": [
+   460271,
+   465094
+  ],
+  "86633:2": [
+   460272,
+   465095
+  ],
+  "86740:1": [
+   460319,
+   460321
+  ],
+  "86740:0": [
+   460320,
+   461574
+  ],
+  "86636:1": [
+   460333,
+   472362
+  ],
+  "86531:8": [
+   460613,
+   458684007
+  ],
+  "86531:9": [
+   460614,
+   458684008
+  ],
+  "86531:10": [
+   460713,
+   458684009
+  ],
+  "86536:1": [
+   460782,
+   464296
+  ],
+  "89271:0": [
+   460877,
+   89271000
+  ],
+  "90494:0": [
+   460903,
+   466282
+  ],
+  "86636:0": [
+   460909,
+   472361
+  ],
+  "86531:11": [
+   460954,
+   458684010
+  ],
+  "86903:0": [
+   460988,
+   465749
+  ],
+  "86903:1": [
+   460989,
+   86903000
+  ],
+  "86632:3": [
+   461436,
+   461537
+  ],
+  "86626:1": [
+   461486,
+   462104
+  ],
+  "86739:3": [
+   461536,
+   461538
+  ],
+  "86852:5": [
+   461567,
+   460174003
+  ],
+  "86743:0": [
+   461620,
+   461622
+  ],
+  "86743:1": [
+   461621,
+   461622000
+  ],
+  "86743:3": [
+   461623,
+   461622002
+  ],
+  "86743:4": [
+   461624,
+   461622003
+  ],
+  "86652:1": [
+   461646,
+   461647
+  ],
+  "86687:0": [
+   461723,
+   461820
+  ],
+  "86687:2": [
+   461729,
+   464139
+  ],
+  "86838:1": [
+   461769,
+   466089
+  ],
+  "86687:3": [
+   461821,
+   464140
+  ],
+  "86894:1": [
+   461873,
+   86894001
+  ],
+  "86894:2": [
+   461874,
+   86894002
+  ],
+  "86894:4": [
+   461876,
+   86894004,
+   86894005
+  ],
+  "86663:0": [
+   461887,
+   465060
+  ],
+  "86663:2": [
+   461888,
+   462200000
+  ],
+  "86624:7": [
+   461904,
+   459995001
+  ],
+  "86624:9": [
+   461905,
+   459995003
+  ],
+  "86624:14": [
+   461906,
+   459995008
+  ],
+  "86642:5": [
+   461942,
+   461957004
+  ],
+  "86717:4": [
+   461950,
+   458855003
+  ],
+  "86642:0": [
+   461953,
+   461957
+  ],
+  "86642:1": [
+   461954,
+   461957000
+  ],
+  "86642:2": [
+   461955,
+   461957001
+  ],
+  "86846:3": [
+   461976,
+   462008
+  ],
+  "86846:1": [
+   461977,
+   462009
+  ],
+  "86846:2": [
+   461979,
+   470214
+  ],
+  "86648:1": [
+   462080,
+   462098
+  ],
+  "86648:2": [
+   462081,
+   462105
+  ],
+  "86682:0": [
+   462158,
+   465990
+  ],
+  "86681:1": [
+   462179,
+   464149
+  ],
+  "91274:3": [
+   462351,
+   462352
+  ],
+  "91000:0": [
+   462452,
+   464204
+  ],
+  "86825:0": [
+   462579,
+   462902
+  ],
+  "86827:0": [
+   462892,
+   463230
+  ],
+  "86832:0": [
+   463313,
+   463589
+  ],
+  "86902:0": [
+   463365,
+   469671
+  ],
+  "86902:1": [
+   463366,
+   463490
+  ],
+  "86902:2": [
+   463455,
+   464391
+  ],
+  "86902:3": [
+   463456,
+   86902000
+  ],
+  "86902:4": [
+   463457,
+   86902001
+  ],
+  "91842:0": [
+   463562,
+   464320
+  ],
+  "86711:1": [
+   463894,
+   464133
+  ],
+  "86653:0": [
+   464246,
+   464247
+  ],
+  "86531:12": [
+   464327,
+   458684011
+  ],
+  "86531:13": [
+   464328,
+   458684012
+  ],
+  "86903:3": [
+   464364,
+   86903002
+  ],
+  "86743:5": [
+   464385,
+   461622004
+  ],
+  "86512:1": [
+   464416,
+   86512001
+  ],
+  "86638:0": [
+   464839,
+   464841
+  ],
+  "86638:3": [
+   464840,
+   464841002
+  ],
+  "86638:5": [
+   464842,
+   464841004
+  ],
+  "86638:6": [
+   464843,
+   464841005
+  ],
+  "86638:7": [
+   464844,
+   464841006
+  ],
+  "86638:8": [
+   464845,
+   464841007
+  ],
+  "86638:9": [
+   464846,
+   464841008
+  ],
+  "86638:10": [
+   464847,
+   464841009
+  ],
+  "86638:11": [
+   464848,
+   464841010
+  ],
+  "86643:3": [
+   464905,
+   464906
+  ],
+  "86642:4": [
+   465045,
+   461957003
+  ],
+  "86641:3": [
+   465200,
+   457342002
+  ],
+  "86852:3": [
+   465382,
+   460174001
+  ],
+  "86903:2": [
+   465575,
+   86903001
+  ],
+  "86833:2": [
+   466084,
+   460987000
+  ],
+  "86833:3": [
+   466085,
+   460987001
+  ],
+  "86641:4": [
+   466583,
+   457342003
+  ],
+  "95008:0": [
+   469576,
+   95008001
+  ],
+  "86833:4": [
+   470142,
+   460987002
+  ],
+  "86638:1": [
+   470195,
+   464841000
+  ],
+  "91000:3": [
+   91000000,
+   91000001
+  ]
+ }
+}

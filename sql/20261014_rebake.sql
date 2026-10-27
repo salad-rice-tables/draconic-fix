@@ -1,0 +1,4 @@
+-- Coiled retail rebake (2026-10-14): first bake used wrong Z (GetHeight without player on isle;
+-- e.g. Zuljarra z=121 vs ground 149.9 = buried). Deleted 69 rows, staging reset, Taklejo +3yd.
+-- Procedure: coiled_place.run flag + restart + PLAYER ON ISLE -> rebake with correct heights.
+-- Backup: world.backup_20261014_rebake. Undo: 20261014_rebake_undo.sql

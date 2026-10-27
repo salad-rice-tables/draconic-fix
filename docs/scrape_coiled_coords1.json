@@ -1,0 +1,201 @@
+[
+ {
+  "id": 253514,
+  "name": "Orweyna",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "47.4, 73.4",
+   "47.4, 73.6",
+   "57.4, 49",
+   "58.4, 45.4",
+   "58.4, 45.6",
+   "64, 56.6",
+   "67.4, 62.2",
+   "70.2, 65.8"
+  ],
+  "quests": [
+   "92937",
+   "92934",
+   "92935"
+  ]
+ },
+ {
+  "id": 253528,
+  "name": "Zul'jarra",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "44.8, 27.8",
+   "45.8, 29.4",
+   "47, 31.2",
+   "57.8, 47.2"
+  ],
+  "quests": []
+ },
+ {
+  "id": 253557,
+  "name": "Strongblood Jak'mo <Amani Warlord>",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "69.2, 64.2"
+  ],
+  "quests": [
+   "92935",
+   "92936"
+  ]
+ },
+ {
+  "id": 253827,
+  "name": "Lady Liadrin",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "57.4, 49"
+  ],
+  "quests": [
+   "92931",
+   "93417"
+  ]
+ },
+ {
+  "id": 253829,
+  "name": "Dak'zor",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "57.4, 47.6",
+   "64, 56.6",
+   "67.4, 62.2",
+   "70.2, 65.6"
+  ],
+  "quests": [
+   "92931"
+  ]
+ },
+ {
+  "id": 253837,
+  "name": "Apothecary Dezi",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "57.2, 48.4",
+   "57.2, 48.6"
+  ],
+  "quests": [
+   "96089"
+  ]
+ },
+ {
+  "id": 253843,
+  "name": "Navigator Otoola <Watcher of Sea Stars>",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "57.2, 48.2"
+  ],
+  "quests": []
+ },
+ {
+  "id": 254020,
+  "name": "Summoner Jawae <Soulcoiler Cult>",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "69.2, 64"
+  ],
+  "quests": [
+   "92934"
+  ]
+ },
+ {
+  "id": 255270,
+  "name": "Fervent Druidess",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "44.1, 76.1",
+   "44.6, 76.7",
+   "45.1, 77.7"
+  ],
+  "quests": [
+   "92930"
+  ]
+ },
+ {
+  "id": 255843,
+  "name": "Jaz'di Wiseman <Amani Warband>",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "68.6, 62.6"
+  ],
+  "quests": []
+ },
+ {
+  "id": 255939,
+  "name": "Yan'ti the Bold <Amani Warband>",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "69.8, 65.2"
+  ],
+  "quests": []
+ },
+ {
+  "id": 258755,
+  "name": "Captain Tokka",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "57.2, 48.4",
+   "57.2, 48.6"
+  ],
+  "quests": [
+   "96112",
+   "96113",
+   "98343",
+   "96110",
+   "96111"
+  ]
+ },
+ {
+  "id": 258859,
+  "name": "Zul'jarra",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "58.4, 45.4",
+   "58.4, 46"
+  ],
+  "quests": [
+   "93454"
+  ]
+ },
+ {
+  "id": 258860,
+  "name": "Lady Liadrin",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "58.2, 45.4",
+   "58.2, 46"
+  ],
+  "quests": [
+   "93024"
+  ]
+ },
+ {
+  "id": 259218,
+  "name": "Tak'lejo",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "45.8, 29.4",
+   "47, 31.2",
+   "57.8, 47.2"
+  ],
+  "quests": [
+   "93022",
+   "95564"
+  ]
+ },
+ {
+  "id": 259226,
+  "name": "Lady Liadrin",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "57.2, 48.4",
+   "57.2, 48.6"
+  ],
+  "quests": [
+   "93419"
+  ]
+ }
+]

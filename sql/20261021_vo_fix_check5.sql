@@ -1,0 +1,26 @@
+-- VO sweep creature_text fixes (generated 20261021_vo_fix_check5) --
+-- backup: CREATE TABLE bak_20261021_creature_text ... (see run log)
+UPDATE creature_text SET Text='I propose this: We will march on the Twilight cult and extinguish any utterings of Deathwing''s name from this realm.  Your Earthen Ring will march with us.', BroadcastTextId=0, Sound=0 WHERE CreatureID=23257 AND GroupID=1 AND ID=0 AND Type=12;
+UPDATE creature_text SET Text='You do this, and I will send Gorsik to the temple with our piece of the World Pillar.', BroadcastTextId=43876, Sound=21100 WHERE CreatureID=23257 AND GroupID=2 AND ID=0 AND Type=12;
+UPDATE creature_text SET Text='Save your thanks.  We march upon the Twilight Precipice as soon as our forces are gathered. I expect to see you on the battlefield.', BroadcastTextId=0, Sound=0 WHERE CreatureID=23257 AND GroupID=3 AND ID=0 AND Type=12;
+UPDATE creature_text SET Text='There''s more where that came from!', BroadcastTextId=126370, Sound=80822 WHERE CreatureID=41114 AND GroupID=6 AND ID=0 AND Type=12;
+UPDATE creature_text SET Text='I felt myself slipping away...', BroadcastTextId=93827, Sound=60969 WHERE CreatureID=91150 AND GroupID=0 AND ID=0 AND Type=12;
+UPDATE creature_text SET Text='Ahh, to breathe again!', BroadcastTextId=93824, Sound=60966 WHERE CreatureID=91150 AND GroupID=0 AND ID=1 AND Type=12;
+UPDATE creature_text SET Text='Bless you, stranger!', BroadcastTextId=93825, Sound=60967 WHERE CreatureID=91150 AND GroupID=0 AND ID=2 AND Type=12;
+UPDATE creature_text SET Text='Ahh, to breathe again!', BroadcastTextId=93824, Sound=60966 WHERE CreatureID=91153 AND GroupID=0 AND ID=0 AND Type=12;
+UPDATE creature_text SET Text='Ahh, to breathe again!', BroadcastTextId=93824, Sound=60966 WHERE CreatureID=91153 AND GroupID=0 AND ID=1 AND Type=12;
+UPDATE creature_text SET Text='Bless you, stranger!', BroadcastTextId=93825, Sound=60967 WHERE CreatureID=91153 AND GroupID=0 AND ID=2 AND Type=12;
+UPDATE creature_text SET Text='You... you have saved me!', BroadcastTextId=93828, Sound=60970 WHERE CreatureID=91153 AND GroupID=0 AND ID=4 AND Type=12;
+UPDATE creature_text SET Text='Ahh, to breathe again!', BroadcastTextId=93824, Sound=60966 WHERE CreatureID=92874 AND GroupID=0 AND ID=0 AND Type=12;
+UPDATE creature_text SET Text='Consume! Devour! Feast!', BroadcastTextId=192298, Sound=155313 WHERE CreatureID=164517 AND GroupID=0 AND ID=0 AND Type=14;
+UPDATE creature_text SET Text='I feed... I... become so much more...', BroadcastTextId=193513, Sound=157806 WHERE CreatureID=164517 AND GroupID=0 AND ID=2 AND Type=14;
+UPDATE creature_text SET Text='Pain! Pain!', BroadcastTextId=193504, Sound=157796 WHERE CreatureID=164517 AND GroupID=1 AND ID=0 AND Type=14;
+UPDATE creature_text SET Text='Your actions are easy to anticipate.', BroadcastTextId=193512, Sound=157795 WHERE CreatureID=164517 AND GroupID=1 AND ID=2 AND Type=14;
+UPDATE creature_text SET Text='I must have more. Enlightenment dawns upon me.', BroadcastTextId=193514, Sound=157807 WHERE CreatureID=164517 AND GroupID=4 AND ID=0 AND Type=14;
+UPDATE creature_text SET Text='I must have more. Enlightenment dawns upon me.', BroadcastTextId=0, Sound=0 WHERE CreatureID=164517 AND GroupID=5 AND ID=0 AND Type=14;
+UPDATE creature_text SET Text='Your actions are easy to anticipate.', BroadcastTextId=0, Sound=0 WHERE CreatureID=164517 AND GroupID=6 AND ID=0 AND Type=14;
+UPDATE creature_text SET Text='Consume! Devour! Feast!', BroadcastTextId=0, Sound=0 WHERE CreatureID=164517 AND GroupID=7 AND ID=0 AND Type=14;
+UPDATE creature_text SET Text='Pain! Pain!', BroadcastTextId=0, Sound=0 WHERE CreatureID=164517 AND GroupID=8 AND ID=0 AND Type=14;
+UPDATE creature_text SET Text='I feed... I... become so much more...', BroadcastTextId=0, Sound=0 WHERE CreatureID=164517 AND GroupID=9 AND ID=0 AND Type=14;
+UPDATE creature_text SET Text='Throg will spar with you for now. I must speak to the crew about the rain.', BroadcastTextId=199040, Sound=156952 WHERE CreatureID=166824 AND GroupID=0 AND ID=0 AND Type=12;
+UPDATE creature_text SET Text='Throg will spar with you for now. I must speak to the crew about the rain.', BroadcastTextId=0, Sound=0 WHERE CreatureID=166824 AND GroupID=2 AND ID=0 AND Type=12;

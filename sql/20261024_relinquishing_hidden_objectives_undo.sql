@@ -1,0 +1,1 @@
+INSERT INTO quest_objectives (ID,QuestID,Type,`Order`,StorageIndex,ObjectID,Amount,Flags,Flags2,ProgressBarWeight,Description,VerifiedBuild) SELECT ID,QuestID,Type,`Order`,StorageIndex,ObjectID,Amount,Flags,Flags2,ProgressBarWeight,Description,VerifiedBuild FROM tdb1210_world.quest_objectives WHERE QuestID=86902 AND ID IN (463490,470164);

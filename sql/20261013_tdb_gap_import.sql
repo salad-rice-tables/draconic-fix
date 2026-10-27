@@ -1,0 +1,4 @@
+-- Retail gap import (2026-10-13): TDB 12.1.0 spawn rows missing in world (same guids).
+-- Audit: per-zone TDB-only lists. Additive only. Undo: 20261013_tdb_gap_import_undo.sql
+-- creature: 18560 rows (tracking: backup_20261013_gap_creature).
+-- gameobject: 15758 rows (tracking: backup_20261013_gap_gameobject).

@@ -55,7 +55,17 @@ local function GameHour()
     if not ok or type(t) ~= "number" then t = os.time() end
     return math.floor(t / 3600) % 24
 end
+local _forceNightAt, _forceNight = 0, nil
+local function ForceNight() -- GM test: world.lw_state force_night=1 (cached 30 s)
+    if os.time() - _forceNightAt > 30 then
+        _forceNightAt = os.time()
+        local ok, r = pcall(WorldDBQuery, "SELECT v FROM world.lw_state WHERE k = 'force_night'")
+        _forceNight = ok and r and r:GetString(0) == "1"
+    end
+    return _forceNight
+end
 local function IsNight()
+    if ForceNight() then return true end
     local h = GameHour()
     return h >= 21 or h < 6
 end

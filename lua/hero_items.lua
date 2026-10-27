@@ -1,4 +1,4 @@
--- Hero currency items (Descend icons): Ability Purge 9750001, Talent Purge 9750002, Dice of Destiny 9750003, Token of Prestige 9750004,
+-- Hero currency items (Ascension icons): Ability Purge 9750001, Talent Purge 9750002, Dice of Destiny 9750003, Token of Prestige 9750004,
 -- Bedlam Bullion 9750005, Bonzo Bolt 9750006. Each has a dummy use spell (1409001-1409006); a failed use returns the item.
 if IS_WORLD_STATE then return end
 
@@ -29,5 +29,5 @@ Use(9750005, ForgePayment("Bedlam Bullion"))
 Use(9750006, ForgePayment("Bonzo Bolt"))
 Use(9750007, function(p) if HERO_SkillCard then return HERO_SkillCard(p) end end)
 Use(9750008, function(p) if HERO_HandOfFate then return HERO_HandOfFate(p) end end)
-Use(9750009, function(p) return false, "Marks of Descend are spent at the Mystic Forge (5 for a Mystic Scroll): /forge or a Mystic Altar." end)
+Use(9750009, function(p) return false, "Marks of Ascension are spent at the Mystic Forge (5 for a Mystic Scroll): /forge or a Mystic Altar." end)
 print("[hero_items] currency items registered")

@@ -113,7 +113,7 @@ end
 
 local function Num(v) return tonumber((string.gsub(tostring(v or 0), "U?LL$", ""))) or 0 end
 
-local function Esc(s) return (string.gsub(tostring(s or ""), "'", "''")) end
+local function Esc(s) return (string.gsub(tostring(s or ""), "'", "''")) end -- local: Eluna izoluje subory, zdielany global nefunguje
 
 local function SpellName(id)
     local ok, q = pcall(WorldDBQuery, "SELECT Name FROM hotfixes.spell_name WHERE ID = " .. tonumber(id))

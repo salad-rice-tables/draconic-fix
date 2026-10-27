@@ -1,0 +1,1049 @@
+[
+ {
+  "completion": "It is good to see you again, friend.\n\nWould that we were meeting under less fraught circumstances.",
+  "description": "With the Devouring Host occupying much of our attention and time, we leave our backs exposed to other threats that wait in the wings. This Lightbloom that has afflicted Eversong grows worse by the day. If it gets out of control, then we might find ourselves fighting a two-front conflict--or worse, having our home consumed completely while we busy ourselves with the Void.\n\nThe strange woman who you found poking about the lightbloom... You seem to be familiar with her. Seek her out. She may have answers.",
+  "next": "The Root Cause",
+  "objectives": [
+   "Speak with Orweyna in Fairbreeze Village."
+  ],
+  "prev": "Fractured",
+  "progress": null,
+  "quest": 89402,
+  "rewards": null,
+  "title": "Harandar",
+  "url": "https://warcraft.wiki.gg/wiki/Harandar_(quest)"
+ },
+ {
+  "completion": "You made it. For a moment I wasn't sure you would. Don't worry--that nauseous feeling will pass.\n\nWe stand in the deep roots of Amirdrassil. My home lies beyond.\n\nLet us see what welcome awaits.",
+  "description": "The rutaani who attacked Silvermoon come from my homeland, Harandar. This lightbloom infection is new, however.\n\nThe time has come for me to return to my people. I will face their judgement, and explain my actions.\n\nIf the lightbloom has spread I must warn my people of the danger. If you're willing to join me, I will take you and your insistent friend through the rootways to Harandar.\n\nLet me know when you are ready to go.",
+  "next": "To Har'athir",
+  "objectives": [
+   "Take the portal and meet Orweyna in Harandar.",
+   "Talk to Orweyna.",
+   "Take the portal to Harandar"
+  ],
+  "prev": "Harandar (quest)",
+  "progress": null,
+  "quest": 86899,
+  "rewards": "You will receive:\n2g 34s\n1,650 XP",
+  "title": "The Root Cause",
+  "url": "https://warcraft.wiki.gg/wiki/The_Root_Cause"
+ },
+ {
+  "completion": "Outsiders are not permitted in Harandar. Orweyna has broken our most sacred of laws.\n\nYou are not welcome here, stranger.",
+  "description": "All of the world's roots grow toward our homeland. The ones above you are mighty, but new--born of a fledgling World Tree you call Amirdrassil.\n\nAs far as World Trees go, it is a strange one. But its nature matters less than its reach. Any roots that seek to protect our world from harm are worth protecting.\n\nLet us follow the road down to Har'athir and check in with the Rootwarden. We will ask if he's noticed signs of Lightbloom yet.",
+  "next": "The Rift and the Den",
+  "objectives": [
+   "Follow Orweyna",
+   "Follow Orweyna",
+   "Talk to Ku'paal",
+   "Talk to Oorla",
+   "Talk to Danul",
+   "Talk to Orweyna",
+   "Check on Halduron",
+   "Follow Orweyna to Har'athir."
+  ],
+  "prev": "The Root Cause",
+  "progress": null,
+  "quest": 86900,
+  "rewards": "You will receive one of:\nRootwoven Cape\nAncient Frond Cloak\n\nYou will also receive:\n23g 40s\n13,365 XP",
+  "title": "To Har'athir",
+  "url": "https://warcraft.wiki.gg/wiki/To_Har%27athir"
+ },
+ {
+  "completion": "Tread carefully, <name>. The Haranir are formidable and on edge over our arrival.\n\nThe council has convened and is ready to hear Orweyna's words. Hopefully she will be able to convince them that the Lightbloom is a threat and that their help is needed.",
+  "description": "As I suspected, the Elders are quite upset with my actions. Now that I have seen the children and Ku'paal to safety, I am ready to face the Council.\n\nI will do what I can to make them see that the Lightbloom is a threat, and to enable your ability to move freely through Harandar.\n\nPetalvane will carry you safely to the Den. Let us make haste.",
+  "next": "The Council Assembles",
+  "objectives": [
+   "Ride Petalvane to the Den.",
+   "Petalvane ridden (Optional)",
+   "Follow Orweyna to the Den"
+  ],
+  "prev": "To Har'athir",
+  "progress": null,
+  "quest": 86901,
+  "rewards": "You will receive:\n2g 34s\n1,650 XP",
+  "title": "The Rift and the Den",
+  "url": "https://warcraft.wiki.gg/wiki/The_Rift_and_the_Den"
+ },
+ {
+  "completion": "Welcome to the Den of Echoes. Within the caves beyond, you will find ancient paintings which tell the story of the haranir.\n\nPerhaps you will learn something, if you survive. May Aln'hara be on your side.",
+  "description": "Greetings, stranger. I am Elder Hagar. You have been granted permission to stay, as long as you pass through the trials of the Den of Echoes.\n\nAln'hara will determine your fate, and you will learn about our people and customs.\n\nLet us meet at the caves.",
+  "next": "Echoes and Memories",
+  "objectives": [
+   "Meet Hagar at the Den of Echoes."
+  ],
+  "prev": "The Council Assembles",
+  "progress": null,
+  "quest": 86907,
+  "rewards": "You will receive:\n2g 34s\n1,650 XP",
+  "title": "The Den of Echoes",
+  "url": "https://warcraft.wiki.gg/wiki/The_Den_of_Echoes"
+ },
+ {
+  "completion": "Koozat is the least of our troubles right now. The lightbloom has arrived. Har'mara is under attack!",
+  "description": "Koozat is usually very docile. This isn't like him at all. Please, find out what happened.",
+  "next": "Halting Harm in Har'mara, Culling the Spread, & Burning Bitterblooms",
+  "objectives": [
+   "Follow Orweyna."
+  ],
+  "prev": "Tending to Har'mara & The Traveling Flowers",
+  "progress": "Koozat is not usually a violent creature.",
+  "quest": 86910,
+  "rewards": "You will receive:\n23g 40s\n12,150 XP",
+  "title": "Koozat's Trample",
+  "url": "https://warcraft.wiki.gg/wiki/Koozat%27s_Trample"
+ },
+ {
+  "completion": "You have made it through the first of the trials, but the real test is yet to come.",
+  "description": "The history of the haranir has been recorded for tens of thousands of years in the caves within. The memories of our people are painted on the stone, that we might never forget where we came from and what our purpose is.\n\nYou are the first outsiders to ever witness the Den of Echoes. When you touch the paintings, our ancestors will share our stories and struggles.\n\nZur'ashar Kassameh awaits you within. He will guide you and Halduron on your journeys. I wish you luck.",
+  "next": "Echo of the Hunt",
+  "objectives": [
+   "Complete the first vision of the Den of Echoes.",
+   "Talk to Hagar (Optional)",
+   "Talk to Zur'ashar Kassameh",
+   "Visionstone activated",
+   "Iceberries collected (6)"
+  ],
+  "prev": "The Den of Echoes",
+  "progress": "Our people have been here for tens of thousands of years, but it was not always so. Once, we lived on the surface as you do.",
+  "quest": 86911,
+  "rewards": "You will receive:\nRuddy Haranir Pigment Bowl\n31g 90s\n12,150 XP\n+50 reputation with The Hara'ti",
+  "title": "Echoes and Memories",
+  "url": "https://warcraft.wiki.gg/wiki/Echoes_and_Memories"
+ },
+ {
+  "completion": "You have proven yourself a capable hunter like our ancestors of old. But simply being the strongest did not prove succor enough for the minds of our people.",
+  "description": "Haranir are fierce and ferocious--cunning and canny. In time, we became the most feared beasts upon the mountain.\n\nA great many wise and powerful beasts roamed the hills of our old mountain. But in time, we came to master them all.\n\nToday, you shall hunt as we once did.",
+  "next": "Echo of the Call",
+  "objectives": [
+   "Complete the second trial at the Den of Echoes.",
+   "Second visionstone activated",
+   "Razorquill Remembrance slain (4)",
+   "Pangquill Reminiscence slain (4)",
+   "Talk to Kassameh in the northwestern corner of the Den of Echoes."
+  ],
+  "prev": "Echoes and Memories",
+  "progress": null,
+  "quest": 90094,
+  "rewards": "You will receive:\n23g 40s\n13,365 XP",
+  "title": "Echo of the Hunt",
+  "url": "https://warcraft.wiki.gg/wiki/Echo_of_the_Hunt"
+ },
+ {
+  "completion": "Now you know how the Hara'ti came to walk amongst the roots.\n\nOne final trial remains. The most difficult, but most important, of them all.\n\nHagar awaits you, and will guide you through the next challenge.",
+  "description": "When the haranir began to grow restless, they looked to new sources of purpose. Some cast their gazes upward, toward the stars and the moon. Others, such as the Hara'ti, heard a call from deep within the world.\n\nThe moment the the first of the Hara'ti heard the Song echoing from the roots, we knew that we had found a new purpose. We would seek out the source of the Song, and discover the truth of it for ourselves.\n\nBut it would be a difficult road. Strange stone monsters sought to block our path.",
+  "next": "Down the Rootways",
+  "objectives": [
+   "Complete the third trial at the Den of Echoes.",
+   "Third visionstone activated",
+   "Observer Talos slain",
+   "Meet Kassameh within the Den of Echoes."
+  ],
+  "prev": "Echo of the Hunt",
+  "progress": null,
+  "quest": 90095,
+  "rewards": "You will receive one of:\nBow of Painted Memories\nGreatsword of Painted Memories\nSpire of Painted Memories\nGlaive of Painted Memories\nCudgel of Painted Memories\nSword of Painted Memories\nBlade of Painted Memories\nKnife of Painted Memories\nSpear of Painted Memories\nHandaxe of Painted Memories\nMace of Painted Memories\n\nYou will also receive:\n46g 80s\n16,720 XP",
+  "title": "Echo of the Call",
+  "url": "https://warcraft.wiki.gg/wiki/Echo_of_the_Call"
+ },
+ {
+  "completion": "You awaken. Good. Now that you have seen our past, I have brought you to my home, to see my hope for the future.\n\nHere in Har'mara, we live in harmony with two of the local peoples: the rutaani, and the fungarians. It is my dream that this partnership will spread to the rest of Harandar.\n\nYou should get to know them as well, and see the peace that we have created together.",
+  "description": "You have gained a glimpse into our history. There is one trial yet remaining.\n\nIf you survive, the goddess's blessing will be upon you, and the Council will not be able to deny your presence here.\n\nDescend now into the earth and follow in our ancestors' footsteps.",
+  "next": "A Hut in Har'mara",
+  "objectives": [
+   "Complete the Gulf of Memories delve and obtain the Fragment of Revelation from its treasure room.",
+   "Talk to Hagar near the Gulf of Memories",
+   "Gulf of Memory entered",
+   "Fragment of Revelation",
+   "Speak with Orweyna"
+  ],
+  "prev": "Echo of the Call",
+  "progress": "You have survived the Gulf of Memories. Welcome to Har'mara, friend.",
+  "quest": 86912,
+  "rewards": "You will receive:\n23g 40s\n13,365 XP",
+  "title": "Down the Rootways",
+  "url": "https://warcraft.wiki.gg/wiki/Down_the_Rootways"
+ },
+ {
+  "completion": "Welcome to Har'mara. I am glad to see you well and whole after the trials.\n\nThis village is the home of Hagar and many others who call Harandar their home.",
+  "description": "The others have gathered downstairs. Come. Orweyna is eager to see that you are in one piece.",
+  "next": "Tending to Har'mara & The Traveling Flowers",
+  "objectives": [
+   "Meet Orweyna in Har'mara."
+  ],
+  "prev": "Down the Rootways",
+  "progress": null,
+  "quest": 86913,
+  "rewards": "You will receive:\n2g 34s\n1,500 XP",
+  "title": "A Hut in Har'mara",
+  "url": "https://warcraft.wiki.gg/wiki/A_Hut_in_Har%27mara"
+ },
+ {
+  "completion": "Sometimes harmony and friendship are helped by small acts of service.\n\nI hope that the rutaani and fungarians here have come to see you as an ally.",
+  "description": "Har'mara has long been a refuge for those who have removed themselves from the conflicts that often arise between the rutaani and the fungarians.\n\nHere, they learn how to live with one another. They work, play, and live together--balanced.\n\nYou have learned much about the past of the Haranir, including our deepest shame. Now you will see our current work: harmony.",
+  "next": "Koozat's Trample",
+  "objectives": [
+   "Complete tasks in Har'mara.",
+   "Tasks completed (0/100%)",
+   "Watering Can (provided)"
+  ],
+  "prev": "A Hut in Har'mara",
+  "progress": "It is the natural state of the fungarians and the rutaani to spread themselves out. At times, this can lead to overgrowth and the crowding out of other species.\n\nMaintaining that balance is important, and is the duty the haranir fulfill as stewards of Harandar.",
+  "quest": 86914,
+  "rewards": "You will receive one of:\nSpore-Touched Baton\nSpore-Touched Shortbow\nSpore-Touched Falchion\nSpore-Touched Buckler\nSpore-Touched Staff\nSpore-Touched Dagger\nSpore-Touched Bludgeon\nSpore-Touched Mace\nSpore-Touched Saber\nSpore-Touched Glaive\n\nYou will also receive:\n23g 40s\n12,150 XP",
+  "title": "Tending to Har'mara",
+  "url": "https://warcraft.wiki.gg/wiki/Tending_to_Har%27mara"
+ },
+ {
+  "completion": "To stay among us, it must be proven that the goddess has indeed called you to her aid.\n\nYou will undergo trials at the Den of Echoes, a holy place for our people.",
+  "description": "Guards collected Orweyna and took her to get ready to meet the Council. When you are ready, we should attend the gathering.",
+  "next": "The Den of Echoes",
+  "objectives": [
+   "Attend the Council meeting.",
+   "Talk to Halduron"
+  ],
+  "prev": "The Rift and the Den",
+  "progress": "Orweyna will be judged for her actions.",
+  "quest": 86929,
+  "rewards": "You will receive one of:\nCouncilmember's Spare Cinch\nBattered Belt of the Council\nUnwelcome Visitor's Sash\nWorn Harandar Greatbelt\n\nYou will also receive:\n23g 40s\n13,365 XP",
+  "title": "The Council Assembles",
+  "url": "https://warcraft.wiki.gg/wiki/The_Council_Assembles"
+ },
+ {
+  "completion": "We return to where we started, but this time you have been blessed by the goddess and we have evidence that the spread of the lightbloom may be stalled!\n\nThe way forward is not yet clear, but I feel that we are closer.",
+  "description": "Eonka's seed from Rift of Aln is the clue we were looking for. The inhabitants and plants there seem immune to the lightbloom!\n\nWe must investigate the Rift for ourselves. Let us return to the Den and plan our next moves.",
+  "next": "Watch the Den",
+  "objectives": [
+   "Return to the Den",
+   "Meet Orweyna at the Den"
+  ],
+  "prev": "Seeds of the Rift",
+  "progress": null,
+  "quest": 86930,
+  "rewards": "You will receive one of:\nLight-Blighted Leggings\nLight-Blighted Trousers\nLight-Blighted Greaves\nLight-Blighted Legguards\n\nYou will also receive:\n23g 40s\n12,150 XP",
+  "title": "To Sow the Seed",
+  "url": "https://warcraft.wiki.gg/wiki/To_Sow_the_Seed"
+ },
+ {
+  "completion": "Well done, <name>. May Har'mara return to the peaceful oasis it was when we arrived.",
+  "description": "Lightbloom infested rutaani are working to spread the contamination through the village. This plant showed significant signs of the disease.\n\nDestroy any of the plants they've come into contact with. We must contain this!",
+  "next": "Seeds of the Rift",
+  "objectives": [
+   "Destroy 6 Lightbloom-Infected plants in Har'mara.",
+   "Bitterblooms burned (6)"
+  ],
+  "prev": "Koozat's Trample",
+  "progress": "The Lightbloom cannot be allowed to spread. The harmony of Har'mara is delicately balanced. We must keep it intact.",
+  "quest": 89034,
+  "rewards": "You will receive one of:\nSinged Sporetender's Cap\nHat of the Harmonious Grove\nHar'mara Defender's Helm\nGreathelm of Scorched Fronds\n\nYou will also receive:\n23g 40s\n12,150 XP",
+  "title": "Burning Bitterblooms",
+  "url": "https://warcraft.wiki.gg/wiki/Burning_Bitterblooms"
+ },
+ {
+  "completion": "Tough, but needed work. May this slow the spread until we can find a way to stop it entirely.",
+  "description": "Lightbloom infected rutaani are attacking the village! Rizam and Teetem both succumbed to the infection. It looks like Eonka hasn't been affected, but we must handle the others.\n\nI will stay here and keep an eye on her. I need you to do what you can to protect Har'mara. Take out Rizam and Teetem as well.",
+  "next": "Seeds of the Rift",
+  "objectives": [
+   "Slay 8 Lightbloom Rutaani.",
+   "Lightbloom Rutaani slain (8)"
+  ],
+  "prev": "Koozat's Trample",
+  "progress": "I should have expected this attack. Do what you can to protect those who live here.",
+  "quest": 86973,
+  "rewards": "You will receive:\nSturdy Haranir Handcart\n23g 40s\n12,150 XP",
+  "title": "Halting Harm in Har'mara",
+  "url": "https://warcraft.wiki.gg/wiki/Halting_Harm_in_Har%27mara"
+ },
+ {
+  "completion": "It is done, then. I grieve that this was necessary, but the corruption needed to be pruned before it could spread further.",
+  "description": "Powdercap said that the visiting travelers were the first to show signs of the lightbloom infection. Right after you questioned them!\n\nSadly, it seems Koozat has also fallen to the sickness. Take out the merchants and see to Koozat as well. He's far too dangerous a creature to be trampling around here.",
+  "next": "Seeds of the Rift",
+  "objectives": [
+   "Slay the visiting rutaani merchants and Koozat.",
+   "Koozat slain",
+   "Keem slain",
+   "Rizam slain",
+   "Teetem slain"
+  ],
+  "prev": "Koozat's Trample",
+  "progress": "I raised Koozat since he was small enough to fit in my hands. The Lightbloom does not discriminate who it infects.",
+  "quest": 86942,
+  "rewards": "You will receive one of:\nTraveling Merchant's Mantle\nLight-Blanched Shoulderpads\nLight-Crazed Rutaani's Shoulderguards\nKeem's Blooming Pauldrons\n\nYou will also receive:\n46g 80s\n15,200 XP",
+  "title": "Culling the Spread",
+  "url": "https://warcraft.wiki.gg/wiki/Culling_the_Spread"
+ },
+ {
+  "completion": "Eonka and her seeds are not affected by the Lightbloom. Incredible! Could there be something about the rift that keeps the Lightbloom in check?",
+  "description": "The situation is stabilizing, but let's make sure we're in the clear. I will see how Hagar is faring.\n\nCheck on Eonka again and be sure that she's not showing any signs of lightbloom. She is on an upper level in Hagar's Hut.",
+  "next": "To Sow the Seed",
+  "objectives": [
+   "Check on Eonka.",
+   "Eonka questioned again",
+   "Glistening Seed Bag collected",
+   "Glistening Seed Bag delivered"
+  ],
+  "prev": "Halting Harm in Har'mara, Culling the Spread, & Burning Bitterblooms",
+  "progress": "Let us hope Eonka is unchanged.",
+  "quest": 86944,
+  "rewards": "You will receive:\n2g 34s\n1,500 XP",
+  "title": "Seeds of the Rift",
+  "url": "https://warcraft.wiki.gg/wiki/Seeds_of_the_Rift"
+ },
+ {
+  "completion": "So there are no signs of lightbloom yet in their villages? Meeka seems unchanged as well, and states that the rutaani never act in the manner of the light-crazed.\n\nThis is both promising and frustrating.\n\nI am glad that it hasn't yet spread that far, but I suspect we shall find more soon.",
+  "description": "Orweyna mentioned that there are rutaani who are visiting from other villages. This is an opportunity for us to get to know what they're like when they're not light-crazed.\n\nI will stay here to speak with Meeka. You should speak with the visiting rutaani to determine whether the lightbloom has reached their homes.",
+  "next": "Koozat's Trample",
+  "objectives": [
+   "Talk to the visiting rutaani merchants.",
+   "Question Rizam",
+   "Question Teetem",
+   "Question Eonka",
+   "Question Keem"
+  ],
+  "prev": "A Hut in Har'mara",
+  "progress": "We must stop the spread of the Lightbloom! Determining its spread will help us fight it in the long run.",
+  "quest": 86956,
+  "rewards": "You will receive:\nHarandar Runestone\n17g 55s\n9,150 XP",
+  "title": "The Traveling Flowers",
+  "url": "https://warcraft.wiki.gg/wiki/The_Traveling_Flowers"
+ },
+ {
+  "completion": "In the end, we must figure this out for ourselves.",
+  "description": "Finally, we have a moment to breathe. This is where we feel closest to the goddess--we are below the Cradle where she used to rest.\n\nThe elders will not allow us to use any of the Alndust they have gathered over the centuries. They see only what the goddess asked of us before, not what her world needs now.\n\nAlndust is rare, but there are ways to get it. Ask around. I will check... elsewhere.",
+  "next": "The Hunter Awaits",
+  "objectives": [
+   "Speak to the Innkeeper, Renown Quartermaster, and the Flight Master at the Den.",
+   "Speak to the Innkeeper",
+   "Speak to the Quartermaster",
+   "Speak to the Flight Master",
+   "Speak to Ku'paal",
+   "Meet Orweyna at the edge of the Den."
+  ],
+  "prev": "To Sow the Seed",
+  "progress": "I hope that you will be able to rest here. You must know how to navigate this place.",
+  "quest": 86864,
+  "rewards": "You will receive:\n2g 34s\n1,500 XP",
+  "title": "Watch the Den",
+  "url": "https://warcraft.wiki.gg/wiki/Watch_the_Den"
+ },
+ {
+  "completion": "I have given up my connection to the Goddess to protect my people from the dangers of the Rift of Aln. I do not believe anyone should ever go there without knowing what you risk. Haranir will succumb and die without protection.",
+  "description": "I have warned Orweyna of the dangers and madness that lay within the Rift of Aln, but she believes it is her only path forward. I envy her faith.\n\nSomeone can help her show the way: the Shul'ka. The Hunters of Shadows. They have sacrificed everything to protect the haranir from the effects of the rift.\n\nI will let one know that you need help. You will find him in the Vale of Mists.",
+  "next": "Consequences of Our Duty & The Foundation of Aln",
+  "objectives": [
+   "Find Orweyna and the Shul'ka in the Vale of Mists.",
+   "Ask Orweyna about the Shul'ka (Optional)",
+   "Find Orweyna in the Shrine of Mists"
+  ],
+  "prev": "Watch the Den",
+  "progress": null,
+  "quest": 86836,
+  "rewards": "You will receive:\n2g 34s\n1,500 XP",
+  "title": "The Hunter Awaits",
+  "url": "https://warcraft.wiki.gg/wiki/The_Hunter_Awaits"
+ },
+ {
+  "completion": "My hands tingle where the Alndust touches. A curious feeling... not unwelcome.\n\nThe honored Shul'ka told me how to manipulate the alndust to protect Haranir in the Rift. It seemed difficult, but with its magic swelling in me, I feel that it should be doable.",
+  "description": "The presence of the goddess reverberates through everything in the Rift of Aln. The voice is too powerful for haranir to resist. In mere minutes, one of our flock would be lost forever.\n\nThere are, however, ways to protect oneself for a short time. Kill the rejects that crawl up from the rift and gather the Alndust from which they are created. I can show Orweyna how to craft a short-term solution for entering the rift.",
+  "next": "Dampening the Call",
+  "objectives": [
+   "Collect 6 alndust from Rift creatures in the Vale of Mists.",
+   "Diminished Alndust (6)"
+  ],
+  "prev": "The Hunter Awaits",
+  "progress": "I will let your young companion know what to do with the Alndust.",
+  "quest": 86851,
+  "rewards": "You will receive:\nAltar of the Shul'ka\n23g 40s\n12,150 XP",
+  "title": "The Foundation of Aln",
+  "url": "https://warcraft.wiki.gg/wiki/The_Foundation_of_Aln"
+ },
+ {
+  "completion": "It is sobering to see the effects of the Rift on my peoples. But Amarakk's interference has given me unintended hope.\n\nI must go into the Rift to search for Hagar's answer, and with the Shul'ka's help, I may even survive this ordeal.",
+  "description": "You must see with your own eyes the effects that the Rift of Aln can have on any haranir. Even those who stand guard over the border are oft affected by its call.\n\nTake this. I use it as an emergency salve to help those who are stricken of the dangers of Aln. Patrol these lands and give aid to those who need it. Perhaps then you will understand the gravity of what you seek to do.",
+  "next": "Dampening the Call",
+  "objectives": [
+   "Heal 5 Wounded Guardians in the Vale of Mists.",
+   "Wounded Defender helped (5)",
+   "Salve of Aln (provided)"
+  ],
+  "prev": "The Hunter Awaits",
+  "progress": "I did not know that these castoffs from the rift could affect us so much...",
+  "quest": 86855,
+  "rewards": "You will receive one of:\nAmarakk's Woven Signet\nBand of Severed Connections\n\nYou will also receive:\n23g 40s\n12,150 XP",
+  "title": "Consequences of Our Duty",
+  "url": "https://warcraft.wiki.gg/wiki/Consequences_of_Our_Duty"
+ },
+ {
+  "completion": "I cannot hear the voice of the Goddess.\n\nI hate it.\n\nHow does Amarakk live like this?",
+  "description": "Amarakk told me how to prepare alndust to create the salve. In small doses. Alndust can strengthen the mind against madness and terror. It offers clarity and peace but only if expertly employed.\n\nI could use your help to set an anchor to this place, <name>. The ritual is delicate, and failure could be disastrous.",
+  "next": "Descent into the Rift",
+  "objectives": [
+   "Help Orweyna create the Alndust Filter at the Vale of Mists.",
+   "Alndust placed"
+  ],
+  "prev": "Consequences of Our Duty & The Foundation of Aln",
+  "progress": "The process sounded simple enough--well within my abilities. But I appreciate your presence here to ground me.",
+  "quest": 86856,
+  "rewards": "You will receive:\n11g 55s\n6,100 XP",
+  "title": "Dampening the Call",
+  "url": "https://warcraft.wiki.gg/wiki/Dampening_the_Call"
+ },
+ {
+  "completion": "That manifestation is one of the purest forms of Aln madness that resides here. My ward will distract it only for so long. We must move quickly.",
+  "description": "With this, I will be able to venture down into the Rift of Aln. I will not have long, so we should not dawdle.\n\nLet us find Amarakk and gain his help.",
+  "next": "The Madness Roots Deep",
+  "objectives": [
+   "Find the Wards of the Shul'ka in the Rift of Aln to find Amarakk.",
+   "Look for the Wards of the Shul'ka (3)"
+  ],
+  "prev": "Dampening the Call",
+  "progress": null,
+  "quest": 86857,
+  "rewards": "You will receive:\nStoppered Spring Water Gourd\n23g 40s\n12,150 XP",
+  "title": "Descent into the Rift",
+  "url": "https://warcraft.wiki.gg/wiki/Descent_into_the_Rift"
+ },
+ {
+  "completion": "Another soul saved.\n\nThis is why I do this, <name>. All my sacrifices, shutting myself from the voice of the Goddess, is worth it for each soul I rescue from the grasp of the Rift.",
+  "description": "I found you while I was in the middle of one of my duties. Someone has spent too long within the Rift and has fallen prey to the call of the Goddess. I must rescue him and send him back to where he belongs.\n\nHelp me with this task, and I will help you.",
+  "next": "Herding Manifestations, Before They Grow, & Grinding Out a Solution",
+  "objectives": [
+   "Defeat On'hiea in the Rift of Aln.",
+   "On'hiea subdued"
+  ],
+  "prev": "Descent into the Rift",
+  "progress": "We can save him!",
+  "quest": 86858,
+  "rewards": "You will receive one of:\nRobe of the Alndust-Addled\nOn'heia's Dusty Jerkin\nRiftwalker's Cuirass\nAlndust-Coated Carapace\n\nYou will also receive:\n23g 40s\n12,150 XP",
+  "title": "The Madness Roots Deep",
+  "url": "https://warcraft.wiki.gg/wiki/The_Madness_Roots_Deep"
+ },
+ {
+  "completion": "We might have a chance with this. I'll be able to coat my weapons with this and craft a powerful poison.",
+  "description": "I have been pondering what Hagar could have meant from the moment Orweyna mentioned an answer to your problems. There are no mystical fountains--no weapons. Everything in the rift is created from the same source: Alndust, the distillation of the influence of the goddess. If we hunt a large manifestation, you will have the power of creation in its purest form.\n\nWe cannot defeat it without help. Search the Rift and look for fungi large enough to cultivate. I can use them to give us an edge.",
+  "next": "The Greater They Aln",
+  "objectives": [
+   "Find 5 Alngrown Fungus in the Rift of Aln.",
+   "Alngrown Fungus (5)",
+   "Meet Amarakk deeper into the Rift of Aln."
+  ],
+  "prev": "The Madness Roots Deep",
+  "progress": "Any advantage that we can have against the manifestation will give us a better chance to survive.",
+  "quest": 86859,
+  "rewards": "You will receive:\n23g 40s\n12,300 XP",
+  "title": "Grinding Out a Solution",
+  "url": "https://warcraft.wiki.gg/wiki/Grinding_Out_a_Solution"
+ },
+ {
+  "completion": "Well done.",
+  "description": "Within every creature that roams the Rift of Aln thrums a gathering of the foundation of the goddess's influence. This Alndust yearns to merge with others of its ilk. Part of my duties as the Shul'ka is to make sure to keep the number of large manifestations low so they do not overwhelm the Den.\n\nIt is easiest to do that while they are small.\n\nTake this spear. You may use it to shatter the smaller creatures down to... trivial sizes.",
+  "next": "The Greater They Aln",
+  "objectives": [
+   "Use Amarakk's Influence to defeat Aln Mites and creatures in the Rift of Aln.",
+   "Use Amarakk's Influence on a Rift creature (Optional)",
+   "Defeat alnscorned enemies in the Rift of Aln (0/100%)",
+   "Meet Amarakk deeper into the Rift of Aln."
+  ],
+  "prev": "The Madness Roots Deep",
+  "progress": "I hope that is enough.",
+  "quest": 86860,
+  "rewards": "You will receive:\n23g 40s\n12,150 XP",
+  "title": "Before They Grow",
+  "url": "https://warcraft.wiki.gg/wiki/Before_They_Grow"
+ },
+ {
+  "completion": "That must be enough.",
+  "description": "We are preparing to fight a giant manifestation. Let me emphasize this again. We must fight just one.\n\nIf we fight two at a time, we would have no chance of survival. Place these wards around the Rift to draw the others away. They will not last long... but we will need every advantage we can gain.",
+  "next": "The Greater They Aln",
+  "objectives": [
+   "Place 3 wards around the Rift of Aln.",
+   "Wards placed (3)",
+   "Meet Amarakk deeper into the Rift of Aln."
+  ],
+  "prev": "The Madness Roots Deep",
+  "progress": "These wars are a creation of my own making. They attack the larger creatures toward them by mimicking their reaction to food.",
+  "quest": 86861,
+  "rewards": "You will receive:\nFungal Pergola\n23g 40s\n12,150 XP",
+  "title": "Herding Manifestations",
+  "url": "https://warcraft.wiki.gg/wiki/Herding_Manifestations"
+ },
+ {
+  "completion": "I thought I would never see this with my own eyes... and yet here we are.\n\nMake this worth it.",
+  "description": "We have one chance at this only.\n\nI pray we have prepared enough.",
+  "next": "In Search of the Problem",
+  "objectives": [
+   "Defeat the Aln Manifestation and gather its components in the Rift of Aln.",
+   "Lured Manifestation slain",
+   "Greater Alndust gathered",
+   "Greater Alndust (Optional)"
+  ],
+  "prev": "Herding Manifestations, Before They Grow, & Grinding Out a Solution",
+  "progress": "The power of the Rift of Aln is beyond mortal comprehension. What we are doing is simply borrowing some of it for a brief moment.",
+  "quest": 86862,
+  "rewards": "You will receive one of:\nThriving Essence Sprig\nAln-Bound Essence\n\nYou will also receive:\n46g 80s\n15,400 XP",
+  "title": "The Greater They Aln",
+  "url": "https://warcraft.wiki.gg/wiki/The_Greater_They_Aln"
+ },
+ {
+  "completion": "We have left our homes. We will return.",
+  "description": "We did what Hagar asked us to do. The next step will be to test this on something--or someone--afflicted with the Lightbloom.\n\nIt may be difficult to find the Lightbloom in enough quantities in Harandar, but I believe we will find what we need at Har'alnor. I will meet you there!",
+  "next": "Can We Heal This? & The Missing Rootwarden",
+  "objectives": [
+   "Meet Orweyna at Har'alnor."
+  ],
+  "prev": "The Greater They Aln",
+  "progress": null,
+  "quest": 86865,
+  "rewards": "You will receive:\n11g 70s\n6,150 XP",
+  "title": "In Search of the Problem",
+  "url": "https://warcraft.wiki.gg/wiki/In_Search_of_the_Problem"
+ },
+ {
+  "completion": "The alndust may not be able to recover someone who has fully fallen to the lightbloom, but it should be able to inoculate those from further corruption.\n\nThat must be enough.",
+  "description": "The rutaani have escaped their nearby villages to Har'alnor. The guards have told me that some of them have been afflicted with the Lightbloom, yet have not succumbed to its effects.\n\nThis may be our best opportunity to test the Alndust's powers. Time is of the essence!",
+  "next": "Alndust in Right Hands",
+  "objectives": [
+   "Use the Greater Alndust on the Afflicted Rutaani at Har'alnor.",
+   "Stay awhile and listen to Hannan (Optional)",
+   "Alndust used on the Afflicted Rutaani"
+  ],
+  "prev": "In Search of the Problem",
+  "progress": "This is it, <name>. The moment of truth. Do we have an answer for the problems on Azeroth?",
+  "quest": 86866,
+  "rewards": "You will receive:\n23g 40s\n12,300 XP\nRoot-Woven Door",
+  "title": "Can We Heal This?",
+  "url": "https://warcraft.wiki.gg/wiki/Can_We_Heal_This%3F"
+ },
+ {
+  "completion": "This is troubling news. The Lightbloom hasn't seemed to affect any haranir thus far. Has it somehow infested the Rootwarden? Or is this his pride speaking? He's always been a zealous one, but...\n\nWe must move quickly.",
+  "description": "Something keeps troubling me about this, <name>. Where is the Rootwarden?\n\nRuia has a solemn duty to watch over the World Tree and the land around it. He should be here, with his people in need. So where could he be when they are in crisis? What is he thinking?\n\nI am sure that we can find clues to where he has gone if we search his town. Perhaps we can learn more about his state of mind along the way.",
+  "next": "Alndust in Right Hands",
+  "objectives": [
+   "Find 3 Ruia's Musings in Har'alnor.",
+   "Ruia's notes found (3)",
+   "Second One Appears After",
+   "Third One Appears After (2)"
+  ],
+  "prev": "In Search of the Problem",
+  "progress": "The Rootwarden should be here. We must find out what would be so pressing that would take him away from his responsibilities.",
+  "quest": 94677,
+  "rewards": "You will receive:\nVoidlight Marl x10\n12,300 XP\n+50 reputation with The Hara'ti",
+  "title": "The Missing Rootwarden",
+  "url": "https://warcraft.wiki.gg/wiki/The_Missing_Rootwarden"
+ },
+ {
+  "completion": "This is so much more than what the Rootwarden said. How has the Lightbloom spread so much, and so quickly?",
+  "description": "We can now go to the roots of Shaladrassil and stop the Lightbloom spreading even further into Harandar.\n\nWe have enough Alndust to inoculate any haranir who are willing to risk their lives to follow us into battle. Find them, <name>, and give them the Alndust.",
+  "next": "Into the Lightbloom",
+  "objectives": [
+   "Give alndust to 5 haranir around Har'alnor and the Blinding Bloom.",
+   "Haranir inoculated (5)",
+   "Talk to Hannan at the Blinding Bloom"
+  ],
+  "prev": "Can We Heal This? & The Missing Rootwarden",
+  "progress": "I know that my people are ready to step up to the challenge.",
+  "quest": 86882,
+  "rewards": "You will receive one of:\nRallied Haranir's Mitts\nAlndust-Touched Gloves\nHopeful Haranir's Grasps\nGauntlets of the Innoculated\n\nYou will also receive:\n23g 40s\n12,300 XP",
+  "title": "Alndust in Right Hands",
+  "url": "https://warcraft.wiki.gg/wiki/Alndust_in_Right_Hands"
+ },
+ {
+  "completion": "I wish we could save everyone, but...\n\nA gruesome but necessary task.",
+  "description": "This is a threat that could destroy all of Harandar if left unchecked. That's why we will pull this out at the root.\n\nThe ruutani who did not have the time to escape this place must be fully corrupted by now. Unfortunate, but it makes our plan of attack simple. Their leaders must be spreading the Lightbloom. We must strike them down.",
+  "next": "Tell the People What You Have Seen",
+  "objectives": [
+   "Kill 4 Lightblinded Sap Weavers in the Blinding Bloom.",
+   "Lightblinded Sap Weaver slain",
+   "Find Orweyna in the Blinding Bloom."
+  ],
+  "prev": "Into the Lightbloom",
+  "progress": "If these leaders are allowed to thrive, they will gather more forces to the Lightbloom. We can't allow that to happen.",
+  "quest": 86877,
+  "rewards": "You will receive one of:\nHazy Penumbral Treads\nBoots of Infinite Gravity\nNeverending Vortex Stompers\nWarboots of the Colossal Behemoths\n\nYou will also receive:\n46g 80s\n15,400 XP",
+  "title": "Righteous Pruning",
+  "url": "https://warcraft.wiki.gg/wiki/Righteous_Pruning"
+ },
+ {
+  "completion": "Now we can begin.",
+  "description": "We've gathered the haranir we have available and distributed the Alndust. We have everything we need, but they need to be able to safely enter the area. Scouts have told us that the creatures spreading the Lightbloom are protected by a shield. We must stop them. We will also need to thin their numbers.\n\nGet on the petalwing, <name>, and let's clear the way.",
+  "next": "At the Root, Our Beloved, Returned, & Righteous Pruning",
+  "objectives": [
+   "Ride on the Petalwing, destroy the shields protecting 4 Lightbloom Spreaders, and defeat Lightbloom creatures in the Blinding Bloom.",
+   "Ride the Haranir Petalwing",
+   "Lightbloom Spreader Shield destroyed (4)",
+   "Lightbloom rutaani defeated (0/100%)"
+  ],
+  "prev": "Alndust in Right Hands",
+  "progress": "We ride together!",
+  "quest": 86867,
+  "rewards": "You will receive:\nRutaani Sporepod\n46g 80s\n15,400 XP",
+  "title": "Into the Lightbloom",
+  "url": "https://warcraft.wiki.gg/wiki/Into_the_Lightbloom"
+ },
+ {
+  "completion": "These artifacts pale in importance to the lives of those involved here... but it is good to have them back.",
+  "description": "The haranir had a presence by the roots of Shaladrassil, as a sign of goodwill with the cultures that live within our home. When the guards retreated, they left some of our treasured mementos and artifacts.\n\nSince the spread of the Lightbloom has been greater than I ever expected, I do not know when we'll be able to come back. Let's find those artifacts in the Blinding Bloom and bring them home.",
+  "next": "Tell the People What You Have Seen",
+  "objectives": [
+   "Recover 6 Haranir artifacts in the Blinding Bloom.",
+   "Artifacts recovered (6)",
+   "Find Orweyna in the Blinding Bloom."
+  ],
+  "prev": "Into the Lightbloom",
+  "progress": "It would be good to bring some of these items back in our hands.",
+  "quest": 86880,
+  "rewards": "You will receive:\n23g 40s\n12,300 XP",
+  "title": "Our Beloved, Returned",
+  "url": "https://warcraft.wiki.gg/wiki/Our_Beloved%2C_Returned"
+ },
+ {
+  "completion": "I pray this will help us all.",
+  "description": "The growths that help them spread the Lightbloom so quickly should be vulnerable after your attack from the air, but we still need to destroy them. Return to the Blinding Bloom and uproot the spreaders before they can recover from our attack.",
+  "next": "Tell the People What You Have Seen",
+  "objectives": [
+   "Destroy the Lightbloom Spreaders in the Blinding Bloom.",
+   "Lightbloom Spreader destroyed (5)",
+   "Find Orweyna in the Blinding Bloom."
+  ],
+  "prev": "Into the Lightbloom",
+  "progress": "We need to stop the spread of the Lightbloom, lest it take over all of Harandar.",
+  "quest": 86881,
+  "rewards": "You will receive:\n23g 40s\n12,300 XP",
+  "title": "At the Root",
+  "url": "https://warcraft.wiki.gg/wiki/At_the_Root"
+ },
+ {
+  "completion": "Azeroth needs our help. I will not stand Idly by while she is overwhelmed.\n\nI know you will not, either.",
+  "description": "We may have stemmed the malignant growth, but we have so many more questions than answers. How did this happen? How did this grow so much? How did Ruia not understand the extent of the calamity?\n\n<Name>, we must return to the Cradle immediately. The elders must know what happened today.",
+  "next": "The Frenzied March",
+  "objectives": [
+   "Return to the Den and speak to the Elders.",
+   "Return to the Den",
+   "Council addressed"
+  ],
+  "prev": "At the Root, Our Beloved, Returned, & Righteous Pruning",
+  "progress": "I only pray that they are more receptive to the truth this time around.",
+  "quest": 86890,
+  "rewards": "You will receive one of:\nUnmoved Elder's Hoop\nRing of the Refused Call\n\nYou will also receive:\n23g 40s\n12,300 XP",
+  "title": "Tell the People What You Have Seen",
+  "url": "https://warcraft.wiki.gg/wiki/Tell_the_People_What_You_Have_Seen"
+ },
+ {
+  "missing": true,
+  "quest": 86874,
+  "title": "Culling the Light"
+ },
+ {
+  "completion": "To think that while we toiled below, the Lightbloom would spread so aggressively in Eversong.\n\nDamn it all! Every victory we win reveals rising danger.",
+  "description": "Halduron's news is dire. If the lightbloom is frenzying on the surface, then the danger has grown far more quickly than we were prepared to reckon with.\n\nWe must make for Eversong at once. I will stand against any threat to Aln'hara's creation, be it here or in the world above... And I will do it alone, if I must.",
+  "next": "Stem the Tides & Cull and Burn",
+  "objectives": [
+   "Return to Eversong Forest.",
+   "Take the Emergency Rootway"
+  ],
+  "prev": "Tell the People What You Have Seen",
+  "progress": null,
+  "quest": 86883,
+  "rewards": "You will receive:\n2g 34s\n1,550 XP",
+  "title": "The Frenzied March",
+  "url": "https://warcraft.wiki.gg/wiki/The_Frenzied_March"
+ },
+ {
+  "completion": "It is a shame to see something born of Harandar to wreak such havoc on a place like this. These roots may not cradle Aln'hara, but they grow toward her all the same.",
+  "description": "Simply culling these creatures is not sufficient. If their bodies are left unattended, the Light will seep from their remains and spread through the soil to the surrounding foliage.\n\nWe must take more drastic measures. Gather the bones of the creatures you slay. If we burn them, perhaps we can prevent their further spread through the roots of this forest.",
+  "next": "Expeditious Retreat & A Last Resort",
+  "objectives": [
+   "Collect 10 Corrupted Bones from Lightbloom-Infested wildlife.",
+   "Lightbleached Rootbone (10)"
+  ],
+  "prev": "The Frenzied March",
+  "progress": "Do not delay. The longer we wait to cull this growth, the more of this forest the sin'dorei will lose.",
+  "quest": 86884,
+  "rewards": "You will receive one of:\nRootbone Choker\nLight-Bleached Amulet\n\nYou will also receive:\n23g 40s\n12,300 XP",
+  "title": "Cull and Burn",
+  "url": "https://warcraft.wiki.gg/wiki/Cull_and_Burn"
+ },
+ {
+  "completion": "Damn it all. For every rootway you torch. two more crop up elsewhere. It's like they're self-perpetuating, spreading in the span of moments.\n\nI don't think we can solve this with arrows and magic, even with Orweyna's help. We don't have enough Alndust, nor enough Haranir to prevent the spread of this frenzy.",
+  "description": "When the Farstriders first discovered the Lightbloom, we thought it to be merely an aesthetic change--a small quirk of the Sunwell's influence. Would that we knew then what we know now.\n\nThese Light-frenzied rootways must lead all the way back to Harandar. If we don't close them, it won't matter how many of these damned things I bring down. Close the rootways and we might have a fighting chance.",
+  "next": "Expeditious Retreat & A Last Resort",
+  "objectives": [
+   "Burn 5 Lightfrenzy Portalways.",
+   "Lightfrenzy Portalway destroyed (5)"
+  ],
+  "prev": "The Frenzied March",
+  "progress": "What are you waiting for? Every moment that passes, more of those things filter through. Our odds are scant enough as it is.",
+  "quest": 86885,
+  "rewards": "You will receive:\n23g 40s\n12,300 XP",
+  "title": "Stem the Tides",
+  "url": "https://warcraft.wiki.gg/wiki/Stem_the_Tides"
+ },
+ {
+  "completion": "Most of the Farstriders have retreated to our position. Those that remain are prepared to slip away once the ritual begins.\n\nWe're out of time. It's now or never.",
+  "description": "I have a way to stop the Lightbloom from spreading further through the forest, but it isn't exactly a delicate touch. Normally, I'd never dream of resorting to a controlled burn in such a healthy portion of Eversong... but the frenzy is spreading too quickly, and we are running out of options.\n\nI've sounded the retreat to my Farstriders, but some of them haven't responded. I need you to find any rangers in particularly sticky situations, and lend your aid in securing their escape.",
+  "next": "Survive",
+  "objectives": [
+   "Rescue 3 Beleaguered Farstriders.",
+   "Swarming Shinesipper slain",
+   "Swarming Lightsaptor slain",
+   "Swarming Shinemaw slain",
+   "Join Halduron at the Suncrown Tree in Eversong Woods."
+  ],
+  "prev": "Stem the Tides & Cull and Burn",
+  "progress": "We're short on time, <name>. I can't execute my plan if we have Farstriders still in the field.",
+  "quest": 86887,
+  "rewards": "You will receive:\n23g 40s\n12,300 XP",
+  "title": "Expeditious Retreat",
+  "url": "https://warcraft.wiki.gg/wiki/Expeditious_Retreat"
+ },
+ {
+  "completion": "We've done all we can.\n\nNow all that's left is to defend the Magisters, and hope that this is enough to stop the frenzy from spreading any farther.",
+  "description": "With our ground forces pulled back, our position will be overwhelmed in a matter of minutes. It's time to execute our gambit.\n\nRommath and the Magisters have provided us a mana gem that can be used to overload Lash'ra's runestones. Take it, and infuse the stones with the mana contained therein. That will set the stage for the Magisters' ritual: to detonate the runestones and burn the entirety of Lash'ra to the ground.\n\nWe just have to hope the Lightbloom cannot survive in an inferno.",
+  "next": "Survive",
+  "objectives": [
+   "Overload 3 Phoenixfire Runestones.",
+   "Palehill Runestone",
+   "Lakegrove Runestone",
+   "Barksnarl Runestone",
+   "Follow Halduron Brightwing to the Suncrown Tree in Eversong Woods."
+  ],
+  "prev": "Stem the Tides & Cull and Burn",
+  "progress": "Without overloading the runestones, the ritual won't pack enough of a punch to catch the forest ablaze. See to it, before we get pushed back even farther.",
+  "quest": 86891,
+  "rewards": "You will receive:\nRoot-Woven Window\n23g 40s\n12,300 XP",
+  "title": "A Last Resort",
+  "url": "https://warcraft.wiki.gg/wiki/A_Last_Resort"
+ },
+ {
+  "completion": "I... I cannot believe it. My kin on the surface, standing shoulder to shoulder with surface-dwellers, and wielding the magics of Aln...\n\n<Orweyna sets her jaw and flashes you a smile.>\n\nBut we do not have time for sentiment. We must bring Ruia to justice, and end this frenzy.",
+  "description": "Our retreat to safer ground has not gone unnoticed. The rutaani mark us at every turn, and now they mean to cross the river.\n\nWe have to buy Rommath and the Magisters as much time as we can. If we fail here, the whole of Eversong could be lost.\n\nStand tall. Do not falter. And do your best not to die.",
+  "next": "The Gift of Aln'hara and Light Finds a Way",
+  "objectives": [
+   "Survive the Lightbloom onslaught.",
+   "Tell Rommath to begin the ritual (Optional)",
+   "Lightfrenzy onslaught survived",
+   "Reconvene with Orweyna in Lightbloom Lash'ra."
+  ],
+  "prev": "Expeditious Retreat and A Last Resort",
+  "progress": "We do not know when the frenzy will push past the lakeshore and encroach upon our position. Better to have Rommath start the ritual sooner rather than later.",
+  "quest": 86892,
+  "rewards": "You will receive one of:\nDissipated Ritual Bangles\nBracers of the Suncrown\nHardened Lash'ra Cuffs\nLight-Scorched Vambraces\n\nYou will also receive:\n46g 80s\n15,400 XP",
+  "title": "Survive",
+  "url": "https://warcraft.wiki.gg/wiki/Survive"
+ },
+ {
+  "completion": "The haranir are always mighty. But with the Goddess gift shining upon us, we are unstoppable.",
+  "description": "Ruia has always been a zealous advocate, but this behavior is beyond the pale. The Lightbloom must be affecting him, driving him to these dangerous lengths.\n\nBut we do not have to be like him. This forest need not fall to the bloom like Shaladrassil's roots did.\n\nThe Hara'ti brought enough Alndust to bolster our allies against corruption, and prevent the frenzy from spreading further. Together, you and I shall spread Aln'hara's gift across the forest. This frenzy shall advance no further.",
+  "next": "Quelling the Frenzy",
+  "objectives": [
+   "Use the Alndust to combat the Lightbloom frenzy in Lightbloom Lash'ra.",
+   "Rout the Lightbloom Frenzy (0/100%)"
+  ],
+  "prev": "Survive",
+  "progress": "Alndust is no mere common reagent. We must be precious about its use. For my people, though, I will not hesitate to give all I have.",
+  "quest": 86894,
+  "rewards": "You will receive:\n23g 40s\n12,300 XP",
+  "title": "The Gift of Aln'hara",
+  "url": "https://warcraft.wiki.gg/wiki/The_Gift_of_Aln%27hara"
+ },
+ {
+  "completion": "Between you and our new haranir allies, my rangers have plenty of ferocious examples to follow. I'll have to consider teaching some of your techniques at the Retreat.",
+  "description": "I am an expert in the fauna of Eversong, and I can say with certainty that the vast majority of the wildlife here tend to be of fairly average size.\n\nBut these Light-frenzied saptors are decidedly, unequivocally not. One bite from those thorny jaws could claim the lives of half a dozen Farstriders, if they are caught unawares.\n\nMy rangers have their quivers full culling the chaff alongside the haranir. See to it that those towering tyrannosaptors don't catch them unawares.",
+  "next": "Quelling the Frenzy",
+  "objectives": [
+   "Slay 3 Lightfrenzy Tyrannosaptors in Lightbloom Lash'ra.",
+   "Lightfrenzy Tyrannosaptor slain (3)",
+   "Reconvene with Halduron Brightwing in Lightbloom Lash'ra."
+  ],
+  "prev": "Survive",
+  "progress": "Dire as the situation is, I'd be lying if I said I didn't value the chance to hunt such exhilarating prey.",
+  "quest": 86896,
+  "rewards": "You will receive:\nRustic Harandar Planter\n23g 40s\n12,300 XP",
+  "title": "Light Finds a Way",
+  "url": "https://warcraft.wiki.gg/wiki/Light_Finds_a_Way"
+ },
+ {
+  "completion": "It is over. Though the Lightbloom may never fully recede, its mastermind has been driven back into the rootway. With the frenzy quelled, and the surrounding forests warded against its advance, we can rest assured that Eversong will not suffer the Lightbloom's spread any longer.\n\nWe've done it. We've won!",
+  "description": "The day is nearly won. The sin'dorei cull every new sprout that blooms, and the Hara'ti ward the surrounding wilds against the frenzy's influence. All that yet remains is to remove this lightbound serpent's misguided head.\n\nRootwarden Ruia has opposed our every action and shouted down our every word. But he is still a Rootwarden, and one with the power of a frenzying Lightbloom host at his beck and call.\n\nHe is strong. But he does not walk with Aln'hara.\n\nIt is time to end this.",
+  "next": "Rise of the Haranir",
+  "objectives": [
+   "Confront Lightwarden Ruia.",
+   "Lightwarden Ruia slain"
+  ],
+  "prev": "The Gift of Aln'hara & Light Finds a Way",
+  "progress": null,
+  "quest": 86897,
+  "rewards": "You will receive one of:\nTangle of Vibrant Vines\nBark of the Guardian Tree\n\nYou will also receive:\n46g 80s\n15,400 XP",
+  "title": "Quelling the Frenzy",
+  "url": "https://warcraft.wiki.gg/wiki/Quelling_the_Frenzy"
+ },
+ {
+  "completion": "For the first time in generations, the haranir walk upon the surface of Aln'hara's creation. Time will tell how her creation receives us in turn.\n\nThe fighting is far from over. The Void claws at your gates and threatens your people. But know this, my friend: from this day forward, any threat that encroaches upon Aln'hara's bounty will have the Hara'ti to contend with, be it here or deep below the earth.",
+  "description": "It is done. The frenzy is routed, the Rootwarden has fled, and the sin'dorei have reclaimed control of their forests.\n\nI can scarcely believe it, but... we succeeded, <name>. By Aln'hara's grace, we found a path forward.\n\nNow Halduron's people invite us to their den. I am not fond of your surface-cities, but...\n\nYou have aided me so many times, my friend. It is time that the Hara'ti reached out hands of our own.",
+  "next": "Looming Shadows, The War Beyond the Roots, The Blinding Vale: Lightbloom Roots (optional)",
+  "objectives": [
+   "Meet Orweyna and Halduron in the Gardens of Remembrance in Silvermoon City."
+  ],
+  "prev": "Quelling the Frenzy",
+  "progress": null,
+  "quest": 86898,
+  "rewards": "You will receive:\n11g 70s\n6,150 XP",
+  "title": "Rise of the Haranir",
+  "url": "https://warcraft.wiki.gg/wiki/Rise_of_the_Haranir"
+ },
+ {
+  "completion": "Thank you for coming, <name>. I need your help, as do many of our priests and paladins.\n\nOne paladin in particular.",
+  "description": "Archbishop Alonsus Faol has left a message asking to speak with you in regards to a project to help Arator and the Vanguard of Light.",
+  "next": "Meet at the Sunwell",
+  "objectives": [
+   "Speak with Alonsus Faol."
+  ],
+  "prev": "Fractured",
+  "progress": null,
+  "quest": 89193,
+  "rewards": "You will receive:\n2g 34s\n1,650 XP",
+  "title": "Arator",
+  "url": "https://warcraft.wiki.gg/wiki/Arator_(quest)"
+ },
+ {
+  "completion": "Nnnghhh... It is so painfully bright here. don't you think?\n\nAhh, you were able to convince him. Thank you.",
+  "description": "I have been tasked with bolstering the Vanguard of Light that empower the Sunwell. I need your help, though not just for that simple task.\n\nOur mutual friend. Arator, is... stuck. Stuck in his grief and anger over that tragic conflict between him and his father.\n\nI'm just an old priest that's been raised from the dead, but I've found that a quest is just the thing to set a young paladin back on the right path.\n\nWould you help?",
+  "next": "Renewal for the Weary",
+  "objectives": [
+   "Ask Arator to meet Faol at the Sunwell.",
+   "Speak with Arator",
+   "Fly to the Isle of Quel'Danas (Optional)"
+  ],
+  "prev": "Arator (quest)",
+  "progress": "The Sunwell is north of here, <name>. I'll meet you there.",
+  "quest": 86837,
+  "rewards": "You will receive:\n2g 34s\n1,650 XP",
+  "title": "Meet at the Sunwell",
+  "url": "https://warcraft.wiki.gg/wiki/Meet_at_the_Sunwell"
+ },
+ {
+  "completion": "I had hoped that seeing the rest of the Vanguard focused on the Sunwell, it would give him a goal that was bigger than his pain and lead him away from his anger. Instead, he belittles my solution.\n\nThank you, <name>, for doing it in his stead. It was necessary to keep the Voidstorm at bay.",
+  "description": "The Vanguard of the Light are maintaining a difficult ritual at the Sunwell. It requires focus, discipline and is quite exhausting.\n\nTake my staff. I've had it since I was Archbishop in Stormwind. It is meaningful to me and my faith. The Light responds to meaning and intention. It should renew the Vanguard's spirits so they can maintain the ritual a while longer.\n\nI can't approach any closer to the Sunwell, so you will have to do this for me.",
+  "next": "Relics of Light's Hope",
+  "objectives": [
+   "Restore the Light to 10 weary channelers.",
+   "Sunwell Channeler Renewed (10)",
+   "Faol's Benediction (provided)",
+   "Meet Alonsus Faol outside the Sunwell."
+  ],
+  "prev": "Meet at the Sunwell",
+  "progress": "That staff has served me and the Light for so many decades...",
+  "quest": 86838,
+  "rewards": "You will receive one of:\nWraps of Renewal\nGloves of Renewal\nHands of Renewal\nTouch of Renewal\n\nYou will also receive:\n23g 40s\n13,365 XP",
+  "title": "Renewal for the Weary",
+  "url": "https://warcraft.wiki.gg/wiki/Renewal_for_the_Weary"
+ },
+ {
+  "completion": "Welcome to Light's Hope, <name>.\n\nMost of the paladins that defended these grounds were called by the Light. I've had to reach out to the Ebon Blade for support, or the scourge would have overrun this holy place.",
+  "description": "The holy power in my staff has been spent. Forty years of fervent prayers drained away in a few minutes. It was for a good cause, and my staff will recover in time.\n\nThere are other relics, like my staff, that were important to paladins and priests. Light's Hope Chapel has many such relics stored there.\n\nArator trained there as well. Perhaps the solution to his pain could also be found within.",
+  "next": "Flickering Hope",
+  "objectives": [
+   "Meet Lord Maxwell Tyrosus at Light's Hope Chapel.",
+   "Stay Awhile and Listen (Optional)",
+   "Speak with Alonsus Faol"
+  ],
+  "prev": "Renewal for the Weary",
+  "progress": null,
+  "quest": 86839,
+  "rewards": "You will receive:\n11g 70s\n6,710 XP",
+  "title": "Relics of Light's Hope",
+  "url": "https://warcraft.wiki.gg/wiki/Relics_of_Light%27s_Hope"
+ },
+ {
+  "completion": "Thank you, <name>. You've thinned their ranks enough that we'll be able to maintain the defenses, with the help we have from our... allies.\n\nNow, Faol has told me about your need for relics.",
+  "description": "Normal description:\nNormally, <name>, paladins from Light's Hope hold back the Scourge in the immediate area around the chapel, but they've all been called to fight the Void.\n\nAs a result, Scourge forces have greatly increased their numbers around the chapel. We've managed to hold the line so far, but only with the help of Darion and the Ebon Blade.\n\nGive us some room to breathe--defeat as many of them as you can.\n\nTo paladins:\nHighlord <name>! Nearly all of our paladins have been called to fight the void. I can only speculate why I was not among them.\n\nBut as a result, Scourge forces have built up quite a strong force around the chapel. Were it not for Darion's aid from Acherus, we would already be overrun, but holding the line is all they can do.\n\nGive us some room to breathe, Highlord--defeat as many of them as you can.",
+  "next": "Relics of Paladins Past",
+  "objectives": [
+   "Kill Scourge forces around Light's Hope Chapel.",
+   "Light's Hope defended"
+  ],
+  "prev": "Relics of Light's Hope",
+  "progress": "We can't hold back the undead forever, <name>.",
+  "quest": 86840,
+  "rewards": "You will receive one of:\nLight's Hope Shoulders\nLight's Hope Mantle\nLight's Hope Shoulderpads\nLight's Hope Epaulets\n\nYou will also receive:\n23g 40s\n13,365 XP",
+  "title": "Flickering Hope",
+  "url": "https://warcraft.wiki.gg/wiki/Flickering_Hope"
+ },
+ {
+  "completion": "I trust you found what you needed, <name>?\n\nTo paladins:\nI trust you found what you needed, Highlord <name>?",
+  "description": "Normal description:\nAlonsus tells me you're looking for relics of holy power, to sustain those performing the ritual holding the Void at bay.\n\nNow that you've beaten back the Scourge, you and Arator are certainly welcome to enter the Sanctum of Light and use what we have for the cause.\n\nTo paladins:\nAlonsus tells me you're looking for relics of holy power, Highlord, to sustain those performing the ritual holding the Void at bay.\n\nTake what you need in service to the Light, and let me know if there's anything else you require.",
+  "next": "Scarlet Power",
+  "objectives": [
+   "Gather 5 relics from the Sanctum of Light.",
+   "Enter Light's Hope Chapel",
+   "Lena Stormpike's Stein",
+   "Vindicator Maraad's Meditation Crystal",
+   "Uther's Healing Kit",
+   "Krohm Dawnhammer's Smithing Hammer",
+   "Mara Fordragon's Prayer Book"
+  ],
+  "prev": "Flickering Hope",
+  "progress": "Countless great heroes are interred under the chapel, <name>.\n\nHopefully their relics can be of aid to those at the Sunwell.",
+  "quest": 86841,
+  "rewards": "You will receive:\n23g 40s\n13,365 XP",
+  "title": "Relics of Paladins Past",
+  "url": "https://warcraft.wiki.gg/wiki/Relics_of_Paladins_Past"
+ },
+ {
+  "completion": "Here we are. Let's deal with these Scarlets.",
+  "description": "These artifacts will help sustain the Vanguard, but they are not enough. I know of a place nearby that would have the rest we need, but... given Arator's state of mind, I'm hesitant to go there.\n\nHmph... No sense in avoiding it. We must all face up to the fact that the Scarlet Crusade calls upon the power of the Light, and has for decades.",
+  "next": "Light Miswielded & Light Repurposed",
+  "objectives": [
+   "Meet Alonsus Faol at Scarlet Monastery.",
+   "Stay awhile and listen to Arator (Optional)",
+   "Enter the Scarlet Monastery (Optional)",
+   "Meet Faol inside the Monastery",
+   "Enter the Scarlet Halls"
+  ],
+  "prev": "Relics of Paladins Past",
+  "progress": null,
+  "quest": 86842,
+  "rewards": "You will receive:\n16g 10s\n7,688 XP",
+  "title": "Scarlet Power",
+  "url": "https://warcraft.wiki.gg/wiki/Scarlet_Power"
+ },
+ {
+  "completion": "Excellent work.\n\nPerhaps one day the Scarlet Monastery can be a place that truly serves the Light, but for now our time is limited and our focus must remain on the Sunwell.",
+  "description": "The Scarlet Crusade has been wielding the Light for its evil purposes for decades, <name>. I'm disappointed to see how many forces they still have here.\n\nStill, the Light responds to them, just as it does to us.\n\nWe're here to get their relics to help the Sunwell, but while we're here, let's cleanse this place of their dark influence.",
+  "next": "Scarlet Power",
+  "objectives": [
+   "Defeat Scarlet Crusade members.",
+   "Defeat Scarlet forces"
+  ],
+  "prev": "Scarlet Power",
+  "progress": "Have you dealt with the Scarlet threat, <name>?",
+  "quest": 86843,
+  "rewards": "You will receive:\n23g 40s\n13,365 XP",
+  "title": "Light Miswielded",
+  "url": "https://warcraft.wiki.gg/wiki/Light_Miswielded"
+ },
+ {
+  "completion": "These weapons of the Light shall serve a much greater purpose, from this day forward.\n\nI hope that may be true as well for Aelyse--the Scarlet champion Arator showed mercy to.\n\nI told her to begin by surrendering herself to Calia Menethil, at the Sunwell.",
+  "description": "Leaders of the Crusade have channeled the Light through their weapons every day for years.\n\nWhile their goals and actions are reprehensible to us, their weapons are no less useful than my own staff, especially in such a time of need.\n\nAs you go through the Scarlet Halls, whenever you find a leader, defeat them and bring back their weapon. We will put it to a righteous use: to aid the Sunwell.",
+  "next": "Infusion of Hope",
+  "objectives": [
+   "Recover Meyer's Rod of Castigation, Aelyse's Gleaming Falchion, and Benthar's Scarlet Spire.",
+   "Meyer's Rod of Castigation",
+   "Aelyse's Gleaming Falchion",
+   "Benthar's Scarlet Spire"
+  ],
+  "prev": "Scarlet Power",
+  "progress": "What artifacts have you found here, <name>?",
+  "quest": 86844,
+  "rewards": "You will receive one of:\nRepurposed Scarlet Broadsword\nRepurposed Scarlet Sword\nRepurposed Scarlet Cleaver\nRepurposed Scarlet Axe\nRepurposed Scarlet Bow\nRepurposed Scarlet Shiv\nRepurposed Scarlet Cane\nRepurposed Scarlet Battlestaff\nRepurposed Scarlet Skullsplitter\nRepurposed Scarlet Blade\nRepurposed Scarlet Claymore\n\nYou will also receive:\n46g 80s\n16,720 XP",
+  "title": "Light Repurposed",
+  "url": "https://warcraft.wiki.gg/wiki/Light_Repurposed"
+ },
+ {
+  "completion": "Quickly, <name>. Let us get these distributed!",
+  "description": "I hope my staff's light has been enough to uphold those at the Sunwell while we have sought these relics.\n\nTogether with those from Light's Hope, they should be a much more significant aid.\n\nLet us return there quickly.",
+  "next": "Relinquishing Relics",
+  "objectives": [
+   "Return the relics to Silvermoon.",
+   "Tell Alonsus you're ready to Depart",
+   "Take the portal to Silvermoon"
+  ],
+  "prev": "Light Miswielded & Light Repurposed",
+  "progress": null,
+  "quest": 92136,
+  "rewards": "You will receive:\n11g 70s\n6,710 XP",
+  "title": "Infusion of Hope",
+  "url": "https://warcraft.wiki.gg/wiki/Infusion_of_Hope"
+ },
+ {
+  "completion": "With those relics, they should be able to sustain the ritual for much longer.\n\nAnd we can attend to other matters.",
+  "description": "My staff bought us time in the effort to hold back the Void, but these relics will be a more powerful aid. Let us hope it will be enough.\n\nQuickly, deliver these relics to our friends.",
+  "next": "The Sunwalker Path",
+  "objectives": [
+   "Distribute relics to Taelia, Valunei, Salandria, and Mehlar.",
+   "Speak with Aelyse (Optional)",
+   "Relic given to Taelia",
+   "Relic given to Valunei",
+   "Relic given to Salandria",
+   "Relic given to Mehlar",
+   "Give Remaining Relics to Velen"
+  ],
+  "prev": "Infusion of Hope",
+  "progress": "Did you get those relics out to everyone, <name>?",
+  "quest": 86902,
+  "rewards": "You will receive:\n23g 40s\n12,150 XP\nRelinquished Scarlet Charger",
+  "title": "Relinquishing Relics",
+  "url": "https://warcraft.wiki.gg/wiki/Relinquishing_Relics"
+ },
+ {
+  "completion": "An'she has guided you to us, <name>. Care to join us in our work?",
+  "description": "I think I have failed Arator. In my attempt to steady him after the incident with his father, I may have shattered his faith with uncomfortable truths of the Light.\n\nI would like to consult with the wisest person I know, Sunwalker Dezco. I did not see him with the Vanguard. Tyrosus told me he may be in Hammerfall providing aid to the displaced.",
+  "next": "Resupplying Our Suppliers & A Humble Servant",
+  "objectives": [
+   "Meet with Sunwalker Dezco in Hammerfall.",
+   "Tell Alonsus you're ready to depart.",
+   "Take the portal to Hammerfall",
+   "Speak with Sunwalker Dezco in Hammerfall"
+  ],
+  "prev": "Relinquishing Relics",
+  "progress": "Welcome, <name>. There's plenty to do here if you're willing!",
+  "quest": 86845,
+  "rewards": "You will receive:\n11g 70s\n12,150 XP",
+  "title": "The Sunwalker Path",
+  "url": "https://warcraft.wiki.gg/wiki/The_Sunwalker_Path"
+ },
+ {
+  "completion": "Good work, <name>. Things are starting to look better.",
+  "description": "<Name>, residents of Hammerfall have been focused on daily life, defense, and survival over the past months.\n\nThey have not had sufficient time, or frankly numbers, to address all the harms that were done.\n\nThere is much we can do to help them get back on their feet.\n\nI know this is humble work, but it makes a very real difference to the orcs who live here.",
+  "next": "Gathering Plowshares",
+  "objectives": [
+   "Aid the people of Hammerfall in their recovery.",
+   "Aid Hammerfall (0/100%)",
+   "Speak with Sunwalker Malu (Optional)",
+   "Speak with Sunwalker Nadura (Optional)"
+  ],
+  "prev": "The Sunwalker Path",
+  "progress": "There is much to do, <name>.",
+  "quest": 91000,
+  "rewards": "You will receive one of:\nHumble Servant's Pants\nHumble Servant's Leggings\nHumble Servant's Briefs\nHumble Servant's Tights\n\nYou will also receive:\n23g 40s\n12,150 XP",
+  "title": "A Humble Servant",
+  "url": "https://warcraft.wiki.gg/wiki/A_Humble_Servant"
+ },
+ {
+  "completion": "Excellent! This will help the people of Hammerfall help themselves.",
+  "description": "<Name>, the people of Hammerfall were attacked not so long ago by saboteurs from a group called the Red Dawn.\n\nI am working to help them recover and rebuild from the attack, with my fellow Sunwalkers, Malu and Nadura.\n\nOne thing they have been doing is gathering supplies needed by Hammerfall's crafters from various sources.\n\nIf you could deliver these supplies, it would be a great help.",
+  "next": "Gathering Plowshares",
+  "objectives": [
+   "Aid the people of Hammerfall in their recovery.",
+   "Tailoring supplies for Jun'ha",
+   "Butcher supplies for Slagg",
+   "Leatherworking supplies for Tunkk",
+   "Bowyer supplies for Mu'uta",
+   "Trade goods for Keena"
+  ],
+  "prev": "The Sunwalker Path",
+  "progress": "Have you distributed the supplies, <name>?",
+  "quest": 86846,
+  "rewards": "You will receive:\n23g 40s\n12,150 XP",
+  "title": "Resupplying Our Suppliers",
+  "url": "https://warcraft.wiki.gg/wiki/Resupplying_Our_Suppliers"
+ },
+ {
+  "completion": "Excellent work, <name>. We'll get these reforged into tools, and distribute them to the people.",
+  "description": "<Name>, now that Hammerfall can expect peace with Stromgarde, there's a lot more use in being able to farm and craft than in fighting.\n\nSo we've been gathering old weapons from past skirmishes to make into tools for the people of Hammerfall.\n\nWould you and Arator be willing to give me a hand?",
+  "next": "One Final Relic",
+  "objectives": [
+   "Gather 4 Fallen Longswords and 4 Forgotten Skullcleavers.",
+   "Stay Awhile and Listen to Dezco (Optional)",
+   "Fallen Longsword (4)",
+   "Forgotten Skullcleaver (4)"
+  ],
+  "prev": "Resupplying Our Suppliers & A Humble Servant",
+  "progress": "The weapons we gather will help reforge Hammerfall's future, <name>.",
+  "quest": 89338,
+  "rewards": "You will receive:\n23g 40s\n12,150 XP",
+  "title": "Gathering Plowshares",
+  "url": "https://warcraft.wiki.gg/wiki/Gathering_Plowshares"
+ }
+]

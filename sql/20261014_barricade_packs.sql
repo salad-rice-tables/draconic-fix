@@ -1,0 +1,3 @@
+-- 93018 enemy packs (user .gps pack centers 2026-10-14, ring r=9yd, facing center).
+-- Entries: existing-isle variants preferred (single-entry types as-is).
+-- Undo: 20261014_barricade_packs_undo.sql -- NEEDS restart

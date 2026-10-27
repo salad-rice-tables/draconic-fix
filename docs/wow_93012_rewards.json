@@ -1,0 +1,30 @@
+{
+ "html": "C:\\Users\\brani\\AppData\\Local\\Temp\\opencode\\quest_data\\wow_93012.html",
+ "title": "Dead End - Quest - World of Warcraft",
+ "g_quest": {
+  "category": -663,
+  "category2": 19,
+  "id": 93012,
+  "itemrewards": [
+   [
+    268557,
+    1
+   ]
+  ],
+  "level": 90,
+  "money": 683200,
+  "name": "Dead End",
+  "reqlevel": 90,
+  "side": 3,
+  "xp": 17110
+ },
+ "quest_id": 93012,
+ "xp_text": "17,100 experience",
+ "coin_html": "68   32",
+ "reward_item_links": [
+  {
+   "id": 268557,
+   "name": "akiki"
+  }
+ ]
+}

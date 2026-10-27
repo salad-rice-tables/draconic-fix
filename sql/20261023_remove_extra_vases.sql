@@ -1,0 +1,1 @@
+-- removed extra Ritual Vase/Tablet spawns (test GM spawn + other-area z309 copies)

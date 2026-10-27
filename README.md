@@ -21,6 +21,24 @@ No fan-fiction, no guessed IDs. Each fix ships with an `_undo.sql`.
 Details: `docs/quest_92061_rising_storm_fix.md`.
 Reusable recipe: `docs/gossip_credit_quest_pattern.md`.
 
+## 2026-10-27 archive sync
+
+The repository now also contains the later server-fix archive through
+**2026-10-27**:
+
+- **Midnight campaign** — VO/soundkit wiring, scenes, gossip/credit flows,
+  objective/phase corrections and the later chain fixes.
+- **Suramar** — missing quest gameobject spawns, NPC questgiver flags,
+  phasing corrections and side-quest fixes.
+- **Broken Shore** — quest props and dressing object spawns.
+- **Harandar / Legion** — quest-chain, reward, spawn and audit fixes.
+- Updated `addon/`, `lua/`, `docs/` and the SQL fix files from the live
+  server archive.
+
+The table above is the original verified set; the archive contains the
+broader working history. Apply only the SQL/Lua files relevant to the
+content you are restoring.
+
 ## Apply order
 
 SQL files are prefixed by date — **apply alphabetically** against MySQL
@@ -41,12 +59,16 @@ Verify: `ready` in `Server.log`, empty `DBErrors` log, Eluna
 
 ## Revert
 
-Every fix has a matching `*_undo.sql`. Apply in reverse alphabetical order.
+Fix files are paired with an `*_undo.sql` where a safe rollback exists.
+Apply rollback SQL in reverse alphabetical order.
 
 ## Layout
 
 - `sql/` — fixes + undo files (English comments, sources cited per file)
 - `lua/` — Eluna dialogue/credit scripts (primary credit path)
-- `docs/` — pattern + quest write-up (incl. known follow-ups)
+- `docs/` — patterns, quest write-ups, audits and worklists
+- `addon/` — client-side addon sources used by the server fixes
+- `cpp/` — core patch snapshots for reference
 
-No credentials, no dumps, no client files in this repo.
+No credentials, no client binaries, and no raw database dumps. Audit and
+worklist CSV/JSON files live under `docs/`.

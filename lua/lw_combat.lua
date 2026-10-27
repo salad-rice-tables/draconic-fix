@@ -1,5 +1,5 @@
 -- =====================================================================
--- Living World: Creature AI Overhaul (in the spirit of Descend's).
+-- Living World: Creature AI Overhaul (in the spirit of Ascension's).
 -- Creatures without their own script fight by what they ARE:
 --   beasts by family (boar charges and gores, spider webs and poisons...),
 --   humanoids by role read from their name and NPC class (shaman heals and

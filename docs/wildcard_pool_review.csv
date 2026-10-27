@@ -1,0 +1,1258 @@
+spell_id,retail_name,role,rarity,essence_cost,description
+107500,<DND> Monk Energy Driver,u,1,10,
+131894,A Murder of Crows,?,?,30,"Summons a flock of crows to attack your target, dealing ${*} Physical damage over ."
+315443,Abomination Limb,o,4,34,"Sprout an additional limb, dealing ${*13} Shadow damage over  to all nearby enemies. Deals reduced damage beyond  targets. Every  sec, an en"
+212056,Absolution,u,2,11,Returns all dead party members to life with % of maximum health and mana.  Cannot be cast when in combat.
+1219074,Abyssal Breach,?,?,15,"Tear open reality itself, letting loose a series of  abyssal explosions outward from your position. Each breach deals  Cosmic damage."
+325727,Adaptive Swarm,u,4,16,"Command a swarm that heals  or deals  Shadow damage over  to a target, and increases the effectiveness of your periodic effects on them by %"
+13750,Adrenaline Rush,?,?,43,"Increases your Energy regeneration rate by %, your maximum Energy by , and your attack speed by % for .$?[  Damage of combo point generating"
+353367,Aegis of Light,d,2,30,Stamina increased by %.  Armor increased by %.
+137043,Affliction Warlock,u,1,10,
+116092,Afterlife,u,2,15,"When you kill an enemy, you summon a Healing Sphere, healing you for  when you walk through it.$?s322719[  When you kill an enemy with Black"
+980,Agony,?,?,18,"Inflicts increasing agony on the target, causing up to ${*/*} Shadow damage over . Damage starts low and increases over the duration. Refres"
+19434,Aimed Shot,?,?,18,A powerful aimed shot that deals  Physical damage.
+342245,Alter Time,u,4,24,"Alters the fabric of time, returning you to your current location and health when cast a second time, or after ${+} sec. Effect negated by l"
+8676,Ambush,o,2,29,"Ambush the target, causing  Physical damage.$?s383281[  Has a ${*/100}% chance to grant Opportunity.][]  Awards  combo :points;."
+328774,Amplify Curse,?,?,22,"Your next Curse of Exhaustion, Curse of Tongues or Curse of Weakness cast within  is amplified.  $@spellname334275 Reduces the target's move"
+381664,Amplifying Poison,?,?,10,"Coats your weapons with a Lethal Poison that lasts for . Each strike has a % chance to poison the enemy, dealing  Nature damage and applying"
+274738,Ancestral Call,u,3,22,"Invoke the spirits of your ancestors, granting you  of one of your two highest secondary stat for ."
+114911,Ancestral Guidance,h,1,16,$@spelldesc108281
+207399,Ancestral Protection Totem,?,?,35,Summons a totem at the target location for . All allies within $?s382201[${*(1+/100)}][] yards of the totem gain % increased health. If an a
+2008,Ancestral Spirit,u,1,7,"Returns the spirit to the body, restoring a dead target to life with % of maximum health and mana. Cannot be cast when in combat."
+443454,Ancestral Swiftness,?,?,22,"Your next healing or damaging spell$?a1246131[ or Hex][] is instant, costs no mana, and deals % increased damage and healing.  If you know N"
+212048,Ancestral Vision,u,1,6,Returns all dead party members to life with % of maximum health and mana.  Cannot be cast when in combat.
+86704,Ancient Fury,o,1,14,"Unleash the fury of ancient kings, causing  Holy damage per application of Ancient Power, divided evenly among all targets within  yards."
+388023,Ancient Teachings,u,2,15,"Your Tiger Palm, Blackout Kick, Rising Sun Kick, $?a1268807[Jadefire Stomp, ][]and Crackling Jade Lightning heal up to  injured allies withi"
+138430,Ancient Zandalari Knowledge,u,1,10,Learn the ancient Zandalari secrets of taming Direhorns.
+121536,Angelic Feather,?,?,10,"Places a feather at the target location, granting the first ally to walk through it % increased movement speed for .$?a440670[ When an ally "
+300003,Anima of Death,o,3,30,"Draw upon your vitality to sear your foes, dealing % of your maximum health in Fire damage to all nearby enemies and heal for ${+}% of your "
+48707,Anti-Magic Shell,d,3,28,"Surrounds you in an Anti-Magic Shell for , absorbing up to  magic damage and preventing application of harmful magical effects.$?s207188[][ "
+51052,Anti-Magic Zone,?,?,35,"Places an Anti-Magic Zone for , reducing the magic damage taken by party or raid members by %."
+220143,Apocalypse,o,4,58,"Strikes the enemy, dealing  Physical damage and bursting up to  Festering Wounds on the target, summoning a member of your Army of the Dead "
+200183,Apotheosis,?,?,43,"$?s235587[Gain a charge][Reset the cooldown] of your Holy Words, and enter a pure Holy form for , increasing the cooldown reductions to your"
+276012,Aquatic Form,u,2,15,Your Travel Form increases your swimspeed by % and allows you to breathe underwater.
+5421,Aquatic Form Passive,u,1,10,Increases swimming speed by % and allow's the druid to breathe underwater.
+44425,Arcane Barrage,o,1,15,"Launches bolts of arcane energy at the enemy target, causing  Arcane damage.   For each Arcane Charge, deals % additional damage$?a321526[, "
+30451,Arcane Blast,o,1,19,"Blasts the target with energy, dealing  Arcane damage.  Each Arcane Charge increases damage by % and mana cost by %, and reduces cast time b"
+190427,Arcane Charge,m,2,15,
+1449,Arcane Explosion,o,1,14,"Causes an explosion of magic around the caster, dealing  Arcane damage to all enemies within  yards.$?a137021[  Generates  Arcane Charge if "
+1459,Arcane Intellect,b,1,7,"Infuses the target with brilliance, increasing their Intellect by % for .    If the target is in your party or raid, all party and raid memb"
+210086,Arcane Linguist,u,1,10,You are able to comprehend your allies' racial languages.
+137021,Arcane Mage,u,1,10,
+5143,Arcane Missiles,?,?,18,"Requires Clearcasting Launches ${(/)+1} waves of Arcane Missiles at the enemy over , causing a total of ${(/)*} Arcane damage."
+56384,Arcane Momentum,u,1,10,Your Blink spell teleports you in the direction you are moving instead of the direction you are facing.
+153626,Arcane Orb,?,?,10,"Launches an Arcane Orb forward from your position, traveling up to 40 yds, dealing  Arcane damage to enemies it passes through.  Grants 1 Ar"
+12042,Arcane Power,u,4,24,"For , you deal % more spell damage$?a343208[ and your spells cost % less mana][]."
+260364,Arcane Pulse,o,3,40,Deals  Arcane damage to nearby enemies and reduces their movement speed by %. Lasts .
+185358,Arcane Shot,o,1,36,A quick shot that causes  Arcane damage.$?s260393[  Arcane Shot has a % chance to reduce the cooldown of Rapid Fire by ${/10}.1 sec.][]
+365350,Arcane Surge,?,?,30,Expend all of your current mana to annihilate your enemy target and nearby enemies for up to $?a457521[${**(/100+1)}][${*}] Arcane damage ba
+28730,Arcane Torrent,c,3,22,Remove  beneficial effect from all enemies within  yards and restore % of your Mana.
+231437,Archdruid's Lunarwing Form,u,1,10,Allows your Travel Form to take on the form of a Lunarwing Owl.
+66235,Ardent Defender,h,4,20,$@spelldesc31850
+137049,Arms Warrior,o,1,18,
+42650,Army of the Dead,?,?,22,"Summon or empower Lesser Ghouls to form an unholy army of  for ${} sec. While active, summoning a Lesser Ghoul will instead execute Orders b"
+114050,Ascendance,?,?,35,$@spelldesc1219480
+161862,Ascension,u,3,22,"Ascend into the air, keeping you out of harm's way. Lasts . Can only be used while in Ashran."
+210722,Ashamane's Frenzy,u,4,26,"Unleash Ashamane's Frenzy, clawing your target  times over  for ${*} Physical damage and an additional ${*3*} Bleed damage over .  Awards  c"
+316958,Ashen Hallow,u,7,39,"Hallow the target area for . Enemies in the area suffer up to ${*/} Shadow damage, and allies are healed for up to ${*/}, reduced if there a"
+61648,Aspect of the Chameleon,u,5,37,"The Hunter takes on the aspect of a chameleon, becoming untrackable."
+186257,Aspect of the Cheetah,m,2,32,"Increases your movement speed by % for . Upon expiring, increases your movement speed by % for another ."
+186289,Aspect of the Eagle,u,3,24,Increases the range of your $?s259387[Mongoose Bite][Raptor Strike] and Mastery: Spirit Bond to  yds for .
+186265,Aspect of the Turtle,d,5,43,"Causes all spells and attacks to miss and reduces all damage you take by % for , but you cannot attack."
+221562,Asphyxiate,?,?,22,"Lifts the enemy target off the ground, crushing their throat with dark energy and stunning them for ."
+137037,Assassination Rogue,o,1,18,
+197911,Astral Power,u,1,10,
+556,Astral Recall,u,1,10,Yanks you through the twisting nether back to . Speak to an Innkeeper in a different place to change your home location.
+108271,Astral Shift,d,3,29,"Shift partially into the elemental planes, taking % less damage for ."
+381637,Atrophic Poison,?,?,10,"Coats your weapons with a Non-Lethal Poison that lasts for . Each strike has a % chance of poisoning the enemy, reducing their damage by ${*"
+88163,Attack,u,1,10,Starts combat by attacking a target with a melee weapon.
+396186,Augmentation Evoker,u,1,10,
+31821,Aura Mastery,?,?,35,Empowers your chosen aura for .  $@spellname465: Damage reduction increased to ${--}%.  $@spellname32223: Mount speed bonus increased to ${+
+107574,Avatar,?,?,22,"Transform into a colossus, increasing all damage you deal by % $?c1[and reducing damage you take from area of effect attacks by % ]?c2[and i"
+31935,Avenger's Shield,?,?,23,"Hurls your shield at an enemy target, dealing  Holy damage, interrupting and silencing the non-Player target for , and then jumping to ${-1}"
+31884,Avenging Wrath,m,4,24,"Call upon the Light to become an avatar of retribution, $?s53376&c2[causing Judgment to generate  additional Holy Power, ]?s53376&c3[each Ho"
+436344,Azerite Surge,u,3,22,Draw upon your inner strength. Release to invoke the power of Azerite to harm your foes and aid your allies.  Empowering has the following e
+362969,Azure Strike,o,1,19,"Project intense energy onto  enemies, dealing  Spellfrost damage to them."
+53,Backstab,o,1,16,"Stab the target, causing ${*} Physical damage. Damage increased by % when you are behind your target$?s319949[, and critical strikes apply F"
+312411,Bag of Tricks,u,3,22,"Pull your chosen trick from the bag and use it on target enemy or ally. Enemies take  damage and are snared by % for , while allies are heal"
+137013,Balance Druid,u,1,10,
+710,Banish,c,2,7,"Banishes an enemy Demon, Aberration$?s386651[, Undead][], or Elemental, preventing any action for . Limit 1. Casting Banish again on the tar"
+22812,Barkskin,m,3,22,"Your skin becomes as tough as bark, reducing all damage you take by %$?a301768[, increasing healing received by %,][]$?a1250923[, increasing"
+120360,Barrage,?,?,15,"Rapidly fires a spray of shots for , dealing an average of  Physical damage to all nearby enemies in front of you. Usable while moving. Deal"
+148039,Barrier of Faith,?,?,30,"Imbue a friendly target with a Barrier of Faith, absorbing  damage for . For the next , Barrier of Faith accumulates % of effective healing "
+6673,Battle Shout,b,1,7,Increases the attack power of all raid and party members within  yards by % for .
+386164,Battle Stance,?,?,10,"A balanced combat state that increases the critical strike chance of your abilities by %$?a1280961[, the critical strike damage of your abil"
+156910,Beacon of Faith,?,?,18,"Mark a second target as a Beacon, mimicking the effects of Beacon of Light. Your heals will now heal both of your Beacons, but at % reduced "
+53563,Beacon of Light,h,4,21,"Wrap a single ally in holy energy, causing your direct healing on other party or raid members to also heal that ally for % of the amount hea"
+200025,Beacon of Virtue,?,?,23,Apply a Beacon of Light to your target and  injured allies within  yds for .  All affected allies will be healed for % of the amount of your
+5487,Bear Form,d,2,13,"Shapeshift into Bear Form, increasing armor by % and Stamina by %, granting protection from Polymorph effects, and increasing threat generat"
+1178,Bear Form Passive,d,2,30,
+21178,Bear Form Passive 2,d,2,30,
+1462,Beast Lore,u,1,6,"Gathers information about the target beast, displaying diet, abilities, specialization, whether or not the creature is tameable, and if it i"
+137015,Beast Mastery Hunter,u,1,10,
+1232309,Beckon,?,?,10,"Beckon the shattered remnants of your enemies towards you, collecting all nearby soul fragments."
+50334,Berserk,?,?,35,"Go berserk for , reducing the cooldowns of Mangle, Thrash, and Growl by % and the cooldown of Frenzied Regeneration by %.$?a339062[  Grants "
+18499,Berserker Rage,d,2,22,"Go berserk, removing and granting immunity to Fear, Sap, and some Incapacitate effects for .$?a1271925[  Removes all movement speed-impairin"
+384100,Berserker Shout,?,?,22,"Go berserk, removing and granting immunity to Fear, Sap, and Incapacitate effects for .  Also remove fear effects from$?a1227751[ and reduce"
+386196,Berserker Stance,?,?,10,"An aggressive combat state that increases the damage of your auto-attacks by %$?a1280961[, your auto-attack speed by %,][] and reduces the d"
+26297,Berserking,u,3,32,Increases your haste by % for .
+344572,Bestial Wrath,o,1,46,$@spelldesc19574
+408233,Bestow Weyrnstone,?,?,22,"Conjure a pair of Weyrnstones, one for your target ally and one for yourself. Only one ally may bear your Weyrnstone at a time.  A Weyrnston"
+315341,Between the Eyes,o,3,26,"Finishing move that blasts your target with your pistol, dealing Physical damage and increasing your damage dealt by %. Multiple instances o"
+267211,Bilescourge Bombers,?,?,22,"Tear open a portal to the nether above the target location, from which several Bilescourge will pour out of and crash into the ground over ,"
+117526,Binding Shot,c,3,8,$@spelldesc117405
+466930,Black Arrow,?,?,18,"You attempt to finish off a wounded target, dealing  Shadow damage and  Shadow damage over . Only usable on enemies above % health or below "
+115399,Black Ox Brew,?,?,35,"Chug some Black Ox Brew, which instantly refills your Energy, Purifying Brew charges, and grants one charge of Celestial Brew or Celestial I"
+319175,Black Powder,o,1,15,Finishing move that launches explosive Black Powder at all nearby enemies dealing Physical damage. Deals reduced damage beyond  targets.$?s3
+100784,Blackout Kick,o,1,14,"Kick with a blast of Chi energy, dealing $?s137025[${*/}][] Physical damage.$?s261917[  Reduces the cooldown of Rising Sun Kick and Fists of"
+188499,Blade Dance,o,2,24,"Strike $?a206416[your primary target for  Chaos damage and ][]nearby enemies for  Physical damage$?s320398[, and increase your chance to dod"
+13877,Blade Flurry,u,3,17,"Strikes up to $?a272026[][${-3}] nearby targets for  Physical damage$?a381878[ that generates 1 combo point per target][], and causes your s"
+271877,Blade Rush,?,?,22,"Charge to your target with your blades out, dealing ${*/100} Physical damage to the target and  to all other nearby enemies. Damage reduced "
+184575,Blade of Justice,?,?,18,"$?s403826[Pierce enemies][Pierce an enemy] with a blade of light, dealing  Holy damage$?s403826[ to your target and  Holy damage to nearby e"
+227847,Bladestorm,o,4,33,"Become an unstoppable storm of destructive force, striking all nearby enemies for  Physical damage over . Deals reduced damage beyond  targe"
+157981,Blast Wave,?,?,30,"Causes an explosion around yourself, dealing  Fire damage to all enemies within  yds, knocking them back, and reducing movement speed by % f"
+235313,Blazing Barrier,?,?,10,"Shields you in flame, absorbing  damage$?s194315[ and reducing Physical damage taken by %][] for .  Melee attacks against you cause the atta"
+204019,Blessed Hammer,?,?,10,"Throws a Blessed Hammer that spirals outward, dealing  Holy damage to enemies and reducing the next damage they deal to you by .  Generates "
+202737,Blessing of Elune,?,?,10,Increases Astral Power generated by Solar Wrath and Lunar Strike by %.
+1044,Blessing of Freedom,m,2,7,"Blesses a party or raid member, granting immunity to movement impairing effects $?s199325[and increasing movement speed by % ][]for ."
+1022,Blessing of Protection,m,3,7,"Blesses a party or raid member, granting immunity to Physical damage and harmful effects for .  Cannot be used on a target with Forbearance."
+6940,Blessing of Sacrifice,m,3,26,"Blesses a party or raid member, reducing their damage taken by %, but you suffer ${100*}% of damage prevented.  Last , or until transferred "
+204018,Blessing of Spellwarding,?,?,10,"Blesses a party or raid member, granting immunity to magical damage and harmful effects for .  Cannot be used on a target with Forbearance. "
+388007,Blessing of Summer,?,?,22,"Bless an ally for , causing % of all healing to be converted into damage onto a nearby enemy and % of all damage to be converted into healin"
+364342,Blessing of the Bronze,u,2,14,"Weave the threads of time, reducing the cooldown of a major movement ability for all party and raid members by % for ."
+1271802,Blight of Tongues,?,?,35,"Call forth a cloud of cloying shadow mist that envelopes the target and all enemies within  yds, increasing their casting time of all spells"
+2094,Blind,c,3,25,"Blinds the target, causing it to wander disoriented for . Damage may interrupt the effect. Limit 1."
+115750,Blinding Light,?,?,22,"Emits dazzling light in all directions, blinding enemies within  yds, causing them to wander disoriented for . Damage may cancel the effect."
+207167,Blinding Sleet,?,?,22,"Targets in a cone in front of you are blinded, causing them to wander disoriented for . Damage may cancel the effect.  When Blinding Sleet e"
+1953,Blink,m,3,7,"Teleports you forward  yds or until reaching an obstacle, and frees you from all stuns and bonds.$?a382289[  Gain a shield that absorbs % of"
+360827,Blistering Scales,?,?,22,"Protect an ally with $?s406907[][ ]explosive dragonscales, increasing their Armor by % of your own.  Melee attacks against the target cause "
+123829,Block,d,2,30,Gives a chance to block enemy melee attacks.
+50842,Blood Boil,?,?,18,Deals  Shadow damage$?s212744[ to all enemies within  yds.][ and infects all enemies within  yds with Blood Plague.  $@spellicon55078 $@spel
+137008,Blood Death Knight,o,1,18,
+374721,Blood Fortification,b,1,14,Your Blood thickens increasing your Stamina by % and your Armor by %.
+20572,Blood Fury,b,3,22,Increases your attack power by  for .
+55078,Blood Plague,o,2,8,A shadowy disease that drains  health from the target over . 
+299039,Blood of the Enemy,u,1,10,Infuse your Heart of Azeroth with Blood of the Enemy.
+113344,Bloodbath,o,1,36,$@spelldesc335096
+206931,Blooddrinker,?,?,22,Drains  health from the target over . The damage they deal to you is reduced by % for the duration and  after channeling it fully.  You can 
+2825,Bloodlust,u,5,37,Increases haste by % for all party and raid members for .  Allies receiving this effect will become Sated and unable to benefit from Bloodlu
+321530,Bloodshed,?,?,22,"Bestial Wrath provokes your pets to tear into your target, causing your target to bleed for  damage over .  Damage from Bloodshed has a % ch"
+23881,Bloodthirst,?,?,18,"Assault the target in a bloodthirsty craze, dealing  Physical damage and restoring % of your health.  Generates ${/10} Rage and has a % chan"
+117313,Bloodthirst Heal,h,1,16,Bloodthirst heals the Warrior for % of their health.
+198589,Blur,m,3,8,Reduces all damage taken by % for .
+325216,Bonedust Brew,u,4,26,"Hurl a brew created from the bones of your enemies at the ground, coating all targets struck for .  Your abilities have a % chance to affect"
+386276,Bonedust Brew,?,?,22,"Hurl a brew created from the bones of your enemies at the ground, coating all targets struck for . Your abilities have a % chance to affect "
+1261193,Boomstick,?,?,22,"Unload a series of ${(/)+1} shotgun blasts  yds in front of you, dealing ${*4} Physical damage over . Deals reduced damage beyond  targets."
+325013,Boon of the Ascended,m,5,37,"Draw upon the power of the Ascended for , granting you access to $@spellname325020, replacing $?c3[$@spellname15407][$@spellname585] with $@"
+115675,Boundless Conviction,u,1,10,You may store an additional  Holy Power beyond the maximum of 3. No ability ever consumes more than 3 Holy Power.
+403631,Breath of Eons,?,?,35,"Fly to the targeted location, exposing a $@spellname409560 on enemies in your path for $?s395153[ and granting Ebon Might for ${/1000} sec.]"
+115181,Breath of Fire,?,?,23,"Breathe fire on targets in front of you, causing  Fire damage. Deals reduced damage to secondary targets.  Targets affected by Keg Smash wil"
+152279,Breath of Sindragosa,?,?,35,"Continuously deal ${*/} Frost damage every  sec to enemies in a cone in front of you, until your Runic Power is exhausted. Deals reduced dam"
+137023,Brewmaster Monk,o,1,18,
+245013,Brewmaster's Balance,d,2,30,Your Armor is increased by % and Stamina increased by %.
+155835,Bristling Fur,?,?,22,"Bristle your fur, causing you to generate Rage based on damage taken for ."
+202028,Brutal Slash,?,?,18,"Strikes all nearby enemies with a massive slash, inflicting  Physical damage.$?a231063[ Deals % increased damage against bleeding targets.]["
+320341,Bulk Extraction,o,4,34,"Demolish the spirit of all those around you, dealing  Fire damage to nearby enemies and extracting up to  Lesser Soul Fragments, drawing the"
+255654,Bull Rush,m,3,22,"Charge forward for , knocking enemies down for ."
+111400,Burning Rush,m,3,7,"Increases your movement speed by %, but also damages you for % of your maximum health every  sec. Movement impairing effects may not reduce "
+186387,Bursting Shot,?,?,30,"Fires an explosion of bolts at all enemies in front of you, knocking them back, snaring them by % for , and dealing  Physical damage.$?s3787"
+212436,Butchery,?,?,18,"Attack all nearby enemies in a flurry of strikes, inflicting  Physical damage to nearby enemies$?s459868[ and  damage over ][]. Deals reduce"
+104316,Call Dreadstalkers,?,?,15,Summons  ferocious Dreadstalkers to attack the target for .
+883,Call Pet 1,u,1,10,Summons your first pet to you.
+83242,Call Pet 2,u,1,10,Summons your second pet to you.
+83243,Call Pet 3,u,2,15,Summons your third pet to you.
+83244,Call Pet 4,u,2,15,Summons your fourth pet to you.
+83245,Call Pet 5,u,2,15,Summons your fifth pet to you.
+359844,Call of the Wild,?,?,35,"You sound the call of the wild, summoning  of your active pets for . During this time, a random pet from your stable will appear every  sec "
+199483,Camouflage,?,?,22,"You and your pet blend into the surroundings and gain stealth for . While camouflaged, you will heal for % of maximum health every  sec."
+20577,Cannibalize,u,3,22,"When activated, regenerates % of total health and mana every  sec for . Only works on Humanoid or Undead corpses within  yds. Any movement, "
+192058,Capacitor Totem,?,?,22,"Summons a totem at the target location that gathers electrical energy from the surrounding air and explodes after  sec, stunning all enemies"
+187708,Carve,?,?,18,A sweeping attack that strikes all enemies in front of you for  Physical damage. Deals reduced damage beyond  targets.$?s294029[  Reduces th
+768,Cat Form,u,1,6,"Shapeshift into Cat Form, increasing auto-attack damage by %, movement speed by %, granting protection from Polymorph effects, and reducing "
+152108,Cataclysm,?,?,30,"Calls forth a cataclysm at the target location, dealing  Shadowflame damage to all enemies within  yards and afflicting them with $?a445465["
+374251,Cauterizing Flame,?,?,30,"Cauterize an ally's wounds, removing all Bleed, Poison, Curse, and Disease effects. Heals for  upon removing any effect."
+194223,Celestial Alignment,?,?,10,"Celestial bodies align, maintaining both Eclipses and granting % haste for ."
+322507,Celestial Brew,?,?,10,"A swig of strong brew that coalesces purified chi escaping your body into a celestial guard, absorbing  damage."
+443028,Celestial Conduit,?,?,30,"$?c2[The August Celestials empower you, causing you to radiate ${*} healing onto up to  injured allies and ${*} Nature damage onto enemies w"
+216519,Celestial Fortune,u,2,15,You have a chance equal to your critical strike chance to be healed for an additional % of the amount healed.
+1241059,Celestial Infusion,?,?,10,"A strong herbal brew that coalesces purified chi escaping your body into a celestial guard, absorbing % of incoming damage, up to  total."
+102352,Cenarion Ward,h,3,48,Heals the target for  every  sec for .
+1064,Chain Heal,h,2,25,"Heals the friendly target for , then jumps up to $?a236502[${*((/100)+1)}][] yards to heal the  most injured nearby allies. Healing is reduc"
+188443,Chain Lightning,o,2,16,"Hurls a lightning bolt at the enemy, dealing  Nature damage and then jumping to additional nearby enemies. Affects  total targets$?a383303[ "
+45524,Chains of Ice,o,1,15,"Shackles the target $?a373930[and  nearby enemy ][]with frozen chains, reducing movement speed by % for ."
+375891,Chakram,?,?,22,"Throw a deadly chakram at your current target that will rapidly deal  Physical damage  times, bouncing to other targets if they are nearby. "
+259398,Chakrams,o,1,15,$@spelldesc259381
+1161,Challenging Shout,u,2,23,"Taunts all enemies within  yds to attack you for , and increases the threat you generate against them by % for ."
+376079,Champion's Spear,?,?,22,"Throw a spear at the target location, chaining all enemies in the area to the spear's location and dealing  Physical damage instantly and an"
+196447,Channel Demonfire,?,?,23,Launches  bolts of felfire over  at random targets afflicted by your $?a445465[Wither][Immolate] within  yds. Each bolt deals  Fire damage t
+187394,Chaos Barrage,o,1,14,Deals  Chaos damage.
+215279,Chaos Bolt,o,1,22,"Unleashes a devastating blast of chaos, causing  Chaos damage. Chaos Bolt always critically strikes and your critical strike chance increase"
+255260,Chaos Brand,u,2,15,"Your damage brands the target, increasing magic damage taken by %."
+179057,Chaos Nova,?,?,30,"Unleash an eruption of fel energy, dealing  Chaos damage and stunning all nearby enemies for .$?s320412[  Each enemy stunned by Chaos Nova h"
+162794,Chaos Strike,o,1,21,"Slice your target for ${+} Chaos damage. Chaos Strike has a ${(,100)}% chance to refund  Fury."
+100,Charge,m,2,6,"Charge to an enemy, dealing  Physical damage, rooting it for $?s103828[, and stunning it for ][].  Generates $/10;s2 Rage."
+127757,Charm Woodland Creature,c,3,17,"Allows the Druid to befriend an ambient creature, which will follow the Druid for ."
+1833,Cheap Shot,c,2,7,Stuns the target for .  Awards  combo :points;.
+123986,Chi Burst,u,3,18,"Hurls a torrent of Chi energy up to  yds forward, dealing  Nature damage to all enemies, and  healing to the Monk and all allies in its path"
+115008,Chi Torpedo,?,?,10,"Torpedoes you forward a long distance and increases your movement speed by % for , stacking up to 2 times."
+115098,Chi Wave,u,3,8,"A wave of Chi energy flows through friends and foes, dealing  Nature damage or  healing. Bounces up to  times to targets within  yards."
+342049,Chimaera Shot,?,?,10,A two-headed shot that hits your primary target for  Nature damage and another nearby target for ${*(/100)} Frost damage.$?s260393[  Chimaer
+1244258,Chomp,?,?,23,"Chomp your target, causing  Physical damage. Chomp critical strikes deal ${/100+2} times normal damage.  Chomp can only be used when you fal"
+324312,Clash,?,?,22,"You and the target charge each other, meeting halfway then rooting all targets within  yards for ."
+207311,Clawing Shadows,?,?,18,Deals  Shadow damage and causes 1 Festering Wound to burst.
+4987,Cleanse,c,1,7,"Cleanses a friendly target, removing all $?s393024[Poison, Disease, and ][]Magic effects."
+51886,Cleanse Spirit,?,?,10,Removes all Curse effects from a friendly target.
+440012,Cleanse Spirit,u,1,8,$@spelldesc51886
+213644,Cleanse Toxins,?,?,10,"Cleanses a friendly target, removing all Poison and Disease effects."
+440013,Cleanse Toxins,u,1,6,$@spelldesc213644.
+16870,Clearcasting,u,1,7,$@spelldesc113043
+845,Cleave,?,?,18,Strikes all enemies in front of you for  Physical damage. Deals reduced damage beyond  targets.$?s772[  Inflicts Rend on all targets][  If y
+31224,Cloak of Shadows,d,4,30,"Provides a moment of magic immunity, instantly removing all harmful spell effects. The cloak lingers, causing you to resist harmful spells f"
+396043,Close as Clutchmates,u,1,10,$@spellname395152 and $@spellname403631 are % more effective when not in a raid.
+193455,Cobra Shot,?,?,18,A quick shot causing ${*} Physical damage.  Reduces the cooldown of Kill Command by  sec.
+235219,Cold Snap,?,?,35,"Resets the cooldown of your Ice Barrier, Frost Nova, $?a417493[][Cone of Cold, ]Ice Cold, and Ice Block."
+167105,Colossus Smash,?,?,30,"Smash the ground and shatter the armor of all enemies within  yds, dealing  Physical damage and increasing damage you deal to them by % for "
+128595,Combat Conditioning,u,2,15,Your Blackout Kick now also deals an additional % damage over  if behind the target or heals you for % of the damage done if in front of the
+190319,Combustion,?,?,43,"Engulfs you in flames for , increasing your spells' critical strike chance by %.$?a383967[  Additionally, increases your Mastery by % of you"
+119898,Command Demon,u,2,9,Commands your demon to perform its most powerful ability. This spell will transform based on your active pet.  $?s30146[ Felguard: $@spellna
+272651,Command Pet,u,2,8,Commands your pet to perform its unique ability. This ability will transform based on the specialization of your active pet.   Ferocity: $@s
+299353,Concentrated Flame,u,1,10,"Blast your target with a ball of concentrated flame, dealing ${*(1+$@versadmg)} Fire damage to an enemy or healing an ally for ${*(1+$@versa"
+5116,Concussive Shot,?,?,10,"Dazes the target, slowing movement speed by % for .$?a137015[  Cobra Shot will increase the duration of Concussive Shot on the target by ${/"
+317349,Condemn,o,4,22,"Condemn a foe to suffer for their sins, causing up to  Shadow damage. Only usable on enemies who are above 80% health or below 20% health.  "
+299315,Condensed Life-Force,u,1,10,Infuse your Heart of Azeroth with Condensed Life-Force.
+120,Cone of Cold,o,2,21,Targets in a cone in front of you take  Frost damage and $?a386763[are frozen in place for ][have movement slowed by % for ].
+17962,Conflagrate,?,?,18,"Triggers an explosion on the target, dealing  Fire damage.$?s196406[  Reduces the cast time of your next Incinerate or Chaos Bolt by % for ."
+759,Conjure Mana Gem,?,?,10,Conjures a Mana Gem that can be used to instantly restore % mana and grant % spell damage for . Holds up to  charges.  $@spellname118812 $@s
+190336,Conjure Refreshment,u,1,11,Conjures mana food for you and your allies. Conjured items disappear if logged out for more than 15 minutes.
+324143,Conqueror's Banner,m,4,26,"Brandish the Conqueror's Banner, granting  Mastery and % increased movement speed to you and your  nearest allies, and preventing movement s"
+404834,Consecrated Blade,u,1,10,Blade of Justice casts Consecration at the target's location.  This effect can only occur every 10 sec.
+26573,Consecration,u,2,7,"Consecrates the land beneath you, causing $?s405289[${*1.05} Radiant][${*1.05} Holy] damage over  to enemies who enter the area$?s204054[ an"
+473662,Consume,o,1,31,"Drain the essence from your target, dealing  Cosmic damage.  Castable while moving.  |CFFffffffGenerates  Fury$?a1215617[ and  Soul :Fragmen"
+278326,Consume Magic,?,?,15,Consume  beneficial Magic effect removing it from the target$?s320313[ and granting you  Fury][].
+205223,Consumption,o,4,53,Strikes all enemies in front of you with a hungering attack that deals  Physical damage and heals you for % of that damage.
+121183,Contemplation,u,1,7,Allows you a moment of peace as you kneel in quiet contemplation to ponder the nature of the Light.
+93375,Control Demon,u,1,10,"Summons a Voidwalker under your command, able to withstand heavy punishment."
+93321,Control Pet,u,1,10,Allows you to give commands to control your pet.
+111673,Control Undead,?,?,10,"Dominates the target undead creature up to level , forcing it to do your bidding for ."
+323764,Convoke the Spirits,u,4,26,"Call upon the Night Fae for an eruption of energy, channeling a rapid flurry of  Druid spells and abilities over .  You will cast $?a24858|a"
+360952,Coordinated Assault,?,?,35,"You and your pet charge your enemy, striking them for a combined  Physical damage. You and your pet's bond is then strengthened for , causin"
+127344,Corpse Exploder,u,2,12,Cause a target corpse to explode in a shower of gore. Does not affect mechanical or elemental corpses.
+172,Corruption,o,1,21,"Corrupts the target, causing  Shadow damage and $?a196103[ Shadow damage every  sec.][an additional  Shadow damage over .]"
+147362,Counter Shot,?,?,15,"Interrupts spellcasting, preventing any spell in that school from being cast for ."
+2139,Counterspell,c,2,12,"Counters the enemy's spellcast, preventing any spell from that school of magic from being cast for $?s12598[ and silencing the target for ]["
+117952,Crackling Jade Lightning,o,1,14,"Channel Jade lightning, causing  Nature damage over  to the target$?a154436[, generating 1 Chi each time it deals damage,][] and sometimes k"
+187874,Crash Lightning,?,?,18,"Electrocutes all enemies in front of you, dealing  Nature damage.   Enhances your weapons for , causing Stormstrike and Lava Lash to dischar"
+6201,Create Healthstone,u,1,7,Creates a Healthstone that can be consumed to restore % health.$?a386646[  $@spelldesc386646][]
+212205,Create: Crimson Vial,u,1,6,Create a Crimson Vial to share with allies. Maximum of  can be carried at once.   $@spellicon212198 $@spellname212198 $@spelldesc212198
+81136,Crimson Scourge,u,2,15,Your auto attacks on targets infected with your Blood Plague have a % chance to make your next Death and Decay cost no runes and reset its c
+1247227,Crimson Tempest,?,?,18,Slash all enemies within  yds dealing  damage. Deals reduced damage beyond  targets.  Copy the longest Garrote and Rupture on the enemies yo
+185311,Crimson Vial,h,3,28,Drink an alchemical concoction that heals you for $?a354425&a193546[${}.1][]% of your maximum health over .
+3408,Crippling Poison,u,1,7,"Coats your weapons with a Non-Lethal Poison that lasts for . Each strike has a % chance to poison the enemy, slowing movement speed by % for"
+157442,Critical Strikes,u,1,10,Increases your chance to critically strike by %.
+32223,Crusader Aura,?,?,10,Increases mounted speed by % for all party and raid members within  yds.
+35395,Crusader Strike,o,1,17,Strike the target for  $?s403664 [Holystrike][Physical] damage.$?a196926[  Reduces the cooldown of Judgment by ${/-1000}.1 sec.][]  Generate
+334275,Curse of Exhaustion,?,?,10,Reduces the target's movement speed by % for .  Curses: A warlock can only have one Curse active per target.
+1714,Curse of Tongues,?,?,10,"Forces the target to speak in Demonic, increasing the casting time of all spells by % for .$?s103112[  |CFFE55BB0Soulburn: Your Curse of Ton"
+702,Curse of Weakness,u,1,6,Increases the time between an enemy's attacks by % for .$?s103112[  |CFFE55BB0Soulburn: Your Curse of Weakness will affect all enemies in a 
+51667,Cut to the Chase,u,2,15,$?a137037[Envenom]?a137036[Dispatch][Eviscerate] grants  sec of Slice and Dice per combo point spent.
+33786,Cyclone,?,?,10,"Tosses the enemy target into the air, disorienting them but making them invulnerable for up to . Only one target can be affected by your Cyc"
+292849,Dalaran Brilliance,u,1,10,$@spelldesc292848
+122278,Dampen Harm,?,?,35,"Reduces all damage you take by % to % for , with larger attacks being reduced by more."
+49028,Dancing Rune Weapon,?,?,35,"Summons a rune weapon for  that mirrors your melee attacks and bolsters your defenses.  While active, you gain % parry chance."
+391109,Dark Ascension,?,?,30,Increases your non-periodic Shadow damage by % for .  Generates ${/100} Insanity.
+56222,Dark Command,u,1,7,"Command the target to attack you, and increases the threat you generate against them by % for ."
+1257052,Dark Harvest,?,?,22,"Consume the life force of each target afflicted by your damaging periodic effects, dealing ${*(1+ /)} Shadowflame damage over .  Damage deal"
+108416,Dark Pact,?,?,30,Sacrifices % of your current health to shield you for % of the sacrificed health plus an additional  for . Usable while suffering from contr
+178819,Dark Succor,u,2,15,"When you kill an enemy that yields experience or honor, your next Death Strike within  is free and heals for an additional % of maximum heal"
+325554,Dark Transformation,u,2,15,Dark Transformation grants your ghoul % energy.
+263346,Dark Void,?,?,30,"Unleashes an explosion of dark energy around your target, dealing  Shadow damage and applying Shadow Word: Pain to your target and ${-1} nea"
+68992,Darkflight,m,2,22,"Activates your true form, increasing current movement speed by an additional % for ."
+196718,Darkness,u,5,37,"Summons darkness around you in a$?a357419[ 12 yd][n 8 yd] radius, granting friendly targets a % chance to avoid all damage from an attack. L"
+1850,Dash,m,2,22,Shift into Cat Form and increase your movement speed by % while in Cat Form for .
+2823,Deadly Poison,o,2,15,Coats your weapons with a Lethal Poison that lasts for . Each strike has a % chance to poison the enemy for ${*/} Nature damage over . Subse
+325028,Death Chakram,u,3,22,"Throw a deadly chakram at your current target that will rapidly deal  Shadow damage  times, bouncing to other targets if they are nearby. En"
+47541,Death Coil,u,2,7,"Fires a blast of unholy energy at the target, causing  Shadow damage to an enemy or healing an Undead ally for  health.  Extends the duratio"
+50977,Death Gate,u,2,15,Opens a gate which you can use to return to Ebon Hold.  Using a Death Gate while in Ebon Hold will return you back to near your departure po
+49576,Death Grip,u,3,7,"Harnesses the energy that surrounds and binds all matter, drawing the target toward you$?a389679[ and slowing their movement speed by % for "
+137005,Death Knight,u,1,10,
+48743,Death Pact,?,?,43,"Create a death pact that heals you for % of your maximum health, but absorbs incoming healing equal to % of your max health for ."
+49998,Death Strike,?,?,18,"Focuses dark power into a strike$?s137006[ with both weapons, that deals a total of ${+}][ that deals ] Physical damage and heals you for ${"
+52212,Death and Decay,o,2,15,"Corrupts the ground targeted by the Death Knight, causing Shadow damage every sec that targets remain in the area for ."
+48265,Death's Advance,m,2,7,"For , your movement speed is increased by %, you cannot be slowed below % of normal speed, and you are immune to forced movement effects and"
+195292,Death's Caress,o,2,16,"Reach out with necrotic tendrils, dealing  Shadow damage and applying Blood Plague to your target and generating  Bone Shield charges.  $@sp"
+324128,Death's Due,u,4,11,"Corrupts the targeted ground, causing ${*11} Shadow damage over  to targets within the area.$?s316916&c1[  While you remain within the area,"
+360194,Deathmark,?,?,43,"Carve a deathmark into an enemy, dealing  Bleed damage and restoring  Energy to you over . Damage dealt to the target by your Garrote, Ruptu"
+386696,Decimating Bolt,?,?,22,"Hurl bolts of decimating magic at your target, dealing  Shadow damage and increasing the damage of your next$?s198590[][ ] $?s137046[Inciner"
+357210,Deep Breath,d,4,10,"Take in a deep breath and fly to the targeted location, spewing molten cinders dealing  Volcanic damage to enemies in your path.  Removes al"
+386208,Defensive Stance,?,?,10,A defensive combat state that reduces all damage you take by %$?a452494[ and all magic damage you take by an additional %][]$?a137048[][ and
+152280,Defile,?,?,18,"Defile the targeted ground, dealing ${(*(+1)/)} Shadow damage to all enemies over $?a315442|a331119[, and inflict Death's Due for .  Death's"
+436358,Demolish,?,?,30,"Unleash a series of precise and powerful strikes against your target, dealing ${++} damage to it, and  damage to enemies within  yds of it. "
+203555,Demon Blades,u,1,10,Your auto attacks deal an additional  $@spelldesc395041 damage and generate - Fury.
+212611,Demon Hunter,u,1,10,
+203720,Demon Spikes,u,1,6,"Surge with fel power, increasing your Armor by ${*/100}$?s321028[, and your Parry chance by %, for ][]."
+344859,Demon's Bite,o,1,14,$@spelldesc162243
+264178,Demonbolt,?,?,18,"Send the fiery soul of a fallen demon at the enemy, causing  Shadowflame damage.$?c2[  Generates 2 Soul Shards.][]"
+206478,Demonic Appetite,u,2,15,Chaos Strike has a chance to spawn a Lesser Soul Fragment. Consuming any Soul Fragment grants  Fury.
+111771,Demonic Gateway,u,3,7,Creates a demonic gateway between two locations. Activating the gateway transports the user to the other gateway. Each player can use a Demo
+267171,Demonic Strength,?,?,22,Infuse your Felguard with demonic strength and command it to charge your target and unleash a Felstorm that will deal % increased damage.
+203513,Demonic Wards,d,2,30,Your tattoos reduce $?[magic damage taken by % and physical damage taken by %.][all damage taken by %.]
+137044,Demonology Warlock,u,1,10,
+1160,Demoralizing Shout,?,?,22,"$?s199023[Demoralizes all enemies within  yards, reducing the damage they do by % for .][Demoralizes all enemies within  yards, reducing the"
+19236,Desperate Prayer,h,2,32,"Increases maximum health by $?s373450[${+}][]% for $?a458718[${(+)/1000}][${/1000}] sec, and instantly heals you for that amount."
+137046,Destruction Warlock,u,1,10,
+2836,Detect Traps,u,2,15,Greatly increased chance to detect traps.
+56814,Detection,u,1,6,Focus intently on trying to detect certain creatures.
+115450,Detox,c,1,7,"Removes all Magic$?a388874[, Poison, and Disease][] effects from the target."
+20243,Devastate,o,1,17,"A direct strike, dealing  Physical damage."
+356809,Devastation Evoker,u,1,10,
+465,Devotion Aura,d,2,7,"Party and raid members within  yds are bolstered by their devotion, reducing damage taken by %."
+118038,Die by the Sword,?,?,35,Increases your parry chance by % and reduces all damage you take by % for .
+122783,Diffuse Magic,?,?,22,"Reduces magic damage you take by % for , and transfers all currently active harmful magical effects on you back to their original caster if "
+196586,Dimensional Rift,u,1,6,"Rips a hole in time and space, opening a portal that damages your target.  Generates  Soul Shard Fragments."
+116095,Disable,?,?,18,"Reduces the target's movement speed by % for , duration refreshed by your melee attacks.$?s343731[ Targets already snared will be rooted for"
+343731,Disable,u,1,10,Disable will root targets that are already snared for .
+137032,Discipline Priest,u,1,10,Discipline Priest core passive
+781,Disengage,u,2,7,"Leap backwards$?s109215[, clearing movement impairing effects, and increasing your movement speed by % for ][]$?s109298[, and activating a w"
+356995,Disintegrate,o,1,46,"Tear into an enemy with a blast of blue magic, inflicting  Spellfrost damage over , and slowing their movement speed by % for ."
+2641,Dismiss Pet,u,1,10,Temporarily sends this pet away. You can call it back later.
+2098,Dispatch,o,2,16,"Finishing move that dispatches the enemy, dealing damage per combo point:    1 point  : ${*1} damage    2 points: ${*2} damage    3 points: "
+528,Dispel Magic,?,?,10,"Dispels Magic on the enemy target, removing  beneficial Magic :effects;."
+47585,Dispersion,m,4,25,"Disperse into pure shadow energy, reducing all damage taken by % for  and healing you for % of your maximum health over its duration, but yo"
+183752,Disrupt,c,2,13,Interrupts the enemy's spellcasting and locks them from that school of magic for .$?s183782[  Generates  Fury on a successful interrupt.][]
+386071,Disrupting Shout,?,?,22,"Taunts all enemies within  yds to attack you for , interrupts all spellcasting within  yds and prevents any spell in that school from being "
+1725,Distract,u,1,19,"Throws a distraction, attracting the attention of all nearby monsters for  seconds. Usable while stealthed."
+198034,Divine Hammer,?,?,10,Strikes all enemies nearby for $?s405289[${*1.05} Radiant][ Holy] damage every  sec. Deals reduced damage beyond 8 targets.
+64843,Divine Hymn,?,?,35,"Heals all party or raid members within  yards for ${5*} over . Each heal increases all targets' healing taken by % for , stacking.  You gain"
+498,Divine Protection,d,3,30,Reduces all damage you take by % for . Usable while stunned.
+642,Divine Shield,h,5,47,"Grants immunity to all damage, harmful effects, knockbacks and forced movement effects for . $?a204077[Taunts all targets within 15 yd.][]  "
+190784,Divine Steed,u,3,7,"Leap atop your Charger for , increasing movement speed by %. Usable while indoors or in combat."
+53385,Divine Storm,?,?,18,"Unleashes a whirl of divine energy, dealing $?s405289[${*1.05} Radiant][ Holy] damage to all nearby enemies.   Deals reduced damage beyond  "
+304971,Divine Toll,u,4,26,"Instantly cast Holy Shock, Avenger's Shield, or Judgment on up to  targets within  yds (based on your current specialization).$?c3[  Divine "
+375576,Divine Toll,?,?,22,"Instantly cast $?a137029[Holy Shock at % effectiveness]?a137028[Avenger's Shield]?a137027[Judgment][Holy Shock, Avenger's Shield, or Judgmen"
+372760,Divine Word,?,?,22,"The effectiveness of your next Holy Word: Serenity, Sanctify, or Chastise is increased by % and grants a corresponding Divine Favor for .  C"
+202577,Dome of Mist,u,2,15,Enveloping Mist transforms % of its remaining periodic healing into a Dome of Mist when dispelled.  $@spellicon205655 $@spellname205655 Abso
+205364,Dominate Mind,?,?,22,"Controls a mind up to 1 level above yours for  while still controlling your own mind. Does not work versus Demonic, Mechanical, or Undead be"
+603,Doom,?,?,30,"Inflicts impending doom upon the target, dealing  Shadow damage immediately and  Shadow damage to enemies within  yards after . Damage is re"
+384352,Doom Winds,?,?,22,"Unleash a devastating storm around yourself, dealing  Stormstrike damage every  sec to nearby enemies for .  Increases your chance to activa"
+196055,Double Jump,m,2,15,You are able to jump again while near the apex of your first jump.
+207778,Downpour,h,1,32,A burst of water at your $?a455630[Surging Totem's][Healing Rain's] location heals up to  injured allies within  yards for .
+31661,Dragon's Breath,?,?,30,Enemies in a  yd cone in front of you take  Fire damage and are disoriented for . Damage will cancel the effect.$?a235870[  Always deals a c
+375087,Dragonrage,?,?,35,"Erupt with draconic fury and exhale Pyres at  enemies within  yds.  For , Essence Burst's chance to occur is increased to %$?s376888[, and y"
+234153,Drain Life,o,2,7,"$?a334320[Drains life from the target, causing ${ * } Shadow damage over , and healing you for ${*100}% of the damage done.][Drains life fro"
+355936,Dream Breath,?,?,10,"Inhale, gathering the power of the Dream. Release to exhale, healing yourself and  injured allies in a  yd cone in front of you for ${+*}.  "
+359816,Dream Flight,?,?,35,"Take in a deep breath and fly to the targeted location, healing all allies in your path for  immediately, and  over , reduced beyond  target"
+137009,Druid,u,1,10,
+86629,Dual Wield,u,1,10,"You may equip one-handed weapons in your off-hand, and you have a chance to parry incoming frontal melee attacks."
+6197,Eagle Eye,u,1,11,Changes your viewpoint to the targeted location for . Only usable outdoors.
+198103,Earth Elemental,?,?,35,"Calls forth a $?a117013[Primal][Greater] Earth Elemental to protect you$?a1279819[, increasing your maximum health by %][ and your allies, g"
+974,Earth Shield,?,?,10,"Protects the target with an earthen shield, increasing your healing on them by % and healing them for ${*(1+/100)} when they take damage. Th"
+8042,Earth Shock,?,?,18,"Instantly shocks the target with concussive force, causing  Nature damage.$?a190493[  Earth Shock will consume all stacks of Fulmination to "
+2484,Earthbind Totem,u,3,17,Summons a totem at the target location for  that slows the movement speed of enemies within  yards by %.
+198838,Earthen Wall Totem,?,?,22,Summons a totem at the target location with ${*/100} health for . ${*/100} damage from each attack against allies within $?s382201[${*(1+/10
+51485,Earthgrab Totem,?,?,22,"Summons a totem at the target location for . The totem pulses every  sec, rooting all enemies within  yards for . Enemies previously rooted "
+382021,Earthliving Weapon,?,?,10,"Imbue your weapon with the element of Earth for . Your Riptide, Healing Wave, and Chain Heal healing has a % chance to trigger Earthliving o"
+77478,Earthquake,o,3,16,$@spelldesc61882
+395152,Ebon Might,?,?,30,Increase all damage dealing allies' primary stat by % of your own and increase your own damage by % for .  Ebon Might will split its effect 
+257537,Ebonbolt,u,3,18,"Launch a bolt of ice at the enemy, dealing  Frost damage and granting you Brain Freeze.$?s56377[  Deals ${*/100} Frost damage to a second ne"
+364343,Echo,?,?,18,"Wrap an ally with temporal energy, healing them for  and causing your next healing spell to cast an additional time on that ally at ${()}% o"
+77489,Echo of Light,h,1,16,Heals every  sec for .
+323547,Echoing Reprimand,o,4,31,"Deal  Arcane damage to an enemy, extracting their anima to Animacharge a combo point for .  Damaging finishing moves that consume the same n"
+145205,Efflorescence,u,3,8,"Grows a healing blossom at the target location, restoring  health to $?p138284[four][three] injured allies within  yards every  sec for . Li"
+117014,Elemental Blast,?,?,18,"Harnesses the raw power of the elements, dealing  Elemental damage and increasing your Critical Strike or Haste by % or Mastery by ${*}% for"
+137040,Elemental Shaman,u,1,10,Elemental Shaman baseline passive
+306830,Elysian Decree,u,4,26,Place a Kyrian Sigil at the target location that activates after .  Detonates to deal  $@spelldesc395039 damage and shatter up to  Lesser So
+292752,Embrace of the Loa,u,1,10,Choose your Loa by making an offering at Loa Shrines around the world.   Each Loa offers unique powers. Guards in Dazar'alor will tell you w
+355913,Emerald Blossom,u,3,17,"Grow a bulb from the Emerald Dream at an ally's location. After , heal up to  injured allies within  yds for ."
+370960,Emerald Communion,?,?,43,"Commune with the Emerald Dream, restoring % health and % mana every  sec for . Overhealing is transferred to an injured ally within  yds.  C"
+47568,Empower Rune Weapon,?,?,18,"Drain the will of your enemy to empower your rune weapon, dealing  Shadowfrost damage and reduced damage to enemies nearby, gaining ${/10} R"
+323999,Empowered Tiger Lightning,u,1,10,"Xuen strikes your enemies with Empowered Tiger Lightning every  sec, dealing % of the damage you and your summons have dealt to those target"
+400006,Energizing Flame,u,1,10,Living Flame restores % of its mana cost when striking an enemy.
+186452,Energy Regen,u,1,10,
+119650,Energy Usage,u,1,10,
+137041,Enhancement Shaman,o,1,18,
+184361,Enrage,u,1,10,"Becoming Enraged increases your damage done by %$?s383848[, Haste by %, and movement speed by % for .]?s440277[, Mastery by % and Leech by %"
+184364,Enraged Regeneration,?,?,35,Reduces damage taken by % and Bloodthirst restores an additional % health for . Usable while stunned or incapacitated.
+339,Entangling Roots,o,2,46,Roots the target in place for . Damage may cancel the effect.$?s33891[  |C0033AA11Tree of Life: Instant cast.|R][]
+124682,Enveloping Mist,?,?,18,"Wraps the target in healing mists, healing for  over , and increasing healing received from your other spells by %. $?a388847[  Applies Rene"
+32645,Envenom,o,2,16,"Finishing move that drives your poisoned blades in deep, dealing instant Nature damage and increasing your poison application chance by %. D"
+207317,Epidemic,u,1,8,"Causes each of your Virulent Plagues to flare up, dealing  Shadow damage to the infected enemy and  Shadow damage to foes nearby.  Extends t"
+395160,Eruption,?,?,18,"Cause a violent eruption beneath an enemy's feet, dealing  Volcanic damage split between them and nearby enemies.$?s395153[  Increases the d"
+20589,Escape Artist,u,2,22,Escape the effects of any immobilization or movement speed reduction effect.
+258860,Essence Break,?,?,30,"Slash all enemies in front of you for  Chaos damage, causing Chaos Strike and Blade Dance to deal  Chaos damage to them for . Deals reduced "
+208253,Essence of G'Hanir,u,4,26,Release the natural power within G'Hanir to increase the frequency that all of your heal over time effects heal allies by ${100*(1/(1+(/100)
+156322,Eternal Flame,?,?,18,Heals an ally for  and an additional  over .  Healing increased by $?c1[][]% when cast on self.
+359073,Eternity Surge,?,?,22,"Focus your energies to release a salvo of pure magic, dealing  Spellfrost damage to an enemy. Damages additional enemies within  yds when em"
+472433,Evangelism,?,?,22,"Immediately Power Word: Radiance your target at % effectiveness, and causes your next  casts of Power Word: Radiance to be instant cast with"
+5277,Evasion,d,3,28,Increases your dodge chance by ${/2}% for .$?a344363[ Dodging an attack while Evasion is active will trigger Mastery: Main Gauche.][]
+196819,Eviscerate,o,1,14,"Finishing move that disembowels the target, causing damage per combo point.$?s382511[ Targets with Find Weakness suffer an additional % dama"
+12051,Evocation,u,3,8,Increases your mana regeneration by % for .
+353167,Evoker,u,1,10,
+5308,Execute,o,2,47,"Attempt to finish off a wounded foe, causing ${+} Physical damage. Only usable on enemies that have less than 20% health.$?s316402[  Generat"
+343527,Execution Sentence,?,?,22,"Unleash a heavenly blast around the target, dealing  Holy damage to all enemies within  yds, and call down a hammer that slowly falls from t"
+109304,Exhilaration,h,3,32,Heals you for % and your pet for % of maximum health.$?s385539[  Exhilaration heals you for an additional ${}.1% of your maximum health over
+53270,Exotic Beasts,u,1,10,"You master the art of beast training, teaching you the ability to tame Exotic pets."
+322101,Expel Harm,h,2,22,"Expel negative chi from your body, healing for  and dealing % of the amount healed as Nature damage to an enemy within  yards.$?s322102[  Dr"
+325153,Exploding Keg,?,?,30,"Hurls a flaming keg at the target location, dealing  Fire damage to nearby enemies, causing your attacks against them to deal  additional Fi"
+212431,Explosive Shot,?,?,30,"Fires an explosive shot at your target that lasts for . Every  sec the target burns for  Fire damage and explode, dealing % of the damage to"
+365585,Expunge,?,?,10,"Expunge toxins affecting an ally, removing all Poison effects."
+198013,Eye Beam,?,?,22,"Blasts all enemies in front of you,$?s320415[ dealing guaranteed critical strikes][] for up to  Chaos damage over . Deals reduced damage bey"
+126,Eye of Kilrogg,u,1,7,Summons an Eye of Kilrogg and binds your vision to it. The eye is stealthed and moves quickly but is very fragile.
+209202,Eye of Tyr,o,3,30,"Releases a blinding flash from Truthguard, causing  Holy damage to all nearby enemies within  yds and reducing all damage they deal to you b"
+321297,Eyes of the Beast,u,2,9,Take direct control of your pet and see through its eyes for .
+586,Fade,d,1,22,"Fade out, removing all your threat and reducing enemies' detection range against you for ."
+327661,Fae Guardians,u,4,26,Call forth three faerie guardians to attend your targets for .  $@spellname342132: Any direct attacks against the target restore ${/100}.1% 
+328923,Fae Transfusion,u,4,26,"Transfer the life force of up to  enemies in the targeted area, dealing ${(*/) + } Nature damage evenly split to each enemy target over . $?"
+327104,Faeline Stomp,u,4,11,"Strike the ground fiercely to expose a faeline for , dealing  Nature damage to up to 5 enemies, and restores  health to up to 5 allies withi"
+326860,Fallen Order,u,5,37,"Opens a mystic portal for . Every ${*3} sec, it summons a spirit of your order's fallen Ox, Crane, or Tiger adepts for  sec.  Fallen $?[Ox]?"
+51723,Fan of Knives,o,2,16,"Sprays knives at all enemies within  yards, dealing  Physical damage and applying your active poisons at their normal rate. Deals reduced da"
+6196,Far Sight,u,1,7,Changes your viewpoint to the targeted location for .
+5782,Fear,u,2,7,"Strikes fear in the enemy, disorienting for . Damage may cancel the effect. Limit 1.$?a386648[  $@spelldesc386648][]"
+6991,Feed Pet,h,2,16,"Feeds your pet the selected item, instantly restoring % of its total health. Not usable in combat.  You may use the Beast Lore ability to id"
+5384,Feign Death,u,3,18,"Feign death, tricking enemies into ignoring you. Lasts up to ."
+1966,Feint,d,2,13,"Performs an evasive maneuver, $?a134735&a79008[reducing damage taken by %.]?a79008[reducing damage taken from area-of-effect attacks by % an"
+258925,Fel Barrage,?,?,22,"Unleash a torrent of Fel energy, rapidly consuming Fury to inflict  Chaos damage to all enemies within  yds, lasting  or until Fury is deple"
+212084,Fel Devastation,?,?,22,"Unleash the fel within you, damaging enemies directly in front of you for ${*(2/)} Fire damage over .$?s320639[ Causing damage also heals yo"
+320639,Fel Devastation,u,2,15,Fel Devastation damage also heals you for up to ${*(2/)} health.
+333889,Fel Domination,?,?,35,"Your next Imp, Voidwalker, Incubus, Succubus, Felhunter, or Felguard Summon spell is free and has its casting time reduced by %. "
+211881,Fel Eruption,?,?,30,Impales the target for  Chaos damage and stuns them for .
+334591,Fel Firebolt,u,1,10,Teaches your Wild Imps how to spend % less energy when casting Fel Firebolt.
+195072,Fel Rush,m,3,7,"Rush forward, incinerating anything in your path for  Chaos damage."
+232893,Felblade,?,?,15,Charge to your target and deal  $@spelldesc395020 damage.  $?s263642[Generates  Fury.]?s203513[Generates  Fury.]?a203555[Generates  Fury.][G
+56285,Felguard,u,1,10,$@spelldesc56246
+300349,Feline Adept,u,2,15,"Soothe, Remove Corruption, and Innervate are usable in Cat Form."
+20719,Feline Grace,u,1,10,Reduces damage from falling$?s114295[][ while in Cat Form].
+197490,Feral Affinity,u,1,10,You gain:  $@spellicon131768 $@spellname131768 $@spelldesc131768  You also learn:  $@spellicon1822 $@spellname1822 $@spellicon1079 $@spellna
+137011,Feral Druid,o,1,18,
+274837,Feral Frenzy,?,?,30,"Unleash a furious frenzy, clawing your target  times for ${*} Physical damage and an additional ${**/} Bleed damage over .  Awards  combo po"
+16949,Feral Instinct,u,2,15,Reduces the chance enemies have to detect you while Prowl is active.
+196884,Feral Lunge,m,3,17,"Lunge at your enemy as a ghostly wolf, biting them to deal  Physical damage."
+197692,Feral Overrides Passive,u,1,10,
+51533,Feral Spirit,?,?,22,Summons two $?s262624[Elemental ][]Spirit $?s147783[Raptors][Wolves] that aid you in battle for . They are immune to movement-impairing effe
+22568,Ferocious Bite,o,1,18,Finishing move that causes Physical damage per combo point and consumes up to $?a102543[${*(1+/100)}][] additional Energy to increase damage
+85948,Festering Strike,o,1,23,"Slash the enemy for  Physical damage and corrupt your weapon with blight, causing your next - Scourge Strikes to summon a Lesser Ghoul.  $@s"
+197147,Festering Wound,u,1,10,"Festering Strike applies a pustulent lesion that will burst on death or when damaged by Scourge Strike, dealing  Shadow damage and generatin"
+125050,Fetch,u,1,7,Command your pet to retrieve the loot from a nearby corpse within  yards.
+204021,Fiery Brand,?,?,18,"Brand yourself and an enemy target with demonic symbols, reducing the damage you take by % and instantly dealing  Fire damage$?s320962[ and "
+320962,Fiery Brand,u,2,15,Fiery Brand deals  Fire damage every  sec.
+343721,Final Reckoning,?,?,30,"Call down a blast of heavenly energy, dealing  Holy damage to all targets in the area and causing them to take % increased damage from your "
+383328,Final Verdict,?,?,18,"Unleashes a powerful weapon strike that deals  Holy damage to an enemy target,  Has a % chance to reset the cooldown of Judgment."
+199736,Find Treasure,u,1,6,"You can sense nearby treasure, making it appear on the minimap. Lasts ."
+319836,Fire Blast,o,1,14,Blasts the enemy for  Fire damage.$?a231568[  Fire: Always deals a critical strike.][]
+357208,Fire Breath,u,3,8,"Inhale, stoking your inner flame. Release to exhale, burning enemies in a cone in front of you for ${+} Fire damage, reduced beyond 5 target"
+198067,Fire Elemental,?,?,10,"Calls forth a Greater Fire Elemental to rain destruction on your enemies for .   While the Fire Elemental is active, Flame Shock deals damag"
+58247,Fire From the Heavens,u,1,10,$@spelldesc57954
+137019,Fire Mage,u,1,10,
+333974,Fire Nova,?,?,10,"Erupt a burst of fiery damage from all targets affected by your Flame Shock, dealing  Volcanic damage to up to  targets within  yds of your "
+320813,Fire Ward,?,?,22,"Shields you with fire, absorbing ${**(1+$@versadmg)} Fire damage for .  Only one ward may be active at a time."
+133,Fireball,o,1,37,"Throws a fiery ball that causes  Fire damage.$?a157642[  Each time your Fireball fails to critically strike a target, it gains a stacking % "
+265221,Fireblood,c,3,22,"Removes all poison, disease, curse, magic, and bleed effects and increases your $?a162700[Agility]?a162702[Strength]?a162697[Agility]?a16269"
+368847,Firestorm,?,?,15,"An explosion bombards the target area with white-hot embers, dealing ${*} Fire damage to enemies over ."
+127933,Fireworks,u,1,7,"Launch fireworks from your gun, bow or crossbow."
+117418,Fists of Fury,o,1,27,$@spelldesc113656
+470411,Flame Shock,o,1,14,$@spelldesc188389
+2120,Flamestrike,?,?,18,"Calls down a pillar of fire, burning all enemies within the area for  Fire damage. Deals reduced damage beyond  targets.$?a205037[  Leaves b"
+10444,Flametongue Attack,o,1,14,$@spelldesc318038
+318038,Flametongue Weapon,?,?,10,"Imbue your $?s33757[off-hand ][]weapon with the element of Fire for $?c2[, causing each of your attacks to deal  additional Fire damage]?c1["
+269751,Flanking Strike,?,?,22,"You and your pet leap to the target and strike it as one, dealing a total of  Physical damage.$?a1252931[  Flanking Strike generates  stacks"
+164862,Flap,m,3,8,"$?a114301[You descend on starry dust, slowing your falling speed.][You flap your wings, slowing your falling speed.]"
+1543,Flare,u,1,13,Exposes all hidden and invisible enemies within the targeted area for  sec.
+2061,Flash Heal,h,1,46,A fast spell that heals an ally for .
+19750,Flash of Light,h,1,31,Quickly heal a friendly target for $?&$?a134735[${*1}][].$?s231642[  Generates  Holy Power.][]
+324149,Flayed Shot,o,4,29,"Fire a shot at your enemy, dealing  Shadow damage and then causing them to bleed for  Shadow damage over . Each time Flayed Shot deals damag"
+31209,Fleet Footed,m,2,15,Your movement speed is increased by % and you take reduced falling damage.
+331180,Fleshcraft,d,2,8,$@spelldesc324631
+324701,Flicker,m,2,8,Teleports you forward  yds or until reaching an obstacle.
+165962,Flight Form,m,2,9,"Shapeshift into flight form, increasing movement speed and allowing you to fly. Cannot use in combat.   The act of shapeshifting frees the c"
+44614,Flurry,?,?,10,"Unleash a flurry of ice, striking the target  times for a total of ${*} $?a1248002[Frostfire][Frost] damage.  |CFFffffffApplies ${*} :stacks"
+101545,Flying Serpent Kick,m,3,18,"Soar forward through the air at high speed for .   If used again while active, you will land, reducing the movement speed of enemies within "
+45243,Focused Will,u,2,15,"Melee attacks against you cause you to gain Focused Will, reducing $?c3[magic damage you take by % and physical damage you take by % for ][d"
+350570,Fodder to the Flame,u,2,15,"Your damaging abilities have a chance to call forth a demon from the Theater of Pain for . Throw Glaive deals lethal damage to the demon, wh"
+37846,Force of Nature,u,1,10,
+263642,Fracture,o,1,31,"Rapidly slash your target for ${+} Physical damage, and shatter  Lesser Soul Fragments from them.  Generates  Fury."
+1243807,Frantic Frenzy,?,?,22,"Unleash a furious frenzy, flickering to nearby targets in front of you  times and clawing all enemies around them for  Physical damage and a"
+187650,Freezing Trap,c,2,17,Hurls a frost trap to the target location that incapacitates the first enemy that approaches for . Damage may break the effect. Limit 1. Tra
+22842,Frenzied Regeneration,?,?,10,"Heals you for % health over $?s301768[, and increases healing received by %][]."
+190780,Frost Breath,o,1,40,$@spelldesc190778
+137006,Frost Death Knight,o,1,18,
+55095,Frost Fever,o,1,20,A disease that deals ${*/} Frost damage over  and has a chance to grant the Death Knight ${/10} Runic Power each time it deals damage.
+137020,Frost Mage,u,1,10,
+122,Frost Nova,o,2,15,Blasts enemies within  yds of you for  Frost damage and freezes them in place for . Damage may interrupt the freeze effect.
+196840,Frost Shock,?,?,18,"Chills the target with frost, causing  Frost damage and reducing the target's movement speed by % for .$?a343725&a210714[  Generates ${+} Ma"
+49143,Frost Strike,?,?,10,"Chill your $?==0[weapon with icy power and quickly strike the enemy, dealing  Frost damage.][weapons with icy power and quickly strike the e"
+116,Frostbolt,o,1,14,"Launches a bolt of frost at the enemy, causing  Frost damage and slowing movement speed by % for .$?a1246769[  |CFFffffffApplies  :stacks; o"
+431044,Frostfire Bolt,?,?,10,"Launches a bolt of frostfire at the enemy, causing  Frostfire damage, slowing movement speed by %, and causing an additional  Frostfire dama"
+317214,Frostreaper,u,2,15,Killing Machine also causes your next Obliterate to deal Frost damage.
+207230,Frostscythe,?,?,18,A sweeping attack that strikes all enemies in front of you for  Frost damage. Deals reduced damage beyond  targets.   Consumes Killing Machi
+279302,Frostwyrm's Fury,?,?,22,"Summons a frostwyrm who breathes on all enemies within  yd in front of you, dealing  Frost damage, stunning enemies for , and slowing moveme"
+84714,Frozen Orb,?,?,22,"Launches an orb of swirling ice in front of you, dealing up to ${20*} Frost damage to all enemies it passes through over . After a short del"
+137050,Fury Warrior,o,1,18,
+202770,Fury of Elune,?,?,22,"$?a137010[$@spelldesc428655][Calls down a beam of pure celestial energy that follows the enemy, dealing up to  Astral damage over  within it"
+390386,Fury of the Aspects,u,7,39,Increases haste by % for all party and raid members for .  Allies receiving this effect will become Exhausted and unable to benefit from Fur
+203413,Fury of the Eagle,o,1,25,$@spelldesc203415
+201467,Fury of the Illidari,u,4,26,"Throws two demonic glaives in a whirlwind of energy, causing ${7*(+)} Chaos damage over  to all nearby enemies."
+703,Garrote,o,2,21,"Garrote the enemy, causing  Bleed damage over .$?a196861[ Silences the target for  when used from Stealth.][]  Awards  combo :points;."
+2645,Ghost Wolf,m,2,7,"Turn into a Ghost Wolf, increasing movement speed by $?s382215[${+}][]% and preventing movement speed from being reduced below %."
+28880,Gift of the Naaru,h,2,32,Heals the target for % of the caster's total health over .
+194913,Glacial Advance,u,1,6,"Summon glacial spikes from the ground that advance forward, each dealing ${*/} Frost damage near their eruption point and applying Razorice."
+342817,Glaive Tempest,?,?,10,$@spelldesc1244557
+131347,Glide,h,2,17,Reduces your falling speed.  You can activate this ability with the jump key while falling.
+200758,Gloomblade,?,?,18,"Punctures your target with your shadow-infused blade for  Shadow damage, bypassing armor.$?s319949[ Critical strikes apply Find Weakness for"
+108199,Gorefiend's Grasp,?,?,22,"Shadowy tendrils coil around all enemies within  yards of a hostile or friendly target, pulling them to the target's location and Silencing "
+426591,Goremaw's Bite,?,?,22,"Lash out at your target and  additional nearby enemies, inflicting  Shadow damage and causing them to Bleed for  damage over .  % of all dam"
+1776,Gouge,?,?,15,"Gouges the eyes of an enemy target, incapacitating for . Damage may interrupt the effect.  Must be in front of your target.  Awards  combo :"
+195457,Grappling Hook,m,3,8,Launch a grappling hook and pull yourself to the target location.
+383269,Graveyard,?,?,10,"The dead erupt beneath all foes with Virulent Plague, dealing  Shadow damage and  Shadow damage to enemies nearby."
+110959,Greater Invisibility,?,?,35,"Makes you invisible and untargetable for , removing all threat. Any action taken cancels this effect.$?a382293[  Increases your movement spe"
+378773,Greater Purge,?,?,15,"Purges the enemy target, removing  beneficial Magic effects."
+108503,Grimoire of Sacrifice,?,?,22,"Sacrifices your demon pet for power, gaining its command demon ability, and causing your spells to sometimes also deal  additional Shadow da"
+1276467,Grimoire: Fel Ravager,?,?,35,Summons a Fel Ravager to assist you in combat for  and will purge 1 beneficial magic effect from an enemy.  Turns into Devour Magic while on
+111898,Grimoire: Felguard,?,?,35,Summons a Felguard who attacks the target for  that deals % increased damage.  This Felguard will stun and interrupt their target when summo
+1276452,Grimoire: Imp Lord,?,?,35,Summons an Imp Lord to assist you in combat for  and will remove 1 harmful effect from you when summoned.   Transforms into Singe Magic whil
+6795,Growl,u,1,7,"Taunts the target to attack you, and increases the threat you generate against them by % for ."
+137010,Guardian Druid,o,1,18,
+47788,Guardian Spirit,?,?,35,"Calls upon a guardian spirit to watch over the friendly target for , increasing healing received by %. If the target would die, the Spirit s"
+86659,Guardian of Ancient Kings,?,?,10,"Empowers you with the spirit of ancient kings, reducing all damage you take by % for ."
+300091,Guardian of Azeroth,u,4,35,Call upon Azeroth to summon a Guardian of Azeroth to aid you in combat for .
+386833,Guillotine,?,?,22,"Your Felguard hurls his axe towards the target location, erupting when it lands and dealing  Shadowflame damage every  sec for  to nearby en"
+192063,Gust of Wind,m,3,12,A gust of wind hurls you forward.
+280752,Hallucinations,u,1,10,"Your successful Dispel Magic, Mass Dispel, Purify Disease, and Power Word: Shield casts generate  Insanity during combat."
+120517,Halo,?,?,22,"Creates a ring of Holy energy around you that quickly expands to a  yd radius, healing allies for  and dealing  Holy damage to enemies.  Hea"
+853,Hammer of Justice,o,2,25,Stuns the target for .
+405397,Hammer of Retribution,?,?,30,Crush the target for  damage and stuns the target for  Physical damage.
+24275,Hammer of Wrath,m,1,36,Hurls a divine hammer that strikes an enemy for  Holy damage.  Generates  Holy Power.
+53595,Hammer of the Righteous,?,?,18,Hammers the current target for  Physical damage.$?s26573&s203785[  Hammer of the Righteous also causes a wave of light that hits all other t
+1715,Hamstring,o,1,14,"Maims the enemy for  Physical damage, reducing movement speed by % for ."
+414273,Hand of Divinity,?,?,10,$@spelldesc1242008
+62124,Hand of Reckoning,u,1,7,"Commands the attention of an enemy target, forcing them to attack you and increasing the threat you generate against them by % for ."
+190925,Harpoon,m,2,7,"Hurls a harpoon at an enemy, rooting them in place for  and pulling you to them."
+466904,Harrier's Cry,u,5,37,"Your Eagle descends from the skies with a screech, giving the signal to attack.  Increases haste by % for all party and raid members for .  "
+193265,Hatchet Toss,o,1,15,"Tosses a hatchet at an enemy, dealing  Physical damage."
+48181,Haunt,?,?,23,"A ghostly soul haunts a single target, dealing  Shadow damage and increasing your damage dealt to the target by % for .  $?a1261984[While ac"
+80240,Havoc,?,?,22,"Marks a target with Havoc for , causing your single target spells to also strike the Havoc victim for % of the damage dealt."
+212612,Havoc Demon Hunter,o,1,18,
+287712,Haymaker,o,3,30,"Wind up, then unleash your might upon your foe, dealing  Physical damage, stunning for , and knocking them back substantially. "
+122281,Healing Elixir,?,?,18,"Drink a healing elixir, healing you for % of your maximum health."
+73920,Healing Rain,?,?,23,"Blanket the target area in healing rains, restoring ${*6*2/} health to up to  allies over .  You can only have one Healing Rain active at a "
+125355,Healing Sphere,h,2,23,$@spelldesc116092
+8004,Healing Surge,h,1,46,A quick surge of healing energy that restores  of a friendly target's health.$?a410673[  Consumes Stormweaver for increased cast speed and h
+108280,Healing Tide Totem,?,?,43,"Summons a totem at your feet for , which pulses every  sec, healing all party or raid members within  yards for .  Healing reduced beyond  t"
+77472,Healing Wave,h,1,47,An efficient wave of healing energy that restores  of a friendly target’s health.
+206930,Heart Strike,?,?,18,"Instantly strike the target and 1 other nearby enemy, causing  Physical damage, and reducing enemies' movement speed by % for $?s316575[  Ge"
+1261867,Heart of the Wild,?,?,35,Perform a powerful off-role ability depending on your currently active shapeshift form.$?c4[][  Non-shapeshifted: Empowered Wild Growth that
+6544,Heroic Leap,m,3,7,"Leap through the air toward a target location, slamming down with destructive force to deal  Physical damage to all enemies within  yards$?c"
+57755,Heroic Throw,o,1,15,"Throws your weapon at the enemy, causing  Physical damage. Generates high threat."
+32182,Heroism,u,5,37,Increases haste by % for all party and raid members for .  Allies receiving this effect will become Exhausted and unable to benefit from Her
+51514,Hex,c,3,17,"Transforms the enemy into a frog for . While hexed, the victim is incapacitated, and cannot attack or cast spells. Damage may cancel the eff"
+2637,Hibernate,?,?,10,Forces the enemy target to sleep for up to . Any damage will awaken the target. Only one target can be forced to hibernate at a time. Only w
+236776,High Explosive Trap,?,?,22,"Hurls a fire trap to the target location that explodes when an enemy approaches, causing  Fire damage and knocking all enemies away. Limit ."
+105809,Holy Avenger,?,?,35,Your Holy Power generation is tripled for .
+432459,Holy Bulwark,?,?,10,"Will the Light to coalesce and become manifest as a Holy Armament, wielded by your friendly target.  $@spellicon432496 $@spellname432496:  $"
+14914,Holy Fire,?,?,23,Consumes the enemy in Holy flames that cause  Holy damage and an additional  Holy damage over .$?a231687[ Stacks up to  times.][]
+82326,Holy Light,h,1,47,"A powerful but expensive spell, healing a friendly target for .$?s231642[  Generates  Holy Power.][]"
+132157,Holy Nova,?,?,18,"An explosion of holy light around you deals up to  Holy damage to enemies and up to  healing to allies within  yds, reduced if there are mor"
+137029,Holy Paladin,o,1,18,Holy Paladin core passive
+137031,Holy Priest,u,1,10,Holy Priest core passive
+114165,Holy Prism,u,3,18,"Fires a beam of light that scatters to strike a clump of targets.   If the beam is aimed at an enemy target, it deals  Holy damage and radia"
+20473,Holy Shock,u,3,8,"Triggers a burst of Light on the target, dealing  Holy damage to an enemy, or  healing to an ally.$?s272906[  Has an additional % critical s"
+88625,Holy Word: Chastise,?,?,30,Chastises the target for  Holy damage and $?s200199[stuns][incapacitates] them for $?s200199[][].$?s63733[  Cooldown reduced by  sec when yo
+265202,Holy Word: Salvation,?,?,43,"Heals all allies within  yards for , and applies Renew and  stacks of Prayer of Mending to each of them.  Cooldown reduced by  sec when you "
+34861,Holy Word: Sanctify,?,?,18,"Releases miraculous light at a target location, healing up to  allies within  yds for .  Cooldown reduced by  sec when you cast Prayer of He"
+2050,Holy Word: Serenity,?,?,18,"Perform a miracle, healing an ally for .  Cooldown reduced by  sec when you cast Flash Heal$?a1246517[ or Prayer of Healing][]."
+195283,Hot Streak,u,2,15,Getting two direct-damage critical strikes in a row with Fire spells will make your next Pyroblast or Flamestrike spell instant cast and app
+294184,Hotbar Slot 01,u,1,10,
+294189,Hotbar Slot 02,u,1,10,
+358267,Hover,m,2,7,Launch yourself and gain % increased movement speed for  sec.  Allows Evoker spells to be cast while moving and is castable while casting. D
+5484,Howl of Terror,?,?,22,"Let loose a terrifying howl, causing $?a1270255[${+}][] enemies within  yds to flee in fear, disorienting them for . Damage may cancel the e"
+49184,Howling Blast,?,?,18,"Blast the target with a frigid wind, dealing ${*/} $?s204088[Frost damage and applying Frost Fever to the target.][Frost damage to that foe,"
+137014,Hunter,u,1,10,
+257284,Hunter's Mark,u,1,6,"Apply Hunter's Mark to the target, causing the target to always be seen and tracked by the Hunter.  Hunter's Mark increases the target's dam"
+242155,Hybrid Kinship,u,1,10,Learn the secrets of taming Feathermanes.
+312924,Hyper Organic Light Originator,u,3,32,Summon Organic Light duplicates to distract your foes for .
+11426,Ice Barrier,?,?,10,"Shields you with ice, absorbing  damage$?s235297[ and increasing your armor by %][] for .  Melee attacks against you reduce the attacker's m"
+45438,Ice Block,h,4,19,"Encases you in a block of ice, protecting you from all attacks and damage for , but during that time you cannot attack, move, or cast spells"
+108839,Ice Floes,?,?,10,Makes your next Mage spell with a cast time shorter than  sec castable while moving. Unaffected by the global cooldown and castable while ca
+30455,Ice Lance,?,?,10,"Quickly fling a shard of ice at the target, dealing  Frost damage.  |CFFffffffShatters  stacks of Freezing.|R"
+157997,Ice Nova,?,?,23,"Causes a whirl of icy wind around the enemy, dealing  Frost damage to the target and all other enemies within  yds, freezing them in place f"
+342240,Ice Strike,?,?,18,"Strike your target with an icy blade, dealing  Frost damage and snaring them by % for .  Ice Strike increases the damage of your next Frost "
+48792,Icebound Fortitude,d,4,30,"Your blood freezes, granting immunity to Stun effects and reducing all damage you take by % for ."
+210714,Icefury,?,?,18,"Hurls frigid ice at the target, dealing  Frost damage and causing your next Frost Shock to deal % increased damage, damage  additional :targ"
+12472,Icy Veins,?,?,35,"Calm your mind, sending you into a focused trance for . Grants % haste, increases spell damage by %, and prevents damage from delaying your "
+190456,Ignore Pain,?,?,10,"Fight through the pain, ignoring % of damage taken $?c1[for  sec or ][]until ${()*(1+$@versadmg)} damage has been prevented.$?c3[  Repeated "
+131784,Illusion,u,1,32,Transforms the Mage to look like another player for .
+348,Immolate,o,1,14,"Burns the enemy, causing  Fire damage immediately and an additional  Fire damage over .  Periodic damage generates 1 Soul Shard Fragment and"
+258920,Immolation Aura,m,1,7,"Engulf yourself in flames, $?a320364 [instantly causing  $@spelldesc1224451 damage to enemies within  yards and ][]radiating ${*} $@spelldes"
+321792,Impending Catastrophe,u,4,26,"Call forth a cloud of chaotic anima that travels to the target enemy, dealing  Shadow damage to enemies in its path. When the anima reaches "
+202168,Impending Victory,?,?,23,"Instantly attack the target, causing  damage and healing you for % of your maximum health.  Killing an enemy that yields experience or honor"
+196277,Implosion,?,?,15,"Demonic forces suck  of your Wild Imps toward the target, and then cause them to violently explode, dealing  Shadowflame damage to all enemi"
+462031,Implosive Trap,?,?,22,"Hurls a fire trap to the target location that explodes when an enemy approaches, causing  Fire damage and knocking all enemies up. Limit . T"
+217832,Imprison,?,?,22,"Imprisons a demon, beast, or humanoid, incapacitating them for . Damage may cancel the effect. Limit 1."
+365262,Improved Emerald Blossom,u,1,10,"Emerald Blossom costs  Essence, but no longer has a cooldown."
+397708,Improved Execute,u,1,10,"Execute no longer has a cooldown and if your foe survives, % of the Rage spent is refunded."
+405834,Improved Prowl,u,2,15,"While stealthed, Rake will also stun the target for , and deal % increased damage.  While stealthed, Shred deals % increased damage, and has"
+231691,Improved Sprint,m,3,22,Reduces the cooldown of Sprint by ${/-1000} sec.
+231602,Improved Vivify,u,1,10,Vivify healing is increased by %.
+1463,Incanter's Flow,u,2,7,"Magical energy flows through you while in combat, building up to ${*5}% increased damage and then diminishing down to % increased damage, cy"
+99,Incapacitating Roar,?,?,22,"Shift into Bear Form and invoke the spirit of Ursol to let loose a deafening roar, incapacitating all enemies within  yards for . Damage may"
+102543,Incarnation: Avatar of Ashamane,?,?,35,An improved Cat Form that grants all of your known Berserk effects and lasts . You may shapeshift in and out of this improved Cat Form for i
+102560,Incarnation: Chosen of Elune,?,?,10,"An improved Moonkin Form that grants both Eclipses, any learned Celestial Alignment bonuses, $?a429536[% increased Arcane damage, ][]and % c"
+102558,Incarnation: Guardian of Ursoc,?,?,35,"An improved Bear Form that grants the benefits of Berserk, causes Mangle to hit up to  targets, $?a429536[increases Arcane damage by %, ][]a"
+5420,Incarnation: Tree of Life,d,2,30,
+29722,Incinerate,o,1,42,"Draws fire toward the enemy, dealing  Fire damage.  Generates $?a387173[${*(1+(/100))} Soul Shard Fragments and an additional ${1*(1+(/100))"
+189926,Increased Threat,u,1,10,
+189110,Infernal Strike,m,3,8,"Leap through the air toward a targeted location, dealing  Fire damage to all enemies within  yards."
+417382,Initial Druid,u,1,10,
+356816,Initial Evoker,u,1,10,
+362170,Initial Monk,u,1,10,
+417383,Initial Paladin,u,1,10,
+417191,Initial Priest,u,1,10,
+417374,Initial Shaman,u,1,10,
+325446,Initial Warrior,u,1,10,
+29166,Innervate,?,?,35,"Infuse a friendly healer with energy, causing them to regenerate % of their maximum mana over ."
+397527,Insanity,u,1,10,
+315584,Instant Poison,o,1,15,Coats your weapons with a Lethal Poison that lasts for . Each strike has a % chance of poisoning the enemy which instantly inflicts  Nature 
+404752,Instrument of Retribution,u,1,10,"When any party or raid member within  yards dies, you gain Avenging Wrath for  sec."
+391054,Intercession,u,5,37,"Petition the Light on the behalf of a fallen ally, restoring spirit to body and allowing them to reenter battle with % health and at least %"
+1244088,Interpose,?,?,10,"Run at high speed toward a target location near your allies, taking % of all damage dealt to allies within  yards for  or until you take at "
+3411,Intervene,m,3,7,"Run at high speed toward an ally, intercepting all melee and ranged attacks against them for  while they remain within  yds."
+5246,Intimidating Shout,c,2,22,Causes the targeted enemy to cower in fear while all enemies within  yards flee from you and their movement speed is reduced by % for . Dama
+19577,Intimidation,?,?,22,Commands your pet to intimidate the target stunning your target for $?a1258509[ and nearby enemies for ${}.1 sec][].
+378776,Inundate,u,2,15,"Your successful Purge, Cleanse Spirit, Healing Stream Totem, Hex, and Wind Shear casts generate  Maelstrom during combat."
+392160,Invigorate,?,?,15,Refreshes the duration of your active Lifebloom and Rejuvenation effects on the target and causes them to complete % faster.
+66,Invisibility,u,3,33,"Turns you invisible over , reducing threat each second. While invisible, you are untargetable by enemies. Lasts . Taking any action cancels "
+325197,"Invoke Chi-Ji, the Red Crane",?,?,35,"Summon an effigy of Chi-Ji for  that kicks up  Gust of Mists when you Blackout Kick, Rising Sun Kick, or Spinning Crane Kick, healing up to "
+132578,"Invoke Niuzao, the Black Ox",?,?,35,"Summons an effigy of Niuzao, the Black Ox for  that attacks your primary target and Stomps when you cast Blackout Kick, damaging all nearby "
+123904,"Invoke Xuen, the White Tiger",?,?,43,"Summons an effigy of Xuen, the White Tiger for . Xuen attacks your primary target, and strikes 3 enemies within  yards every  sec with Tiger"
+322118,"Invoke Yu'lon, the Jade Serpent",?,?,43,"Summons an effigy of Yu'lon, the Jade Serpent for . Yu'lon will heal injured allies with Soothing Breath, healing the target and up to  alli"
+102342,Ironbark,?,?,22,"The target's skin becomes as tough as Ironwood, reducing damage taken by %$?a197061[ and increasing healing from your heal over time effects"
+192081,Ironfur,?,?,10,Increases armor by ${*/100} for .$?a231070[ Multiple uses of this ability may overlap.][]
+388193,Jadefire Stomp,?,?,10,"Strike the ground fiercely to expose a path of jade for $?a137025[ that increases your movement speed by % while inside][], dealing  Nature "
+162056,Jailer's Judgment,c,5,37,"Stuns the target Player for . If the judgment holds for , the enemy will be instantly teleported to your jail. Can only be used while in Ash"
+20271,Judgment,m,1,20,"Judges the target, dealing  Holy damage$?s231663[, and causing them to take % increased damage from your next Holy Power ability.][.]$?s3158"
+215661,Justicar's Vengeance,?,?,18,"Focuses Holy energy to deliver a powerful weapon strike that deals  $?s403664[Holystrike][Holy] damage, and restores % of your maximum healt"
+381989,Keep It Rolling,?,?,35,Increase the remaining duration of your active Roll the Bones combat enhancement by ${/1000} sec.
+121253,Keg Smash,?,?,18,"Smash a keg of brew, dealing ${*(1+/100)} Physical damage to your primary target and  Physical damage to all other enemies within  yds, and "
+1766,Kick,c,2,12,A quick kick that interrupts spellcasting and prevents any spell in that school from being cast for .
+408,Kidney Shot,c,3,17,"Finishing move that stuns the target$?a426588[ and creates shadow clones to stun all other nearby enemies][]. Lasts longer per combo point, "
+34026,Kill Command,?,?,10,"Give the command to kill, causing your pet to charge your target and savagely deal  Physical damage to the enemy."
+53351,Kill Shot,?,?,18,"You attempt to finish off a wounded target, dealing  Physical damage. Only usable on enemies with less than % health."
+51690,Killing Spree,?,?,43,"Finishing move that unleashes a barrage of gunfire, striking random enemies within  yards for Physical damage. Number of strikes increased p"
+326434,Kindred Spirits,u,4,11,"Form a bond with an ally. Every , you may empower the bond for , granting you an effect based on your partner's role, and granting them an e"
+385627,Kingsbane,?,?,30,"Release a powerful poison from your weapons and inject it into your target, dealing  Nature damage instantly and an additional  Nature damag"
+358385,Landslide,u,3,22,"Conjure a path of shifting stone towards the target location, rooting enemies for . Damage may cancel the effect."
+12975,Last Stand,?,?,43,Increases maximum health by % for  and instantly heals you for that amount.
+51505,Lava Burst,?,?,10,"Hurls molten lava at the target, dealing  Fire damage. Lava Burst will always critically strike if the target is affected by Flame Shock and"
+60103,Lava Lash,?,?,23,"Charges your off-hand weapon with lava and burns your target, dealing  Fire damage.  Damage is increased by % if your offhand weapon is imbu"
+77756,Lava Surge,u,2,15,Flame Shock periodic damage has a chance to reset the remaining cooldown on Lava Burst and cause your next Lava Burst to be instant.
+633,Lay on Hands,h,7,49,Heals a friendly target for an amount equal to % your maximum health.$?a387791[  Grants the target % increased armor for .][]  Cannot be use
+73325,Leap of Faith,u,3,8,"Pulls the spirit of a party or raid member, instantly moving them directly in front of you."
+86092,Leather Specialization,b,2,19,Increases your Agility by % while wearing only Leather armor.
+119381,Leg Sweep,c,3,22,"Knocks down all enemies within  yards, stunning them for ."
+1706,Levitate,u,1,7,"Levitates a party or raid member for , floating a few feet above the ground, granting slow fall, and allowing travel over water."
+49039,Lichborne,u,3,23,"Draw upon unholy energy to become Undead for , increasing Leech by % and making you immune to Charm, Fear, and Sleep."
+116849,Life Cocoon,?,?,10,"Encases the target in a cocoon of Chi energy for , absorbing  damage and increasing all healing over time received by %.$?a388548[  Applies "
+299944,Life-Binder's Invocation,u,3,22,Implant ${+} Seeds of Eonar divided over all allies within  yds.  Seeds that expire unused reduce the cooldown of this ability by ${/1000} s
+33763,Lifebloom,?,?,18,"Heals the target for  over . When Lifebloom expires, is dispelled, or is refreshed near expiration the target is instantly healed for .  May"
+85222,Light of Dawn,?,?,18,"Unleashes Holy energy, healing up to  injured allies within a  yd radius around you for ."
+208065,Light of T'uure,h,4,21,"Applies Light of the Naaru to the target, healing for  and increasing your healing done to that target by % for ."
+86678,Light of the Ancient Kings,h,1,16,Heals the target of your heals for 30% of the amount healed.
+53651,Light's Beacon,u,2,15,$@spelldesc53563
+114158,Light's Hammer,u,4,25,"Hurls a Light-infused hammer to the ground, dealing  Holy damage to nearby enemies and healing up to 6 nearby allies for , every  sec for ${"
+255647,Light's Judgment,o,3,30,"Call down a strike of Holy energy, dealing  Holy damage to enemies within  yards after  sec. Damage reduced beyond  targets."
+207946,Light's Wrath,o,4,40,"Draws upon the power of Light's Wrath, dealing  Radiant damage to the target, increased by % per ally affected by your Atonement."
+188196,Lightning Bolt,o,1,20,"Hurls a bolt of lightning at the target, dealing  Nature damage.$?a343725[  Generates  Maelstrom.]?a383303[  Consumes Maelstrom Weapon for i"
+305483,Lightning Lasso,?,?,22,"Grips the target in lightning, stunning and dealing  Nature damage over  while the target is lassoed. Can move while channeling."
+231065,Lightning Reflexes,u,2,15,You gain Dodge equal to % of your Critical Strike from gear.
+192106,Lightning Shield,o,1,15,Surround yourself with a shield of lightning for .  Melee attackers have a % chance to suffer  Nature damage$?a137041[ and have a % chance t
+192222,Liquid Magma Totem,?,?,22,Summons a totem at the target location that erupts dealing  Fire damage and applying Flame Shock to  enemies within  yards. Continues hurlin
+44457,Living Bomb,?,?,22,"The target becomes a Living Bomb, taking  Fire damage over , and then exploding to deal an additional  Fire damage to the target and reduced"
+361469,Living Flame,u,1,6,"Send a flickering flame towards your target, $?c2[healing an ally for  or dealing  Fire damage to an enemy.][dealing  Fire damage to an enem"
+204066,Lunar Beam,?,?,22,"Summons a beam of lunar light at your target's location, dealing  Arcane damage each second to your target and  to up to  other enemies with"
+187828,Maelstrom,u,1,10,
+137018,Mage,u,1,10,
+86099,Mail Specialization,b,2,19,Increases your Agility by % while wearing only Mail armor.
+22570,Maim,?,?,30,"Finishing move that causes Physical damage and stuns the target. Damage and duration increased per combo point:     1 point  : ${*1} damage,"
+86392,Main Gauche,o,1,14,$@spelldesc76806
+324536,Malefic Rapture,?,?,10,"Your damaging periodic effects from your spells erupt on all targets, causing  Shadowflame damage per effect."
+121039,Mana Attunement,u,1,10,Your mana regeneration is increased by %.
+16191,Mana Tide Totem,?,?,35,"Summons a totem at your feet for , granting % increased mana regeneration to allies within  yards."
+33917,Mangle,o,3,24,Mangle the target for  Physical damage.$?a231064[ Deals % additional damage against bleeding targets.][]  Generates ${/10} Rage.
+210726,Mark of Aluneth,u,4,26,"Creates a runic prison at the target's location, slowing enemy movement speed by ${/-1}%, inflicting ${*6} Arcane damage over , and then det"
+1126,Mark of the Wild,u,2,7,"Infuse a friendly target with the power of the wild, increasing their Versatility by % for 60 minutes.  If target is in your party or raid, "
+137619,Marked for Death,?,?,22,"Marks the target, instantly granting full combo points and increasing the damage of your finishing moves by % for . Cooldown resets if the t"
+137016,Marksmanship Hunter,u,1,10,
+195182,Marrowrend,?,?,18,"Smash the target, dealing  Physical damage and generating  charges of Bone Shield.  $@spellicon195181 $@spellname195181 $@spelldesc195181"
+316440,Martial Prowess,?,?,10,$@spelldesc1273062
+414660,Mass Barrier,?,?,35,Cast $?c1[Prismatic]?c2[Blazing]?c3[Ice][] Barrier on yourself and  allies within  yds.
+32375,Mass Dispel,?,?,35,"Dispels magic in a  yard radius, removing all harmful Magic from  friendly targets and  beneficial Magic :effects; from  enemy targets. Pote"
+102359,Mass Entanglement,?,?,30,Roots the target and all enemies within  yards in place for . Damage may interrupt the effect. Usable in all shapeshift forms.
+414664,Mass Invisibility,?,?,35,You and your allies within  yards instantly become invisible for . Taking any action will cancel the effect.  $?a415945[]  [Does not affect 
+383121,Mass Polymorph,?,?,22,"Transforms all enemies within  yards into sheep, wandering around incapacitated for . While affected, the victims cannot take actions but wi"
+212036,Mass Resurrection,u,2,10,Brings all dead party members back to life with % health and mana. Cannot be cast when in combat.
+361178,Mass Return,u,2,10,Brings all dead party members back to life with % health and mana. Cannot be cast when in combat. 
+53271,Master's Call,u,2,15,"Your pet removes all root and movement impairing effects from itself and a friendly target, and grants immunity to all such effects for ."
+393014,Mastery: Astral Invocation,u,1,10,Your Nature spells deal ${}.1% increased damage.  Your Arcane spells deal ${}.1% increased damage.  
+77513,Mastery: Blood Shield,b,1,14,"Each time you heal yourself with Death Strike, you gain ${}.1% of the amount healed as a Physical damage absorption shield, up to % of your "
+77220,Mastery: Chaotic Energies,u,1,10,"Your spells deal ${/2}.1% increased damage, plus a random amount of up to ${/2}.1% additional increased damage."
+115636,Mastery: Combo Strikes,u,1,10,Your abilities deal ${}.1% more damage when they are not a repeat of the previous ability.
+76857,Mastery: Critical Block,d,2,30,Increases your chance to block by ${}.1% and your chance to critically block (blocking twice the amount) by ${}.1%.  Also increases your att
+77226,Mastery: Deep Healing,u,1,10,"Increases healing from your spells by up to ${}.1%, based on the current health of your target. Lower health targets are healed for more."
+185164,Mastery: Demonic Presence,u,1,10,Increases your Chaos damage by ${}.1%$?s320654[ and your movement speed by ${}.1%.][.]
+76671,Mastery: Divine Bulwark,d,2,30,"Increases your chance to block melee attacks by ${}.1%$?a317907[, and your chance to block spells and harmful periodic effects by ${}.1%.][."
+77515,Mastery: Dreadblade,u,1,10,Increases the damage of your Minions and Shadow damage abilities by ${}.1%.  Increases the critical strike damage of your Minions and Diseas
+77485,Mastery: Echo of Light,u,1,10,Your direct healing spells heal for an additional ${}.1% over .  Increases the healing of Renew by ${}.1%.
+168534,Mastery: Elemental Overload,u,1,10,"All Elemental damage increased by ${}.1%.  Your Lightning Bolt,$?s454009[ Tempest,][] Lava Burst, and Chain Lightning casts have a ${}.1% ch"
+117906,Mastery: Elusive Brawler,b,1,14,"Each time you are hit by a melee attack, or hit with Blackout Kick, you gain stacking ${}.1% increased Dodge chance until your next successf"
+77223,Mastery: Enhanced Elements,u,1,10,"Increases your chance to trigger Stormsurge and Windfury Weapon by ${}.2%, and increases all Fire, Frost, and Nature damage you deal by ${}."
+76808,Mastery: Executioner,u,1,10,Increases the damage done by your finishing moves by ${}.1%.
+203747,Mastery: Fel Blood,b,1,14,Increases Armor by ${}.1% of your Agility. Armor bonus is doubled while Demon Spikes is active.$?s321299[  Also increases your attack power 
+77514,Mastery: Frozen Heart,u,1,10,Increases the damage of your Frost abilities by ${}.1%.
+362980,Mastery: Giantkiller,u,1,10,"Increases the damage of your spells by up to ${}.1%, based on the current health of your target. Higher health targets take more damage."
+271534,Mastery: Grace,u,1,10,Your healing and absorption is increased by ${}.1% on targets with Atonement.
+117907,Mastery: Gust of Mists,m,2,15,"Renewing Mist and Enveloping Mist cause a gust of healing mists, instantly healing the primary target for ."
+77495,Mastery: Harmony,u,1,10,"Your healing is increased by ${}.1% for each of your Restoration heal over time effects on the target, reduced by each additional effect."
+267316,Mastery: Highlord's Judgment,u,1,10,"Increases Holy damage done by ${}.1%.  Judgment has a ${(/2)*(1+(/100))*(1+(/100))}.1% chance to blast the target with the Light, dealing  H"
+12846,Mastery: Ignite,u,1,10,"Your target burns for an additional ${}.1% over  of the total direct damage caused by your Fireball, Fire Blast,  Pyroblast$?s153561[, Meteo"
+363510,Mastery: Life-Binder,u,1,10,Healing done to allies is increased by ${}.1% while their health percentage is lower than your own.
+183997,Mastery: Lightbringer,u,1,10,"Increases healing done by up to ${}.2%, based on the proximity of your target."
+76806,Mastery: Main Gauche,u,1,10,Your main-hand attacks have a % chance to trigger an attack with your off-hand that deals  Physical damage.
+77219,Mastery: Master Demonologist,u,1,10,Increases the damage done by your demons by ${}.1%.
+76657,Mastery: Master of Beasts,u,1,10,Increases the damage done by your pets by ${}.1% and the damage of your shots and traps by ${}.1%.
+155783,Mastery: Nature's Guardian,d,2,30,Increases your maximum health and healing received by ${}.1%.  Also increases your attack power by ${}.1%.
+77215,Mastery: Potent Afflictions,u,1,10,"Increases damage done by Agony, $?s445465[Wither][Corruption],$?s63106[ Siphon Life,][]$?s205179[ Phantom Singularity,][]$?s278350[ Vile Tai"
+76803,Mastery: Potent Assassin,u,1,10,Increases the damage done by your Nature damage $?s319473[and bleeds ][]by ${}.1%.
+77493,Mastery: Razor Claws,u,1,10,Increases the damage done by your Cat Form bleed and other periodic abilities and finishing moves by ${}.1%.
+190740,Mastery: Savant,d,2,30,Increases your Mana regeneration rate and maximum Mana by ${}.1%.  Arcane Charges increase the damage of Arcane Blast by an additional ${}.1
+343690,Mastery: Shadow Weaving,u,1,10,"Your damage is increased by ${}.1% for each of Vampiric Touch, Shadow Word: Pain, and Shadow Word: Madness on the target. During Voidform, a"
+193468,Mastery: Sniper Training,u,1,10,Range of all your ranged abilities is increased by ${}.1% and damage of all abilities increased by ${}.1%.
+263135,Mastery: Spirit Bond,o,1,18,You and your pet deal % increased damage and take % reduced damage. This bonus is increased by % when you're within  yds of each other.
+406380,Mastery: Timewalker,u,1,10,"Casting an empower spell grants Shifting Sands to  :allies;, preferring damage dealers, increasing their Versatility by ${}.1% for .  The du"
+76856,Mastery: Unshackled Fury,o,1,18,Increases damage done while Enraged by ${}.1%.
+6807,Maul,?,?,18,Maul the target for  Physical damage.
+205154,Mecha-Bond Imprint Matrix,u,1,10,Allows you to tame pets in the Mechanical family.
+299374,Memory of Lucid Dreams,u,3,22,"Clear your mind and attune yourself with the Heart of Azeroth, $?a137020[causing Frostbolt and Flurry to generate an additional Icicle]?a137"
+136,Mend Pet,h,2,16,"Heals your pet for % of its total health over .$?s343242[  Each time Mend Pet heals your pet, it has a % chance to dispel a harmful magic ef"
+191427,Metamorphosis,m,4,25,"Leap into the air and land with explosive force, dealing  Chaos damage to enemies within 8 yds, and stunning them for . Players are Dazed fo"
+153561,Meteor,?,?,22,"Calls down a meteor which lands at the target location after , dealing  Fire damage to all enemies, and burns the ground, dealing ${8*} Fire"
+81333,Might of the Frozen Wastes,u,2,15,"Wielding a two-handed weapon increases Obliterate damage by %, Frostscythe damage by %, and your auto attack critical strikes always grant K"
+5211,Mighty Bash,?,?,22,Invokes the spirit of Ursoc to stun the target for . Usable in all shapeshift forms.
+8092,Mind Blast,?,?,18,Blast the target's mind for  Shadow damage.$?c1[ Costs a high amount of mana.][]$?s137033[  Generates ${/100} Insanity.][]
+605,Mind Control,?,?,10,"Controls a mind up to 1 level above yours for . Does not work versus Demonic$?A320889[][, Undead,] or Mechanical beings. Shares diminishing "
+15407,Mind Flay,o,1,45,"Assaults the target's mind with Shadow energy, causing  Shadow damage over  and slowing their movement speed by %.  Generates ${*/100} Insan"
+47528,Mind Freeze,?,?,15,"Smash the target's mind with cold, interrupting spellcasting and preventing any spell in that school from being cast for ."
+453,Mind Soothe,u,1,8,"Soothes enemies in the target area, reducing the range at which they will detect you by  yards. Only affects Humanoid and Dragonkin targets."
+2096,Mind Vision,u,1,7,Allows the caster to see through the target's eyes for . Will not work if the target is in another instance or on another continent.
+123040,Mindbender,?,?,22,Summons a Mindbender to attack the target for .   Generates ${/100}.1% Mana each time the Mindbender attacks.
+323673,Mindgames,o,4,45,"Assault an enemy's mind, dealing ${*/100} Shadow damage and briefly reversing their perception of reality.  $?c3[For , the next  damage they"
+55342,Mirror Image,u,3,23,"Creates  copies of you nearby for , which cast spells and attack your enemies. While active, you generate significantly reduced threat.  Tak"
+34477,Misdirection,?,?,22,"Misdirects all threat you cause to the targeted party or raid member, beginning with your next attack within  and lasting for ."
+137024,Mistweaver Monk,o,1,18,Mistweaver Monk core passive
+259387,Mongoose Bite,?,?,18,A brutal attack that deals  Physical damage and grants you Mongoose Fury.  Mongoose Fury Increases the damage of Mongoose Bite by % $?s38573
+130610,Monk,u,2,15,You're a Level  Monk.  Grats!
+8921,Moonfire,u,1,6,"A quick beam of lunar light burns the enemy for  Arcane damage and then an additional  Arcane damage over $?s238049[, and causes enemies to "
+24858,Moonkin Form,?,?,10,"Shapeshift into $?s114301[Astral Form][Moonkin Form], increasing the damage of your spells by % and your armor by %, and granting protection"
+6789,Mortal Coil,?,?,22,"Horrifies an enemy target into fleeing, incapacitating for  and healing you for % of maximum health."
+12294,Mortal Strike,?,?,18,A vicious strike that deals  Physical damage and reduces the effectiveness of healing on the target by % for .
+210053,Mount Form,m,2,15,"Shapeshift into a mountable ground travel form, increasing movement speed by %. Also protects the caster from Polymorph effects. Only usable"
+257620,Multi-Shot,o,2,32,"Fires several missiles, hitting your current target and all enemies within  yards for  Physical damage. Deals reduced damage beyond  targets"
+1329,Mutilate,o,1,25,"Attack with both weapons, dealing a total of  Physical damage.  Awards  combo :points;."
+8647,Mystic Touch,u,2,15,"Your damage weakens the target, increasing Physical damage taken by %."
+89745,Mysticism,b,2,19,Increases your Intellect by %.
+360823,Naturalize,c,1,7,"Cleanses harmful effects from the target, removing all Magic and Poison effects."
+88423,Nature's Cure,c,1,7,"Cures harmful effects on the friendly target, removing all Magic$?s392378[, Curse, and Poison][] effects."
+132158,Nature's Swiftness,?,?,22,"Your next Regrowth, $?[Cyclone, ][]Rebirth, $?s473909[Ancient of Lore, ][]or Entangling Roots is instant, free, castable in all forms, and h"
+203524,Neltharion's Fury,o,4,29,"Enter a defensive posture, critically blocking all attacks while a stream of shadowflame erupts from Scale of the Earth-Warder, dealing ${6*"
+114923,Nether Tempest,?,?,18,Places a Nether Tempest on the target which deals  Arcane damage over  to the target and nearby enemies within 10 yds. Limit 1 target. Deals
+86091,Nethermancy,b,1,14,Increases your Intellect by %.
+196555,Netherwalk,?,?,10,$@spelldesc1246100
+274281,New Moon,?,?,18,Deals  Astral damage to the target and empowers New Moon to become Half Moon.   Generates ${/10} Astral Power.
+50464,Nourish,?,?,18,Heals a friendly target for .  Receives % bonus from $@spellname77495.
+406041,Nourishing Sands,u,1,10,"When you kill an enemy that yields experience or honor, $?s414969[][the cooldown of Emerald Blossom is refreshed and ]your next Emerald Blos"
+298284,Nullification Dynamo,u,1,10,Infuse your Heart of Azeroth with Nullification Dynamo.
+5761,Numbing Poison,u,3,12,"Coats your weapons with a Non-Lethal Poison that lasts for . Each strike has a % chance of poisoning the enemy, clouding their mind and slow"
+49020,Obliterate,?,?,10,A brutal attack $?==0[that deals  Physical and  Frost damage.][with both weapons that deals a total of  Physical and  Frost damage.]
+417537,Oblivion,?,?,30,"Unleash wicked magic upon your target's soul, dealing  Shadow damage over .  Deals % increased damage, up to ${*}%, per damage over time eff"
+363916,Obsidian Scales,d,3,14,"Reinforce your scales, reducing damage taken by % $?s374348[and causing you to be healed over  equal to the damage it prevented][]. Lasts ."
+205545,Odyn's Fury,o,4,60,"Unleashes the fiery power Odyn bestowed the Warswords, dealing ${+} Fire damage and an additional  Fire damage over  to all enemies within  "
+315720,Onslaught,?,?,15,Brutally attack an enemy for  Physical damage$?s388933[ and become Enraged for .][.]  Generates ${/10} Rage.
+372048,Oppressing Roar,?,?,35,"Let out a bone-shaking roar at enemies in a cone in front of you, increasing the duration of crowd controls that affect them by % in the nex"
+77575,Outbreak,?,?,10,Inflicts the target with Dread Plague and Virulent Plague.  $@spellicon1240996$@spellname1240996 $@spelldesc1240996  $@spellicon191587$@spel
+137036,Outlaw Rogue,o,1,18,
+7384,Overpower,?,?,18,"Overpower the enemy, dealing  Physical damage. Cannot be blocked, dodged, or parried.$?s316440&s845[  Increases the damage of your next Mort"
+231042,Owlkin Frenzy,u,2,15,"While in Moonkin Form, single-target attacks against you have a % chance make your next Starfire instant."
+33206,Pain Suppression,?,?,10,Reduces all damage taken by a friendly target by % for . Castable while stunned.
+137026,Paladin,d,2,30,
+115078,Paralysis,?,?,22,Incapacitates the target for . Limit 1. Damage may cancel the effect.
+3127,Parry,d,2,30,Gives a chance to parry enemy melee attacks.
+3714,Path of Frost,u,1,6,"Activates a freezing aura for  that creates ice beneath your feet, allowing party or raid members within  yards to walk on water.  Usable wh"
+440008,Peer Into Peace,u,1,10,Soothing Mist now follows the target of your Enveloping Mist or Vivify and its channel time is increased by ${/1000} sec.
+47540,Penance,u,3,8,"Launches a volley of holy light at the target, causing  Holy damage to an enemy or  healing to an ally over . Castable while moving.  When y"
+381773,Permeating Chill,u,1,10,Your damaging Blue spells reduce the target's movement speed by % for .
+205179,Phantom Singularity,?,?,30,"Places a phantom singularity above the target, which consumes the life of all enemies within  yards, dealing ${8*} damage over , healing you"
+257541,Phoenix Flames,?,?,10,Hurls a Phoenix that deals  Fire damage to the target and reduced damage to other nearby enemies.$?a343222[  Always deals a critical strike.
+194466,Phoenix's Flames,o,3,16,Hurls a Phoenix that causes  Fire damage to the target and splashes  Fire damage to other nearby enemies. This damage is always a critical s
+1804,Pick Lock,u,1,7,Allows opening of locked chests and doors that require a skill level of up to .
+921,Pick Pocket,u,1,9,Pick the target's pocket.
+12323,Piercing Howl,?,?,22,"Snares all enemies within  yards, reducing their movement speed by % for .  Spurs all allies within  yards, increasing their movement speed "
+51271,Pillar of Frost,?,?,22,The power of frost increases your Strength by % for .
+147974,Pillar of Light,u,1,10,$@spelldesc146959
+185763,Pistol Shot,o,1,15,"Draw a concealed pistol and fire a quick shot at an enemy, dealing ${*/} Physical damage and reducing the target's movement speed by % for ."
+86101,Plate Specialization,b,2,19,Increases your Strength by % while wearing only Plate armor.
+209997,Play Dead,c,2,17,"Playing Dead, tricking enemies into ignoring them. Lasts up to ."
+200829,Plea,h,3,40,"A quick, efficient plea to heal an ally for ."
+383013,Poison Cleansing Totem,?,?,35,Summons a totem at your feet that removes all Poison effects from a nearby party or raid member within  yards every  sec for .
+185565,Poisoned Knife,o,2,17,"Throws a poison-coated knife, dealing  damage and applying your active Lethal and Non-Lethal Poisons.  Awards  combo :points;."
+118,Polymorph,c,2,7,"Transforms the enemy into a sheep, wandering around incapacitated for . While affected, the victim cannot take actions but will regenerate h"
+343140,Portal,u,2,9,"Creates a portal, teleporting group members that use it to a Major City."
+10060,Power Infusion,?,?,35,"Infuses the target with power for , increasing haste by %.  Can only be cast on players."
+264130,Power Siphon,?,?,22,"Instantly sacrifice up to  Wild Imps, generating  charges of Demonic Core that cause Demonbolt to deal % additional damage."
+62618,Power Word: Barrier,?,?,35,"Summons a holy barrier to protect all allies at the target location for , reducing all damage taken by % and preventing damage from delaying"
+21562,Power Word: Fortitude,d,1,13,"Infuses the target with vitality, increasing their Stamina by % for .  If the target is in your party or raid, all party and raid members wi"
+373481,Power Word: Life,?,?,23,A word of holy power that heals the target for .   Only usable if the target is below % health.
+194509,Power Word: Radiance,?,?,18,"A burst of light heals the target and  injured allies within  yards for , and applies Atonement for % of its normal duration."
+17,Power Word: Shield,d,2,12,"Shields an ally for , absorbing  damage."
+596,Prayer of Healing,?,?,18,A powerful prayer that heals your target and ${-1} injured allies within  yards for .
+33076,Prayer of Mending,u,3,8,"Places a ward on an ally that heals them for  the next time they take damage, and then jumps to another ally within  yds. Jumps up to  times"
+16974,Predatory Swiftness,u,2,15,"Your finishing moves have a % chance per combo point to make your next Regrowth or Entangling Roots instant, free, and castable in all forms"
+1277933,Preparation,?,?,35,"Immediately reset the cooldowns of Adrenaline Rush, Between the Eyes, Blade Flurry, Blade Rush, and Killing Spree."
+409311,Prescience,?,?,10,"Grant an ally the gift of foresight, increasing their critical strike chance by % $?s412774[and occasionally copying their damage and healin"
+205025,Presence of Mind,?,?,22,Causes your next  Arcane :Blasts; to be instant cast$?a134735[ and deal % of normal damage][].
+356810,Preservation Evoker,u,1,10,
+137030,Priest,u,1,10,
+264667,Primal Rage,u,4,35,Increases haste by % for all party and raid members for .  Allies receiving this effect will become Sated and unable to benefit from Primal 
+73899,Primal Strike,o,3,16,An instant weapon strike that causes  Physical damage.
+285381,Primal Wrath,?,?,18,Finishing move that deals instant damage and applies Rip to all enemies within  yards. Lasts longer per combo point.     1 point  : ${*2} pl
+326059,Primordial Wave,u,4,11,"Blast your target with a Primordial Wave, dealing  Shadow damage and apply Flame Shock to an enemy, or $?a137039[heal an ally for  and apply"
+327163,Primordial Wave,h,4,22,$@spelldesc326059
+235450,Prismatic Barrier,?,?,10,"Shields you with an arcane force, absorbing  damage and reducing magic damage taken by % for .  The duration of harmful Magic effects agains"
+137028,Protection Paladin,o,1,18,
+137048,Protection Warrior,o,1,18,
+94289,Protector of the Innocent,h,1,16,"Casting a targeted heal on any target, except yourself, also heals you for ."
+115546,Provoke,u,1,7,"Taunts the target to attack you, and increases the threat you generate against them by % for $?s328670[ Causes them to move toward you at % "
+102547,Prowl,u,2,7,"Allows the Druid to vanish from sight, entering an improved stealth mode.  Lasts until cancelled."
+64044,Psychic Horror,?,?,22,"Terrifies the target in place, stunning them for ."
+8122,Psychic Scream,c,2,17,"Lets out a psychic scream, causing all enemies within  yards to flee, disorienting them for . Damage may interrupt the effect."
+6552,Pummel,c,2,12,"Pummels the target, interrupting spellcasting and preventing any spell in that school from being cast for ."
+370,Purge,?,?,10,"Purges the enemy target, removing  beneficial Magic :effects;.$?(s147762&s51530) [ Successfully purging a target grants a stack of Maelstrom"
+299320,Purification Protocol,u,1,10,Infuse your Heart of Azeroth with Purification Protocol.
+527,Purify,c,1,7,"Dispels harmful effects on the target, removing all Magic$?s390632[ and Disease][] effects."
+213634,Purify Disease,?,?,10,Removes all Disease effects from a friendly target.
+440006,Purify Disease,u,1,7,$@spelldesc213634
+77130,Purify Spirit,c,1,7,Removes all Magic$?s383016[ and Curse][] effects from a friendly target.
+119582,Purifying Brew,?,?,10,"Clears % of your |CFFffffffStaggered|R damage, or a minimum of % of your maximum health."
+1247378,Putrefy,?,?,10,Summon a Lesser Ghoul to strike the enemy for  Shadow damage and have them explode for  Shadow damage to nearby enemies.
+357211,Pyre,?,?,10,"Lob a ball of flame, dealing  Fire damage to your target and all enemies within  yds."
+11366,Pyroblast,?,?,18,Hurls an immense fiery boulder that causes  Fire damage$?a321711[ and an additional  Fire damage over ][].
+44448,Pyroblast Clearcasting Driver,u,2,15,
+107079,Quaking Palm,c,2,22,"Strikes the target with lightning speed, incapacitating them for , and turns off your attack."
+351338,Quell,?,?,15,Interrupt an enemy's spellcasting and prevent any spell from that school of magic from being cast for .
+307443,Radiant Spark,o,4,31,"Conjure a radiant spark that causes  Arcane damage instantly, and an additional  damage over .  The target takes % increased damage from you"
+200851,Rage of the Sleeper,?,?,22,"Unleashes the rage of Ursoc for , preventing % of all damage you take, increasing your damage done by %, granting you % leech, and reflectin"
+85288,Raging Blow,o,2,40,A mighty blow with both weapons that deals a total of  Physical damage.$?s383854[  Raging Blow has a % chance to instantly reset its own coo
+5740,Rain of Fire,?,?,18,"Calls down a rain of hellfire the target location, dealing ${*8} Fire damage over  to enemies in the area.  This spell is cast at a selected"
+61999,Raise Ally,u,3,33,"Pours dark energy into a dead target, reuniting spirit and body to allow the target to reenter battle with % health and at least % mana."
+46584,Raise Dead,u,3,18,Raises $?s207313[an Abomination]?s58640[a Geist][a Ghoul] to fight by your side. You can have a maximum of one $?s207313[Abomination]?s58640
+1822,Rake,?,?,18,Rake the target for  Bleed damage and an additional  Bleed damage over .$?s48484[ Reduces the target's movement speed by % for .][]$?a231052
+97462,Rallying Cry,u,5,37,"Lets loose a rallying cry, granting all party or raid members within  yards % temporary and maximum health for .  Health granted increased b"
+184367,Rampage,?,?,10,"Unleash a series of  brutal strikes for a total of  Physical damage.$?a1265357[  While Improved Whirlwind is active, Rampage's final strike "
+257044,Rapid Fire,?,?,23,"Shoot a stream of  shots at your target over , dealing a total of ${*} Physical damage. Usable while moving.  Each shot generates  Focus."
+186270,Raptor Strike,?,?,18,A vicious slash dealing  Physical damage.
+156287,Ravager,o,1,20,$@spelldesc152277
+323546,Ravenous Frenzy,u,5,37,"For , Druid spells you cast increase your damage and healing by %, and haste by %, stacking.  If you spend ${/10} sec idle, the Frenzy overc"
+205021,Ray of Frost,?,?,18,"Channel an icy beam at the enemy for , dealing  Frost damage every ${}.2 sec.  |CFFffffffApplies ${/} :stacks; of Freezing over its duration"
+400254,Raze,?,?,18,"Strike with the might of Ursoc, dealing  Physical damage to your target and  to all other enemies in front of you. Damage reduced beyond  ta"
+468146,Reactive Resin,u,2,15,"When your Restoration heal over time effects are removed by enemies, they are replaced with Reactive Resin, healing an ally for  over . Mult"
+1226019,Reap,?,?,10,"Cut a hole in the fabric of reality, sending a concentrated bolt of cosmic matter towards your target, dealing  Cosmic damage.  Reap gathers"
+216698,Reap Souls,u,4,11,"Consume all Tormented Souls collected by Ulthalesh, increasing your damage by % and doubling the effect of all of Ulthalesh's other traits f"
+439843,Reaper's Mark,?,?,30,"Viciously slice into the soul of your enemy, dealing $?a137008[][] Shadowfrost damage and applying Reaper's Mark.  Each time you deal Shadow"
+212051,Reawaken,u,3,11,Returns all dead party members to life with % of maximum health and mana. Cannot be cast when in combat.
+20484,Rebirth,u,7,39,"Returns the spirit to the body, restoring a dead target to life with % health and at least % mana. Castable in combat."
+96231,Rebuke,?,?,15,Interrupts spellcasting and prevents any spell in that school from being cast for .
+1719,Recklessness,?,?,22,"Go berserk, increasing all Rage generation by % and granting your abilities % increased critical strike chance for .$?a396749[  Generates ${"
+1252871,Red Moon,?,?,30,Channel the power of the enraged moon to deal  Arcane damage to your target over . Casting Mangle extends its duration by ${/1000}.1 sec and
+7328,Redemption,u,1,7,Brings a dead ally back to life with % of maximum health and mana. Cannot be cast when in combat.
+389713,Reflection,?,?,10,Teleports you back to where you last $?s212653[Shimmered][Blinked]. Castable while casting and unaffected by the global cooldown.
+196725,Refreshing Jade Wind,?,?,22,"Summon a whirling tornado around you, causing ${*} healing over  to up to  allies within  yards."
+291944,Regeneratin',h,2,42,"Regenerate % of your maximum health over , interrupted by direct damage. "
+8936,Regrowth,h,1,46,Heals a friendly target for  and another ${*} over .$?s231032[ Initial heal has a % increased chance for a critical effect if the target is 
+20608,Reincarnation,u,1,10,Allows you to resurrect yourself upon death with % health and mana. This effect can occur only once every  minutes.$?a381689[  While you are
+774,Rejuvenation,h,1,36,Heals the target for  over .$?s155675[  You can apply Rejuvenation twice to the same target.][]$?s33891[  |C0033AA11Tree of Life: Healing in
+196770,Remorseless Winter,o,2,21,"Drain the warmth of life from all nearby enemies within  yards, dealing ${9**/} Frost damage over  and reducing their movement speed by %."
+2782,Remove Corruption,?,?,10,"Nullifies corrupting effects on the friendly target, removing all Curse and Poison effects."
+440015,Remove Corruption,u,1,6,$@spelldesc2782
+475,Remove Curse,?,?,10,"Removes all Curses from a friendly target. $?s115700[If any Curses are successfully removed, you deal % additional damage for .][]"
+772,Rend,?,?,18,"Wounds the target, causing  Physical damage instantly and an additional  Bleed damage over ."
+139,Renew,?,?,18,"Fill the target with faith in the light, healing for  over ."
+108238,Renewal,?,?,30,Instantly heals you for % of maximum health. Usable in all shapeshift forms.
+115151,Renewing Mist,u,2,7,"Surrounds the target with healing mists, restoring  health over .  If Renewing Mist heals a target past maximum health, it will travel to an"
+370665,Rescue,?,?,22,Swoop to an ally and fly with them to the target location. Clears movement impairing effects from you and your ally.
+308491,Resonating Arrow,o,4,34,"Fire a resonating arrow to the target location that deals  Arcane damage to any enemy in the area, and fill the area with echoing anima for "
+79096,Restless Blades,u,2,15,"Finishing moves reduce the remaining cooldown of many Rogue skills by  sec per combo point spent.  Affected skills: Adrenaline Rush, Between"
+388615,Restoral,?,?,18,Heals all party and raid members within  yds for  and clears them of all harmful Poison and Disease effects.   Castable while stunned.  Heal
+137012,Restoration Druid,u,1,10,Restoration Druid core passive
+137039,Restoration Shaman,u,1,10,Restoration Shaman core passive
+2006,Resurrection,u,1,7,Brings a dead ally back to life with % health and mana. Cannot be cast when in combat.
+115178,Resuscitate,u,1,7,"Returns the spirit to the body, restoring a dead target to life with % of maximum health and mana. Cannot be cast when in combat."
+183435,Retribution Aura,b,2,7,"When any party or raid member within  yds takes more than % of their health in damage in a single hit, each member gains % increased damage "
+137027,Retribution Paladin,o,1,18,
+361227,Return,u,1,7,Brings a dead party member back to life with % health and mana. Cannot be cast when in combat. 
+6572,Revenge,?,?,18,"Swing in a wide arc, dealing  Physical damage to all enemies in front of you. Deals reduced damage beyond  targets.  Your successful dodges,"
+5301,Revenge Trigger,u,2,15,
+366155,Reversion,?,?,18,"Reverse an ally's injuries, $?s378196[instantly healing them for % of damage taken in the last  sec and an additional][healing them for]  ov"
+212040,Revitalize,u,1,11,Returns all dead party members to life with % of maximum health and mana. Not castable in combat.
+115310,Revival,?,?,18,"Heals all party and raid members within  yds for  and clears them of  harmful Magic, all Poison, and all Disease effects.  Healing reduced b"
+50769,Revive,u,1,7,"Returns the spirit to the body, restoring a dead target to life with % of maximum health and mana. Not castable in combat."
+982,Revive Pet,u,1,10,"Revives your pet, returning it to life with % of its base health."
+363534,Rewind,?,?,18,Rewind $?s376210[${/2}%][%] of damage taken in the last  seconds by all allies within  yds. Always heals for at least .  Healing increased b
+25780,Righteous Fury,d,2,30,"Increases your threat generation while active, making you a more effective tank."
+59057,Rime,u,2,15,Frost Strike and Glacial Advance have a % chance to cause your next Howling Blast to consume no runes and deal % additional damage.
+113724,Ring of Frost,?,?,22,Summons a Ring of Frost for  at the target location. Enemies entering the ring are incapacitated for . Limit 10 targets.  When the incapacit
+116844,Ring of Peace,?,?,22,Form a Ring of Peace at the target location for . Enemies that enter will be ejected from the Ring.
+1079,Rip,?,?,18,Finishing move that causes Bleed damage over time. Lasts longer per combo point.     1 point  : ${*2/6} over ${*2/6} sec    2 points: ${*3/6
+161797,Riposte,u,2,15,You gain Parry equal to % of your Critical Strike from gear.
+302983,Ripple in Space,c,2,19,"Create an Azerite beacon at a target location. After , the Heart of Azeroth will relocate you to this beacon and deal  Fire damage to all ne"
+61295,Riptide,?,?,18,"Restorative waters wash over a friendly target, healing them for  and an additional  over ."
+107428,Rising Sun Kick,?,?,10,"Kick upwards, dealing $?s137025[${*/}][] Physical damage$?s128595[, and reducing the effectiveness of healing on the target for ][].$?a38884"
+125152,Rising Tiger Kick,u,1,10,$@spelldesc125151
+433583,Rite of Adjuration,?,?,10,"Imbue your weapon with the power of the Light, increasing your Stamina by % and causing your Holy Power abilities to sometimes unleash a bur"
+433568,Rite of Sanctification,?,?,10,"Imbue your weapon with the power of the Light, increasing your armor by % and your primary stat by %.  Lasts ."
+698,Ritual of Summoning,c,3,26,"Begins a ritual to create a summoning portal, requiring the caster and 2 allies to complete. This portal can be used to summon party and rai"
+53480,Roar of Sacrifice,?,?,35,"Instructs your pet to protect a friendly target, reducing their damage taken by %, but % of all damage taken by that target is transferred t"
+69041,Rocket Barrage,o,3,30,"Launches your belt rockets at an enemy, dealing ${+*2} fire damage."
+69070,Rocket Jump,m,2,22,Activates your rocket belt to jump forward.  Other effects which slow the rate of falling cannot be used within  after using this ability.
+137034,Rogue,u,1,10,
+109132,Roll,m,2,6,Roll a short distance.
+157361,Roll Speed Controls,m,2,15,
+315508,Roll the Bones,?,?,22,"Roll the dice of fate, providing a random combat enhancement for ."
+316239,Rune Strike,o,1,14,"Strike the target for  Physical damage. This attack cannot be dodged, blocked, or parried."
+51462,Runic Corruption,u,1,10,Each Runic Power you spend has a % chance to increase your Rune regeneration rate by $?a137008[][]% for .
+81229,Runic Empowerment,u,1,10,Each Runic Power you spend has a ${/10}.1% chance to instantly grant you a Rune.
+1943,Rupture,o,1,18,"Finishing move that tears open the target, dealing Bleed damage over time. Lasts longer per combo point.     1 point  : ${*2/6} over 8 sec  "
+116847,Rushing Jade Wind,?,?,10,"Summons a whirling tornado around you, causing ${(1+/)*} Physical damage over  to all enemies within  yards. Deals reduced damage beyond  ta"
+467307,Rushing Wind Kick,?,?,10,"Kick up a powerful gust of wind, dealing  Nature damage in a  yd cone to enemies in front of you, split evenly among them. Damage is increas"
+327574,Sacrificial Pact,?,?,43,Sacrifice your ghoul to deal  Shadow damage to all nearby enemies and heal for % of your maximum health. Deals reduced damage beyond  target
+1860,Safe Fall,u,2,15,Reduces damage from falling.
+105805,Sanctuary,d,2,30,"Decreases damage taken by %, increases your chance to dodge by %, and reduces the chance for your attacks to be parried by %."
+395153,Sands of Time,u,1,10,$@spellname395160 $?s414969[or $@spellname355913 ][]increases the duration of your active Ebon Might effects by ${/1000} sec.  Your empower 
+6770,Sap,c,2,7,"Incapacitates a target not in combat for . Only works on Humanoids, Beasts, Demons, and Dragonkin. Damage will revive the target. Limit 1."
+1513,Scare Beast,?,?,10,"Scares a beast, causing it to run in fear for up to .  Damage caused may interrupt the effect.  Only one beast can be feared at a time."
+213691,Scatter Shot,?,?,30,"A short-range shot that deals  damage, removes all harmful damage over time effects, and incapacitates the target for .  Any damage caused w"
+2948,Scorch,?,?,18,"Scorches an enemy for  Fire damage.  When cast on a target below % health, Scorch is a guaranteed critical strike.  Castable while moving."
+55090,Scourge Strike,?,?,18,"An unholy strike that deals  Shadow damage and causing your plagues on the target to erupt, dealing their damage an additional time at % eff"
+312321,Scouring Tithe,o,4,32,"Deal  Arcane damage instantly, and  over . If the enemy dies while affected by Scouring Tithe, you generate $?a137043[${/10}]?a137044[${/10}"
+279423,Seasoned Soldier,u,1,10,Your auto attack critical strikes generate % more Rage and damage taken from area of effect attacks is reduced by %.
+376996,Seasoned Warhorse,u,2,15,Increases the duration of Divine Steed by ${/1000} sec.
+280719,Secret Technique,u,2,9,Finishing move that creates shadow clones of yourself. You and your shadow clones each perform a piercing attack on all enemies near your ta
+27243,Seed of Corruption,?,?,18,"Embeds a demon seed in the enemy target that will explode after , dealing  Shadow damage to all enemies within  yards and applying $?a445465"
+361021,Sense Power,u,1,6,"Gauge the magical energy of your allies, showing you when they are using an exceptionally powerful ability."
+5502,Sense Undead,u,1,7,Shows the location of all nearby undead on the minimap until cancelled. Only one form of tracking can be active at a time.
+389539,Sentinel,?,?,35,"Call upon the Light and gain 15 stacks of Divine Resolve, increasing your maximum health by % and reducing your damage taken by % per stack "
+328305,Sepsis,o,4,34,"Infect the target's blood, dealing  Nature damage over . If the target survives its full duration, they suffer an additional  damage and you"
+63733,Serendipity,u,1,10,Flash Heal reduces the cooldown of Holy Word: Serenity by  sec.  Prayer of Healing reduces the cooldown on Holy Word: Sanctify by  sec.  Smi
+271788,Serpent Sting,?,?,18,"Fire a shot that poisons your target, causing them to take $?s389882[${*(1+(/100))}][] Nature damage instantly and an additional $?s389882[$"
+385424,Serrated Bone Spike,?,?,18,"Embed a bone spike in the target, dealing  Physical damage and  Bleed damage every  sec until they die or leave combat.   Refunds a charge w"
+9484,Shackle Horror,?,?,10,"Shackles an aberration or undead enemy for , preventing all actions and movement. Damage will cancel the effect. Limit 1."
+58251,Shackle Undead,u,1,10,$@spelldesc57986
+312202,Shackle the Unworthy,o,4,35,"Admonish your target for their past transgressions, reducing the damage they deal to you by % and dealing  Arcane damage over .  While Shack"
+121471,Shadow Blades,?,?,22,"Draws upon surrounding shadows to empower your weapons, causing your attacks to deal % additional damage as Shadow and causing your combo po"
+686,Shadow Bolt,o,1,20,"Sends a shadowy bolt at the enemy, causing  Shadow damage.$?c2[  Generates 1 Soul Shard.][]"
+185313,Shadow Dance,h,2,18,"Allows the use of Stealth abilities, grants the combat benefits of Stealth, and drastically reduces threat for . Effect not broken from taki"
+186440,Shadow Mend,u,1,10,
+137033,Shadow Priest,u,1,10,
+196912,Shadow Techniques,u,2,15,"Your auto attacks have a % chance to generate  Energy and store  combo :points;, up to .  Attacks that generate combo points can expend thos"
+32379,Shadow Word: Death,?,?,18,"A word of dark binding that inflicts  Shadow damage to your target. If your target is not killed by Shadow Word: Death, you take backlash da"
+335467,Shadow Word: Madness,?,?,18,"A word of madness haunts the target's mind, dealing  Shadow damage instantly plus an additional  Shadow damage over . Heals you for ${*100}%"
+589,Shadow Word: Pain,o,1,14,"A word of darkness that causes $?a390707[${*(1+/100)}][] Shadow damage instantly, and an additional $?a390707[${*(1+/100)}][] Shadow damage "
+17877,Shadowburn,?,?,18,Blasts a target for  Shadowflame damage. Only usable on enemies that have less than % health.  Restores ${/10} Soul Shard and removes its co
+384069,Shadowflame,?,?,15,Slows enemies in a  yard cone in front of you by % for .
+232698,Shadowform,u,1,7,"Assume a Shadowform, increasing your spell damage dealt by %."
+30283,Shadowfury,?,?,22,Stuns all enemies within  yds for .
+58984,Shadowmeld,u,2,22,"Activate to slip into the shadows, reducing the chance for enemies to detect your presence. Lasts until cancelled or upon moving. Any threat"
+36554,Shadowstep,m,3,7,Step through the shadows to appear behind your target and gain % increased movement speed for .$?s137035|s137037[  If you already know $@spe
+185438,Shadowstrike,o,1,47,"Strike the target, dealing  Physical damage.  While Stealthed, you strike through the shadows and appear behind your target up to ${5+} yds "
+137038,Shaman,d,2,30,
+228545,Shapeshift Form,u,1,10,
+178940,Shattered Souls,u,1,10,"Killing an enemy sometimes creates a Soul Fragment that is consumed when you approach it, healing you for % of maximum health$?a206478[ and "
+64382,Shattering Throw,?,?,35,"Hurl your weapon at the enemy,  removing any magical immunities and causing  Physical damage, ignoring armor. Deals up to % increased damage"
+203783,Shear,u,1,10,"Shear shatters the target's soul, leaving a Lesser Soul Fragment behind for .  Consuming a Lesser Soul Fragment heals you for % of all damag"
+205406,Sheilun's Gift,h,4,21,"Draws in all nearby clouds of mist generated by Sheilun, healing the target for  per cloud absorbed."
+2565,Shield Block,u,2,7,"Raise your shield, blocking all melee attacks against you for .$?s76857[ These blocks can be critical blocks.][]$?c3[ Increases Shield Slam "
+385952,Shield Charge,?,?,22,"Charge to an enemy with your shield, granting you Shield Block and dealing  Physical damage to it and  Physical damage to all enemies within"
+23922,Shield Slam,o,2,25,"Slams the target with your shield, causing  Physical damage.$?s231834[  Devastate, Thunder Clap, Revenge, and Execute have a % chance to res"
+871,Shield Wall,?,?,10,Reduces all damage you take by % for .
+53600,Shield of the Righteous,o,1,34,"Slams enemies in front of you with your shield, causing  Holy damage, and increasing your Armor by $?c1[${*/100}][${*/100}] for .$?a386568[ "
+314791,Shifting Power,m,4,26,"Draw power from the ground beneath, dealing ${*/} Nature damage over  to enemies within  yds.   While channeling, your Mage ability cooldown"
+212653,Shimmer,m,3,7,"Teleports you  yds forward, unless something is in the way. Unaffected by the global cooldown and castable while casting.$?a382289[  Gain a "
+5938,Shiv,o,2,20,"Attack with your $?s319032[poisoned blades][off-hand], dealing  Physical damage, dispelling all enrage effects and applying a concentrated f"
+46968,Shockwave,?,?,30,"Sends a wave of force in a frontal cone, causing  damage and stunning all enemies within  yards for ."
+5221,Shred,o,3,29,"Shred the target, causing  Physical damage to the target.$?a231063[ Deals % increased damage against bleeding targets.][]$?a405300[ Deals % "
+114018,Shroud of Concealment,m,5,37,"Extend a cloak that shrouds party and raid members within  yards in shadows, providing stealth for ."
+197835,Shuriken Storm,o,1,15,"Sprays shurikens at all enemies within  yards, dealing ${*/} Physical damage$?a277953[ and reducing movement speed by % for ]?a428387[ and i"
+114014,Shuriken Toss,o,1,16,Throws a shuriken at an enemy target for ${*/} Physical damage.  Awards  combo :points;.
+202138,Sigil of Chains,u,2,10,Place a Sigil of Chains at the target location that activates after .  All enemies affected by the sigil are pulled to its center and are sn
+204596,Sigil of Flame,u,1,7,"Place a Sigil of Flame at the target location that activates after .  Deals  $@spelldesc395020 damage, and an additional  $@spelldesc395020 "
+207684,Sigil of Misery,?,?,10,"Place a Sigil of Misery at the target location that activates after .  Causes all enemies affected by the sigil to cower in fear, disorienti"
+202137,Sigil of Silence,?,?,10,Place a Sigil of Silence at the target location that activates after .  Silences all enemies affected by the sigil for .
+390163,Sigil of Spite,?,?,10,Place a demonic sigil at the target location that activates after .  Detonates to deal  Chaos damage and shatter up to  Soul :Fragments; fro
+15487,Silence,c,3,19,"Silences the target, preventing them from casting spells for . Against non-players, also interrupts spellcasting and prevents any spell in t"
+190778,Sindragosa's Fury,o,7,39,"Summons Sindragosa, who breathes frost on all enemies within  yd in front of you, dealing  Frost damage and slowing movement speed by % for "
+317009,Sinful Brand,o,4,48,"Brand an enemy with the mark of the Venthyr, reducing their melee attack speed by %, their casting speed by %, and inflicting  Shadow damage"
+1752,Sinister Strike,o,1,14,"Viciously strike an enemy, causing  Physical damage.  Awards  combo :points;."
+106839,Skull Bash,?,?,15,"You charge and bash the target's skull, interrupting spellcasting and preventing any spell in that school from being cast for ."
+260643,Skullsplitter,?,?,23,"Bash an enemy's skull, dealing  Physical damage.  Skullsplitter causes your Rend and Deep Wounds on the target to bleed out % faster for .  "
+462854,Skyfury,u,1,8,Harness the fury of the Windlord to grant a target ally % Mastery and empower their auto attacks to have a % chance to instantly strike agai
+1464,Slam,o,1,30,"Slams an opponent, causing  Physical damage.$?s388903[  Generates ${/10} Rage.][]"
+360806,Sleep Walk,?,?,10,"Disorient an enemy for , causing them to sleep walk towards you. Damage has a chance to awaken them."
+315496,Slice and Dice,h,1,17,Finishing move that consumes combo points to increase attack speed by %. Lasts longer per combo point.    1 point  : 12 seconds    2 points:
+1217413,Slicing Winds,?,?,22,"Envelop yourself in razor-sharp winds, then lunge forward dealing  Nature damage to enemies in your path. Damage reduced beyond  enemies.  H"
+31589,Slow,?,?,10,Reduces the target's movement speed by % for .$?a391102[  Applies to enemies within  yds of the target.][] 
+130,Slow Fall,u,1,6,Slows a group member's falling speed for .
+585,Smite,o,1,14,Smites an enemy for  Holy damage$?s231682[ and absorbs the next  damage dealt by the enemy]?s231687[ and has a % chance to reset the cooldow
+78675,Solar Beam,?,?,22,"Summons a beam of solar light over an enemy target's location, interrupting the target and silencing all enemies within the beam. Lasts ."
+198898,Song of Chi-Ji,?,?,22,"Conjures a cloud of hypnotic mist that slowly travels forward. Enemies touched by the mist fall asleep, Disoriented for ."
+2908,Soothe,?,?,15,"Soothes the target, dispelling all enrage effects."
+209525,Soothing Mist,h,1,17,"Heals the target for  over .  While channeling, Effuse and Enveloping Mist are instant cast, and will heal the soothed target without breaki"
+207407,Soul Carver,o,4,60,"Carve into the soul of your target, dealing ${+} Fire damage and an additional  Fire damage over .  Immediately shatters  Soul Fragments fro"
+228477,Soul Cleave,o,1,46,Viciously strike an enemy and all other enemies in front of you for  Physical damage and heal yourself for . Deals reduced damage beyond  ta
+6353,Soul Fire,?,?,30,"Burns the enemy's soul, dealing  Fire damage and applying $?a445465[Wither][Immolate].  Generates ${/10} Soul Shard."
+1241937,Soul Immolation,?,?,18,"Light your soul aflame, healing yourself for ${*}% of your maximum health, generating ${*} Fury and shattering  Soul Fragments over ."
+108366,Soul Leech,d,1,12,$@spelldesc108370
+343294,Soul Reaper,?,?,23,"Rupture the soul of your enemy, dealing  Shadowfrost damage and causing the foe to take % increased damage from your diseases and minions fo"
+325640,Soul Rot,o,4,34,"Wither away all life force of your current target and up to  additional targets nearby, causing your primary target to suffer ${*(1+/10)} Na"
+246985,Soul Shards,u,1,10,$?c1[Soul Shards are generated by your Agony's damage over time.  ]?c2[Soul Shards are generated by your Shadow Bolt.  ]?c3[Soul Shard Fragm
+264057,Soul Strike,?,?,15,"Command your Felguard to strike into the soul of its enemy, dealing  Shadow damage.$?c2[  Generates 1 Soul Shard.][]"
+386951,Soul Swap,?,?,22,"Copies your damage over time effects and Haunt from the target, preserving their duration.  Your next use of Soul Swap within  will exhale a"
+385899,Soulburn,?,?,10,"Consumes a Soul Shard, unlocking the hidden power of your spells.  Demonic Circle: Teleport: Increases your movement speed by % and makes yo"
+310143,Soulshape,m,2,23,Turn into $?a333206[a Toad]?a326215[a Wyvern]?a326212[a Gryphon]?a326209[a Hippogryph]?a326207[a Wolfhawk]?a326204[a Feathered Drake]?a32620
+20707,Soulstone,u,3,33,"Stores the soul of the target party or raid member, allowing resurrection upon death.$?a231811[ Also castable to resurrect a dead target.][]"
+58275,Soulwell,u,1,10,$@spelldesc58094
+369459,Source of Magic,?,?,10,"Redirect your excess magic to a friendly healer for . When you cast an empowered spell, you restore ${/100}.2% of their maximum mana per emp"
+406732,Spatial Paradox,?,?,43,"Evoke a paradox for you and a friendly healer, allowing casting while moving and increasing the range of most spells by % for .  Affects the"
+256948,Spatial Rift,u,3,32,"Tear a rift in space. Reactivate this ability to teleport through the rift.  $?a1232189[Within Voidstorm, Spatial Rift's cooldown is reduced"
+116705,Spear Hand Strike,?,?,15,"Jabs the target in the throat, interrupting spellcasting and preventing any spell from that school of magic from being cast for ."
+307865,Spear of Bastion,o,4,34,"Throw a Kyrian spear at the target location, dealing  Arcane damage instantly and an additional  damage over . Deals reduced damage beyond  "
+360966,Spearhead,?,?,22,"You give the signal, and your pet charges your target, bleeding them for  damage over  and increasing you and your pet's chance to criticall"
+188501,Spectral Sight,u,1,17,"Allows you to see enemies and treasures through physical barriers, as well as enemies that are stealthed and invisible. Lasts .  Loss of con"
+392966,Spell Block,?,?,22,You are able to block spells for .
+23920,Spell Reflection,d,3,14,"Raise your $?c3[shield][weapon], reflecting $?a213915[the next  spells cast][the first spell cast] on you and reducing magic damage you take"
+30449,Spellsteal,u,3,8,Steals $?s198100[all beneficial magic effects from the target. These effects lasts a maximum of 2 min][a beneficial magic effect from the ta
+101546,Spinning Crane Kick,o,2,15,"Spin while kicking in the air, dealing $?s137025[${4**/}][${4*}] Physical damage over  to all enemies within  yds. Deals reduced damage beyo"
+1226339,Spinning Death,?,?,22,"Send a void scythe spinning towards your target, dealing  Cosmic damage to each enemy it hits.  Enemies damaged by Spinning Death are snared"
+247454,Spirit Bomb,?,?,15,"Consume up to  Soul Fragments then explode, dealing  Fire damage to nearby enemies, increased by % per fragment consumed. Deals reduced dama"
+98008,Spirit Link Totem,?,?,10,"Summons a totem at the target location for , which reduces damage taken by all party and raid members within  yards by %. Immediately and ev"
+58875,Spirit Walk,m,3,22,Removes all movement impairing effects and increases your movement speed by % for .
+20711,Spirit of Redemption,u,3,22,"Upon death, you become the Spirit of Redemption for . You cannot move, attack, be attacked, or be targeted by any spells or effects, and you"
+367226,Spiritbloom,?,?,22,"Divert spiritual energy, healing an ally for . Jumps to injured allies within  yds when empowered.  I:   Heals one ally.  II:  Heals a secon"
+79206,Spiritwalker's Grace,?,?,43,"Calls upon the guidance of the spirits for , permitting movement while casting Shaman spells. Castable while casting.$?a192088[ Increases mo"
+2983,Sprint,m,2,21,Increases your movement speed by % for . Usable while stealthed.$?s245751[  Allows you to run over water.][]
+115069,Stagger,d,2,30,"You shrug off attacks, delaying a portion of Physical damage based on your Agility, instead taking it over . Affects magical attacks at % ef"
+201430,Stampede,?,?,10,Summon a herd of stampeding animals from the wilds around you that deal ${*3} Physical damage to your enemies over .
+106898,Stampeding Roar,m,3,23,"Shift into Bear Form and let loose a wild roar, increasing the movement speed of all friendly players within  yards by % for ."
+191034,Starfall,u,4,10,"Calls down waves of falling stars upon enemies within  yds, dealing  Astral damage over . Multiple uses of this ability may overlap.$?s32754"
+194153,Starfire,?,?,18,"Call down a burst of energy, causing  Arcane damage to the target, and $?a429523[${(*/100)/(1+/100)}][${*/100}] Arcane damage to all other e"
+78674,Starsurge,?,?,18,"Launch a surge of stellar energies at the target, dealing  Astral damage."
+370537,Stasis,?,?,22,Causes your next ${*3} helpful spells to be duplicated and stored in a time lock. You may reactivate Stasis any time within  sec to quickly 
+162697,Stat Negation Aura - Agility DPS,u,1,10,
+162700,Stat Negation Aura - Agility Tank,u,1,10,
+162699,Stat Negation Aura - Intellect DPS,u,1,10,
+162701,Stat Negation Aura - Intellect Healer,u,1,10,
+162698,Stat Negation Aura - Strength DPS,u,1,10,
+162702,Stat Negation Aura - Strength Tank,u,1,10,
+56641,Steady Shot,o,1,44,A steady shot that causes  Physical damage.$?c2[ Reduces the cooldown of Aimed Shot by ${/1000}.1 sec.][]  Usable while moving.  Generates  
+1784,Stealth,m,2,6,"Conceals you in the shadows until cancelled, allowing you to stalk enemies without being seen. $?s14062[Movement speed while stealthed is in"
+162487,Steel Trap,o,3,16,$@spelldesc162488
+202347,Stellar Flare,?,?,18,"Burns the target for  Astral damage, and then an additional  damage over . If dispelled, causes  damage to the dispeller and blasts them upw"
+20594,Stoneform,c,2,22,"Removes all harmful Poison, Disease, Curse, Magic, and Bleed effects and reduces all physical damage taken by % for . $?s195710[This effect "
+383017,Stoneskin Totem,?,?,22,Summons a totem at your feet for  that grants % physical damage reduction to you and the  allies nearest to the totem within  yards.
+175686,Stopping Power,u,1,6,Placeholder for level 75 talented active ability.
+107570,Storm Bolt,?,?,30,"Hurls your weapon at an enemy, causing  Physical damage and stunning for .$?s436162[ Also hits 2 additional nearby targets, stunning for 2 s"
+192249,Storm Elemental,?,?,10,"Calls forth a Greater Storm Elemental to hurl gusts of wind at your enemies for .  While the Storm Elemental is active, casting Lightning Bo"
+137639,"Storm, Earth, and Fire",?,?,15,"Split into 3 elemental spirits for , each spirit dealing ${100+}% of normal damage and healing.  You directly control the Storm spirit, whil"
+205495,Stormkeeper,u,4,26,"Raises The Fist of Ra-den to the sky and absorbs all nearby electric energy, causing your next  casts of Lightning Bolt or Chain Lightning t"
+32175,Stormstrike,o,3,36,$@spelldesc17364
+201845,Stormsurge,u,1,10,Stormstrike has a .1% chance to reset the cooldown of Stormstrike$?a319930[ and cause your next Stormstrike to deal % additional damage as N
+236716,Strength of the Wild,u,1,7,Maul the target for % of the target's maximum health in Physical damage.
+392983,Strike of the Windlord,?,?,22,"Strike with both fists at all enemies in front of you, dealing ${+} Physical damage and reducing movement speed by % for . Deals reduced dam"
+1098,Subjugate Demon,c,3,8,"Subjugates the target demon up to level , forcing it to do your bidding for ."
+137035,Subtlety Rogue,o,1,18,
+115315,Summon Black Ox Statue,?,?,15,"Summons a Black Ox Statue at the target location for , pulsing threat to all enemies within  yards.  You may cast Provoke on the statue to t"
+205180,Summon Darkglare,?,?,35,"Summons a Darkglare from the Twisting Nether that increases the damage of your Agony, $?a445465[Wither][Corruption], and Unstable Affliction"
+265187,Summon Demonic Tyrant,?,?,22,Summon a Demonic Tyrant that damages your target for .   Damage dealt by Demonic Tyrant is increased by % for each Wild Imp and Dreadstalker
+1276672,Summon Doomguard,?,?,35,Summons a Doomguard to assist you in combat for . Consuming a Demonic Core reduces the cooldown of Summon Doomguard by  sec.  $@spellicon125
+30146,Summon Felguard,?,?,10,Summons a Felguard under your command as a powerful melee combatant.
+691,Summon Felhunter,u,2,8,"Summons a Felhunter under your command, able to disrupt the spell casts of your enemies."
+688,Summon Imp,u,1,6,Summons an Imp under your command that casts ranged Firebolts.
+1122,Summon Infernal,?,?,35,"Summons an Infernal from the Twisting Nether, impacting for  Fire damage and stunning all enemies in the area for .  The Infernal will serve"
+115313,Summon Jade Serpent Statue,?,?,15,"Summons a Jade Serpent Statue at the target location. When you channel Soothing Mist, the statue will also begin to channel Soothing Mist on"
+366222,Summon Sayaad,u,1,8,"Summons a Succubus or Incubus under your command to seduce enemy Humanoids, preventing them from attacking. "
+324739,Summon Steward,u,5,37,"Call your steward to bring you a Phial of Serenity that can be consumed to restore % health and remove all Curse, Disease, Poison, and Bleed"
+264119,Summon Vilefiend,?,?,15,Summon a Vilefiend to fight for you for the next .
+697,Summon Voidwalker,u,1,7,"Summons a Voidwalker under your command, able to withstand heavy punishment."
+31687,Summon Water Elemental,?,?,15,Summons a Water Elemental to follow and fight for you.
+1235552,Sunder,?,?,22,"Devour the life from your target to make yourself whole again, dealing Cosmic damage equal to % of your missing health and healing you % of "
+197214,Sundering,?,?,30,"Shatters a line of earth in front of you with your main hand weapon, causing  Flamestrike damage to any enemy hit."
+1253799,Sundering Roar,?,?,30,"Roar with earthshattering ferocity, dealing  Physical damage, and resetting the cooldown of Thrash and allowing it to stack  additional time"
+164815,Sunfire,o,1,15,$@spelldesc93402
+157980,Supernova,?,?,30,"Pulses arcane energy around the target enemy or ally, dealing  Arcane damage to all enemies within  yds, and knocking them upward. A primary"
+320747,Surge of Earth,h,1,26,$@spelldesc320746
+137017,Survival Hunter,o,1,18,
+61336,Survival Instincts,?,?,10,Reduces all damage you take by % for .
+311648,Swarming Mist,o,4,34,"A heavy mist surrounds you for , increasing your Dodge by %.   Deals  Shadow damage every  sec to enemies within  yds. Every time it deals d"
+260708,Sweeping Strikes,u,3,18,Your next  damaging single-target abilities hit  additional :targets; within 8 yds for % damage. Lasts .
+18562,Swiftmend,?,?,18,"$?s392410[Utilize][Consume] a Regrowth, Wild Growth, or Rejuvenation effect to instantly heal an ally for . Healing is increased by % of the"
+213764,Swipe,?,?,10,"Swipe nearby enemies, inflicting Physical damage. Damage varies by shapeshift form.$?s137011[  Awards  combo :points;.][]"
+474750,Symbiotic Relationship,?,?,10,Form a bond with an ally. Your self-healing also heals your bonded ally for % of the amount healed. Your healing to your bonded ally also he
+368970,Tail Swipe,u,2,32,"Lash out with your tail, knocking enemies within  yds into the air."
+1250646,Takedown,?,?,22,"You and your pet leap to your target and strike as one, dealing ${+} Physical damage$?a1256938[ to your target and up to  nearby enemies][]."
+1515,Tame Beast,u,1,6,$?a166615[|CFFFF2020You must dismiss your current pet before you can tame another one.|CFFFFD200  ][]Tames a beast to be your companion. If 
+187698,Tar Trap,?,?,22,Hurls a tar trap to the target location that creates a  yd radius pool of tar around itself for  when the first enemy approaches. All enemie
+355,Taunt,m,1,6,"Taunts the target to attack you, and increases the threat you generate against them by % for ."
+116645,Teachings of the Monastery,u,1,10,"Tiger Palm causes your next Blackout Kick to strike an additional time dealing  Physical damage, stacking up to .  Blackout Kick has a % cha"
+343127,Teleport,u,2,8,Teleports you to a major city.
+396571,Tempered Scales,u,1,10,Your dragon scales increase your armor by %.
+85256,Templar's Verdict,u,1,7,Unleashes a powerful weapon strike that deals  $?s403664[Holystrike][Holy] damage to an enemy target.
+373861,Temporal Anomaly,?,?,15,"Send forward a vortex of temporal energy, absorbing  damage on you and any allies in its path. Absorption is reduced beyond  targets.  Appli"
+1291636,Temporal Barrier,?,?,15,"Send out a ripple of temporal energy, absorbing  damage and applying Echo at % effectiveness on your target and up to  allies within  yds."
+1227280,Tentacle Slam,?,?,10,"Summons a massive shadowy appendage to slam the ground, dealing  Shadow damage in front of you and  yds around your target.  Applies Vampiri"
+211714,Thal'kiel's Consumption,u,4,21,Thal'kiel drains % of the life from your demon servants and unleashes a blast of Shadow damage at your current target equal to the life he s
+101508,The Codex of Xerrath,u,1,10,"Corrupts all of your Warlock fire spells, infusing them with fel magic."
+370965,The Hunt,?,?,22,"Charge to your target, striking them for  Chaos damage, rooting them in place for  and inflicting  Chaos damage over  to up to  enemies in y"
+299378,The Unbound Force,h,2,23,"Unleash the forces within the Heart of Azeroth, causing shards of Azerite to strike your target for ${(*((/)+1)+)} Fire damage over . This d"
+320380,Thick Skin,b,1,14,"Fel energy thickens your skin to demonic proportions, increasing your Stamina by % and your Armor by %."
+1298826,Thistle Tea,?,?,10,Restore  Energy.
+106830,Thrash,o,3,16,"Strikes all nearby enemies, dealing  $?a429523[Arcane][Bleed] damage and an additional  $?a429523[Arcane][Bleed] damage over .  Awards  comb"
+185123,Throw Glaive,o,2,16,"Throw a demonic glaive at the target, dealing  Physical damage. The glaive can ricochet to $?[${-1} additional enemies][an additional enemy]"
+6343,Thunder Clap,?,?,18,"Blasts all enemies within  yards for  Physical damage$?s199045[, roots them for ,][] and reduces their movement speed by % for . Deals reduc"
+116680,Thunder Focus Tea,?,?,10,"Receive a jolt of energy, empowering your next $?a197895[ spells][spell] cast:  $@spellname124682: Immediately heals for  and is instant cas"
+384318,Thunderous Roar,?,?,30,"Roar explosively, dealing  Physical damage to enemies within  yds and cause them to bleed for  physical damage over . Deals reduced damage b"
+51490,Thunderstorm,o,3,27,"Calls down a bolt of lightning, dealing  Nature damage to all enemies within  yards, reducing their movement speed by % for , and knocking t"
+462757,Thunderstrike Ward,?,?,10,"Imbue your shield with the element of Lightning for , giving Lightning Bolt$?a454009[, Tempest,][] and Chain Lightning a chance to call down"
+252216,Tiger Dash,m,3,17,"Shift into Cat Form and increase your movement speed by %, reducing gradually over ."
+100780,Tiger Palm,o,1,14,"Strike with the palm of your hand, dealing  Physical damage.$?a137384[  Tiger Palm has an % chance to make your next Blackout Kick cost no C"
+5217,Tiger's Fury,?,?,22,"Instantly restores  Energy, and increases the damage of all your attacks by % for their full duration. Lasts ."
+116841,Tiger's Lust,?,?,22,Increases a friendly target's movement speed by % for  and removes all roots and snares.
+357170,Time Dilation,?,?,10,"Stretch time around an ally for the next , causing % of damage they would take to instead be dealt over .$?s363899[  Healing a target under "
+404977,Time Skip,?,?,35,"Surge forward in time, causing your cooldowns to recover % faster for ."
+374968,Time Spiral,?,?,35,"Bend time, allowing you and your allies within  yds to cast their major movement ability once in the next , even if it is on cooldown."
+80353,Time Warp,u,8,41,"Warp the flow of time, increasing haste by % $?a320919[and time rate by % ][]for all party and raid members for .  Allies will be unable to "
+412710,Timelessness,?,?,10,"Enchant an ally to appear out of sync with the normal flow of time, reducing threat they generate by % for . Less effective on tank-speciali"
+370553,Tip the Scales,?,?,35,Compress time to make your next empowered spell cast instantly at its maximum empower level.
+46917,Titan's Grip,u,1,10,"Allows you to dual-wield a pair of two-handed weapons. Two-handed weapons deal more damage, and provide more Strength and Stamina than one-h"
+81099,Titan's Grip: Single-Minded Fury,u,1,10,You can transmogrify your two-handed weapons to use one-handed weapon appearances.
+207068,Titan's Thunder,u,4,26,"Discharge a massive jolt of electricity from Titanstrike into all your pets$?s217200[][ and Dire Beasts], causing them to deal up to ${*1.15"
+384090,Titanic Throw,?,?,18,"Throws your weapon at the enemy, causing  Physical damage to it and  nearby enemies.   Generates high threat."
+185245,Torment,u,1,7,"Taunts the target to attack you, and increases the threat you generate against them by % for ."
+108287,Totemic Projection,?,?,15,Relocates your active totems to the specified location.
+108285,Totemic Recall,?,?,35,Resets the cooldown of your most recently used totem with a base cooldown shorter than 3 minutes.
+322109,Touch of Death,o,7,47,"You exploit the enemy target's weakest point, instantly dealing damage equal to % of your maximum health to $?s322113[creatures if they have"
+121128,Touch of Death Notification Driver,u,1,10,
+169340,Touch of Fatality,u,3,23,"Instantly kills any creature under level , or player under % health."
+122470,Touch of Karma,d,4,31,"Absorbs all damage taken for , up to % of your maximum health, and redirects % of that amount to the enemy target as Nature damage over ."
+321507,Touch of the Magi,?,?,10,"Applies Touch of the Magi to your current target, accumulating % of the damage you deal to the target for , and then exploding for that amou"
+231642,Tower of Radiance,u,1,10,Casting Flash of Light or Holy Light grants  Holy Power.
+1494,Track Beasts,o,1,18,Shows the location of all nearby beasts on the minimap.
+19878,Track Demons,o,1,18,Shows the location of all nearby demons on the minimap.
+19879,Track Dragonkin,o,1,18,Shows the location of all nearby dragonkin on the minimap.
+19880,Track Elementals,o,1,18,Shows the location of all nearby elementals on the minimap.
+19882,Track Giants,o,1,18,Shows the location of all nearby giants on the minimap.
+19885,Track Hidden,u,1,10,Greatly increases stealth detection and shows hidden units within detection range on the minimap.
+5225,Track Humanoids,u,1,6,Shows the location of all nearby humanoids on the minimap.
+229533,Track Mechanicals,u,1,10,Shows the location of all nearby mechanicals on the minimap.
+19884,Track Undead,o,1,18,Shows the location of all nearby undead on the minimap.
+383019,Tranquil Air Totem,?,?,22,Summons a totem at your feet for  that prevents cast pushback and reduces the duration of all incoming interrupt effects by % for you and th
+740,Tranquility,h,7,49,Heals all allies within  yards for  over .$?s197721[ Extends the duration of all your heal over time effects by  sec every  sec.][] Healing 
+19801,Tranquilizing Shot,?,?,15,Removes  Enrage and  Magic effect from an enemy target.
+101643,Transcendence,u,3,8,"Split your body and spirit, leaving your spirit behind for . Use Transcendence: Transfer to swap locations with your spirit."
+215537,Trauma,o,1,14,$@spelldesc215538
+783,Travel Form,m,2,7,"Shapeshift into a travel form appropriate to your current location, increasing movement speed on land, in water, or in the air, and granting"
+114282,Treant Form,u,1,7,Shapeshift into Treant Form.
+8143,Tremor Totem,?,?,22,"Summons a totem at your feet that shakes the ground around it for , removing Fear, Charm and Sleep effects from party and raid members withi"
+57934,Tricks of the Trade,d,3,22,"$?s221622[Increases the target's damage by %, and redirects][Redirects] all threat you cause to the targeted party or raid member, beginning"
+288613,Trueshot,?,?,35,Increases your critical strike chance by % and critical strike damage by % for .  $@spellicon19434 $@spellname19434 Cooldown recovers % fast
+10326,Turn Evil,c,2,12,"The power of the Light compels an Undead, Aberration, or Demon target to flee for up to . Damage may break the effect. Lesser creatures have"
+61391,Typhoon,u,2,7,$@spelldesc132469
+200652,Tyr's Deliverance,u,4,26,"Releases the Light within yourself, healing  injured allies instantly and an injured ally every  sec within  yds for .  Allies healed also r"
+421453,Ultimate Penitence,?,?,35,"Ascend into the air and unleash a massive barrage of Penance bolts, causing  Holy damage to enemies or  healing to allies over .  While asce"
+5697,Unending Breath,u,1,8,Allows an ally to breathe underwater and increases swim speed by % for .
+104773,Unending Resolve,d,3,39,"Hardens your skin, reducing all damage you take by % and granting immunity to interrupt, silence, and pushback effects for ."
+207289,Unholy Assault,?,?,30,"Strike your target dealing  Shadow damage, applying  Festering Wounds and sending you into an Unholy Frenzy increasing all damage done by % "
+137007,Unholy Death Knight,o,1,18,
+324724,Unholy Nova,o,4,34,"An explosion of dark energy infects enemies within  yds with Unholy Transfusion, and heals allies for up to  based on number of targets.  |T"
+73685,Unleash Life,?,?,18,"Unleash elemental forces of Life, healing a friendly target for .  Increases the healing of your next Riptide, Chain Heal, or Healing Wave b"
+1259790,Unstable Affliction,?,?,18,"Afflicts the target with  Shadow damage over . Multiple uses of this ability may overlap.  If dispelled, deals ${*/100} damage to the dispel"
+396286,Upheaval,?,?,22,"Gather earthen power beneath your enemy's feet and send them hurtling upwards, dealing  Volcanic damage to the target and nearby enemies.$?s"
+300346,Ursine Adept,u,1,10,"Moonfire, Soothe, Remove Corruption, Innervate, and Rebirth are usable in Bear Form. Multiple uses of Ironfur may overlap.$?s2>0[  All damag"
+102793,Ursol's Vortex,?,?,22,"Conjures a vortex of wind for  at the destination, reducing the movement speed of all enemies within  yards by %. The first time an enemy at"
+102794,Ursol's Vortex,u,3,8,Conjures a vortex of wind at the destination location that pulls all enemies within  yards toward it.
+278107,Val'kyr,u,1,10,Your Summon Gargoyle spell summons a Val'kyr instead of a Gargoyle.
+55233,Vampiric Blood,?,?,22,"Embrace your undeath, increasing your maximum health by % and increasing all healing and absorbs received by % for ."
+15286,Vampiric Embrace,u,3,24,"Fills you with the embrace of Shadow energy for , causing you to heal a nearby ally for % of any single-target Shadow spell damage you deal."
+34914,Vampiric Touch,o,1,31,"A touch of darkness that causes  Shadow damage over , and heals you for ${*100}% of damage dealt. If Vampiric Touch is dispelled, the dispel"
+71,Vanguard,d,2,30,"Hardened by battle, your Stamina is increased by % and your Armor is increased by % of your Strength."
+1856,Vanish,u,3,7,"Allows you to vanish from sight, entering stealth while in combat. For the first  after vanishing, damage and harmful effects received will "
+212613,Vengeance Demon Hunter,o,1,18,
+198793,Vengeful Retreat,o,2,15,Remove all snares and vault away. Nearby enemies take  Physical damage$?s320635[ and have their movement speed reduced by % for ][].$?a20355
+360995,Verdant Embrace,?,?,10,"Fly to an ally and heal them for , or heal yourself for the same amount."
+324386,Vesper Totem,u,4,26,Summon a totem at the target location for . Your next  damage spells or abilities will cause the totem to radiate  Arcane damage to up to  e
+34428,Victory Rush,o,1,14,"Strikes the target, causing  damage and healing you for % of your maximum health.  Only usable within  after you kill an enemy that yields e"
+390279,Vile Contagion,?,?,22,Inflict disease upon your enemies spreading Festering Wounds equal to the amount currently active on your target to  nearby enemies.
+278350,Vile Taint,?,?,22,"Unleashes a vile explosion at the target location, dealing  Shadow damage over  to  enemies within  yds and applies Agony and Curse of Exhau"
+116670,Vivify,h,2,28,"Causes a surge of invigorating mists, healing the target for $?s274586[ and all allies with your Renewing Mist active for ][]."
+228266,Void Bolt,u,2,15,"For the duration of Voidform, your Void Eruption ability is replaced by Void Bolt:  $@spelltooltip205448"
+1234195,Void Nova,?,?,30,"Unleash an eruption of void energy, dealing  Cosmic damage and stunning your target and all nearby enemies for ."
+473728,Void Ray,?,?,10,"$?a1217607[][|CFFffffffRequires  Fury|R] Unleash a beam of concentrated void energy, dealing  Cosmic damage$?a1217607[][ and consuming  Fury"
+108968,Void Shift,?,?,35,Swap health percentages with your ally. Increases the lower health percentage of the two to % if below that amount.
+205065,Void Torrent,o,4,44,"Raise your dagger into the sky, channeling a torrent of void energy into the target for  Shadow damage over . Insanity does not drain during"
+1245412,Voidblade,?,?,10,"Unleash your glaives and charge to your target, dealing  Cosmic damage.$?a1246562[  |CFFffffffGenerates  Fury.|R][] "
+228260,Voidform,?,?,35,"Bombards your target with a Void Volley and twists your Shadowform with void magic, increasing your spell damage by % for .   During Voidfor"
+228264,Voidform,u,2,15,"Twists your Shadowform with the powers of the Void for , increasing your spell damage by % and replaces Void Eruption with $@spellname124217"
+260243,Volley,?,?,30,"Rain a volley of arrows down over , dealing up to ${*12} Physical damage to any enemy in the area, and gain the effects of Trick Shots for a"
+470057,Voltaic Blaze,?,?,15,"Instantly shocks the target and  enemies within  yds with blazing thunder, applying Flame Shock and dealing  Nature damage. Always criticall"
+354831,Wailing Arrow,o,3,44,$@spelldesc355589
+210000,Wake Up,u,3,17,Tell your pet to wake up.
+205273,Wake of Ashes,o,4,44,"Lash out with the Ashbringer, dealing  Radiant damage$?a179546[, and an additional  Radiant damage over ,][] to all enemies within  yd in fr"
+20549,War Stomp,c,3,22,Stuns up to  enemies within  yds for .
+209577,Warbreaker,o,4,58,"Stomp the ground, causing a ring of corrupted spikes to erupt upwards, dealing  Shadow damage and applying the Colossus Smash effect to all "
+137042,Warlock,u,1,10,
+137047,Warrior,d,2,30,
+202425,Warrior of Elune,?,?,22,Your next  Starfires are instant cast and generate % increased Astral Power.
+52127,Water Shield,b,2,7,"The caster is surrounded by globes of water, granting  mana per 5 sec. When a melee attack hits the caster, the caster regains $?s382033[${("
+546,Water Walking,u,1,7,Allows the friendly target to walk across water for . Damage will cancel the effect.
+310454,Weapons of Order,d,4,26,"For the next , your Mastery is increased by $?c1[${*}]?c2[${*}][${*}.1]%. Additionally, $?a137025[Rising Sun Kick reduces Chi costs by  for "
+197995,Wellspring,?,?,15,"Creates a surge of water that flows forward, healing friendly targets in a wide arc in front of you for ."
+152175,Whirling Dragon Punch,?,?,30,"Performs a devastating whirling upward strike, dealing ${3*} damage to all nearby enemies and an additional  damage to the first target stru"
+1680,Whirlwind,o,2,24,"Unleashes a whirlwind of steel, $?s202316[hitting your primary target with Slam and ][]striking all nearby targets for  Physical damage. Dea"
+102401,Wild Charge,m,3,12,Fly to a nearby ally's position.
+48438,Wild Growth,?,?,23,Heals up to  injured allies within  yards of the target for  over . Healing starts high and declines over the duration.$?s33891[  |C0033AA11
+88747,Wild Mushroom,?,?,10,"Grow a magical mushroom at the target enemy's location. After , the mushroom detonates, dealing  Nature damage and then an additional  Natur"
+328231,Wild Spirits,o,4,34,"Evoke the energy of Wild Spirits at the target location, dealing  Nature damage and apply Wild Mark to all enemy targets within the area for"
+1264359,Wild Thrash,?,?,10,"Command your pet to thrash all enemies within  yds, dealing  Physical damage to them. Damage is increased by % if Wild Thrash hits  or more "
+259495,Wildfire Bomb,?,?,10,"Hurl a bomb at the target, exploding for  Fire damage in a cone and coating enemies in wildfire, scorching them for  Fire damage over . Deal"
+7744,Will of the Forsaken,d,3,22,"Removes any Charm, Fear and Sleep effect. $?s195710[This effect shares a 30 sec cooldown with other similar effects.][]"
+59752,Will to Survive,d,2,32,Removes all stun effects. $?s195710[This effect shares a 90 sec cooldown with other similar effects.][]
+192077,Wind Rush Totem,?,?,35,"Summons a totem at the target location for , continually granting all allies who pass within  yards % increased movement speed for ."
+57994,Wind Shear,c,2,7,"Disrupts the target's concentration with a burst of wind, interrupting spellcasting and preventing any spell in that school from being cast "
+204147,Windburst,o,4,48,"Focuses the power of Wind through Thas'dorah, dealing  Physical damage to your target, and leaving behind a trail of wind for  that increase"
+25504,Windfury Attack,o,1,14,$@spelldesc33757
+8512,Windfury Totem,?,?,10,Summons a totem at your feet for . Party members within $?s382201[${(1+/100)*}][] yds have a % chance when they auto-attack to swing an extr
+33757,Windfury Weapon,?,?,10,Imbue your main-hand weapon with the element of Wind for . Each main-hand attack has a % chance to trigger $?s390288[three][two] extra attac
+114089,Windlash,o,1,22,A massive gust of air that deals  Physical damage.
+115356,Windstrike,o,1,47,"Hurl a staggering blast of wind at an enemy, dealing a total of ${+} Physical damage, bypassing armor."
+137025,Windwalker Monk,o,1,18,
+346104,Windwalker Monk Two-Hand Adjustment,u,1,10,
+357214,Wing Buffet,u,3,32,"With a powerful flap of your wings, knock away enemies in front of you."
+195645,Wing Clip,u,1,6,"Maims the target, reducing movement speed by % for ."
+89744,Wizardry,b,2,19,Increases your Intellect by %.
+85673,Word of Glory,h,1,39,Calls down the Light to heal a friendly target for $?a378405[ and an additional % over ][].$?a315921|?a315924[  Protection: ][]$?a315921[If 
+299334,Worldvein Resonance,u,2,15,"Concentrate energy into the Heart of Azeroth, immediately causing  Lifeblood Shards to erupt from the nearby ground for ${*(1+(/100))} sec, "
+8679,Wound Poison,o,2,16,"Coats your weapons with a Lethal Poison that lasts for . Each strike has a % chance to poison the enemy, which instantly inflicts  Nature da"
+212552,Wraith Walk,?,?,22,"Embrace the power of the Shadowlands, removing all root effects and increasing your movement speed by % for . Taking any action cancels the "
+5176,Wrath,o,1,14,"Hurl a ball of energy at the target, dealing  Nature damage.$?s33891[  |C0033AA11Tree of Life: Damage increased by % and instant cast.|R][]"
+384110,Wrecking Throw,?,?,22,"Hurl your weapon at the enemy, causing  Physical damage, ignoring armor. Deals up to % increased damage to absorb shields. "
+145109,Ysera's Gift,h,1,16,$@spelldesc145108
+125883,Zen Flight,m,2,9,You fly through the air at a quick speed on a meditative cloud.
+115176,Zen Meditation,?,?,35,"Reduces all damage taken by % for . Being hit by a melee attack, or taking another action$?s328682[ other than movement][] will cancel this "
+126893,Zen Pilgrimage/Death Gate/Moonglade Storage Aura I,u,1,10,
+126895,Zen Pilgrimage: Return,u,1,8,"$?a200617[Returns your spirit back to its body, returning you near to where you once were.  Leaving the Wandering Isle will cancel Zen Pilgr"
+124081,Zen Pulse,?,?,22,$@spelldesc446326
+1249625,Zenith,?,?,15,Chi costs are reduced by  and Blackout Kick reduces the cooldown of affected abilities by an additional ${/1000} sec for .  Activating Zenit
+374227,Zephyr,?,?,35,"Conjure an updraft to lift you and your  nearest allies within  yds into the air, reducing damage taken from area-of-effect attacks by % and"

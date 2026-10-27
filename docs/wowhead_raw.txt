@@ -1,0 +1,41 @@
+﻿NPC 5953: Razor Hill Grunt || Razor Hill Grunt Humanoid (Normal) Orgrimmar || zone=14
+NPC 3296: Orgrimmar Grunt || Orgrimmar Grunt Level 90 Humanoid (Normal) Orgrimmar || zone=1637
+NPC 152293: Orc Commoner || Orc Commoner Humanoid (Normal) || zone=10492
+NPC 152294: Troll Commoner || Troll Commoner Humanoid (Normal) || zone=
+NPC 85203: Peon || Peon Humanoid (Normal) Orgrimmar || zone=
+NPC 156508: Orgrimmar Citizen || Orgrimmar Citizen Humanoid (Normal) || zone=11402
+NPC 19176: Tauren Commoner || Tauren Commoner Humanoid (Normal) Thunder Bluff || zone=1637
+NPC 190399: Bounty Hunter || Bounty Hunter Cartel Ta Humanoid (Elite) || zone=8443
+NPC 33624: Archmage Pentarus || Archmage Pentarus Humanoid (Elite) Kirin Tor || zone=4273
+NPC 33390: Thistlefur Warrior || Thistlefur Warrior Level 30 Humanoid (Normal) || zone=331
+NPC 7105: Jadefire Satyr || Jadefire Satyr Level 30 - 44 Demon (Normal) Demon || zone=361
+NPC 3925: Thistlefur Avenger || Thistlefur Avenger Level 20 - 34 Humanoid (Normal) || zone=331
+NPC 1989: Grellkin || Grellkin Level 4 - 30 Demon (Normal) Demon || zone=6450
+NPC 2022: Timberling || Timberling Level 6 - 30 Elemental (Normal) Elemental || zone=141
+NPC 1996: Strigid Screecher || Strigid Screecher Level 30 Beast (Normal) Bird of Prey || zone=141
+NPC 6491: Spirit Healer || Spirit Healer Level 1 - 90 Humanoid (Normal) Friendly || zone=7637
+NPC 23197: Maiev Shadowsong || Maiev Shadowsong Humanoid (Elite) Friendly || zone=3959
+NPC 35595: Archmage Selwyn || Archmage Selwyn Mennar Academy Level 30 Humanoid (Elite) || zone=16
+NPC 34261: Caravan Peon || Caravan Peon Humanoid (Normal) || zone=17
+NPC 15358: Lurky || &nbsp; Lurky Battle Pet &nbsp; Promotion: Burning Crusade Collector's Edition (EU only) &nbsp; "Lurky's charming disposition and lively antics are guaranteed to soothe frustration and lighten even the darkest moods." || zone=
+SPELL 36554: Shadowstep || Shadowstep 25 yd range Instant 30 sec cooldown Requires Rogue Requires level 11 Step through the shadows to appear behind your target and gain 70% increased movement speed for 2 sec. [ Subtlety : If you already know Shadowstep , instead gain 1 additional charge of Shadowstep ] Shadowstep Movement speed increased by 70%. 2 seconds remaining
+SPELL 5277: Evasion || Evasion Talent Instant 2 min cooldown Requires Rogue Increases your dodge chance by 100% for 10 sec. Evasion Dodge chance increased by 100%. 10 seconds remaining
+SPELL 31224: Cloak of Shadows || Cloak of Shadows Talent Instant 2 min cooldown Requires Rogue Provides a moment of magic immunity, instantly removing all harmful spell effects. The cloak lingers, causing you to resist harmful spells for 5 sec . Cloak of Shadows Resisting all harmful spells. 5 seconds remaining
+SPELL 195072: Fel Rush || Fel Rush Instant 10 sec cooldown 1 Charge Requires Demon Hunter Rush forward, incinerating anything in your path for (43.4673% of Attack Power) Chaos damage.
+SPELL 185123: Throw Glaive || Throw Glaive 25 Fury 30 yd range Instant 9 sec cooldown 1 Charge Requires Demon Hunter Requires level 12 Throw a demonic glaive at the target, dealing (49.2352% of Attack Power) Physical damage. The glaive can ricochet to [ Bouncing Glaives : 1 additional enemies / an additional enemy] within 10 yards.
+SPELL 198793: Vengeful Retreat || Vengeful Retreat Talent Instant 25 sec cooldown 1 Charge Requires Demon Hunter Remove all snares and vault away. Nearby enemies take (16% of Attack Power) Physical damage [ Vengeful Bonds : and have their movement speed reduced by 70% for 3 sec ].
+SPELL 196718: Darkness || Darkness Talent Instant 5 min cooldown Requires Demon Hunter Summons darkness around you in a n 8 yd radius, granting friendly targets a 15% chance to avoid all damage from an attack. Lasts 8 sec . Chance to avoid damage increased by 100% when not in a raid.
+SPELL 366962: Ash'adar, Harbinger of Dawn || Ash'adar, Harbinger of Dawn 1.5 sec cast Summons and dismisses this mount. "Kaldorei legends whisper of a relentless hunter prowling amongst the deepest shadows of Kalimdor, never sleeping. By the light of the sun or the moon, Ash'adar now hunts with you." Trading Post / Shop Ash'adar, Harbinger of Dawn Increases ground speed by Ground Speed%. [Increases steady flight speed by $j1f%.](When swimming) Increases swim speed by Swimming Speed%.
+SPELL 21162: Fireball || Fireball Level 90 Item Effect 45 Mana 35 yd range 2 sec cast Requires Mage Hurls a fiery ball that causes 1172 Fire damage and an additional 290 damage over 10 sec. Fireball 58 Fire damage every 2 sec. 10 seconds remaining
+SPELL 21142: Immolation || Immolation Level 90 Item Effect Deals 19 Fire damage to anyone who strikes you with a melee attack.
+ITEM 17182: Sulfuras, Hand of Ragnaros Q5 || Sulfuras, Hand of Ragnaros Item Level 38 Binds when picked up Unique Two-Hand Mace 19 - 25 Damage Speed 3.60 (6.1 damage per second) +3 Strength +3 Stamina +8 Fire Resistance Durability 145 / 145 Chance on hit: Hurls a fiery ball that causes 33 Fire damage and an additional 8 damage over 10 sec. Equip: Deals 1 Fire damage to anyone who strikes you with a melee attack. Requires Level 30 Sell Price: 4 45 23
+ITEM 32837: Warglaive of Azzinoth Q5 || Warglaive of Azzinoth Item Level 42 Binds when picked up Unique Main Hand Sword 9 - 16 Damage Speed 2.60 (4.8 damage per second) +4 Agility +8 Stamina + 5 Critical Strike Durability 130 / 130 Classes: Warrior , Rogue , Death Knight , Monk , Demon Hunter Requires Level 30 The Twin Blades of Azzinoth (0/2) Warglaive of Azzinoth Warglaive of Azzinoth (2) Set : Your melee attacks have a chance to increase your haste by 66 for 10 sec. (45s cooldown) (2) Set : Increases attack power by 31 when fighting Demons. Sell Price: 5 11 64 Dropped by: Illidan Stormrage Drop Chance: 4.29%
+ITEM 32838: Warglaive of Azzinoth Q5 || Warglaive of Azzinoth Item Level 42 Binds when picked up Unique Off Hand Sword 9 - 16 Damage Speed 2.60 (4.8 damage per second) +4 Agility +8 Stamina + 6 Critical Strike Durability 130 / 130 Classes: Warrior , Rogue , Death Knight , Monk , Demon Hunter Requires Level 30 The Twin Blades of Azzinoth (0/2) Warglaive of Azzinoth Warglaive of Azzinoth (2) Set : Your melee attacks have a chance to increase your haste by 66 for 10 sec. (45s cooldown) (2) Set : Increases attack power by 31 when fighting Demons. Sell Price: 5 13 45 Dropped by: Illidan Stormrage Drop Chance: 4.22%
+ITEM 203431: Ensemble: Burden of Unrelenting Justice Q3 || Ensemble: Burden of Unrelenting Justice Item Level 1 Binds to Warband Use: Collect the appearances of the Burden of Unrelenting Justice.
+ITEM 190231: Ash'adar, Harbinger of Dawn Q4 || Ash'adar, Harbinger of Dawn Item Level 10 Binds to Warband Unique Mount (Account-wide) Use: Teaches you how to summon this mount. Summons and dismisses this mount. Requires level 1 to 90 ( 90) Requires Apprentice Riding Sell Price: 1 "Kaldorei legends whisper of a relentless hunter prowling amongst the deepest shadows of Kalimdor, never sleeping. By the light of the sun or the moon, Ash'adar now hunts with you." Trading Post / Shop Trading Post cost: 900 Trader's Tender
+ZONE 141: Teldrassil || Teldrassil Level 1-30 Type: Zone Territory: Alliance
+ZONE 331: Ashenvale || Ashenvale Level 7-30 Type: Zone Territory: Contested
+ZONE 361: Felwood || Felwood Level 15-30 Type: Zone Territory: Contested
+ZONE 14: Durotar || Durotar Level 1-30 Type: Zone Territory: Horde
+ZONE 17: Northern Barrens || Northern Barrens Level 5-30 Type: Zone Territory: Horde
+ZONE 1637: Orgrimmar || Orgrimmar Level 1-90 Type: City Territory: Horde Location: Durotar

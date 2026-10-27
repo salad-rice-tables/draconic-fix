@@ -1,0 +1,339 @@
+﻿creature,npc,group,id,kit,folder
+3063,Krang Stonehoof,5,0,6575,tauren
+4832,Twilight Lord Kelris,0,0,5802,twilightmasterkelris
+4832,Twilight Lord Kelris,1,0,5804,twilightmasterkelris
+4832,Twilight Lord Kelris,2,0,5803,twilightmasterkelris
+4854,Grimlok,0,0,5853,grimlock
+4854,Grimlok,2,0,5854,grimlock
+10599,Hulfnar Stonetotem,0,0,6280,tauren
+10599,Hulfnar Stonetotem,1,0,6281,tauren
+10600,Thontek Rumblehoof,0,0,6277,tauren
+11218,Kerlonian Evershade,0,0,6209,druid of the claw
+12017,Broodlord Lashlayer,0,0,8286,broodlordlasher
+12017,Broodlord Lashlayer,1,0,8287,broodlordlasher
+15516,Battleguard Sartura,0,0,8646,fankriss
+15516,Battleguard Sartura,1,0,8647,fankriss
+15516,Battleguard Sartura,2,0,8648,fankriss
+15690,Prince Malchezaar,0,0,9218,princemalchezzar
+15690,Prince Malchezaar,1,0,9220,princemalchezzar
+15690,Prince Malchezaar,2,0,9317,princemalchezzar
+15690,Prince Malchezaar,3,0,9223,princemalchezzar
+15690,Prince Malchezaar,4,0,9320,princemalchezzar
+15690,Prince Malchezaar,5,0,9321,princemalchezzar
+15690,Prince Malchezaar,6,0,9222,princemalchezzar
+15690,Prince Malchezaar,6,1,9318,princemalchezzar
+15690,Prince Malchezaar,6,2,9319,princemalchezzar
+15690,Prince Malchezaar,7,0,9224,princemalchezzar
+15690,Prince Malchezaar,7,1,9322,princemalchezzar
+15690,Prince Malchezaar,8,0,9221,princemalchezzar
+15954,Noth the Plaguebringer,0,0,8845,noththefrozen
+15954,Noth the Plaguebringer,0,1,8846,noththefrozen
+15954,Noth the Plaguebringer,0,2,8847,noththefrozen
+15954,Noth the Plaguebringer,1,0,8851,noththefrozen
+15954,Noth the Plaguebringer,2,0,8849,noththefrozen
+15954,Noth the Plaguebringer,2,1,8850,noththefrozen
+15954,Noth the Plaguebringer,3,0,8848,noththefrozen
+15990,Kel'Thuzad,1,0,8881,lichking
+15990,Kel'Thuzad,3,0,8882,lichking
+17653,Shadowmoon Channeler,0,0,10166,kelidanthebreaker
+17653,Shadowmoon Channeler,0,1,10167,kelidanthebreaker
+17653,Shadowmoon Channeler,0,2,10168,kelidanthebreaker
+17862,Captain Skarloc,0,0,10406,captainscarloc
+17862,Captain Skarloc,1,0,10407,captainscarloc
+17862,Captain Skarloc,2,0,10408,captainscarloc
+17862,Captain Skarloc,3,0,10409,captainscarloc
+17862,Captain Skarloc,3,1,10410,captainscarloc
+17862,Captain Skarloc,4,0,10411,captainscarloc
+18076,Grommash Hellscream,1,0,10629,mannorothsdeath
+18076,Grommash Hellscream,3,0,10630,mannorothsdeath
+18344,Nexus-Prince Shaffar,0,0,10539,nexusprinceshafar
+18344,Nexus-Prince Shaffar,1,0,10541,nexusprinceshafar
+18344,Nexus-Prince Shaffar,1,1,10542,nexusprinceshafar
+18344,Nexus-Prince Shaffar,1,2,10543,nexusprinceshafar
+18344,Nexus-Prince Shaffar,2,0,10544,nexusprinceshafar
+18344,Nexus-Prince Shaffar,2,1,10545,nexusprinceshafar
+18344,Nexus-Prince Shaffar,3,0,10540,nexusprinceshafar
+18344,Nexus-Prince Shaffar,4,0,10546,nexusprinceshafar
+18702,Auchenai Necromancer,0,0,10530,necromancerdraenei01
+18702,Auchenai Necromancer,0,1,10531,necromancerdraenei01
+18702,Auchenai Necromancer,0,2,10532,necromancerdraenei01
+18702,Auchenai Necromancer,0,3,10533,necromancerdraenei02
+18702,Auchenai Necromancer,0,4,10534,necromancerdraenei02
+18702,Auchenai Necromancer,0,5,10535,necromancerdraenei02
+18702,Auchenai Necromancer,0,6,10536,necromancerdraenei03
+18702,Auchenai Necromancer,0,7,10537,necromancerdraenei03
+18702,Auchenai Necromancer,0,8,10538,necromancerdraenei03
+19228,Perry Gatner,21,0,4415,mechastrider
+19380,Guard Untula,0,0,1040,centaur
+19523,O'mrogg's Left Head,0,0,10306,warbringeromrogg
+19523,O'mrogg's Left Head,1,0,10307,warbringeromrogg
+19523,O'mrogg's Left Head,2,0,10308,warbringeromrogg
+19523,O'mrogg's Left Head,3,0,10309,warbringeromrogg
+19523,O'mrogg's Left Head,4,0,10300,warbringeromrogg
+19523,O'mrogg's Left Head,5,0,10301,warbringeromrogg
+19523,O'mrogg's Left Head,6,0,10302,warbringeromrogg
+19523,O'mrogg's Left Head,7,0,10303,warbringeromrogg
+19523,O'mrogg's Left Head,8,0,10304,warbringeromrogg
+19523,O'mrogg's Left Head,9,0,10305,warbringeromrogg
+19523,O'mrogg's Left Head,10,0,10310,warbringeromrogg
+19523,O'mrogg's Left Head,11,0,10311,warbringeromrogg
+19524,O'mrogg's Right Head,0,0,10317,warbringeromrogg
+19524,O'mrogg's Right Head,1,0,10318,warbringeromrogg
+19524,O'mrogg's Right Head,2,0,10319,warbringeromrogg
+19524,O'mrogg's Right Head,3,0,10312,warbringeromrogg
+19524,O'mrogg's Right Head,4,0,10313,warbringeromrogg
+19524,O'mrogg's Right Head,5,0,10314,warbringeromrogg
+19524,O'mrogg's Right Head,6,0,10315,warbringeromrogg
+19524,O'mrogg's Right Head,7,0,10316,warbringeromrogg
+19524,O'mrogg's Right Head,8,0,10320,warbringeromrogg
+19524,O'mrogg's Right Head,9,0,10321,warbringeromrogg
+19524,O'mrogg's Right Head,10,0,10322,warbringeromrogg
+19647,Thrall,1,0,10631,mannorothsdeath
+20885,Dalliah the Doomsayer,0,0,11085,daliahthedoomsayer
+20885,Dalliah the Doomsayer,1,0,11086,daliahthedoomsayer
+20885,Dalliah the Doomsayer,2,0,11087,daliahthedoomsayer
+20885,Dalliah the Doomsayer,2,1,11088,daliahthedoomsayer
+20885,Dalliah the Doomsayer,3,0,11089,daliahthedoomsayer
+20885,Dalliah the Doomsayer,3,1,11090,daliahthedoomsayer
+20885,Dalliah the Doomsayer,4,0,11091,daliahthedoomsayer
+20885,Dalliah the Doomsayer,4,1,11092,daliahthedoomsayer
+20885,Dalliah the Doomsayer,5,0,11093,daliahthedoomsayer
+20885,Dalliah the Doomsayer,6,0,11094,daliahthedoomsayer
+20885,Dalliah the Doomsayer,6,1,11095,daliahthedoomsayer
+20885,Dalliah the Doomsayer,6,2,11096,daliahthedoomsayer
+20885,Dalliah the Doomsayer,7,0,11097,daliahthedoomsayer
+20886,Wrath-Scryer Soccothrates,0,0,11237,wratchscryersoccothrates
+20886,Wrath-Scryer Soccothrates,1,0,11238,wratchscryersoccothrates
+20886,Wrath-Scryer Soccothrates,2,0,11239,wratchscryersoccothrates
+20886,Wrath-Scryer Soccothrates,3,0,11241,wratchscryersoccothrates
+20886,Wrath-Scryer Soccothrates,3,1,11242,wratchscryersoccothrates
+20886,Wrath-Scryer Soccothrates,4,0,11243,wratchscryersoccothrates
+20886,Wrath-Scryer Soccothrates,5,0,11244,wratchscryersoccothrates
+20886,Wrath-Scryer Soccothrates,5,1,11245,wratchscryersoccothrates
+20886,Wrath-Scryer Soccothrates,5,2,11246,wratchscryersoccothrates
+20886,Wrath-Scryer Soccothrates,6,0,11247,wratchscryersoccothrates
+20886,Wrath-Scryer Soccothrates,7,0,11236,wrathscryeranddalliah
+21215,Leotheras the Blind,0,0,11304,leotheras_demon
+21215,Leotheras the Blind,1,0,11305,leotheras_demon
+21215,Leotheras the Blind,2,0,11306,leotheras_demon
+21215,Leotheras the Blind,2,1,11307,leotheras_demon
+21215,Leotheras the Blind,2,2,11308,leotheras_demon
+21215,Leotheras the Blind,3,0,11312,leotheras_nightelf
+21215,Leotheras the Blind,4,0,11313,leotheras_nightelf
+21215,Leotheras the Blind,5,0,11314,leotheras_nightelf
+21215,Leotheras the Blind,5,1,11315,leotheras_nightelf
+21215,Leotheras the Blind,5,2,11316,leotheras_nightelf
+21215,Leotheras the Blind,6,0,11317,leotheras_nightelf
+21504,Pathaleon the Calculator's Image,6,0,7274,dragons
+21697,Infinite Chrono-Lord,0,0,10412,chronolorddeja
+21697,Infinite Chrono-Lord,1,0,10413,chronolorddeja
+21697,Infinite Chrono-Lord,2,0,10414,chronolorddeja
+21697,Infinite Chrono-Lord,3,0,10415,chronolorddeja
+21697,Infinite Chrono-Lord,3,1,10416,chronolorddeja
+21697,Infinite Chrono-Lord,4,0,10417,chronolorddeja
+21698,Infinite Timereaver,0,0,10442,temporustheunraveller
+21698,Infinite Timereaver,1,0,10443,temporustheunraveller
+21698,Infinite Timereaver,2,0,10444,temporustheunraveller
+21698,Infinite Timereaver,3,0,10445,temporustheunraveller
+21698,Infinite Timereaver,3,1,10446,temporustheunraveller
+21698,Infinite Timereaver,4,0,10447,temporustheunraveller
+21875,Shadow of Leotheras,0,0,11309,leotheras_demon
+23061,Rivendark,0,0,7274,dragons
+23061,Rivendark,0,1,7274,dragons
+23061,Rivendark,0,2,7274,dragons
+23061,Rivendark,0,3,7274,dragons
+23061,Rivendark,0,4,7274,dragons
+23061,Rivendark,0,5,7274,dragons
+23061,Rivendark,0,6,7274,dragons
+23061,Rivendark,0,7,7274,dragons
+23261,Furywing,0,0,7274,dragons
+23261,Furywing,0,1,7274,dragons
+23261,Furywing,0,2,7274,dragons
+23261,Furywing,0,3,7274,dragons
+23261,Furywing,0,4,7274,dragons
+23261,Furywing,0,5,7274,dragons
+23261,Furywing,0,6,7274,dragons
+23261,Furywing,0,7,7274,dragons
+23281,Insidion,0,0,7274,dragons
+23281,Insidion,0,1,7274,dragons
+23281,Insidion,0,2,7274,dragons
+23281,Insidion,0,3,7274,dragons
+23281,Insidion,0,4,7274,dragons
+23281,Insidion,0,5,7274,dragons
+23281,Insidion,0,6,7274,dragons
+23281,Insidion,0,7,7274,dragons
+23282,Obsidia,0,0,7274,dragons
+23282,Obsidia,0,1,7274,dragons
+23282,Obsidia,0,2,7274,dragons
+23282,Obsidia,0,3,7274,dragons
+23282,Obsidia,0,4,7274,dragons
+23282,Obsidia,0,5,7274,dragons
+23282,Obsidia,0,6,7274,dragons
+23282,Obsidia,0,7,7274,dragons
+23418,Essence of Suffering,0,0,11415,essenceofgrief
+23418,Essence of Suffering,1,0,11416,essenceofgrief
+23418,Essence of Suffering,1,1,11417,essenceofgrief
+23418,Essence of Suffering,1,2,11418,essenceofgrief
+23418,Essence of Suffering,2,0,11419,essenceofgrief
+23418,Essence of Suffering,3,0,11420,essenceofgrief
+23418,Essence of Suffering,4,0,11421,essenceofgrief
+23775,Head of the Horseman,0,0,11969,headlesshorseman
+23775,Head of the Horseman,1,0,12569,headlesshorseman
+24723,Selin Fireheart,0,0,12378,selimfireheart
+24723,Selin Fireheart,1,0,12381,selimfireheart
+24723,Selin Fireheart,2,0,12382,selimfireheart
+24723,Selin Fireheart,3,0,12388,selimfireheart
+24723,Selin Fireheart,3,1,12385,selimfireheart
+24723,Selin Fireheart,4,0,12383,selimfireheart
+24742,"""Mad"" Jonah Sterling",0,0,3403,walrus
+24742,"""Mad"" Jonah Sterling",1,1,3403,walrus
+24892,Sathrovarr the Corruptor,0,0,12451,sathrovarthecorruptor
+24892,Sathrovarr the Corruptor,1,0,12455,sathrovarthecorruptor
+24892,Sathrovarr the Corruptor,1,1,12456,sathrovarthecorruptor
+24892,Sathrovarr the Corruptor,2,0,12452,sathrovarthecorruptor
+24892,Sathrovarr the Corruptor,3,0,12453,sathrovarthecorruptor
+24892,Sathrovarr the Corruptor,4,0,12454,sathrovarthecorruptor
+25038,Felmyst,0,0,12477,felblaze
+25038,Felmyst,1,0,12480,felblaze
+25038,Felmyst,1,1,12481,felblaze
+25038,Felmyst,2,0,12478,felblaze
+25038,Felmyst,3,0,12479,felblaze
+25038,Felmyst,4,0,12482,felblaze
+25038,Felmyst,5,0,12483,felblaze
+25038,Felmyst,6,0,12439,kalecgos
+26237,Keristrasza,1,0,7274,dragons
+26648,Oacha'noa,0,0,11557,krakken
+26648,Oacha'noa,1,0,11557,krakken
+26648,Oacha'noa,2,0,11557,krakken
+26648,Oacha'noa,3,0,11557,krakken
+26648,Oacha'noa,4,0,11557,krakken
+26648,Oacha'noa,5,0,11557,krakken
+26648,Oacha'noa,9,0,11557,krakken
+27951,Admiral Barean Westwind,0,0,14198,grandadmiralwestwind
+27951,Admiral Barean Westwind,2,0,14199,grandadmiralwestwind
+27951,Admiral Barean Westwind,3,0,14200,grandadmiralwestwind
+28068,Prophet of Sseratus,1,0,4496,serpent
+28215,Dajik the Wasp Hunter,3,0,14212,princevalanar
+28515,Jan'alai,0,0,9919,dragonhawk
+28636,Heb'Jin,0,0,12009,foresttrollmale
+28902,Warlord Zol'Maz,1,0,6200,forest troll
+28952,Akali,0,0,771,kodobeast
+29023,Jan'alai,0,0,9919,dragonhawk
+29028,Prophet of Akali,0,0,12009,foresttrollmale
+29028,Prophet of Akali,1,0,6200,forest troll
+29050,Har'koa,1,0,11887,spectraltiger
+29050,Har'koa,2,0,11883,spectraltiger
+29280,Image of Arthas,0,0,14732,lichking
+29280,Image of Arthas,1,0,14733,lichking
+29281,Svala,0,0,13856,svalasorrowgrave
+29769,Vile,1,0,1446,fleshgolem
+29770,Lady Nightswood,1,0,1173,banshee
+29840,The Leaper,1,0,12937,northrendgeist
+29881,An Unknown Voice,0,0,14376,yoggsaron
+29881,An Unknown Voice,0,1,14377,yoggsaron
+29881,An Unknown Voice,0,2,14378,yoggsaron
+29881,An Unknown Voice,0,3,14379,yoggsaron
+29881,An Unknown Voice,0,4,14380,yoggsaron
+29881,An Unknown Voice,0,5,14381,yoggsaron
+29881,An Unknown Voice,0,6,14382,yoggsaron
+29881,An Unknown Voice,0,7,14383,yoggsaron
+30632,Mjordin Water Magus,0,1,13695,waterelemental
+30898,Kaddrak,0,0,13756,kadrak
+30898,Kaddrak,1,0,13757,kadrak
+30898,Kaddrak,2,0,13758,kadrak
+30898,Kaddrak,3,0,13759,kadrak
+30924,Possessed Iskalder,0,0,1167,banshee
+30945,Vardmadra,3,0,1168,banshee
+30945,Vardmadra,4,0,1167,banshee
+33134,Sara,0,0,15771,yoggsaron
+33134,Sara,1,0,15772,yoggsaron
+33134,Sara,2,0,15775,yoggsaron
+33134,Sara,3,0,15773,yoggsaron
+33134,Sara,4,0,15774,yoggsaron
+33134,Sara,5,0,15779,yoggsaron
+33134,Sara,5,1,15778,yoggsaron
+33134,Sara,6,0,15754,yoggsaron
+33134,Sara,10,0,15777,yoggsaron
+33134,Sara,11,0,15776,yoggsaron
+33210,Expedition Commander,1,0,15648,razorscalenpc
+33442,Immolated Champion,0,0,15470,arthasprisoner
+33442,Immolated Champion,1,0,15471,arthasprisoner
+34143,Computer,0,0,15413,archivumsystem
+34143,Computer,1,0,15414,archivumsystem
+34143,Computer,2,0,15415,archivumsystem
+34143,Computer,3,0,15416,archivumsystem
+34143,Computer,4,0,15417,archivumsystem
+34143,Computer,5,0,15418,archivumsystem
+34143,Computer,6,0,15419,archivumsystem
+34143,Computer,7,0,15420,archivumsystem
+34143,Computer,8,0,15421,archivumsystem
+34143,Computer,9,0,15422,archivumsystem
+34143,Computer,10,0,15423,archivumsystem
+34143,Computer,11,0,15424,archivumsystem
+34143,Computer,12,0,15425,archivumsystem
+34496,Eydis Darkbane,0,0,16272,sisters
+34496,Eydis Darkbane,1,0,16279,sisters
+34496,Eydis Darkbane,2,0,16278,sisters
+34496,Eydis Darkbane,5,0,16274,sisters
+34496,Eydis Darkbane,6,0,16276,sisters
+34496,Eydis Darkbane,6,1,16276,sisters
+34496,Eydis Darkbane,7,0,16273,sisters
+34496,Eydis Darkbane,8,0,16275,sisters
+34497,Fjola Lightbane,0,0,16272,sisters
+34497,Fjola Lightbane,1,0,16279,sisters
+34497,Fjola Lightbane,2,0,16278,sisters
+34497,Fjola Lightbane,5,0,16274,sisters
+34497,Fjola Lightbane,6,0,16276,sisters
+34497,Fjola Lightbane,6,1,16276,sisters
+34497,Fjola Lightbane,7,0,16273,sisters
+34497,Fjola Lightbane,8,0,16275,sisters
+35813,Frightened Miner,4,0,16458,protodragon
+35917,Kilag Gorefang,1,0,16458,protodragon
+36513,Trade Prince Gallywix,0,0,16459,rocketmount
+36513,Trade Prince Gallywix,2,0,16459,rocketmount
+38122,Bamm Megabomb,0,0,6820,chicken
+38409,Goblin Survivor,11,0,2304,totemall
+38409,Goblin Survivor,12,0,2304,totemall
+38448,Faceless of the Deep,0,0,15136,facelessone
+38745,Kezan Citizen,3,0,2304,totemall
+42277,Garrosh Hellscream,13,0,21505,korkron
+43160,Earthbreaker Dolomite,0,0,1285,elementalfire
+45773,Wildhammer Hellion,0,0,1374,gryphon
+45773,Wildhammer Hellion,4,0,1374,gryphon
+46114,SI:7 Squad Commander,2,0,23202,chogall
+46452,Lirastrasza,0,0,20702,netherdrakeall
+46472,Initiate Goldmine,0,0,11778,giantspider
+46472,Initiate Goldmine,1,0,11778,giantspider
+46472,Initiate Goldmine,4,0,11778,giantspider
+46513,Initiate Goldmine,6,0,11778,giantspider
+46513,Initiate Goldmine,7,0,20702,netherdrakeall
+46513,Initiate Goldmine,8,0,20702,netherdrakeall
+46513,Initiate Goldmine,9,0,20702,netherdrakeall
+46513,Initiate Goldmine,10,0,11778,giantspider
+46579,Depths Overseer,0,0,11778,giantspider
+46579,Depths Overseer,1,0,3525,dragons
+46579,Depths Overseer,2,0,11778,giantspider
+46579,Depths Overseer,3,0,11778,giantspider
+46611,Magmatooth,0,0,11778,giantspider
+46611,Magmatooth,1,0,20702,netherdrakeall
+46611,Magmatooth,2,0,20702,netherdrakeall
+46819,Corpse of Forgemaster Finlay,2,0,20702,netherdrakeall
+46819,Corpse of Forgemaster Finlay,4,0,20702,netherdrakeall
+46900,Cho'gall,3,0,20702,netherdrakeall
+47206,Loudspeaker,0,0,22491,goblinhotrod
+47206,Loudspeaker,1,0,22491,goblinhotrod
+49234,The Beast Unleashed,1,0,14046,heraldvolazj
+49275,Keely Dunwald,0,0,14046,heraldvolazj
+49277,Iain Firebeard,0,0,14046,heraldvolazj
+49278,Cliff Thundermar,0,0,14046,heraldvolazj
+49279,Russell Brower,0,0,14046,heraldvolazj
+49314,Donnelly Dunwald,0,0,14046,heraldvolazj
+52943,Norkani,0,0,12029,halazzi
+91797,King Deepbeard,4,0,54164,prince_oceanus
+124922,Helena Gentle,1,0,97670,drustvar_witch
+131825,Sister Briar,6,0,97515,sister_malady
+158281,Greeter Mnemis,0,0,158110,greeter_praetor
+158281,Greeter Mnemis,1,0,158121,greeter_praetor
+166782,Thrall,0,0,156954,warlord_breka_grimaxe
+166824,Thrall,0,0,156952,warlord_breka_grimaxe
+166827,Thrall,1,0,156953,warlord_breka_grimaxe

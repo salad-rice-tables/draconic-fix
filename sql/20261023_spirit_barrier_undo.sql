@@ -1,0 +1,4 @@
+REPLACE INTO gameobject (guid,id,map,zoneId,areaId,spawnDifficulties,PhaseId,PhaseGroup,terrainSwapMap,position_x,position_y,position_z,orientation,rotation0,rotation1,rotation2,rotation3,spawntimesecs,animprogress,state,ScriptName,StringId,VerifiedBuild) VALUES (990000000101167822,209922,0,0,0,'0',45629,0,-1,6059.82,-5041.33,195.972,1.4227,0,0,-0.652856,-0.757482,300,255,1,'',NULL,0);
+REPLACE INTO gameobject (guid,id,map,zoneId,areaId,spawnDifficulties,PhaseId,PhaseGroup,terrainSwapMap,position_x,position_y,position_z,orientation,rotation0,rotation1,rotation2,rotation3,spawntimesecs,animprogress,state,ScriptName,StringId,VerifiedBuild) VALUES (990000000101167823,209922,0,0,0,'0',0,0,-1,6040.18,-5167.23,215.348,1.43674,0,0,-0.658159,-0.752879,300,255,1,'',NULL,0);
+DELETE FROM gameobject WHERE guid IN (990000000101167822,990000000101167823) AND id=516343;
+DELETE FROM gameobject_template_addon WHERE entry=516343;

@@ -1,0 +1,27 @@
+{
+ "date": "2026-10-16",
+ "audit_base": "midnight_main_audit.json (2026-10-11, STALE)",
+ "fresh_live_audit": "233 quests, 4 with problems TODAY (vsetky Scouting-Map no-starter retail-design: 86708, 89193, 89402, 94871)",
+ "finding": "11 povodnych giver-flagov uz NEEXISTUJE: 20261009_npc_repoint.sql + neskorie session prelinkovali nespawnutych enderov na spawnute verzie rovnakej postavy (235386->235411/235698, 236558->236594/245646, 236587/236601->236659, 236602->236659/236126, 236141->244422/236126, 237433->236572/236612, 241306->236659/249653, 237572->237332/240839, 240630->237341/237787, 237502->236734, 235386->235698). Kazdy quest ma dnes spawnuty starter + 2+ spawnutych enderov.",
+ "retail_validation": {
+  "method": "Wowhead tooltip API pins (11 entries) + wago QuestPOIPoint/QuestPOIBlob + UiMapAssignment rects; TDB creature_questender; live creature spawns+phases; conditions (SourceType 26/47)",
+  "pins_vs_spawned_twins_yd": {
+   "236558": 13,
+   "236587": 28,
+   "236601": 20,
+   "236602": 9,
+   "236141": 17,
+   "237433": 6,
+   "241306": 4,
+   "237572": 5,
+   "240630": 5,
+   "235386": 11
+  },
+  "pins_vs_wago_POI_yd": "2-9 (nezavisla zhoda dvoch retail zdrojov)",
+  "phase_analysis": "spawnute verzie sedia kazda vo vlastnej quest-faze (456xx/457xx); conditions nemaju fazove riadky pre stare entries; stare entries nie su v ziadnom quest_objectives (len ender-linky) -> repoint na spawnutu verziu je retail-spravne (Wiki pozna len mena postav, nie entry)",
+  "237502_Arator": "patrol NPC (~100 pinov zona 10473) -> repoint na 236734 (2 spawny) spravne, staticky spawn by bol zle",
+  "86874": "template texty prazdne aj v TDB; offer-text v DB==TDB==tooltip; 4 objektivy==TDB==tooltip T1/T2/T3"
+ },
+ "db_writes": "ZIADNE (nie je co opravovat; audit JSON z 10-11 je zastaraly)",
+ "open": []
+}

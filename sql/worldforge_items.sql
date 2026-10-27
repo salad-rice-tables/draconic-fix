@@ -1,7 +1,7 @@
 -- =====================================================================
--- Worldforge itemy (Descend): 1383 itemov 9700001-9701383 z Worldforged Atlas.
+-- Worldforge itemy (Ascension): 1383 itemov 9700001-9701383 z Worldforged Atlas.
 -- Vzhlad, item level, armor a damage su z retail sablony rovnakeho typu a
--- levelu; meno, flavor text, kvalita a staty z Descend. Hotfix push 1900120.
+-- levelu; meno, flavor text, kvalita a staty z Ascension. Hotfix push 1900120.
 -- Mapovanie item -> zona/suradnice: world.worldforge_item. Undo: worldforge_items_undo.sql
 -- =====================================================================
 DELETE FROM `hotfixes`.`hotfix_data` WHERE `Id` = 1900120;
@@ -7798,10 +7798,10 @@ INSERT INTO `hotfixes`.`hotfix_data` (`Id`, `UniqueId`, `TableHash`, `RecordId`,
 DROP TABLE IF EXISTS `world`.`worldforge_item`;
 CREATE TABLE `world`.`worldforge_item` (
   `item` int unsigned NOT NULL, `name` varchar(100) NOT NULL, `zone` varchar(40) NOT NULL,
-  `x` float NOT NULL, `y` float NOT NULL, `quality` tinyint unsigned NOT NULL, `descend_id` bigint NOT NULL DEFAULT 0,
+  `x` float NOT NULL, `y` float NOT NULL, `quality` tinyint unsigned NOT NULL, `ascension_id` bigint NOT NULL DEFAULT 0,
   PRIMARY KEY (`item`)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 TRUNCATE TABLE `world`.`worldforge_item`;
-INSERT INTO `world`.`worldforge_item` (`item`, `name`, `zone`, `x`, `y`, `quality`, `descend_id`) VALUES
+INSERT INTO `world`.`worldforge_item` (`item`, `name`, `zone`, `x`, `y`, `quality`, `ascension_id`) VALUES
 (9700001, 'Deadtooth', '', 89, 79, 2, 450521),
 (9700002, 'Mushroom Pickin'' Bag', '', 38.37, 17.13, 3, 410162),
 (9700003, 'Thunderfall Wand', '', 17.11, 68.64, 3, 450525),

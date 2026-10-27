@@ -1,5 +1,5 @@
 -- =====================================================================
--- Descend Challenges (lua/challenges.lua): Challenge Master (9900133) in starting
+-- Ascension Challenges (lua/challenges.lua): Challenge Master (9900133) in starting
 -- areas and capital inns, challenge titles (CharTitles 1400-1406,
 -- hotfix push 1900150), table characters.hero_challenge. Undo: challenges_undo.sql
 -- =====================================================================

@@ -1,0 +1,597 @@
+[
+ {
+  "qid": 10652,
+  "c": "Welcome, <class>. Try not to give our position away.\n\nWe wouldn't last long if Kael's cronies sniff us out.",
+  "d": "All arrangements have been made to take you to where our spies are hiding. Just come see me when you're ready and we'll get you on your way.",
+  "p": "",
+  "t": "Behind Enemy Lines"
+ },
+ {
+  "qid": 77304,
+  "c": "You found the Idol of Ohn'ahra! I suppose I shouldn't be surprised.\n\nWe need to get artifacts like this back to their rightful places. But if my superiors are right, we can't risk letting them fall into the wrong hands. \n\nLet me examine the idol.",
+  "d": "",
+  "p": "What have you found?",
+  "t": "An Idol in Hand"
+ },
+ {
+  "qid": 86274,
+  "c": "Nice! This'll get 'em patched up and good to go!",
+  "d": "As you have probably figured out, Black Blood exposure is bad for your health. And that's a problem for our operation.\nWe can't keep replacin' our workers. It's expensive, and it ain't ethical.\n\nSo! What's the solution? Replacin' our workers with my fully-automated bots.\n\nThese beauties don't get affected by Black Blood exposure. They just dig and haul--precision, efficiency, an' no more sick workers!\n\nI just need more scrap to patch 'em up. You in?",
+  "p": "Time is... you know what it is.",
+  "t": "Automation Solution"
+ },
+ {
+  "qid": 86275,
+  "c": "Bleh. Disgusting, but effective. Now I can get back to work!",
+  "d": "Well, if ya really wanna help... \n\nWe're safe in this cave from the Black Blood--or we were until it was crawlin' with nasty bloodfeasters. \n\nThe ugly little creeps always had a taste for blood--but now they're gonzo for Black Blood! I got a hunch they're spreadin' Black Blood poisonin' when they bite us. \n\nI can't work like this. Each time I see one in a scrap pile, I wanna scream. They're gross, an' I don't wanna get bit an' start seein' things. \n\nStomp 'em flat so we can keep safe an' keep workin'!",
+  "p": "Ahh!\n\nOh, I thought you were another bloodfeaster.",
+  "t": "Bug Exterminator Needed"
+ },
+ {
+  "qid": 86277,
+  "c": "Whoa, I see you took my words to heart!\n\nRemember to hit the shower after you're done here, okay?",
+  "d": "We've got the bots workin' the fields, but there are still flesh-an'-blood workers out there.\n\nThey need to be able to get back here safely, an' they can't do that with a giant, slobberin' \"worm\" doggin' their steps 'cause it's got a taste for goblin meat.\n\nSo, here's the job: I don't want that thing scared off, I want it gone. Go out there, track down that overgrown \"earthworm\", and make sure it dies.\n\nDon't hold back--I want guts everywhere. Payback for all the goblins it's had for lunch.",
+  "p": "You flattened that thing yet?",
+  "t": "\"Worm\" Food No More"
+ },
+ {
+  "qid": 86358,
+  "c": "I appreciate ye making such a big sacrifice, <name>. Your work here will never be forgotten.",
+  "d": "This'll be the hardest task for ye yet.\n\nThe ottuk pups have to get acclimatized to touch. I... I need ye to go pet them. \n\nHard work, but it has to be done.",
+  "p": "What do you think of the wee li'l pups?",
+  "t": "Any Old Excuse"
+ },
+ {
+  "qid": 86361,
+  "c": "Excellent--play can be as useful as training, on some occasions.",
+  "d": "We need to ensure that the thorntail kits' reflexes are sharp so they are effective hunters when they grow up.\n\nPlease take this ball and have a kit chase it. For scientific purposes, of course.",
+  "p": "Has a kit been sufficiently trained?",
+  "t": "Are You Kitting Me?"
+ },
+ {
+  "qid": 86369,
+  "c": "Excellent! Combine the two fractured sparks of fortunes to create a powerful spark of fortunes. You can always combine more using your own crafting efforts.",
+  "d": "You came right on time, <class>.\n\nThis is a fractured spark of fortunes. Using a reagent like this on your gear will make the difference between great and magnificent.\n\nHowever, it is somewhat useless as it is nothing but a fragment. If you chance upon another in your adventures, bring it to me. Once you show me another, I will let you have this one so you can combine them into a spark of fortunes.",
+  "p": "Were you able to find a fractured spark of fortunes? Is that a yes? No?",
+  "t": "A Sparkling Fortune"
+ },
+ {
+  "qid": 86456,
+  "c": "Where did you find this crystal? I can hear it. in my head, singing to me.",
+  "d": "",
+  "p": "I am dealing with another crisis in my eco-domes, <name>. Make it quick or move aside.",
+  "t": "An Elegy for a Silent World"
+ },
+ {
+  "qid": 86457,
+  "c": "I can't believe it! I...\n\n<Name>, what you have found is going to change the future of K'aresh.\n\nThe future of my people.",
+  "d": "<Name>, do you know what this is?\n\nIf I am right, this crystal is the essence of my world, K'aresh. I've spent much of my capital preserving some bit of K'aresh through the eco-dome project. But this...\n\nI do not wish to assume anything before verifying if it is true.\n\nPlace down the shard, and let's see what we can find.",
+  "p": "If this crystal is what I think it is, we have found a new hope of saving K'aresh.",
+  "t": "A Lullaby of Hope"
+ },
+ {
+  "qid": 86458,
+  "c": "What transpired here will echo for years to come. The change will not happen within a day, a week, or even months. But with hope rekindled, we will get there, and we will be united once again.\n\nYou have saved us all, champion.",
+  "d": "There is a site, Eco-Dome: Al'dani, which I have kept hidden. It is built on the remains of one of our most sacred places with a powerful connection to K'aresh. It is the site of our greatest triumph of the project. This is the place where we can take the Worldsoul's essence so it can survive.\n\nThis is also the eco-dome where Soul-Scribe and her Wastelanders are attacking.\n\nClear the way for me one last time, <name>. For K'aresh to survive, we need both the dome and Soul-Scribe intact.",
+  "p": "We must make Soul-Scribe see reason. We must prevent her oath to Salhadaar from dooming K'aresh.",
+  "t": "A Song for Our Future"
+ },
+ {
+  "qid": 86496,
+  "c": "I will begin research on this new material immediately! You have my gratitude, <name>.\n\nYou are welcome to help yourself to the newest sets of armaments I have recently forged.\n\nThey were slated for delivery to the Awakening Machine, but since they seem like the perfect size for you, you are welcome to sample my work.",
+  "d": "Much like the radiant remnants found by the Arathi within Hallowfall, the Siren Crystal appears to be effecting the surrounding geological matrix of the island.\n\nUnlike our goblin compatriots, I don't recommend harvesting the larger shards we've seen around the isle, lest we disturb the fragile caverns beneath us or offend the Arathi.\n\nBut these tiny splinters are worth investigating.\n\nBring me a sizable portion. For... experimental purposes.",
+  "p": "Have you found more splinters of the Siren Crystal? I think I may be able to create something useful with them.",
+  "t": "An Ordered Design"
+ },
+ {
+  "qid": 86556,
+  "c": "Ah, <name>, you have returned. An otherworldly air hangs heavy about you.",
+  "d": "The Destroyer's star shines upon the land with its piercing light as even the spirits retreat to the shadows. This star is unlike any other in the skies, laying bare the weaknesses of even the boldest heroes. While its influence holds, new paths may open up, to distant places and even distant times. No sage truly understands the nature of this sign, but fortune favors the daring.",
+  "p": "",
+  "t": "A Shattered Journey Through Time"
+ },
+ {
+  "qid": 86560,
+  "c": "Ah, <name>, you have returned. An misty air hangs heavy about you.",
+  "d": "The shrouded star flickers upon the land with its intermittent light ushering in an eerie mist upon the land. This star and the mists bring deep shadows to the land hiding its secrets and dangers. While its influence holds, new paths may open up, to distant places and even distant times. No sage truly understands the nature of this sign, but fortune favors the daring.",
+  "p": "I foresee that you will follow the shrouded star, and walk the paths it reveals.",
+  "t": "A Shrouded Journey Through Time"
+ },
+ {
+  "qid": 86563,
+  "c": "Ah, <name>, you have returned. An otherworldly air hangs heavy about you.",
+  "d": "The brutal star shines upon the land, threatening to trample underfoot all who stand in its path. This star is many things: primal, fierce, and noble. While its influence holds, new paths may open up to distant places and even distant times. No sage truly understands the nature of this sign, but fortune favors the daring.",
+  "p": "I foresee that you will follow the brutal star and walk the paths it reveals.",
+  "t": "A Savage Journey Through Time"
+ },
+ {
+  "qid": 86564,
+  "c": "Ah, <name>, you have returned. An fel air hangs heavy about you.",
+  "d": "A corrupting star shines upon the land, threatening all with burning oblivion. The star betrays those who seek the light, its red glow obscuring rather than revealing.\n\nWhile its influence holds, new paths may open up to distant places and even distant times. No sage truly understands the nature of this sign, but fortune favors the daring.",
+  "p": "I foresee that you will follow the corrupting red star and walk the paths it reveals.",
+  "t": "A Fel Journey Through Time"
+ },
+ {
+  "qid": 86589,
+  "c": "Bah! There is no mastery in this. I've seen oozes spew out better plagues than this! Of course, I made those oozes.",
+  "d": "The ritualists have been testing a new plague out on our poor necrorays. This is abominable... That's my job!\n\nBring me some samples of deceased rays and I should be able to concoct a cure for the ones that haven't perished.",
+  "p": "Do you have those samples for me?",
+  "t": "A Plague a Day Keeps the Doctor Away"
+ },
+ {
+  "qid": 86591,
+  "c": "Oh bother. I should have asked you to get his remains. I could have used them.",
+  "d": "This is Vorax's work. He was once my apprentice, just like you!\n\nHe's trying to replicate my work? Flattering, but sloppy. I'll work on a solution for you, apprentice, while you work on a solution for him.",
+  "p": "Is the deed done?",
+  "t": "A Poor Imitation"
+ },
+ {
+  "qid": 86594,
+  "c": "Seems like they'll eat just about anything. Omnivores--that's a handy thing to have.",
+  "d": "We're trying to figure out what these rays eat. \n\nI've gathered some options. Can ye put them out? I'll watch for responses.",
+  "p": "Feeding time. Get to it!",
+  "t": "A Cultured Palette"
+ },
+ {
+  "qid": 86605,
+  "c": "Excellent work! We will administer the concoction and monitor for issues.",
+  "d": "After some analysis of the samples you brought back, it appears the necrorays are suffering from a vitamin deficiency.\n\nVe'nari contacted Marileth, who prepared something... and then re-prepared it after she requested he remove the plague from it.\n\nPlease gather the necrorays so we can test the initial batches.",
+  "p": "Have you gathered the necrorays?",
+  "t": "Booster Shots"
+ },
+ {
+  "qid": 86951,
+  "c": ":",
+  "d": ":",
+  "p": "",
+  "t": "Ascended, Descending"
+ },
+ {
+  "qid": 86959,
+  "c": ":",
+  "d": ":",
+  "p": "",
+  "t": "Bloodeye Prisoners"
+ },
+ {
+  "qid": 87008,
+  "c": "You did right by my little princess.",
+  "d": "Eeey, now that was a wedding worth talkin' about!\n\nYou did okay. Everything went right and the only hitch was the one my little girl got. So we're good.\n\nI know the bride an' groom wanna say their thanks so go chat with them.",
+  "p": "Ain't it great to see those two crazy kids hitched?",
+  "t": "Ad-Hoc Wedding Planner"
+ },
+ {
+  "qid": 87256,
+  "c": "With dis many, we can work our magic to heal de whole war party too!",
+  "d": "I can't leave de warlord's side. I swore an oath to Zul'jin himself to save de Amani warlords at any cost. If I leave, he is sure to die. He is already cold as death! If he weren't movin' and talkin', I'd swear he was already dead.\n\nThere are things we can do without de loa's diagnosis. Bring me de bloodclot branches dat grow below de shrine. They're very important to de healin' rituals we can still do.\n\nGather me a heap of dem.",
+  "p": "Dey must be pungent if dey gonna work.",
+  "t": "Alternative Medicine"
+ },
+ {
+  "qid": 87294,
+  "c": "These are excellent. Your photography skills are to be commended. I particularly enjoy this one with Sir Cuteington. \n\nThank you.",
+  "d": "I have an idea, <name>. Everyone seems to love the lapbugs, so I have enlarged them, given them hats, and placed them in picturesque locations. Take this camera and take some photos with the lapbugs. \n\nIf I am correct, this will go a long way toward increasing support for our efforts.",
+  "p": "Have you gotten those photos? Do make sure your charming face is in them as well.",
+  "t": "A Truth Universally Acknowledged"
+ },
+ {
+  "qid": 87327,
+  "c": "Since Xal'atath's sudden yet inevitable betrayals aren't a problem for you, I'll make sure to only give you really Resilient keystones from now on.\n \nIt's OK to ask me for an easier one, though. Everyone needs a break sometimes.",
+  "d": "Wow <name>, you've taken on some unbelievably scary dungeons AND lived to tell me about it!\n \nCome speak with me and I'll see about making your most challenging Keystones more Resilient.",
+  "p": "You have achieved much. Your deeds are Legendary.",
+  "t": "A Challenger's Resilience"
+ },
+ {
+  "qid": 87332,
+  "c": "Hello there, <class>. So you're our latest test subject--I mean, the one to revisit the visions of the past?\n\nI hear you have some displaced corrupted mementos from your last trip.\n\nPerfect! I'll show you what they can do.",
+  "d": "My assistant Augermu has been monitoring you and the timeways while you were in the past. He has a way for you to replicate gaining some of the boons adventurers used the first time they faced these visions.\n\nGive him some of the displaced corrupted mementos you gleaned from your experience for further analysis.",
+  "p": "",
+  "t": "A Collection of Variables"
+ },
+ {
+  "qid": 87344,
+  "c": "Fine work, be sure to check the warrant board for additional threats as they arise.",
+  "d": "Tazavesh is a city rife with turmoil, beset by countless dangers. We could always use your help. Check our warrant board, and see if you have what it takes to eliminate our most wanted threats.",
+  "p": "Have you completed a warrant.",
+  "t": "A Key Threat"
+ },
+ {
+  "qid": 87388,
+  "c": "There may be a time and place for caution, but now is not that time.\n\nI hunger for results!",
+  "d": "Return to Umbric? But we're on the brink of deeper understandings!\n\nHypothesis: there exists an apex predator amongst these creatures that might hold immense power! And this predator's relationship with the Void could further our own understanding of the infinite darkness.\n\nEradicate some of the smaller creatures and see if such a beast answers the call of violence!",
+  "p": "There is a connection between these beasts and the Void... not so unlike the ren'dorei.",
+  "t": "A Bigger Beast"
+ },
+ {
+  "qid": 87397,
+  "c": "You did what was required. If the cargo is gone, that is a victory--but our work is far from over.\n\nThe Tideborne must still answer for their actions.",
+  "d": "If the naga manage to siphon the remaining arcane energy from those unstable arcana, they will gain the very power they seek.\n\nDestroy, incinerate, shatter them--do whatever is necessary. Ensure not a single shard remains for the naga or Tideborne to exploit. I do not wish to see even the faintest trace of arcane energy linger.",
+  "p": "I trust you gave that cargo a proper send-off.",
+  "t": "Cargo Collateral"
+ },
+ {
+  "qid": 87408,
+  "c": "If this works, it will be the greatest thing I have ever achieved--retrieving a species from extinction.",
+  "d": "We have perfected creating existing creatures, but I would like to go one step further. I would like to try this process with a creature that did not survive the Devouring. \n\nThis world once had a creature called a k'arroc. Locate its essence and gather it for me.",
+  "p": "Have you gathered the essences I needed?",
+  "t": "Being Spiritual"
+ },
+ {
+  "qid": 87413,
+  "c": "Ah, I can already smell the change on the wind. Thanks so much!",
+  "d": "<Name>--just the person I needed! The k'arrocs are gettin' so dirty that it's covering up their natural smell. There's not enough water here for them to bathe!\n\nTake this anima vacuum. It'll take that dirt straight off 'em, but you're gonna have to stick to the ones on the ground. Try looking on top of the rocks to the north!",
+  "p": "Have you cleaned up those dirty birdies?",
+  "t": "Bird Bath"
+ },
+ {
+  "qid": 87496,
+  "c": "They got some pretty nice selections, don't they?\n\nIf you ever need help findin' them again, lemme know.",
+  "d": "Times are rough, so the cartels have been tryin' out this new business strategy called \"employee retention.\" Never heard of it before, but it sounds fancy.\n\nAnyway, I'm pretty sure it means givin' employees the privilege of buyin' stuff from the company stores after you work for 'em long enough.\n\nGo check out what the cartels got for sale. See if anything catches your eye before you start workin'.",
+  "p": "You can find the sellers at each cartel's headquarters.",
+  "t": "Benefit Packages"
+ },
+ {
+  "qid": 88702,
+  "c": "We were able to save so few, <name>.\n\nI'm pleased at the work we did, but I wish we could have done more.",
+  "d": "We're more than just an army, <name>, even if my father doesn't see that.\n\nWe're a fellowship, dołącza do by a desire to protect those that matter to us, and those that don't have a protector of their own.\n\nAnd now, that protection extends to those wounded on the battlefield.",
+  "p": "The Devouring Host is aptly-named. Those that join it or fight with it are consumed--one way, or the other.",
+  "t": "Aegis of the Redeemer"
+ },
+ {
+  "qid": 88808,
+  "c": "I knew I could trust in you to complete such a feat.",
+  "d": "Azeroth calls out in need, champion. She bleeds still from wounds of war. Go forth among Zandalar and Kul Tiras to reveal those who would prolong her suffering.\n\nVanquish foes in her name and defend Azeroth.",
+  "p": "The fires of war burn once more.",
+  "t": "A Scarred Journey Through Time"
+ },
+ {
+  "qid": 88925,
+  "c": "Well done, <Name>. The forest marches to war.",
+  "d": "If we are to muster for war, then there is an ancient we must bring with us or they will never forgive us.\n\nThey are a mentor to myself and nearly every sentinel who serves the kaldorei. They are skilled in war, tactics, and rallying our greatest forces.\n\nAnd they fell asleep again. If history is any lesson, they will only awaken with the aid of someone who has known war.\n\nWill you seek out their grove keeper to learn how to awaken them?",
+  "p": "Have you any luck uprooting those old ones?",
+  "t": "Awaken the Ancient of War"
+ },
+ {
+  "qid": 88927,
+  "c": "Good. An ancient protector is capable of striking foes from afar with their boulders. be they on the ground or flying in the air.",
+  "d": "The enemy we face is a vast host with many capabilities. We will need to match their strength and versatility on the battlefield.\n\nTo that end, I ask that you seek out Elder Verdantbark--an ancient protector who has long kept our people safe in times of war.\n\nThey are stubborn and may require you to entice them in some fashion, but their grove keeper will know best how to do so.",
+  "p": "Have you gathered the ancients, <name>?",
+  "t": "Awaken the Ancient Protector"
+ },
+ {
+  "qid": 88929,
+  "c": "There were far more cultists than I would have expected. How long have they been infiltrating our society?",
+  "d": "The mana of Suramar is carefully cultivated, regulated, and controlled. It does not just randomly \"stop.\"\n\nSomeone or something must be interfering with it.\n\nAs you investigate the mana drain, I want you to occasionally dispel illusions in the area. Focus on those gathered here. I suspect not everyone is what they appear to be.",
+  "p": "How many of my people have been taken by this evil?",
+  "t": "An Illusion!"
+ },
+ {
+  "qid": 88937,
+  "c": "With the ancients by our side, we will be unstoppable.",
+  "d": "While our forces gather, I would like you to have the honor of awakening our ancients.\n\nThere is a particular ancient of lore we will need awakened. They are a master of magic, a teacher of our druids, and a force that has walked alongside us across many battlefields.\n\nFind their grove keeper to learn what is needed to wake the ancient.",
+  "p": "What stories does the ancient of lore have to tell, I wonder?",
+  "t": "Awaken the Ancient of Lore"
+ },
+ {
+  "qid": 88986,
+  "c": "De boy looks confused.\n\nGood. Maybe he's thinkin'.",
+  "d": "Dis elf showed up here seekin' revenge, thinkin' we were responsible for de death of his sister.\n\nBut instead of killin' him, I'm gonna set de boy straight.\n\nDe Amani got no business with some farm!\n\nHe don't understand de Twilight's Blade is attackin' on both sides of de Zul'Aman border!\n\nI don't blame de child. He don't know dat de Twilight's Blade can hide demselves with their void powers.\n\nTake some lightwood splinters. Throw 'em on de shrouded Twilight's Blade. Show him who de real enemy is!",
+  "p": "Dat boy came here seekin' revenge on de first trolls he saw.\n\nKeep his restraints tight. Dat should help him sober up to de consequences of his childish recklessness.",
+  "t": "Blind the Bandits"
+ },
+ {
+  "qid": 88989,
+  "c": "You saved de boy's life. And maybe now he will think before he rushes off and makes a life-endin' decision.\n\nAnd eliminatin' de head of de sabotage ring will allow us de time to make all de weapons we need.\n\nThings tend to work out for de best, eh? Even for you.\n\nHere's a little somethin' de crew and I want you to have.",
+  "d": "Dat boy is a fool.\n\nBut he's a courageous fool.\n\nIt's time to test dis weapon you crafted.\n\nHe'll be goin' after their commander. He's killed many of my crafters, but revenge is not worth his life or dat of anyone else.\n\nGo after him before he gets himself killed.\n\nI did not go through all dis trouble just for him to die now, eh?",
+  "p": "Dat commander killed some of our own.\n\nHis troops most likely killed de boy's sister.\n\nBut even though killin' him would make craftin' weapons and sendin' dem back to Amani'Zar easier, it's not worth dat boy's life.",
+  "t": "Another One Bites the Sawdust"
+ },
+ {
+  "qid": 89192,
+  "c": "Your ability to throw me the correct items is very valuable. You would not believe how frequently people lack that skill.",
+  "d": "We are running low on void shields. Your assistance is required to make a new one.\n\nMeet me outside the dome to the east. We shall craft it together.",
+  "p": "Come now. Let us begin.",
+  "t": "A Hard Day's Work"
+ },
+ {
+  "qid": 89199,
+  "c": "Making yourself useful is a prized quality in Silvermoon. You are well on your way.",
+  "d": "You will forgive the lack of pleasantries, as this situation requires prompt remediation.\n\nAll you need know is that I am Aradis, wardsmith of Silvermoon. We are an order of magisters who maintain the city's defenses.\n\nI am recovering from a... minor battle injury, and require aid charging my Wardbreaker staff. You will be compensated, and perhaps provided additional opportunities to aid me.\n\nI can furnish the details as you work, so long as you are not terribly slow.",
+  "p": "Do handle the wardbreaker carefully. I will not tolerate seeing it damaged.",
+  "t": "A Small Task"
+ },
+ {
+  "qid": 89209,
+  "c": "You've finished? Then buzz off!\n\nA pun! Merely a pun!",
+  "d": "These bees are absolute workhorses--workbees? They are worker bees so I suppose... ah, apologies for my distraction.\n\nSeveral of the bees have tired themselves out. Can you return them to the hive?",
+  "p": "Goodness! They're terribly busy, aren't they?",
+  "t": "Bu-zzz"
+ },
+ {
+  "qid": 89318,
+  "c": "My goodness! I have never seen Skibbles this excited! It sounds like she made quite the impression with the Lamplighters. \n\nSpeaking of children, I was watching the other Arathi children play and noticed that Destien seems more interested in his book than joining in. \n\nPerhaps you could talk to him? Surely there is something he would rather do than stay here.",
+  "d": "Big-Tall! Nice Talk-Rock tell Skibbles that she get to do whatever she want today! \n\nWell, me have big dream. One so big, me get in trouble for it. A lot. \n\n \n\nMe want to be brave candle knight, like shiny humans with floaty boats!\n\nA-and me hear there is crystal that's brighter than any candle! \n\n \n\nWould...would you take Skibbles to see candle knights with big kitties?",
+  "p": "Oh, hello <name>. I've had a wonderful time chatting with the orphanage patron here. After watching the children play, I am starting to see why my previous activities weren't as exciting for the younglings I am watching. \n\nThey do not seem as interested in city tours but instead have an incredible capacity to pretend! Fascinating. \n\nOh, I almost forgot--did you get a chance to take Skibbles to see the Lamplighters?",
+  "t": "Bold for a Kobold"
+ },
+ {
+  "qid": 89322,
+  "c": "<Name>, I can't thank you enough. All of these children look like they have bright futures ahead of them, and you played no small part in that. \n\nThanks to you, I also feel as if I understand children a bit better. They are truly wonderful, even if they are a handful at times. \n\n \n\nI know you are very busy, but I do hope we will see you next year!",
+  "d": "<Name>, look at this! All of these people are here to discuss the children's futures. \n\nThey expressed a desire to speak with you as well.",
+  "p": "Have you had a chance to speak with the benefactors?",
+  "t": "A Brighter Tomorrow"
+ },
+ {
+  "qid": 89324,
+  "c": "Retain the fragment for now.\n\nI will need it soon.",
+  "d": "Seek out the Relictors. They comb through these wastes like carrion feeders, sifting through proof of their people's weakness in a misguided attempt to find strength.\n\nThe only object of real value is here in front of us, and they keep it contained out of fear. I will not make that mistake.\n\nGo, find these Relictors, unburden them of their keys, and return.",
+  "p": "You've proved yourself useful so far, <class>. Continue to do so.",
+  "t": "A Piece of Something Greater"
+ },
+ {
+  "qid": 89332,
+  "c": "Thank the Sacred Flame for your assistance. The war continues but at least the battle is won.",
+  "d": "The Sureki gather across Hallowfall and Azj-Kahet while we prepare for their attack on Mereldar. \n\nThey want to split our forces, but we cannot ignore their activities elsewhere. The Flame's Radiance forces are defending against their incursions in Hallowfall while we run incursions of our own into Azj-Kahet. \n\nRendezvous with the Flame's Radiance in the field and assist their efforts.",
+  "p": "Every blow we can deal to the remaining Sureki weakens their efforts in Hallowfall. Please hurry!",
+  "t": "Boot Camp"
+ },
+ {
+  "qid": 89380,
+  "c": "Thank you for accepting our offer, <name>. This is dangerous work that will push you beyond the limits of our reality. But with risk we find profit, and with profit we can change the world.",
+  "d": "I represent a group within the Trust tasked with a dangerous but vital job--Phase Diving. I was at Overlook Zo'Shuul when the Harbinger transformed you into energy. It is similar to that, but more profitable.\n\nThe Trust embarks on Phase Dives to help replenish our energy reserves. On K'aresh, energy is power--and now we must compete with the Shadowguard. We desperately need the help of someone like you.\n\nMeet me at Overlook Zo'Shuul if you are interested. We will, of course, compensate you.",
+  "p": "",
+  "t": "Another World"
+ },
+ {
+  "qid": 89384,
+  "c": "I've been told frog legs taste like a curious blend of fish and poultry. I... think I will leave that fine dining experience to the hawkstriders, however. Thank you for your help!",
+  "d": "Some think that raising hawkstriders is an easy task, but it most certainly is not. Hawkstrider appetites tend to be notoriously fussy!\n\nMore often than not they'll turn their beaks up at anything I offer. But this time of year? Frog legs. They love the slimy little things. They can't get enough of them!\n\nThere's a pond just down the hill just swarming with the leggy little morsels. Could you gather some for me, please?",
+  "p": "Have you found any frogs? The hawkstriders are hungry!",
+  "t": "A Hungry Flock"
+ },
+ {
+  "qid": 89386,
+  "c": "Oh, they'll have many a happy night's sleep on this! You have my thanks.",
+  "d": "A comfortable hawkstrider is a happy hawkstrider. We don't expect them to stand all day, they need someplace cozy to roost!\n\nThere's a plant called Golden Sunleaf that sprouts just beyond the ridge. It makes the softest bedding--the hawkstriders love it. Could you gather some for me?",
+  "p": "Did you find the Golden Sunleaf?",
+  "t": "A Roost-ed Development"
+ },
+ {
+  "qid": 89418,
+  "c": "And here we are, back where it all started.\n\nIn a moment a messenger will come looking for you and your legend will begin to unfold.\n\nAren't you excited? I know I am.\n\nOh, and if you need anything, just come by the Infinite Bazaar. We're always waiting.\n\nGood luck!",
+  "d": "By now, the Legion will have been fully purged from Dalaran and events will begin unfolding. Events that require your presence, <name>.\n\nMoratari will take you back to Krasus' Landing. There your legend will continue to grow.\n\nI see great potential in you, <name>. No matter which timeline you're from.",
+  "p": "",
+  "t": "A Fixed Point in Time"
+ },
+ {
+  "qid": 89494,
+  "c": "<Name>! Glad you could make it. I wanted to formally congratulate you on your new position within our ranks.\n\nYou've more than earned this, demonstrating courage and traits that show great promise as you continue serving Flame's Radiance.\n\nOn that note, please accept and don this tabard in your future endeavors. We look forward to seeing you on the battlefield.",
+  "d": "",
+  "p": "",
+  "t": "A Frocking Good Job"
+ },
+ {
+  "qid": 89560,
+  "c": "Thank you for helpin' us on dis journey, <name>.\n\nI didn't think Iz'ken would come, and he didn't think he'd be welcome.\n\nI think Iz'ken and I realize now... de worst trick our mother pulled was pittin' us against each other.",
+  "d": "Now we set up de bonfire to burn de body. Destroying the body means it cannot be used by de Vilebranch for evil and makes sure de spirit finds rest.\n\nIt still chills me how quiet she is now.\n\nThe tribe should be gatherin' down at de Funerary Coast.",
+  "p": "It's time. We are ready.",
+  "t": "A Quiet Farewell"
+ },
+ {
+  "qid": 90630,
+  "c": "Another task completed. The Trust thanks you for your efforts. The founder has set aside a fund to encourage such initiative.",
+  "d": "",
+  "p": "",
+  "t": "A Small Bundle of Crystals"
+ },
+ {
+  "qid": 90637,
+  "c": "Another task completed. The Trust thanks you for your efforts. The founder has set aside a fund to encourage such initiative.",
+  "d": "",
+  "p": "",
+  "t": "A Key in the Wastes"
+ },
+ {
+  "qid": 90638,
+  "c": "Another task completed. The Trust thanks you for your efforts. The founder has set aside a fund to encourage such initiative.",
+  "d": "",
+  "p": "",
+  "t": "A Bundle of Crystals"
+ },
+ {
+  "qid": 90660,
+  "c": "I wish you the best of luck in all your adventures, <name>.",
+  "d": "",
+  "p": "",
+  "t": "A Golden Circumstance"
+ },
+ {
+  "qid": 91271,
+  "c": "Excellent work, <name>! You have procured a perfectly, pleasingly, plumply proportioned pescatarian prize!\n\nJoyous day!",
+  "d": "There is a deliciously delectable dish that I am dying to share with my guests. We start with just the right fish, then chop it up, drop it in a blend of citrus and our special savory seasonings, and let it bask in the glorious flavors.\n\nIn the shake of a tail feather, it becomes a magical delight for the senses!\n\nWe are the talk of the town, you know. Could you please procure for us the perfect fish?",
+  "p": "Have you hooked the one?",
+  "t": "A Fish!"
+ },
+ {
+  "qid": 91350,
+  "c": "This is what happens when there's no one around to sweep up!\n\nEveryone wants to adventure, but no one wants to sweep.",
+  "d": "Captain Dawnrunner was supposed to check on the Enclave and then meet us here. She's as capable a ranger as any! It's a bad sign if she's been detained.\n\nFarstrider Enclave is usually where they do wilderness training. With all the trouble however, everyone's been dispatched elsewhere. She could be up there alone, in serious danger!\n\nThere's no time to lose. I'm going to save my Captain and prove myself as a Farstrider!",
+  "p": "",
+  "t": "A Real Assignment"
+ },
+ {
+  "qid": 91380,
+  "c": "Is the beast's savagery growing?\n\nI'm sure I will begin to hear of his violence from those around the Howling Ridge.",
+  "d": "I normally raise my beasts on a diet of raw, bloody carcasses and souls ripped asunder by the Void.\n\nBut we shall try your mortal ways.\n\nI hear you... cook? And that makes the treat better?\n\nDo this. Then, take him on a walk around the Howling Ridge. Even I know exercise is good for digestion.\n\nOnly the most ferocious of creatures is worthy of serving me. I hope neither you nor Fido disappoint me.",
+  "p": "He is still small, but one day, he will grow to be a terrible foe.",
+  "t": "Belly of the Beast"
+ },
+ {
+  "qid": 91437,
+  "c": "Excellent timing, <name>. Now the research can begin.",
+  "d": "Hey, it's Nostwin! You doing anything? No? Come help us do TIME SCIENCE!\n\nEternus can tell you more.\n\nOkay thanks bye!",
+  "p": "",
+  "t": "Call for Participants"
+ },
+ {
+  "qid": 91477,
+  "c": "My friend! We've secured new technology to help you bring down the Shadowguard - put it to good use!",
+  "d": "Our knowledge of technomancy deepens. Let's improve your weaponry inside the Manaforge.",
+  "p": "",
+  "t": "Behind Enemy Lines II"
+ },
+ {
+  "qid": 91478,
+  "c": "My friend! We've secured new technology to help you bring down the Shadowguard - put it to good use!",
+  "d": "Our knowledge of technomancy deepens. Let's improve your weaponry inside the Manaforge.",
+  "p": "",
+  "t": "Behind Enemy Lines III"
+ },
+ {
+  "qid": 91479,
+  "c": "My friend! We've secured new technology to help you bring down the Shadowguard - put it to good use!",
+  "d": "Our knowledge of technomancy deepens. Let's improve your weaponry inside the Manaforge.",
+  "p": "",
+  "t": "Behind Enemy Lines IV"
+ },
+ {
+  "qid": 91480,
+  "c": "With this, you are as powerful as our humble band of soundrels can make you. May it serve you well against Dimensius!",
+  "d": "We've got one last upgrade to give, my friend. Come by for one last tune-up and we'll make you the strongest you've ever been!",
+  "p": "",
+  "t": "Behind Enemy Lines V"
+ },
+ {
+  "qid": 91486,
+  "c": "My research shows that due to the Reshii Wraps' influence on your physical form, the powerful manasurges and reactors inside Omega can be used to your benefit! While this is only a fraction of your power, it seems that arcane enhancements made to your armaments are made ever more powerful while in their vicinity. This warrants further testing...",
+  "d": "Hello! I've learned valuable information about how exposure to Omega's manaflow is impacting you - let us discuss back at Shadow Point when you have a moment.",
+  "p": "",
+  "t": "Attuned to the Aether"
+ },
+ {
+  "qid": 91561,
+  "c": "With the mutated pathogen dealt with and the antidote in hand, we should be safe from further outbreaks. Thank you for your assistance, <name>.",
+  "d": "The bloodborne pathogen has mutated!\n\nThe ooze-like carriers of this pathogen usually die quickly, but this new variant is stable even without a host. If it escapes from here, it could infect more ren'dorei and spread across Voidstorm, or worse yet, Azeroth. Our entire operation is at risk.\n\nWe must stop this mutated variant before it spreads!",
+  "p": "Have you contained the spread of this deadly pathogen?",
+  "t": "Bloodborne Pathogen"
+ },
+ {
+  "qid": 91587,
+  "c": "This carcass breathes new sustenance into the fungarians and the peace we uphold.",
+  "d": "The Fungarians are caretakers of decay, transforming death into life's renewal.\n\nThey require a sporeglider carcass to sustain their vast community. There is one--larger than most--that has taken to warding off the root drifters we need to sustain our village.\n\nIts end will feed many, and ease our burden. Balance, in more ways than one.",
+  "p": "Did you bring the rind?",
+  "t": "Carcass Cuisine"
+ },
+ {
+  "qid": 94031,
+  "c": "Gral's power, my soul... it's all here again. Thank you for returnin' my bones, <name>.",
+  "d": "Do you have time to break a curse, <class>?\n\nI'm what remains of a loa speaker of Gral. I kept de prisoners in line on Gral's Belly. But we crashed, I died, and de prisoners escaped.\n\nMy powers didn't work on de livin' anymore. But they did work on de captain, who'd died with me.\n\nTerrified of his anger at my failure, I set up a ritual to trap him in de ship using my own bones.\n\nMy soul has leeched into de bones after all this time, and now I can't move them. Would you bring my bones to me?",
+  "p": "This ritual was an odd one my teacher taught me a long, long time ago.\n\nI never thought I'd need to perform rituals as a ghost, but I couldn't imagine how angry de captain would become.",
+  "t": "Bones of My Soul"
+ },
+ {
+  "qid": 94371,
+  "c": "It was good of you to check on me, but I'm committed to the Farstriders!",
+  "d": "Apprentices! Who can keep them tied down?\n\nTaemin was a particularly talented arcanist, but his head was always in the clouds. Or in the woods, really.\n\nInstead of studying, he buried his nose in storybooks! The legends of Eversong! The Rangers of old! Heroes of the Sin'dorei! He couldn't get enough, the dreaming fool!\n\nAnd now... no, he's not dead. Did I imply that?\n\nHe's just run off to join the Farstriders. Check in on him, won't you? See if he's come to his senses?",
+  "p": "",
+  "t": "A Ranger's Dream"
+ },
+ {
+  "qid": 94425,
+  "c": ":",
+  "d": ":",
+  "p": "",
+  "t": "Bleed the Spire"
+ },
+ {
+  "qid": 94430,
+  "c": "This piece of equipment will be perfect!\n\nI can help you make this more powerful, but we'll need some reagents.",
+  "d": "<Name>, you're just in time! I was exchanging research notes with the artisans here in Silvermoon all day. Did you know they can infuse weapons and armor with the power of the dawn itself? Fascinating!\n\nI've been itching to put some of these new techniques to the test. Bring me a piece of Adventurer equipment and I'll let you know what we need to make it more powerful.\n\nThere should be plenty of people in Silvermoon and beyond willing to reward you with some Adventurer equipment in exchange for your aid.",
+  "p": "If you're having trouble finding a piece of Adventurer equipment, try talking to some people throughout Eversong, Zul'Aman, Harandar, and Voidstorm who look like they need some help with a task. They might be willing to reward you with equipment for your aid.",
+  "t": "Adventuring Gear"
+ },
+ {
+  "qid": 94446,
+  "c": "You reek of anguish.\n\nExquisite.",
+  "d": "Excellent work so far, <name>. \n\nBut there is always more to be done.\n\nGo out and hunt the most powerful targets available to us with all the fury our magic has to offer.",
+  "p": "Can you still discern reality from nightmare? If so, you should be pushing yourself harder. That way lies true power.",
+  "t": "A Nightmarish Task"
+ },
+ {
+  "qid": 94529,
+  "c": "So Xal'atath opened a gateway through the Darkwell, and the Twilight's Blade are awaiting the arrival of some Dark General.\n\nHow do they know it is coming? And where will it appear?\n\nThis is growing more complicated by the moment, and more alarming.",
+  "d": "We are lucky to have survived that tear through the Void, but now we are presented with an opportunity.\n\nAntenorian must have been going somewhere in this direction, which is why we find ourselves no longer in Eversong. But we interrupted his journey, and he is still here somewhere.\n\nI can feel it like a chill along my spine.\n\nSee if you can find any more information from the Twilight's Blade here. What of that gateway that Antenorian spoke of? What of those Amani prophecies?",
+  "p": "Have you found any more of the Twilight Blade's plans?",
+  "t": "A Dark Shadow Looms"
+ },
+ {
+  "qid": 94571,
+  "c": ":",
+  "d": ":",
+  "p": "",
+  "t": "Ashes of History"
+ },
+ {
+  "qid": 94623,
+  "c": "Ah, the nascent Voidforge is ready! Oh the things I... I mean we, will be able to do with this...",
+  "d": "I have been considering how I may offer you greater strength, my friend. I've come up with something, but I need your help building a proper Voidforge.\n\nWhat? Oh, fear not, all my ulterior motives are still aligned with your cause. For now.\n\nTo begin, I need one Elementary Voidcore. You will be able to find shards from the more powerful foes you habitually encounter. Inflict your usual violence, return the shards, and I can weave them back into a true Voidcore to serve as the forge's foundation.",
+  "p": "Back already, <name>? Pick up any fresh scars?",
+  "t": "Building the Voidforge"
+ },
+ {
+  "qid": 94625,
+  "c": "Excellent. One more Elemental Voidcore for the Voidforge!",
+  "d": "The work continues. Find enough shards and we can fuse them back into an Elemental Voidcore.\n\nI have acquired sufficient reagents to transmute 6 cores in total thus far. The nascent Voidforge will require 6 before it is fully formed, and you have generously contributed X so far.\n\nGo out and indulge in a bit more violence, will you?",
+  "p": "You certainly weren't in any rush with this one, <name>. I suppose the gates of time can't be rushed, can they?",
+  "t": "An Elementary Voidcore"
+ },
+ {
+  "qid": 94804,
+  "c": "You've slain the Hoarder! We have a window to fish our fill, thanks to you. You should get back out there!",
+  "d": "Have you noticed fewer fish on the south side of Atal'Utek lately? That's the Hoarder at work.\n\nHe's this big ugly sea giant we can't seem to shake. You'll know you've found him when you see piles of dead fish rotting away.\n\nMake him think twice about taking too much from these waters.",
+  "p": "The Hoarder isn't careful about his fishing. He kills anything that swims, curse or no curse/",
+  "t": "A Collection of Rot"
+ },
+ {
+  "qid": 95373,
+  "c": "Ah, looks like you found something shiny after all! The Voidforge will provide me with additional reagents to weave more Nebulous Voidcores over time, so be sure to check back later.",
+  "d": "With the Voidforge completed, I can now weave Nebulous Voidcores for you out of the power it accumulates. Of course, I'll need you to cover certain expenses.\n\nYou'll have to engage in a bit more delightful bloodshed to transmute them into weapons and armor. The most dangerous foes will require two. Each Nebulous Voidcore will capture a bit of your... victims' particular essence in order to become the sort of shiny knicknack I know you can't resist chasing after.",
+  "p": "Back already, <name>? Were you able to transmute the Nebulous Voidcore?",
+  "t": "A Nebulous Endeavour"
+ },
+ {
+  "qid": 95403,
+  "c": "...",
+  "d": "...",
+  "p": "",
+  "t": "A Lingering Echo"
+ },
+ {
+  "qid": 95525,
+  "c": "Ah, I can hear Thaze'ala now. You have awoken her heroic spirit in dis gem, <name>.\n\nPerhaps with her wisdom we will learn much about how our great shame was only held back by de heroic sacrifice of our people.",
+  "d": "De temple has changed since I began my watch, <name>. When you first woke me, all I saw was corruption and impure spirits. De consequence of our weakness.\n\nNow, I see dat we have not failed. De battlefield has changed, as dey always do.\n\nPlease take my gem and bring it back to de others like you. Perhaps my spirit can become a force for good on dis new battlefield, in a new way.",
+  "p": "",
+  "t": "A Worthy Vigil"
+ },
+ {
+  "qid": 95589,
+  "c": "I go through axes quick as anyting.\n\nI'll happily take it off yer hands.",
+  "d": "Ya be down for helping ol' Griftah out with a little spot of bother? Shajanji be over in the mountains collecting some local rocks. If you could go help her out, I'd be mighty greatful ta ya. Just bring them back ta Griftah. I be keeping them safe for her. I--She needs a lot of them. She be an avid collector.",
+  "p": "Need some choppin' done?",
+  "t": "Amani Waraxe"
+ },
+ {
+  "qid": 95662,
+  "c": ":",
+  "d": ":",
+  "p": "",
+  "t": "A Suspicious Stew"
+ },
+ {
+  "qid": 95954,
+  "c": "The High Priest's presence has dissipated, at least for now. It remains to be seen if he's capable of taking form again.\n\nBut if so, we will be ready.",
+  "d": "You have done well, <name>, but a shadow remains cast over the temple, in the form of the High Priest Jin'tal.\n\nA particularly fervent and ambitious priest in life, I am unsurprised that he has survived into undeath. I sense that he practices his abhorrent faith in the nearby Mortuary.\n\nPlease, <name>. End him. I will help you if I can.",
+  "p": "I may not be flesh and blood, <name>, but perhaps there is still work left for me to do.",
+  "t": "An Ancient Foe"
+ }
+]

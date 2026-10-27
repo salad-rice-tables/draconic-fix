@@ -1,0 +1,9266 @@
+# Midnight FULL questline audit
+21114 quest refs, 9263 with problems
+
+- 33807 Free Our Brothers and Sisters [Defense of Wor'gol]: giver 74507 not spawned
+- 34631 An Audience With The Archmage [Establishing your Outpost]: no offer-reward text
+- 34815 Making Acquaintances [Establishing your Outpost]: no offer-reward text
+- 34609 Creating the Ink [Establishing your Outpost]: no offer-reward text
+- 34612 Forming the Scroll [Establishing your Outpost]: no offer-reward text
+- 34619 Gathering the Spark [Establishing your Outpost]: no offer-reward text
+- 34875 Next Steps [Establishing your Outpost]: no offer-reward text
+- 34908 The Foot of the Fortress [Establishing your Outpost]: no offer-reward text
+- 34913 Dropping In [Establishing your Outpost]: no offer-reward text
+- 34909 While We're in the Neighborhood [Establishing your Outpost]: no offer-reward text
+- 34910 Vicious Viziers [Establishing your Outpost]: no offer-reward text
+- 34911 Orbs of Power [Establishing your Outpost]: no offer-reward text
+- 34912 The Final Step [Establishing your Outpost]: no offer-reward text
+- 34711 Due Cause to Celebrate [Establishing your Outpost]: no offer-reward text
+- 34947 Shredder Manual [The Battle for Shattrath]: no offer-reward text
+- 34685 As the Smoke Rises [The Plight of the Arakkoa]: no offer-reward text
+- 33645 Tracking Quest - Iskar's Hired Hand [The Plight of the Arakkoa]: no ender, no offer-reward text, no starter
+- 33969 Vile Defilers [In the Shadows of Auchindoun]: giver 78102 not spawned, giver 78115 not spawned
+- 35059 Along the Riverside [Against the Warsong]: no offer-reward text
+- 35332 Nobundo Sends Word [The Throne of the Elements]: no offer-reward text
+- 36425 Egg Punt [Secrets of the Talonpriests]: no ender
+- 34791 Warning the Exarchs [The Exarch Council]: giver 82925 not spawned
+- 35552 Trust No One [The Exarch Council]: giver 82925 not spawned
+- 35093 The Dark Side of the Moon [The Light of Karabor]: no offer-reward text
+- 33331 Captured Critters [Ending the Gloom]: no ender
+- 34806 Prune the Podlings [Ending the Gloom]: no ender
+- 35907 Attempted Murder [Establishing Axefall]: no offer-reward text
+- 35924 Assassin's Mark [Establishing Axefall]: no offer-reward text
+- 35947 The Power of Poison [Establishing Axefall]: no offer-reward text
+- 36022 Extrinsic Motivation [Establishing Axefall]: no offer-reward text
+- 36028 Gardul Venomshiv [Establishing Axefall]: no offer-reward text
+- 36047 We Have Him Now [Establishing Axefall]: no offer-reward text
+- 36166 No Time to Waste [Establishing Axefall]: no offer-reward text
+- 36659 TBD [Establishing Axefall]: no ender, no offer-reward text, no starter
+- 35915 Attempted Murder [Securing Southport]: giver 83549 not spawned, giver 83609 not spawned
+- 35926 Assassin's Mark [Securing Southport]: giver 83609 not spawned, giver 83773 not spawned
+- 35959 The Power of Poison [Securing Southport]: giver 83773 not spawned
+- 36023 Extrinsic Motivation [Securing Southport]: giver 83773 not spawned
+- 36029 Gardul Venomshiv [Securing Southport]: giver 83773 not spawned, giver 83900 not spawned, giver 83904 not spawned
+- 36048 We Have Him Now [Securing Southport]: giver 83900 not spawned, giver 83904 not spawned
+- 36165 No Time to Waste [Securing Southport]: giver 83904 not spawned
+- 35699 Peace Offering [Securing Southport]: no offer-reward text
+- 35713 The Tinkertoss Twins [Securing Southport]: giver 82759 not spawned, no offer-reward text
+- 35716 Sticky Situation [Securing Southport]: giver 82759 not spawned, no offer-reward text
+- 35719 Back on Track [Securing Southport]: giver 82759 not spawned, giver 82788 not spawned, no offer-reward text
+- 35739 All Natural [Securing Southport]: giver 82788 not spawned, no offer-reward text
+- 35782 I See Dead Arakkoa [Securing Southport]: giver 82788 not spawned, no offer-reward text
+- 35835 The Ebon Hunter [Securing Southport]: giver 82788 not spawned, no offer-reward text
+- 35878 Safety Measures [Securing Southport]: giver 82759 not spawned, no offer-reward text
+- 35505 Lost Lumberjack [Supporting Your Garrison]: giver 84811 not spawned
+- 35416 Power of the Genesaur [In the Land of Giants]: no offer-reward text
+- 36576 Strike While the Iron is Hot [The Iron Approach]: no offer-reward text
+- 36573 Strike While the Iron is Hot [The Iron Approach]: no offer-reward text
+- 35197 Forging Ahead [Garrison Campaign]: no offer-reward text
+- 38453 Garrison Campaign: The Bane of the Bleeding Hollow [The Bleeding Hollow]: no ender, no offer-reward text
+- 38270 Finding the Killer [The Bleeding Hollow]: no offer-reward text, no starter
+- 38271 Following the Bloody Path [The Bleeding Hollow]: no offer-reward text
+- 38272 The Bleeding Hollow [The Bleeding Hollow]: no offer-reward text
+- 38274 The Eye of Kilrogg [The Bleeding Hollow]: no offer-reward text
+- 38560 Garrison Campaign: The Bane of the Bleeding Hollow [The Bleeding Hollow]: no ender, no offer-reward text
+- 38270 Finding the Killer [The Bleeding Hollow]: no offer-reward text, no starter
+- 38271 Following the Bloody Path [The Bleeding Hollow]: no offer-reward text
+- 38272 The Bleeding Hollow [The Bleeding Hollow]: no offer-reward text
+- 38274 The Eye of Kilrogg [The Bleeding Hollow]: no offer-reward text
+- 38727 Stop the Bombardment [The Key to Defeating the Legion]: no offer-reward text
+- 38819 Their Numbers Are Legion [The Key to Defeating the Legion]: no offer-reward text
+- 38725 Into the Foul Creche [The Key to Defeating the Legion]: no offer-reward text
+- 40222 The Imp Mother's Tome [The Key to Defeating the Legion]: no offer-reward text
+- 40051 Fel Secrets [The Key to Defeating the Legion]: no offer-reward text
+- 39516 Cry Havoc and Let Slip the Illidari! [The Key to Defeating the Legion]: no offer-reward text
+- 39515 Vengeance Will Be Mine! [The Key to Defeating the Legion]: no offer-reward text
+- 39663 On Felbat Wings [The Key to Defeating the Legion]: no offer-reward text
+- 38728 The Keystone [The Key to Defeating the Legion]: no offer-reward text
+- 38729 Return to the Black Temple [The Key to Defeating the Legion]: no offer-reward text
+- 38499 Strange New Ores [Legion Blacksmithing]: no offer-reward text
+- 39681 The Properties of Leystone [Legion Blacksmithing]: no offer-reward text
+- 38502 The Methods of the Nightfallen [Legion Blacksmithing]: no offer-reward text
+- 38501 Hatecoil Hammerwork [Legion Blacksmithing]: no offer-reward text
+- 38505 Engineers: Not COMPLETELY Useless [Legion Blacksmithing]: no offer-reward text
+- 38506 Chicken Scratch [Legion Blacksmithing]: no offer-reward text
+- 38507 Secrets of Leysmithing [Legion Blacksmithing]: no offer-reward text
+- 38515 Nature Provides [Legion Blacksmithing]: no offer-reward text
+- 38500 Leysmithing Mastery [Legion Blacksmithing]: no offer-reward text
+- 38563 Flower-Pickers and Potion-Quaffers [Legion Blacksmithing]: no offer-reward text
+- 38513 The Highmountain Smiths [Legion Blacksmithing]: no offer-reward text
+- 38514 You Are Not Worthy [Legion Blacksmithing]: no offer-reward text
+- 39699 Ironhorn Leysmithing [Legion Blacksmithing]: no offer-reward text
+- 38519 Grayheft [Legion Blacksmithing]: no offer-reward text
+- 38518 From One Master to Another [Legion Blacksmithing]: no offer-reward text
+- 38522 Not Just Weapons and Armor [Legion Blacksmithing]: no offer-reward text
+- 38523 Leystone Hoofplates [Legion Blacksmithing]: no offer-reward text
+- 39702 Legend of Black Rook Hold [Legion Blacksmithing]: no offer-reward text
+- 39680 Between the Hammer... [Legion Blacksmithing]: no offer-reward text
+- 39726 ...And the Anvil [Legion Blacksmithing]: no offer-reward text
+- 39729 The Knowledge of Black Rook [Legion Blacksmithing]: no offer-reward text
+- 38564 A Sweet Bargain [Legion Blacksmithing]: no offer-reward text
+- 38524 Felsmith Nal'ryssa [Legion Blacksmithing]: no offer-reward text
+- 38525 Part of the Team [Legion Blacksmithing]: no offer-reward text
+- 38526 Smith Under Fire [Legion Blacksmithing]: no offer-reward text
+- 38527 Nal'ryssa's Technique [Legion Blacksmithing]: no offer-reward text
+- 38528 Leystone's Potential [Legion Blacksmithing]: no offer-reward text
+- 38530 The Firmament Stone [Legion Blacksmithing]: no offer-reward text
+- 38531 Leystone Mastery [Legion Blacksmithing]: no offer-reward text
+- 38532 Maw of Souls: Hammered By The Storm [Legion Blacksmithing]: no offer-reward text
+- 38559 Worthy of the Stone [Legion Blacksmithing]: no offer-reward text
+- 38833 The Art of Demonsteel [Legion Blacksmithing]: no offer-reward text
+- 38533 Tribal Knowledge [Legion Blacksmithing]: no offer-reward text
+- 38534 Demonsteel Armguards [Legion Blacksmithing]: no offer-reward text
+- 38536 Demonsteel Waistguard [Legion Blacksmithing]: no offer-reward text
+- 38537 Demonsteel Pauldrons [Legion Blacksmithing]: no offer-reward text
+- 38538 Demonsteel Boots [Legion Blacksmithing]: no offer-reward text
+- 38539 Demonsteel Gauntlets [Legion Blacksmithing]: no offer-reward text
+- 38540 Demonsteel Helm [Legion Blacksmithing]: no offer-reward text
+- 38541 Demonsteel Greaves [Legion Blacksmithing]: no offer-reward text
+- 38542 Demonsteel Breastplate [Legion Blacksmithing]: no offer-reward text
+- 44449 Advanced Quenching [Legion Blacksmithing]: no offer-reward text
+- 38777 Leystone Deposit Sample [Legion Mining]: no starter
+- 38784 Leystone Seam Sample [Legion Mining]: no starter
+- 38785 Living Leystone Sample [Legion Mining]: no starter
+- 38789 Rethu's Journal [Legion Mining]: no offer-reward text, no starter
+- 38790 Rethu's Pick [Legion Mining]: no offer-reward text, no starter
+- 38791 Rethu's Horn [Legion Mining]: no offer-reward text, no starter
+- 38792 Rethu's Lesson [Legion Mining]: giver 93735 not spawned, no offer-reward text
+- 38793 Rethu's Experience [Legion Mining]: giver 93743 not spawned, no offer-reward text
+- 38794 Rethu's Sacrifice [Legion Mining]: giver 93744 not spawned, no offer-reward text
+- 38951 A Needle Need [Legion Tailoring]: no offer-reward text
+- 38952 Meticulous Precision [Legion Tailoring]: no offer-reward text
+- 38953 Advanced Needlework [Legion Tailoring]: no offer-reward text
+- 38954 Where's Lyndras? [Legion Tailoring]: no offer-reward text
+- 38955 Sew Far, Sew Good [Legion Tailoring]: no offer-reward text
+- 38956 Where's Lyndras Again? [Legion Tailoring]: no offer-reward text
+- 38957 Taking Inspiration [Legion Tailoring]: no offer-reward text
+- 38958 The Right Color [Legion Tailoring]: no offer-reward text
+- 38959 Left Behind [Legion Tailoring]: no offer-reward text
+- 38960 Lining Them Up [Legion Tailoring]: no offer-reward text
+- 38963 The Final Lesson? [Legion Tailoring]: no offer-reward text
+- 38961 Eye of Azshara: The Depraved Nightfallen [Legion Tailoring]: no offer-reward text
+- 38964 Where's Lyndras Now? [Legion Tailoring]: no ender, no offer-reward text
+- 39602 Where's Lyndras: Sewer Sleuthing [Legion Tailoring]: no ender, no offer-reward text
+- 39605 Where's Lyndras: Downward Spiral [Legion Tailoring]: no offer-reward text, no starter
+- 39667 Where's Lyndras: Leyflame Larceny [Legion Tailoring]: no offer-reward text
+- 38965 Assault on Violet Hold: Into the Hold [Legion Tailoring]: no offer-reward text
+- 38966 Secret Silkweaving Methods [Legion Tailoring]: no offer-reward text
+- 38962 The Path to Suramar City [Legion Tailoring]: no offer-reward text
+- 38967 The Nightborne Connection [Legion Tailoring]: no offer-reward text
+- 38968 Proof of Loyalty [Legion Tailoring]: no offer-reward text
+- 38969 Master of Silkweave [Legion Tailoring]: no offer-reward text
+- 38970 The Queen's Grace Loom [Legion Tailoring]: no offer-reward text
+- 38971 Exotic Textiles [Legion Tailoring]: no offer-reward text
+- 38974 Halls of Valor: The Right Question [Legion Tailoring]: no offer-reward text
+- 38975 Inspire Me! [Legion Tailoring]: no offer-reward text
+- 39325 Get Your Mix On [Legion Alchemy]: no offer-reward text
+- 39326 Missing Shipments [Legion Alchemy]: no offer-reward text
+- 39390 A Mysterious Text [Legion Alchemy]: no offer-reward text
+- 39566 The Search for Knowledge [Legion Alchemy]: no offer-reward text, no starter
+- 39327 There's a Scribe for That [Legion Alchemy]: no offer-reward text
+- 39328 Ancient Knowledge [Legion Alchemy]: no offer-reward text
+- 39329 A Dormant Burner [Legion Alchemy]: no offer-reward text
+- 39330 Ley Hunting [Legion Alchemy]: no offer-reward text
+- 39331 Eye of Azshara: Put a Cork in It [Legion Alchemy]: no offer-reward text
+- 39332 Furbolg Firewater [Legion Alchemy]: no offer-reward text
+- 39430 Flasking for a Favor [Legion Alchemy]: no offer-reward text
+- 39334 Thanks for Flasking [Legion Alchemy]: no offer-reward text
+- 39335 Neltharion's Lair: Potent Powder [Legion Alchemy]: no offer-reward text
+- 39336 We Need More Powder! [Legion Alchemy]: no offer-reward text
+- 39337 Forlorn Filter [Legion Alchemy]: no offer-reward text
+- 39431 Mending the Filter [Legion Alchemy]: no offer-reward text
+- 39338 Return the Filter [Legion Alchemy]: no offer-reward text
+- 39339 A Fragile Crucible [Legion Alchemy]: no offer-reward text
+- 39340 Lining the Crucible [Legion Alchemy]: no offer-reward text
+- 39341 Vault of the Wardens: Demon's Bile [Legion Alchemy]: no offer-reward text
+- 39343 Vault of the Wardens: Bendy Glass Tubes [Legion Alchemy]: no offer-reward text, no starter
+- 39344 Going Underground [Legion Alchemy]: no offer-reward text
+- 39342 The Price of the Black Market [Legion Alchemy]: no offer-reward text
+- 39333 An Imprecise Burette [Legion Alchemy]: no offer-reward text
+- 39645 Calibration Experts [Legion Alchemy]: no offer-reward text
+- 39345 Calibration Experts [Legion Alchemy]: no offer-reward text
+- 39346 Testing the Calibration [Legion Alchemy]: no offer-reward text
+- 39347 Channeling Our Efforts [Legion Alchemy]: no offer-reward text
+- 39348 Halls of Valor: The Prime Ingredient [Legion Alchemy]: no offer-reward text
+- 39349 Black Rook Hold: Heavy, But Helpful [Legion Alchemy]: no offer-reward text
+- 39350 Maw of Souls: A Hope in Helheim [Legion Alchemy]: no offer-reward text
+- 39351 The Emerald Nightmare: Rage Fire [Legion Alchemy]: no offer-reward text
+- 42081 In With the New [Legion Alchemy]: no offer-reward text
+- 34353 Shredder Suppressor [Garrison Campaign]: no offer-reward text
+- 34354 A Good Death [Garrison Campaign]: no offer-reward text, no starter
+- 34355 Dirty Rats [Garrison Campaign]: no offer-reward text
+- 34365 Releasing Rylak [Garrison Campaign]: no offer-reward text
+- 34397 Downsizing the Darktide [Garrison Campaign]: no offer-reward text
+- 34450 Rylak Rescue [Garrison Campaign]: no offer-reward text
+- 35679 Garrison Campaign: The Fall of Shattrath [Garrison Campaign]: no offer-reward text
+- 35683 Reclaiming the City [Garrison Campaign]: no offer-reward text
+- 35685 Socrethar's Demise [Garrison Campaign]: no offer-reward text
+- 35837 Garrison Campaign: Deep Recon [Garrison Campaign]: no offer-reward text
+- 35838 The Warlord's Council [Garrison Campaign]: no offer-reward text
+- 35839 Plans of War [Garrison Campaign]: no offer-reward text
+- 35840 Intercepting the Orders [Garrison Campaign]: no offer-reward text
+- 35841 Putting Down the Packleader [Garrison Campaign]: no offer-reward text
+- 36280 Garrison Campaign: The Ring of Blood [Garrison Campaign]: no offer-reward text
+- 36281 Garrison Campaign: The Ring of Blood [Garrison Campaign]: no offer-reward text
+- 36282 Garrison Campaign: The Ring of Blood [Garrison Campaign]: no offer-reward text
+- 34281 Out of the Chains [Garrison Campaign]: no offer-reward text
+- 34284 Garrison Campaign: The Search for Owynn Graddock [Garrison Campaign]: no offer-reward text
+- 34285 Gearing Up [Garrison Campaign]: no offer-reward text
+- 34286 Seeking the Truth [Garrison Campaign]: no offer-reward text
+- 34287 Cleansing the Souls [Garrison Campaign]: no offer-reward text
+- 34288 The Totems That Bind [Garrison Campaign]: no offer-reward text
+- 34289 Soulgrinder Survivor [Garrison Campaign]: no offer-reward text
+- 34362 The Shadow Gate [Garrison Campaign]: no offer-reward text
+- 35945 Greblin Fastfizzle [Garrison Campaign]: no offer-reward text
+- 35970 Preservation Capitalization [Garrison Campaign]: no offer-reward text
+- 35972 Ogre Onslaught [Garrison Campaign]: no offer-reward text
+- 35973 Brokyo Beatdown [Garrison Campaign]: no offer-reward text
+- 35985 Garrison Campaign: The Broken Precipice [Garrison Campaign]: no offer-reward text
+- 36095 Azuka Bladefury [Garrison Campaign]: no offer-reward text, no starter
+- 36163 Garrison Campaign: The Exarch's Call [Garrison Campaign]: no offer-reward text
+- 36164 The Trial of Courage [Garrison Campaign]: no offer-reward text
+- 36167 The Trial of Heart [Garrison Campaign]: no offer-reward text
+- 36168 The Trial of Faith [Garrison Campaign]: no offer-reward text
+- 36169 The Trial of Champions [Garrison Campaign]: no offer-reward text
+- 36193 An Act of Kindness [Garrison Campaign]: no offer-reward text
+- 34336 Ambushing the Enemy [Garrison Campaign]: no offer-reward text
+- 34337 The Giant Cauldron [Garrison Campaign]: no offer-reward text
+- 34338 The Descent [Garrison Campaign]: no offer-reward text
+- 34339 A Goren's Feast [Garrison Campaign]: no offer-reward text
+- 34340 Heating Up [Garrison Campaign]: no offer-reward text
+- 34347 Bladefury's Orders [Garrison Campaign]: no offer-reward text
+- 34409 Garrison Campaign: Crows In The Field [Garrison Campaign]: no offer-reward text
+- 34410 The Beating Heart [Garrison Campaign]: no offer-reward text
+- 36160 Garrison Campaign: Every Rose Has Its Thorn [Garrison Campaign]: no offer-reward text
+- 36161 Where There Is Smoke... [Garrison Campaign]: no offer-reward text
+- 36162 A Stolen Heart [Garrison Campaign]: no offer-reward text
+- 36341 Primal Fury [Garrison Campaign]: giver 84264 not spawned, no offer-reward text
+- 36341 Primal Fury [Garrison Campaign]: giver 84264 not spawned, no offer-reward text
+- 35876 Garrison Campaign: Darktide Roost [Garrison Campaign]: no offer-reward text
+- 34353 Shredder Suppressor [Garrison Campaign]: no offer-reward text
+- 34354 A Good Death [Garrison Campaign]: no offer-reward text, no starter
+- 34355 Dirty Rats [Garrison Campaign]: no offer-reward text
+- 34365 Releasing Rylak [Garrison Campaign]: no offer-reward text
+- 34397 Downsizing the Darktide [Garrison Campaign]: no offer-reward text
+- 34450 Rylak Rescue [Garrison Campaign]: no offer-reward text
+- 35680 Garrison Campaign: The Fall of Shattrath [Garrison Campaign]: no offer-reward text
+- 35684 Reclaiming the City [Garrison Campaign]: no offer-reward text
+- 35687 Socrethar's Demise [Garrison Campaign]: no offer-reward text
+- 35842 Putting Down the Packleader [Garrison Campaign]: no offer-reward text
+- 35843 Garrison Campaign: Deep Recon [Garrison Campaign]: no offer-reward text
+- 35844 The Warlord's Council [Garrison Campaign]: no offer-reward text
+- 35845 Plans of War [Garrison Campaign]: no offer-reward text
+- 35846 Intercepting the Orders [Garrison Campaign]: no offer-reward text
+- 36280 Garrison Campaign: The Ring of Blood [Garrison Campaign]: no offer-reward text
+- 36281 Garrison Campaign: The Ring of Blood [Garrison Campaign]: no offer-reward text
+- 36282 Garrison Campaign: The Ring of Blood [Garrison Campaign]: no offer-reward text
+- 34309 Garrison Campaign: The Search for Shadow Hunter Bwu'ja [Garrison Campaign]: no offer-reward text
+- 34314 Out of the Chains [Garrison Campaign]: no offer-reward text
+- 34315 Gearing Up [Garrison Campaign]: no offer-reward text
+- 34316 Seeking the Truth [Garrison Campaign]: no offer-reward text
+- 34318 The Totems That Bind [Garrison Campaign]: no offer-reward text
+- 34319 Soulgrinder Survivor [Garrison Campaign]: no offer-reward text
+- 34381 The Shadow Gate [Garrison Campaign]: no offer-reward text
+- 34469 Cleansing the Souls [Garrison Campaign]: no offer-reward text
+- 35945 Greblin Fastfizzle [Garrison Campaign]: no offer-reward text
+- 35970 Preservation Capitalization [Garrison Campaign]: no offer-reward text
+- 35972 Ogre Onslaught [Garrison Campaign]: no offer-reward text
+- 35973 Brokyo Beatdown [Garrison Campaign]: no offer-reward text
+- 36117 Garrison Campaign: The Broken Precipice [Garrison Campaign]: no offer-reward text
+- 32979 Garrison Campaign: Farseer's Rock [Garrison Campaign]: no offer-reward text
+- 32980 Eaters of the Elements [Garrison Campaign]: no offer-reward text
+- 32983 In the Shadow of Giants [Garrison Campaign]: no offer-reward text
+- 32984 The Ascent [Garrison Campaign]: no offer-reward text
+- 32985 Fury of Frostfire [Garrison Campaign]: no offer-reward text
+- 33427 Ours is the Fury [Garrison Campaign]: no offer-reward text
+- 33444 Eatercology [Garrison Campaign]: no offer-reward text
+- 34335 Garrison Campaign: Crows In The Field [Garrison Campaign]: no offer-reward text
+- 34336 Ambushing the Enemy [Garrison Campaign]: no offer-reward text
+- 34337 The Giant Cauldron [Garrison Campaign]: no offer-reward text
+- 34338 The Descent [Garrison Campaign]: no offer-reward text
+- 34339 A Goren's Feast [Garrison Campaign]: no offer-reward text
+- 34340 Heating Up [Garrison Campaign]: no offer-reward text
+- 34341 The Beating Heart [Garrison Campaign]: no offer-reward text
+- 34347 Bladefury's Orders [Garrison Campaign]: no offer-reward text
+- 36242 Where There Is Smoke... [Garrison Campaign]: no offer-reward text
+- 36248 A Stolen Heart [Garrison Campaign]: no offer-reward text
+- 36261 Garrison Campaign: Missing Grunt [Garrison Campaign]: no ender, no offer-reward text
+- 36342 Primal Fury [Garrison Campaign]: no offer-reward text
+- 36342 Primal Fury [Garrison Campaign]: no offer-reward text
+- 38421 Garrison Campaign: Onslaught at Auchindoun [Gorefiend]: no offer-reward text
+- 38562 Secrets of the Sargerei [Gorefiend]: no offer-reward text
+- 38415 Garrison Campaign: Onslaught at Auchindoun [Gorefiend]: no offer-reward text
+- 38416 Secrets of the Sargerei [Gorefiend]: no offer-reward text
+- 37687 Garrison Campaign: In the Shadows [The Search for Iskar]: no offer-reward text
+- 38267 Friends Above [The Search for Iskar]: no offer-reward text
+- 38213 Get a Clue [The Search for Iskar]: no offer-reward text
+- 38223 Dark Ascension [The Search for Iskar]: no offer-reward text
+- 38561 Garrison Campaign: The Warlock [Gul'dan Finale]: no offer-reward text
+- 38462 Breaching the Barrier [Gul'dan Finale]: no offer-reward text
+- 39394 The Cipher of Damnation [Gul'dan Finale]: no offer-reward text
+- 37688 Garrison Campaign: In the Shadows [The Search for Iskar]: no offer-reward text
+- 38269 Friends Above [The Search for Iskar]: no offer-reward text
+- 38213 Get a Clue [The Search for Iskar]: no offer-reward text
+- 38223 Dark Ascension [The Search for Iskar]: no offer-reward text
+- 38458 Garrison Campaign: The Warlock [Gul'dan Finale]: no offer-reward text
+- 38462 Breaching the Barrier [Gul'dan Finale]: no offer-reward text
+- 38463 The Cipher of Damnation [Gul'dan Finale]: no offer-reward text
+- 38332 The Ranger Lord [The Forsaken Fleet]: no offer-reward text
+- 38360 The Windrunner's Fate [The Forsaken Fleet]: no offer-reward text
+- 38361 Wrath of the Blightcaller [The Forsaken Fleet]: no offer-reward text
+- 38362 A Grim Trophy [The Forsaken Fleet]: no offer-reward text
+- 38459 The Ancient Trials [The Forsaken Fleet]: no offer-reward text
+- 38058 Lightning Rod [Wreck of the Skyfire]: no ender
+- 38059 Pins and Needles [Wreck of the Skyfire]: no ender
+- 44701 Stormheim [Greymane's Gambit]: no offer-reward text, no starter
+- 38307 The Warchief Beckons [Greymane's Gambit]: no offer-reward text
+- 39698 Making the Rounds [Greymane's Gambit]: no offer-reward text
+- 39801 The Splintered Fleet [Greymane's Gambit]: no offer-reward text
+- 44700 Stormheim [Greymane's Gambit]: no offer-reward text, no starter
+- 38611 Will of the Thorignir [The Trial of Will]: no offer-reward text
+- 38612 A Grapple a Day [The Trial of Will]: no offer-reward text
+- 38613 No Wings Required [The Trial of Will]: no offer-reward text
+- 38614 To Weather the Storm [The Trial of Will]: no offer-reward text
+- 38615 Impalement Insurance [The Trial of Will]: no offer-reward text
+- 38617 Another Way [The Trial of Will]: no offer-reward text
+- 38618 Above the Winter Moonlight [The Trial of Will]: no offer-reward text
+- 39153 Dreadwake's Dilemma [The Secret of the Shieldmaidens]: no offer-reward text
+- 38873 Clear the Deck! [The Secret of the Shieldmaidens]: no offer-reward text
+- 39385 A Gift for Greymane [The Secret of the Shieldmaidens]: no offer-reward text
+- 39155 Becoming the Ascendant [The Secret of the Shieldmaidens]: no offer-reward text
+- 39154 To Skold-Ashil [The Secret of the Shieldmaidens]: no offer-reward text
+- 38878 Shielded Secrets [The Secret of the Shieldmaidens]: no offer-reward text
+- 38882 A New Life for Undeath [The Secret of the Shieldmaidens]: no offer-reward text
+- 38567 Garrison Campaign: War Council [Docks Intro and Shipyard Tutorial - Horde]: no offer-reward text, no starter
+- 38568 We Need a Shipwright [Docks Intro and Shipyard Tutorial - Horde]: no offer-reward text
+- 38570 Derailment [Docks Intro and Shipyard Tutorial - Horde]: no offer-reward text
+- 38571 The Train Gang [Docks Intro and Shipyard Tutorial - Horde]: no offer-reward text
+- 38572 Hook, Line, and... Sink Him! [Docks Intro and Shipyard Tutorial - Horde]: no offer-reward text
+- 38573 Nothing Remains [Docks Intro and Shipyard Tutorial - Horde]: no offer-reward text
+- 38574 All Hands on Deck [Docks Intro and Shipyard Tutorial - Horde]: no offer-reward text
+- 39236 Let's Get To Work [Docks Intro and Shipyard Tutorial - Horde]: no offer-reward text
+- 39241 Shipbuilding [Docks Intro and Shipyard Tutorial - Horde]: no offer-reward text
+- 39242 Ship Shape [Docks Intro and Shipyard Tutorial - Horde]: no offer-reward text
+- 39243 Naval Commander [Docks Intro and Shipyard Tutorial - Horde]: no offer-reward text
+- 39401 Destroying the Competition [Docks Intro and Shipyard Tutorial - Horde]: no offer-reward text
+- 39604 I Sunk Your Battleship [Docks Intro and Shipyard Tutorial - Horde]: no offer-reward text
+- 39674 If At First You Fail, Try Again! [Docks Intro and Shipyard Tutorial - Horde]: no offer-reward text
+- 39675 Equipping Our Fleet [Docks Intro and Shipyard Tutorial - Horde]: giver 94801 not spawned, no offer-reward text
+- 39676 A True Naval Commander [Docks Intro and Shipyard Tutorial - Horde]: giver 94801 not spawned, no offer-reward text
+- 39245 Upgrading The Fleet [Docks Intro and Shipyard Tutorial - Horde]: no offer-reward text
+- 39246 Naval Domination [Docks Intro and Shipyard Tutorial - Horde]: no offer-reward text
+- 39067 Upgrading The Fleet [Docks Intro and Shipyard Tutorial - Alliance]: no offer-reward text
+- 39068 Naval Domination [Docks Intro and Shipyard Tutorial - Alliance]: no offer-reward text
+- 37889 The Invasion of Tanaan [Tanaan Invasion - Horde]: no offer-reward text
+- 37890 Obstacle Course [Tanaan Invasion - Horde]: no offer-reward text
+- 37934 In, Through, and Beyond! [Tanaan Invasion - Horde]: no offer-reward text
+- 37935 The Assault Base [Tanaan Invasion - Horde]: no offer-reward text
+- 42774 Hope Prevails [The Ashbringer]: no starter
+- 42811 We Meet at Light's Hope [The Silver Hand]: no offer-reward text
+- 42812 We Meet at Light's Hope [The Silver Hand]: no offer-reward text, no starter
+- 38672 Breaking Out [Vault of the Wardens]: no offer-reward text
+- 38689 Fel Infusion [Vault of the Wardens]: no offer-reward text
+- 38690 Rise of the Illidari [Vault of the Wardens]: no offer-reward text
+- 38723 Stop Gul'dan! [Vault of the Wardens]: no offer-reward text
+- 40253 Stop Gul'dan! [Vault of the Wardens]: no offer-reward text, no starter
+- 39682 Grand Theft Felbat [Vault of the Wardens]: no offer-reward text
+- 39683 Forged in Fire [Vault of the Wardens]: no offer-reward text
+- 40254 Forged in Fire [Vault of the Wardens]: no offer-reward text, no starter
+- 39684 Beam Me Up [Vault of the Wardens]: no offer-reward text
+- 39685 Frozen in Time [Vault of the Wardens]: no offer-reward text
+- 39686 All The Way Up [Vault of the Wardens]: no offer-reward text
+- 40373 A New Direction [Vault of the Wardens]: no offer-reward text
+- 95215 A New Direction [Vault of the Wardens]: no ender, no offer-reward text, no starter
+- 39687 None [Vault of the Wardens]: MISSING quest_template
+- 39688 Between Us and Freedom [Vault of the Wardens]: no offer-reward text
+- 40255 Between Us and Freedom [Vault of the Wardens]: no offer-reward text, no starter
+- 39694 Between Us and Freedom [Vault of the Wardens]: no offer-reward text
+- 40256 Horde: Between Us and Freedom [Vault of the Wardens]: no offer-reward text
+- 39689 Illidari, We Are Leaving [Vault of the Wardens]: no offer-reward text
+- 39690 Illidari, We Are Leaving [Vault of the Wardens]: no offer-reward text
+- 39985 Khadgar's Discovery [Nightfall]: no offer-reward text
+- 44555 Khadgar's Discovery [Nightfall]: no starter
+- 41149 A Re-Warding Effort [Kel'danath's Legacy]: no ender, no starter
+- 41120 Making Arrangements [The Twinblades of the Deceiver]: no offer-reward text
+- 40819 Making Arrangements [The Twinblades of the Deceiver]: no offer-reward text
+- 41121 By Any Means [The Twinblades of the Deceiver]: no offer-reward text
+- 39051 By Any Means [The Twinblades of the Deceiver]: no offer-reward text
+- 41119 The Hunt [The Twinblades of the Deceiver]: no offer-reward text
+- 39247 The Hunt [The Twinblades of the Deceiver]: no offer-reward text
+- 41803 Asking a Favor [The Aldrachi Warblades]: no offer-reward text
+- 40247 Asking a Favor [The Aldrachi Warblades]: no offer-reward text
+- 41804 Ask and You Shall Receive [The Aldrachi Warblades]: no offer-reward text
+- 41806 Return to Jace [The Aldrachi Warblades]: no offer-reward text
+- 41807 Establishing a Connection [The Aldrachi Warblades]: no offer-reward text
+- 41863 Vengeance Will Be Ours [The Aldrachi Warblades]: no offer-reward text
+- 40249 Vengeance Will Be Ours [The Aldrachi Warblades]: no offer-reward text
+- 39047 Call of the Illidari [The Illidari]: no offer-reward text
+- 39261 Call of the Illidari [The Illidari]: no offer-reward text
+- 40816 The Power to Survive [The Illidari]: no offer-reward text
+- 40814 The Power to Survive [The Illidari]: no offer-reward text
+- 42869 Eternal Vigil [The Illidari]: no offer-reward text
+- 42872 Securing the Way [The Illidari]: no offer-reward text
+- 41033 Return to Mardum [The Illidari]: no offer-reward text
+- 41221 Return to Mardum [The Illidari]: no offer-reward text
+- 41060 Unbridled Power [The Illidari]: no offer-reward text, no starter
+- 41037 Unbridled Power [The Illidari]: no offer-reward text
+- 41070 Spoils of Victory [The Illidari]: no offer-reward text, no starter
+- 41062 Spoils of Victory [The Illidari]: no offer-reward text
+- 41066 The Hunter's Gaze [The Illidari]: no offer-reward text
+- 41096 Time is of the Essence [The Illidari]: no offer-reward text, no starter
+- 41067 Time is of the Essence [The Illidari]: no offer-reward text
+- 41099 Direct Our Wrath [The Illidari]: no offer-reward text, no starter
+- 41069 Direct Our Wrath [The Illidari]: no offer-reward text
+- 44383 In Pursuit of Power [The Illidari]: no offer-reward text
+- 44379 In Pursuit of Power [The Illidari]: no offer-reward text, no starter
+- 40847 A Friendly Accord [The Dreadblades]: no offer-reward text
+- 40849 The Dreadblades [The Dreadblades]: no offer-reward text, no starter
+- 41919 The Shadows Reveal [The Fangs of the Devourer]: no offer-reward text
+- 41920 A Matter of Finesse [The Fangs of the Devourer]: no offer-reward text
+- 41921 Closing In [The Fangs of the Devourer]: no offer-reward text
+- 41922 Traitor! [The Fangs of the Devourer]: no offer-reward text
+- 41924 Fangs of the Devourer [The Fangs of the Devourer]: no offer-reward text
+- 40649 Meet with Mylune [G'Hanir, the Mother Tree]: no offer-reward text
+- 41422 Necessary Preparations [G'Hanir, the Mother Tree]: no offer-reward text
+- 41449 Join the Dreamer [G'Hanir, the Mother Tree]: no offer-reward text
+- 41436 In Deep Slumber [G'Hanir, the Mother Tree]: no offer-reward text, no starter
+- 41690 Reconvene [G'Hanir, the Mother Tree]: no offer-reward text, no starter
+- 41689 Cleansing the Mother Tree [G'Hanir, the Mother Tree]: no offer-reward text
+- 41574 Stolen Thunder [Titanstrike]: no offer-reward text
+- 42158 The Creator's Workshop [Titanstrike]: no offer-reward text
+- 42185 Never Hunt Alone [Titanstrike]: no offer-reward text
+- 42008 Eyes of the Dragon [Aluneth, Greatstaff of the Magna]: no ender
+- 42009 Harnessing the Arcane [Aluneth, Greatstaff of the Magna]: no ender, no starter
+- 42010 Arcane Unleashed [Aluneth, Greatstaff of the Magna]: no ender, no starter
+- 42011 The Nexus Vault [Aluneth, Greatstaff of the Magna]: no starter
+- 41783 Fallen Offerings [The Claws of Ursoc]: no offer-reward text
+- 38990 The Call of Icecrown [The Blades of the Fallen Prince]: no offer-reward text, no starter
+- 40740 The Dead and the Damned [The Maw of the Damned]: no offer-reward text, no starter
+- 40714 The Call To War [The Ebon Blade]: no offer-reward text
+- 39832 Plans and Preparations [The Ebon Blade]: no offer-reward text
+- 39799 Our Next Move [The Ebon Blade]: no offer-reward text
+- 41540 Rendezvous with the Courier [Legacy of the Windrunners]: no offer-reward text
+- 40392 Call of the Marksman [Legacy of the Windrunners]: no offer-reward text
+- 40400 Clandestine Operation [Legacy of the Windrunners]: no offer-reward text
+- 40402 Clandestine Operation [Legacy of the Windrunners]: no offer-reward text
+- 40403 Clandestine Operation [Legacy of the Windrunners]: no offer-reward text
+- 40419 Rescue Mission [Legacy of the Windrunners]: no offer-reward text
+- 40953 On Eagle's Wings [The Unseen Path]: no offer-reward text
+- 40954 The Unseen Path [The Unseen Path]: no offer-reward text
+- 40955 Oath of Service [The Unseen Path]: no offer-reward text
+- 40957 A Strong Right Hand [The Unseen Path]: no offer-reward text
+- 40958 Tactical Matters [The Unseen Path]: no offer-reward text
+- 40959 The Campaign Begins [The Unseen Path]: no offer-reward text
+- 44043 Continuing the Legend [The Unseen Path]: no offer-reward text
+- 44366 One Last Adventure [The Unseen Path]: no offer-reward text
+- 39875 The Last Few [Legion Enchanting]: no offer-reward text
+- 39876 Helping the Hunters [Legion Enchanting]: no offer-reward text
+- 39877 In the Loop [Legion Enchanting]: no offer-reward text
+- 40048 Strings of the Puppet Masters [Legion Enchanting]: no offer-reward text
+- 39905 Ringing True [Legion Enchanting]: no offer-reward text
+- 39878 Thunder Struck [Legion Enchanting]: no offer-reward text
+- 39879 Strong Like the Earth [Legion Enchanting]: no offer-reward text
+- 39880 Waste Not [Legion Enchanting]: no offer-reward text
+- 39883 Cloaked in Tradition [Legion Enchanting]: no offer-reward text
+- 39881 Fey Enchantments [Legion Enchanting]: no offer-reward text
+- 39882 Darkheart Thicket: The Glamour Has Faded [Legion Enchanting]: no offer-reward text
+- 39884 No Longer Worthy [Legion Enchanting]: no offer-reward text
+- 39889 Led Astray [Legion Enchanting]: no offer-reward text
+- 39903 An Enchanting Home [Legion Enchanting]: giver 98367 not spawned, no offer-reward text
+- 40265 A Touch of Magic [Legion Enchanting]: giver 98367 not spawned, no offer-reward text
+- 39904 Halls of Valor: Revenge of the Enchantress [Legion Enchanting]: giver 98367 not spawned, no offer-reward text
+- 39891 Cursed, But Convenient [Legion Enchanting]: no offer-reward text
+- 40169 Crossroads Rendezvous [Legion Enchanting]: no offer-reward text
+- 39916 Turnabout Betrayal [Legion Enchanting]: no offer-reward text
+- 40130 Washed Clean [Legion Enchanting]: giver 98698 not spawned, no offer-reward text
+- 39918 The Absent Priestess [Legion Enchanting]: giver 98698 not spawned, no offer-reward text
+- 39910 The Druid's Debt [Legion Enchanting]: no offer-reward text
+- 39906 Prepping For Battle [Legion Enchanting]: no offer-reward text
+- 39914 Sentinel's Final Duty [Legion Enchanting]: no offer-reward text
+- 39907 Elven Enchantments [Legion Enchanting]: no offer-reward text
+- 39920 On Azure Wings [Legion Enchanting]: no offer-reward text
+- 39921 Neltharion's Lair: Rod of Azure [Legion Enchanting]: no offer-reward text
+- 39923 Down to the Core [Legion Enchanting]: no offer-reward text
+- 40859 The Latest Fashion: Headguns! [Legion Engineering]: giver 102195 not spawned
+- 40860 Resupplying the Line [Legion Engineering]: no offer-reward text
+- 40861 In My Sights [Legion Engineering]: no offer-reward text
+- 40862 All Charged Up [Legion Engineering]: no offer-reward text
+- 40864 Modular Modifications [Legion Engineering]: no offer-reward text
+- 40865 It's Not Rocket Science [Legion Engineering]: no offer-reward text
+- 40866 The Shell, You Say? [Legion Engineering]: no offer-reward text
+- 40867 Bubble Baubles [Legion Engineering]: no offer-reward text
+- 40868 Wibbly-Wobbly, Timey-Wimey [Legion Engineering]: no offer-reward text
+- 40869 Fire and Forget [Legion Engineering]: no offer-reward text
+- 40870 Here Comes the BOOM! [Legion Engineering]: no offer-reward text
+- 40871 Locke and Load [Legion Engineering]: no offer-reward text
+- 40872 Going Out With a Bang [Legion Engineering]: no offer-reward text
+- 40873 Keep Yer Powder Dry [Legion Engineering]: no offer-reward text
+- 40874 I'd Do It Myself, But... [Legion Engineering]: no offer-reward text
+- 40875 Going to Waste [Legion Engineering]: no offer-reward text
+- 40876 Locke, Stock and Barrel [Legion Engineering]: no offer-reward text
+- 40877 Halls of Valor: Trigger Happy [Legion Engineering]: no offer-reward text
+- 40878 Assault on Violet Hold: Cheating Death [Legion Engineering]: no offer-reward text
+- 40879 It's On With Automatons [Legion Engineering]: no offer-reward text
+- 40880 Short Circuit [Legion Engineering]: no offer-reward text
+- 40881 Oil Rags to Riches [Legion Engineering]: no offer-reward text
+- 40882 Court of Stars: Revamping the Recoil [Legion Engineering]: no offer-reward text
+- 46119 Boon of the Builder [Legion Engineering]: no ender, no offer-reward text, no starter
+- 46128 Time for a Recharge [Legion Engineering]: no ender, no offer-reward text, no starter
+- 39847 Sign This [Legion Inscription]: no offer-reward text
+- 39931 Smashing Herbs [Legion Inscription]: no offer-reward text
+- 39932 Fish Ink [Legion Inscription]: no offer-reward text
+- 39933 The Card Shark [Legion Inscription]: no offer-reward text
+- 39934 Our New Allies [Legion Inscription]: no offer-reward text
+- 39935 The Price of Power [Legion Inscription]: no offer-reward text
+- 39936 Inscription of the Body [Legion Inscription]: no offer-reward text
+- 39939 Scribal Knowledge [Legion Inscription]: no offer-reward text
+- 39940 Runes of Power [Legion Inscription]: no offer-reward text
+- 39941 Control is Key [Legion Inscription]: no offer-reward text
+- 39943 The Burdens of Hunting [Legion Inscription]: no offer-reward text
+- 40056 Our New Allies [Legion Inscription]: no offer-reward text
+- 40057 The Price of Power [Legion Inscription]: no offer-reward text
+- 40058 Defense Symbology [Legion Inscription]: no offer-reward text
+- 40059 Opposites Repel [Legion Inscription]: no offer-reward text
+- 40060 Containing the Demon Within [Legion Inscription]: no offer-reward text, no starter
+- 40061 To Know Your Enemy [Legion Inscription]: no offer-reward text, no starter
+- 40063 Control is Key [Legion Inscription]: no offer-reward text
+- 39944 Mysterious Messages [Legion Inscription]: no offer-reward text
+- 39945 Runes Within the Ruins [Legion Inscription]: no offer-reward text
+- 39946 Right Tool for the Job [Legion Inscription]: no offer-reward text
+- 39947 Not So Complex? [Legion Inscription]: no offer-reward text
+- 40052 Ancient Vrykul Mastered [Legion Inscription]: no offer-reward text
+- 39948 The Ink Flows [Legion Inscription]: no offer-reward text
+- 39949 Once a Scribe Like You [Legion Inscription]: no offer-reward text
+- 39950 An Odd Trinket [Legion Inscription]: no offer-reward text
+- 39961 An Embarrassing Revelation [Legion Inscription]: no offer-reward text
+- 39955 The Plot Thickens [Legion Inscription]: giver 97762 not spawned, no offer-reward text
+- 39959 The Plot Thickens [Legion Inscription]: giver 97766 not spawned, no offer-reward text
+- 39956 The Legacy Passed On [Legion Inscription]: giver 97762 not spawned, no offer-reward text
+- 39960 The Legacy Passed On [Legion Inscription]: giver 97766 not spawned, no offer-reward text
+- 39954 Mass Milling Techniques [Legion Inscription]: no offer-reward text
+- 39942 Aethrem Crystal [Legion Inscription]: no offer-reward text, no starter
+- 40062 Bulging Nightmare Pod [Legion Inscription]: no offer-reward text, no starter
+- 40064 Woody Seed Cluster [Legion Inscription]: no offer-reward text, no starter
+- 40065 Fjarnsk [Legion Inscription]: no offer-reward text, no starter
+- 39951 Roseate Essence [Legion Inscription]: no offer-reward text, no starter
+- 39952 Sallow Essence [Legion Inscription]: no offer-reward text, no starter
+- 39953 Halls of Valor: Vision of Valor [Legion Inscription]: no offer-reward text
+- 39957 Demon Ink [Legion Inscription]: no offer-reward text
+- 40523 Facet-nating Friends [Legion Jewelcrafting]: no offer-reward text
+- 40524 A Familiar Ring to It [Legion Jewelcrafting]: no offer-reward text
+- 40525 Getting the Band Back Together [Legion Jewelcrafting]: no offer-reward text
+- 42214 Knocked for a Loop [Legion Jewelcrafting]: no offer-reward text
+- 40526 Finishing Touches [Legion Jewelcrafting]: no offer-reward text, no starter
+- 40527 Finishing Touches [Legion Jewelcrafting]: no offer-reward text, no starter
+- 40528 Finishing Touches [Legion Jewelcrafting]: no offer-reward text, no starter
+- 40529 Truly Outrageous [Legion Jewelcrafting]: no offer-reward text
+- 40530 An Eye for Detail [Legion Jewelcrafting]: no offer-reward text
+- 40531 Swift Vengeance [Legion Jewelcrafting]: no offer-reward text
+- 40532 Making the Cut [Legion Jewelcrafting]: no offer-reward text, no starter
+- 40533 Making the Cut [Legion Jewelcrafting]: no offer-reward text, no starter
+- 40534 Making the Cut [Legion Jewelcrafting]: no offer-reward text, no starter
+- 40535 Raising the Drogbar [Legion Jewelcrafting]: no offer-reward text
+- 40536 Bruls Before Jewels [Legion Jewelcrafting]: no offer-reward text
+- 40538 Lapidary Lessons [Legion Jewelcrafting]: no offer-reward text
+- 40539 Hidden Intentions [Legion Jewelcrafting]: giver 100939 not spawned, no offer-reward text
+- 40540 Come at Me, Brul [Legion Jewelcrafting]: no offer-reward text
+- 40541 The Charge Within [Legion Jewelcrafting]: no offer-reward text
+- 40542 Eyes of Nashal [Legion Jewelcrafting]: no offer-reward text, no starter
+- 40543 Eyes of Nashal [Legion Jewelcrafting]: no offer-reward text, no starter
+- 40544 Eyes of Nashal [Legion Jewelcrafting]: no offer-reward text, no starter
+- 40546 Mysteries of Nature [Legion Jewelcrafting]: no offer-reward text
+- 40547 To Dalaran, With Love [Legion Jewelcrafting]: no offer-reward text
+- 40556 Jabrul Needs You [Legion Jewelcrafting]: no offer-reward text
+- 39958 Skin Deep [Legion Leatherworking]: no offer-reward text
+- 40183 Over Your Head [Legion Leatherworking]: no offer-reward text
+- 40177 Leather Lady [Legion Leatherworking]: no offer-reward text
+- 40178 Vestment Opportunity [Legion Leatherworking]: no offer-reward text
+- 40179 Stormheim Savagery [Legion Leatherworking]: no offer-reward text
+- 40180 Mail Men [Legion Leatherworking]: no offer-reward text
+- 40181 Black Rook Bandit [Legion Leatherworking]: no offer-reward text
+- 40182 Too Good To Pass Up [Legion Leatherworking]: no offer-reward text
+- 40176 From Head to Toe [Legion Leatherworking]: no offer-reward text
+- 40184 Tauren Tanning [Legion Leatherworking]: no offer-reward text
+- 40185 Shoulder the Burden [Legion Leatherworking]: no offer-reward text
+- 40186 Drogbar Durability [Legion Leatherworking]: no offer-reward text
+- 40187 Links in the Chain [Legion Leatherworking]: no offer-reward text
+- 40188 Best Served Cold [Legion Leatherworking]: no offer-reward text
+- 40189 Naga Know-How [Legion Leatherworking]: no offer-reward text
+- 40190 Hardening the Hide [Legion Leatherworking]: no offer-reward text
+- 40191 Stamped Stories [Legion Leatherworking]: no offer-reward text
+- 40192 Claw of the Land [Legion Leatherworking]: no offer-reward text
+- 40193 Getting the Kinks Out [Legion Leatherworking]: no offer-reward text
+- 40194 Reclaimed Cargo [Legion Leatherworking]: no offer-reward text
+- 40195 A Daring Rescue [Legion Leatherworking]: giver 99689 not spawned, no offer-reward text
+- 40327 Testing the Metal [Legion Leatherworking]: giver 99689 not spawned, no offer-reward text
+- 40196 Adventuring Anxieties [Legion Leatherworking]: no offer-reward text
+- 40197 The Necessary Materials [Legion Leatherworking]: no offer-reward text
+- 41889 Dazed of the Past [Legion Leatherworking]: no offer-reward text
+- 40198 Rats! [Legion Leatherworking]: no offer-reward text
+- 40199 Leather Legwork [Legion Leatherworking]: no offer-reward text
+- 40200 Battle Bonds [Legion Leatherworking]: no offer-reward text
+- 40241 Battle Bonds [Legion Leatherworking]: no offer-reward text
+- 40201 Playthings [Legion Leatherworking]: no offer-reward text
+- 40202 The Final Lessons [Legion Leatherworking]: no offer-reward text
+- 40203 Strength of the Past [Legion Leatherworking]: no offer-reward text
+- 40204 Evolution of the Past [Legion Leatherworking]: no offer-reward text
+- 40205 Respect for the Past [Legion Leatherworking]: no offer-reward text
+- 40206 A Debt Paid [Legion Leatherworking]: no offer-reward text
+- 40207 Scales of the Arcane [Legion Leatherworking]: no offer-reward text
+- 40208 Eye of Azshara: Scales of the Sea [Legion Leatherworking]: no offer-reward text
+- 40209 Scales of the Earth [Legion Leatherworking]: no offer-reward text
+- 40210 Time Well Spent [Legion Leatherworking]: no offer-reward text
+- 40415 Well Spent Time [Legion Leatherworking]: no offer-reward text
+- 40211 Demon Flesh [Legion Leatherworking]: no offer-reward text
+- 40212 Wrong End of the Knife [Legion Leatherworking]: no offer-reward text
+- 40213 Hounds Abound [Legion Leatherworking]: no offer-reward text
+- 40214 Fel Tanning [Legion Leatherworking]: no offer-reward text
+- 40215 Mounting Made Easy [Legion Leatherworking]: no offer-reward text
+- 40013 Aethril Sample [Legion Herbalism]: no offer-reward text, no starter
+- 40014 Spayed by the Spade [Legion Herbalism]: no offer-reward text
+- 40015 Ragged Strips of Silk [Legion Herbalism]: no offer-reward text, no starter
+- 40016 Desperation Breeds Ingenuity [Legion Herbalism]: no offer-reward text
+- 40017 A Slip of the Hand [Legion Herbalism]: no offer-reward text, no starter
+- 40131 Stonehide Leather Sample [Legion Skinning]: no offer-reward text, no starter
+- 40132 In One Piece [Legion Skinning]: no offer-reward text
+- 40133 Scrap of Pants [Legion Skinning]: no offer-reward text, no starter
+- 40134 Highmountain Hides [Legion Skinning]: no offer-reward text
+- 40135 The Freedom to Roam [Legion Skinning]: no offer-reward text
+- 40136 Immaculate Stonehide Leather [Legion Skinning]: no offer-reward text, no starter
+- 40137 Leather for Ske'rit [Legion Skinning]: no offer-reward text
+- 40138 Trial of the Crusader: Hides of Legend [Legion Skinning]: no offer-reward text
+- 40139 Halls of Valor: The Hide of Fenryr [Legion Skinning]: no offer-reward text
+- 40140 Ske'rit's Leather Handbook [Legion Skinning]: no offer-reward text
+- 41170 The Relic Renewed [Legion Archaeology]: no offer-reward text, no starter
+- 42501 Finishing the Job [The Kingslayers]: no ender
+- 42502 No Sanctuary [The Kingslayers]: no ender
+- 42503 Codebreaker [The Kingslayers]: no ender, no starter
+- 42539 Cloak and Dagger [The Kingslayers]: no ender, no starter
+- 42568 Preparation [The Kingslayers]: no starter
+- 42504 The Unseen Blade [The Kingslayers]: no offer-reward text, no starter
+- 42627 The Unseen Blade [The Kingslayers]: no starter
+- 38146 The Chieftain's Beads [Archdruid of the Claw]: no starter
+- 38148 Return to the Grove [Into the Nightmare]: no offer-reward text
+- 38656 Mark of the Demon [Into the Nightmare]: no starter
+- 41054 Love Lost [All Nightmare Long]: no offer-reward text
+- 41890 Dark Side of the Moon [All Nightmare Long]: no offer-reward text
+- 38675 Heart of the Nightmare [All Nightmare Long]: no offer-reward text
+- 41749 Given to Corruption [All Nightmare Long]: no offer-reward text
+- 41763 Close Enough to Touch [All Nightmare Long]: no offer-reward text
+- 39149 A Village in Peril [Bradensbrook]: no offer-reward text
+- 44457 Brotherly Love [Black Rook Hold]: no offer-reward text
+- 44278 Illidari Freedom [Black Rook Hold]: no offer-reward text
+- 42762 The Wanderer's Companion [Fu Zan, The Wanderer's Companion]: no offer-reward text
+- 42766 The Riddle of the Barrel [Fu Zan, The Wanderer's Companion]: no offer-reward text
+- 42767 The Riddle of the Land [Fu Zan, The Wanderer's Companion]: no offer-reward text
+- 42768 The Riddle of Purity [Fu Zan, The Wanderer's Companion]: no offer-reward text
+- 42957 Journey to the East [Fu Zan, The Wanderer's Companion]: no offer-reward text, no starter
+- 42868 The Monkey King's Challenge [Fu Zan, The Wanderer's Companion]: no offer-reward text
+- 42765 The Trial at the Temple [Fu Zan, The Wanderer's Companion]: no offer-reward text
+- 40569 The Legend of the Sands [The Fists of the Heavens]: no offer-reward text
+- 40633 Off To Adventure! [The Fists of the Heavens]: no offer-reward text
+- 40634 Thunder on the Sands [The Fists of the Heavens]: no offer-reward text
+- 40570 Into The Heavens [The Fists of the Heavens]: no offer-reward text
+- 42978 A Royal Audience [Champion of the Alliance]: no offer-reward text, no starter
+- 42982 The Victor's Spoils [Champion of the Alliance]: no offer-reward text
+- 42985 A Royal Audience [Champion of the Horde]: no offer-reward text, no starter
+- 42987 The Victor's Spoils [Champion of the Horde]: no offer-reward text
+- 43496 The Power Within [Balance of Power]: no offer-reward text
+- 43503 The Power Within [Balance of Power]: no offer-reward text, no starter
+- 43501 The Power Within [Balance of Power]: no offer-reward text
+- 43505 The Power Within [Balance of Power]: no offer-reward text, no starter
+- 40668 Eye of Azshara: The Heart of Zin-Azshari [Balance of Power]: no offer-reward text
+- 43514 A Vainglorious Past [Balance of Power]: no offer-reward text
+- 43517 Darkheart Thicket: Fallen Power [Balance of Power]: no offer-reward text
+- 43518 Tempering Darkness [Balance of Power]: no offer-reward text
+- 43519 Lucid Strength [Balance of Power]: no offer-reward text
+- 43581 The Wisdom of Patience [Balance of Power]: no offer-reward text
+- 43520 The Emerald Nightmare: In Nightmares [Balance of Power]: no offer-reward text
+- 43521 The Emerald Nightmare: Essence of Power [Balance of Power]: no offer-reward text
+- 43522 Essential Consumption [Balance of Power]: no offer-reward text
+- 43938 Focusing Our Efforts [Balance of Power]: no offer-reward text, no starter
+- 43527 Saving the Guard [Balance of Power]: no offer-reward text
+- 43937 Seeking Refuge [Balance of Power]: no offer-reward text, no starter
+- 43523 Repaid Debt [Balance of Power]: no offer-reward text, no starter
+- 40673 Lost Knowledge [Balance of Power]: no offer-reward text
+- 43524 Court of Stars: Literary Perfection [Balance of Power]: no offer-reward text
+- 40675 The Arcway: Rite of the Captain [Balance of Power]: no offer-reward text
+- 43525 Vault of the Wardens: Borrowing Without Asking [Balance of Power]: no offer-reward text
+- 40678 Twisted Power [Balance of Power]: no offer-reward text
+- 43526 A True Test [Balance of Power]: no offer-reward text
+- 40603 Seeking the Valkyra [Balance of Power]: no offer-reward text
+- 40608 The Mark [Balance of Power]: no offer-reward text
+- 40613 Maw of Souls: Retrieving the Svalnguard [Balance of Power]: no offer-reward text
+- 40614 A Feast Fit for Odyn [Balance of Power]: no offer-reward text
+- 40672 Neltharion's Lair: Presentation is Key [Balance of Power]: no offer-reward text
+- 40615 Halls of Valor: Odyn's Blessing [Balance of Power]: no offer-reward text
+- 43898 Preparing to Move [Balance of Power]: no offer-reward text, no starter
+- 43528 Planning the Assault [Balance of Power]: no offer-reward text
+- 43530 The Nighthold: Delusions of Grandeur [Balance of Power]: no offer-reward text
+- 43531 The Nighthold: Into the Nighthold [Balance of Power]: no offer-reward text
+- 43532 The Nighthold: Darkness Calls [Balance of Power]: no offer-reward text
+- 43533 Balance of Power [Balance of Power]: no offer-reward text
+- 40495 Ulthalesh, the Deadwind Harvester [Ulthalesh, the Deadwind Harvester]: no offer-reward text
+- 40588 Following the Curse [Ulthalesh, the Deadwind Harvester]: no offer-reward text
+- 40604 Disturbing the Past [Ulthalesh, the Deadwind Harvester]: no offer-reward text
+- 40606 To Point the Way [Ulthalesh, the Deadwind Harvester]: no offer-reward text
+- 40611 The Fate of Deadwind [Ulthalesh, the Deadwind Harvester]: no offer-reward text
+- 40623 The Dark Riders [Ulthalesh, the Deadwind Harvester]: no offer-reward text
+- 41155 The Dark Riders [Ulthalesh, the Deadwind Harvester]: no offer-reward text
+- 40712 The Power Possessed [Ulthalesh, the Deadwind Harvester]: no offer-reward text
+- 41156 The Power Possessed [Ulthalesh, the Deadwind Harvester]: no offer-reward text, no starter
+- 40930 Apocalypse [Apocalypse]: no offer-reward text
+- 40931 Following the Curse [Apocalypse]: no offer-reward text
+- 40932 Disturbing the Past [Apocalypse]: no offer-reward text
+- 40933 A Grisly Task [Apocalypse]: no offer-reward text
+- 40934 The Dark Riders [Apocalypse]: no offer-reward text
+- 40986 The Dark Riders [Apocalypse]: no offer-reward text
+- 40935 The Call of Vengeance [Apocalypse]: no offer-reward text, no starter
+- 40987 The Call of Vengeance [Apocalypse]: no offer-reward text
+- 43466 None [Artifact Research]: MISSING quest_template
+- 43749 Hitting the Books [Artifact Research]: no offer-reward text, no starter
+- 43816 None [Artifact Research]: MISSING quest_template
+- 43817 None [Artifact Research]: MISSING quest_template
+- 43818 None [Artifact Research]: MISSING quest_template
+- 43819 Hidden History [Artifact Research]: no offer-reward text, no starter
+- 43820 None [Artifact Research]: MISSING quest_template
+- 43821 None [Artifact Research]: MISSING quest_template
+- 43822 None [Artifact Research]: MISSING quest_template
+- 43823 None [Artifact Research]: MISSING quest_template
+- 43824 None [Artifact Research]: MISSING quest_template
+- 43825 None [Artifact Research]: MISSING quest_template
+- 43826 Hidden History [Artifact Research]: no offer-reward text, no starter
+- 43877 Hitting the Books [Artifact Research]: no offer-reward text, no starter
+- 43878 Hitting the Books [Artifact Research]: no offer-reward text, no starter
+- 43879 Hitting the Books [Artifact Research]: no offer-reward text
+- 43880 Hitting the Books [Artifact Research]: no offer-reward text
+- 43881 Hitting the Books [Artifact Research]: no offer-reward text
+- 43883 Hitting the Books [Artifact Research]: no offer-reward text
+- 43884 Hitting the Books [Artifact Research]: no offer-reward text, no starter
+- 43885 Hitting the Books [Artifact Research]: no offer-reward text
+- 43886 Speaking to the Wind [Artifact Research]: no offer-reward text
+- 43887 Hitting the Books [Artifact Research]: no offer-reward text
+- 43888 Hitting the Books [Artifact Research]: no offer-reward text, no starter
+- 46108 Knowledge is Power [Artifact Research]: no ender, no offer-reward text, no starter
+- 46129 Knowledge is Power [Artifact Research]: no ender, no offer-reward text, no starter
+- 46130 Knowledge is Power [Artifact Research]: no ender, no offer-reward text, no starter
+- 46131 Knowledge is Power [Artifact Research]: no ender, no offer-reward text, no starter
+- 46132 Knowledge is Power [Artifact Research]: no ender, no offer-reward text, no starter
+- 46133 Knowledge is Power [Artifact Research]: no ender, no offer-reward text, no starter
+- 46140 Knowledge is Power [Artifact Research]: no ender, no offer-reward text, no starter
+- 46141 Knowledge is Power [Artifact Research]: no ender, no offer-reward text, no starter
+- 46142 Knowledge is Power [Artifact Research]: no ender, no offer-reward text, no starter
+- 46143 Knowledge is Power [Artifact Research]: no ender, no offer-reward text, no starter
+- 46144 Knowledge is Power [Artifact Research]: no ender, no offer-reward text, no starter
+- 46147 Knowledge is Power [Artifact Research]: no ender, no offer-reward text, no starter
+- 46125 Furthering Knowledge [Artifact Research]: no ender, no offer-reward text, no starter
+- 46148 Furthering Knowledge [Artifact Research]: no ender, no offer-reward text, no starter
+- 46149 Furthering Knowledge [Artifact Research]: no ender, no offer-reward text, no starter
+- 46150 Furthering Knowledge [Artifact Research]: no ender, no offer-reward text, no starter
+- 46151 Furthering Knowledge [Artifact Research]: no ender, no offer-reward text, no starter
+- 46152 Furthering Knowledge [Artifact Research]: no ender, no offer-reward text, no starter
+- 46153 Furthering Knowledge [Artifact Research]: no ender, no offer-reward text, no starter
+- 46154 Furthering Knowledge [Artifact Research]: no ender, no offer-reward text, no starter
+- 46155 Furthering Knowledge [Artifact Research]: no ender, no offer-reward text, no starter
+- 46156 Furthering Knowledge [Artifact Research]: no ender, no offer-reward text, no starter
+- 46157 Furthering Knowledge [Artifact Research]: no ender, no offer-reward text, no starter
+- 46158 Furthering Knowledge [Artifact Research]: no ender, no offer-reward text, no starter
+- 42814 An Important Mission [Becoming Valarjar]: no offer-reward text, no starter
+- 42815 Return to the Broken Shore [Becoming Valarjar]: no offer-reward text
+- 41052 A Desperate Plea [Becoming Valarjar]: no offer-reward text, no starter
+- 38904 Return to the Broken Shore [Becoming Valarjar]: no offer-reward text
+- 39654 Odyn and the Valarjar [Becoming Valarjar]: no offer-reward text
+- 40579 Weapons of Legend [Becoming Valarjar]: no offer-reward text, no starter
+- 39214 The Eye of Odyn [Becoming Valarjar]: giver 100635 not spawned, no offer-reward text, no starter
+- 40585 Thus Begins the War [Becoming Valarjar]: giver 100635 not spawned, no offer-reward text, no starter
+- 42597 Odyn's Summons [Becoming Valarjar]: no offer-reward text, no starter
+- 42598 Champions of Skyhold [Becoming Valarjar]: giver 100635 not spawned, no offer-reward text, no starter
+- 42606 Champion: Finna Bjornsdottir [Becoming Valarjar]: no offer-reward text, no starter
+- 42605 Champion: Ragnvald Drakeborn [Becoming Valarjar]: no offer-reward text, no starter
+- 42607 Captain Stahlstrom [Becoming Valarjar]: giver 100635 not spawned, no offer-reward text, no starter
+- 42609 Recruiting the Troops [Becoming Valarjar]: giver 100635 not spawned, no offer-reward text, no starter
+- 42610 Troops in the Field [Becoming Valarjar]: giver 100635 not spawned, no offer-reward text, no starter
+- 42611 Einar the Runecaster [Becoming Valarjar]: giver 100635 not spawned, no offer-reward text, no starter
+- 40043 The Hunter of Heroes [Hunter of Heroes]: no offer-reward text, no starter
+- 41105 The Sword of Kings [The Sword of Kings]: no offer-reward text, no starter
+- 39191 Legacy of the Icebreaker [Legacy of the Icebreaker]: no offer-reward text, no starter
+- 40710 Blade in Twilight [Blade in Twilight]: no starter
+- 41542 Preparation for the Hunt [Talonclaw]: no offer-reward text
+- 39427 The Eagle Spirit's Blessing [Talonclaw]: no offer-reward text
+- 40385 The Spear in the Shadow [Talonclaw]: no offer-reward text
+- 42005 The End of the Saga [Truthguard]: no starter
+- 42377 The Brother's Trail [The Silver Hand]: no offer-reward text
+- 42120 The Silver Hand [The Silver Hand]: no offer-reward text
+- 42455 Alodi's Gems [Ebonchill]: no starter
+- 43100 Finding the Scepter [Scepter of Sargeras]: no offer-reward text
+- 43153 An Eye for a Scepter [Scepter of Sargeras]: no offer-reward text, no starter
+- 43254 Ritual Ruination [Scepter of Sargeras]: no offer-reward text
+- 42885 The Highlord's Command [Path of the Light I]: no offer-reward text
+- 42966 The Highlord's Command [Path of the Light I]: no offer-reward text
+- 42967 The Highlord's Command [Path of the Light I]: no offer-reward text, no starter
+- 42888 Communication Orbs [Path of the Light I]: no offer-reward text
+- 43462 Mother Ozram [Path of the Light I]: no offer-reward text
+- 42890 The Codex of Command [Path of the Light I]: no offer-reward text
+- 42851 Champion: Vindicator Boros [Path of the Light I]: no offer-reward text
+- 42852 Champion: Justicar Julia Celeste [Path of the Light I]: no offer-reward text
+- 43750 The Call of Battle [Chronicles of Skyhold I]: no offer-reward text, no starter
+- 42193 The Gjallarhorn [Chronicles of Skyhold I]: no offer-reward text, no starter
+- 42194 Stolen Honor [Chronicles of Skyhold I]: no offer-reward text, no starter
+- 42650 Break the Bonds [Chronicles of Skyhold I]: no offer-reward text
+- 42651 Svergan's Promise [Chronicles of Skyhold I]: no offer-reward text
+- 42107 On the Trail of the Great Worm [Chronicles of Skyhold I]: no offer-reward text, no starter
+- 42110 To the Summit! [Chronicles of Skyhold I]: no offer-reward text, no starter
+- 42202 Revenge, Served Cold [Chronicles of Skyhold I]: no offer-reward text
+- 42204 Jorhuttam [Chronicles of Skyhold I]: no offer-reward text, no starter
+- 43585 Preparing For War [Chronicles of Skyhold I]: giver 100635 not spawned, no offer-reward text, no starter
+- 42614 Champion: Svergan Stormcloak [Chronicles of Skyhold I]: no offer-reward text, no starter
+- 41625 The Light's Wrath [Light's Wrath]: no offer-reward text
+- 41626 A New Threat [Light's Wrath]: no offer-reward text
+- 41627 A Forgotten Enemy [Light's Wrath]: no ender, no offer-reward text
+- 41628 Eyes of the Dragon [Light's Wrath]: no ender, no offer-reward text, no starter
+- 41629 Harnessing the Holy Fire [Light's Wrath]: no ender, no offer-reward text, no starter
+- 41630 Unleashing Judgment [Light's Wrath]: no ender, no offer-reward text, no starter
+- 41631 The Nexus Vault [Light's Wrath]: no offer-reward text, no starter
+- 41632 A Gift of Time [Light's Wrath]: no offer-reward text
+- 44663 In the Blink of an Eye [Legion Launch Events - Week 3]: no starter
+- 41966 House Call [T'uure]: no offer-reward text
+- 41967 Out of the Darkness [T'uure]: no offer-reward text
+- 41993 Salvation From On High [T'uure]: no offer-reward text
+- 42074 Return of the Light [T'uure]: no offer-reward text
+- 11997 The Frozen Flame [Felo'melorn]: no starter
+- 42128 Ritual Reagents [Skull of the Man'ari]: no offer-reward text
+- 42168 Looking into the Darkness [Skull of the Man'ari]: no offer-reward text
+- 42125 Dark Whispers [Skull of the Man'ari]: no offer-reward text
+- 41003 The Emperor's Gift [Staff of the Mists]: no offer-reward text
+- 43962 Blades of Destiny [Weapon of Legend]: no offer-reward text
+- 44379 In Pursuit of Power [Weapon of Legend]: no offer-reward text, no starter
+- 44383 In Pursuit of Power [Weapon of Legend]: no offer-reward text
+- 44043 Continuing the Legend [Weapon of Legend]: no offer-reward text
+- 43973 Two Paths, Two Weapons [Weapon of Legend]: no offer-reward text
+- 43935 A Second Legend [Weapon of Legend]: no offer-reward text, no starter
+- 44034 Another Worthy Blade [Weapon of Legend]: no offer-reward text
+- 43945 Expanding Your Horizons [Weapon of Legend]: no offer-reward text
+- 43984 The Tome Opens Again [Weapon of Legend]: no offer-reward text
+- 43949 More Weapons of Legend [Weapon of Legend]: no offer-reward text, no starter
+- 44401 A Weapon For Every Occasion [Weapon of Legend]: no offer-reward text, no starter
+- 44443 Weapons of the Ancients [Weapon of Legend]: no offer-reward text
+- 44366 One Last Adventure [Weapon of Legend]: no offer-reward text
+- 44424 Three Paths, Three Weapons [Weapon of Legend]: no offer-reward text
+- 44407 The Third Legend [Weapon of Legend]: no offer-reward text, no starter
+- 44375 The Final Blade [Weapon of Legend]: no offer-reward text
+- 44006 Your Fullest Potential [Weapon of Legend]: no offer-reward text
+- 44089 A Greater Arsenal [Weapon of Legend]: no offer-reward text
+- 44417 One More Legend [Weapon of Legend]: no offer-reward text, no starter
+- 38795 Felslate Deposit Sample [Legion Mining]: no starter
+- 38796 Felslate Seam Sample [Legion Mining]: no starter
+- 38797 Living Felslate Sample [Legion Mining]: no starter
+- 38901 The Felsmiths [Legion Mining]: no offer-reward text
+- 38798 A Shred of Your Humanity [Legion Mining]: no offer-reward text
+- 38799 Darkheart Thicket: Nal'ryssa's Sisters [Legion Mining]: no offer-reward text
+- 38800 Rin'thissa's Eye [Legion Mining]: no offer-reward text, no starter
+- 38801 Lyrelle's Right Arm [Legion Mining]: no offer-reward text, no starter
+- 38802 Ondri's Still-Beating Heart [Legion Mining]: no offer-reward text, no starter
+- 38803 Rin'thissa [Legion Mining]: giver 93774 not spawned, no offer-reward text
+- 38804 Lyrelle [Legion Mining]: giver 93776 not spawned, no offer-reward text
+- 38805 Ondri [Legion Mining]: giver 93777 not spawned, no offer-reward text
+- 38806 Infernal Brimstone Sample [Legion Mining]: no offer-reward text, no starter
+- 38807 Infernal Brimstone Analysis [Legion Mining]: no offer-reward text, no starter
+- 39790 Infernal Brimstone Theory [Legion Mining]: no offer-reward text, no starter
+- 39763 For Whom the Fel Tolls [Legion Mining]: no offer-reward text, no starter
+- 39817 The Brimstone's Secret [Legion Mining]: no offer-reward text, no starter
+- 39830 Hellfire Citadel: Hellfire and Brimstone [Legion Mining]: no offer-reward text, no starter
+- 40141 Stormscale Sample [Legion Skinning]: no offer-reward text, no starter
+- 40142 The Core of the Stormscale [Legion Skinning]: no offer-reward text
+- 40143 Unfinished Treatise on the Properties of Stormscale [Legion Skinning]: no offer-reward text, no starter
+- 40144 Glielle [Legion Skinning]: no offer-reward text
+- 40146 Seymour and Agnes [Legion Skinning]: no offer-reward text
+- 40145 Under Down [Legion Skinning]: no offer-reward text
+- 40147 Mother's Prized Knife [Legion Skinning]: no offer-reward text
+- 40148 Red-Eyed Revenge [Legion Skinning]: no offer-reward text
+- 40149 Drakol'nir Must Die [Legion Skinning]: no offer-reward text
+- 40151 Immaculate Stormscale [Legion Skinning]: no offer-reward text, no starter
+- 40152 Scales for Ske'rit [Legion Skinning]: no offer-reward text
+- 40153 Return to Karazhan: Scales of Legend [Legion Skinning]: no offer-reward text
+- 40154 Eye of Azshara: The Scales of Serpentrix [Legion Skinning]: no offer-reward text
+- 40155 Ske'rit's Scale-Skinning Suggestions [Legion Skinning]: no offer-reward text
+- 40156 Felhide Sample [Legion Skinning]: no offer-reward text, no starter
+- 40157 An Unseemly Task [Legion Skinning]: no offer-reward text
+- 40158 Darkheart Thicket: Demons Be Different [Legion Skinning]: no offer-reward text
+- 40159 The Emerald Nightmare: The Pestilential Hide of Nythendra [Legion Skinning]: no offer-reward text
+- 40018 Dreamleaf Sample [Legion Herbalism]: no offer-reward text, no starter
+- 40019 An Empathetic Herb [Legion Herbalism]: no offer-reward text
+- 40020 Twisted to Death [Legion Herbalism]: no offer-reward text, no starter
+- 40021 One Dead Plant is One Too Many [Legion Herbalism]: no offer-reward text
+- 40022 Choked by Nightmare [Legion Herbalism]: no offer-reward text, no starter
+- 40023 The Last Straw [Legion Herbalism]: no offer-reward text
+- 40024 Foxflower Sample [Legion Herbalism]: no offer-reward text, no starter
+- 40025 Teeny Bite Marks [Legion Herbalism]: no offer-reward text, no starter
+- 40026 Chase the Culprit [Legion Herbalism]: no offer-reward text
+- 40028 The Pied Picker [Legion Herbalism]: no offer-reward text, no starter
+- 40029 Fjarnskaggl Sample [Legion Herbalism]: no offer-reward text, no starter
+- 40030 Ram's-Horn Trowel [Legion Herbalism]: no offer-reward text, no starter
+- 40031 Vrykul Herblore [Legion Herbalism]: no offer-reward text
+- 40032 The Missing Page [Legion Herbalism]: no offer-reward text, no starter
+- 40033 Fjarnskaggl [Legion Herbalism]: no ender, no offer-reward text, no starter
+- 40034 Starlight Rosedust [Legion Herbalism]: no offer-reward text, no starter
+- 40035 The Gentlest Touch [Legion Herbalism]: no offer-reward text
+- 40036 Jeweled Spade Handle [Legion Herbalism]: no offer-reward text, no starter
+- 40037 The Spade's Blade [Legion Herbalism]: no offer-reward text
+- 40038 Insane Ramblings [Legion Herbalism]: no offer-reward text, no starter
+- 40039 Tharillon's Fall [Legion Herbalism]: no offer-reward text
+- 40040 Felwort Sample [Legion Herbalism]: no offer-reward text, no starter
+- 40041 Felwort Analysis [Legion Herbalism]: no offer-reward text
+- 40042 The Emerald Nightmare: Felwort Mastery [Legion Herbalism]: no offer-reward text
+- 40718 Calling of the Council [Legion Launch Events - Week 2]: no offer-reward text
+- 95215 A New Direction [Legion Launch Events - Week 1]: no ender, no offer-reward text, no starter
+- 39691 The Call of War [Legion Launch Events - Week 1]: no offer-reward text
+- 44471 Second Sight [Legion Launch Events - Week 1]: no offer-reward text
+- 44463 Demons Among Them [Legion Launch Events - Week 1]: no offer-reward text
+- 44473 A Weapon of the Alliance [Legion Launch Events - Week 1]: no offer-reward text
+- 43926 Legion: The Legion Returns [Legion Launch Events - Week 1]: no offer-reward text
+- 44281 To Be Prepared [Legion Launch Events - Week 1]: no offer-reward text
+- 40518 The Battle for Broken Shore [Legion Launch Events - Week 1]: no offer-reward text
+- 40522 Fate of the Horde [Legion Launch Events - Week 1]: no offer-reward text
+- 40760 Emissary [Legion Launch Events - Week 1]: no offer-reward text
+- 40607 Demons Among Us [Legion Launch Events - Week 1]: no offer-reward text
+- 40605 Keep Your Friends Close [Legion Launch Events - Week 1]: no offer-reward text
+- 44092 Protect the Home Front [Legion Launch Events - Week 1]: no offer-reward text
+- 40976 Audience with the Warchief [Legion Launch Events - Week 1]: no offer-reward text
+- 40982 Second Sight [Legion Launch Events - Week 1]: no offer-reward text
+- 40983 Demons Among Them [Legion Launch Events - Week 1]: no offer-reward text
+- 41002 A Weapon of the Horde [Legion Launch Events - Week 1]: no offer-reward text
+- 44092 Protect the Home Front [Legion Launch Events - Week 1]: no offer-reward text
+- 43806 The Battle for Broken Shore [Legion Launch Events - Week 1]: no offer-reward text, no starter
+- 44543 Legion: The Battle for Broken Shore [Legion Launch Events - Week 1]: no offer-reward text, no starter
+- 40522 Fate of the Horde [Legion Launch Events - Week 1]: no offer-reward text
+- 40760 Emissary [Legion Launch Events - Week 1]: no offer-reward text
+- 40607 Demons Among Us [Legion Launch Events - Week 1]: no offer-reward text
+- 40605 Keep Your Friends Close [Legion Launch Events - Week 1]: no offer-reward text
+- 44092 Protect the Home Front [Legion Launch Events - Week 1]: no offer-reward text
+- 42931 Where the Hammer Falls [Call of the Doomhammer]: no offer-reward text
+- 42932 What the Stonemother Knows [Call of the Doomhammer]: no offer-reward text
+- 42933 The Troggs that Fel to Earth [Call of the Doomhammer]: no offer-reward text
+- 42935 Stone Drake Rescue [Call of the Doomhammer]: no offer-reward text
+- 42936 Clutch Play [Call of the Doomhammer]: no offer-reward text
+- 42937 Needlerock Beatdown [Call of the Doomhammer]: no offer-reward text
+- 40224 The Hammer in the Deep [Call of the Doomhammer]: no offer-reward text
+- 43334 The Coming Storm [The Voice of Thunder]: no offer-reward text
+- 43338 The Codex of Ra [The Voice of Thunder]: no offer-reward text
+- 39771 The Voice of Thunder [The Voice of Thunder]: no offer-reward text
+- 43644 To the Deeps [Azshara's Power]: no offer-reward text
+- 43645 Wavespeaker's Trail [Azshara's Power]: no offer-reward text
+- 40341 Throne of the Tides: Azshara's Power [Azshara's Power]: no offer-reward text
+- 40684 The Tome of Blighted Implements [The Tome of Blighted Implements]: no offer-reward text
+- 43984 The Tome Opens Again [The Tome of Blighted Implements]: no offer-reward text
+- 44089 A Greater Arsenal [The Tome of Blighted Implements]: no offer-reward text
+- 43341 Uniting the Isles [7.0 World Quests]: no offer-reward text
+- 45727 Uniting the Isles [7.0 World Quests]: no ender, no starter
+- 44741 Return to Karazhan: The Big Bag Theory [Legion Tailoring]: no ender, no offer-reward text, no starter
+- 47000 The Council's Call [The Council's Challenge]: no ender
+- 44782 Away From Prying Eyes [The Council's Challenge]: no ender, no starter
+- 44821 In Dire Need [The Council's Challenge]: no ender, no starter
+- 44720 A Call to Action [Deemed Worthy]: giver 114496 not spawned
+- 44771 A Threat Rises [Deemed Worthy]: no ender, no starter
+- 44721 Helya's Conquest [Deemed Worthy]: no ender, no starter
+- 44729 Trial of Valor: Odyn's Favor [Deemed Worthy]: no ender, no offer-reward text, no starter
+- 40632 Take Me To Your Leader [An Elven Problem]: no offer-reward text, no starter
+- 43812 Down to Business [An Elven Problem]: no offer-reward text, no starter
+- 41607 Taking a Promenade [An Elven Problem]: no offer-reward text, no starter
+- 44859 Liadrin's Command [Crafting War]: no ender, no offer-reward text, no starter
+- 44860 Trolling Them [Crafting War]: no ender, no offer-reward text, no starter
+- 44862 Arming the Rebels [Crafting War]: no ender, no offer-reward text, no starter
+- 44873 Oculeth Ex Machina [Crafting War]: no ender, no starter
+- 44874 Unbeleyvable [Crafting War]: no ender, no starter
+- 44875 The Art of Flow [Crafting War]: no ender, no starter
+- 44876 A Dance With Dragons [Crafting War]: no ender, no starter
+- 45063 The Felsoul Experiments [As Strong As Our Will]: no ender
+- 31316 Julia, The Pet Tamer [Battle Pet Tamers]: giver 64330 not spawned, no offer-reward text
+- 31724 Old MacDonald [Battle Pet Tamers]: giver 64330 not spawned, giver 65648 not spawned, no offer-reward text
+- 31725 Lindsay [Battle Pet Tamers]: giver 65648 not spawned, giver 65651 not spawned, no offer-reward text
+- 31726 Eric Davidson [Battle Pet Tamers]: giver 65651 not spawned, giver 65655 not spawned, no offer-reward text
+- 31729 Steven Lisbane [Battle Pet Tamers]: giver 63194 not spawned, giver 65655 not spawned, no offer-reward text
+- 31728 Bill Buckler [Battle Pet Tamers]: giver 63194 not spawned, giver 65656 not spawned, no offer-reward text
+- 31902 Battle Pet Tamers: Eastern Kingdoms [Battle Pet Tamers]: no ender, no offer-reward text
+- 31915 Grand Master Lydia Accoste [Battle Pet Tamers]: giver 66522 not spawned, no offer-reward text
+- 31919 Battle Pet Tamers: Outland [Battle Pet Tamers]: no ender, no offer-reward text
+- 31920 Grand Master Antari [Battle Pet Tamers]: giver 66557 not spawned, no offer-reward text
+- 31927 Battle Pet Tamers: Northrend [Battle Pet Tamers]: no ender, no offer-reward text
+- 31928 Grand Master Payne [Battle Pet Tamers]: giver 66675 not spawned, no offer-reward text
+- 31966 Battle Pet Tamers: Cataclysm [Battle Pet Tamers]: no ender, no offer-reward text
+- 31970 Grand Master Obalis [Battle Pet Tamers]: giver 66824 not spawned, no offer-reward text
+- 31930 Battle Pet Tamers: Pandaria [Battle Pet Tamers]: no ender, no offer-reward text
+- 31951 Grand Master Aki [Battle Pet Tamers]: no offer-reward text, no starter
+- 32603 Beasts of Fable [Battle Pet Tamers]: no offer-reward text
+- 32428 Pandaren Spirit Tamer [Battle Pet Tamers]: no offer-reward text
+- 31812 Zunta, The Pet Tamer [Battle Pet Tamers]: giver 66126 not spawned
+- 31813 Dagra the Fierce [Battle Pet Tamers]: giver 66126 not spawned, giver 66135 not spawned
+- 31814 Analynn [Battle Pet Tamers]: giver 66135 not spawned, giver 66136 not spawned
+- 31815 Zonya the Sadist [Battle Pet Tamers]: giver 66136 not spawned, giver 66137 not spawned, no offer-reward text
+- 31817 Merda Stronghoof [Battle Pet Tamers]: giver 66137 not spawned, no offer-reward text
+- 31870 Cassandra Kaboom [Battle Pet Tamers]: giver 66422 not spawned, no offer-reward text
+- 31891 Battle Pet Tamers: Kalimdor [Battle Pet Tamers]: no ender, no offer-reward text
+- 31897 Grand Master Trixxy [Battle Pet Tamers]: giver 66466 not spawned, no offer-reward text
+- 31921 Battle Pet Tamers: Outland [Battle Pet Tamers]: no ender, no offer-reward text
+- 31920 Grand Master Antari [Battle Pet Tamers]: giver 66557 not spawned, no offer-reward text
+- 31929 Battle Pet Tamers: Northrend [Battle Pet Tamers]: no ender, no offer-reward text
+- 31928 Grand Master Payne [Battle Pet Tamers]: giver 66675 not spawned, no offer-reward text
+- 31967 Battle Pet Tamers: Cataclysm [Battle Pet Tamers]: no ender, no offer-reward text
+- 31970 Grand Master Obalis [Battle Pet Tamers]: giver 66824 not spawned, no offer-reward text
+- 31952 Battle Pet Tamers: Pandaria [Battle Pet Tamers]: no ender, no offer-reward text
+- 31951 Grand Master Aki [Battle Pet Tamers]: no offer-reward text, no starter
+- 32603 Beasts of Fable [Battle Pet Tamers]: no offer-reward text
+- 32428 Pandaren Spirit Tamer [Battle Pet Tamers]: no offer-reward text
+- 45098 None [Suspicious Munitions]: MISSING quest_template
+- 45099 None [Suspicious Munitions]: MISSING quest_template
+- 45112 Signs of Madness [Suspicious Munitions]: no ender, no offer-reward text, no starter
+- 45133 None [Suspicious Munitions]: MISSING quest_template
+- 45132 None [Suspicious Munitions]: MISSING quest_template
+- 45101 None [Suspicious Munitions]: MISSING quest_template
+- 45386 None [Suspicious Munitions]: MISSING quest_template
+- 47023 Guardian: Aid of the Illidari [The Highlord's Return]: no ender, no starter
+- 47025 Blood: Aid of the Illidari [The Highlord's Return]: no ender, no offer-reward text, no starter
+- 45412 Protection: Aid of the Illidari [The Highlord's Return]: no ender, no offer-reward text, no starter
+- 47024 Brewmaster: Aid of the Illidari [The Highlord's Return]: no ender, no offer-reward text, no starter
+- 47022 Protection: Aid of the Illidari [The Highlord's Return]: no ender, no offer-reward text, no starter
+- 46314 Vengeance: Seeking Kor'vas [The Highlord's Return]: no ender, no offer-reward text, no starter
+- 45413 Gathering Information [The Highlord's Return]: no ender, no starter
+- 45414 Confirming Suspicions [The Highlord's Return]: no ender, no starter
+- 45415 Between Worlds [The Highlord's Return]: no ender, no starter
+- 45843 Dark Omens [The Highlord's Return]: no ender, no starter
+- 45863 A Gift From the Six [The Highlord's Return]: no ender, no starter
+- 45422 Edict of the God-King [Return to Karazhan]: no ender, no offer-reward text, no starter
+- 44886 Unwanted Evidence [Return to Karazhan]: no ender, no offer-reward text, no starter
+- 44887 Uncovering Orders [Return to Karazhan]: no ender, no offer-reward text, no starter
+- 44944 Aura of Uncertainty [Return to Karazhan]: no ender, no offer-reward text, no starter
+- 44556 Return to Karazhan [Return to Karazhan]: no ender, no offer-reward text, no starter
+- 44557 Finite Numbers [Return to Karazhan]: no ender, no offer-reward text, no starter
+- 44683 Holding the Lines [Return to Karazhan]: no ender, no offer-reward text, no starter
+- 44684 Corruption Runs Deep [Return to Karazhan]: no ender, no offer-reward text, no starter
+- 44685 Reclaiming the Ramparts [Return to Karazhan]: no ender, no offer-reward text, no starter
+- 44686 Thought Collection [Return to Karazhan]: no ender, no offer-reward text, no starter
+- 44764 Demon in Disguise [Return to Karazhan]: no ender, no offer-reward text, no starter
+- 44733 The Power of Corruption [Return to Karazhan]: no ender, no offer-reward text, no starter
+- 44734 Fragments of the Past [Return to Karazhan]: no ender, no offer-reward text, no starter
+- 44735 Return to Karazhan: In the Eye of the Beholder [Return to Karazhan]: no ender, no offer-reward text, no starter
+- 45560 Destruction: Rumblings Near Feltotem [The Fel Worm Menace]: no ender, no offer-reward text, no starter
+- 47020 Discipline: Rumblings Near Feltotem [The Fel Worm Menace]: no ender, no offer-reward text, no starter
+- 47019 Windwalker: Rumblings Near Feltotem [The Fel Worm Menace]: no ender, no offer-reward text, no starter
+- 47018 Beast Mastery: Rumblings Near Feltotem [The Fel Worm Menace]: no ender, no offer-reward text, no starter
+- 45564 The Burning Birds [The Fel Worm Menace]: no ender, no offer-reward text, no starter
+- 45726 The Tainted Marsh [The Fel Worm Menace]: no ender, no offer-reward text, no starter
+- 45575 Village of the Corruptors [The Fel Worm Menace]: no ender, no offer-reward text, no starter
+- 45587 The Feltotem Menace [The Fel Worm Menace]: no ender, no offer-reward text, no starter
+- 45796 Destroying the Nest [The Fel Worm Menace]: no ender, no offer-reward text, no starter
+- 45841 A Triumphant Report [The Fel Worm Menace]: no ender, no offer-reward text, no starter
+- 45842 A Gift From the Six [The Fel Worm Menace]: no ender, no offer-reward text, no starter
+- 45844 Avocation of Antonidas [Class Mount: Mage]: no ender, no offer-reward text
+- 45845 Burning Within [Class Mount: Mage]: no ender, no offer-reward text, no starter
+- 45846 Chilled to the Core [Class Mount: Mage]: no ender, no offer-reward text, no starter
+- 45847 Close to Home [Class Mount: Mage]: no ender, no offer-reward text, no starter
+- 45354 Dispersion of the Discs [Class Mount: Mage]: no ender, no offer-reward text, no starter
+- 31903 Battle Pet Tamers: Eastern Kingdoms [Battle Pet Tamers]: no ender, no offer-reward text
+- 31889 Battle Pet Tamers: Kalimdor [Battle Pet Tamers]: no ender, no offer-reward text
+- 46069 Worthy of the Title [Class Mount: Paladin]: no offer-reward text
+- 46070 Preparations Underway [Class Mount: Paladin]: no offer-reward text
+- 94847 Preparations Underway [Class Mount: Paladin]: no ender, no offer-reward text, no starter
+- 46071 The Hammer of Dalaran [Class Mount: Paladin]: no offer-reward text
+- 91618 A Few Things First [Class Mount: Paladin]: no ender, no offer-reward text, no starter
+- 46083 A Few Things First [Class Mount: Paladin]: no offer-reward text
+- 46074 Leather to Legendary [Class Mount: Paladin]: no offer-reward text
+- 45770 Stirring in the Shadows [Class Mount: Paladin]: no ender, no offer-reward text
+- 46208 A Godly Invitation [Class Mount: Warrior]: giver 119527 not spawned, no ender, no offer-reward text
+- 46207 The Trial of Rage [Class Mount: Warrior]: no ender, no offer-reward text, no starter
+- 46078 Holy: The Bradensbrook Investigation [The Black Rook Threat]: no ender, no offer-reward text, no starter
+- 47004 Restoration: The Bradensbrook Investigation [The Black Rook Threat]: no ender, no offer-reward text, no starter
+- 47006 Holy: The Bradensbrook Investigation [The Black Rook Threat]: no ender, no offer-reward text, no starter
+- 47005 Mistweaver: The Bradensbrook Investigation [The Black Rook Threat]: no ender, no offer-reward text, no starter
+- 47003 Restoration: The Bradensbrook Investigation [The Black Rook Threat]: no ender, no offer-reward text, no starter
+- 46079 Aid on the Front Lines [The Black Rook Threat]: no ender, no offer-reward text, no starter
+- 46080 Quieting the Spirits [The Black Rook Threat]: no ender, no offer-reward text, no starter
+- 46082 Shadowsong's Return [The Black Rook Threat]: no ender, no offer-reward text, no starter
+- 46106 Cutting off the Heads [The Black Rook Threat]: no ender, no offer-reward text, no starter
+- 46107 Source of the Corruption [The Black Rook Threat]: no ender, no offer-reward text, no starter
+- 46200 The Matter Resolved... For Now... [The Black Rook Threat]: no ender, no offer-reward text, no starter
+- 45864 A Gift From the Six [The Black Rook Threat]: no ender, no offer-reward text, no starter
+- 45839 Assault on Stormheim [Legion Assault - Stormheim]: no ender, no starter
+- 45406 The Storm's Fury [Legion Assault - Stormheim]: no ender, no starter
+- 46110 Battle for Stormheim [Legion Assault - Stormheim]: no ender, no starter
+- 45838 Assault on Azsuna [Legion Assault - Azsuna]: no ender, no offer-reward text, no starter
+- 45795 Presence of Power [Legion Assault - Azsuna]: no ender, no offer-reward text, no starter
+- 46205 A Conduit No More [Legion Assault - Azsuna]: no ender, no offer-reward text, no starter
+- 46199 Battle for Azsuna [Legion Assault - Azsuna]: no ender, no offer-reward text, no starter
+- 45840 Assault on Highmountain [Legion Assault - Highmountain]: no ender, no starter
+- 45572 Holding Our Ground [Legion Assault - Highmountain]: no ender, no starter
+- 46182 Battle for Highmountain [Legion Assault - Highmountain]: no ender, no starter
+- 45812 Assault on Val'sharah [Legion Assault - Val'sharah]: no ender, no starter
+- 44789 Holding the Ramparts [Legion Assault - Val'sharah]: no ender, no starter
+- 45856 Battle for Val'sharah [Legion Assault - Val'sharah]: no ender, no starter
+- 46249 Championing Our Cause [Legionfall Campaign]: no offer-reward text
+- 45482 Arcane: Fate of the Tideskorn [God-Queen Challenge]: no ender, no starter
+- 47049 Demonology: Fate of the Tideskorn [God-Queen Challenge]: no ender, no offer-reward text, no starter
+- 47050 Enhancement: Fate of the Tideskorn [God-Queen Challenge]: no ender, no offer-reward text, no starter
+- 47052 Retribution: Fate of the Tideskorn [God-Queen Challenge]: no ender, no offer-reward text, no starter
+- 47051 Assassination: Fate of the Tideskorn [God-Queen Challenge]: no ender, no offer-reward text, no starter
+- 45486 The Reluctant Queen [God-Queen Challenge]: no ender, no starter
+- 45522 To Silence the Bonespeakers [God-Queen Challenge]: no ender, no starter
+- 45523 To Tame the Drekirjar [God-Queen Challenge]: no ender, no starter
+- 45524 The Forgotten Heir [God-Queen Challenge]: no ender, no starter
+- 45525 Unanswered Questions [God-Queen Challenge]: no ender, no starter
+- 46340 The Gates Are Closed [God-Queen Challenge]: no ender, no starter
+- 45862 A Gift From the Six [God-Queen Challenge]: no ender, no starter
+- 47059 Feral: The Folly of Levia Laurence [Imp Mother Challenge]: no ender, no offer-reward text, no starter
+- 47058 Outlaw: The Folly of Levia Laurence [Imp Mother Challenge]: no ender, no offer-reward text, no starter
+- 47056 Fury: The Folly of Levia Laurence [Imp Mother Challenge]: no ender, no offer-reward text, no starter
+- 47055 Fire: The Folly of Levia Laurence [Imp Mother Challenge]: no ender, no starter
+- 47057 Unholy: The Folly of Levia Laurence [Imp Mother Challenge]: no ender, no offer-reward text, no starter
+- 45123 Elemental: The Folly of Levia Laurence [Imp Mother Challenge]: no ender, no offer-reward text, no starter
+- 46327 Bargaining with Shadows [Imp Mother Challenge]: no ender, no starter
+- 45916 The Acolyte Imperiled [Imp Mother Challenge]: no ender, no starter
+- 45125 Dabbling in the Demonic [Imp Mother Challenge]: no ender, no starter
+- 45917 Following the Scent [Imp Mother Challenge]: no ender, no starter
+- 45126 Unlikely Seduction [Imp Mother Challenge]: no ender, no starter
+- 45127 Fel-Crossed Lovers [Imp Mother Challenge]: no ender, no starter
+- 45861 A Gift From the Six [Imp Mother Challenge]: no ender, no starter
+- 47037 Balance: The Twisted Twin [Twins Challenge]: no ender, no offer-reward text, no starter
+- 47041 Affliction: The Twisted Twin [Twins Challenge]: no ender, no offer-reward text, no starter
+- 47039 Marksmanship: The Twisted Twin [Twins Challenge]: no ender, no offer-reward text, no starter
+- 45182 Frost: The Twisted Twin [Twins Challenge]: no ender, no starter
+- 47042 Shadow: The Twisted Twin [Twins Challenge]: no ender, no offer-reward text, no starter
+- 45185 Message from the Shadows [Twins Challenge]: no ender, no starter
+- 45187 Secrets in the Underbelly [Twins Challenge]: no ender, no starter
+- 45188 The Wisdom of the Council [Twins Challenge]: no ender, no starter
+- 45190 Where it's Thinnest [Twins Challenge]: no ender, no starter
+- 45192 Runes of Rending [Twins Challenge]: no ender, no starter
+- 45193 One Step Behind [Twins Challenge]: no ender, no starter
+- 45866 A Gift From the Six [Twins Challenge]: no ender, no starter
+- 47048 Subtlety: The Thieving Apprentice [Xylem Challenge]: no ender, no offer-reward text, no starter
+- 47043 Havoc: The Thieving Apprentice [Xylem Challenge]: no ender, no offer-reward text, no starter
+- 47046 Frost: The Thieving Apprentice [Xylem Challenge]: no ender, no offer-reward text, no starter
+- 47047 Survival: The Thieving Apprentice [Xylem Challenge]: no ender, no offer-reward text, no starter
+- 44914 Arms: The Thieving Apprentice [Xylem Challenge]: no ender, no offer-reward text, no starter
+- 44915 Professionally Good Looking [Xylem Challenge]: no ender, no offer-reward text, no starter
+- 44920 Order of Incantations [Xylem Challenge]: no ender, no offer-reward text, no starter
+- 44924 The Archmage Accosted [Xylem Challenge]: no ender, no offer-reward text, no starter
+- 46177 A Portal Away [Xylem Challenge]: no ender, no offer-reward text, no starter
+- 45865 A Gift From the Six [Xylem Challenge]: no ender, no offer-reward text, no starter
+- 45615 Finders Keepers [Champion: Akazamzarak]: no ender, no offer-reward text, no starter
+- 45630 Servant to No One [Champion: Akazamzarak]: no ender, no offer-reward text, no starter
+- 46722 Nothing Up My Sleeve [Champion: Akazamzarak]: no ender, no offer-reward text, no starter
+- 46723 Down the Rabbit Hole [Champion: Akazamzarak]: no ender, no offer-reward text, no starter
+- 46724 Champion: The Great Akazamzarak [Champion: Akazamzarak]: no ender, no offer-reward text, no starter
+- 46237 Bloodbringer's Missive [Class Mount: Warlock]: no offer-reward text
+- 46238 If You Build It [Class Mount: Warlock]: no ender, no offer-reward text, no starter
+- 94850 If You Build It [Class Mount: Warlock]: no ender, no offer-reward text, no starter
+- 46239 Fel to the Core [Class Mount: Warlock]: no ender, no offer-reward text, no starter
+- 46240 Give Me Fuel, Give Me Fire [Class Mount: Warlock]: no ender, no offer-reward text, no starter
+- 46241 The Minions of Hel'nurath [Class Mount: Warlock]: no ender, no offer-reward text, no starter
+- 46242 The Dreadlord's Calling [Class Mount: Warlock]: no ender, no offer-reward text, no starter
+- 46243 The Wrathsteed of Xoroth [Class Mount: Warlock]: no ender, no offer-reward text, no starter
+- 46353 Master Who? [Class Mount: Monk]: no offer-reward text
+- 46341 The Tale of Ban-Lu [Class Mount: Monk]: no ender, no offer-reward text, no starter
+- 46342 Return to the Broken Peak [Class Mount: Monk]: no ender, no offer-reward text, no starter
+- 46343 The Trail of Ban-Lu [Class Mount: Monk]: no ender, no offer-reward text, no starter
+- 46344 Smelly's Luckydo [Class Mount: Monk]: no ender, no offer-reward text, no starter
+- 46346 The Shadow of Ban-Lu [Class Mount: Monk]: no ender, no offer-reward text, no starter
+- 46347 Clean-up on Aisle Sha [Class Mount: Monk]: no ender, no offer-reward text, no starter
+- 46348 The River to Ban-Lu [Class Mount: Monk]: no ender, no offer-reward text, no starter
+- 46349 Lilies for Ryuli [Class Mount: Monk]: no ender, no offer-reward text, no starter
+- 46350 The Trial of Ban-Lu [Class Mount: Monk]: no ender, no offer-reward text, no starter
+- 46666 The Motherlode [Excavations]: no offer-reward text
+- 47103 Journey to Nazmir [Nazmir, the Dark Jungle]: no offer-reward text
+- 48535 Nazmir, the Forbidden Swamp [Nazmir, the Dark Jungle]: no offer-reward text
+- 47105 Into The Darkness [Nazmir, the Dark Jungle]: no offer-reward text
+- 47262 Ending the Blood Trolls [Nazmir, the Dark Jungle]: no offer-reward text
+- 47130 Improper Burial [Nazmir, the Dark Jungle]: no offer-reward text
+- 47264 Leave None Standing [Nazmir, the Dark Jungle]: no offer-reward text
+- 47263 A Time of Revelation [Nazmir, the Dark Jungle]: no offer-reward text
+- 47188 The Aid of the Loa [Nazmir, the Dark Jungle]: no offer-reward text
+- 40857 Bits and Pieces [Legion Archaeology]: no offer-reward text
+- 41157 Corrupted Studies [Legion Archaeology]: no offer-reward text
+- 41171 The Reliquary Calls [Legion Archaeology]: giver 103482 not spawned, no offer-reward text
+- 41172 Echoes of My Ancestors [Legion Archaeology]: giver 103482 not spawned, no offer-reward text
+- 41173 A Beacon of Hope [Legion Archaeology]: giver 103482 not spawned, no offer-reward text
+- 41188 Neltharion's Lair: Misdirected [Legion Archaeology]: no offer-reward text
+- 41174 Worth Its Weight [Legion Archaeology]: giver 103482 not spawned, no offer-reward text
+- 41175 Fit for an Elven Queen [Legion Archaeology]: giver 103482 not spawned, no offer-reward text
+- 41176 Sifting Through the Rubble [Legion Archaeology]: giver 103482 not spawned, no offer-reward text
+- 41158 Fragments of the Fjords [Legion Archaeology]: no offer-reward text, no starter
+- 41159 Process of Elimination [Legion Archaeology]: no offer-reward text, no starter
+- 41802 The Gates of Valor [Legion Archaeology]: no offer-reward text, no starter
+- 41177 Goblin Archaeology [Legion Archaeology]: giver 103482 not spawned, no offer-reward text, no starter
+- 41178 Explosive Results [Legion Archaeology]: giver 103482 not spawned, no offer-reward text, no starter
+- 41179 What Once Was Lost [Legion Archaeology]: no offer-reward text, no starter
+- 41161 Out of the Frying Pan [Legion Archaeology]: no offer-reward text, no starter
+- 41162 And Into the Fel Fire [Legion Archaeology]: no offer-reward text, no starter
+- 41163 The Apocalypse Bringer [Legion Archaeology]: no offer-reward text, no starter
+- 41180 Unspeakable Power [Legion Archaeology]: giver 103482 not spawned, no offer-reward text, no starter
+- 41181 Narrowing Down [Legion Archaeology]: giver 103482 not spawned, no offer-reward text, no starter
+- 41182 Uncovering the Orb of Sciallax [Legion Archaeology]: giver 103482 not spawned, no offer-reward text, no starter
+- 41189 A New Lead [Legion Archaeology]: no offer-reward text, no starter
+- 41190 Crystal Eyes [Legion Archaeology]: no offer-reward text, no starter
+- 41191 Drogbar Deception [Legion Archaeology]: no offer-reward text, no starter
+- 41164 One Step Closer [Legion Archaeology]: no offer-reward text
+- 41165 Deciphering Demonology [Legion Archaeology]: no offer-reward text
+- 41166 Dark Secrets [Legion Archaeology]: no offer-reward text, no starter
+- 41183 Academic Exploration [Legion Archaeology]: giver 103482 not spawned, no offer-reward text
+- 41184 Tried and True [Legion Archaeology]: giver 103482 not spawned, no offer-reward text
+- 41185 The Keys to Success [Legion Archaeology]: giver 103482 not spawned, no offer-reward text, no starter
+- 41167 Fel Fragments [Legion Archaeology]: no offer-reward text
+- 41168 The Purple Hills of Eredath [Legion Archaeology]: no offer-reward text
+- 41169 Darkheart Thicket: Through the Fog [Legion Archaeology]: no offer-reward text, no starter
+- 41192 The Right Path [Legion Archaeology]: no offer-reward text, no starter
+- 41193 Laying to Rest [Legion Archaeology]: no offer-reward text, no starter
+- 47868 The Necropolis [A Pact with Death]: no offer-reward text
+- 47880 A Tribute for Death [A Pact with Death]: no offer-reward text
+- 47247 That Which Haunts the Dead [A Pact with Death]: no offer-reward text
+- 47491 Remnants of the Damned [A Pact with Death]: no offer-reward text
+- 49348 A Desecrated Temple [A Pact with Death]: no offer-reward text
+- 49432 The Forlorn Soul [A Pact with Death]: no offer-reward text
+- 47249 Soulbound [A Pact with Death]: no offer-reward text
+- 47250 We'll Meet Again [A Pact with Death]: no offer-reward text
+- 44489 Lyana Darksorrow [Breaking the Lightbreaker]: no offer-reward text
+- 44490 Grimwing the Devourer [Breaking the Lightbreaker]: no offer-reward text
+- 41030 Sigil Reclamation [Moon Guard Stronghold]: no starter
+- 40949 Not Their Last Stand [Moon Guard Stronghold]: giver 106095 not spawned
+- 41462 Trouble Has Huge Feet [Eminent Grow-main]: no offer-reward text, no starter
+- 46773 The Command Center [Deliverance Point]: no offer-reward text
+- 46772 The Mage Tower [Deliverance Point]: no offer-reward text
+- 46774 The Nether Disruptor [Deliverance Point]: no offer-reward text
+- 47221 The Hand of Fate [To Argus!]: no offer-reward text
+- 48507 The Hand of Fate [To Argus!]: no offer-reward text
+- 47835 The Hand of Fate [To Argus!]: no offer-reward text, no starter
+- 47867 Two If By Sea [To Argus!]: no offer-reward text
+- 46272 Summons to the Keep [The King's Path]: no offer-reward text
+- 46274 Consoling the King [The King's Path]: no offer-reward text
+- 46275 A Kingdom's Heart [The King's Path]: no offer-reward text
+- 47202 A Personal Message [The King's Path]: no offer-reward text
+- 47097 A Walk to Remember [The King's Path]: no offer-reward text
+- 47112 Lost Souls [The King's Path]: no offer-reward text
+- 46282 The King's Path [The King's Path]: no offer-reward text
+- 40238 A Grim Equation [The Light Mother]: giver 101670 not spawned
+- 51680 In Bwonsamdi's Shadow [Among the People]: no offer-reward text
+- 47733 The Loa-Speaker's Betrayal [Among the People]: no offer-reward text
+- 47739 The Scent of Vengeance [Among the People]: no offer-reward text
+- 47735 Ancient Tortollan Remedies [Among the People]: no offer-reward text
+- 50235 No Safe Haven [Among the People]: no offer-reward text
+- 51677 Mending Body and Soul [Among the People]: no offer-reward text
+- 47738 The Will of the Loa [Among the People]: no offer-reward text
+- 51678 Rastakhan's Might [Among the People]: no offer-reward text
+- 51679 A Strange Port of Call [Among the People]: no offer-reward text
+- 47742 Zul's Mutiny [Among the People]: no offer-reward text
+- 47737 The Temple of Rezan [Among the People]: no offer-reward text
+- 47736 Heads Will Roll [Among the People]: no offer-reward text
+- 47740 House of the King [Among the People]: no offer-reward text
+- 47734 Partners in Heresy [Among the People]: no offer-reward text
+- 47741 To Sacrifice a Loa [Among the People]: no offer-reward text
+- 47330 Whispers of a Frightened World [Azeroth's Warning]: no ender, no starter
+- 46719 Amal'thazad's Message [Class Mount: Death Knight]: no offer-reward text, no starter
+- 46720 Frozen Memories [Class Mount: Death Knight]: no ender, no offer-reward text
+- 46812 Draconic Secrets [Class Mount: Death Knight]: no ender, no offer-reward text
+- 46813 The Lost Glacier [Class Mount: Death Knight]: no ender, no offer-reward text, no starter
+- 47543 The Day That Chromie Dies [The Deaths of Chromie]: no ender, no offer-reward text, no starter
+- 47545 Rewind [The Deaths of Chromie]: no ender, no offer-reward text, no starter
+- 47550 The Many Advantages of Being a Time Dragon [The Deaths of Chromie]: no ender, no offer-reward text, no starter
+- 47904 Preserve the True Future [The Deaths of Chromie]: no ender, no offer-reward text, no starter
+- 47906 The Deaths of Chromie [The Deaths of Chromie]: no ender, no offer-reward text, no starter
+- 47245 Getting the Message [An Explosive Delivery]: no offer-reward text
+- 47631 Rendezvous with the Libation [An Explosive Delivery]: no offer-reward text
+- 47597 No Goblin Left Behind [An Explosive Delivery]: no offer-reward text
+- 47599 Revenge: Served Hot [An Explosive Delivery]: no offer-reward text
+- 47596 There Is No Plan "B" [An Explosive Delivery]: no offer-reward text
+- 47711 Head of the Viper [An Explosive Delivery]: no offer-reward text
+- 47598 Pilfering and Fencing [An Explosive Delivery]: no offer-reward text
+- 47601 Field Evaluation [An Explosive Delivery]: no offer-reward text
+- 47602 Ready For Action [An Explosive Delivery]: no offer-reward text
+- 48002 Limited Supplies [Legion Alchemy]: no offer-reward text
+- 48013 Tracking the Trackers [Legion Alchemy]: no offer-reward text
+- 48016 Ascending Alchemy [Legion Alchemy]: no offer-reward text
+- 48055 Empyrial Strength [Legion Blacksmithing]: no offer-reward text
+- 48056 A Harsh Mistress [Legion Engineering]: no ender, no offer-reward text, no starter
+- 48065 Extraterrestrial Exploration [Legion Engineering]: no ender, no offer-reward text, no starter
+- 48069 The Wrench Calls [Legion Engineering]: no ender, no offer-reward text
+- 48053 Weigh Anchor [Legion Blacksmithing]: no ender, no offer-reward text, no starter
+- 48075 A Colorful Key [Legion Jewelcrafting]: no offer-reward text
+- 48076 A Crowning Achievement [Legion Jewelcrafting]: no offer-reward text
+- 48078 Counterbalancing [Legion Leatherworking]: no offer-reward text
+- 48054 Weigh Anchor [Legion Blacksmithing]: no ender, no offer-reward text, no starter
+- 47423 Forbidden Practices [The Zanchuli Council]: no offer-reward text
+- 47433 Offensively Defensive [The Zanchuli Council]: no offer-reward text
+- 47434 Restraining Order [The Zanchuli Council]: no offer-reward text
+- 47435 Pterrortorial Dispute [The Zanchuli Council]: no offer-reward text
+- 47437 Competitive Devotion [The Zanchuli Council]: no offer-reward text
+- 47422 Dire Situation [The Zanchuli Council]: no offer-reward text
+- 47438 Picking a Side [The Zanchuli Council]: no offer-reward text
+- 47439 Gonk, Lord of the Pack [The Zanchuli Council]: no offer-reward text
+- 47440 Pa'ku, Master of Winds [The Zanchuli Council]: no offer-reward text
+- 47432 The Bargain is Struck [The Zanchuli Council]: no offer-reward text
+- 48453 Strike Back [Petrified Forest]: no offer-reward text
+- 49122 A Port in Peril [Warport Rastari]: no offer-reward text
+- 49144 Wrath of the Zandalari [Warport Rastari]: no offer-reward text
+- 49145 No Troll Left Behind [Warport Rastari]: no offer-reward text
+- 49146 Spirits' Belongings [Warport Rastari]: no offer-reward text
+- 49147 Show of Strength [Warport Rastari]: no offer-reward text
+- 49148 Crumbling Apart [Warport Rastari]: no offer-reward text
+- 49149 Embrace the Voodoo [Warport Rastari]: no offer-reward text
+- 49309 Thunder's Fall [Warport Rastari]: no offer-reward text
+- 49310 The Prophet's Ploy [Warport Rastari]: no offer-reward text
+- 49440 Blood Troll on the Outside [The Loa of Bats]: no offer-reward text
+- 48699 Sneaking into Zalamar [The Loa of Bats]: no offer-reward text
+- 48890 How to Be a Blood Troll [The Loa of Bats]: no offer-reward text
+- 48801 Isolating Zalamar [The Loa of Bats]: no offer-reward text
+- 49078 Poisoning the Brood [The Loa of Bats]: no offer-reward text
+- 48800 Mark of the Bat [The Loa of Bats]: no offer-reward text
+- 49079 Hir'eek, the Bat Loa [The Loa of Bats]: no offer-reward text
+- 49081 To Kill a Loa [The Loa of Bats]: no offer-reward text
+- 49082 Upward and Onward [The Loa of Bats]: no offer-reward text
+- 49185 Catching Up [Go East, Old Tortollan]: no offer-reward text
+- 49064 Torga, the Turtle Loa [Go East, Old Tortollan]: no offer-reward text
+- 49067 Beseeching Bwonsamdi [Go East, Old Tortollan]: no offer-reward text
+- 49070 Souls for the Death Loa [Go East, Old Tortollan]: no offer-reward text
+- 49071 Dreadtick Combustion [Go East, Old Tortollan]: no offer-reward text
+- 49080 Cease all Summoning [Go East, Old Tortollan]: no offer-reward text
+- 49120 Speaking with the Dead [Go East, Old Tortollan]: no offer-reward text
+- 49125 Negative Blood [Go East, Old Tortollan]: no offer-reward text
+- 49126 Forcing Fate's Hand [Go East, Old Tortollan]: no offer-reward text
+- 49130 Loa-Free Diet [Go East, Old Tortollan]: no offer-reward text
+- 49131 Sanctifying Ground [Go East, Old Tortollan]: no offer-reward text
+- 49132 Crushing the Skullcrushers [Go East, Old Tortollan]: no offer-reward text
+- 49136 Jungo, Herald of G'huun [Go East, Old Tortollan]: no offer-reward text
+- 49160 Torga's Eternal Return [Go East, Old Tortollan]: no offer-reward text
+- 49902 To Gloom Hollow [Go East, Old Tortollan]: no offer-reward text
+- 47979 Witch Hunt [Fallhaven]: no ender
+- 47980 Furious Familiars [Fallhaven]: no ender
+- 48525 Break Them to Splinters [Fletcher's Hollow]: no ender, no offer-reward text, no starter
+- 49488 Tal'gurub [Of Prophecies and Prophets]: no ender, no offer-reward text, no starter
+- 49489 Needs a Little Body [Of Prophecies and Prophets]: no offer-reward text
+- 49490 The Urn of Voices [Of Prophecies and Prophets]: no offer-reward text
+- 49491 Fuel for the Voodoo [Of Prophecies and Prophets]: no offer-reward text
+- 49492 Arrogance of Vol'jamba [Of Prophecies and Prophets]: no offer-reward text
+- 49493 Zul's Ethical Dilemma [Of Prophecies and Prophets]: no offer-reward text
+- 49494 Zuvembi Brew [Of Prophecies and Prophets]: no offer-reward text
+- 51663 Preparing for the Fall [Of Prophecies and Prophets]: no offer-reward text
+- 49495 Enforcing Fate [Of Prophecies and Prophets]: no offer-reward text
+- 49905 Plot Twist [Of Prophecies and Prophets]: no offer-reward text
+- 28064 Welcome to the Brotherhood [Searing Gorge]: no starter
+- 27769 Rhea Revealed [Badlands]: giver 46655 not spawned
+- 27772 The Venerable Doctor Blam [Badlands]: giver 46655 not spawned
+- 27693 The Warden's Game [Badlands]: giver 46339 not spawned
+- 27709 The Sentinel's Game [Badlands]: giver 46398 not spawned
+- 27793 Ancient Protectors [Badlands]: no ender
+- 27912 The Titans' Trove [Badlands]: no starter
+- 27858 Rheastrasza's Gift [Badlands]: no ender
+- 27885 The Warden's Game [Badlands]: giver 46339 not spawned
+- 27886 The Sentinel's Game [Badlands]: giver 46398 not spawned, no ender
+- 27913 The Titans' Trove [Badlands]: no starter
+- 27890 The Bad Dogs [Badlands]: giver 47011 not spawned
+- 27891 Amakkar, Jack of All Trades [Badlands]: giver 47011 not spawned, giver 47021 not spawned
+- 27892 Jurrix the Striker [Badlands]: giver 47018 not spawned, giver 47024 not spawned
+- 27893 Gargal, the Behemoth [Badlands]: giver 47013 not spawned, giver 47022 not spawned
+- 27894 The Wrath of a Dragonflight [Badlands]: giver 47021 not spawned, giver 47022 not spawned, giver 47024 not spawned
+- 27898 Rheastrasza's Gift [Badlands]: no ender
+- 27930 Devastation [Badlands]: no starter
+- 28174 Burning Vengeance [Burning Steppes]: no offer-reward text
+- 28203 A Perfect Costume [Burning Steppes]: no offer-reward text
+- 28204 A Perfect Costume [Burning Steppes]: no offer-reward text
+- 28205 A Perfect Costume [Burning Steppes]: no offer-reward text
+- 28428 A Perfect Costume [Burning Steppes]: no offer-reward text
+- 28429 A Perfect Costume [Burning Steppes]: no offer-reward text
+- 28431 A Perfect Costume [Burning Steppes]: no offer-reward text
+- 28252 The Kodocaller's Horn [Burning Steppes]: no ender
+- 28435 The Kodocaller's Horn [Burning Steppes]: no ender
+- 28327 Locked and Loaded [Burning Steppes]: no starter
+- 26812 High Priestess Jeklik [The Cape of Stranglethorn]: giver 43257 not spawned
+- 26813 Plunging Into Zul'Gurub [The Cape of Stranglethorn]: giver 43257 not spawned
+- 26489 It's You!! [The Cape of Stranglethorn]: no offer-reward text
+- 26551 Eliminate the Outcast [The Cape of Stranglethorn]: no ender
+- 26553 High Priestess Jeklik [The Cape of Stranglethorn]: giver 43257 not spawned
+- 27551 The Baroness' Missive [Eastern Plaguelands]: no starter
+- 28196 The Battle for Hillsbrad [Hillsbrad Foothills]: no starter
+- 28209 Freedom for Lydon [Hillsbrad Foothills]: giver 47900 not spawned
+- 28230 Protocol [Hillsbrad Foothills]: giver 47900 not spawned, giver 48020 not spawned
+- 28235 Burnside Must Fall [Hillsbrad Foothills]: giver 48020 not spawned
+- 28237 A Blight Upon the Land [Hillsbrad Foothills]: giver 47900 not spawned, giver 48020 not spawned
+- 28345 *Gurgle* HELP! *Gurgle* [Hillsbrad Foothills]: giver 48218 not spawned
+- 28348 Stormpike Rendezvous [Hillsbrad Foothills]: giver 48218 not spawned
+- 28354 Kasha Will Fly Again [Hillsbrad Foothills]: giver 48218 not spawned
+- 28375 The Road to Purgation [Hillsbrad Foothills]: giver 48218 not spawned, giver 48470 not spawned
+- 28397 They Will Never Expect This... [Hillsbrad Foothills]: giver 48470 not spawned
+- 28400 Heroes of the Horde! [Hillsbrad Foothills]: giver 48503 not spawned
+- 28604 Deception and Trickery [Hillsbrad Foothills]: giver 49035 not spawned
+- 28605 Domination [Hillsbrad Foothills]: giver 49035 not spawned
+- 26745 Favored Skull [Northern Stranglethorn]: giver 42736 not spawned
+- 26323 Favored Skull [Northern Stranglethorn]: giver 42736 not spawned
+- 27322 Korok the Colossus [Silverpine Forest]: no starter
+- 27401 What Tomorrow Brings [Silverpine Forest]: giver 45430 not spawned
+- 49077 Moments of Reflection [Moments of Reflection]: no ender, no offer-reward text, no starter
+- 47952 The Missing Fleet [A House in Peril]: no ender, no starter
+- 50694 A Bloody Mess [A House in Peril]: no offer-reward text
+- 50593 A Bloody Mess [A House in Peril]: no starter
+- 47709 The Great Gnomeregan Run [The Great Gnomeregan Run]: no ender, no offer-reward text, no starter
+- 10395 The Dark Missive [Hellfire Peninsula]: no starter
+- 10229 Decipher the Tome [Hellfire Peninsula]: no starter
+- 10134 Crimson Crystal Clue [Hellfire Peninsula]: no starter
+- 50131 An Outside Perspective [Zangarmarsh]: no ender, no offer-reward text, no starter
+- 50130 A Friendly Gesture [Zangarmarsh]: no ender, no offer-reward text, no starter
+- 10524 Thunderlord Clan Artifacts [Blade's Edge Mountains]: no starter
+- 10797 Favor of the Gronn [Blade's Edge Mountains]: no starter
+- 10810 Damaged Mask [Blade's Edge Mountains]: no starter
+- 10719 Did You Get The Note? [Blade's Edge Mountains]: no starter
+- 9871 Murkblood Invaders [Nagrand]: no starter
+- 9861 The Howling Wind [Nagrand]: no starter
+- 10167 Auchindoun... [Nagrand]: giver 19412 not spawned
+- 10168 What the Soul Sees [Nagrand]: giver 19412 not spawned
+- 10270 A Not-So-Modest Proposal [Netherstorm]: giver 20518 not spawned
+- 10271 Getting Down to Business [Netherstorm]: giver 20518 not spawned
+- 10750 The Path of Conquest [Shadowmoon Valley]: giver 21998 not spawned
+- 10751 Breaching the Path [Shadowmoon Valley]: giver 21998 not spawned
+- 10765 When Worlds Collide... [Shadowmoon Valley]: giver 21998 not spawned
+- 10768 Tabards of the Illidari [Shadowmoon Valley]: giver 21998 not spawned
+- 10769 Dissension Amongst the Ranks... [Shadowmoon Valley]: giver 21998 not spawned
+- 10621 Illidari-Bane Shard [Shadowmoon Valley]: no starter
+- 10623 Illidari-Bane Shard [Shadowmoon Valley]: no starter
+- 11052 Akama's Promise [Shadowmoon Valley]: no starter
+- 10872 Zuluhed the Whacked [Shadowmoon Valley]: no starter
+- 10871 Ally of the Netherwing [Shadowmoon Valley]: no starter
+- 14135 Up a Tree [Azshara]: giver 35149 not spawned
+- 14146 Defend the Gates! [Azshara]: giver 35177 not spawned
+- 24436 Halo Drops [Azshara]: giver 36921 not spawned
+- 24448 Field Promotion [Azshara]: giver 36745 not spawned
+- 14487 Still Beating Heart [Azshara]: giver 36745 not spawned
+- 24449 Shore Leave [Azshara]: giver 36745 not spawned
+- 14389 Wasn't It Obvious? [Azshara]: giver 36436 not spawned
+- 14390 Easy is Boring [Azshara]: giver 36436 not spawned
+- 14391 Turning the Tables [Azshara]: giver 36436 not spawned
+- 24430 Blacken the Skies [Azshara]: no offer-reward text
+- 24439 The Conquest of Azshara [Azshara]: no offer-reward text
+- 9751 The Bloodcurse Legacy [Bloodmyst Isle]: no starter
+- 28229 Nature and Nurture [Felwood]: giver 48032 not spawned
+- 28219 Buzzers for Baby [Felwood]: giver 48032 not spawned
+- 28220 Seeking Soil [Felwood]: giver 48032 not spawned
+- 28221 These Roots Were Made For Stompin' [Felwood]: giver 48042 not spawned
+- 28222 Singin' in the Sun [Felwood]: giver 48032 not spawned, giver 48042 not spawned
+- 28224 The Last Protector [Felwood]: giver 48042 not spawned, giver 48044 not spawned
+- 28228 Rejoining the Forest [Felwood]: giver 48044 not spawned, giver 48241 not spawned
+- 28471 The Final Piece [Winterspring]: no starter
+- 28479 The Ruins of Kel'Theril [Winterspring]: giver 48658 not spawned
+- 28513 Pride of the Highborne [Winterspring]: giver 48658 not spawned
+- 28534 Descendants of the Highborne [Winterspring]: giver 48658 not spawned, giver 48659 not spawned
+- 28518 Legacy of the High Elves [Winterspring]: giver 48659 not spawned
+- 28535 Descendants of the High Elves [Winterspring]: giver 48659 not spawned, giver 48660 not spawned
+- 28519 Pain of the Blood Elves [Winterspring]: giver 48660 not spawned
+- 28536 The Curse of Zin-Malor [Winterspring]: giver 48660 not spawned
+- 28638 The Owls Have It [Winterspring]: giver 49336 not spawned
+- 28745 Screechy Keen [Winterspring]: giver 49336 not spawned
+- 24694 The Shaper's Terrace [Un'Goro Crater]: giver 38504 not spawned
+- 13919 A Trip to the Moonwell [Ashenvale, Alliance]: no ender
+- 14018 He Who Would Be Forgiven [Ashenvale, Alliance]: no offer-reward text, no starter
+- 13924 All's Well [Ashenvale, Alliance]: giver 34358 not spawned
+- 13868 Corrupting Influence? [Ashenvale, Alliance]: no starter
+- 13808 Mission Improbable [Ashenvale, Horde]: giver 33889 not spawned
+- 13815 Making Stumps [Ashenvale, Horde]: giver 33889 not spawned
+- 13865 Wet Work [Ashenvale, Horde]: giver 33889 not spawned
+- 13870 As Good as it Gets [Ashenvale, Horde]: giver 33889 not spawned
+- 13879 Thunder Peak [Ashenvale, Horde]: giver 34512 not spawned
+- 13888 Vortex [Ashenvale, Horde]: giver 34512 not spawned
+- 25647 Illegible Orc Letter [Stonetalon Mountains, Alliance]: no starter
+- 25945 We're Here to Do One Thing, Maybe Two... [Stonetalon Mountains, Horde]: no offer-reward text
+- 25999 Barrier to Entry [Stonetalon Mountains, Horde]: no offer-reward text
+- 26001 The Missing Blastgineer [Stonetalon Mountains, Horde]: no offer-reward text
+- 26002 Alliance Attack Plans [Stonetalon Mountains, Horde]: no offer-reward text
+- 26004 Krom'gar Fortress [Stonetalon Mountains, Horde]: no offer-reward text
+- 26010 Ashes to Ashes [Stonetalon Mountains, Horde]: no offer-reward text
+- 26020 Report to Bombgutz [Stonetalon Mountains, Horde]: no offer-reward text
+- 26044 Where Are the Parts? [Stonetalon Mountains, Horde]: no offer-reward text
+- 26045 I Got Your Parts Right Here... [Stonetalon Mountains, Horde]: no offer-reward text
+- 26046 Between a Rock and a Hard Place [Stonetalon Mountains, Horde]: no offer-reward text
+- 26047 And That's Why They Call Them Peons... [Stonetalon Mountains, Horde]: no offer-reward text
+- 26048 Spare Parts Up In Here! [Stonetalon Mountains, Horde]: no offer-reward text
+- 26058 In Defense of Krom'gar Fortress [Stonetalon Mountains, Horde]: no offer-reward text
+- 26059 Eyes and Ears: Malaka'jin [Stonetalon Mountains, Horde]: no offer-reward text
+- 26060 Da Voodoo: Stormer Heart [Stonetalon Mountains, Horde]: no offer-reward text
+- 26061 Da Voodoo: Ram Horns [Stonetalon Mountains, Horde]: no offer-reward text
+- 26062 Da Voodoo: Resonite Crystal [Stonetalon Mountains, Horde]: no offer-reward text
+- 26066 Reinforcements... [Stonetalon Mountains, Horde]: no offer-reward text
+- 26067 Jin'Zil's Blessing [Stonetalon Mountains, Horde]: no offer-reward text
+- 26068 Kobold Fury! [Stonetalon Mountains, Horde]: no offer-reward text
+- 24504 Clear the High Road [Southern Barrens]: giver 37135 not spawned, giver 37137 not spawned
+- 25284 Feeding the Fear [Southern Barrens]: giver 37153 not spawned
+- 24512 Warriors' Redemption [Southern Barrens]: giver 37153 not spawned
+- 24505 Holdout at Hunter's Hill [Southern Barrens]: giver 37137 not spawned
+- 24518 The Low Road [Southern Barrens]: no starter
+- 24606 Blood of the Barrens [Southern Barrens]: no starter
+- 25153 Bael'dun Rescue [Southern Barrens]: giver 39218 not spawned
+- 25163 Who Did This? [Southern Barrens]: giver 39220 not spawned
+- 14384 Rerouted! [Desolace]: giver 36410 not spawned
+- 14232 Ears Are Burning [Desolace]: no starter
+- 14198 Rider on the Storm [Desolace]: giver 35506 not spawned, giver 35510 not spawned
+- 14318 Delicate Negotiations [Desolace]: giver 36163 not spawned
+- 14325 Will Work For Food [Desolace]: giver 36163 not spawned
+- 14327 My Word is My Bond [Desolace]: giver 36163 not spawned
+- 14330 Behind Closed Doors [Desolace]: no starter
+- 25532 Pirate Accuracy Increasing [Thousand Needles]: no ender
+- 25533 Pirate Accuracy Increasing [Thousand Needles]: no ender
+- 25542 Circle the Wagons... er, Boats [Thousand Needles]: giver 40707 not spawned
+- 25543 Circle the Wagons... er, Boats [Thousand Needles]: giver 40707 not spawned
+- 25561 Circle the Wagons... er, Boats [Thousand Needles]: no offer-reward text
+- 25562 Circle the Wagons... er, Boats [Thousand Needles]: no offer-reward text
+- 25588 A Little Payback [Thousand Needles]: giver 40591 not spawned
+- 25589 A Little Payback [Thousand Needles]: giver 40595 not spawned
+- 25660 Haunted [Thousand Needles]: giver 41058 not spawned
+- 27276 Together Again [Thousand Needles]: giver 45278 not spawned
+- 27311 No Weapons For You! [Thousand Needles]: giver 45278 not spawned, giver 53603 not spawned
+- 27313 Darkcloud Grimtotem [Thousand Needles]: giver 45278 not spawned, giver 53603 not spawned
+- 27315 Grimtotem Chiefs: Isha Gloomaxe [Thousand Needles]: giver 45278 not spawned
+- 27317 The Rattle of Bones [Thousand Needles]: giver 45278 not spawned
+- 27319 Grimtotem Chiefs: Elder Stormhoof [Thousand Needles]: giver 45278 not spawned
+- 27321 The Writ of History [Thousand Needles]: giver 45278 not spawned
+- 27324 Grimtotem Chiefs: Grundig Darkcloud [Thousand Needles]: giver 45278 not spawned
+- 27326 The Drums of War [Thousand Needles]: giver 45278 not spawned
+- 27328 Grimtotem Chiefs: The Chief of Chiefs [Thousand Needles]: giver 45278 not spawned
+- 27358 The Captive Bride [Thousand Needles]: giver 45278 not spawned
+- 28140 The Elder Crone [Thousand Needles]: no ender
+- 28143 To the Withering [Thousand Needles]: no offer-reward text, no starter
+- 47525 Staying Hidden [The Lord of Frogs]: no offer-reward text
+- 47659 Hunt the Hunter [The Lord of Frogs]: no offer-reward text
+- 47660 Fallen Idols [The Lord of Frogs]: no offer-reward text
+- 52294 Fallen Idols [The Lord of Frogs]: no offer-reward text
+- 47623 The Last Witch Doctor of Krag'wa [The Lord of Frogs]: no offer-reward text
+- 47621 A True Loa Feast [The Lord of Frogs]: no offer-reward text
+- 47622 A Magical Glow [The Lord of Frogs]: no offer-reward text
+- 47540 Totemic Restoration [The Lord of Frogs]: no offer-reward text
+- 47696 Krag'wa the Terrible [The Lord of Frogs]: no offer-reward text
+- 47697 Krag'wa's Aid [The Lord of Frogs]: no offer-reward text
+- 49932 Slumber No More [Titanic Revelations]: no offer-reward text
+- 49935 How to Repair a Titan Keeper [Titanic Revelations]: no offer-reward text
+- 49937 Recovering Remnants [Titanic Revelations]: no offer-reward text
+- 49938 Corrupted Earth [Titanic Revelations]: no offer-reward text
+- 49941 Bone Procession [Titanic Revelations]: no offer-reward text
+- 49949 Unwelcome Undead [Titanic Revelations]: no offer-reward text
+- 49950 Blood Purification [Titanic Revelations]: no offer-reward text
+- 49955 Not Fit for This Plane [Titanic Revelations]: no offer-reward text
+- 49956 Void is Prohibited [Titanic Revelations]: no offer-reward text
+- 49957 Protocol Recovery [Titanic Revelations]: no offer-reward text
+- 49980 Containment Procedure [Titanic Revelations]: no offer-reward text
+- 49985 Return to Gloom Hollow [Titanic Revelations]: no offer-reward text
+- 49569 Down by the Riverside [Bleeding the Blood Trolls]: no offer-reward text
+- 50076 Rally the Warriors [Bleeding the Blood Trolls]: no offer-reward text
+- 50138 The Battle of Bloodfire Ravine [Bleeding the Blood Trolls]: no offer-reward text
+- 50078 Undying Totems [Bleeding the Blood Trolls]: no offer-reward text
+- 50079 Boom goes the Bomb [Bleeding the Blood Trolls]: no offer-reward text
+- 50081 The Road of Pain [Bleeding the Blood Trolls]: no offer-reward text
+- 50082 Target of Opportunity [Bleeding the Blood Trolls]: no offer-reward text
+- 52073 Petitioning Krag'wa [Bleeding the Blood Trolls]: no offer-reward text
+- 50087 Ateena's Fall [Bleeding the Blood Trolls]: no offer-reward text
+- 25422 The Darkmist Legacy [Feralas]: giver 40131 not spawned
+- 25423 Ancient Suffering [Feralas]: giver 40131 not spawned
+- 25368 Verinias the Twisted [Feralas]: giver 40131 not spawned
+- 27235 Renn McGill [Dustwallow Marsh]: giver 23569 not spawned
+- 27236 Secondhand Diving Gear [Dustwallow Marsh]: giver 23569 not spawned
+- 27237 Recover the Cargo! [Dustwallow Marsh]: giver 23569 not spawned
+- 27238 Jaina Must Know [Dustwallow Marsh]: giver 23569 not spawned
+- 27251 They Call Him Smiling Jim [Dustwallow Marsh]: no offer-reward text
+- 49421 Hunting Zul [March of the Loa]: no offer-reward text
+- 49965 The Warpack [March of the Loa]: no offer-reward text
+- 49422 Heretics [March of the Loa]: no offer-reward text
+- 49424 The Full Prophecy [March of the Loa]: giver 132041 not spawned, no offer-reward text
+- 49425 City of Gold [March of the Loa]: no offer-reward text
+- 49426 The King's Gambit [March of the Loa]: no offer-reward text
+- 11248 Operation: Skornful Wrath [Howling Fjord]: giver 24060 not spawned
+- 11246 Gruesome, But Necessary [Howling Fjord]: giver 24060 not spawned
+- 11247 Burn Skorn, Burn! [Howling Fjord]: giver 24060 not spawned
+- 11245 Towers of Certain Doom [Howling Fjord]: giver 24060 not spawned
+- 11250 All Hail the Conqueror of Skorn! [Howling Fjord]: giver 24060 not spawned
+- 11452 The Slumbering King [Howling Fjord]: no starter
+- 11256 Skorn Must Fall! [Howling Fjord]: giver 24130 not spawned
+- 11257 Gruesome, But Necessary [Howling Fjord]: giver 24130 not spawned
+- 11258 Burn Skorn, Burn! [Howling Fjord]: giver 24130 not spawned
+- 11259 Towers of Certain Doom [Howling Fjord]: giver 24130 not spawned
+- 11261 The Conqueror of Skorn! [Howling Fjord]: giver 24130 not spawned
+- 11237 Gjalerbron Attack Plans [Howling Fjord]: no starter
+- 12059 A Strange Device [Dragonblight]: no starter
+- 12057 The Flesh-Bound Tome [Dragonblight]: no starter
+- 12271 The Rod of Compulsion [Dragonblight]: no starter
+- 11597 The Defense of Warsong Hold [Borean Tundra]: no offer-reward text
+- 11941 Puzzling... [Borean Tundra]: no starter
+- 49973 Thalyssra's Estate [Allies of the Horde: Nightborne]: no starter
+- 49613 Silvermoon City [Allies of the Horde: Nightborne]: no starter
+- 49354 Remember the Sunwell [Allies of the Horde: Nightborne]: no starter
+- 49614 The Nightborne [Allies of the Horde: Nightborne]: no starter
+- 48962 Telogrus Rift [Allies of the Alliance: Void Elf]: no ender, no starter
+- 49698 The Lightforged [Allies of the Alliance: Lightforged Draenei]: no ender
+- 49266 Forge of Aeons [Allies of the Alliance: Lightforged Draenei]: no ender, no starter
+- 50071 For the Light! [Allies of the Alliance: Lightforged Draenei]: no ender, no starter
+- 12530 Tormenting the Softknuckles [Sholazar Basin]: giver 28214 not spawned
+- 12572 Gods like Shiny Things [Sholazar Basin]: giver 28120 not spawned
+- 12578 The Angry Gorloc [Sholazar Basin]: giver 28122 not spawned
+- 12579 Lifeblood of the Mosswalker Shrine [Sholazar Basin]: giver 28122 not spawned
+- 12580 The Mosswalker Savior [Sholazar Basin]: giver 28122 not spawned
+- 12581 A Hero's Burden [Sholazar Basin]: giver 28122 not spawned
+- 12979 Armor of Darkness [The Storm Peaks]: no starter
+- 12922 The Refiner's Fire [The Storm Peaks]: no starter
+- 12631 An Invitation, of Sorts... [Zul'Drak]: no starter
+- 12633 Darkness Calling [Zul'Drak]: no starter
+- 12954 The Amphitheater of Anguish: Yggdras! [Zul'Drak]: no starter
+- 12105 Descent into Darkness [Grizzly Hills]: no starter
+- 12423 Mikhail's Journal [Grizzly Hills]: no starter
+- 13043 The Sum is Greater than the Parts [Icecrown]: no starter
+- 13136 Jagged Shards [Icecrown]: no starter
+- 25941 Rest For the Weary [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 41711 not spawned
+- 25942 Buy Us Some Time [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 41711 not spawned
+- 25943 Traveling on Our Stomachs [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 41711 not spawned
+- 25944 Girding Our Loins [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 41711 not spawned
+- 25946 Helm's Deep [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 41711 not spawned
+- 25947 Finders, Keepers [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 41711 not spawned
+- 25948 Bring It On! [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 41711 not spawned, giver 41750 not spawned, giver 41769 not spawned
+- 25949 Blood and Thunder! [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 41750 not spawned, giver 41769 not spawned, giver 41793 not spawned
+- 25477 Better Late Than Dead [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 41248 not spawned
+- 25371 The Abyssal Ride [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 41248 not spawned
+- 25812 Spelunking [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 41324 not spawned
+- 26000 Spelunking [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 41863 not spawned
+- 25884 Come Hell or High Water [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 41344 not spawned
+- 25885 What? What? In My Gut...? [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 41324 not spawned, giver 41340 not spawned
+- 26040 What? What? In My Gut...? [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 41863 not spawned, giver 41885 not spawned
+- 25888 Decompression [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 41347 not spawned
+- 26008 Decompression [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 41347 not spawned
+- 27708 The Warden's Time [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 41344 not spawned
+- 25334 The Looming Threat [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40398 not spawned
+- 25918 Hopelessly Gearless [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 41541 not spawned
+- 25921 Overseer Idra'kess [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 15104 not spawned
+- 25579 Caught Off-Guard [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40643 not spawned
+- 25581 An Occupation of Time [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40644 not spawned
+- 25582 A Better Vantage [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40643 not spawned
+- 25583 Upon the Scene of Battle [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40643 not spawned
+- 25989 Capture the Crab [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 15104 not spawned
+- 25991 We Are Not Alone [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 41810 not spawned
+- 25992 Hopelessly Gearless [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 41811 not spawned
+- 25993 Body Blows [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 41810 not spawned
+- 25994 Still Valuable [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 41813 not spawned
+- 25995 Overseer Idra'kess [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 41810 not spawned
+- 25996 Waking the Beast [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40917 not spawned
+- 25593 Shelled Salvation [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40916 not spawned
+- 25595 Something Edible [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40919 not spawned
+- 25952 Caught Off-Guard [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40916 not spawned
+- 25953 Swift Approach [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40917 not spawned
+- 25954 An Occupation of Time [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40920 not spawned
+- 25955 A Better Vantage [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40916 not spawned
+- 25956 Upon the Scene of Battle [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40916 not spawned
+- 25957 Visions of the Past: The Invasion of Vashj'ir [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40919 not spawned
+- 25619 Reoccupation [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40978 not spawned
+- 25620 The Revered Lady [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40978 not spawned
+- 25747 Looking Forward [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40643 not spawned
+- 25748 Clear Goals [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40643 not spawned
+- 25752 Swift Action [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40643 not spawned
+- 25754 Gauging Success [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40643 not spawned
+- 25958 Looking Forward [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40916 not spawned, giver 40919 not spawned
+- 25959 Clear Goals [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40916 not spawned
+- 25960 Not Entirely Unprepared [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40917 not spawned
+- 25963 Swift Action [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40916 not spawned
+- 25964 Fallen But Not Forgotten [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40917 not spawned
+- 25965 Gauging Success [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40916 not spawned
+- 25966 Visions of the Past: The Slaughter of Biel'aran Ridge [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40919 not spawned
+- 25858 By Her Lady's Word [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 42074 not spawned
+- 25859 No Trespass Forgiven [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 42074 not spawned
+- 25967 Losing Ground [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40917 not spawned, giver 40919 not spawned
+- 25968 Desperate Plan [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40917 not spawned
+- 25973 Welcome News [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40917 not spawned
+- 26135 Visions of the Past: Rise from the Deep [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40919 not spawned
+- 25860 At All Costs [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 41456 not spawned
+- 25896 Devout Assembly [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 41456 not spawned
+- 25951 Final Judgment [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 41456 not spawned
+- 26006 A Breath of Fresh Air [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 40919 not spawned, giver 42410 not spawned
+- 26221 Full Circle [Vashj'ir, Kelp'thar Forest & Shimmering Expanse]: giver 42410 not spawned
+- 26019 Enormous Eel Egg [Vashj'ir, Abyssal Depths]: no starter
+- 26072 Into the Totem [Vashj'ir, Abyssal Depths]: giver 32768 not spawned
+- 26096 Scalding Shrooms [Vashj'ir, Abyssal Depths]: giver 41639 not spawned
+- 26133 Fiends from the Netherworld [Vashj'ir, Abyssal Depths]: giver 41636 not spawned
+- 26144 Prisoners [Vashj'ir, Abyssal Depths]: no ender, no starter
+- 26149 Prisoners [Vashj'ir, Abyssal Depths]: no ender, no starter
+- 26154 Twilight Extermination [Vashj'ir, Abyssal Depths]: no ender
+- 26194 Defending the Rift [Vashj'ir, Abyssal Depths]: giver 44540 not spawned
+- 25273 Lycanthoth the Corruptor [Mount Hyjal]: giver 39622 not spawned, giver 39627 not spawned
+- 25272 Lycanthoth the Corruptor [Mount Hyjal]: giver 39622 not spawned
+- 25353 Lightning in a Bottle [Mount Hyjal]: giver 39622 not spawned, giver 39627 not spawned
+- 25355 Lightning in a Bottle [Mount Hyjal]: giver 39622 not spawned
+- 25328 Gar'gol's Gotta Go [Mount Hyjal]: giver 39640 not spawned
+- 25332 Get Me Outta Here! [Mount Hyjal]: giver 39640 not spawned
+- 25411 A New Master [Mount Hyjal]: giver 40093 not spawned
+- 25412 The Name Never Spoken [Mount Hyjal]: giver 40093 not spawned
+- 25443 The Name Never Spoken [Mount Hyjal]: no offer-reward text, no starter
+- 25663 An Offering for Aviana [Mount Hyjal]: giver 41068 not spawned
+- 25830 The Last Living Lorekeeper [Mount Hyjal]: giver 46987 not spawned, giver 46998 not spawned, giver 47002 not spawned
+- 27932 The Axe of Earthly Sundering [Deepholm, War & Gunships]: giver 23296 not spawned
+- 27933 Elemental Ore [Deepholm, War & Gunships]: giver 23296 not spawned
+- 27936 Bring Down the Avalanche [Deepholm, War & Gunships]: no offer-reward text
+- 26500 We're Surrounded [Deepholm, War & Gunships]: giver 38912 not spawned
+- 26861 Block the Gates [Deepholm, War & Gunships]: giver 48640 not spawned
+- 26439 Putting the Pieces Together [Deepholm, The Stone Throne]: giver 20480 not spawned
+- 27707 Neferset Prison [Uldum]: giver 46425 not spawned
+- 27760 Artificial Intelligence [Uldum]: no starter
+- 28602 Be Prepared [Uldum]: no offer-reward text
+- 27939 The Desert Fox [Uldum]: giver 47159 not spawned
+- 27942 Idolatry [Uldum]: giver 47159 not spawned
+- 27943 Angered Spirits [Uldum]: giver 47159 not spawned
+- 27950 Gobbles! [Uldum]: giver 47159 not spawned
+- 27969 Make Yourself Useful [Uldum]: giver 47159 not spawned
+- 27990 Battlezone [Uldum]: giver 47159 not spawned, giver 47940 not spawned
+- 28187 Missed Me By Zhat Much! [Uldum]: giver 47940 not spawned, giver 47972 not spawned
+- 28193 Lockdown! [Uldum]: giver 47972 not spawned
+- 28195 Sending a Message [Uldum]: giver 47972 not spawned
+- 28267 Firing Squad [Uldum]: giver 47972 not spawned
+- 27861 The Crucible of Carnage: The Bloodeye Bruiser! [Twilight Highlands]: no offer-reward text, no starter
+- 27862 The Crucible of Carnage: The Bloodeye Bruiser! [Twilight Highlands]: no offer-reward text, no starter
+- 27864 The Crucible of Carnage: The Deadly Dragonmaw! [Twilight Highlands]: no offer-reward text
+- 28107 Paving the Way [Twilight Highlands]: giver 47611 not spawned
+- 28108 If The Key Fits [Twilight Highlands]: giver 47611 not spawned
+- 28109 Pressing Forward [Twilight Highlands]: giver 47611 not spawned
+- 27495 Move the Mountain [Twilight Highlands]: no ender
+- 27498 Signal the Attack [Twilight Highlands]: no ender, no starter
+- 27499 Signal the Attack [Twilight Highlands]: no ender, no starter
+- 27588 Signal the Attack [Twilight Highlands]: no offer-reward text
+- 27590 Signal the Attack [Twilight Highlands]: no ender, no offer-reward text
+- 27500 Four Heads are Better than None [Twilight Highlands]: no starter
+- 27501 Four Heads are Better than None [Twilight Highlands]: no starter
+- 27608 Four Heads are Better than None [Twilight Highlands]: no offer-reward text
+- 27609 Four Heads are Better than None [Twilight Highlands]: no offer-reward text
+- 27502 Up to the Citadel [Twilight Highlands]: no ender
+- 27503 Up to the Citadel [Twilight Highlands]: no ender
+- 27636 Just You and Mathias [Twilight Highlands]: no starter
+- 27637 Just You and Mathias [Twilight Highlands]: no offer-reward text, no starter
+- 27639 Just You and Garona [Twilight Highlands]: no offer-reward text, no starter
+- 31773 Prowler Problems [The Jade Forest, The Remains of Hellscream's Fist]: giver 66838 not spawned, giver 66841 not spawned, giver 66853 not spawned
+- 29646 Flying Colors [The Jade Forest, Dawn's Blossom & Tian Monastery & Nectarbreeze Village]: no offer-reward text
+- 29647 Flying Colors [The Jade Forest, Dawn's Blossom & Tian Monastery & Nectarbreeze Village]: no offer-reward text
+- 29747 Break the Cycle [The Jade Forest, Greenstone Quarry & Terrace of Ten Thunders & The Jade Serpent]: no ender
+- 29748 Simulacrumble [The Jade Forest, Greenstone Quarry & Terrace of Ten Thunders & The Jade Serpent]: no ender
+- 29754 To Bridge Earth and Sky [The Jade Forest, Greenstone Quarry & Terrace of Ten Thunders & The Jade Serpent]: no ender
+- 30484 Gauging Our Progress [The Jade Forest, Greenstone Quarry & Terrace of Ten Thunders & The Jade Serpent]: no offer-reward text
+- 30485 Last Piece of the Puzzle [The Jade Forest, Greenstone Quarry & Terrace of Ten Thunders & The Jade Serpent]: no offer-reward text
+- 30504 Emergency Response [The Jade Forest, Greenstone Quarry & Terrace of Ten Thunders & The Jade Serpent]: no offer-reward text
+- 30053 Hop Hunting [Valley of the Four Winds, Chen's Masterpiece]: no ender
+- 30274 The Arcanic Oubliette [Krasarang Wilds]: no starter
+- 30179 Poisoned! [Krasarang Wilds]: no offer-reward text
+- 30123 Skitterer Stew [Krasarang Wilds]: no offer-reward text
+- 30124 Blind Them! [Krasarang Wilds]: no offer-reward text
+- 30127 Threat from Dojan [Krasarang Wilds]: no offer-reward text
+- 30130 Herbal Remedies [Krasarang Wilds]: no offer-reward text
+- 30129 The Mogu Agenda [Krasarang Wilds]: no offer-reward text
+- 30128 The Pools of Youth [Krasarang Wilds]: no offer-reward text
+- 30131 Life [Krasarang Wilds]: no offer-reward text
+- 30133 Into the Wilds [Krasarang Wilds]: no offer-reward text
+- 30461 Into the Wilds [Krasarang Wilds]: no offer-reward text
+- 30462 Into the Wilds [Krasarang Wilds]: no offer-reward text
+- 30674 Balance Without Violence [Krasarang Wilds]: no ender, no starter
+- 30675 Buried Hozen Treasure [Krasarang Wilds]: no ender, no starter
+- 30465 Going on the Offensive [Krasarang Wilds]: no offer-reward text
+- 30132 Going West [Krasarang Wilds]: no offer-reward text
+- 30464 Going West [Krasarang Wilds]: no offer-reward text
+- 30163 For the Tribe [Krasarang Wilds]: no offer-reward text
+- 30229 The Greater Danger [Krasarang Wilds]: no offer-reward text
+- 30230 Re-Reclaim [Krasarang Wilds]: no offer-reward text
+- 30164 The Stoneplow Convoy [Krasarang Wilds]: no offer-reward text
+- 30174 For Family [Krasarang Wilds]: no offer-reward text
+- 30507 Admiral Taylor has Awakened [Kun-Lai Summit]: no offer-reward text
+- 30570 Trouble on the Farmstead [Kun-Lai Summit]: no offer-reward text
+- 30594 Deanimate the Reanimated [Kun-Lai Summit]: no offer-reward text
+- 30620 Mogu?! Oh No-gu! [Kun-Lai Summit]: no offer-reward text
+- 30652 In Tents Channeling [Kun-Lai Summit]: no ender
+- 30662 The Ordo Warbringer [Kun-Lai Summit]: no offer-reward text
+- 30655 Pandaren Prisoners [Kun-Lai Summit]: no offer-reward text
+- 30656 Barrels of Fun [Kun-Lai Summit]: no offer-reward text
+- 30657 In Tents Channeling [Kun-Lai Summit]: no ender, no offer-reward text
+- 30663 The Ordo Warbringer [Kun-Lai Summit]: no offer-reward text, no starter
+- 30587 Yakity Yak [Kun-Lai Summit]: no starter
+- 31306 Seeker's Folly [Kun-Lai Summit]: no offer-reward text
+- 31395 A Celestial Experience [Kun-Lai Summit]: no offer-reward text
+- 30692 The Burlap Trail: To Kota Basecamp [Kun-Lai Summit]: giver 59755 not spawned
+- 41764 Walking in Their Footsteps [Allies of the Horde: Highmountain]: no ender, no offer-reward text, no starter
+- 41799 Minions of the Darkness [Allies of the Horde: Highmountain]: no ender, no offer-reward text, no starter
+- 41800 Servants of the Darkness [Allies of the Horde: Highmountain]: giver 105085 not spawned, no offer-reward text
+- 41815 Curse of the Necrodark [Allies of the Horde: Highmountain]: no offer-reward text, no starter
+- 41840 Ice and Shadow [Allies of the Horde: Highmountain]: no offer-reward text, no starter
+- 41841 The Final Ward [Allies of the Horde: Highmountain]: no offer-reward text, no starter
+- 41882 Whispers of the Darkness [Allies of the Horde: Highmountain]: no ender, no offer-reward text, no starter
+- 41884 Dark Tales [Allies of the Horde: Highmountain]: giver 105085 not spawned, no offer-reward text, no starter
+- 48066 A Feast for Our Kin [Allies of the Horde: Highmountain]: no starter
+- 48067 Shadow Over Thunder Bluff [Allies of the Horde: Highmountain]: no starter
+- 48079 Return to Highmountain [Allies of the Horde: Highmountain]: no starter
+- 48185 Shadow of the Sepulcher [Allies of the Horde: Highmountain]: no ender, no offer-reward text, no starter
+- 48190 Huln's Mountain [Allies of the Horde: Highmountain]: no ender, no offer-reward text, no starter
+- 48403 The Darkness [Allies of the Horde: Highmountain]: no ender, no offer-reward text, no starter
+- 48433 Together We Are the Horde! [Allies of the Horde: Highmountain]: no ender, no offer-reward text, no starter
+- 48434 How Fares Ebonhorn? [Allies of the Horde: Highmountain]: giver 105085 not spawned, no ender, no offer-reward text
+- 48435 The Spiritwalkers [Allies of the Horde: Highmountain]: no ender, no offer-reward text, no starter
+- 49756 Dark Forces [Allies of the Horde: Highmountain]: no starter
+- 31009 Dead Zone [Dread Wastes]: no ender
+- 31087 Extending Our Coverage [Dread Wastes]: giver 65542 not spawned, giver 65543 not spawned
+- 31679 Extending Our Coverage [Dread Wastes]: giver 65542 not spawned, giver 65543 not spawned, no offer-reward text, no starter
+- 31680 Crime and Punishment [Dread Wastes]: giver 65543 not spawned, giver 65975 not spawned, no offer-reward text
+- 31681 Better With Age [Dread Wastes]: giver 65543 not spawned, giver 65975 not spawned, no offer-reward text
+- 31682 By the Sea, Nevermore [Dread Wastes]: giver 65975 not spawned, no offer-reward text
+- 31076 Fate of the Stormstouts [Dread Wastes]: no offer-reward text
+- 773 Rite of Wisdom [Mulgore]: no starter
+- 26398 Walk With The Earth Mother [Mulgore]: no offer-reward text, no starter
+- 25030 The Haunted Mills [Tirisfal Glades]: no offer-reward text
+- 8482 Incriminating Documents [Eversong Woods]: no starter
+- 8887 Captain Kelisendra's Lost Rutters [Eversong Woods]: no starter
+- 9360 Amani Invasion [Eversong Woods]: no starter
+- 25267 Message for Saurfang [The Lost Isles]: giver 86884 not spawned
+- 123 The Collector [Elwynn Forest]: no starter
+- 49930 The Call for Allies [Allies of the Horde]: no offer-reward text, no starter
+- 50242 A Choice of Allies [Allies of the Horde]: no ender, no offer-reward text, no starter
+- 14094 Salvage the Supplies [Gilneas]: giver 30720 not spawned
+- 14275 Someone's Keeping Track of You [Gilneas]: no offer-reward text
+- 14278 Seek the Sister [Gilneas]: no offer-reward text
+- 14273 Shady Associates [Gilneas]: no offer-reward text
+- 14290 Safety in Numbers [Gilneas]: no offer-reward text
+- 14289 Safety in Numbers [Gilneas]: no offer-reward text
+- 14287 Safety in Numbers [Gilneas]: no offer-reward text
+- 24616 Losing Your Tail [Gilneas]: giver 48640 not spawned
+- 24679 Patriarch's Blessing [Gilneas]: giver 38147 not spawned
+- 24680 Keel Harbor [Gilneas]: giver 38147 not spawned
+- 29678 Shu, the Spirit of Water [The Wandering Isle]: no offer-reward text
+- 29679 A New Friend [The Wandering Isle]: no offer-reward text
+- 29680 The Source of Our Livelihood [The Wandering Isle]: no offer-reward text
+- 29769 Rascals [The Wandering Isle]: no offer-reward text
+- 29770 Still Good! [The Wandering Isle]: no offer-reward text
+- 29768 Missing Mallet [The Wandering Isle]: no offer-reward text
+- 29771 Stronger Than Wood [The Wandering Isle]: no offer-reward text
+- 29772 Raucous Rousing [The Wandering Isle]: no offer-reward text
+- 29774 Not In the Face! [The Wandering Isle]: no offer-reward text
+- 29775 The Spirit and Body of Shen-zin Su [The Wandering Isle]: no offer-reward text
+- 29776 Morning Breeze Village [The Wandering Isle]: no offer-reward text
+- 29777 Tools of the Enemy [The Wandering Isle]: no offer-reward text
+- 29778 Rewritten Wisdoms [The Wandering Isle]: no offer-reward text
+- 29783 Stronger Than Stone [The Wandering Isle]: no offer-reward text
+- 31012 Joining the Horde [The Wandering Isle]: no offer-reward text
+- 50371 Summons to Stormwind [Silithus: The Wound]: no ender, no offer-reward text, no starter
+- 49977 Summons to Orgrimmar [Silithus: The Wound]: no ender, no offer-reward text, no starter
+- 49976 Gifts of the Fallen [Silithus: The Wound]: no ender, no offer-reward text, no starter
+- 50341 A Recent Discovery [Silithus: The Wound]: no ender, no offer-reward text, no starter
+- 49981 Witness to the Wound [Silithus: The Wound]: no ender, no offer-reward text, no starter
+- 49982 Witness to the Wound [Silithus: The Wound]: no ender, no offer-reward text, no starter
+- 50046 It's a Sabotage [Silithus: The Wound]: no offer-reward text
+- 50047 Free Samples [Silithus: The Wound]: no offer-reward text
+- 50372 Desert Research [Silithus: The Wound]: no offer-reward text
+- 50052 No Spies Allowed [Silithus: The Wound]: no offer-reward text
+- 50053 Lazy Prospectors! [Silithus: The Wound]: no offer-reward text
+- 50358 Desert Research [Silithus: The Wound]: no offer-reward text
+- 50048 The Seething Shore [Silithus: The Wound]: no ender, no offer-reward text, no starter
+- 50054 The Seething Shore [Silithus: The Wound]: no ender, no offer-reward text, no starter
+- 50226 The Source of Power [Silithus: The Wound]: no offer-reward text
+- 50230 The Source of Power [Silithus: The Wound]: no offer-reward text
+- 50227 Larvae By The Dozen [Silithus: The Wound]: no offer-reward text
+- 50231 Larvae By The Dozen [Silithus: The Wound]: no offer-reward text
+- 50228 The Twilight Survivor [Silithus: The Wound]: no offer-reward text
+- 50232 The Twilight Survivor [Silithus: The Wound]: no offer-reward text
+- 50373 A Recent Arrival [Silithus: The Wound]: no offer-reward text
+- 50360 Khadgar's Request [Silithus: The Wound]: no offer-reward text
+- 50049 The Speaker's Perspective [Silithus: The Wound]: no offer-reward text
+- 50055 The Speaker's Perspective [Silithus: The Wound]: no offer-reward text
+- 50374 The Blood of Azeroth [Silithus: The Wound]: no offer-reward text
+- 50364 The Blood of Azeroth [Silithus: The Wound]: no offer-reward text
+- 50056 The Speaker's Call [Silithus: The Wound]: no ender, no offer-reward text, no starter
+- 50300 The Speaker's Call [Silithus: The Wound]: no ender, no offer-reward text, no starter
+- 50057 The Power in Our Hands [Silithus: The Wound]: no ender, no offer-reward text, no starter
+- 50387 Trinkets and Baubles [The Forgotten Cove]: no offer-reward text
+- 50388 The Weight of My Ambition [The Forgotten Cove]: no offer-reward text
+- 53105 Misplaced Faith [The Forgotten Cove]: no offer-reward text
+- 50385 Indefatigable Purpose [The Forgotten Cove]: no offer-reward text
+- 50389 Malign Inspiration [The Forgotten Cove]: no offer-reward text
+- 53099 A Mote of Cosmic Truth [The Forgotten Cove]: no offer-reward text
+- 50432 Titanic Innovation [Titanic Innovation]: no ender, no starter
+- 50319 Stranger in a Strange Land [Allies of the Horde]: no ender, no offer-reward text, no starter
+- 50303 Stranger in a Strange Land [Allies of the Horde]: giver 131328 not spawned, no offer-reward text
+- 51354 Anger in a Bottle [Storming the Kraul]: no offer-reward text, no starter
+- 50642 The Warchief Commands [The Warchief's Command]: no offer-reward text
+- 50646 A Quick Diversion [The Warchief's Command]: no offer-reward text
+- 50647 Everybody Has a Price [The Warchief's Command]: no offer-reward text
+- 50738 A Timely Arrival [The Warchief's Command]: no offer-reward text
+- 50740 Zoram'gar Outpost [The Warchief's Command]: no offer-reward text
+- 50772 On The Prowl [The Warchief's Command]: no offer-reward text
+- 50800 Into the Woods [The Warchief's Command]: no offer-reward text
+- 50823 Ripe for the Picking [The Warchief's Command]: no offer-reward text
+- 50837 A Quick Flyover [The Warchief's Command]: no offer-reward text
+- 50880 An Unstoppable Force [The Warchief's Command]: no offer-reward text
+- 53604 Clearing Them Out [The Warchief's Command]: no offer-reward text
+- 53605 A Glaive Misunderstanding [The Warchief's Command]: no offer-reward text
+- 50878 Blurred Vision [The Warchief's Command]: no offer-reward text
+- 50879 The Trees Have Ears [The Warchief's Command]: no offer-reward text
+- 52436 The Blackwood Den [The Warchief's Command]: no offer-reward text
+- 53606 Aggressive Inspiration [The Warchief's Command]: no offer-reward text
+- 52437 The Start of Something Good [The Warchief's Command]: no offer-reward text
+- 53608 Fueling the Horde War Machine [The Warchief's Command]: no offer-reward text
+- 53609 A Very Clear Message [The Warchief's Command]: no offer-reward text
+- 53627 A Gift of Azerite [The Warchief's Command]: no offer-reward text
+- 52438 A Wild Ride [The Warchief's Command]: no offer-reward text
+- 52806 A Looming Threat [The Warchief's Command]: no offer-reward text
+- 52967 Saurfang Returns [The Warchief's Command]: no offer-reward text
+- 52970 No Small Mercy [The Warchief's Command]: no offer-reward text
+- 53610 Driving Them Out [The Warchief's Command]: no offer-reward text
+- 52971 Seaside Rendezvous [The Warchief's Command]: no offer-reward text
+- 52981 Killer Queen [The Warchief's Command]: no offer-reward text
+- 46926 Shakedown [Port of Zandalar]: no offer-reward text
+- 46927 Punishment of Tal'aman [Port of Zandalar]: no offer-reward text
+- 46928 Punishment of Tal'farrak [Port of Zandalar]: no offer-reward text
+- 46929 Deterrent [Port of Zandalar]: no offer-reward text
+- 50881 Royal Report [Port of Zandalar]: no offer-reward text
+- 47897 Zanchuli Traitors [Web of Lies]: no offer-reward text
+- 47915 Rescuing the Taken [Web of Lies]: no offer-reward text
+- 47518 Raal [Web of Lies]: giver 132041 not spawned, giver 133302 not spawned, no offer-reward text
+- 47520 Walls Have Ears [Web of Lies]: giver 132041 not spawned, giver 133302 not spawned, no offer-reward text
+- 47521 Midnight in the Garden of the Loa [Web of Lies]: no offer-reward text
+- 47522 The Hunter [Web of Lies]: no offer-reward text
+- 47963 The Ancient One [Web of Lies]: no offer-reward text
+- 47528 Mistress of Lies [Web of Lies]: no offer-reward text
+- 50433 Zanchuli Disbanded [Web of Lies]: no offer-reward text
+- 47241 The Shadow of Death [The Spirits of Zo'bal]: no offer-reward text
+- 47244 A Culling of Souls [The Spirits of Zo'bal]: no offer-reward text
+- 49278 Spiritual Restoration [The Spirits of Zo'bal]: no offer-reward text
+- 50788 Enemies Within [Enemies Within]: no ender
+- 50789 Clear the Air [Enemies Within]: no ender
+- 49805 Implements of Ill Intent [Arom's Stand]: no starter
+- 49806 Hidden Dealings [Arom's Stand]: no starter
+- 51088 Heart of Darkness [Heart of Darkness]: no offer-reward text
+- 51129 Dubious Offering [Heart of Darkness]: no offer-reward text
+- 51167 Blood of Hir'eek [Heart of Darkness]: no offer-reward text
+- 51150 Honoring the Fallen [Heart of Darkness]: no offer-reward text
+- 51168 Zealots of Zalamar [Heart of Darkness]: no offer-reward text
+- 51169 Flight from the Fall [Heart of Darkness]: no offer-reward text
+- 51281 Zul'Nazman [Heart of Darkness]: no offer-reward text
+- 51279 Nazmani Cultists [Heart of Darkness]: no offer-reward text
+- 51280 Offerings to G'huun [Heart of Darkness]: no offer-reward text
+- 51282 Captain Conrad [Heart of Darkness]: no offer-reward text
+- 51177 Lessons of the Damned [Heart of Darkness]: no offer-reward text
+- 52013 Champion: John J. Keeshan [Heart of Darkness]: no offer-reward text
+- 51967 Return to Boralus [Heart of Darkness]: no offer-reward text
+- 53442 The Castaways [Castaways and Cutouts]: no offer-reward text
+- 53439 Blood in the Tides [Castaways and Cutouts]: no offer-reward text
+- 53443 My Favorite Things [Castaways and Cutouts]: no offer-reward text
+- 53445 Silencing the Sisters [Castaways and Cutouts]: no offer-reward text
+- 53446 Local Flavor [Castaways and Cutouts]: no offer-reward text
+- 51332 A Trip Across the Ocean [Drustvar Foothold]: no offer-reward text
+- 51340 Drustvar Ho! [Drustvar Foothold]: no offer-reward text
+- 51224 Profit and Reconnaissance [Drustvar Foothold]: no offer-reward text
+- 51231 Wiccaphobia [Drustvar Foothold]: no offer-reward text
+- 51233 I Hope There's No Witches in the Mountains [Drustvar Foothold]: no offer-reward text
+- 51234 Krazzlefrazz Outpost [Drustvar Foothold]: no offer-reward text
+- 51987 Champion: Hobart Grapplehammer [Drustvar Foothold]: no offer-reward text
+- 51985 Return to Zuldazar [Drustvar Foothold]: no offer-reward text
+- 49662 The Missing Key [Storming the Spire]: no offer-reward text
+- 50745 Infiltrating the Empire [Storming the Spire]: no offer-reward text
+- 49664 Allies in Anarchy [Storming the Spire]: no offer-reward text
+- 49665 Ready to Riot [Storming the Spire]: no offer-reward text
+- 49666 Make Them Fear Us [Storming the Spire]: no offer-reward text
+- 50746 Crater Conquered [Storming the Spire]: no offer-reward text
+- 49141 Diplomacy and Dominance [Storming the Spire]: no offer-reward text
+- 50748 Don't Drop It... Yet [Storming the Spire]: no offer-reward text
+- 49003 Vengeance From Above [Storming the Spire]: no offer-reward text
+- 50750 Infuriating the Emperor [Storming the Spire]: no offer-reward text
+- 50752 Relics of Sethraliss [Storming the Spire]: no offer-reward text
+- 50550 The Fall of Emperor Korthek [Storming the Spire]: no offer-reward text
+- 50751 Sanctuary Under Siege [Storming the Spire]: no offer-reward text
+- 47313 Discreet Discussions [Unlikely Allies]: no offer-reward text
+- 47314 Rumors of Exile [Unlikely Allies]: no offer-reward text
+- 47315 Into the Dunes [Unlikely Allies]: no offer-reward text
+- 51357 Armed and Ready [Unlikely Allies]: no offer-reward text
+- 49676 Dressed for Battle [Unlikely Allies]: no offer-reward text
+- 47327 Answering Their Attacks [Unlikely Allies]: no offer-reward text
+- 49677 Plans for Attack [Unlikely Allies]: no offer-reward text
+- 51364 An Explosive Exit [Unlikely Allies]: no offer-reward text
+- 47319 Restorative Venom [Dangers in the Desert]: no offer-reward text
+- 51574 Freshly Squeezed [Dangers in the Desert]: no offer-reward text
+- 47320 A Balm to Calm [Dangers in the Desert]: no offer-reward text
+- 47317 Searching for Survivors [Dangers in the Desert]: no offer-reward text
+- 47316 Secrets in the Sand [Dangers in the Desert]: no offer-reward text
+- 47321 Knickknack Takeback [Dangers in the Desert]: no offer-reward text
+- 47959 The Warguard's Trail [Dangers in the Desert]: no offer-reward text
+- 48549 Grozztok the Blackheart [Dangers in the Desert]: no offer-reward text
+- 48550 Stolen Satchels [Dangers in the Desert]: no offer-reward text
+- 48684 On the Move [The Warguard's Fate]: no offer-reward text
+- 48895 The Perfect Offering [The Warguard's Fate]: no offer-reward text
+- 48993 Powerful Conductors [The Warguard's Fate]: no offer-reward text
+- 48992 Sacred Remains [The Warguard's Fate]: no offer-reward text
+- 48991 Vile Infestation [The Warguard's Fate]: no offer-reward text
+- 48887 Cleanse the Mind [The Warguard's Fate]: no offer-reward text
+- 48888 It Springs Eternal [The Warguard's Fate]: no offer-reward text
+- 48894 Trial of Truth [The Warguard's Fate]: no offer-reward text
+- 48715 Akunda Awaits [The Warguard's Fate]: no offer-reward text
+- 48987 Valley of Sorrows [The Warguard's Fate]: no offer-reward text
+- 48988 Memory Breach [The Warguard's Fate]: no offer-reward text
+- 49005 Shattered and Broken [The Warguard's Fate]: no offer-reward text
+- 48889 Repairing the Past [The Warguard's Fate]: no offer-reward text
+- 48996 Ending the Madness [The Warguard's Fate]: no offer-reward text
+- 50913 Akunda's Blessing [The Warguard's Fate]: no offer-reward text
+- 47874 Clearing the Fog [The Warguard's Fate]: no offer-reward text
+- 48896 Knowledge of the Past [A City of Secrets]: no offer-reward text
+- 47716 Searching the Ruins [A City of Secrets]: no offer-reward text
+- 48314 Creeping Death [A City of Secrets]: no offer-reward text
+- 48313 Nature's Remedy [A City of Secrets]: no offer-reward text
+- 50770 Effective Antivenom [A City of Secrets]: no offer-reward text
+- 50539 The Secrets of Zul'Ahjin [A City of Secrets]: no offer-reward text
+- 48315 Hollow, Empty Eyes [A City of Secrets]: no offer-reward text
+- 50561 Sulthis' Stone [A City of Secrets]: no offer-reward text
+- 47324 Unlikely Allies [The Three Keepers]: no offer-reward text
+- 49334 A Powerful Prisoner [The Three Keepers]: no offer-reward text
+- 50641 Break Their Ranks [The Three Keepers]: no offer-reward text
+- 49327 Push Them Back! [The Three Keepers]: no offer-reward text
+- 49340 The Keepers' Keys [The Three Keepers]: no offer-reward text
+- 50617 Atul'Aman [Atul'Aman]: no offer-reward text
+- 50904 The Abandoned Passage [Atul'Aman]: no offer-reward text
+- 50702 Defeat Jakra'zet [Atul'Aman]: no offer-reward text
+- 50703 Informing the Horde [Atul'Aman]: no offer-reward text
+- 53031 The Speaker's Imperative [The Stormwind Extraction]: no offer-reward text
+- 51283 Voyage to the West [The Sands of Vol'dun]: no offer-reward text
+- 51170 Ooh Rah! [The Sands of Vol'dun]: no offer-reward text
+- 51229 Establish a Beachhead [The Sands of Vol'dun]: no offer-reward text
+- 51349 Honor Bound [The Sands of Vol'dun]: no offer-reward text
+- 51350 Unexpected Aid [The Sands of Vol'dun]: no offer-reward text
+- 51351 Poisoned Barbs [The Sands of Vol'dun]: no offer-reward text
+- 51366 Antidote Application [The Sands of Vol'dun]: no offer-reward text
+- 51369 Friends in Strange Places [The Sands of Vol'dun]: no offer-reward text
+- 51389 Breaking Free [The Sands of Vol'dun]: no offer-reward text
+- 51391 Defang the Faithless [The Sands of Vol'dun]: no offer-reward text
+- 51394 Break the Siege [The Sands of Vol'dun]: no offer-reward text
+- 51395 The Keepers' Keys [The Sands of Vol'dun]: no offer-reward text
+- 51402 Reporting In [The Sands of Vol'dun]: no offer-reward text
+- 52008 Champion: Magister Umbric [The Sands of Vol'dun]: no offer-reward text
+- 51969 Return to Boralus [The Sands of Vol'dun]: no offer-reward text
+- 51526 The Warlord's Call [Storming In]: no offer-reward text
+- 51532 Storming In [Storming In]: no offer-reward text
+- 51643 A Wall of Iron [Storming In]: no offer-reward text
+- 51536 On the Hunt [Storming In]: no offer-reward text
+- 51587 Onward! [Storming In]: no offer-reward text
+- 51675 Hunt Them Down [Storming In]: no offer-reward text
+- 51691 Almost Worth Saving [Storming In]: no offer-reward text
+- 51674 Douse the Flames [Storming In]: no offer-reward text
+- 51696 Reclaiming What's Ours [Storming In]: no offer-reward text
+- 51753 Champion: Rexxar [Storming In]: no offer-reward text
+- 51986 Return to Zuldazar [Storming In]: no offer-reward text
+- 51918 Uniting Kul Tiras [Uniting Kul Tiras]: no offer-reward text
+- 52450 Uniting Kul Tiras [Uniting Kul Tiras]: no offer-reward text
+- 53063 A Mission of Unity [Uniting Kul Tiras]: no offer-reward text, no starter
+- 51916 Uniting Zandalar [Uniting Zandalar]: no offer-reward text
+- 52451 Uniting Zandalar [Uniting Zandalar]: no offer-reward text
+- 53064 A Mission of Unity [Uniting Zandalar]: no offer-reward text
+- 52746 The War Cache [Mission from the Warchief]: no offer-reward text
+- 53333 Time for War [Mission from the Warchief]: no offer-reward text
+- 51770 Mission from the Warchief [Mission from the Warchief]: no offer-reward text
+- 51771 War of Shadows [Mission from the Warchief]: no offer-reward text
+- 53079 Reinforcements [Mission from the Warchief]: no offer-reward text
+- 47332 Your Next Move [Mission from the Warchief]: no ender, no offer-reward text, no starter
+- 51903 Island Expedition [Island Expedition]: no offer-reward text
+- 51904 Island Expedition [Island Expedition]: no offer-reward text
+- 53061 The Azerite Advantage [Island Expedition]: no offer-reward text
+- 51870 Island Expedition [Island Expedition]: no offer-reward text
+- 51888 Island Expedition [Island Expedition]: no offer-reward text
+- 53062 The Azerite Advantage [Island Expedition]: no offer-reward text
+- 51190 Granting a Reprieve [Mole Machinations]: no offer-reward text
+- 51191 Save Them All [Mole Machinations]: no offer-reward text
+- 51192 A Lack of Surplus [Mole Machinations]: no offer-reward text
+- 51544 Disarming the Cannons [Mole Machinations]: no offer-reward text
+- 51193 That One's Mine [Mole Machinations]: no offer-reward text
+- 51418 Xibala [Mole Machinations]: no offer-reward text
+- 51331 Mole Machinations [Mole Machinations]: no offer-reward text
+- 51309 Rocks of Ragnaros [Mole Machinations]: no offer-reward text
+- 51359 Fragment of the Firelands [Mole Machinations]: no offer-reward text
+- 52003 Champion: Kelsey Steelspark [Mole Machinations]: no offer-reward text
+- 51968 Return to Boralus [Mole Machinations]: no offer-reward text
+- 51435 Swashbuckling in Style [A Pirate's Life for We]: no offer-reward text
+- 51436 Parleyin' Wit Pirates [A Pirate's Life for We]: no offer-reward text
+- 51437 Spike the Punch [A Pirate's Life for We]: no offer-reward text
+- 51439 Cannonball Collection [A Pirate's Life for We]: no offer-reward text
+- 51440 A Change in Direction [A Pirate's Life for We]: no offer-reward text
+- 51441 Thar She Blows! [A Pirate's Life for We]: no offer-reward text
+- 51442 I'm the Captain Now [A Pirate's Life for We]: no offer-reward text
+- 51438 Marking Our Territory [A Pirate's Life for We]: no offer-reward text
+- 51975 Champion: Shadow Hunter Ty'jin [A Pirate's Life for We]: no offer-reward text
+- 51984 Return to Zuldazar [A Pirate's Life for We]: no offer-reward text
+- 51979 The Ongoing Campaign [The Kul Tiras Campaign]: no offer-reward text
+- 53602 Adapting Our Tactics [The Kul Tiras Campaign]: no offer-reward text
+- 52444 The Final Foothold [The Kul Tiras Campaign]: no offer-reward text
+- 53050 Deeper Into Kul Tiras [The Kul Tiras Campaign]: no offer-reward text
+- 53056 Pushing Our Influence [The Kul Tiras Campaign]: no offer-reward text
+- 51800 Foothold: Tiragarde Sound [The Kul Tiras Campaign]: no ender, no starter
+- 51801 Foothold: Drustvar [The Kul Tiras Campaign]: no ender, no offer-reward text, no starter
+- 51802 Foothold: Stormsong Valley [The Kul Tiras Campaign]: no ender, no offer-reward text, no starter
+- 51961 The Ongoing Campaign [The Zandalar Campaign]: no offer-reward text
+- 53583 Adapting Our Tactics [The Zandalar Campaign]: no offer-reward text
+- 52443 The Final Foothold [The Zandalar Campaign]: no offer-reward text
+- 53052 Deeper Into Zandalar [The Zandalar Campaign]: no starter
+- 53055 Pushing Our Influence [The Zandalar Campaign]: no offer-reward text, no starter
+- 51571 Foothold: Nazmir [The Zandalar Campaign]: no offer-reward text
+- 51572 Foothold: Vol'dun [The Zandalar Campaign]: no offer-reward text
+- 51589 Breaking Kul Tiran Will [The First Assault]: no offer-reward text
+- 51590 Into the Heart of Tiragarde [The First Assault]: no offer-reward text
+- 51591 Our Mountain Now [The First Assault]: no offer-reward text
+- 51592 Making Ourselves at Home [The First Assault]: no offer-reward text
+- 51593 Bridgeport Investigation [The First Assault]: no offer-reward text
+- 51594 Explosives in the Foundry [The First Assault]: no offer-reward text
+- 51595 Explosivity [The First Assault]: no offer-reward text
+- 51596 Ammunition Acquisition [The First Assault]: no offer-reward text
+- 51597 Gunpowder Research [The First Assault]: no offer-reward text
+- 51598 A Bit of Chaos [The First Assault]: no offer-reward text
+- 51599 Death Trap [The First Assault]: no offer-reward text
+- 51601 The Bridgeport Ride [The First Assault]: no offer-reward text
+- 51784 A Stroll Through a Cemetery [The Marshal's Grave]: no offer-reward text
+- 51785 Examining the Epitaphs [The Marshal's Grave]: no offer-reward text
+- 51786 State of Unrest [The Marshal's Grave]: no offer-reward text
+- 51787 Our Lot in Life [The Marshal's Grave]: no offer-reward text
+- 51788 The Crypt Keeper [The Marshal's Grave]: no offer-reward text
+- 51789 What Remains of Marshal M. Valentine [The Marshal's Grave]: no offer-reward text
+- 53065 Operation: Grave Digger [The Marshal's Grave]: no offer-reward text
+- 51797 Tracking Tidesages [Death of a Tidesage]: no offer-reward text
+- 51798 No Price Too High [Death of a Tidesage]: no offer-reward text
+- 51805 They Will Know Fear [Death of a Tidesage]: no offer-reward text
+- 51818 Commander and Captain [Death of a Tidesage]: no offer-reward text
+- 51819 Scattering Our Enemies [Death of a Tidesage]: no offer-reward text
+- 51830 Zelling's Potential [Death of a Tidesage]: no offer-reward text
+- 51837 Whatever Will Be [Death of a Tidesage]: no offer-reward text
+- 52122 To Be Forsaken [Death of a Tidesage]: no offer-reward text
+- 53066 Operation: Water Wise [Death of a Tidesage]: no offer-reward text
+- 52026 Overseas Assassination [Blood on the Sand]: no offer-reward text
+- 52027 The Vol'dun Plan [Blood on the Sand]: no offer-reward text
+- 52028 Comb the Desert [Blood on the Sand]: no offer-reward text
+- 52029 Dirty Work [Blood on the Sand]: no offer-reward text
+- 52030 Keep Combing [Blood on the Sand]: no offer-reward text
+- 52031 Classic Reliquary [Blood on the Sand]: no offer-reward text
+- 52032 Never Stop Combing [Blood on the Sand]: no offer-reward text
+- 52034 A Message to the Zandalari [Blood on the Sand]: no offer-reward text
+- 52035 Improvised Survival [Blood on the Sand]: no offer-reward text
+- 52036 They Have Alpacas Here [Blood on the Sand]: no offer-reward text
+- 52038 Splitting Up [Blood on the Sand]: no offer-reward text
+- 52039 Delayed Deathification [Blood on the Sand]: no offer-reward text
+- 52040 Full of Arrows [Blood on the Sand]: no offer-reward text
+- 52041 Report to Wyrmbane [Blood on the Sand]: no offer-reward text
+- 52042 The Big Boom [Blood on the Sand]: no offer-reward text
+- 52146 Blood on the Sand [Blood on the Sand]: no offer-reward text
+- 52183 When a Plan Comes Together [The Strike on Boralus]: no offer-reward text
+- 52186 The Bulk of the Guard [The Strike on Boralus]: no offer-reward text
+- 52187 Old Colleagues [The Strike on Boralus]: no offer-reward text
+- 52185 A Well Placed Portal [The Strike on Boralus]: no offer-reward text
+- 52184 Relics of Ritual [The Strike on Boralus]: no offer-reward text
+- 52188 Tidesage Teachings [The Strike on Boralus]: no offer-reward text
+- 52189 Forfeit Souls [The Strike on Boralus]: no offer-reward text
+- 52190 Gaining the Upper Hand [The Strike on Boralus]: no offer-reward text
+- 52990 Return to the Harbor [The Strike on Boralus]: no offer-reward text
+- 52191 Life Held Hostage [The Strike on Boralus]: no offer-reward text
+- 52192 The Aid of the Tides [The Strike on Boralus]: no offer-reward text
+- 52861 Champion: Lilian Voss [The Strike on Boralus]: no offer-reward text
+- 53003 A Cycle of Hatred [The Strike on Boralus]: no offer-reward text
+- 51244 What Rots Beneath [The Altar of Rot]: no offer-reward text
+- 51302 The Underrot: Sealing G'huun's Corruption [The Altar of Rot]: no offer-reward text
+- 50808 Halting the Empire's Fall [The Altar of Rot]: no offer-reward text
+- 52262 None [Test Quest Line]: MISSING quest_template
+- 52147 Crippling the Horde [Chasing Darkness]: no offer-reward text
+- 52150 How to Kill a Dark Ranger [Chasing Darkness]: no offer-reward text
+- 52156 Tortollans in Distress [Chasing Darkness]: no offer-reward text
+- 52158 The Savage Hunt [Chasing Darkness]: no offer-reward text
+- 52170 Ending Areiel [Chasing Darkness]: no offer-reward text
+- 52171 One Option: Fire [Chasing Darkness]: no offer-reward text
+- 52172 They Can't Stay Here [Chasing Darkness]: no offer-reward text
+- 52208 Meeting of the Minds [Chasing Darkness]: no offer-reward text
+- 52219 Target: Blood Prince Dreven [Chasing Darkness]: no offer-reward text
+- 53069 Operation: Blood Arrow [Chasing Darkness]: no offer-reward text
+- 52154 Our Next Target [A Golden Opportunity]: no offer-reward text
+- 52173 The Void Elves Stand Ready [A Golden Opportunity]: no offer-reward text
+- 52203 Find the Paper Trail [A Golden Opportunity]: no offer-reward text
+- 52204 The Void Solution [A Golden Opportunity]: no offer-reward text
+- 52205 Bilgewater Bonanza Go Boom [A Golden Opportunity]: no offer-reward text
+- 52241 A Greedy Goblin's Paradise [A Golden Opportunity]: no offer-reward text
+- 52247 Chasing Gallywix [A Golden Opportunity]: no offer-reward text
+- 52259 I Take No Pleasure In This [A Golden Opportunity]: no offer-reward text
+- 52260 We Have Him Cornered [A Golden Opportunity]: no offer-reward text
+- 52261 Gallywix Got Away [A Golden Opportunity]: no offer-reward text
+- 53070 Operation: Cutpurse [A Golden Opportunity]: no offer-reward text
+- 52058 A Short-Lived Peace [The Warchief's Command]: no offer-reward text
+- 52060 The Horde Uprising [The Warchief's Command]: no offer-reward text
+- 52062 A Disturbance in Ashenvale [The Warchief's Command]: no offer-reward text
+- 52072 The Light of Elune [The Warchief's Command]: no offer-reward text
+- 53616 Knives of the Forsaken [The Warchief's Command]: no offer-reward text
+- 52116 A Soft Glow [The Warchief's Command]: no offer-reward text
+- 52234 Hidden Amongst the Leaves [The Warchief's Command]: no offer-reward text
+- 53617 Mercy for the Mad [The Warchief's Command]: no offer-reward text
+- 52240 Garden Grove [The Warchief's Command]: no offer-reward text
+- 52245 Enraged Furbolgs [The Warchief's Command]: no offer-reward text
+- 53551 Elves in the Machine [The Warchief's Command]: no offer-reward text
+- 52242 The Wake of Something New [The Warchief's Command]: no offer-reward text
+- 53619 Azerite Denial [The Warchief's Command]: no offer-reward text
+- 53621 No Horde Allowed [The Warchief's Command]: no offer-reward text
+- 52256 Malfurion Returns [The Warchief's Command]: no offer-reward text
+- 52257 "Rock" The World [The Warchief's Command]: no offer-reward text
+- 52197 Long Away [The Warchief's Command]: no offer-reward text
+- 52279 A Looming Threat [The Warchief's Command]: no offer-reward text
+- 52973 A Threat from the North [The Warchief's Command]: no offer-reward text
+- 52974 Rescue Effort [The Warchief's Command]: no offer-reward text
+- 53622 Defending Lor'danel [The Warchief's Command]: no offer-reward text
+- 52975 Action This Day [The Warchief's Command]: no offer-reward text
+- 52977 The Guidance of Our Shan'do [The Warchief's Command]: no offer-reward text
+- 53095 A Flicker of Hope [The Warchief's Command]: no offer-reward text
+- 53310 From the Ashes... [The Warchief's Command]: no offer-reward text
+- 52308 Intercepted Orders [Blood in the Water]: no offer-reward text
+- 52489 Hunting Blood Prince Dreven [Blood in the Water]: no offer-reward text
+- 52490 Behind Enemy Boats [Blood in the Water]: no offer-reward text
+- 52491 Broadside Bedlam [Blood in the Water]: no offer-reward text
+- 52492 The Wildhammer Specialty [Blood in the Water]: no offer-reward text
+- 52493 An Unnatural Crew [Blood in the Water]: no offer-reward text
+- 52494 Foul Crystals for Foul People [Blood in the Water]: no offer-reward text
+- 53131 Kings' Rest [Blood in the Water]: no offer-reward text
+- 52495 Ending the San'layn Threat [Blood in the Water]: no offer-reward text
+- 52496 A Clean Escape [Blood in the Water]: no offer-reward text
+- 53071 Operation: Gryphon's Claw [Blood in the Water]: no offer-reward text
+- 51513 Zalazane Returns [The Fallen Chieftain]: no offer-reward text
+- 51514 Broken Bargain [The Fallen Chieftain]: no offer-reward text
+- 51533 The Glaive of Vol'jin [The Fallen Chieftain]: no offer-reward text
+- 51515 Vengeance for Vol'jin [The Fallen Chieftain]: no offer-reward text
+- 52114 Honoring a True Leader [The Fallen Chieftain]: no offer-reward text
+- 52113 Vol'jin, Son of Sen'jin [The Fallen Chieftain]: no offer-reward text
+- 51516 Atal'Dazar: Ashes of a Warchief [The Fallen Chieftain]: giver 51516 not spawned, no offer-reward text
+- 51517 You Owe Me a Spirit [The Fallen Chieftain]: no offer-reward text
+- 51518 The Lost Spirit [Justice For The Fallen]: no offer-reward text
+- 51519 Spirit Call [Justice For The Fallen]: no offer-reward text
+- 51520 Justice for the Fallen [Justice For The Fallen]: no offer-reward text
+- 51521 The True Leader of Zandalar [Justice For The Fallen]: no offer-reward text
+- 52764 Journey to the Middle of Nowhere [At the Bottom of the Sea]: no offer-reward text
+- 52765 Deep Dive [At the Bottom of the Sea]: no ender, no offer-reward text
+- 52766 Seafloor Shipwreck [At the Bottom of the Sea]: no ender, no offer-reward text, no starter
+- 52767 Checking Dog Tags [At the Bottom of the Sea]: no ender, no offer-reward text, no starter
+- 52768 The Sunken Graveyard [At the Bottom of the Sea]: no ender, no offer-reward text, no starter
+- 52769 Captain By Captain [At the Bottom of the Sea]: no ender, no offer-reward text, no starter
+- 52770 Biolumi-Nuisance [At the Bottom of the Sea]: no ender, no offer-reward text
+- 52772 The Undersea Ledge [At the Bottom of the Sea]: no ender, no offer-reward text, no starter
+- 52773 Water-Breathing Dragon [At the Bottom of the Sea]: no ender, no offer-reward text, no starter
+- 52774 Grab and Go [At the Bottom of the Sea]: no offer-reward text, no starter
+- 53121 Siege of Boralus [At the Bottom of the Sea]: no offer-reward text
+- 52978 With Prince in Tow [At the Bottom of the Sea]: no offer-reward text
+- 53067 Operation: Bottom Feeder [At the Bottom of the Sea]: no offer-reward text
+- 52473 Bringing Down the Fleet [The Strike on Zuldazar]: no offer-reward text
+- 52282 How to Sink a Zandalari Battleship [The Strike on Zuldazar]: no offer-reward text
+- 52281 Under the Cover of Swiftwing [The Strike on Zuldazar]: no offer-reward text
+- 52283 Sabotaging the Pa'ku [The Strike on Zuldazar]: no offer-reward text
+- 52284 Ship Logs [The Strike on Zuldazar]: no offer-reward text
+- 52285 The Enlarged Miniaturized Submarine [The Strike on Zuldazar]: no offer-reward text
+- 52290 My Enemy's Enemy is My Disguise [The Strike on Zuldazar]: no offer-reward text
+- 52286 Right Beneath Their Nose [The Strike on Zuldazar]: no offer-reward text
+- 52287 Intelligence Denial [The Strike on Zuldazar]: no offer-reward text
+- 52288 Void Vacation [The Strike on Zuldazar]: no offer-reward text
+- 52289 Victory is Assured [The Strike on Zuldazar]: no offer-reward text
+- 52291 Victory Was Assured [The Strike on Zuldazar]: no offer-reward text
+- 52788 Leave None Alive [The Strike on Zuldazar]: no offer-reward text
+- 52789 Silencing the Advisor [The Strike on Zuldazar]: no offer-reward text
+- 52790 An End to the Killing [The Strike on Zuldazar]: no offer-reward text
+- 53098 Champion: Shandris Feathermoon [The Strike on Zuldazar]: no offer-reward text
+- 53072 Operation: Heartstrike [The Strike on Zuldazar]: no offer-reward text
+- 34638 None [Test Questline]: MISSING quest_template
+- 36487 None [Test Questline]: MISSING quest_template
+- 47960 Tiragarde Sound [Kul Tiras]: no ender, no starter
+- 47961 Drustvar [Kul Tiras]: no starter
+- 47962 Stormsong Valley [Kul Tiras]: no ender, no starter
+- 53194 To the Front [The Battle for Stromgarde]: no offer-reward text
+- 53185 Warfront Contribution [The Battle for Stromgarde]: no offer-reward text
+- 53197 Touring the Front [The Battle for Stromgarde]: no offer-reward text
+- 53198 Back to Boralus [The Battle for Stromgarde]: no offer-reward text
+- 53414 Warfront: The Battle for Stromgarde [The Battle for Stromgarde]: no offer-reward text
+- 53175 The Warfront Looms [The Battle for Stromgarde]: no offer-reward text, no starter
+- 53208 To the Front [The Battle for Stromgarde]: no ender, no offer-reward text
+- 53209 Warfront Contribution [The Battle for Stromgarde]: no offer-reward text
+- 53210 Touring the Front [The Battle for Stromgarde]: no ender, no offer-reward text, no starter
+- 53212 Back to Zuldazar [The Battle for Stromgarde]: no offer-reward text, no starter
+- 53416 Warfront: The Battle for Stromgarde [The Battle for Stromgarde]: no offer-reward text
+- 53207 The Warfront Looms [The Battle for Stromgarde]: no offer-reward text, no starter
+- 51398 An Unusual Mentor [8.0 Professions - Gathering - Herbalism - Kul Tiras - Akunda's Bite - SCS]: no offer-reward text
+- 51399 Foul Harvest [8.0 Professions - Gathering - Herbalism - Kul Tiras - Akunda's Bite - SCS]: no offer-reward text
+- 51408 Giving Back to Nature [8.0 Professions - Gathering - Herbalism - Kul Tiras - Akunda's Bite - SCS]: no offer-reward text
+- 51404 What Happens Next [8.0 Professions - Gathering - Herbalism - Kul Tiras - Akunda's Bite - SCS]: no ender, no offer-reward text, no starter
+- 51432 An Unusual Mentor [8.0 Professions - Gathering - Herbalism - Zandalar - Akunda's Bite - SCS]: no offer-reward text
+- 51399 Foul Harvest [8.0 Professions - Gathering - Herbalism - Zandalar - Akunda's Bite - SCS]: no offer-reward text
+- 51408 Giving Back to Nature [8.0 Professions - Gathering - Herbalism - Zandalar - Akunda's Bite - SCS]: no offer-reward text
+- 51404 What Happens Next [8.0 Professions - Gathering - Herbalism - Zandalar - Akunda's Bite - SCS]: no ender, no offer-reward text, no starter
+- 51016 Seeking More Knowledge [8.0 Professions - Gathering - Herbalism - Kul Tiras - Anchor Weed  - SCS]: no offer-reward text
+- 51360 Enormous Anchor Pod [8.0 Professions - Gathering - Herbalism - Kul Tiras - Anchor Weed  - SCS]: no offer-reward text, no starter
+- 51361 More Anchor Pods [8.0 Professions - Gathering - Herbalism - Kul Tiras - Anchor Weed  - SCS]: no offer-reward text
+- 51482 Seeking More Knowledge [8.0 Professions - Gathering - Herbalism - Zandalar - Anchor Weed  - SCS]: no offer-reward text
+- 51480 Enormous Anchor Pod [8.0 Professions - Gathering - Herbalism - Zandalar - Anchor Weed  - SCS]: no offer-reward text, no starter
+- 51481 More Anchor Pods [8.0 Professions - Gathering - Herbalism - Zandalar - Anchor Weed  - SCS]: no offer-reward text
+- 48753 Emergency Transplants [8.0 Professions - Gathering - Herbalism - Kul Tiras - Riverbud - SCS]: no offer-reward text
+- 48754 Breaking The Food Chain [8.0 Professions - Gathering - Herbalism - Kul Tiras - Riverbud - SCS]: no offer-reward text
+- 51365 Cultural Significance [8.0 Professions - Gathering - Herbalism - Kul Tiras - Sea Stalk - SCS]: no offer-reward text
+- 48769 Gathering Mementos [8.0 Professions - Gathering - Herbalism - Kul Tiras - Sea Stalk - SCS]: no offer-reward text
+- 51312 Aromatic Pollenator [8.0 Professions - Gathering - Herbalism - Kul Tiras - Siren's Pollen - SCS]: no offer-reward text, no starter
+- 51313 Learn From the Best [8.0 Professions - Gathering - Herbalism - Kul Tiras - Siren's Pollen - SCS]: no offer-reward text
+- 48758 Disgustingly Damp Flower [8.0 Professions - Gathering - Herbalism - Kul Tiras - Siren's Pollen - SCS]: no offer-reward text, no starter
+- 48755 Pollen Punching [8.0 Professions - Gathering - Herbalism - Kul Tiras - Siren's Pollen - SCS]: no ender, no offer-reward text
+- 48756 Here In Spirit [8.0 Professions - Gathering - Herbalism - Kul Tiras - Star Moss - SCS]: no offer-reward text
+- 48757 Ghost Busting [8.0 Professions - Gathering - Herbalism - Kul Tiras - Star Moss - SCS]: no offer-reward text
+- 48762 Meet Sweetflower [8.0 Professions - Gathering - Herbalism - Kul Tiras - Winter's Kiss - SCS]: no offer-reward text
+- 51376 Can't Teach on an Empty Stomach [8.0 Professions - Gathering - Herbalism - Kul Tiras - Winter's Kiss - SCS]: no offer-reward text
+- 48763 The Frigid Boon [8.0 Professions - Gathering - Herbalism - Kul Tiras - Winter's Kiss - SCS]: no ender, no offer-reward text, no starter
+- 51230 Emergency Transplants [8.0 Professions - Gathering - Herbalism - Zandalar - Riverbud - SCS]: no offer-reward text
+- 51243 Breaking The Food Chain [8.0 Professions - Gathering - Herbalism - Zandalar - Riverbud - SCS]: no offer-reward text
+- 51498 Cultural Significance [8.0 Professions - Gathering - Herbalism - Zandalar - Sea Stalk - SCS]: no offer-reward text
+- 51503 Gathering Mementos [8.0 Professions - Gathering - Herbalism - Zandalar - Sea Stalk - SCS]: no offer-reward text
+- 51447 Aromatic Pollenator [8.0 Professions - Gathering - Herbalism - Zandalar - Siren's Pollen - SCS]: no offer-reward text, no starter
+- 51448 Learn From the Best [8.0 Professions - Gathering - Herbalism - Zandalar - Siren's Pollen - SCS]: no offer-reward text
+- 51451 Disgustingly Damp Flower [8.0 Professions - Gathering - Herbalism - Zandalar - Siren's Pollen - SCS]: no offer-reward text, no starter
+- 51452 Pollen Punching [8.0 Professions - Gathering - Herbalism - Zandalar - Siren's Pollen - SCS]: no ender, no offer-reward text
+- 51464 Here In Spirit [8.0 Professions - Gathering - Herbalism - Zandalar - Star Moss - SCS]: no offer-reward text
+- 51478 Ghost Busting [8.0 Professions - Gathering - Herbalism - Zandalar - Star Moss - SCS]: no offer-reward text
+- 51446 Meet Sweetflower [8.0 Professions - Gathering - Herbalism - Zandalar - Winter's Kiss - SCS]: no offer-reward text
+- 51376 Can't Teach on an Empty Stomach [8.0 Professions - Gathering - Herbalism - Zandalar - Winter's Kiss - SCS]: no offer-reward text
+- 48763 The Frigid Boon [8.0 Professions - Gathering - Herbalism - Zandalar - Winter's Kiss - SCS]: no ender, no offer-reward text, no starter
+- 51962 Lumbering Away [8.0 Professions - Gathering - Mining - Zandalar - Monelite Deposit - SCS]: no offer-reward text
+- 51964 Insufferable Bloodsuckers [8.0 Professions - Gathering - Mining - Zandalar - Monelite Deposit - SCS]: no offer-reward text
+- 51965 Lending a Hand [8.0 Professions - Gathering - Mining - Zandalar - Monelite Seam - SCS]: no offer-reward text
+- 51971 An Exquisite Brooch [8.0 Professions - Gathering - Mining - Zandalar - Monelite Seam - SCS]: no offer-reward text, no starter
+- 52046 An Exceptional Platinum Shard [8.0 Professions - Gathering - Mining - Zandalar - Platinum Deposit - SCS]: no offer-reward text, no starter
+- 52053 The Platinum Map [8.0 Professions - Gathering - Mining - Zandalar - Platinum Deposit - SCS]: no offer-reward text, no starter
+- 52055 An Ore for an Eye [8.0 Professions - Gathering - Mining - Zandalar - Platinum Deposit - SCS]: no offer-reward text
+- 52014 Ritualistic Preparations [8.0 Professions - Gathering - Mining - Zandalar - Storm Silver Deposit - SCS]: no offer-reward text
+- 52015 Brined Justice [8.0 Professions - Gathering - Mining - Zandalar - Storm Silver Deposit - SCS]: no offer-reward text
+- 52016 Three Sheets to the Wind [8.0 Professions - Gathering - Mining - Zandalar - Storm Silver Seam - SCS]: no offer-reward text
+- 52017 Back to Biru [8.0 Professions - Gathering - Mining - Zandalar - Storm Silver Seam - SCS]: no offer-reward text
+- 52043 The Wrath of Grapes [8.0 Professions - Gathering - Mining - Zandalar - Storm Silver Seam - SCS]: no offer-reward text
+- 48767 Seams Familiar [8.0 Professions - Gathering - Mining - Kul Tiras - Monelite Seam - SCS]: no starter
+- 52044 An Exceptional Platinum Shard [8.0 Professions - Gathering - Mining - Kul Tiras - Platinum Deposit - SCS]: no starter
+- 52049 X Marks the Plat! [8.0 Professions - Gathering - Mining - Kul Tiras - Platinum Deposit - SCS]: no starter
+- 52050 A More Challenging Career [8.0 Professions - Gathering - Mining - Kul Tiras - Platinum Deposit - SCS]: no offer-reward text
+- 52227 Bone Needle [8.0 Professions - Gathering - Skinnin - Kul Tiras - Bone - SCS]: no offer-reward text
+- 52228 Atal'Dazar: An Unbreakable Bone Needle [8.0 Professions - Gathering - Skinnin - Kul Tiras - Bone - SCS]: no offer-reward text
+- 52223 Brinepinch [8.0 Professions - Gathering - Skinnin - Kul Tiras - Leather - SCS]: no offer-reward text
+- 52224 Ivory Handled Dagger [8.0 Professions - Gathering - Skinnin - Kul Tiras - Leather - SCS]: no offer-reward text, no starter
+- 52225 In Pursuit of Fashion [8.0 Professions - Gathering - Skinnin - Kul Tiras - Scale - SCS]: no offer-reward text
+- 52226 Turtle Soup [8.0 Professions - Gathering - Skinnin - Kul Tiras - Scale - SCS]: no offer-reward text
+- 52216 Hexoskeleton [8.0 Professions - Gathering - Skinnin - Zandalar - Bone - SCS]: no offer-reward text
+- 52217 Loa Fit For A King [8.0 Professions - Gathering - Skinnin - Zandalar - Bone - SCS]: no offer-reward text
+- 51575 Lost But Not Forgotten [8.0 Professions - Gathering - Skinnin - Zandalar - Leather - SCS]: no offer-reward text
+- 52213 Ancient Skinning Knife [8.0 Professions - Gathering - Skinnin - Zandalar - Leather - SCS]: no offer-reward text, no starter
+- 52214 Ceremonial Vestments [8.0 Professions - Gathering - Skinnin - Zandalar - Scale - SCS]: no offer-reward text
+- 52215 A Thicker Thread [8.0 Professions - Gathering - Skinnin - Zandalar - Scale - SCS]: no offer-reward text
+- 50954 Zandalar Forever! [Zandalar Forever]: no offer-reward text
+- 53466 Vision of Time [Allies of the Horde: Mag'har Orc]: no offer-reward text
+- 53467 Caverns of Time [Allies of the Horde: Mag'har Orc]: no offer-reward text
+- 53354 Echo of Gul'dan [Allies of the Horde: Mag'har Orc]: no offer-reward text
+- 53353 Echo of Warlord Zaela [Allies of the Horde: Mag'har Orc]: no offer-reward text
+- 53355 Echo of Garrosh Hellscream [Allies of the Horde: Mag'har Orc]: no offer-reward text
+- 52942 Restoring Old Bonds [Allies of the Horde: Mag'har Orc]: no offer-reward text
+- 52943 Calling Out the Clans [Allies of the Horde: Mag'har Orc]: no offer-reward text
+- 52945 Bonds Forged Through Battle [Allies of the Horde: Mag'har Orc]: no offer-reward text
+- 52955 Tyranny of the Light [Allies of the Horde: Mag'har Orc]: no offer-reward text
+- 51479 The Uncorrupted [Allies of the Horde: Mag'har Orc]: no offer-reward text
+- 51813 Blackrock Depths [Allies of the Alliance: Dark Iron Dwarf]: no offer-reward text
+- 53342 Molten Core [Allies of the Alliance: Dark Iron Dwarf]: no offer-reward text
+- 53351 The MOTHERLODE!!: Ironfoe [Allies of the Alliance: Dark Iron Dwarf]: no offer-reward text
+- 53352 Firelands [Allies of the Alliance: Dark Iron Dwarf]: no offer-reward text
+- 51474 Forged in Fire an' Flame [Allies of the Alliance: Dark Iron Dwarf]: no offer-reward text
+- 53566 Dark Iron Dwarves [Allies of the Alliance: Dark Iron Dwarf]: no offer-reward text
+- 53502 Stranger in a Strange Land [Allies of the Horde]: no ender, no starter
+- 53028 A Dying World [The Heart of Azeroth]: no offer-reward text
+- 46333 Livin' on the Ledge [Class Mount: Demon Hunter]: no ender, no offer-reward text
+- 46334 To Fel and Back [Class Mount: Demon Hunter]: no offer-reward text
+- 46791 Carried On the Wind [Class Mount: Shaman]: no offer-reward text
+- 46792 Gathering of the Storms [Class Mount: Shaman]: no ender, no offer-reward text, no starter
+- 45788 The Speaker Awaits [Class Mount: Priest]: giver 118537 not spawned, no ender, no offer-reward text
+- 45789 The Sunken Vault [Class Mount: Priest]: no ender, no offer-reward text, no starter
+- 46317 Talon's Call [Class Mount: Druid]: no offer-reward text
+- 46318 Defense of Aviana [Class Mount: Druid]: no offer-reward text
+- 46319 You Can't Take the Sky from Me [Class Mount: Druid]: giver 120947 not spawned, no offer-reward text
+- 46336 A Golden Ticket [Class Mount: Hunter]: no ender, no offer-reward text
+- 46337 Night of the Wilds [Class Mount: Hunter]: no ender, no offer-reward text, no starter
+- 46103 Dread Infiltrators [Class Mount: Rogue]: no ender, no offer-reward text
+- 46089 Hiding In Plain Sight [Class Mount: Rogue]: no ender, no offer-reward text, no starter
+- 46178 Hiding In Plain Sight [Class Mount: Rogue]: no ender, no offer-reward text, no starter
+- 47332 Your Next Move [Zandalar Zone Choice]: no ender, no offer-reward text, no starter
+- 49766 Your Next Move [Zandalar Zone Choice]: no ender, no offer-reward text, no starter
+- 49767 Your Next Move [Zandalar Zone Choice]: no ender, no offer-reward text, no starter
+- 47200 Ticks [Blood Gate]: no offer-reward text
+- 47198 They Want Us Alive [Blood Gate]: no offer-reward text
+- 47201 Rokhan [Blood Gate]: no offer-reward text
+- 47204 The New Frontline [Blood Gate]: no offer-reward text
+- 47205 Warmother [Blood Gate]: no offer-reward text
+- 47229 Bulwark of Torcali [Blood Gate]: no offer-reward text
+- 53870 Guests at Grommash Hold [Allies of the Horde: Vulpera]: no offer-reward text
+- 53889 A Declaration of Intent [Allies of the Horde: Vulpera]: no offer-reward text
+- 53890 New Allies, New Problems [Allies of the Horde: Vulpera]: no offer-reward text
+- 53891 No Problem Too Small [Allies of the Horde: Vulpera]: no offer-reward text
+- 53892 Where Are the Workers? [Allies of the Horde: Vulpera]: no offer-reward text
+- 53893 A Little Goodwill [Allies of the Horde: Vulpera]: no offer-reward text
+- 53894 Worthwhile Repairs [Allies of the Horde: Vulpera]: no offer-reward text
+- 53895 Peon Promotions! [Allies of the Horde: Vulpera]: no offer-reward text
+- 53897 A Party in Your Honor [Allies of the Horde: Vulpera]: no offer-reward text
+- 53898 Strength and Honor [Allies of the Horde: Vulpera]: no offer-reward text
+- 54026 Job's Done [Allies of the Horde: Vulpera]: no offer-reward text
+- 53899 On the Outskirts [Allies of the Horde: Vulpera]: no offer-reward text
+- 53901 Explosions Always Work [Allies of the Horde: Vulpera]: no offer-reward text
+- 53900 We'll Use Their Weapons [Allies of the Horde: Vulpera]: no offer-reward text
+- 58087 Destroying the Source [Allies of the Horde: Vulpera]: no offer-reward text
+- 53902 Taking Out the Tidecaller [Allies of the Horde: Vulpera]: giver 158672 not spawned, no offer-reward text
+- 54027 Threat Contained [Allies of the Horde: Vulpera]: giver 158672 not spawned, no offer-reward text
+- 53903 Meet with Meerah [Allies of the Horde: Vulpera]: no offer-reward text
+- 53904 The Vintner's Assistants [Allies of the Horde: Vulpera]: no offer-reward text
+- 53905 Playing to Their Strengths [Allies of the Horde: Vulpera]: no offer-reward text
+- 54036 A Particular Process [Allies of the Horde: Vulpera]: no offer-reward text
+- 53906 Fermented for the Horde [Allies of the Horde: Vulpera]: no offer-reward text
+- 53907 Sip and Savor [Allies of the Horde: Vulpera]: no offer-reward text
+- 53908 Awaiting Our Arrival [Allies of the Horde: Vulpera]: no offer-reward text
+- 57448 New Allies Among Us [Allies of the Horde: Vulpera]: no offer-reward text
+- 53847 On Whispered Winds [In Darkest Night]: no offer-reward text
+- 53849 Waning Hope [In Darkest Night]: no offer-reward text
+- 53988 Shores of Fate [In Darkest Night]: no offer-reward text
+- 53989 Hope [In Darkest Night]: no offer-reward text
+- 54041 No Survivors [In Darkest Night]: no offer-reward text
+- 53990 In Darkest Night [In Darkest Night]: no offer-reward text, no starter
+- 54871 We Are Coming [In Darkest Night]: no offer-reward text
+- 53992 Warfront: The Battle for Darkshore [In Darkest Night]: no offer-reward text
+- 54006 A New Hope [In Darkest Night]: no ender, no offer-reward text, no starter
+- 54097 The Dark Lady Calls [Lost Honor]: no offer-reward text
+- 54099 The High Overlord [Lost Honor]: no offer-reward text
+- 54100 A Way Out [Lost Honor]: no offer-reward text
+- 54101 On Track [Lost Honor]: no offer-reward text
+- 54102 Eastern Escape [Lost Honor]: no offer-reward text
+- 54103 Corner Crossing [Lost Honor]: no offer-reward text
+- 54104 Signs of Saurfang [Lost Honor]: no offer-reward text
+- 54105 Ever Eastward [Lost Honor]: no offer-reward text
+- 54106 Tracking Tipoff [Lost Honor]: no offer-reward text
+- 54107 Grim Tidings [Lost Honor]: no ender, no offer-reward text
+- 54754 For the Queen [Lost Honor]: no offer-reward text
+- 54108 A Warrior's Death [Lost Honor]: no ender, no offer-reward text, no starter
+- 54109 Queen's Favor [Lost Honor]: no offer-reward text, no starter
+- 54141 The Azsharan Medallion [Crucible of Storms]: no offer-reward text
+- 54172 The Azsharan Medallion [Crucible of Storms]: no offer-reward text, no starter
+- 54144 Orders from Azshara [Crucible of Storms]: no offer-reward text
+- 54174 Orders from Azshara [Crucible of Storms]: no offer-reward text
+- 54265 Orders from Azshara [Crucible of Storms]: no offer-reward text
+- 54433 Orders from Azshara [Crucible of Storms]: no offer-reward text
+- 54113 Every Little Death Helps [Crucible of Storms]: no offer-reward text
+- 54114 Every Little Death Helps [Crucible of Storms]: no offer-reward text
+- 54117 Every Little Death Helps [Crucible of Storms]: no offer-reward text
+- 53760 Unintended Consequences [Crucible of Storms]: no offer-reward text
+- 54126 Twist the Knife [Crucible of Storms]: no offer-reward text
+- 53765 His Eye Upon You [Crucible of Storms]: no offer-reward text
+- 53766 His Eye Upon You [Crucible of Storms]: no offer-reward text
+- 54438 Crucible of Storms: Relics of Shadow [Crucible of Storms]: no offer-reward text
+- 54439 Crucible of Storms: Relics of Shadow [Crucible of Storms]: no offer-reward text
+- 54682 The Missing Blade [Crucible of Storms]: no ender, no offer-reward text
+- 54683 The Black Blade [Crucible of Storms]: no ender, no offer-reward text
+- 53838 Keep Yer Feet On The Ground [Dwarven Heritage Armor]: no offer-reward text, no starter
+- 53835 Something Valuable, Perhaps? [Dwarven Heritage Armor]: no ender, no offer-reward text
+- 53836 Ancient Armor, Ancient Mystery [Dwarven Heritage Armor]: no ender, no offer-reward text, no starter
+- 53837 Watch Yer Back [Dwarven Heritage Armor]: no ender, no offer-reward text, no starter
+- 53839 Aegrim's Study [Dwarven Heritage Armor]: no offer-reward text, no starter
+- 53841 Shards of the Past [Dwarven Heritage Armor]: no ender, no offer-reward text
+- 53840 Interest Yah In A Pint? [Dwarven Heritage Armor]: no ender, no offer-reward text, no starter
+- 53844 Recruiting the Furnace Master [Dwarven Heritage Armor]: no ender, no offer-reward text, no starter
+- 53842 Earthen Blessing [Dwarven Heritage Armor]: no ender, no offer-reward text, no starter
+- 53845 Forging the Armor [Dwarven Heritage Armor]: no ender, no offer-reward text, no starter
+- 53846 Legacy of the Bronzebeard [Dwarven Heritage Armor]: no ender, no offer-reward text, no starter
+- 53774 Wisdom of the Warchief [The Shadow Hunter]: no offer-reward text
+- 53775 Shades of Disruption [The Shadow Hunter]: no offer-reward text
+- 53776 To the Broken Shore [The Shadow Hunter]: no offer-reward text
+- 53778 Where He Fell [The Shadow Hunter]: no offer-reward text
+- 54120 To Orgrimmar [The Shadow Hunter]: no offer-reward text
+- 53777 Where He Died [The Shadow Hunter]: no offer-reward text
+- 53779 The Lies of a Loa [The Shadow Hunter]: no offer-reward text
+- 54145 The Loa of Death [The Shadow Hunter]: no offer-reward text
+- 53781 Eyir [The Shadow Hunter]: no offer-reward text
+- 54147 Confront The Val'kyr [The Shadow Hunter]: no offer-reward text
+- 53780 Jailor of the Damned [The Shadow Hunter]: no offer-reward text
+- 53782 Mysteries of Death [The Shadow Hunter]: no offer-reward text
+- 54192 Sensitive Intel [Serious Monkey Business]: no offer-reward text
+- 54193 This is Huge! [Serious Monkey Business]: no offer-reward text
+- 54194 Real Big Power [Serious Monkey Business]: no offer-reward text
+- 54195 A Beast with Brains [Serious Monkey Business]: no offer-reward text
+- 54196 Out of Options [Serious Monkey Business]: no offer-reward text
+- 54197 Freedom for the Da'kani [Serious Monkey Business]: no offer-reward text
+- 54198 Bittersweet Goodbyes [Serious Monkey Business]: no offer-reward text
+- 54199 The Needs of the Many [Serious Monkey Business]: no offer-reward text
+- 54200 Bring the Base [Serious Monkey Business]: no offer-reward text
+- 54201 Fit for Grong [Serious Monkey Business]: no offer-reward text
+- 54202 Calibrate the Core [Serious Monkey Business]: no offer-reward text
+- 54203 The Embiggining [Serious Monkey Business]: no offer-reward text
+- 54204 Total Temple Destruction [Serious Monkey Business]: no offer-reward text
+- 54205 A Nice Nap [Serious Monkey Business]: no offer-reward text
+- 54206 The Sleeper Agent [Serious Monkey Business]: no offer-reward text
+- 54191 Changing Course [Serious Monkey Business]: no offer-reward text, no starter
+- 53791 The Pride of the Sin'dorei [Blood Elf Heritage Armor]: no ender, no offer-reward text, no starter
+- 53734 Walk Among Ghosts [Blood Elf Heritage Armor]: no ender, no offer-reward text, no starter
+- 53882 Writing on the Wall [Blood Elf Heritage Armor]: no ender, no offer-reward text, no starter
+- 53735 The First to Fall [Blood Elf Heritage Armor]: no ender, no offer-reward text, no starter
+- 53736 Lament of the Highborne [Blood Elf Heritage Armor]: no ender, no offer-reward text, no starter
+- 53737 The Day Hope Died [Blood Elf Heritage Armor]: no ender, no offer-reward text, no starter
+- 53738 Defense of Quel'Danas [Blood Elf Heritage Armor]: no ender, no offer-reward text, no starter
+- 53853 The Setting Sun [Blood Elf Heritage Armor]: no ender, no offer-reward text, no starter
+- 53725 A People Shattered [Blood Elf Heritage Armor]: no ender, no offer-reward text, no starter
+- 54096 The Fall of the Sunwell [Blood Elf Heritage Armor]: no ender, no offer-reward text, no starter
+- 53096 Short-Supply Reward [Rated Mount Reward]: no ender, no offer-reward text, no starter
+- 54255 Short-Supply Reward [Rated Mount Reward]: no ender, no offer-reward text, no starter
+- 54256 Short-Supply Reward [Rated Mount Reward]: no ender, no offer-reward text, no starter
+- 57225 Short-Supply Reward [Rated Mount Reward]: no ender, no offer-reward text, no starter
+- 57226 Short-Supply Reward [Rated Mount Reward]: no ender, no offer-reward text, no starter
+- 59174 Short-Supply Reward [Rated Mount Reward]: no ender, no offer-reward text, no starter
+- 62727 9.0 Rated PvP Incentive - Shadowlands Season 1 Exclusive Mount [Rated Mount Reward]: no ender, no offer-reward text, no starter
+- 64784 9.0 Rated PvP Incentive - Shadowlands Season 2 Exclusive Mount [Rated Mount Reward]: no ender, no offer-reward text, no starter
+- 53851 Our War Continues [Norwington Assault]: no offer-reward text, no starter
+- 53852 Azerite Denied [Norwington Assault]: no offer-reward text
+- 53856 The Fury of the Horde [Norwington Assault]: no offer-reward text
+- 53879 Cleaning Out the Estate [Norwington Assault]: no offer-reward text
+- 53880 Machines of War and Azerite [Norwington Assault]: no offer-reward text
+- 53884 None [Norwington Assault]: MISSING quest_template
+- 53912 The Hunt Never Ends [Norwington Assault]: no offer-reward text
+- 53913 With Honor [Norwington Assault]: no offer-reward text
+- 53973 Ride Out to Meet Them [Norwington Assault]: no offer-reward text
+- 53981 The Day is Won [Norwington Assault]: no offer-reward text
+- 53941 A Mech for a Goblin [Adventures of Gallywix and the G.M.O.D.]: no offer-reward text
+- 54123 It Belongs in My Mech! [Adventures of Gallywix and the G.M.O.D.]: no offer-reward text
+- 54124 Avoiding Lawsuits 101 [Adventures of Gallywix and the G.M.O.D.]: no offer-reward text
+- 53942 The Right Mech for the Job [Adventures of Gallywix and the G.M.O.D.]: no offer-reward text
+- 54128 Necessary Precautions [Adventures of Gallywix and the G.M.O.D.]: no offer-reward text
+- 54004 Test Case #1; Mech vs. Mekkatorque [Adventures of Gallywix and the G.M.O.D.]: no offer-reward text
+- 54007 Insurance Policy [Adventures of Gallywix and the G.M.O.D.]: no offer-reward text
+- 54008 Insurance Renewal [Adventures of Gallywix and the G.M.O.D.]: no offer-reward text
+- 54009 Killing on the Side [Adventures of Gallywix and the G.M.O.D.]: no offer-reward text
+- 54022 Mekkatorque's Battle Plans [Adventures of Gallywix and the G.M.O.D.]: no offer-reward text, no starter
+- 54028 Mech versus Airship [Adventures of Gallywix and the G.M.O.D.]: no offer-reward text
+- 54094 A Goblin's Definition of Success [Adventures of Gallywix and the G.M.O.D.]: no offer-reward text
+- 54635 Mekkatorque's Battle Plans [Adventures of Gallywix and the G.M.O.D.]: no offer-reward text
+- 54139 War Is Here [The Fury of the Zandalari]: no offer-reward text
+- 54140 Ride of the Zandalari [The Fury of the Zandalari]: no offer-reward text
+- 54156 A Path of Blood [The Fury of the Zandalari]: no offer-reward text
+- 54157 No One Left Behind [The Fury of the Zandalari]: no offer-reward text
+- 54207 Retaking the Outpost [The Fury of the Zandalari]: no offer-reward text
+- 54208 Minesweeper [The Fury of the Zandalari]: no offer-reward text
+- 54211 Putting the Gob in Gob Squad [The Fury of the Zandalari]: no offer-reward text
+- 54212 Re-rebuilding the A.F.M.O.D. [The Fury of the Zandalari]: no offer-reward text
+- 54213 It's Alive! [The Fury of the Zandalari]: no offer-reward text
+- 54224 The Battle of Zul'jan Ruins [The Fury of the Zandalari]: no offer-reward text
+- 54244 We Have Them Cornered [The Fury of the Zandalari]: no offer-reward text
+- 54249 Zandalari Justice [The Fury of the Zandalari]: no offer-reward text
+- 54269 None Shall Escape [The Fury of the Zandalari]: no offer-reward text
+- 54270 Breaking Mirrors [The Fury of the Zandalari]: no offer-reward text
+- 54271 Telaamon's Purge [The Fury of the Zandalari]: no offer-reward text
+- 54275 Parting Mists [The Fury of the Zandalari]: no offer-reward text
+- 54280 Fly Out to Meet Them [The Fury of the Zandalari]: no offer-reward text
+- 54164 The King's Death [Diverging Paths]: no offer-reward text
+- 54165 The Return of Derek Proudmoore [Diverging Paths]: no offer-reward text
+- 53986 The Calm Before [Beware the Daughter of the Sea]: no offer-reward text
+- 53888 To Anglepoint [Beware the Daughter of the Sea]: no offer-reward text
+- 53896 Stand Fast [Beware the Daughter of the Sea]: no offer-reward text
+- 53909 Besieged Allies [Beware the Daughter of the Sea]: no offer-reward text
+- 53910 Repel the Horde! [Beware the Daughter of the Sea]: no offer-reward text
+- 54518 Zero Zeppelins [Beware the Daughter of the Sea]: no offer-reward text
+- 54519 Squad Goals [Beware the Daughter of the Sea]: no offer-reward text
+- 53916 Outrigger Outfitters [Beware the Daughter of the Sea]: no offer-reward text
+- 53978 Gunpowder Plots [Beware the Daughter of the Sea]: no offer-reward text
+- 54559 Free Plumeria! [Beware the Daughter of the Sea]: no offer-reward text
+- 54787 Masking For a Friend [Beware the Daughter of the Sea]: no offer-reward text
+- 53919 Shots Fired [Beware the Daughter of the Sea]: no offer-reward text
+- 53936 Stopping the Sappers [Beware the Daughter of the Sea]: no offer-reward text
+- 54703 Express Delivery [Beware the Daughter of the Sea]: no offer-reward text
+- 53887 War Marches On [Beware the Daughter of the Sea]: no offer-reward text
+- 54171 The Abyssal Scepter [The Treasury Heist]: no offer-reward text
+- 54169 The Treasury Heist [The Treasury Heist]: no offer-reward text
+- 54510 Mischief Managed [The Treasury Heist]: no offer-reward text
+- 54302 The Fall of Zuldazar [Fog of War]: no offer-reward text
+- 54303 The March to Nazmir [Fog of War]: no offer-reward text
+- 54310 Repurposing Their Village [Fog of War]: no offer-reward text
+- 54404 Dark Iron Machinations [Fog of War]: no offer-reward text
+- 54312 Fog of War [Fog of War]: no offer-reward text
+- 54407 Lurking in the Swamp [Fog of War]: no offer-reward text
+- 54412 Zul'jan Deluge [Fog of War]: no offer-reward text
+- 54417 Showing Our Might [Fog of War]: no offer-reward text
+- 54418 The Mech of Death [Fog of War]: no offer-reward text
+- 54421 Taming their Beasts [Fog of War]: no offer-reward text
+- 54441 Taking the Blood Gate [Fog of War]: no offer-reward text
+- 54459 He Who Walks in the Light [Fog of War]: no offer-reward text
+- 54163 As the Dust Settles [The Price of Victory]: no offer-reward text
+- 54183 Dead Reckoning [The Price of Victory]: no offer-reward text
+- 54042 Trouble in Darkshore [In Darkest Night]: no offer-reward text
+- 54044 Black Moon Rising [In Darkest Night]: no offer-reward text
+- 54043 Dark Ranger Round-Up [In Darkest Night]: no offer-reward text
+- 54045 Quit Vining! [In Darkest Night]: no offer-reward text
+- 54046 We're Not Out of the Woods Yet [In Darkest Night]: no offer-reward text
+- 54059 The Night Warrior [In Darkest Night]: no offer-reward text
+- 54047 Where Hope Dies [In Darkest Night]: no offer-reward text
+- 54049 The Dead of Night [In Darkest Night]: no offer-reward text
+- 54050 Aftermath [In Darkest Night]: no offer-reward text
+- 54416 Warfront Preparations [In Darkest Night]: no offer-reward text
+- 53955 Warfront: The Battle for Darkshore [In Darkest Night]: no offer-reward text
+- 54402 Shifting Gears [Gnome Heritage Armor]: no ender, no offer-reward text, no starter
+- 54576 Gnomeregan's Finest [Gnome Heritage Armor]: no ender, no offer-reward text, no starter
+- 54577 Shadowed Halls and Dusty Cogs [Gnome Heritage Armor]: no ender, no offer-reward text, no starter
+- 54580 A Tundra Conundrum [Gnome Heritage Armor]: no ender, no offer-reward text, no starter
+- 54581 Now With More Mechanical Fowl [Gnome Heritage Armor]: no ender, no offer-reward text, no starter
+- 54582 Smarter Than Your Average Trogg [Gnome Heritage Armor]: no ender, no offer-reward text, no starter
+- 54639 A Signal in Storm Peaks [Gnome Heritage Armor]: no ender, no offer-reward text, no starter
+- 54640 Gnomercy! [Gnome Heritage Armor]: no ender, no offer-reward text, no starter
+- 54850 Operation: Troggageddon [Gnome Heritage Armor]: no ender, no offer-reward text, no starter
+- 54641 For Gnomeregan! [Gnome Heritage Armor]: no ender, no offer-reward text, no starter
+- 54642 G.E.A.R. Up [Gnome Heritage Armor]: no ender, no offer-reward text, no starter
+- 54759 When Spirits Whisper [Tauren Heritage]: no ender, no offer-reward text, no starter
+- 54760 The Spiritwalkers [Tauren Heritage]: no ender, no offer-reward text, no starter
+- 54761 Spirit Guide [Tauren Heritage]: no ender, no offer-reward text, no starter
+- 54762 A Small Retreat [Tauren Heritage]: no ender, no offer-reward text, no starter
+- 54763 Crossing Over [Tauren Heritage]: no ender, no offer-reward text, no starter
+- 54764 Storm in Bloodhoof [Tauren Heritage]: no ender, no offer-reward text, no starter
+- 54766 Answer the Call [Tauren Heritage]: no ender, no offer-reward text, no starter
+- 54765 Thank Your Guide [Tauren Heritage]: no offer-reward text, no starter
+- 54913 Spark of Genius [Never Hunt Alone]: no ender, no offer-reward text
+- 55516 Spark of Genius [Never Hunt Alone]: no ender, no offer-reward text
+- 54915 Telemetry Online [Never Hunt Alone]: no ender, no offer-reward text, no starter
+- 54916 The Huntsman's Creed [Never Hunt Alone]: no ender, no offer-reward text, no starter
+- 54917 Paid in Blood [Never Hunt Alone]: no ender, no offer-reward text, no starter
+- 54918 Spark of Imagination [Never Hunt Alone]: no ender, no offer-reward text, no starter
+- 54919 Bonds of Thunder [Never Hunt Alone]: no ender, no offer-reward text, no starter
+- 54920 Homeward Bound [Never Hunt Alone]: no ender, no offer-reward text, no starter
+- 55195 Reverberation [Never Hunt Alone]: no ender, no offer-reward text, no starter
+- 30173 War Pigs! [Francesco Test Quest Line]: giver 61665 not spawned, giver 66201 not spawned, no offer-reward text, no starter
+- 31694 Hisingen Blues [Francesco Test Quest Line]: giver 61665 not spawned, no offer-reward text, no starter
+- 47199 The Blood Gate [Blood Gate]: no offer-reward text
+- 54938 A Brother's Help [The Speaker's Resolve]: no offer-reward text
+- 54939 Stubborn as a Bronzebeard [The Speaker's Resolve]: no offer-reward text
+- 54940 Necessity is the MOTHER [The Speaker's Resolve]: no offer-reward text
+- 54964 A One-Way Ticket to the Heart [The Speaker's Resolve]: no offer-reward text
+- 55031 It's Scrap Work... [Tools of the Trade: The Ub3r-Spanner]: no offer-reward text
+- 53783 In the Dunes [Tools of the Trade: The Ub3r-Spanner]: no offer-reward text
+- 53802 Sethrak Persuasion [Tools of the Trade: The Ub3r-Spanner]: no offer-reward text
+- 54930 Mechanical Liberation [Tools of the Trade: The Ub3r-Spanner]: no offer-reward text
+- 53806 Heavy is the Head [Tools of the Trade: The Ub3r-Spanner]: no offer-reward text
+- 53848 Tooling Around Vol'dun [Tools of the Trade: The Ub3r-Spanner]: no offer-reward text
+- 53833 Vengeful Venture [Tools of the Trade: The Ub3r-Spanner]: no offer-reward text
+- 53937 The Ub3r-Spanner [Tools of the Trade: The Ub3r-Spanner]: no offer-reward text
+- 55028 It's Scrap Work... [Tools of the Trade: The Ub3r-Spanner]: no offer-reward text
+- 53947 In the Dunes [Tools of the Trade: The Ub3r-Spanner]: no offer-reward text
+- 53802 Sethrak Persuasion [Tools of the Trade: The Ub3r-Spanner]: no offer-reward text
+- 54930 Mechanical Liberation [Tools of the Trade: The Ub3r-Spanner]: no offer-reward text
+- 53806 Heavy is the Head [Tools of the Trade: The Ub3r-Spanner]: no offer-reward text
+- 53848 Tooling Around Vol'dun [Tools of the Trade: The Ub3r-Spanner]: no offer-reward text
+- 53948 Vengeful Venture [Tools of the Trade: The Ub3r-Spanner]: no offer-reward text
+- 53949 The Ub3r-Spanner [Tools of the Trade: The Ub3r-Spanner]: no offer-reward text
+- 54121 Breaking Out Ashvane [Escape from Tol Dagor]: no offer-reward text
+- 54175 Face Your Enemy [Escape from Tol Dagor]: no offer-reward text
+- 54176 Be More Uniform [Escape from Tol Dagor]: no offer-reward text
+- 54177 A Brilliant Distraction [Escape from Tol Dagor]: no offer-reward text
+- 54178 Catching a Ride [Escape from Tol Dagor]: no offer-reward text
+- 54179 Through the Front Door [Escape from Tol Dagor]: no offer-reward text
+- 55047 Securing Warfang Hold [Dark Consequences]: no offer-reward text
+- 55052 Securing Warfang Hold [Dark Consequences]: no offer-reward text
+- 55048 Spy Games [Dark Consequences]: no offer-reward text
+- 55049 Communication Breakdown [Dark Consequences]: no offer-reward text
+- 55050 Tickets, Please? [Dark Consequences]: no offer-reward text
+- 55051 A Display of Power [Dark Consequences]: no offer-reward text
+- 54961 Righting Wrongs [Testing Loyalties]: no offer-reward text
+- 55124 Righting Wrongs [Testing Loyalties]: no offer-reward text
+- 54958 Ships in the Night [Testing Loyalties]: no offer-reward text
+- 54959 Under Lock and Keys [Testing Loyalties]: no offer-reward text
+- 54997 Dead in the Water [Testing Loyalties]: no offer-reward text
+- 54960 A Bitter Reunion [Testing Loyalties]: no offer-reward text
+- 55034 Under False Colors [Testing Loyalties]: no offer-reward text
+- 54999 Under False Colors [Testing Loyalties]: no offer-reward text
+- 54943 The Dark Ranger's Pupil [Memento of the Dark Rangers]: no ender, no offer-reward text, no starter
+- 54944 The Dark Ranger's Pupil [Memento of the Dark Rangers]: no ender, no offer-reward text, no starter
+- 54954 None [Memento of the Dark Rangers]: MISSING quest_template
+- 54955 None [Memento of the Dark Rangers]: MISSING quest_template
+- 54956 None [Memento of the Dark Rangers]: MISSING quest_template
+- 54957 None [Memento of the Dark Rangers]: MISSING quest_template
+- 49570 A Rocky Start [8.1.5 Jewelcrafting - Alliance]: no offer-reward text
+- 49571 Digging Through the Past [8.1.5 Jewelcrafting - Alliance]: no offer-reward text
+- 49574 The Shrine of Storms [8.1.5 Jewelcrafting - Alliance]: no offer-reward text
+- 49577 Cracking the Surface [8.1.5 Jewelcrafting - Alliance]: no offer-reward text
+- 55585 A Promising Beginning [8.1.5 Jewelcrafting - Alliance]: no offer-reward text
+- 49573 The Shrine of the Eventide [8.1.5 Jewelcrafting - Alliance]: no offer-reward text
+- 49576 High Prospects [8.1.5 Jewelcrafting - Alliance]: no offer-reward text
+- 55586 Polished Up [8.1.5 Jewelcrafting - Alliance]: no offer-reward text
+- 49572 The Shrine of the Sea [8.1.5 Jewelcrafting - Alliance]: no offer-reward text
+- 49575 Tol Dagor: Jewel of the Tides [8.1.5 Jewelcrafting - Alliance]: no offer-reward text
+- 55590 Setting Things Right [8.1.5 Jewelcrafting - Alliance]: no offer-reward text
+- 49584 The Missing Chapter [8.1.5 Jewelcrafting - Alliance]: no offer-reward text
+- 49585 A Rocky Start [8.1.5 Jewelcrafting - Horde]: no offer-reward text
+- 49586 Digging Through the Past [8.1.5 Jewelcrafting - Horde]: no offer-reward text
+- 49589 The Shrine of the Dawning [8.1.5 Jewelcrafting - Horde]: no offer-reward text
+- 49583 Out With the Old [8.1.5 Jewelcrafting - Horde]: no offer-reward text
+- 55592 A Promising Beginning [8.1.5 Jewelcrafting - Horde]: no offer-reward text
+- 49588 The Shrine of the Sands [8.1.5 Jewelcrafting - Horde]: no offer-reward text
+- 49581 Sun-Speckled Dunes [8.1.5 Jewelcrafting - Horde]: no offer-reward text
+- 55594 Polished Up [8.1.5 Jewelcrafting - Horde]: no offer-reward text
+- 49587 The Shrine of Nature [8.1.5 Jewelcrafting - Horde]: no offer-reward text
+- 49582 Atal'Dazar: Not All That Glitters... [8.1.5 Jewelcrafting - Horde]: no offer-reward text
+- 55596 Setting Things Right [8.1.5 Jewelcrafting - Horde]: no offer-reward text
+- 49599 The Missing Chapter [8.1.5 Jewelcrafting - Horde]: no offer-reward text
+- 50123 A Recipe For the Ages [8.1.5 Blacksmithing - Alliance]: no offer-reward text
+- 50114 Hammering Out Information [8.1.5 Blacksmithing - Alliance]: no offer-reward text
+- 50270 Deep In the Core [8.1.5 Blacksmithing - Alliance]: no offer-reward text
+- 50275 Anvil's Away [8.1.5 Blacksmithing - Alliance]: no offer-reward text
+- 50276 A Recipe For the Ages [8.1.5 Blacksmithing - Horde]: no offer-reward text
+- 50277 Hammering Out Information [8.1.5 Blacksmithing - Horde]: no offer-reward text
+- 50278 Deep In the Core [8.1.5 Blacksmithing - Horde]: no offer-reward text
+- 50279 Anvil's Away [8.1.5 Blacksmithing - Horde]: no offer-reward text
+- 50271 Smash and Grab [8.1.5 Blacksmithing - Alliance/Horde]: no offer-reward text
+- 50272 An Ear to the Ground [8.1.5 Blacksmithing - Alliance/Horde]: no offer-reward text
+- 50274 Titanic Forging [8.1.5 Blacksmithing - Alliance/Horde]: no offer-reward text
+- 50288 Therazane's Choice [8.1.5 Blacksmithing - Alliance/Horde]: no offer-reward text
+- 50121 Casting the First Stone [8.1.5 Alchemy - Alliance]: no offer-reward text
+- 50122 Ocular Extracts [8.1.5 Alchemy - Alliance]: no offer-reward text
+- 50124 Changing the Scenery [8.1.5 Alchemy - Alliance]: no offer-reward text
+- 50125 A Possible Solution [8.1.5 Alchemy - Alliance]: no offer-reward text
+- 50126 A Deathly Draught [8.1.5 Alchemy - Alliance]: no offer-reward text
+- 50127 A Stone's Throw [8.1.5 Alchemy - Alliance]: no offer-reward text
+- 50128 Chemically Compounded [8.1.5 Alchemy - Alliance]: no offer-reward text
+- 50129 A Recipe for Success [8.1.5 Alchemy - Alliance]: no offer-reward text
+- 50112 Casting the First Stone [8.1.5 Alchemy - Horde]: no offer-reward text
+- 50113 Ocular Extracts [8.1.5 Alchemy - Horde]: no offer-reward text
+- 50115 Changing the Scenery [8.1.5 Alchemy - Horde]: no offer-reward text
+- 50116 A Possible Solution [8.1.5 Alchemy - Horde]: no offer-reward text
+- 50117 A Deathly Draught [8.1.5 Alchemy - Horde]: no offer-reward text
+- 50118 A Stone's Throw [8.1.5 Alchemy - Horde]: no offer-reward text
+- 50119 Chemically Compounded [8.1.5 Alchemy - Horde]: no offer-reward text
+- 50120 A Recipe for Success [8.1.5 Alchemy - Horde]: no offer-reward text
+- 40537 Drawing Blood [8.1.5 Inscription - Alliance]: no offer-reward text
+- 49694 Turn to Drust [8.1.5 Inscription - Alliance]: no offer-reward text
+- 49876 Lines In the Sand [8.1.5 Inscription - Alliance]: no offer-reward text
+- 49943 Drawing Blood [8.1.5 Inscription - Horde]: no offer-reward text
+- 49944 Turn to Drust [8.1.5 Inscription - Horde]: no offer-reward text
+- 49946 Lines In the Sand [8.1.5 Inscription - Horde]: no offer-reward text
+- 49873 Sacrificial Writes [8.1.5 Inscription - Alliance/Horde]: no offer-reward text
+- 49874 By the Book [8.1.5 Inscription - Alliance/Horde]: no offer-reward text
+- 49877 Temple of Sethraliss: Booking on a Favor [8.1.5 Inscription - Alliance/Horde]: no offer-reward text
+- 49878 Penning In Protection [8.1.5 Inscription - Alliance/Horde]: no offer-reward text
+- 49879 Brush With Death [8.1.5 Inscription - Alliance/Horde]: no offer-reward text
+- 49881 The Final Verse [8.1.5 Inscription - Alliance/Horde]: no offer-reward text
+- 49882 A Test of Quills [8.1.5 Inscription - Alliance/Horde]: no offer-reward text
+- 53805 A Friend in Needle [8.1.5 Tailoring - Alliance]: no offer-reward text
+- 53807 A Stitch in Time [8.1.5 Tailoring - Alliance]: no offer-reward text
+- 55177 Tearing at the Seams [8.1.5 Tailoring - Alliance]: no offer-reward text
+- 53881 Cut from the Same Cloth [8.1.5 Tailoring - Alliance]: no ender, no offer-reward text
+- 53938 A Friend in Needle [8.1.5 Tailoring - Horde]: no offer-reward text
+- 53940 A Stitch in Time [8.1.5 Tailoring - Horde]: no offer-reward text
+- 55188 Tearing at the Seams [8.1.5 Tailoring - Horde]: no offer-reward text
+- 53962 Cut from the Same Cloth [8.1.5 Tailoring - Horde]: no offer-reward text
+- 53810 The Severed Thread [8.1.5 Tailoring - Alliance/Horde]: no offer-reward text
+- 53813 Rolling Up the Sleeves [8.1.5 Tailoring - Alliance/Horde]: no offer-reward text
+- 53858 Step Into Her Shoes [8.1.5 Tailoring - Alliance/Horde]: no offer-reward text
+- 53866 If The Shoe Fits... [8.1.5 Tailoring - Alliance/Horde]: no offer-reward text
+- 55214 Seam Stress [8.1.5 Tailoring - Alliance/Horde]: no offer-reward text
+- 53868 Saving Nine [8.1.5 Tailoring - Alliance/Horde]: no offer-reward text
+- 53869 Killing Time [8.1.5 Tailoring - Alliance/Horde]: no offer-reward text
+- 55227 The Aeonian Artisan [8.1.5 Leatherworking - Alliance]: no offer-reward text
+- 55228 The Audition [8.1.5 Leatherworking - Alliance]: no offer-reward text
+- 55233 Picking Bones [8.1.5 Leatherworking - Alliance]: no offer-reward text
+- 55234 Make Some Noise [8.1.5 Leatherworking - Alliance]: no offer-reward text
+- 55235 Instruments of Destruction [8.1.5 Leatherworking - Alliance]: no offer-reward text
+- 53995 The Tauren Tanner [8.1.5 Leatherworking - Horde]: no offer-reward text
+- 55216 The Audition [8.1.5 Leatherworking - Horde]: no offer-reward text
+- 55221 Picking Bones [8.1.5 Leatherworking - Horde]: no offer-reward text
+- 55222 Make Some Noise [8.1.5 Leatherworking - Horde]: no offer-reward text
+- 55223 Instruments of Destruction [8.1.5 Leatherworking - Horde]: no offer-reward text
+- 54005 What the Drust Knew [8.1.5 Enchanting - Alliance]: no offer-reward text
+- 53993 A Voice on the Wind [8.1.5 Enchanting - Alliance]: no offer-reward text
+- 54161 What the Drust Knew [8.1.5 Enchanting - Horde]: no offer-reward text
+- 55635 A Voice on the Wind [8.1.5 Enchanting - Horde]: no offer-reward text
+- 53996 Pick Up Sticks [8.1.5 Enchanting - Alliance/Horde]: no offer-reward text
+- 53997 The Sixth Sense [8.1.5 Enchanting - Alliance/Horde]: no offer-reward text
+- 53998 Exhumed [8.1.5 Enchanting - Alliance/Horde]: no offer-reward text
+- 53999 The Threads That Bind [8.1.5 Enchanting - Alliance/Horde]: no offer-reward text
+- 54000 The Beat Goes On [8.1.5 Enchanting - Alliance/Horde]: no offer-reward text
+- 54001 We're Going In [8.1.5 Enchanting - Alliance/Horde]: no offer-reward text
+- 54002 Putting It All Together [8.1.5 Enchanting - Alliance/Horde]: no offer-reward text
+- 55390 In Darkness, I Dream [The Stuff Dreams Are Made Of]: no offer-reward text
+- 55392 Enter the Dreamway [The Stuff Dreams Are Made Of]: no offer-reward text
+- 55394 Shards of Emerald [The Stuff Dreams Are Made Of]: no offer-reward text
+- 55393 Null the Void [The Stuff Dreams Are Made Of]: no offer-reward text
+- 55395 Don't Close Your Eyes [The Stuff Dreams Are Made Of]: no offer-reward text
+- 55465 We Must Go Deeper [The Stuff Dreams Are Made Of]: no offer-reward text
+- 55397 Before I Wake [The Stuff Dreams Are Made Of]: no offer-reward text
+- 55396 The Stuff Dreams Are Made Of [The Stuff Dreams Are Made Of]: no offer-reward text
+- 55398 The Long Awake [The Stuff Dreams Are Made Of]: no offer-reward text
+- 54706 Made in Kul Tiras [Allies of the Alliance: Kul Tiran]: no offer-reward text
+- 55039 The Master Shipwright [Allies of the Alliance: Kul Tiran]: no offer-reward text
+- 55043 Fish Tales and Distant Sails [Allies of the Alliance: Kul Tiran]: no offer-reward text
+- 54708 Home, Home On the Range [Allies of the Alliance: Kul Tiran]: no offer-reward text
+- 54721 I'm Too Old for This Ship [Allies of the Alliance: Kul Tiran]: no offer-reward text
+- 54723 Covering Our Masts [Allies of the Alliance: Kul Tiran]: no offer-reward text
+- 54725 The Deep Ones [Allies of the Alliance: Kul Tiran]: no offer-reward text
+- 54726 Frame Work [Allies of the Alliance: Kul Tiran]: no offer-reward text
+- 54727 Team Carry [Allies of the Alliance: Kul Tiran]: no offer-reward text
+- 54728 This Lumber is Haunted [Allies of the Alliance: Kul Tiran]: no offer-reward text
+- 54729 The Bleak Hills [Allies of the Alliance: Kul Tiran]: no offer-reward text
+- 54732 Drop It! [Allies of the Alliance: Kul Tiran]: no offer-reward text
+- 55136 Her Dog Days Are Over [Allies of the Alliance: Kul Tiran]: no offer-reward text
+- 54733 Make it Wright [Allies of the Alliance: Kul Tiran]: no offer-reward text
+- 54730 Gorak Tul's Influence [Allies of the Alliance: Kul Tiran]: no offer-reward text
+- 54731 Balance in All Things [Allies of the Alliance: Kul Tiran]: no offer-reward text
+- 55138 Stranger in a Strange Land [Allies of the Horde]: no offer-reward text
+- 53831 A Royal Occasion [Allies of the Horde: Zandalari]: no offer-reward text
+- 53823 A Queen's Entourage [Allies of the Horde: Zandalari]: no offer-reward text
+- 53824 The Rite of Kings and Queens [Allies of the Horde: Zandalari]: no offer-reward text
+- 53826 The Instigator Among Us [Allies of the Horde: Zandalari]: no offer-reward text
+- 54419 Quelling the Masses [Allies of the Horde: Zandalari]: no offer-reward text
+- 54925 Heresy! [Allies of the Horde: Zandalari]: no offer-reward text
+- 54301 Talanji's Mercy [Allies of the Horde: Zandalari]: no offer-reward text
+- 54300 Breaking the Faith [Allies of the Horde: Zandalari]: no offer-reward text
+- 53825 The New Zanchuli Council [Allies of the Horde: Zandalari]: no offer-reward text
+- 53827 The Council Has Spoken [Allies of the Horde: Zandalari]: no offer-reward text
+- 53828 Gaze of the Loa [Allies of the Horde: Zandalari]: no offer-reward text
+- 54031 Gaze of the Loa: Krag'wa [Allies of the Horde: Zandalari]: no offer-reward text
+- 54033 Gaze of the Loa: Gonk [Allies of the Horde: Zandalari]: no offer-reward text
+- 54032 Gaze of the Loa: Pa'ku [Allies of the Horde: Zandalari]: no offer-reward text
+- 54034 Gaze of the Loa: Bwonsamdi [Allies of the Horde: Zandalari]: no offer-reward text
+- 53830 Queen of the Zandalari [Allies of the Horde: Zandalari]: no offer-reward text
+- 53719 Allegiance of the Zandalari [Allies of the Horde: Zandalari]: no offer-reward text
+- 55519 A Fresh Trauma [8.2 Heart - HoA Progression - Level I]: no offer-reward text
+- 55520 Healing Nordrassil [8.2 Heart - HoA Progression - Level I]: no offer-reward text
+- 55521 Do It the Azerite Way [8.2 Heart - HoA Progression - Level I]: no offer-reward text
+- 55118 Loose Ends [My Brother's Keeper]: no offer-reward text
+- 55033 Ashes to Ashvane [My Brother's Keeper]: no offer-reward text
+- 55117 Correspondence Conundrum [My Brother's Keeper]: no offer-reward text
+- 55116 Getting a Clue [My Brother's Keeper]: no offer-reward text
+- 55119 Reporting In! [My Brother's Keeper]: no offer-reward text
+- 55044 Don't Shoot the Messenger [My Brother's Keeper]: no offer-reward text
+- 55045 My Brother's Keeper [My Brother's Keeper]: no offer-reward text
+- 55171 Spy Versus Spy [The Gathering Storm]: no offer-reward text
+- 55087 The Gathering Storm [The Gathering Storm]: no offer-reward text
+- 55179 Retaliation Coordination [The Gathering Storm]: no offer-reward text
+- 55088 Lost in the Field [The Gathering Storm]: no offer-reward text
+- 55182 Reassembly Required [The Gathering Storm]: no offer-reward text
+- 55183 Seeking Higher Ground [The Gathering Storm]: no offer-reward text
+- 55185 Listen Up! [The Gathering Storm]: no offer-reward text
+- 55089 Shaw's Shank Redemption [The Gathering Storm]: no offer-reward text
+- 55090 A Gathering of Foes [The Gathering Storm]: no offer-reward text
+- 55851 Essential Empowerment [Empowering the Heart]: no offer-reward text
+- 55533 MOTHER Knows Best [Empowering the Heart]: no offer-reward text
+- 55374 A Disturbance Beneath the Earth [Empowering the Heart]: no offer-reward text
+- 55400 Take My Hand [Empowering the Heart]: no offer-reward text
+- 55407 Calming the Spine [Empowering the Heart]: no offer-reward text
+- 55425 Dominating the Indomitable [Empowering the Heart]: no offer-reward text
+- 55497 A Friendly Face [Empowering the Heart]: no offer-reward text
+- 55618 The Heart Forge [Empowering the Heart]: no offer-reward text
+- 57010 Harnessing the Power [Empowering the Heart]: no offer-reward text
+- 55298 Fishing For Something Bigger [Mechagon Fishing]: no offer-reward text
+- 55339 Tidying Up [Mechagon Fishing]: no offer-reward text
+- 55055 Build A Bigger Fish Trap [Mechagon Fishing]: no offer-reward text
+- 56305 Let's Fish! [Mechagon Fishing]: no offer-reward text
+- 55578 Tol Dagor: Jewel of the Tides [8.1.5 Jewelcrafting - Shrine of the Sea]: no ender, no offer-reward text, no starter
+- 55582 Atal'Dazar: Not All That Glitters... [8.1.5 Jewelcrafting - Shrine of Nature]: no offer-reward text
+- 55581 Sun-Speckled Dunes [8.1.5 Jewelcrafting - Shrine of the Sands]: no ender, no offer-reward text, no starter
+- 55580 High Prospects [8.1.5 Jewelcrafting - Shrine of the Eventide]: no ender, no offer-reward text, no starter
+- 55583 Out With the Old [8.1.5 Jewelcrafting - Shrine of the Dawning]: no ender, no offer-reward text, no starter
+- 55579 Cracking the Surface [8.1.5 Jewelcrafting - Shrine of Storms]: no ender, no offer-reward text, no starter
+- 55608 Shop Project [Making a Mount]: no offer-reward text
+- 54086 Right Bot for the Job [Making a Mount]: no offer-reward text
+- 54929 Ready to Rumble [Making a Mount]: no offer-reward text
+- 55373 Knock 'Em Out The Box [Making a Mount]: no offer-reward text
+- 55697 A Little Leg Work [Making a Mount]: no offer-reward text
+- 54922 The Nuts and Bolts of It [Making a Mount]: no offer-reward text
+- 56168 Factory Refurbished [Making a Mount]: no offer-reward text
+- 54083 Grease The Wheels [Making a Mount]: no offer-reward text
+- 56175 Emission Free [Making a Mount]: no offer-reward text
+- 55696 Test Drive [Making a Mount]: no offer-reward text
+- 55753 Knock His Bot Off [Making a Mount]: no offer-reward text
+- 55622 Drive It Away Today [Making a Mount]: no offer-reward text
+- 55229 Repaying the Debt [8.1.5 Leatherworking - Alliance - Classic Content]: no offer-reward text
+- 55230 Telonis' Prized Leather [8.1.5 Leatherworking - Alliance - Classic Content]: no offer-reward text
+- 55231 The Other Ghostdancer [8.1.5 Leatherworking - Alliance - Legion Content]: no offer-reward text
+- 55232 Mevris' Menace [8.1.5 Leatherworking - Alliance - Legion Content]: no offer-reward text
+- 55217 Repaying the Life Debt [8.1.5 Leatherworking - Horde - Classic Content]: no offer-reward text
+- 55218 Sheza's Prized Leather [8.1.5 Leatherworking - Horde - Classic Content]: no offer-reward text
+- 55219 Dropping by the Base [8.1.5 Leatherworking - Horde - Legion Content]: no offer-reward text
+- 55220 Bass Fishing [8.1.5 Leatherworking - Horde - Legion Content]: no offer-reward text
+- 55702 None [8.2 Heart - Blue Gem]: MISSING quest_template
+- 55703 None [8.2 Heart - Blue Gem]: MISSING quest_template
+- 55744 None [8.2 Heart - Blue Gem]: MISSING quest_template
+- 55762 None [8.2 Heart - Blue Gem]: MISSING quest_template
+- 55800 None [8.2 Heart - Blue Gem]: MISSING quest_template
+- 55732 An Old Scar [8.2 Heart - HoA Progression - Level II]: no offer-reward text
+- 55735 Defending the Maelstrom [8.2 Heart - HoA Progression - Level II]: no offer-reward text
+- 55737 At the Azerite Time [8.2 Heart - HoA Progression - Level II]: no offer-reward text
+- 55254 An Unending Sleep [How to Train Your Direhorn]: no offer-reward text
+- 55252 A Loa Without a Temple [How to Train Your Direhorn]: no offer-reward text
+- 55253 A Show of Faith [How to Train Your Direhorn]: giver 151286 not spawned, no offer-reward text
+- 55258 Sleep, Eat, Repeat [How to Train Your Direhorn]: giver 151286 not spawned, no offer-reward text
+- 55462 The Wanderer's Call [How to Train Your Direhorn]: no offer-reward text
+- 55503 The Direhorn and the Saurid [How to Train Your Direhorn]: no offer-reward text
+- 55504 Wayshrines of Zuldazar [How to Train Your Direhorn]: no offer-reward text
+- 55506 One Road Ends [How to Train Your Direhorn]: no offer-reward text
+- 55505 Roo'li's Memory [How to Train Your Direhorn]: no offer-reward text
+- 55507 Torcali's Blessing [How to Train Your Direhorn]: giver 151286 not spawned, no offer-reward text
+- 55247 The Trust You've Earned [How to Train Your Direhorn]: giver 19 not spawned, no offer-reward text
+- 55795 Mountain On the Move [How to Train Your Direhorn]: no offer-reward text
+- 55796 Heresy at the Crossroad [How to Train Your Direhorn]: no offer-reward text
+- 55797 The Direhorn Mother's Fury [How to Train Your Direhorn]: no offer-reward text
+- 55798 Wander Not Alone [How to Train Your Direhorn]: no offer-reward text
+- 55469 To Zin-Azshari [Turning the Tide]: no offer-reward text
+- 55482 Making the Connection [Turning the Tide]: no offer-reward text
+- 55485 Terrors in the Deep [Turning the Tide]: no offer-reward text
+- 55486 Secrets of Telemancy [Turning the Tide]: no offer-reward text
+- 55488 Speak with the Dead [Turning the Tide]: no offer-reward text
+- 55489 The Handmaiden's Tale [Turning the Tide]: no offer-reward text
+- 55490 We'll Poke Their Eye Out [Turning the Tide]: no offer-reward text
+- 55799 The Tide Turns [Turning the Tide]: no offer-reward text
+- 56356 The Eternal Palace: Queen's Gambit [Turning the Tide]: no offer-reward text
+- 56043 Send the Fleet [The Depths of Nazjatar]: no offer-reward text
+- 56044 Send the Fleet [The Depths of Nazjatar]: no offer-reward text
+- 56030 The Warchief's Order [The Depths of Nazjatar]: no offer-reward text
+- 54088 The Legend of Mechagon [Expedition to Mechagon]: no offer-reward text
+- 55040 Looking Inside [Expedition to Mechagon]: no offer-reward text
+- 54945 Let's Get It Started [Expedition to Mechagon]: no offer-reward text
+- 54087 You Must be This Height [Expedition to Mechagon]: no offer-reward text
+- 54946 Report to Gila [Expedition to Mechagon]: no offer-reward text
+- 54947 A Small Team [Expedition to Mechagon]: no offer-reward text
+- 54992 The Start of Something Bigger [Expedition to Mechagon]: giver 152482 not spawned, no offer-reward text
+- 55645 Princely Visit [Expedition to Mechagon]: no offer-reward text
+- 55729 The Resistance Needs YOU! [Expedition to Mechagon]: no offer-reward text
+- 55730 Rescuing the Resistance [Expedition to Mechagon]: giver 153670 not spawned, no offer-reward text
+- 55731 My Father's Armies [Expedition to Mechagon]: giver 153670 not spawned, no offer-reward text
+- 55995 We Can Fix It [Expedition to Mechagon]: giver 153670 not spawned, no offer-reward text
+- 55734 Drill Rig Construction [Expedition to Mechagon]: giver 153670 not spawned, no offer-reward text
+- 55096 Send My Father a Message [Expedition to Mechagon]: no offer-reward text
+- 55736 Welcome to the Resistance [Expedition to Mechagon]: no offer-reward text
+- 56131 Security First [Expedition to Mechagon]: no ender, no offer-reward text, no starter
+- 55609 Operation: Mechagon - The Mechoriginator [Expedition to Mechagon]: no offer-reward text
+- 55646 The Legend of Mechagon [Expedition to Mechagon]: no offer-reward text
+- 55647 A Quick Ear Hustle [Expedition to Mechagon]: no offer-reward text
+- 55648 This is Our Vault Now [Expedition to Mechagon]: no offer-reward text
+- 55630 Let's Get It Started [Expedition to Mechagon]: no offer-reward text
+- 55632 You Must be This Height [Expedition to Mechagon]: no offer-reward text
+- 55649 Machinations for Mechagon [Expedition to Mechagon]: no offer-reward text
+- 55650 Only the Best Will Do [Expedition to Mechagon]: no offer-reward text
+- 55651 To Mechagon! [Expedition to Mechagon]: no offer-reward text
+- 55652 Prospectus Bay [Expedition to Mechagon]: no offer-reward text
+- 55685 We Come in Peace... and Profit [Expedition to Mechagon]: no offer-reward text
+- 55729 The Resistance Needs YOU! [Expedition to Mechagon]: no offer-reward text
+- 55730 Rescuing the Resistance [Expedition to Mechagon]: giver 153670 not spawned, no offer-reward text
+- 55731 My Father's Armies [Expedition to Mechagon]: giver 153670 not spawned, no offer-reward text
+- 55995 We Can Fix It [Expedition to Mechagon]: giver 153670 not spawned, no offer-reward text
+- 55734 Drill Rig Construction [Expedition to Mechagon]: giver 153670 not spawned, no offer-reward text
+- 55096 Send My Father a Message [Expedition to Mechagon]: no offer-reward text
+- 55736 Welcome to the Resistance [Expedition to Mechagon]: no offer-reward text
+- 56131 Security First [Expedition to Mechagon]: no ender, no offer-reward text, no starter
+- 55609 Operation: Mechagon - The Mechoriginator [Expedition to Mechagon]: no offer-reward text
+- 55593 Insight into Our Enemies [Secrets in the Sea]: no offer-reward text
+- 55595 Deteriorating Knowledge [Secrets in the Sea]: no offer-reward text
+- 55597 Bound by Honor [Secrets in the Sea]: no offer-reward text
+- 55598 What We Know of the Naga [Secrets in the Sea]: no offer-reward text
+- 55599 Scouting Undercover [Secrets in the Sea]: no offer-reward text
+- 55600 Sating Snapdragons [Secrets in the Sea]: no offer-reward text
+- 56038 Working with Purpose [Secrets in the Sea]: no offer-reward text
+- 56039 We Can't Have Dull Weapons [Secrets in the Sea]: no offer-reward text
+- 56037 Stealing the Naga's Secrets [Secrets in the Sea]: no offer-reward text
+- 55860 Sea Slug Liquidation [Secrets in the Sea]: no offer-reward text
+- 55601 Coveted Crystals [Secrets in the Sea]: no offer-reward text
+- 55861 Let the Residue Lead You [Secrets in the Sea]: no offer-reward text
+- 55937 Clearing Out the Cache [Secrets in the Sea]: no offer-reward text
+- 56234 Friends In Need [Secrets in the Sea]: no offer-reward text
+- 55862 Insight into Our Enemies [Secrets in the Sea]: no offer-reward text
+- 55863 Deteriorating Knowledge [Secrets in the Sea]: no offer-reward text
+- 55864 The Price is Death [Secrets in the Sea]: no offer-reward text
+- 55865 What We Know of the Naga [Secrets in the Sea]: no offer-reward text
+- 55866 Scouting Undercover [Secrets in the Sea]: no offer-reward text
+- 55967 Sating Snapdragons [Secrets in the Sea]: no offer-reward text
+- 56046 Working with Purpose [Secrets in the Sea]: no offer-reward text
+- 56047 We Can't Have Dull Weapons [Secrets in the Sea]: no offer-reward text
+- 56045 Stealing the Naga's Secrets [Secrets in the Sea]: no offer-reward text
+- 55870 Sea Slug Liquidation [Secrets in the Sea]: no offer-reward text
+- 55867 Coveted Crystals [Secrets in the Sea]: no offer-reward text
+- 55868 Let the Residue Lead You [Secrets in the Sea]: no offer-reward text
+- 55869 Clearing Out the Cache [Secrets in the Sea]: no offer-reward text
+- 56236 Down But Not Out [Secrets in the Sea]: no offer-reward text
+- 55384 Settling In [Making a Friend]: no offer-reward text
+- 55385 Scouting the Pens [Making a Friend]: no offer-reward text
+- 55500 Save A Friend [Making a Friend]: no offer-reward text
+- 56205 Just Ptrust Me On This [Wingless Redemption]: no offer-reward text
+- 56185 Whispers of N'Zoth [On the Trail of the Black Prince]: no ender, no offer-reward text, no starter
+- 56267 Whispers of N'Zoth [On the Trail of the Black Prince]: no ender, no offer-reward text, no starter
+- 56186 Spies to the Left and Right [On the Trail of the Black Prince]: no ender, no offer-reward text, no starter
+- 56187 Black Winged Shadow [On the Trail of the Black Prince]: no ender, no offer-reward text, no starter
+- 56188 To the Catacombs! [On the Trail of the Black Prince]: no ender, no offer-reward text, no starter
+- 56189 On the Trail of the Black Prince [On the Trail of the Black Prince]: no ender, no offer-reward text, no starter
+- 56190 Save Ebonhorn [On the Trail of the Black Prince]: no ender, no offer-reward text, no starter
+- 56504 Wrathion's Journal [On the Trail of the Black Prince]: no ender, no offer-reward text, no starter
+- 56304 The High Life [Kelya Moonfall]: no offer-reward text
+- 56321 Saving Corin [Kelya Moonfall]: no offer-reward text
+- 56422 On Ghostly Wings [Kelya Moonfall]: no offer-reward text
+- 56374 A Titanic Problem [The Forge of Origination]: no offer-reward text
+- 56209 The Halls of Origination [The Forge of Origination]: no offer-reward text
+- 56375 To Ramkahen [The Forge of Origination]: no offer-reward text
+- 56472 The Uldum Accord [The Forge of Origination]: no offer-reward text
+- 56376 Surfacing Threats [The Forge of Origination]: no offer-reward text
+- 56377 Forging Onward [The Forge of Origination]: no offer-reward text
+- 55361 The Lost Shaman [Allies in Dark Places]: no offer-reward text
+- 55362 Elemental Fury [Allies in Dark Places]: no offer-reward text
+- 55363 Rescue The Farseer [Allies in Dark Places]: no offer-reward text
+- 55708 Upgraded [Upgrades for All]: no offer-reward text
+- 55707 First One's Free [Upgrades for All]: no offer-reward text
+- 55210 Batteries Not Included [Rustbolt Energy]: no offer-reward text
+- 56320 Your First Charge is Free! [Rustbolt Energy]: no offer-reward text
+- 55101 Junkyard Tinkering and You [Junkyard Tinkering]: no offer-reward text
+- 56181 This One's on Me [Junkyard Tinkering]: no offer-reward text
+- 55103 Ideas Can Come from Anywhere [Junkyard Tinkering]: no offer-reward text
+- 56346 Ancient Technology [8.2 Professions - Tier Gear Spell Focus - (A)]: no offer-reward text
+- 56347 An Abyssal Opportunity [8.2 Professions - Tier Gear Spell Focus - (A)]: no offer-reward text
+- 56348 The Eternal Palace: We Can Make It Stronger... [8.2 Professions - Tier Gear Spell Focus - (A)]: no offer-reward text
+- 56349 The Eternal Palace: Pushing the Limits [8.2 Professions - Tier Gear Spell Focus - (A)]: no offer-reward text
+- 56354 Ancient Technology [8.2 Professions - Tier Gear Spell Focus - (H)]: no offer-reward text
+- 56353 An Abyssal Opportunity [8.2 Professions - Tier Gear Spell Focus - (H)]: no offer-reward text
+- 56352 The Eternal Palace: We Can Make It Stronger... [8.2 Professions - Tier Gear Spell Focus - (H)]: no offer-reward text
+- 56351 The Eternal Palace: Pushing the Limits [8.2 Professions - Tier Gear Spell Focus - (H)]: no offer-reward text
+- 54977 Into Duskwood [Worgen Heritage Armor]: no ender, no offer-reward text, no starter
+- 54980 Bane of the Nightbane [Worgen Heritage Armor]: no ender, no offer-reward text, no starter
+- 54981 Cry to the Moon [Worgen Heritage Armor]: no ender, no offer-reward text, no starter
+- 54982 The Spirit of the Hunter [Worgen Heritage Armor]: no ender, no offer-reward text, no starter
+- 54983 Waking a Dreamer [Worgen Heritage Armor]: no ender, no offer-reward text, no starter
+- 54984 Let Sleeping Wolves Lie [Worgen Heritage Armor]: no ender, no offer-reward text, no starter
+- 54990 The New Guard [Worgen Heritage Armor]: no ender, no offer-reward text, no starter
+- 56167 Investigating the Highlands [In the Shadow of Crimson Wings]: no offer-reward text
+- 55657 In the Shadow of Crimson Wings [In the Shadow of Crimson Wings]: no offer-reward text
+- 55210 Batteries Not Included [Quickcharge Experiments]: no offer-reward text
+- 56320 Your First Charge is Free! [Quickcharge Experiments]: no offer-reward text
+- 56319 The Quickcharge Contract [Quickcharge Experiments]: no offer-reward text
+- 55211 Recharging Rustbolt [Quickcharge Experiments]: no offer-reward text
+- 55153 Collaborative Construction [Construction Projects]: no offer-reward text
+- 56401 A Bolt from the Blue [A Bolt From the Blue]: no offer-reward text
+- 55463 Aid From Nordrassil [Visit from Mylune]: no offer-reward text
+- 55575 One Gnome's Trash [Visit from Moxie]: no offer-reward text
+- 55658 Clues Abound [Visit from Explorer's League]: no ender, no offer-reward text
+- 54090 Toys For Destruction [Visit from B.O.O.M.]: no offer-reward text
+- 55765 Bugs, Lots of 'Em! [Visit from Razak's Roughriders]: no offer-reward text
+- 56405 Cogfrenzy's Construction Frenzy [Visit from Walton Cogfrenzy]: no offer-reward text
+- 55816 The Other Place [Visit from Chromie]: no offer-reward text
+- 55905 Abduction Reduction [Visit from Penny Clobberbottom]: no offer-reward text
+- 56410 Discs of Norgannon [Visit from Archivist Bitbyte]: giver 154982 not spawned, no offer-reward text
+- 56184 Pirates, Sea Monsters, Robots [Visit from Dread Captain Demeza]: no offer-reward text
+- 55784 Payment in Kind [Stay of Execution]: no offer-reward text
+- 55783 Stay of Execution [Stay of Execution]: no offer-reward text
+- 55778 Visions of Danger [Stay of Execution]: no offer-reward text
+- 55779 Stay of Execution [Stay of Execution]: no offer-reward text, no starter
+- 55780 Old Allies [Stay of Execution]: no offer-reward text
+- 55781 Old Allies [Stay of Execution]: no ender, no offer-reward text
+- 55782 Stay of Execution [Stay of Execution]: no offer-reward text
+- 56471 Unprofitable Ventures [Visit from Tortollans]: no offer-reward text
+- 55054 Upheaval [Azshara's Trap]: no offer-reward text
+- 54018 Descent [Azshara's Trap]: no offer-reward text
+- 54021 The First Arcanist [Azshara's Trap]: no offer-reward text
+- 56063 Dark Tides [Azshara's Trap]: no offer-reward text
+- 54012 Fortunate Souls [Azshara's Trap]: no offer-reward text
+- 55092 Disruption of Power [Azshara's Trap]: no offer-reward text
+- 54015 In Deep [Azshara's Trap]: no offer-reward text
+- 56429 Up Against It [Azshara's Trap]: no offer-reward text
+- 55094 Stay Low, Stay Fast! [Azshara's Trap]: no offer-reward text
+- 55053 A Way Home [Azshara's Trap]: no offer-reward text
+- 55481 Scouting the Palace [Azshara's Trap]: no offer-reward text
+- 55558 A Bolt Hole [Turning the Tide]: no offer-reward text
+- 55560 Utama's Vengeance [Turning the Tide]: no offer-reward text
+- 55561 What Remains of Zin-Azshari [Turning the Tide]: no offer-reward text
+- 55565 Shoring Up Mana Reserves [Turning the Tide]: no offer-reward text
+- 55569 Echoes of Pain [Turning the Tide]: no offer-reward text
+- 55570 Secrets in the Ruins [Turning the Tide]: no offer-reward text
+- 55571 Help Them See the Truth [Turning the Tide]: no offer-reward text
+- 55573 Purging the Defilers [Turning the Tide]: no offer-reward text
+- 55574 The Javelins of Azshara [Turning the Tide]: no offer-reward text
+- 55694 There's Something in the Water [Turning the Tide]: no offer-reward text
+- 56741 The Spear of Destiny [Turning the Tide]: no offer-reward text
+- 56325 Changing Tides [Turning the Tide]: no offer-reward text
+- 56358 The Eternal Palace: Queen's Gambit [Turning the Tide]: no offer-reward text
+- 55752 We Stand United [8.2 Heart - HoA Progression - Level III]: no offer-reward text
+- 56655 None [8.3 Heart - HoA Progression - Level IV]: MISSING quest_template
+- 56656 None [8.3 Heart - HoA Progression - Level IV]: MISSING quest_template
+- 56657 None [8.3 Heart - HoA Progression - Level IV]: MISSING quest_template
+- 56523 My Chickens are Not for Eating! [Visit from Oglethorpe]: no offer-reward text
+- 56558 Off-the-Books Brawlin' [Conflict comes to Mechagon]: no offer-reward text
+- 56572 Toys Like Us [Visit from Jepetto Joybuzz]: no offer-reward text
+- 56552 Off-the-Books Brawlin' [Conflict comes to Mechagon]: no offer-reward text
+- 56536 It's Never Easy [The Engine of Nalak'sha]: no offer-reward text
+- 56537 The Mysterious Sigil [The Engine of Nalak'sha]: no offer-reward text
+- 56538 Clans of the Mogu [The Engine of Nalak'sha]: no offer-reward text
+- 56539 Finding the Rajani [The Engine of Nalak'sha]: no offer-reward text
+- 56771 Time-Lost Warriors [The Engine of Nalak'sha]: no offer-reward text
+- 56540 Proof of Tenacity [The Engine of Nalak'sha]: no offer-reward text
+- 56541 The Engine of Nalak'sha [The Engine of Nalak'sha]: no offer-reward text
+- 56542 Restored Hope [The Engine of Nalak'sha]: no offer-reward text
+- 58737 Magni's Findings [The Engine of Nalak'sha]: no offer-reward text
+- 55095 Upheaval [Welcome to Nazjatar]: no offer-reward text
+- 54969 Descent [Welcome to Nazjatar]: no offer-reward text
+- 56640 Fortunate Souls [Welcome to Nazjatar]: no offer-reward text
+- 56641 Disruption of Power [Welcome to Nazjatar]: no offer-reward text
+- 56642 Dark Tides [Welcome to Nazjatar]: no offer-reward text
+- 56643 In Deep [Welcome to Nazjatar]: no offer-reward text
+- 56644 Up Against It [Welcome to Nazjatar]: no offer-reward text
+- 55175 Where the Road Leads [Welcome to Nazjatar]: no offer-reward text
+- 54972 A Way Home [Welcome to Nazjatar]: no offer-reward text
+- 56350 Scouting the Palace [Welcome to Nazjatar]: no offer-reward text
+- 56918 None [Essence of the Timewalkers]: MISSING quest_template
+- 56919 None [Essence of the Timewalkers]: MISSING quest_template
+- 56920 None [Essence of the Timewalkers]: MISSING quest_template
+- 56921 None [Essence of the Timewalkers]: MISSING quest_template
+- 56922 None [Essence of the Timewalkers]: MISSING quest_template
+- 56923 None [Essence of the Timewalkers]: MISSING quest_template
+- 56924 None [Essence of the Timewalkers]: MISSING quest_template
+- 56925 None [Essence of the Timewalkers]: MISSING quest_template
+- 56926 None [Essence of the Timewalkers]: MISSING quest_template
+- 56927 None [Essence of the Timewalkers]: MISSING quest_template
+- 57381 The Greatest Duelist [Welcome to Revendreth]: giver 157563 not spawned
+- 57067 Mogu at the Gates [Mogu at the Gates]: no offer-reward text
+- 57068 Kite Surveillance [Mogu at the Gates]: no offer-reward text
+- 57071 No Brew Left Behind [Mogu at the Gates]: no offer-reward text
+- 57069 Cut Off the Heads [Mogu at the Gates]: no offer-reward text
+- 57070 Mogu Massacre [Mogu at the Gates]: no offer-reward text
+- 57072 Yak of All Trades [Mogu at the Gates]: no offer-reward text
+- 57074 Our Backs to the Gate [Mogu at the Gates]: no offer-reward text
+- 57075 Liquid Courage [Mogu at the Gates]: no offer-reward text
+- 57076 Return to Mistfall [Mogu at the Gates]: no offer-reward text
+- 59339 Enhanced Combat Tactics [The Missing Expedition]: no offer-reward text
+- 58914 A Warrior's End [The Missing Expedition]: no offer-reward text
+- 58917 A Rogue's End [The Missing Expedition]: giver 162972 not spawned, giver 163024 not spawned, no offer-reward text
+- 85678 Repair Yourself [The Missing Expedition]: no ender, no offer-reward text, no starter
+- 58915 Hjalmar's Final Execution [The Missing Expedition]: no offer-reward text
+- 58923 A Paladin's Service [The Missing Expedition]: no offer-reward text
+- 58933 The Deadliest of Poisons [The Missing Expedition]: giver 162972 not spawned, giver 163024 not spawned, no offer-reward text
+- 58946 The Divine's Shield [The Missing Expedition]: no offer-reward text
+- 58962 A Warlock's Bargain [The Missing Expedition]: no offer-reward text
+- 59347 A Monk's Focus [The Missing Expedition]: no offer-reward text
+- 59349 One Last Spar [The Missing Expedition]: no offer-reward text
+- 59352 A Mage's Knowledge [The Missing Expedition]: no offer-reward text
+- 59354 The Best Way to Use Sheep [The Missing Expedition]: no offer-reward text
+- 58908 Finding Your Way [The Missing Expedition]: no offer-reward text
+- 87560 None [The Missing Expedition]: MISSING quest_template
+- 58909 License to Ride [The Missing Expedition]: no offer-reward text
+- 58910 What's Your Specialty? [The Missing Expedition]: no offer-reward text
+- 58911 Home Is Where the Hearth Is [The Missing Expedition]: no offer-reward text
+- 59583 Welcome to Stormwind [The Missing Expedition]: no offer-reward text
+- 59586 What's Your Specialty? [The Missing Expedition]: no offer-reward text
+- 59587 What's Your Specialty? [The Missing Expedition]: no offer-reward text
+- 87547 What's Your Specialty? [The Missing Expedition]: no offer-reward text
+- 59588 What's Your Specialty? [The Missing Expedition]: no offer-reward text
+- 59589 What's Your Specialty? [The Missing Expedition]: no offer-reward text
+- 59590 What's Your Specialty? [The Missing Expedition]: no offer-reward text
+- 59591 What's Your Specialty? [The Missing Expedition]: no offer-reward text
+- 59592 What's Your Specialty? [The Missing Expedition]: no offer-reward text
+- 59593 What's Your Specialty? [The Missing Expedition]: no offer-reward text
+- 59594 What's Your Specialty? [The Missing Expedition]: no offer-reward text
+- 87555 Home Is Where the Hearth Is [The Missing Expedition]: no offer-reward text
+- 87562 Aiding the Dragon Isles [The Missing Expedition]: no offer-reward text
+- 57043 Old Friends, New Opportunities [Goblin Heritage Armor]: no ender, no offer-reward text, no starter
+- 57045 A Special Delivery [Goblin Heritage Armor]: no ender, no offer-reward text, no starter
+- 57047 A Simple Experiment [Goblin Heritage Armor]: no ender, no offer-reward text, no starter
+- 57048 Shopping For Parts [Goblin Heritage Armor]: no ender, no offer-reward text, no starter
+- 57051 Debt Collection! [Goblin Heritage Armor]: no ender, no offer-reward text, no starter
+- 57052 I've Got What You Need [Goblin Heritage Armor]: no ender, no offer-reward text, no starter
+- 57053 Blunt Force Testing [Goblin Heritage Armor]: no ender, no offer-reward text, no starter
+- 57058 Fun With Landmines [Goblin Heritage Armor]: no ender, no offer-reward text, no starter
+- 57059 Let's Rumble! [Goblin Heritage Armor]: no ender, no offer-reward text, no starter
+- 57077 Buyers Wanted! [Goblin Heritage Armor]: no ender, no offer-reward text, no starter
+- 57078 The VIP List [Goblin Heritage Armor]: no ender, no offer-reward text, no starter
+- 57079 Beat The Crapopolis Outta Him! [Goblin Heritage Armor]: no offer-reward text, no starter
+- 57080 A Fitting Reward [Goblin Heritage Armor]: no offer-reward text
+- 56495 They Move Against Us [Breaking the Cycle]: no ender, no offer-reward text
+- 56833 Leaders of the Horde [Breaking the Cycle]: no ender, no offer-reward text, no starter
+- 57130 Traitors In Our Midst [Breaking the Cycle]: no ender, no offer-reward text, no starter
+- 57148 Siegebreakers [Breaking the Cycle]: no ender, no offer-reward text, no starter
+- 57149 Propaganda Takedown [Breaking the Cycle]: no ender, no offer-reward text, no starter
+- 57150 Militia [Breaking the Cycle]: no ender, no offer-reward text, no starter
+- 57151 A Line in the Sand [Breaking the Cycle]: no ender, no offer-reward text, no starter
+- 57152 Most Loyal [Breaking the Cycle]: no ender, no offer-reward text, no starter
+- 57147 Not My Warchief [Breaking the Cycle]: no ender, no offer-reward text, no starter
+- 56496 The Eve of Battle [Breaking the Cycle]: no offer-reward text
+- 57088 This Ain't Mine [Breaking the Cycle]: no offer-reward text
+- 57090 Saving the Siege [Breaking the Cycle]: no offer-reward text
+- 57091 Already Among Us [Breaking the Cycle]: no offer-reward text
+- 57092 Strategic Deployment [Breaking the Cycle]: no offer-reward text
+- 57093 Before the Gates of Orgrimmar [Breaking the Cycle]: no offer-reward text
+- 57094 The Price of Victory [Breaking the Cycle]: no offer-reward text
+- 57095 Old Soldier [Breaking the Cycle]: no offer-reward text
+- 56494 The Eve of Battle [Breaking the Cycle]: no offer-reward text
+- 56719 This Ain't Mine [Breaking the Cycle]: no offer-reward text
+- 56979 Saving the Siege [Breaking the Cycle]: no offer-reward text
+- 56980 Already Among Us [Breaking the Cycle]: no offer-reward text
+- 56981 Strategic Deployment [Breaking the Cycle]: no offer-reward text
+- 56982 Before the Gates of Orgrimmar [Breaking the Cycle]: no offer-reward text
+- 56993 The Price of Victory [Breaking the Cycle]: no offer-reward text
+- 57002 Old Soldier [Breaking the Cycle]: no offer-reward text
+- 56574 Reflections in Amber [The Mantid Threat]: no offer-reward text
+- 56575 Once More Into Kor'vess [The Mantid Threat]: no offer-reward text
+- 56577 Crippling the Hive [The Mantid Threat]: no offer-reward text
+- 56578 Rotten at the Roots [The Mantid Threat]: no offer-reward text
+- 56580 Amber Secrets [The Mantid Threat]: no offer-reward text
+- 56616 Old Faces, New Problems [The Mantid Threat]: no offer-reward text
+- 56617 A Unified Swarm [The Mantid Threat]: no offer-reward text
+- 56645 Heart of the Swarm [The Mantid Threat]: no offer-reward text
+- 56647 The Mantid Threat [The Mantid Threat]: no offer-reward text
+- 57220 Power Protocol Initiation [Through the Darkness]: no offer-reward text
+- 57221 Re-Origination [Through the Darkness]: no offer-reward text
+- 57222 Investigating the Halls [Through the Darkness]: no offer-reward text
+- 57290 Beginning the Descent [Through the Darkness]: no offer-reward text
+- 57362 Deeper Into the Darkness [Through the Darkness]: no offer-reward text
+- 58634 Opening the Gateway [Through the Darkness]: no offer-reward text
+- 57373 Descending Into Madness [Through the Darkness]: no offer-reward text
+- 57374 Into the Darkest Depths [Through the Darkness]: no offer-reward text
+- 57524 Accessing the Archives [Through the Darkness]: no offer-reward text
+- 57873 Word from Orsis [Aqir Offensive]: no offer-reward text
+- 57915 Search for Survivors [Aqir Offensive]: no offer-reward text
+- 57955 To Ankhaten Harbor [Aqir Offensive]: no offer-reward text
+- 57954 Burn the Bodies [Aqir Offensive]: no offer-reward text
+- 57956 Wastewander Hosts [Aqir Offensive]: no offer-reward text
+- 57971 Ruins of Ammon [Aqir Offensive]: no offer-reward text
+- 57969 Tend the Wounded [Aqir Offensive]: no offer-reward text
+- 57970 Ruinator Xok'nixx [Aqir Offensive]: no offer-reward text
+- 57990 Obelisk of the Sun [Aqir Offensive]: no offer-reward text
+- 58008 All Gassed Up [Aqir Offensive]: no offer-reward text
+- 56576 Aqir Extermination [Aqir Offensive]: no offer-reward text
+- 58009 To the Moon [Aqir Offensive]: no offer-reward text
+- 58386 Use My Strengths [Confronting Sin]: giver 161261 not spawned
+- 54975 A Brief Respite [Welcome to Nazjatar]: no offer-reward text
+- 56235 Down Into Nazjatar [Azshara's Trap]: no offer-reward text
+- 58615 Whispers in the Dark [Whispers in the Dark]: no offer-reward text
+- 58631 Into Dreams [Whispers in the Dark]: no offer-reward text
+- 58632 Ny'alotha, the Waking City: The Corruptor's End [Whispers in the Dark]: no offer-reward text
+- 58636 Eyes on the Amathet [Mystery of the Amathet]: no offer-reward text
+- 58638 A Deeper Dive [Mystery of the Amathet]: no offer-reward text
+- 58639 Buried History [Mystery of the Amathet]: no offer-reward text
+- 58646 Chew On This! [Mystery of the Amathet]: no offer-reward text
+- 58640 A Crack in the Armor [Mystery of the Amathet]: no offer-reward text
+- 58641 Seekers of Corruption [Mystery of the Amathet]: no offer-reward text
+- 58642 Shared Goals [Mystery of the Amathet]: no offer-reward text
+- 58643 Mutually Assured Destruction [Mystery of the Amathet]: no offer-reward text
+- 58645 A World Worth Saving [Mystery of the Amathet]: no offer-reward text
+- 58496 An Unwelcome Advisor [Return of the Black Prince]: no offer-reward text
+- 58582 Return of the Black Prince [Return of the Black Prince]: no offer-reward text
+- 58498 Return of the Warrior King [Return of the Black Prince]: no offer-reward text
+- 58502 Where the Heart Is [Return of the Black Prince]: no offer-reward text
+- 58583 Where the Heart Is [Return of the Black Prince]: no offer-reward text
+- 58506 Network Diagnostics [Return of the Black Prince]: no offer-reward text
+- 57275 Something in Your Mind [8.3 Professions - Tier Gear Spell Focus - (A)]: no ender, no offer-reward text, no starter
+- 57464 Maintaining Focus [8.3 Professions - Tier Gear Spell Focus - (A)]: no ender, no offer-reward text, no starter
+- 57462 Dream Catcher [8.3 Professions - Tier Gear Spell Focus - (A)]: no ender, no offer-reward text, no starter
+- 57275 Something in Your Mind [8.3 Professions - Tier Gear Spell Focus - (H)]: no ender, no offer-reward text, no starter
+- 57276 Maintaining Focus [8.3 Professions - Tier Gear Spell Focus - (H)]: no ender, no offer-reward text, no starter
+- 57462 Dream Catcher [8.3 Professions - Tier Gear Spell Focus - (H)]: no ender, no offer-reward text, no starter
+- 58902 Defender of Azeroth [Death's Power Grows]: no offer-reward text
+- 58989 Runeforging 101 [Death's Power Grows]: no ender, no offer-reward text, no starter
+- 58956 None [Death's Power Grows]: MISSING quest_template
+- 58854 Convene the Paragons [The Bell Tolls]: no offer-reward text
+- 58844 Before the Dawn [The Bell Tolls]: no offer-reward text
+- 58846 The Greater Good [The Bell Tolls]: no offer-reward text
+- 58847 Kyrestia's Grace [The Bell Tolls]: no offer-reward text
+- 59919 An Earned Bond [The Bell Tolls]: no offer-reward text
+- 62557 Our Realm Reclaimed [The Bell Tolls]: no offer-reward text
+- 58124 Stranger in a Strange Land [Allies of the Horde]: no offer-reward text, no starter
+- 57715 The Archon's Answer [The Aspirant's Crucible]: no offer-reward text
+- 60217 The Archon's Answer [The Aspirant's Crucible]: no offer-reward text
+- 60219 The Archon's Answer [The Aspirant's Crucible]: no offer-reward text
+- 60220 The Archon's Answer [The Aspirant's Crucible]: no offer-reward text
+- 60221 The Archon's Answer [The Aspirant's Crucible]: no offer-reward text
+- 60222 The Archon's Answer [The Aspirant's Crucible]: no offer-reward text
+- 60223 The Archon's Answer [The Aspirant's Crucible]: no offer-reward text
+- 60224 The Archon's Answer [The Aspirant's Crucible]: no offer-reward text
+- 60225 The Archon's Answer [The Aspirant's Crucible]: no offer-reward text
+- 60226 The Archon's Answer [The Aspirant's Crucible]: no offer-reward text
+- 60229 The Archon's Answer [The Aspirant's Crucible]: no offer-reward text
+- 60292 Dangerous Discourse [The Temple of Purity]: no offer-reward text, no starter
+- 59179 Daughter of the Night Warrior [Daughter of the Night Warrior]: no offer-reward text
+- 58214 Urgent Care [Allies of the Alliance: Mechagnome]: no offer-reward text
+- 57486 Waning Energy [Allies of the Alliance: Mechagnome]: no offer-reward text
+- 57487 Someone Who Can Help [Allies of the Alliance: Mechagnome]: no offer-reward text
+- 57488 The Current Schematic [Allies of the Alliance: Mechagnome]: no offer-reward text
+- 57490 Voyage to Safety [Allies of the Alliance: Mechagnome]: no offer-reward text
+- 57491 Better... Stronger... Less Dead [Allies of the Alliance: Mechagnome]: no offer-reward text
+- 57492 Him? [Allies of the Alliance: Mechagnome]: no offer-reward text
+- 57493 Mental Attunement [Allies of the Alliance: Mechagnome]: no offer-reward text
+- 57494 A Strong Heart [Allies of the Alliance: Mechagnome]: no offer-reward text
+- 57496 Ascension [Allies of the Alliance: Mechagnome]: no offer-reward text
+- 57495 The Future of Mechagon [Allies of the Alliance: Mechagnome]: no offer-reward text
+- 57497 Propagate the News [Allies of the Alliance: Mechagnome]: no offer-reward text
+- 63215 Venthyr Covenant: Report to Draven [Sinfall]: no offer-reward text
+- 62699 None [Sinfall]: MISSING quest_template
+- 62868 Return Lost Souls [Sinfall]: no offer-reward text
+- 85678 Repair Yourself [What Lurks Below]: no ender, no offer-reward text, no starter
+- 58914 A Warrior's End [Classical Learning]: no offer-reward text
+- 58915 Hjalmar's Final Execution [Classical Learning]: no offer-reward text
+- 58917 A Rogue's End [Classical Learning]: giver 162972 not spawned, giver 163024 not spawned, no offer-reward text
+- 58933 The Deadliest of Poisons [Classical Learning]: giver 162972 not spawned, giver 163024 not spawned, no offer-reward text
+- 58923 A Paladin's Service [Classical Learning]: no offer-reward text
+- 58946 The Divine's Shield [Classical Learning]: no offer-reward text
+- 58962 A Warlock's Bargain [Classical Learning]: no offer-reward text
+- 59339 Enhanced Combat Tactics [Classical Learning]: no offer-reward text
+- 59347 A Monk's Focus [Classical Learning]: no offer-reward text
+- 59349 One Last Spar [Classical Learning]: no offer-reward text
+- 59352 A Mage's Knowledge [Classical Learning]: no offer-reward text
+- 59354 The Best Way to Use Sheep [Classical Learning]: no offer-reward text
+- 62699 None [Loyal to the Primus]: MISSING quest_template
+- 62840 Into the Reservoir [Loyal to the Primus]: no offer-reward text
+- 63003 Collective Soul [Loyal to the Primus]: no ender
+- 65165 Soul Support [Loyal to the Primus]: no offer-reward text
+- 65157 A Hardened Bond [Loyal to the Primus]: no ender, no offer-reward text, no starter
+- 62866 Return Lost Souls [Loyal to the Primus]: no ender, no starter
+- 58787 Trial of Ascension [Trial of Ascension]: no offer-reward text
+- 58788 Censers of Guidance [Trial of Ascension]: no offer-reward text
+- 58789 Misguiding Mentors [Trial of Ascension]: no offer-reward text
+- 58790 To Cross the Veil [Trial of Ascension]: no offer-reward text
+- 58791 A Day in the Life [Trial of Ascension]: no offer-reward text
+- 58948 Food on the Table [Trial of Ascension]: no offer-reward text
+- 58949 Millie's Garden [Trial of Ascension]: no offer-reward text
+- 58950 Lumber for Lakeshire [Trial of Ascension]: no offer-reward text
+- 58951 Lakeshire's Last Stand [Trial of Ascension]: no offer-reward text
+- 58792 Where a Soul Belongs [Trial of Ascension]: no offer-reward text
+- 58793 Faith Through the Darkness [Trial of Ascension]: no offer-reward text
+- 58795 Ascended [Trial of Ascension]: no offer-reward text
+- 58796 The Forsworn Onslaught [Trial of Ascension]: no offer-reward text
+- 58797 Forged by Trial [Trial of Ascension]: no offer-reward text
+- 58798 The Spires of Ascension [Trial of Ascension]: no offer-reward text
+- 58175 The Eternal Forge [Phaestus, Genesis of Aeons]: no offer-reward text
+- 58176 Stewards of a Feather [Phaestus, Genesis of Aeons]: no offer-reward text
+- 58177 Refining Ego [Phaestus, Genesis of Aeons]: no offer-reward text
+- 58179 Instruments of Perfection [Phaestus, Genesis of Aeons]: no offer-reward text
+- 58180 Phaestus, Genesis of Aeons [Phaestus, Genesis of Aeons]: no offer-reward text
+- 58178 A Partner for Eternity [Phaestus, Genesis of Aeons]: no offer-reward text
+- 58182 Dismantling the Opposition [Phaestus, Genesis of Aeons]: no offer-reward text
+- 58183 Friend to the Forgelite [Phaestus, Genesis of Aeons]: no offer-reward text
+- 58181 Building the Base [Phaestus, Genesis of Aeons]: no offer-reward text
+- 58557 Assistance from Sinfall [The Seal of Contrition]: no offer-reward text
+- 58558 Overhead Intelligence [The Seal of Contrition]: no offer-reward text
+- 58559 Eyes of the Master [The Seal of Contrition]: no offer-reward text
+- 58560 Gothic Fashion [The Seal of Contrition]: no offer-reward text
+- 58561 Shards of the Countess [The Seal of Contrition]: no offer-reward text
+- 58562 Collecting Dust [The Seal of Contrition]: no offer-reward text
+- 58563 Through Glass [The Seal of Contrition]: no offer-reward text
+- 58564 Sins of the Past [The Seal of Contrition]: no offer-reward text
+- 58565 Land of Light [The Seal of Contrition]: no offer-reward text
+- 58566 Actions Speak Louder than Words [The Seal of Contrition]: no offer-reward text
+- 58567 Skulking in the Darkness [The Seal of Contrition]: no offer-reward text
+- 58568 Light Respite [The Seal of Contrition]: no offer-reward text
+- 58569 The Folly of Envy [The Seal of Contrition]: no offer-reward text
+- 58570 Parting Words [The Seal of Contrition]: no offer-reward text
+- 58571 The Seal of Contrition [The Seal of Contrition]: no offer-reward text
+- 58775 Meet the Queen [A Vessel of Ardenweald]: no offer-reward text
+- 58856 Who Are You Fooling? [A Vessel of Ardenweald]: no offer-reward text
+- 58832 Trinkle Trinkle Little Twerp [A Vessel of Ardenweald]: no offer-reward text
+- 58816 Getting Backstage [A Vessel of Ardenweald]: no offer-reward text
+- 58905 Picking Up Pelagos [A Vessel of Ardenweald]: no offer-reward text
+- 58937 Evil Grubbies [A Vessel of Ardenweald]: no offer-reward text
+- 58938 Gorm Ruin Everything [A Vessel of Ardenweald]: no offer-reward text
+- 58939 The Blue Seed [A Vessel of Ardenweald]: no offer-reward text
+- 58857 Seeds Away! [A Vessel of Ardenweald]: no offer-reward text
+- 58995 I Dreamed A Dream [A Vessel of Ardenweald]: no offer-reward text
+- 58997 A Bittersweet Prize [A Vessel of Ardenweald]: no offer-reward text
+- 61135 Heart of the Crest [A Vessel of Ardenweald]: no offer-reward text
+- 61697 A New Age [A Vessel of Ardenweald]: no offer-reward text
+- 57113 On Lysonia's Trail [Closing In]: no offer-reward text
+- 57114 Aerial Reconnaissance [Closing In]: no offer-reward text
+- 57115 Sacred Scrolls of Humility [Closing In]: no offer-reward text
+- 57116 Succumbing to Pride [Closing In]: no offer-reward text
+- 57120 Compassion, Blade of Humility [Closing In]: no offer-reward text
+- 57118 Distorted by the Maw [Closing In]: no offer-reward text
+- 57117 Fallen to Their Vices [Closing In]: no offer-reward text
+- 57207 Lysonia's Plan [Closing In]: no offer-reward text
+- 57121 The Power of the Maw [Closing In]: no offer-reward text
+- 57122 A Step Too Far [Closing In]: no offer-reward text
+- 57123 Kyrian No More [Closing In]: no offer-reward text
+- 57124 Her Will, Inflicted [Closing In]: no offer-reward text
+- 57125 Time to Reflect [Closing In]: no offer-reward text
+- 62555 A Touch of Humility [Closing In]: no offer-reward text
+- 63214 Night Fae Covenant: Report to Moonberry [For Queen and Grove!]: no offer-reward text
+- 62883 Keeper of Great Renown [For Queen and Grove!]: no offer-reward text
+- 62884 The Forest Will Sing Your Name [For Queen and Grove!]: no offer-reward text
+- 62697 A Call to Service [For Queen and Grove!]: no offer-reward text
+- 62699 None [For Queen and Grove!]: MISSING quest_template
+- 62890 Who Shapes the Forest [For Queen and Grove!]: no offer-reward text
+- 62891 Into the Reservoir [For Queen and Grove!]: no offer-reward text
+- 62892 Recover the Lost [For Queen and Grove!]: no offer-reward text
+- 62893 Do What We Cannot [For Queen and Grove!]: no offer-reward text
+- 62894 Flutterback [For Queen and Grove!]: no offer-reward text
+- 62897 Recovered Souls [For Queen and Grove!]: no offer-reward text
+- 62898 The First New Growth [For Queen and Grove!]: no offer-reward text
+- 61984 Replenish the Reservoir [For Queen and Grove!]: giver 167196 not spawned
+- 61331 Return Lost Souls [For Queen and Grove!]: no offer-reward text
+- 59934 Enhanced Combat Tactics [The Missing Expedition]: no offer-reward text
+- 85679 Repair Yourself [The Missing Expedition]: no starter
+- 59954 A Mage's Knowledge [The Missing Expedition]: no offer-reward text
+- 59955 The Best Way to Use Sheep [The Missing Expedition]: no offer-reward text
+- 59956 A Monk's Focus [The Missing Expedition]: no offer-reward text
+- 59957 One Last Spar [The Missing Expedition]: no offer-reward text
+- 59958 A Paladin's Service [The Missing Expedition]: no offer-reward text
+- 59961 A Priest's End [The Missing Expedition]: no offer-reward text
+- 59965 Resurrecting the Recruits [The Missing Expedition]: no offer-reward text
+- 59967 A Rogue's End [The Missing Expedition]: giver 167586 not spawned, no offer-reward text
+- 59968 The Deadliest of Poisons [The Missing Expedition]: giver 167586 not spawned, no offer-reward text
+- 59971 A Warrior's End [The Missing Expedition]: no offer-reward text
+- 59972 Hjalmar's Final Execution [The Missing Expedition]: no offer-reward text
+- 60174 The Divine's Shield [The Missing Expedition]: no offer-reward text
+- 60343 Welcome to Orgrimmar [The Missing Expedition]: no offer-reward text
+- 60344 Finding Your Way [The Missing Expedition]: no offer-reward text
+- 60345 License to Ride [The Missing Expedition]: no offer-reward text
+- 60346 What's Your Specialty? [The Missing Expedition]: giver 168553 not spawned, no offer-reward text
+- 60347 What's Your Specialty? [The Missing Expedition]: giver 168551 not spawned, no offer-reward text
+- 60348 What's Your Specialty? [The Missing Expedition]: giver 168626 not spawned, no offer-reward text
+- 60349 What's Your Specialty? [The Missing Expedition]: giver 168619 not spawned, no offer-reward text
+- 60350 What's Your Specialty? [The Missing Expedition]: giver 168597 not spawned, no offer-reward text
+- 60351 What's Your Specialty? [The Missing Expedition]: giver 168621 not spawned, no offer-reward text
+- 60352 What's Your Specialty? [The Missing Expedition]: giver 168598 not spawned, no offer-reward text
+- 60353 What's Your Specialty? [The Missing Expedition]: no offer-reward text
+- 60355 What's Your Specialty? [The Missing Expedition]: giver 168623 not spawned, no offer-reward text
+- 60357 What's Your Specialty? [The Missing Expedition]: giver 168596 not spawned, no offer-reward text
+- 60359 Home Is Where the Hearth Is [The Missing Expedition]: no offer-reward text
+- 60545 Shadowlands: A Chilling Summons [Through the Shattered Sky]: no starter
+- 61874 Shadowlands: A Chilling Summons [Through the Shattered Sky]: no starter
+- 57944 None [The Demi Lich]: MISSING quest_template
+- 57945 None [The Demi Lich]: MISSING quest_template
+- 57958 None [The Demi Lich]: MISSING quest_template
+- 58020 None [The Demi Lich]: MISSING quest_template
+- 58030 None [The Demi Lich]: MISSING quest_template
+- 58101 None [The Demi Lich]: MISSING quest_template
+- 58119 None [The Demi Lich]: MISSING quest_template
+- 58217 None [A Rogue Lich]: MISSING quest_template
+- 58223 None [A Rogue Lich]: MISSING quest_template
+- 58349 None [A Rogue Lich]: MISSING quest_template
+- 58350 None [A Rogue Lich]: MISSING quest_template
+- 58353 None [A Rogue Lich]: MISSING quest_template
+- 58358 None [A Rogue Lich]: MISSING quest_template
+- 58425 None [A Rogue Lich]: MISSING quest_template
+- 58684 None [A Rogue Lich]: MISSING quest_template
+- 61757 Caught in the Act [The House of Rituals]: no ender
+- 61758 Improvised Implements [The House of Rituals]: no ender
+- 58650 None [Balmedar's Special Requests]: MISSING quest_template
+- 58651 None [Balmedar's Special Requests]: MISSING quest_template
+- 58652 None [Balmedar's Special Requests]: MISSING quest_template
+- 58653 None [Balmedar's Special Requests]: MISSING quest_template
+- 58853 None [Balmedar's Special Requests]: MISSING quest_template
+- 59264 None [Balmedar's Special Requests]: MISSING quest_template
+- 63211 Kyrian Covenant: Report to Adrestes [Among the Kyrian]: no offer-reward text
+- 60491 Among the Kyrian [Among the Kyrian]: no offer-reward text
+- 60492 A Proper Reception [Among the Kyrian]: no offer-reward text
+- 57895 Elysian Hold [Among the Kyrian]: no offer-reward text
+- 62789 Of Great Renown [Among the Kyrian]: no offer-reward text
+- 62790 The Path Provides [Among the Kyrian]: no offer-reward text
+- 62698 A Call to Service [Among the Kyrian]: no offer-reward text
+- 62699 None [Among the Kyrian]: MISSING quest_template
+- 62791 Our Most Precious Resource [Among the Kyrian]: no offer-reward text
+- 62792 Into the Reservoir [Among the Kyrian]: no offer-reward text
+- 57905 A Unique Opportunity [Among the Kyrian]: no offer-reward text
+- 62832 Friends in Dark Places [Among the Kyrian]: no offer-reward text
+- 62796 Return to Adrestes [Among the Kyrian]: no offer-reward text
+- 62793 It's All Coming Together [Among the Kyrian]: no offer-reward text
+- 62794 Enhancing the Hold [Among the Kyrian]: no offer-reward text
+- 57897 Dangerous to Go Alone [Among the Kyrian]: no offer-reward text
+- 63002 Dangerous to Go Alone [Among the Kyrian]: no offer-reward text, no starter
+- 57898 Soul Meets Body [Among the Kyrian]: no offer-reward text
+- 60504 Strengthen the Bond [Among the Kyrian]: no offer-reward text
+- 62795 A Conduit for Good [Among the Kyrian]: no offer-reward text
+- 57904 Our Eternal Charge [Among the Kyrian]: no offer-reward text
+- 65168 My Wings Are Yours [Among the Kyrian]: no offer-reward text
+- 65147 No Ordinary Steward [Among the Kyrian]: no offer-reward text
+- 61982 Replenish the Reservoir [Among the Kyrian]: no offer-reward text
+- 61332 Return Lost Souls [Among the Kyrian]: no offer-reward text
+- 62861 Return Lost Souls [Among the Kyrian]: no offer-reward text
+- 62862 Return Lost Souls [Among the Kyrian]: no offer-reward text
+- 62863 Return Lost Souls [Among the Kyrian]: no ender, no offer-reward text
+- 59897 Seeking the Baron [Ritual for the Damned]: no ender
+- 60972 The Hunt for the Baron [Ritual for the Damned]: no starter
+- 60647 Recovering the Animacones [Waning Grove]: giver 169868 not spawned
+- 60648 Survivors of Heartwood Grove [Waning Grove]: giver 169868 not spawned
+- 60671 The Sacrifices We Must Make [Waning Grove]: giver 169868 not spawned
+- 60113 An Urgent Request [An Uncertain Fate]: no starter
+- 60117 Return of the Crusade [An Uncertain Fate]: giver 166383 not spawned
+- 59876 Field Reports [An Uncertain Fate]: giver 166184 not spawned, giver 166383 not spawned
+- 60766 Damned Intruders [An Uncertain Fate]: giver 166184 not spawned
+- 60767 Return of the Scourge [An Uncertain Fate]: giver 166184 not spawned, giver 166383 not spawned
+- 59877 A Message from Icecrown [An Uncertain Fate]: giver 166383 not spawned
+- 60115 An Urgent Request [An Uncertain Fate]: no offer-reward text, no starter
+- 60669 Cause for Distraction [An Uncertain Fate]: no offer-reward text
+- 60670 Return of the Crusade [An Uncertain Fate]: giver 169878 not spawned, no offer-reward text
+- 60725 Field Reports [An Uncertain Fate]: giver 169878 not spawned, giver 170084 not spawned, no offer-reward text
+- 60759 Damned Intruders [An Uncertain Fate]: giver 170084 not spawned, no offer-reward text
+- 60761 Return of the Scourge [An Uncertain Fate]: giver 169878 not spawned, giver 170084 not spawned, no offer-reward text
+- 60727 A Message from Icecrown [An Uncertain Fate]: giver 169878 not spawned, no offer-reward text
+- 60003 A Valiant Effort [Return of the Scourge]: giver 168123 not spawned
+- 60004 A Valiant Effort [Return of the Scourge]: giver 168123 not spawned, no offer-reward text
+- 62157 Scouting from a Safe Distance [Return of the Scourge]: giver 168123 not spawned
+- 60827 Advancing the Effort [Return of the Scourge]: giver 168123 not spawned, no offer-reward text
+- 60828 A New Foothold [Return of the Scourge]: giver 168123 not spawned, giver 170467 not spawned
+- 60843 Cult Couture [Return of the Scourge]: giver 170467 not spawned
+- 62185 Fighting for Attention [Return of the Scourge]: giver 170467 not spawned
+- 60861 Secrets in Shadows [Return of the Scourge]: giver 170467 not spawned
+- 62225 Bursting the Bubble [Return of the Scourge]: giver 170467 not spawned
+- 60867 A Message from Above [Return of the Scourge]: giver 170467 not spawned
+- 60869 With Hope in Hand [Return of the Scourge]: giver 170467 not spawned
+- 60932 Only Shadows Remain [Return of the Scourge]: giver 170467 not spawned
+- 60869 With Hope in Hand [Return of the Scourge]: giver 170467 not spawned
+- 60871 With Hope in Hand [Return of the Scourge]: giver 170467 not spawned
+- 60917 None [Path of Ascension]: MISSING quest_template
+- 60918 None [Path of Ascension]: MISSING quest_template
+- 60919 None [Path of Ascension]: MISSING quest_template
+- 60921 None [Path of Ascension]: MISSING quest_template
+- 60922 None [Path of Ascension]: MISSING quest_template
+- 60923 None [Path of Ascension]: MISSING quest_template
+- 60924 None [Path of Ascension]: MISSING quest_template
+- 60925 None [Path of Ascension]: MISSING quest_template
+- 60926 None [Path of Ascension]: MISSING quest_template
+- 60927 None [Path of Ascension]: MISSING quest_template
+- 61014 None [Path of Ascension]: MISSING quest_template
+- 61015 None [Path of Ascension]: MISSING quest_template
+- 61016 None [Path of Ascension]: MISSING quest_template
+- 61017 None [Path of Ascension]: MISSING quest_template
+- 61018 None [Path of Ascension]: MISSING quest_template
+- 61019 None [Path of Ascension]: MISSING quest_template
+- 61020 None [Path of Ascension]: MISSING quest_template
+- 61021 None [Path of Ascension]: MISSING quest_template
+- 61022 None [Path of Ascension]: MISSING quest_template
+- 61023 None [Path of Ascension]: MISSING quest_template
+- 61024 None [Path of Ascension]: MISSING quest_template
+- 61025 None [Path of Ascension]: MISSING quest_template
+- 61026 None [Path of Ascension]: MISSING quest_template
+- 61027 None [Path of Ascension]: MISSING quest_template
+- 61028 None [Path of Ascension]: MISSING quest_template
+- 61029 None [Path of Ascension]: MISSING quest_template
+- 61030 None [Path of Ascension]: MISSING quest_template
+- 61031 None [Path of Ascension]: MISSING quest_template
+- 61032 None [Path of Ascension]: MISSING quest_template
+- 61033 None [Path of Ascension]: MISSING quest_template
+- 61034 None [Path of Ascension]: MISSING quest_template
+- 61035 None [Path of Ascension]: MISSING quest_template
+- 61036 None [Path of Ascension]: MISSING quest_template
+- 61037 None [Path of Ascension]: MISSING quest_template
+- 61038 None [Path of Ascension]: MISSING quest_template
+- 61039 None [Path of Ascension]: MISSING quest_template
+- 61040 None [Path of Ascension]: MISSING quest_template
+- 61041 None [Path of Ascension]: MISSING quest_template
+- 61042 None [Path of Ascension]: MISSING quest_template
+- 61043 None [Path of Ascension]: MISSING quest_template
+- 60159 Mirror Attunement: Halls of Atonement [The Mirror Network]: no offer-reward text
+- 60160 Mirror Attunement: The Banewood [The Mirror Network]: no offer-reward text
+- 60164 Mirror Attunement: Dominance Keep [The Mirror Network]: no offer-reward text
+- 60165 Mirror Attunement: Feeders' Thicket [The Mirror Network]: no offer-reward text
+- 62838 None [Return to the Maw]: MISSING quest_template
+- 57743 Conquest's Reward [Conquest Rewards]: no offer-reward text
+- 57744 Conquest's Reward [Conquest Rewards]: no offer-reward text
+- 57745 Conquest's Reward [Conquest Rewards]: no offer-reward text
+- 57746 Conquest's Reward [Conquest Rewards]: no offer-reward text
+- 57747 Conquest's Reward [Conquest Rewards]: no offer-reward text
+- 57748 Conquest's Reward [Conquest Rewards]: no offer-reward text
+- 57749 Conquest's Reward [Conquest Rewards]: no offer-reward text
+- 57750 Conquest's Reward [Conquest Rewards]: no offer-reward text
+- 57751 Conquest's Reward [Conquest Rewards]: no offer-reward text
+- 57752 Conquest's Reward [Conquest Rewards]: no offer-reward text
+- 57753 Conquest's Reward [Conquest Rewards]: no offer-reward text
+- 57754 Conquest's Reward [Conquest Rewards]: no offer-reward text
+- 57755 Conquest's Reward [Conquest Rewards]: no offer-reward text
+- 57756 Conquest's Reward [Conquest Rewards]: no offer-reward text
+- 57757 Conquest's Reward [Conquest Rewards]: no offer-reward text
+- 57758 Conquest's Reward [Conquest Rewards]: no offer-reward text
+- 57759 Conquest's Reward [Conquest Rewards]: no offer-reward text
+- 57760 Conquest's Reward [Conquest Rewards]: no offer-reward text
+- 57761 Conquest's Reward [Conquest Rewards]: no offer-reward text
+- 57762 Conquest's Reward [Conquest Rewards]: no ender, no offer-reward text, no starter
+- 57763 Conquest's Reward [Conquest Rewards]: no ender, no offer-reward text, no starter
+- 57764 Conquest's Reward [Conquest Rewards]: no ender, no offer-reward text, no starter
+- 57765 Conquest's Reward [Conquest Rewards]: no ender, no offer-reward text, no starter
+- 57768 Conquest's Reward [Conquest Rewards]: no ender, no offer-reward text, no starter
+- 57769 Conquest's Reward [Conquest Rewards]: no ender, no offer-reward text, no starter
+- 58344 Conquest's Reward [Conquest Rewards]: no ender, no offer-reward text, no starter
+- 58345 Conquest's Reward [Conquest Rewards]: no ender, no offer-reward text, no starter
+- 58346 Conquest's Reward [Conquest Rewards]: no ender, no offer-reward text, no starter
+- 58347 Conquest's Reward [Conquest Rewards]: no ender, no offer-reward text, no starter
+- 58348 Conquest's Reward [Conquest Rewards]: no ender, no offer-reward text, no starter
+- 58352 Conquest's Reward [Conquest Rewards]: no ender, no offer-reward text, no starter
+- 61785 An Expected Visitor [Righteous Retribution]: no offer-reward text
+- 61767 A Perilous Journey [Righteous Retribution]: no offer-reward text
+- 61768 Stronger Together [Righteous Retribution]: no offer-reward text
+- 61769 Fight and Flight [Righteous Retribution]: no offer-reward text
+- 61770 The Butchers of Bastion [Righteous Retribution]: no offer-reward text
+- 61771 Justice from Above [Righteous Retribution]: no offer-reward text
+- 61772 Dark Developments [Righteous Retribution]: no offer-reward text
+- 61773 Descended [Righteous Retribution]: no offer-reward text
+- 61774 Burn Before Reading [Righteous Retribution]: no offer-reward text
+- 61775 An Early End [Righteous Retribution]: no offer-reward text
+- 61776 Trouble on the Western Front [Righteous Retribution]: no offer-reward text
+- 61777 Charging The Blade [Righteous Retribution]: no offer-reward text
+- 61778 Aerial Advantage [Righteous Retribution]: no offer-reward text
+- 61779 Grave Intent [Righteous Retribution]: no offer-reward text
+- 61780 Power of the Chosen [Righteous Retribution]: no offer-reward text
+- 61781 The End is Now [Righteous Retribution]: no offer-reward text
+- 61782 Pursuit of Justice [Righteous Retribution]: no offer-reward text
+- 61876 Take Heart [Righteous Retribution]: no offer-reward text
+- 61877 Return to the Hold [Righteous Retribution]: no offer-reward text
+- 61878 Crest of Greatness [Righteous Retribution]: no offer-reward text
+- 60129 Stranger in an Even Stranger Land [Arrival in the Shadowlands]: no ender, no starter
+- 61061 Ulfar's Guidance [Drust to Drust]: no ender
+- 61076 Into the Flame [Drust to Drust]: no ender, no starter
+- 61102 Kivarr the Thornspeaker [Drust to Drust]: no starter
+- 61558 The Highlord's Vision [Peering into Darkness]: no offer-reward text
+- 61559 A Mourneblade Born [Peering into Darkness]: no offer-reward text
+- 62569 The Jailer's Grasp [Peering into Darkness]: no offer-reward text
+- 60642 The Grove Resplendent [The Queen's Conservatory]: no ender
+- 61557 An Echo in the Darkness [A Fateful Vision]: no starter
+- 61558 The Highlord's Vision [A Fateful Vision]: no offer-reward text
+- 61559 A Mourneblade Born [A Fateful Vision]: no offer-reward text
+- 62569 The Jailer's Grasp [A Fateful Vision]: no offer-reward text
+- 58670 The Slaughter Daughter [Soul Survivors]: giver 162174 not spawned
+- 58671 Bottled Up Inside [Soul Survivors]: giver 162174 not spawned
+- 58727 A Place To Call Home [Soul Survivors]: giver 162174 not spawned
+- 57531 An Unfortunate Situation [Mirror Maker of the Master]: no ender, no starter
+- 60470 Setting Sabina Free [Revelations of the Light]: no ender
+- 57549 In Agthia's Memory [In Agthia's Memory]: no offer-reward text
+- 57551 Agthia's Path [In Agthia's Memory]: no offer-reward text
+- 57552 Warriors of the Void [In Agthia's Memory]: no offer-reward text
+- 57553 On Wounded Wings [In Agthia's Memory]: no offer-reward text
+- 57554 Wicked Gateways [In Agthia's Memory]: no offer-reward text
+- 57555 Shadow's Fall [In Agthia's Memory]: no offer-reward text
+- 58184 Antiquated Methodology [Pride or Unit]: no offer-reward text
+- 58185 Success Without Soul [Pride or Unit]: no offer-reward text
+- 58103 Pride or Unit [Pride or Unit]: no offer-reward text, no starter
+- 62715 More Than A Gift [An Act of Service]: no offer-reward text
+- 61051 The Absent-Minded Artisan [When a Gorm Eats a God]: no offer-reward text
+- 58022 Finish What He Started [When a Gorm Eats a God]: no offer-reward text
+- 58023 One Big Problem [When a Gorm Eats a God]: no offer-reward text
+- 58024 Burrows Away [When a Gorm Eats a God]: no offer-reward text
+- 58025 Queen of the Underground [When a Gorm Eats a God]: no offer-reward text
+- 58026 When a Gorm Eats a God [When a Gorm Eats a God]: no offer-reward text
+- 59802 The Crumbling Village [An Ominous Stone]: no offer-reward text
+- 58165 Cut the Roots [An Ominous Stone]: no offer-reward text
+- 59801 Take the Power [An Ominous Stone]: no offer-reward text
+- 58166 Unknown Assailants [An Ominous Stone]: no offer-reward text
+- 59882 Sure Bet [Theater of Pain]: no ender, no offer-reward text, no starter
+- 59826 Bet On Yourself [Theater of Pain]: no offer-reward text
+- 62462 WANTED: The Key of Eyes [WANTED: The Key of Eyes]: giver 169964 not spawned
+- 62713 None [Time Skip]: MISSING quest_template
+- 62706 None [Time Skip]: MISSING quest_template
+- 57619 None [Time Skip]: MISSING quest_template
+- 57574 None [Time Skip]: MISSING quest_template
+- 62159 Aiding the Shadowlands [Aiding the Shadowlands]: no offer-reward text
+- 57245 Ani-Matter Animator [Ani-Matter Animator]: giver 157076 not spawned
+- 60279 WANTED: The Pale Doom [WANTED: The Pale Doom]: no offer-reward text
+- 60275 WANTED: Enforcer Kristof [WANTED: Enforcer Kristof]: no offer-reward text
+- 60280 WANTED: Lord Darion [WANTED: Lord Darion]: no offer-reward text
+- 60278 WANTED: Duke Anton [WANTED: Duke Anton]: no offer-reward text
+- 58060 The Night Market [The Night Market]: no offer-reward text
+- 58062 A Very Special Guest [The Night Market]: no offer-reward text
+- 57444 An Inspired Moral Inventory [An Inspired Moral Inventory]: giver 160647 not spawned
+- 58717 Bell of Remembrance [Bell of Remembrance]: giver 161418 not spawned, no offer-reward text, no starter
+- 58725 Sinkeeper [Bell of Remembrance]: giver 161418 not spawned, no offer-reward text
+- 57952 In Need of Gorm Gris [Tranquil Pools]: no offer-reward text
+- 57818 Nothing Goes to Waste [Tranquil Pools]: no offer-reward text
+- 57824 Collection Day [Tranquil Pools]: no offer-reward text
+- 57825 Delivery for Guardian Kota [Tranquil Pools]: no offer-reward text
+- 61616 The Ember Court [The Ember Court]: no offer-reward text
+- 62789 Of Great Renown [Among the Kyrian]: no offer-reward text
+- 62790 The Path Provides [Among the Kyrian]: no offer-reward text
+- 62698 A Call to Service [Among the Kyrian]: no offer-reward text
+- 62699 None [Among the Kyrian]: MISSING quest_template
+- 62791 Our Most Precious Resource [Among the Kyrian]: no offer-reward text
+- 62792 Into the Reservoir [Among the Kyrian]: no offer-reward text
+- 57905 A Unique Opportunity [Among the Kyrian]: no offer-reward text
+- 62832 Friends in Dark Places [Among the Kyrian]: no offer-reward text
+- 62796 Return to Adrestes [Among the Kyrian]: no offer-reward text
+- 62793 It's All Coming Together [Among the Kyrian]: no offer-reward text
+- 62794 Enhancing the Hold [Among the Kyrian]: no offer-reward text
+- 63001 None [Among the Kyrian]: MISSING quest_template
+- 63023 None [Among the Kyrian]: MISSING quest_template
+- 57559 None [Among the Kyrian]: MISSING quest_template
+- 62706 None [Among the Kyrian]: MISSING quest_template
+- 62907 None [Among the Kyrian]: MISSING quest_template
+- 62924 None [Among the Kyrian]: MISSING quest_template
+- 63425 None [Among the Kyrian]: MISSING quest_template
+- 62699 None [Covenant Hall Intro]: MISSING quest_template
+- 62840 Into the Reservoir [Covenant Hall Intro]: no offer-reward text
+- 63001 None [Covenant Hall Intro]: MISSING quest_template
+- 63023 None [Covenant Hall Intro]: MISSING quest_template
+- 57559 None [Covenant Hall Intro]: MISSING quest_template
+- 62706 None [Covenant Hall Intro]: MISSING quest_template
+- 62907 None [Covenant Hall Intro]: MISSING quest_template
+- 62924 None [Covenant Hall Intro]: MISSING quest_template
+- 63425 None [Covenant Hall Intro]: MISSING quest_template
+- 62883 Keeper of Great Renown [For Queen and Grove!]: no offer-reward text
+- 62884 The Forest Will Sing Your Name [For Queen and Grove!]: no offer-reward text
+- 62697 A Call to Service [For Queen and Grove!]: no offer-reward text
+- 62699 None [For Queen and Grove!]: MISSING quest_template
+- 62890 Who Shapes the Forest [For Queen and Grove!]: no offer-reward text
+- 62891 Into the Reservoir [For Queen and Grove!]: no offer-reward text
+- 62892 Recover the Lost [For Queen and Grove!]: no offer-reward text
+- 62893 Do What We Cannot [For Queen and Grove!]: no offer-reward text
+- 62894 Flutterback [For Queen and Grove!]: no offer-reward text
+- 62897 Recovered Souls [For Queen and Grove!]: no offer-reward text
+- 62898 The First New Growth [For Queen and Grove!]: no offer-reward text
+- 63001 None [For Queen and Grove!]: MISSING quest_template
+- 63007 None [For Queen and Grove!]: MISSING quest_template
+- 63023 None [For Queen and Grove!]: MISSING quest_template
+- 57559 None [For Queen and Grove!]: MISSING quest_template
+- 62706 None [For Queen and Grove!]: MISSING quest_template
+- 62907 None [For Queen and Grove!]: MISSING quest_template
+- 62924 None [For Queen and Grove!]: MISSING quest_template
+- 63425 None [For Queen and Grove!]: MISSING quest_template
+- 62699 None [Sinfall]: MISSING quest_template
+- 63001 None [Sinfall]: MISSING quest_template
+- 63023 None [Sinfall]: MISSING quest_template
+- 57559 None [Sinfall]: MISSING quest_template
+- 62706 None [Sinfall]: MISSING quest_template
+- 62907 None [Sinfall]: MISSING quest_template
+- 62924 None [Sinfall]: MISSING quest_template
+- 63425 None [Sinfall]: MISSING quest_template
+- 62883 Keeper of Great Renown [For Queen and Grove!]: no offer-reward text
+- 62884 The Forest Will Sing Your Name [For Queen and Grove!]: no offer-reward text
+- 62697 A Call to Service [For Queen and Grove!]: no offer-reward text
+- 62699 None [For Queen and Grove!]: MISSING quest_template
+- 62890 Who Shapes the Forest [For Queen and Grove!]: no offer-reward text
+- 62891 Into the Reservoir [For Queen and Grove!]: no offer-reward text
+- 62892 Recover the Lost [For Queen and Grove!]: no offer-reward text
+- 62893 Do What We Cannot [For Queen and Grove!]: no offer-reward text
+- 62894 Flutterback [For Queen and Grove!]: no offer-reward text
+- 62897 Recovered Souls [For Queen and Grove!]: no offer-reward text
+- 62898 The First New Growth [For Queen and Grove!]: no offer-reward text
+- 63001 None [For Queen and Grove!]: MISSING quest_template
+- 63023 None [For Queen and Grove!]: MISSING quest_template
+- 57559 None [For Queen and Grove!]: MISSING quest_template
+- 62706 None [For Queen and Grove!]: MISSING quest_template
+- 62907 None [For Queen and Grove!]: MISSING quest_template
+- 62924 None [For Queen and Grove!]: MISSING quest_template
+- 63425 None [For Queen and Grove!]: MISSING quest_template
+- 63052 Step of Faith [Transport Network]: no offer-reward text
+- 63053 At a Moment's Notice [Transport Network]: no offer-reward text
+- 57899 More Work? [Adventures]: giver 160389 not spawned, no offer-reward text
+- 57900 Across the Shadowlands [Adventures]: giver 160389 not spawned, no offer-reward text
+- 57901 All That Remains [Anima Conductor]: giver 158773 not spawned, no offer-reward text
+- 57903 Power in the Sky [Anima Conductor]: giver 158773 not spawned, no offer-reward text
+- 60489 The Path of Ascension [The Path of Ascension]: no offer-reward text
+- 60493 Humble Gatherer [The Path of Ascension]: no offer-reward text
+- 60494 Your Friend, Dactylis [The Path of Ascension]: no offer-reward text
+- 60495 A Suitable Opponent [The Path of Ascension]: no offer-reward text
+- 60496 Into the Coliseum [The Path of Ascension]: no offer-reward text
+- 60497 Herald's Footpads [The Path of Ascension]: giver 168430 not spawned, no offer-reward text
+- 61473 Sourcing Your Own Materials [The Path of Ascension]: giver 168430 not spawned, giver 171816 not spawned, no offer-reward text
+- 60498 Overcoming the Trial [The Path of Ascension]: no offer-reward text
+- 63029 The Highlord Calls [Torghast]: no offer-reward text
+- 62967 Prison of the Forgotten [Torghast]: no offer-reward text
+- 63344 Kyrian Veteran [Kyrian Combatant]: no offer-reward text
+- 63345 Kyrian Tactician [Kyrian Combatant]: no offer-reward text
+- 63346 Night Fae Veteran [Night Fae Combatant]: no offer-reward text
+- 63347 Night Fae Tactician [Night Fae Combatant]: no offer-reward text
+- 63479 Summons from the Matriarch [Knights of Blood]: no ender, no offer-reward text, no starter
+- 65652 Summons from the Matriarch [Knights of Blood]: no offer-reward text
+- 63480 Briefing [Knights of Blood]: no offer-reward text
+- 63481 Tranquillien Besieged [Knights of Blood]: no offer-reward text
+- 63482 Death to the Scourge [Knights of Blood]: no offer-reward text
+- 63483 Magus Installation [Knights of Blood]: no offer-reward text
+- 63484 A Knight's Weapon [Knights of Blood]: no offer-reward text
+- 63485 An Honest Heart [Knights of Blood]: no offer-reward text
+- 63486 An Unbreakable Will [Knights of Blood]: no offer-reward text
+- 63519 Unfair Fight [Knights of Blood]: no offer-reward text
+- 63522 A Fair Race [Knights of Blood]: no offer-reward text
+- 63487 Return to the Ghostlands [Knights of Blood]: no offer-reward text
+- 63488 I Am the Blade of the Light [Knights of Blood]: no offer-reward text
+- 63489 Justice Long Overdue [Knights of Blood]: no offer-reward text
+- 63490 Blood Knight [Knights of Blood]: no offer-reward text
+- 65653 Victory for the Sin'dorei [Knights of Blood]: no offer-reward text
+- 63505 None [A Tour de Farce]: MISSING quest_template
+- 63506 None [A Tour de Farce]: MISSING quest_template
+- 63509 None [A Tour de Farce]: MISSING quest_template
+- 63508 None [A Tour de Farce]: MISSING quest_template
+- 63510 None [A Tour de Farce]: MISSING quest_template
+- 63511 None [A Tour de Farce]: MISSING quest_template
+- 63579 A Paladin's Soul [A New Path]: no offer-reward text
+- 63580 Wounded Memories [A New Path]: no offer-reward text
+- 63581 Step Into the Light [A New Path]: no offer-reward text
+- 63582 He Was My Student [A New Path]: no offer-reward text
+- 63583 I Intend to Live Forever [A New Path]: no offer-reward text
+- 63585 Blind Loyalty [A New Path]: no offer-reward text
+- 63586 Compassion in Devotion [A New Path]: no offer-reward text
+- 63587 Reclaimable Anima [A New Path]: no offer-reward text
+- 63588 Rebuilding Faith [A New Path]: no offer-reward text
+- 63589 Directing Dedication [A New Path]: no offer-reward text
+- 63590 The Vesper Rings [A New Path]: no offer-reward text
+- 63584 A Triumphant Return [A New Path]: no offer-reward text
+- 63591 The Grand Reception [A New Path]: no offer-reward text, no starter
+- 63592 The New Path [A New Path]: no offer-reward text
+- 63593 New Sigil of the Kyrian [A New Path]: no offer-reward text
+- 63659 Dreadlords! [The Unseen Guests]: no offer-reward text
+- 63644 Dread Tidings [The Unseen Guests]: no offer-reward text
+- 63646 Convoy of the Covenants [The Unseen Guests]: no offer-reward text
+- 63647 The Unseen Guests [The Unseen Guests]: no offer-reward text
+- 63648 Nal'ragas [The Unseen Guests]: no offer-reward text
+- 63649 Spy vs Spy [The Unseen Guests]: no offer-reward text
+- 63650 De-Infiltration [The Unseen Guests]: no offer-reward text
+- 63651 Cryptograms [The Unseen Guests]: no offer-reward text
+- 63652 The "Unwelcome" Guests [The Unseen Guests]: no offer-reward text
+- 63653 The Power of a Crown [The Unseen Guests]: no offer-reward text
+- 63654 The Nathrezim [The Unseen Guests]: no offer-reward text
+- 63656 The Meaning of Wrath [The Unseen Guests]: no offer-reward text
+- 63672 A Cry From the Heart [The Power of Night]: no offer-reward text
+- 63673 Hunting Amid Houses [The Power of Night]: no offer-reward text, no starter
+- 63728 Hunting Amid Houses [The Power of Night]: no offer-reward text
+- 63990 The Blade in the Night [The Power of Night]: no offer-reward text
+- 63674 By Your Leave [The Power of Night]: no offer-reward text
+- 63675 You Cannot Run [The Power of Night]: no offer-reward text
+- 63676 You Cannot Hide [The Power of Night]: no offer-reward text
+- 63677 You Can Only Die [The Power of Night]: no offer-reward text
+- 63678 Akarek Avenged [The Power of Night]: no offer-reward text
+- 63679 Magical Mystery Tour! [The Power of Night]: no offer-reward text
+- 64092 Hunting Huln [The Power of Night]: no offer-reward text
+- 64091 Mal'appropriated [The Power of Night]: no offer-reward text
+- 64090 The Big Squeeze [The Power of Night]: no offer-reward text
+- 63680 Out On the Edge [The Power of Night]: giver 177964 not spawned, no offer-reward text
+- 63681 Back to The Heart [The Power of Night]: no offer-reward text
+- 64042 Rituals of Night [The Power of Night]: no offer-reward text
+- 63682 The Power of Elune [The Power of Night]: no offer-reward text
+- 63683 Winter's Sigil [The Power of Night]: no offer-reward text
+- 64437 Inform the Primus [The Power of Night]: no offer-reward text
+- 63717 Defending the Vault [The Last Sigil]: giver 178640 not spawned
+- 63722 Keepers of Korthia [The Last Sigil]: giver 178640 not spawned
+- 57531 An Unfortunate Situation [Mirror Maker of the Master]: no ender, no starter
+- 63612 The Chains of Command [An Army of Bone and Steel]: no offer-reward text
+- 63613 Gates of the Damned [An Army of Bone and Steel]: no offer-reward text
+- 63614 Weapon in Hand [An Army of Bone and Steel]: no offer-reward text
+- 63615 Clip Their Wings [An Army of Bone and Steel]: no offer-reward text
+- 63616 A Job Done Right [An Army of Bone and Steel]: no offer-reward text
+- 63617 Bending Bars [An Army of Bone and Steel]: no offer-reward text
+- 63618 What Maldraxxus Does Best [An Army of Bone and Steel]: no offer-reward text
+- 63619 Forsworn and Forgotten [An Army of Bone and Steel]: no ender, no offer-reward text
+- 63620 A Traitor's Due [An Army of Bone and Steel]: no offer-reward text
+- 63622 Victory in Our Name [An Army of Bone and Steel]: no offer-reward text
+- 25133 Report to Sen'jin Village [Valley of Trials]: no offer-reward text
+- 63756 Rescued from Torment [They Could Be Anyone]: giver 177924 not spawned
+- 63758 The Last Place You Look [They Could Be Anyone]: giver 177924 not spawned
+- 63757 Looting the Looters [They Could Be Anyone]: giver 177924 not spawned
+- 63759 Redirect the Search [They Could Be Anyone]: giver 177924 not spawned
+- 63762 Under the Illusion [They Could Be Anyone]: no ender
+- 63981 None [Tazavesh: The Veiled Market]: MISSING quest_template
+- 63986 Tazavesh: Raiders of the Lost Artifact [Tazavesh: The Veiled Market]: no ender
+- 62883 Keeper of Great Renown [Catching Up!]: no offer-reward text
+- 62884 The Forest Will Sing Your Name [Catching Up!]: no offer-reward text
+- 62697 A Call to Service [Catching Up!]: no offer-reward text
+- 62890 Who Shapes the Forest [Catching Up!]: no offer-reward text
+- 62891 Into the Reservoir [Catching Up!]: no offer-reward text
+- 62892 Recover the Lost [Catching Up!]: no offer-reward text
+- 62893 Do What We Cannot [Catching Up!]: no offer-reward text
+- 62894 Flutterback [Catching Up!]: no offer-reward text
+- 62897 Recovered Souls [Catching Up!]: no offer-reward text
+- 62898 The First New Growth [Catching Up!]: no offer-reward text
+- 57559 None [Catching Up!]: MISSING quest_template
+- 63214 Night Fae Covenant: Report to Moonberry [Catching Up!]: no offer-reward text
+- 62907 None [The Maw]: MISSING quest_template
+- 57559 None [Catching Up!]: MISSING quest_template
+- 57895 Elysian Hold [Catching Up!]: no offer-reward text
+- 57897 Dangerous to Go Alone [Catching Up!]: no offer-reward text
+- 57898 Soul Meets Body [Catching Up!]: no offer-reward text
+- 57904 Our Eternal Charge [Catching Up!]: no offer-reward text
+- 57905 A Unique Opportunity [Catching Up!]: no offer-reward text
+- 60491 Among the Kyrian [Catching Up!]: no offer-reward text
+- 60492 A Proper Reception [Catching Up!]: no offer-reward text
+- 60504 Strengthen the Bond [Catching Up!]: no offer-reward text
+- 62698 A Call to Service [Catching Up!]: no offer-reward text
+- 62789 Of Great Renown [Catching Up!]: no offer-reward text
+- 62790 The Path Provides [Catching Up!]: no offer-reward text
+- 62791 Our Most Precious Resource [Catching Up!]: no offer-reward text
+- 62792 Into the Reservoir [Catching Up!]: no offer-reward text
+- 62793 It's All Coming Together [Catching Up!]: no offer-reward text
+- 62794 Enhancing the Hold [Catching Up!]: no offer-reward text
+- 62795 A Conduit for Good [Catching Up!]: no offer-reward text
+- 62796 Return to Adrestes [Catching Up!]: no offer-reward text
+- 62832 Friends in Dark Places [Catching Up!]: no offer-reward text
+- 63211 Kyrian Covenant: Report to Adrestes [Catching Up!]: no offer-reward text
+- 57559 None [Catching Up!]: MISSING quest_template
+- 59598 Good for the Soul [Catching Up!]: no ender, no offer-reward text, no starter
+- 62840 Into the Reservoir [Catching Up!]: no offer-reward text
+- 57559 None [Catching Up!]: MISSING quest_template
+- 62917 Shared Souls [Catching Up!]: no ender, no offer-reward text, no starter
+- 63215 Venthyr Covenant: Report to Draven [Catching Up!]: no offer-reward text
+- 62967 Prison of the Forgotten [Torghast]: no offer-reward text
+- 63029 The Highlord Calls [Torghast]: no offer-reward text
+- 62967 Prison of the Forgotten [Torghast]: no offer-reward text
+- 62967 Prison of the Forgotten [Torghast]: no offer-reward text
+- 62967 Prison of the Forgotten [Torghast]: no offer-reward text
+- 63579 A Paladin's Soul [Patch Campaign]: no offer-reward text
+- 63580 Wounded Memories [Patch Campaign]: no offer-reward text
+- 63581 Step Into the Light [Patch Campaign]: no offer-reward text
+- 63582 He Was My Student [Patch Campaign]: no offer-reward text
+- 63583 I Intend to Live Forever [Patch Campaign]: no offer-reward text
+- 63584 A Triumphant Return [Patch Campaign]: no offer-reward text
+- 63585 Blind Loyalty [Patch Campaign]: no offer-reward text
+- 63586 Compassion in Devotion [Patch Campaign]: no offer-reward text
+- 63587 Reclaimable Anima [Patch Campaign]: no offer-reward text
+- 63588 Rebuilding Faith [Patch Campaign]: no offer-reward text
+- 63589 Directing Dedication [Patch Campaign]: no offer-reward text
+- 63590 The Vesper Rings [Patch Campaign]: no offer-reward text
+- 63591 The Grand Reception [Patch Campaign]: no offer-reward text, no starter
+- 63592 The New Path [Patch Campaign]: no offer-reward text
+- 63593 New Sigil of the Kyrian [Patch Campaign]: no offer-reward text
+- 63612 The Chains of Command [Patch Campaign]: no offer-reward text
+- 63613 Gates of the Damned [Patch Campaign]: no offer-reward text
+- 63614 Weapon in Hand [Patch Campaign]: no offer-reward text
+- 63615 Clip Their Wings [Patch Campaign]: no offer-reward text
+- 63616 A Job Done Right [Patch Campaign]: no offer-reward text
+- 63617 Bending Bars [Patch Campaign]: no offer-reward text
+- 63618 What Maldraxxus Does Best [Patch Campaign]: no offer-reward text
+- 63619 Forsworn and Forgotten [Patch Campaign]: no ender, no offer-reward text
+- 63620 A Traitor's Due [Patch Campaign]: no offer-reward text
+- 63622 Victory in Our Name [Patch Campaign]: no offer-reward text
+- 63623 Filling an Empty Throne [Patch Campaign]: no offer-reward text
+- 63624 The Roads We Walk [Patch Campaign]: no offer-reward text
+- 63644 Dread Tidings [Patch Campaign]: no offer-reward text
+- 63645 The Dawnkeep Prisoner [Patch Campaign]: no offer-reward text
+- 63646 Convoy of the Covenants [Patch Campaign]: no offer-reward text
+- 63647 The Unseen Guests [Patch Campaign]: no offer-reward text
+- 63648 Nal'ragas [Patch Campaign]: no offer-reward text
+- 63649 Spy vs Spy [Patch Campaign]: no offer-reward text
+- 63650 De-Infiltration [Patch Campaign]: no offer-reward text
+- 63651 Cryptograms [Patch Campaign]: no offer-reward text
+- 63652 The "Unwelcome" Guests [Patch Campaign]: no offer-reward text
+- 63653 The Power of a Crown [Patch Campaign]: no offer-reward text
+- 63654 The Nathrezim [Patch Campaign]: no offer-reward text
+- 63655 Medallion of Wrath [Patch Campaign]: no offer-reward text
+- 63656 The Meaning of Wrath [Patch Campaign]: no offer-reward text
+- 63659 Dreadlords! [Patch Campaign]: no offer-reward text
+- 63674 By Your Leave [Patch Campaign]: no offer-reward text
+- 63677 You Can Only Die [Patch Campaign]: no offer-reward text
+- 63679 Magical Mystery Tour! [Patch Campaign]: no offer-reward text
+- 63680 Out On the Edge [Patch Campaign]: giver 177964 not spawned, no offer-reward text
+- 63681 Back to The Heart [Patch Campaign]: no offer-reward text
+- 63682 The Power of Elune [Patch Campaign]: no offer-reward text
+- 63683 Winter's Sigil [Patch Campaign]: no offer-reward text
+- 63722 Keepers of Korthia [Patch Campaign]: giver 178640 not spawned
+- 63728 Hunting Amid Houses [Patch Campaign]: no offer-reward text
+- 63990 The Blade in the Night [Patch Campaign]: no offer-reward text
+- 64042 Rituals of Night [Patch Campaign]: no offer-reward text
+- 64090 The Big Squeeze [Patch Campaign]: no offer-reward text
+- 64091 Mal'appropriated [Patch Campaign]: no offer-reward text
+- 64092 Hunting Huln [Patch Campaign]: no offer-reward text
+- 63717 Defending the Vault [Patch Campaign]: giver 178640 not spawned
+- 63672 A Cry From the Heart [Patch Campaign]: no offer-reward text
+- 63673 Hunting Amid Houses [Patch Campaign]: no offer-reward text, no starter
+- 63675 You Cannot Run [Patch Campaign]: no offer-reward text
+- 63676 You Cannot Hide [Patch Campaign]: no offer-reward text
+- 63678 Akarek Avenged [Patch Campaign]: no offer-reward text
+- 64211 Doorway in the Dark [What Lies Ahead]: no offer-reward text
+- 64212 Doorway in the Dark [What Lies Ahead]: no offer-reward text
+- 64213 A Symbol of Hope [What Lies Ahead]: no offer-reward text
+- 64214 A Symbol of Hope [What Lies Ahead]: no offer-reward text, no starter
+- 64314 Covenants Renewed [What Lies Ahead]: no offer-reward text
+- 64219 A Mysterious Voice [Forming an Understanding]: giver 179612 not spawned
+- 64196 Pet Up [Stolen Pet Supplies]: giver 179566 not spawned, no offer-reward text, no starter
+- 64203 The Coast is Clear [Stolen Pet Supplies]: giver 179566 not spawned, no offer-reward text
+- 64215 Paw Patrol [Stolen Pet Supplies]: giver 179566 not spawned, no offer-reward text
+- 64237 Gurgl and the Bandit [Stolen Pet Supplies]: giver 179566 not spawned, no ender, no offer-reward text
+- 63655 Medallion of Wrath [Medallion of Wrath]: no offer-reward text
+- 64323 Kyrian Veteran [Kyrian Combatant]: no ender, no offer-reward text
+- 64086 Kyrian Tactician [Kyrian Combatant]: no ender, no offer-reward text
+- 64324 Necrolord Veteran [Necrolord Combatant]: no ender, no offer-reward text
+- 64084 Necrolord Tactician [Necrolord Combatant]: no ender, no offer-reward text
+- 64322 Night Fae Veteran [Night Fae Combatant]: no ender
+- 64085 Night Fae Tactician [Night Fae Combatant]: no ender, no offer-reward text
+- 64325 Sinfall Veteran [Sinfall Combatant]: no ender, no offer-reward text
+- 64083 Sinfall Tactician [Sinfall Combatant]: no ender, no offer-reward text
+- 62706 None [Time Skip]: MISSING quest_template
+- 57619 None [Time Skip]: MISSING quest_template
+- 57574 None [Time Skip]: MISSING quest_template
+- 60545 Shadowlands: A Chilling Summons [Maw Intro]: no starter
+- 61874 Shadowlands: A Chilling Summons [Maw Intro]: no starter
+- 65033 Observing Victory [Observing Victory]: no offer-reward text
+- 65034 Return to Oribos [Observing Victory]: no ender, no offer-reward text
+- 65035 Return to Oribos [Traversing Torghast]: no ender, no offer-reward text
+- 65045 Stormsunder Crater [The Ebon Scales]: no offer-reward text
+- 72263 Cavalry Has Its Place [The Ebon Scales]: no offer-reward text
+- 65046 The Primalists [The Ebon Scales]: no offer-reward text
+- 65049 Tangle with the Tarasek [The Ebon Scales]: no offer-reward text
+- 65050 Conjured Army [The Ebon Scales]: no offer-reward text
+- 65052 The Ebon Scales [The Ebon Scales]: no offer-reward text
+- 65057 Rally to Emberthal [The Ebon Scales]: no offer-reward text
+- 65073 A Toxic Problem [The Healing Wings]: no offer-reward text
+- 65074 Easy Prey [The Healing Wings]: no offer-reward text
+- 65307 Mercy First [The Healing Wings]: no offer-reward text
+- 66324 Never Forgotten [The Healing Wings]: no offer-reward text
+- 65075 The Healing Wings [The Healing Wings]: no offer-reward text
+- 65701 Preservation or Devastation [Froststone Vault]: no offer-reward text
+- 65084 The Froststone Vault [Froststone Vault]: no offer-reward text
+- 65087 The Prize Inside [Froststone Vault]: no offer-reward text
+- 65097 Run! [Wrath of the Storm-Eater]: no offer-reward text
+- 65098 The Consequence of Courage [Wrath of the Storm-Eater]: no offer-reward text
+- 65100 Final Orders [Wrath of the Storm-Eater]: no offer-reward text
+- 65286 Draconic Connections [The Obsidian Warders]: no offer-reward text
+- 66513 Ground Leave [The Obsidian Warders]: no offer-reward text
+- 65101 An Iconic, Draconic Look [The Obsidian Warders]: no offer-reward text
+- 64219 A Mysterious Voice [Patch Intro]: giver 179612 not spawned
+- 67700 To the Dragon Isles! [The Dragonscale Expedition]: no offer-reward text
+- 70122 Explorers in Peril [The Dragonscale Expedition]: no offer-reward text
+- 70123 Primal Pests [The Dragonscale Expedition]: no offer-reward text
+- 70124 Practice Materials [The Dragonscale Expedition]: no offer-reward text
+- 70125 Where is Wrathion? [The Dragonscale Expedition]: no offer-reward text
+- 70198 The Call of the Isles [The Dragonscale Expedition]: no ender, no offer-reward text, no starter
+- 70197 The Call of the Isles [The Dragonscale Expedition]: no ender, no offer-reward text, no starter
+- 72293 Adventuring in the Dragon Isles [The Dragonscale Expedition]: no ender, no starter
+- 65655 Eyes of the Wolf [Return to Lordaeron]: no offer-reward text
+- 65657 Assemble the Forsaken [Return to Lordaeron]: no offer-reward text
+- 65658 This Land is Ours [Return to Lordaeron]: no offer-reward text
+- 65659 The Blight Congress [Return to Lordaeron]: no offer-reward text
+- 65660 Walk of Faith [Return to Lordaeron]: no offer-reward text
+- 65661 Consulting Our Allies [Return to Lordaeron]: no offer-reward text
+- 65662 House of Plagues [Return to Lordaeron]: no offer-reward text
+- 65663 Feed the Eater [Return to Lordaeron]: no offer-reward text
+- 65664 Essence of Plague [Return to Lordaeron]: no offer-reward text
+- 65665 Embodiment [Return to Lordaeron]: no offer-reward text
+- 65666 Return to Brill [Return to Lordaeron]: no offer-reward text
+- 65667 The Remedy of Lordaeron [Return to Lordaeron]: no offer-reward text
+- 65668 The Desolate Council [Return to Lordaeron]: no offer-reward text
+- 66090 Path of the Dark Rangers [Return to Lordaeron]: no offer-reward text
+- 65669 Report to Greymane [Return to Lordaeron]: no offer-reward text
+- 65656 Call to Lordaeron [Return to Lordaeron]: no ender, no offer-reward text
+- 65657 Assemble the Forsaken [Return to Lordaeron]: no offer-reward text
+- 65658 This Land is Ours [Return to Lordaeron]: no offer-reward text
+- 65659 The Blight Congress [Return to Lordaeron]: no offer-reward text
+- 65660 Walk of Faith [Return to Lordaeron]: no offer-reward text
+- 65661 Consulting Our Allies [Return to Lordaeron]: no offer-reward text
+- 65662 House of Plagues [Return to Lordaeron]: no offer-reward text
+- 65663 Feed the Eater [Return to Lordaeron]: no offer-reward text
+- 65664 Essence of Plague [Return to Lordaeron]: no offer-reward text
+- 65665 Embodiment [Return to Lordaeron]: no offer-reward text
+- 65666 Return to Brill [Return to Lordaeron]: no offer-reward text
+- 65667 The Remedy of Lordaeron [Return to Lordaeron]: no offer-reward text
+- 65668 The Desolate Council [Return to Lordaeron]: no offer-reward text
+- 66091 Path of the Dark Rangers [Return to Lordaeron]: no offer-reward text
+- 65788 A Walk with Ghosts [Return to Lordaeron]: no ender, no offer-reward text, no starter
+- 65463 The Wellspring of the First Ones [The Waters of Grace]: no ender, no starter
+- 66044 Taking the Walls [Wrathion's Gambit]: giver 166933 not spawned
+- 77345 The Need For Higher Velocities [In Defense of Life]: no ender, no offer-reward text, no starter
+- 66178 A Day in the Groves [Garden of Secrets]: no offer-reward text
+- 66179 Seeds for the Future [Garden of Secrets]: no offer-reward text
+- 66180 Wake the Ancients [Garden of Secrets]: no offer-reward text
+- 66182 Gerithus's Research [Garden of Secrets]: no offer-reward text
+- 66183 Emerald Tears [Garden of Secrets]: no offer-reward text
+- 66181 A Frenzied Defender [Garden of Secrets]: no offer-reward text
+- 66184 Anchors to Life [Garden of Secrets]: no offer-reward text
+- 66393 To Somnikus [Garden of Secrets]: no offer-reward text
+- 66396 Guarded Appreciation [Garden of Secrets]: no offer-reward text
+- 66190 So Close [Garden of Secrets]: no offer-reward text
+- 66191 And Yet So Far [Garden of Secrets]: no offer-reward text
+- 66237 Spiritual Allies [The Dark Talons]: no offer-reward text
+- 66534 Ground Leave [The Dark Talons]: no offer-reward text
+- 65613 An Iconic, Draconic Look [The Dark Talons]: no offer-reward text
+- 70746 Shades of Blue [Into the Archives]: no offer-reward text
+- 70747 The Azure Wizard [Into the Archives]: no ender, no offer-reward text, no starter
+- 66034 None [Big Time Adventurer]: MISSING quest_template
+- 66036 Mugurlglrlgl! [Big Time Adventurer]: no offer-reward text
+- 70373 Deathwingurlugull! [Big Time Adventurer]: no offer-reward text
+- 66392 Rallying Nature's Allies [The Dreamer]: no offer-reward text
+- 66185 Across the Weald [The Dreamer]: no offer-reward text
+- 66186 The Price [The Dreamer]: no offer-reward text
+- 66188 Storm's Rest [The Dreamer]: no offer-reward text
+- 66189 Step Into the Life [The Dreamer]: no offer-reward text
+- 66394 Thin the Veil [The Dreamer]: no offer-reward text
+- 66397 Our Full Strength [The Dreamer]: no offer-reward text
+- 66635 Reunited, Once Again [The Dreamer]: no offer-reward text
+- 66398 The Emerald Dragonflight [The Dreamer]: no offer-reward text
+- 66399 We'll Cross that Bridge [The Dreamer]: no offer-reward text
+- 66400 Winter's Fall [The Dreamer]: no offer-reward text
+- 66401 The Dreamer [The Dreamer]: no offer-reward text
+- 66402 Like Mother, Like Daughter [The Dreamer]: no offer-reward text
+- 70784 The Abandoned Outpost [A Mystery, Sealed]: no offer-reward text
+- 70503 The Vigilance of Tyr [A Mystery, Sealed]: no offer-reward text
+- 70785 The City of the Dead [A Mystery, Sealed]: no offer-reward text
+- 66814 The Judgment of Tyr [A Mystery, Sealed]: no offer-reward text
+- 66128 Next Steps [A Mystery, Sealed]: no offer-reward text
+- 68794 Ally of Dragons [The Silver Purpose]: no offer-reward text
+- 67074 The Gift of Silver [The Silver Purpose]: no offer-reward text
+- 70703 The Legacy of Tyrhold [The Silver Purpose]: no offer-reward text
+- 67075 The Magic Within [The Silver Purpose]: no offer-reward text
+- 67076 A Spark of Discovery [The Silver Purpose]: no offer-reward text
+- 67077 Memories of the Past [The Silver Purpose]: no offer-reward text
+- 67078 Parting Instructions [The Silver Purpose]: no offer-reward text
+- 67079 Hard Lock Life [The Silver Purpose]: no offer-reward text
+- 67081 Halls of Infusion: An Infusion of Materials [The Silver Purpose]: no offer-reward text
+- 67084 The Silver Purpose [The Silver Purpose]: no offer-reward text
+- 79988 None [Ancient Waygates]: MISSING quest_template
+- 67100 A Gift for Miguel [Catching Up!]: no offer-reward text
+- 67137 Professionally Equipped [Catching Up!]: no offer-reward text
+- 67564 Artisan's Courier [Catching Up!]: no offer-reward text
+- 70732 A Practice Bout [Born to Be Wilder]: no offer-reward text
+- 70849 This Calls for a Specialist [Born to Be Wilder]: no offer-reward text
+- 70851 Born to Be Wilder [Born to Be Wilder]: no offer-reward text
+- 70853 A Friend for Lubbins [Born to Be Wilder]: no offer-reward text
+- 70854 So How Did It Go? [Born to Be Wilder]: no offer-reward text
+- 71232 Renown of the Dragon Isles [Dragon Isles Emissary]: giver 213930 not spawned
+- 72585 Open Orientation [Dragon Isles Emissary]: giver 213930 not spawned
+- 70750 Aiding the Accord [Dragon Isles Emissary]: giver 199336 not spawned
+- 72068 Aiding the Accord: A Feast For All [Dragon Isles Emissary]: giver 199336 not spawned, no offer-reward text
+- 72373 Aiding the Accord: The Hunt is On [Dragon Isles Emissary]: giver 199336 not spawned, no offer-reward text
+- 72374 Aiding the Accord: Dragonbane Keep [Dragon Isles Emissary]: giver 199336 not spawned, no ender, no offer-reward text
+- 72375 Aiding the Accord: The Isles Call [Dragon Isles Emissary]: giver 199336 not spawned, no offer-reward text
+- 75259 Aiding the Accord: Zskera Vaults [Dragon Isles Emissary]: no ender, no offer-reward text, no starter
+- 75859 Aiding the Accord: Sniffenseeking [Dragon Isles Emissary]: no ender, no offer-reward text, no starter
+- 75860 Aiding the Accord: Researchers Under Fire [Dragon Isles Emissary]: no ender, no offer-reward text, no starter
+- 75861 Aiding the Accord: Suffusion Camp [Dragon Isles Emissary]: no ender, no offer-reward text, no starter
+- 77254 Aiding the Accord: Time Rift [Dragon Isles Emissary]: no ender, no offer-reward text, no starter
+- 77976 Aiding the Accord: Dreamsurge [Dragon Isles Emissary]: no ender, no offer-reward text, no starter
+- 78446 Aiding the Accord: Superbloom [Dragon Isles Emissary]: no offer-reward text, no starter
+- 78447 Aiding the Accord: Emerald Bounty [Dragon Isles Emissary]: no offer-reward text, no starter
+- 78861 Aiding the Accord [Dragon Isles Emissary]: no ender, no offer-reward text, no starter
+- 80385 Last Hurrah: Dragon Isles [Dragon Isles Emissary]: no offer-reward text, no starter
+- 80386 Last Hurrah: Zaralek Caverns and Time Rifts [Dragon Isles Emissary]: no offer-reward text
+- 80388 Last Hurrah: Emerald Dream [Dragon Isles Emissary]: no offer-reward text, no starter
+- 80389 Last Hurrah [Dragon Isles Emissary]: no ender, no offer-reward text, no starter
+- 70846 None [Spark of Ingenuity]: MISSING quest_template
+- 70339 In Tyr's Footsteps: The Ohn'ahran Plains [Tyr's Second Challenge]: no offer-reward text
+- 70376 Second Challenge of Tyr: Might [Tyr's Second Challenge]: no offer-reward text
+- 70341 Well-Earned Victory [Tyr's Second Challenge]: no offer-reward text
+- 70509 Third Challenge of Tyr: Persistence [Tyr's Third Challenge]: no offer-reward text
+- 70621 Third Challenge of Tyr: Persistence Embodied [Tyr's Third Challenge]: no offer-reward text
+- 70650 In Tyr's Footsteps: The Waking Shores [Tyr's Third Challenge]: no offer-reward text
+- 70881 Fourth Challenge of Tyr: Resourcefulness [Tyr's Fourth Challenge]: no offer-reward text
+- 70899 Fifth Challenge of Tyr: Ingenuity [Releasing Ingenuity]: no offer-reward text
+- 70900 Innovating the Engine [Releasing Ingenuity]: no offer-reward text
+- 69097 A Vault Unsealed [In the Halls of Titans]: no offer-reward text
+- 67722 Break on Through [In the Halls of Titans]: no offer-reward text
+- 66636 The Other Side [In the Halls of Titans]: no offer-reward text
+- 66174 Hall of the Aspects [In the Halls of Titans]: no offer-reward text
+- 66173 Hall of Samples [In the Halls of Titans]: no offer-reward text
+- 71152 Back to the Main Hall [In the Halls of Titans]: no offer-reward text
+- 66546 Retrieve the Discs [In the Halls of Titans]: no offer-reward text
+- 66547 It Belongs in a Museum... Eventually [In the Halls of Titans]: no offer-reward text
+- 70339 In Tyr's Footsteps: The Ohn'ahran Plains [Professions Quest]: no offer-reward text
+- 70341 Well-Earned Victory [Professions Quest]: no offer-reward text
+- 70900 Innovating the Engine [Professions Quest]: no offer-reward text
+- 70376 Second Challenge of Tyr: Might [Professions Quest]: no offer-reward text
+- 70509 Third Challenge of Tyr: Persistence [Professions Quest]: no offer-reward text
+- 70510 Victorious [Professions Quest]: no offer-reward text
+- 70621 Third Challenge of Tyr: Persistence Embodied [Professions Quest]: no offer-reward text
+- 70650 In Tyr's Footsteps: The Waking Shores [Professions Quest]: no offer-reward text
+- 70846 None [Professions Quest]: MISSING quest_template
+- 70881 Fourth Challenge of Tyr: Resourcefulness [Professions Quest]: no offer-reward text
+- 70899 Fifth Challenge of Tyr: Ingenuity [Professions Quest]: no offer-reward text
+- 72340 None [Professions Quest]: MISSING quest_template
+- 66044 Taking the Walls [Obsidian Citadel Alt Skip]: giver 166933 not spawned
+- 72440 Silver Mettle [Tyr's Fall]: no offer-reward text
+- 72441 Breaching the Tomb [Tyr's Fall]: no offer-reward text
+- 72442 The Remains of Tyr [Tyr's Fall]: no offer-reward text
+- 72526 Keeper's Rest [Tyr's Fall]: no offer-reward text
+- 72443 Tyr's Fall [Tyr's Fall]: no offer-reward text
+- 72444 A Sliver of Silver [Tyr's Fall]: no offer-reward text
+- 72513 Our Destiny [Adamanthia]: no ender, no offer-reward text, no starter
+- 72514 The High Creche [Adamanthia]: no ender, no offer-reward text, no starter
+- 72515 Augmenting a Dragon [Adamanthia]: no ender, no offer-reward text, no starter
+- 72644 An Urgent Matter [Human Heritage Armor]: no ender, no offer-reward text, no starter
+- 72424 Looking for Something Specific [Human Heritage Armor]: no offer-reward text
+- 72426 The New Clessington Estate [Human Heritage Armor]: no ender, no offer-reward text
+- 72430 Misdeeds in Moonbrook [Human Heritage Armor]: no ender, no offer-reward text, no starter
+- 72431 A Hungry Heritage [Human Heritage Armor]: no ender, no offer-reward text, no starter
+- 72432 Supply Only the Finest Goons [Human Heritage Armor]: no ender, no offer-reward text, no starter
+- 72453 Betrayal of the Brotherhood [Human Heritage Armor]: no ender, no offer-reward text, no starter
+- 72445 To Northshire [Human Heritage Armor]: no ender, no offer-reward text, no starter
+- 72446 What's Their Problem? [Human Heritage Armor]: no ender, no offer-reward text, no starter
+- 72449 Knock It Off! [Human Heritage Armor]: no ender, no offer-reward text, no starter
+- 72450 The Clessington Will [Human Heritage Armor]: no ender, no offer-reward text, no starter
+- 72451 Will to Survive [Human Heritage Armor]: no ender, no offer-reward text, no starter
+- 72452 Go with Honor, Friend [Human Heritage Armor]: no ender, no offer-reward text, no starter
+- 70822 Lost Expedition Scouts [Dragonscale Expedition Renown]: no starter
+- 72023 Dragon Isles Supplies [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 70335 Simple Excavation Tools [Dragonscale Expedition Renown]: no starter
+- 72024 Dragon Isles Supplies [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 70812 Expedition Cloaks [Dragonscale Expedition Renown]: no starter
+- 72025 Dragon Isles Supplies [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 70813 Digging Up Treasure [Dragonscale Expedition Renown]: no starter
+- 72026 Dragon Isles Supplies [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 70835 Sturdy Expedition Shovel [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 72032 Dragon Isles Supplies [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 70807 Advanced Excavation Tools [Dragonscale Expedition Renown]: no ender, no starter
+- 72033 Dragon Isles Supplies [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 72035 Dragon Isles Supplies [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 70808 Initial Mysteries of the Dragon Isles Drakes [Dragonscale Expedition Renown]: no ender, no starter
+- 70828 Wayfinder's Compass [Dragonscale Expedition Renown]: no ender, no starter
+- 72034 Dragon Isles Supplies [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 72036 Dragon Isles Supplies [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 70820 The Basecamp 'Pets' [Dragonscale Expedition Renown]: no ender, no starter
+- 72037 Dragon Isles Supplies [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 70817 New Dragonscale Equipment [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 72038 Dragon Isles Supplies [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 70819 Renowned Explorer's Armor [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 72039 Dragon Isles Supplies [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 72294 Expedition Crafting Knowledge [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 72299 Expedition Crafting Knowledge [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 72300 Expedition Crafting Knowledge [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 72301 Expedition Crafting Knowledge [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 72302 Expedition Crafting Knowledge [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 72303 Expedition Crafting Knowledge [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 70809 Deeper Mysteries of the Dragon Isles Drakes [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 72040 Dragon Isles Supplies [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 70814 Unlocking Magical Treasures [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 72041 Dragon Isles Supplies [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 70831 Researching in Comfort [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 72042 Dragon Isles Supplies [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 72043 Dragon Isles Supplies [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 72044 Dragon Isles Supplies [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 70832 One of Us Now [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 70815 Demolitions Access [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 72045 Dragon Isles Supplies [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 70833 Rumors of the Jeweled Whelplings [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 72046 Dragon Isles Supplies [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 72047 Dragon Isles Supplies [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 70810 Broader Mysteries of the Dragon Isles Drakes [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 70818 New Dragonscale Equipment [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 72048 Dragon Isles Supplies [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 72295 Expedition Crafting Knowledge [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 72304 Expedition Crafting Knowledge [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 72305 Expedition Crafting Knowledge [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 72306 Expedition Crafting Knowledge [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 72308 Expedition Crafting Knowledge [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 72309 Expedition Crafting Knowledge [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 70821 Skitterfly Riding [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 70834 Titled Story [Dragonscale Expedition Renown]: no ender, no offer-reward text, no starter
+- 72762 Sharing the Bounty [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 72117 Cultural Exchange [Maruuk Centaur Renown]: no starter
+- 72763 Sharing the Bounty [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 72761 Sharing the Bounty [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 71058 Observing the Wind [Maruuk Centaur Renown]: no starter
+- 71060 To Adorn Your Head [Maruuk Centaur Renown]: no starter
+- 72363 Good at Doings, Not Understandings [Maruuk Centaur Renown]: no starter
+- 72137 Hatchling Plans [Maruuk Centaur Renown]: no starter
+- 72764 Sharing the Bounty [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 72765 Sharing the Bounty [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 72766 Sharing the Bounty [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 71066 A Useful Curiosity [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 71067 Whistling Rocks [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 72767 Sharing the Bounty [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 71073 Mantle of Friendship [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 71074 Befriending Wings and Wind [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 72131 Overstocking [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 72296 A Gift of Knowledge [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 72310 A Gift of Knowledge [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 72311 A Gift of Knowledge [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 72312 A Gift of Knowledge [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 72313 A Gift of Knowledge [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 71075 Understanding Their Grace [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 72768 Our Great Bounty [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 71079 Getting to the Point [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 72770 Our Great Bounty [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 71083 An Expected Unexpected Gift [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 72771 Our Great Bounty [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 71085 Representation Matters [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 72772 Our Great Bounty [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 71089 Get on the Horn [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 71090 From the Heart, For the Heart [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 72297 A Gift of Secrets [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 72314 A Gift of Secrets [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 72315 A Gift of Secrets [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 72316 A Gift of Secrets [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 72317 A Gift of Secrets [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 71091 The Highest Honor [Maruuk Centaur Renown]: no ender, no offer-reward text, no starter
+- 70936 Stolen Tuskarr Totems [Iskaara Tuskarr Renown]: no starter
+- 72279 Dragon Isles Supplies [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72385 Dragon Isles Supplies [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 70939 Cooking Utensils [Iskaara Tuskarr Renown]: no starter
+- 70941 Fishing Holes [Iskaara Tuskarr Renown]: no starter
+- 72386 Dragon Isles Supplies [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 70871 Iskaaran Fishing Net [Iskaara Tuskarr Renown]: no starter
+- 70940 Tuskarr Champion's Tales [Iskaara Tuskarr Renown]: no starter
+- 72291 Story of a Memorable Victory [Iskaara Tuskarr Renown]: no starter
+- 72584 Setting Your Very Own Net [Iskaara Tuskarr Renown]: no starter
+- 72875 Dragon Isles Supplies [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 70942 Highland Fishing [Iskaara Tuskarr Renown]: no starter
+- 70953 Tuskarr Headwear [Iskaara Tuskarr Renown]: no starter
+- 72387 Dragon Isles Supplies [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 70943 Harpooning [Iskaara Tuskarr Renown]: no starter
+- 70954 Mounting Curiosity [Iskaara Tuskarr Renown]: no starter
+- 72388 Dragon Isles Supplies [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72389 Dragon Isles Supplies [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 70959 Cute and Cuddly [Iskaara Tuskarr Renown]: no ender, no starter
+- 72390 Dragon Isles Supplies [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 70944 Ice Fishing [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72391 Dragon Isles Supplies [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72392 Dragon Isles Supplies [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 70960 Trader's Apparel [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72393 Dragon Isles Supplies [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 70945 Netting More [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 70955 Fascinating Fliers [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72394 Dragon Isles Supplies [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 70963 Wrist Support [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72318 Iskaaran Crafter's Knowledge [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72319 Iskaaran Crafter's Knowledge [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72320 Iskaaran Crafter's Knowledge [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72321 Iskaaran Crafter's Knowledge [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72322 Iskaaran Crafter's Knowledge [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 70948 Hook, Line, and Swelter! [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 70978 Dragon Isles Champion's Tales [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72280 Dragon Isles Supplies [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72292 Story of a Spectacular Victory [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 70966 Trading Made Easier [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72395 Dragon Isles Supplies [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 70967 Fishy Entertainment [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72632 Dragon Isles Supplies [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 70950 Skewering Even Bigger Fish [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72633 Dragon Isles Supplies [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 70956 Of Azure Scales [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72634 Dragon Isles Supplies [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72635 Dragon Isles Supplies [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 70968 Of the Cloth, of the Community [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72636 Dragon Isles Supplies [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 70962 A Comfy Seat [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72637 Dragon Isles Supplies [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 70971 Arms for Every Arm [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72638 Dragon Isles Supplies [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 70972 Our Loyal, Lanky Steeds [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72323 Iskaaran Crafting Mastery [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72324 Iskaaran Crafting Mastery [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72325 Iskaaran Crafting Mastery [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72326 Iskaaran Crafting Mastery [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72327 Iskaaran Crafting Mastery [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72639 Dragon Isles Supplies [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 70976 Slacking and Sledding [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72281 Dragon Isles Supplies [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 70952 Abandoned... or Hidden Caches [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72640 Dragon Isles Supplies [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 70961 Shouldering the Needed Armor [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72641 Dragon Isles Supplies [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 70977 Scaps Packs [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 72642 Dragon Isles Supplies [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 70964 Shrug it On! [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 70969 Becoming One of Our Community [Iskaara Tuskarr Renown]: no ender, no offer-reward text, no starter
+- 70839 The Search for Titan Relics [Valdrakken Accord Renown]: giver 195768 not spawned, no starter
+- 72282 Renown Supplies [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 70880 To Cook With Finery [Valdrakken Accord Renown]: no starter
+- 72669 Renown Supplies [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 70882 Renown Supplies [Valdrakken Accord Renown]: no starter
+- 72671 Renown Supplies [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 70883 A Hand in Cultivation [Valdrakken Accord Renown]: no starter
+- 72672 Renown Supplies [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 72673 Renown Supplies [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 70885 Renown Supplies [Valdrakken Accord Renown]: no starter
+- 72682 Renown Supplies [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 70887 Feeling Freedom [Valdrakken Accord Renown]: no ender, no starter
+- 72685 Renown Supplies [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 70888 Rubbing Shoulders With The Best [Valdrakken Accord Renown]: no ender, no starter
+- 72687 Renown Supplies [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 72688 Renown Supplies [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 72689 Renown Supplies [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 70891 Fitting In [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 72690 Renown Supplies [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 70892 Crafting Your Start [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 72329 Crafting Your Start [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 72330 Crafting Your Start [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 72331 Crafting Your Start [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 72332 Crafting Your Start [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 72333 Crafting Your Start [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 70895 Soaring in Style [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 72283 Renown Supplies [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 70896 Waist Not, Want Not [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 70897 A Coming of Age [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 72691 Renown Supplies [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 72692 Renown Supplies [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 70901 A Collection of Creatures [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 72693 Renown Supplies [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 70903 Wielding Titanic Might [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 72694 Renown Supplies [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 72695 Renown Supplies [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 70904 Variety is the Spice of Life [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 70905 Flying with Our Colors [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 72696 Renown Supplies [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 72697 Renown Supplies [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 72372 Taming the Dragon...kin [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 72698 Renown Supplies [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 70889 Crafting for Expertise [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 70902 Crafting for Expertise [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 70909 Crafting for Expertise [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 70910 Mysteries in Paper and Glass [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 72334 Crafting for Expertise [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 72335 Crafting for Expertise [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 72336 Crafting for Expertise [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 70911 Armored and Ready [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 72284 Renown Supplies [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 72701 Renown Supplies [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 70912 The Accord's High Standards [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 72702 Renown Supplies [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 70913 To Bear Our Mantle [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 70914 The Breadth of Dragon Weaponry [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 72703 Renown Supplies [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 70915 Crowning Achievement [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 70916 Beknownst and Glorious [Valdrakken Accord Renown]: no ender, no offer-reward text, no starter
+- 72752 None [In the Halls of Titans]: MISSING quest_template
+- 72753 None [The Chieftain's Duty]: MISSING quest_template
+- 72756 None [A Mystery, Sealed]: MISSING quest_template
+- 72759 None [Garden of Secrets]: MISSING quest_template
+- 72758 None [The Dreamer]: MISSING quest_template
+- 72757 None [The Silver Purpose]: MISSING quest_template
+- 70339 In Tyr's Footsteps: The Ohn'ahran Plains [The Spark of Ingenuity]: no offer-reward text
+- 70341 Well-Earned Victory [The Spark of Ingenuity]: no offer-reward text
+- 70900 Innovating the Engine [The Spark of Ingenuity]: no offer-reward text
+- 70376 Second Challenge of Tyr: Might [The Spark of Ingenuity]: no offer-reward text
+- 70509 Third Challenge of Tyr: Persistence [The Spark of Ingenuity]: no offer-reward text
+- 70510 Victorious [The Spark of Ingenuity]: no offer-reward text
+- 70621 Third Challenge of Tyr: Persistence Embodied [The Spark of Ingenuity]: no offer-reward text
+- 70650 In Tyr's Footsteps: The Waking Shores [The Spark of Ingenuity]: no offer-reward text
+- 70881 Fourth Challenge of Tyr: Resourcefulness [The Spark of Ingenuity]: no offer-reward text
+- 70899 Fifth Challenge of Tyr: Ingenuity [The Spark of Ingenuity]: no offer-reward text
+- 72773 Learning Ingenuity [The Spark of Ingenuity]: giver 213930 not spawned, no ender
+- 76530 Unliving Summons [Forsaken Heritage Armor]: no offer-reward text
+- 72854 Our Enemies Abound [Forsaken Heritage Armor]: no offer-reward text
+- 72855 To the Sepulcher [Forsaken Heritage Armor]: no offer-reward text
+- 72856 Nothing Like the Classic [Forsaken Heritage Armor]: no offer-reward text
+- 72857 Boom Weed [Forsaken Heritage Armor]: no offer-reward text
+- 72858 Acid Beats Paper [Forsaken Heritage Armor]: no offer-reward text
+- 72859 A Proper Disguise [Forsaken Heritage Armor]: no offer-reward text
+- 72860 Fear is Our Weapon [Forsaken Heritage Armor]: no offer-reward text
+- 72861 The Scarlet Spy [Forsaken Heritage Armor]: no offer-reward text
+- 72862 Among Us [Forsaken Heritage Armor]: no offer-reward text
+- 72863 The Flight of the Banshee [Forsaken Heritage Armor]: no offer-reward text
+- 72864 Death to the Living [Forsaken Heritage Armor]: no offer-reward text
+- 72865 This is the Hour of the Forsaken [Forsaken Heritage Armor]: no offer-reward text
+- 72866 Return to Lordaeron [Forsaken Heritage Armor]: no offer-reward text
+- 72867 I Am Forsaken [Forsaken Heritage Armor]: no offer-reward text
+- 72921 On the Trail Again [The Veiled Ossuary]: no offer-reward text
+- 72933 Rolling Out [The Veiled Ossuary]: no offer-reward text
+- 72934 Lest We Forget [The Veiled Ossuary]: no offer-reward text
+- 73069 Sindragosa and Malygos's Rest [The Veiled Ossuary]: no offer-reward text
+- 75023 Memories of Sindragosa and Malygos [The Veiled Ossuary]: no offer-reward text
+- 72935 Archives Return [The Veiled Ossuary]: no offer-reward text
+- 72936 Azuregos's Support [The Veiled Ossuary]: no offer-reward text
+- 72937 Unusual Disruptions [The Veiled Ossuary]: no offer-reward text
+- 72938 Archival Arrival [The Veiled Ossuary]: no offer-reward text
+- 72940 Where in the World is a Lost Blue Dragon? [The Veiled Ossuary]: no offer-reward text
+- 73399 The Search for Blue Dragons [The Veiled Ossuary]: no offer-reward text
+- 73404 Lost Blue Dragons [The Veiled Ossuary]: no offer-reward text
+- 73405 A Pair of Blue Dragons [The Veiled Ossuary]: no offer-reward text
+- 73406 The Last Missing Blue Dragon [The Veiled Ossuary]: no offer-reward text
+- 72656 Winterspring [The Veiled Ossuary]: no ender, no offer-reward text, no starter
+- 72939 Theramore [The Veiled Ossuary]: no ender, no offer-reward text, no starter
+- 73227 Jade Forest [The Veiled Ossuary]: no ender, no offer-reward text, no starter
+- 73026 Booty Bay [The Veiled Ossuary]: no ender, no offer-reward text, no starter
+- 73091 Crystalsong Forest [The Veiled Ossuary]: no ender, no offer-reward text, no starter
+- 75244 Reunited Again [United Again]: no offer-reward text
+- 72942 Veiled Trouble [United Again]: no offer-reward text
+- 72943 None [United Again]: MISSING quest_template
+- 72946 Veiled Ossuary Chaos [United Again]: no offer-reward text
+- 72947 Memories of Old [United Again]: no offer-reward text
+- 72948 What Still Remains [United Again]: no offer-reward text
+- 72949 Swiftly to the Archives [United Again]: no offer-reward text
+- 72950 The Last Conflict [United Again]: no offer-reward text
+- 72951 A Peaceful Farewell [United Again]: no offer-reward text
+- 91466 Aiding the Green Dragons [United Again]: no ender, no offer-reward text, no starter
+- 91467 Incarnates on the Move [United Again]: no ender, no offer-reward text, no starter
+- 66036 Mugurlglrlgl! [10.0 Faction Swap Protection [DNT]]: no offer-reward text
+- 70373 Deathwingurlugull! [10.0 Faction Swap Protection [DNT]]: no offer-reward text
+- 71025 Against Overwhelming Odds [10.0 Faction Swap Protection [DNT]]: no ender, no offer-reward text, no starter
+- 71143 The Horde Slayer [10.0 Faction Swap Protection [DNT]]: no ender, no offer-reward text, no starter
+- 71026 Against Overwhelming Odds [10.0 Faction Swap Protection [DNT]]: no ender, no offer-reward text, no starter
+- 71144 The Alliance Slayer [10.0 Faction Swap Protection [DNT]]: no ender, no offer-reward text, no starter
+- 67053 Give Peace a Chance [10.0 Faction Swap Protection [DNT]]: no offer-reward text
+- 70135 Encroaching Elementals [10.0 Faction Swap Protection [DNT]]: no offer-reward text
+- 66110 Give Peace a Chance [10.0 Faction Swap Protection [DNT]]: no ender, no starter
+- 66111 Encroaching Elementals [10.0 Faction Swap Protection [DNT]]: no ender, no starter
+- 66458 Legacy of Tyr: Secrets of the Past [10.0 Pre-Patch [DNT]]: no ender, no starter
+- 70048 A Primal Threat [10.0 Pre-Patch [DNT]]: no ender, no starter
+- 70049 Calming the Storms [10.0 Pre-Patch [DNT]]: no ender, no starter
+- 70055 Sigil of Storms [10.0 Pre-Patch [DNT]]: no ender, no starter
+- 66586 Legacy of Tyr: Secrets of the Past [10.0 Pre-Patch [DNT]]: no ender, no starter
+- 69923 A Primal Threat [10.0 Pre-Patch [DNT]]: no ender, no starter
+- 69925 Calming the Storms [10.0 Pre-Patch [DNT]]: no ender, no starter
+- 69992 Sigil of Storms [10.0 Pre-Patch [DNT]]: no ender, no starter
+- 72606 See Red [Old Hatreds]: giver 203204 not spawned
+- 72607 Old Hatreds [Old Hatreds]: giver 203204 not spawned
+- 72988 The Booty Bay Journal [Chapter 3A - Booty Bay]: no offer-reward text
+- 72527 No Such Thing as Bad Luck [Chapter 3A - Booty Bay]: no offer-reward text
+- 72529 Information is King [Chapter 3A - Booty Bay]: no offer-reward text
+- 72530 Anyway, I Started Bribing [Chapter 3A - Booty Bay]: no offer-reward text
+- 72532 Money, Money, Money! [Chapter 3A - Booty Bay]: no offer-reward text
+- 72533 Crystals Shmystals [Chapter 3A - Booty Bay]: no offer-reward text
+- 72534 Settled with the Baron [Chapter 3A - Booty Bay]: no offer-reward text
+- 73181 Zeroing Debt [Chapter 3A - Booty Bay]: no offer-reward text
+- 72650 Warm Winds and Water [Chapter 3B - Jade Forest]: no offer-reward text
+- 72651 Carp Care [Chapter 3B - Jade Forest]: no offer-reward text
+- 72653 Local Deliveries [Chapter 3B - Jade Forest]: no offer-reward text
+- 72654 Up, Up, and Home [Chapter 3B - Jade Forest]: no offer-reward text
+- 72652 Self Care [Chapter 3B - Jade Forest]: no offer-reward text
+- 72655 A Drink with Kalecgos [Chapter 3B - Jade Forest]: no offer-reward text
+- 74291 Blue is My Favorite Color [Chapter 3B - Jade Forest]: no offer-reward text
+- 72657 A Protector of Magic [Chapter 3C - Winterspring]: no offer-reward text
+- 74354 Artifacts Abound [Chapter 3C - Winterspring]: no offer-reward text
+- 72659 Test Subject [Chapter 3C - Winterspring]: no offer-reward text
+- 72660 Owl of a Sudden [Chapter 3C - Winterspring]: no offer-reward text
+- 72661 A Wyrm Rest [Chapter 3C - Winterspring]: no offer-reward text
+- 74356 Back with the Blues [Chapter 3C - Winterspring]: no offer-reward text
+- 73090 Regrets in Crystal [Chapter 2A - Crystalsong Forest]: no offer-reward text
+- 72670 Those We Left Behind [Chapter 2A - Crystalsong Forest]: no offer-reward text
+- 72674 A Shattered Legacy [Chapter 2A - Crystalsong Forest]: no offer-reward text
+- 72679 An Arcane Requiem [Chapter 2A - Crystalsong Forest]: no offer-reward text
+- 74783 The Sound of Silence [Chapter 2A - Crystalsong Forest]: no offer-reward text
+- 73188 The Sullied Banner [Chapter 2B - Theramore]: no offer-reward text
+- 72831 Creative Solutions [Chapter 2B - Theramore]: no offer-reward text
+- 72832 Aftershocks [Chapter 2B - Theramore]: no offer-reward text
+- 72833 Breaking the Cycle [Chapter 2B - Theramore]: no offer-reward text
+- 74335 A Moment of Reflection [Chapter 2B - Theramore]: no offer-reward text
+- 72987 Here We Go Again [Inherited Sin]: no offer-reward text
+- 75367 The Obsidian Rest [Inherited Sin]: no offer-reward text
+- 74393 Report: Battlefield Ruins [Inherited Sin]: no offer-reward text
+- 74538 Blow It Up [Inherited Sin]: no offer-reward text
+- 74539 Thinning Their Defenses [Inherited Sin]: no offer-reward text
+- 74540 Intercepting Communications [Inherited Sin]: no offer-reward text
+- 74542 Air Superiority [Inherited Sin]: no offer-reward text
+- 74557 Investigating the Unknown [Inherited Sin]: no offer-reward text
+- 74562 Break Them Out [Inherited Sin]: no offer-reward text
+- 74563 Worst of the Worst [Inherited Sin]: no offer-reward text
+- 73200 None [Draconic Artifacts]: MISSING quest_template
+- 73201 None [Draconic Artifacts]: MISSING quest_template
+- 73202 None [Draconic Artifacts]: MISSING quest_template
+- 73203 None [Draconic Artifacts]: MISSING quest_template
+- 73204 None [Draconic Artifacts]: MISSING quest_template
+- 73205 None [Tokens of Blessing]: MISSING quest_template
+- 73206 None [Tokens of Blessing]: MISSING quest_template
+- 73207 None [Tokens of Blessing]: MISSING quest_template
+- 73208 None [Tokens of Blessing]: MISSING quest_template
+- 73209 None [Tokens of Blessing]: MISSING quest_template
+- 73210 None [Wondrous Fish]: MISSING quest_template
+- 73211 None [Wondrous Fish]: MISSING quest_template
+- 73212 None [Wondrous Fish]: MISSING quest_template
+- 73213 None [Wondrous Fish]: MISSING quest_template
+- 73214 None [Wondrous Fish]: MISSING quest_template
+- 73210 None [Mysterious Writings]: MISSING quest_template
+- 73211 None [Mysterious Writings]: MISSING quest_template
+- 73212 None [Mysterious Writings]: MISSING quest_template
+- 73213 None [Mysterious Writings]: MISSING quest_template
+- 73214 None [Mysterious Writings]: MISSING quest_template
+- 72712 The Best We Have [A Creche Divided]: no offer-reward text
+- 72713 Inheritance [A Creche Divided]: no offer-reward text
+- 72545 Creche Fallen [A Creche Divided]: no offer-reward text
+- 73094 Aiding the Expedition [A Creche Divided]: no offer-reward text
+- 72714 An Interdisciplinary Approach [A Creche Divided]: no offer-reward text
+- 72715 Keeping the Flame at Bay [A Creche Divided]: no offer-reward text
+- 73137 Chasing the Flame [A Creche Divided]: no offer-reward text
+- 72717 A Creche Divided [A Creche Divided]: no offer-reward text
+- 72966 Where There's Smoke, There's Fire [The Ancient Bargain]: no offer-reward text
+- 72908 Sight Beyond Sight [The Ancient Bargain]: no offer-reward text
+- 72909 Legends of the Zaqali [The Ancient Bargain]: no offer-reward text
+- 72910 Know Thy Enemy [The Ancient Bargain]: no offer-reward text
+- 72911 Take Out the Head [The Ancient Bargain]: no offer-reward text
+- 72912 Consequences [The Ancient Bargain]: no offer-reward text
+- 72913 Battlefield Triage [The Ancient Bargain]: no offer-reward text
+- 72914 Rushing Quality [The Ancient Bargain]: no offer-reward text
+- 72915 Alliance of Convenience [The Ancient Bargain]: no offer-reward text
+- 72916 Shut Them Down [The Ancient Bargain]: no offer-reward text
+- 74494 A Scale for a Scale [The Ancient Bargain]: no offer-reward text
+- 72917 From Hell's Heart [The Ancient Bargain]: no offer-reward text
+- 72918 No Dragon Left Behind [The Ancient Bargain]: no offer-reward text
+- 72919 Raked Over the Coals [The Ancient Bargain]: no offer-reward text
+- 72920 The Endless Burning Sky [The Ancient Bargain]: no offer-reward text
+- 75145 In the Wake of the Ashes [The Ancient Bargain]: no offer-reward text
+- 74436 Storm Warning [The Storm's Fury]: no ender, no offer-reward text, no starter
+- 74437 Resisting the Storm [The Storm's Fury]: no ender, no offer-reward text, no starter
+- 74376 Coalesced Storm Remnants [The Storm's Fury]: giver 199425 not spawned, no starter
+- 72922 Fading Embers [Inevitable Confrontation]: no offer-reward text
+- 72923 A Whisper to Sabellian [Inevitable Confrontation]: no offer-reward text
+- 72924 Appealing to the Black Prince [Inevitable Confrontation]: no offer-reward text
+- 72925 With Our Powers Combined [Inevitable Confrontation]: no offer-reward text
+- 72926 In the Right Hands [Inevitable Confrontation]: no offer-reward text
+- 72928 Wipe Them Out [Inevitable Confrontation]: no offer-reward text
+- 72931 Forward Camp [Inevitable Confrontation]: no offer-reward text
+- 72927 Finding Sarkareth [Inevitable Confrontation]: no offer-reward text
+- 72929 Cracking His Shell [Inevitable Confrontation]: no offer-reward text
+- 72930 Stopping Sarkareth [Inevitable Confrontation]: no offer-reward text
+- 72975 Patch 10.1 - Embers of Neltharion: The Land Beneath [Breaking Ground]: no offer-reward text
+- 75456 News From Beneath [Breaking Ground]: no ender, no offer-reward text, no starter
+- 72976 A Crack in the World [Breaking Ground]: no offer-reward text
+- 72977 Where the Flames Fell [Breaking Ground]: no offer-reward text
+- 72978 Scar of Earth and Fire [Breaking Ground]: no offer-reward text
+- 72981 The Patience of Princes [Breaking Ground]: no offer-reward text
+- 72873 It Was Not Enough [Breaking Ground]: no offer-reward text
+- 72872 Culling the Deep [Breaking Ground]: no offer-reward text, no starter
+- 72970 Niffen and Goliath [Breaking Ground]: no offer-reward text
+- 72980 Brother's Keeper [Breaking Ground]: no offer-reward text
+- 72874 Secrets From Our Father [Breaking Ground]: no offer-reward text
+- 72979 The Earth Gives Way [Breaking Ground]: no offer-reward text
+- 72973 Smells Like Loamm [Breaking Ground]: no offer-reward text
+- 72974 Welcome to the City of Smells [Breaking Ground]: no offer-reward text
+- 75643 Orientation: Loamm Niffen [Breaking Ground]: no offer-reward text
+- 75644 Six Hundred Feet Under [Breaking Ground]: no offer-reward text
+- 72944 Sending Stone: Protest [Evoker Tablets]: no ender, no offer-reward text, no starter
+- 73107 Sending Stone: Initial Report [Evoker Tablets]: no ender, no offer-reward text, no starter
+- 73108 Sending Stone: The Prisoner [Evoker Tablets]: no ender, no offer-reward text, no starter
+- 73109 Receiving Stone: Final Warning [Evoker Tablets]: no ender, no offer-reward text, no starter
+- 73110 Journal Entry: Experiments [Evoker Tablets]: no ender, no offer-reward text, no starter
+- 73113 Journal Entry: Relics [Evoker Tablets]: no ender, no offer-reward text, no starter
+- 73114 Journal Entry: The Creches [Evoker Tablets]: no ender, no offer-reward text, no starter
+- 73115 Journal Entry: Silence [Evoker Tablets]: no ender, no offer-reward text, no starter
+- 74866 Journal Entry: Experiments [Evoker Tablets]: no ender, no offer-reward text, no starter
+- 74903 Sending Stone: The Prisoner [Evoker Tablets]: no ender, no offer-reward text, no starter
+- 74880 Journal Entry: Relics [Evoker Tablets]: no ender, no offer-reward text, no starter
+- 74883 Journal Entry: The Creches [Evoker Tablets]: no ender, no offer-reward text, no starter
+- 74896 Journal Entry: Silence [Evoker Tablets]: no ender, no offer-reward text, no starter
+- 74900 Receiving Stone: Final Warning [Evoker Tablets]: no ender, no offer-reward text, no starter
+- 74901 Sending Stone: Protest [Evoker Tablets]: no ender, no offer-reward text, no starter
+- 74902 Sending Stone: Initial Report [Evoker Tablets]: no ender, no offer-reward text, no starter
+- 74334 Future Aspects [Sundered Legacy]: no offer-reward text
+- 72958 Save-A-Mole [Sundered Legacy]: no offer-reward text
+- 74375 Collating Their Research [Sundered Legacy]: no offer-reward text
+- 72959 Whose Vault Is It Anyway? [Sundered Legacy]: no offer-reward text
+- 72961 Charging Up [Sundered Legacy]: no offer-reward text
+- 72962 Open That Door! [Sundered Legacy]: no offer-reward text
+- 75419 Sundered Flames [Sundered Legacy]: no offer-reward text
+- 72963 The Upper Hand [Sundered Legacy]: no offer-reward text
+- 81486 The Upper Hand [Sundered Legacy]: no ender, no offer-reward text, no starter
+- 72964 Singed [Sundered Legacy]: no offer-reward text
+- 72965 Aspects of Our Legacy [Sundered Legacy]: no offer-reward text
+- 73036 Medicinal Fungi [The Dragons and the Scale Expedition]: no offer-reward text
+- 73037 Healing Crystals [The Dragons and the Scale Expedition]: no offer-reward text
+- 73038 A Room Without a View [The Dragons and the Scale Expedition]: no offer-reward text
+- 73040 Bringing Disorder to Order [The Dragons and the Scale Expedition]: no offer-reward text
+- 73041 Respite [The Dragons and the Scale Expedition]: no offer-reward text
+- 73042 A Tower Yonder [The Dragons and the Scale Expedition]: no offer-reward text
+- 73043 A Ghastly Legacy [The Dragons and the Scale Expedition]: no offer-reward text
+- 73039 Restless Death [The Dragons and the Scale Expedition]: no offer-reward text
+- 73044 Cataloging Horror [The Dragons and the Scale Expedition]: no offer-reward text
+- 73045 Stain Removal [The Dragons and the Scale Expedition]: no offer-reward text
+- 73046 Cavernous Capers [The Dragons and the Scale Expedition]: no offer-reward text
+- 74521 A Flame, Extinguished [A Flame, Extinguished]: no offer-reward text
+- 74522 Remnants [A Flame, Extinguished]: no offer-reward text
+- 74523 A Traitor's Due [A Flame, Extinguished]: no offer-reward text
+- 74525 Honorbound [A Flame, Extinguished]: no offer-reward text
+- 75018 Into the Dark [A Flame, Extinguished]: no offer-reward text
+- 75028 All the Broken Pieces [A Flame, Extinguished]: no offer-reward text
+- 75029 A Legacy, Reforged [A Flame, Extinguished]: no offer-reward text
+- 75417 Symbol of Hope [A Flame, Extinguished]: no offer-reward text
+- 73157 Wings of Mercy [Return to the Reach - Skip Questline (Not a Real Questline, Used for Skips)]: no offer-reward text
+- 74769 Stemming the Irontide [Return to the Reach - Skip Questline (Not a Real Questline, Used for Skips)]: no offer-reward text
+- 75050 An Eclectic Accord [Return to the Reach - Skip Questline (Not a Real Questline, Used for Skips)]: no offer-reward text
+- 70747 The Azure Wizard [Azure Span Chapter 1]: no ender, no offer-reward text, no starter
+- 70746 Shades of Blue [Azure Span Chapter 1]: no offer-reward text
+- 70747 The Azure Wizard [Azure Span Chapter 1]: no ender, no offer-reward text, no starter
+- 70748 For Blue Eyes Only [Azure Span Chapter 1]: no ender, no offer-reward text, no starter
+- 71182 Wayward Archivists [Azure Span Chapter 1]: no ender, no offer-reward text, no starter
+- 72712 The Best We Have [A Creche Divided - Skip Questline (Not a Real Questline, Used for Skips)]: no offer-reward text
+- 72713 Inheritance [A Creche Divided - Skip Questline (Not a Real Questline, Used for Skips)]: no offer-reward text
+- 72545 Creche Fallen [A Creche Divided - Skip Questline (Not a Real Questline, Used for Skips)]: no offer-reward text
+- 73094 Aiding the Expedition [A Creche Divided - Skip Questline (Not a Real Questline, Used for Skips)]: no offer-reward text
+- 72714 An Interdisciplinary Approach [A Creche Divided - Skip Questline (Not a Real Questline, Used for Skips)]: no offer-reward text
+- 72715 Keeping the Flame at Bay [A Creche Divided - Skip Questline (Not a Real Questline, Used for Skips)]: no offer-reward text
+- 73137 Chasing the Flame [A Creche Divided - Skip Questline (Not a Real Questline, Used for Skips)]: no offer-reward text
+- 72717 A Creche Divided [A Creche Divided - Skip Questline (Not a Real Questline, Used for Skips)]: no offer-reward text
+- 73156 Return to Viridia [A Creche Divided - Skip Questline (Not a Real Questline, Used for Skips)]: no offer-reward text
+- 72462 A People in Need of Healing [Orc Heritage Armor]: no ender, no offer-reward text, no starter
+- 72464 The Kosh'harg [Orc Heritage Armor]: no ender, no offer-reward text, no starter
+- 72465 The Blessing of the Land [Orc Heritage Armor]: no ender, no offer-reward text, no starter
+- 72466 The Spirit of Thunder Ridge [Orc Heritage Armor]: no ender, no offer-reward text, no starter
+- 72467 The Blessing of the Clan [Orc Heritage Armor]: no ender, no offer-reward text, no starter
+- 72474 Tracking a Killer [Orc Heritage Armor]: no ender, no offer-reward text, no starter
+- 74581 The Long Knives [Orc Heritage Armor]: no ender, no offer-reward text, no starter
+- 72475 Cornering Gor'krosh [Orc Heritage Armor]: no ender, no offer-reward text, no starter
+- 72476 The Blessing of the Ancestors [Orc Heritage Armor]: no ender, no offer-reward text, no starter
+- 74374 An Important Heirloom [Orc Heritage Armor]: no ender, no offer-reward text, no starter
+- 72477 Orcish Groceries [Orc Heritage Armor]: no ender, no offer-reward text, no starter
+- 74415 A Worthy Offering [Orc Heritage Armor]: no ender, no offer-reward text, no starter
+- 72478 Honor and Glory [Orc Heritage Armor]: no ender, no offer-reward text, no starter
+- 72479 Aka'magosh [Orc Heritage Armor]: no ender, no offer-reward text, no starter
+- 72658 Flightstones [10.1 Upgrade System Tutorial]: no offer-reward text
+- 75506 Shadowflame Crests [10.1 Upgrade System Tutorial]: no offer-reward text
+- 75507 Catching Up with Friends [10.1 Upgrade System Tutorial]: no offer-reward text
+- 59339 Enhanced Combat Tactics [The Missing Expedition]: no offer-reward text
+- 85678 Repair Yourself [A Dark Ritual]: no ender, no offer-reward text, no starter
+- 58914 A Warrior's End [A Dark Ritual]: no offer-reward text
+- 58915 Hjalmar's Final Execution [A Dark Ritual]: no offer-reward text
+- 58917 A Rogue's End [A Dark Ritual]: giver 162972 not spawned, giver 163024 not spawned, no offer-reward text
+- 58923 A Paladin's Service [A Dark Ritual]: no offer-reward text
+- 58933 The Deadliest of Poisons [A Dark Ritual]: giver 162972 not spawned, giver 163024 not spawned, no offer-reward text
+- 58946 The Divine's Shield [A Dark Ritual]: no offer-reward text
+- 58962 A Warlock's Bargain [A Dark Ritual]: no offer-reward text
+- 59347 A Monk's Focus [A Dark Ritual]: no offer-reward text
+- 59349 One Last Spar [A Dark Ritual]: no offer-reward text
+- 59352 A Mage's Knowledge [A Dark Ritual]: no offer-reward text
+- 59354 The Best Way to Use Sheep [A Dark Ritual]: no offer-reward text
+- 72411 Cause Without a Rebel [Rebel Resurgence]: no offer-reward text
+- 72412 Explosive Interruption [Rebel Resurgence]: no offer-reward text
+- 72413 Irreconcilable Differences [Rebel Resurgence]: no offer-reward text
+- 72414 Know Prisoners! [Rebel Resurgence]: no offer-reward text
+- 72415 Rebel Rousing Writings [Rebel Resurgence]: no offer-reward text
+- 72416 Temporary Accommodations [Rebel Resurgence]: no offer-reward text
+- 72417 Persistent Dissidents [Rebel Resurgence]: no offer-reward text
+- 72418 Solicited Opinions [Rebel Resurgence]: no offer-reward text
+- 72419 Cleaning up the Cliffraff [Rebel Resurgence]: no offer-reward text
+- 72420 Wreckonciliation [Rebel Resurgence]: no offer-reward text
+- 72421 The Quill to Power [Rebel Resurgence]: no offer-reward text
+- 72422 Stop the Presses [Rebel Resurgence]: no offer-reward text
+- 75230 Reconcilable Dissidents [Rebel Resurgence]: no offer-reward text
+- 59934 Enhanced Combat Tactics [The Missing Expedition]: no offer-reward text
+- 85679 Repair Yourself [A Dark Ritual]: no starter
+- 59954 A Mage's Knowledge [A Dark Ritual]: no offer-reward text
+- 59955 The Best Way to Use Sheep [A Dark Ritual]: no offer-reward text
+- 59956 A Monk's Focus [A Dark Ritual]: no offer-reward text
+- 59957 One Last Spar [A Dark Ritual]: no offer-reward text
+- 59958 A Paladin's Service [A Dark Ritual]: no offer-reward text
+- 59961 A Priest's End [A Dark Ritual]: no offer-reward text
+- 59965 Resurrecting the Recruits [A Dark Ritual]: no offer-reward text
+- 59967 A Rogue's End [A Dark Ritual]: giver 167586 not spawned, no offer-reward text
+- 59968 The Deadliest of Poisons [A Dark Ritual]: giver 167586 not spawned, no offer-reward text
+- 59971 A Warrior's End [A Dark Ritual]: no offer-reward text
+- 59972 Hjalmar's Final Execution [A Dark Ritual]: no offer-reward text
+- 60174 The Divine's Shield [A Dark Ritual]: no offer-reward text
+- 47962 Stormsong Valley [Secrets of Stormsong Valley]: no ender, no starter
+- 47952 The Missing Fleet [Secrets of Stormsong Valley]: no ender, no starter
+- 50694 A Bloody Mess [Secrets of Stormsong Valley]: no offer-reward text
+- 50593 A Bloody Mess [Secrets of Stormsong Valley]: no starter
+- 47960 Tiragarde Sound [Trouble in Tiragarde Sound]: no ender, no starter
+- 50788 Enemies Within [Trouble in Tiragarde Sound]: no ender
+- 50789 Clear the Air [Trouble in Tiragarde Sound]: no ender
+- 59641 The Nation of Kul Tiras [Trouble in Tiragarde Sound]: no offer-reward text
+- 47961 Drustvar [Darkness of Drustvar]: no starter
+- 47979 Witch Hunt [Darkness of Drustvar]: no ender
+- 51961 The Ongoing Campaign [The Zandalar Campaign]: no offer-reward text
+- 52443 The Final Foothold [The Zandalar Campaign]: no offer-reward text
+- 53052 Deeper Into Zandalar [The Zandalar Campaign]: no starter
+- 53055 Pushing Our Influence [The Zandalar Campaign]: no offer-reward text, no starter
+- 53583 Adapting Our Tactics [The Zandalar Campaign]: no offer-reward text
+- 51571 Foothold: Nazmir [The Zandalar Campaign]: no offer-reward text
+- 51572 Foothold: Vol'dun [The Zandalar Campaign]: no offer-reward text
+- 56043 Send the Fleet [Welcome to Nazjatar]: no offer-reward text
+- 55095 Upheaval [Welcome to Nazjatar]: no offer-reward text
+- 54969 Descent [Welcome to Nazjatar]: no offer-reward text
+- 56640 Fortunate Souls [Welcome to Nazjatar]: no offer-reward text
+- 56641 Disruption of Power [Welcome to Nazjatar]: no offer-reward text
+- 56642 Dark Tides [Welcome to Nazjatar]: no offer-reward text
+- 56643 In Deep [Welcome to Nazjatar]: no offer-reward text
+- 56644 Up Against It [Welcome to Nazjatar]: no offer-reward text
+- 55175 Where the Road Leads [Welcome to Nazjatar]: no offer-reward text
+- 54972 A Way Home [Welcome to Nazjatar]: no offer-reward text
+- 55851 Essential Empowerment [Welcome to Nazjatar]: no offer-reward text
+- 55533 MOTHER Knows Best [Welcome to Nazjatar]: no offer-reward text
+- 55374 A Disturbance Beneath the Earth [Welcome to Nazjatar]: no offer-reward text
+- 55400 Take My Hand [Welcome to Nazjatar]: no offer-reward text
+- 55407 Calming the Spine [Welcome to Nazjatar]: no offer-reward text
+- 55425 Dominating the Indomitable [Welcome to Nazjatar]: no offer-reward text
+- 55497 A Friendly Face [Welcome to Nazjatar]: no offer-reward text
+- 55618 The Heart Forge [Welcome to Nazjatar]: no offer-reward text
+- 57010 Harnessing the Power [Welcome to Nazjatar]: no offer-reward text
+- 56350 Scouting the Palace [Welcome to Nazjatar]: no offer-reward text
+- 55361 The Lost Shaman [Welcome to Nazjatar]: no offer-reward text
+- 55363 Rescue The Farseer [Welcome to Nazjatar]: no offer-reward text
+- 56156 A Tempered Blade [Welcome to Nazjatar]: no offer-reward text
+- 56065 None [Welcome to Nazjatar]: MISSING quest_template
+- 54975 A Brief Respite [Welcome to Nazjatar]: no offer-reward text
+- 55593 Insight into Our Enemies [Welcome to Nazjatar]: no offer-reward text
+- 55595 Deteriorating Knowledge [Welcome to Nazjatar]: no offer-reward text
+- 55597 Bound by Honor [Welcome to Nazjatar]: no offer-reward text
+- 55598 What We Know of the Naga [Welcome to Nazjatar]: no offer-reward text
+- 55599 Scouting Undercover [Welcome to Nazjatar]: no offer-reward text
+- 55600 Sating Snapdragons [Welcome to Nazjatar]: no offer-reward text
+- 56038 Working with Purpose [Welcome to Nazjatar]: no offer-reward text
+- 56039 We Can't Have Dull Weapons [Welcome to Nazjatar]: no offer-reward text
+- 56037 Stealing the Naga's Secrets [Welcome to Nazjatar]: no offer-reward text
+- 55860 Sea Slug Liquidation [Welcome to Nazjatar]: no offer-reward text
+- 55601 Coveted Crystals [Welcome to Nazjatar]: no offer-reward text
+- 55861 Let the Residue Lead You [Welcome to Nazjatar]: no offer-reward text
+- 55937 Clearing Out the Cache [Welcome to Nazjatar]: no offer-reward text
+- 56234 Friends In Need [Welcome to Nazjatar]: no offer-reward text
+- 55558 A Bolt Hole [Welcome to Nazjatar]: no offer-reward text
+- 55561 What Remains of Zin-Azshari [Welcome to Nazjatar]: no offer-reward text
+- 55694 There's Something in the Water [Welcome to Nazjatar]: no offer-reward text
+- 55570 Secrets in the Ruins [Welcome to Nazjatar]: no offer-reward text
+- 55573 Purging the Defilers [Welcome to Nazjatar]: no offer-reward text
+- 55574 The Javelins of Azshara [Welcome to Nazjatar]: no offer-reward text
+- 56741 The Spear of Destiny [Welcome to Nazjatar]: no offer-reward text
+- 56325 Changing Tides [Welcome to Nazjatar]: no offer-reward text
+- 57009 Fame Waits for Gnome One [Welcome to Mechagon]: no offer-reward text, no starter
+- 58708 Fame Waits for Gnome One [Welcome to Mechagon]: no offer-reward text
+- 54088 The Legend of Mechagon [Welcome to Mechagon]: no offer-reward text
+- 55040 Looking Inside [Welcome to Mechagon]: no offer-reward text
+- 54087 You Must be This Height [Welcome to Mechagon]: no offer-reward text
+- 54945 Let's Get It Started [Welcome to Mechagon]: no offer-reward text
+- 54946 Report to Gila [Welcome to Mechagon]: no offer-reward text
+- 54947 A Small Team [Welcome to Mechagon]: no offer-reward text
+- 54992 The Start of Something Bigger [Welcome to Mechagon]: giver 152482 not spawned, no offer-reward text
+- 55645 Princely Visit [Welcome to Mechagon]: no offer-reward text
+- 55729 The Resistance Needs YOU! [Welcome to Mechagon]: no offer-reward text
+- 55730 Rescuing the Resistance [Welcome to Mechagon]: giver 153670 not spawned, no offer-reward text
+- 55731 My Father's Armies [Welcome to Mechagon]: giver 153670 not spawned, no offer-reward text
+- 55995 We Can Fix It [Welcome to Mechagon]: giver 153670 not spawned, no offer-reward text
+- 55734 Drill Rig Construction [Welcome to Mechagon]: giver 153670 not spawned, no offer-reward text
+- 55096 Send My Father a Message [Welcome to Mechagon]: no offer-reward text
+- 55736 Welcome to the Resistance [Welcome to Mechagon]: no offer-reward text
+- 58496 An Unwelcome Advisor [Visions of N'zoth]: no offer-reward text
+- 58498 Return of the Warrior King [Visions of N'zoth]: no offer-reward text
+- 58502 Where the Heart Is [Visions of N'zoth]: no offer-reward text
+- 58506 Network Diagnostics [Visions of N'zoth]: no offer-reward text
+- 56209 The Halls of Origination [Visions of N'zoth]: no offer-reward text
+- 56374 A Titanic Problem [Visions of N'zoth]: no offer-reward text
+- 56375 To Ramkahen [Visions of N'zoth]: no offer-reward text
+- 56376 Surfacing Threats [Visions of N'zoth]: no offer-reward text
+- 56377 Forging Onward [Visions of N'zoth]: no offer-reward text
+- 56472 The Uldum Accord [Visions of N'zoth]: no offer-reward text
+- 56536 It's Never Easy [Visions of N'zoth]: no offer-reward text
+- 56537 The Mysterious Sigil [Visions of N'zoth]: no offer-reward text
+- 56538 Clans of the Mogu [Visions of N'zoth]: no offer-reward text
+- 56539 Finding the Rajani [Visions of N'zoth]: no offer-reward text
+- 56540 Proof of Tenacity [Visions of N'zoth]: no offer-reward text
+- 56541 The Engine of Nalak'sha [Visions of N'zoth]: no offer-reward text
+- 56542 Restored Hope [Visions of N'zoth]: no offer-reward text
+- 56771 Time-Lost Warriors [Visions of N'zoth]: no offer-reward text
+- 58737 Magni's Findings [Visions of N'zoth]: no offer-reward text
+- 57220 Power Protocol Initiation [Visions of N'zoth]: no offer-reward text
+- 57221 Re-Origination [Visions of N'zoth]: no offer-reward text
+- 57222 Investigating the Halls [Visions of N'zoth]: no offer-reward text
+- 57290 Beginning the Descent [Visions of N'zoth]: no offer-reward text
+- 57362 Deeper Into the Darkness [Visions of N'zoth]: no offer-reward text
+- 57373 Descending Into Madness [Visions of N'zoth]: no offer-reward text
+- 58634 Opening the Gateway [Visions of N'zoth]: no offer-reward text
+- 57374 Into the Darkest Depths [Visions of N'zoth]: no offer-reward text
+- 58615 Whispers in the Dark [Visions of N'zoth]: no offer-reward text
+- 58631 Into Dreams [Visions of N'zoth]: no offer-reward text
+- 51961 The Ongoing Campaign [Gaining a Foothold]: no offer-reward text
+- 52443 The Final Foothold [Gaining a Foothold]: no offer-reward text
+- 53052 Deeper Into Zandalar [Gaining a Foothold]: no starter
+- 53055 Pushing Our Influence [Gaining a Foothold]: no offer-reward text, no starter
+- 51571 Foothold: Nazmir [Gaining a Foothold]: no offer-reward text
+- 51572 Foothold: Vol'dun [Gaining a Foothold]: no offer-reward text
+- 51190 Granting a Reprieve [Gaining a Foothold]: no offer-reward text
+- 51191 Save Them All [Gaining a Foothold]: no offer-reward text
+- 51192 A Lack of Surplus [Gaining a Foothold]: no offer-reward text
+- 51193 That One's Mine [Gaining a Foothold]: no offer-reward text
+- 51544 Disarming the Cannons [Gaining a Foothold]: no offer-reward text
+- 51418 Xibala [Gaining a Foothold]: no offer-reward text
+- 51309 Rocks of Ragnaros [Gaining a Foothold]: no offer-reward text
+- 51331 Mole Machinations [Gaining a Foothold]: no offer-reward text
+- 51359 Fragment of the Firelands [Gaining a Foothold]: no offer-reward text
+- 51968 Return to Boralus [Gaining a Foothold]: no offer-reward text
+- 52003 Champion: Kelsey Steelspark [Gaining a Foothold]: no offer-reward text
+- 51283 Voyage to the West [Gaining a Foothold]: no offer-reward text
+- 51170 Ooh Rah! [Gaining a Foothold]: no offer-reward text
+- 51229 Establish a Beachhead [Gaining a Foothold]: no offer-reward text
+- 51242 None [Gaining a Foothold]: MISSING quest_template
+- 51349 Honor Bound [Gaining a Foothold]: no offer-reward text
+- 51350 Unexpected Aid [Gaining a Foothold]: no offer-reward text
+- 51351 Poisoned Barbs [Gaining a Foothold]: no offer-reward text
+- 51366 Antidote Application [Gaining a Foothold]: no offer-reward text
+- 51369 Friends in Strange Places [Gaining a Foothold]: no offer-reward text
+- 51389 Breaking Free [Gaining a Foothold]: no offer-reward text
+- 51391 Defang the Faithless [Gaining a Foothold]: no offer-reward text
+- 51394 Break the Siege [Gaining a Foothold]: no offer-reward text
+- 51395 The Keepers' Keys [Gaining a Foothold]: no offer-reward text
+- 51396 None [Gaining a Foothold]: MISSING quest_template
+- 51402 Reporting In [Gaining a Foothold]: no offer-reward text
+- 52008 Champion: Magister Umbric [Gaining a Foothold]: no offer-reward text
+- 51969 Return to Boralus [Gaining a Foothold]: no offer-reward text
+- 51088 Heart of Darkness [Gaining a Foothold]: no offer-reward text
+- 51129 Dubious Offering [Gaining a Foothold]: no offer-reward text
+- 51150 Honoring the Fallen [Gaining a Foothold]: no offer-reward text
+- 51167 Blood of Hir'eek [Gaining a Foothold]: no offer-reward text
+- 51168 Zealots of Zalamar [Gaining a Foothold]: no offer-reward text
+- 51169 Flight from the Fall [Gaining a Foothold]: no offer-reward text
+- 51281 Zul'Nazman [Gaining a Foothold]: no offer-reward text
+- 51279 Nazmani Cultists [Gaining a Foothold]: no offer-reward text
+- 51280 Offerings to G'huun [Gaining a Foothold]: no offer-reward text
+- 51282 Captain Conrad [Gaining a Foothold]: no offer-reward text
+- 51177 Lessons of the Damned [Gaining a Foothold]: no offer-reward text
+- 52013 Champion: John J. Keeshan [Gaining a Foothold]: no offer-reward text
+- 51967 Return to Boralus [Gaining a Foothold]: no offer-reward text
+- 51918 Uniting Kul Tiras [Gaining a Foothold]: no offer-reward text
+- 52450 Uniting Kul Tiras [Gaining a Foothold]: no offer-reward text
+- 53063 A Mission of Unity [Gaining a Foothold]: no offer-reward text, no starter
+- 53028 A Dying World [The Heart of Azeroth]: no offer-reward text
+- 51961 The Ongoing Campaign [Gaining a Foothold]: no offer-reward text
+- 52443 The Final Foothold [Gaining a Foothold]: no offer-reward text
+- 53052 Deeper Into Zandalar [Gaining a Foothold]: no starter
+- 53055 Pushing Our Influence [Gaining a Foothold]: no offer-reward text, no starter
+- 51571 Foothold: Nazmir [Gaining a Foothold]: no offer-reward text
+- 51572 Foothold: Vol'dun [Gaining a Foothold]: no offer-reward text
+- 51190 Granting a Reprieve [Gaining a Foothold]: no offer-reward text
+- 51191 Save Them All [Gaining a Foothold]: no offer-reward text
+- 51192 A Lack of Surplus [Gaining a Foothold]: no offer-reward text
+- 51193 That One's Mine [Gaining a Foothold]: no offer-reward text
+- 51309 Rocks of Ragnaros [Gaining a Foothold]: no offer-reward text
+- 51331 Mole Machinations [Gaining a Foothold]: no offer-reward text
+- 51359 Fragment of the Firelands [Gaining a Foothold]: no offer-reward text
+- 51418 Xibala [Gaining a Foothold]: no offer-reward text
+- 51544 Disarming the Cannons [Gaining a Foothold]: no offer-reward text
+- 51968 Return to Boralus [Gaining a Foothold]: no offer-reward text
+- 52003 Champion: Kelsey Steelspark [Gaining a Foothold]: no offer-reward text
+- 51170 Ooh Rah! [Gaining a Foothold]: no offer-reward text
+- 51229 Establish a Beachhead [Gaining a Foothold]: no offer-reward text
+- 51242 None [Gaining a Foothold]: MISSING quest_template
+- 51283 Voyage to the West [Gaining a Foothold]: no offer-reward text
+- 51349 Honor Bound [Gaining a Foothold]: no offer-reward text
+- 51350 Unexpected Aid [Gaining a Foothold]: no offer-reward text
+- 51351 Poisoned Barbs [Gaining a Foothold]: no offer-reward text
+- 51366 Antidote Application [Gaining a Foothold]: no offer-reward text
+- 51369 Friends in Strange Places [Gaining a Foothold]: no offer-reward text
+- 51389 Breaking Free [Gaining a Foothold]: no offer-reward text
+- 51391 Defang the Faithless [Gaining a Foothold]: no offer-reward text
+- 51394 Break the Siege [Gaining a Foothold]: no offer-reward text
+- 51395 The Keepers' Keys [Gaining a Foothold]: no offer-reward text
+- 51396 None [Gaining a Foothold]: MISSING quest_template
+- 51402 Reporting In [Gaining a Foothold]: no offer-reward text
+- 51969 Return to Boralus [Gaining a Foothold]: no offer-reward text
+- 52008 Champion: Magister Umbric [Gaining a Foothold]: no offer-reward text
+- 51088 Heart of Darkness [Gaining a Foothold]: no offer-reward text
+- 51129 Dubious Offering [Gaining a Foothold]: no offer-reward text
+- 51150 Honoring the Fallen [Gaining a Foothold]: no offer-reward text
+- 51167 Blood of Hir'eek [Gaining a Foothold]: no offer-reward text
+- 51168 Zealots of Zalamar [Gaining a Foothold]: no offer-reward text
+- 51169 Flight from the Fall [Gaining a Foothold]: no offer-reward text
+- 51177 Lessons of the Damned [Gaining a Foothold]: no offer-reward text
+- 51279 Nazmani Cultists [Gaining a Foothold]: no offer-reward text
+- 51280 Offerings to G'huun [Gaining a Foothold]: no offer-reward text
+- 51281 Zul'Nazman [Gaining a Foothold]: no offer-reward text
+- 51282 Captain Conrad [Gaining a Foothold]: no offer-reward text
+- 51967 Return to Boralus [Gaining a Foothold]: no offer-reward text
+- 52013 Champion: John J. Keeshan [Gaining a Foothold]: no offer-reward text
+- 56494 The Eve of Battle [Breaking the Cycle]: no offer-reward text
+- 56719 This Ain't Mine [Breaking the Cycle]: no offer-reward text
+- 56979 Saving the Siege [Breaking the Cycle]: no offer-reward text
+- 56980 Already Among Us [Breaking the Cycle]: no offer-reward text
+- 56981 Strategic Deployment [Breaking the Cycle]: no offer-reward text
+- 56982 Before the Gates of Orgrimmar [Breaking the Cycle]: no offer-reward text
+- 56993 The Price of Victory [Breaking the Cycle]: no offer-reward text
+- 57002 Old Soldier [Breaking the Cycle]: no offer-reward text
+- 57126 ...And Following Seas [Breaking the Cycle]: no offer-reward text
+- 57324 Sail With the Tide [Breaking the Cycle]: no offer-reward text
+- 58674 A Gathering of Champions [Breaking the Cycle]: no offer-reward text
+- 58675 The Price of Peace [Breaking the Cycle]: no offer-reward text
+- 75538 Beginning Impositions [Some Wicked Things]: no ender, no offer-reward text
+- 75539 Some Wicked Things This Way Come [Some Wicked Things]: no ender, no offer-reward text, no starter
+- 75540 Hermetic Insurance [Some Wicked Things]: no ender, no offer-reward text, no starter
+- 75541 Those Who Hesitate [Some Wicked Things]: giver 205276 not spawned, no offer-reward text, no starter
+- 75542 Curses & Cultists [Some Wicked Things]: giver 205433 not spawned, no offer-reward text, no starter
+- 75639 Fel Suspicions [Some Wicked Things]: giver 205433 not spawned, no ender, no offer-reward text
+- 75543 Last Rites By Accident [Some Wicked Things]: giver 205575 not spawned, no offer-reward text, no starter
+- 75544 When Revenge Burns Green [Some Wicked Things]: giver 205575 not spawned, giver 205818 not spawned, no offer-reward text
+- 76427 A Dark Summons [Some Wicked Things]: no offer-reward text, no starter
+- 76430 Beginning Impositions [Some Wicked Things]: no ender, no offer-reward text
+- 76163 A Lighter Shade of Fel [Some Wicked Things]: giver 205833 not spawned, no offer-reward text, no starter
+- 76410 A Dark Summons [Some Wicked Things]: no offer-reward text, no starter
+- 76155 A Wolf Among Sheep [Some Wicked Things]: giver 205276 not spawned, no ender, no offer-reward text
+- 57024 Rumors of Mechagon [Welcome to Mechagon]: no offer-reward text
+- 55646 The Legend of Mechagon [Welcome to Mechagon]: no offer-reward text
+- 55647 A Quick Ear Hustle [Welcome to Mechagon]: no offer-reward text
+- 55648 This is Our Vault Now [Welcome to Mechagon]: no offer-reward text
+- 55630 Let's Get It Started [Welcome to Mechagon]: no offer-reward text
+- 55632 You Must be This Height [Welcome to Mechagon]: no offer-reward text
+- 55649 Machinations for Mechagon [Welcome to Mechagon]: no offer-reward text
+- 55650 Only the Best Will Do [Welcome to Mechagon]: no offer-reward text
+- 55651 To Mechagon! [Welcome to Mechagon]: no offer-reward text
+- 55652 Prospectus Bay [Welcome to Mechagon]: no offer-reward text
+- 55685 We Come in Peace... and Profit [Welcome to Mechagon]: no offer-reward text
+- 55729 The Resistance Needs YOU! [Welcome to Mechagon]: no offer-reward text
+- 55730 Rescuing the Resistance [Welcome to Mechagon]: giver 153670 not spawned, no offer-reward text
+- 55731 My Father's Armies [Welcome to Mechagon]: giver 153670 not spawned, no offer-reward text
+- 55995 We Can Fix It [Welcome to Mechagon]: giver 153670 not spawned, no offer-reward text
+- 55734 Drill Rig Construction [Welcome to Mechagon]: giver 153670 not spawned, no offer-reward text
+- 55096 Send My Father a Message [Welcome to Mechagon]: no offer-reward text
+- 55736 Welcome to the Resistance [Welcome to Mechagon]: no offer-reward text
+- 56044 Send the Fleet [Welcome to Nazjatar]: no offer-reward text
+- 55054 Upheaval [Welcome to Nazjatar]: no offer-reward text
+- 54018 Descent [Welcome to Nazjatar]: no offer-reward text
+- 54021 The First Arcanist [Welcome to Nazjatar]: no offer-reward text
+- 54012 Fortunate Souls [Welcome to Nazjatar]: no offer-reward text
+- 55092 Disruption of Power [Welcome to Nazjatar]: no offer-reward text
+- 56063 Dark Tides [Welcome to Nazjatar]: no offer-reward text
+- 54015 In Deep [Welcome to Nazjatar]: no offer-reward text
+- 56429 Up Against It [Welcome to Nazjatar]: no offer-reward text
+- 55094 Stay Low, Stay Fast! [Welcome to Nazjatar]: no offer-reward text
+- 55053 A Way Home [Welcome to Nazjatar]: no offer-reward text
+- 55851 Essential Empowerment [Welcome to Nazjatar]: no offer-reward text
+- 55533 MOTHER Knows Best [Welcome to Nazjatar]: no offer-reward text
+- 55374 A Disturbance Beneath the Earth [Welcome to Nazjatar]: no offer-reward text
+- 55400 Take My Hand [Welcome to Nazjatar]: no offer-reward text
+- 55407 Calming the Spine [Welcome to Nazjatar]: no offer-reward text
+- 55425 Dominating the Indomitable [Welcome to Nazjatar]: no offer-reward text
+- 55497 A Friendly Face [Welcome to Nazjatar]: no offer-reward text
+- 55618 The Heart Forge [Welcome to Nazjatar]: no offer-reward text
+- 57010 Harnessing the Power [Welcome to Nazjatar]: no offer-reward text
+- 55481 Scouting the Palace [Welcome to Nazjatar]: no offer-reward text
+- 55384 Settling In [Welcome to Nazjatar]: no offer-reward text
+- 55385 Scouting the Pens [Welcome to Nazjatar]: no offer-reward text
+- 55500 Save A Friend [Welcome to Nazjatar]: no offer-reward text
+- 56235 Down Into Nazjatar [Welcome to Nazjatar]: no offer-reward text
+- 55862 Insight into Our Enemies [Welcome to Nazjatar]: no offer-reward text
+- 55863 Deteriorating Knowledge [Welcome to Nazjatar]: no offer-reward text
+- 55864 The Price is Death [Welcome to Nazjatar]: no offer-reward text
+- 55865 What We Know of the Naga [Welcome to Nazjatar]: no offer-reward text
+- 55866 Scouting Undercover [Welcome to Nazjatar]: no offer-reward text
+- 55967 Sating Snapdragons [Welcome to Nazjatar]: no offer-reward text
+- 56046 Working with Purpose [Welcome to Nazjatar]: no offer-reward text
+- 56047 We Can't Have Dull Weapons [Welcome to Nazjatar]: no offer-reward text
+- 56045 Stealing the Naga's Secrets [Welcome to Nazjatar]: no offer-reward text
+- 55870 Sea Slug Liquidation [Welcome to Nazjatar]: no offer-reward text
+- 55867 Coveted Crystals [Welcome to Nazjatar]: no offer-reward text
+- 55868 Let the Residue Lead You [Welcome to Nazjatar]: no offer-reward text
+- 55869 Clearing Out the Cache [Welcome to Nazjatar]: no offer-reward text
+- 56236 Down But Not Out [Welcome to Nazjatar]: no offer-reward text
+- 55469 To Zin-Azshari [Welcome to Nazjatar]: no offer-reward text
+- 55482 Making the Connection [Welcome to Nazjatar]: no offer-reward text
+- 55485 Terrors in the Deep [Welcome to Nazjatar]: no offer-reward text
+- 55486 Secrets of Telemancy [Welcome to Nazjatar]: no offer-reward text
+- 55488 Speak with the Dead [Welcome to Nazjatar]: no offer-reward text
+- 55489 The Handmaiden's Tale [Welcome to Nazjatar]: no offer-reward text
+- 55490 We'll Poke Their Eye Out [Welcome to Nazjatar]: no offer-reward text
+- 55799 The Tide Turns [Welcome to Nazjatar]: no offer-reward text
+- 58582 Return of the Black Prince [Visions of N'zoth]: no offer-reward text
+- 58583 Where the Heart Is [Visions of N'zoth]: no offer-reward text
+- 58506 Network Diagnostics [Visions of N'zoth]: no offer-reward text
+- 56209 The Halls of Origination [Visions of N'zoth]: no offer-reward text
+- 56374 A Titanic Problem [Visions of N'zoth]: no offer-reward text
+- 56375 To Ramkahen [Visions of N'zoth]: no offer-reward text
+- 56376 Surfacing Threats [Visions of N'zoth]: no offer-reward text
+- 56377 Forging Onward [Visions of N'zoth]: no offer-reward text
+- 56472 The Uldum Accord [Visions of N'zoth]: no offer-reward text
+- 56536 It's Never Easy [Visions of N'zoth]: no offer-reward text
+- 56537 The Mysterious Sigil [Visions of N'zoth]: no offer-reward text
+- 56538 Clans of the Mogu [Visions of N'zoth]: no offer-reward text
+- 56539 Finding the Rajani [Visions of N'zoth]: no offer-reward text
+- 56540 Proof of Tenacity [Visions of N'zoth]: no offer-reward text
+- 56541 The Engine of Nalak'sha [Visions of N'zoth]: no offer-reward text
+- 56542 Restored Hope [Visions of N'zoth]: no offer-reward text
+- 56771 Time-Lost Warriors [Visions of N'zoth]: no offer-reward text
+- 58737 Magni's Findings [Visions of N'zoth]: no offer-reward text
+- 57220 Power Protocol Initiation [Visions of N'zoth]: no offer-reward text
+- 57221 Re-Origination [Visions of N'zoth]: no offer-reward text
+- 57222 Investigating the Halls [Visions of N'zoth]: no offer-reward text
+- 57290 Beginning the Descent [Visions of N'zoth]: no offer-reward text
+- 57362 Deeper Into the Darkness [Visions of N'zoth]: no offer-reward text
+- 57373 Descending Into Madness [Visions of N'zoth]: no offer-reward text
+- 58634 Opening the Gateway [Visions of N'zoth]: no offer-reward text
+- 57374 Into the Darkest Depths [Visions of N'zoth]: no offer-reward text
+- 58615 Whispers in the Dark [Visions of N'zoth]: no offer-reward text
+- 58631 Into Dreams [Visions of N'zoth]: no offer-reward text
+- 56495 They Move Against Us [Breaking the Cycle]: no ender, no offer-reward text
+- 56833 Leaders of the Horde [Breaking the Cycle]: no ender, no offer-reward text, no starter
+- 57130 Traitors In Our Midst [Breaking the Cycle]: no ender, no offer-reward text, no starter
+- 57148 Siegebreakers [Breaking the Cycle]: no ender, no offer-reward text, no starter
+- 57149 Propaganda Takedown [Breaking the Cycle]: no ender, no offer-reward text, no starter
+- 57150 Militia [Breaking the Cycle]: no ender, no offer-reward text, no starter
+- 57151 A Line in the Sand [Breaking the Cycle]: no ender, no offer-reward text, no starter
+- 57152 Most Loyal [Breaking the Cycle]: no ender, no offer-reward text, no starter
+- 57147 Not My Warchief [Breaking the Cycle]: no ender, no offer-reward text, no starter
+- 56496 The Eve of Battle [Breaking the Cycle]: no offer-reward text
+- 57088 This Ain't Mine [Breaking the Cycle]: no offer-reward text
+- 57090 Saving the Siege [Breaking the Cycle]: no offer-reward text
+- 57091 Already Among Us [Breaking the Cycle]: no offer-reward text
+- 57092 Strategic Deployment [Breaking the Cycle]: no offer-reward text
+- 57093 Before the Gates of Orgrimmar [Breaking the Cycle]: no offer-reward text
+- 57094 The Price of Victory [Breaking the Cycle]: no offer-reward text
+- 57095 Old Soldier [Breaking the Cycle]: no offer-reward text
+- 57198 Sense of Obligation [Breaking the Cycle]: no offer-reward text
+- 57376 The Hidden Need [Breaking the Cycle]: no offer-reward text
+- 58672 A Gathering of Champions [Breaking the Cycle]: no offer-reward text
+- 58673 Warchief of the Horde [Breaking the Cycle]: no offer-reward text
+- 51979 The Ongoing Campaign [Gaining a Foothold]: no offer-reward text
+- 52444 The Final Foothold [Gaining a Foothold]: no offer-reward text
+- 53050 Deeper Into Kul Tiras [Gaining a Foothold]: no offer-reward text
+- 53056 Pushing Our Influence [Gaining a Foothold]: no offer-reward text
+- 51800 Foothold: Tiragarde Sound [Gaining a Foothold]: no ender, no starter
+- 51802 Foothold: Stormsong Valley [Gaining a Foothold]: no ender, no offer-reward text, no starter
+- 51801 Foothold: Drustvar [Gaining a Foothold]: no ender, no offer-reward text, no starter
+- 51435 Swashbuckling in Style [Gaining a Foothold]: no offer-reward text
+- 51436 Parleyin' Wit Pirates [Gaining a Foothold]: no offer-reward text
+- 51437 Spike the Punch [Gaining a Foothold]: no offer-reward text
+- 51439 Cannonball Collection [Gaining a Foothold]: no offer-reward text
+- 51440 A Change in Direction [Gaining a Foothold]: no offer-reward text
+- 51441 Thar She Blows! [Gaining a Foothold]: no offer-reward text
+- 51442 I'm the Captain Now [Gaining a Foothold]: no offer-reward text
+- 51438 Marking Our Territory [Gaining a Foothold]: no offer-reward text
+- 51975 Champion: Shadow Hunter Ty'jin [Gaining a Foothold]: no offer-reward text
+- 51984 Return to Zuldazar [Gaining a Foothold]: no offer-reward text
+- 51332 A Trip Across the Ocean [Gaining a Foothold]: no offer-reward text
+- 51340 Drustvar Ho! [Gaining a Foothold]: no offer-reward text
+- 51224 Profit and Reconnaissance [Gaining a Foothold]: no offer-reward text
+- 51231 Wiccaphobia [Gaining a Foothold]: no offer-reward text
+- 51233 I Hope There's No Witches in the Mountains [Gaining a Foothold]: no offer-reward text
+- 51234 Krazzlefrazz Outpost [Gaining a Foothold]: no offer-reward text
+- 51987 Champion: Hobart Grapplehammer [Gaining a Foothold]: no offer-reward text
+- 51985 Return to Zuldazar [Gaining a Foothold]: no offer-reward text
+- 51526 The Warlord's Call [Gaining a Foothold]: no offer-reward text
+- 51532 Storming In [Gaining a Foothold]: no offer-reward text
+- 51643 A Wall of Iron [Gaining a Foothold]: no offer-reward text
+- 51536 On the Hunt [Gaining a Foothold]: no offer-reward text
+- 51587 Onward! [Gaining a Foothold]: no offer-reward text
+- 51675 Hunt Them Down [Gaining a Foothold]: no offer-reward text
+- 51691 Almost Worth Saving [Gaining a Foothold]: no offer-reward text
+- 51674 Douse the Flames [Gaining a Foothold]: no offer-reward text
+- 51696 Reclaiming What's Ours [Gaining a Foothold]: no offer-reward text
+- 51753 Champion: Rexxar [Gaining a Foothold]: no offer-reward text
+- 51986 Return to Zuldazar [Gaining a Foothold]: no offer-reward text
+- 51916 Uniting Zandalar [Gaining a Foothold]: no offer-reward text
+- 52451 Uniting Zandalar [Gaining a Foothold]: no offer-reward text
+- 53064 A Mission of Unity [Gaining a Foothold]: no offer-reward text
+- 47514 Zuldazar [Unrest in Zuldazar]: no ender, no starter
+- 49488 Tal'gurub [Unrest in Zuldazar]: no ender, no offer-reward text, no starter
+- 49489 Needs a Little Body [Unrest in Zuldazar]: no offer-reward text
+- 49490 The Urn of Voices [Unrest in Zuldazar]: no offer-reward text
+- 49491 Fuel for the Voodoo [Unrest in Zuldazar]: no offer-reward text
+- 49492 Arrogance of Vol'jamba [Unrest in Zuldazar]: no offer-reward text
+- 49493 Zul's Ethical Dilemma [Unrest in Zuldazar]: no offer-reward text
+- 49494 Zuvembi Brew [Unrest in Zuldazar]: no offer-reward text
+- 51663 Preparing for the Fall [Unrest in Zuldazar]: no offer-reward text
+- 49495 Enforcing Fate [Unrest in Zuldazar]: no offer-reward text
+- 49905 Plot Twist [Unrest in Zuldazar]: no offer-reward text
+- 49663 False Prophecies [Unrest in Zuldazar]: no offer-reward text
+- 47445 The Zanchuli Council [Unrest in Zuldazar]: no offer-reward text
+- 47423 Forbidden Practices [Unrest in Zuldazar]: no offer-reward text
+- 47433 Offensively Defensive [Unrest in Zuldazar]: no offer-reward text
+- 47434 Restraining Order [Unrest in Zuldazar]: no offer-reward text
+- 47435 Pterrortorial Dispute [Unrest in Zuldazar]: no offer-reward text
+- 47437 Competitive Devotion [Unrest in Zuldazar]: no offer-reward text
+- 47422 Dire Situation [Unrest in Zuldazar]: no offer-reward text
+- 47438 Picking a Side [Unrest in Zuldazar]: no offer-reward text
+- 47439 Gonk, Lord of the Pack [Unrest in Zuldazar]: no offer-reward text
+- 47440 Pa'ku, Master of Winds [Unrest in Zuldazar]: no offer-reward text
+- 47432 The Bargain is Struck [Unrest in Zuldazar]: no offer-reward text
+- 48897 The Bargain is Struck [Unrest in Zuldazar]: no offer-reward text
+- 50835 The Port of Zandalar [Unrest in Zuldazar]: no offer-reward text
+- 46926 Shakedown [Unrest in Zuldazar]: no offer-reward text
+- 46846 The Word of Zul [Unrest in Zuldazar]: no offer-reward text
+- 46929 Deterrent [Unrest in Zuldazar]: no offer-reward text
+- 46927 Punishment of Tal'aman [Unrest in Zuldazar]: no offer-reward text
+- 46928 Punishment of Tal'farrak [Unrest in Zuldazar]: no offer-reward text
+- 50881 Royal Report [Unrest in Zuldazar]: no offer-reward text
+- 49122 A Port in Peril [Unrest in Zuldazar]: no offer-reward text
+- 49144 Wrath of the Zandalari [Unrest in Zuldazar]: no offer-reward text
+- 49145 No Troll Left Behind [Unrest in Zuldazar]: no offer-reward text
+- 49146 Spirits' Belongings [Unrest in Zuldazar]: no offer-reward text
+- 49147 Show of Strength [Unrest in Zuldazar]: no offer-reward text
+- 49148 Crumbling Apart [Unrest in Zuldazar]: no offer-reward text
+- 49149 Embrace the Voodoo [Unrest in Zuldazar]: no offer-reward text
+- 49309 Thunder's Fall [Unrest in Zuldazar]: no offer-reward text
+- 49310 The Prophet's Ploy [Unrest in Zuldazar]: no offer-reward text
+- 47509 Terrace of the Chosen [Unrest in Zuldazar]: no offer-reward text
+- 47897 Zanchuli Traitors [Unrest in Zuldazar]: no offer-reward text
+- 47915 Rescuing the Taken [Unrest in Zuldazar]: no offer-reward text
+- 47518 Raal [Unrest in Zuldazar]: giver 132041 not spawned, giver 133302 not spawned, no offer-reward text
+- 47520 Walls Have Ears [Unrest in Zuldazar]: giver 132041 not spawned, giver 133302 not spawned, no offer-reward text
+- 47521 Midnight in the Garden of the Loa [Unrest in Zuldazar]: no offer-reward text
+- 47522 The Hunter [Unrest in Zuldazar]: no offer-reward text
+- 47528 Mistress of Lies [Unrest in Zuldazar]: no offer-reward text
+- 47963 The Ancient One [Unrest in Zuldazar]: no offer-reward text
+- 51680 In Bwonsamdi's Shadow [Unrest in Zuldazar]: no offer-reward text
+- 47739 The Scent of Vengeance [Unrest in Zuldazar]: no offer-reward text
+- 47735 Ancient Tortollan Remedies [Unrest in Zuldazar]: no offer-reward text
+- 50235 No Safe Haven [Unrest in Zuldazar]: no offer-reward text
+- 47733 The Loa-Speaker's Betrayal [Unrest in Zuldazar]: no offer-reward text
+- 51677 Mending Body and Soul [Unrest in Zuldazar]: no offer-reward text
+- 47738 The Will of the Loa [Unrest in Zuldazar]: no offer-reward text
+- 51678 Rastakhan's Might [Unrest in Zuldazar]: no offer-reward text
+- 51679 A Strange Port of Call [Unrest in Zuldazar]: no offer-reward text
+- 47742 Zul's Mutiny [Unrest in Zuldazar]: no offer-reward text
+- 47737 The Temple of Rezan [Unrest in Zuldazar]: no offer-reward text
+- 47736 Heads Will Roll [Unrest in Zuldazar]: no offer-reward text
+- 47740 House of the King [Unrest in Zuldazar]: no offer-reward text
+- 47734 Partners in Heresy [Unrest in Zuldazar]: no offer-reward text
+- 47741 To Sacrifice a Loa [Unrest in Zuldazar]: no offer-reward text
+- 51111 King or Prey [Unrest in Zuldazar]: no offer-reward text
+- 49421 Hunting Zul [Unrest in Zuldazar]: no offer-reward text
+- 49965 The Warpack [Unrest in Zuldazar]: no offer-reward text
+- 49422 Heretics [Unrest in Zuldazar]: no offer-reward text
+- 49424 The Full Prophecy [Unrest in Zuldazar]: giver 132041 not spawned, no offer-reward text
+- 49425 City of Gold [Unrest in Zuldazar]: no offer-reward text
+- 49426 The King's Gambit [Unrest in Zuldazar]: no offer-reward text
+- 50963 Of Dark Deeds and Dark Days [Unrest in Zuldazar]: no offer-reward text
+- 60361 Battle for Azeroth: Mission Statement [Unrest in Zuldazar]: no ender, no offer-reward text
+- 50433 Zanchuli Disbanded [Unrest in Zuldazar]: no offer-reward text
+- 51101 The Wounded King [Unrest in Zuldazar]: no offer-reward text
+- 47512 Nazmir [Lost in Nazmir]: no ender, no starter
+- 47103 Journey to Nazmir [Lost in Nazmir]: no offer-reward text
+- 48535 Nazmir, the Forbidden Swamp [Lost in Nazmir]: no offer-reward text
+- 47262 Ending the Blood Trolls [Lost in Nazmir]: no offer-reward text
+- 47105 Into The Darkness [Lost in Nazmir]: no offer-reward text
+- 47130 Improper Burial [Lost in Nazmir]: no offer-reward text
+- 47264 Leave None Standing [Lost in Nazmir]: no offer-reward text
+- 47263 A Time of Revelation [Lost in Nazmir]: no offer-reward text
+- 47188 The Aid of the Loa [Lost in Nazmir]: no offer-reward text
+- 47241 The Shadow of Death [Lost in Nazmir]: no offer-reward text
+- 47244 A Culling of Souls [Lost in Nazmir]: no offer-reward text
+- 49278 Spiritual Restoration [Lost in Nazmir]: no offer-reward text
+- 47868 The Necropolis [Lost in Nazmir]: no offer-reward text
+- 47880 A Tribute for Death [Lost in Nazmir]: no offer-reward text
+- 47247 That Which Haunts the Dead [Lost in Nazmir]: no offer-reward text
+- 47246 Remnants of the Damned [Lost in Nazmir]: no ender, no offer-reward text, no starter
+- 47491 Remnants of the Damned [Lost in Nazmir]: no offer-reward text
+- 49348 A Desecrated Temple [Lost in Nazmir]: no offer-reward text
+- 49432 The Forlorn Soul [Lost in Nazmir]: no offer-reward text
+- 47249 Soulbound [Lost in Nazmir]: no offer-reward text
+- 47250 We'll Meet Again [Lost in Nazmir]: no offer-reward text
+- 49440 Blood Troll on the Outside [Lost in Nazmir]: no offer-reward text
+- 48699 Sneaking into Zalamar [Lost in Nazmir]: no offer-reward text
+- 48890 How to Be a Blood Troll [Lost in Nazmir]: no offer-reward text
+- 48801 Isolating Zalamar [Lost in Nazmir]: no offer-reward text
+- 49078 Poisoning the Brood [Lost in Nazmir]: no offer-reward text
+- 48800 Mark of the Bat [Lost in Nazmir]: no offer-reward text
+- 49079 Hir'eek, the Bat Loa [Lost in Nazmir]: no offer-reward text
+- 49081 To Kill a Loa [Lost in Nazmir]: no offer-reward text
+- 49082 Upward and Onward [Lost in Nazmir]: no offer-reward text
+- 49185 Catching Up [Lost in Nazmir]: no offer-reward text
+- 49064 Torga, the Turtle Loa [Lost in Nazmir]: no offer-reward text
+- 49067 Beseeching Bwonsamdi [Lost in Nazmir]: no offer-reward text
+- 49070 Souls for the Death Loa [Lost in Nazmir]: no offer-reward text
+- 49071 Dreadtick Combustion [Lost in Nazmir]: no offer-reward text
+- 49080 Cease all Summoning [Lost in Nazmir]: no offer-reward text
+- 49120 Speaking with the Dead [Lost in Nazmir]: no offer-reward text
+- 49125 Negative Blood [Lost in Nazmir]: no offer-reward text
+- 49126 Forcing Fate's Hand [Lost in Nazmir]: no offer-reward text
+- 49130 Loa-Free Diet [Lost in Nazmir]: no offer-reward text
+- 49131 Sanctifying Ground [Lost in Nazmir]: no offer-reward text
+- 49132 Crushing the Skullcrushers [Lost in Nazmir]: no offer-reward text
+- 49136 Jungo, Herald of G'huun [Lost in Nazmir]: no offer-reward text
+- 49160 Torga's Eternal Return [Lost in Nazmir]: no offer-reward text
+- 49902 To Gloom Hollow [Lost in Nazmir]: no offer-reward text
+- 47245 Getting the Message [Lost in Nazmir]: no offer-reward text
+- 47631 Rendezvous with the Libation [Lost in Nazmir]: no offer-reward text
+- 47597 No Goblin Left Behind [Lost in Nazmir]: no offer-reward text
+- 47599 Revenge: Served Hot [Lost in Nazmir]: no offer-reward text
+- 47596 There Is No Plan "B" [Lost in Nazmir]: no offer-reward text
+- 47711 Head of the Viper [Lost in Nazmir]: no offer-reward text
+- 47598 Pilfering and Fencing [Lost in Nazmir]: no offer-reward text
+- 47601 Field Evaluation [Lost in Nazmir]: no offer-reward text
+- 47602 Ready For Action [Lost in Nazmir]: no offer-reward text
+- 47525 Staying Hidden [Lost in Nazmir]: no offer-reward text
+- 47659 Hunt the Hunter [Lost in Nazmir]: no offer-reward text
+- 52294 Fallen Idols [Lost in Nazmir]: no offer-reward text
+- 47660 Fallen Idols [Lost in Nazmir]: no offer-reward text
+- 47623 The Last Witch Doctor of Krag'wa [Lost in Nazmir]: no offer-reward text
+- 47621 A True Loa Feast [Lost in Nazmir]: no offer-reward text
+- 47622 A Magical Glow [Lost in Nazmir]: no offer-reward text
+- 47540 Totemic Restoration [Lost in Nazmir]: no offer-reward text
+- 47696 Krag'wa the Terrible [Lost in Nazmir]: no offer-reward text
+- 47697 Krag'wa's Aid [Lost in Nazmir]: no offer-reward text
+- 49932 Slumber No More [Lost in Nazmir]: no offer-reward text
+- 49935 How to Repair a Titan Keeper [Lost in Nazmir]: no offer-reward text
+- 49937 Recovering Remnants [Lost in Nazmir]: no offer-reward text
+- 49938 Corrupted Earth [Lost in Nazmir]: no offer-reward text
+- 49950 Blood Purification [Lost in Nazmir]: no offer-reward text
+- 49941 Bone Procession [Lost in Nazmir]: no offer-reward text
+- 49949 Unwelcome Undead [Lost in Nazmir]: no offer-reward text
+- 49955 Not Fit for This Plane [Lost in Nazmir]: no offer-reward text
+- 49956 Void is Prohibited [Lost in Nazmir]: no offer-reward text
+- 49957 Protocol Recovery [Lost in Nazmir]: no offer-reward text
+- 49980 Containment Procedure [Lost in Nazmir]: no offer-reward text
+- 49985 Return to Gloom Hollow [Lost in Nazmir]: no offer-reward text
+- 49569 Down by the Riverside [Lost in Nazmir]: no offer-reward text
+- 50076 Rally the Warriors [Lost in Nazmir]: no offer-reward text
+- 50138 The Battle of Bloodfire Ravine [Lost in Nazmir]: no offer-reward text
+- 50078 Undying Totems [Lost in Nazmir]: no offer-reward text
+- 50079 Boom goes the Bomb [Lost in Nazmir]: no offer-reward text
+- 50081 The Road of Pain [Lost in Nazmir]: no offer-reward text
+- 50082 Target of Opportunity [Lost in Nazmir]: no offer-reward text
+- 52073 Petitioning Krag'wa [Lost in Nazmir]: no offer-reward text
+- 50087 Ateena's Fall [Lost in Nazmir]: no offer-reward text
+- 51244 What Rots Beneath [Lost in Nazmir]: no offer-reward text
+- 50808 Halting the Empire's Fall [Lost in Nazmir]: no offer-reward text
+- 47493 A Lonely Spirit [Lost in Nazmir]: no offer-reward text
+- 47513 Vol'dun [Dunes of Vol'dun]: no offer-reward text
+- 47313 Discreet Discussions [Dunes of Vol'dun]: no offer-reward text
+- 47314 Rumors of Exile [Dunes of Vol'dun]: no offer-reward text
+- 47315 Into the Dunes [Dunes of Vol'dun]: no offer-reward text
+- 51357 Armed and Ready [Dunes of Vol'dun]: no offer-reward text
+- 49676 Dressed for Battle [Dunes of Vol'dun]: no offer-reward text
+- 47327 Answering Their Attacks [Dunes of Vol'dun]: no offer-reward text
+- 49677 Plans for Attack [Dunes of Vol'dun]: no offer-reward text
+- 51364 An Explosive Exit [Dunes of Vol'dun]: no offer-reward text
+- 47319 Restorative Venom [Dunes of Vol'dun]: no offer-reward text
+- 51574 Freshly Squeezed [Dunes of Vol'dun]: no offer-reward text
+- 47320 A Balm to Calm [Dunes of Vol'dun]: no offer-reward text
+- 47317 Searching for Survivors [Dunes of Vol'dun]: no offer-reward text
+- 48993 Powerful Conductors [Dunes of Vol'dun]: no offer-reward text
+- 47316 Secrets in the Sand [Dunes of Vol'dun]: no offer-reward text
+- 47321 Knickknack Takeback [Dunes of Vol'dun]: no offer-reward text
+- 47959 The Warguard's Trail [Dunes of Vol'dun]: no offer-reward text
+- 48550 Stolen Satchels [Dunes of Vol'dun]: no offer-reward text
+- 48684 On the Move [Dunes of Vol'dun]: no offer-reward text
+- 48895 The Perfect Offering [Dunes of Vol'dun]: no offer-reward text
+- 48992 Sacred Remains [Dunes of Vol'dun]: no offer-reward text
+- 48991 Vile Infestation [Dunes of Vol'dun]: no offer-reward text
+- 48887 Cleanse the Mind [Dunes of Vol'dun]: no offer-reward text
+- 48888 It Springs Eternal [Dunes of Vol'dun]: no offer-reward text
+- 48894 Trial of Truth [Dunes of Vol'dun]: no offer-reward text
+- 48549 Grozztok the Blackheart [Dunes of Vol'dun]: no offer-reward text
+- 48715 Akunda Awaits [Dunes of Vol'dun]: no offer-reward text
+- 48987 Valley of Sorrows [Dunes of Vol'dun]: no offer-reward text
+- 48988 Memory Breach [Dunes of Vol'dun]: no offer-reward text
+- 49005 Shattered and Broken [Dunes of Vol'dun]: no offer-reward text
+- 48889 Repairing the Past [Dunes of Vol'dun]: no offer-reward text
+- 48996 Ending the Madness [Dunes of Vol'dun]: no offer-reward text
+- 50913 Akunda's Blessing [Dunes of Vol'dun]: no offer-reward text
+- 47874 Clearing the Fog [Dunes of Vol'dun]: no offer-reward text
+- 48896 Knowledge of the Past [Dunes of Vol'dun]: no offer-reward text
+- 47716 Searching the Ruins [Dunes of Vol'dun]: no offer-reward text
+- 48314 Creeping Death [Dunes of Vol'dun]: no offer-reward text
+- 48313 Nature's Remedy [Dunes of Vol'dun]: no offer-reward text
+- 50770 Effective Antivenom [Dunes of Vol'dun]: no offer-reward text
+- 50539 The Secrets of Zul'Ahjin [Dunes of Vol'dun]: no offer-reward text
+- 48315 Hollow, Empty Eyes [Dunes of Vol'dun]: no offer-reward text
+- 50561 Sulthis' Stone [Dunes of Vol'dun]: no offer-reward text
+- 47324 Unlikely Allies [Dunes of Vol'dun]: no offer-reward text
+- 49334 A Powerful Prisoner [Dunes of Vol'dun]: no offer-reward text
+- 50641 Break Their Ranks [Dunes of Vol'dun]: no offer-reward text
+- 49327 Push Them Back! [Dunes of Vol'dun]: no offer-reward text
+- 49340 The Keepers' Keys [Dunes of Vol'dun]: no offer-reward text
+- 49662 The Missing Key [Dunes of Vol'dun]: no offer-reward text
+- 50745 Infiltrating the Empire [Dunes of Vol'dun]: no offer-reward text
+- 49664 Allies in Anarchy [Dunes of Vol'dun]: no offer-reward text
+- 49665 Ready to Riot [Dunes of Vol'dun]: no offer-reward text
+- 49666 Make Them Fear Us [Dunes of Vol'dun]: no offer-reward text
+- 50746 Crater Conquered [Dunes of Vol'dun]: no offer-reward text
+- 49141 Diplomacy and Dominance [Dunes of Vol'dun]: no offer-reward text
+- 50748 Don't Drop It... Yet [Dunes of Vol'dun]: no offer-reward text
+- 49003 Vengeance From Above [Dunes of Vol'dun]: no offer-reward text
+- 50750 Infuriating the Emperor [Dunes of Vol'dun]: no offer-reward text
+- 50752 Relics of Sethraliss [Dunes of Vol'dun]: no offer-reward text
+- 50550 The Fall of Emperor Korthek [Dunes of Vol'dun]: no offer-reward text
+- 50751 Sanctuary Under Siege [Dunes of Vol'dun]: no offer-reward text
+- 50617 Atul'Aman [Dunes of Vol'dun]: no offer-reward text
+- 50904 The Abandoned Passage [Dunes of Vol'dun]: no offer-reward text
+- 50702 Defeat Jakra'zet [Dunes of Vol'dun]: no offer-reward text
+- 50703 Informing the Horde [Dunes of Vol'dun]: no offer-reward text
+- 52023 Informing the Horde [Dunes of Vol'dun]: no ender, no offer-reward text, no starter
+- 52024 Informing the Horde [Dunes of Vol'dun]: no ender, no offer-reward text, no starter
+- 76101 Tougher Down Under [Flightstones]: no offer-reward text
+- 218 Ice and Fire [Coldridge Valley]: giver 37514 not spawned
+- 75641 Power Unified [Spark of the Shadowflame]: no offer-reward text
+- 26197 The Future of Gnomeregan [Gnomeregan]: no offer-reward text
+- 26199 The Future of Gnomeregan [Gnomeregan]: no offer-reward text
+- 26202 The Future of Gnomeregan [Gnomeregan]: no offer-reward text
+- 26206 The Future of Gnomeregan [Gnomeregan]: no offer-reward text
+- 31135 The Future of Gnomeregan [Gnomeregan]: no offer-reward text
+- 41217 The Future of Gnomeregan [Gnomeregan]: no offer-reward text
+- 26421 Meet the High Tinker [Gnomeregan]: no offer-reward text
+- 26422 Meet the High Tinker [Gnomeregan]: no offer-reward text
+- 26423 Meet the High Tinker [Gnomeregan]: no offer-reward text
+- 26424 Meet the High Tinker [Gnomeregan]: no offer-reward text
+- 31137 Meet the High Tinker [Gnomeregan]: no offer-reward text
+- 41218 Meet the High Tinker [Gnomeregan]: no offer-reward text
+- 26373 On to Kharanos [Gnomeregan]: no offer-reward text
+- 75891 Ancient Curses [Night Elf Heritage Armor]: no offer-reward text
+- 76194 A Grim Portent [Night Elf Heritage Armor]: no offer-reward text
+- 76195 Countering Corruption [Night Elf Heritage Armor]: no offer-reward text
+- 76196 Mercy or Misery [Night Elf Heritage Armor]: no offer-reward text
+- 76203 Stepping into the Shadows [Night Elf Heritage Armor]: no offer-reward text
+- 76197 A Glimpse of Terror [Night Elf Heritage Armor]: no offer-reward text
+- 76205 Balancing the Scales [Night Elf Heritage Armor]: no offer-reward text
+- 76206 Heart of the Issue [Night Elf Heritage Armor]: no offer-reward text
+- 76207 Wardens' Wrath [Night Elf Heritage Armor]: no offer-reward text
+- 76212 A Mark For A Protector [Night Elf Heritage Armor]: no offer-reward text
+- 76213 Honor of the Goddess [Night Elf Heritage Armor]: no offer-reward text
+- 49922 King Da'ka [Gorilla Greatness]: no offer-reward text
+- 49919 Kaja'mite Ore Bust [Gorilla Greatness]: no offer-reward text
+- 49920 Gorilla Warfare [Gorilla Greatness]: no offer-reward text
+- 49810 Monstrous Matchmaker [The Last of Their Kind]: no offer-reward text
+- 49801 Aggressive Mating Strategy [The Last of Their Kind]: no offer-reward text
+- 49814 The Scent for a Brutosaur [The Last of Their Kind]: no offer-reward text
+- 50154 They Say It's a Delicacy [The Last of Their Kind]: no offer-reward text
+- 50074 Brutal Boost [The Last of Their Kind]: no offer-reward text
+- 50150 Setting the Mood [The Last of Their Kind]: no offer-reward text
+- 50252 Mating Season Halftime [The Last of Their Kind]: no offer-reward text
+- 50268 Give it a Little Juice [The Last of Their Kind]: no offer-reward text
+- 49870 Size Matters [The Last of Their Kind]: no offer-reward text
+- 50297 The Head of Her Enemy [The Last of Their Kind]: no offer-reward text
+- 47226 The Orphaned Hatchling [Warbeast Kraal]: no offer-reward text
+- 47259 Direhorn Daycare [Warbeast Kraal]: no offer-reward text
+- 48527 Ravenous Landsharks [Warbeast Kraal]: no offer-reward text
+- 47311 Headbutting 101 [Warbeast Kraal]: no offer-reward text
+- 47272 Direhorn Growth Hormone [Warbeast Kraal]: no offer-reward text
+- 47312 Queenfeather [Warbeast Kraal]: no offer-reward text
+- 51990 Wings for the Kraal [Warbeast Kraal]: no offer-reward text
+- 51998 DGH: Now With Real Direhorn [Warbeast Kraal]: no offer-reward text
+- 47418 Growing Pains [Warbeast Kraal]: no offer-reward text
+- 47261 How to Train Your Direhorn [Warbeast Kraal]: no offer-reward text
+- 48581 A Good Spanking [Warbeast Kraal]: no offer-reward text
+- 47310 Naptime [Warbeast Kraal]: no offer-reward text
+- 47329 The Bloodwatcher Legacy [Fossil Extraction]: no offer-reward text
+- 47228 Xibalan Ecology [Fossil Extraction]: no offer-reward text
+- 47235 Scrying for the Eye [Fossil Extraction]: no offer-reward text
+- 50043 Archaeological Efficiency [Fossil Extraction]: no offer-reward text
+- 48317 A Nose for Magic [Fossil Extraction]: no offer-reward text
+- 48399 A Dark (Iron) Tide [Fossil Extraction]: no offer-reward text
+- 48400 Grand Theft Telemancy [Fossil Extraction]: no offer-reward text
+- 9303 Inoculation [Ammen Vale]: giver 16534 not spawned
+- 37444 Inoculation [Ammen Vale]: no starter
+- 9798 Blood Elf Plans [Ammen Vale]: no starter
+- 37445 Spare Parts [Ammen Vale]: no starter
+- 76146 Dawn of the Infinite: Chrono-Lord Deios [Dawn of the Infinites]: no offer-reward text
+- 76147 Rewind and Reconcile [Dawn of the Infinites]: no offer-reward text
+- 49284 Perfect Tidings [Dreadpearl Tidings]: no offer-reward text
+- 49285 Tiny Treasures [Dreadpearl Tidings]: no offer-reward text
+- 49286 Caged Wisdom [Dreadpearl Tidings]: no offer-reward text
+- 49287 Lost Chelonians [Dreadpearl Tidings]: no offer-reward text
+- 49288 Scrollhunters [Dreadpearl Tidings]: no offer-reward text
+- 49289 A Special Stone [Dreadpearl Tidings]: no offer-reward text
+- 51407 Find Their Words [Dreadpearl Tidings]: no offer-reward text
+- 48015 The Scrolls of Gral [The Sunken City]: no offer-reward text
+- 48014 Clear the Riffraff [The Sunken City]: no offer-reward text
+- 49969 Awaken a God [The Sunken City]: no offer-reward text
+- 48017 None [The Sunken City]: MISSING quest_template
+- 49970 None [The Sunken City]: MISSING quest_template
+- 48025 Saving for Later [The Sunken City]: no offer-reward text
+- 48026 Beneath the Waves [The Sunken City]: no offer-reward text
+- 51538 Word from the Deep [The Sunken City]: no offer-reward text
+- 47583 Die, Die, Diemetradon [Hunting with Nesingwary]: no offer-reward text
+- 47584 A Thorn in the Side [Hunting with Nesingwary]: no offer-reward text
+- 47585 Predatory [Hunting with Nesingwary]: no offer-reward text
+- 47586 Hunting the Hunter [Hunting with Nesingwary]: no offer-reward text
+- 47587 Headhunter Jo [Hunting with Nesingwary]: no offer-reward text
+- 47588 King of the Hunt [Hunting with Nesingwary]: no ender, no offer-reward text, no starter
+- 47924 Profanity Filter [A Bloody Meal]: no offer-reward text
+- 47919 Just Say No to Cannibalism [A Bloody Meal]: no offer-reward text
+- 47925 Shoak's on the Menu [A Bloody Meal]: no offer-reward text
+- 47998 Killing Cannibals [A Bloody Meal]: no offer-reward text
+- 48468 Bwonsamdi's Deliverance [Bwonswamdi]: no offer-reward text
+- 48473 Respecting the Rites [Bwonswamdi]: no offer-reward text
+- 48478 Kel'vax's Home [Bwonswamdi]: no offer-reward text
+- 48479 Bones for Protection [Bwonswamdi]: no offer-reward text
+- 48480 The Fall of Kel'vax [Bwonswamdi]: no offer-reward text
+- 48854 Offer of Power [Zardax's Offer]: no offer-reward text
+- 48823 Projection Destruction [Zardax's Offer]: no offer-reward text
+- 48825 Power Denied [Zardax's Offer]: no offer-reward text
+- 48855 Humbling the Terrors [Zardax's Offer]: no offer-reward text
+- 48856 Conduit Interruption [Zardax's Offer]: no offer-reward text
+- 48857 All Hope is Lost [Zardax's Offer]: no offer-reward text
+- 48869 Payback's a Lich [Zardax's Offer]: no offer-reward text
+- 48669 Urok, Terror of the Wetlands [Urok, Terror of the Wetlands]: no offer-reward text
+- 48573 Crocolisk Life [Urok, Terror of the Wetlands]: no offer-reward text
+- 48574 Pulling Fangs [Urok, Terror of the Wetlands]: no offer-reward text
+- 48576 Safe Flying [Urok, Terror of the Wetlands]: no offer-reward text
+- 48577 Terrorizing their Eggs [Urok, Terror of the Wetlands]: no offer-reward text
+- 48578 There's No Eye in Skyterror [Urok, Terror of the Wetlands]: no offer-reward text
+- 48630 None [Urok, Terror of the Wetlands]: MISSING quest_template
+- 48584 The Blood of My Enemies [Urok, Terror of the Wetlands]: no offer-reward text
+- 48590 My Head and Shoulders [Urok, Terror of the Wetlands]: no offer-reward text
+- 48591 Urok's True Death [Urok, Terror of the Wetlands]: no offer-reward text
+- 48492 Getting a Leg Up [Cooking with Sethrak]: no offer-reward text
+- 48496 Reuniting the Company [Cooking with Sethrak]: no offer-reward text
+- 48497 Show of Force [Cooking with Sethrak]: no offer-reward text
+- 48498 No Mercy for Sithis [Cooking with Sethrak]: no offer-reward text
+- 49479 Didn't Stop to Think if They Should [Cooking with Sethrak]: no offer-reward text
+- 48499 Return to Dust [Cooking with Sethrak]: no offer-reward text
+- 49777 On The Run [This is the Pits]: no offer-reward text
+- 49776 No Problem Tar Can't Solve [This is the Pits]: no offer-reward text
+- 49774 Won't Leaf Him to Die [This is the Pits]: no offer-reward text
+- 49778 Don't Go into the Light [This is the Pits]: no offer-reward text
+- 49779 Bad To The Bone [This is the Pits]: no offer-reward text
+- 49780 Recovering Ancient Fire [This is the Pits]: no offer-reward text
+- 49781 Catch Me if You Can [This is the Pits]: no offer-reward text
+- 49366 Aid the Wounded [Crawgling Conundrum]: no offer-reward text
+- 49370 Rescue the Chronicler [Crawgling Conundrum]: no offer-reward text
+- 49376 Just One Thing [Crawgling Conundrum]: no ender, no offer-reward text, no starter
+- 49381 None [Crawgling Conundrum]: MISSING quest_template
+- 49378 Earn Their Trust [Crawgling Conundrum]: no offer-reward text
+- 49380 Bad Juju [Crawgling Conundrum]: no offer-reward text
+- 49379 Crawg Free Zone [Crawgling Conundrum]: no offer-reward text
+- 49377 Off With Her Head [Crawgling Conundrum]: no offer-reward text
+- 49382 It Seems You've Made a Friend [Crawgling Conundrum]: no offer-reward text
+- 50771 Calldown: Cleaner [For Profit]: no offer-reward text
+- 50775 Get Us Some Beach [For Profit]: no offer-reward text
+- 52129 Power Problems [For Profit]: no offer-reward text
+- 51991 Charging the Batteries [For Profit]: no offer-reward text
+- 50812 Awakened Elements [For Profit]: no offer-reward text
+- 50818 A Lost Flute [Feeding the Hungry]: no offer-reward text
+- 50817 A Charming Tail [Feeding the Hungry]: no offer-reward text
+- 50979 Just a Nip [Feeding the Hungry]: no offer-reward text
+- 50980 My Hungry Neighbor [Feeding the Hungry]: no offer-reward text
+- 47870 Dead Men Tell No Tales [Ashvane Antics]: no offer-reward text
+- 47871 Seafaring Necessities [Ashvane Antics]: no offer-reward text
+- 51810 Captain Hartford [Ashvane Antics]: no offer-reward text
+- 47873 The Captain's Cache [Ashvane Antics]: no offer-reward text
+- 51573 I've Got Your Back [Champion of the Arena]: no offer-reward text
+- 48529 Hungry Mouths To Feed [Champion of the Arena]: no offer-reward text
+- 48530 I Heard You Lost the Herd [Champion of the Arena]: no offer-reward text
+- 48531 Mystery Meat [Champion of the Arena]: no offer-reward text
+- 48532 Alpacas Gone Wild [Champion of the Arena]: no offer-reward text
+- 48533 Vol'duni Fried Chicken [Champion of the Arena]: no offer-reward text
+- 48585 Wasteland Survivor [Champion of the Arena]: no offer-reward text
+- 48655 The Chef's Apprentice [Champion of the Arena]: no offer-reward text
+- 48534 Snarltooth's Last Laugh [Champion of the Arena]: no offer-reward text
+- 48656 Savage Saurolisks [Champion of the Arena]: no offer-reward text
+- 48657 They Might Be Delicious [Champion of the Arena]: no offer-reward text
+- 48846 Liquid Motivation [Champion of the Arena]: no offer-reward text
+- 48850 Tongo [Champion of the Arena]: no offer-reward text
+- 51602 Bandit Blades [Champion of the Arena]: no offer-reward text
+- 48790 Stolen Goods [Champion of the Arena]: no offer-reward text
+- 48847 Arming the Tribe [Champion of the Arena]: no offer-reward text
+- 51668 Mojambo [Champion of the Arena]: no offer-reward text
+- 48332 Ranishu Are Resources [Court of Zak'rajan]: no offer-reward text
+- 48334 They've Got Golems [Court of Zak'rajan]: no offer-reward text
+- 49001 Inconvenient Spirits [Court of Zak'rajan]: no offer-reward text
+- 48335 The Strongest Rope in Vol'dun [Court of Zak'rajan]: no offer-reward text
+- 48331 Siphoning Souls [Court of Zak'rajan]: no offer-reward text
+- 49139 An Army's Arsenal [Court of Zak'rajan]: no offer-reward text
+- 48330 Zandalari Treasure Trove [Court of Zak'rajan]: no offer-reward text
+- 47497 Meet the Goldtusk Gang [Goldtusk Inn]: no offer-reward text
+- 47501 Dirty Work for Dirty Drinks [Goldtusk Inn]: no offer-reward text
+- 47498 Rhan'ka's Lost Friend [Goldtusk Inn]: no offer-reward text
+- 47502 The Great Cranium Caper [Goldtusk Inn]: no offer-reward text
+- 47503 Gozda'kun the Slaver [Goldtusk Inn]: no offer-reward text
+- 51717 The Best Honey In Vol'dun [Goldtusk Inn]: no offer-reward text
+- 51718 Harvesting "Honey" [Goldtusk Inn]: no offer-reward text
+- 50328 Unconventional Aromatics [Goldtusk Inn]: no offer-reward text
+- 47638 Powerful Spirits [Goldtusk Inn]: no offer-reward text
+- 48320 The Best Kill is Overkill [Goldtusk Inn]: no offer-reward text
+- 47564 Restocking the Buffet [Goldtusk Inn]: no offer-reward text
+- 48321 Creative Marketing [Goldtusk Inn]: no offer-reward text
+- 48322 A Goldtusk Greeting [Goldtusk Inn]: no offer-reward text
+- 48840 Ruins-Level Marketing [Goldtusk Inn]: no offer-reward text
+- 48324 Lost in Zem'lan [Port of Zem'lan]: no offer-reward text
+- 48325 None [Port of Zem'lan]: MISSING quest_template
+- 48328 None [Port of Zem'lan]: MISSING quest_template
+- 51053 The Day the Port Fell [Port of Zem'lan]: no offer-reward text
+- 51054 Overdue Mutiny [Port of Zem'lan]: no offer-reward text
+- 51055 The Yard Arm of the Law [Port of Zem'lan]: no offer-reward text
+- 51056 My Last Day Alive [Port of Zem'lan]: no offer-reward text
+- 51057 Maroon 'em with Fire [Port of Zem'lan]: no offer-reward text
+- 47499 The Grinning Idols [Port of Zem'lan]: no offer-reward text
+- 51059 The Golden Isle [Port of Zem'lan]: no offer-reward text
+- 51060 Our Share of the Plunder [Port of Zem'lan]: no offer-reward text
+- 51061 The First Time I Died [Port of Zem'lan]: no offer-reward text
+- 48326 This Be Mutiny [Port of Zem'lan]: no offer-reward text
+- 51062 Escaping Zem'lan [Port of Zem'lan]: no offer-reward text
+- 48327 A Strange Delivery [Port of Zem'lan]: no offer-reward text
+- 49668 Light Up the Gulch [Sethrak Fortress]: no offer-reward text
+- 49437 Tattered Note [Sethrak Fortress]: no offer-reward text, no starter
+- 50757 Untame Slaughter [Sethrak Fortress]: no offer-reward text
+- 49669 Unleash the Beasts [Sethrak Fortress]: no offer-reward text
+- 50749 Free Ride [Sethrak Fortress]: no offer-reward text
+- 49667 The Little Ones [Sethrak Fortress]: no offer-reward text
+- 48329 Beaten But Not Broken [Sethrak Fortress]: no offer-reward text, no starter
+- 49002 Forced Grounding [Sethrak Fortress]: no offer-reward text, no starter
+- 47577 They Came From The Sea [Kimbul's Wrath]: no offer-reward text
+- 47570 Hidden Motives [Kimbul's Wrath]: no offer-reward text
+- 47943 Crab Trapping [Kimbul's Wrath]: no offer-reward text
+- 47571 The Elder's Wisdom [Kimbul's Wrath]: no offer-reward text
+- 47965 The Ruined Temple [Kimbul's Wrath]: no offer-reward text
+- 47573 Jungleweb Infestation [Kimbul's Wrath]: no offer-reward text
+- 47574 All Webbed Up [Kimbul's Wrath]: no offer-reward text
+- 47581 Blessing of Kimbul [Kimbul's Wrath]: no offer-reward text
+- 47928 Offering for the Loa [Kimbul's Wrath]: no offer-reward text
+- 47580 The Curse of Mepjila [Kimbul's Wrath]: no offer-reward text
+- 47576 Wrath of the Tiger [Kimbul's Wrath]: no offer-reward text
+- 47578 Mark of the Loa [Kimbul's Wrath]: no offer-reward text
+- 31159 The Rise of the Darkspear [Echo Isles]: no offer-reward text
+- 31158 The Basics: Hitting Things [Echo Isles]: no offer-reward text
+- 31160 A Rough Start [Echo Isles]: no offer-reward text
+- 31161 Proving Pit [Echo Isles]: no offer-reward text
+- 31163 More Than Expected [Echo Isles]: no offer-reward text
+- 49228 None [Cave Diving]: MISSING quest_template
+- 49217 None [Cave Diving]: MISSING quest_template
+- 14138 Taking Care of Business [Bilgewater Port]: giver 14336 not spawned, giver 27648 not spawned
+- 14075 Trouble in the Mines [Bilgewater Port]: giver 14336 not spawned
+- 90869 It's All in the Image [Bilgewater Port]: no ender, no offer-reward text, no starter
+- 24503 Fourth and Goal [Bilgewater Port]: no starter
+- 28414 Fourth and Goal [Bilgewater Port]: no offer-reward text
+- 14122 The Great Bank Heist [Bilgewater Port]: giver 35486 not spawned
+- 14125 447 [Bilgewater Port]: giver 37598 not spawned
+- 48883 Big Gulls Won't Die [A Fishing Shack]: no offer-reward text
+- 53464 The Village of Glenbrook [A Tea Party]: no offer-reward text
+- 53465 Tea Party [A Tea Party]: no ender, no offer-reward text
+- 28650 A Special Surprise [The Scarlet Enclave]: no offer-reward text
+- 28649 A Special Surprise [The Scarlet Enclave]: no offer-reward text
+- 72513 Our Destiny [The 5th Essence]: no ender, no offer-reward text, no starter
+- 72514 The High Creche [The 5th Essence]: no ender, no offer-reward text, no starter
+- 72515 Augmenting a Dragon [The 5th Essence]: no ender, no offer-reward text, no starter
+- 75632 A Dislocated Disc [Reforging the Tyr's Guard]: no offer-reward text
+- 75633 We Have the Technology [Reforging the Tyr's Guard]: no offer-reward text
+- 75634 Reforging the Tyr's Guard [Reforging the Tyr's Guard]: no offer-reward text
+- 76171 Walking the Path of Tyr [Reforging the Tyr's Guard]: no offer-reward text
+- 75950 An Exemplar of Justice: Hadwin [Reforging the Tyr's Guard]: no offer-reward text
+- 75951 An Exemplar of Order: Talthis [Reforging the Tyr's Guard]: no offer-reward text
+- 75952 An Exemplar of Sacrifice: Nolaki [Reforging the Tyr's Guard]: no offer-reward text
+- 75953 An Exemplar of Compassion: Valunei [Reforging the Tyr's Guard]: no offer-reward text
+- 75635 For Tyr! [Reforging the Tyr's Guard]: no offer-reward text
+- 76176 First Steps [Reforging the Tyr's Guard]: no offer-reward text
+- 75636 Tyrangulation [Reforging the Tyr's Guard]: no offer-reward text
+- 75637 The Final Beacon [Reforging the Tyr's Guard]: no offer-reward text
+- 75638 Dislocated Disc Located [Reforging the Tyr's Guard]: no offer-reward text
+- 77093 The Shadowflame Axe [Fyr'alath, Dream Render]: no offer-reward text, no starter
+- 77191 Handling It [Fyr'alath, Dream Render]: no offer-reward text
+- 77192 An Axe Tempered [Fyr'alath, Dream Render]: no offer-reward text
+- 77193 The Power of Temptation [Fyr'alath, Dream Render]: no offer-reward text
+- 76592 A Single Wing [Reconciliation]: no offer-reward text
+- 77098 Getting to Ground [Reconciliation]: no offer-reward text
+- 77163 Seeing Reason [Reconciliation]: no offer-reward text
+- 76593 The Best Intentions [Reconciliation]: no offer-reward text
+- 76594 Dracthyr Down [Reconciliation]: no offer-reward text
+- 76595 Urgent Exfiltration [Reconciliation]: no offer-reward text
+- 76597 On New Wings [Reconciliation]: no offer-reward text
+- 77325 To the Archives! [Azerothian Archives - Tutorial]: no offer-reward text
+- 77267 Excavation 101 [Azerothian Archives - Tutorial]: no offer-reward text, no starter
+- 77268 Hands-On Experience [Azerothian Archives - Tutorial]: no offer-reward text
+- 77231 Technoscrying 101 [Azerothian Archives - Tutorial]: no offer-reward text
+- 77166 A Practical Test [Azerothian Archives - Tutorial]: no offer-reward text
+- 77176 I Can See Through Time! [Azerothian Archives - Tutorial]: no offer-reward text
+- 77364 None [Test Trivial Campaign Line]: MISSING quest_template
+- 77433 Excavation: Riverbed [Azerothian Archives - Excavation Sites]: no ender, no offer-reward text
+- 75493 Surveying the Riverbed [Azerothian Archives - Excavation Sites]: no offer-reward text, no starter
+- 75518 The Body on the Banks [Azerothian Archives - Excavation Sites]: giver 204245 not spawned, no offer-reward text
+- 75603 Do Rites by Her [Azerothian Archives - Excavation Sites]: no offer-reward text
+- 77486 Excavation: Gaze of Neltharion [Azerothian Archives - Excavation Sites]: no offer-reward text
+- 76026 Surveying the Tower [Azerothian Archives - Excavation Sites]: no offer-reward text
+- 76032 Hidden in the Midden [Azerothian Archives - Excavation Sites]: no offer-reward text
+- 75604 Antiquated Antics [Azerothian Archives - Excavation Sites]: no offer-reward text
+- 77487 Excavation: Winglord's Perch [Azerothian Archives - Excavation Sites]: no offer-reward text, no starter
+- 77100 Surveying the Cliffside [Azerothian Archives - Excavation Sites]: no offer-reward text
+- 77151 The Cache in the Crag [Azerothian Archives - Excavation Sites]: giver 208402 not spawned, no offer-reward text
+- 77154 A Taste of the Past [Azerothian Archives - Excavation Sites]: no offer-reward text
+- 77488 Excavation: Back to Eadweard! [Azerothian Archives - Excavation Sites]: no ender, no offer-reward text, no starter
+- 77434 Technoscrying: Observatory [Azerothian Archives - Technoscrying Sites]: no offer-reward text
+- 75729 Attune to the Observer [Azerothian Archives - Technoscrying Sites]: no offer-reward text
+- 75867 A Link to the Past [Azerothian Archives - Technoscrying Sites]: no offer-reward text
+- 75868 A Window into the Future [Azerothian Archives - Technoscrying Sites]: no offer-reward text
+- 77483 Technoscrying: Dragonskull Island [Azerothian Archives - Technoscrying Sites]: no offer-reward text, no starter
+- 76448 The Fate of Scalecommander Abereth [Azerothian Archives - Technoscrying Sites]: no offer-reward text
+- 76557 Without Honor [Azerothian Archives - Technoscrying Sites]: no offer-reward text
+- 77415 The Hidden Hand [Azerothian Archives - Technoscrying Sites]: no offer-reward text
+- 77484 Technoscrying: Igira's Watch [Azerothian Archives - Technoscrying Sites]: no offer-reward text, no starter
+- 76564 The Tools of the Dragonkillers [Azerothian Archives - Technoscrying Sites]: no offer-reward text
+- 76576 An Unlikely Proposal [Azerothian Archives - Technoscrying Sites]: no offer-reward text
+- 77425 The Scale of it All [Azerothian Archives - Technoscrying Sites]: no offer-reward text
+- 77485 Technoscrying: Back to Eadweard! [Azerothian Archives - Technoscrying Sites]: no ender, no offer-reward text, no starter
+- 77327 Nirobin and the Office [Azerothian Archives - Research Site & Wrap Up]: no offer-reward text
+- 76217 Living History [Azerothian Archives - Research Site & Wrap Up]: no offer-reward text
+- 76241 Lab Partners with a Squirrel [Azerothian Archives - Research Site & Wrap Up]: no offer-reward text
+- 76242 A Research Thesis Worth Publishing [Azerothian Archives - Research Site & Wrap Up]: no offer-reward text
+- 77328 Back to Headquarters! [Azerothian Archives - Research Site & Wrap Up]: no offer-reward text
+- 77331 Graduation Day [Azerothian Archives - Research Site & Wrap Up]: no offer-reward text
+- 77201 A Personal Offering [New Beginnings]: no offer-reward text
+- 77676 None [The Testing of Azj-Kahet]: MISSING quest_template
+- 77339 Data Recovery [Tyr's Return]: no offer-reward text
+- 77377 To Tyrhold! For Tyr! [Tyr's Return]: no offer-reward text
+- 77340 Infiltrating the Nighthold [Tyr's Return]: no offer-reward text
+- 77342 Disc Delivery [Tyr's Return]: no offer-reward text
+- 77343 A Tyrful Reunion [Tyr's Return]: no offer-reward text
+- 77344 Time to Process [Tyr's Return]: no offer-reward text
+- 77341 Logotyrapy [Tyr's Return]: no offer-reward text
+- 77677 Some Water... [A Mix of Hope, Care, and Patience]: giver 209292 not spawned, no offer-reward text
+- 78398 A Dash of Minerals... [A Mix of Hope, Care, and Patience]: no offer-reward text
+- 77697 The Right Food... [A Mix of Hope, Care, and Patience]: giver 209458 not spawned, no offer-reward text
+- 77711 And a Pinch of Magic [A Mix of Hope, Care, and Patience]: no offer-reward text
+- 77762 A Little Hope is Never Without Worth [A Mix of Hope, Care, and Patience]: no offer-reward text
+- 75887 Fyrakk's Forces [Suffusion Camp]: no offer-reward text
+- 77813 Lightning Strikes [11.0 Preorder]: no ender, no offer-reward text, no starter
+- 77815 The Storm Race Tour [11.0 Preorder]: no ender, no offer-reward text, no starter
+- 77408 Prophecy Stirs [Seeing Red]: no offer-reward text
+- 77409 Uncertainty [Seeing Red]: no offer-reward text
+- 77410 Opening Wounds [Seeing Red]: no offer-reward text
+- 77411 Contrition [Seeing Red]: giver 208836 not spawned, no offer-reward text
+- 77789 Severing Ties [Seeing Red]: giver 208836 not spawned, no offer-reward text
+- 77412 Proof and Promise [Seeing Red]: giver 208836 not spawned, no offer-reward text
+- 77795 Scavenged Artifacts [Seeing Red]: no offer-reward text
+- 77791 Handling It: Symbiotic Glowspore Grip [Symbiotic Glowspore Grip]: giver 209601 not spawned, no ender, no offer-reward text
+- 77886 Handling It: Shadowed Dreamleaf [Symbiotic Glowspore Grip]: no ender, no offer-reward text, no starter
+- 78159 Handling It: Glowspore Grip [Symbiotic Glowspore Grip]: no ender, no offer-reward text
+- 78160 To the Test: Symbiotic Glowspore Grip [Symbiotic Glowspore Grip]: no ender, no offer-reward text
+- 78655 Adaptive Cooling Salve [Symbiotic Glowspore Grip]: no ender, no offer-reward text
+- 77833 Handling It: Concentrated Sophic Vellum [Concentrated Sophic Vellum]: giver 209601 not spawned, no ender, no offer-reward text
+- 78155 Handling It: Radiant Fleck of Ash [Concentrated Sophic Vellum]: no ender, no offer-reward text
+- 78156 Handling It: Radiant Vellum [Concentrated Sophic Vellum]: no ender, no offer-reward text
+- 78002 To The Test: Concentrated Sophic Vellum [Concentrated Sophic Vellum]: no ender, no offer-reward text
+- 30648 Moving On [The Jade Forest]: no ender
+- 30053 Hop Hunting [Valley of the Four Winds]: no ender
+- 30274 The Arcanic Oubliette [Krasarang Wilds]: no starter
+- 30465 Going on the Offensive [Krasarang Wilds]: no offer-reward text
+- 30462 Into the Wilds [Krasarang Wilds]: no offer-reward text
+- 30376 Hope Springs Eternal [Krasarang Wilds]: no offer-reward text
+- 30623 The Mantidote [Krasarang Wilds]: no ender
+- 30624 It Does You No Good In The Keg [Krasarang Wilds]: no ender
+- 30506 Admiral Taylor has Awakened [Kun-Lai Summit]: no offer-reward text
+- 30507 Admiral Taylor has Awakened [Kun-Lai Summit]: no offer-reward text
+- 30652 In Tents Channeling [Kun-Lai Summit]: no ender
+- 30660 The Ordo Warbringer [Kun-Lai Summit]: no starter
+- 30662 The Ordo Warbringer [Kun-Lai Summit]: no offer-reward text
+- 31009 Dead Zone [Dread Wastes]: no ender
+- 31087 Extending Our Coverage [Dread Wastes]: giver 65542 not spawned, giver 65543 not spawned
+- 31679 Extending Our Coverage [Dread Wastes]: giver 65542 not spawned, giver 65543 not spawned, no offer-reward text, no starter
+- 31680 Crime and Punishment [Dread Wastes]: giver 65543 not spawned, giver 65975 not spawned, no offer-reward text
+- 31681 Better With Age [Dread Wastes]: giver 65543 not spawned, giver 65975 not spawned, no offer-reward text
+- 31682 By the Sea, Nevermore [Dread Wastes]: giver 65975 not spawned, no offer-reward text
+- 31076 Fate of the Stormstouts [Dread Wastes]: no offer-reward text
+- 76177 None [Reforging the Tyr's Guard]: MISSING quest_template
+- 32248 A Little Patience [Operation Shieldwall]: no offer-reward text
+- 32380 The Best Around [Operation Shieldwall]: no offer-reward text
+- 32381 To Catch A Spy [Operation Shieldwall]: no offer-reward text
+- 32426 Stirred, Not Shaken [Operation Shieldwall]: no offer-reward text
+- 32382 He's In Deep [Operation Shieldwall]: no offer-reward text
+- 32383 Bugging Out [Operation Shieldwall]: no offer-reward text
+- 32397 He Won't Even Miss It [Operation Shieldwall]: no offer-reward text
+- 32331 The Kirin Tor [Operation Shieldwall]: no offer-reward text
+- 32362 The Fate of Dalaran [Operation Shieldwall]: no offer-reward text
+- 32193 To Mogujia [Operation Shieldwall]: no offer-reward text
+- 32194 Bad Blood [Operation Shieldwall]: no offer-reward text
+- 32243 The Source of Korune Power [Operation Shieldwall]: no offer-reward text
+- 32315 Anduin's Plea [Operation Shieldwall]: no offer-reward text
+- 32316 Heart Of The Alliance [Operation Shieldwall]: no offer-reward text
+- 32370 The Kun-Lai Expedition [Operation Shieldwall]: no offer-reward text
+- 32377 A Kor'kron In Our Midst [Operation Shieldwall]: no offer-reward text
+- 32371 Memory Wine [Operation Shieldwall]: no offer-reward text
+- 32393 The Ruins of Korune [Operation Shieldwall]: no offer-reward text
+- 32394 The Divine Bell [Operation Shieldwall]: no offer-reward text
+- 32414 Darnassus Attacked? [Operation Shieldwall]: no offer-reward text
+- 32460 Tracking the Thieves [Operation Shieldwall]: no offer-reward text
+- 32416 Jaina's Resolution [Operation Shieldwall]: no offer-reward text
+- 32417 Sewer Cleaning [Operation Shieldwall]: no offer-reward text
+- 32418 Unfair Trade [Operation Shieldwall]: no offer-reward text
+- 32419 Nowhere to Hide [Operation Shieldwall]: no offer-reward text
+- 32420 Cashing Out [Operation Shieldwall]: no offer-reward text
+- 32421 Nowhere to Run [Operation Shieldwall]: no offer-reward text
+- 32423 What Had To Be Done [Operation Shieldwall]: no offer-reward text
+- 32355 The Harmonic Mallet [Operation Shieldwall]: no offer-reward text
+- 32321 The Monkey King [Operation Shieldwall]: no offer-reward text
+- 32332 The First Riddle: Mercy [Operation Shieldwall]: no offer-reward text
+- 32333 The Second Riddle: Fellowship [Operation Shieldwall]: no offer-reward text
+- 32334 The Third Riddle: Strength [Operation Shieldwall]: no offer-reward text
+- 32335 The Greatest Prank [Operation Shieldwall]: no offer-reward text
+- 32336 The Handle [Operation Shieldwall]: no offer-reward text
+- 32337 The Head [Operation Shieldwall]: no offer-reward text
+- 32338 The Harmonic Ointment [Operation Shieldwall]: no offer-reward text
+- 32400 The Bell Speaks [Operation Shieldwall]: no offer-reward text
+- 32401 Breath of Darkest Shadow [Operation Shieldwall]: no offer-reward text
+- 32455 The Silence [Operation Shieldwall]: no offer-reward text
+- 32679 Thunder Calls [Kirin Tor Offensive]: no offer-reward text
+- 32706 Allies in the Shadows [Kirin Tor Offensive]: no offer-reward text
+- 32707 Secrets in the Isle of Thunder [Kirin Tor Offensive]: no offer-reward text
+- 32708 Setting the Trap [Kirin Tor Offensive]: no offer-reward text
+- 32640 Champions of the Thunder King [Kirin Tor Offensive]: no offer-reward text
+- 32806 The King and the Council [Escalation]: no offer-reward text
+- 32807 The Warchief and the Darkness [Escalation]: no offer-reward text
+- 32816 Path of the Last Emperor [Escalation]: giver 70980 not spawned, no offer-reward text
+- 33231 Journey to the Timeless Isle [The Siege of Orgrimmar]: no offer-reward text
+- 33160 Time Keeper Kairoz [The Siege of Orgrimmar]: no offer-reward text
+- 33161 A Timeless Tour [The Siege of Orgrimmar]: no offer-reward text
+- 33228 Time In Your Hands [The Siege of Orgrimmar]: no offer-reward text
+- 33332 Hints From The Past [The Siege of Orgrimmar]: no offer-reward text
+- 33333 Timeless Treasures [The Siege of Orgrimmar]: no offer-reward text
+- 33335 The Last Emperor [The Siege of Orgrimmar]: no offer-reward text
+- 33340 Timeless Nutriment [The Siege of Orgrimmar]: no offer-reward text
+- 33341 Wayshrines Of The Celestials [The Siege of Orgrimmar]: no offer-reward text
+- 33342 Drive Back The Flame [The Siege of Orgrimmar]: no offer-reward text
+- 33343 The Archiereus Of Flame [The Siege of Orgrimmar]: no offer-reward text
+- 77835 Handling It: Rune of Shadowbinding [Rune of Shadowbinding]: giver 209601 not spawned, no ender, no offer-reward text
+- 78003 Handling It: Taut Tethercoil [Rune of Shadowbinding]: giver 194840 not spawned, no ender, no offer-reward text
+- 78153 Handling It: Prototype Rune [Rune of Shadowbinding]: giver 194840 not spawned, no ender, no offer-reward text
+- 78154 To the Test: Rune of Shadowbinding [Rune of Shadowbinding]: giver 194840 not spawned, no ender, no offer-reward text
+- 77869 Return to the Echo Isles [Darkspear Troll Heritage Armor]: no offer-reward text, no starter
+- 77871 De Old Loa [Darkspear Troll Heritage Armor]: no offer-reward text
+- 77874 De Loa of de Past [Darkspear Troll Heritage Armor]: no offer-reward text, no starter
+- 77879 Stalking the Stalker [Darkspear Troll Heritage Armor]: no ender, no offer-reward text
+- 77881 There is Another [Darkspear Troll Heritage Armor]: giver 222657 not spawned, no offer-reward text, no starter
+- 77880 Looking for Lukou [Darkspear Troll Heritage Armor]: no offer-reward text
+- 77877 One with the Loa [Darkspear Troll Heritage Armor]: no offer-reward text, no starter
+- 77882 Stolen but Not Forgotten [Darkspear Troll Heritage Armor]: no offer-reward text
+- 78875 The Unkillable [Darkspear Troll Heritage Armor]: no offer-reward text
+- 77894 Heart of Lukou [Darkspear Troll Heritage Armor]: no offer-reward text
+- 77898 Honor and Tribute [Darkspear Troll Heritage Armor]: giver 210086 not spawned, no offer-reward text
+- 77899 The Rush'kah [Darkspear Troll Heritage Armor]: giver 210086 not spawned, no offer-reward text
+- 77900 The Loa Trials [Darkspear Troll Heritage Armor]: no offer-reward text, no starter
+- 77901 Retraining the Trainees [Darkspear Troll Heritage Armor]: giver 210260 not spawned, no ender, no offer-reward text
+- 77902 Ritual Recovery [Darkspear Troll Heritage Armor]: no offer-reward text, no starter
+- 77903 De Power of Death [Darkspear Troll Heritage Armor]: no offer-reward text, no starter
+- 77905 Avatar of Mueh'zala [Darkspear Troll Heritage Armor]: no ender, no offer-reward text, no starter
+- 77906 De Darkspear Loa [Darkspear Troll Heritage Armor]: no ender, no offer-reward text, no starter
+- 78262 It Starts With a Stone [10.2 Upgrade System Tutorial]: no offer-reward text
+- 78596 Summons to Lord Greymane [The Gilneas Reclamation]: no offer-reward text
+- 78177 To Gilneas [The Gilneas Reclamation]: no offer-reward text
+- 78180 A Crusade of Red [The Gilneas Reclamation]: no offer-reward text
+- 78181 Aderic's Retort [The Gilneas Reclamation]: no offer-reward text
+- 78182 Knee-High [The Gilneas Reclamation]: no offer-reward text
+- 78183 Scarlet Blood [The Gilneas Reclamation]: no offer-reward text
+- 78184 Smokepowder and Mirrors [The Gilneas Reclamation]: no offer-reward text
+- 78185 Hounds of War [The Gilneas Reclamation]: no offer-reward text
+- 78186 Crushing the Crusade [The Gilneas Reclamation]: no offer-reward text
+- 78187 Artillerist Arsonist [The Gilneas Reclamation]: no offer-reward text
+- 78188 Righteous Fire, Righteous Fury [The Gilneas Reclamation]: no offer-reward text
+- 78189 Beginning a New Dawn [The Gilneas Reclamation]: no offer-reward text
+- 78190 What We Left Behind [The Gilneas Reclamation]: no offer-reward text
+- 78713 The War Within [Visions of Azeroth]: no offer-reward text
+- 81930 The War Within [Visions of Azeroth]: no offer-reward text
+- 78714 Oh, THAT Sword [Visions of Azeroth]: no offer-reward text
+- 78715 Azeroth's Voice [Visions of Azeroth]: no offer-reward text
+- 78716 Painful Lessons [Visions of Azeroth]: no offer-reward text
+- 80500 The Bronzebeard Family [Visions of Azeroth]: no offer-reward text
+- 81966 Slept Like a Rock [Visions of Azeroth]: no offer-reward text, no starter
+- 83543 Adventuring in Khaz Algar [Visions of Azeroth]: no offer-reward text
+- 79992 None [Azerothian Archives - Repeatable WQs]: MISSING quest_template
+- 79997 None [Azerothian Archives - Repeatable WQs]: MISSING quest_template
+- 79996 None [Azerothian Archives - Repeatable WQs]: MISSING quest_template
+- 79995 None [Azerothian Archives - Repeatable WQs]: MISSING quest_template
+- 79994 None [Azerothian Archives - Repeatable WQs]: MISSING quest_template
+- 77424 Research: Dracthyr of Forbidden Reach [Azerothian Archives - Repeatable WQs]: no ender, no offer-reward text, no starter
+- 76587 Research: Centaur of Ohn'ahran Plains [Azerothian Archives - Repeatable WQs]: no ender, no offer-reward text, no starter
+- 76734 Research: Djaradin of Zaralek Cavern [Azerothian Archives - Repeatable WQs]: no ender, no offer-reward text, no starter
+- 76739 Research: Niffen of Zaralek Cavern [Azerothian Archives - Repeatable WQs]: no ender, no offer-reward text, no starter
+- 76911 Research: Drakonid of Waking Shores [Azerothian Archives - Repeatable WQs]: no ender, no offer-reward text, no starter
+- 77362 Research: Drakonid of Forbidden Reach [Azerothian Archives - Repeatable WQs]: no ender, no offer-reward text, no starter
+- 78616 Technoscrying: The Mysteries of the Concord Observatory [Azerothian Archives - Repeatable WQs]: no ender, no offer-reward text, no starter
+- 78820 Technoscrying: The Mysteries of Igira's Watch [Azerothian Archives - Repeatable WQs]: no ender, no offer-reward text, no starter
+- 78931 Technoscrying: The Mysteries of Dragonskull Island [Azerothian Archives - Repeatable WQs]: no ender, no offer-reward text, no starter
+- 78645 Excavation: Buried in the Riverbed [Azerothian Archives - Repeatable WQs]: no ender, no offer-reward text, no starter
+- 78662 Excavation: A Cliffside Full of Caches [Azerothian Archives - Repeatable WQs]: no ender, no offer-reward text, no starter
+- 78661 Excavation: Treasures in the Cliffside [Azerothian Archives - Repeatable WQs]: no ender, no offer-reward text, no starter
+- 78649 Excavation: Something Big Beneath the Riverbed [Azerothian Archives - Repeatable WQs]: no ender, no offer-reward text, no starter
+- 78663 Excavation: Scattered Around the Tower [Azerothian Archives - Repeatable WQs]: no ender, no offer-reward text, no starter
+- 78739 Excavation: The Trove in the Tower [Azerothian Archives - Repeatable WQs]: no ender, no offer-reward text, no starter
+- 75729 Attune to the Observer [Technoscrying: Concord Observatory]: no offer-reward text
+- 75867 A Link to the Past [Technoscrying: Concord Observatory]: no offer-reward text
+- 75868 A Window into the Future [Technoscrying: Concord Observatory]: no offer-reward text
+- 76564 The Tools of the Dragonkillers [Technoscrying: Igira's Watch]: no offer-reward text
+- 76576 An Unlikely Proposal [Technoscrying: Igira's Watch]: no offer-reward text
+- 77425 The Scale of it All [Technoscrying: Igira's Watch]: no offer-reward text
+- 76448 The Fate of Scalecommander Abereth [Technoscrying: Dragonskull Island]: no offer-reward text
+- 76557 Without Honor [Technoscrying: Dragonskull Island]: no offer-reward text
+- 77415 The Hidden Hand [Technoscrying: Dragonskull Island]: no offer-reward text
+- 79009 The Harbinger [Hunt for the Harbinger]: no offer-reward text
+- 81654 The Harbinger [Hunt for the Harbinger]: giver 221491 not spawned, no offer-reward text
+- 79010 Door to the Ren'dorei [Hunt for the Harbinger]: no offer-reward text
+- 79011 Riftwalker Reports [Hunt for the Harbinger]: no offer-reward text
+- 79012 Cracks in the Void [Hunt for the Harbinger]: no offer-reward text
+- 79013 Galakrond's Unrest [Hunt for the Harbinger]: no offer-reward text
+- 79014 Walk a Mile in Her Shadows [Hunt for the Harbinger]: no offer-reward text
+- 79015 Dark Descension [Hunt for the Harbinger]: no offer-reward text
+- 79016 Legacy of the Void [Hunt for the Harbinger]: no offer-reward text
+- 79017 The Path Taken [Hunt for the Harbinger]: no offer-reward text
+- 79018 And Be One Traveler, Long I Stood [Hunt for the Harbinger]: no offer-reward text
+- 79019 Defend Telogrus Rift [Hunt for the Harbinger]: no offer-reward text
+- 79020 Null and Void [Hunt for the Harbinger]: no offer-reward text
+- 79021 Radiant Warnings [Hunt for the Harbinger]: no offer-reward text
+- 81654 The Harbinger [Hunt for the Harbinger]: giver 221491 not spawned, no offer-reward text
+- 83552 Azj-Kahet [Friends in the Dark]: no offer-reward text, no starter
+- 79107 After the Storm [Ties That Bind]: no offer-reward text
+- 81914 Dhar Oztan [Ties That Bind]: no offer-reward text
+- 79124 Conduit of the Southern Storm [Ties That Bind]: no offer-reward text
+- 79475 Charging Up That Hill [Ties That Bind]: no offer-reward text
+- 79476 Heeding the Call [Ties That Bind]: no offer-reward text
+- 79129 Rook Rally [Ties That Bind]: no offer-reward text
+- 79146 Ground Pounders [Ties That Bind]: no offer-reward text
+- 79140 Goldbricking [Ties That Bind]: no offer-reward text
+- 79145 Metal and Stone [Ties That Bind]: no offer-reward text
+- 81915 Home to Roost [Ties That Bind]: no offer-reward text
+- 79477 Strays [Ties That Bind]: no offer-reward text
+- 79147 Flight Training 101 [Ties That Bind]: no offer-reward text
+- 81912 Flight Training 102 [Ties That Bind]: no offer-reward text
+- 81913 Flight Training 103 [Ties That Bind]: no offer-reward text
+- 79480 Paying Respects [Ties That Bind]: no offer-reward text
+- 79156 The Edicts [Ties That Bind]: no offer-reward text
+- 79157 Titanic Failsafe [Ties That Bind]: no offer-reward text
+- 77325 To the Archives! [Azerothian Archives]: no offer-reward text
+- 77267 Excavation 101 [Azerothian Archives]: no offer-reward text, no starter
+- 78762 Your First Find [Azerothian Archives]: no offer-reward text
+- 77268 Hands-On Experience [Azerothian Archives]: no offer-reward text
+- 77231 Technoscrying 101 [Azerothian Archives]: no offer-reward text
+- 77166 A Practical Test [Azerothian Archives]: no offer-reward text
+- 77176 I Can See Through Time! [Azerothian Archives]: no offer-reward text
+- 77433 Excavation: Riverbed [Azerothian Archives]: no ender, no offer-reward text
+- 75493 Surveying the Riverbed [Azerothian Archives]: no offer-reward text, no starter
+- 75518 The Body on the Banks [Azerothian Archives]: giver 204245 not spawned, no offer-reward text
+- 75603 Do Rites by Her [Azerothian Archives]: no offer-reward text
+- 77434 Technoscrying: Observatory [Azerothian Archives]: no offer-reward text
+- 75729 Attune to the Observer [Azerothian Archives]: no offer-reward text
+- 75867 A Link to the Past [Azerothian Archives]: no offer-reward text
+- 75868 A Window into the Future [Azerothian Archives]: no offer-reward text
+- 77327 Nirobin and the Office [Azerothian Archives]: no offer-reward text
+- 76217 Living History [Azerothian Archives]: no offer-reward text
+- 76241 Lab Partners with a Squirrel [Azerothian Archives]: no offer-reward text
+- 76242 A Research Thesis Worth Publishing [Azerothian Archives]: no offer-reward text
+- 77328 Back to Headquarters! [Azerothian Archives]: no offer-reward text
+- 79223 Finally, An Archivist! [Azerothian Archives]: no offer-reward text
+- 79992 None [Azerothian Archives]: MISSING quest_template
+- 77486 Excavation: Gaze of Neltharion [Azerothian Archives]: no offer-reward text
+- 76026 Surveying the Tower [Azerothian Archives]: no offer-reward text
+- 76032 Hidden in the Midden [Azerothian Archives]: no offer-reward text
+- 75604 Antiquated Antics [Azerothian Archives]: no offer-reward text
+- 79994 None [Azerothian Archives]: MISSING quest_template
+- 77487 Excavation: Winglord's Perch [Azerothian Archives]: no offer-reward text, no starter
+- 77100 Surveying the Cliffside [Azerothian Archives]: no offer-reward text
+- 77151 The Cache in the Crag [Azerothian Archives]: giver 208402 not spawned, no offer-reward text
+- 77154 A Taste of the Past [Azerothian Archives]: no offer-reward text
+- 79995 None [Azerothian Archives]: MISSING quest_template
+- 77483 Technoscrying: Dragonskull Island [Azerothian Archives]: no offer-reward text, no starter
+- 76448 The Fate of Scalecommander Abereth [Azerothian Archives]: no offer-reward text
+- 76557 Without Honor [Azerothian Archives]: no offer-reward text
+- 77415 The Hidden Hand [Azerothian Archives]: no offer-reward text
+- 79996 None [Azerothian Archives]: MISSING quest_template
+- 77484 Technoscrying: Igira's Watch [Azerothian Archives]: no offer-reward text, no starter
+- 76564 The Tools of the Dragonkillers [Azerothian Archives]: no offer-reward text
+- 76576 An Unlikely Proposal [Azerothian Archives]: no offer-reward text
+- 77425 The Scale of it All [Azerothian Archives]: no offer-reward text
+- 79997 None [Azerothian Archives]: MISSING quest_template
+- 79231 Back to Headquarters! Again! [Azerothian Archives]: no offer-reward text
+- 77331 Graduation Day [Azerothian Archives]: no offer-reward text
+- 83551 Hallowfall [The Guiding Star]: no offer-reward text, no starter
+- 79022 A Mysterious Signal [The Machines March to War]: no offer-reward text
+- 79023 Small Friend, Big Plans [The Machines March to War]: no offer-reward text
+- 79024 Factory Recon [The Machines March to War]: no offer-reward text
+- 79217 Back to Base [The Machines March to War]: no offer-reward text
+- 79025 A Plan Comes Together [The Machines March to War]: no offer-reward text
+- 79324 To the Waterworks [The Machines March to War]: no offer-reward text
+- 79026 Putting the Works in Waterworks [The Machines March to War]: no offer-reward text
+- 79027 Elemental Trepidation [The Machines March to War]: no offer-reward text
+- 79325 Shadowvein Extraction [The Machines March to War]: no offer-reward text
+- 79028 We Require More Minerals [The Machines March to War]: no offer-reward text
+- 80145 The Motherlode [The Machines March to War]: no offer-reward text
+- 80517 Back to Where it Began [The Machines March to War]: no offer-reward text
+- 79029 It's Sabotage [The Machines March to War]: no offer-reward text
+- 79030 The Voice of the Speakers [The Machines March to War]: no offer-reward text
+- 83550 The Ringing Deeps [By Candlelight]: no offer-reward text, no starter
+- 81798 Return to Moira [The Monster and the Machine]: no ender, no offer-reward text
+- 79432 It's About Time [Timerunning: Mists of Pandaria]: no offer-reward text
+- 79433 Seeking Expert Advice [Timerunning: Mists of Pandaria]: no ender, no offer-reward text
+- 79434 Weave It To Me [Timerunning: Mists of Pandaria]: no ender, no offer-reward text
+- 79437 Knot My Problem [Timerunning: Mists of Pandaria]: no ender, no offer-reward text
+- 79435 What's Hours Is Yours [Timerunning: Mists of Pandaria]: no ender, no offer-reward text
+- 80380 Cloak and Needle [Timerunning: Mists of Pandaria]: no ender, no offer-reward text
+- 79438 Goodbyes Are Hard When You Live Forever [Timerunning: Mists of Pandaria]: no ender, no offer-reward text
+- 79448 Leave No Flightstone Unturned [10.2.6 Upgrade System Tutorial]: no offer-reward text
+- 79453 Awakened Crests, Unlimited Possibilities [10.2.6 Upgrade System Tutorial]: no offer-reward text
+- 78178 To Gilneas [The Gilneas Reclamation]: no offer-reward text
+- 78180 A Crusade of Red [The Gilneas Reclamation]: no offer-reward text
+- 78181 Aderic's Retort [The Gilneas Reclamation]: no offer-reward text
+- 78182 Knee-High [The Gilneas Reclamation]: no offer-reward text
+- 78183 Scarlet Blood [The Gilneas Reclamation]: no offer-reward text
+- 78184 Smokepowder and Mirrors [The Gilneas Reclamation]: no offer-reward text
+- 78185 Hounds of War [The Gilneas Reclamation]: no offer-reward text
+- 78186 Crushing the Crusade [The Gilneas Reclamation]: no offer-reward text
+- 78187 Artillerist Arsonist [The Gilneas Reclamation]: no offer-reward text
+- 78188 Righteous Fire, Righteous Fury [The Gilneas Reclamation]: no offer-reward text
+- 78189 Beginning a New Dawn [The Gilneas Reclamation]: no offer-reward text
+- 78597 Clandestine Movements [The Gilneas Reclamation]: no offer-reward text
+- 79137 The Wall Between Us [The Gilneas Reclamation]: no offer-reward text
+- 80334 Shattered Spires [Breaking Point]: no offer-reward text
+- 83548 Isle of Dorn [Breaking Point]: no offer-reward text, no starter
+- 83497 A Concerned Friend [Rest at Last]: no offer-reward text
+- 79224 Gathering Intel [News from Below]: no offer-reward text
+- 79227 A Spider's-Eye View [News from Below]: no offer-reward text
+- 79230 Creeping Through Corridors [News from Below]: no offer-reward text
+- 79233 Lab Access [News from Below]: no offer-reward text
+- 79237 Making of a Monster [News from Below]: no offer-reward text
+- 79239 The Queen's Chains [News from Below]: no offer-reward text
+- 79240 Rogue Agent [News from Below]: no offer-reward text
+- 79241 Go Loud [News from Below]: no offer-reward text
+- 79243 Manufactured Mutiny [News from Below]: no offer-reward text
+- 79244 News From Below [News from Below]: no offer-reward text
+- 80012 Skyriding [Introduction to Skyriding]: no ender, no offer-reward text
+- 90754 Skyriding [Introduction to Skyriding]: no ender, no offer-reward text, no starter
+- 80013 How to Glide with Your Dragon [Introduction to Skyriding]: no ender, no offer-reward text
+- 80015 How to Dive with Your Dragon [Introduction to Skyriding]: no ender, no offer-reward text
+- 80016 The Need For Higher Velocities [Introduction to Skyriding]: no ender, no offer-reward text
+- 80017 The Need For Higher Altitudes [Introduction to Skyriding]: no ender, no offer-reward text
+- 80018 Fashionable Flying [Introduction to Skyriding]: no ender, no offer-reward text
+- 82229 An Uncommon Request [Sins of the Sister]: no offer-reward text
+- 80069 Tears of Teldrassil [Sins of the Sister]: no offer-reward text
+- 80071 Fact Finding [Sins of the Sister]: no offer-reward text
+- 80072 A Primalist Point of View [Sins of the Sister]: no offer-reward text
+- 80073 Bones of a Bygone Battle [Sins of the Sister]: no offer-reward text
+- 80075 A Barrow Den Burial [Sins of the Sister]: no offer-reward text
+- 80077 Sins of the Sister [Sins of the Sister]: no offer-reward text
+- 64734 None [Peter's Test Questline]: MISSING quest_template
+- 80330 None [Peter's Test Questline]: MISSING quest_template
+- 80328 None [Peter's Test Questline]: MISSING quest_template
+- 80327 None [Peter's Test Questline]: MISSING quest_template
+- 80329 None [Peter's Test Questline]: MISSING quest_template
+- 80575 None [Peter's Test Questline]: MISSING quest_template
+- 80331 None [Peter's Test Questline]: MISSING quest_template
+- 80332 None [Peter's Test Questline]: MISSING quest_template
+- 80333 None [Peter's Test Questline]: MISSING quest_template
+- 81918 None [Peter's Test Questline]: MISSING quest_template
+- 76561 None [Peter's Test Questline]: MISSING quest_template
+- 80311 Order of the Cloud Serpent [Order of the Cloud Serpent]: no ender
+- 30139 The Rider's Journey [Order of the Cloud Serpent]: no offer-reward text
+- 30141 The Rider's Journey [Order of the Cloud Serpent]: no offer-reward text
+- 30143 They Grow Like Weeds [Order of the Cloud Serpent]: no offer-reward text
+- 30144 Flight Training: Ring Round-Up [Order of the Cloud Serpent]: no offer-reward text
+- 30145 Flight Training: Full Speed Ahead [Order of the Cloud Serpent]: no offer-reward text
+- 30187 Flight Training: In Due Course [Order of the Cloud Serpent]: no offer-reward text
+- 30188 Riding the Skies [Order of the Cloud Serpent]: no offer-reward text
+- 31810 Riding the Skies [Order of the Cloud Serpent]: no offer-reward text
+- 31811 Riding the Skies [Order of the Cloud Serpent]: no offer-reward text
+- 32251 Dagger in the Dark [Dominance Offensive]: no offer-reward text
+- 32284 Someone You Should See [Dominance Offensive]: giver 67865 not spawned
+- 32404 Violence in the Arena [Dominance Offensive]: no offer-reward text
+- 32405 Hand of the Silver Covenant [Dominance Offensive]: no offer-reward text
+- 32406 A Tactical Assault [Dominance Offensive]: no offer-reward text
+- 32408 The Silver Covenant's Stronghold [Dominance Offensive]: no offer-reward text
+- 32409 The Kirin Tor's True Colors [Dominance Offensive]: no offer-reward text
+- 32410 Krasus' Landing [Dominance Offensive]: no offer-reward text
+- 32411 The Remaining Sunreavers [Dominance Offensive]: no offer-reward text
+- 32412 One Last Grasp [Dominance Offensive]: no offer-reward text
+- 32398 The Bell Speaks [Dominance Offensive]: no offer-reward text
+- 32399 Breath of Darkest Shadow [Dominance Offensive]: no offer-reward text
+- 78941 A Tide Needing Turned [A Light in the Dark]: no offer-reward text
+- 78942 The Might of Khaz Algar [A Light in the Dark]: no offer-reward text
+- 78943 Steel and Flames [A Light in the Dark]: no offer-reward text
+- 78950 Cutting Off the Legs [A Light in the Dark]: no ender, no offer-reward text, no starter
+- 78948 A Light in the Dark [A Light in the Dark]: no offer-reward text
+- 83503 Return to Dornogal [A Light in the Dark]: no offer-reward text
+- 79333 The Fleet Arrives [Against the Current]: no offer-reward text
+- 79328 Embassies and Envoys [Against the Current]: no offer-reward text
+- 82153 Embassies and Envoys [Against the Current]: no ender, no offer-reward text
+- 83271 There's Always Another Secret [Against the Current]: no offer-reward text
+- 83286 What's Hidden Beneath Dornogal [Against the Current]: no offer-reward text
+- 83315 Preparing for the Unknown [Against the Current]: no offer-reward text
+- 79344 Urban Odyssey [Against the Current]: no offer-reward text
+- 80175 The Last Mage [The Last Mage of Hallowfall]: no offer-reward text
+- 31773 Prowler Problems [The Jade Forest]: giver 66838 not spawned, giver 66841 not spawned, giver 66853 not spawned
+- 30466 Sufficient Motivation [The Jade Forest]: no offer-reward text
+- 30484 Gauging Our Progress [The Jade Forest]: no offer-reward text
+- 30485 Last Piece of the Puzzle [The Jade Forest]: no offer-reward text
+- 30504 Emergency Response [The Jade Forest]: no offer-reward text
+- 30648 Moving On [The Jade Forest]: no ender
+- 30179 Poisoned! [Krasarang Wilds]: no offer-reward text
+- 30123 Skitterer Stew [Krasarang Wilds]: no offer-reward text
+- 30124 Blind Them! [Krasarang Wilds]: no offer-reward text
+- 30127 Threat from Dojan [Krasarang Wilds]: no offer-reward text
+- 30130 Herbal Remedies [Krasarang Wilds]: no offer-reward text
+- 30129 The Mogu Agenda [Krasarang Wilds]: no offer-reward text
+- 30128 The Pools of Youth [Krasarang Wilds]: no offer-reward text
+- 30131 Life [Krasarang Wilds]: no offer-reward text
+- 30132 Going West [Krasarang Wilds]: no offer-reward text
+- 30464 Going West [Krasarang Wilds]: no offer-reward text
+- 30163 For the Tribe [Krasarang Wilds]: no offer-reward text
+- 30230 Re-Reclaim [Krasarang Wilds]: no offer-reward text
+- 30229 The Greater Danger [Krasarang Wilds]: no offer-reward text
+- 30164 The Stoneplow Convoy [Krasarang Wilds]: no offer-reward text
+- 30175 The Mantid [Krasarang Wilds]: no offer-reward text
+- 30174 For Family [Krasarang Wilds]: no offer-reward text
+- 30133 Into the Wilds [Krasarang Wilds]: no offer-reward text
+- 30461 Into the Wilds [Krasarang Wilds]: no offer-reward text
+- 30241 Warn Stoneplow [Krasarang Wilds]: no offer-reward text
+- 30376 Hope Springs Eternal [Krasarang Wilds]: no offer-reward text
+- 30623 The Mantidote [Krasarang Wilds]: no ender
+- 30653 It Does You No Good In The Keg [Krasarang Wilds]: no ender, no offer-reward text
+- 30509 General Nazgrim has Awakened [Kun-Lai Summit]: no offer-reward text
+- 30511 General Nazgrim has Awakened [Kun-Lai Summit]: no offer-reward text
+- 31256 Round 'Em Up [Kun-Lai Summit]: no offer-reward text
+- 30594 Deanimate the Reanimated [Kun-Lai Summit]: no offer-reward text
+- 30570 Trouble on the Farmstead [Kun-Lai Summit]: no offer-reward text
+- 30620 Mogu?! Oh No-gu! [Kun-Lai Summit]: no offer-reward text
+- 31251 Best Meals Anywhere! [Kun-Lai Summit]: no offer-reward text
+- 31253 Back to Eastwind Rest [Kun-Lai Summit]: no offer-reward text
+- 30655 Pandaren Prisoners [Kun-Lai Summit]: no offer-reward text
+- 30656 Barrels of Fun [Kun-Lai Summit]: no offer-reward text
+- 30657 In Tents Channeling [Kun-Lai Summit]: no ender, no offer-reward text
+- 30661 The Ordo Warbringer [Kun-Lai Summit]: no offer-reward text, no starter
+- 30663 The Ordo Warbringer [Kun-Lai Summit]: no offer-reward text, no starter
+- 31453 The Shado-Pan [Kun-Lai Summit]: no offer-reward text
+- 32678 Thunder Calls [Sunreaver Onslaught]: no offer-reward text
+- 32680 The Storm Gathers [Sunreaver Onslaught]: no offer-reward text
+- 32709 Allies in the Shadows [Sunreaver Onslaught]: no offer-reward text
+- 32707 Secrets in the Isle of Thunder [Sunreaver Onslaught]: no offer-reward text
+- 32708 Setting the Trap [Sunreaver Onslaught]: no offer-reward text
+- 32641 Champions of the Thunder King [Sunreaver Onslaught]: no offer-reward text
+- 32212 The Assault on Zeb'tula [Sunreaver Onslaught]: no offer-reward text
+- 32277 To the Skies! [Sunreaver Onslaught]: no offer-reward text
+- 32278 Decisive Action [Sunreaver Onslaught]: no offer-reward text
+- 32279 The Fall of Shan Bu [Sunreaver Onslaught]: no offer-reward text
+- 31024 Kunchong Treats [Klaxxi Daily Quests]: no offer-reward text
+- 31109 Culling the Swarm [Klaxxi Daily Quests]: no offer-reward text
+- 31111 Eradicating the Zan'thik [Klaxxi Daily Quests]: no offer-reward text
+- 31216 Dark Skies [Klaxxi Daily Quests]: no offer-reward text
+- 31231 Dreadspinner Extermination [Klaxxi Daily Quests]: no offer-reward text
+- 31267 Mistblade Destruction [Klaxxi Daily Quests]: no offer-reward text
+- 31268 A Little Brain Work [Klaxxi Daily Quests]: no offer-reward text
+- 31269 The Scale-Lord [Klaxxi Daily Quests]: no offer-reward text
+- 31270 The Fight Against Fear [Klaxxi Daily Quests]: no offer-reward text
+- 31271 Bad Genes [Klaxxi Daily Quests]: no offer-reward text
+- 31272 Infection [Klaxxi Daily Quests]: no offer-reward text
+- 31487 Sonic Disruption [Klaxxi Daily Quests]: no offer-reward text
+- 31494 Free From Her Clutches [Klaxxi Daily Quests]: no offer-reward text
+- 31496 Sampling the Empire's Finest [Klaxxi Daily Quests]: no offer-reward text
+- 31502 Wing Clip [Klaxxi Daily Quests]: no offer-reward text
+- 31599 The Matriarch's Maw [Klaxxi Daily Quests]: no offer-reward text, no starter
+- 31808 Rampage Against the Machine [Klaxxi Daily Quests]: no offer-reward text
+- 31677 The Warlord's Ashes [Klaxxi Daily Quests]: no offer-reward text, no starter
+- 31232 An Ancient Empire [Klaxxi Daily Quests]: no offer-reward text
+- 31233 Sap Tapping [Klaxxi Daily Quests]: no offer-reward text
+- 31234 Putting An Eye Out [Klaxxi Daily Quests]: no offer-reward text
+- 31235 Nope Nope Nope [Klaxxi Daily Quests]: no offer-reward text
+- 31237 Debugging the Terrace [Klaxxi Daily Quests]: no offer-reward text
+- 31238 Brain Food [Klaxxi Daily Quests]: no offer-reward text
+- 31503 Shortcut to Ruin [Klaxxi Daily Quests]: no offer-reward text
+- 31504 Ordnance Disposal [Klaxxi Daily Quests]: no offer-reward text
+- 31505 Vess-Guard Duty [Klaxxi Daily Quests]: no offer-reward text
+- 31506 Shackles of Manipulation [Klaxxi Daily Quests]: no offer-reward text
+- 31507 Meltdown [Klaxxi Daily Quests]: no offer-reward text
+- 31508 Specimen Request [Klaxxi Daily Quests]: no offer-reward text
+- 31509 Fear Takes Root [Klaxxi Daily Quests]: no offer-reward text
+- 31510 Quiet Now [Klaxxi Daily Quests]: no offer-reward text
+- 31598 Kypa'rak's Core [Klaxxi Daily Quests]: no offer-reward text, no starter
+- 33232 Journey to the Timeless Isle [The Siege of Orgrimmar]: no offer-reward text
+- 33156 Time Keeper Kairoz [The Siege of Orgrimmar]: no offer-reward text
+- 33161 A Timeless Tour [The Siege of Orgrimmar]: no offer-reward text
+- 33228 Time In Your Hands [The Siege of Orgrimmar]: no offer-reward text
+- 33332 Hints From The Past [The Siege of Orgrimmar]: no offer-reward text
+- 33333 Timeless Treasures [The Siege of Orgrimmar]: no offer-reward text
+- 33335 The Last Emperor [The Siege of Orgrimmar]: no offer-reward text
+- 33340 Timeless Nutriment [The Siege of Orgrimmar]: no offer-reward text
+- 33341 Wayshrines Of The Celestials [The Siege of Orgrimmar]: no offer-reward text
+- 33342 Drive Back The Flame [The Siege of Orgrimmar]: no offer-reward text
+- 33343 The Archiereus Of Flame [The Siege of Orgrimmar]: no offer-reward text
+- 80670 Eyes of the Weaver [Underworld Operative]: no ender
+- 80671 Blade of the General [Underworld Operative]: no ender, no offer-reward text
+- 80672 Hand of the Vizier [Underworld Operative]: no ender, no offer-reward text
+- 82219 Spice Up Your Life [Striking Steel]: no offer-reward text
+- 82223 A Home Cooked Meal [Striking Steel]: no ender, no offer-reward text
+- 82220 Eagle Eye, Eagle Die [Striking Steel]: no offer-reward text
+- 82221 Full Dress [Striking Steel]: no offer-reward text
+- 82222 Cooking With Style [Striking Steel]: no offer-reward text
+- 79722 Gutter Work [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 83536 Undertide Undertaker [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 83718 Eggstraction [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82332 Unassuming Delivery Spider [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82387 Slay the Goo, Save the World [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 80409 Polarized [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82266 Tower Washing Simulator [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 80457 Serving the Queen [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82295 Ziriak [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82297 One Hungry Worm [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82364 Documenting Discordance [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82363 Opposing Forces [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82332 Unassuming Delivery Spider [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82387 Slay the Goo, Save the World [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 78974 Beetle-Minded [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 78995 Truffle Shuffle [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 79116 Spider Optics [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 79722 Gutter Work [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 79958 Worm Sign, Sealed, Delivered [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 79959 Wormcraft Rumble [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 79960 Taking it To Go [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 80409 Polarized [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82295 Ziriak [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82297 One Hungry Worm [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82363 Opposing Forces [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82364 Documenting Discordance [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82468 Let Them Win [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82521 Pawns of Dark Masters [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82526 Bug Them [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82533 Dye! Dye Dye! [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82536 Exfiltration Operation [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82531 Special Assignment: Bombs from Behind [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 80457 Serving the Queen [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82266 Tower Washing Simulator [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82324 Grub Run [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82332 Unassuming Delivery Spider [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82387 Slay the Goo, Save the World [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82414 Special Assignment: A Pound of Cure [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82481 Enforcer Extermination [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82524 Exterminate [Azj-Kahet - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 70746 Shades of Blue [The Azure Span]: no offer-reward text
+- 70747 The Azure Wizard [The Azure Span]: no ender, no offer-reward text, no starter
+- 72268 Azure Span [The Azure Span]: no ender, no starter
+- 82339 An Honorless Kill [Fractured Legacy of Anub'azal]: no offer-reward text
+- 82121 Demand Satisfaction [Fractured Legacy of Anub'azal]: no ender, no offer-reward text
+- 82338 Absent Errand [Fractured Legacy of Anub'azal]: no offer-reward text
+- 82122 Duel of the Fates [Fractured Legacy of Anub'azal]: no ender, no offer-reward text
+- 82123 The General's Conviction [Fractured Legacy of Anub'azal]: no ender, no offer-reward text
+- 77345 The Need For Higher Velocities [The Waking Shores]: no ender, no offer-reward text, no starter
+- 66044 Taking the Walls [The Waking Shores]: giver 166933 not spawned
+- 72266 The Waking Shores [The Waking Shores]: no ender, no offer-reward text, no starter
+- 72429 Orientation: Maruukai [The Ohn'ahran Plains]: no starter
+- 72267 Ohn'ahran Plains [The Ohn'ahran Plains]: no ender, no offer-reward text, no starter
+- 66036 Mugurlglrlgl! [Thaldraszus]: no offer-reward text
+- 70373 Deathwingurlugull! [Thaldraszus]: no offer-reward text
+- 72269 Thaldraszus [Thaldraszus]: no ender, no offer-reward text, no starter
+- 66847 Vault of the Incarnates: Fury of the Storm-Eater [Thaldraszus]: no offer-reward text
+- 72380 Together We Are Unstoppable [Thaldraszus]: no offer-reward text
+- 82449 The Call of the Worldsoul [Khaz Algar Emissary]: no ender, no offer-reward text, no starter
+- 82482 Worldsoul: Snuffling [Khaz Algar Emissary]: no offer-reward text, no starter
+- 82516 Worldsoul: Forging a Pact [Khaz Algar Emissary]: no offer-reward text, no starter
+- 82483 Worldsoul: Spreading the Light [Khaz Algar Emissary]: no offer-reward text, no starter
+- 82453 Worldsoul: Encore! [Khaz Algar Emissary]: no offer-reward text, no starter
+- 82489 Worldsoul: The Dawnbreaker [Khaz Algar Emissary]: no offer-reward text, no starter
+- 82659 Worldsoul: Nerub-ar Palace [Khaz Algar Emissary]: no ender, no offer-reward text, no starter
+- 92332 Turbo-Boost: Infinite Growth [Khaz Algar Emissary]: giver 250450 not spawned, no offer-reward text, no starter
+- 89039 Turbo-Boost: Powerhouse Challenges [Khaz Algar Emissary]: no ender, no starter
+- 91205 Ultra Prime Deluxe Turbo-Boost: Powerhouse Challenges [Khaz Algar Emissary]: no ender, no starter
+- 92331 Turbo-Boost: Trade Must Flow [Khaz Algar Emissary]: giver 250450 not spawned, no starter
+- 87417 Worldsoul: Dungeons [Khaz Algar Emissary]: no ender, no starter
+- 91052 Worldsoul: Overcharged Delves [Khaz Algar Emissary]: no ender, no offer-reward text, no starter
+- 87419 Worldsoul: Delves [Khaz Algar Emissary]: no ender, no starter
+- 89011 None [Khaz Algar Emissary]: MISSING quest_template
+- 82490 Worldsoul: Priory of the Sacred Flame [Khaz Algar Emissary]: no ender, no offer-reward text, no starter
+- 89031 None [Khaz Algar Emissary]: MISSING quest_template
+- 82491 Worldsoul: Ara-Kara, City of Echoes [Khaz Algar Emissary]: no offer-reward text, no starter
+- 82492 Worldsoul: City of Threads [Khaz Algar Emissary]: no offer-reward text, no starter
+- 82493 Worldsoul: The Dawnbreaker [Khaz Algar Emissary]: no offer-reward text, no starter
+- 82494 Worldsoul: Ara-Kara, City of Echoes [Khaz Algar Emissary]: no offer-reward text, no starter
+- 82496 Worldsoul: City of Threads [Khaz Algar Emissary]: no offer-reward text, no starter
+- 82497 Worldsoul: The Stonevault [Khaz Algar Emissary]: no offer-reward text, no starter
+- 82498 Worldsoul: Darkflame Cleft [Khaz Algar Emissary]: no ender, no offer-reward text, no starter
+- 82499 Worldsoul: Priory of the Sacred Flame [Khaz Algar Emissary]: no ender, no offer-reward text, no starter
+- 82500 Worldsoul: The Rookery [Khaz Algar Emissary]: no ender, no offer-reward text, no starter
+- 82501 Worldsoul: The Dawnbreaker [Khaz Algar Emissary]: no ender, no offer-reward text, no starter
+- 82502 Worldsoul: Ara-Kara, City of Echoes [Khaz Algar Emissary]: no ender, no offer-reward text, no starter
+- 82503 Worldsoul: Cinderbrew Meadery [Khaz Algar Emissary]: no ender, no offer-reward text, no starter
+- 82504 Worldsoul: City of Threads [Khaz Algar Emissary]: no ender, no offer-reward text, no starter
+- 82505 Worldsoul: The Stonevault [Khaz Algar Emissary]: no ender, no offer-reward text, no starter
+- 82506 Worldsoul: Darkflame Cleft [Khaz Algar Emissary]: no ender, no offer-reward text, no starter
+- 82507 Worldsoul: Priory of the Sacred Flame [Khaz Algar Emissary]: no ender, no offer-reward text, no starter
+- 82508 Worldsoul: The Rookery [Khaz Algar Emissary]: no ender, no offer-reward text, no starter
+- 82509 Worldsoul: Nerub-ar Palace [Khaz Algar Emissary]: no ender, no offer-reward text, no starter
+- 82510 Worldsoul: Nerub-ar Palace [Khaz Algar Emissary]: no ender, no offer-reward text, no starter
+- 89514 Worldsoul: Horrific Visions Revisited [Khaz Algar Emissary]: no offer-reward text, no starter
+- 87424 Worldsoul: World Bosses [Khaz Algar Emissary]: no ender, no offer-reward text, no starter
+- 82511 Worldsoul: Awakening Machine [Khaz Algar Emissary]: no offer-reward text, no starter
+- 82512 Worldsoul: World Boss [Khaz Algar Emissary]: no offer-reward text, no starter
+- 89492 Dastardly Duos in the Dome! [Khaz Algar Emissary]: no ender, no offer-reward text, no starter
+- 87423 Worldsoul: Undermine Explorer [Khaz Algar Emissary]: no ender, no offer-reward text, no starter
+- 82488 Worldsoul: Darkflame Cleft [Khaz Algar Emissary]: no ender, no offer-reward text, no starter
+- 91855 Worldsoul: K'aresh World Quests [Khaz Algar Emissary]: no starter
+- 82487 Worldsoul: The Stonevault [Khaz Algar Emissary]: no offer-reward text, no starter
+- 82486 Worldsoul: The Rookery [Khaz Algar Emissary]: no ender, no offer-reward text, no starter
+- 82485 Worldsoul: Cinderbrew Meadery [Khaz Algar Emissary]: no offer-reward text, no starter
+- 82452 Worldsoul: World Quests [Khaz Algar Emissary]: no offer-reward text, no starter
+- 87422 Worldsoul: Undermine World Quests [Khaz Algar Emissary]: no offer-reward text, no starter
+- 82495 Worldsoul: Cinderbrew Meadery [Khaz Algar Emissary]: no offer-reward text, no starter
+- 89502 Worldsoul: Nightfall [Khaz Algar Emissary]: no offer-reward text
+- 80412 Fending off Darkness [Hallowfall - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 81622 Bells of the Light [Hallowfall - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82206 Into Shadows [Hallowfall - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82584 Light's Gambit [Hallowfall - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 81620 Recovery Job [Hallowfall - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82787 Special Assignment: Rise of the Colossals [Hallowfall - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82852 Special Assignment: Lynx Rescue [Hallowfall - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 81862 Feline Frenzy [Hallowfall - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82583 Igniting the Fire Within [Hallowfall - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82586 Spore Ender [Hallowfall - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82585 With Great Pyre [Hallowfall - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82582 Mired in Shadow [Hallowfall - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82254 Aquacalypse [Hallowfall - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82258 Sieging Siege Weapons [Hallowfall - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82257 Burrow Burial [Hallowfall - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82259 Honoring our Fallen [Hallowfall - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82088 Kobyss Kibosh [Hallowfall - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82120 Pool Cleaner [Hallowfall - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82131 None [Hallowfall - World Quests/Repeatables]: MISSING quest_template
+- 82197 Reserve Rumpus [Hallowfall - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82041 Beledar's Blessing [Hallowfall - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82133 Documenting: Field Manual Edition [Hallowfall - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 82288 Work Hard, Play Hard [Hallowfall - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 60123 Burning Crusade: To Outland! [Burning Crusade Chromie Time Breadcrumbs]: no ender, no offer-reward text, no starter
+- 60961 Burning Crusade: Onward to Adventure in Outland [Burning Crusade Chromie Time Breadcrumbs]: no ender, no offer-reward text
+- 28705 Warchief's Command: Outland! [Burning Crusade Chromie Time Breadcrumbs]: no offer-reward text
+- 39180 Warchief's Command: Zangarmarsh! [Burning Crusade Chromie Time Breadcrumbs]: no offer-reward text, no starter
+- 39182 Warchief's Command: Terokkar Forest! [Burning Crusade Chromie Time Breadcrumbs]: no offer-reward text, no starter
+- 39196 Warchief's Command: Nagrand! [Burning Crusade Chromie Time Breadcrumbs]: no offer-reward text, no starter
+- 39198 Warchief's Command: Blade's Edge Mountains! [Burning Crusade Chromie Time Breadcrumbs]: no offer-reward text, no starter
+- 39201 Warchief's Command: Netherstorm! [Burning Crusade Chromie Time Breadcrumbs]: no offer-reward text, no starter
+- 49532 Warchief's Command: Shadowmoon Valley! [Burning Crusade Chromie Time Breadcrumbs]: no ender, no offer-reward text, no starter
+- 60120 Burning Crusade: To Outland! [Burning Crusade Chromie Time Breadcrumbs]: no ender, no offer-reward text, no starter
+- 60959 Burning Crusade: Onward to Adventure in Outland [Burning Crusade Chromie Time Breadcrumbs]: no ender, no offer-reward text
+- 39181 Hero's Call: Zangarmarsh! [Burning Crusade Chromie Time Breadcrumbs]: no starter
+- 39188 Hero's Call: Terokkar Forest! [Burning Crusade Chromie Time Breadcrumbs]: no starter
+- 39197 Hero's Call: Nagrand! [Burning Crusade Chromie Time Breadcrumbs]: no starter
+- 39199 Hero's Call: Blade's Edge Mountains! [Burning Crusade Chromie Time Breadcrumbs]: no starter
+- 39202 Hero's Call: Netherstorm! [Burning Crusade Chromie Time Breadcrumbs]: no starter
+- 49550 Hero's Call: Shadowmoon Valley! [Burning Crusade Chromie Time Breadcrumbs]: no ender, no starter
+- 60097 Wrath of the Lich King: To Northrend! [Wrath of the Lich King Chromie Time Breadcrumbs]: no ender, no offer-reward text, no starter
+- 60963 Wrath of the Lich King: Onward to Adventure in Northrend [Wrath of the Lich King Chromie Time Breadcrumbs]: no ender, no offer-reward text
+- 49533 Warchief's Command: Howling Fjord! [Wrath of the Lich King Chromie Time Breadcrumbs]: no starter
+- 39203 Warchief's Command: Dragonblight! [Wrath of the Lich King Chromie Time Breadcrumbs]: no starter
+- 39206 Warchief's Command: Grizzly Hills! [Wrath of the Lich King Chromie Time Breadcrumbs]: no starter
+- 49534 Warchief's Command: Zul'Drak! [Wrath of the Lich King Chromie Time Breadcrumbs]: no ender, no starter
+- 49535 Warchief's Command: Sholazar Basin! [Wrath of the Lich King Chromie Time Breadcrumbs]: no ender, no starter
+- 49536 Warchief's Command: Storm Peaks! [Wrath of the Lich King Chromie Time Breadcrumbs]: no starter
+- 49537 Warchief's Command: Icecrown! [Wrath of the Lich King Chromie Time Breadcrumbs]: no starter
+- 60096 Wrath of the Lich King: To Northrend! [Wrath of the Lich King Chromie Time Breadcrumbs]: no ender, no offer-reward text
+- 60962 Wrath of the Lich King: Onward to Adventure in Northrend [Wrath of the Lich King Chromie Time Breadcrumbs]: no ender, no offer-reward text
+- 49551 Hero's Call: Howling Fjord! [Wrath of the Lich King Chromie Time Breadcrumbs]: no starter
+- 39204 Hero's Call: Dragonblight! [Wrath of the Lich King Chromie Time Breadcrumbs]: no starter
+- 39207 Hero's Call: Grizzly Hills! [Wrath of the Lich King Chromie Time Breadcrumbs]: no starter
+- 49552 Hero's Call: Zul'Drak! [Wrath of the Lich King Chromie Time Breadcrumbs]: no ender, no starter
+- 49553 Hero's Call: Sholazar Basin! [Wrath of the Lich King Chromie Time Breadcrumbs]: no ender, no starter
+- 49554 Hero's Call: Storm Peaks! [Wrath of the Lich King Chromie Time Breadcrumbs]: no starter
+- 49555 Hero's Call: Icecrown! [Wrath of the Lich King Chromie Time Breadcrumbs]: no ender, no starter
+- 60964 Mists of Pandaria: Onward to Adventure in Pandaria [Mists of Pandaria Chromie Time Breadcrumbs]: no starter
+- 60965 Mists of Pandaria: Onward to Adventure in Pandaria [Mists of Pandaria Chromie Time Breadcrumbs]: no ender, no starter
+- 60968 Warlords of Draenor: Onward to Adventure in Draenor [Warlords of Draenor Chromie Time Breadcrumbs]: no ender, no offer-reward text, no starter
+- 60969 Warlords of Draenor: Onward to Adventure in Draenor [Warlords of Draenor Chromie Time Breadcrumbs]: no ender, no offer-reward text, no starter
+- 60970 Legion: Onward to Adventure in the Broken Isles [Legion Chromie Time Breadcrumbs]: no ender, no offer-reward text, no starter
+- 60971 Legion: Onward to Adventure in the Broken Isles [Legion Chromie Time Breadcrumbs]: no ender, no offer-reward text, no starter
+- 82256 Capturing the Cataract's Creatures [Ringing Deeps - World Quests / Repeatable]: no ender, no offer-reward text, no starter
+- 83715 Claimed Salvage [Ringing Deeps - World Quests / Repeatable]: no ender, no offer-reward text, no starter
+- 83930 Deworming Solution [Ringing Deeps - World Quests / Repeatable]: no ender, no offer-reward text, no starter
+- 81656 Nothing to Waste [Ringing Deeps - World Quests / Repeatable]: no ender, no offer-reward text, no starter
+- 81767 Scrounge that Scrap! [Ringing Deeps - World Quests / Repeatable]: no ender, no offer-reward text, no starter
+- 82238 Lava Glob Lobbin' [Ringing Deeps - World Quests / Repeatable]: no ender, no offer-reward text, no starter
+- 82244 None [Ringing Deeps - World Quests / Repeatable]: MISSING quest_template
+- 82518 Pipe Patcher [Ringing Deeps - World Quests / Repeatable]: no ender, no offer-reward text, no starter
+- 82519 You Go Take Candle [Ringing Deeps - World Quests / Repeatable]: no ender, no offer-reward text, no starter
+- 82523 Candle Kingbreaker [Ringing Deeps - World Quests / Repeatable]: no ender, no offer-reward text, no starter
+- 82552 All Worked Up [Ringing Deeps - World Quests / Repeatable]: no ender, no offer-reward text, no starter
+- 80208 Digging into Trouble [Ringing Deeps - World Quests / Repeatable]: no ender, no offer-reward text, no starter
+- 80323 Foggy Faceoff [Ringing Deeps - World Quests / Repeatable]: no ender, no offer-reward text, no starter
+- 81691 Special Assignment: Shadows Below [Ringing Deeps - World Quests / Repeatable]: no ender, no offer-reward text, no starter
+- 81750 Cloud Farming [Ringing Deeps - World Quests / Repeatable]: no ender, no offer-reward text, no starter
+- 82580 Courier Mission: Ore Recovery [Ringing Deeps - World Quests / Repeatable]: no ender, no offer-reward text, no starter
+- 83028 Thieving Snufflers [Ringing Deeps - World Quests / Repeatable]: no ender, no offer-reward text, no starter
+- 83048 Wayward Walkers [Ringing Deeps - World Quests / Repeatable]: no ender, no offer-reward text, no starter
+- 83079 Mineral Buildup [Ringing Deeps - World Quests / Repeatable]: no ender, no offer-reward text, no starter
+- 83080 Taelloch Cleanup [Ringing Deeps - World Quests / Repeatable]: no ender, no offer-reward text, no starter
+- 83101 Reaching for Resources [Ringing Deeps - World Quests / Repeatable]: no ender, no offer-reward text, no starter
+- 83229 Special Assignment: When the Deeps Stir [Ringing Deeps - World Quests / Repeatable]: no ender, no offer-reward text, no starter
+- 83501 None [Ringing Deeps - World Quests / Repeatable]: MISSING quest_template
+- 83537 Geothermal Gem Treatment [Ringing Deeps - World Quests / Repeatable]: no ender, no offer-reward text, no starter
+- 84429 Construct Containment [Ringing Deeps - World Quests / Repeatable]: no ender, no offer-reward text, no starter
+- 83538 Excavation Liberation [Ringing Deeps - World Quests / Repeatable]: no ender, no offer-reward text, no starter
+- 81854 Coreway Maintenance Request [Isle of Dorn - World Quests]: no ender, no offer-reward text, no starter
+- 81512 Props and Incense [Isle of Dorn - World Quests]: no ender, no offer-reward text, no starter
+- 81615 Wick Points [Isle of Dorn - World Quests]: no ender, no offer-reward text, no starter
+- 80295 Rocks, Water and Elemental Fodder [Isle of Dorn - World Quests]: no ender, no offer-reward text, no starter
+- 81639 Honey Thieving Nerubians [Isle of Dorn - World Quests]: no ender, no offer-reward text, no starter
+- 82225 Excavation Extravaganza [Isle of Dorn - World Quests]: no ender, no offer-reward text, no starter
+- 82451 Preserving Plush Pals [Isle of Dorn - World Quests]: no ender, no offer-reward text, no starter
+- 81621 Tunnels Be Gone! [Isle of Dorn - World Quests]: no ender, no offer-reward text, no starter
+- 81465 Artifacts Galore [Isle of Dorn - World Quests]: no ender, no offer-reward text, no starter
+- 82454 None [Isle of Dorn - World Quests]: MISSING quest_template
+- 82234 A Floral Flair for Every Ram [Isle of Dorn - World Quests]: no ender, no offer-reward text, no starter
+- 82355 Special Assignment: Cinderbee Surge [Isle of Dorn - World Quests]: no ender, no offer-reward text, no starter
+- 82448 Book It to the Library [Isle of Dorn - World Quests]: no ender, no offer-reward text, no starter
+- 82455 No More Bread [Isle of Dorn - World Quests]: no ender, no offer-reward text, no starter
+- 81675 Water the Sheep [Isle of Dorn - World Quests]: no ender, no offer-reward text, no starter
+- 82456 Chew On This [Isle of Dorn - World Quests]: no ender, no offer-reward text, no starter
+- 82237 Rising the Falls [Isle of Dorn - World Quests]: no ender, no offer-reward text, no starter
+- 81710 Mead for the Catalog [Isle of Dorn - World Quests]: no ender, no offer-reward text, no starter
+- 82470 Arcane Riddles [Isle of Dorn - World Quests]: no ender, no offer-reward text, no starter
+- 80395 Elemental Excavation [Isle of Dorn - World Quests]: no ender, no offer-reward text, no starter
+- 80394 Along for the Ride [Isle of Dorn - World Quests]: no ender, no offer-reward text, no starter
+- 82291 Robot Rumble [Isle of Dorn - World Quests]: no ender, no offer-reward text, no starter
+- 82292 Rock Collector [Isle of Dorn - World Quests]: no ender, no offer-reward text, no starter
+- 82680 Birdman of the Three Shields [Life Finds a Way]: no ender
+- 79200 Who am I? [New Awakenings]: no offer-reward text
+- 79201 The Analysis Interface [New Awakenings]: no ender, no offer-reward text, no starter
+- 83328 The Analysis Interface [New Awakenings]: no offer-reward text
+- 79202 Rock Beats Rock [New Awakenings]: no offer-reward text
+- 79203 Authorization: Negated [New Awakenings]: no offer-reward text
+- 79204 Whoever You Want to Be [New Awakenings]: no offer-reward text
+- 81886 For the Alliance [New Awakenings]: no offer-reward text
+- 81887 Stranger in a Strange Land [New Awakenings]: no offer-reward text
+- 81888 For the Horde [New Awakenings]: no offer-reward text
+- 81889 Stranger in a Strange Land [New Awakenings]: no ender, no offer-reward text
+- 79257 Grotto Grievances [Fearbreaker]: no offer-reward text, no starter
+- 81797 Targeted Recon [Crushing Depths]: no offer-reward text
+- 82581 None [The Severed Threads]: MISSING quest_template
+- 86529 None [The Severed Threads]: MISSING quest_template
+- 82616 None [The Severed Threads]: MISSING quest_template
+- 82640 None [The Severed Threads]: MISSING quest_template
+- 84471 None [The Severed Threads]: MISSING quest_template
+- 82641 None [The Severed Threads]: MISSING quest_template
+- 82642 None [The Severed Threads]: MISSING quest_template
+- 82643 None [The Severed Threads]: MISSING quest_template
+- 82644 None [The Severed Threads]: MISSING quest_template
+- 82645 None [The Severed Threads]: MISSING quest_template
+- 82646 None [The Severed Threads]: MISSING quest_template
+- 82647 None [The Severed Threads]: MISSING quest_template
+- 82648 None [The Severed Threads]: MISSING quest_template
+- 82649 None [The Severed Threads]: MISSING quest_template
+- 80573 Dropping Eaves: Spoils of War [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81470 Dropping Eaves: Thieving Weave [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81471 Dropping Eaves: Saving the Past [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81472 Information Control: Ansurek's Truth [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81473 Information Control: The Right Side of History [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81479 Requisitions: Umbrashrooms [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81480 Wild Reagents: Maddening Deep [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81481 Sabotage: Transformatory Vessels [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81482 Testing Formulae: Gelatinous Unguent [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81483 Infiltration: Production Blocker [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81484 Wet Work: Death of a Salesman [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81495 Requisitions: Brightblooms [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81496 Requisitions: Fangpetals [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81497 Wild Reagents: Salien Gutters [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81498 Wild Reagents: Twitching Gorge [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81499 Information Control: Ascended Intrigue [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81500 Wet Work: Step Into Their Parlor [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81501 Testing Formulae: Roiling Elixir [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81502 Testing Formulae: Malodorous Philter [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81503 Infiltration: Terror Made Manifest [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81504 Infiltration: Hidden Figures [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81506 Sabotage: Alchemical Instruments [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81555 Wet Work: Tithe to Kill [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81505 Sabotage: Venomancers [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81475 Breaking the Phalanx: Royal Appointees [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81476 Bounty: Chitinous Goliath [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81477 Armaments: Weaponry [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81478 Relics of War: The Ruptured Lake [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81487 Breaking the Phalanx: Threadblades [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81488 Breaking the Phalanx: Schismatic Sages [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81489 Bounty: Zorikal the Patron [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81490 Bounty: Balaxir the Bully [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81491 Armaments: Arbalests [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81492 Armaments: Smithing Tools [The Severed Threads]: no ender, no offer-reward text
+- 81493 Relics of War: The Salien Gutter Conflict [The Severed Threads]: no ender, no offer-reward text, no starter
+- 81494 Relics of War: Rak-Zakaz [The Severed Threads]: no ender, no offer-reward text, no starter
+- 80559 None [The Severed Threads]: MISSING quest_template
+- 83778 None [The Severed Threads]: MISSING quest_template
+- 83779 None [The Severed Threads]: MISSING quest_template
+- 83780 None [The Severed Threads]: MISSING quest_template
+- 83781 None [The Severed Threads]: MISSING quest_template
+- 83782 None [The Severed Threads]: MISSING quest_template
+- 83783 None [The Severed Threads]: MISSING quest_template
+- 83784 None [The Severed Threads]: MISSING quest_template
+- 83785 None [The Severed Threads]: MISSING quest_template
+- 83786 None [The Severed Threads]: MISSING quest_template
+- 83787 None [The Severed Threads]: MISSING quest_template
+- 83788 None [The Severed Threads]: MISSING quest_template
+- 83789 None [The Severed Threads]: MISSING quest_template
+- 80579 None [The Severed Threads]: MISSING quest_template
+- 80580 None [The Severed Threads]: MISSING quest_template
+- 80688 None [The Severed Threads]: MISSING quest_template
+- 83801 None [The Severed Threads]: MISSING quest_template
+- 81467 None [The Severed Threads]: MISSING quest_template
+- 83800 None [The Severed Threads]: MISSING quest_template
+- 81567 None [The Severed Threads]: MISSING quest_template
+- 83815 None [The Severed Threads]: MISSING quest_template
+- 81569 None [The Severed Threads]: MISSING quest_template
+- 83814 None [The Severed Threads]: MISSING quest_template
+- 81572 None [The Severed Threads]: MISSING quest_template
+- 83799 None [The Severed Threads]: MISSING quest_template
+- 82854 None [The Severed Threads]: MISSING quest_template
+- 82855 None [The Severed Threads]: MISSING quest_template
+- 82856 None [The Severed Threads]: MISSING quest_template
+- 82857 None [The Severed Threads]: MISSING quest_template
+- 82858 None [The Severed Threads]: MISSING quest_template
+- 82859 None [The Severed Threads]: MISSING quest_template
+- 82860 None [The Severed Threads]: MISSING quest_template
+- 82861 None [The Severed Threads]: MISSING quest_template
+- 82862 None [The Severed Threads]: MISSING quest_template
+- 82863 None [The Severed Threads]: MISSING quest_template
+- 83813 None [The Severed Threads]: MISSING quest_template
+- 82867 None [The Severed Threads]: MISSING quest_template
+- 83821 None [The Severed Threads]: MISSING quest_template
+- 82864 None [The Severed Threads]: MISSING quest_template
+- 83812 None [The Severed Threads]: MISSING quest_template
+- 82865 None [The Severed Threads]: MISSING quest_template
+- 83811 None [The Severed Threads]: MISSING quest_template
+- 82866 None [The Severed Threads]: MISSING quest_template
+- 83810 None [The Severed Threads]: MISSING quest_template
+- 82868 None [The Severed Threads]: MISSING quest_template
+- 83820 None [The Severed Threads]: MISSING quest_template
+- 82869 None [The Severed Threads]: MISSING quest_template
+- 83819 None [The Severed Threads]: MISSING quest_template
+- 82870 None [The Severed Threads]: MISSING quest_template
+- 83818 None [The Severed Threads]: MISSING quest_template
+- 82871 None [The Severed Threads]: MISSING quest_template
+- 83817 None [The Severed Threads]: MISSING quest_template
+- 82872 None [The Severed Threads]: MISSING quest_template
+- 83816 None [The Severed Threads]: MISSING quest_template
+- 82873 None [The Severed Threads]: MISSING quest_template
+- 83798 None [The Severed Threads]: MISSING quest_template
+- 82877 None [The Severed Threads]: MISSING quest_template
+- 83806 None [The Severed Threads]: MISSING quest_template
+- 82874 None [The Severed Threads]: MISSING quest_template
+- 83797 None [The Severed Threads]: MISSING quest_template
+- 82875 None [The Severed Threads]: MISSING quest_template
+- 83796 None [The Severed Threads]: MISSING quest_template
+- 82876 None [The Severed Threads]: MISSING quest_template
+- 83807 None [The Severed Threads]: MISSING quest_template
+- 82878 None [The Severed Threads]: MISSING quest_template
+- 83805 None [The Severed Threads]: MISSING quest_template
+- 82879 None [The Severed Threads]: MISSING quest_template
+- 83804 None [The Severed Threads]: MISSING quest_template
+- 82880 None [The Severed Threads]: MISSING quest_template
+- 83803 None [The Severed Threads]: MISSING quest_template
+- 82881 None [The Severed Threads]: MISSING quest_template
+- 83802 None [The Severed Threads]: MISSING quest_template
+- 81661 To Mourning Rise [Mourning Rise]: no offer-reward text
+- 82810 Time Found [Memories of the Sky]: no offer-reward text
+- 82813 Time Borrowed [Memories of the Sky]: no offer-reward text
+- 79650 Priory of the Sacred Flame: A Brother's Grief [The Priory]: no offer-reward text
+- 83114 Red Tape [Uncovering the Truth]: no offer-reward text
+- 83115 In the Mix [Uncovering the Truth]: no offer-reward text
+- 83116 Potion Commotion [Uncovering the Truth]: no offer-reward text
+- 83117 Chasing a Lead [Uncovering the Truth]: no offer-reward text
+- 83118 Check the Schedule [Uncovering the Truth]: no offer-reward text
+- 83119 It's Worth a Shot [Uncovering the Truth]: no offer-reward text
+- 83120 Stealing the Keys [Uncovering the Truth]: no offer-reward text
+- 83933 The Kaja'Coast [Uncovering the Truth]: no offer-reward text
+- 84121 A Little Insurance [Uncovering the Truth]: no offer-reward text
+- 84122 Cut the Cameras [Uncovering the Truth]: no offer-reward text
+- 83121 Asset Management [Uncovering the Truth]: no offer-reward text
+- 83122 Crashing the Market [Uncovering the Truth]: no offer-reward text
+- 83123 A Miner Mistake [Uncovering the Truth]: no offer-reward text
+- 83124 B.I.R.D. Watching [Uncovering the Truth]: no offer-reward text
+- 83125 Price Hike [Uncovering the Truth]: no offer-reward text
+- 83126 Ethereal Invasion [Breaking the Shackles]: no offer-reward text
+- 85449 Phase Shift [Breaking the Shackles]: no offer-reward text
+- 85450 Evacuation Plan [Breaking the Shackles]: no offer-reward text
+- 83127 Racing the Clock [Breaking the Shackles]: no offer-reward text
+- 83128 Get Our People Out [Breaking the Shackles]: no offer-reward text
+- 83129 Nowhere Left to Hide [Breaking the Shackles]: no offer-reward text
+- 83130 Sour Victory [Breaking the Shackles]: no offer-reward text
+- 83140 Hostile Work Environment [Trust Issues]: no offer-reward text
+- 83141 Miner Investigations [Trust Issues]: no offer-reward text
+- 83142 Order of Magnitude [Trust Issues]: no offer-reward text
+- 83143 Good Honest Work [Trust Issues]: no offer-reward text
+- 83144 Bloodletting [Trust Issues]: no offer-reward text
+- 84683 Into the Gutter [Trust Issues]: no offer-reward text
+- 83145 Paranoia Prevention [Trust Issues]: no offer-reward text
+- 85409 Snitches Get Stitches [Trust Issues]: no offer-reward text
+- 83146 Pamsy's Prized Pump [Trust Issues]: no offer-reward text
+- 83147 Bloody Business [Trust Issues]: no offer-reward text
+- 85444 Found Family [Trust Issues]: no offer-reward text
+- 83148 X-Treme Chill [Trust Issues]: no offer-reward text
+- 83149 Avenge Them [Trust Issues]: no offer-reward text
+- 83150 Expanding the Plan [Trust Issues]: no offer-reward text
+- 85410 Undermine's Long Shadow [Trust Issues]: no offer-reward text
+- 83151 Down Undermine [Trust Issues]: no offer-reward text
+- 81925 None [Dread in the Den]: MISSING quest_template
+- 81926 None [Dread in the Den]: MISSING quest_template
+- 81927 None [Dread in the Den]: MISSING quest_template
+- 81981 What Army? [Dread in the Den]: no ender, no offer-reward text
+- 82224 Check on the Compiler [Tired of Rest]: no offer-reward text
+- 82652 None [Tired of Rest]: MISSING quest_template
+- 79554 Holy Hydrocarbons [Kobold Culture and Integration]: no offer-reward text, no starter
+- 79555 Deep Wax Galactic [Kobold Culture and Integration]: no offer-reward text, no starter
+- 80378 A Light of the Dark [Kobold Culture and Integration]: no starter
+- 83360 A Fel Path Through Time [Bonus Event Holiday Quests]: giver 226919 not spawned, no ender, no offer-reward text
+- 88805 A Scarred Path Through Time [Bonus Event Holiday Quests]: no ender, no offer-reward text, no starter
+- 92649 A Shadowed Path Through Time [Bonus Event Holiday Quests]: no ender, no offer-reward text, no starter
+- 83364 A Savage Path Through Time [Bonus Event Holiday Quests]: giver 226919 not spawned, no ender, no offer-reward text
+- 83362 A Shrouded Path Through Time [Bonus Event Holiday Quests]: giver 226919 not spawned, no ender, no offer-reward text
+- 83365 A Frozen Path Through Time [Bonus Event Holiday Quests]: giver 226919 not spawned, no ender, no offer-reward text
+- 83363 A Burning Path Through Time [Bonus Event Holiday Quests]: giver 226919 not spawned, no ender, no offer-reward text
+- 83359 A Shattered Path Through Time [Bonus Event Holiday Quests]: giver 226919 not spawned, no offer-reward text
+- 83484 Oh, Rats! [Oh, Rats!]: no offer-reward text
+- 83485 Potent Potables [Oh, Rats!]: no offer-reward text
+- 83486 Remote Work [Oh, Rats!]: no offer-reward text
+- 83487 Occupational Hazard [Oh, Rats!]: no offer-reward text
+- 85711 Unsolicited Feedback [Oh, Rats!]: no offer-reward text
+- 83492 Warbands: Warbanding Together [Warbanding Together]: no offer-reward text
+- 83493 Warbands: Rift Reader [Warbanding Together]: no offer-reward text
+- 83494 Warbands: Space Ghosts by the Coast [Warbanding Together]: no offer-reward text
+- 84224 To Delves! [Delves - Season 1]: no offer-reward text, no starter
+- 81595 Seasonal Start [Delves - Season 1]: no offer-reward text
+- 81596 Delve Hunter [Delves - Season 1]: no offer-reward text
+- 83500 Zekvir, Hand of the Harbinger [Delves - Season 1]: no offer-reward text
+- 82778 Hallowfall Fishing Derby [Hallowfall Fishing Derby]: no ender, no offer-reward text
+- 83529 Hallowfall Fishing Derby [Hallowfall Fishing Derby]: no ender, no offer-reward text
+- 83530 Hallowfall Fishing Derby [Hallowfall Fishing Derby]: no ender, no offer-reward text
+- 83531 Hallowfall Fishing Derby [Hallowfall Fishing Derby]: no ender, no offer-reward text
+- 83532 Hallowfall Fishing Derby [Hallowfall Fishing Derby]: no ender, no offer-reward text
+- 83547 Welcome to the Neighborhood [Housing NPC Prototype]: no ender, no offer-reward text, no starter
+- 81930 The War Within [Dalaran Intro]: no offer-reward text
+- 78713 The War Within [Dalaran Intro]: no offer-reward text
+- 78714 Oh, THAT Sword [Dalaran Intro]: no offer-reward text
+- 78715 Azeroth's Voice [Dalaran Intro]: no offer-reward text
+- 78716 Painful Lessons [Dalaran Intro]: no offer-reward text
+- 80500 The Bronzebeard Family [Dalaran Intro]: no offer-reward text
+- 81966 Slept Like a Rock [Dalaran Intro]: no offer-reward text, no starter
+- 83621 None [Dalaran Intro]: MISSING quest_template
+- 83561 Campaign Quest (DNT) [(DNT) Campaign]: no ender, no offer-reward text, no starter
+- 83519 But What About the Casino? [Hard Ways at the Gallagio]: no offer-reward text
+- 83569 Death and Taxes [Hard Ways at the Gallagio]: no offer-reward text
+- 84221 Paperwork Makes the Mine Go Under [Hard Ways at the Gallagio]: no offer-reward text
+- 84242 Diving into the Heaps [Hard Ways at the Gallagio]: no offer-reward text
+- 83522 Debting For A Living [Hard Ways at the Gallagio]: no offer-reward text
+- 83524 Gold In Them There Trash [Hard Ways at the Gallagio]: no offer-reward text
+- 83527 Winning is for Losers, Anyway [Hard Ways at the Gallagio]: no offer-reward text
+- 83528 All Part of the Game [Hard Ways at the Gallagio]: no offer-reward text
+- 84244 Blackwater Beach Blast [Hard Ways at the Gallagio]: no offer-reward text
+- 83534 Ain't No Warm Up Act [Hard Ways at the Gallagio]: no offer-reward text
+- 83535 Plunder Party Rockin' Rumble [Hard Ways at the Gallagio]: no offer-reward text
+- 84249 A Vat in the Pan [Hard Ways at the Gallagio]: no offer-reward text
+- 83540 Work the Line [Hard Ways at the Gallagio]: no offer-reward text
+- 83541 Review Bombed [Hard Ways at the Gallagio]: no offer-reward text
+- 83542 Quick Gills for Gold Now [Hard Ways at the Gallagio]: no offer-reward text
+- 85189 Our Day in Court [Hard Ways at the Gallagio]: no offer-reward text
+- 83546 Responsibility [Hard Ways at the Gallagio]: no offer-reward text
+- 83558 Casino Court [Hard Ways at the Gallagio]: no offer-reward text
+- 83563 Coffee is for Closers [Hard Ways at the Gallagio]: no offer-reward text
+- 83566 Oh, That Casino! [Hard Ways at the Gallagio]: no offer-reward text
+- 85438 Or Else [The Perfect Wedding]: no offer-reward text
+- 83417 Out-laws [The Perfect Wedding]: no offer-reward text
+- 83418 The Perfect Coat [The Perfect Wedding]: no offer-reward text
+- 83419 The Perfect Guest List [The Perfect Wedding]: no offer-reward text
+- 83420 Catering to Perfection [The Perfect Wedding]: no offer-reward text
+- 83421 The Perfect Wedding [The Perfect Wedding]: no offer-reward text
+- 87008 Ad-Hoc Wedding Planner [The Perfect Wedding]: no offer-reward text
+- 85717 Precarious Pet [FF Task List]: no ender, no offer-reward text, no starter
+- 86412 Fancy Pants [FF Task List]: no ender, no offer-reward text, no starter
+- 86418 Fresh Towel? [FF Task List]: no ender, no offer-reward text, no starter
+- 86321 Door to Door [FF Task List]: no ender, no offer-reward text, no starter
+- 86320 Bully For You! [FF Task List]: no ender, no offer-reward text, no starter
+- 86319 Eyes of the Sky [FF Task List]: no ender, no offer-reward text, no starter
+- 86318 Tailgater Troubles [FF Task List]: no ender, no offer-reward text, no starter
+- 86410 Slime Wranglin' [FF Task List]: no ender, no offer-reward text, no starter
+- 85759 Crystal Alignment [FF Task List]: no ender, no offer-reward text, no starter
+- 85732 Express Extermination [FF Task List]: no ender, no offer-reward text, no starter
+- 85733 Daiquiri Disaster [FF Task List]: no ender, no offer-reward text, no starter
+- 85758 Sweeping Up [FF Task List]: no ender, no offer-reward text, no starter
+- 85771 Paper Delivery [FF Task List]: no ender, no offer-reward text, no starter
+- 85797 Knife Fight [FF Task List]: no ender, no offer-reward text, no starter
+- 85773 Spirits for Hire [FF Task List]: no ender, no offer-reward text, no starter
+- 85854 For Want of a Name [FF Task List]: no ender, no offer-reward text, no starter
+- 85861 Rug Monster!!! [FF Task List]: no ender, no offer-reward text, no starter
+- 87588 Bash that Trash [FF Task List]: no ender, no offer-reward text, no starter
+- 85888 Artistic License [FF Task List]: no ender, no offer-reward text, no starter
+- 87569 Legally Mandated Break [FF Task List]: no ender, no offer-reward text, no starter
+- 85715 Muse Wanted [FF Task List]: no ender, no offer-reward text, no starter
+- 85769 The Party Must Go On [FF Task List]: no ender, no offer-reward text, no starter
+- 85874 Goldfish Rescue [FF Task List]: no ender, no offer-reward text, no starter
+- 86311 Heaps of Trouble [FF Task List]: no ender, no offer-reward text, no starter
+- 85826 Granny Crossing [FF Task List]: no ender, no offer-reward text, no starter
+- 85946 The Great Crab Breakout [FF Task List]: no ender, no offer-reward text, no starter
+- 86313 Darkfuse Cleanup [FF Task List]: no ender, no offer-reward text, no starter
+- 86314 Ooze on Aisle 3 [FF Task List]: no ender, no offer-reward text, no starter
+- 86315 Chaos in the Streets [FF Task List]: no ender, no offer-reward text, no starter
+- 86317 Black Blood by Sea [FF Task List]: no ender, no offer-reward text, no starter
+- 84791 Hotrocket Burgers [FF Task List]: no ender, no offer-reward text, no starter
+- 84788 Hotrocket Hot Dogs [FF Task List]: no ender, no offer-reward text, no starter
+- 83323 <DNT> Gas Coupons [FF Task List]: no ender, no offer-reward text, no starter
+- 81890 Unfulfilled Requests [Silken Ward]: no offer-reward text
+- 83325 Bountiful Beetles [Rak-Ush]: no offer-reward text
+- 79686 Concerning Fungarians [Concerning Fungarians]: no ender
+- 78877 Bless These Homes [Exploring Gundargaz]: no ender, no starter
+- 78900 On Cold, Dark Wings [Exploring Gundargaz]: no ender
+- 78918 Brax's Brass Knuckles [Exploring Gundargaz]: no ender
+- 78827 Go Take Candle! [Exploring Gundargaz]: no ender, no offer-reward text, no starter
+- 78860 More Candles! [Exploring Gundargaz]: no ender, no offer-reward text, no starter
+- 78874 Conjured Help [Exploring Gundargaz]: no ender, no offer-reward text, no starter
+- 78879 Evoking the Forge [Exploring Gundargaz]: no ender, no offer-reward text, no starter
+- 78895 A Shadow Over Gundargaz [Exploring Gundargaz]: no ender, no offer-reward text, no starter
+- 83326 The Final Candle [Exploring Gundargaz]: no ender, no offer-reward text
+- 83755 Delves: Nightfall Sanctum [11.0 Delves - Level Up Guidance - (STM)]: no ender, no offer-reward text
+- 83761 Delves: The Underkeep [11.0 Delves - Level Up Guidance - (STM)]: no ender, no offer-reward text
+- 83088 Caustic Collectables [Hazards of Slimediving]: no offer-reward text
+- 83089 Giving Goblins Goggles [Hazards of Slimediving]: no offer-reward text
+- 83091 Shield Your Eyes [Hazards of Slimediving]: no offer-reward text
+- 83442 Tossed and Torqued [Copyright Infringement]: no offer-reward text
+- 83445 Something Smells [Copyright Infringement]: no offer-reward text
+- 83446 Cease and Desist [Copyright Infringement]: no offer-reward text
+- 83096 Welcome to Undermine [Undermine Awaits]: no offer-reward text
+- 83109 The Grimla Express [Undermine Awaits]: no offer-reward text
+- 86297 Morale Reflects Leadership [Undermine Awaits]: no offer-reward text
+- 85941 Attitude Adjustment [Undermine Awaits]: no offer-reward text
+- 83163 Split Venture [Undermine Awaits]: no offer-reward text
+- 83167 Eyes from Above [Undermine Awaits]: no offer-reward text
+- 83168 A Trail of Black Blood [Undermine Awaits]: no offer-reward text
+- 83169 Long Way from Booty Bay [Undermine Awaits]: no offer-reward text
+- 83170 Not Again! [Undermine Awaits]: no offer-reward text
+- 83171 Eye Sores for Sore Eyes [Undermine Awaits]: no offer-reward text
+- 83172 Black Blood Baton Pass [Undermine Awaits]: no offer-reward text
+- 83173 Clearing Out the Depot [Undermine Awaits]: no offer-reward text
+- 83174 Our Good Pal [Undermine Awaits]: no offer-reward text
+- 83175 Another Piece of the Puzzle [Undermine Awaits]: no offer-reward text
+- 83176 Just a Hunch [Undermine Awaits]: no offer-reward text
+- 84140 Can-Do Caddy [Fore!]: no offer-reward text
+- 84141 Scam Cans [Fore!]: no offer-reward text
+- 84142 The Hole Deal [Fore!]: no offer-reward text
+- 84223 Survivor's Guilt [Arcane Desolation]: no offer-reward text
+- 83031 The Hardest Part [Arcane Desolation]: no offer-reward text
+- 83499 Arcane Wasteland [Arcane Desolation]: no offer-reward text
+- 83502 Lessons in Defensive Magic [Arcane Desolation]: no offer-reward text
+- 83539 Feeling Blue [Arcane Desolation]: no offer-reward text
+- 83553 Magic-stealing Kobolds [Arcane Desolation]: no offer-reward text
+- 83554 Trinkets, Curios and Other Powerful Objects [Arcane Desolation]: no offer-reward text
+- 83555 Mysterious Necklace [Arcane Desolation]: giver 228520 not spawned, no offer-reward text
+- 83556 Maybe You Shouldn't Touch That [Arcane Desolation]: no offer-reward text
+- 83641 Trapped Between Life and Death [Arcane Desolation]: no offer-reward text
+- 83643 Somehow We Survived [Arcane Desolation]: no offer-reward text
+- 83723 A Helping Hand [Strength Amidst Ruins]: no offer-reward text
+- 83743 Arcane Cold War [Strength Amidst Ruins]: no offer-reward text
+- 83762 Critical Mass [Strength Amidst Ruins]: no offer-reward text
+- 83763 Preserve the Legacy [Strength Amidst Ruins]: no offer-reward text
+- 83764 Too Powerful, Too Dangerous [Strength Amidst Ruins]: no offer-reward text
+- 83773 Farewell, City of Magic [Strength Amidst Ruins]: no offer-reward text
+- 83138 End of the Day [Ignite the Fuel of Change]: no offer-reward text
+- 83194 Under Fire [Ignite the Fuel of Change]: no offer-reward text
+- 85174 Get Out There [Ignite the Fuel of Change]: no offer-reward text
+- 83195 Rally the People [Ignite the Fuel of Change]: no offer-reward text
+- 83196 Disperse! [Ignite the Fuel of Change]: no offer-reward text
+- 83197 Who Owns the Streets? [Ignite the Fuel of Change]: no offer-reward text
+- 83198 Backyard Navy [Ignite the Fuel of Change]: no offer-reward text
+- 83199 Been Savin' This One [Ignite the Fuel of Change]: no offer-reward text
+- 83200 A Vast, Ye Swabs [Ignite the Fuel of Change]: no offer-reward text
+- 85562 Tougher Than We Thought [Ignite the Fuel of Change]: no offer-reward text
+- 85724 Repel the Invaders [Ignite the Fuel of Change]: no offer-reward text
+- 83201 Expedited Delivery [Ignite the Fuel of Change]: no offer-reward text
+- 83202 Punching Up [Ignite the Fuel of Change]: no offer-reward text
+- 83203 Weapons Hot [Ignite the Fuel of Change]: no offer-reward text
+- 83204 The Thingamajig [Ignite the Fuel of Change]: no offer-reward text
+- 83205 Production Halted [Ignite the Fuel of Change]: no offer-reward text
+- 86417 Ready Check [Ignite the Fuel of Change]: no offer-reward text
+- 83206 We Own the Streets [Ignite the Fuel of Change]: no offer-reward text
+- 83207 My Top Gal [Ignite the Fuel of Change]: no offer-reward text
+- 85780 Right Where We Want Him [Ignite the Fuel of Change]: no offer-reward text
+- 84214 The Job [The Highst]: no offer-reward text
+- 84215 The Crew [The Highst]: no offer-reward text
+- 84216 The Play [The Highst]: no offer-reward text
+- 84217 The Highst [The Highst]: no offer-reward text
+- 84218 The Getaway [The Highst]: no offer-reward text
+- 84298 HELP WANTED: Kaja'Curiosity [Kaja'Curiosity]: no offer-reward text
+- 84300 Refine, Repair, Repeat [Kaja'Curiosity]: no offer-reward text
+- 84301 Mineral Madness [Kaja'Curiosity]: no offer-reward text
+- 84302 Creative Iteration [Kaja'Curiosity]: no offer-reward text
+- 84303 Experimental Application [Kaja'Curiosity]: no offer-reward text
+- 84304 A Gem-Splitting Headache [Kaja'Curiosity]: no offer-reward text
+- 84439 Kaja'Conclusions [Kaja'Curiosity]: no offer-reward text
+- 81692 The Flame Within [Zone 3 Neck 2]: no offer-reward text
+- 81869 Can Catch More Fires with Honey [Zone 3 Neck 2]: no offer-reward text
+- 81751 Fire and Gemstone [Zone 3 Neck 2]: no offer-reward text
+- 81896 New and Improved [Zone 3 Neck 2]: no offer-reward text
+- 81906 Whispers from the Web [Zone 3 Neck 3]: giver 221902 not spawned, no offer-reward text, no starter
+- 81908 A Flame in the Dark [Zone 3 Neck 3]: giver 221902 not spawned, no offer-reward text
+- 81909 Absolute Power [Zone 3 Neck 3]: giver 221902 not spawned, no offer-reward text
+- 81910 A Great Responsibility [Zone 3 Neck 3]: no offer-reward text
+- 80688 None [[DNT] General Treasure Quests - Zone Map]: MISSING quest_template
+- 81467 None [[DNT] General Treasure Quests - Zone Map]: MISSING quest_template
+- 81572 None [[DNT] General Treasure Quests - Zone Map]: MISSING quest_template
+- 82878 None [[DNT] General Treasure Quests - Zone Map]: MISSING quest_template
+- 82876 None [[DNT] General Treasure Quests - Zone Map]: MISSING quest_template
+- 82874 None [[DNT] General Treasure Quests - Zone Map]: MISSING quest_template
+- 82875 None [[DNT] General Treasure Quests - Zone Map]: MISSING quest_template
+- 82877 None [[DNT] General Treasure Quests - Zone Map]: MISSING quest_template
+- 82873 None [[DNT] General Treasure Quests - Zone Map]: MISSING quest_template
+- 82879 None [[DNT] General Treasure Quests - Zone Map]: MISSING quest_template
+- 82880 None [[DNT] General Treasure Quests - Zone Map]: MISSING quest_template
+- 82881 None [[DNT] General Treasure Quests - Zone Map]: MISSING quest_template
+- 81567 None [[DNT] Vizier Treasure Quests - Zone Map]: MISSING quest_template
+- 81569 None [[DNT] Vizier Treasure Quests - Zone Map]: MISSING quest_template
+- 82863 None [[DNT] Vizier Treasure Quests - Zone Map]: MISSING quest_template
+- 82864 None [[DNT] Vizier Treasure Quests - Zone Map]: MISSING quest_template
+- 82865 None [[DNT] Vizier Treasure Quests - Zone Map]: MISSING quest_template
+- 82866 None [[DNT] Vizier Treasure Quests - Zone Map]: MISSING quest_template
+- 82867 None [[DNT] Vizier Treasure Quests - Zone Map]: MISSING quest_template
+- 82868 None [[DNT] Vizier Treasure Quests - Zone Map]: MISSING quest_template
+- 82869 None [[DNT] Vizier Treasure Quests - Zone Map]: MISSING quest_template
+- 82870 None [[DNT] Vizier Treasure Quests - Zone Map]: MISSING quest_template
+- 82871 None [[DNT] Vizier Treasure Quests - Zone Map]: MISSING quest_template
+- 82872 None [[DNT] Vizier Treasure Quests - Zone Map]: MISSING quest_template
+- 40710 Blade in Twilight [Lorewalking: Xal'atath]: no starter
+- 54114 Every Little Death Helps [Lorewalking: Xal'atath]: no offer-reward text
+- 54126 Twist the Knife [Lorewalking: Xal'atath]: no offer-reward text
+- 80559 None [[DNT] Weaver Treasure Quests - Zone Map]: MISSING quest_template
+- 80579 None [[DNT] Weaver Treasure Quests - Zone Map]: MISSING quest_template
+- 80580 None [[DNT] Weaver Treasure Quests - Zone Map]: MISSING quest_template
+- 82854 None [[DNT] Weaver Treasure Quests - Zone Map]: MISSING quest_template
+- 82855 None [[DNT] Weaver Treasure Quests - Zone Map]: MISSING quest_template
+- 82856 None [[DNT] Weaver Treasure Quests - Zone Map]: MISSING quest_template
+- 82857 None [[DNT] Weaver Treasure Quests - Zone Map]: MISSING quest_template
+- 82858 None [[DNT] Weaver Treasure Quests - Zone Map]: MISSING quest_template
+- 82859 None [[DNT] Weaver Treasure Quests - Zone Map]: MISSING quest_template
+- 82860 None [[DNT] Weaver Treasure Quests - Zone Map]: MISSING quest_template
+- 82861 None [[DNT] Weaver Treasure Quests - Zone Map]: MISSING quest_template
+- 82862 None [[DNT] Weaver Treasure Quests - Zone Map]: MISSING quest_template
+- 84423 Shaking the Dust Off [Adventure Awaits]: no starter
+- 85026 Where Legends are Made [Adventure Awaits]: no offer-reward text
+- 74912 Neltharion's Legacy [Nasz'uro, the Unbound Legacy]: no offer-reward text, no starter
+- 74913 Memories of an Artifact [Nasz'uro, the Unbound Legacy]: no offer-reward text
+- 74923 It Takes a Village to Make an Artifact [Nasz'uro, the Unbound Legacy]: no offer-reward text
+- 74924 Nasz'uro, the Unbound Legacy [Nasz'uro, the Unbound Legacy]: no offer-reward text
+- 84509 None [Weekly Pact Treasures]: MISSING quest_template
+- 84510 None [Weekly Pact Treasures]: MISSING quest_template
+- 84511 None [Weekly Pact Treasures]: MISSING quest_template
+- 84512 None [Weekly Pact Treasures]: MISSING quest_template
+- 84513 None [Weekly Pact Treasures]: MISSING quest_template
+- 84514 None [Weekly Pact Treasures]: MISSING quest_template
+- 84515 None [Weekly Pact Treasures]: MISSING quest_template
+- 84516 None [Weekly Pact Treasures]: MISSING quest_template
+- 84517 None [Weekly Pact Treasures]: MISSING quest_template
+- 84518 None [Weekly Pact Treasures]: MISSING quest_template
+- 79559 The Verdigrease Knight [The Verdigrease Knight]: no offer-reward text
+- 84621 Squire's Spurs [The Verdigrease Knight]: no offer-reward text
+- 79561 Lord of the Giants [The Verdigrease Knight]: no offer-reward text
+- 84821 Biological Quintainment [The Verdigrease Knight]: no offer-reward text
+- 80144 The Holey Grail [The Verdigrease Knight]: no offer-reward text
+- 80096 The Shovel in the Stone [The Verdigrease Knight]: no offer-reward text
+- 79564 The Verdigrease Knight Returns [The Verdigrease Knight]: no offer-reward text
+- 79563 Lady of the Lake [The Verdigrease Knight]: no offer-reward text
+- 81597 None [[DNT] Notoriety Tracking Quests - Weaver Tiers]: MISSING quest_template
+- 81598 None [[DNT] Notoriety Tracking Quests - Weaver Tiers]: MISSING quest_template
+- 86931 None [[DNT] Notoriety Tracking Quests - Weaver Tiers]: MISSING quest_template
+- 81599 None [[DNT] Notoriety Tracking Quests - Weaver Tiers]: MISSING quest_template
+- 81600 None [[DNT] Notoriety Tracking Quests - Weaver Tiers]: MISSING quest_template
+- 84538 None [[DNT] Notoriety Tracking Quests - Weaver Tiers]: MISSING quest_template
+- 84539 None [[DNT] Notoriety Tracking Quests - Weaver Tiers]: MISSING quest_template
+- 84540 None [[DNT] Notoriety Tracking Quests - Weaver Tiers]: MISSING quest_template
+- 84541 None [[DNT] Notoriety Tracking Quests - Weaver Tiers]: MISSING quest_template
+- 81601 None [[DNT] Notoriety Tracking Quests - General Tiers]: MISSING quest_template
+- 81602 None [[DNT] Notoriety Tracking Quests - General Tiers]: MISSING quest_template
+- 81603 None [[DNT] Notoriety Tracking Quests - General Tiers]: MISSING quest_template
+- 81604 None [[DNT] Notoriety Tracking Quests - General Tiers]: MISSING quest_template
+- 84530 None [[DNT] Notoriety Tracking Quests - General Tiers]: MISSING quest_template
+- 84531 None [[DNT] Notoriety Tracking Quests - General Tiers]: MISSING quest_template
+- 84532 None [[DNT] Notoriety Tracking Quests - General Tiers]: MISSING quest_template
+- 84533 None [[DNT] Notoriety Tracking Quests - General Tiers]: MISSING quest_template
+- 81605 None [[DNT] Notoriety Tracking Quests - Vizier Tiers]: MISSING quest_template
+- 81606 None [[DNT] Notoriety Tracking Quests - Vizier Tiers]: MISSING quest_template
+- 81607 None [[DNT] Notoriety Tracking Quests - Vizier Tiers]: MISSING quest_template
+- 81608 None [[DNT] Notoriety Tracking Quests - Vizier Tiers]: MISSING quest_template
+- 84534 None [[DNT] Notoriety Tracking Quests - Vizier Tiers]: MISSING quest_template
+- 84535 None [[DNT] Notoriety Tracking Quests - Vizier Tiers]: MISSING quest_template
+- 84536 None [[DNT] Notoriety Tracking Quests - Vizier Tiers]: MISSING quest_template
+- 84537 None [[DNT] Notoriety Tracking Quests - Vizier Tiers]: MISSING quest_template
+- 91039 Faerin's Request [Rise of the Red Dawn]: no offer-reward text, no starter
+- 84657 Return to Stromgarde [Rise of the Red Dawn]: no offer-reward text
+- 84659 The Search for Faerin [Rise of the Red Dawn]: no offer-reward text
+- 87299 How Old Are These Things? [Rise of the Red Dawn]: no offer-reward text
+- 84715 The Search for Danath [Rise of the Red Dawn]: no offer-reward text
+- 84714 From Ironforge With Love [Rise of the Red Dawn]: no offer-reward text
+- 84716 Returning to Stromgarde [Rise of the Red Dawn]: no offer-reward text
+- 84717 Rise of the Red Dawn [Rise of the Red Dawn]: no offer-reward text
+- 85529 Past Glory [Rise of the Red Dawn]: no offer-reward text
+- 84376 Property Devalued [Property Devalued]: no offer-reward text
+- 84379 Tenant Trouble [Property Devalued]: no offer-reward text
+- 84378 Renter's Insurance [Property Devalued]: no offer-reward text
+- 84380 Weapons Cash [Property Devalued]: no offer-reward text
+- 84381 Renegotiations [Property Devalued]: no offer-reward text
+- 86408 My Hole in the Wall [Property Devalued]: no offer-reward text
+- 84442 Invitation to the Spirit Festival [Pandaren Heritage]: no offer-reward text
+- 84444 Invitation to the Spirit Festival [Pandaren Heritage]: no offer-reward text
+- 84451 The Wanderers [Pandaren Heritage]: no offer-reward text
+- 84452 The Wanderers [Pandaren Heritage]: no offer-reward text
+- 84453 To Dai-Lo Farmstead [Pandaren Heritage]: no offer-reward text
+- 84454 Tide of Virmen [Pandaren Heritage]: no offer-reward text
+- 84455 Big Bertha [Pandaren Heritage]: no offer-reward text
+- 84468 Brew You One Better [Pandaren Heritage]: no offer-reward text
+- 84456 To Morning Breeze [Pandaren Heritage]: no offer-reward text
+- 84457 To Morning Breeze [Pandaren Heritage]: no offer-reward text
+- 84458 Devil's in the Details [Pandaren Heritage]: no offer-reward text
+- 84459 Scamps Ain't It! [Pandaren Heritage]: no offer-reward text
+- 84460 Red Hand or Herring? [Pandaren Heritage]: no offer-reward text
+- 84461 It's Not a Spirit Festival Without Spirits [Pandaren Heritage]: no offer-reward text
+- 84462 Patterns in Static [Pandaren Heritage]: no offer-reward text
+- 84463 Codependency [Pandaren Heritage]: no offer-reward text
+- 84464 Lost My Spark [Pandaren Heritage]: no offer-reward text
+- 84465 Of Water and Blood [Pandaren Heritage]: no offer-reward text
+- 84466 Thousands of Years Ago... [Pandaren Heritage]: no offer-reward text
+- 84467 This Was Home [Pandaren Heritage]: no offer-reward text
+- 92030 A New Tradition [Pandaren Heritage]: no offer-reward text
+- 84885 Working for G.E.T.A. [G.E.T.A.]: no offer-reward text
+- 84891 G.E.T.A. The Radioactive Rat [G.E.T.A.]: no offer-reward text
+- 84892 G.E.T.A. The Crocodilian [G.E.T.A.]: no offer-reward text
+- 84893 G.E.T.A. The Captain [G.E.T.A.]: no offer-reward text
+- 84955 Contraband Banned [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85519 Boom and Burst [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85402 In The Heights [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85396 Heaps o' Scrap [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 84995 Pictures! Pictures of Undermine! [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 84929 Lifeguard On Duty [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85474 Rat Pack Attack [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85270 Cold as Ice [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85472 It's Free Reagents! [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85473 Extra! Extra! [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 84971 For Love of Grog [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85397 What Plants Crave [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85398 Bomb Voyage! [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85399 Caddyshock [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85400 Reduce, Re-ooze, Recycle [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85269 Boom Balloon [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85263 Boomball [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 84994 Evidence of Effect [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85524 Disarming the Darkfuse [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85513 Underrider Grease [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85514 If They're Not Using It... [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85512 Rooting Out Counterfeits [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85515 Free Samples! [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85390 Sunrise Sudser [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85498 Firework It [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85497 Blown a Gasket [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85427 Explosive Expiration [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85499 One Goblin's Trash [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85500 Hazardous Waste [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85428 Code Violations [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85268 Pow-Arr Wash Simulator [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85466 Hob or Cold [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85467 Dumpster Fire [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85526 Scum Bag [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85527 Buccaneer Bonzai [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85528 Recrewtment [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85518 Scalper Scum [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 86943 Drilling Down [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 86947 Tiny, Expensive, and Deadly [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 86949 Loyal Crewmates [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 86952 Approach the Croach [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85554 Side Gig: It's Always Sunny Side Up [Undermine - World Quests/Repeatables]: no ender, no offer-reward text
+- 85913 Side Gig: Cleanup Detail [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85914 Side Gig: Coolant Matters [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85944 Side Gig: Blood Type [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85945 Side Gig: Blood-B-Gone [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85960 Side Gig: Lost in the Sauce [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85962 Side Gig: Unseemly Reagents [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 86180 Side Gig: Infested Waters [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 86177 Side Gig: The Tides Provide [Undermine - World Quests/Repeatables]: no ender, no offer-reward text
+- 86178 Side Gig: Cleanin' the Coast [Undermine - World Quests/Repeatables]: no ender, no offer-reward text
+- 86179 Side Gig: Lucky Break's Big Break [Undermine - World Quests/Repeatables]: no ender, no offer-reward text
+- 85487 Special Assignment: Boom! Headshot! [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85488 Special Assignment: Security Detail [Undermine - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 83547 Welcome to the Neighborhood [Neighborhood Prototype Quests]: no ender, no offer-reward text, no starter
+- 83557 None [Neighborhood Prototype Quests]: MISSING quest_template
+- 84382 None [Neighborhood Prototype Quests]: MISSING quest_template
+- 85016 None [Neighborhood Prototype Quests]: MISSING quest_template
+- 84391 None [Neighborhood Prototype Quests]: MISSING quest_template
+- 84420 None [Neighborhood Prototype Quests]: MISSING quest_template
+- 84422 None [Neighborhood Prototype Quests]: MISSING quest_template
+- 84427 None [Neighborhood Prototype Quests]: MISSING quest_template
+- 84428 None [Neighborhood Prototype Quests]: MISSING quest_template
+- 84431 None [Neighborhood Prototype Quests]: MISSING quest_template
+- 84436 None [Neighborhood Prototype Quests]: MISSING quest_template
+- 84505 None [Neighborhood Prototype Quests]: MISSING quest_template
+- 84522 None [Neighborhood Prototype Quests]: MISSING quest_template
+- 84523 None [Neighborhood Prototype Quests]: MISSING quest_template
+- 84524 None [Neighborhood Prototype Quests]: MISSING quest_template
+- 84678 None [Neighborhood Prototype Quests]: MISSING quest_template
+- 84679 None [Neighborhood Prototype Quests]: MISSING quest_template
+- 85062 None [Neighborhood Prototype Quests]: MISSING quest_template
+- 84832 [DNT] Example Breadcrumb to DF [Neighborhood Prototype Quests]: no ender, no offer-reward text, no starter
+- 85027 Lorewalking: The Protectorate [Lorewalking: Ethereals]: no offer-reward text
+- 85029 Lorewalking: Locus-Walker [Lorewalking: Ethereals]: no offer-reward text
+- 85028 Lorewalking: The Brokers [Lorewalking: Ethereals]: no offer-reward text
+- 85035 Locus-Walker, Telogrus Ranger [Lorewalking: Ethereals]: no offer-reward text
+- 85036 Veni Vidi Ve'nari [Lorewalking: Ethereals]: no offer-reward text
+- 85075 To Stormsong [The Bees Knees]: no offer-reward text
+- 85262 The Royal Procession [The Bees Knees]: no offer-reward text
+- 85077 Sticky Fingers [The Bees Knees]: no offer-reward text
+- 85078 Bee in the Bonnet [The Bees Knees]: no offer-reward text
+- 85079 Such a Sleebee-head [The Bees Knees]: no offer-reward text
+- 85080 An Un-Bee-lievable Solution [The Bees Knees]: no offer-reward text
+- 85081 Beehemian Rhapsody [The Bees Knees]: no offer-reward text
+- 85082 To K'aresh [The Bees Knees]: no offer-reward text
+- 85083 Photogra-Bee [The Bees Knees]: no offer-reward text
+- 85084 Bee Strong [The Bees Knees]: no offer-reward text
+- 85249 A Bee Test [The Bees Knees]: no offer-reward text
+- 89348 Let There Bee Love [The Bees Knees]: no offer-reward text
+- 85255 Tranquila-Bee [The Bees Knees]: no offer-reward text
+- 85256 Botany, Finally [The Bees Knees]: no offer-reward text
+- 85257 Primus Buzzness [The Bees Knees]: no offer-reward text
+- 85258 Oh Honey Honey [The Bees Knees]: no offer-reward text
+- 85259 Waggle Dance [The Bees Knees]: no offer-reward text
+- 85260 Hiving a Hard Day [The Bees Knees]: no offer-reward text
+- 85261 Bee Roll [The Bees Knees]: no offer-reward text
+- 85076 Don't Bee Crazy [The Bees Knees]: no offer-reward text
+- 86204 Liberation of Undermine: The House Loses [Homecoming]: no offer-reward text
+- 87321 Things Left Undone [Homecoming]: no offer-reward text
+- 85190 Settled Dust [Homecoming]: no offer-reward text
+- 85191 Cut After Cut [Homecoming]: no offer-reward text
+- 85192 Coming Home [Homecoming]: no offer-reward text
+- 87297 Cashing the Check [Homecoming]: no offer-reward text
+- 85052 A Lucrative Opportunity [Lost and Found Storage]: no offer-reward text
+- 85053 Obtaining Permits [Lost and Found Storage]: no offer-reward text
+- 85054 Articles of Acquisition [Lost and Found Storage]: no offer-reward text
+- 85055 Expired Goods [Lost and Found Storage]: no offer-reward text
+- 85242 Seasonal Refresher [Delves - Season 2]: no ender, no offer-reward text, no starter
+- 85243 I Want My Hat Back [Delves - Season 2]: no ender, no offer-reward text, no starter
+- 85244 Defeating the Underpin [Delves - Season 2]: no ender, no starter
+- 85383 Applied Mixology [That Tazavesh Taste]: no offer-reward text
+- 85384 Market Research [That Tazavesh Taste]: no offer-reward text
+- 85394 An Eye for Trouble [That Tazavesh Taste]: no offer-reward text
+- 85104 Skyrider Racing - Skyrocketing Sprint [Skyracing]: no ender, no offer-reward text, no starter
+- 85928 Breakneck Racing - Sandy Scuttle [Skyracing]: no ender, no offer-reward text, no starter
+- 85925 Breakneck Racing - Breakneck Bolt [Skyracing]: no ender, no offer-reward text, no starter
+- 85926 Breakneck Racing - Junkyard Jaunt [Skyracing]: no ender, no offer-reward text, no starter
+- 85927 Breakneck Racing - Casino Cruise [Skyracing]: no ender, no offer-reward text, no starter
+- 85105 Skyrider Racing - The Heaps Leap [Skyracing]: no ender, no offer-reward text, no starter
+- 85106 Skyrider Racing - Scrapshop Shot [Skyracing]: no ender, no offer-reward text, no starter
+- 85107 Skyrider Racing - Rags to Riches Rush [Skyracing]: no ender, no offer-reward text, no starter
+- 85429 Overwhelm Them [On a Technicality]: no offer-reward text
+- 85430 Mandatory Time Off [On a Technicality]: no offer-reward text
+- 85431 Drain Their Resources [On a Technicality]: no offer-reward text
+- 85432 Confuse Their Contacts [On a Technicality]: no offer-reward text
+- 85433 Eyes on Us [On a Technicality]: no offer-reward text
+- 85434 On a Technicality [On a Technicality]: no offer-reward text
+- 89297 Not as Cute When They Are Bigger and Angrier [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 85460 Ecological Succession [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 85459 Anima Reclamation Program [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 85461 Food Run [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 89209 Bu-zzz [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 89210 Photography is the Bee's Knees [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 89195 Funny Buzzness [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 88980 Who You Gonna Call? [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 85462 A Challenge for Dominance [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 85710 Sizing Them Up [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 85481 Ridge Racer [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 89212 Royal Photographer [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 85721 Killer Instinct [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 89057 Pee-Yew de Foxy [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 85465 Play Ball [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 89240 Dream-Dream-Dream-Dream-Dreameringeding! [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 89221 Leafing Things on the Ground [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 85470 Root Redux [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 89254 Shutterbug [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 89192 A Hard Day's Work [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 86342 Soaring over K'aresh [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 89213 Flights of Fancy [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 89238 Follow-up Appointment [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 89198 Dry Cleaning [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 88659 More Cozy Beds [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 88975 Spooked Slitherin' Snakes [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 88981 Nesting Upkeep [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 89197 Ray Ranching [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 89056 Ray-ket Ball, Redux [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 89242 I Want a Golden Ooze! [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 89065 Ray-cing for the Future [Eco-Dome Repeatables]: no ender, no offer-reward text, no starter
+- 84935 Excising the Incursion [Paths Forward]: no offer-reward text
+- 84936 To Cleanse Shadow's Stain [Paths Forward]: no offer-reward text
+- 84937 Distant Echoes [Paths Forward]: no offer-reward text
+- 84938 Chaos Control [Paths Forward]: no offer-reward text
+- 84939 Mad Space [Paths Forward]: no offer-reward text
+- 84942 The Final Hazard [Paths Forward]: no offer-reward text
+- 84943 The Long Vigil [Paths Forward]: no ender, no offer-reward text, no starter
+- 84944 Preludes and Preparations [Paths Forward]: no offer-reward text
+- 84945 Repent of the Highborne [Paths Forward]: no offer-reward text
+- 84947 Determination [Paths Forward]: no offer-reward text
+- 84946 Returning to Life [Paths Forward]: no offer-reward text
+- 84949 The Eleventh Hour [Paths Forward]: no offer-reward text
+- 84490 The Great Vault [Important Quests]: giver 229336 not spawned, no offer-reward text
+- 82651 Omens Unified [Important Quests]: no offer-reward text
+- 82946 Rollin' Down in the Deeps [Ringing Deeps - Weekly Quests]: no ender, no offer-reward text
+- 80544 None [[DNT] Notoriety/Pacts - Tracking Quests]: MISSING quest_template
+- 80545 None [[DNT] Notoriety/Pacts - Tracking Quests]: MISSING quest_template
+- 80546 None [[DNT] Notoriety/Pacts - Tracking Quests]: MISSING quest_template
+- 85001 Blessings Be Upon You [Radiant Visions]: giver 233329 not spawned
+- 85011 Where in K'aresh is Alleria Windrunner? [A Meeting with Minn'da]: no offer-reward text
+- 85804 The Parent Trap [A Meeting with Minn'da]: no offer-reward text
+- 85151 In Her Shadow [A Meeting with Minn'da]: no offer-reward text
+- 85155 Do You Have a Spare? [A Meeting with Minn'da]: no offer-reward text
+- 85184 Repossession is Nine-Tenths of the Law [A Meeting with Minn'da]: no offer-reward text
+- 85185 Those As Well [A Meeting with Minn'da]: no ender, no offer-reward text, no starter
+- 85186 A Cage for Alleria [A Meeting with Minn'da]: no offer-reward text
+- 85196 Tag, You're It [A Meeting with Minn'da]: no offer-reward text
+- 85212 A Void Test of Wills [A Meeting with Minn'da]: no offer-reward text
+- 85213 Off to Tazavesh, Again [A Meeting with Minn'da]: no offer-reward text
+- 85214 Here Goes Something [A Meeting with Minn'da]: no offer-reward text
+- 83587 Our Chance to Strike [To Kill a Queen]: no offer-reward text
+- 82124 The Beginning of the End [To Kill a Queen]: no offer-reward text
+- 82125 A Spy Like Us [To Kill a Queen]: no offer-reward text
+- 82126 Defense of the People [To Kill a Queen]: no offer-reward text
+- 82127 Make Them Prey [To Kill a Queen]: no offer-reward text
+- 82130 A Shot at the Top [To Kill a Queen]: no offer-reward text
+- 82141 To Kill a Queen [To Kill a Queen]: no offer-reward text
+- 85884 Lorewalking: The Prince Who Would Be King [Lorewalking: Arthas]: no ender, no offer-reward text, no starter
+- 85862 A Prince's Duty [Lorewalking: Arthas]: no ender, no offer-reward text, no starter
+- 85885 Lorewalking: No King Rules Forever [Lorewalking: Arthas]: no ender, no offer-reward text, no starter
+- 85875 Ascent of the Lich King [Lorewalking: Arthas]: no ender, no offer-reward text, no starter
+- 85878 O' Thanagor [Lorewalking: Arthas]: no ender, no offer-reward text, no starter
+- 86182 Ghost Buster [Roaming Free]: no offer-reward text
+- 86183 The Power of Gods [Roaming Free]: no offer-reward text
+- 86184 Diminishing Returns [Roaming Free]: no offer-reward text
+- 86185 Running Free [Roaming Free]: no offer-reward text
+- 86186 The Super Sniffer [Roaming Free]: no offer-reward text
+- 86187 The Smallest Possible Effort [Roaming Free]: no offer-reward text
+- 86188 More-shrooms [Roaming Free]: no offer-reward text
+- 86189 Fungal Invasion [Roaming Free]: no offer-reward text
+- 86190 One Mushroom to Rule Them All [Roaming Free]: no offer-reward text
+- 86191 Smell Ya Later [Roaming Free]: no offer-reward text
+- 86192 On a Bed of Bones They Lie [Roaming Free]: no offer-reward text
+- 86194 The Scent of Love [Roaming Free]: no offer-reward text
+- 86195 Slateback Soccer [Roaming Free]: no offer-reward text
+- 86271 Sanity's Rest [Sanity's Rest]: no offer-reward text
+- 86272 Counteracting the Black Blood [Sanity's Rest]: no offer-reward text
+- 86273 Visit to the Shop [Sanity's Rest]: no offer-reward text
+- 86274 Automation Solution [Sanity's Rest]: no offer-reward text
+- 86275 Bug Exterminator Needed [Sanity's Rest]: no offer-reward text
+- 86575 Rocket Roll [Sanity's Rest]: no offer-reward text
+- 86276 Out in the Fields [Sanity's Rest]: no offer-reward text
+- 86277 "Worm" Food No More [Sanity's Rest]: no offer-reward text
+- 86697 The Cleanup Crew [Sanity's Rest]: no offer-reward text
+- 84962 Exigent Extermination [K'aresh - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 86872 Phase Diving: Experimental Extermination [K'aresh - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 86409 Stalking the Crags [K'aresh - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 86610 Nor Void of Night [K'aresh - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 86709 Mana Falling from the Skies [K'aresh - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 86800 Swipe 'Em [K'aresh - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85812 Raid the Raiders [K'aresh - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85834 Endangered Specimens [K'aresh - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85822 Making a Market [K'aresh - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85855 Anything to Declare? [K'aresh - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85863 Phase Diving: Strange Storms [K'aresh - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85864 Phase Diving: Fractured Laacunite [K'aresh - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 86367 Grub Stompin' [K'aresh - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 86372 Wasting the Wastelanders [K'aresh - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 86391 Taking Back our Power [K'aresh - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 86584 Overwhelm Them with Mandatory Time Off [K'aresh - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 86395 Stealing the Stolen [K'aresh - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 86305 Watch me Make these Bugs Expire [K'aresh - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 86696 Shadow Re-Disruption [K'aresh - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 86707 The Shadowguard Resurgence [K'aresh - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 85252 Lorewalking: Children of the Blood [Lorewalking: Elves]: no ender, no offer-reward text, no starter
+- 53882 Writing on the Wall [Lorewalking: Elves]: no ender, no offer-reward text, no starter
+- 53735 The First to Fall [Lorewalking: Elves]: no ender, no offer-reward text, no starter
+- 53737 The Day Hope Died [Lorewalking: Elves]: no ender, no offer-reward text, no starter
+- 54096 The Fall of the Sunwell [Lorewalking: Elves]: no ender, no offer-reward text, no starter
+- 85254 Lorewalking: Children of the Void [Lorewalking: Elves]: no ender, no offer-reward text, no starter
+- 49354 Remember the Sunwell [Lorewalking: Elves]: no starter
+- 48962 Telogrus Rift [Lorewalking: Elves]: no ender, no starter
+- 86330 None [11.1.7 Lorewalking - Training (LAS)]: MISSING quest_template
+- 86331 None [11.1.7 Lorewalking - Training (LAS)]: MISSING quest_template
+- 86348 Fox Bane [Fox-strut]: no offer-reward text
+- 86350 Eau de Foxy [Fox-strut]: no offer-reward text
+- 86362 What Does the Fox Dream? [Fox-strut]: no offer-reward text
+- 86351 Strike a Pose [Fox-strut]: no offer-reward text
+- 86360 Fantastic Ms. Fox [Fox-strut]: no offer-reward text
+- 86361 Are You Kitting Me? [Fox-strut]: no offer-reward text
+- 86392 Foxy Footwork [Fox-strut]: no offer-reward text
+- 84667 The G.O.L.E.M. of Progress [The G.O.L.E.M. of Progress]: no offer-reward text
+- 84672 Garbage Day [The G.O.L.E.M. of Progress]: no offer-reward text
+- 84673 World's Okayest Inventor [The G.O.L.E.M. of Progress]: no offer-reward text
+- 84674 The G.O.L.E.M. Goes Berserk! [The G.O.L.E.M. of Progress]: no offer-reward text
+- 84675 Showdown in the Attic [The G.O.L.E.M. of Progress]: no offer-reward text
+- 86352 Hunting for a Good Author [Nesingwary Necessities]: no offer-reward text
+- 84822 To Iskaara [Nesingwary Necessities]: no offer-reward text
+- 86354 A Percussive Antidote [Nesingwary Necessities]: no offer-reward text
+- 86353 Protecting the Young [Nesingwary Necessities]: no offer-reward text
+- 86355 Using the Whole Animal [Nesingwary Necessities]: no offer-reward text
+- 86356 Sustainable Harvesting [Nesingwary Necessities]: no offer-reward text
+- 86357 Time for Noms [Nesingwary Necessities]: no offer-reward text
+- 86358 Any Old Excuse [Nesingwary Necessities]: no offer-reward text
+- 86359 Return to K'aresh [Nesingwary Necessities]: no offer-reward text
+- 44137 Into the Fray [Behind Legion Lines]: no offer-reward text
+- 40815 From Within [Behind Legion Lines]: no offer-reward text
+- 44140 From Within [Behind Legion Lines]: no offer-reward text
+- 36811 Retake Faronaar [Behind Legion Lines]: no ender, no offer-reward text, no starter
+- 37858 Stellagosa [Defending Azurewing Repose]: no offer-reward text
+- 37860 You Scratch My Back... [Defending Azurewing Repose]: no ender
+- 37530 Save Yourself [Azsuna versus Azshara]: giver 89090 not spawned
+- 37495 Plunder the Cove [Against the Giants]: no ender, no offer-reward text, no starter
+- 42268 Shipwrecked Sailors [Mak'rana and the Fate of the Queen's Reprisal]: no ender, no offer-reward text, no starter
+- 42220 Shipwrecked Sailors [Mak'rana and the Fate of the Queen's Reprisal]: no ender, no starter
+- 42244 Fate of the Queen's Reprisal [Mak'rana and the Fate of the Queen's Reprisal]: no offer-reward text
+- 86782 Atrium Hospital [Rays of Sunshine]: no offer-reward text
+- 86607 The Freedom of Ray-cing [Rays of Sunshine]: no offer-reward text
+- 86587 To Maldraxxus [Rays of Sunshine]: no offer-reward text
+- 86588 Ritualistic Murder [Rays of Sunshine]: no offer-reward text
+- 86589 A Plague a Day Keeps the Doctor Away [Rays of Sunshine]: no offer-reward text
+- 86590 I Don't Even Work Here [Rays of Sunshine]: no offer-reward text
+- 86591 A Poor Imitation [Rays of Sunshine]: no offer-reward text
+- 86592 Get Your Jabs [Rays of Sunshine]: no offer-reward text
+- 86593 To the Oasis [Rays of Sunshine]: no offer-reward text
+- 86594 A Cultured Palette [Rays of Sunshine]: no offer-reward text
+- 86595 Custodial Duties [Rays of Sunshine]: no offer-reward text
+- 86601 Triple Twenty [Rays of Sunshine]: no offer-reward text
+- 86602 Medical Checkup [Rays of Sunshine]: no offer-reward text
+- 86603 Ray-ket Ball [Rays of Sunshine]: no offer-reward text
+- 86604 Dubious Intent [Rays of Sunshine]: no offer-reward text
+- 86605 Booster Shots [Rays of Sunshine]: no offer-reward text
+- 86606 The Golden Ooze [Rays of Sunshine]: no offer-reward text
+- 86783 Rays of Sunshine [Rays of Sunshine]: no offer-reward text
+- 83753 Cannon Karma [Siren Isle Weeklies]: no ender
+- 83827 Silence the Song [Siren Isle Weeklies]: no ender
+- 84252 Peak Precision [Siren Isle Weeklies]: no ender
+- 84430 Crystal Crusade [Siren Isle Weeklies]: no ender
+- 85589 Ruffled Pages [Siren Isle Weeklies]: no ender
+- 84001 Cart Blanche [Siren Isle Weeklies]: no ender
+- 84299 Pirate Plunder [Siren Isle Weeklies]: no ender
+- 84627 Three Heads of the Deep [Siren Isle Weeklies]: no ender
+- 85051 Beach Comber [Siren Isle Weeklies]: no ender
+- 86708 The Gates of Zul'Aman [Dis Was Our Land]: no starter
+- 94871 Eversong [Whispers in the Twilight]: no starter
+- 86820 Manaforge Omega: Dimensius Looms [The Light of K'aresh]: no ender, no offer-reward text
+- 86456 An Elegy for a Silent World [The Light of K'aresh]: no offer-reward text
+- 86457 A Lullaby of Hope [The Light of K'aresh]: no offer-reward text
+- 86458 A Song for Our Future [The Light of K'aresh]: no offer-reward text
+- 84352 No More Walkin' Here [Shipping? Handled.]: no offer-reward text
+- 87581 No More Walkin' Here [Shipping? Handled.]: no ender, no offer-reward text
+- 86618 License Not Required [Shipping? Handled.]: no ender, no offer-reward text
+- 86915 Side with a Cartel [C.H.E.T.T. Tasks]: no ender, no offer-reward text, no starter
+- 86917 Ship Right [C.H.E.T.T. Tasks]: no ender, no offer-reward text, no starter
+- 86918 Reclaimed Scrap [C.H.E.T.T. Tasks]: no ender, no offer-reward text, no starter
+- 86919 Side Gig [C.H.E.T.T. Tasks]: no ender, no offer-reward text, no starter
+- 86920 War Mode Violence [C.H.E.T.T. Tasks]: no ender, no offer-reward text, no starter
+- 86923 Go Fish [C.H.E.T.T. Tasks]: no ender, no offer-reward text, no starter
+- 86924 Gotta Catch at Least a Few [C.H.E.T.T. Tasks]: no ender, no offer-reward text, no starter
+- 87302 Rare Rivals [C.H.E.T.T. Tasks]: no ender, no offer-reward text, no starter
+- 87303 Clean the Sidestreets [C.H.E.T.T. Tasks]: no ender, no offer-reward text, no starter
+- 87304 Time to Vacate [C.H.E.T.T. Tasks]: no ender, no offer-reward text, no starter
+- 87305 Desire to D.R.I.V.E. [C.H.E.T.T. Tasks]: no ender, no offer-reward text, no starter
+- 87306 Kaja Cruising [C.H.E.T.T. Tasks]: no ender, no offer-reward text, no starter
+- 87307 Garbage Day [C.H.E.T.T. Tasks]: no ender, no offer-reward text, no starter
+- 86938 Void Perforations [12.0 Prelaunch - WQs]: no ender, no offer-reward text, no starter
+- 91759 Don't Bring That Here [12.0 Prelaunch - WQs]: no ender, no offer-reward text, no starter
+- 91776 Wildhammer and Free [12.0 Prelaunch - WQs]: no ender, no offer-reward text, no starter
+- 91778 Too Deep and Too Dark [12.0 Prelaunch - WQs]: no ender, no offer-reward text, no starter
+- 91779 Combat Training for Cultists [12.0 Prelaunch - WQs]: no ender, no offer-reward text, no starter
+- 86939 Twilight's Wedge [12.0 Prelaunch - WQs]: no ender, no offer-reward text, no starter
+- 86941 Elemental Infusion [12.0 Prelaunch - WQs]: no ender, no offer-reward text, no starter
+- 86945 Shadowed Supplies [12.0 Prelaunch - WQs]: no ender, no offer-reward text, no starter
+- 86948 Twilight Bonds [12.0 Prelaunch - WQs]: no ender, no offer-reward text, no starter
+- 86951 Ascended, Descending [12.0 Prelaunch - WQs]: no ender, no offer-reward text, no starter
+- 86957 Drakgor's Revenge [12.0 Prelaunch - WQs]: no ender, no offer-reward text, no starter
+- 86959 Bloodeye Prisoners [12.0 Prelaunch - WQs]: no ender, no offer-reward text, no starter
+- 87291 Salad Bar [Lil' Lapbugs]: no offer-reward text
+- 87292 Rooting for Trouble [Lil' Lapbugs]: no offer-reward text
+- 86349 Lapbug Essence Hunter [Lil' Lapbugs]: no offer-reward text
+- 87294 A Truth Universally Acknowledged [Lil' Lapbugs]: no offer-reward text
+- 87293 Shameless Hawking [Lil' Lapbugs]: no offer-reward text
+- 87340 Junk Mail [The Oasis]: no offer-reward text
+- 87408 Being Spiritual [Hard Kalroc]: no offer-reward text
+- 87409 From Death, Life [Hard Kalroc]: no offer-reward text
+- 87410 Percussive Negotiation [Hard Kalroc]: no offer-reward text
+- 87415 The Skies of K'aresh [Hard Kalroc]: no offer-reward text
+- 87412 K'arrocing Photos [Hard Kalroc]: no offer-reward text
+- 87413 Bird Bath [Hard Kalroc]: no offer-reward text
+- 87414 Medical Maneuvers [Hard Kalroc]: no offer-reward text
+- 87411 Making Stuff to Look Tough [Hard Kalroc]: no offer-reward text
+- 87555 Home Is Where the Hearth Is [The Dragon Isles]: no offer-reward text
+- 87547 What's Your Specialty? [The Dragon Isles]: no offer-reward text
+- 87562 Aiding the Dragon Isles [The Dragon Isles]: no offer-reward text
+- 88655 Outbound for Outland [Sneks for K'aresh]: no offer-reward text
+- 88656 Comfort Stones [Sneks for K'aresh]: no offer-reward text
+- 88658 Sneks and Things [Sneks for K'aresh]: no offer-reward text
+- 88657 Zangarmoss [Sneks for K'aresh]: no offer-reward text
+- 88660 Snakes on a Plane [Sneks for K'aresh]: no offer-reward text
+- 88661 To the Atrium [Sneks for K'aresh]: no offer-reward text
+- 88662 What's in a Name? [Sneks for K'aresh]: no offer-reward text
+- 88663 Scales and Measures [Sneks for K'aresh]: no offer-reward text
+- 88664 Nagrandification [Sneks for K'aresh]: no offer-reward text
+- 88665 Follow Your Tongue [Sneks for K'aresh]: no offer-reward text
+- 88666 Mossy Beds [Sneks for K'aresh]: no offer-reward text
+- 88667 Water Snakes [Sneks for K'aresh]: no offer-reward text
+- 88668 Ophidian Portation [Sneks for K'aresh]: no offer-reward text
+- 88669 Nesting Time [Sneks for K'aresh]: no offer-reward text
+- 88670 Soothing Serpents [Sneks for K'aresh]: no offer-reward text
+- 88671 Eggstra Eggs [Sneks for K'aresh]: no offer-reward text
+- 88672 Snakelets! [Sneks for K'aresh]: no offer-reward text
+- 88701 The Memory Remains [Foothold]: giver 244093 not spawned
+- 88702 Aegis of the Redeemer [Foothold]: giver 244093 not spawned
+- 94957 War of Light and Shadow [Foothold]: no ender, no offer-reward text, no starter
+- 86396 The Better Part of Valorstones [11.0 Upgrade System Tutorial]: no ender, no offer-reward text
+- 86399 Don't Undermine the Crests [11.0 Upgrade System Tutorial]: no ender, no offer-reward text
+- 86401 Crest Transmutation [11.0 Upgrade System Tutorial]: no ender, no offer-reward text
+- 88920 The Kaldorei [Gathering of the Elves]: no offer-reward text
+- 88923 Children of the Stars [Gathering of the Elves]: no offer-reward text
+- 88925 Awaken the Ancient of War [Gathering of the Elves]: no offer-reward text
+- 88937 Awaken the Ancient of Lore [Gathering of the Elves]: no offer-reward text
+- 88927 Awaken the Ancient Protector [Gathering of the Elves]: no offer-reward text
+- 88922 The Quel'dorei [Gathering of the Elves]: no offer-reward text
+- 88938 Symbols of the Past [Gathering of the Elves]: no offer-reward text
+- 88939 Rest for the Restless [Gathering of the Elves]: no offer-reward text
+- 88941 For Quel'Thalas [Gathering of the Elves]: no offer-reward text
+- 88928 The Shal'dorei [Gathering of the Elves]: no offer-reward text
+- 88930 Drained Mana [Gathering of the Elves]: no offer-reward text
+- 88929 An Illusion! [Gathering of the Elves]: no offer-reward text
+- 88919 Into the Darkway [Gathering of the Elves]: no offer-reward text
+- 88942 The Elves are Going to War [Gathering of the Elves]: no offer-reward text
+- 94388 Second Time's a Choice [Theft Tracking]: no ender, no offer-reward text
+- 89402 Harandar [Of Caves and Cradles]: no starter
+- 88974 Eco-Stability [A Thriving Eco-System]: no ender, no offer-reward text, no starter
+- 88976 The Hope of K'aresh [A Thriving Eco-System]: no ender, no offer-reward text, no starter
+- 43586 Maw of Souls: Message to Helya [Chronicles of Skyhold II]: no offer-reward text, no starter
+- 43090 Ulduar's Oath [Chronicles of Skyhold II]: no offer-reward text, no starter
+- 43604 Maw of Souls: Ymiron's Broken Blade [Chronicles of Skyhold II]: no offer-reward text, no starter
+- 42616 Champion: Dvalen Ironrune [Chronicles of Skyhold II]: giver 107992 not spawned, no offer-reward text, no starter
+- 42618 Champion: Thorim [Chronicles of Skyhold II]: no offer-reward text, no starter
+- 44667 Will of the Valarjar [Chronicles of Skyhold III]: no offer-reward text, no starter
+- 42918 Demonic Runes [Chronicles of Skyhold III]: no offer-reward text, no starter
+- 43506 Black Rook Hold: Greater Power [Chronicles of Skyhold III]: no offer-reward text, no starter
+- 43577 Capturing the Gateway [Chronicles of Skyhold III]: no offer-reward text, no starter
+- 42974 The Fate of Hodir [Chronicles of Skyhold III]: no offer-reward text, no starter
+- 43425 A Hero's Weapon [Chronicles of Skyhold III]: no offer-reward text, no starter
+- 42619 Champion: Hodir [Chronicles of Skyhold III]: no offer-reward text, no starter
+- 44849 Recruitment Drive [Chronicles of Skyhold IV]: no ender, no offer-reward text, no starter
+- 44850 Arming the Army [Chronicles of Skyhold IV]: no ender, no offer-reward text, no starter
+- 45834 Stolen Souls [Chronicles of Skyhold IV]: no ender, no offer-reward text, no starter
+- 45118 Helya's Horn [Chronicles of Skyhold IV]: no ender, no offer-reward text, no starter
+- 45128 A Glorious Reunion [Chronicles of Skyhold IV]: no ender, no offer-reward text, no starter
+- 44889 Resource Management [Chronicles of Skyhold IV]: no ender, no offer-reward text, no starter
+- 45634 Kvaldir on Call [Chronicles of Skyhold IV]: no offer-reward text
+- 45648 Missing in Action: Lord Darius Crowley [Chronicles of Skyhold IV]: no ender, no offer-reward text
+- 45632 Missing in Action: Eitrigg [Chronicles of Skyhold IV]: no ender, no offer-reward text
+- 45649 Mission: Search and Rescue [Chronicles of Skyhold IV]: no ender, no offer-reward text, no starter
+- 45647 Mission: Search and Rescue [Chronicles of Skyhold IV]: no ender, no offer-reward text, no starter
+- 45650 Operation Felrage [Chronicles of Skyhold IV]: no ender, no offer-reward text, no starter
+- 45633 Operation Felrage [Chronicles of Skyhold IV]: no ender, no offer-reward text, no starter
+- 46267 Return of the Battlelord [Chronicles of Skyhold IV]: no ender, no offer-reward text
+- 45876 Champion: Lord Darius Crowley [Chronicles of Skyhold IV]: no ender, no offer-reward text, no starter
+- 45873 Champion: Eitrigg [Chronicles of Skyhold IV]: no ender, no offer-reward text, no starter
+- 89193 Arator [The Path of Light]: no starter
+- 42396 Do The Thing! [Mglrgrs Of Our Grmlgrlr]: no offer-reward text
+- 42688 Mrgls of Endearment [Mglrgrs Of Our Grmlgrlr]: no offer-reward text
+- 42728 A Mlrglrmg For Grlmrgl [Mglrgrs Of Our Grmlgrlr]: no offer-reward text
+- 41143 Mglrgrs Of Our Grmlgrlr [Mglrgrs Of Our Grmlgrlr]: no offer-reward text
+- 43949 More Weapons of Legend [Weapons of Legend]: no offer-reward text, no starter
+- 44417 One More Legend [Weapons of Legend]: no offer-reward text, no starter
+- 43486 Cracking the Codex [Path of the Light II]: no offer-reward text
+- 43488 Blood of Our Enemy [Path of the Light II]: no offer-reward text
+- 43487 Assault on Violet Hold: The Fel Lexicon [Path of the Light II]: no offer-reward text
+- 49812 Delas in Dalaran [Path of the Light II]: no ender, no offer-reward text, no starter
+- 43535 Translation: Danger! [Path of the Light II]: no offer-reward text
+- 43493 Black Rook Hold: Lord Ravencrest [Path of the Light II]: no offer-reward text
+- 43489 To Felblaze Ingress [Path of the Light II]: no offer-reward text, no starter
+- 43490 Aponi's Trail [Path of the Light II]: no offer-reward text
+- 43491 Allies of the Light [Path of the Light II]: no offer-reward text
+- 43540 The Mind of the Enemy [Path of the Light II]: no offer-reward text
+- 43541 United As One [Path of the Light II]: no offer-reward text
+- 43492 Champion: Aponi Brightmane [Path of the Light II]: no offer-reward text
+- 43934 A New Path [Path of the Light II]: no offer-reward text
+- 43933 Champion: Delas Moonfang [Path of the Light II]: no offer-reward text
+- 43534 Blood of Sargeras [Path of the Light III]: no offer-reward text
+- 91619 Blood of Sargeras [Path of the Light III]: no ender, no offer-reward text, no starter
+- 43698 Lumenstone [Path of the Light III]: no offer-reward text
+- 43699 Defenders of the World [Path of the Light III]: no offer-reward text
+- 43700 A Light in the Darkness [Path of the Light III]: no offer-reward text
+- 43697 Warriors of Light [Path of the Light III]: no offer-reward text
+- 43785 Champion: Arator the Redeemer [Path of the Light III]: no offer-reward text
+- 43701 Champion: Lothraxion [Path of the Light III]: no offer-reward text
+- 45143 Judgment Awaits [Path of the Light IV]: no offer-reward text
+- 45890 Ancestors and Enemies [Path of the Light IV]: no offer-reward text
+- 46259 Darkbinder Dilemma [Path of the Light IV]: no offer-reward text
+- 45145 Moonfang Family Relics [Path of the Light IV]: no offer-reward text
+- 45146 Runic Reading [Path of the Light IV]: no offer-reward text
+- 45147 Felstone Destruction [Path of the Light IV]: no offer-reward text
+- 45148 Oath Breaker [Path of the Light IV]: no offer-reward text
+- 45149 Ending the Crescent Curse [Path of the Light IV]: no offer-reward text
+- 46045 Champion: Nerus Moonfang [Path of the Light IV]: no offer-reward text
+- 43984 The Tome Opens Again [Weapons of Legend]: no offer-reward text
+- 44089 A Greater Arsenal [Weapons of Legend]: no offer-reward text
+- 43945 Expanding Your Horizons [Weapons of Legend]: no offer-reward text
+- 44006 Your Fullest Potential [Weapons of Legend]: no offer-reward text
+- 44034 Another Worthy Blade [Weapons of Legend]: no offer-reward text
+- 44375 The Final Blade [Weapons of Legend]: no offer-reward text
+- 43935 A Second Legend [Weapons of Legend]: no offer-reward text, no starter
+- 44407 The Third Legend [Weapons of Legend]: no offer-reward text, no starter
+- 43973 Two Paths, Two Weapons [Weapons of Legend]: no offer-reward text
+- 44424 Three Paths, Three Weapons [Weapons of Legend]: no offer-reward text
+- 44043 Continuing the Legend [Weapons of Legend]: no offer-reward text
+- 44366 One Last Adventure [Weapons of Legend]: no offer-reward text
+- 44443 Weapons of the Ancients [Weapons of Legend]: no offer-reward text
+- 44379 In Pursuit of Power [Weapons of Legend]: no offer-reward text, no starter
+- 44383 In Pursuit of Power [Weapons of Legend]: no offer-reward text
+- 43962 Blades of Destiny [Weapons of Legend]: no offer-reward text
+- 44401 A Weapon For Every Occasion [Weapons of Legend]: no offer-reward text, no starter
+- 91971 Hitting the Hammer [Saltheril's Haven]: no ender, no offer-reward text, no starter
+- 91973 None [Saltheril's Haven]: MISSING quest_template
+- 91975 That's Our Wood [Saltheril's Haven]: no ender, no offer-reward text, no starter
+- 91976 Lightbloom Dimmed [Saltheril's Haven]: no ender, no offer-reward text, no starter
+- 91977 Less Lawless [Saltheril's Haven]: no ender, no offer-reward text
+- 91978 Taxing the Tideborne [Saltheril's Haven]: no starter
+- 91983 Lovely Plumage [Saltheril's Haven]: no ender, no offer-reward text
+- 91984 Sungrub Silk [Saltheril's Haven]: no ender, no offer-reward text, no starter
+- 91985 Windrunner Memorabilia [Saltheril's Haven]: no ender, no offer-reward text, no starter
+- 91986 Put a Little Snap in Their Step [Saltheril's Haven]: no ender, no offer-reward text
+- 91987 Potted Lashers [Saltheril's Haven]: no ender, no offer-reward text
+- 91988 Brightwing Conservation [Saltheril's Haven]: no ender, no offer-reward text
+- 91989 Ghostland Peppers [Saltheril's Haven]: no starter
+- 91990 Sunset to Sea [Saltheril's Haven]: no ender, no offer-reward text, no starter
+- 91991 A Little Errand [Saltheril's Haven]: no ender, no offer-reward text, no starter
+- 89290 None [Saltheril's Haven]: MISSING quest_template
+- 91992 Where Has the Wine Gone? [Saltheril's Haven]: no ender, no offer-reward text, no starter
+- 91994 None [Saltheril's Haven]: MISSING quest_template
+- 91995 What Horrible Magic [Saltheril's Haven]: no starter
+- 91996 Fit for a Magister [Saltheril's Haven]: no ender, no offer-reward text, no starter
+- 91997 Power Clean [Saltheril's Haven]: no ender, no offer-reward text, no starter
+- 91999 A Bit of Bloodthistle [Saltheril's Haven]: no ender, no offer-reward text, no starter
+- 92000 Bring the Ruckus [Saltheril's Haven]: no ender, no offer-reward text
+- 92001 One Smuggler to Another [Saltheril's Haven]: no ender, no offer-reward text, no starter
+- 92003 Artisanal Replicas [Saltheril's Haven]: no ender, no offer-reward text, no starter
+- 92004 Shady Dealings [Saltheril's Haven]: no ender, no offer-reward text, no starter
+- 92005 Throw the Dice [Saltheril's Haven]: no ender, no offer-reward text
+- 92006 We Need a Refill [Saltheril's Haven]: no ender, no offer-reward text
+- 92007 Begged, Borrowed, or Stolen [Saltheril's Haven]: no ender, no offer-reward text
+- 89277 Illuminate the Space [Saltheril's Haven]: no ender, no offer-reward text, no starter
+- 89278 Minding Our Duty [Saltheril's Haven]: no ender, no offer-reward text
+- 89279 None [Saltheril's Haven]: MISSING quest_template
+- 89429 None [Saltheril's Haven]: MISSING quest_template
+- 89424 None [Saltheril's Haven]: MISSING quest_template
+- 89434 None [Saltheril's Haven]: MISSING quest_template
+- 89430 None [Saltheril's Haven]: MISSING quest_template
+- 89425 None [Saltheril's Haven]: MISSING quest_template
+- 89280 None [Saltheril's Haven]: MISSING quest_template
+- 89435 None [Saltheril's Haven]: MISSING quest_template
+- 89433 None [Saltheril's Haven]: MISSING quest_template
+- 89438 None [Saltheril's Haven]: MISSING quest_template
+- 89281 None [Saltheril's Haven]: MISSING quest_template
+- 89428 None [Saltheril's Haven]: MISSING quest_template
+- 89437 None [Saltheril's Haven]: MISSING quest_template
+- 89432 None [Saltheril's Haven]: MISSING quest_template
+- 89282 None [Saltheril's Haven]: MISSING quest_template
+- 89427 None [Saltheril's Haven]: MISSING quest_template
+- 89283 None [Saltheril's Haven]: MISSING quest_template
+- 89439 None [Saltheril's Haven]: MISSING quest_template
+- 89426 None [Saltheril's Haven]: MISSING quest_template
+- 89436 None [Saltheril's Haven]: MISSING quest_template
+- 89431 None [Saltheril's Haven]: MISSING quest_template
+- 89314 None [Saltheril's Haven]: MISSING quest_template
+- 89315 None [Saltheril's Haven]: MISSING quest_template
+- 89316 None [Saltheril's Haven]: MISSING quest_template
+- 89311 None [Saltheril's Haven]: MISSING quest_template
+- 89312 None [Saltheril's Haven]: MISSING quest_template
+- 89313 None [Saltheril's Haven]: MISSING quest_template
+- 89307 None [Saltheril's Haven]: MISSING quest_template
+- 89308 None [Saltheril's Haven]: MISSING quest_template
+- 89309 None [Saltheril's Haven]: MISSING quest_template
+- 89285 None [Saltheril's Haven]: MISSING quest_template
+- 89286 None [Saltheril's Haven]: MISSING quest_template
+- 89287 None [Saltheril's Haven]: MISSING quest_template
+- 90575 Fortify the Runestones: Farstriders [Saltheril's Haven]: no ender, no offer-reward text
+- 90576 Fortify the Runestones: Shades of the Row [Saltheril's Haven]: no ender, no offer-reward text
+- 43295 Slaughter the Fel Armies [Origins]: no ender, no offer-reward text, no starter
+- 43483 Fel Annihilation [Origins]: no ender, no offer-reward text, no starter
+- 44337 Goddess Watch Over You [Origins]: no starter
+- 44338 Goddess Watch Over You [Origins]: no offer-reward text, no starter
+- 44464 Awakenings [Origins]: no starter
+- 44466 An Unclear Path [Origins]: no starter
+- 44479 Ravencrest's Legacy [Origins]: no starter
+- 44414 Felspawns of Lothros [Origins]: giver 113361 not spawned
+- 44415 The Red Axe [Origins]: giver 113355 not spawned, giver 113361 not spawned
+- 44416 Hunter of Night [Origins]: giver 113355 not spawned
+- 44480 In My Father's House [Origins]: no starter
+- 44497 Destiny Unfulfilled [Origins]: no offer-reward text, no starter
+- 44496 Destiny Unfulfilled [Origins]: no offer-reward text, no starter
+- 44481 Destiny Unfulfilled [Origins]: no starter
+- 45174 The Hunt for Illidan Stormrage [The Hunt for Illidan Stormrage]: no ender, no starter
+- 45175 Soul Prism of the Illidari [The Hunt for Illidan Stormrage]: no ender, no starter
+- 45176 Trial of Valor: The Once and Future Lord of Shadows [The Hunt for Illidan Stormrage]: no ender, no offer-reward text, no starter
+- 45177 The Nighthold [The Hunt for Illidan Stormrage]: no ender, no offer-reward text, no starter
+- 40952 Hunter to Hunter [The Unseen Path]: no offer-reward text
+- 41008 Hunter to Hunter [The Unseen Path]: no offer-reward text, no starter
+- 41009 Hunter to Hunter [The Unseen Path]: no offer-reward text
+- 40953 On Eagle's Wings [The Unseen Path]: no offer-reward text
+- 40954 The Unseen Path [The Unseen Path]: no offer-reward text
+- 40955 Oath of Service [The Unseen Path]: no offer-reward text
+- 40958 Tactical Matters [The Unseen Path]: no offer-reward text
+- 40959 The Campaign Begins [The Unseen Path]: no offer-reward text
+- 42519 Rise, Champions [The Unseen Path]: no offer-reward text
+- 42409 Champion: Loren Stormhoof [The Unseen Path]: no offer-reward text
+- 40957 A Strong Right Hand [The Unseen Path]: no offer-reward text
+- 42523 Making Contact [The Unseen Path]: no offer-reward text
+- 42524 Recruiting The Troops [The Unseen Path]: no offer-reward text
+- 42525 Troops in the Field [The Unseen Path]: no offer-reward text
+- 42526 Tech It Up A Notch [The Unseen Path]: no offer-reward text
+- 42384 Scouting Reports [Watchers in the Wild I]: no offer-reward text
+- 42385 Lending a Hand [Watchers in the Wild I]: no offer-reward text
+- 42386 Rising Troubles [Watchers in the Wild I]: no offer-reward text
+- 42387 Assassin Entrapment [Watchers in the Wild I]: no offer-reward text
+- 42388 Urgent Summons [Watchers in the Wild I]: no offer-reward text
+- 42389 Calling Hilaire Home [Watchers in the Wild I]: no offer-reward text
+- 42391 Bite of the Beast [Watchers in the Wild I]: no offer-reward text
+- 42393 Homecoming [Watchers in the Wild I]: no offer-reward text
+- 42411 Champion: Beastmaster Hilaire [Watchers in the Wild I]: no offer-reward text
+- 42390 Recruiting Rexxar [Watchers in the Wild I]: no offer-reward text
+- 43335 Survival Skills [Watchers in the Wild I]: no offer-reward text
+- 42392 Survive the Night [Watchers in the Wild I]: no offer-reward text
+- 42410 Champion: Rexxar [Watchers in the Wild I]: no offer-reward text
+- 42395 Signaling Trouble [Watchers in the Wild I]: no offer-reward text
+- 42394 Unseen Protection [Watchers in the Wild II]: no offer-reward text
+- 42403 Highmountain Hunters [Watchers in the Wild II]: no offer-reward text
+- 42134 Recruiting More Troops [Watchers in the Wild II]: no offer-reward text
+- 42436 Aiding Our Allies [Watchers in the Wild II]: no offer-reward text
+- 42928 Silkweave Bandages [Watchers in the Wild II]: no offer-reward text
+- 42929 Highmountain Salmon [Watchers in the Wild II]: no offer-reward text
+- 42414 Champion: Addie Fizzlebog [Watchers in the Wild II]: no offer-reward text
+- 42413 Champion: Hemet Nesingwary [Watchers in the Wild II]: no offer-reward text
+- 42397 Baron and the Huntsman [Watchers in the Wild II]: no offer-reward text
+- 42398 Awakening the Senses [Watchers in the Wild II]: no offer-reward text
+- 42412 Champion: Huntsman Blake [Watchers in the Wild II]: no offer-reward text
+- 42399 Ready to Work [Watchers in the Wild II]: no offer-reward text
+- 42400 Missing Mages [Watchers in the Wild II]: no offer-reward text
+- 42401 The Scent of Magic [Watchers in the Wild II]: no offer-reward text
+- 42404 Assisting the Archmage [Watchers in the Wild II]: no offer-reward text
+- 42689 Knowing Our Enemy [Watchers in the Wild II]: no offer-reward text
+- 42691 Leyworm Lure [Watchers in the Wild II]: no offer-reward text
+- 42406 To Tame the Beast [Watchers in the Wild II]: no offer-reward text
+- 42407 The Nature of the Beast [Watchers in the Wild II]: no offer-reward text
+- 42402 Requesting Reinforcements [Watchers in the Wild III]: no offer-reward text
+- 42405 Informing Our Allies [Watchers in the Wild III]: no offer-reward text
+- 43182 The Missing Vessel [Watchers in the Wild III]: no offer-reward text
+- 42408 Required Reagents [Watchers in the Wild III]: no offer-reward text
+- 91616 Required Reagents [Watchers in the Wild III]: no ender, no offer-reward text, no starter
+- 42654 Darkheart Thicket: Nightmare Oak [Watchers in the Wild III]: no offer-reward text
+- 42655 Ore Under the Sea [Watchers in the Wild III]: no offer-reward text
+- 44680 Leading by Example [Watchers in the Wild III]: no offer-reward text
+- 42656 Azure Weaponry [Watchers in the Wild III]: no offer-reward text
+- 42657 Meeting in Moonclaw Vale [Watchers in the Wild III]: no offer-reward text
+- 42658 Delicate Enchantments [Watchers in the Wild III]: no offer-reward text
+- 42133 Same Day Delivery [Watchers in the Wild III]: no offer-reward text
+- 42415 Champion: Halduron Brightwing [Watchers in the Wild III]: no offer-reward text, no starter
+- 42659 In Defense of Dalaran [Watchers in the Wild III]: no offer-reward text
+- 45551 Devastating Effects [Watchers in the Wild IV]: no ender, no offer-reward text, no starter
+- 45552 Soothing Wounds [Watchers in the Wild IV]: no ender, no offer-reward text, no starter
+- 45553 The Nighthuntress Beckons [Watchers in the Wild IV]: no offer-reward text
+- 45554 Taking Control [Watchers in the Wild IV]: no offer-reward text
+- 45555 Felbound Beasts [Watchers in the Wild IV]: no offer-reward text
+- 45556 Ready to Strike [Watchers in the Wild IV]: no offer-reward text
+- 45557 Unnatural Consequences [Watchers in the Wild IV]: no offer-reward text
+- 46060 Salvation [Watchers in the Wild IV]: no offer-reward text
+- 46235 Secured Surroundings [Watchers in the Wild IV]: no offer-reward text
+- 46048 Champion: Nighthuntress Syrenne [Watchers in the Wild IV]: no offer-reward text
+- 40832 Call of The Uncrowned [The Uncrowned]: giver 102018 not spawned
+- 43007 Return to the Chamber of Shadows [The Uncrowned]: no offer-reward text, no starter
+- 42139 Rise, Champions [The Uncrowned]: no offer-reward text
+- 43261 Champion: Vanessa VanCleef [The Uncrowned]: no offer-reward text
+- 43262 Champion: Garona Halforcen [The Uncrowned]: no offer-reward text
+- 42140 A More Wretched Hive of Scum and Villainy [The Uncrowned]: no offer-reward text
+- 43013 The School of Roguery [The Uncrowned]: no offer-reward text
+- 43014 The Big Bad Wolfe [The Uncrowned]: no offer-reward text
+- 43015 What Winstone Suggests [The Uncrowned]: no offer-reward text
+- 43958 A Body of Evidence [Saga of the Shadowblade I]: no offer-reward text
+- 43829 Spy vs. Spy [Saga of the Shadowblade I]: no offer-reward text
+- 44041 The Bloody Truth [Saga of the Shadowblade I]: no offer-reward text
+- 44116 Mystery at Citrine Bay [Saga of the Shadowblade I]: no offer-reward text
+- 44155 Searching For Clues [Saga of the Shadowblade I]: no offer-reward text
+- 44117 Time Flies When Yer Havin' Rum! [Saga of the Shadowblade I]: no offer-reward text
+- 44177 Dark Secrets and Shady Deals [Saga of the Shadowblade I]: no offer-reward text
+- 44183 Champion: Lord Jorach Ravenholdt [Saga of the Shadowblade I]: no offer-reward text
+- 43841 Convincin' Old Yancey [Saga of the Shadowblade I]: no offer-reward text
+- 43852 Fancy Lads and Buccaneers [Saga of the Shadowblade I]: no offer-reward text
+- 44181 Champion: Fleet Admiral Tethys [Saga of the Shadowblade I]: no offer-reward text
+- 42684 Throwing SI:7 Off the Trail [Saga of the Shadowblade I]: no offer-reward text
+- 43468 Blood for the Wolfe [Saga of the Shadowblade I]: no offer-reward text
+- 42730 Noggenfogger's Reasonable Request [Saga of the Shadowblade I]: no offer-reward text
+- 91620 Noggenfogger's Reasonable Request [Saga of the Shadowblade I]: no ender, no offer-reward text, no starter
+- 44178 A Particularly Potent Potion [Saga of the Shadowblade I]: no offer-reward text
+- 44180 Champion: Marin Noggenfogger [Saga of the Shadowblade I]: no offer-reward text
+- 43253 Maw of Souls: Ancient Vrykul Legends [Saga of the Shadowblade II]: no offer-reward text
+- 43249 The Raven's Eye [Saga of the Shadowblade II]: no offer-reward text
+- 43250 Off to Court [Saga of the Shadowblade II]: no offer-reward text
+- 43251 In Search of the Eye [Saga of the Shadowblade II]: no offer-reward text
+- 43252 Eternal Unrest [Saga of the Shadowblade II]: no offer-reward text
+- 42678 Black Rook Hold: Into Black Rook Hold [Saga of the Shadowblade II]: no offer-reward text
+- 42680 Deciphering the Letter [Saga of the Shadowblade II]: no offer-reward text
+- 42800 Champion: Valeera Sanguinar [Saga of the Shadowblade II]: no offer-reward text
+- 43469 Where In the World is Mathias? [Saga of the Shadowblade III]: no offer-reward text
+- 43470 Pruning the Garden [Saga of the Shadowblade III]: no offer-reward text
+- 43479 The World is Not Enough [Saga of the Shadowblade III]: no offer-reward text
+- 43485 A Burning Distraction [Saga of the Shadowblade III]: no offer-reward text
+- 43508 The Captive Spymaster [Saga of the Shadowblade III]: no offer-reward text
+- 37666 Picking a Fight [Saga of the Shadowblade III]: no offer-reward text
+- 37448 A Simple Plan [Saga of the Shadowblade III]: no offer-reward text
+- 37494 Under Cover of Darkness [Saga of the Shadowblade III]: no offer-reward text
+- 37689 The Imposter [Saga of the Shadowblade III]: no offer-reward text, no starter
+- 43723 Champion: Taoshi [Saga of the Shadowblade III]: no offer-reward text
+- 43724 Champion: Master Mathias Shaw [Saga of the Shadowblade III]: no offer-reward text
+- 45833 The Pirate's Bay [Saga of the Shadowblade IV]: no ender, no offer-reward text, no starter
+- 46322 The Pirate's Bay [Saga of the Shadowblade IV]: no ender, no offer-reward text, no starter
+- 44758 What's the Cache? [Saga of the Shadowblade IV]: no ender, no offer-reward text, no starter
+- 46323 What's the Cache? [Saga of the Shadowblade IV]: no ender, no offer-reward text, no starter
+- 45835 False Orders [Saga of the Shadowblade IV]: no ender, no offer-reward text, no starter
+- 46324 False Orders [Saga of the Shadowblade IV]: no ender, no offer-reward text, no starter
+- 45073 Loot and Plunder! [Saga of the Shadowblade IV]: no ender, no offer-reward text, no starter
+- 45848 Fit For a Pirate [Saga of the Shadowblade IV]: no ender, no offer-reward text, no starter
+- 45836 Jorach's Calling [Saga of the Shadowblade IV]: no ender, no offer-reward text, no starter
+- 46326 Jorach's Calling [Saga of the Shadowblade IV]: no ender, no offer-reward text, no starter
+- 45571 A Bit of Espionage [Saga of the Shadowblade IV]: no ender, no offer-reward text, no starter
+- 45573 Rise Up [Saga of the Shadowblade IV]: no offer-reward text
+- 45576 Rise Up [Saga of the Shadowblade IV]: no offer-reward text
+- 45628 This Time, Leave a Trail [Saga of the Shadowblade IV]: no offer-reward text
+- 45629 This Time, Leave a Trail [Saga of the Shadowblade IV]: no offer-reward text
+- 46827 Meld Into the Shadows [Saga of the Shadowblade IV]: no ender, no offer-reward text
+- 46260 Meld Into the Shadows [Saga of the Shadowblade IV]: no ender, no offer-reward text
+- 46058 Champion: Lilian Voss [Saga of the Shadowblade IV]: no ender, no offer-reward text, no starter
+- 46059 Champion: Tess Greymane [Saga of the Shadowblade IV]: no ender, no offer-reward text, no starter
+- 44100 Proper Introductions [Light and the Void]: no offer-reward text, no starter
+- 43273 Spread the Word [Light and the Void]: no offer-reward text
+- 43275 Recruiting the Troops [Light and the Void]: no offer-reward text
+- 43276 Troops in the Field [Light and the Void]: no offer-reward text
+- 43277 Tech It Up A Notch [Light and the Void]: no offer-reward text
+- 43371 Relieving the Front Lines [Fulfilling the Prophecy I]: no offer-reward text
+- 43372 Whispers in the Void [Fulfilling the Prophecy I]: no offer-reward text
+- 43373 The Best and Brightest [Fulfilling the Prophecy I]: no offer-reward text
+- 43374 Murloc Mind Control [Fulfilling the Prophecy I]: no offer-reward text
+- 43375 An Ample Supply [Fulfilling the Prophecy I]: no offer-reward text
+- 43376 Problem Salver [Fulfilling the Prophecy I]: no offer-reward text
+- 42137 Champion: Yalia Sagewhisper [Fulfilling the Prophecy I]: no offer-reward text
+- 42138 Champion: Zabra Hexx [Fulfilling the Prophecy I]: no offer-reward text
+- 43378 Eye of Azshara: Looking Through the Lens [Fulfilling the Prophecy I]: no offer-reward text
+- 43379 Velen's Vision [Fulfilling the Prophecy I]: no offer-reward text
+- 43377 Halls of Valor: The Light Within [Fulfilling the Prophecy II]: no offer-reward text, no starter
+- 43851 Recruiting More Troops [Fulfilling the Prophecy II]: no offer-reward text
+- 43384 Demonic Runes [Fulfilling the Prophecy II]: no offer-reward text
+- 43383 Awakening the Light [Fulfilling the Prophecy II]: no offer-reward text
+- 43380 Champion: Sol [Fulfilling the Prophecy II]: no offer-reward text
+- 43385 Infiltrating Our Enemies [Fulfilling the Prophecy II]: no offer-reward text
+- 43386 Onslaught Envoy [Fulfilling the Prophecy II]: no offer-reward text
+- 43387 Scarlet Redemption [Fulfilling the Prophecy II]: giver 111191 not spawned, no offer-reward text
+- 43388 Apostate Liberation [Fulfilling the Prophecy II]: giver 111191 not spawned, no offer-reward text
+- 43389 Unexpected Guests [Fulfilling the Prophecy II]: no offer-reward text
+- 43381 Champion: Mariella Ward [Fulfilling the Prophecy II]: no offer-reward text
+- 43390 Forgotten Shadows [Fulfilling the Prophecy II]: no offer-reward text
+- 43391 Secrets of the Void [Fulfilling the Prophecy II]: no offer-reward text
+- 43392 Into the Void [Fulfilling the Prophecy II]: no offer-reward text
+- 43382 Champion: Natalie Seline [Fulfilling the Prophecy II]: no offer-reward text
+- 43393 Rising Shadows [Fulfilling the Prophecy II]: no offer-reward text
+- 43394 Crossing Legion Lines [Fulfilling the Prophecy II]: no offer-reward text
+- 43395 Allies of the Light [Fulfilling the Prophecy II]: no offer-reward text
+- 43396 The Mind of the Enemy [Fulfilling the Prophecy II]: no offer-reward text
+- 43397 United As One [Fulfilling the Prophecy II]: no offer-reward text
+- 43797 Aiding the Conclave [Fulfilling the Prophecy II]: no offer-reward text
+- 43399 Fortifying the Temple [Fulfilling the Prophecy III]: no offer-reward text
+- 43832 Elixirs of Aid [Fulfilling the Prophecy III]: no offer-reward text
+- 43923 Starlight Rose [Fulfilling the Prophecy III]: no offer-reward text, no starter
+- 43924 Leyblood [Fulfilling the Prophecy III]: no offer-reward text, no starter
+- 43925 Runescale Koi [Fulfilling the Prophecy III]: no offer-reward text, no starter
+- 43400 Lumenstone [Fulfilling the Prophecy III]: no offer-reward text
+- 43401 A Light in the Darkness [Fulfilling the Prophecy III]: no offer-reward text
+- 43398 Champion: Alonsus Faol [Fulfilling the Prophecy III]: no offer-reward text, no starter
+- 43402 High Priest of Netherlight [Fulfilling the Prophecy III]: no offer-reward text, no starter
+- 45343 A Curious Contagion [Fulfilling the Prophecy IV]: no ender, no offer-reward text, no starter
+- 45344 Sampling the Source [Fulfilling the Prophecy IV]: no offer-reward text
+- 45345 Mischievous Sprites [Fulfilling the Prophecy IV]: no offer-reward text
+- 45346 Shambling Specimens [Fulfilling the Prophecy IV]: no offer-reward text
+- 45347 Crafting a Cure [Fulfilling the Prophecy IV]: no offer-reward text
+- 45348 Safekeeping [Fulfilling the Prophecy IV]: no ender, no offer-reward text
+- 45349 To the Broken Shore [Fulfilling the Prophecy IV]: no ender, no offer-reward text, no starter
+- 45350 Countering the Contagion [Fulfilling the Prophecy IV]: no offer-reward text
+- 45342 Administering Aid [Fulfilling the Prophecy IV]: no offer-reward text
+- 46145 Sterile Surroundings [Fulfilling the Prophecy IV]: no ender, no offer-reward text
+- 46034 Champion: Aelthalyste [Fulfilling the Prophecy IV]: no ender, no offer-reward text, no starter
+- 39746 A Ring Unbroken [A Ring Unbroken]: no offer-reward text
+- 41335 The Elements Call... [A Ring Unbroken]: no offer-reward text
+- 40225 A Ring Reforged [A Ring Unbroken]: no offer-reward text
+- 41510 Azeroth Needs You [A Ring Unbroken]: no offer-reward text
+- 42188 Nobundo Awaits [A Ring Unbroken]: no offer-reward text
+- 44544 Call of the Earthen Ring [A Ring Unbroken]: no offer-reward text, no starter
+- 42114 The Ritual of Tides [A Ring Unbroken]: no offer-reward text
+- 42383 Rise, Champions [A Ring Unbroken]: no offer-reward text
+- 42197 Champion: Duke Hydraxis [A Ring Unbroken]: no offer-reward text, no starter
+- 42198 Champion: Stormcaller Mylra [A Ring Unbroken]: no offer-reward text
+- 42141 Summoner Morn [A Ring Unbroken]: no offer-reward text
+- 42142 Recruiting The Troops [A Ring Unbroken]: no offer-reward text
+- 41741 Troops in the Field [A Ring Unbroken]: no offer-reward text
+- 41740 Tech It Up A Notch [A Ring Unbroken]: no offer-reward text
+- 42184 Mission: Elemental Diplomacy [The Elemental Lords I]: no offer-reward text
+- 42977 Servant of the Windseeker [The Elemental Lords I]: no offer-reward text
+- 43002 Blessed Blade of the Windseeker [The Elemental Lords I]: no offer-reward text
+- 41770 The Skies Above [The Elemental Lords I]: no offer-reward text, no starter
+- 41771 Recharging the Blade [The Elemental Lords I]: no offer-reward text, no starter
+- 41981 Traversing the Heavens [The Elemental Lords I]: no offer-reward text, no starter
+- 41776 Return of the Windlord [The Elemental Lords I]: no offer-reward text, no starter
+- 41901 Oath of the Windlord [The Elemental Lords I]: no offer-reward text, no starter
+- 44465 Recruiting Earthcallers [The Elemental Lords I]: no offer-reward text
+- 42996 The Maelstrom Pillar: Air [The Elemental Lords II]: no offer-reward text
+- 42983 Mistral Essence [The Elemental Lords II]: no offer-reward text
+- 42984 Eye of Azshara: The Scepter of Storms [The Elemental Lords II]: no offer-reward text
+- 42986 Enemies of Air [The Elemental Lords II]: no offer-reward text
+- 41743 Champion: Nobundo [The Elemental Lords II]: no offer-reward text
+- 41742 Champion: Celestos [The Elemental Lords II]: no offer-reward text
+- 42200 Mission: Investigating Deepholm [The Elemental Lords II]: no offer-reward text
+- 41775 The Great Stonemother [The Elemental Lords II]: no offer-reward text
+- 42068 The Return of Twilight [The Elemental Lords II]: no offer-reward text
+- 41777 Destroying the Cult [The Elemental Lords II]: no offer-reward text, no starter
+- 41897 The Master's Plan [The Elemental Lords II]: no offer-reward text, no starter
+- 41898 Unleashing the Elements [The Elemental Lords II]: no offer-reward text, no starter
+- 41899 Held Captive! [The Elemental Lords II]: no offer-reward text, no starter
+- 42065 The Twilight Master [The Elemental Lords II]: no offer-reward text, no starter
+- 41900 A Promise of Earth [The Elemental Lords II]: no offer-reward text
+- 42997 The Maelstrom Pillar: Earth [The Elemental Lords III]: no offer-reward text
+- 42989 Ma'haat the Indomitable [The Elemental Lords III]: no offer-reward text
+- 42995 A Taste For Blood [The Elemental Lords III]: no offer-reward text, no starter
+- 91621 A Taste For Blood [The Elemental Lords III]: no ender, no offer-reward text, no starter
+- 43003 Return to Janai [The Elemental Lords III]: no offer-reward text
+- 42990 Neltharion's Lair: The Earthen Amulet [The Elemental Lords III]: no offer-reward text
+- 42988 Worldmender [The Elemental Lords III]: no offer-reward text
+- 42208 Return to the Firelands [The Elemental Lords III]: no offer-reward text
+- 41746 Champion: Muln Earthfury [The Elemental Lords III]: no offer-reward text
+- 41747 Champion: Avalanchion [The Elemental Lords III]: no offer-reward text
+- 41772 Ascendant of Flames [The Elemental Lords III]: no offer-reward text
+- 41773 The Firelord's Command [The Elemental Lords III]: no offer-reward text
+- 41934 The Brand of Damnation [The Elemental Lords III]: no offer-reward text
+- 41888 Allegiance of Flame [The Elemental Lords III]: no offer-reward text
+- 41744 Champion: Rehgar Earthfury [The Elemental Lords III]: no offer-reward text
+- 41745 Champion: Scaldius [The Elemental Lords III]: no offer-reward text
+- 45652 A "Humble" Request [The Elemental Lords IV]: no ender, no offer-reward text, no starter
+- 45706 The Power of Thousands [The Elemental Lords IV]: no ender, no offer-reward text, no starter
+- 45724 Snakes and Stones [The Elemental Lords IV]: no ender, no offer-reward text, no starter
+- 45723 The Crone's Wrath [The Elemental Lords IV]: no ender, no offer-reward text, no starter
+- 45725 Breaking Chains [The Elemental Lords IV]: no ender, no offer-reward text, no starter
+- 44800 Against Magatha's Will [The Elemental Lords IV]: no ender, no offer-reward text, no starter
+- 45763 Demonic Disruption [The Elemental Lords IV]: no offer-reward text
+- 45971 Infernal Phenomena [The Elemental Lords IV]: no offer-reward text
+- 45767 Elemental Cores [The Elemental Lords IV]: no offer-reward text
+- 45765 Brothers and Sisters [The Elemental Lords IV]: no offer-reward text
+- 45883 The Firelord's Offense [The Elemental Lords IV]: no offer-reward text
+- 45769 Conflagration [The Elemental Lords IV]: no offer-reward text
+- 46258 The Calm After the Storm [The Elemental Lords IV]: no ender, no offer-reward text, no starter
+- 46057 Champion: Magatha Grimtotem [The Elemental Lords IV]: no ender, no offer-reward text, no starter
+- 42954 A Small Favor [Rise of the Tirisgarde II]: no starter
+- 42955 The Proper Way of Things [Rise of the Tirisgarde II]: no starter
+- 42956 Ari's Package [Rise of the Tirisgarde II]: no starter
+- 42959 Three Is a Lucky Number [Rise of the Tirisgarde II]: no starter
+- 42704 Champion: Arcane Destroyer [Rise of the Tirisgarde II]: no starter
+- 42940 When There's a Will, There's a Way [Rise of the Tirisgarde III]: no starter
+- 42917 Champion: Archmage Vargoth [Rise of the Tirisgarde III]: no starter
+- 45437 An Urgent Situation [Rise of the Tirisgarde IV]: no ender, no starter
+- 44766 Backup Plan [Rise of the Tirisgarde IV]: no ender, no starter
+- 46335 The Vault of the Tirisgarde [Rise of the Tirisgarde IV]: no ender, no starter
+- 46338 A Creative Solution [Rise of the Tirisgarde IV]: no ender, no starter
+- 45207 The Nightborne Apprentice [Rise of the Tirisgarde IV]: no ender, no starter
+- 46705 Retaliation [Rise of the Tirisgarde IV]: no ender, no starter
+- 46339 Keymaster Orlis [Rise of the Tirisgarde IV]: no ender, no starter
+- 46345 Into the Hornet's Nest [Rise of the Tirisgarde IV]: no ender, no starter
+- 44768 Nyell's Workshop [Rise of the Tirisgarde IV]: no ender, no starter
+- 44770 Secrets of the Shal'dorei [Rise of the Tirisgarde IV]: no ender, no starter
+- 46351 Keep it Secret, Keep it Safe [Rise of the Tirisgarde IV]: no ender, no starter
+- 45251 Redundancy [Rise of the Tirisgarde IV]: no ender, no starter
+- 45586 Shield Amplification [Rise of the Tirisgarde IV]: no ender
+- 45614 Lady Remor'za [Rise of the Tirisgarde IV]: no ender
+- 46000 Arming Dalaran [Rise of the Tirisgarde IV]: no ender, no starter
+- 46290 Return of the Archmage [Rise of the Tirisgarde IV]: no ender, no starter
+- 46043 Champion: Aethas Sunreaver [Rise of the Tirisgarde IV]: no ender, no starter
+- 40716 The Sixth [Council of the Black Harvest]: no offer-reward text
+- 40729 The New Blood [Council of the Black Harvest]: no offer-reward text
+- 40684 The Tome of Blighted Implements [Council of the Black Harvest]: no offer-reward text
+- 40731 The Heart of the Dreadscar [Council of the Black Harvest]: no offer-reward text
+- 40823 Rebuilding the Council [Council of the Black Harvest]: no offer-reward text
+- 40824 The Path of the Dreadscar [Council of the Black Harvest]: no offer-reward text
+- 44099 A Mutual Friend [Council of the Black Harvest]: no offer-reward text, no starter
+- 42608 Rise, Champions [Council of the Black Harvest]: no offer-reward text
+- 41750 Champion: Calydus [Council of the Black Harvest]: no offer-reward text
+- 41748 Champion: Ritssyn Flamescowl [Council of the Black Harvest]: no offer-reward text
+- 42603 Information at Any Cost [Council of the Black Harvest]: no offer-reward text
+- 41797 Recruiting The Troops [Council of the Black Harvest]: no offer-reward text
+- 42602 Troops in the Field [Council of the Black Harvest]: no offer-reward text
+- 42601 Tech It Up A Notch [Council of the Black Harvest]: no offer-reward text
+- 42097 Searching the Archives [Rebuilding the Council I]: no offer-reward text
+- 41759 An Unlikely Ally [Rebuilding the Council I]: no offer-reward text
+- 39179 Bloodstone Bandit [Rebuilding the Council I]: no offer-reward text
+- 39389 It Hungers for Blood [Rebuilding the Council I]: no offer-reward text
+- 39142 Testing a Theory [Rebuilding the Council I]: no offer-reward text
+- 40218 Debt Repaid [Rebuilding the Council I]: no offer-reward text
+- 41767 A Daring Rescue [Rebuilding the Council I]: no offer-reward text
+- 41798 Recruiting More Troops [Rebuilding the Council II]: no offer-reward text
+- 41753 Champion: Jubeka Shadowbreaker [Rebuilding the Council II]: no offer-reward text
+- 41752 Champion: Zinnin Smythe [Rebuilding the Council II]: no offer-reward text
+- 42100 Empowering the Soul [Rebuilding the Council II]: no offer-reward text
+- 42098 Black Rook Hold: An Unclaimed Soul [Rebuilding the Council II]: no offer-reward text
+- 41768 Soul Beacon [Rebuilding the Council II]: no offer-reward text
+- 41769 Mad Ernie the Alchemist [Rebuilding the Council II]: no offer-reward text
+- 41781 Herding Goats [Rebuilding the Council II]: no offer-reward text
+- 41780 Doom and Gloom [Rebuilding the Council II]: no offer-reward text
+- 41784 Borrowed Time [Rebuilding the Council II]: no offer-reward text
+- 41751 Champion: Kira Iresoul [Rebuilding the Council III]: no offer-reward text
+- 41754 Champion: Shinfel Blightsworn [Rebuilding the Council III]: no offer-reward text
+- 42102 One Who's Worthy [Rebuilding the Council III]: no offer-reward text
+- 42103 Let it Feed [Rebuilding the Council III]: no offer-reward text
+- 42660 Vault of the Wardens: Matters of the Heart [Rebuilding the Council III]: no offer-reward text, no starter
+- 44682 Unparalleled Power [Rebuilding the Council III]: no offer-reward text
+- 41785 Finding Fizzlebang [Rebuilding the Council III]: no offer-reward text
+- 41788 Coercing a Confession [Rebuilding the Council III]: no offer-reward text
+- 41787 Someone Else's Mess [Rebuilding the Council III]: no offer-reward text
+- 41793 Lulubelle on Loan [Rebuilding the Council III]: no offer-reward text
+- 41795 Summoning the Sisters [Rebuilding the Council III]: no offer-reward text
+- 41755 Champion: Lulubelle Fizzlebang [Rebuilding the Council III]: no offer-reward text
+- 41796 Selecting a Sixth [Rebuilding the Council III]: no offer-reward text
+- 41756 Champion: Eredar Twins [Rebuilding the Council III]: no offer-reward text
+- 45021 Answers Unknown [Rebuilding the Council IV]: no offer-reward text
+- 45024 Cult Culling [Rebuilding the Council IV]: no offer-reward text
+- 45025 Stealing the Source of Power [Rebuilding the Council IV]: no offer-reward text
+- 45026 Expending Fel Energy [Rebuilding the Council IV]: no offer-reward text
+- 45794 Informing the Council [Rebuilding the Council IV]: no offer-reward text
+- 45027 To the Broken Shore [Rebuilding the Council IV]: no offer-reward text
+- 45028 The Fate of Kanrethad [Rebuilding the Council IV]: no offer-reward text
+- 46020 Crystal Containment [Rebuilding the Council IV]: no offer-reward text
+- 46316 Champion: Kanrethad Ebonlocke [Rebuilding the Council IV]: no ender, no offer-reward text, no starter
+- 46047 Champion: Kanrethad Ebonlocke [Rebuilding the Council IV]: no ender, no offer-reward text, no starter
+- 12103 Before the Storm [The Broken Temple]: giver 98519 not spawned, no offer-reward text
+- 40236 The Dawning Light [The Broken Temple]: no offer-reward text
+- 40636 Prepare To Strike [The Broken Temple]: no offer-reward text
+- 40793 A Matter of Planning [The Broken Temple]: no offer-reward text
+- 40795 The Fight Begins [The Broken Temple]: no offer-reward text
+- 42186 Growing Power [The Broken Temple]: no offer-reward text, no starter
+- 42187 Rise, Champions [The Broken Temple]: no offer-reward text, no starter
+- 41115 Champion: Chen Stormstout [The Broken Temple]: no offer-reward text
+- 40704 Champion: Li Li Stormstout [The Broken Temple]: no offer-reward text
+- 41945 Tianji of the Ox [The Broken Temple]: no offer-reward text
+- 41946 Building Our Troops [The Broken Temple]: no offer-reward text
+- 42210 Scrolls of Knowledge [The Broken Temple]: no offer-reward text
+- 42191 Tech It Up A Notch [The Broken Temple]: no offer-reward text
+- 41905 Report from Tian Monastery [Journey of the Grandmaster I]: no offer-reward text
+- 41728 The Defense of Tian Monastery [Journey of the Grandmaster I]: no offer-reward text
+- 41729 Slowing the Spread [Journey of the Grandmaster I]: no offer-reward text
+- 41730 Desperate Strike [Journey of the Grandmaster I]: no offer-reward text, no starter
+- 41731 Storm, Earth, and Fire [Journey of the Grandmaster I]: no offer-reward text
+- 41732 The Hand of Keletress [Journey of the Grandmaster I]: no offer-reward text
+- 41733 Rebuilding the Order [Journey of the Grandmaster I]: no offer-reward text
+- 43319 The Way of the Tiger [Journey of the Grandmaster I]: no offer-reward text
+- 41734 Champion: Taran Zhu [Journey of the Grandmaster I]: no offer-reward text
+- 41735 Champion: The Monkey King [Journey of the Grandmaster I]: no offer-reward text
+- 41907 Appropriations [Journey of the Grandmaster II]: no offer-reward text
+- 43062 Further Training [Journey of the Grandmaster II]: no offer-reward text
+- 41909 Tracking the Tideskorn [Journey of the Grandmaster II]: no offer-reward text
+- 43054 An Ample Stockpile [Journey of the Grandmaster II]: no offer-reward text
+- 43060 Highmountain Salmon [Journey of the Grandmaster II]: no offer-reward text
+- 43061 Silkweave Bandages [Journey of the Grandmaster II]: no offer-reward text
+- 41849 The Iron Fist [Journey of the Grandmaster II]: no offer-reward text
+- 41850 The Master of Swords [Journey of the Grandmaster II]: giver 105072 not spawned, no offer-reward text
+- 41851 Quelling the Tide [Journey of the Grandmaster II]: giver 105088 not spawned, no offer-reward text, no starter
+- 41852 No Monk Left Behind [Journey of the Grandmaster II]: giver 105072 not spawned, no offer-reward text, no starter
+- 41853 Zero to Hiro [Journey of the Grandmaster II]: giver 105089 not spawned, giver 105152 not spawned, no offer-reward text, no starter
+- 41854 Brick By Brick [Journey of the Grandmaster II]: no offer-reward text, no starter
+- 41736 Champion: Angus Ironfist [Journey of the Grandmaster II]: no offer-reward text
+- 41738 Champion: Sylara Steelsong [Journey of the Grandmaster II]: no offer-reward text
+- 41737 Champion: Hiro [Journey of the Grandmaster II]: no offer-reward text
+- 41038 The Mead Master [Journey of the Grandmaster III]: no offer-reward text
+- 41039 Stolen Knowledge [Journey of the Grandmaster III]: giver 102996 not spawned, no offer-reward text, no starter
+- 41910 Freya's Spring [Journey of the Grandmaster III]: no offer-reward text, no starter
+- 41086 A Peaceful World [Journey of the Grandmaster III]: no offer-reward text
+- 41911 Amaranthine Hops [Journey of the Grandmaster III]: no offer-reward text, no starter
+- 43151 Making A Trade [Journey of the Grandmaster III]: no offer-reward text
+- 41040 Halls of Valor: The Brewmaster [Journey of the Grandmaster III]: no offer-reward text, no starter
+- 41059 Halls of Valor: Odyn's Cauldron [Journey of the Grandmaster III]: no offer-reward text, no starter
+- 32442 Impending Danger [Journey of the Grandmaster III]: no offer-reward text
+- 41087 Storm Brew [Journey of the Grandmaster III]: no offer-reward text, no starter
+- 41739 Champion: Aegira [Journey of the Grandmaster III]: no offer-reward text
+- 45440 A Brewing Situation [Journey of the Grandmaster IV]: no ender, no offer-reward text, no starter
+- 45404 Panic at the Brewery [Journey of the Grandmaster IV]: no ender, no offer-reward text, no starter
+- 45459 Storming the Legion [Journey of the Grandmaster IV]: no offer-reward text
+- 45574 Fel Ingredients [Journey of the Grandmaster IV]: no offer-reward text
+- 45545 Barrel Toss [Journey of the Grandmaster IV]: no offer-reward text
+- 45449 Alchemist Korlya [Journey of the Grandmaster IV]: no offer-reward text
+- 46320 Hope For a Cure [Journey of the Grandmaster IV]: no offer-reward text
+- 45442 Not Felling Well [Journey of the Grandmaster IV]: no ender, no offer-reward text, no starter
+- 45771 A Time for Everything [Journey of the Grandmaster IV]: no ender, no offer-reward text, no starter
+- 45790 Champion: Almai [Journey of the Grandmaster IV]: no ender, no offer-reward text, no starter
+- 42516 Growing Power [The Dreamgrove]: no offer-reward text
+- 44075 Halls of Valor: Essence of Ferocity [The Eternal Dream II]: no starter
+- 42048 Champion: Mylune [The Eternal Dream II]: no starter
+- 42365 Focusing the Energies [The Eternal Dream III]: no offer-reward text
+- 91614 Focusing the Energies [The Eternal Dream III]: no ender, no starter
+- 44869 Talon Terror [The Eternal Dream IV]: no offer-reward text
+- 44877 Attack on the Roost [The Eternal Dream IV]: no offer-reward text
+- 45532 Mother's Orders [The Eternal Dream IV]: no offer-reward text
+- 44888 Aviana's Grace [The Eternal Dream IV]: no offer-reward text
+- 44921 Lone Wolf [The Eternal Dream IV]: no offer-reward text
+- 45528 The Befouled Barrows [The Eternal Dream IV]: no offer-reward text
+- 45498 Let Sleeping Dogs Lie [The Eternal Dream IV]: no offer-reward text
+- 46924 The Wolf's Tale [The Eternal Dream IV]: no offer-reward text
+- 45426 Nature's Advance [The Eternal Dream IV]: no offer-reward text
+- 46674 The Preservation of Nature [The Eternal Dream IV]: no offer-reward text
+- 46675 To Track a Demon [The Eternal Dream IV]: no offer-reward text
+- 46676 Nature's Touch [The Eternal Dream IV]: no offer-reward text
+- 46677 Prick of a Thistle [The Eternal Dream IV]: no offer-reward text
+- 45425 Grovebound [The Eternal Dream IV]: no offer-reward text
+- 46044 Champion: Thisalee Crow [The Eternal Dream IV]: no offer-reward text
+- 39047 Call of the Illidari [The Illidari]: no offer-reward text
+- 39261 Call of the Illidari [The Illidari]: no offer-reward text
+- 40814 The Power to Survive [The Illidari]: no offer-reward text
+- 40816 The Power to Survive [The Illidari]: no offer-reward text
+- 42869 Eternal Vigil [The Illidari]: no offer-reward text
+- 42872 Securing the Way [The Illidari]: no offer-reward text
+- 41033 Return to Mardum [The Illidari]: no offer-reward text
+- 41221 Return to Mardum [The Illidari]: no offer-reward text
+- 41037 Unbridled Power [The Illidari]: no offer-reward text
+- 41060 Unbridled Power [The Illidari]: no offer-reward text, no starter
+- 41062 Spoils of Victory [The Illidari]: no offer-reward text
+- 41070 Spoils of Victory [The Illidari]: no offer-reward text, no starter
+- 41066 The Hunter's Gaze [The Illidari]: no offer-reward text
+- 41067 Time is of the Essence [The Illidari]: no offer-reward text
+- 41096 Time is of the Essence [The Illidari]: no offer-reward text, no starter
+- 41069 Direct Our Wrath [The Illidari]: no offer-reward text
+- 41099 Direct Our Wrath [The Illidari]: no offer-reward text, no starter
+- 44087 Return to the Fel Hammer [The Illidari]: no offer-reward text
+- 42666 Return to the Fel Hammer [The Illidari]: no offer-reward text, no starter
+- 42670 Rise, Champions [The Illidari]: no offer-reward text, no starter
+- 42671 Rise, Champions [The Illidari]: no offer-reward text
+- 42690 Champion: Altruis the Sufferer [The Illidari]: no offer-reward text, no starter
+- 42695 Champion: Kayn Sunfury [The Illidari]: no offer-reward text
+- 42697 Champion: Asha Ravensong [The Illidari]: no offer-reward text
+- 44161 Things Gaardoun Needs [The Illidari]: no offer-reward text
+- 42677 Things Gaardoun Needs [The Illidari]: no offer-reward text, no starter
+- 42679 Broken Warriors [The Illidari]: no offer-reward text
+- 42681 Loramus, Is That You? [The Illidari]: no offer-reward text
+- 42683 Demonic Improvements [The Illidari]: no offer-reward text
+- 42682 Additional Accoutrements [The Illidari]: no offer-reward text
+- 37447 The Blood of Demons [Destiny of the Illidari I]: no offer-reward text
+- 42510 Immortal Soul [Destiny of the Illidari I]: no offer-reward text
+- 42522 Leader of the Illidari [Destiny of the Illidari I]: no offer-reward text
+- 42593 The Arcane Way [Destiny of the Illidari I]: no offer-reward text
+- 42594 Move Like No Other [Destiny of the Illidari I]: no offer-reward text
+- 42801 Back in Black [Destiny of the Illidari I]: no offer-reward text
+- 42921 Confrontation at the Black Temple [Destiny of the Illidari I]: no offer-reward text
+- 42634 Confrontation at the Black Temple [Destiny of the Illidari I]: no offer-reward text, no starter
+- 39741 Into Our Ranks [Destiny of the Illidari I]: no offer-reward text, no starter
+- 42665 Into Our Ranks [Destiny of the Illidari I]: no offer-reward text
+- 42653 Champion: Akama [Destiny of the Illidari I]: no offer-reward text
+- 42664 Champion: Shade of Akama [Destiny of the Illidari I]: no offer-reward text
+- 42673 Champion: Kor'vas Bloodthorn [Destiny of the Illidari I]: no offer-reward text
+- 42131 Unexpected Visitors [Destiny of the Illidari I]: no offer-reward text
+- 42802 Securing Mardum [Destiny of the Illidari I]: no offer-reward text
+- 42808 Green Adepts [Destiny of the Illidari I]: no offer-reward text
+- 42731 Working With the Wardens [Destiny of the Illidari I]: no offer-reward text
+- 42787 Deal With It Personally [Destiny of the Illidari II]: no offer-reward text
+- 42735 Malace in Vrykul Land [Destiny of the Illidari II]: no offer-reward text
+- 42736 Rune Ruination [Destiny of the Illidari II]: no offer-reward text
+- 42737 Rune Ruination: Runeskeld Rollo [Destiny of the Illidari II]: no offer-reward text
+- 42738 Rune Ruination: Runelord Ragnar [Destiny of the Illidari II]: no offer-reward text
+- 42739 Rune Ruination: Runesage Floki [Destiny of the Illidari II]: no offer-reward text
+- 42749 Strange Bedfellows [Destiny of the Illidari II]: no ender, no offer-reward text
+- 42752 Vault of the Wardens: Vault Break-In [Destiny of the Illidari II]: no offer-reward text, no starter
+- 42753 Vault of the Wardens: Vault Break-In [Destiny of the Illidari II]: no offer-reward text, no starter
+- 42775 The Crux of the Plan [Destiny of the Illidari II]: no offer-reward text
+- 42776 Two Worthies [Destiny of the Illidari II]: no offer-reward text
+- 42777 Champion: Belath Dawnblade [Destiny of the Illidari II]: no offer-reward text
+- 42701 Champion: Matron Mother Malevolence [Destiny of the Illidari II]: no offer-reward text
+- 42669 Preparations for Invasion [Destiny of the Illidari II]: no offer-reward text
+- 44694 One Battle at a Time [Destiny of the Illidari II]: no offer-reward text
+- 42733 A Very Special Kind of Fuel [Destiny of the Illidari III]: no offer-reward text
+- 42754 Jump-Capable [Destiny of the Illidari III]: no offer-reward text
+- 42810 A Final Offer [Destiny of the Illidari III]: no offer-reward text
+- 42809 The Invasion of Niskara [Destiny of the Illidari III]: no offer-reward text, no starter
+- 42920 The Invasion of Niskara [Destiny of the Illidari III]: no offer-reward text
+- 42132 Last, But Not Least [Destiny of the Illidari III]: no offer-reward text
+- 43184 Champion: Allari the Souleater [Destiny of the Illidari III]: no offer-reward text
+- 43185 Champion: Jace Darkweaver [Destiny of the Illidari III]: no offer-reward text
+- 43186 I Am the Slayer! [Destiny of the Illidari III]: no offer-reward text
+- 46159 An Urgent Message [Destiny of the Illidari IV]: no offer-reward text
+- 45301 Taking Charge [Destiny of the Illidari IV]: no offer-reward text
+- 45330 Scouting Party [Destiny of the Illidari IV]: no offer-reward text
+- 45329 Operation: Portals [Destiny of the Illidari IV]: no offer-reward text
+- 45339 Defense of the Fel Hammer [Destiny of the Illidari IV]: no offer-reward text
+- 45385 We Must be Prepared! [Destiny of the Illidari IV]: no offer-reward text
+- 45764 Restoring Equilibrium [Destiny of the Illidari IV]: no offer-reward text
+- 46725 Power Outage [Destiny of the Illidari IV]: no offer-reward text
+- 45798 War'zuul the Provoker [Destiny of the Illidari IV]: no offer-reward text
+- 46266 Return of the Slayer [Destiny of the Illidari IV]: no offer-reward text
+- 45391 Champion: Lady S'theno [Destiny of the Illidari IV]: no offer-reward text
+- 40714 The Call To War [The Ebon Blade]: no offer-reward text
+- 40715 A Pact of Necessity [The Ebon Blade]: no offer-reward text
+- 39832 Plans and Preparations [The Ebon Blade]: no offer-reward text
+- 39799 Our Next Move [The Ebon Blade]: no offer-reward text
+- 42449 Return of the Four Horsemen [The Ebon Blade]: no offer-reward text
+- 42484 The Firstborn Rises [The Ebon Blade]: no offer-reward text
+- 43264 Rise, Champions [The Ebon Blade]: no offer-reward text
+- 39816 Champion: Thassarian [The Ebon Blade]: no offer-reward text
+- 39818 Champion: Nazgrim [The Ebon Blade]: no offer-reward text
+- 44550 Called to Acherus [The Ebon Blade]: no offer-reward text
+- 43265 Spread the Word [The Ebon Blade]: no offer-reward text
+- 43266 Recruiting the Troops [The Ebon Blade]: no offer-reward text
+- 43267 Troops in the Field [The Ebon Blade]: no offer-reward text
+- 43268 Tech It Up A Notch [The Ebon Blade]: no offer-reward text
+- 43539 Salanar the Horseman [The Ebon Blade]: no offer-reward text
+- 42533 The Ruined Kingdom [The Four Horsemen I]: no offer-reward text
+- 42534 Our Oldest Enemies [The Four Horsemen I]: no offer-reward text
+- 42535 Death... and Decay [The Four Horsemen I]: no offer-reward text
+- 42536 Regicide [The Four Horsemen I]: no offer-reward text
+- 42537 The King Rises [The Four Horsemen I]: no offer-reward text
+- 42708 A Personal Request [The Four Horsemen I]: no offer-reward text
+- 44243 Champion: Thoras Trollbane [The Four Horsemen I]: no offer-reward text
+- 44082 Knights of the Ebon Blade [The Four Horsemen I]: no offer-reward text
+- 44244 Champion: Koltira Deathweaver [The Four Horsemen I]: no offer-reward text
+- 43899 Steeds of the Damned [The Four Horsemen I]: no offer-reward text
+- 43571 Neltharion's Lair: Braid of the Underking [The Four Horsemen I]: no offer-reward text
+- 44482 Recruiting Ebon Knights [The Four Horsemen I]: no ender, no offer-reward text, no starter
+- 43572 Darkheart Thicket: The Nightmare Lash [The Four Horsemen I]: no offer-reward text
+- 42818 The Scarlet Assault [The Four Horsemen II]: no offer-reward text
+- 42882 The Scarlet Massacre [The Four Horsemen II]: no offer-reward text
+- 42821 Raising an Army [The Four Horsemen II]: no offer-reward text
+- 42823 The Scarlet Commander [The Four Horsemen II]: no offer-reward text
+- 42824 The Zealot Rises [The Four Horsemen II]: no offer-reward text
+- 43573 Advancing the War Effort [The Four Horsemen II]: no offer-reward text
+- 43928 Aggregates of Anguish [The Four Horsemen II]: no offer-reward text
+- 44286 Vault of the Wardens: A Masterpiece of Flesh [The Four Horsemen II]: no offer-reward text
+- 44245 Champion: High Inquisitor Whitemane [The Four Horsemen II]: no offer-reward text
+- 91615 A Thirst For Blood [The Four Horsemen II]: no ender, no offer-reward text, no starter
+- 44246 Champion: Rottgut [The Four Horsemen II]: no offer-reward text
+- 43574 Maw of Souls: Maul of the Dead [The Four Horsemen II]: no offer-reward text
+- 44282 Eye of Azshara: The Frozen Soul [The Four Horsemen II]: no offer-reward text
+- 44247 Champion: Amal'thazad [The Four Horsemen II]: no offer-reward text, no starter
+- 43686 The Fourth Horseman [The Four Horsemen III]: no offer-reward text
+- 44248 Champion: Darion Mograine [The Four Horsemen III]: no offer-reward text
+- 45240 Making Preparations [The Four Horsemen IV]: no offer-reward text
+- 45398 Harnessing Power [The Four Horsemen IV]: no offer-reward text
+- 45399 Severing the Sveldrek [The Four Horsemen IV]: no offer-reward text
+- 45331 Return to Acherus [The Four Horsemen IV]: no offer-reward text
+- 44775 The Peak of Bones [The Four Horsemen IV]: no offer-reward text
+- 44783 From Bones They Rise [The Four Horsemen IV]: no offer-reward text
+- 46305 Thorim's Flame [The Four Horsemen IV]: no offer-reward text
+- 44787 The Bonemother [The Four Horsemen IV]: no offer-reward text
+- 45243 On Daumyr's Wings [The Four Horsemen IV]: no offer-reward text
+- 45103 We Ride! [The Four Horsemen IV]: no offer-reward text
+- 46050 Champion: Minerva Ravensorrow [The Four Horsemen IV]: no offer-reward text
+- 86934 Trash to Profit [Trashy Business]: no ender, no offer-reward text
+- 86935 On-the-Job Training [Trashy Business]: no ender, no offer-reward text
+- 89404 Time Crisis [Legion: Infinitely Different]: no ender, no starter
+- 89405 Mean Streets of Dalaran [Legion: Infinitely Different]: no ender, no starter
+- 89406 Seal and Protect [Legion: Infinitely Different]: no ender, no starter
+- 89407 Thrift [Legion: Infinitely Different]: no ender, no starter
+- 89408 Threadbare [Legion: Infinitely Different]: no ender, no starter
+- 89409 Infinite Bronze [Legion: Infinitely Different]: no ender, no starter
+- 90659 Something Borrowed [Legion: Infinitely Different]: no ender, no starter
+- 89411 Scavenger Hunting [Legion: Infinitely Different]: no ender, no starter
+- 89413 Obliterate, Then Iterate [Legion: Infinitely Different]: no ender, no starter
+- 89412 Get Plenty of Exorcise [Legion: Infinitely Different]: no ender, no starter
+- 90901 As A Matter of Artifact [Legion: Infinitely Different]: no ender, no starter
+- 89414 Not A Memento Too Soon [Legion: Infinitely Different]: no ender, no starter
+- 89415 Storm the Citadel [Legion: Infinitely Different]: no ender, no starter
+- 89416 Eternal Gratitude [Legion: Infinitely Different]: no ender, no starter
+- 89417 Infinite Meetings [Legion: Infinitely Different]: no ender, no starter
+- 89418 A Fixed Point in Time [Legion: Infinitely Different]: no ender, no starter
+- 86775 Urge to Surge [Undermine Repeatables]: no ender, no offer-reward text
+- 85869 Many Jobs, Handle It! [Undermine Repeatables]: no ender, no offer-reward text
+- 85879 Reduce, Reuse, Resell [Undermine Repeatables]: no ender, no offer-reward text
+- 89503 Somber Siblings [Sorrowing Kin]: giver 256867 not spawned
+- 89506 Strong Ties [Sorrowing Kin]: giver 256867 not spawned
+- 89513 Kindling Aplenty [Sorrowing Kin]: giver 256867 not spawned
+- 89559 Reasonless Worship [Sorrowing Kin]: giver 256867 not spawned
+- 89476 Infinite Research [Infinite Research]: no ender, no offer-reward text, no starter
+- 91847 Infinite Research [Infinite Research]: no ender, no offer-reward text, no starter
+- 91848 Infinite Research [Infinite Research]: no ender, no offer-reward text, no starter
+- 91849 Infinite Research [Infinite Research]: no ender, no offer-reward text, no starter
+- 91437 Call for Participants [Infinite Research]: no ender, no starter
+- 92563 Awoken by Accessory [Infinite Research]: no ender, no starter
+- 91612 Infinite Research [Infinite Research]: no ender, no offer-reward text, no starter
+- 92430 Embracing the Infinite Chaos [Infinite Research]: no ender, no starter
+- 89517 Infinite Research: Assault on Violet Hold, Heroic [Infinite Research]: no ender, no starter
+- 89531 Infinite Research: Assault on Violet Hold, Mythic [Infinite Research]: no ender, no starter
+- 89516 Infinite Research: Assault on Violet Hold, Normal [Infinite Research]: no ender, no starter
+- 89519 Infinite Research: Black Rook Hold, Heroic [Infinite Research]: no ender, no starter
+- 89528 Infinite Research: Black Rook Hold, Mythic [Infinite Research]: no ender, no offer-reward text, no starter
+- 89523 Infinite Research: Black Rook Hold, Normal [Infinite Research]: no ender, no starter
+- 89518 Infinite Research: Cathedral of Eternal Night, Heroic [Infinite Research]: no ender, no starter
+- 89522 Infinite Research: Cathedral of Eternal Night, Mythic [Infinite Research]: no ender, no offer-reward text, no starter
+- 89530 Infinite Research: Cathedral of Eternal Night, Normal [Infinite Research]: no ender, no offer-reward text, no starter
+- 89521 Infinite Research: Court of Stars, Heroic [Infinite Research]: no ender, no starter
+- 89556 Infinite Research: Court of Stars, Mythic [Infinite Research]: no ender, no starter
+- 89529 Infinite Research: Court of Stars, Normal [Infinite Research]: no ender, no offer-reward text, no starter
+- 89558 Infinite Research: Darkheart Thicket, Heroic [Infinite Research]: no ender, no starter
+- 89520 Infinite Research: Darkheart Thicket, Mythic [Infinite Research]: no ender, no starter
+- 89557 Infinite Research: Darkheart Thicket, Normal [Infinite Research]: no ender, no offer-reward text, no starter
+- 89527 Infinite Research: Eye of Azshara, Heroic [Infinite Research]: no ender, no starter
+- 89525 Infinite Research: Eye of Azshara, Mythic [Infinite Research]: no ender, no starter
+- 89526 Infinite Research: Eye of Azshara, Normal [Infinite Research]: no ender, no starter
+- 89551 Infinite Research: Halls of Valor, Heroic [Infinite Research]: no ender, no starter
+- 89552 Infinite Research: Halls of Valor, Mythic [Infinite Research]: no ender, no starter
+- 89550 Infinite Research: Halls of Valor, Normal [Infinite Research]: no ender, no starter
+- 89540 Infinite Research: Timeworn Keystone Dungeon [Infinite Research]: no ender, no starter
+- 89469 Infinite Research: Dungeoneers Wanted, Heroic [Infinite Research]: no ender, no starter
+- 89468 Infinite Research: Dungeoneers Wanted, Normal [Infinite Research]: no ender, no starter
+- 89554 Infinite Research: Lower Return to Karazhan, Heroic [Infinite Research]: no ender, no starter
+- 89555 Infinite Research: Lower Return to Karazhan, Mythic [Infinite Research]: no ender, no offer-reward text, no starter
+- 89553 Infinite Research: Lower Return to Karazhan, Normal [Infinite Research]: no ender, no offer-reward text, no starter
+- 89546 Infinite Research: Maw of Souls, Heroic [Infinite Research]: no ender, no offer-reward text, no starter
+- 89547 Infinite Research: Maw of Souls, Mythic [Infinite Research]: no ender, no starter
+- 89524 Infinite Research: Maw of Souls, Normal [Infinite Research]: no ender, no starter
+- 89549 Infinite Research: Neltharion's Lair, Heroic [Infinite Research]: no ender, no starter
+- 89532 Infinite Research: Neltharion's Lair, Mythic [Infinite Research]: no ender, no starter
+- 89548 Infinite Research: Neltharion's Lair, Normal [Infinite Research]: no ender, no offer-reward text, no starter
+- 89533 Infinite Research: Seat of the Triumvirate, Heroic [Infinite Research]: no ender, no starter
+- 89544 Infinite Research: Seat of the Triumvirate, Mythic [Infinite Research]: no ender, no starter
+- 89545 Infinite Research: Seat of the Triumvirate, Normal [Infinite Research]: no ender, no offer-reward text, no starter
+- 89543 Infinite Research: The Arcway, Heroic [Infinite Research]: no ender, no starter
+- 89535 Infinite Research: The Arcway, Mythic [Infinite Research]: no ender, no starter
+- 89534 Infinite Research: The Arcway, Normal [Infinite Research]: no ender, no offer-reward text, no starter
+- 89536 Infinite Research: Upper Return to Karazhan, Heroic [Infinite Research]: no ender, no starter
+- 89541 Infinite Research: Upper Return to Karazhan, Mythic [Infinite Research]: no ender, no offer-reward text, no starter
+- 89542 Infinite Research: Upper Return to Karazhan, Normal [Infinite Research]: no ender, no offer-reward text, no starter
+- 89537 Infinite Research: Vault of the Wardens, Heroic [Infinite Research]: no ender, no starter
+- 89539 Infinite Research: Vault of the Wardens, Mythic [Infinite Research]: no ender, no offer-reward text, no starter
+- 89538 Infinite Research: Vault of the Wardens, Normal [Infinite Research]: no ender, no starter
+- 89464 Infinite Research: Combat Studies, Comprehensive [Infinite Research]: no ender, no offer-reward text, no starter
+- 91445 Infinite Research: Advanced Combat Studies, Comprehensive [Infinite Research]: no ender, no starter
+- 91449 Infinite Research: Advanced Combat Studies, Empowerment [Infinite Research]: no ender, no starter
+- 90111 Infinite Research: Combat Studies, Demonology [Infinite Research]: no offer-reward text
+- 91447 Infinite Research: Advanced Combat Studies, Demonology [Infinite Research]: no ender, no offer-reward text, no starter
+- 91444 Infinite Research: Advanced Combat Studies, Elite [Infinite Research]: no ender, no offer-reward text, no starter
+- 91446 Infinite Research: Advanced Combat Studies, Rare Elites [Infinite Research]: no ender, no starter
+- 91443 Infinite Research: Advanced Combat Studies, Rare [Infinite Research]: no ender, no starter
+- 91448 Infinite Research: Heroic Terrors of the Broken Isles [Infinite Research]: no ender, no starter
+- 90110 Infinite Research: Gather Timewarped Samples [Infinite Research]: no starter
+- 91441 Infinite Research: Heroic Greater Invasion Points [Infinite Research]: no ender, no offer-reward text, no starter
+- 90103 Infinite Research: Champion of the Order Hall [Infinite Research]: no offer-reward text
+- 89465 Infinite Research: No Task Too Small [Infinite Research]: no ender, no starter
+- 91440 Infinite Research: Hero of the Broken Isles [Infinite Research]: no ender, no starter
+- 91439 Infinite Research: Heroic Invasion Points [Infinite Research]: no ender, no starter
+- 91438 Infinite Research: Heroic Worldly Deeds [Infinite Research]: no ender, no starter
+- 89595 Infinite Research: Antorus, the Burning Throne, Heroic [Infinite Research]: no ender, no starter
+- 89679 Infinite Research: The Emerald Nightmare, Heroic [Infinite Research]: no ender, no starter
+- 89599 Infinite Research: Nighthold, Heroic [Infinite Research]: no ender, no starter
+- 89602 Infinite Research: Tomb of Sargeras, Heroic [Infinite Research]: no ender, no starter
+- 89596 Infinite Research: Trial of Valor, Heroic [Infinite Research]: no ender, no starter
+- 89466 Infinite Research: Time to Raid, Light's Breach [Infinite Research]: no ender, no starter
+- 89467 Infinite Research: Time to Raid, Forbidden Descent [Infinite Research]: no ender, no starter
+- 89590 Infinite Research: Time to Raid, Hope's End [Infinite Research]: no ender, no starter
+- 89591 Infinite Research: Time to Raid, Seat of the Pantheon [Infinite Research]: no ender, no starter
+- 89644 Infinite Research: Time to Raid, Darkbough [Infinite Research]: no ender, no starter
+- 89665 Infinite Research: Time to Raid, Tormented Guardians [Infinite Research]: no ender, no starter
+- 89676 Infinite Research: Time to Raid, Rift of Aln [Infinite Research]: no ender, no starter
+- 89678 Infinite Research: Time to Raid, Arcing Aqueducts [Infinite Research]: no ender, no starter
+- 89683 Infinite Research: Time to Raid, Royal Athenaeum [Infinite Research]: no ender, no starter
+- 89593 Infinite Research: Time to Raid, Nightspire [Infinite Research]: no ender, no starter
+- 89594 Infinite Research: Time to Raid, Betrayer's Rise [Infinite Research]: no ender, no starter
+- 89604 Infinite Research: Time to Raid, The Gates of Hell [Infinite Research]: no ender, no starter
+- 89605 Infinite Research: Time to Raid, Wailing Halls [Infinite Research]: no ender, no starter
+- 89606 Infinite Research: Time to Raid, Chamber of the Avatar [Infinite Research]: no ender, no starter
+- 89607 Infinite Research: Time to Raid, Deceiver's Fall [Infinite Research]: no ender, no starter
+- 89681 Infinite Research: Time to Raid, Trial of Valor [Infinite Research]: no ender, no starter
+- 89601 Infinite Research: Antorus, the Burning Throne, Mythic [Infinite Research]: no ender, no starter
+- 89680 Infinite Research: The Emerald Nightmare, Mythic [Infinite Research]: no ender, no starter
+- 89600 Infinite Research: The Nighthold, Mythic [Infinite Research]: no ender, no starter
+- 89603 Infinite Research: Tomb of Sargeras, Mythic [Infinite Research]: no ender, no starter
+- 89597 Infinite Research: Trial of Valor, Mythic [Infinite Research]: no ender, no starter
+- 89592 Infinite Research: Antorus, the Burning Throne, Normal [Infinite Research]: no ender, no starter
+- 89677 Infinite Research: The Emerald Nightmare, Normal [Infinite Research]: no ender, no starter
+- 89598 Infinite Research: Nighthold, Normal [Infinite Research]: no ender, no starter
+- 89622 Infinite Research: Tomb of Sargeras, Normal [Infinite Research]: no ender, no starter
+- 89682 Infinite Research: Trial of Valor, Normal [Infinite Research]: no ender, no starter
+- 93667 Camp Stonewash [Unlikely Friends]: no starter
+- 90546 Missing Paladins [Paladin Rescue]: no offer-reward text
+- 90553 Executing the Blades [Paladin Rescue]: giver 245944 not spawned
+- 90554 Leave Ashes in Your Wake [Paladin Rescue]: giver 245944 not spawned
+- 90556 Cutting off the Head [Paladin Rescue]: giver 245944 not spawned
+- 90615 Be Grudge You [The Grudge Pit]: no starter
+- 92616 Mushrooming Courage [The Grudge Pit]: giver 251524 not spawned
+- 90690 Charge of the Vanguard [The Voidspire]: no ender, no offer-reward text, no starter
+- 88709 The Voidspire [The Voidspire]: no offer-reward text
+- 90724 The Broken Sky [The Voidspire]: no offer-reward text
+- 92520 Wake of the Darkwell [The Voidspire]: no offer-reward text
+- 38862 Thieving Thistleleaf [Lunarwing Shallows]: no starter
+- 39572 Moozy's Adventure [Moozy's Family Reunion]: no starter
+- 39774 Demon Detainment [Mucksnout Den]: giver 97193 not spawned
+- 38358 Pump it Up [Experiments of the Royal Apothecary Society]: no offer-reward text
+- 38357 Side Effects May Include Mild Undeath [Experiments of the Royal Apothecary Society]: no offer-reward text
+- 90718 Request of the Arcantina [Arcantina Reminders]: no ender, no offer-reward text, no starter
+- 90733 The Listener [The Empty Cradle]: no starter
+- 90734 In the Name of the Goddess [The Empty Cradle]: no ender, no offer-reward text, no starter
+- 90735 The Stolen Staff [The Empty Cradle]: no ender, no offer-reward text, no starter
+- 90738 To the Blossoming Terrace [The Empty Cradle]: no ender, no offer-reward text, no starter
+- 90736 That's Not Yours [The Empty Cradle]: no ender, no offer-reward text, no starter
+- 90737 Nested Clues [The Empty Cradle]: no ender, no offer-reward text, no starter
+- 90739 The Root of Things [The Empty Cradle]: no ender, no offer-reward text, no starter
+- 90740 A Legend to Know [The Empty Cradle]: no ender, no offer-reward text, no starter
+- 90741 Once More Into the Rift [The Empty Cradle]: no ender, no offer-reward text, no starter
+- 90742 Shrouded by Aln'hara [The Empty Cradle]: no ender, no offer-reward text, no starter
+- 90743 Ritual Reinforcement [The Empty Cradle]: no ender, no offer-reward text, no starter
+- 90744 The Dreamrift: Malformed Mystery [The Empty Cradle]: no ender, no offer-reward text, no starter
+- 90745 The Empty Cradle [The Empty Cradle]: no ender, no offer-reward text, no starter
+- 90764 The Cult Within [The Cult Within]: no starter
+- 90760 Avoiding Blame [The Cult Within]: no offer-reward text
+- 90761 Avoiding Blame [The Cult Within]: no starter
+- 90762 The Twilight Highlands [The Cult Within]: no ender, no offer-reward text, no starter
+- 90763 The Twilight Highlands [The Cult Within]: no starter
+- 90765 Midnight Dress [The Cult Within]: giver 246021 not spawned, no starter
+- 90766 Xal'atath's Proven Faithful [The Cult Within]: giver 246022 not spawned, no starter
+- 90767 More Doom [The Cult Within]: no starter
+- 90768 Cult It Out [The Cult Within]: no starter
+- 90748 Quel'Danas [March on Quel'Danas]: no ender, no offer-reward text, no starter
+- 88710 March on Quel'Danas [March on Quel'Danas]: no offer-reward text
+- 92689 A Path Forward [Dawn of a New Well]: no offer-reward text
+- 90876 Reluctant Hand [Dawn of a New Well]: no offer-reward text
+- 90871 The Silversun Compact [Dawn of a New Well]: no offer-reward text
+- 90861 Those Left Behind [Dawn of a New Well]: no offer-reward text
+- 90862 In Times of Need [Dawn of a New Well]: no offer-reward text
+- 90867 From Darkness, Light [Dawn of a New Well]: no offer-reward text
+- 90882 Gnoll Way [Siege of Arathi Highlands]: no offer-reward text, no starter
+- 90897 Back to Stromgarde [Siege of Arathi Highlands]: no offer-reward text
+- 90911 Your Next Adventure [Siege of Arathi Highlands]: no offer-reward text
+- 94867 Lost in Atal'Abasi [Vengeance for Tolbani]: no starter
+- 90663 Stealing What is Ours [Ba'eth's Request]: no offer-reward text
+- 90729 Win-Win Situation [Ba'eth's Request]: no offer-reward text
+- 90747 The Wrong Bluecephalus [Ba'eth's Request]: no offer-reward text
+- 90773 Meat My Business [Ba'eth's Request]: no offer-reward text
+- 90770 The Grift [Ba'eth's Request]: no offer-reward text
+- 90769 A Blue for You [Ba'eth's Request]: no offer-reward text
+- 91140 A Piece of the Past [The Legacy of T'uure]: no ender, no offer-reward text, no starter
+- 91138 I am the Creator and Destroyer [The Legacy of T'uure]: no ender, no offer-reward text, no starter
+- 91146 Flickering Light [Shadow Puppets]: giver 252807 not spawned
+- 91147 Cut Her Strings [Shadow Puppets]: giver 252807 not spawned
+- 92641 Bloodying the Plain [Shadow Puppets]: no ender, no offer-reward text, no starter
+- 90968 Titanic Rumblings [Overcharged Delves]: no ender, no offer-reward text, no starter
+- 90969 Titan Consoles [Overcharged Delves]: no ender, no starter
+- 90970 Titan Disc-Count [Overcharged Delves]: no ender, no starter
+- 90971 Overcharged Console [Overcharged Delves]: no ender, no starter
+- 91009 Durable Information Storage Container [Overcharged Delves]: no starter
+- 91026 Gathering an Upgrade [Overcharged Delves]: no starter
+- 91030 New Titan Directives [Overcharged Delves]: no starter
+- 91031 Pushing it to the Limit [Overcharged Delves]: no ender, no starter
+- 91033 Monitoring 'Construct'ing [Overcharged Delves]: no ender, no starter
+- 91035 Construct De-Escalation [Overcharged Delves]: no ender, no starter
+- 91095 Prey: Magister Sunbreaker (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91096 Prey: Magistrix Emberlash (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91097 Prey: Senior Tinker Ozwold (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91098 Prey: L-N-0R the Recycler (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91099 Prey: Mordril Shadowfell (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91100 Prey: Deliah Gloomsong (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91101 Prey: Phaseblade Talasha (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91102 Prey: Nexus-Edge Hadim (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91103 Prey: Jo'zolo the Breaker (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91104 Prey: Zadu, Fist of Nalorakk (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91105 Prey: The Talon of Jan'alai (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91106 Prey: The Wing of Akil'zon (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91107 Prey: Ranger Swiftglade (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91108 Prey: Lieutenant Blazewing (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91109 Prey: Petyoll the Razorleaf (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91110 Prey: Lamyne of the Undercroft (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91111 Prey: High Vindicator Vureem (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91112 Prey: Crusader Luxia Maxwell (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91113 Prey: Praetor Singularis (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91114 Prey: Consul Nebulor (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91115 Prey: Executor Kaenius (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91116 Prey: Imperator Enigmalia (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91117 Prey: Knight-Errant Bloodshatter (Normal) [Prey]: no ender, no starter
+- 91118 Prey: Vylenna the Defector (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91119 Prey: Lost Theldrin (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91120 Prey: Neydra the Starving (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91121 Prey: Thornspeaker Edgath (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91122 Prey: Thorn-Witch Liset (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91123 Prey: Grothoz, the Burning Shadow (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91124 Prey: Dengzag, the Darkened Blaze (Normal) [Prey]: no ender, no offer-reward text, no starter
+- 91210 Prey: Magister Sunbreaker (Hard) [Prey]: no ender, no offer-reward text, no starter
+- 91211 Prey: Magister Sunbreaker (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91212 Prey: Magistrix Emberlash (Hard) [Prey]: no ender, no offer-reward text, no starter
+- 91213 Prey: Magistrix Emberlash (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91214 Prey: Senior Tinker Ozwold (Hard) [Prey]: no ender, no offer-reward text, no starter
+- 91215 Prey: Senior Tinker Ozwold (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91216 Prey: L-N-0R the Recycler (Hard) [Prey]: no ender, no offer-reward text, no starter
+- 91217 Prey: L-N-0R the Recycler (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91218 Prey: Mordril Shadowfell (Hard) [Prey]: no ender, no offer-reward text, no starter
+- 91222 Prey: Phaseblade Talasha (Hard) [Prey]: no ender, no starter
+- 91219 Prey: Mordril Shadowfell (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91220 Prey: Deliah Gloomsong (Hard) [Prey]: no ender, no offer-reward text, no starter
+- 91221 Prey: Deliah Gloomsong (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91223 Prey: Phaseblade Talasha (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91224 Prey: Nexus-Edge Hadim (Hard) [Prey]: no ender, no starter
+- 91225 Prey: Nexus-Edge Hadim (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91226 Prey: Jo'zolo the Breaker (Hard) [Prey]: no ender, no offer-reward text, no starter
+- 91227 Prey: Jo'zolo the Breaker (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91228 Prey: Zadu, Fist of Nalorakk (Hard) [Prey]: no ender, no offer-reward text, no starter
+- 91232 Prey: The Wing of Akil'zon (Hard) [Prey]: no ender, no starter
+- 91229 Prey: Zadu, Fist of Nalorakk (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91230 Prey: The Talon of Jan'alai (Hard) [Prey]: no ender, no offer-reward text, no starter
+- 91231 Prey: The Talon of Jan'alai (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91233 Prey: The Wing of Akil'zon (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91234 Prey: Ranger Swiftglade (Hard) [Prey]: no ender, no offer-reward text, no starter
+- 91235 Prey: Ranger Swiftglade (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91236 Prey: Lieutenant Blazewing (Hard) [Prey]: no ender, no starter
+- 91237 Prey: Lieutenant Blazewing (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91238 Prey: Petyoll the Razorleaf (Hard) [Prey]: no ender, no offer-reward text, no starter
+- 91239 Prey: Petyoll the Razorleaf (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91243 Prey: Crusader Luxia Maxwell (Hard) [Prey]: no ender, no offer-reward text, no starter
+- 91240 Prey: Lamyne of the Undercroft (Hard) [Prey]: no ender, no offer-reward text, no starter
+- 91241 Prey: Lamyne of the Undercroft (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91242 Prey: High Vindicator Vureem (Hard) [Prey]: no ender, no offer-reward text, no starter
+- 91244 Prey: Praetor Singularis (Hard) [Prey]: no ender, no offer-reward text, no starter
+- 91245 Prey: Consul Nebulor (Hard) [Prey]: no ender, no starter
+- 91246 Prey: Executor Kaenius (Hard) [Prey]: no ender, no offer-reward text, no starter
+- 91247 Prey: Imperator Enigmalia (Hard) [Prey]: no ender, no offer-reward text, no starter
+- 91248 Prey: Knight-Errant Bloodshatter (Hard) [Prey]: no ender, no offer-reward text, no starter
+- 91249 Prey: Vylenna the Defector (Hard) [Prey]: no ender, no starter
+- 91250 Prey: Lost Theldrin (Hard) [Prey]: no ender, no offer-reward text, no starter
+- 91254 Prey: Grothoz, the Burning Shadow (Hard) [Prey]: no ender, no offer-reward text, no starter
+- 91251 Prey: Neydra the Starving (Hard) [Prey]: no ender, no starter
+- 91252 Prey: Thornspeaker Edgath (Hard) [Prey]: no ender, no offer-reward text, no starter
+- 91253 Prey: Thorn-Witch Liset (Hard) [Prey]: no ender, no offer-reward text, no starter
+- 91255 Prey: Dengzag, the Darkened Blaze (Hard) [Prey]: no ender, no offer-reward text, no starter
+- 91256 Prey: High Vindicator Vureem (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91257 Prey: Crusader Luxia Maxwell (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91258 Prey: Praetor Singularis (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91259 Prey: Consul Nebulor (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91260 Prey: Executor Kaenius (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91264 Prey: Lost Theldrin (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91261 Prey: Imperator Enigmalia (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91262 Prey: Knight-Errant Bloodshatter (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91263 Prey: Vylenna the Defector (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91265 Prey: Neydra the Starving (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91269 Prey: Dengzag, the Darkened Blaze (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91266 Prey: Thornspeaker Edgath (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91267 Prey: Thorn-Witch Liset (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 91268 Prey: Grothoz, the Burning Shadow (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 95021 Prey: Janoa the Fang (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 95022 Prey: Kursak the Coiled (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 95023 Prey: Batani the Scaled (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 95024 Prey: Kadani the Claw (Nightmare) [Prey]: no ender, no offer-reward text, no starter
+- 84657 Return to Stromgarde [Rise of the Red Dawn]: no offer-reward text
+- 84659 The Search for Faerin [Rise of the Red Dawn]: no offer-reward text
+- 87299 How Old Are These Things? [Rise of the Red Dawn]: no offer-reward text
+- 84715 The Search for Danath [Rise of the Red Dawn]: no offer-reward text
+- 84714 From Ironforge With Love [Rise of the Red Dawn]: no offer-reward text
+- 84716 Returning to Stromgarde [Rise of the Red Dawn]: no offer-reward text
+- 91454 Phase-Lost Adventurer [Untethered Potential]: no starter
+- 91458 Prey: Endurance Hunter [Prey WQs]: no ender, no offer-reward text, no starter
+- 91594 Prey: Endurance Hunter [Prey WQs]: no ender, no offer-reward text, no starter
+- 91596 Prey: Endurance Hunter [Prey WQs]: no ender, no offer-reward text, no starter
+- 91595 Prey: Endurance Hunter [Prey WQs]: no ender, no offer-reward text, no starter
+- 91523 Prey: Concealed Threat [Prey WQs]: no ender, no offer-reward text, no starter
+- 91590 Prey: Concealed Threat [Prey WQs]: no ender, no offer-reward text, no starter
+- 91591 Prey: Concealed Threat [Prey WQs]: no ender, no offer-reward text, no starter
+- 91592 Prey: Concealed Threat [Prey WQs]: no ender, no offer-reward text, no starter
+- 91604 Prey: Apex Predator [Prey WQs]: no ender, no offer-reward text, no starter
+- 91602 Prey: Apex Predator [Prey WQs]: no ender, no offer-reward text, no starter
+- 91601 Prey: Apex Predator [Prey WQs]: no ender, no offer-reward text, no starter
+- 91207 Prey: Apex Predator [Prey WQs]: no ender, no offer-reward text, no starter
+- 95942 Prey: Venom Ambush [Prey WQs]: no ender, no offer-reward text, no starter
+- 95974 Prey: Abandoned Camp [Prey WQs]: no ender, no offer-reward text, no starter
+- 95989 Prey: Venomblade Burrows [Prey WQs]: no ender, no offer-reward text, no starter
+- 96588 Prey: Venom Ambush [Prey WQs]: no ender, no offer-reward text, no starter
+- 96589 Prey: Venom Ambush [Prey WQs]: no ender, no offer-reward text, no starter
+- 96590 Prey: Venom Ambush [Prey WQs]: no ender, no offer-reward text, no starter
+- 96591 Prey: Venom Ambush [Prey WQs]: no ender, no offer-reward text, no starter
+- 96592 Prey: Venomblade Burrows [Prey WQs]: no ender, no offer-reward text, no starter
+- 96593 Prey: Venomblade Burrows [Prey WQs]: no ender, no offer-reward text, no starter
+- 96594 Prey: Venomblade Burrows [Prey WQs]: no ender, no offer-reward text, no starter
+- 96595 Prey: Venomblade Burrows [Prey WQs]: no ender, no offer-reward text, no starter
+- 96596 Prey: Abandoned Camp [Prey WQs]: no ender, no offer-reward text, no starter
+- 96597 Prey: Abandoned Camp [Prey WQs]: no ender, no offer-reward text, no starter
+- 96598 Prey: Abandoned Camp [Prey WQs]: no ender, no offer-reward text, no starter
+- 96599 Prey: Abandoned Camp [Prey WQs]: no ender, no offer-reward text, no starter
+- 72921 On the Trail Again [The Blue Dragons]: no offer-reward text
+- 72933 Rolling Out [The Blue Dragons]: no offer-reward text
+- 72934 Lest We Forget [The Blue Dragons]: no offer-reward text
+- 72935 Archives Return [The Blue Dragons]: no offer-reward text
+- 72936 Azuregos's Support [The Blue Dragons]: no offer-reward text
+- 72937 Unusual Disruptions [The Blue Dragons]: no offer-reward text
+- 72938 Archival Arrival [The Blue Dragons]: no offer-reward text
+- 72940 Where in the World is a Lost Blue Dragon? [The Blue Dragons]: no offer-reward text
+- 73069 Sindragosa and Malygos's Rest [The Blue Dragons]: no offer-reward text
+- 75023 Memories of Sindragosa and Malygos [The Blue Dragons]: no offer-reward text
+- 73399 The Search for Blue Dragons [The Blue Dragons]: no offer-reward text
+- 73404 Lost Blue Dragons [The Blue Dragons]: no offer-reward text
+- 73405 A Pair of Blue Dragons [The Blue Dragons]: no offer-reward text
+- 73406 The Last Missing Blue Dragon [The Blue Dragons]: no offer-reward text
+- 73399 The Search for Blue Dragons [The Blue Dragons]: no offer-reward text
+- 73404 Lost Blue Dragons [The Blue Dragons]: no offer-reward text
+- 73405 A Pair of Blue Dragons [The Blue Dragons]: no offer-reward text
+- 73406 The Last Missing Blue Dragon [The Blue Dragons]: no offer-reward text
+- 72670 Those We Left Behind [The Blue Dragons]: no offer-reward text
+- 72674 A Shattered Legacy [The Blue Dragons]: no offer-reward text
+- 72679 An Arcane Requiem [The Blue Dragons]: no offer-reward text
+- 72831 Creative Solutions [The Blue Dragons]: no offer-reward text
+- 72832 Aftershocks [The Blue Dragons]: no offer-reward text
+- 74783 The Sound of Silence [The Blue Dragons]: no offer-reward text
+- 72833 Breaking the Cycle [The Blue Dragons]: no offer-reward text
+- 73090 Regrets in Crystal [The Blue Dragons]: no offer-reward text
+- 73188 The Sullied Banner [The Blue Dragons]: no offer-reward text
+- 74335 A Moment of Reflection [The Blue Dragons]: no offer-reward text
+- 72527 No Such Thing as Bad Luck [The Blue Dragons]: no offer-reward text
+- 72529 Information is King [The Blue Dragons]: no offer-reward text
+- 72530 Anyway, I Started Bribing [The Blue Dragons]: no offer-reward text
+- 73181 Zeroing Debt [The Blue Dragons]: no offer-reward text
+- 72532 Money, Money, Money! [The Blue Dragons]: no offer-reward text
+- 72533 Crystals Shmystals [The Blue Dragons]: no offer-reward text
+- 72534 Settled with the Baron [The Blue Dragons]: no offer-reward text
+- 72988 The Booty Bay Journal [The Blue Dragons]: no offer-reward text
+- 73026 Booty Bay [The Blue Dragons]: no ender, no offer-reward text, no starter
+- 72650 Warm Winds and Water [The Blue Dragons]: no offer-reward text
+- 72651 Carp Care [The Blue Dragons]: no offer-reward text
+- 72652 Self Care [The Blue Dragons]: no offer-reward text
+- 72653 Local Deliveries [The Blue Dragons]: no offer-reward text
+- 72654 Up, Up, and Home [The Blue Dragons]: no offer-reward text
+- 72655 A Drink with Kalecgos [The Blue Dragons]: no offer-reward text
+- 72656 Winterspring [The Blue Dragons]: no ender, no offer-reward text, no starter
+- 72657 A Protector of Magic [The Blue Dragons]: no offer-reward text
+- 72659 Test Subject [The Blue Dragons]: no offer-reward text
+- 72660 Owl of a Sudden [The Blue Dragons]: no offer-reward text
+- 72661 A Wyrm Rest [The Blue Dragons]: no offer-reward text
+- 73227 Jade Forest [The Blue Dragons]: no ender, no offer-reward text, no starter
+- 74291 Blue is My Favorite Color [The Blue Dragons]: no offer-reward text
+- 74354 Artifacts Abound [The Blue Dragons]: no offer-reward text
+- 74356 Back with the Blues [The Blue Dragons]: no offer-reward text
+- 72942 Veiled Trouble [The Blue Dragons]: no offer-reward text
+- 72946 Veiled Ossuary Chaos [The Blue Dragons]: no offer-reward text
+- 72947 Memories of Old [The Blue Dragons]: no offer-reward text
+- 72948 What Still Remains [The Blue Dragons]: no offer-reward text
+- 72949 Swiftly to the Archives [The Blue Dragons]: no offer-reward text
+- 75244 Reunited Again [The Blue Dragons]: no offer-reward text
+- 72950 The Last Conflict [The Blue Dragons]: no offer-reward text
+- 72951 A Peaceful Farewell [The Blue Dragons]: no offer-reward text
+- 91466 Aiding the Green Dragons [The Blue Dragons]: no ender, no offer-reward text, no starter
+- 91467 Incarnates on the Move [The Blue Dragons]: no ender, no offer-reward text, no starter
+- 66178 A Day in the Groves [The Green Dragons]: no offer-reward text
+- 66179 Seeds for the Future [The Green Dragons]: no offer-reward text
+- 66180 Wake the Ancients [The Green Dragons]: no offer-reward text
+- 66181 A Frenzied Defender [The Green Dragons]: no offer-reward text
+- 66182 Gerithus's Research [The Green Dragons]: no offer-reward text
+- 66183 Emerald Tears [The Green Dragons]: no offer-reward text
+- 66184 Anchors to Life [The Green Dragons]: no offer-reward text
+- 66185 Across the Weald [The Green Dragons]: no offer-reward text
+- 66186 The Price [The Green Dragons]: no offer-reward text
+- 66188 Storm's Rest [The Green Dragons]: no offer-reward text
+- 66189 Step Into the Life [The Green Dragons]: no offer-reward text
+- 66635 Reunited, Once Again [The Green Dragons]: no offer-reward text
+- 66190 So Close [The Green Dragons]: no offer-reward text
+- 66191 And Yet So Far [The Green Dragons]: no offer-reward text
+- 66392 Rallying Nature's Allies [The Green Dragons]: no offer-reward text
+- 66393 To Somnikus [The Green Dragons]: no offer-reward text
+- 66394 Thin the Veil [The Green Dragons]: no offer-reward text
+- 66396 Guarded Appreciation [The Green Dragons]: no offer-reward text
+- 66397 Our Full Strength [The Green Dragons]: no offer-reward text
+- 66398 The Emerald Dragonflight [The Green Dragons]: no offer-reward text
+- 66399 We'll Cross that Bridge [The Green Dragons]: no offer-reward text
+- 66400 Winter's Fall [The Green Dragons]: no offer-reward text
+- 66401 The Dreamer [The Green Dragons]: no offer-reward text
+- 66402 Like Mother, Like Daughter [The Green Dragons]: no offer-reward text
+- 72975 Patch 10.1 - Embers of Neltharion: The Land Beneath [Zaralek Cavern]: no offer-reward text
+- 72976 A Crack in the World [Zaralek Cavern]: no offer-reward text
+- 72977 Where the Flames Fell [Zaralek Cavern]: no offer-reward text
+- 72978 Scar of Earth and Fire [Zaralek Cavern]: no offer-reward text
+- 72981 The Patience of Princes [Zaralek Cavern]: no offer-reward text
+- 72872 Culling the Deep [Zaralek Cavern]: no offer-reward text, no starter
+- 72873 It Was Not Enough [Zaralek Cavern]: no offer-reward text
+- 72874 Secrets From Our Father [Zaralek Cavern]: no offer-reward text
+- 72979 The Earth Gives Way [Zaralek Cavern]: no offer-reward text
+- 72980 Brother's Keeper [Zaralek Cavern]: no offer-reward text
+- 72970 Niffen and Goliath [Zaralek Cavern]: no offer-reward text
+- 72973 Smells Like Loamm [Zaralek Cavern]: no offer-reward text
+- 72974 Welcome to the City of Smells [Zaralek Cavern]: no offer-reward text
+- 75643 Orientation: Loamm Niffen [Zaralek Cavern]: no offer-reward text
+- 75644 Six Hundred Feet Under [Zaralek Cavern]: no offer-reward text
+- 74334 Future Aspects [Zaralek Cavern]: no offer-reward text
+- 72958 Save-A-Mole [Zaralek Cavern]: no offer-reward text
+- 74375 Collating Their Research [Zaralek Cavern]: no offer-reward text
+- 72959 Whose Vault Is It Anyway? [Zaralek Cavern]: no offer-reward text
+- 72961 Charging Up [Zaralek Cavern]: no offer-reward text
+- 72962 Open That Door! [Zaralek Cavern]: no offer-reward text
+- 75419 Sundered Flames [Zaralek Cavern]: no offer-reward text
+- 72963 The Upper Hand [Zaralek Cavern]: no offer-reward text
+- 72964 Singed [Zaralek Cavern]: no offer-reward text
+- 72965 Aspects of Our Legacy [Zaralek Cavern]: no offer-reward text
+- 72966 Where There's Smoke, There's Fire [Zaralek Cavern]: no offer-reward text
+- 72908 Sight Beyond Sight [Zaralek Cavern]: no offer-reward text
+- 72909 Legends of the Zaqali [Zaralek Cavern]: no offer-reward text
+- 72910 Know Thy Enemy [Zaralek Cavern]: no offer-reward text
+- 72911 Take Out the Head [Zaralek Cavern]: no offer-reward text
+- 72912 Consequences [Zaralek Cavern]: no offer-reward text
+- 72913 Battlefield Triage [Zaralek Cavern]: no offer-reward text
+- 72914 Rushing Quality [Zaralek Cavern]: no offer-reward text
+- 72915 Alliance of Convenience [Zaralek Cavern]: no offer-reward text
+- 72916 Shut Them Down [Zaralek Cavern]: no offer-reward text
+- 74494 A Scale for a Scale [Zaralek Cavern]: no offer-reward text
+- 72917 From Hell's Heart [Zaralek Cavern]: no offer-reward text
+- 72918 No Dragon Left Behind [Zaralek Cavern]: no offer-reward text
+- 72919 Raked Over the Coals [Zaralek Cavern]: no offer-reward text
+- 72920 The Endless Burning Sky [Zaralek Cavern]: no offer-reward text
+- 75145 In the Wake of the Ashes [Zaralek Cavern]: no offer-reward text
+- 72987 Here We Go Again [Zaralek Cavern]: no offer-reward text
+- 75367 The Obsidian Rest [Zaralek Cavern]: no offer-reward text
+- 74393 Report: Battlefield Ruins [Zaralek Cavern]: no offer-reward text
+- 74538 Blow It Up [Zaralek Cavern]: no offer-reward text
+- 74539 Thinning Their Defenses [Zaralek Cavern]: no offer-reward text
+- 74540 Intercepting Communications [Zaralek Cavern]: no offer-reward text
+- 74542 Air Superiority [Zaralek Cavern]: no offer-reward text
+- 74557 Investigating the Unknown [Zaralek Cavern]: no offer-reward text
+- 74562 Break Them Out [Zaralek Cavern]: no offer-reward text
+- 74563 Worst of the Worst [Zaralek Cavern]: no offer-reward text
+- 72922 Fading Embers [Zaralek Cavern]: no offer-reward text
+- 72923 A Whisper to Sabellian [Zaralek Cavern]: no offer-reward text
+- 72924 Appealing to the Black Prince [Zaralek Cavern]: no offer-reward text
+- 72925 With Our Powers Combined [Zaralek Cavern]: no offer-reward text
+- 72926 In the Right Hands [Zaralek Cavern]: no offer-reward text
+- 72931 Forward Camp [Zaralek Cavern]: no offer-reward text
+- 72928 Wipe Them Out [Zaralek Cavern]: no offer-reward text
+- 72927 Finding Sarkareth [Zaralek Cavern]: no offer-reward text
+- 72929 Cracking His Shell [Zaralek Cavern]: no offer-reward text
+- 72930 Stopping Sarkareth [Zaralek Cavern]: no offer-reward text
+- 75694 Aberrus, the Shadowed Crucible: Sarkareth [Zaralek Cavern]: no offer-reward text
+- 74521 A Flame, Extinguished [Zaralek Cavern]: no offer-reward text
+- 74522 Remnants [Zaralek Cavern]: no offer-reward text
+- 74523 A Traitor's Due [Zaralek Cavern]: no offer-reward text
+- 74525 Honorbound [Zaralek Cavern]: no offer-reward text
+- 75018 Into the Dark [Zaralek Cavern]: no offer-reward text
+- 75028 All the Broken Pieces [Zaralek Cavern]: no offer-reward text
+- 75029 A Legacy, Reforged [Zaralek Cavern]: no offer-reward text
+- 75417 Symbol of Hope [Zaralek Cavern]: no offer-reward text
+- 91695 Tracking Down Incarnates [Zaralek Cavern]: no ender, no offer-reward text, no starter
+- 91691 The Vanishing of Iridikron [Zaralek Cavern]: no ender, no offer-reward text, no starter
+- 94370 Slithering Closer [Daggerspine Landing]: no ender, no offer-reward text
+- 91522 Order from Chaos [Infinite Epilogues]: no ender, no offer-reward text, no starter
+- 91727 None [Infinite Epilogues]: MISSING quest_template
+- 91728 Suramar Liberated [Infinite Epilogues]: no ender, no starter
+- 91729 Armies Gathered [Infinite Epilogues]: no ender, no starter
+- 91730 Azeroth Saved [Infinite Epilogues]: no ender, no starter
+- 91565 Voidscar Arena: The Grief Spire [Breaking the Triad]: no offer-reward text
+- 91583 Voidscar Arena: The Bastion of Valor [Breaking the Triad]: no offer-reward text
+- 91597 Voidscar Arena: For My Alliance [Breaking the Triad]: no offer-reward text
+- 91598 Voidscar Arena: Pre-Provoked Violence [Breaking the Triad]: no offer-reward text
+- 91599 Voidscar Arena: A Familiar Grudge [Breaking the Triad]: no offer-reward text
+- 91600 Voidscar Arena: Setting It Aside [Breaking the Triad]: no offer-reward text
+- 91566 Voidscar Arena: The Hate Spire [Breaking the Triad]: no starter
+- 94845 Voidscar Arena: The Bastion of Might [Breaking the Triad]: no starter
+- 94844 Voidscar Arena: For My Horde [Breaking the Triad]: no starter
+- 94848 Voidscar Arena: Pre-Provoked Violence [Breaking the Triad]: no starter
+- 94849 Voidscar Arena: A Familiar Grudge [Breaking the Triad]: no starter
+- 94855 Voidscar Arena: Setting It Aside [Breaking the Triad]: no starter
+- 91606 Voidscar Arena: Clearing House [Breaking the Triad]: giver 259115 not spawned
+- 91694 Voidscar Arena: Breaking the Triad [Breaking the Triad]: no ender, no offer-reward text, no starter
+- 77201 A Personal Offering [The Emerald Dream]: no offer-reward text
+- 92875 Understanding the War Within [The Emerald Dream]: no offer-reward text
+- 91639 Embrace Your Own Legend [Infinite Power Hypothesis]: no ender, no starter
+- 91721 Surpass Your Own Legend [Infinite Power Hypothesis]: no ender, no starter
+- 91722 Shape a New Legend [Infinite Power Hypothesis]: no ender, no starter
+- 91462 To the Central Tower [Far Striding]: giver 248309 not spawned
+- 85019 An Outcast's Request [Priest of the Old Ways]: no offer-reward text
+- 85020 The Blood of K'aresh [Priest of the Old Ways]: no offer-reward text
+- 85021 Cleansing the Void [Priest of the Old Ways]: no offer-reward text
+- 85022 Priest of the Old Ways [Priest of the Old Ways]: no offer-reward text
+- 91757 Until Our Next Hello [Last Goodbyes]: no ender, no starter
+- 91780 Ethereal Delves [Delves - Season 3]: no ender, no starter
+- 91781 Seasonal Reminder [Delves - Season 3]: no ender, no starter
+- 91782 Repossessed! [Delves - Season 3]: no ender, no offer-reward text, no starter
+- 91089 Defeating Ky'veza [Delves - Season 3]: no offer-reward text, no starter
+- 91918 Delves: Measure Once, Cut Twice [The Crimson Rogue]: no offer-reward text, no starter
+- 91831 Keys Are Optional [The Crimson Rogue]: no ender, no offer-reward text
+- 91828 A Favor for the Lion [The Crimson Rogue]: no offer-reward text
+- 91829 One by One [The Crimson Rogue]: no ender, no offer-reward text
+- 91830 Intercepted [The Crimson Rogue]: no ender, no offer-reward text
+- 91810 Blistereel Boar Buffet [Zul'Aman - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 91811 A Scorched Mirror [Zul'Aman - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 91808 Resource Recovery [Zul'Aman - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 91801 Twilight's Bane [Zul'Aman - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 91797 None [Zul'Aman - World Quests/Repeatables]: MISSING quest_template
+- 91796 None [Zul'Aman - World Quests/Repeatables]: MISSING quest_template
+- 91793 None [Zul'Aman - World Quests/Repeatables]: MISSING quest_template
+- 91390 Special Assignment: What Remains of a Temple Broken [Zul'Aman - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 91802 The Best Bites are Bog Bugs [Zul'Aman - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 91800 Heirlooming Danger [Zul'Aman - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 91799 Trial of Flight [Zul'Aman - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 91798 Fish Of The Day [Zul'Aman - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 91807 None [Zul'Aman - World Quests/Repeatables]: MISSING quest_template
+- 91806 Big Game Hunting [Zul'Aman - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 91805 Boughs in the Burrows [Zul'Aman - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 91804 Fish for the Fire [Zul'Aman - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 91803 Marsh Menace [Zul'Aman - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 91809 None [Zul'Aman - World Quests/Repeatables]: MISSING quest_template
+- 91490 Dousing Teldrassil [Harandar - World Quests / Repeatables]: no ender, no offer-reward text, no starter
+- 92582 Apply to Roots [Harandar - World Quests / Repeatables]: no ender, no offer-reward text, no starter
+- 91555 Defenders of the Vale [Harandar - World Quests / Repeatables]: no ender, no offer-reward text, no starter
+- 91582 Pruning the Lattice [Harandar - World Quests / Repeatables]: no ender, no offer-reward text, no starter
+- 91785 Ensporcelled [Harandar - World Quests / Repeatables]: no ender, no offer-reward text, no starter
+- 91927 Ooze Booting [Harandar - World Quests / Repeatables]: no ender, no offer-reward text, no starter
+- 91981 To Poison and to Heal [Harandar - World Quests / Repeatables]: no ender, no offer-reward text, no starter
+- 92119 Bitterbloom Burn Down [Harandar - World Quests / Repeatables]: no ender, no offer-reward text, no starter
+- 92184 Potadpole Wrangling [Harandar - World Quests / Repeatables]: no ender, no offer-reward text, no starter
+- 91937 Portraits in the Vale [Harandar - World Quests / Repeatables]: no ender, no offer-reward text, no starter
+- 92028 Pardon the Interruption [Siege of Arathi Highlands - Side Quests]: giver 249456 not spawned, no starter
+- 93382 Pardon the Interruption [Siege of Arathi Highlands - Side Quests]: no ender, no offer-reward text, no starter
+- 92122 Beneath the Sunsails [Eversong Woods - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 92195 Come On Down [Eversong Woods - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 92364 Sun Support [Eversong Woods - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 92138 Mobilize! Enlist! Recruit! [Eversong Woods - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 92105 Papers, Please! [Eversong Woods - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 92149 Death to Twilight [Eversong Woods - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 92145 None [Eversong Woods - World Quests/Repeatables]: MISSING quest_template
+- 92153 The Moon at Twilight [Eversong Woods - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 92152 Battling the Bloom [Eversong Woods - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 92150 A Breeze through Fairbreeze [Eversong Woods - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 92146 Containment Zone [Eversong Woods - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 92160 Hatchling Havoc [Eversong Woods - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 92143 Arcane Reallocation [Eversong Woods - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 92144 No Squatters [Eversong Woods - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 92140 Uprooting Efforts [Eversong Woods - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 92141 Classic Threats [Eversong Woods - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 92139 Special Assignment: Shade and Claw [Eversong Woods - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 92120 To Understand Magic [Eversong Woods - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 92121 The Great Outdoors [Eversong Woods - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 92163 The Loa of Murlocs [The Loa of Murlocs]: no offer-reward text, no starter
+- 87350 Abundance: Loaknit Den [Abundance]: no ender, no offer-reward text, no starter
+- 88770 None [Abundance]: MISSING quest_template
+- 90092 None [Abundance]: MISSING quest_template
+- 91302 Abundance: Abundant Grove [Abundance]: no ender, no offer-reward text, no starter
+- 91303 None [Abundance]: MISSING quest_template
+- 91304 None [Abundance]: MISSING quest_template
+- 91432 None [Abundance]: MISSING quest_template
+- 91457 Abundance: Watha'nan Crypts [Abundance]: no ender, no offer-reward text, no starter
+- 91475 Abundance: Abundant Voidburrow [Abundance]: no ender, no offer-reward text, no starter
+- 91496 None [Abundance]: MISSING quest_template
+- 91932 The Abundant Awakening [Abundance]: no starter
+- 92174 None [Abundance]: MISSING quest_template
+- 92186 None [Abundance]: MISSING quest_template
+- 92187 None [Abundance]: MISSING quest_template
+- 92188 None [Abundance]: MISSING quest_template
+- 94361 The Abundant Life [Abundance]: no offer-reward text
+- 94426 None [Abundance]: MISSING quest_template
+- 93890 Midnight: Abundance [Abundance]: no ender, no offer-reward text, no starter
+- 92319 A Favor to Axe [The Arcantina]: no ender, no offer-reward text, no starter
+- 92321 A Frostbitten Tally [The Arcantina]: no ender, no offer-reward text, no starter
+- 92320 Still Behind Enemy Portals [The Arcantina]: no ender, no offer-reward text, no starter
+- 92322 Timear Foresees a Proof of Demise! [The Arcantina]: no ender, no offer-reward text, no starter
+- 92323 Where the Fire Once Burned [The Arcantina]: no ender, no offer-reward text, no starter
+- 92324 Uncrowned's Cold Case [The Arcantina]: no ender, no offer-reward text, no starter
+- 92325 Hellscream's Heritage [The Arcantina]: no ender, no offer-reward text, no starter
+- 92326 The Fragrance of the Dunes [The Arcantina]: no ender, no offer-reward text, no starter
+- 92327 A Generational Moment [The Arcantina]: no ender, no offer-reward text, no starter
+- 95779 Moments in a Mug [The Arcantina]: no ender, no offer-reward text, no starter
+- 95780 Hope for the Orphans [The Arcantina]: no ender, no offer-reward text, no starter
+- 92196 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92197 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92198 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92199 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92200 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92201 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92202 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92203 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92204 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92205 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92206 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92207 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92208 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92209 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92210 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92211 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92212 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92213 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92214 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92215 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92225 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92226 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92227 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92228 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92229 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92230 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92231 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92232 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92233 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92234 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92299 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92300 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92301 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92302 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92303 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92304 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92307 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92235 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92305 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92306 None [12.0 Z3 - Moth Hunt - Group A]: MISSING quest_template
+- 92216 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92217 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92218 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92219 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92220 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92221 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92222 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92223 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92224 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92236 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92237 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92238 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92239 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92240 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92241 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92242 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92243 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92244 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92245 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92246 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92247 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92248 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92249 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92250 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92251 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92252 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92253 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92254 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92255 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92256 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92260 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92257 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92258 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92259 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92261 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92262 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92263 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92264 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92265 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92266 None [12.0 Z3 - Moth Hunt - Group B]: MISSING quest_template
+- 92267 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92268 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92269 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92270 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92271 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92272 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92273 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92274 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92275 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92276 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92277 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92278 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92279 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92280 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92281 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92282 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92283 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92284 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92288 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92285 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92286 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92287 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92289 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92290 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92291 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92292 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92293 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92294 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92295 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92296 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92297 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92308 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92309 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92310 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92311 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92312 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92316 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92313 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92314 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92315 None [12.0 Z3 - Moth Hunt - Group C]: MISSING quest_template
+- 92349 None [Arcantina Potions]: MISSING quest_template
+- 92350 None [Arcantina Potions]: MISSING quest_template
+- 92351 None [Arcantina Potions]: MISSING quest_template
+- 92352 None [Arcantina Potions]: MISSING quest_template
+- 92353 None [Arcantina Potions]: MISSING quest_template
+- 92354 None [Arcantina Potions]: MISSING quest_template
+- 92355 None [Arcantina Potions]: MISSING quest_template
+- 92356 None [Arcantina Potions]: MISSING quest_template
+- 92357 None [Arcantina Potions]: MISSING quest_template
+- 92358 None [Arcantina Potions]: MISSING quest_template
+- 92359 None [Arcantina Potions]: MISSING quest_template
+- 92363 None [Arcantina Potions]: MISSING quest_template
+- 92360 None [Arcantina Potions]: MISSING quest_template
+- 92361 None [Arcantina Potions]: MISSING quest_template
+- 92362 None [Arcantina Potions]: MISSING quest_template
+- 92375 None [Arcantina Decorations]: MISSING quest_template
+- 92376 None [Arcantina Decorations]: MISSING quest_template
+- 92377 None [Arcantina Decorations]: MISSING quest_template
+- 92378 None [Arcantina Decorations]: MISSING quest_template
+- 92379 None [Arcantina Decorations]: MISSING quest_template
+- 92380 None [Arcantina Decorations]: MISSING quest_template
+- 92381 None [Arcantina Decorations]: MISSING quest_template
+- 92382 None [Arcantina Decorations]: MISSING quest_template
+- 92383 None [Arcantina Decorations]: MISSING quest_template
+- 92384 None [Arcantina Decorations]: MISSING quest_template
+- 92385 None [Arcantina Decorations]: MISSING quest_template
+- 95782 None [Arcantina Decorations]: MISSING quest_template
+- 95783 None [Arcantina Decorations]: MISSING quest_template
+- 95784 None [Arcantina Decorations]: MISSING quest_template
+- 90958 Roots Above All [Rooted In Traditions]: no offer-reward text
+- 90959 Traditional Duties [Rooted In Traditions]: no offer-reward text
+- 90960 My Story, My Legacy [Rooted In Traditions]: no offer-reward text
+- 90961 Stranger in a New Land [Rooted In Traditions]: no offer-reward text
+- 92445 Smelting for Two [12.0 - Housing - Endeavors - Forbidden Reach - (POC)]: no ender, no offer-reward text, no starter
+- 92402 Magical Touch [12.0 - Housing - Endeavors - Forbidden Reach - (POC)]: no ender, no offer-reward text, no starter
+- 92417 Farm to Table [12.0 - Housing - Endeavors - Forbidden Reach - (POC)]: no ender, no offer-reward text, no starter
+- 92429 Alternative Skinning [12.0 - Housing - Endeavors - Forbidden Reach - (POC)]: no ender, no offer-reward text, no starter
+- 92443 Reverse Herb Farming [12.0 - Housing - Endeavors - Forbidden Reach - (POC)]: no ender, no offer-reward text, no starter
+- 92196 None [Moth Hunt]: MISSING quest_template
+- 92197 None [Moth Hunt]: MISSING quest_template
+- 92198 None [Moth Hunt]: MISSING quest_template
+- 92199 None [Moth Hunt]: MISSING quest_template
+- 92200 None [Moth Hunt]: MISSING quest_template
+- 92201 None [Moth Hunt]: MISSING quest_template
+- 92202 None [Moth Hunt]: MISSING quest_template
+- 92203 None [Moth Hunt]: MISSING quest_template
+- 92204 None [Moth Hunt]: MISSING quest_template
+- 92205 None [Moth Hunt]: MISSING quest_template
+- 92206 None [Moth Hunt]: MISSING quest_template
+- 92207 None [Moth Hunt]: MISSING quest_template
+- 92208 None [Moth Hunt]: MISSING quest_template
+- 92209 None [Moth Hunt]: MISSING quest_template
+- 92210 None [Moth Hunt]: MISSING quest_template
+- 92211 None [Moth Hunt]: MISSING quest_template
+- 92212 None [Moth Hunt]: MISSING quest_template
+- 92213 None [Moth Hunt]: MISSING quest_template
+- 92214 None [Moth Hunt]: MISSING quest_template
+- 92215 None [Moth Hunt]: MISSING quest_template
+- 92216 None [Moth Hunt]: MISSING quest_template
+- 92217 None [Moth Hunt]: MISSING quest_template
+- 92218 None [Moth Hunt]: MISSING quest_template
+- 92219 None [Moth Hunt]: MISSING quest_template
+- 92220 None [Moth Hunt]: MISSING quest_template
+- 92221 None [Moth Hunt]: MISSING quest_template
+- 92222 None [Moth Hunt]: MISSING quest_template
+- 92223 None [Moth Hunt]: MISSING quest_template
+- 92224 None [Moth Hunt]: MISSING quest_template
+- 92225 None [Moth Hunt]: MISSING quest_template
+- 92226 None [Moth Hunt]: MISSING quest_template
+- 92227 None [Moth Hunt]: MISSING quest_template
+- 92228 None [Moth Hunt]: MISSING quest_template
+- 92229 None [Moth Hunt]: MISSING quest_template
+- 92230 None [Moth Hunt]: MISSING quest_template
+- 92231 None [Moth Hunt]: MISSING quest_template
+- 92232 None [Moth Hunt]: MISSING quest_template
+- 92233 None [Moth Hunt]: MISSING quest_template
+- 92234 None [Moth Hunt]: MISSING quest_template
+- 92235 None [Moth Hunt]: MISSING quest_template
+- 92236 None [Moth Hunt]: MISSING quest_template
+- 92237 None [Moth Hunt]: MISSING quest_template
+- 92238 None [Moth Hunt]: MISSING quest_template
+- 92239 None [Moth Hunt]: MISSING quest_template
+- 92240 None [Moth Hunt]: MISSING quest_template
+- 92241 None [Moth Hunt]: MISSING quest_template
+- 92242 None [Moth Hunt]: MISSING quest_template
+- 92243 None [Moth Hunt]: MISSING quest_template
+- 92244 None [Moth Hunt]: MISSING quest_template
+- 92245 None [Moth Hunt]: MISSING quest_template
+- 92249 None [Moth Hunt]: MISSING quest_template
+- 92246 None [Moth Hunt]: MISSING quest_template
+- 92247 None [Moth Hunt]: MISSING quest_template
+- 92248 None [Moth Hunt]: MISSING quest_template
+- 92250 None [Moth Hunt]: MISSING quest_template
+- 92251 None [Moth Hunt]: MISSING quest_template
+- 92252 None [Moth Hunt]: MISSING quest_template
+- 92253 None [Moth Hunt]: MISSING quest_template
+- 92254 None [Moth Hunt]: MISSING quest_template
+- 92255 None [Moth Hunt]: MISSING quest_template
+- 92256 None [Moth Hunt]: MISSING quest_template
+- 92257 None [Moth Hunt]: MISSING quest_template
+- 92258 None [Moth Hunt]: MISSING quest_template
+- 92259 None [Moth Hunt]: MISSING quest_template
+- 92260 None [Moth Hunt]: MISSING quest_template
+- 92261 None [Moth Hunt]: MISSING quest_template
+- 92262 None [Moth Hunt]: MISSING quest_template
+- 92263 None [Moth Hunt]: MISSING quest_template
+- 92264 None [Moth Hunt]: MISSING quest_template
+- 92265 None [Moth Hunt]: MISSING quest_template
+- 92266 None [Moth Hunt]: MISSING quest_template
+- 92267 None [Moth Hunt]: MISSING quest_template
+- 92271 None [Moth Hunt]: MISSING quest_template
+- 92268 None [Moth Hunt]: MISSING quest_template
+- 92269 None [Moth Hunt]: MISSING quest_template
+- 92270 None [Moth Hunt]: MISSING quest_template
+- 92272 None [Moth Hunt]: MISSING quest_template
+- 92273 None [Moth Hunt]: MISSING quest_template
+- 92274 None [Moth Hunt]: MISSING quest_template
+- 92275 None [Moth Hunt]: MISSING quest_template
+- 92276 None [Moth Hunt]: MISSING quest_template
+- 92277 None [Moth Hunt]: MISSING quest_template
+- 92278 None [Moth Hunt]: MISSING quest_template
+- 92282 None [Moth Hunt]: MISSING quest_template
+- 92279 None [Moth Hunt]: MISSING quest_template
+- 92280 None [Moth Hunt]: MISSING quest_template
+- 92281 None [Moth Hunt]: MISSING quest_template
+- 92283 None [Moth Hunt]: MISSING quest_template
+- 92284 None [Moth Hunt]: MISSING quest_template
+- 92288 None [Moth Hunt]: MISSING quest_template
+- 92285 None [Moth Hunt]: MISSING quest_template
+- 92286 None [Moth Hunt]: MISSING quest_template
+- 92287 None [Moth Hunt]: MISSING quest_template
+- 92289 None [Moth Hunt]: MISSING quest_template
+- 92290 None [Moth Hunt]: MISSING quest_template
+- 92291 None [Moth Hunt]: MISSING quest_template
+- 92292 None [Moth Hunt]: MISSING quest_template
+- 92293 None [Moth Hunt]: MISSING quest_template
+- 92294 None [Moth Hunt]: MISSING quest_template
+- 92295 None [Moth Hunt]: MISSING quest_template
+- 92296 None [Moth Hunt]: MISSING quest_template
+- 92297 None [Moth Hunt]: MISSING quest_template
+- 92299 None [Moth Hunt]: MISSING quest_template
+- 92300 None [Moth Hunt]: MISSING quest_template
+- 92301 None [Moth Hunt]: MISSING quest_template
+- 92302 None [Moth Hunt]: MISSING quest_template
+- 92303 None [Moth Hunt]: MISSING quest_template
+- 92304 None [Moth Hunt]: MISSING quest_template
+- 92305 None [Moth Hunt]: MISSING quest_template
+- 92306 None [Moth Hunt]: MISSING quest_template
+- 92307 None [Moth Hunt]: MISSING quest_template
+- 92308 None [Moth Hunt]: MISSING quest_template
+- 92309 None [Moth Hunt]: MISSING quest_template
+- 92310 None [Moth Hunt]: MISSING quest_template
+- 92311 None [Moth Hunt]: MISSING quest_template
+- 92312 None [Moth Hunt]: MISSING quest_template
+- 92313 None [Moth Hunt]: MISSING quest_template
+- 92314 None [Moth Hunt]: MISSING quest_template
+- 92315 None [Moth Hunt]: MISSING quest_template
+- 92316 None [Moth Hunt]: MISSING quest_template
+- 93057 A House For You [House Purchase Tutorial]: no offer-reward text
+- 90882 Gnoll Way [12.0 Testing - RPE - Delete Me - (STM)]: no offer-reward text, no starter
+- 91868 Recap: Shadowy Pursuits [Catch Up: War Within: Wrapper 3]: no ender, no offer-reward text, no starter
+- 79156 The Edicts [Catch Up: War Within: Wrapper 3]: no offer-reward text
+- 78948 A Light in the Dark [Catch Up: War Within: Wrapper 3]: no offer-reward text
+- 83503 Return to Dornogal [Catch Up: War Within: Wrapper 3]: no offer-reward text
+- 88755 Scholarly Pursuits [The Void Peers Back]: no starter
+- 91864 Recap: Fractured Visions [Catch Up: War Within: Wrapper 2]: no ender, no offer-reward text, no starter
+- 80334 Shattered Spires [Catch Up: War Within: Wrapper 2]: no offer-reward text
+- 91884 The Illusion of Motion [A Voice Inside]: no starter
+- 91885 Drain You [A Voice Inside]: giver 256206 not spawned
+- 90838 Oaths and Heirlooms [Oaths to Family]: no starter
+- 91871 Recap: The Dark Heart [Catch Up: War Within: Wrapper 4]: no ender, no offer-reward text, no starter
+- 83126 Ethereal Invasion [Catch Up: War Within: Wrapper 4]: no offer-reward text
+- 85449 Phase Shift [Catch Up: War Within: Wrapper 4]: no offer-reward text
+- 85450 Evacuation Plan [Catch Up: War Within: Wrapper 4]: no offer-reward text
+- 83127 Racing the Clock [Catch Up: War Within: Wrapper 4]: no offer-reward text
+- 83128 Get Our People Out [Catch Up: War Within: Wrapper 4]: no offer-reward text
+- 83129 Nowhere Left to Hide [Catch Up: War Within: Wrapper 4]: no offer-reward text
+- 93979 Lingering Memories [Catch Up: War Within: Wrapper 4]: no ender, no offer-reward text, no starter
+- 86820 Manaforge Omega: Dimensius Looms [Catch Up: War Within: Wrapper 4]: no ender, no offer-reward text
+- 91843 Recap: The Harbinger [Catch Up: War Within: Wrapper 1]: no ender, no offer-reward text, no starter
+- 88993 Wey'nan's Ward [Legends Relics]: no starter
+- 88994 The Cauldron of Echoes [Legends Relics]: no starter
+- 88995 Aln'hara's Bloom [Legends Relics]: no ender, no offer-reward text, no starter
+- 88996 The Echoless Flame [Legends Relics]: no ender, no offer-reward text, no starter
+- 88997 Russula's Outreach [Legends Relics]: no ender, no offer-reward text, no starter
+- 88998 Root of the World [Legends Relics]: no ender, no offer-reward text, no starter
+- 88999 Sky's Hope [Legends Relics]: no ender, no offer-reward text, no starter
+- 92652 None [Lorewalking: Thrall]: MISSING quest_template
+- 92673 Lorewalking: In Pride's Wake [Lorewalking: Thrall]: no ender, no offer-reward text, no starter
+- 92675 Lorewalking: The Weight of Doubt [Lorewalking: Thrall]: no ender, no offer-reward text, no starter
+- 55779 Stay of Execution [Lorewalking: Thrall]: no offer-reward text, no starter
+- 92676 Lorewalking: In Another's Footsteps [Lorewalking: Thrall]: no ender, no offer-reward text, no starter
+- 63613 Gates of the Damned [Lorewalking: Thrall]: no offer-reward text
+- 63615 Clip Their Wings [Lorewalking: Thrall]: no offer-reward text
+- 63614 Weapon in Hand [Lorewalking: Thrall]: no offer-reward text
+- 92677 Lorewalking: Paths Ever Onward [Lorewalking: Thrall]: no ender, no offer-reward text, no starter
+- 67700 To the Dragon Isles! [Dragon Isles City Intro Quests]: no offer-reward text
+- 92657 The Brewing Storm [Go Low, Go Loud]: no ender, no offer-reward text, no starter
+- 92826 Lorewalking: The Loa of Kings [Lorewalking: Loa]: no ender, no offer-reward text, no starter
+- 49965 The Warpack [Lorewalking: Loa]: no offer-reward text
+- 49422 Heretics [Lorewalking: Loa]: no offer-reward text
+- 49424 The Full Prophecy [Lorewalking: Loa]: giver 132041 not spawned, no offer-reward text
+- 49425 City of Gold [Lorewalking: Loa]: no offer-reward text
+- 49426 The King's Gambit [Lorewalking: Loa]: no offer-reward text
+- 92829 Lorewalking: Death of the Drakkari Loa [Lorewalking: Loa]: no ender, no offer-reward text, no starter
+- 92831 Lorewalking: The Blood Loa [Lorewalking: Loa]: no ender, no offer-reward text, no starter
+- 92832 Lorewalking: The Hash'ey [Lorewalking: Loa]: no ender, no offer-reward text, no starter
+- 77900 The Loa Trials [Lorewalking: Loa]: no offer-reward text, no starter
+- 77901 Retraining the Trainees [Lorewalking: Loa]: giver 210260 not spawned, no ender, no offer-reward text
+- 77902 Ritual Recovery [Lorewalking: Loa]: no offer-reward text, no starter
+- 77903 De Power of Death [Lorewalking: Loa]: no offer-reward text, no starter
+- 77905 Avatar of Mueh'zala [Lorewalking: Loa]: no ender, no offer-reward text, no starter
+- 87547 What's Your Specialty? [Welcome to the Waking Shore]: no offer-reward text
+- 87555 Home Is Where the Hearth Is [Welcome to the Waking Shore]: no offer-reward text
+- 87562 Aiding the Dragon Isles [Welcome to the Waking Shore]: no offer-reward text
+- 92876 None [The War Within]: MISSING quest_template
+- 91557 Message to the Molt [Pathogenic Problem]: no ender, no offer-reward text, no starter
+- 91375 The Silence at Fungara Village [The Silence at Fungara Village]: no ender, no offer-reward text, no starter
+- 92177 One Hero's Prey [Astalor's Temptations]: no starter
+- 92178 Practical Magic [Astalor's Temptations]: no starter
+- 92179 Dark Mending [Astalor's Temptations]: no offer-reward text, no starter
+- 92180 Precious Jewels [Astalor's Temptations]: no offer-reward text, no starter
+- 92181 Garden Variety Sacrifices [Astalor's Temptations]: no ender, no offer-reward text, no starter
+- 92182 The Sheep or the Wolf [Astalor's Temptations]: no ender, no offer-reward text, no starter
+- 92630 The Pursuit Continues [Rage of the Ren'dorei]: no offer-reward text
+- 92631 Abhorrent Gauntlet [Rage of the Ren'dorei]: no offer-reward text
+- 92632 Trial of Wrath [Rage of the Ren'dorei]: no offer-reward text
+- 98541 None [Legacy of the Amani]: MISSING quest_template
+- 92897 The Preparations Are Complete [Legacy of the Amani]: no offer-reward text, no starter
+- 92895 Hagar's Invitation [Legacy of the Amani]: no offer-reward text
+- 92899 History Lesson [Legacy of the Amani]: no offer-reward text
+- 92900 A Favor for Kinduru [Legacy of the Amani]: no offer-reward text
+- 92901 Revisionist History [Legacy of the Amani]: no ender, no offer-reward text, no starter
+- 92904 Return to Zul'Aman [Legacy of the Amani]: no ender, no offer-reward text, no starter
+- 92907 Amani Answers [Legacy of the Amani]: no ender, no offer-reward text, no starter
+- 92955 The Tablets of Numazon [Legacy of the Amani]: no ender, no offer-reward text, no starter
+- 92957 There's the Rub [Legacy of the Amani]: no ender, no offer-reward text, no starter
+- 92958 Brain Drain [Legacy of the Amani]: no ender, no offer-reward text, no starter
+- 92952 Mission to Maisara [Legacy of the Amani]: no ender, no offer-reward text, no starter
+- 92953 Memories of Malacrass [Legacy of the Amani]: no ender, no offer-reward text, no starter
+- 92951 Digging Deeper [Legacy of the Amani]: no ender, no offer-reward text, no starter
+- 92954 Maisara Caverns: Master of Souls [Legacy of the Amani]: no ender, no offer-reward text, no starter
+- 93010 The Serpent Shrine [Legacy of the Amani]: no ender, no offer-reward text, no starter
+- 93011 Legacy of the Amani [Legacy of the Amani]: no ender, no offer-reward text, no starter
+- 93012 Dead End [Legacy of the Amani]: no ender, no offer-reward text, no starter
+- 93385 Delver's Call: The Darkway [Delver's Call - Midnight]: no ender, no offer-reward text, no starter
+- 93386 Delver's Call: Parhelion Plaza [Delver's Call - Midnight]: no ender, no offer-reward text, no starter
+- 93409 Delver's Call: Atal'Aman [Delver's Call - Midnight]: no offer-reward text, no starter
+- 93410 Delver's Call: Twilight Crypts [Delver's Call - Midnight]: no offer-reward text, no starter
+- 93416 Delver's Call: The Gulf of Memory [Delver's Call - Midnight]: no starter
+- 93421 Delver's Call: The Grudge Pit [Delver's Call - Midnight]: no offer-reward text, no starter
+- 93427 Delver's Call: Sunkiller Sanctum [Delver's Call - Midnight]: no ender, no offer-reward text, no starter
+- 93428 Delver's Call: Shadowguard Point [Delver's Call - Midnight]: no ender, no offer-reward text, no starter
+- 93507 Disrupting the Void [Voidstorm - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 93603 None [Blessing Task List]: MISSING quest_template
+- 93648 Gnarly Skullduggery [Blessing Task List]: no ender, no offer-reward text, no starter
+- 93649 Got the Gall [Blessing Task List]: no ender, no offer-reward text, no starter
+- 93664 Rotten Fish [Blessing Task List]: no ender, no offer-reward text, no starter
+- 93672 Blade to Rest [Blessing Task List]: no ender, no offer-reward text, no starter
+- 93665 None [Blessing Task List]: MISSING quest_template
+- 93669 Curse of Greed [Blessing Task List]: no ender, no offer-reward text, no starter
+- 93670 How 'Bout Them Apples? [Blessing Task List]: no ender, no offer-reward text, no starter
+- 93671 A Tight Squeeze [Blessing Task List]: no ender, no offer-reward text, no starter
+- 50242 A Choice of Allies [Allied Race Display]: no ender, no offer-reward text, no starter
+- 38725 Into the Foul Creche [Void Elf Demon Hunter Quests]: no offer-reward text
+- 38727 Stop the Bombardment [Void Elf Demon Hunter Quests]: no offer-reward text
+- 38819 Their Numbers Are Legion [Void Elf Demon Hunter Quests]: no offer-reward text
+- 39516 Cry Havoc and Let Slip the Illidari! [Void Elf Demon Hunter Quests]: no offer-reward text
+- 40051 Fel Secrets [Void Elf Demon Hunter Quests]: no offer-reward text
+- 40222 The Imp Mother's Tome [Void Elf Demon Hunter Quests]: no offer-reward text
+- 38672 Breaking Out [Void Elf Demon Hunter Quests]: no offer-reward text
+- 38689 Fel Infusion [Void Elf Demon Hunter Quests]: no offer-reward text
+- 38690 Rise of the Illidari [Void Elf Demon Hunter Quests]: no offer-reward text
+- 38723 Stop Gul'dan! [Void Elf Demon Hunter Quests]: no offer-reward text
+- 39663 On Felbat Wings [Void Elf Demon Hunter Quests]: no offer-reward text
+- 38728 The Keystone [Void Elf Demon Hunter Quests]: no offer-reward text
+- 38729 Return to the Black Temple [Void Elf Demon Hunter Quests]: no offer-reward text
+- 39682 Grand Theft Felbat [Void Elf Demon Hunter Quests]: no offer-reward text
+- 39683 Forged in Fire [Void Elf Demon Hunter Quests]: no offer-reward text
+- 39684 Beam Me Up [Void Elf Demon Hunter Quests]: no offer-reward text
+- 39685 Frozen in Time [Void Elf Demon Hunter Quests]: no offer-reward text
+- 39686 All The Way Up [Void Elf Demon Hunter Quests]: no offer-reward text
+- 39688 Between Us and Freedom [Void Elf Demon Hunter Quests]: no offer-reward text
+- 39689 Illidari, We Are Leaving [Void Elf Demon Hunter Quests]: no offer-reward text
+- 39694 Between Us and Freedom [Void Elf Demon Hunter Quests]: no offer-reward text
+- 54087 You Must be This Height [Mechagon Intro]: no offer-reward text
+- 54088 The Legend of Mechagon [Mechagon Intro]: no offer-reward text
+- 54945 Let's Get It Started [Mechagon Intro]: no offer-reward text
+- 54946 Report to Gila [Mechagon Intro]: no offer-reward text
+- 54947 A Small Team [Mechagon Intro]: no offer-reward text
+- 54992 The Start of Something Bigger [Mechagon Intro]: giver 152482 not spawned, no offer-reward text
+- 55040 Looking Inside [Mechagon Intro]: no offer-reward text
+- 55645 Princely Visit [Mechagon Intro]: no offer-reward text
+- 55630 Let's Get It Started [Mechagon Intro]: no offer-reward text
+- 55632 You Must be This Height [Mechagon Intro]: no offer-reward text
+- 55646 The Legend of Mechagon [Mechagon Intro]: no offer-reward text
+- 55647 A Quick Ear Hustle [Mechagon Intro]: no offer-reward text
+- 55648 This is Our Vault Now [Mechagon Intro]: no offer-reward text
+- 55649 Machinations for Mechagon [Mechagon Intro]: no offer-reward text
+- 55650 Only the Best Will Do [Mechagon Intro]: no offer-reward text
+- 55651 To Mechagon! [Mechagon Intro]: no offer-reward text
+- 55652 Prospectus Bay [Mechagon Intro]: no offer-reward text
+- 55685 We Come in Peace... and Profit [Mechagon Intro]: no offer-reward text
+- 57024 Rumors of Mechagon [Mechagon Intro]: no offer-reward text
+- 55096 Send My Father a Message [Mechagon Intro - On Island]: no offer-reward text
+- 55729 The Resistance Needs YOU! [Mechagon Intro - On Island]: no offer-reward text
+- 55730 Rescuing the Resistance [Mechagon Intro - On Island]: giver 153670 not spawned, no offer-reward text
+- 55731 My Father's Armies [Mechagon Intro - On Island]: giver 153670 not spawned, no offer-reward text
+- 55734 Drill Rig Construction [Mechagon Intro - On Island]: giver 153670 not spawned, no offer-reward text
+- 55736 Welcome to the Resistance [Mechagon Intro - On Island]: no offer-reward text
+- 55995 We Can Fix It [Mechagon Intro - On Island]: giver 153670 not spawned, no offer-reward text
+- 93017 None [An Island of Fangs]: MISSING quest_template
+- 94031 Bones of My Soul [Bone Deep]: no ender, no offer-reward text, no starter
+- 94035 Meat for the Bones [Bone Deep]: no ender, no offer-reward text, no starter
+- 94036 One Final Prisoner [Bone Deep]: no ender, no offer-reward text, no starter
+- 94040 Meat and Bone and Soul [Bone Deep]: no ender, no offer-reward text, no starter
+- 93932 Legendary Prosperity [Renown of Midnight]: no starter
+- 93933 Guarded Treasures [Renown of Midnight]: no starter
+- 97621 The Singularity Anchor [Renown of Midnight]: no ender, no offer-reward text, no starter
+- 97622 A Soiree to Remember [Renown of Midnight]: no ender, no offer-reward text, no starter
+- 97624 Seeking Legends [Renown of Midnight]: no ender, no offer-reward text, no starter
+- 97625 Glorious Abundance [Renown of Midnight]: no ender, no offer-reward text, no starter
+- 93449 Trouble in the Swamp [The Troubles of Mlurkkr Mire]: no ender, no offer-reward text, no starter
+- 93199 Slithering in the Mire [The Troubles of Mlurkkr Mire]: no ender, no offer-reward text, no starter
+- 93229 Fried Eggs [The Troubles of Mlurkkr Mire]: no ender, no offer-reward text, no starter
+- 93576 The Search for Wa'kani [The Troubles of Mlurkkr Mire]: no ender, no offer-reward text, no starter
+- 94447 Ophidia the Broodmother [The Troubles of Mlurkkr Mire]: no ender, no offer-reward text, no starter
+- 93233 Savagery Among the Ruins [The Troubles of Mlurkkr Mire]: no ender, no offer-reward text, no starter
+- 93339 Trinket Trading [The Troubles of Mlurkkr Mire]: no ender, no offer-reward text, no starter
+- 93239 Scouts in the Swamp [The Troubles of Mlurkkr Mire]: no ender, no offer-reward text, no starter
+- 93340 The Shadow Shard [The Troubles of Mlurkkr Mire]: no ender, no offer-reward text, no starter
+- 94417 Crests of the Dawn [Item Upgrade Tutorial]: no ender, no offer-reward text
+- 94418 Crest Transmutation [Item Upgrade Tutorial]: no offer-reward text, no starter
+- 94432 Veteran Equipment [Item Upgrade Tutorial]: no ender, no offer-reward text
+- 95973 Echoes of the Darkwell [The Call of the Void]: no ender, no offer-reward text, no starter
+- 94519 What Hope in the Light? [The Call of the Void]: no ender, no offer-reward text, no starter
+- 94520 Resurgence in Deatholme [The Call of the Void]: no ender, no offer-reward text, no starter
+- 94521 The Direct Method [The Call of the Void]: no ender, no offer-reward text, no starter
+- 94522 They Always Write It Down [The Call of the Void]: no ender, no offer-reward text, no starter
+- 94523 My Poor Beautiful Self [The Call of the Void]: no ender, no offer-reward text, no starter
+- 94524 Under New Management [The Call of the Void]: no ender, no offer-reward text, no starter
+- 94525 A Comeback Story [The Call of the Void]: no ender, no offer-reward text, no starter
+- 94526 Verifiably Untrustworthy [The Call of the Void]: no ender, no offer-reward text, no starter
+- 94527 Null Space [The Call of the Void]: no ender, no offer-reward text, no starter
+- 94528 Carving Out Room [The Call of the Void]: no ender, no offer-reward text, no starter
+- 94529 A Dark Shadow Looms [The Call of the Void]: no ender, no offer-reward text, no starter
+- 94530 The Call of the Void [The Call of the Void]: no ender, no offer-reward text, no starter
+- 94531 Like Mother, Like Son [The Call of the Void]: no ender, no offer-reward text, no starter
+- 94575 Snail Mail - Peacebloom [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Founders Point - (POC)]: no ender, no offer-reward text, no starter
+- 94583 Snail Mail - Silverleaf [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Founders Point - (POC)]: no ender, no offer-reward text, no starter
+- 94584 Snail Mail - Black Lotus [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Founders Point - (POC)]: no ender, no offer-reward text, no starter
+- 94585 Snail Mail - Zin'anthid [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Founders Point - (POC)]: no ender, no offer-reward text, no starter
+- 94586 Snail Mail - Earthroot and Mage Royal [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Founders Point - (POC)]: no ender, no offer-reward text, no starter
+- 94587 Snail Mail - Rotting Sagefish [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Founders Point - (POC)]: no ender, no offer-reward text, no starter
+- 94588 Snail Mail - Just Laundered Clothes [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Founders Point - (POC)]: no ender, no offer-reward text, no starter
+- 94589 Snail Mail - Zesty [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Founders Point - (POC)]: no ender, no offer-reward text, no starter
+- 94590 Snail Mail - Citrusy [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Founders Point - (POC)]: no ender, no offer-reward text, no starter
+- 94591 Snail Mail - Recently Time Dilated [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Founders Point - (POC)]: no ender, no offer-reward text, no starter
+- 94592 Snail Mail - Cookies [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Founders Point - (POC)]: no ender, no offer-reward text, no starter
+- 94593 Snail Mail - Minty [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Founders Point - (POC)]: no ender, no offer-reward text, no starter
+- 94594 Snail Mail - Herbal [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Founders Point - (POC)]: no ender, no offer-reward text, no starter
+- 94595 Snail Mail - Earthy [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Founders Point - (POC)]: no ender, no offer-reward text, no starter
+- 94596 Snail Mail - Woody [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Founders Point - (POC)]: no ender, no offer-reward text, no starter
+- 94597 Snail Mail - Musky [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Founders Point - (POC)]: no ender, no offer-reward text, no starter
+- 94598 Snail Mail - Vanilla [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Founders Point - (POC)]: no ender, no offer-reward text, no starter
+- 94599 Snail Mail - Stranglekelp [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Founders Point - (POC)]: no ender, no offer-reward text, no starter
+- 94600 Snail Mail - Tiger Lily [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Founders Point - (POC)]: no ender, no offer-reward text, no starter
+- 94601 Snail Mail - Mycobloom [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Founders Point - (POC)]: no ender, no offer-reward text, no starter
+- 94602 Snail Mail - Blindweed [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Founders Point - (POC)]: no ender, no offer-reward text, no starter
+- 94603 Snail Mail - Bubble Poppy [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Founders Point - (POC)]: no ender, no offer-reward text, no starter
+- 94604 Snail Mail - Wet Dog [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Founders Point - (POC)]: no ender, no offer-reward text, no starter
+- 94605 Snail Mail - Freshly Manured Field [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Founders Point - (POC)]: no ender, no offer-reward text, no starter
+- 94606 Snail Mail - Peony [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Founders Point - (POC)]: no ender, no offer-reward text, no starter
+- 94607 Snail Mail - Kafa [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Founders Point - (POC)]: no ender, no offer-reward text, no starter
+- 93841 Ghosts of the Ring [Don't be Afrayed]: no ender, no offer-reward text, no starter
+- 93842 Bloom and Fade [Don't be Afrayed]: no ender, no offer-reward text, no starter
+- 93843 Ectoplasmic Extractions [Don't be Afrayed]: no ender, no offer-reward text, no starter
+- 93849 Ectoplasmic Emporium [Don't be Afrayed]: no ender, no offer-reward text, no starter
+- 93851 Communing with Ghosts [Don't be Afrayed]: no ender, no offer-reward text, no starter
+- 93906 Untethering the Two [Don't be Afrayed]: no ender, no offer-reward text, no starter
+- 94640 Snail Mail - Writhebark [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Razorwind - (POC)]: no ender, no offer-reward text, no starter
+- 94641 Snail Mail - Cedarwood [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Razorwind - (POC)]: no ender, no offer-reward text, no starter
+- 94642 Snail Mail - Fire Leaf [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Razorwind - (POC)]: no ender, no offer-reward text, no starter
+- 94643 Snail Mail - Roasted Ham [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Razorwind - (POC)]: no ender, no offer-reward text, no starter
+- 94644 Snail Mail - Fjarnskaggl [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Razorwind - (POC)]: no ender, no offer-reward text, no starter
+- 94645 Snail Mail - Cinnamon [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Razorwind - (POC)]: no ender, no offer-reward text, no starter
+- 94646 Snail Mail - Clove [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Razorwind - (POC)]: no ender, no offer-reward text, no starter
+- 94647 Snail Mail - Nutmeg [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Razorwind - (POC)]: no ender, no offer-reward text, no starter
+- 94648 Snail Mail - Dreamfoil [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Razorwind - (POC)]: no ender, no offer-reward text, no starter
+- 94649 Snail Mail - Seven Day Old Sweat [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Razorwind - (POC)]: no ender, no offer-reward text, no starter
+- 94650 Snail Mail - Coconut [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Razorwind - (POC)]: no ender, no offer-reward text, no starter
+- 94651 Snail Mail - Honey [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Razorwind - (POC)]: no ender, no offer-reward text, no starter
+- 94652 Snail Mail - Just-Rained [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Razorwind - (POC)]: no ender, no offer-reward text, no starter
+- 94653 Snail Mail - Foxflower [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Razorwind - (POC)]: no ender, no offer-reward text, no starter
+- 94654 Snail Mail - Apple [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Razorwind - (POC)]: no ender, no offer-reward text, no starter
+- 94655 Snail Mail - Peachy [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Razorwind - (POC)]: no ender, no offer-reward text, no starter
+- 94656 Snail Mail - Soapy [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Razorwind - (POC)]: no ender, no offer-reward text, no starter
+- 94657 Snail Mail - Dewy Mold [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Razorwind - (POC)]: no ender, no offer-reward text, no starter
+- 94658 Snail Mail - Scent of the Wind [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Razorwind - (POC)]: no ender, no offer-reward text, no starter
+- 94659 Snail Mail - Nerubian Hootch Wine [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Razorwind - (POC)]: no ender, no offer-reward text, no starter
+- 94660 Snail Mail - Bouquet of Fungi [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Razorwind - (POC)]: no ender, no offer-reward text, no starter
+- 94661 Snail Mail - Crushed up Granite [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Razorwind - (POC)]: no ender, no offer-reward text, no starter
+- 94662 Snail Mail - Caramel [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Razorwind - (POC)]: no ender, no offer-reward text, no starter
+- 94663 Snail Mail - Chocolatey [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Razorwind - (POC)]: no ender, no offer-reward text, no starter
+- 94664 Snail Mail - Caviar [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Razorwind - (POC)]: no ender, no offer-reward text, no starter
+- 94665 Snail Mail - Fresh-Cut Grass [12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Razorwind - (POC)]: no ender, no offer-reward text, no starter
+- 72940 Where in the World is a Lost Blue Dragon? [Welcome to the Waking Shore]: no offer-reward text
+- 73399 The Search for Blue Dragons [Welcome to the Waking Shore]: no offer-reward text
+- 73404 Lost Blue Dragons [Welcome to the Waking Shore]: no offer-reward text
+- 73406 The Last Missing Blue Dragon [Welcome to the Waking Shore]: no offer-reward text
+- 73405 A Pair of Blue Dragons [Welcome to the Waking Shore]: no offer-reward text
+- 94868 It Takes Two [A Fiery Blast from the Past]: no ender, no offer-reward text, no starter
+- 94869 Hungry Hungry Hatchlings [A Fiery Blast from the Past]: no ender, no offer-reward text, no starter
+- 94883 Like Dragonhawks to a Flame [A Fiery Blast from the Past]: no ender, no offer-reward text, no starter
+- 94870 Eggstra Protection Never Hurts [A Fiery Blast from the Past]: no ender, no offer-reward text, no starter
+- 94882 Perfect Timing [A Fiery Blast from the Past]: no ender, no offer-reward text, no starter
+- 94957 War of Light and Shadow [Midnight Scouting Map]: no ender, no offer-reward text, no starter
+- 89196 Selecting Midnight questzone [Midnight Scouting Map]: no ender, no offer-reward text, no starter
+- 94871 Eversong [Midnight Scouting Map]: no starter
+- 89402 Harandar [Midnight Scouting Map]: no starter
+- 89193 Arator [Midnight Scouting Map]: no starter
+- 86958 None [TEST - Testing Criteria Tree Quest Clear]: MISSING quest_template
+- 92716 The Story of Wey'nan's Ward [Legends of the Haranir]: no ender, no offer-reward text, no starter
+- 92719 The Story of the Cauldron of Echoes [Legends of the Haranir]: no ender, no offer-reward text, no starter
+- 92720 The Story of Aln'hara's Bloom [Legends of the Haranir]: no ender, no offer-reward text, no starter
+- 92721 The Story of the Echoless Flame [Legends of the Haranir]: no ender, no offer-reward text, no starter
+- 92722 The Story of Russula's Outreach [Legends of the Haranir]: no ender, no offer-reward text, no starter
+- 92724 The Story of the Root of the World [Legends of the Haranir]: no ender, no offer-reward text, no starter
+- 92725 The Story of Sky's Hope [Legends of the Haranir]: no ender, no offer-reward text, no starter
+- 95336 Frenzied Fossicking [12.1 - Endeavors - (POC)]: no ender, no offer-reward text, no starter
+- 91466 Aiding the Green Dragons [Welcome to the Waking Shore]: no ender, no offer-reward text, no starter
+- 91467 Incarnates on the Move [Welcome to the Waking Shore]: no ender, no offer-reward text, no starter
+- 91691 The Vanishing of Iridikron [Welcome to the Waking Shore]: no ender, no offer-reward text, no starter
+- 91695 Tracking Down Incarnates [Welcome to the Waking Shore]: no ender, no offer-reward text, no starter
+- 95468 Hope in the Darkest Corners [Hope in The Darkest Corners]: no ender, no offer-reward text
+- 96070 12.1-  Housing - Founders - Local Local Story 01 - Q01 - Escort - (POC) [12.1-  Housing - Local Local Story 01 - (POC)]: no ender, no offer-reward text, no starter
+- 96071 None [12.1-  Housing - Local Local Story 01 - (POC)]: MISSING quest_template
+- 96072 None [12.1-  Housing - Local Local Story 01 - (POC)]: MISSING quest_template
+- 96073 None [12.1-  Housing - Local Local Story 01 - (POC)]: MISSING quest_template
+- 96074 None [12.1-  Housing - Local Local Story 01 - (POC)]: MISSING quest_template
+- 96089 Somethin's Not Right [Somethin' Bad Inside]: no ender, no offer-reward text, no starter
+- 96090 Venemetic [Somethin' Bad Inside]: no ender, no offer-reward text, no starter
+- 96091 Get the Balance Right [Somethin' Bad Inside]: no ender, no offer-reward text, no starter
+- 96092 That Fool, Ruma [Somethin' Bad Inside]: no ender, no offer-reward text, no starter
+- 96093 It's a Satchel, Not a Bag [Somethin' Bad Inside]: no ender, no offer-reward text, no starter
+- 96094 To the Forum [Somethin' Bad Inside]: no ender, no offer-reward text, no starter
+- 96095 Sampling the Local Wildlife [Somethin' Bad Inside]: no ender, no offer-reward text, no starter
+- 96096 Scout Team Seven [Somethin' Bad Inside]: no ender, no offer-reward text, no starter
+- 96097 What the Scouts Saw [Somethin' Bad Inside]: no ender, no offer-reward text, no starter
+- 96098 The Final Reagents [Somethin' Bad Inside]: no ender, no offer-reward text, no starter
+- 96099 La'una's Fate [Somethin' Bad Inside]: no ender, no offer-reward text, no starter
+- 93648 Gnarly Skullduggery [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 93649 Got the Gall [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 93664 Rotten Fish [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 93669 Curse of Greed [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 94573 The Floor is Larvae [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 93670 How 'Bout Them Apples? [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 93671 A Tight Squeeze [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 93672 Blade to Rest [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 94571 Ashes of History [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 94572 Shell the Future [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 94574 Egg Thief [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 96307 Special Assignment: Wraith Wrath [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 94611 Predators and Prey [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 94612 Claws for Celebration [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 94876 Show Some Backbone [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 94967 Ki'clak Snack Attack [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 94996 Gaze of the Dead [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 95253 Shocking Appetites [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 95381 Fire in the Sky [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 95429 Swift of Foot [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 95448 The Dose Makes the Poison [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 95449 Snakes in the Grass [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 95451 Who Ordered the Bag of Snakes? [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 95453 Tortollan Repatriation [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 95484 Truffle Scuffle [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 95513 Rattlin' the Reptiles [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 95529 Spearin' Sky Snakes [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 95662 A Suspicious Stew [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 95794 De-cryption Process [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 95918 Special Assignment: Wraith Wrath [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 95807 Over Easy [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 95921 Special Assignment: Demand and Supply [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 95922 Special Assignment: Face the Swarm [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 95923 Ruin Runner Rush [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 95931 Open Sea Fishing [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 96029 Special Assignment: Face the Swarm [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 96625 Spectral Gladiators [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 96329 Hexes and Hoaxes [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 95990 Slithering Heights [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 96066 Slithering Surveyor [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 96492 Special Assignment: Demand and Supply [The Coiled Isle - World Quests/Repeatables]: no ender, no offer-reward text, no starter
+- 94380 Ranger Captain's Summons [Void Assaults]: no ender, no offer-reward text, no starter
+- 94381 Void Assaults: Eversong Woods [Void Assaults]: no ender, no offer-reward text, no starter
+- 96080 Void Strike [Void Assaults]: no ender, no offer-reward text, no starter
+- 94382 Ritual Problems [Void Assaults]: no ender, no offer-reward text, no starter
+- 94383 Ritual Interest [Void Assaults]: no ender, no offer-reward text, no starter
+- 96110 Venom Fishing: Proof is in the Ooze [Tokka's Crew]: no ender, no offer-reward text, no starter
+- 98343 Venom Fishing: My Second-Best [Tokka's Crew]: no ender, no offer-reward text, no starter
+- 96111 Venom Fishing: Shell of Yourself [Tokka's Crew]: no ender, no offer-reward text, no starter
+- 96112 Venom Fishing: Maddening Concoction [Tokka's Crew]: no ender, no offer-reward text, no starter
+- 96113 Venom Fishing: Maximum Potency [Tokka's Crew]: no ender, no offer-reward text, no starter
+- 96310 Disrupting the Order [Umbral Blitz]: giver 265166 not spawned
+- 96338 Port of Entry [Umbral Blitz]: giver 265166 not spawned
+- 96440 Victory Within Hindsight [Umbral Blitz]: giver 265166 not spawned
+- 96223 The Magister's Call [The Sunstrider Omnium]: no ender, no offer-reward text, no starter
+- 96224 The Magister's Conundrum [The Sunstrider Omnium]: no ender, no offer-reward text, no starter
+- 96225 The Magister's Conundrum [The Sunstrider Omnium]: no ender, no offer-reward text, no starter
+- 96226 Omnium Anomalies [The Sunstrider Omnium]: no ender, no offer-reward text, no starter
+- 96227 Lycaneum Chaos [The Sunstrider Omnium]: no ender, no offer-reward text, no starter
+- 96228 The Shadowed Spire [The Sunstrider Omnium]: no ender, no offer-reward text, no starter
+- 96229 The Void Reveals [The Sunstrider Omnium]: no ender, no offer-reward text, no starter
+- 96230 Unraveling the Wards [The Sunstrider Omnium]: no ender, no offer-reward text, no starter
+- 96231 The Grand Magister's Key-Cipher [The Sunstrider Omnium]: no ender, no offer-reward text, no starter
+- 96232 Return to the Omnium [The Sunstrider Omnium]: no ender, no offer-reward text, no starter
+- 96233 The Omnium Reawakens [The Sunstrider Omnium]: no ender, no offer-reward text, no starter
+- 96238 Return to the Omnium [The Sunstrider Omnium]: no ender, no offer-reward text, no starter
+- 93387 Dealing with Pests [Strange Friends in Odd Places]: no ender, no offer-reward text, no starter
+- 93388 Unusual Alchemy [Strange Friends in Odd Places]: no ender, no offer-reward text, no starter
+- 93389 Rocksblood [Strange Friends in Odd Places]: no ender, no offer-reward text, no starter
+- 93390 Acceptable Apprentice [Strange Friends in Odd Places]: no ender, no offer-reward text, no starter
+- 93391 Make it Stinky [Strange Friends in Odd Places]: no ender, no offer-reward text, no starter
+- 93392 Recovering Memories [Strange Friends in Odd Places]: no ender, no offer-reward text, no starter
+- 93393 A Little Kindness [Strange Friends in Odd Places]: no ender, no offer-reward text, no starter
+- 96439 Gone Dark [The Monster's Mother]: no ender, no offer-reward text, no starter
+- 96450 Sideways [The Monster's Mother]: no ender, no offer-reward text, no starter
+- 96451 A Child of Ula'tek [The Monster's Mother]: no ender, no offer-reward text, no starter
+- 96458 Last Promise [The Monster's Mother]: no ender, no offer-reward text, no starter
+- 96457 Nothing Must Remain [The Monster's Mother]: no ender, no offer-reward text, no starter
+- 96467 Thirst for Knowledge [Ancient Anthropology]: no ender, no offer-reward text, no starter
+- 96469 The Crypt of the Disgraced [Ancient Anthropology]: no ender, no offer-reward text, no starter
+- 96471 Crumble and Tumble [Ancient Anthropology]: no ender, no offer-reward text, no starter
+- 94836 Late Night Training: Week 2 of 4 [[DNT] PvP Bucket]: no ender, no offer-reward text, no starter
+- 94837 Midnight Training: Week 3 of 4 [[DNT] PvP Bucket]: no ender, no offer-reward text, no starter
+- 94838 Final Training: Week 3 of 3 [[DNT] PvP Bucket]: no ender, no offer-reward text, no starter
+- 96048 The Time to Strike [Assault and Strike Back]: no ender, no offer-reward text, no starter
+- 96049 Stalkers of the Stars [Assault and Strike Back]: no ender, no offer-reward text, no starter
+- 96703 Veterans of the Great Dark [Assault and Strike Back]: no ender, no offer-reward text, no starter
+- 96708 To the Voidstorm and Beyond! [Assault and Strike Back]: no ender, no offer-reward text, no starter
+- 96051 Through the Cold Rift [Assault and Strike Back]: no ender, no offer-reward text, no starter
+- 96053 Surveying the Frozen Wastes [Assault and Strike Back]: no starter
+- 96052 Through the Mana Rift [Assault and Strike Back]: no ender, no offer-reward text, no starter
+- 96054 Surveying the Mana-Bog [Assault and Strike Back]: no ender, no offer-reward text, no starter
+- 97072 A Swampy Welcome to Naigtal [Assault and Strike Back]: no ender, no offer-reward text, no starter
+- 96728 Ritual Site Studies: Week 1 of 3 [Advanced Studies]: no ender, no offer-reward text, no starter
+- 96729 Ritual Site Studies: Week 2 of 3 [Advanced Studies]: no ender, no offer-reward text, no starter
+- 96730 Ritual Site Studies: Week 3 of 3 [Advanced Studies]: no ender, no offer-reward text, no starter
+- 96731 Advanced Ritual Site Studies: Week 4 of 6 [Advanced Studies]: no ender, no offer-reward text, no starter
+- 96732 Advanced Ritual Site Studies: Week 5 of 6 [Advanced Studies]: no ender, no offer-reward text, no starter
+- 96733 Advanced Ritual Site Studies: Week 6 of 6 [Advanced Studies]: no ender, no offer-reward text, no starter
+- 96382 A New Approach [Considering an Alternative]: no ender, no offer-reward text
+- 96475 Captivating Science [Considering an Alternative]: no ender, no offer-reward text, no starter
+- 96389 A Place to Negotiate [Considering an Alternative]: no ender, no offer-reward text, no starter
+- 97077 A Shot at the Dark [Considering an Alternative]: no ender, no offer-reward text, no starter
+- 96004 Prey: A Slithering Threat [Prey: Isle of Fangs]: no ender, no offer-reward text, no starter
+- 96466 Prey: Anguish Island [Prey: Isle of Fangs]: no ender, no offer-reward text, no starter
+- 96474 Prey: Something for Astalor [Prey: Isle of Fangs]: no ender, no offer-reward text, no starter
+- 96503 Prey: A Ghostly Nightmare [Prey: Isle of Fangs]: no ender, no offer-reward text, no starter
+- 96532 Prey: Attending the Attendant [Prey: Isle of Fangs]: no ender, no offer-reward text, no starter
+- 96525 Prey: Out of Our Depth [Prey: Isle of Fangs]: no ender, no offer-reward text, no starter
+- 97034 Vanquish the Warmonger [A Dance with Domanaar]: no ender, no offer-reward text, no starter
+- 97035 Depose the Deranged [A Dance with Domanaar]: no ender, no offer-reward text, no starter
+- 97036 Umbral Title Bout [A Dance with Domanaar]: no ender, no offer-reward text, no starter
+- 96567 Data Decryption Disaster [The Hal'hadar Files]: no ender, no offer-reward text, no starter
+- 96568 Hal'hadon't You Dare! [The Hal'hadar Files]: no ender, no offer-reward text, no starter
+- 96569 Conductive Crystals [The Hal'hadar Files]: no ender, no offer-reward text, no starter
+- 96570 Technological Transference [The Hal'hadar Files]: no ender, no offer-reward text, no starter
+- 96571 The Node Knows [The Hal'hadar Files]: no ender, no offer-reward text, no starter
+- 96572 Malfunctioning Nullframe [The Hal'hadar Files]: no ender, no offer-reward text, no starter
+- 96573 Soul Lattice Revealed [The Hal'hadar Files]: no ender, no offer-reward text, no starter
+- 96574 Cryptside Rendezvous [The Hal'hadar Files]: no ender, no offer-reward text, no starter
+- 96575 Cages of the Soul [The Hal'hadar Files]: no ender, no offer-reward text, no starter
+- 96576 Mementos of the Dead [The Hal'hadar Files]: no ender, no offer-reward text, no starter
+- 96577 The Soul Architect [The Hal'hadar Files]: no ender, no offer-reward text, no starter
+- 96578 Cryptic Departure [The Hal'hadar Files]: no ender, no offer-reward text, no starter
+- 96523 Living Legend [Living Legend]: no ender, no offer-reward text, no starter
+- 96539 Last Resort [Living Legend]: no ender, no offer-reward text, no starter
+- 96540 Strong Hands [Living Legend]: no ender, no offer-reward text, no starter
+- 96541 Strong Mind [Living Legend]: no ender, no offer-reward text, no starter
+- 96543 Root of Survival [Living Legend]: no ender, no offer-reward text, no starter
+- 96544 Bravely Burning [Living Legend]: no ender, no offer-reward text, no starter
+- 96545 Strong Voice [Living Legend]: no ender, no offer-reward text, no starter
+- 96546 Strong Heart [Living Legend]: no ender, no offer-reward text, no starter
+- 96410 Seeking Knowledge: The Omnium Folio [The Empowered Folio]: no ender, no offer-reward text, no starter
+- 96441 Seeking Knowledge Week 2 of 5: Ritualized Arcana [The Empowered Folio]: no ender, no offer-reward text, no starter
+- 96442 Seeking Knowledge Week 3 of 5: Ley Line Assaults [The Empowered Folio]: no ender, no offer-reward text, no starter
+- 96443 Seeking Knowledge Week 4 of 5: Magical Primessence [The Empowered Folio]: no ender, no offer-reward text, no starter
+- 96444 Seeking Knowledge Week 5 of 5: Off-World Magic [The Empowered Folio]: no ender, no offer-reward text, no starter
+- 96048 The Time to Strike [Assault and Strike Back: Val]: no ender, no offer-reward text, no starter
+- 96049 Stalkers of the Stars [Assault and Strike Back: Val]: no ender, no offer-reward text, no starter
+- 96703 Veterans of the Great Dark [Assault and Strike Back: Val]: no ender, no offer-reward text, no starter
+- 96708 To the Voidstorm and Beyond! [Assault and Strike Back: Val]: no ender, no offer-reward text, no starter
+- 96051 Through the Cold Rift [Assault and Strike Back: Val]: no ender, no offer-reward text, no starter
+- 96053 Surveying the Frozen Wastes [Assault and Strike Back: Val]: no starter
+- 96048 The Time to Strike [Assault and Strike Back: Naigtal]: no ender, no offer-reward text, no starter
+- 96049 Stalkers of the Stars [Assault and Strike Back: Naigtal]: no ender, no offer-reward text, no starter
+- 96703 Veterans of the Great Dark [Assault and Strike Back: Naigtal]: no ender, no offer-reward text, no starter
+- 96708 To the Voidstorm and Beyond! [Assault and Strike Back: Naigtal]: no ender, no offer-reward text, no starter
+- 96052 Through the Mana Rift [Assault and Strike Back: Naigtal]: no ender, no offer-reward text, no starter
+- 96054 Surveying the Mana-Bog [Assault and Strike Back: Naigtal]: no ender, no offer-reward text, no starter
+- 97072 A Swampy Welcome to Naigtal [Assault and Strike Back: Naigtal]: no ender, no offer-reward text, no starter
+- 98218 Return to Amani'Zar [An Island of Fangs]: no starter
+- 98388 Into the Vaults of Atal'Utek [The Battle for Atal'Utek]: giver 262798 not spawned
+- 97640 Vaults of Atal'Utek: One Coin Too Many [The Battle for Atal'Utek]: giver 262798 not spawned, giver 262880 not spawned
+- 98515 Vaults of Atal'Utek: A Toxic Tour [The Battle for Atal'Utek]: giver 262798 not spawned
+- 98428 Vaults of Atal'Utek: The Altar of Corrosion [The Battle for Atal'Utek]: giver 262880 not spawned
+- 94936 A Bond of Brothers [A Bond of Brothers]: no ender, no offer-reward text, no starter
+- 94937 Too Quiet on the Northern Front [A Bond of Brothers]: no ender, no offer-reward text, no starter
+- 94941 Saving Recruit Jabat [A Bond of Brothers]: no ender, no offer-reward text, no starter
+- 98388 Into the Vaults of Atal'Utek [The Vaults of Atal'UTek]: giver 262798 not spawned
+- 97640 Vaults of Atal'Utek: One Coin Too Many [The Vaults of Atal'UTek]: giver 262798 not spawned, giver 262880 not spawned
+- 98428 Vaults of Atal'Utek: The Altar of Corrosion [The Vaults of Atal'UTek]: giver 262880 not spawned
+- 88769 The Battle of the Bridge [The Battle of the Bridge]: no offer-reward text

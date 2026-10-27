@@ -1,0 +1,2230 @@
+﻿quest,title,npcs,npcs_with_spoken_text
+90081,Arcane Runed Sigil,2,0
+90087,Distance Tracker (DNT),1,1
+90093,Prey Contract: Murloc Shadowhunter,2,1
+90094,Echo of the Hunt,2,0
+90095,Echo of the Call,2,0
+90096,Infinite Research: Worldly Deeds,0,0
+90097,Infinite Research: Invasion Points,0,0
+90098,Infinite Research: Greater Invasion Points,0,0
+90099,"Infinite Research: Combat Studies, Rare",0,0
+90100,"Infinite Research: Combat Studies, Rare Elites",0,0
+90101,Infinite Research: Terrors of the Broken Isles,0,0
+90102,Infinite Research: Champion of the Broken Isles,0,0
+90103,Infinite Research: Champion of the Order Hall,0,0
+90108,Infinite Research: Artifact Collector,0,0
+90109,Infinite Research: Clear the Skies,1,1
+90110,Infinite Research: Gather Timewarped Samples,0,0
+90111,"Infinite Research: Combat Studies, Demonology",0,0
+90112,"Infinite Research: Combat Studies, Elite",0,0
+90113,"Infinite Research: Self Improvement, Basic",0,0
+90114,"Infinite Research: Self Improvement, Advanced",1,1
+90115,"Infinite Research: Combat Studies, Groverunner",0,0
+90119,test,1,0
+90122,Eliminate Xy'vox the Twisted,3,0
+90123,Eliminate Hollowbane,3,0
+90124,Eliminate Shatterpulse,3,0
+90125,Eliminate Purple Peat,3,0
+90126,Eliminate Grubber,3,0
+90127,Eliminate Arcana-Monger So'zer,3,0
+90128,Miscreant Baras!,2,1
+90467,Tales of the Sky,2,0
+90468,"Ugh, Chores!",2,0
+90469,"Carry On, Wayward Kuri",2,0
+90470,Skyglass Scavenging,1,0
+90474,The Legend of Aln'sharan,2,0
+90481,I Have a Permit,1,0
+90482,Cuisine Connection,1,0
+90483,A Witherbark Story,1,0
+90484,Sightseeing Stegadon,1,0
+90485,Afterthought Artifacts,1,0
+90486,Dangerous Delicacies,2,0
+90493,The Heart of Tranquillien,2,0
+90494,The Missing Magister,2,0
+90509,The Traitors of Tranquillien,2,0
+90517,My Part of the Deal,2,0
+90533,Go Get Orweyna!,2,0
+90534,The Home of the Haranir,2,0
+90535,Leave Your Mark,1,0
+90536,The Tale of Wey'nan's Ward,0,0
+90537,Late Bloomers,3,0
+90538,Prey Contract: Zealous Crusader,0,0
+90540,Rutaani Rescue,2,0
+90544,Thief at Bark,1,0
+90545,A Reel Problem,1,0
+90546,Missing Paladins,2,0
+90547,Missing Paladins,2,0
+90548,Twilight Missive,2,0
+90549,Signs of the Struggle,1,0
+90550,A Somber Sun,2,0
+90551,Captured Information,3,0
+90552,Interrogation,2,0
+90553,Executing the Blades,2,0
+90554,Leave Ashes in Your Wake,2,0
+90555,Blessing of Freedom,2,0
+90556,Cutting off the Head,2,0
+90557,Whose Key is This?,1,0
+90568,Unlikely Friends,2,0
+90569,Back in the Bag,2,0
+90570,To the Ruins of Deatholme,2,0
+90571,The Lay of the Beast,1,0
+90573,Fortify the Runestones: Magisters,1,0
+90574,Fortify the Runestones: Blood Knights,1,0
+90575,Fortify the Runestones: Farstriders,1,0
+90576,Fortify the Runestones: Shades of the Row,1,0
+90601,Gathering Glowshrooms,1,0
+90602,Gomphusta,1,0
+90615,Be Grudge You,2,0
+90616,You Strong?,1,0
+90617,A Few Fun Guys,1,0
+90619,What Doesn't Kill Them,2,0
+90620,To the Ring,4,0
+90621,Tiny Heroes' Journeys,1,0
+90622,Not-Yet Defeated Champions,1,0
+90630,A Small Bundle of Crystals,1,0
+90631,Weathered Crests,1,0
+90632,Valorstones,1,0
+90633,Weathered Crests,1,0
+90634,A Small Bundle of Crystals,1,0
+90635,Valorstones,1,0
+90636,Carved Crests,1,0
+90637,A Key in the Wastes,1,0
+90638,A Bundle of Crystals,1,0
+90659,Something Borrowed,0,0
+90660,A Golden Circumstance,0,0
+90661,Dastardly Duos,0,0
+90663,Stealing What is Ours,1,0
+90665,Carved Crests,1,0
+90666,A Bundle of Crystals,1,0
+90667,Enchanted Runed Ethereal Crest,1,0
+90669,Gold is Gold,2,0
+90670,Cracked Keystone,0,0
+90690,Charge of the Vanguard,0,0
+90701,Cowardly Cheery Bombs,0,0
+90705,Lorewalking,1,0
+90718,Request of the Arcantina,0,0
+90719,Borrowing Corruption,0,0
+90724,The Broken Sky,2,0
+90729,Win-Win Situation,1,0
+90731,Enhancing Corruption,0,0
+90733,The Listener,2,0
+90734,In the Name of the Goddess,2,0
+90735,The Stolen Staff,2,0
+90736,That's Not Yours,1,0
+90737,Nested Clues,1,0
+90738,To the Blossoming Terrace,2,0
+90739,The Root of Things,2,0
+90740,A Legend to Know,2,0
+90741,Once More Into the Rift,2,0
+90742,Shrouded by Aln'hara,1,0
+90743,Ritual Reinforcement,1,0
+90744,The Dreamrift: Malformed Mystery,2,0
+90745,The Empty Cradle,1,0
+90747,The Wrong Bluecephalus,3,0
+90748,Quel'Danas,0,0
+90749,Our Mutual Enemy,2,0
+90751,Lumber Processing,0,0
+90754,Skyriding,0,0
+90755,Time Flies,0,0
+90759,The Cult Within,1,1
+90760,Avoiding Blame,1,1
+90761,Avoiding Blame,1,0
+90762,The Twilight Highlands,0,0
+90763,The Twilight Highlands,1,0
+90764,The Cult Within,1,0
+90765,Midnight Dress,1,0
+90766,Xal'atath's Proven Faithful,1,0
+90767,More Doom,1,0
+90768,Cult It Out,1,0
+90769,A Blue for You,1,0
+90770,The Grift,2,0
+90772,The Flames Rise Higher,1,0
+90773,Meat My Business,1,0
+90776,Ancient Curiosity: Combat,0,0
+90777,Feeding the Flame,2,0
+90778,Ancient Curiosity: Utility,0,0
+90779,Cracked Keystone,0,0
+90781,Sparks of War: K'aresh,0,0
+90782,The Nethersent,2,0
+90806,Completed Midnight Main Campaign,0,0
+90818,Murder Row: Loose Lips,2,0
+90819,Murder Row: Acting the Part,2,0
+90821,Murder Row: Harbored Secrets,2,0
+90822,Murder Row: One Fel Swoop,4,0
+90824,My Brother's Alive!,2,0
+90826,The Healing Waters of Ahl'ua,1,0
+90827,Only the Poisonous Parts,1,0
+90829,Meeting My Mentor,2,0
+90830,The Path Will Reveal Itself,2,0
+90831,Doing Is Becoming,1,0
+90832,As Her Voice Goes Silent,1,0
+90833,The Final Rite,2,0
+90834,From This Point Forward,2,0
+90835,Murder Row: Rumors Abound,3,0
+90837,Murder Row: Traces of Fel,2,0
+90838,Oaths and Heirlooms,1,0
+90840,What's Your Specialty?,1,0
+90842,Home Is Where the Hearth Is,1,0
+90843,Aiding the Dragon Isles,2,0
+90844,Fits of Lucidity,1,0
+90845,Distant Memories,1,0
+90847,Truth From Power,1,0
+90848,She Started the Fire,2,0
+90849,Light Show,0,0
+90851,Eating Their Own,1,0
+90852,Techno-Magnetic Pulse,1,0
+90858,Repress the Oppressors,2,0
+90860,Shedding the Yoke,1,0
+90861,Those Left Behind,2,0
+90862,In Times of Need,2,0
+90866,Universal Language,1,0
+90867,"From Darkness, Light",2,0
+90869,It's All in the Image,0,0
+90870,Gathering the Grub,0,0
+90871,The Silversun Compact,2,0
+90872,Drenched In It,1,0
+90873,These Violent Delights,1,0
+90874,Their Violent Ends,1,0
+90875,Across Worlds,1,0
+90876,Reluctant Hand,2,0
+90879,Brewmaster's Kitchen,0,0
+90880,Serving with Style,0,0
+90882,Gnoll Way,2,0
+90883,To Go'shek Farm,3,0
+90885,My Beautiful Pumpkins,2,0
+90886,Best Laid Plans of Kobolds and Ogres,1,0
+90887,Farmer's Nemesis,1,0
+90888,Saving Stromgarde Keep,2,0
+90889,Tale of the Echoes of Sai'alyo,0,0
+90890,[PH] Go Home,0,0
+90892,Clearing the Skies: A Fel of a Time,0,0
+90893,Repelling the Siege,2,0
+90895,Catapult Bombardment,2,0
+90896,One Last Ogre,1,0
+90897,Back to Stromgarde,2,0
+90898,Back to Hammerfall,2,0
+90901,As A Matter of Artifact,0,0
+90907,The First to Know,2,0
+90910,Overwhelming Darkness,1,0
+90911,Your Next Adventure,2,0
+90914,A Born Killer,1,0
+90915,Artifice of Aggression,1,0
+90916,Seek to Destroy,2,0
+90917,Harvester of Savagery,1,0
+90918,The Unforgiven,1,0
+90919,The Fiend That Failed,2,0
+90920,Warmth for the Soul,1,0
+90922,The Fallen Wake,2,0
+90923,Shepherd of Fear,2,0
+90924,The Wicked End,2,0
+90938,A Skip Through the Void,1,0
+90943,Stormarion Assault,0,0
+90957,Initiation Day,2,0
+90958,Roots Above All,1,0
+90959,Traditional Duties,2,0
+90960,"My Story, My Legacy",2,0
+90961,Stranger in a New Land,3,0
+90962,Stormarion Assault,0,0
+90963,Caves of the Cleft,2,0
+90968,Titanic Rumblings,0,0
+90969,Titan Consoles,0,0
+90970,Titan Disc-Count,0,0
+90971,Overcharged Console,0,0
+90972,A Common Cause,2,0
+90993,Take the Darkwell!,0,0
+90995,The Future of The Fel Hammer,0,0
+91000,A Humble Servant,2,0
+91001,Clear de Way,2,0
+91009,Durable Information Storage Container,1,1
+91022,Endeavor Reward,0,0
+91023,Endeavor Reward,0,0
+91024,Endeavor Reward,0,0
+91026,Gathering an Upgrade,1,1
+91030,New Titan Directives,1,1
+91031,Pushing it to the Limit,0,0
+91033,Monitoring 'Construct'ing,0,0
+91035,Construct De-Escalation,0,0
+91038,Hellhunters Wanted,0,0
+91039,Faerin's Request,1,0
+91040,Vexatious Vilebranch,0,0
+91041,A Gently Shaken Gift,0,0
+91042,A Winter Veil Gift,0,0
+91044,Hunger of the Void,2,0
+91052,Worldsoul: Overcharged Delves,0,0
+91061,Infinite Chaos,0,0
+91062,Broken Bridges,2,0
+91063,The Blooming Lattice,2,0
+91065,Purloining Petals,1,0
+91066,Brewmaster's Kitchen,0,0
+91067,Gathering the Grub,0,0
+91068,Serving with Style,0,0
+91069,Vengeance for Tolbani,1,0
+91070,Reclaim the Goods,1,0
+91071,The Menace of Atal'Abasi,1,0
+91084,Looming Shadows,2,0
+91085,Petal Bristles,1,0
+91086,Nipping the Buds,1,0
+91087,Reports Returned,2,0
+91088,Behind the Falls,2,0
+91089,Defeating Ky'veza,1,0
+91090,Pesky Pests,1,0
+91093,More Than Just a Phase,1,0
+91095,Prey: Magister Sunbreaker (Normal),0,0
+91096,Prey: Magistrix Emberlash (Normal),0,0
+91097,Prey: Senior Tinker Ozwold (Normal),0,0
+91098,Prey: L-N-0R the Recycler (Normal),0,0
+91099,Prey: Mordril Shadowfell (Normal),0,0
+91100,Prey: Deliah Gloomsong (Normal),0,0
+91101,Prey: Phaseblade Talasha (Normal),0,0
+91102,Prey: Nexus-Edge Hadim (Normal),0,0
+91103,Prey: Jo'zolo the Breaker (Normal),0,0
+91104,"Prey: Zadu, Fist of Nalorakk (Normal)",0,0
+91105,Prey: The Talon of Jan'alai (Normal),0,0
+91106,Prey: The Wing of Akil'zon (Normal),0,0
+91107,Prey: Ranger Swiftglade (Normal),0,0
+91108,Prey: Lieutenant Blazewing (Normal),0,0
+91109,Prey: Petyoll the Razorleaf (Normal),0,0
+91110,Prey: Lamyne of the Undercroft (Normal),0,0
+91111,Prey: High Vindicator Vureem (Normal),0,0
+91112,Prey: Crusader Luxia Maxwell (Normal),0,0
+91113,Prey: Praetor Singularis (Normal),0,0
+91114,Prey: Consul Nebulor (Normal),0,0
+91115,Prey: Executor Kaenius (Normal),0,0
+91116,Prey: Imperator Enigmalia (Normal),0,0
+91117,Prey: Knight-Errant Bloodshatter (Normal),0,0
+91118,Prey: Vylenna the Defector (Normal),0,0
+91119,Prey: Lost Theldrin (Normal),0,0
+91120,Prey: Neydra the Starving (Normal),0,0
+91121,Prey: Thornspeaker Edgath (Normal),0,0
+91122,Prey: Thorn-Witch Liset (Normal),0,0
+91123,"Prey: Grothoz, the Burning Shadow (Normal)",0,0
+91124,"Prey: Dengzag, the Darkened Blaze (Normal)",0,0
+91136,Memories in Stone,2,0
+91137,Lost in Light,1,0
+91138,I am the Creator and Destroyer,1,0
+91140,A Piece of the Past,1,0
+91141,My First Kill Quest [DNT],0,0
+91142,Tabard for the Trusted,1,0
+91143,Carved Crests,1,0
+91145,The Conquered Heroes,2,0
+91146,Flickering Light,2,0
+91147,Cut Her Strings,2,0
+91148,Strung Along,2,0
+91149,Bury Me Not,2,0
+91173,The Flame Burns Eternal,1,0
+91193,Special Assignment: Capstone 1 - Unlock,0,0
+91197,Collecting Remains,1,0
+91203,Special Assignment: Capstone 2 - Unlock,0,0
+91205,Ultra Prime Deluxe Turbo-Boost: Powerhouse Challenges,0,0
+91206,Loa Disturbance,2,0
+91207,Prey: Apex Predator,0,0
+91210,Prey: Magister Sunbreaker (Hard),0,0
+91211,Prey: Magister Sunbreaker (Nightmare),0,0
+91212,Prey: Magistrix Emberlash (Hard),0,0
+91213,Prey: Magistrix Emberlash (Nightmare),0,0
+91214,Prey: Senior Tinker Ozwold (Hard),0,0
+91215,Prey: Senior Tinker Ozwold (Nightmare),0,0
+91216,Prey: L-N-0R the Recycler (Hard),0,0
+91217,Prey: L-N-0R the Recycler (Nightmare),0,0
+91218,Prey: Mordril Shadowfell (Hard),0,0
+91219,Prey: Mordril Shadowfell (Nightmare),0,0
+91220,Prey: Deliah Gloomsong (Hard),0,0
+91221,Prey: Deliah Gloomsong (Nightmare),0,0
+91222,Prey: Phaseblade Talasha (Hard),0,0
+91223,Prey: Phaseblade Talasha (Nightmare),0,0
+91224,Prey: Nexus-Edge Hadim (Hard),0,0
+91225,Prey: Nexus-Edge Hadim (Nightmare),0,0
+91226,Prey: Jo'zolo the Breaker (Hard),0,0
+91227,Prey: Jo'zolo the Breaker (Nightmare),0,0
+91228,"Prey: Zadu, Fist of Nalorakk (Hard)",0,0
+91229,"Prey: Zadu, Fist of Nalorakk (Nightmare)",0,0
+91230,Prey: The Talon of Jan'alai (Hard),0,0
+91231,Prey: The Talon of Jan'alai (Nightmare),0,0
+91232,Prey: The Wing of Akil'zon (Hard),0,0
+91233,Prey: The Wing of Akil'zon (Nightmare),0,0
+91234,Prey: Ranger Swiftglade (Hard),0,0
+91235,Prey: Ranger Swiftglade (Nightmare),0,0
+91236,Prey: Lieutenant Blazewing (Hard),0,0
+91237,Prey: Lieutenant Blazewing (Nightmare),0,0
+91238,Prey: Petyoll the Razorleaf (Hard),0,0
+91239,Prey: Petyoll the Razorleaf (Nightmare),0,0
+91240,Prey: Lamyne of the Undercroft (Hard),0,0
+91241,Prey: Lamyne of the Undercroft (Nightmare),0,0
+91242,Prey: High Vindicator Vureem (Hard),0,0
+91243,Prey: Crusader Luxia Maxwell (Hard),0,0
+91244,Prey: Praetor Singularis (Hard),0,0
+91245,Prey: Consul Nebulor (Hard),0,0
+91246,Prey: Executor Kaenius (Hard),0,0
+91247,Prey: Imperator Enigmalia (Hard),0,0
+91248,Prey: Knight-Errant Bloodshatter (Hard),0,0
+91249,Prey: Vylenna the Defector (Hard),0,0
+91250,Prey: Lost Theldrin (Hard),0,0
+91251,Prey: Neydra the Starving (Hard),0,0
+91252,Prey: Thornspeaker Edgath (Hard),0,0
+91253,Prey: Thorn-Witch Liset (Hard),0,0
+91254,"Prey: Grothoz, the Burning Shadow (Hard)",0,0
+91255,"Prey: Dengzag, the Darkened Blaze (Hard)",0,0
+91256,Prey: High Vindicator Vureem (Nightmare),0,0
+91257,Prey: Crusader Luxia Maxwell (Nightmare),0,0
+91258,Prey: Praetor Singularis (Nightmare),0,0
+91259,Prey: Consul Nebulor (Nightmare),0,0
+91260,Prey: Executor Kaenius (Nightmare),0,0
+91261,Prey: Imperator Enigmalia (Nightmare),0,0
+91262,Prey: Knight-Errant Bloodshatter (Nightmare),0,0
+91263,Prey: Vylenna the Defector (Nightmare),0,0
+91264,Prey: Lost Theldrin (Nightmare),0,0
+91265,Prey: Neydra the Starving (Nightmare),0,0
+91266,Prey: Thornspeaker Edgath (Nightmare),0,0
+91267,Prey: Thorn-Witch Liset (Nightmare),0,0
+91268,"Prey: Grothoz, the Burning Shadow (Nightmare)",0,0
+91269,"Prey: Dengzag, the Darkened Blaze (Nightmare)",0,0
+91270,The Most Important Thing,2,0
+91271,A Fish!,1,0
+91274,Severing the Void,2,0
+91281,Midnight,2,0
+91283,Greedy Emissary,0,0
+91284,A Path Not Yet Chosen,2,0
+91288,A Test of the Hunt,1,0
+91291,A Test of Blood,1,0
+91292,A Test of the Arcane,1,0
+91301,How to Train Your Protege,3,0
+91302,Abundance: Abundant Grove,0,0
+91314,Untethered Potential,1,0
+91328,Secret Ingredients,2,0
+91339,Smothered in the Crib,1,0
+91340,For Violence's Sake,1,0
+91341,Unlimited,1,0
+91342,If You Want It Done Right,2,0
+91343,Ambition's Reward,1,0
+91345,To the North Tower,2,0
+91346,Supplicants to the Goddess,1,0
+91347,Strider Stampede,2,0
+91348,See a Mana 'bout a Wyrm,1,0
+91349,The Dark Part of the Woods,1,0
+91350,A Real Assignment,2,0
+91359,Fungal Lashers B Gone,1,0
+91360,Weeding Out the Unwanted,1,0
+91361,Back on Duty?,1,0
+91363,Harvest of Darkness,1,0
+91364,[DNT] QUEST NOT USED,0,0
+91375,The Silence at Fungara Village,2,0
+91376,Little Monsters,1,0
+91377,Spawn of the Dead,1,0
+91378,You Are Legend,1,0
+91379,Decayed Land,1,0
+91380,Belly of the Beast,1,0
+91381,Reticent Evil,1,0
+91382,Mighty and Superior,1,0
+91383,Tidy Up,2,0
+91384,Recovery Mission,1,0
+91385,A Ranger's Spirit,2,0
+91386,Mad to Measure,1,0
+91388,Uncommon Threads,1,0
+91389,Clothes Make the Man,2,0
+91390,Special Assignment: What Remains of a Temple Broken,0,0
+91391,Still Scouting,2,0
+91392,Greedy Emissary,0,0
+91398,Tomes of Terror,1,0
+91399,Ashes of the Void,1,0
+91400,Blades of the Fallen,1,0
+91401,Dead by Dusk,1,0
+91402,Ultra Deadly Ultradon,1,0
+91403,Probable Paralytic,1,0
+91404,A Most Vile Venom,1,0
+91405,Validating the Venom,2,0
+91406,Far from the Hinterlands,1,0
+91407,The Eye of the Loa,1,0
+91408,Seeking Shadra,2,0
+91409,Dreaming of Spiders,1,0
+91410,Shared Loa,2,0
+91411,Maisara Caverns: Deep in Maisara,1,0
+91412,Return of the Venom Queen,2,0
+91413,A Twilight Oath's End,1,0
+91417,Seek out Arator,2,0
+91419,Elemental Dominance,0,0
+91420,Swap Meet,1,0
+91426,The People's Champion,2,0
+91427,Mausoloa Desecrations!,0,0
+91429,Mausoloa Sarcophagi!,0,0
+91430,Runaway Limbs!,0,0
+91437,Call for Participants,0,0
+91438,Infinite Research: Heroic Worldly Deeds,0,0
+91439,Infinite Research: Heroic Invasion Points,0,0
+91440,Infinite Research: Hero of the Broken Isles,0,0
+91441,Infinite Research: Heroic Greater Invasion Points,0,0
+91442,Eco-Dome Al'dani,0,0
+91443,"Infinite Research: Advanced Combat Studies, Rare",0,0
+91444,"Infinite Research: Advanced Combat Studies, Elite",0,0
+91445,"Infinite Research: Advanced Combat Studies, Comprehensive",0,0
+91446,"Infinite Research: Advanced Combat Studies, Rare Elites",0,0
+91447,"Infinite Research: Advanced Combat Studies, Demonology",0,0
+91448,Infinite Research: Heroic Terrors of the Broken Isles,0,0
+91449,"Infinite Research: Advanced Combat Studies, Empowerment",0,0
+91450,We Ready Now,2,0
+91451,Stalk Market,1,0
+91452,Range of Knowledge,2,0
+91454,Phase-Lost Adventurer,1,0
+91457,Abundance: Watha'nan Crypts,0,0
+91458,Prey: Endurance Hunter,0,0
+91459,Manaforge Omega: A Walking Shadow,0,0
+91460,Manaforge Omega: A Walking Shadow,0,0
+91461,Manaforge Omega: A Walking Shadow,0,0
+91462,To the Central Tower,4,0
+91463,To the South Tower,2,0
+91464,Stormarion Assault,0,0
+91465,Stormarion Assault,0,0
+91466,Aiding the Green Dragons,0,0
+91467,Incarnates on the Move,0,0
+91475,Abundance: Abundant Voidburrow,0,0
+91476,Behind Enemy Lines,1,0
+91477,Behind Enemy Lines II,1,0
+91478,Behind Enemy Lines III,0,0
+91479,Behind Enemy Lines IV,0,0
+91480,Behind Enemy Lines V,0,0
+91481,Speed Siphoner,0,0
+91482,Speed Siphoner II,0,0
+91483,Hacking the Mainframe,0,0
+91484,Hacking the Forgeweaver,1,0
+91485,Hacking the Planet,0,0
+91486,Attuned to the Aether,0,0
+91487,Welcome to the Team,0,0
+91489,A Curious Companion,0,0
+91490,Dousing Teldrassil,0,0
+91492,The Tale of Aln'hara's Bloom,0,0
+91493,Not What I Ordered,1,0
+91494,"One Elf's Trash, Another Elf's Treasure",1,0
+91495,Familiar Faces in Peril,1,0
+91504,Arcane Amassing,2,0
+91505,Daggers in My Spine,1,0
+91506,Tale of the First Shul'ka and the Flame,0,0
+91507,The Tale of Russula,0,0
+91508,Tale of Rootways and Wardens,0,0
+91509,The Tale of a Stone Falls from the Sky,0,0
+91522,Order from Chaos,0,0
+91523,Prey: Concealed Threat,0,0
+91525,Head Hunting: Loom'ithar,1,0
+91526,Head Hunting: Forgeweaver Araz,0,0
+91527,Head Hunting: The Soul Hunters,0,0
+91528,Head Hunting: Horrors of the Forge,0,0
+91529,Head Hunting: Nexus-King Salhadaar,0,0
+91530,Seeing Eye to Eye,0,0
+91533,What We Leave Behind,2,0
+91535,Home Sweet Grave,1,0
+91536,Like a Weed,1,0
+91537,Confronting It,1,0
+91539,A Radiant Echo,0,0
+91541,Unchecked Emotions,2,0
+91542,The Town Inside Me,2,0
+91543,Retaking Control,2,0
+91544,Familiar Energies,2,0
+91545,Stronger Than Before,2,0
+91546,To Be Changed,2,0
+91550,A Game of Silence and Shadow,2,0
+91551,De-nest-stration,2,0
+91552,Feathered Fury,2,0
+91553,Haranir Never Say Die!,3,0
+91555,Defenders of the Vale,0,0
+91556,Loa's Flame,1,0
+91557,Message to the Molt,0,0
+91558,Pestilent Petals,2,0
+91559,Virulent Vermin,1,0
+91560,Expunging Explorers,1,0
+91561,Bloodborne Pathogen,1,0
+91563,Halazzi's Hunt,2,0
+91565,Voidscar Arena: The Grief Spire,2,0
+91566,Voidscar Arena: The Hate Spire,2,0
+91582,Pruning the Lattice,0,0
+91583,Voidscar Arena: The Bastion of Valor,2,0
+91585,Fresh from the Garden,1,0
+91586,Soil-Based Alternatives,1,0
+91587,Carcass Cuisine,1,0
+91588,Harandar's Kitchen,1,0
+91589,Root Dash Delivery,2,0
+91590,Prey: Concealed Threat,0,0
+91591,Prey: Concealed Threat,0,0
+91592,Prey: Concealed Threat,0,0
+91594,Prey: Endurance Hunter,0,0
+91595,Prey: Endurance Hunter,0,0
+91596,Prey: Endurance Hunter,0,0
+91597,Voidscar Arena: For My Alliance,1,0
+91598,Voidscar Arena: Pre-Provoked Violence,1,0
+91599,Voidscar Arena: A Familiar Grudge,1,0
+91600,Voidscar Arena: Setting It Aside,2,0
+91601,Prey: Apex Predator,0,0
+91602,Prey: Apex Predator,0,0
+91603,Voidscar Arena: Two Against One,1,0
+91604,Prey: Apex Predator,0,0
+91605,Voidscar Arena: The Wrong Side,2,0
+91606,Voidscar Arena: Clearing House,3,0
+91612,Infinite Research,0,0
+91613,Infinite Research Promotion: Timely Assistant,0,0
+91614,Focusing the Energies,0,0
+91615,A Thirst For Blood,0,0
+91616,Required Reagents,0,0
+91618,A Few Things First,0,0
+91619,Blood of Sargeras,0,0
+91620,Noggenfogger's Reasonable Request,0,0
+91621,A Taste For Blood,0,0
+91624,Spark of Starlight,1,0
+91627,Saltheril's Haven,2,0
+91628,Honored Guests,1,0
+91629,High Esteem,1,0
+91630,Stolen Sight,1,0
+91631,Epoch Progress,0,0
+91632,The End of an Epoch Journey,0,0
+91639,Embrace Your Own Legend,0,0
+91691,The Vanishing of Iridikron,0,0
+91693,The Subtle Game,1,0
+91694,Voidscar Arena: Breaking the Triad,0,0
+91695,Tracking Down Incarnates,0,0
+91700,Darkness Unmade,1,0
+91721,Surpass Your Own Legend,0,0
+91722,Shape a New Legend,0,0
+91726,Unstoppable Force,2,0
+91728,Suramar Liberated,0,0
+91729,Armies Gathered,0,0
+91730,Azeroth Saved,0,0
+91731,Midsummer Test,0,0
+91739,Endeavor Reward,0,0
+91747,Not Quite Nalorakk,1,0
+91748,Too Much Twilight,1,0
+91749,It's Just Not Right,1,0
+91750,Perils of Trust,1,0
+91757,Until Our Next Hello,0,0
+91759,Don't Bring That Here,0,0
+91768,Sweating Mana,0,0
+91776,Wildhammer and Free,0,0
+91778,Too Deep and Too Dark,0,0
+91779,Combat Training for Cultists,0,0
+91780,Ethereal Delves,0,0
+91781,Seasonal Reminder,0,0
+91782,Repossessed!,0,0
+91785,Ensporcelled,0,0
+91787,The Journey Ends,2,0
+91789,Apocron,0,0
+91790,Brutallus,0,0
+91791,Malificus,0,0
+91792,Si'vash,0,0
+91795,Disrupt the Call,1,0
+91798,Fish Of The Day,0,0
+91799,Trial of Flight,0,0
+91800,Heirlooming Danger,0,0
+91801,Twilight's Bane,0,0
+91802,The Best Bites are Bog Bugs,0,0
+91803,Marsh Menace,0,0
+91804,Fish for the Fire,0,0
+91805,Boughs in the Burrows,0,0
+91806,Big Game Hunting,0,0
+91808,Resource Recovery,0,0
+91810,Blistereel Boar Buffet,0,0
+91811,A Scorched Mirror,0,0
+91813,The Spiritpaw,2,0
+91821,Out of Time,0,0
+91822,The Regent's Request,2,0
+91823,"Lines Cut, Tongues Silenced",1,0
+91824,The Thieves' Trail,1,0
+91825,Dead Men Keep No Secrets,1,0
+91826,Tripwire Tango,2,0
+91827,No Loose Ends,2,0
+91828,A Favor for the Lion,2,0
+91829,One by One,2,0
+91830,Intercepted,2,0
+91831,Keys Are Optional,2,0
+91833,Dirty Deeps,2,0
+91834,Guardians Must Go,0,0
+91835,Send Dem Home,2,0
+91836,Respect de Totem,2,0
+91837,Bring Back De Bones,0,0
+91838,De Vile Diminished,1,0
+91839,Sacrifice Denied,2,0
+91840,One Will Not Rise,2,0
+91842,Disarm the Dark Horde,1,0
+91843,Recap: The Harbinger,0,0
+91844,Infinite Research Promotion: Honorary Chronographer,0,0
+91845,Infinite Research Promotion: Senior Executive Chronographer,0,0
+91846,Infinite Research Promotion: Principal Chronoquery Investigator,0,0
+91847,Infinite Research,0,0
+91848,Infinite Research,0,0
+91849,Infinite Research,0,0
+91854,Deepening Shadows,1,0
+91855,Worldsoul: K'aresh World Quests,1,0
+91863,My First Home,2,0
+91864,Recap: Fractured Visions,0,0
+91865,Catch Up: Khaz Algar,0,0
+91866,Catch Up: The Ringing Deeps,0,0
+91867,Catch Up: Hallowfall,0,0
+91868,Recap: Shadowy Pursuits,0,0
+91869,Catch Up: A Light in the Dark,0,0
+91871,Recap: The Dark Heart,0,0
+91872,The Former Rootwarden,2,0
+91873,Buffer Zone,2,0
+91874,Flare Up,3,0
+91875,Natural Remedy,3,0
+91876,Tending Hope,3,0
+91884,The Illusion of Motion,1,0
+91885,Drain You,2,0
+91886,Voices of Omens,2,0
+91887,Dominion of Deceit,2,0
+91918,"Delves: Measure Once, Cut Twice",1,0
+91927,Ooze Booting,0,0
+91928,What's For Lunch?,1,0
+91929,What's For Lunch?,1,0
+91930,The Abundant Lands,2,0
+91932,The Abundant Awakening,1,0
+91933,The Abundant Honor,1,0
+91937,Portraits in the Vale,0,0
+91954,Freezing Over,0,0
+91955,Just Between Us,0,0
+91958,Den of Nalorakk: Unforgiven,1,0
+91963,Running Amok,2,0
+91966,Saltheril's Soiree,0,0
+91967,You Know This Evil?,1,0
+91968,Welcome Home,2,0
+91969,Time to Decorate,2,0
+91970,WANTED: Gelatonius,1,0
+91971,Hitting the Hammer,1,0
+91972,Hold the Watch,1,0
+91974,Sunfire to the Blade,1,0
+91975,That's Our Wood,1,0
+91976,Lightbloom Dimmed,1,0
+91977,Less Lawless,1,0
+91978,Taxing the Tideborne,1,0
+91979,Chop It Down,1,0
+91980,WANTED: Hellebora's Thorn,1,0
+91981,To Poison and to Heal,0,0
+91982,WANTED: Toadshade's Petals,1,0
+91983,Lovely Plumage,1,0
+91984,Sungrub Silk,1,0
+91985,Windrunner Memorabilia,1,0
+91986,Put a Little Snap in Their Step,1,0
+91987,Potted Lashers,1,0
+91988,Brightwing Conservation,1,0
+91989,Ghostland Peppers,1,0
+91990,Sunset to Sea,1,0
+91991,A Little Errand,1,0
+91992,Where Has the Wine Gone?,1,0
+91993,Diminutive Demand,1,0
+91995,What Horrible Magic,1,0
+91996,Fit for a Magister,1,0
+91997,Power Clean,1,0
+91998,WANTED: Muckmire's Choking Vines,1,0
+91999,A Bit of Bloodthistle,1,0
+92000,Bring the Ruckus,1,0
+92001,One Smuggler to Another,1,0
+92002,Dangerous Showpieces,1,0
+92003,Artisanal Replicas,1,0
+92004,Shady Dealings,1,0
+92005,Throw the Dice,1,0
+92006,We Need a Refill,1,0
+92007,"Begged, Borrowed, or Stolen",1,0
+92010,WANTED: Slewstalk's Stalks,1,0
+92012,WANTED: Gorebarb's Pincers,1,0
+92013,WANTED: Dionaea's Thorntusks,1,0
+92018,x.x Testing (YGR),0,0
+92021,Graveblossom Gardening,1,0
+92022,A Venomous Vocation,1,0
+92023,Suspicious Sundries,2,0
+92024,House Call,2,0
+92025,Flowers for Amalthea,2,0
+92028,Pardon the Interruption,1,0
+92030,A New Tradition,1,0
+92031,Meet the Vandals,1,0
+92032,[DNT] Council of Dornogal Renown Unlock,0,0
+92033,[DNT] Council of Dornogal Renown Unlock,0,0
+92034,Thorm'belan,0,0
+92061,Rising Storm,2,0
+92062,Tending the Roots,0,0
+92078,A New Recipe!,0,0
+92082,Someone Like Me,0,0
+92084,Halazzi's Guile,1,0
+92085,Claw Enforcement,0,0
+92086,A Taste of Accord,0,0
+92087,Unlock Ability 1 - Level 2,0,0
+92088,Unlock Ability 2 - Level 3,0,0
+92089,Unlock Ability 3 - Level 4,0,0
+92090,Unlock Ability 4 - Level 5,0,0
+92091,Unlock Ability 5 - Level 6,0,0
+92092,Unlock Ability 6 - Level 7,0,0
+92093,Unlock Ability 7 - Level 8,0,0
+92099,Endeavor Reward,0,0
+92105,"Papers, Please!",0,0
+92106,Ignite the Skies: Northern Kalimdor,0,0
+92119,Bitterbloom Burn Down,0,0
+92120,To Understand Magic,0,0
+92121,The Great Outdoors,0,0
+92122,Beneath the Sunsails,0,0
+92136,Infusion of Hope,3,0
+92138,Mobilize! Enlist! Recruit!,0,0
+92139,Special Assignment: Shade and Claw,0,0
+92140,Uprooting Efforts,0,0
+92141,Classic Threats,0,0
+92143,Arcane Reallocation,0,0
+92144,No Squatters,0,0
+92146,Containment Zone,0,0
+92149,Death to Twilight,0,0
+92150,A Breeze through Fairbreeze,0,0
+92152,Battling the Bloom,0,0
+92153,The Moon at Twilight,0,0
+92155,Object Exorcism,1,0
+92156,It Follows Me,2,0
+92157,Ritual Activity,1,0
+92158,Let It In,2,0
+92159,A Final Destination,2,0
+92160,Hatchling Havoc,0,0
+92162,A Refined Potadpalate,0,0
+92163,The Loa of Murlocs,2,0
+92164,Murloc Madness,1,0
+92165,"Fish Are Food, Not Friends",1,0
+92166,Following Suit,1,0
+92167,There Can Be Only One,2,0
+92177,One Hero's Prey,1,0
+92178,Practical Magic,1,0
+92179,Dark Mending,1,0
+92180,Precious Jewels,1,0
+92181,Garden Variety Sacrifices,0,0
+92182,The Sheep or the Wolf,0,0
+92184,Potadpole Wrangling,0,0
+92185,The Tale of the Frost Lord,0,0
+92195,Come On Down,0,0
+92319,A Favor to Axe,0,0
+92320,Still Behind Enemy Portals,0,0
+92321,A Frostbitten Tally,0,0
+92322,Timear Foresees a Proof of Demise!,0,0
+92323,Where the Fire Once Burned,0,0
+92324,Uncrowned's Cold Case,0,0
+92325,Hellscream's Heritage,0,0
+92326,The Fragrance of the Dunes,0,0
+92327,A Generational Moment,0,0
+92330,Valorstones,1,0
+92331,Turbo-Boost: Trade Must Flow,1,0
+92332,Turbo-Boost: Infinite Growth,1,0
+92364,Sun Support,0,0
+92365,Creating Defenses,1,0
+92386,A Handful of Voidlight Marl,1,0
+92387,A Cluster of Voidlight Marl,1,0
+92388,A Trove of Voidlight Marl,0,0
+92390,Risk for Research,2,0
+92396,Calling in the Cavalry,2,0
+92397,Dawnstar Defense,1,0
+92398,And Then They Came,1,0
+92402,Magical Touch,0,0
+92405,Meet Arator,3,0
+92407,Hidey-Hole,1,0
+92408,Material Gains,2,0
+92410,Renowned with the Magisters,0,0
+92411,Renowned with the Blood Knights,0,0
+92412,Renowned with the Farstriders,0,0
+92413,Renowned with the Shades of the Row,0,0
+92417,Farm to Table,0,0
+92418,Abundance,0,0
+92420,Ignite the Skies: Southern Kalimdor,0,0
+92429,Alternative Skinning,0,0
+92430,Embracing the Infinite Chaos,0,0
+92435,Ignite the Skies: Orgrimmar,0,0
+92437,Decor Treasure Hunt,0,0
+92439,"Infinite Research: Combat Studies, Felrunner",0,0
+92440,"Infinite Research: Combat Studies, Stormrunner",0,0
+92441,"Infinite Research: Combat Studies, Magerunner",0,0
+92442,"Infinite Research: Combat Studies, Lightrunner",0,0
+92443,Reverse Herb Farming,0,0
+92445,Smelting for Two,0,0
+92447,Abyss Anglers,0,0
+92448,Where Dust Dances,1,0
+92450,Growing Up is Hard,1,0
+92451,I Think I Can,1,0
+92452,Not According to Plan,1,0
+92453,Fearless,1,0
+92492,Honorin' de Sacrifice,2,0
+92493,What Remains of Idago,1,0
+92495,Disruptin' de Blade,1,0
+92496,Spears Against de Shadow,1,0
+92497,Simply Magical,1,0
+92499,The Wisest Leaders Follow,2,0
+92503,Ignite the Skies: Northern Eastern Kingdoms,0,0
+92504,Ignite the Skies: Southern Eastern Kingdoms,0,0
+92505,Truth of the Past,2,0
+92506,The Soul Price,1,0
+92507,A More Potent Foe,2,0
+92508,The Mark of Sacrifice,1,0
+92509,One Cruel Implement,1,0
+92510,Dark Infusion,2,0
+92511,Event Horizon,2,0
+92512,Devourer,2,0
+92520,Wake of the Darkwell,1,0
+92523,Tracking Quest,0,0
+92524,Tracking Quest,0,0
+92531,The Medicine Loa's Shrine,2,0
+92539,[NYI] Renowned with the Hara'ti,0,0
+92546,Encroaching Predators,0,0
+92547,Emissary of the Hara'ti,0,0
+92549,Void From Above,0,0
+92554,Addition of Anguish,0,0
+92556,Honor the Flame,0,0
+92559,Honor the Flame,0,0
+92560,Lu'ashal,0,0
+92563,Awoken by Accessory,0,0
+92566,Armies of Darkness,0,0
+92568,Drustvar Candy Exchange,0,0
+92570,Duskwood Candy Exchange,0,0
+92571,Armies of Darkness,0,0
+92572,Furniture Favor,1,0
+92576,Dominating The Domanaar,0,0
+92577,Dreamy Inspiration,0,0
+92578,Draconic Decor,0,0
+92580,Spare A Chair,0,0
+92581,Last Light,0,0
+92582,Apply to Roots,0,0
+92583,Fungicide,0,0
+92589,<DNT> Last Scenario Step Quest,0,0
+92600,Cracked Keystone,0,0
+92603,O Lonely Star,2,0
+92604,Speak in Blood,2,0
+92605,Honest as Bone,2,0
+92606,Take Up Your Gift,1,0
+92607,And Carve New Shapes,2,0
+92608,Landscape Photography,0,0
+92616,Mushrooming Courage,2,0
+92617,Mushrooming Resilience,1,0
+92618,Mushrooming Confidence,2,0
+92630,The Pursuit Continues,3,0
+92631,Abhorrent Gauntlet,1,0
+92632,Trial of Wrath,2,0
+92634,Midsummer's Journey to Loch Modan,0,0
+92635,Midsummer's Journey to the Barrens,0,0
+92636,Predaxas,0,0
+92641,Bloodying the Plain,0,0
+92647,A Shadowed Journey Through Time,0,0
+92649,A Shadowed Path Through Time,0,0
+92650,The Flickering Anima,0,0
+92657,The Brewing Storm,0,0
+92658,Tactical Acquisition,2,0
+92659,Resource Denial,1,0
+92660,Null Implements,3,0
+92661,Hammer Meet Anvil,3,0
+92662,Core Collapse,1,0
+92667,UNUSED,0,0
+92671,Lorewalking: Rise of the Horde,0,0
+92672,UNUSED,0,0
+92673,Lorewalking: In Pride's Wake,0,0
+92674,Lorewalking: Across a Burning Portal,0,0
+92675,Lorewalking: The Weight of Doubt,0,0
+92676,Lorewalking: In Another's Footsteps,0,0
+92677,Lorewalking: Paths Ever Onward,0,0
+92688,Bronze Simulacrum,0,0
+92689,A Path Forward,1,0
+92692,Hero's Call: Test!,0,0
+92694,Dusk Among Pigments,2,0
+92695,The Stroke of Storms,1,0
+92696,Colors Born Anew,1,0
+92697,Hues of Tomorrow,1,0
+92711,Ignite the Skies: Stormwind,0,0
+92713,Echoes Rekindled,1,0
+92715,By Invitation Only?,0,0
+92716,The Story of Wey'nan's Ward,1,0
+92719,The Story of the Cauldron of Echoes,1,0
+92720,The Story of Aln'hara's Bloom,0,0
+92721,The Story of the Echoless Flame,0,0
+92722,The Story of Russula's Outreach,1,0
+92724,The Story of the Root of the World,1,0
+92725,The Story of Sky's Hope,1,0
+92728,Dogged Disturbances,1,0
+92729,Hounded and Hassled,2,0
+92731,Artificing Aggression,0,0
+92732,Light Disturbance,2,0
+92736,Light Stroll,2,0
+92737,Light Carnage,1,0
+92738,Potatoad Tots,1,0
+92739,O.K. Bloomer,2,0
+92740,Questionable Qualifications,0,0
+92746,The Twist of the Stormfields,0,0
+92756,Level 9,0,0
+92758,Level 10,0,0
+92759,Level 11,0,0
+92760,Level 12,0,0
+92761,Level 13,0,0
+92762,Level 14,0,0
+92763,Level 15,0,0
+92764,Level 16,0,0
+92765,Level 17,0,0
+92766,Level 18,0,0
+92767,Level 19,0,0
+92768,Level 20,0,0
+92769,Level 21,0,0
+92770,Level 22,0,0
+92771,Level 23,0,0
+92772,Level 24,0,0
+92773,Level 25,0,0
+92774,Level 26,0,0
+92775,Level 27,0,0
+92776,Level 28,0,0
+92777,Level 29,0,0
+92778,Level 30,0,0
+92779,Level 31,0,0
+92780,Level 32,0,0
+92781,Level 33,0,0
+92782,Level 34,0,0
+92783,Level 35,0,0
+92784,Level 36,0,0
+92785,Level 37,0,0
+92786,Level 38,0,0
+92787,Level 39,0,0
+92788,Level 40,0,0
+92789,Level 41,0,0
+92790,Level 42,0,0
+92791,Level 43,0,0
+92792,Level 44,0,0
+92793,Level 45,0,0
+92794,Level 46,0,0
+92795,Level 47,0,0
+92796,Level 48,0,0
+92797,Level 49,0,0
+92798,Level 50,0,0
+92799,Level 51,0,0
+92800,Level 52,0,0
+92801,Level 53,0,0
+92803,Level 54,0,0
+92804,Level 55,0,0
+92805,Level 56,0,0
+92806,Level 57,0,0
+92807,Level 58,0,0
+92808,Level 59,0,0
+92809,Level 60,0,0
+92816,A Letter for Adventure,0,0
+92821,Ignite the Skies: Silvermoon,0,0
+92826,Lorewalking: The Loa of Kings,0,0
+92829,Lorewalking: Death of the Drakkari Loa,0,0
+92831,Lorewalking: The Blood Loa,0,0
+92832,Lorewalking: The Hash'ey,0,0
+92836,Reignite the Skies: Stormwind,0,0
+92839,Reignite the Skies: Orgrimmar,0,0
+92845,By Invitation Only?,0,0
+92848,Special Assignment: The Grand Magister's Drink,0,0
+92851,Questionable Qualifications,0,0
+92855,"Make Haste, Not Waste",0,0
+92857,Ta'readon's Mount Voucher,0,0
+92864,Drift Them Away,1,0
+92865,Feeding the Buds,1,0
+92866,Re-Hydra-ted,1,0
+92868,He Went Thataway,2,0
+92869,Fishy Dis-pondencies,1,0
+92870,Scoot Along Now,2,0
+92875,Understanding the War Within,2,0
+92882,A Hunter's Plight,2,0
+92883,A Hunter's Duty,2,0
+92884,A Hunter's Weapon,2,0
+92885,A Hunter's Prey,1,0
+92890,A Handful of Voidlight Marl,1,0
+92891,A Cluster of Voidlight Marl,1,0
+92892,A Trove of Voidlight Marl,1,0
+92895,Hagar's Invitation,2,0
+92897,The Preparations Are Complete,1,0
+92899,History Lesson,2,0
+92900,A Favor for Kinduru,3,0
+92901,Revisionist History,1,0
+92902,Rescue Amani from Priest Sacrifices,0,0
+92904,Return to Zul'Aman,2,0
+92905,Help Uncle with Loa,0,0
+92906,Breadcrumb to Eagle Rise,0,0
+92907,Amani Answers,1,0
+92916,A Call for Aid,2,0
+92917,Saving Those Bound,2,0
+92919,"All Bark, All Bite",2,0
+92920,Down With the Skies,2,0
+92921,To the Skybridge,2,0
+92922,Those Who Can't Fight,0,0
+92924,What Lies Beyond the Fog,2,0
+92925,The Glint of History,1,0
+92926,Prey: Astalor's Initiative,2,0
+92927,Echoed Steps,1,0
+92928,What Was Buried,2,0
+92929,Lurking in the Dark,2,0
+92930,Written by the Victors,2,0
+92931,Delay the Venom,2,0
+92932,Clear the Swamp,1,0
+92933,Haunted Shore,1,0
+92934,Fuel the Calling,1,0
+92935,Pushed to the Brink,1,0
+92936,The Summoning of Ula'tek,2,0
+92937,Awakened Evil,2,0
+92938,Site of Terror,1,0
+92939,It's Not Just a Rock!,1,0
+92944,Sifting Through Void,1,0
+92945,The Power of Anguish,1,0
+92946,Buried in the Dark,1,0
+92948,In Over My Head,1,0
+92949,Breadcrumb to Bitterbark,0,0
+92950,Collect Ingredients for Uncle,0,0
+92951,Digging Deeper,2,0
+92952,Mission to Maisara,2,0
+92953,Memories of Malacrass,2,0
+92954,Maisara Caverns: Master of Souls,1,0
+92955,The Tablets of Numazon,2,0
+92957,There's the Rub,2,0
+92958,Brain Drain,1,0
+92961,Decor Treasure Hunt,0,0
+92962,Decor Treasure Hunt,0,0
+92963,Decor Treasure Hunt,0,0
+92964,Decor Treasure Hunt,0,0
+92965,Decor Treasure Hunt,0,0
+92966,Decor Treasure Hunt,0,0
+92967,Decor Treasure Hunt,0,0
+92968,Decor Treasure Hunt,0,0
+92969,Decor Treasure Hunt,0,0
+92970,Decor Treasure Hunt,0,0
+92971,Decor Treasure Hunt,0,0
+92972,Decor Treasure Hunt,0,0
+92973,Decor Treasure Hunt,0,0
+92974,Decor Treasure Hunt,0,0
+92975,Decor Treasure Hunt,0,0
+92976,Decor Treasure Hunt,0,0
+92977,Decor Treasure Hunt,0,0
+92978,Decor Treasure Hunt,0,0
+92979,Decor Treasure Hunt,0,0
+92980,Decor Treasure Hunt,0,0
+92981,Decor Treasure Hunt,0,0
+92982,Decor Treasure Hunt,1,0
+92983,Decor Treasure Hunt,0,0
+92984,Decor Treasure Hunt,0,0
+92985,Decor Treasure Hunt,0,0
+92986,Decor Treasure Hunt,0,0
+92987,Decor Treasure Hunt,0,0
+92988,Decor Treasure Hunt,0,0
+92989,Decor Treasure Hunt,0,0
+92990,Decor Treasure Hunt,0,0
+92991,Decor Treasure Hunt,0,0
+92992,Decor Treasure Hunt,0,0
+92993,Decor Treasure Hunt,0,0
+92994,Decor Treasure Hunt,0,0
+92995,Decor Treasure Hunt,0,0
+92996,Decor Treasure Hunt,0,0
+92997,Decor Treasure Hunt,0,0
+92998,Decor Treasure Hunt,0,0
+92999,Decor Treasure Hunt,0,0
+93000,Decor Treasure Hunt,0,0
+93001,Decor Treasure Hunt,0,0
+93002,Decor Treasure Hunt,0,0
+93003,Decor Treasure Hunt,0,0
+93004,Decor Treasure Hunt,0,0
+93005,Decor Treasure Hunt,0,0
+93006,Decor Treasure Hunt,0,0
+93007,Decor Treasure Hunt,0,0
+93008,Decor Treasure Hunt,0,0
+93009,Decor Treasure Hunt,0,0
+93010,The Serpent Shrine,2,0
+93011,Legacy of the Amani,2,0
+93012,Dead End,2,0
+93013,Special Assignment: Push Back the Light,0,0
+93018,Them That Were Lost,1,0
+93019,"Situation Normal, All Snaked Up",1,0
+93022,"Fire, the Only Way to Be Sure",1,0
+93023,Death of Furies,1,0
+93024,Come With Me,2,0
+93025,Words 9,0,0
+93043,When Predator Becomes Prey,1,0
+93046,Nestled Belongings,0,0
+93047,Butchery Basics,1,0
+93048,Got No Rhythm,1,0
+93049,Homework Support,1,0
+93050,Altar History,2,0
+93051,The Final Exam,2,0
+93053,Cleaning the Den,0,0
+93055,Extracurriculars,0,0
+93056,A Lesson in Alacrity,0,0
+93057,A House For You,3,0
+93063,Broken Spears,1,0
+93064,Awe of She,2,0
+93071,Rotten to the Core,0,0
+93073,Decor Treasure Hunt,0,0
+93074,Decor Treasure Hunt,0,0
+93075,Decor Treasure Hunt,0,0
+93076,[DNT] TEST HOUSE ROOM REWARD,0,0
+93077,Decor Treasure Hunt,0,0
+93078,Decor Treasure Hunt,0,0
+93079,Decor Treasure Hunt,0,0
+93080,Decor Treasure Hunt,0,0
+93081,Decor Treasure Hunt,0,0
+93082,Decor Treasure Hunt,0,0
+93083,Decor Treasure Hunt,0,0
+93084,Decor Treasure Hunt,0,0
+93085,Decor Treasure Hunt,0,0
+93086,To the Sanctum!,2,0
+93087,Decor Treasure Hunt,1,0
+93088,Decor Treasure Hunt,0,0
+93091,Decor Treasure Hunt,0,0
+93093,Gnarldin Trophies,1,0
+93094,Scavenged Victory,1,0
+93095,Bitter Fury,1,0
+93096,Amani Honor,2,0
+93097,Decor Treasure Hunt,0,0
+93098,Decor Treasure Hunt,0,0
+93099,Decor Treasure Hunt,0,0
+93100,Decor Treasure Hunt,0,0
+93101,Decor Treasure Hunt,0,0
+93102,Decor Treasure Hunt,0,0
+93103,Decor Treasure Hunt,0,0
+93104,Decor Treasure Hunt,1,0
+93105,Decor Treasure Hunt,0,0
+93106,Decor Treasure Hunt,0,0
+93107,Decor Treasure Hunt,0,0
+93108,Decor Treasure Hunt,0,0
+93109,Decor Treasure Hunt,0,0
+93110,Decor Treasure Hunt,0,0
+93111,Decor Treasure Hunt,0,0
+93112,"Infinite Research: Special Assignment, Fel Skies",0,0
+93113,"Infinite Research: Special Assignment, Rare Dare",0,0
+93114,"Infinite Research: Special Assignment, Sampling the World",0,0
+93115,Decor Treasure Hunt,0,0
+93116,"Infinite Research: Special Assignment, Here to Slay",0,0
+93117,"Infinite Research: Special Assignment, Boss Rush",0,0
+93118,"Infinite Research: Special Assignment, Power Overwhelming",0,0
+93119,[DNT] TEST HOUSE DECOR REWARD,0,0
+93120,"Infinite Research: Special Assignment, A World to Explore",0,0
+93131,Decor Treasure Hunt,0,0
+93132,Decor Treasure Hunt,0,0
+93133,Decor Treasure Hunt,0,0
+93134,Decor Treasure Hunt,0,0
+93135,Decor Treasure Hunt,0,0
+93136,Decor Treasure Hunt,0,0
+93137,Decor Treasure Hunt,0,0
+93138,Decor Treasure Hunt,0,0
+93139,Decor Treasure Hunt,0,0
+93140,Decor Treasure Hunt,0,0
+93141,Decor Treasure Hunt,0,0
+93142,Decor Treasure Hunt,0,0
+93143,Decor Treasure Hunt,0,0
+93147,Decor Treasure Hunt,0,0
+93148,Decor Treasure Hunt,0,0
+93149,Decor Treasure Hunt,0,0
+93150,Decor Treasure Hunt,0,0
+93151,Decor Treasure Hunt,0,0
+93152,Decor Treasure Hunt,0,0
+93171,Calling All Combatants!,1,0
+93178,A Quiet Walk Interrupted,1,0
+93179,Childlike Devotion,2,0
+93180,Shrine Preparations,2,0
+93181,Temple and a Teapot,2,0
+93182,Healing Homeward,2,0
+93199,Slithering in the Mire,0,0
+93200,A Handful of Voidlight Marl,1,0
+93229,Fried Eggs,0,0
+93233,Savagery Among the Ruins,0,0
+93239,Scouts in the Swamp,2,0
+93244,Special Assignment: Agents of the Shield,0,0
+93257,Revantusk at Risk,2,0
+93258,Crab Clues,1,0
+93259,Clobbering Crawlers,1,0
+93260,Caging Crawlers,1,0
+93261,A Crab of Unusual Size,1,0
+93262,Endeavor,0,0
+93263,It Just Had to Be...,2,0
+93265,Severing the Serpent's Head,2,0
+93266,Drumming Up the Troops,2,0
+93270,Midnight (90) E,0,0
+93271,Midnight (90) E,0,0
+93272,Midnight (90) E,0,0
+93273,Midnight (90) E,0,0
+93274,Midnight (90) E,0,0
+93276,Midnight (90) E,0,0
+93277,Midnight (90) E,0,0
+93278,Midnight (90) E,0,0
+93279,Midnight (90) E,0,0
+93280,Midnight (90) E,0,0
+93281,Midnight (90) E,0,0
+93282,Midnight (90) E,0,0
+93283,Midnight (90) E,0,0
+93284,Midnight (90) E,0,0
+93285,Midnight (90) E,0,0
+93286,Midnight (90) E,0,0
+93287,Midnight (90) E,0,0
+93288,Midnight (90) E,0,0
+93289,Midnight (90) E,0,0
+93290,Midnight (90) E,0,0
+93291,Midnight (90) E,0,0
+93292,Midnight (90) E,0,0
+93293,Midnight (90) E,0,0
+93294,Midnight (90) E,0,0
+93295,Midnight (90) E,0,0
+93296,Midnight (90) E,0,0
+93297,Midnight (90) E,0,0
+93301,Midnight (90) E,0,0
+93302,Midnight (90) E,0,0
+93303,Midnight (90) E,0,0
+93304,Midnight (90) E,0,0
+93305,Midnight (90) E,0,0
+93306,Midnight (90) E,0,0
+93307,Midnight (90) E,0,0
+93308,Midnight (90) E,0,0
+93309,Midnight (90) E,0,0
+93310,Midnight (90) E,0,0
+93311,Midnight (90) E,0,0
+93312,Midnight (90) E,0,0
+93313,Midnight (90) E,0,0
+93339,Trinket Trading,2,0
+93340,The Shadow Shard,1,0
+93365,Midnight (81-89) E,0,0
+93368,Midnight (81-89) E,0,0
+93369,Midnight (81-89) E,0,0
+93370,Midnight (81-89) E,0,0
+93371,Midnight (81-89) E,0,0
+93372,Delver's Call: Shadow Enclave,1,0
+93373,Midnight (81-89) E,0,0
+93374,Midnight (81-89) E,0,0
+93375,Midnight (81-89) E,0,0
+93376,Midnight (81-89) E,0,0
+93377,Midnight (81-89) E,0,0
+93378,Midnight (81-89) E,0,0
+93379,Midnight (81-89) E,0,0
+93382,Pardon the Interruption,0,0
+93384,Delver's Call: Collegiate Calamity,1,0
+93385,Delver's Call: The Darkway,1,0
+93386,Delver's Call: Parhelion Plaza,1,0
+93387,Dealing with Pests,1,0
+93388,Unusual Alchemy,2,0
+93389,Rocksblood,2,0
+93390,Acceptable Apprentice,1,0
+93391,Make it Stinky,1,0
+93392,Recovering Memories,1,0
+93393,A Little Kindness,2,0
+93396,Bursting at the Seams,1,0
+93397,Gnawing Hunger,0,0
+93409,Delver's Call: Atal'Aman,2,0
+93410,Delver's Call: Twilight Crypts,1,0
+93413,TO DEPRECATE Battle for Zul'jarra,0,0
+93414,TO DEPRECATE Bloody Mercy,0,0
+93416,Delver's Call: The Gulf of Memory,1,0
+93417,The Vaults of Atal'Utek: Altar of Fangs,2,0
+93418,The Venomous Abyss,2,0
+93419,Nature of Her Wounds,2,0
+93420,Lor'themar's Judgement,2,0
+93421,Delver's Call: The Grudge Pit,1,0
+93423,Sparks of War: Eversong Woods,1,0
+93425,Sparks of War: Harandar,1,0
+93426,Sparks of War: Voidstorm,1,0
+93427,Delver's Call: Sunkiller Sanctum,0,0
+93428,Delver's Call: Shadowguard Point,1,0
+93432,Swords to Plowshares,1,0
+93433,"Shrine, Sealed, Delivered",1,0
+93435,Four Instigators,1,0
+93436,"Hex the Innocent, Disrupt the Guilty",1,0
+93437,In Their Own Blood,1,0
+93438,Special Assignment: Precision Excision,0,0
+93440,Personal History,2,0
+93449,Trouble in the Swamp,2,0
+93452,Retrieved Crumpled Present,0,0
+93453,A Grave Concern,1,0
+93454,Words to Hear,2,0
+93495,A Soaring Journey Through Time,0,0
+93497,A Soaring Path Through Time,0,0
+93499,Enshrouded in Arenas,1,0
+93501,The Season Starts: Midnight,1,0
+93502,Enshrouded Solo,1,0
+93503,Enshrouded in Teamwork,1,0
+93504,Enshrouded in Skirmishes,1,0
+93505,Enshrouded in War,1,0
+93506,Enshrouded in Battle,0,0
+93507,Disrupting the Void,0,0
+93511,A Missing Member,2,0
+93514,Emissary of the Singularity,0,0
+93517,Otherworldly Intelligence,0,0
+93519,Midnight Delves!,1,0
+93520,LFGDungeons - 12.x Midnight - Raid Finder - Nth,0,0
+93522,LFGDungeons - 12.x Midnight - Raid Finder - 1st,0,0
+93523,Short-Supply Reward,0,0
+93524,Trench Run,0,0
+93525,Nulling Nullaeus,1,0
+93548,A Trove of Voidlight Marl,0,0
+93549,A Cluster of Voidlight Marl,0,0
+93566,Renowned with the Amani Tribe,1,0
+93569,Exaliburn,0,0
+93571,Dispersing Shadows,0,0
+93573,Deciphering Darkness,0,0
+93575,Maisara Caverns: Maisara Hungers,1,0
+93576,The Search for Wa'kani,2,0
+93577,Captured Instinct,0,0
+93578,Where Shadows Gather,0,0
+93579,Path of Purgation,0,0
+93586,"Conditional - Multiple Objectives, Non Sequenced",0,0
+93593,A Call to Battle,0,0
+93595,A Call to Delves,0,0
+93598,Emissary of War,0,0
+93599,The Very Best,0,0
+93600,The Arena Calls,0,0
+93605,The World Awaits,0,0
+93607,An Original Path Through Time,0,0
+93608,A Burning Path Through Time,0,0
+93610,A Frozen Path Through Time,0,0
+93611,A Shattered Path Through Time,0,0
+93612,A Shrouded Path Through Time,0,0
+93613,A Savage Path Through Time,0,0
+93614,A Fel Path Through Time,0,0
+93627,A Scarred Path Through Time,0,0
+93628,A Shadowed Path Through Time,0,0
+93640,Fish Finagling,0,0
+93647,Lumber For You,2,0
+93648,Gnarly Skullduggery,0,0
+93649,Got the Gall,0,0
+93651,The Blinding Vale: Lightbloom Roots,2,0
+93664,Rotten Fish,0,0
+93667,Camp Stonewash,3,0
+93668,An Old Game for a New Age,0,0
+93669,Curse of Greed,0,0
+93670,How 'Bout Them Apples?,0,0
+93671,A Tight Squeeze,0,0
+93672,Blade to Rest,0,0
+93683,Conditional Objectives - Singular,0,0
+93687,Taste True Power,1,0
+93690,Alchemy Services Requested,1,0
+93691,Blacksmithing Services Requested,1,0
+93692,Engineering Services Requested,1,0
+93693,Inscription Services Requested,1,0
+93694,Jewelcrafting Services Requested,1,0
+93695,Leatherworking Services Requested,1,0
+93696,Tailoring Services Requested,1,0
+93697,Shimmering Melodies,1,0
+93699,A Ray of Sunlight,1,0
+93702,The Root of Life,1,0
+93703,Sin'dorei Vices,1,0
+93704,Traditional Harvests,1,0
+93706,Aggressive Tin-dencies,1,0
+93708,Conductive Metals,1,0
+93709,Stocking the Staples,1,0
+93710,Tempered in Darkness,1,0
+93711,The Chill of the Void,1,0
+93712,Style and Skill,1,0
+93713,Essential Materials,1,0
+93716,Learning the Cloaks - Part 1,0,0
+93717,Learning the Cloaks - Part 2,0,0
+93719,"Nothing Captured, Nothing Gained",0,0
+93723,Crafters Needed,1,0
+93724,Crafting Orders: Alchemy,2,0
+93726,Crafting Orders: Blacksmithing,2,0
+93727,Crafting Orders: Engineering,2,0
+93728,Crafting Orders: Inscription,2,0
+93729,Crafting Orders: Jewelcrafting,2,0
+93730,Crafting Orders: Tailoring,2,0
+93731,Crafting Orders: Leatherworking,2,0
+93734,Precious Trinkets,2,0
+93744,Unity Against the Void,0,0
+93745,"Har'athir, Village of Memory",2,0
+93751,Windrunner Spire,0,0
+93752,Murder Row,0,0
+93753,Magisters' Terrace,1,0
+93754,Maisara Caverns,1,0
+93755,Den of Nalorakk,0,0
+93756,The Blinding Vale,1,0
+93757,Voidscar Arena,0,0
+93758,Nexus-Point Xenas,0,0
+93766,Midnight: World Quests,1,0
+93767,Midnight: Arcantina,1,0
+93769,Midnight: Housing,0,0
+93771,"Har'kuai, Village of Rain",2,0
+93774,When is a Chair not for Sitting?,0,0
+93775,"Har'mara, Village of Balance",2,0
+93776,"Har'alnor, Village of Twilight",2,0
+93782,"Conditional - Multiple Objectives, Sequenced",0,0
+93783,Conditional - Just One Objective,0,0
+93784,A Gnawing Void of Curiosity,0,0
+93792,Blessings of the Loa,1,0
+93798,Renowned with Zul'jarra's Forces,1,0
+93801,Calculated Culling,1,0
+93810,Masters' Perch,2,0
+93811,Renowned with the Silvermoon Court,1,0
+93816,Putting it Together,0,0
+93841,Ghosts of the Ring,2,0
+93842,Bloom and Fade,2,0
+93843,Ectoplasmic Extractions,2,0
+93849,Ectoplasmic Emporium,1,0
+93850,Windrunner Spire: Haunting Melodies,1,0
+93851,Communing with Ghosts,1,0
+93852,Lost Iridescent Flightstone,0,0
+93865,Carve Your Way,1,0
+93870,The Ephemeron Masquerade,0,0
+93877,Conditional Objectives - Sequential,0,0
+93878,"Conditional Objectives - Multiple Steps, No Sequence",0,0
+93879,Conditional Objectives - Conditional After Sequence,0,0
+93889,Midnight: Saltheril's Soiree,1,0
+93890,Midnight: Abundance,0,0
+93891,Midnight: Legends of the Haranir,0,0
+93892,Midnight: Stormarion Assault,0,0
+93899,Slayer's Rise,0,0
+93901,[DNT] House Level 2 Room Award,0,0
+93902,[DNT] House Level 4 Room Award,0,0
+93904,Defying Gravity,0,0
+93905,Ongoing Stoppage,0,0
+93906,Untethering the Two,2,0
+93907,Edification of the Worthy,0,0
+93909,Midnight: Delves,1,0
+93910,Midnight: Prey,1,0
+93911,Midnight: Dungeons,1,0
+93912,Midnight: Raid,0,0
+93913,Midnight: World Boss,0,0
+93922,A Singular Focus Unleashed,0,0
+93923,Tenacity of the Shul'ka,0,0
+93924,An Unrelenting March,0,0
+93929,The War Within Recap,1,0
+93930,Courting Success,1,0
+93931,An Abundance of Wealth,1,0
+93932,Legendary Prosperity,1,0
+93933,Guarded Treasures,1,0
+93938,Spellbreaker's Oath,0,0
+93939,Nullifier's Oath,0,0
+93940,Arcane Ranger's Oath,0,0
+93942,Spark of Radiance,1,0
+93943,Ancient Curiosity: Combat,0,0
+93945,Ancient Curiosity: Utility,0,0
+93954,Prestidigimotion,0,0
+93955,Feastform,0,0
+93956,Wroughtform,0,0
+93965,Pet Wranglin',1,0
+93969,Call Shot,0,0
+93970,Researching the Storm,1,0
+93979,Lingering Memories,2,0
+93997,Void Post Control,2,0
+93999,Void Post Control,1,0
+94005,Stellar Stash,0,0
+94012,Lost Lil' Strider,1,0
+94031,Bones of My Soul,1,0
+94035,Meat for the Bones,1,0
+94036,One Final Prisoner,1,0
+94040,Meat and Bone and Soul,2,0
+94052,The Domanaar's Plan,1,0
+94055,The Domanaar's Plan,2,0
+94056,A Golden Pull,1,0
+94057,A Golden Pull,2,0
+94058,Emissary of the Amani Tribe,0,0
+94210,Feathering the Nest,2,0
+94361,The Abundant Life,5,0
+94363,The Gloves Are Off,0,0
+94370,Slithering Closer,2,0
+94371,A Ranger's Dream,2,0
+94372,The Gloves Are Off,0,0
+94379,This Old Hearth,2,0
+94380,Ranger Captain's Summons,0,0
+94381,Void Assaults: Eversong Woods,1,0
+94382,Ritual Problems,0,0
+94383,Ritual Interest,0,0
+94385,Void Assaults: Eversong Woods,1,0
+94386,Void Assaults: Zul'Aman,0,0
+94388,Second Time's a Choice,2,0
+94390,Special Assignment: A Hunter's Regret,0,0
+94391,Special Assignment: Push Back the Light,0,0
+94393,Career Counseling,2,0
+94396,Down a Peg,2,0
+94402,Old War Grudge,1,0
+94403,Old War Grudge,1,0
+94408,Contract of Service,1,0
+94409,Contract of Service,1,0
+94415,Plumbing the Void,1,0
+94416,Rehoming Technology,1,0
+94417,Crests of the Dawn,1,0
+94418,Crest Transmutation,1,0
+94423,Sanctum Secure,0,0
+94425,Bleed the Spire,0,0
+94430,Adventuring Gear,1,0
+94431,[DNT] House Level 3 Room Award,0,0
+94432,Veteran Equipment,1,0
+94437,[DNT] House Level 5 Room Award,0,0
+94444,Choose a Path,2,0
+94445,Choose a Path,2,0
+94446,A Nightmarish Task,0,0
+94447,Ophidia the Broodmother,2,0
+94450,Twenty Five Percent Completed,0,0
+94451,Fifty Percent Completed,0,0
+94452,Seventy Five Percent Completed,0,0
+94453,One Hundred Percent Completed,0,0
+94455,Home at Last,0,0
+94456,<DNT> Last Scenario Step Quest,0,0
+94457,Midnight: Battlegrounds,0,0
+94464,Heritage of the Haranir,1,0
+94469,A Handful of Voidlight Marl,1,0
+94470,A Cluster of Voidlight Marl,1,0
+94471,A Trove of Voidlight Marl,1,0
+94474,The Great Vault,0,0
+94475,The Voidspire: Flicker in the Hollow,0,0
+94476,The Voidspire: Flicker in the Hollow,0,0
+94477,The Voidspire: Flicker in the Hollow,0,0
+94478,Emissary of Silvermoon Court,0,0
+94492,Paragon of the Slayer's Duellum,0,0
+94519,What Hope in the Light?,2,0
+94520,Resurgence in Deatholme,2,0
+94521,The Direct Method,2,0
+94522,They Always Write It Down,2,0
+94523,My Poor Beautiful Self,1,0
+94524,Under New Management,2,0
+94525,A Comeback Story,2,0
+94526,Verifiably Untrustworthy,2,0
+94527,Null Space,2,0
+94528,Carving Out Room,2,0
+94529,A Dark Shadow Looms,1,0
+94530,The Call of the Void,2,0
+94531,"Like Mother, Like Son",2,0
+94571,Ashes of History,0,0
+94572,Shell the Future,0,0
+94573,The Floor is Larvae,0,0
+94574,Egg Thief,0,0
+94575,Snail Mail - Peacebloom,0,0
+94580,Kate's Test Quest,0,0
+94581,Stand Your Ground,0,0
+94582,[PH] Abundant Power,0,0
+94583,Snail Mail - Silverleaf,0,0
+94584,Snail Mail - Black Lotus,0,0
+94585,Snail Mail - Zin'anthid,0,0
+94586,Snail Mail - Earthroot and Mage Royal,0,0
+94587,Snail Mail - Rotting Sagefish,0,0
+94588,Snail Mail - Just Laundered Clothes,0,0
+94589,Snail Mail - Zesty,0,0
+94590,Snail Mail - Citrusy,0,0
+94591,Snail Mail - Recently Time Dilated,0,0
+94592,Snail Mail - Cookies,0,0
+94593,Snail Mail - Minty,0,0
+94594,Snail Mail - Herbal,0,0
+94595,Snail Mail - Earthy,0,0
+94596,Snail Mail - Woody,0,0
+94597,Snail Mail - Musky,0,0
+94598,Snail Mail - Vanilla,0,0
+94599,Snail Mail - Stranglekelp,0,0
+94600,Snail Mail - Tiger Lily,0,0
+94601,Snail Mail - Mycobloom,0,0
+94602,Snail Mail - Blindweed,0,0
+94603,Snail Mail - Bubble Poppy,0,0
+94604,Snail Mail - Wet Dog,0,0
+94605,Snail Mail - Freshly Manured Field,0,0
+94606,Snail Mail - Peony,0,0
+94607,Snail Mail - Kafa,0,0
+94611,Predators and Prey,0,0
+94612,Claws for Celebration,0,0
+94622,Work It,0,0
+94623,Building the Voidforge,0,0
+94625,An Elementary Voidcore,0,0
+94630,Work It,0,0
+94635,Work It,0,0
+94636,Work It,0,0
+94637,Work It,0,0
+94640,Snail Mail - Writhebark,0,0
+94641,Snail Mail - Cedarwood,0,0
+94642,Snail Mail - Fire Leaf,0,0
+94643,Snail Mail - Roasted Ham,0,0
+94644,Snail Mail - Fjarnskaggl,0,0
+94645,Snail Mail - Cinnamon,0,0
+94646,Snail Mail - Clove,0,0
+94647,Snail Mail - Nutmeg,0,0
+94648,Snail Mail - Dreamfoil,0,0
+94649,Snail Mail - Seven Day Old Sweat,0,0
+94650,Snail Mail - Coconut,0,0
+94651,Snail Mail - Honey,0,0
+94652,Snail Mail - Just-Rained,0,0
+94653,Snail Mail - Foxflower,0,0
+94654,Snail Mail - Apple,0,0
+94655,Snail Mail - Peachy,0,0
+94656,Snail Mail - Soapy,0,0
+94657,Snail Mail - Dewy Mold,0,0
+94658,Snail Mail - Scent of the Wind,0,0
+94659,Snail Mail - Nerubian Hootch Wine,0,0
+94660,Snail Mail - Bouquet of Fungi,0,0
+94661,Snail Mail - Crushed up Granite,0,0
+94662,Snail Mail - Caramel,0,0
+94663,Snail Mail - Chocolatey,0,0
+94664,Snail Mail - Caviar,0,0
+94665,Snail Mail - Fresh-Cut Grass,0,0
+94671,Finery Funds,1,0
+94675,Voidforge Reforged,0,0
+94677,The Missing Rootwarden,2,0
+94735,Work It,0,0
+94736,Work It,0,0
+94738,Work It,0,0
+94743,Special Assignment: Precision Excision,0,0
+94783,Midnight (90) E,0,0
+94784,Midnight (90) E,0,0
+94785,Midnight (90) E,0,0
+94786,Midnight (90) E,0,0
+94787,Midnight (90) E,0,0
+94790,Research Console: Exploring the Void,1,0
+94794,Fine Fashion Funding,1,0
+94795,Special Assignment: Agents of the Shield,0,0
+94796,Curing Curse Resistance,1,0
+94798,Ssak'mozek's Desire,1,0
+94800,Crushed Crabs,1,0
+94802,Death from the Dead,1,0
+94803,Going for the Crown,1,0
+94804,A Collection of Rot,1,0
+94805,"The New Hoard, Poached",1,0
+94806,Wriggling and Wet,1,0
+94808,LFGDungeons - Midnight - Normal Random - 1st,0,0
+94809,LFGDungeons - Midnight - Normal Random - Nth,0,0
+94811,LFGDungeons - Midnight - Heroic Random - 1st,0,0
+94812,LFGDungeons - Midnight - Heroic Random - Nth,0,0
+94813,Fine Fashion Funding,1,0
+94815,HIDDEN QUEST - Special Assignment: The Grand Magister's Drink [DNT],0,0
+94816,Fine Fashion Funding,1,0
+94831,An Idol in Hand,0,0
+94834,Blessings of Abundance,1,0
+94835,Early Morning Training: Week 1 of 4,1,0
+94836,Late Night Training: Week 2 of 4,1,0
+94837,Midnight Training: Week 3 of 4,1,0
+94838,Final Training: Week 3 of 3,2,0
+94839,Blessings of Peril,1,0
+94840,Blessings of The Depths,1,0
+94844,Voidscar Arena: For My Horde,2,0
+94845,Voidscar Arena: The Bastion of Might,2,0
+94847,Preparations Underway,0,0
+94848,Voidscar Arena: Pre-Provoked Violence,2,0
+94849,Voidscar Arena: A Familiar Grudge,1,0
+94850,If You Build It,0,0
+94855,Voidscar Arena: Setting It Aside,1,0
+94865,Special Assignment: What Remains of a Temple Broken,0,0
+94866,Special Assignment: Ours Once More!,0,0
+94867,Lost in Atal'Abasi,2,0
+94868,It Takes Two,2,0
+94869,Hungry Hungry Hatchlings,1,0
+94870,Eggstra Protection Never Hurts,1,0
+94871,Eversong,1,0
+94876,Show Some Backbone,0,0
+94878,Ritual Site: Broken Throne,0,0
+94880,Ritual Site: Daggerspine Point,0,0
+94882,Perfect Timing,1,0
+94883,Like Dragonhawks to a Flame,1,0
+94909,Blessings of Pestilence,1,0
+94910,Blessings of Growth,1,0
+94920,Hal'hadar Battery Core,0,0
+94932,Bindings of the Windlord,0,0
+94933,Lessons in the Void,2,0
+94936,A Bond of Brothers,2,0
+94937,Too Quiet on the Northern Front,2,0
+94941,Saving Recruit Jabat,2,0
+94954,Darkspear Dash,0,0
+94957,War of Light and Shadow,0,0
+94967,Ki'clak Snack Attack,0,0
+94993,Adventuring in Midnight,2,0
+94995,To Dye For,1,0
+94996,Gaze of the Dead,0,0
+95000,The Fel Within,1,0
+95001,First Trial of Shadows,1,0
+95002,Trial of Resolve,1,0
+95003,Whispers in the Pines,1,0
+95004,The Unseen Blade,1,0
+95005,Ride the Wind,1,0
+95006,The Turncoat Trail,1,0
+95007,Raiment of the Watch,1,0
+95008,Adventuring in Midnight,1,0
+95009,Doing the Dash,1,0
+95010,The Avatar's Shadow,1,0
+95011,Hounds of Satyrnaar,1,0
+95012,Wings Over Ashenvale,1,0
+95013,Root of Fel,1,0
+95014,Reavers of Felwood,1,0
+95015,The Commander's Head,1,0
+95016,Fall of the Overfiend,1,0
+95017,Phase Test,1,0
+95018,Debts of Shadow,2,0
+95019,Whispers of the Dreadlord,1,0
+95021,Prey: Janoa the Fang (Nightmare),0,0
+95022,Prey: Kursak the Coiled (Nightmare),0,0
+95023,Prey: Batani the Scaled (Nightmare),0,0
+95024,Prey: Kadani the Claw (Nightmare),0,0
+95043,[DNT] House Level 6 Decor Award,0,0
+95069,Torn Twilight Missive,0,0
+95070,Permafrosted Keystone,0,0
+95071,Enchanted Naga Scroll,0,0
+95114,Prey: A Crimson Summons,2,0
+95175,Anchoring the Defense,1,0
+95215,A New Direction,0,0
+95220,Midnight (30-79) E,0,0
+95221,Midnight (30-79) E,0,0
+95222,Midnight (30-79) E,0,0
+95224,Midnight (30-79) E,0,0
+95225,Midnight (30-79) E,0,0
+95230,Midnight (80) E,0,0
+95232,Midnight (80) E,0,0
+95233,Midnight (80) E,0,0
+95235,Midnight (80) E,0,0
+95236,Midnight (80) E,0,0
+95237,Midnight (81-89) E,0,0
+95238,Midnight (81-89) E,0,0
+95239,Midnight (81-89) E,0,0
+95241,Midnight (81-89) E,0,0
+95242,Midnight (81-89) E,0,0
+95245,Midnight: World Tour,1,0
+95253,Shocking Appetites,0,0
+95259,Midnight (81-89) E,0,0
+95268,"New Tools, New Heights",0,0
+95269,Feeding the Nilhammer,0,0
+95271,The Ascendant Nilhammer,0,0
+95276,The Last Push,1,0
+95324,The War Beyond the Roots,2,0
+95336,Frenzied Fossicking,0,0
+95355,The Messenger,0,0
+95373,A Nebulous Endeavour,0,0
+95381,Fire in the Sky,0,0
+95387,One Neighbor's Junk is Another Troll's Treasure,0,0
+95391,Ritual Site Renowned,0,0
+95392,One Friend is Plenty,0,0
+95393,Caver Saviour,0,0
+95394,Abberation Liberation,0,0
+95395,Until it is Done,0,0
+95396,Tainted Ritual,0,0
+95397,Cold Reception,0,0
+95398,Dissent and Divide,0,0
+95399,Shadowy Strategies,0,0
+95400,Solid Cold,0,0
+95401,Junction Dysfunction,0,0
+95402,Ignoble Gas Collector,0,0
+95403,A Lingering Echo,0,0
+95404,Freeze Range Eggs,0,0
+95407,Autumnal Addresses,0,0
+95408,Coastal Courier,0,0
+95409,"High Road, Hollow Road",0,0
+95410,Cragthorn Certified,0,0
+95411,Desert Dispatch,0,0
+95412,Runetotem Run,0,0
+95413,Community Engagement,0,0
+95416,Going Postal,0,0
+95429,Swift of Foot,0,0
+95435,Shade and Claw,0,0
+95438,Lost Animals,0,0
+95439,Lost Animals,0,0
+95440,Housewarming,0,0
+95448,The Dose Makes the Poison,0,0
+95449,Snakes in the Grass,0,0
+95451,Who Ordered the Bag of Snakes?,0,0
+95453,Tortollan Repatriation,0,0
+95468,Hope in the Darkest Corners,1,0
+95482,Lost Animals,0,0
+95484,Truffle Scuffle,0,0
+95513,Rattlin' the Reptiles,0,0
+95520,Purging the Vaults,1,0
+95521,The Med'jai Medallion,1,0
+95522,"Guardians of Death, Guardians in Stone",2,0
+95523,Worthy of the Past,1,0
+95524,The Unremembered,1,0
+95525,A Worthy Vigil,2,0
+95529,Spearin' Sky Snakes,0,0
+95547,Ritual Site Challenge Report: Tendrils,0,0
+95548,Tainted Sample,0,0
+95549,Raising Magical Alarms,0,0
+95550,Thin Their Ranks,0,0
+95551,Misappropriated Treasures,0,0
+95552,Dark Obelisk Investigation,0,0
+95553,Manifested Density,0,0
+95554,Questionable Power,0,0
+95559,Ice Broodmother,0,0
+95564,The Serpent's Tail,1,0
+95572,Thunder Pains,0,0
+95573,Temple Patrol: Broken Bonds,0,0
+95575,Forest Mana Spores,0,0
+95576,Majestic Eagle Statue,0,0
+95580,Temple Patrol: Slay the Restless,0,0
+95583,Pressed Sanguithorn,0,0
+95584,"""Aromatic"" Bottle",0,0
+95585,Bone Pen,0,0
+95587,Deactivated Amani Hex Ward,0,0
+95589,Amani Waraxe,0,0
+95590,Amani Construction Hammer,0,0
+95592,Ossein Fish Trinket,0,0
+95593,Torga Statue,0,0
+95595,Scrimshaw Ward,0,0
+95597,Jan'alai Bibelot,0,0
+95598,Temple Patrol: Slay Children of Ula'tek,0,0
+95614,Temple Patrol: Siphon Venom,0,0
+95616,Barrier A,0,0
+95617,Barrier B,0,0
+95619,Barrier C,0,0
+95639,Clear the Clutch,0,0
+95640,Clear the Clutch,0,0
+95641,Clear the Clutch,0,0
+95662,A Suspicious Stew,0,0
+95669,[DNT] Bonus Exp,0,0
+95673,Suspicious Scare-gull,0,0
+95695,Barrier D,0,0
+95768,My Stuff's Better Than Your Stuff,0,0
+95779,Moments in a Mug,0,0
+95780,Hope for the Orphans,0,0
+95781,No Wax Like Home,0,0
+95794,De-cryption Process,0,0
+95804,The Children of Ula'tek,1,0
+95807,Over Easy,0,0
+95815,Downhill Jam,0,0
+95842,Midnight: Void Assaults,0,0
+95843,Midnight: Ritual Sites,0,0
+95856,Level 61,0,0
+95857,Level 62,0,0
+95858,Level 63,0,0
+95859,Level 64,0,0
+95860,Level 65,0,0
+95861,Level 66,0,0
+95862,Level 67,0,0
+95863,Level 68,0,0
+95864,Level 69,0,0
+95865,Level 70,0,0
+95866,Level 71,0,0
+95867,Level 72,0,0
+95868,Level 73,0,0
+95869,Level 74,0,0
+95870,Level 75,0,0
+95871,Level 76,0,0
+95872,Level 77,0,0
+95873,Level 78,0,0
+95874,Level 79,0,0
+95875,Level 80,0,0
+95906,Temple Patrol: Scavenged Weapons,0,0
+95918,Special Assignment: Wraith Wrath,0,0
+95921,Special Assignment: Demand and Supply,0,0
+95922,Special Assignment: Face the Swarm,0,0
+95923,Ruin Runner Rush,0,0
+95931,Open Sea Fishing,0,0
+95933,Traces in the Dark,0,0
+95942,Prey: Venom Ambush,0,0
+95952,Temple Patrol: Breath and Bile,0,0
+95953,Temple Patrol: Congealed Venom,0,0
+95954,An Ancient Foe,1,0
+95962,Temple Patrol: Vengeance for the Dead,0,0
+95972,Temple Patrol: Ash to Ash,0,0
+95973,Echoes of the Darkwell,0,0
+95974,Prey: Abandoned Camp,0,0
+95985,Temple Patrol: Calming the Dead,0,0
+95987,Temple Patrol: Laid to Rest,0,0
+95989,Prey: Venomblade Burrows,0,0
+95990,Slithering Heights,0,0
+96000,Skiff Joyride,0,0
+96004,Prey: A Slithering Threat,0,0
+96017,Temple Patrol: Dragged Below,0,0
+96029,Special Assignment: Face the Swarm,0,0
+96048,The Time to Strike,0,0
+96049,Stalkers of the Stars,0,0
+96051,Through the Cold Rift,0,0
+96052,Through the Mana Rift,0,0
+96053,Surveying the Frozen Wastes,1,0
+96054,Surveying the Mana-Bog,0,0
+96066,Slithering Surveyor,0,0
+96070,12.1-  Housing - Founders - Local Local Story 01 - Q01 - Escort - (POC),0,0
+96080,Void Strike,0,0
+96089,Somethin's Not Right,0,0
+96090,Venemetic,0,0
+96091,Get the Balance Right,0,0
+96092,"That Fool, Ruma",0,0
+96093,"It's a Satchel, Not a Bag",0,0
+96094,To the Forum,0,0
+96095,Sampling the Local Wildlife,0,0
+96096,Scout Team Seven,0,0
+96097,What the Scouts Saw,0,0
+96098,The Final Reagents,0,0
+96099,La'una's Fate,0,0
+96110,Venom Fishing: Proof is in the Ooze,0,0
+96111,Venom Fishing: Shell of Yourself,0,0
+96112,Venom Fishing: Maddening Concoction,0,0
+96113,Venom Fishing: Maximum Potency,0,0
+96114,A Small Pouch of Crystals,0,0
+96115,A Small Pouch of Crystals,0,0
+96116,A Cache of Crystals,0,0
+96117,A Cache of Crystals,0,0
+96118,A Cache of Crystals,0,0
+96120,Crystals,0,0
+96121,A Small Bundle of Goods,0,0
+96122,A Small Bundle of Goods,0,0
+96123,A Small Bundle of Goods,0,0
+96124,A Small Bundle of Goods,0,0
+96210,Scrubbing Troubles,0,0
+96217,Sporadic Power Drain,0,0
+96223,The Magister's Call,0,0
+96224,The Magister's Conundrum,0,0
+96225,The Magister's Conundrum,0,0
+96226,Omnium Anomalies,0,0
+96227,Lycaneum Chaos,0,0
+96228,The Shadowed Spire,0,0
+96229,The Void Reveals,0,0
+96230,Unraveling the Wards,0,0
+96231,The Grand Magister's Key-Cipher,0,0
+96232,Return to the Omnium,0,0
+96233,The Omnium Reawakens,0,0
+96238,Return to the Omnium,0,0
+96242,An Easy Path to Trickery,0,0
+96245,You've Seen it All Before,0,0
+96267,Ancestral Gems,0,0
+96268,Marsh Mana Spores,0,0
+96271,Cursed Existence,0,0
+96272,Mashing Mushroom Mana Machines,0,0
+96273,A Balance Paid in Blood,0,0
+96275,Wading In,0,0
+96276,Dark Charms,0,0
+96293,Mush-Vroom!,0,0
+96295,A Pertinent Punishment,0,0
+96305,The Innocent Essence,0,0
+96307,Special Assignment: Wraith Wrath,0,0
+96310,Disrupting the Order,2,0
+96329,Hexes and Hoaxes,0,0
+96338,Port of Entry,1,0
+96349,Ancestral Gems,0,0
+96352,Dark Charms,0,0
+96354,A Balance Paid in Blood,0,0
+96360,Wading In,0,0
+96361,Cursed Existence,0,0
+96374,Nelgothar,0,0
+96382,A New Approach,1,0
+96388,Joining the Abyss Anglers,0,0
+96389,A Place to Negotiate,0,0
+96400,Lingering Corruption,0,0
+96410,Seeking Knowledge: The Omnium Folio,0,0
+96432,Power Overload,0,0
+96433,Not the Mama,0,0
+96439,Gone Dark,0,0
+96440,Victory Within Hindsight,2,0
+96441,Seeking Knowledge Week 2 of 5: Ritualized Arcana,0,0
+96442,Seeking Knowledge Week 3 of 5: Ley Line Assaults,0,0
+96443,Seeking Knowledge Week 4 of 5: Magical Primessence,0,0
+96444,Seeking Knowledge Week 5 of 5: Off-World Magic,0,0
+96445,Weekly Omnium Point 6,0,0
+96446,Spark of Tides,0,0
+96450,Sideways,0,0
+96451,A Child of Ula'tek,0,0
+96457,Nothing Must Remain,0,0
+96458,Last Promise,0,0
+96466,Prey: Anguish Island,0,0
+96467,Thirst for Knowledge,0,0
+96469,The Crypt of the Disgraced,0,0
+96471,Crumble and Tumble,0,0
+96472,The Nexus-Captain,0,0
+96473,Imperator Pertinax,1,0
+96474,Prey: Something for Astalor,0,0
+96475,Captivating Science,0,0
+96492,Special Assignment: Demand and Supply,0,0
+96496,The Road Not Taken Twice,1,0
+96497,Spatial Reasoning,0,0
+96498,Grovewarden's Kris,0,0
+96499,Grovewarden's Dagger,0,0
+96500,Firm Haranir Pillow,0,0
+96501,Grovewarden's Rapier,0,0
+96502,Vivid Chloroceros,0,0
+96503,Prey: A Ghostly Nightmare,0,0
+96504,Warm Haranir Blanket,0,0
+96505,Grovewarden's Buckler,0,0
+96506,Grovewarden's Staff,0,0
+96507,Haranir Reclined Bed,0,0
+96508,Grovewarden's Halberd,0,0
+96509,Grovewarden's Greatsword,0,0
+96510,Elder Glowmite,0,0
+96522,"Oh Captain, Die Captain!",0,0
+96523,Living Legend,0,0
+96525,Prey: Out of Our Depth,0,0
+96528,Prey: Anguish from Beyond,0,0
+96532,Prey: Attending the Attendant,0,0
+96534,Preparing for Threats,0,0
+96535,Surviving the Spores,0,0
+96536,Bearing the Blizzard,0,0
+96539,Last Resort,0,0
+96540,Strong Hands,0,0
+96541,Strong Mind,0,0
+96542,Second to Last Resort,0,0
+96543,Root of Survival,0,0
+96544,Bravely Burning,0,0
+96545,Strong Voice,0,0
+96546,Strong Heart,0,0
+96547,Weaken Their Forces,0,0
+96548,High Spore,0,0
+96557,Flying Debris,0,0
+96567,Data Decryption Disaster,0,0
+96568,Hal'hadon't You Dare!,0,0
+96569,Conductive Crystals,0,0
+96570,Technological Transference,0,0
+96571,The Node Knows,0,0
+96572,Malfunctioning Nullframe,0,0
+96573,Soul Lattice Revealed,0,0
+96574,Cryptside Rendezvous,0,0
+96575,Cages of the Soul,0,0
+96576,Mementos of the Dead,0,0
+96577,The Soul Architect,0,0
+96578,Cryptic Departure,0,0
+96583,Suffering the Spores,0,0
+96588,Prey: Venom Ambush,0,0
+96589,Prey: Venom Ambush,0,0
+96590,Prey: Venom Ambush,0,0
+96591,Prey: Venom Ambush,0,0
+96592,Prey: Venomblade Burrows,0,0
+96593,Prey: Venomblade Burrows,0,0
+96594,Prey: Venomblade Burrows,0,0
+96595,Prey: Venomblade Burrows,0,0
+96596,Prey: Abandoned Camp,0,0
+96597,Prey: Abandoned Camp,0,0
+96598,Prey: Abandoned Camp,0,0
+96599,Prey: Abandoned Camp,0,0
+96600,Crypt Culling,0,0
+96611,Storm Mitigation,0,0
+96612,Ancient Curiosity: Combat,0,0
+96614,Forged Through Fire,0,0
+96615,Ancient Curiosity: Utility,0,0
+96617,Storm Mitigation,0,0
+96618,Storm Mitigation,0,0
+96623,Capsized Compost,0,0
+96625,Spectral Gladiators,0,0
+96633,Equipment Seminar,0,0
+96635,Upgrade Practicum,0,0
+96637,Veteran Symposium,0,0
+96639,Patrolling the Temple,0,0
+96640,Bounty of the Cursed,0,0
+96641,Relentless Strikes,0,0
+96642,Decisive Incursions,0,0
+96643,From Whence it Came,0,0
+96644,Essence of Malice,0,0
+96649,Mistcrest Capstone,0,0
+96650,Subdue the Spore Storm,0,0
+96651,Subdue the Spore Storm,0,0
+96660,Wreckage Tendril Sling,0,0
+96668,Subdue the Spore Storm,0,0
+96688,Sporeforge Tendril Sling,0,0
+96689,Staging Grounds Tendril Sling,0,0
+96691,Command Point Tendril Sling,0,0
+96693,Nexus Port Tendril Sling,0,0
+96695,Holding Pens Tendril Sling,0,0
+96696,Base Camp Tendril Sling,0,0
+96697,Extraction Coast Tendril Sling,0,0
+96698,Marsh Tendril Sling,0,0
+96699,Mushroom Top Tendril Sling,0,0
+96703,Veterans of the Great Dark,0,0
+96705,[DNT],0,0
+96708,To the Voidstorm and Beyond!,0,0
+96713,Showdown on Val,1,0
+96714,Showdown on Val (Heroic),0,0
+96716,Showdown on Val,0,0
+96717,Showdown on Naigtal,0,0
+96718,Showdown on Naigtal (Heroic),0,0
+96720,Showdown on Naigtal,0,0
+96725,Sparks of War: Val,0,0
+96727,Midnight: Offworld Showdowns,0,0
+96728,Ritual Site Studies: Week 1 of 3,0,0
+96729,Ritual Site Studies: Week 2 of 3,0,0
+96730,Ritual Site Studies: Week 3 of 3,0,0
+96731,Advanced Ritual Site Studies: Week 4 of 6,0,0
+96732,Advanced Ritual Site Studies: Week 5 of 6,0,0
+96733,Advanced Ritual Site Studies: Week 6 of 6,0,0
+96744,Bouncy Mushrooms,0,0
+96745,Aerospores,0,0
+96746,Sporefall: Rotmire,0,0
+96780,Local Kafa Shop,0,0
+96794,Fury of the Dead,0,0
+96801,Calling All Combatants!,0,0
+96808,Sparks of War: The Coiled Isle,0,0
+96809,Exterior Manaforge Translocator,0,0
+96831,Magister's Summons,0,0
+96845,The Grappler,0,0
+96890,Emissary of Zul'jarra's Forces,0,0
+96935,Curse Surge,0,0
+96936,Accolades for the Umbral Contender,0,0
+96941,A Pertinent Punishment,0,0
+96942,"Oh Captain, Die Captain!",0,0
+96995,Turn Back the Surge,1,0
+97016,Mixing Mysteries,0,0
+97026,Esoteric Ingredients,0,0
+97031,Vilaldoun Valediction,0,0
+97034,Vanquish the Warmonger,0,0
+97035,Depose the Deranged,0,0
+97036,Umbral Title Bout,0,0
+97037,Stargrim Revelations,0,0
+97071,A Frigid Welcome to Val,2,0
+97072,A Swampy Welcome to Naigtal,0,0
+97073,Rustbolt Retailer,0,0
+97075,Quality Goods,0,0
+97077,A Shot at the Dark,0,0
+97080,More Disruptions: Val,0,0
+97081,More Disruptions: Val (Heroic),0,0
+97082,Dangerous Enemies: Val,0,0
+97083,Dangerous Enemies: Val (Heroic),0,0
+97084,More Disruption: Naigtal,0,0
+97085,Dangerous Enemies: Naigtal,0,0
+97086,Dangerous Enemies: Naigtal (Heroic),0,0
+97087,More Disruption: Naigtal (Heroic),0,0
+97088,So Much More To Do,0,0
+97089,So Much More To Do,0,0
+97124,Prey: Target 31 (Hard),0,0
+97125,Prey: Target 32 (Hard),0,0
+97126,Prey: Target 33 (Hard),0,0
+97127,Prey: Target 34 (Hard),0,0
+97128,Lair: Nymrissa Wavecaller,0,0
+97141,Spoils of the Vaults,0,0
+97142,Candy Bucket,0,0
+97143,Candy Bucket,0,0
+97147,[DEPRECATED],0,0
+97148,Candy Bucket,0,0
+97150,Candy Bucket,0,0
+97151,Candy Bucket,0,0
+97152,Candy Bucket,0,0
+97154,Candy Bucket,0,0
+97155,Candy Bucket,0,0
+97206,Candy Bucket,0,0
+97207,Candy Bucket,0,0
+97208,Candy Bucket,0,0
+97209,Candy Bucket,0,0
+97210,Candy Bucket,0,0
+97212,Candy Bucket,0,0
+97213,Candy Bucket,0,0
+97215,A Secondary Strike,0,0
+97256,Knocking Off the Top (Heroic),0,0
+97321,Slithering Spoils,0,0
+97382,Counter-Curse Bounty,0,0
+97383,Spirit Corrosion,0,0
+97384,More Spirit Corrosion,0,0
+97454,Seasonal Refresher: Midnight,0,0
+97455,Call of the Bell,0,0
+97457,Fits Like a Glove,0,0
+97458,Tackled and Boxed,0,0
+97459,Something Smelly,0,0
+97460,Lightly Salted,0,0
+97461,Cursed Fishing 101,0,0
+97462,Rocky Shores,0,0
+97463,Just a Normal Knife,0,0
+97464,A Dash of Poison,0,0
+97465,The Intended Way to Fish,0,0
+97482,Fangs for the Memories,0,0
+97491,<DNT> Early Scenario Steps Quest,0,0
+97492,<DNT> Early Scenario Steps Quest,0,0
+97535,A Bargain You Won't Refuse,0,0
+97557,Tailing the Tlhapi,0,0
+97559,The Familiar Taste of Poison,0,0
+97562,Culling the Killifish,0,0
+97565,Tipping the Scaled,0,0
+97571,Dogging the Darters,0,0
+97616,Corrosive Gifts: Corrosive Power,0,0
+97621,The Singularity Anchor,0,0
+97622,A Soiree to Remember,0,0
+97624,Seeking Legends,0,0
+97625,Glorious Abundance,0,0
+97640,Vaults of Atal'Utek: One Coin Too Many,2,0
+97661,The Protection of the Med'jai,0,0
+97662,The Winds of Tok'jara,0,0
+97668,The Watchful Gaze of Szarith,0,0
+97669,The Luck of the Bound Spirit,0,0
+97670,A Handful of Voidlight Marl,0,0
+97672,A Cluster of Voidlight Marl,0,0
+97910,Cracked Keystone,0,0
+97945,In the Catalyst's Shadow,0,0
+97978,Prismatic Potential,0,0
+98172,Trailing Xal'atath,0,0
+98204,Cursed Keepsake,0,0
+98210,Midnight (90) E,0,0
+98212,Midnight (90) E,0,0
+98213,Midnight (90) E,0,0
+98218,Return to Amani'Zar,1,0
+98226,The Venomous Abyss: Deception Unmasked,0,0
+98228,The Venomous Abyss: Deception Unmasked,0,0
+98229,The Venomous Abyss: Deception Unmasked,0,0
+98232,Midnight: Vaults of Atal'Utek,0,0
+98234,Week 1 of 3: Gladiator's Distinction,0,0
+98295,Week 2 of 3: Crowd Control,0,0
+98343,Venom Fishing: My Second-Best,0,0
+98388,Into the Vaults of Atal'Utek,1,0
+98406,A Curated Gift,0,0
+98414,A Request from the Captain,0,0
+98415,A Favor to the Captain,0,0
+98416,A Plea from the Captain,0,0
+98419,Shoulder to Shoulder,0,0
+98420,What's Out There?,0,0
+98428,Vaults of Atal'Utek: The Altar of Corrosion,1,0
+98473,Autumnal Addresses,0,0
+98474,Runetotem Run,0,0
+98515,Vaults of Atal'Utek: A Toxic Tour,1,0
+98532,Midnight (30-79) E,0,0
+98533,Midnight (30-79) E,0,0
+98534,Midnight (30-79) E,0,0
+98535,Midnight (80) E,0,0
+98536,Midnight (80) E,0,0
+98537,Midnight (80) E,0,0
+98538,Midnight (81-89) E,0,0
+98539,Midnight (81-89) E,0,0
+98540,Midnight (81-89) E,0,0

@@ -1,0 +1,17 @@
+﻿action,creature,name,group,id,type,text,bt,sound,eff_kit,new_bt,new_kit,new_folder,sim
+silent_to_retail_bt,117355,Torturer Relyn,0,0,12,I cannot lose to a lowborn!,0,0,0,116787,65807,nightborne_male_caster,1.0
+silent_to_retail_bt,68397,Lei Shen,3,0,14,Fall to your knees!,0,0,0,96030,50489,mannoroth,1.0
+silent_to_retail_bt,69465,Jin'rokh the Breaker,2,0,14,Ha hah... Smash!,0,0,0,82812,41940,aggron1,1.0
+silent_to_retail_bt,57767,Wrathion,4,0,12,Follow me.,0,0,0,93565,52741,malfurion_stormrage,1.0
+silent_to_retail_bt,99254,Altruis the Sufferer,2,0,12,See you there.,0,0,0,105832,58208,kayn_sunfury,1.0
+silent_to_retail_bt,102293,Dread Admiral Eliza,4,0,14,No... it cannot be!,0,0,0,121822,69153,stoneblood_harpy_c,1.0
+silent_to_retail_bt,119718,Imp Mother Bruva,2,0,12,Your death is fated!,0,0,0,116696,65864,nightborne_female_light,1.0
+silent_to_retail_bt,100308,Li Li Stormstout,1,0,12,I will enjoy this!,0,0,0,127817,80709,nighthuntress_syrenne,1.0
+silent_to_retail_bt,69465,Jin'rokh the Breaker,23,0,14,Storm!,0,0,0,76941,39022,darkshamanmale,1.0
+silent_to_retail_bt,78553,Thrall,0,3,12,Safe travels.,0,0,0,142484,65682,nightborne_male_light,1.0
+silent_to_retail_bt,69078,Sul the Sandcrawler,0,0,14,Watch your step!,0,0,0,134889,86918,chief_engineer_ishkar,1.0
+silent_to_retail_bt,108572,Kayn Sunfury,2,0,12,Allari led a small army to follow a lead on the Warblades. We may have finally found them.,0,0,0,107681,64668,altruis_the_sufferer,1.0
+silent_to_retail_bt,68078,Iron Qon,6,0,14,Pathetic!,0,0,0,134193,87132,zuraal_the_ascended,1.0
+silent_to_retail_bt,108572,Kayn Sunfury,1,0,12,Suffer well. Show Caria no mercy!,0,0,0,107431,64669,altruis_the_sufferer,1.0
+silent_to_retail_bt,69465,Jin'rokh the Breaker,3,0,14,Shatter!,0,0,0,95348,50088,magnaron,1.0
+silent_to_retail_bt,60585,Elder Regail,10,0,14,You are not welcome here!,0,0,0,134549,86656,ancient_eredar_spirit_melee,1.0

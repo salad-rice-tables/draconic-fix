@@ -1,5 +1,5 @@
 -- Dungeon Spoils: when a dungeon boss falls and you are in a group of two or more, every member in the dungeon receives a Dungeon Spoils (once per
--- dungeon run). Opening it gives gear better than the world drops (an epic of your level band), 5 Marks of Descend and a Mystic Rune.
+-- dungeon run). Opening it gives gear better than the world drops (an epic of your level band), 5 Marks of Ascension and a Mystic Rune.
 -- Self-contained; item 9750010.
 if IS_WORLD_STATE then return end
 local TAG = "|cffffd200[Dungeon]|r "
@@ -15,10 +15,15 @@ RegisterPlayerEvent(7, function(_, killer, victim)   -- a player kills a creatur
         local map = killer:GetMap()
         if not map:IsDungeon() or map:IsRaid() then return end
         if not victim:IsDungeonBoss() then return end
+        -- solo aj group (2026-10-16: povodny group>=2 gate bral solo hracom Marks/Spoils)
         local group = killer:GetGroup()
-        if not group then return end
-        local members = group:GetMembers()
-        if not members or #members < 2 then return end
+        local members
+        if group then
+            members = group:GetMembers()
+        else
+            members = {killer}
+        end
+        if not members then return end
         local inst = map:GetInstanceId()
         for _, m in ipairs(members) do
             if m:GetMapId() == killer:GetMapId() and m:GetInstanceId() == inst and not Done(m:GetName(), inst) then
@@ -39,7 +44,7 @@ RegisterItemEvent(SPOILS, 1, function(_, caster)   -- using the item
     if gear > 0 then caster:AddItem(gear, 1) end
     caster:AddItem(MARK, 5)
     if MYS_AddRunes then pcall(MYS_AddRunes, caster, 1) end
-    caster:SendBroadcastMessage(TAG .. "You open the spoils: gear, 5 Marks of Descend and a Mystic Rune.")
+    caster:SendBroadcastMessage(TAG .. "You open the spoils: gear, 5 Marks of Ascension and a Mystic Rune.")
     return true
 end)
 print("[dungeon_spoils] ready")

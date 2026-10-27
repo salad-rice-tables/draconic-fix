@@ -1,0 +1,19 @@
+-- Undo for 20261014_barricade_packs.sql.
+DELETE FROM `world`.`creature` WHERE `guid`=3510000270;
+DELETE FROM `world`.`creature` WHERE `guid`=3510000271;
+DELETE FROM `world`.`creature` WHERE `guid`=3510000272;
+DELETE FROM `world`.`creature` WHERE `guid`=3510000273;
+DELETE FROM `world`.`creature` WHERE `guid`=3510000274;
+DELETE FROM `world`.`creature` WHERE `guid`=3510000275;
+DELETE FROM `world`.`creature` WHERE `guid`=3510000276;
+DELETE FROM `world`.`creature` WHERE `guid`=3510000277;
+DELETE FROM `world`.`creature` WHERE `guid`=3510000278;
+DELETE FROM `world`.`creature` WHERE `guid`=3510000279;
+DELETE FROM `world`.`creature` WHERE `guid`=3510000280;
+DELETE FROM `world`.`creature` WHERE `guid`=3510000281;
+DELETE FROM `world`.`creature` WHERE `guid`=3510000282;
+DELETE FROM `world`.`creature` WHERE `guid`=3510000283;
+DELETE FROM `world`.`creature` WHERE `guid`=3510000284;
+DELETE FROM `world`.`creature` WHERE `guid`=3510000285;
+DELETE FROM `world`.`creature` WHERE `guid`=3510000286;
+DELETE FROM `world`.`creature` WHERE `guid`=3510000287;

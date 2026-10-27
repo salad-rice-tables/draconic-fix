@@ -1,0 +1,100 @@
+40010 Tapping the Leylines | prev 40956 | start [97140] [] | end [102600] [] | obj w/t 3 3 | questSAI 5
+41028 Power Grid | prev 40010 | start [102600] [] | end [102600] [] | obj w/t 10 10 | questSAI 5
+41138 Feeding Shal'Aran | prev 41028 | start [102600] [] | end [103155] [] | obj w/t 1 1 | questSAI 5
+40326 Scattered Memories | prev 40012 | start [] [245328] | end [] [247694] | obj w/t 1 1 | questSAI 5
+41149 A Re-Warding Effort | prev 40012 | start [] [] | end [] [] | obj w/t 1 1 | questSAI 5
+41702 Written in Stone | prev 40326 | start [] [247694] | end [104618] [] | obj w/t 1 1 | questSAI 5
+41704 Subject 16 | prev 41702 | start [104618] [] | end [97140] [] | obj w/t 1 1 | questSAI 5
+41760 Kel'danath's Legacy | prev 41704 | start [97140] [] | end [97140] [] | obj w/t 1 1 | questSAI 5
+40747 The Delicate Art of Telemancy | prev 40011 | start [101499] [] | end [101499] [] | obj w/t 7 7 | questSAI 5
+40748 Network Security | prev 40747 | start [101499] [] | end [102142] [] | obj w/t 6 6 | questSAI 5
+40830 Close Enough | prev 40748 | start [102142] [] | end [97140] [] | obj w/t 2 2 | questSAI 5
+44691 Hungry Work | prev 40830 | start [97140] [] | end [98548, 102017] [] | obj w/t 1 1 | questSAI 5
+40956 Survey Says... | prev 44691 | start [98548] [] | end [98548] [246713] | obj w/t 3 3 | questSAI 5
+41762 Sympathizers Among the Shal'dorei | prev 0 | start [97140] [] | end [105071] [] | obj w/t 1 1 | questSAI 5
+41834 The Masks We Wear | prev 41762 | start [105071] [] | end [105342] [] | obj w/t 5 5 | questSAI 5
+41989 Blood of My Blood | prev 41834 | start [105342] [] | end [105342] [] | obj w/t 3 3 | questSAI 5
+42079 Masquerade | prev 41989 | start [105342] [] | end [105342] [] | obj w/t 1 1 | questSAI 5
+42147 First Contact | prev 42079 | start [105342] [] | end [97140] [] | obj w/t 2 2 | questSAI 5
+41877 Lady Lunastre | prev 42230 | start [97140] [] | end [107632] [] | obj w/t 1 1 | questSAI 5
+40746 One of the People | prev 41877 | start [107632] [] | end [107598] [] | obj w/t 0 0 | questSAI 5
+41148 Dispensing Compassion | prev 40746 | start [107598] [] | end [107598] [] | obj w/t 6 6 | questSAI 5
+40947 Special Delivery | prev 41148 | start [107598, 132029] [] | end [107598, 107997] [] | obj w/t 1 1 | questSAI 5
+41878 The Gondolier | prev 40947 | start [107598] [] | end [107225] [] | obj w/t 1 1 | questSAI 5
+40727 All Along the Waterways | prev 41878 | start [107225] [] | end [107598] [] | obj w/t 1 1 | questSAI 5
+40730 Redistribution | prev 40727 | start [107598] [] | end [107225] [] | obj w/t 1 1 | questSAI 5
+40745 Shift Change | prev 40730 | start [107225, 107598, 107997] [] | end [108063] [] | obj w/t 3 3 | questSAI 5
+42722 Friends in Cages | prev 40745 | start [108063] [] | end [108063] [] | obj w/t 1 1 | questSAI 5
+42486 Little One Lost | prev 42722 | start [108063] [] | end [107712] [] | obj w/t 1 1 | questSAI 5
+42487 Friends On the Outside | prev 42486 | start [107598] [] | end [97140] [] | obj w/t 2 2 | questSAI 5
+42488 Thalyssra's Abode | prev 42487 | start [97140] [] | end [97140] [] | obj w/t 1 1 | questSAI 5
+42489 Thalyssra's Drawers | prev 42488 | start [] [251032] | end [97140] [] | obj w/t 3 3 | questSAI 5
+42828 Moths to a Flame | prev 42488 | start [107126] [] | end [107126] [] | obj w/t 1 1 | questSAI 5
+42829 Make an Entrance | prev 42828 | start [97140] [] | end [108872] [] | obj w/t 3 3 | questSAI 5
+42832 The Fruit of Our Efforts | prev 42829 | start [108872] [] | end [108872] [] | obj w/t 3 3 | questSAI 5
+42833 How It's Made: Arcwine | prev 42832 | start [108872] [] | end [108870] [] | obj w/t 4 4 | questSAI 5
+42834 Intense Concentration | prev 42833 | start [108870] [] | end [108870] [] | obj w/t 3 3 | questSAI 5
+42835 The Old Fashioned Way | prev 42834 | start [108870] [] | end [108872] [] | obj w/t 2 2 | questSAI 5
+42837 Balance to Spare | prev 42835 | start [108872] [] | end [108870] [] | obj w/t 1 1 | questSAI 5
+42836 Silkwing Sabotage | prev 42837 | start [108870] [] | end [108870] [] | obj w/t 1 1 | questSAI 5
+42838 Reversal | prev 42836 | start [108870] [] | end [108870] [] | obj w/t 1 1 | questSAI 5
+44084 Vengeance for Margaux | prev 42838 | start [108870] [] | end [97140] [] | obj w/t 2 2 | questSAI 5
+42839 Seek the Unsavory | prev 44084 | start [97140] [] | end [107598] [] | obj w/t 0 0 | questSAI 5
+43969 Hired Help | prev 42839 | start [107598] [] | end [107253] [] | obj w/t 3 3 | questSAI 5
+42840 If Words Don't Work... | prev 43969 | start [107253] [] | end [107253] [] | obj w/t 1 1 | questSAI 5
+42841 A Big Score | prev 42840 | start [107253] [] | end [107253] [] | obj w/t 1 1 | questSAI 5
+43352 Asset Security | prev 42841 | start [107253] [] | end [107253] [] | obj w/t 2 2 | questSAI 5
+42792 Make Your Mark | prev 43352 | start [107253] [] | end [107598] [] | obj w/t 4 4 | questSAI 5
+44052 And They Will Tremble | prev 42792 | start [107598] [] | end [97140] [] | obj w/t 0 0 | questSAI 5
+43309 The Perfect Opportunity | prev 44052 | start [97140] [] | end [107632] [] | obj w/t 1 1 | questSAI 5
+43310 Either With Us | prev 43309 | start [107632] [] | end [110679] [] | obj w/t 0 0 | questSAI 5
+43312 Thinly Veiled Threats | prev 43310 | start [110679] [] | end [110679] [] | obj w/t 1 1 | questSAI 5
+44040 Vote of Confidence | prev 43312 | start [110679] [] | end [107632] [] | obj w/t 0 0 | questSAI 5
+43311 Or Against Us | prev 44040 | start [107598] [] | end [107253] [] | obj w/t 2 2 | questSAI 5
+43315 Death Becomes Him | prev 43311 | start [107253] [] | end [107253] [] | obj w/t 1 1 | questSAI 5
+43313 Rumor Has It | prev 43315 | start [107253] [] | end [107632] [] | obj w/t 4 4 | questSAI 5
+43317 In the Bag | prev 43313 | start [107632] [] | end [107632] [] | obj w/t 1 1 | questSAI 5
+43318 Ly'leth's Champion | prev 43317 | start [107632] [] | end [107632] [] | obj w/t 2 2 | questSAI 5
+44053 Friends With Benefits | prev 43318 | start [111903] [] | end [97140] [] | obj w/t 0 0 | questSAI 5
+44152 A Growing Crisis | prev 44053 | start [107126] [] | end [112967] [] | obj w/t 0 0 | questSAI 5
+43361 Fragments of Disaster | prev 44152 | start [112967] [] | end [112967] [] | obj w/t 2 2 | questSAI 5
+43360 The Shardmaidens | prev 43361 | start [112967] [] | end [112967] [] | obj w/t 1 1 | questSAI 5
+44156 Another Arcan'dor Closes... | prev 43360 | start [112967] [] | end [107126] [] | obj w/t 0 0 | questSAI 5
+40125 Branch of the Arcan'dor | prev 44156 | start [97140] [] | end [97140] [] | obj w/t 0 0 | questSAI 5
+43362 The Stuff of Dreams | prev 44156 | start [107126] [] | end [107126] [] | obj w/t 3 3 | questSAI 5
+43502 A Change of Seasons | prev 43362 | start [107126] [] | end [103155] [] | obj w/t 0 0 | questSAI 5
+43562 Giving It All We've Got | prev 43502 | start [103155] [] | end [103155] [] | obj w/t 8 8 | questSAI 5
+43565 Bring Home the Beacon | prev 43562 | start [98548] [] | end [98548] [] | obj w/t 3 3 | questSAI 5
+43563 Ephemeral Manastorm Projector | prev 43565 | start [103155] [] | end [103155] [] | obj w/t 1 1 | questSAI 5
+43564 Flow Control | prev 43563 | start [103155] [] | end [103155] [] | obj w/t 3 3 | questSAI 5
+43567 All In | prev 43564 | start [97140] [] | end [107126] [] | obj w/t 9 4 | questSAI 5
+43568 Arcan'dor, Gift of the Ancient Magi | prev 43567 | start [107126] [] | end [97140, 107126] [] | obj w/t 4 4 | questSAI 5
+43569 Arluin's Request | prev 43568 | start [107598] [] | end [110698] [] | obj w/t 2 2 | questSAI 5
+40297 Lyana Darksorrow | prev 0 | start [98801] [] | end [98801] [] | obj w/t 1 1 | questSAI 5
+40307 Glaive Circumstances | prev 40297 | start [98801] [] | end [98801] [] | obj w/t 2 2 | questSAI 5
+40898 Fresh Meat | prev 40307 | start [98801] [] | end [98801] [] | obj w/t 1 1 | questSAI 5
+40901 Grimwing the Devourer | prev 40898 | start [98801] [] | end [99890] [] | obj w/t 1 1 | questSAI 5
+40328 A Fate Worse Than Dying | prev 40901 | start [99890] [] | end [99890] [] | obj w/t 2 2 | questSAI 5
+40929 Symbols of Power | prev 0 | start [99890] [] | end [99890] [] | obj w/t 1 1 | questSAI 5
+41097 Shard of Vorgos | prev 40328 | start [99890] [] | end [] [246884] | obj w/t 1 1 | questSAI 5
+41098 Shard of Kozak | prev 41097 | start [99890] [] | end [] [246885] | obj w/t 1 1 | questSAI 5
+40412 Azoran Must Die | prev 41098 | start [98801, 99890] [] | end [98801, 99890] [] | obj w/t 1 1 | questSAI 5
+40883 Fate of the Guard | prev 0 | start [101766] [] | end [101767] [] | obj w/t 3 3 | questSAI 5
+40963 Take Them in Claw | prev 40883 | start [101767] [] | end [102425] [] | obj w/t 1 1 | questSAI 5
+40964 The Rift Between | prev 40963 | start [102425] [] | end [101768] [] | obj w/t 1 1 | questSAI 5
+40967 Precious Little Left | prev 40964 | start [101768] [] | end [101768] [] | obj w/t 3 3 | questSAI 5
+40965 Lay Waste, Lay Mines | prev 40967 | start [101768] [] | end [101768] [] | obj w/t 2 2 | questSAI 5
+41032 Stop the Spell Seekers | prev 40965 | start [101768] [] | end [101768] [] | obj w/t 1 1 | questSAI 5
+40969 Starweaver's Fate | prev 41032 | start [101768] [] | end [101765] [] | obj w/t 1 1 | questSAI 5
+40970 The Orchestrator of Our Demise | prev 40969 | start [101765] [] | end [103129] [] | obj w/t 2 2 | questSAI 5
+40971 Overwhelming Distraction | prev 40970 | start [101765] [] | end [103129] [] | obj w/t 1 1 | questSAI 5
+40972 Last Stand of the Moon Guard | prev 40970 | start [101766] [] | end [97140] [] | obj w/t 1 1 | questSAI 5
+40266 The Lost Advisor | prev 0 | start [99065] [] | end [99093] [] | obj w/t 1 1 | questSAI 5
+40744 An Ancient Recipe | prev 40266 | start [99065, 99093] [] | end [99093] [] | obj w/t 1 1 | questSAI 5
+40227 Bad Intentions | prev 40744 | start [99093] [] | end [99093] [] | obj w/t 1 1 | questSAI 5
+40300 Tools of the Trade | prev 40227 | start [99093] [] | end [99483] [] | obj w/t 3 3 | questSAI 5
+40306 The Last Chapter | prev 40300 | start [99483] [] | end [99575] [] | obj w/t 1 1 | questSAI 5
+40578 Paying Respects | prev 40306 | start [99483, 99575] [] | end [99575] [] | obj w/t 1 1 | questSAI 5
+40315 End of the Line | prev 40578 | start [99575] [] | end [99575] [] | obj w/t 1 1 | questSAI 5
+40319 The Final Ingredient | prev 40315 | start [99575] [] | end [99575] [] | obj w/t 1 1 | questSAI 5
+40321 Feathersong's Redemption | prev 40319 | start [99575] [] | end [99575, 100096, 100779] [] | obj w/t 1 1 | questSAI 5

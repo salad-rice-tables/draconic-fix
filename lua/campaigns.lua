@@ -46,7 +46,7 @@ pcall(CharDBExecute, [[CREATE TABLE IF NOT EXISTS characters.hero_campaign (name
   PRIMARY KEY (name, campaign)) ENGINE=InnoDB]])
 
 for i, c in ipairs(CAMPAIGNS) do c.quest = 9500000 + i end
-local function Esc(s) return (string.gsub(tostring(s or ""), "'", "''")) end
+local function Esc(s) return (string.gsub(tostring(s or ""), "'", "''")) end -- local: Eluna izoluje subory, zdielany global nefunguje
 local CACHE = {}    -- name -> {key = true}
 local function Open(player)
     local n = player:GetName()

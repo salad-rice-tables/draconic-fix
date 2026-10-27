@@ -1,0 +1,226 @@
+﻿action,creature,name,group,id,type,bt,sound,eff_kit,new_bt,new_sound,new_text,detail
+set_sound,14887,Ysondre,0,0,14,10880,0,0,10880,58510,The strands of LIFE have been severed! The Dreamers must be avenged!,own-folder BT 106175 kit 58510 ysondre build 63796
+set_sound,14889,Emeriss,0,0,14,10885,0,0,10885,58507,Hope is a DISEASE of the soul! This land shall wither and die!,own-folder BT 106177 kit 58507 emeriss build 63796
+align_text,34775,Demolisher,0,0,37,35411,0,0,35411,0,The west gate of the Horde keep has been destroyed!,paraphrase (0.89) -> BT text 'The west gate of the Horde keep has been destroyed!'
+align_text,34776,Siege Engine,3,0,37,35411,0,0,35411,0,The west gate of the Horde keep has been destroyed!,paraphrase (0.89) -> BT text 'The west gate of the Horde keep has been destroyed!'
+align_text,34777,Siege Turret,3,0,37,35411,0,0,35411,0,The west gate of the Horde keep has been destroyed!,paraphrase (0.89) -> BT text 'The west gate of the Horde keep has been destroyed!'
+align_text,34802,Glaive Thrower,0,0,37,35411,0,0,35411,0,The west gate of the Horde keep has been destroyed!,paraphrase (0.89) -> BT text 'The west gate of the Horde keep has been destroyed!'
+set_sound,35503,Shade of Hate,0,2,12,35860,0,0,35860,121800,Turn ... back ...,own-folder BT 162728 kit 121800 shade build 63796
+clear_bt,36600,Geargrinder Gizmo,1,0,0,1,0,0,0,0,Yeah,"BT 1 unrelated (0.12): ""Help help!  I'm being repressed!"""
+set_sound,38474,Prince Liam Greymane,2,0,12,0,0,0,0,20563,We took back our city... we took back...,own-folder BT 38372 kit 20563 liam build 63796
+align_text,39378,Rajh,2,1,1,44759,18914,18914,44759,18914,I take this life as an offering!,paraphrase (0.93) -> BT text 'I take this life as an offering!'
+clear_bt,39625,General Umbriss,7,0,3,47798,18534,18534,0,18534,General Umbriss begins to cast ground siege.,BT 47798 unrelated (0.37): 'All in my path shall be destroyed!'
+clear_bt,40484,Erudax,3,1,2,47771,18639,18639,0,18639,Erudax cackles maniacally.,BT 47771 unrelated (0.25): 'Ahahaha!'
+clear_bt,42383,Transient,11,0,0,1,0,0,0,0,Listen,"BT 1 unrelated (0.23): ""Help help!  I'm being repressed!"""
+clear_bt,42383,Transient,12,0,0,1,0,0,0,0,I didn't see who killed 'em,"BT 1 unrelated (0.29): ""Help help!  I'm being repressed!"""
+clear_bt,42383,Transient,14,0,0,100,0,0,0,0,Between you,BT 100 unrelated (0.06): 'Thanks for saving me!'
+clear_bt,42384,Homeless Stormwind Citizen,11,0,0,1,0,0,0,0,Listen,"BT 1 unrelated (0.23): ""Help help!  I'm being repressed!"""
+clear_bt,42384,Homeless Stormwind Citizen,12,0,0,1,0,0,0,0,I didn't see who killed 'em,"BT 1 unrelated (0.29): ""Help help!  I'm being repressed!"""
+clear_bt,42384,Homeless Stormwind Citizen,14,0,0,100,0,0,0,0,Between you,BT 100 unrelated (0.06): 'Thanks for saving me!'
+clear_bt,42386,Homeless Stormwind Citizen,11,0,0,1,0,0,0,0,Listen,"BT 1 unrelated (0.23): ""Help help!  I'm being repressed!"""
+clear_bt,42386,Homeless Stormwind Citizen,12,0,0,1,0,0,0,0,I didn't see who killed 'em,"BT 1 unrelated (0.29): ""Help help!  I'm being repressed!"""
+clear_bt,42386,Homeless Stormwind Citizen,14,0,0,100,0,0,0,0,Between you,BT 100 unrelated (0.06): 'Thanks for saving me!'
+clear_bt,48572,Deathwing,0,1,0,23228,0,0,0,0,The sun has set on this mortal world,BT 23228 unrelated (0.35): 'The plaguebringer sighs at the interruption.'
+clear_bt,54786,Master Shang Xi,4,0,0,27792,0,0,0,0,Ji,BT 27792 unrelated (0.00): 'Somebody help!'
+clear_bt,54786,Master Shang Xi,5,0,0,27793,0,0,0,0,Aysa,BT 27793 unrelated (0.12): 'Shoot it down!'
+relink_prefix,56418,Ji Firepaw,0,3,0,27288,0,0,66063,0,If we lose the healers,fragment of own-folder BT 66063 kit 27288 jifirepaw: 'if we lose the healers shen zin su dies and all of us with him keep them safe'
+clear_bt,56660,Ji Firepaw,1,0,0,27298,0,0,0,0,Bah,BT 27298 unrelated (0.10): 'How does this work?'
+clear_bt,56661,Aysa Cloudsinger,3,0,0,27434,0,0,0,0,Shen-zin Su,"BT 27434 unrelated (0.12): ""Soldier, you have new orders. You're to pull back and report to the se"""
+clear_bt,56661,Aysa Cloudsinger,5,0,0,27436,0,0,0,0,Of course,BT 27436 unrelated (0.21): 'Wow!  This really greases the steamplugs!'
+clear_bt,56686,Master Shang Xi,0,0,0,27807,0,0,0,0,For 3,"BT 27807 unrelated (0.08): ""Remember, kid: You're always more wrong than you think you are. Double"""
+clear_bt,56686,Master Shang Xi,3,0,0,27810,0,0,0,0,Now Shen-zin Su is ill,"BT 27810 unrelated (0.21): ""That's what you always say. Sometimes I think you're never going to fi"""
+align_text,56686,Master Shang Xi,4,0,0,27811,0,0,27811,0,"Ah, you've finally arrived Prince Arthas. You're here just in the nick of time.","paraphrase (0.44) -> BT text ""Ah, you've finally arrived Prince Arthas. You're here just in the nick"""
+clear_bt,59986,Aysa Cloudsinger,3,0,0,27419,0,0,0,0,The Alliance? If the crashed ship is theirs,"BT 27419 unrelated (0.21): ""By Bronzebeard's beard!  What a drink!"""
+relink_prefix,59988,Ji Firepaw,3,0,0,27333,0,0,59584,0,We need to dislodge that ship,fragment of own-folder BT 59584 kit 27333 jifirepaw: 'we need to dislodge that ship korga if we help your crewmates can you help us'
+clear_bt,59988,Ji Firepaw,4,0,0,27334,0,0,0,0,Well,"BT 27334 unrelated (0.14): ""You be dyin' along with all dese scourge!"""
+clear_bt,60729,Aysa Cloudsinger,0,0,0,27412,0,0,0,0,Ji may kill Shen-zin Su if we let him go through with this! Come with me,BT 27412 unrelated (0.14): 'Poor blind fools!'
+clear_bt,60729,Aysa Cloudsinger,4,0,0,27416,0,0,0,0,Ji... if this is what you must do,BT 27416 unrelated (0.18): 'Behold! The Scythe of Antiok!'
+align_text,60741,Ji Firepaw,0,0,0,27329,0,0,27329,0,Jaina?,paraphrase (0.44) -> BT text 'Jaina?'
+clear_bt,60889,Delora Lionheart,0,0,0,27522,396,396,0,396,Stand down,"BT 27522 unrelated (0.06): '<sigh>...$b$bA little help here, perhaps?'"
+relink_prefix,62087,Garrosh Hellscream,2,0,0,30748,0,0,61588,0,They are ignorant,fragment of own-folder BT 61588 kit 30748 garrosh: 'they are ignorant and blind to reality look around you pandaren'
+set_sound,63616,Tenwu of the Red Smoke,1,0,12,0,0,0,0,28174,Hahahah. I do not think you know what  you are getting into...,own-folder BT 62545 kit 28174 tenwu build 63796
+set_sound,70279,Moira Thaurissan,0,0,14,0,0,0,0,37188,For Ironforge! For the Alliance!,own-folder BT 73459 kit 37188 moira build 63796
+set_sound,70279,Moira Thaurissan,9,0,14,0,0,0,0,37197,The king's champions have done it. The storm has ended! Forward Dark Irons! TO BATTLE WE MARCH!,own-folder BT 73458 kit 37197 moira build 63796
+relink_prefix,70279,Moira Thaurissan,10,0,0,37198,0,0,73464,0,That they are,fragment of own-folder BT 73464 kit 37198 moira: 'that they are king varian and at the service of the alliance i might add'
+relink_prefix,70744,Scout Boldbrew,1,0,0,37293,0,0,73255,0,There's only a few of us left; the ones they don't eat,fragment of own-folder BT 73255 kit 37293 boldbrew: 'there s only a few of us left the ones they don t eat they butcher at some big a'
+clear_bt,70745,Scout Forgefellow,1,0,0,37295,0,0,0,0,Listen: The storm. We figured out what's makin' it. That sneaky Zandalari has these ice trolls makin' blood sacrifices ta elemental spirits. There's a cave north o' here,BT 37295 unrelated (0.00): ''
+clear_bt,70799,King Varian Wrynn,8,0,0,37336,0,0,0,0,Well,BT 37336 unrelated (0.18): 'Edible rocket fuel!'
+relink_prefix,70801,Mountaineer Grimbolt,1,0,0,37263,0,0,73219,0,The nearest is just ahead. If ye can save him,fragment of own-folder BT 73219 kit 37263 grimbolt: 'the nearest is just ahead if ye can save him he may know a thing or two'
+clear_bt,72561,Lady Sylvanas Windrunner,5,0,0,38295,0,0,0,0,Ð,"BT 38295 unrelated (0.00): ""My lady, thank you for coming to our aid. I assure you that we'll do w"""
+clear_bt,74518,Executioner Gore,0,0,0,43553,0,19867,0,0,Fall back to the sanctum,"BT 43553 unrelated (0.11): 'Yes, my lord.'"
+set_sound,74715,Commander Vorka,3,0,14,82585,0,0,82585,43658,Witness the TRUE power of the Iron Horde!,own-folder BT 78271 kit 43658 vorka build 63796
+set_sound,79206,Prophet Velen,0,0,12,0,0,0,0,45392,Here! This location commands the entrance to our valley.,own-folder BT 82394 kit 45392 velen build 63796
+clear_bt,79470,Vindicator Maraad,1,0,0,44821,0,0,0,0,I assure you,"BT 44821 unrelated (0.01): 'If one such as I can be captured by that lumbering oaf, then you must '"
+relink_prefix,79635,Prophet Velen,0,0,0,45389,396,396,82390,396,It is good to see you,fragment of own-folder BT 82390 kit 45389 velen: 'it is good to see you my child my people welcome your aid champion come with me'
+set_sound,79635,Prophet Velen,2,0,12,0,0,0,0,45392,Here! This location commands the entrance to our valley.,own-folder BT 82394 kit 45392 velen build 63796
+set_sound,80078,Exarch Akama,1,0,12,0,0,0,0,46714,Commander! You have built a most impressive garrison. I am eager to see your men in action.,own-folder BT 83645 kit 46714 akama build 63796
+set_sound,80808,Neesa Nox,0,0,14,0,0,0,0,46131,You'd better step back. I'm calling in the Bombsquad!,own-folder BT 85417 kit 46131 neesa build 63796
+set_sound,80808,Neesa Nox,1,0,14,0,0,0,0,46131,You'd better step back. I'm calling in the Bombsquad!,own-folder BT 85417 kit 46131 neesa build 63796
+set_sound,80808,Neesa Nox,2,0,14,0,0,0,0,46127,Ahhhhhhhh! I'm hit!,own-folder BT 85421 kit 46127 neesa build 63796
+clear_bt,80962,Machinist B'randt,1,0,0,43932,0,21115,0,0,Huh,BT 43932 unrelated (0.05): 'Stop her!  We can still complete da binding!'
+set_sound,81254,Captain Brak,7,0,14,99092,0,0,99092,41972,Impossible!,own-folder BT 83579 kit 41972 felbreakercaptain build 63796
+clear_bt,88972,Exarch Maladaar,9,9,0,100,0,0,0,0,Golad,BT 100 unrelated (0.08): 'Thanks for saving me!'
+relink_prefix,90417,Archmage Khadgar,1,0,0,67264,0,0,100058,0,Any disturbance should catalyze the sequence. Just,fragment of own-folder BT 100058 kit 67264 archmage_khadgar: 'any disturbance should catalyze the sequence just uh give it a poke or something'
+clear_bt,90474,Demon Hunter,1,0,0,57399,0,0,0,0,Quickly,"BT 57399 unrelated (0.07): 'Unless you want to help me clean the nests, you had best let me get ba'"
+relink_prefix,90713,King Varian Wrynn,0,0,0,53464,0,0,99249,0,Brace yourselves,fragment of own-folder BT 99249 kit 53464 king_varian_wrynn: 'brace yourselves alliance it s coming this way'
+clear_bt,91784,Warlord Parjesh,1,0,0,54181,0,0,0,0,Ah,"BT 54181 unrelated (0.00): 'Go on, Riko.'"
+set_sound,92122,Gnomeregan Tinkerer,0,0,12,0,0,0,0,70946,Structural integrity at 0%%!,own-folder BT 99197 kit 70946 gnomeregan_tinkerer build 63796
+clear_bt,92183,Alard Schmied,3,0,0,1,0,0,0,0,You know what to do,"BT 1 unrelated (0.17): ""Help help!  I'm being repressed!"""
+clear_bt,92718,Maiev Shadowsong,1,0,0,57338,0,0,0,0,Ich brauche Eure Hilfe,"BT 57338 unrelated (0.25): 'You have given much of your time, patience, and love, $n. Behold your '"
+clear_bt,93011,Kayn Sunfury,1,0,0,55246,0,0,0,0,With it,"BT 55246 unrelated (0.14): 'So if i just substitute the powder with compressed...fuel, we should b'"
+clear_bt,93023,Siegemaster Mar'tak,1,0,0,50536,25,25,0,25,Ð­Ð¹,BT 50536 unrelated (0.00): 'Only your memory remains...'
+relink_prefix,95226,Anguish Jailer,4,0,0,55020,0,0,97915,0,I am your judge,fragment of own-folder BT 97915 kit 55020 anguish_jailer: 'i am your judge jury and executioner'
+relink_prefix,97140,First Arcanist Thalyssra,2,0,0,67336,396,396,118649,396,But the most important,fragment of own-folder BT 118649 kit 67336 first_arcanist_thalyssra: 'but the most important by far if we fail suramar is doomed'
+clear_bt,97267,Altruis the Sufferer,2,0,0,57297,0,0,0,0,Ya veo que no hay forma de convencerte. Muy bien,BT 57297 unrelated (0.22): 'You finished in...\n...\n2ND PLACE!'
+clear_bt,97617,Asha Ravensong,0,0,0,57287,0,0,0,0,Ahhhh,"BT 57287 unrelated (0.12): 'Are your trophies shrinking, Pop? Or are you hunting smaller game?'"
+clear_bt,97617,Asha Ravensong,1,0,0,57287,0,0,0,0,Es tut gut,"BT 57287 unrelated (0.16): 'Are your trophies shrinking, Pop? Or are you hunting smaller game?'"
+clear_bt,98206,General Xakal,6,0,0,58648,0,0,0,0,Gather,"BT 58648 unrelated (0.31): ""The banner's on fire!"""
+clear_bt,98497,Imp Mother,0,0,0,55214,0,0,0,0,Come,BT 55214 unrelated (0.14): 'Is there anyone in need of medical aid?'
+clear_bt,98497,Imp Mother,2,0,0,55214,0,0,0,0,Come,BT 55214 unrelated (0.14): 'Is there anyone in need of medical aid?'
+clear_bt,99045,Kor'vas Bloodthorn,2,0,0,55293,0,0,0,0,Wie Ihr Euch auch entscheidet,"BT 55293 unrelated (0.18): ""So, you've managed to train an army...$b$bAn impressive achievement, b"""
+clear_bt,100301,Astoril,4,0,0,65740,0,29838,0,0,FEL MASTERS,"BT 65740 unrelated (0.12): 'Beer before liquor, never fought quicker.'"
+relink_prefix,100578,Revil Kost,1,0,0,61883,0,0,102816,0,The battle is won,fragment of own-folder BT 102816 kit 61883 revil_kost: 'the battle is won but there will be more quickly to ariden s camp'
+clear_bt,101116,Warpcaster Thwen,0,0,0,67293,396,396,0,396,My,"BT 67293 unrelated (0.07): ""You're the best trainer here!"""
+clear_bt,101499,Chief Telemancer Oculeth,1,0,0,67419,0,0,0,0,Well,"BT 67419 unrelated (0.09): ""We've got to get the brew to safety. My brews are the lifeblood of thi"""
+clear_bt,102391,Altruis the Sufferer,2,0,0,57307,0,0,0,0,$n,"BT 57307 unrelated (0.00): ""It was Leza's visions that led us here. Each of us have had dreams of """
+clear_bt,102600,Arcanist Valtrois,3,0,0,67480,0,0,0,0,Out here,"BT 67480 unrelated (0.21): ""You be feelin' dis fight for a long time."""
+relink_prefix,103660,Archmage Khadgar,5,0,0,60192,0,0,111336,0,There... the Illidari. And,fragment of own-folder BT 111336 kit 60192 archmage_khadgar: 'there the illidari and the burning legion is here too'
+relink_prefix,103769,Xavius,0,0,0,58726,0,0,109326,0,The Nightmare has corrupted dragons,fragment of own-folder BT 109326 kit 58726 xavius: 'the nightmare has corrupted dragons gods and legends your downfall will be simpl'
+relink_prefix,105342,Ly'leth Lunastre,0,0,0,67504,0,32555,109087,0,This is not up for debate,fragment of own-folder BT 109087 kit 67504 lyleth_lunastre: 'this is not up for debate anarys you are either with us or against us choose wis'
+clear_bt,105689,Orik Trueheart,2,0,0,63275,0,29352,0,0,Aye,"BT 63275 unrelated (0.14): 'I thank you, strangers. I have been freed.'"
+clear_bt,106468,Ly'leth Lunastre,0,0,0,70450,396,396,0,396,You've done well so far,BT 70450 unrelated (0.20): 'Can you believe this? These Silver Covenant goons are trying to shake '
+clear_bt,106482,Malfurion Stormrage,1,0,0,61374,0,0,0,0,From each of these pathways,BT 61374 unrelated (0.00): ''
+set_sound,106616,Nightborne Child,0,0,12,112859,0,0,112859,65979,Hearts are full of pity...,own-folder BT 112875 kit 65979 nightborne_female_child build 63796
+set_sound,106616,Nightborne Child,1,0,12,112860,0,0,112860,65978,Crashing! Clashing!,own-folder BT 112874 kit 65978 nightborne_female_child build 63796
+set_sound,106616,Nightborne Child,2,0,12,112860,0,0,112860,65978,Crashing! Clashing!,own-folder BT 112874 kit 65978 nightborne_female_child build 63796
+set_sound,108090,Akama,0,0,12,910743,0,0,910743,66952,"I know everything Akama knows, and more. I look forward to us working together to destroy the Legion.",own-folder BT 115848 kit 66952 shade_of_akama build 63796
+align_text,108339,Ancient Flamecaller,0,0,2,93656,0,52902,93656,0,Azshara forgive me!,paraphrase (0.56) -> BT text 'Azshara forgive me!'
+align_text,108340,Ancient Chillwitch,0,0,2,93654,0,52905,93654,0,Why has the queen forsaken us?,paraphrase (0.69) -> BT text 'Why has the queen forsaken us?'
+set_sound,109529,Echo of Algalon,0,0,12,910721,0,0,910721,15401,Perhaps it is your imperfection... that which grants you free will... that allows you to persevere against all cosmically calculated odds. You prevail where the Titan´s own perfect creations have failed.,own-folder BT 115559 kit 15401 algalontheobserver build 63796
+clear_bt,111863,First Arcanist Thalyssra,13,0,0,67395,0,0,0,0,For now,BT 67395 unrelated (0.22): 'Surround them! Let none escape!'
+clear_bt,112146,First Arcanist Thalyssra,3,0,0,67378,0,0,0,0,For now,"BT 67378 unrelated (0.12): ""I don't like to see fellow monks in pain. But I'll get over it."""
+relink_prefix,112147,Chief Telemancer Oculeth,0,0,0,67372,0,0,118645,0,Hmm... a little tart,fragment of own-folder BT 118645 kit 67372 chief_telemancer_oculeth: 'hmm a little tart with a hint of oh my there it is'
+align_text,113114,Arluin,4,0,0,67335,0,0,67335,0,Bring it on!,paraphrase (0.47) -> BT text 'Bring it on!'
+align_text,114251,Galindre,1,0,0,77162,0,0,77162,0,Who's next?,"paraphrase (0.42) -> BT text ""Who's next?"""
+clear_bt,114262,Attumen the Huntsman,0,0,0,58644,0,0,0,0,Ah,BT 58644 unrelated (0.06): 'Uh-oh...! I feel the call of nature!'
+relink_prefix,114284,Elfyra,1,0,0,77154,0,0,123111,0,I don't have any friends... well,fragment of own-folder BT 123111 kit 77154 elfyra: 'i don t have any friends well apart from you galindre'
+clear_bt,114328,Coggleston,5,0,0,77105,0,41923,0,0,Oh no,BT 77105 unrelated (0.21): 'My... father... will... avenge... me.'
+relink_prefix,115049,Silgryn,0,0,0,78557,0,0,123713,0,See that these people escape the city,fragment of own-folder BT 123713 kit 78557 silgryn: 'see that these people escape the city deline stay with me'
+clear_bt,116484,Sigryn,0,0,0,82896,0,0,0,0,Wie? Der Fremdling kommt,BT 82896 unrelated (0.22): 'Return when you have weathered the sands of time further. You are not '
+clear_bt,120844,Alleria Windrunner,0,0,0,86160,0,0,0,0,Debes acudir en su ayuda,BT 86160 unrelated (0.23): 'I. Cannot. Be. Stopped.'
+clear_bt,121504,Grand Ma'da Ateena,0,0,0,98483,0,53010,0,0,Ah,"BT 98483 unrelated (0.22): 'Ah, my loyal hero.'"
+clear_bt,121597,Locus-Walker,0,0,0,87852,0,0,0,0,Me refiero a tu amigo,"BT 87852 unrelated (0.20): 'Face me, and we will see who is stronger.'"
+clear_bt,122723,Rhan'ka,5,0,0,100,0,0,0,0,Grenja,BT 100 unrelated (0.15): 'Thanks for saving me!'
+clear_bt,122795,Witch Doctor Kejabu,1,0,0,99348,0,53561,0,0,Well,"BT 99348 unrelated (0.11): ""Let's get movin'."""
+clear_bt,122864,Yazma,2,0,0,99421,0,0,0,0,Die,BT 99421 unrelated (0.11): 'Wait a minute... are you EXTORTING me?'
+clear_bt,123544,Patch,0,0,0,105701,0,57782,0,0,Great to see you all made it back in one piece,BT 105701 unrelated (0.34): 'The Grand Magistrix... will have your heads for this...'
+clear_bt,125245,Newt,1,0,0,101334,0,0,0,0,You can ride my rocket back to your base. It's a one-way trip,"BT 101334 unrelated (0.29): 'Who taught you how to shoot a gun, a murloc?'"
+clear_bt,125342,Captain Keelson,1,0,0,109583,396,396,0,396,Not bad,BT 109583 unrelated (0.17): 'I thank you all.  You have done what few others could.'
+clear_bt,125961,Brother Conway,0,0,0,109171,0,0,0,0,Brannon,BT 109171 unrelated (0.00): 'Sup.'
+clear_bt,126009,Dockmaster Cobo,1,0,0,1,0,0,0,0,He was wrong. Oh dere was damage,"BT 1 unrelated (0.37): ""Help help!  I'm being repressed!"""
+clear_bt,126071,Ancient Brood Mother,1,0,0,55214,0,0,0,0,Vengan,BT 55214 unrelated (0.14): 'Is there anyone in need of medical aid?'
+clear_bt,126490,Flynn Fairwind,8,0,0,105467,0,0,0,0,Hey,"BT 105467 unrelated (0.08): ""Harbaron won't have your kind around here, mortal."""
+clear_bt,127222,Hexlord Raal,1,0,0,98082,0,52456,0,0,A few years back,BT 98082 unrelated (0.38): 'I will send you back to Helheim!'
+clear_bt,127613,Tortollan Traveler,1,0,0,108402,0,0,0,0,Well,BT 108402 unrelated (0.17): 'Shadowgore Stalker sniffs the air excitedly.'
+clear_bt,127893,Ancient Citizen,1,0,0,87810,25,25,0,25,Ah,BT 87810 unrelated (0.02): 'The Raven Mother watches over the flock once again!$b$bWe could not ha'
+clear_bt,128152,Akunda,0,0,0,105832,0,58208,0,0,At last,BT 105832 unrelated (0.10): 'See you there.'
+clear_bt,130344,Vol'jamba,3,0,0,103520,0,55179,0,0,Loa above! Just let me finish! Shadows twist de strings of fate,BT 103520 unrelated (0.14): 'Embrace the inevitable.'
+clear_bt,130934,Brother Pike,3,0,0,108751,0,0,0,0,Sea to sea,"BT 108751 unrelated (0.18): 'Snake witch powerful, but with Grash help kill!'"
+relink_prefix,130934,Brother Pike,19,0,0,108793,0,0,143167,0,I know not what darkness took your mind,fragment of own-folder BT 143167 kit 108793 brother_pike: 'i know not what darkness took your mind sister but it will torment our people no'
+clear_bt,131640,Inquisitor Notley,1,0,0,104207,0,0,0,0,Keep moving,BT 104207 unrelated (0.00): ''
+clear_bt,132134,Princess Talanji,0,0,0,103865,0,0,0,0,$n,BT 103865 unrelated (0.00): 'This ward will not tolerate your presence!'
+clear_bt,132994,Lord Arthur Waycrest,5,0,0,103418,0,0,0,0,Alexander,BT 103418 unrelated (0.00): ''
+clear_bt,132994,Lord Arthur Waycrest,6,0,0,103419,0,0,0,0,An ambush! Lucy,BT 103419 unrelated (0.00): ''
+relink_prefix,133476,Princess Talanji,0,0,0,116582,0,0,152881,0,Our forces are keeping de rest of de blood trolls at bay,fragment of own-folder BT 152881 kit 103847 princess_talanji: 'our forces are keeping de rest of de blood trolls at bay but dey cannot hold out'
+relink_prefix,133476,Princess Talanji,1,0,0,103847,0,0,152881,0,Our forces are keeping de rest of de blood trolls at bay,fragment of own-folder BT 152881 kit 103847 princess_talanji: 'our forces are keeping de rest of de blood trolls at bay but dey cannot hold out'
+clear_bt,134121,Overseer Nerzet,3,0,0,107773,0,0,0,0,The key is ours,"BT 107773 unrelated (0.17): 'The flask shimmers and bubbles.\n\nUnfortunately, you lack the proper in'"
+clear_bt,134132,Wardruid Loti,0,0,0,106053,0,0,0,0,Come,BT 106053 unrelated (0.00): 'The Forge of the Guardian is an artifact of incredible power. \n\nIt was'
+set_sound,134195,Stormwind Guard,0,0,12,910422,0,0,910422,104306,Horde infiltrators have breached the Stockades! Civilians are to remain in their homes until the threat has been subdued!,own-folder BT 149062 kit 104306 stormwind_human_male build 63796
+set_sound,137119,Taloc,0,0,14,0,0,0,0,104458,Activating cudgel retrieval.,own-folder BT 154131 kit 104458 taloc_the_corrupted build 63796
+set_sound,137119,Taloc,1,0,14,0,0,0,0,104454,Deploying cudgel.,own-folder BT 154130 kit 104454 taloc_the_corrupted build 63796
+set_sound,137119,Taloc,2,0,14,0,0,0,0,104455,Fluid evacuation in progress. Entering standby.,own-folder BT 154139 kit 104455 taloc_the_corrupted build 63796
+set_sound,137119,Taloc,3,0,14,0,0,0,0,104461,Fuel levels depleted. Shutting down...,own-folder BT 154129 kit 104461 taloc_the_corrupted build 63796
+set_sound,137119,Taloc,4,0,14,0,0,0,0,104460,Hosts detected. Infection commencing.,own-folder BT 154120 kit 104460 taloc_the_corrupted build 63796
+set_sound,137119,Taloc,5,0,14,0,0,0,0,104457,Initiating blood dispersal of target host.,own-folder BT 154132 kit 104457 taloc_the_corrupted build 63796
+set_sound,137119,Taloc,6,0,14,0,0,0,0,104459,Initiating plasma collection.,own-folder BT 154118 kit 104459 taloc_the_corrupted build 63796
+set_sound,137119,Taloc,7,0,14,0,0,0,0,104456,Levels at maximum. Resume collection.,own-folder BT 154142 kit 104456 taloc_the_corrupted build 63796
+set_sound,137119,Taloc,8,0,14,0,0,0,0,104453,Specimen targeted for destruction.,own-folder BT 154133 kit 104453 taloc_the_corrupted build 63796
+set_sound,137119,Taloc,9,0,14,0,0,0,0,104464,Subjects primed for contamination.,own-folder BT 154127 kit 104464 taloc_the_corrupted build 63796
+clear_bt,140656,Rokhan,0,0,0,105557,0,65802,0,0,Princess,BT 105557 unrelated (0.18): 'Who goes there?!'
+clear_bt,140728,Darnassian Assassin,0,0,0,112421,0,0,0,0,After you,"BT 112421 unrelated (0.24): ""Be careful! They're magic is quite powerful."""
+clear_bt,156280,Lady Jaina Proudmoore,5,0,0,152749,0,0,0,0,Well,BT 152749 unrelated (0.10): 'They can be powerful tools against the Zandalari trolls and their Hord'
+clear_bt,156698,Attendant Protector,0,0,0,152107,603,103704,0,603,You return,BT 152107 unrelated (0.32): 'Not... again...'
+clear_bt,157676,Bonesmith Heirmir,10,0,0,166616,0,0,0,0,Gah! Well,BT 166616 unrelated (0.12): 'For the glory of... Kul... Tiras...'
+relink_prefix,158007,Margrave Krexus,0,0,0,165006,0,120614,201475,0,First you bring war,fragment of own-folder BT 201475 kit 165006 margrave_krexus: 'first you bring war now a blade of the primus your legend grows mortal'
+set_sound,159065,Baroness Draka,0,0,12,0,0,0,0,165701,Don't keep Vyraz waiting. He's not known for his patience.,own-folder BT 198665 kit 165701 draka build 63796
+relink_prefix,159946,The Countess,0,0,0,157851,0,0,195788,0,I hope you are not enjoying my hospitality too much,fragment of own-folder BT 195788 kit 157851 the_countess: 'i hope you are not enjoying my hospitality too much there is work to be done aft'
+clear_bt,159946,The Countess,1,0,0,157853,0,0,0,0,Of course,BT 157853 unrelated (0.17): 'Well done. Her passing will allow future generations to thrive.'
+clear_bt,160280,Mikanikos,2,0,0,156563,0,0,0,0,Sika,BT 156563 unrelated (0.00): ''
+set_sound,162061,Devos,0,0,14,0,0,0,0,155653,The age of the Forsworn is at hand!,own-folder BT 193207 kit 155653 devos_paragon_of_loyalty build 61609
+set_sound,162061,Devos,1,0,14,0,0,0,0,155647,The Archon's spear is mine to wield!,own-folder BT 197352 kit 155647 devos_paragon_of_loyalty build 61609
+set_sound,162061,Devos,3,0,14,0,0,0,0,155642,Perish among the clouds!,own-folder BT 193215 kit 155642 devos_paragon_of_loyalty build 61609
+set_sound,162061,Devos,4,0,14,0,0,0,0,155654,No! The path... must be... abandoned...,own-folder BT 193212 kit 155654 devos_paragon_of_loyalty build 61609
+set_sound,162069,Baroness Draka,0,0,12,0,0,0,0,165693,Our enemies surround us. Stay off the main road.,own-folder BT 179741 kit 165693 draka build 63796
+set_sound,162329,Xav the Unfallen,0,0,14,0,0,0,0,152507,You had best make this interesting.,own-folder BT 190331 kit 152507 hazak_the_unfallen build 62438
+set_sound,162329,Xav the Unfallen,1,0,14,0,0,0,0,152510,My blade knows no equal.,own-folder BT 192081 kit 152510 hazak_the_unfallen build 61609
+set_sound,162329,Xav the Unfallen,2,0,14,0,0,0,0,152508,Cower before my might!,own-folder BT 192083 kit 152508 hazak_the_unfallen build 61609
+set_sound,162329,Xav the Unfallen,3,0,14,0,0,0,0,152513,You! Show me what you can do.,own-folder BT 190336 kit 152513 hazak_the_unfallen build 61609
+set_sound,162329,Xav the Unfallen,4,0,14,0,0,0,0,152506,That was... a good... fight...,own-folder BT 190332 kit 152506 hazak_the_unfallen build 62438
+set_sound,164450,Dealer Xy'exa,0,0,14,0,0,0,0,153443,You will pay dearly for this.,own-folder BT 193534 kit 153443 dealer_gexa build 57534
+set_sound,164450,Dealer Xy'exa,5,0,14,0,0,0,0,153443,You will pay dearly for this.,own-folder BT 193534 kit 153443 dealer_gexa build 57534
+set_sound,164450,Dealer Xy'exa,6,0,14,0,0,0,0,153436,Have you ever wished you could fly?,own-folder BT 193554 kit 153436 dealer_gexa build 56421
+set_sound,164450,Dealer Xy'exa,8,0,14,0,0,0,0,153441,Hold this a moment.,own-folder BT 193577 kit 153441 dealer_gexa build 55664
+set_sound,164450,Dealer Xy'exa,9,0,14,0,0,0,0,153438,I would step lightly if I were you.,own-folder BT 193565 kit 153438 dealer_gexa build 55664
+set_sound,164450,Dealer Xy'exa,12,0,14,0,0,0,0,153440,These are more than mere trinkets.,own-folder BT 193575 kit 153440 dealer_gexa build 53040
+set_sound,164450,Dealer Xy'exa,13,0,14,0,0,0,0,153444,You strike... a hard... bargain...,own-folder BT 193548 kit 153444 dealer_gexa build 53040
+set_sound,164517,Tred'ova,10,0,14,0,0,0,0,157794,I can predict your every maneuver.,own-folder BT 193511 kit 157794 tredova build 55664
+clear_bt,164554,Shandris Feathermoon,0,0,0,165938,0,0,0,0,I will not give up on my mother. But for now,BT 165938 unrelated (0.32): 'Ya be mine now!'
+clear_bt,164554,Shandris Feathermoon,1,0,0,165938,0,0,0,0,I will not give up on my mother. But for now,BT 165938 unrelated (0.32): 'Ya be mine now!'
+clear_bt,165918,Highlord Darion Mograine,24,0,0,161966,0,0,0,0,Lord Admiral,"BT 161966 unrelated (0.24): ""Your daughter was taken to Fate's End."""
+clear_bt,166621,Envious Soul,1,0,0,153652,0,107068,0,0,No,BT 153652 unrelated (0.08): 'Where be... de other side?'
+clear_bt,166782,Thrall,2,0,0,156954,0,0,0,0,You three,"BT 156954 unrelated (0.00): ""Ahoy dere, $p. I hear ya be friends with ol' Kiro and de vulpera.\n\nWe """
+clear_bt,166886,Highlord Darion Mograine,24,0,0,161966,0,0,0,0,Lord Admiral,"BT 161966 unrelated (0.24): ""Your daughter was taken to Fate's End."""
+set_sound,167168,Devos,0,0,12,9105797,0,0,9105797,156042,"This is dire news, Vesiphone. But the Archon has turned a deaf ear to such tidings in the past.",own-folder BT 198576 kit 156042 devos_paragon_of_loyalty build 63796
+clear_bt,167425,Overseer Kah-Delen,5,0,0,1,0,0,0,0,Now,"BT 1 unrelated (0.06): ""Help help!  I'm being repressed!"""
+clear_bt,167486,Tal-Inara,1,0,0,159784,0,0,0,0,It is the Arbiter's place to judge souls,"BT 159784 unrelated (0.30): 'You would share our gifts with these wretches, Ulfar? You deserve to b'"
+relink_prefix,167486,Tal-Inara,5,0,0,159779,0,0,195158,0,The winged kyrian of Bastion ferry souls from the mortal realm into the Shadowlands,fragment of own-folder BT 195158 kit 159779 tal-inara_voice_of_the_arbiter: 'the winged kyrian of bastion ferry souls from the mortal realm into the shadowla'
+clear_bt,167596,Thrall,0,0,0,157174,0,0,0,0,Recruit,BT 157174 unrelated (0.14): 'Yes. Our intel suggests at least three excavations.'
+clear_bt,167682,Ebon Blade Acolyte,0,0,0,162389,0,0,0,0,I thought death was the end of existence. Here,BT 162389 unrelated (0.00): ''
+clear_bt,168462,Cork Fizzlepop,0,0,0,157215,0,0,0,0,Yeesh,BT 157215 unrelated (0.00): ''
+clear_bt,169076,Highlord Bolvar Fordragon,3,0,0,161864,0,0,0,0,During my vigil upon the Frozen Throne,BT 161864 unrelated (0.00): ''
+clear_bt,169076,Highlord Bolvar Fordragon,4,0,0,161865,0,0,0,0,That is where you must go,"BT 161865 unrelated (0.24): ""I'm afraid I have to agree with the gnome, $p."""
+align_text,169076,Highlord Bolvar Fordragon,6,0,0,161867,0,0,161867,0,We'll hold the line. You go on ahead. For the Alliance!,"paraphrase (0.40) -> BT text ""We'll hold the line. You go on ahead. For the Alliance!"""
+clear_bt,169202,Dreamweaver,2,0,0,161379,0,0,0,0,Oh,BT 161379 unrelated (0.13): 'Another round for my friends!'
+clear_bt,172652,Prince Renathal,4,0,0,161608,0,0,0,0,You have done well so far,"BT 161608 unrelated (0.33): ""... I don't... understand..."""
+clear_bt,176554,Highlord Darion Mograine,5,0,0,164951,0,0,0,0,Acherus,BT 164951 unrelated (0.00): ''
+clear_bt,177194,The Primus,2,0,0,181330,0,140113,0,0,When this comes to pass,BT 181330 unrelated (0.23): 'You have acquired my attention.'
+clear_bt,177423,Tal-Galan,1,0,0,181163,0,0,0,0,I understand,BT 181163 unrelated (0.19): 'Calm down!'
+relink_prefix,177562,Tal-Galan,0,0,0,181292,0,144611,209822,0,Even damaged,fragment of own-folder BT 209822 kit 181292 tal-galan: 'even damaged the vault is glorious is it not'
+clear_bt,177610,Caretaker Kah-Than,0,0,0,181059,0,0,0,0,A dropped page remains,"BT 181059 unrelated (0.16): ""A warrior's... end..."""
+relink_prefix,177819,Ve'nari,6,0,0,180813,0,0,208738,0,We made it! Imagine the wonders to be found here,fragment of own-folder BT 208738 kit 180813 venari: 'we made it imagine the wonders to be found here maw walker oh and that waystone '
+clear_bt,178069,Ve'nari,0,0,0,180822,0,0,0,0,Ah,"BT 180822 unrelated (0.13): 'Ah, there you are, Blisterback!'"
+set_sound,181057,Echo of Argus,1,0,12,0,0,0,0,88237,Is it... over?,own-folder BT 135895 kit 88237 argus build 63796
+clear_bt,181732,Dutiful Aspirant,4,0,0,189363,0,0,0,0,If this is where the Arbiter was made,BT 189363 unrelated (0.39): 'What do they need so many bones for?'
+set_sound,183501,Artificer Xy'mox,0,0,14,0,0,0,0,188977,I am past my breaking point!,own-folder BT 214229 kit 188977 xymox build 63796
+set_sound,183501,Artificer Xy'mox,1,0,14,0,0,0,0,188974,It is amusing how you stumble through space and time.,own-folder BT 214410 kit 188974 xymox build 62438
+set_sound,183501,Artificer Xy'mox,3,0,14,0,0,0,0,188961,Your agony amuses me.,own-folder BT 214423 kit 188961 xymox build 62438
+set_sound,183501,Artificer Xy'mox,4,0,14,0,0,0,0,188976,Your destruction is unavoidable!,own-folder BT 215086 kit 188976 xymox build 62438
+set_sound,183501,Artificer Xy'mox,5,0,14,0,0,0,0,188970,You cannot even control where you stand!,own-folder BT 214412 kit 188970 xymox build 62438
+set_sound,183501,Artificer Xy'mox,6,0,14,0,0,0,0,188971,You mortals cannot even bear a spark of my genius!,own-folder BT 214415 kit 188971 xymox build 62438
+set_sound,183501,Artificer Xy'mox,7,0,14,0,0,0,0,188966,Ephemera is unbridled power!,own-folder BT 214421 kit 188966 xymox build 63796
+set_sound,183501,Artificer Xy'mox,8,0,14,0,0,0,0,188973,I wonder what effect folding space has on your flesh.,own-folder BT 214409 kit 188973 xymox build 62438
+set_sound,183501,Artificer Xy'mox,9,0,14,0,0,0,0,188960,These stasis fields should keep you busy!,own-folder BT 214422 kit 188960 xymox build 62438
+set_sound,183501,Artificer Xy'mox,10,0,14,0,0,0,0,188975,This force will overtake you!,own-folder BT 215085 kit 188975 xymox build 62438
+set_sound,183501,Artificer Xy'mox,11,0,14,0,0,0,0,188969,Gravity bends to my will!,own-folder BT 214411 kit 188969 xymox build 56421
+set_sound,183501,Artificer Xy'mox,12,0,14,0,0,0,0,188965,There is no limit to the wealth I can obtain!,own-folder BT 214420 kit 188965 xymox build 63796
+set_sound,183501,Artificer Xy'mox,14,0,14,0,0,0,0,188981,Never test my expertise.,own-folder BT 214230 kit 188981 xymox build 45114
+set_sound,183501,Artificer Xy'mox,15,0,14,0,0,0,0,188960,These stasis fields should keep you busy!,own-folder BT 214422 kit 188960 xymox build 62438
+set_sound,183501,Artificer Xy'mox,16,0,14,0,0,0,0,188975,This force will overtake you!,own-folder BT 215085 kit 188975 xymox build 62438
+set_sound,183501,Artificer Xy'mox,17,0,14,0,0,0,0,188980,Wait... we can make a deal...,own-folder BT 214408 kit 188980 xymox build 63796
+set_sound,187804,Initiate Boku,0,0,12,910552,0,0,910552,205615,Something is at the top of the rise. I will take a side route. Meet me up there!,own-folder BT 222014 kit 205615 boku build 63796
+set_sound,193913,Ruby Dragonspawn,0,0,12,910255,0,0,910255,203501,Queen Alexstrasza is far more impressive than any statue you ll find in the Isles!,own-folder BT 225081 kit 203501 dragonspawn_caster build 63796
+set_sound,193917,Ruby Drakonid,0,0,12,910256,0,0,910256,203836,May this brazier once more guide every peaceful denizen of Azeroth to these shores!,own-folder BT 225083 kit 203836 drakonid_valdrakken build 63796
+set_sound,195024,Initiate Boku,0,0,12,910553,0,0,910553,205775,You are awake! I am glad to see you are okay.,own-folder BT 222999 kit 205775 boku build 63796
+clear_bt,220388,Kill Credit [DNT],2,0,0,86342,396,396,0,396,Escondidos,"BT 86342 unrelated (0.09): 'Think you got what it takes, $n? Remember, once a battle starts you ha'"
+relink_bt,235787,Lor'themar Theron,2,0,0,283069,0,300627,283068,0,"Using a relic of the Void to breach the storm... It sounds risky, Umbric.",BT 283069 text differs (0.43); own-folder BT 283068 kit 300626 lorthemar_theron
+clear_bt,588750,,3,0,0,27491,0,0,0,0,Now,"BT 27491 unrelated (0.07): ""Let's sing a song!$B$BBrew, brawl,$BBrew, brawl!$BA Dark Iron's life f"""

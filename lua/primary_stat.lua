@@ -1,4 +1,4 @@
--- Primary stat of a Hero (Character Advancement, as on Descend): Strength, Agility, Intellect or Spirit. The choice is kept per character in
+-- Primary stat of a Hero (Character Advancement, as on Ascension): Strength, Agility, Intellect or Spirit. The choice is kept per character in
 -- characters.hero_primary and shows as a hidden passive aura (hotfix spells 1409031-1409034, made by scratchpad/primary_stat_spells.py) that
 -- grows with the level. The client window sends PSTAT;n (1-4, 0 = just tell me) and answers with PSTAT;n.
 if IS_WORLD_STATE then return end

@@ -1,0 +1,250 @@
+== questline 5811 The Light's Summons (order 0)
+  1 91281 Midnight                                 lua= issues=0 
+  2 88719 A Voice from the Light                   lua=midnight_fallback_0data.lua,midnight_poi_credit.lu issues=0 
+  3 86769 Last Bastion of the Light                lua=eversong_b1.lua issues=0 
+  4 86770 Champions of Quel'Danas                  lua= issues=0 
+  5 89271 My Son                                   lua=midnight_poi_0data.lua issues=0 
+  6 86780 Where Heroes Hold                        lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+  7 86805 The Hour of Need                         lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+  8 89012 A Safe Path                              lua= issues=0 
+  9 86806 Luminous Wings                           lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+ 10 86807 The Gate                                 lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+ 11 91274 Severing the Void                        lua= issues=0 
+ 12 86834 Voidborn Banishing                       lua= issues=0 
+ 13 86811 Ethereal Eradication                     lua= issues=0 
+ 14 86848 Light's Arsenal                          lua=midnight_fallback_0data.lua issues=0 
+ 15 86849 Wrath Unleashed                          lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+ 16 86850 Broken Sun                               lua=midnight_fallback_0data.lua issues=0 
+ 17 86852 Light's Last Stand                       lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+== questline 5719 Whispers in the Twilight (order 1)
+ 18 86733 Silvermoon Negotiations                  lua=eversong_b1.lua issues=0 
+ 19 86734 Diplomacy                                lua=diplomacy86734.lua issues=0 
+ 20 86735 Paved in Ash                             lua=midnight_poi_0data.lua issues=0 
+ 21 86736 Paved in Ash                             lua=midnight_poi_0data.lua issues=0 
+ 22 86737 Fair Breeze, Light Bloom                 lua=midnight_poi_0data.lua issues=0 
+ 23 86738 Sharpmaw                                 lua=midnight_poi_0data.lua issues=0 
+ 24 86739 Fairbreeze Favors                        lua= issues=0 
+ 25 86740 Displaced Denizens                       lua=midnight_fallback_0data.lua issues=0 
+ 26 86741 Lightbloom Looming                       lua=midnight_poi_0data.lua issues=0 
+ 27 86742 Curious Cultivation                      lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+ 28 86743 Trimming the Lightbloom                  lua=midnight_fallback_0data.lua issues=0 
+ 29 86744 Seeking Truth                            lua=midnight_poi_0data.lua issues=0 
+ 30 86745 Silvermoon Must Know                     lua=eversong_b1.lua,midnight_chain_offer.lua,midnight_ issues=0 
+ 31 94871 Eversong                                 lua=midnight_chain_offer.lua issues=1 no starter in creature/gameobject_queststarter (check item / auto-accept)
+ 32 94993 Adventuring in Midnight                  lua= issues=0 
+ 33 95008 Adventuring in Midnight                  lua= issues=0 
+== questline 5720 Shadowfall (order 2)
+ 34 86621 The Wayward Magister                     lua=midnight_poi_0data.lua issues=0 
+ 35 86623 Appeal to the Void                       lua= issues=0 
+ 36 86624 Rational Explanation                     lua=midnight_fallback_0data.lua issues=0 
+ 37 90907 The First to Know                        lua=midnight_poi_0data.lua issues=0 
+ 38 86622 Chance Meeting                           lua=midnight_poi_0data.lua issues=0 
+ 39 86626 The Ransacked Lab                        lua= issues=0 
+ 40 86632 The Battle for Tranquillien              lua=midnight_poi_0data.lua issues=0 
+ 41 90493 The Heart of Tranquillien                lua=midnight_poi_0data.lua issues=0 
+ 42 90509 The Traitors of Tranquillien             lua= issues=0 
+ 43 90494 The Missing Magister                     lua= issues=0 
+ 44 86781 Face the Past                            lua=midnight_poi_0data.lua issues=0 
+ 45 86634 The Past Keeps Watch                     lua=midnight_poi_0data.lua issues=0 
+ 46 86633 Comprehend the Void                      lua=midnight_poi_0data.lua issues=0 
+ 47 86635 To Deatholme                             lua=midnight_poi_0data.lua issues=0 
+ 48 86636 Void Walk With Me                        lua=midnight_poi_0data.lua issues=0 
+== questline 5721 Ripple Effects (order 3)
+ 49 86637 Anything but Reprieve                    lua=midnight_poi_0data.lua issues=0 
+ 50 86638 Choking Tendrils                         lua= issues=0 
+ 51 86639 What's Left                              lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+ 52 86640 Premonition                              lua= issues=0 
+ 53 86641 Old Scars                                lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+ 54 86642 A Foe Unseen                             lua=midnight_fallback_0data.lua issues=0 
+ 55 86643 Following the Root                       lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+ 56 86644 Gods Before Us                           lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+ 57 86646 An Impasse                               lua=midnight_fallback_0data.lua issues=0 
+ 58 86647 Beat of Blood                            lua= issues=0 
+ 59 86648 Light Guide Us                           lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+ 60 86649 Past Redemption                          lua=midnight_poi_0data.lua issues=0 
+ 61 86650 Fractured                                lua=midnight_chain_offer.lua,midnight_poi_0data.lua issues=0 
+== questline 5722 Dis Was Our Land (order 4)
+ 62 86708 The Gates of Zul'Aman                    lua=midnight_chain_offer.lua issues=1 no starter in creature/gameobject_queststarter (check item / auto-accept)
+ 63 86710 The Line Must be Drawn Here              lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+ 64 90749 Our Mutual Enemy                         lua= issues=0 
+ 65 86711 Amani Clarion Call                       lua=midnight_fallback_0data.lua issues=0 
+ 66 86868 Goodwill Tour                            lua= issues=0 
+ 67 86719 Important Amani                          lua= issues=0 
+ 68 86717 Show Us Your Worth                       lua= issues=0 
+ 69 86716 Armed by Light                           lua= issues=0 
+ 70 86721 Everything We Worked For                 lua= issues=0 
+ 71 86718 Twilight Bled                            lua= issues=0 
+ 72 86715 Rituals Cut Short                        lua= issues=0 
+ 73 86712 The Amani Stand Strong                   lua= issues=0 
+ 74 86720 Break the Blade                          lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+ 75 86722 Heart of the Amani                       lua= issues=0 
+ 76 86723 Isolation                                lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+ 77 86652 Left in the Shadows                      lua= issues=0 
+== questline 5723 Path of de Hash'ey (order 5)
+ 78 86653 The Path of the Amani                    lua=midnight_fallback_0data.lua issues=0 
+ 79 86654 Gnarldin Bashing                         lua= issues=0 
+ 80 86655 De Ancient Path                          lua=midnight_poi_0data.lua issues=0 
+ 81 89334 Ahead of the Issue                       lua= issues=0 
+ 82 86656 Brutal Feast                             lua=midnight_poi_0data.lua issues=0 
+ 83 86809 Test of Conviction                       lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+ 84 86657 Shadebasin Watch                         lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+ 85 86658 The Crypt in the Mist                    lua=midnight_poi_0data.lua issues=0 
+ 86 86660 Rescue from the Shadows                  lua= issues=0 
+ 87 86659 Breaching the Mist                       lua=midnight_poi_0data.lua issues=0 
+ 88 92084 Halazzi's Guile                          lua=midnight_poi_0data.lua issues=0 
+ 89 86661 Coals of a Dead Loa                      lua=midnight_poi_0data.lua issues=0 
+ 90 86808 The Riddled Speaker                      lua=midnight_poi_0data.lua issues=0 
+ 91 86663 Embers to a Flame                        lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+ 92 86664 Seer or Sear                             lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+ 93 86665 Face in the Fire                         lua= issues=0 
+ 94 90772 The Flames Rise Higher                   lua=midnight_poi_0data.lua issues=0 
+ 95 86666 In the Shadow of Rebirth                 lua=midnight_fallback_0data.lua issues=0 
+== questline 5938 Where War Slumbers (order 6)
+ 96 86681 Den of Nalorakk: A Taste of Vengeance    lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+ 97 86682 Den of Nalorakk: Waking de Bear          lua=midnight_poi_0data.lua issues=0 
+ 98 91958 Den of Nalorakk: Unforgiven              lua=midnight_poi_0data.lua issues=0 
+== questline 5724 De Amani Never Die (order 7)
+ 99 86683 Hash'ey Away                             lua=midnight_poi_0data.lua issues=0 
+100 86684 The Blade's Edge                         lua=midnight_poi_0data.lua issues=0 
+101 86685 Chip and Shatter                         lua= issues=0 
+102 86686 Light Indiscriminate                     lua=midnight_poi_0data.lua issues=0 
+103 86687 Conduit Crisis                           lua=midnight_fallback_0data.lua issues=0 
+104 91001 Clear de Way                             lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+105 86692 Blade Shattered                          lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+106 86693 De Legend of de Hash'ey                  lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+107 91062 Broken Bridges                           lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+== questline 5725 Of Caves and Cradles (order 8)
+108 89402 Harandar                                 lua= issues=0 
+109 86899 The Root Cause                           lua=midnight_poi_0data.lua issues=0 
+110 86900 To Har'athir                             lua= issues=0 
+111 86901 The Rift and the Den                     lua= issues=0 
+112 86907 The Den of Echoes                        lua= issues=0 
+113 86910 Koozat's Trample                         lua= issues=0 
+114 86911 Echoes and Memories                      lua=midnight_fallback_0data.lua issues=0 
+115 90094 Echo of the Hunt                         lua= issues=0 
+116 90095 Echo of the Call                         lua= issues=0 
+117 86912 Down the Rootways                        lua=midnight_fallback_0data.lua issues=0 
+118 86913 A Hut in Har'mara                        lua= issues=0 
+119 86914 Tending to Har'mara                      lua= issues=0 
+120 86929 The Council Assembles                    lua= issues=0 
+121 86930 To Sow the Seed                          lua= issues=0 
+122 89034 Burning Bitterblooms                     lua= issues=0 
+123 86973 Halting Harm in Har'mara                 lua=midnight_poi_0data.lua issues=0 
+124 86942 Culling the Spread                       lua= issues=0 
+125 86944 Seeds of the Rift                        lua= issues=0 
+126 86956 The Traveling Flowers                    lua= issues=0 
+== questline 5726 Call of the Goddess (order 9)
+127 86864 Watch the Den                            lua= issues=0 
+128 86836 The Hunter Awaits                        lua=midnight_fallback_0data.lua issues=0 
+129 86851 The Foundation of Aln                    lua= issues=0 
+130 86855 Consequences of Our Duty                 lua=midnight_poi_0data.lua issues=0 
+131 86856 Dampening the Call                       lua= issues=0 
+132 86857 Descent into the Rift                    lua=midnight_fallback_0data.lua issues=0 
+133 86858 The Madness Roots Deep                   lua= issues=0 
+134 86859 Grinding Out a Solution                  lua= issues=0 
+135 86860 Before They Grow                         lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+136 86861 Herding Manifestations                   lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+137 86862 The Greater They Aln                     lua= issues=0 
+138 86865 In Search of the Problem                 lua=midnight_fallback_0data.lua issues=0 
+139 94677 The Missing Rootwarden                   lua=midnight_poi_0data.lua issues=0 
+140 86866 Can We Heal This?                        lua=midnight_poi_0data.lua issues=0 
+141 86882 Alndust in Right Hands                   lua= issues=0 
+142 86877 Righteous Pruning                        lua= issues=0 
+143 86880 Our Beloved, Returned                    lua= issues=0 
+144 86881 At the Root                              lua= issues=0 
+145 86867 Into the Lightbloom                      lua=midnight_poi_0data.lua issues=0 
+146 86890 Tell the People What You Have Seen       lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+147 86874 Culling the Light                        lua=midnight_poi_0data.lua issues=0 
+== questline 5727 Emergence (order 10)
+148 86883 The Frenzied March                       lua= issues=0 
+149 86884 Cull and Burn                            lua= issues=0 
+150 86885 Stem the Tides                           lua= issues=0 
+151 86887 Expeditious Retreat                      lua= issues=0 
+152 86891 A Last Resort                            lua= issues=0 
+153 86892 Survive                                  lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+154 86894 The Gift of Aln'hara                     lua=midnight_fallback_0data.lua issues=0 
+155 86896 Light Finds a Way                        lua= issues=0 
+156 86897 Quelling the Frenzy                      lua=midnight_fallback_0data.lua issues=0 
+157 86898 Rise of the Haranir                      lua=midnight_chain_offer.lua issues=0 
+== questline 5750 The Path of Light (order 11)
+158 89193 Arator                                   lua=midnight_chain_offer.lua issues=1 no starter in creature/gameobject_queststarter (check item / auto-accept)
+159 86837 Meet at the Sunwell                      lua= issues=0 
+160 86838 Renewal for the Weary                    lua= issues=0 
+161 86839 Relics of Light's Hope                   lua=midnight_fallback_0data.lua issues=0 
+162 86840 Flickering Hope                          lua= issues=0 
+163 86841 Relics of Paladins Past                  lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+164 86842 Scarlet Power                            lua=midnight_poi_0data.lua issues=0 
+165 86843 Light Miswielded                         lua= issues=0 
+166 86844 Light Repurposed                         lua=midnight_fallback_0data.lua issues=0 
+167 92136 Infusion of Hope                         lua=midnight_fallback_0data.lua issues=0 
+168 86902 Relinquishing Relics                     lua=midnight_fallback_0data.lua issues=0 
+169 86845 The Sunwalker Path                       lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+170 91000 A Humble Servant                         lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+171 86846 Resupplying Our Suppliers                lua=midnight_fallback_0data.lua issues=0 
+172 89338 Gathering Plowshares                     lua=midnight_fallback_0data.lua issues=0 
+== questline 5751 Regrets of the Past (order 12)
+173 86822 One Final Relic                          lua=midnight_fallback_0data.lua issues=0 
+174 86823 The Dark Horde                           lua= issues=0 
+175 86824 None Left Standing                       lua=midnight_fallback_0data.lua issues=0 
+176 86825 Faithful Servant, Faithless Cause        lua= issues=0 
+177 91391 Still Scouting                           lua=midnight_fallback_0data.lua issues=0 
+178 86827 Due Recognition                          lua=midnight_fallback_0data.lua issues=0 
+179 86826 Nagosh the Scarred                       lua= issues=0 
+180 91842 Disarm the Dark Horde                    lua= issues=0 
+181 86828 Not Just a Troll's Bane                  lua= issues=0 
+182 86831 Warriors Without a Warlord               lua=midnight_fallback_0data.lua issues=0 
+183 86830 A True Horde of Dark Horde               lua=midnight_fallback_0data.lua issues=0 
+184 86829 A Landmark Moment                        lua=midnight_fallback_0data.lua issues=0 
+185 91726 Unstoppable Force                        lua=midnight_poi_0data.lua issues=0 
+186 86832 A Worthy Forge                           lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+187 86833 A Bulwark Remade                         lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+188 86903 The Arcantina                            lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+189 91787 The Journey Ends                         lua=midnight_fallback_0data.lua issues=0 
+== questline 5728 Into the Abyss (order 13)
+190 89388 Voidstorm                                lua= issues=0 
+191 92061 Rising Storm                             lua=rising_storm_chatter.lua issues=0 
+192 86543 Magisters' Terrace: Homecoming           lua= issues=0 
+193 86549 No Fear of the Dark                      lua=midnight_fallback_0data.lua,no_fear_of_the_dark.lu issues=0 
+194 86557 A Matter of Strife and Death             lua=strife_and_death.lua issues=0 
+195 86558 Save a Piece of Mind                     lua=save_piece_of_mind.lua issues=0 
+196 86559 The Far, Far Frontier                    lua=far_far_frontier.lua issues=0 
+197 86561 A Strange, Different World               lua=strange_world.lua issues=0 
+198 86562 Dancing with Death                       lua=dancing_death.lua issues=0 
+199 86565 No Prayer for the Wicked                 lua=no_prayer.lua issues=0 
+== questline 5729 The Night's Veil (order 14)
+200 86536 Reliable Enemies                         lua=reliable_enemies.lua issues=0 
+201 89249 Overwhelmed                              lua=overwhelmed.lua issues=0 
+202 86531 Work Disruption                          lua=midnight_fallback_0data.lua,work_disruption.lua issues=0 
+203 86530 First, The Shells                        lua=first_shells.lua,midnight_chain_offer.lua issues=0 
+204 86528 A Cracked Holokey                        lua=midnight_chain_offer.lua issues=1 no starter in creature/gameobject_queststarter (check item / auto-accept)
+205 86538 Second, The Fuel                         lua=fuel_network.lua issues=0 
+206 86537 Network Insecurity                       lua=fuel_network.lua issues=0 
+207 88768 Agents of Darkness                       lua=agents_of_darkness.lua issues=0 
+208 86540 Third, Blow It Up                        lua=blow_it_up.lua issues=0 
+209 86541 Just In Case...                          lua=just_in_case.lua issues=0 
+210 86542 Flicker in the Dark                      lua=midnight_poi_0data.lua issues=0 
+211 86544 Post-Mortem                              lua=midnight_fallback_0data.lua,post_mortem.lua issues=0 
+212 86545 The Light's Brand                        lua=light_brand.lua,midnight_fallback_0data.lua issues=0 
+213 86539 A Naaru!                                 lua=a_naaru.lua issues=0 
+== questline 5730 Dawn of Reckoning (order 15)
+214 86509 Friend or Fiend                          lua=friend_or_fiend.lua issues=0 
+215 86510 Domus Penumbra                           lua=domus_penumbra.lua,midnight_fallback_0data.lua issues=0 
+216 90571 The Lay of the Beast                     lua=lay_of_the_beast.lua,midnight_fallback_0data.lua issues=0 
+217 86511 Edge of the Abyss                        lua=edge_of_the_abyss.lua issues=0 
+218 86512 The Harvest                              lua=face_the_tide.lua,the_harvest.lua issues=0 
+219 86513 Face the Tide                            lua=face_the_tide.lua,midnight_fallback_0data.lua,the_ issues=0 
+220 86514 Lady of the Pit                          lua=lady_of_the_pit.lua,midnight_fallback_0data.lua,mi issues=0 
+221 86515 Hollow Hunger                            lua=hollow_hunger.lua issues=0 
+222 86516 All Become Prey                          lua=all_become_prey_vanished.lua issues=0 
+223 86517 Vanished in the Void                     lua=all_become_prey_vanished.lua issues=0 
+224 86518 The Mantle of Predation                  lua=mantle_of_predation.lua,midnight_fallback_0data.lu issues=0 
+225 86519 Abyssus, Abyssum                         lua= issues=0 
+226 86520 Hunt the Light                           lua=hunt_the_light.lua issues=0 
+227 86521 Nexus-Point Xenas: Eclipse               lua=midnight_fallback_0data.lua,midnight_poi_0data.lua issues=0 
+228 86522 Daylight is Breaking                     lua=hunt_the_light.lua issues=0 
+229 95276 The Last Push                            lua= issues=0 
+== questline 5979 The Darkening Sky (order 16)
+230 91854 Deepening Shadows                        lua=deepening_shadows.lua issues=0 
+231 91967 You Know This Evil?                      lua=you_know_this_evil.lua issues=0 
+232 91087 Reports Returned                         lua= issues=0 
+233 91084 Looming Shadows                          lua= issues=0 

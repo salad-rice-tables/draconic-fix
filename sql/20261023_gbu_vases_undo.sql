@@ -1,0 +1,1 @@
+DELETE FROM smart_scripts WHERE source_type=1 AND entryorguid=542849; DELETE FROM conditions WHERE SourceTypeOrReferenceId=22 AND SourceEntry=542849 AND SourceId=1; UPDATE gameobject_template SET AIName='' WHERE entry=542849;

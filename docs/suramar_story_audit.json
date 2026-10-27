@@ -1,0 +1,4003 @@
+{
+ "quests": 269,
+ "flagged": 172,
+ "rows": [
+  {
+   "quest": 44860,
+   "title": "Trolling Them",
+   "lines": [
+    283
+   ],
+   "block": 2,
+   "warn": 1,
+   "issues": [
+    [
+     "BLOCK",
+     "NO_ENDER",
+     ""
+    ],
+    [
+     "BLOCK",
+     "CHAIN_DISABLED",
+     "PrevQuestID=999999 sentinel, tdb prev=None"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 115609: no spawn, no KillCredit, no SAI/Lua credit"
+    ]
+   ]
+  },
+  {
+   "quest": 44859,
+   "title": "Liadrin's Command",
+   "lines": [
+    283
+   ],
+   "block": 2,
+   "warn": 0,
+   "issues": [
+    [
+     "BLOCK",
+     "NO_ENDER",
+     ""
+    ],
+    [
+     "BLOCK",
+     "CHAIN_DISABLED",
+     "PrevQuestID=999999 sentinel, tdb prev=None"
+    ]
+   ]
+  },
+  {
+   "quest": 44862,
+   "title": "Arming the Rebels",
+   "lines": [
+    283
+   ],
+   "block": 2,
+   "warn": 0,
+   "issues": [
+    [
+     "BLOCK",
+     "NO_ENDER",
+     ""
+    ],
+    [
+     "BLOCK",
+     "CHAIN_DISABLED",
+     "PrevQuestID=999999 sentinel, tdb prev=None"
+    ]
+   ]
+  },
+  {
+   "quest": 45063,
+   "title": "The Felsoul Experiments",
+   "lines": [
+    288
+   ],
+   "block": 1,
+   "warn": 5,
+   "issues": [
+    [
+     "BLOCK",
+     "NO_ENDER",
+     ""
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 115959: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 115965: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 115966: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 44919/0 next 45062/0 excl 0/0"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 42489,
+   "title": "Thalyssra's Drawers",
+   "lines": [
+    200
+   ],
+   "block": 1,
+   "warn": 2,
+   "issues": [
+    [
+     "BLOCK",
+     "GO_NOSPAWN",
+     "GO 251032 has no spawn"
+    ],
+    [
+     "WARN",
+     "REWARD_DIFF",
+     "RewardSpell,RewardItem2,RewardAmount2"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 44490,
+   "title": "Grimwing the Devourer",
+   "lines": [
+    340
+   ],
+   "block": 1,
+   "warn": 2,
+   "issues": [
+    [
+     "BLOCK",
+     "CHAIN_DISABLED",
+     "PrevQuestID=999999 sentinel, tdb prev=0"
+    ],
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 1 tdb 1"
+    ],
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 999999/0 next 0/0 excl 0/0"
+    ]
+   ]
+  },
+  {
+   "quest": 40947,
+   "title": "Special Delivery",
+   "lines": [
+    200
+   ],
+   "block": 1,
+   "warn": 1,
+   "issues": [
+    [
+     "BLOCK",
+     "NPC_NOQUESTFLAG",
+     "creature 132029 npcflag=1"
+    ],
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 41148/0 next 0/0 excl 0/0"
+    ]
+   ]
+  },
+  {
+   "quest": 41149,
+   "title": "A Re-Warding Effort",
+   "lines": [
+    153
+   ],
+   "block": 1,
+   "warn": 1,
+   "issues": [
+    [
+     "BLOCK",
+     "NO_ENDER",
+     ""
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 100059: no spawn, no KillCredit, no SAI/Lua credit"
+    ]
+   ]
+  },
+  {
+   "quest": 44873,
+   "title": "Oculeth Ex Machina",
+   "lines": [
+    283
+   ],
+   "block": 1,
+   "warn": 1,
+   "issues": [
+    [
+     "BLOCK",
+     "NO_ENDER",
+     ""
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 115365: no spawn, no KillCredit, no SAI/Lua credit"
+    ]
+   ]
+  },
+  {
+   "quest": 40949,
+   "title": "Not Their Last Stand",
+   "lines": [
+    342
+   ],
+   "block": 1,
+   "warn": 0,
+   "issues": [
+    [
+     "BLOCK",
+     "NPC_NOSPAWN",
+     "creature 106095 has no spawn"
+    ]
+   ]
+  },
+  {
+   "quest": 41462,
+   "title": "Trouble Has Huge Feet",
+   "lines": [
+    343
+   ],
+   "block": 1,
+   "warn": 0,
+   "issues": [
+    [
+     "BLOCK",
+     "NO_STARTER",
+     ""
+    ]
+   ]
+  },
+  {
+   "quest": 41607,
+   "title": "Taking a Promenade",
+   "lines": [
+    282
+   ],
+   "block": 1,
+   "warn": 0,
+   "issues": [
+    [
+     "BLOCK",
+     "CHAIN_DISABLED",
+     "PrevQuestID=999999 sentinel, tdb prev=None"
+    ]
+   ]
+  },
+  {
+   "quest": 43810,
+   "title": "Down to Business",
+   "lines": [
+    282
+   ],
+   "block": 1,
+   "warn": 0,
+   "issues": [
+    [
+     "BLOCK",
+     "GO_NOSPAWN",
+     "GO 252818 has no spawn"
+    ]
+   ]
+  },
+  {
+   "quest": 44489,
+   "title": "Lyana Darksorrow",
+   "lines": [
+    340
+   ],
+   "block": 1,
+   "warn": 0,
+   "issues": [
+    [
+     "BLOCK",
+     "CHAIN_DISABLED",
+     "PrevQuestID=999999 sentinel, tdb prev=None"
+    ]
+   ]
+  },
+  {
+   "quest": 44555,
+   "title": "Khadgar's Discovery",
+   "lines": [
+    152
+   ],
+   "block": 1,
+   "warn": 0,
+   "issues": [
+    [
+     "BLOCK",
+     "NO_STARTER",
+     ""
+    ]
+   ]
+  },
+  {
+   "quest": 41474,
+   "title": "Fertilizing the Future",
+   "lines": [
+    343
+   ],
+   "block": 0,
+   "warn": 11,
+   "issues": [
+    [
+     "WARN",
+     "GO_Z_OUTLIER",
+     "248114 z 159.7 vs map median 137.2 (map 1220)"
+    ],
+    [
+     "WARN",
+     "GO_Z_OUTLIER",
+     "248114 z 155.2 vs map median 137.2 (map 1220)"
+    ],
+    [
+     "WARN",
+     "GO_Z_OUTLIER",
+     "248114 z 155.3 vs map median 137.2 (map 1220)"
+    ],
+    [
+     "WARN",
+     "GO_Z_OUTLIER",
+     "248114 z 123.7 vs map median 137.2 (map 1220)"
+    ],
+    [
+     "WARN",
+     "GO_Z_OUTLIER",
+     "248114 z 112.6 vs map median 137.2 (map 1220)"
+    ],
+    [
+     "WARN",
+     "GO_Z_OUTLIER",
+     "248114 z 101.8 vs map median 137.2 (map 1220)"
+    ],
+    [
+     "WARN",
+     "GO_Z_OUTLIER",
+     "248114 z 102.1 vs map median 137.2 (map 1220)"
+    ],
+    [
+     "WARN",
+     "GO_Z_OUTLIER",
+     "248114 z 124.7 vs map median 137.2 (map 1220)"
+    ],
+    [
+     "WARN",
+     "GO_Z_OUTLIER",
+     "248114 z 98.4 vs map median 137.2 (map 1220)"
+    ],
+    [
+     "WARN",
+     "GO_Z_OUTLIER",
+     "248114 z 114.7 vs map median 137.2 (map 1220)"
+    ],
+    [
+     "WARN",
+     "GO_Z_OUTLIER",
+     "248114 z 118.9 vs map median 137.2 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 43567,
+   "title": "All In",
+   "lines": [
+    204
+   ],
+   "block": 0,
+   "warn": 11,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 9 tdb 4"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 113191: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 0: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 0: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 113070: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 0: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z -67.6 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 124.1 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 1.6 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 123.8 vs map median 85.6 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 41214,
+   "title": "Parts Unknown",
+   "lines": [
+    5817
+   ],
+   "block": 0,
+   "warn": 10,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 6 tdb 6"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "103437 z -86.9 vs map median -179.4 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "103437 z -193.8 vs map median -179.4 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "103437 z -210.8 vs map median -179.4 (map 1220)"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 247389 goober lock=1691 spell=205222 cond=19676"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 247390 goober lock=1691 spell=205221 cond=19676"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 247392 goober lock=1691 spell=205220 cond=19676"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 247393 goober lock=1691 spell=205219 cond=19676"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 247394 goober lock=1691 spell=205218 cond=19676"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 247395 goober lock=1691 spell=205217 cond=19676"
+    ]
+   ]
+  },
+  {
+   "quest": 38695,
+   "title": "Crackdown",
+   "lines": [
+    285
+   ],
+   "block": 0,
+   "warn": 7,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 5 tdb 5"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 115036: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "92850 z 16.7 vs map median 35.3 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "92850 z 53.1 vs map median 35.3 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "98548 z 96.3 vs map median 124.0 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "114948 z 33.0 vs map median 7.7 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "114948 z 33.0 vs map median 7.7 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 40328,
+   "title": "A Fate Worse Than Dying",
+   "lines": [
+    340
+   ],
+   "block": 0,
+   "warn": 7,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 2 tdb 2"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 246568 goober lock=1691 spell=202915 cond=21400"
+    ],
+    [
+     "WARN",
+     "GO_Z_OUTLIER",
+     "246568 z 57.0 vs map median 85.2 (map 1220)"
+    ],
+    [
+     "WARN",
+     "GO_Z_OUTLIER",
+     "246568 z 58.6 vs map median 85.2 (map 1220)"
+    ],
+    [
+     "WARN",
+     "GO_Z_OUTLIER",
+     "246568 z 62.7 vs map median 85.2 (map 1220)"
+    ],
+    [
+     "WARN",
+     "GO_Z_OUTLIER",
+     "246568 z 63.0 vs map median 85.2 (map 1220)"
+    ],
+    [
+     "WARN",
+     "GO_Z_OUTLIER",
+     "246568 z 56.9 vs map median 85.2 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 44752,
+   "title": "Essence Triangulation",
+   "lines": [
+    287
+   ],
+   "block": 0,
+   "warn": 7,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 115309: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 115310: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 115311: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 115314: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 115315: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 115316: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 115317: no spawn, no KillCredit, no SAI/Lua credit"
+    ]
+   ]
+  },
+  {
+   "quest": 38720,
+   "title": "No Reason to Stay",
+   "lines": [
+    285
+   ],
+   "block": 0,
+   "warn": 6,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 7 tdb 7"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 115992: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 115991: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 116013: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "114948 z 33.0 vs map median 7.7 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "114948 z 33.0 vs map median 7.7 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 40747,
+   "title": "The Delicate Art of Telemancy",
+   "lines": [
+    154
+   ],
+   "block": 0,
+   "warn": 6,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 7 tdb 7"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 101542: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 101675: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 101687: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 101693: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 101694: no spawn, no KillCredit, no SAI/Lua credit"
+    ]
+   ]
+  },
+  {
+   "quest": 40748,
+   "title": "Network Security",
+   "lines": [
+    154
+   ],
+   "block": 0,
+   "warn": 6,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 6 tdb 6"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 101703: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 101782: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 101896: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 246297 goober lock=1690 spell=0 cond=104222"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 246328 goober lock=1690 spell=0 cond=104222"
+    ]
+   ]
+  },
+  {
+   "quest": 43568,
+   "title": "Arcan'dor, Gift of the Ancient Magi",
+   "lines": [
+    204
+   ],
+   "block": 0,
+   "warn": 6,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 4 tdb 4"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z -67.6 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 124.1 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 1.6 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 123.8 vs map median 85.6 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 41028,
+   "title": "Power Grid",
+   "lines": [
+    155
+   ],
+   "block": 0,
+   "warn": 5,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 10 tdb 10"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 246886 goober lock=1690 spell=203389 cond=105601"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 246913 goober lock=1690 spell=203389 cond=105601"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 246914 goober lock=1690 spell=203389 cond=105601"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 246916 goober lock=1690 spell=203389 cond=105601"
+    ]
+   ]
+  },
+  {
+   "quest": 42396,
+   "title": "Do The Thing!",
+   "lines": [
+    5815
+   ],
+   "block": 0,
+   "warn": 5,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 108711: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 107305: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 107306: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 107304: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 107307: no spawn, no KillCredit, no SAI/Lua credit"
+    ]
+   ]
+  },
+  {
+   "quest": 43362,
+   "title": "The Stuff of Dreams",
+   "lines": [
+    203
+   ],
+   "block": 0,
+   "warn": 5,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 3 tdb 3"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z -67.6 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 124.1 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 1.6 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 123.8 vs map median 85.6 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 44719,
+   "title": "Breaching the Sanctum",
+   "lines": [
+    292
+   ],
+   "block": 0,
+   "warn": 5,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 12 tdb 3"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 115111: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 115112: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 44964/0 next 45417/0 excl 0/0"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 44833,
+   "title": "The Seal's Power",
+   "lines": [
+    279
+   ],
+   "block": 0,
+   "warn": 5,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 4 tdb 3"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 116504: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "115524 z -66.9 vs map median 12.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "115524 z 163.2 vs map median 12.6 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 38692,
+   "title": "Answering Aggression",
+   "lines": [
+    285
+   ],
+   "block": 0,
+   "warn": 4,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "92850 z 16.7 vs map median 35.3 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "92850 z 53.1 vs map median 35.3 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "114948 z 33.0 vs map median 7.7 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "114948 z 33.0 vs map median 7.7 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 40745,
+   "title": "Shift Change",
+   "lines": [
+    200
+   ],
+   "block": 0,
+   "warn": 4,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 3 tdb 3"
+    ],
+    [
+     "WARN",
+     "REWARD_DIFF",
+     "RewardSpell,RewardItem2,RewardAmount2"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "108063 z 124.3 vs map median 3.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 250991 goober lock=2551 spell=82238 cond=0"
+    ]
+   ]
+  },
+  {
+   "quest": 40956,
+   "title": "Survey Says...",
+   "lines": [
+    154
+   ],
+   "block": 0,
+   "warn": 4,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 102545: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 106686: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 44691/0 next 0/0 excl 0/0"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "98548 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 41309,
+   "title": "Mangelrath",
+   "lines": [
+    5817
+   ],
+   "block": 0,
+   "warn": 4,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 3 tdb 3"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "103437 z -86.9 vs map median -179.4 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "103437 z -193.8 vs map median -179.4 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "103437 z -210.8 vs map median -179.4 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 41452,
+   "title": "Feline Frantic",
+   "lines": [
+    343
+   ],
+   "block": 0,
+   "warn": 4,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 104388: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 104391: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 104389: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 104390: no spawn, no KillCredit, no SAI/Lua credit"
+    ]
+   ]
+  },
+  {
+   "quest": 42226,
+   "title": "Moonshade Holdout",
+   "lines": [
+    158
+   ],
+   "block": 0,
+   "warn": 4,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z -67.6 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 124.1 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 1.6 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 123.8 vs map median 85.6 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 42227,
+   "title": "Into the Crevasse",
+   "lines": [
+    158
+   ],
+   "block": 0,
+   "warn": 4,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z -67.6 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 124.1 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 1.6 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 123.8 vs map median 85.6 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 42228,
+   "title": "The Hidden City",
+   "lines": [
+    158
+   ],
+   "block": 0,
+   "warn": 4,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z -67.6 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 124.1 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 1.6 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 123.8 vs map median 85.6 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 42486,
+   "title": "Little One Lost",
+   "lines": [
+    200
+   ],
+   "block": 0,
+   "warn": 4,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 1 tdb 1"
+    ],
+    [
+     "WARN",
+     "REWARD_DIFF",
+     "RewardSpell,RewardItem2,RewardAmount2"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107712 z 124.3 vs map median 3.1 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "108063 z 124.3 vs map median 3.6 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 42487,
+   "title": "Friends On the Outside",
+   "lines": [
+    200
+   ],
+   "block": 0,
+   "warn": 4,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 2 tdb 2"
+    ],
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 42486/0 next 0/0 excl 0/0"
+    ],
+    [
+     "WARN",
+     "REWARD_DIFF",
+     "RewardSpell,RewardItem1,RewardAmount1"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 42828,
+   "title": "Moths to a Flame",
+   "lines": [
+    201
+   ],
+   "block": 0,
+   "warn": 4,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z -67.6 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 124.1 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 1.6 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 123.8 vs map median 85.6 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 42832,
+   "title": "The Fruit of Our Efforts",
+   "lines": [
+    201
+   ],
+   "block": 0,
+   "warn": 4,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 109207: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 109208: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 109209: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "REWARD_DIFF",
+     "RewardSpell,RewardItem1,RewardAmount1"
+    ]
+   ]
+  },
+  {
+   "quest": 43313,
+   "title": "Rumor Has It",
+   "lines": [
+    202
+   ],
+   "block": 0,
+   "warn": 4,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 4 tdb 4"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 0: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107632 z 85.0 vs map median 21.3 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107632 z 3.2 vs map median 21.3 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 43502,
+   "title": "A Change of Seasons",
+   "lines": [
+    204
+   ],
+   "block": 0,
+   "warn": 4,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z -67.6 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 124.1 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 1.6 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 123.8 vs map median 85.6 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 44152,
+   "title": "A Growing Crisis",
+   "lines": [
+    203
+   ],
+   "block": 0,
+   "warn": 4,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z -67.6 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 124.1 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 1.6 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 123.8 vs map median 85.6 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 44156,
+   "title": "Another Arcan'dor Closes...",
+   "lines": [
+    203
+   ],
+   "block": 0,
+   "warn": 4,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z -67.6 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 124.1 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 1.6 vs map median 85.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107126 z 123.8 vs map median 85.6 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 44756,
+   "title": "Sign of the Dusk Lily",
+   "lines": [
+    287
+   ],
+   "block": 0,
+   "warn": 4,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 1 tdb 1"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ],
+    [
+     "WARN",
+     "GO_LUA_ONLY",
+     "GO 97140 has no spawn (Lua handles it)"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 266138 goober lock=2063 spell=0 cond=0"
+    ]
+   ]
+  },
+  {
+   "quest": 44832,
+   "title": "Scouting the Breach",
+   "lines": [
+    279
+   ],
+   "block": 0,
+   "warn": 4,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 4 tdb 4"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "115524 z -66.9 vs map median 12.6 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "115524 z 163.2 vs map median 12.6 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 44964,
+   "title": "I'll Just Leave This Here",
+   "lines": [
+    292
+   ],
+   "block": 0,
+   "warn": 4,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 266407 goober lock=43 spell=231944 cond=35196"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 266703 goober lock=43 spell=0 cond=35196"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 266704 goober lock=43 spell=231944 cond=35196"
+    ]
+   ]
+  },
+  {
+   "quest": 45065,
+   "title": "Survey the City",
+   "lines": [
+    288
+   ],
+   "block": 0,
+   "warn": 4,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 3 tdb 2"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 116020: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 45067/0 next 0/0 excl 0/0"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "98548 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 45316,
+   "title": "Stabilizing Suramar",
+   "lines": [
+    282
+   ],
+   "block": 0,
+   "warn": 4,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 1 tdb 1"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 55740: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ],
+    [
+     "WARN",
+     "GO_LUA_ONLY",
+     "GO 97140 has no spawn (Lua handles it)"
+    ]
+   ]
+  },
+  {
+   "quest": 41140,
+   "title": "Search and Rescue!",
+   "lines": [
+    5817
+   ],
+   "block": 0,
+   "warn": 3,
+   "issues": [
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 247062 goober lock=1691 spell=0 cond=21400"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 247291 goober lock=1691 spell=0 cond=21400"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 247292 goober lock=1691 spell=0 cond=21400"
+    ]
+   ]
+  },
+  {
+   "quest": 41143,
+   "title": "Mglrgrs Of Our Grmlgrlr",
+   "lines": [
+    5815
+   ],
+   "block": 0,
+   "warn": 3,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 108918: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 109982: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 109983: no spawn, no KillCredit, no SAI/Lua credit"
+    ]
+   ]
+  },
+  {
+   "quest": 41148,
+   "title": "Dispensing Compassion",
+   "lines": [
+    200
+   ],
+   "block": 0,
+   "warn": 3,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 6 tdb 6"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 107636: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 40746/0 next 0/0 excl 0/0"
+    ]
+   ]
+  },
+  {
+   "quest": 41222,
+   "title": "Into The Pit!",
+   "lines": [
+    5817
+   ],
+   "block": 0,
+   "warn": 3,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "103437 z -86.9 vs map median -179.4 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "103437 z -193.8 vs map median -179.4 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "103437 z -210.8 vs map median -179.4 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 41704,
+   "title": "Subject 16",
+   "lines": [
+    153
+   ],
+   "block": 0,
+   "warn": 3,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 1 tdb 1"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 255908: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 41877,
+   "title": "Lady Lunastre",
+   "lines": [
+    200
+   ],
+   "block": 0,
+   "warn": 3,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107632 z 85.0 vs map median 21.3 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107632 z 3.2 vs map median 21.3 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 42728,
+   "title": "A Mlrglrmg For Grlmrgl",
+   "lines": [
+    5815
+   ],
+   "block": 0,
+   "warn": 3,
+   "issues": [
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 251324 goober lock=43 spell=216119 cond=81646"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 251329 goober lock=43 spell=216119 cond=81646"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 251334 goober lock=43 spell=215541 cond=81646"
+    ]
+   ]
+  },
+  {
+   "quest": 42829,
+   "title": "Make an Entrance",
+   "lines": [
+    201
+   ],
+   "block": 0,
+   "warn": 3,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 3 tdb 3"
+    ],
+    [
+     "WARN",
+     "REWARD_DIFF",
+     "RewardSpell,RewardItem2,RewardAmount2"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 42834,
+   "title": "Intense Concentration",
+   "lines": [
+    201
+   ],
+   "block": 0,
+   "warn": 3,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 3 tdb 3"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 251556 goober lock=43 spell=217640 cond=0"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 251566 goober lock=43 spell=0 cond=0"
+    ]
+   ]
+  },
+  {
+   "quest": 42889,
+   "title": "The Way Back Home",
+   "lines": [
+    285
+   ],
+   "block": 0,
+   "warn": 3,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 1 tdb 1"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 115049: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 43309,
+   "title": "The Perfect Opportunity",
+   "lines": [
+    202
+   ],
+   "block": 0,
+   "warn": 3,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107632 z 85.0 vs map median 21.3 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107632 z 3.2 vs map median 21.3 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 43318,
+   "title": "Ly'leth's Champion",
+   "lines": [
+    202
+   ],
+   "block": 0,
+   "warn": 3,
+   "issues": [
+    [
+     "WARN",
+     "REWARD_DIFF",
+     "RewardItem2,RewardAmount2"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107632 z 85.0 vs map median 21.3 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107632 z 3.2 vs map median 21.3 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 43564,
+   "title": "Flow Control",
+   "lines": [
+    204
+   ],
+   "block": 0,
+   "warn": 3,
+   "issues": [
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 252776 goober lock=1690 spell=0 cond=120364"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 252779 goober lock=1690 spell=0 cond=120364"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 252783 goober lock=1690 spell=0 cond=120364"
+    ]
+   ]
+  },
+  {
+   "quest": 43565,
+   "title": "Bring Home the Beacon",
+   "lines": [
+    204
+   ],
+   "block": 0,
+   "warn": 3,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 3 tdb 3"
+    ],
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 43562/0 next 0/0 excl 0/0"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "98548 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 43969,
+   "title": "Hired Help",
+   "lines": [
+    201
+   ],
+   "block": 0,
+   "warn": 3,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 3 tdb 3"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 109415: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 109416: no spawn, no KillCredit, no SAI/Lua credit"
+    ]
+   ]
+  },
+  {
+   "quest": 44672,
+   "title": "Ancient Mana",
+   "lines": [
+    152
+   ],
+   "block": 0,
+   "warn": 3,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 1 tdb 1"
+    ],
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 42229/0 next 0/0 excl 0/0"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 44722,
+   "title": "Disillusioned Defector",
+   "lines": [
+    286
+   ],
+   "block": 0,
+   "warn": 3,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "114948 z 33.0 vs map median 7.7 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "114948 z 33.0 vs map median 7.7 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 38649,
+   "title": "Silence in the City",
+   "lines": [
+    285
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "98548 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 38694,
+   "title": "Regroup",
+   "lines": [
+    285
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "114948 z 33.0 vs map median 7.7 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "114948 z 33.0 vs map median 7.7 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 39987,
+   "title": "Trail of Echoes",
+   "lines": [
+    152
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 5 tdb 5"
+    ],
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 39986/0 next 40123/0 excl 0/0"
+    ]
+   ]
+  },
+  {
+   "quest": 40011,
+   "title": "Oculeth's Workshop",
+   "lines": [
+    154
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 41760/0 next 40747/0 excl 0/0"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 40470,
+   "title": "Quality of Life",
+   "lines": [
+    5820
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 3 tdb 3"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 40746,
+   "title": "One of the People",
+   "lines": [
+    200
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107632 z 85.0 vs map median 21.3 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107632 z 3.2 vs map median 21.3 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 40830,
+   "title": "Close Enough",
+   "lines": [
+    154
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 2 tdb 2"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 40901,
+   "title": "Grimwing the Devourer",
+   "lines": [
+    340
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 1 tdb 1"
+    ],
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 40898/0 next 0/0 excl 0/0"
+    ]
+   ]
+  },
+  {
+   "quest": 40927,
+   "title": "Jandvik's Last Hope",
+   "lines": [
+    341
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 3 tdb 3"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 102389: no spawn, no KillCredit, no SAI/Lua credit"
+    ]
+   ]
+  },
+  {
+   "quest": 40963,
+   "title": "Take Them in Claw",
+   "lines": [
+    342
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 1 tdb 1"
+    ],
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 40883/0 next 0/0 excl 0/0"
+    ]
+   ]
+  },
+  {
+   "quest": 40965,
+   "title": "Lay Waste, Lay Mines",
+   "lines": [
+    342
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 2 tdb 2"
+    ],
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 40967/0 next 0/0 excl 0/0"
+    ]
+   ]
+  },
+  {
+   "quest": 40971,
+   "title": "Overwhelming Distraction",
+   "lines": [
+    342
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 111657: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 40970/0 next 0/0 excl 0/0"
+    ]
+   ]
+  },
+  {
+   "quest": 40972,
+   "title": "Last Stand of the Moon Guard",
+   "lines": [
+    342
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 1 tdb 1"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 41453,
+   "title": "Homeward Bounding",
+   "lines": [
+    343
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 2 tdb 2"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 103712: no spawn, no KillCredit, no SAI/Lua credit"
+    ]
+   ]
+  },
+  {
+   "quest": 41485,
+   "title": "Moonwhisper Rescue",
+   "lines": [
+    343
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 41480/0 next 0/0 excl 0/0"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "103571 z 135.0 vs map median 109.7 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 42147,
+   "title": "First Contact",
+   "lines": [
+    156
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 42079/0 next 0/0 excl 0/0"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 42366,
+   "title": "The Bigger They Are, The Harder They Fel",
+   "lines": [
+    5818
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 2 tdb 2"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 42488,
+   "title": "Thalyssra's Abode",
+   "lines": [
+    200
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "REWARD_DIFF",
+     "RewardItem2,RewardAmount2,RewardItem3,RewardAmount3"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 42722,
+   "title": "Friends in Cages",
+   "lines": [
+    200
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "REWARD_DIFF",
+     "RewardSpell"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "108063 z 124.3 vs map median 3.6 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 42835,
+   "title": "The Old Fashioned Way",
+   "lines": [
+    201
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 2 tdb 2"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 251494 goober lock=1691 spell=217329 cond=0"
+    ]
+   ]
+  },
+  {
+   "quest": 42841,
+   "title": "A Big Score",
+   "lines": [
+    201
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "REWARD_DIFF",
+     "RewardItem2,RewardAmount2"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 251626 goober lock=1690 spell=142439 cond=0"
+    ]
+   ]
+  },
+  {
+   "quest": 43310,
+   "title": "Either With Us",
+   "lines": [
+    202
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107632 z 85.0 vs map median 21.3 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107632 z 3.2 vs map median 21.3 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 43317,
+   "title": "In the Bag",
+   "lines": [
+    202
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107632 z 85.0 vs map median 21.3 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107632 z 3.2 vs map median 21.3 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 43352,
+   "title": "Asset Security",
+   "lines": [
+    201
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 2 tdb 2"
+    ],
+    [
+     "WARN",
+     "REWARD_DIFF",
+     "RewardSpell,RewardItem2,RewardAmount2"
+    ]
+   ]
+  },
+  {
+   "quest": 44040,
+   "title": "Vote of Confidence",
+   "lines": [
+    202
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107632 z 85.0 vs map median 21.3 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "107632 z 3.2 vs map median 21.3 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 44053,
+   "title": "Friends With Benefits",
+   "lines": [
+    202
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "111903 z 3.2 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 44691,
+   "title": "Hungry Work",
+   "lines": [
+    154
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "98548 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 44727,
+   "title": "Smuggled!",
+   "lines": [
+    286
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 3 tdb 3"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 265521 goober lock=1691 spell=228926 cond=21400"
+    ]
+   ]
+  },
+  {
+   "quest": 44736,
+   "title": "Gates of the Nighthold",
+   "lines": [
+    279
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "115039 z 98.1 vs map median 85.3 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 44738,
+   "title": "Full Might of the Elves",
+   "lines": [
+    284
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 9 tdb 1"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "115039 z 98.1 vs map median 85.3 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 44740,
+   "title": "Staging Point",
+   "lines": [
+    284
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "115039 z 98.1 vs map median 85.3 (map 1220)"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 266009 goober lock=43 spell=229400 cond=27700"
+    ]
+   ]
+  },
+  {
+   "quest": 44753,
+   "title": "On Public Display",
+   "lines": [
+    287
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 8 tdb 8"
+    ],
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 115576: no spawn, no KillCredit, no SAI/Lua credit"
+    ]
+   ]
+  },
+  {
+   "quest": 44754,
+   "title": "Waxing Crescent",
+   "lines": [
+    287
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 44753/0 next 0/0 excl 0/0"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 266138 goober lock=2063 spell=0 cond=0"
+    ]
+   ]
+  },
+  {
+   "quest": 44814,
+   "title": "Waning Refuge",
+   "lines": [
+    286
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "114948 z 33.0 vs map median 7.7 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "114948 z 33.0 vs map median 7.7 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 44918,
+   "title": "A Message From Our Enemies",
+   "lines": [
+    288
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ],
+    [
+     "WARN",
+     "GO_TEMPLATE_BLOCK",
+     "GO 266207 goober lock=0 spell=231698 cond=0"
+    ]
+   ]
+  },
+  {
+   "quest": 45062,
+   "title": "Resisting Arrest",
+   "lines": [
+    288
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 45063/0 next 0/0 excl 0/0"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 45064,
+   "title": "Felborne No More",
+   "lines": [
+    288
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 45066/0 next 0/0 excl 0/0"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 45066,
+   "title": "Experimental Instability",
+   "lines": [
+    288
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 116030: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "98548 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 45067,
+   "title": "Telemantic Expanse",
+   "lines": [
+    288
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "98548 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 45209,
+   "title": "Those Scrying Eyes",
+   "lines": [
+    279
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 116345: no spawn, no KillCredit, no SAI/Lua credit"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 45260,
+   "title": "One Day at a Time",
+   "lines": [
+    285
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 45271/0 next 38649/0 excl 0/0"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 45261,
+   "title": "Continuing the Cure",
+   "lines": [
+    286
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 44955/0 next 0/0 excl 0/0"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 45262,
+   "title": "A Message From Ly'leth",
+   "lines": [
+    287
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 44814/0 next 44742/0 excl 0/0"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 45263,
+   "title": "Eating Before the Meeting",
+   "lines": [
+    282
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 45316/0 next 0/0 excl 0/0"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 45265,
+   "title": "Feeding the Rebellion",
+   "lines": [
+    283
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 44845/0 next 0/0 excl 0/0"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 45266,
+   "title": "A United Front",
+   "lines": [
+    284
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 44790/0 next 44739/0 excl 0/0"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 45267,
+   "title": "Before the Siege",
+   "lines": [
+    279
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 44740/0 next 44736/0 excl 0/0"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 45268,
+   "title": "The Advisor and the Arcanist",
+   "lines": [
+    288
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 44833/0 next 44918/0 excl 0/0"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 45269,
+   "title": "A Taste of Freedom",
+   "lines": [
+    292
+   ],
+   "block": 0,
+   "warn": 2,
+   "issues": [
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 45064/0 next 0/0 excl 0/0"
+    ],
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 39985,
+   "title": "Khadgar's Discovery",
+   "lines": [
+    152
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "PHASE_NOFLAG",
+     "creature 111109 phase 7138 missing hotfixes.phase row"
+    ]
+   ]
+  },
+  {
+   "quest": 40008,
+   "title": "The Only Way Out is Through",
+   "lines": [
+    152
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 2 tdb 1"
+    ]
+   ]
+  },
+  {
+   "quest": 40010,
+   "title": "Tapping the Leylines",
+   "lines": [
+    155
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 40012,
+   "title": "An Old Ally",
+   "lines": [
+    153
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 40123,
+   "title": "The Nightborne Pact",
+   "lines": [
+    152
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "REWARD_DIFF",
+     "RewardSpell"
+    ]
+   ]
+  },
+  {
+   "quest": 40125,
+   "title": "Branch of the Arcan'dor",
+   "lines": [
+    203
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 40320,
+   "title": "Band of Blood Brothers",
+   "lines": [
+    341
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 3 tdb 3"
+    ]
+   ]
+  },
+  {
+   "quest": 40321,
+   "title": "Feathersong's Redemption",
+   "lines": [
+    339
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 40319/0 next 0/0 excl 0/0"
+    ]
+   ]
+  },
+  {
+   "quest": 40324,
+   "title": "Arcane Communion",
+   "lines": [
+    158
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 40325,
+   "title": "Scenes from a Memory",
+   "lines": [
+    158
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 40326,
+   "title": "Scattered Memories",
+   "lines": [
+    153
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 114258: no spawn, no KillCredit, no SAI/Lua credit"
+    ]
+   ]
+  },
+  {
+   "quest": 40336,
+   "title": "Turning the Tidemistress",
+   "lines": [
+    341
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 104730: no spawn, no KillCredit, no SAI/Lua credit"
+    ]
+   ]
+  },
+  {
+   "quest": 40370,
+   "title": "Purge the Unclean",
+   "lines": [
+    5766
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 40348/0 next 0/0 excl 0/0"
+    ]
+   ]
+  },
+  {
+   "quest": 40391,
+   "title": "Take Me To Your Leader",
+   "lines": [
+    282
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 40632,
+   "title": "Take Me To Your Leader",
+   "lines": [
+    282
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 102127: no spawn, no KillCredit, no SAI/Lua credit"
+    ]
+   ]
+  },
+  {
+   "quest": 40727,
+   "title": "All Along the Waterways",
+   "lines": [
+    200
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "REWARD_DIFF",
+     "RewardSpell,RewardItem2,RewardAmount2"
+    ]
+   ]
+  },
+  {
+   "quest": 40730,
+   "title": "Redistribution",
+   "lines": [
+    200
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "REWARD_DIFF",
+     "RewardItem1,RewardAmount1"
+    ]
+   ]
+  },
+  {
+   "quest": 40798,
+   "title": "Cling to Hope",
+   "lines": [
+    5816
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 40796/0 next 0/0 excl 0/0"
+    ]
+   ]
+  },
+  {
+   "quest": 40907,
+   "title": "Removing Obstacles",
+   "lines": [
+    341
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "REWARD_DIFF",
+     "RewardFactionID1,RewardFactionValue1,RewardFactionID2,RewardFactionValue2"
+    ]
+   ]
+  },
+  {
+   "quest": 40919,
+   "title": "Fel Bent for Leather",
+   "lines": [
+    5818
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 40713/0 next 0/0 excl 0/0"
+    ]
+   ]
+  },
+  {
+   "quest": 41030,
+   "title": "Sigil Reclamation",
+   "lines": [
+    342
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 40883/0 next 0/0 excl 0/0"
+    ]
+   ]
+  },
+  {
+   "quest": 41409,
+   "title": "Timing Is Everything",
+   "lines": [
+    5821
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 2 tdb 2"
+    ]
+   ]
+  },
+  {
+   "quest": 41469,
+   "title": "Return to Irongrove Retreat",
+   "lines": [
+    343
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "103571 z 135.0 vs map median 109.7 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 41478,
+   "title": "The Final Blessing",
+   "lines": [
+    343
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "103571 z 135.0 vs map median 109.7 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 41479,
+   "title": "Natural Adversaries",
+   "lines": [
+    343
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "103571 z 135.0 vs map median 109.7 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 41480,
+   "title": "Managazer",
+   "lines": [
+    343
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "103571 z 135.0 vs map median 109.7 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 41494,
+   "title": "Eminent Grow-main",
+   "lines": [
+    343
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 41469/0 next 0/0 excl 0/0"
+    ]
+   ]
+  },
+  {
+   "quest": 41760,
+   "title": "Kel'danath's Legacy",
+   "lines": [
+    153
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 41762,
+   "title": "Sympathizers Among the Shal'dorei",
+   "lines": [
+    156
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 41915,
+   "title": "The Master's Legacy",
+   "lines": [
+    5822
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 2 tdb 2"
+    ]
+   ]
+  },
+  {
+   "quest": 42079,
+   "title": "Masquerade",
+   "lines": [
+    156
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 41989/0 next 42147/0 excl 0/0"
+    ]
+   ]
+  },
+  {
+   "quest": 42223,
+   "title": "Scouting the Crimson Thicket",
+   "lines": [
+    5819
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "103571 z 135.0 vs map median 109.7 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 42224,
+   "title": "Cloaked in Moonshade",
+   "lines": [
+    158
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 42229,
+   "title": "Shal'Aran",
+   "lines": [
+    152
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 42230,
+   "title": "The Valewalker's Burden",
+   "lines": [
+    158
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "GO_LUA_ONLY",
+     "GO 251047 has no spawn (Lua handles it)"
+    ]
+   ]
+  },
+  {
+   "quest": 42792,
+   "title": "Make Your Mark",
+   "lines": [
+    201
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "REWARD_DIFF",
+     "RewardItem2,RewardAmount2"
+    ]
+   ]
+  },
+  {
+   "quest": 42833,
+   "title": "How It's Made: Arcwine",
+   "lines": [
+    201
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "REWARD_DIFF",
+     "RewardItem1,RewardAmount1"
+    ]
+   ]
+  },
+  {
+   "quest": 42838,
+   "title": "Reversal",
+   "lines": [
+    201
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 1 tdb 1"
+    ]
+   ]
+  },
+  {
+   "quest": 42839,
+   "title": "Seek the Unsavory",
+   "lines": [
+    201
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 43562,
+   "title": "Giving It All We've Got",
+   "lines": [
+    204
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 8 tdb 8"
+    ]
+   ]
+  },
+  {
+   "quest": 43582,
+   "title": "Shalassic Park",
+   "lines": [
+    5819
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 3 tdb 3"
+    ]
+   ]
+  },
+  {
+   "quest": 44052,
+   "title": "And They Will Tremble",
+   "lines": [
+    201
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 44084,
+   "title": "Vengeance for Margaux",
+   "lines": [
+    201
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 44723,
+   "title": "More Like Me",
+   "lines": [
+    286
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 44724/0 next 0/0 excl 0/0"
+    ]
+   ]
+  },
+  {
+   "quest": 44725,
+   "title": "Hostage Situation",
+   "lines": [
+    286
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_DIFF",
+     "world 2 tdb 2"
+    ]
+   ]
+  },
+  {
+   "quest": 44739,
+   "title": "Ready for Battle",
+   "lines": [
+    284
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 44742,
+   "title": "Tavernkeeper's Fate",
+   "lines": [
+    287
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 44743,
+   "title": "Tyrande's Command",
+   "lines": [
+    283
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 44822,
+   "title": "Temporal Investigations",
+   "lines": [
+    279
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "115039 z 98.1 vs map median 85.3 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 44842,
+   "title": "Shield, Meet Spell",
+   "lines": [
+    282
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 44834/0 next 0/0 excl 0/0"
+    ]
+   ]
+  },
+  {
+   "quest": 44858,
+   "title": "Trolling Them",
+   "lines": [
+    283
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "OBJ_NO_CREDIT",
+     "obj creature 115609: no spawn, no KillCredit, no SAI/Lua credit"
+    ]
+   ]
+  },
+  {
+   "quest": 44870,
+   "title": "Mouths to Feed",
+   "lines": [
+    283
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 44919,
+   "title": "A Challenge From Our Enemies",
+   "lines": [
+    288
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  },
+  {
+   "quest": 44928,
+   "title": "Something's Not Quite Right...",
+   "lines": [
+    283
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "CHAIN_DIFF",
+     "prev 44858/0 next 0/0 excl 0/0"
+    ]
+   ]
+  },
+  {
+   "quest": 44955,
+   "title": "Visitor in Shal'Aran",
+   "lines": [
+    285
+   ],
+   "block": 0,
+   "warn": 1,
+   "issues": [
+    [
+     "WARN",
+     "NPC_Z_OUTLIER",
+     "97140 z 96.3 vs map median 124.0 (map 1220)"
+    ]
+   ]
+  }
+ ]
+}

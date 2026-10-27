@@ -1,5 +1,5 @@
 -- =====================================================================
--- Descend Challenges. A Challenge Master (9900133, starting areas and
+-- Ascension Challenges. A Challenge Master (9900133, starting areas and
 -- capital inns) lets a character up to level 10 take on challenges; each
 -- active one pays extra at levels 20/40/60/80 and grants a title at 90.
 --   hardcore  one death and the character stays a ghost for good
@@ -59,7 +59,7 @@ local function Fail(player, key, why)
     player:SendBroadcastMessage(TAG .. "|cffff4040" .. BY_KEY[key].name .. " failed:|r " .. why)
 end
 
--- XP factor used by the single XP hook in descend_world.lua
+-- XP factor used by the single XP hook in ascension_world.lua
 function CHALLENGE_XPFactor(player)
     return Active(player, "slow") and 0.5 or 1.0
 end
@@ -173,22 +173,64 @@ local function Show(player, creature)
             "Be reborn at level 1? Your collections, titles, runes and reputation stay. Your Hero build starts over.")
     end
     player:GossipMenuAddItem(0, "What are challenges?", 0, 50)
+    player:GossipMenuAddItem(0, "|cffff8000Reset my challenges (if bugged).|r Hardcore death stays.", 0, 70, false,
+        "Delete all my challenge states except a Hardcore death? Use only when something broke.")
     player:GossipSendMenu(1, creature)
 end
 
+-- actions shared by gossip menu, addon window and chat (single source of truth)
+local function HasUI(player)
+    if HERO_HasUI then local ok, v = pcall(HERO_HasUI, player); if ok then return v end end
+    return false
+end
+local function SendWindow(player)
+    -- CHALOPEN;key:status,...;canStart:0/1  (status: -=none, A, D, F, P)
+    local st = State(player)
+    local parts = {}
+    for _, m in ipairs(MODES) do
+        local s = st[m.key]
+        parts[#parts + 1] = m.key .. ":" .. (not s and "-" or (s.status == ACTIVE and "A" or (s.status == DONE and "D" or (s.status == PERISHED and "P" or "F"))))
+    end
+    parts[#parts + 1] = "canStart:" .. (player:GetLevel() <= MAX_START and "1" or "0")
+    pcall(function() player:SendAddonMessage("WCARD", "CHALOPEN;" .. table.concat(parts, ","), 7, player) end)
+end
+local function TakeChallenge(player, key)
+    local m = BY_KEY[key]
+    if not m then return end
+    local s = State(player)[m.key]
+    if not s and player:GetLevel() <= MAX_START then
+        Save(player, m.key, ACTIVE, 0)
+        player:SendBroadcastMessage(TAG .. "You took the |cffc41e3a" .. m.name .. "|r challenge. " .. m.desc ..
+            " Rewards at levels 20, 40, 60, 80 and a title at " .. FINAL .. ".")
+        if m.key == "lonewolf" or m.key == "ironman" then pcall(function() player:RemoveFromGroup() end) end
+    elseif s and s.status == ACTIVE then
+        -- abandon = toggle OFF (row deleted, can be taken again); FAILED stays
+        -- only for rule violations via Fail() and is permanent
+        pcall(CharDBExecute, string.format("DELETE FROM characters.hero_challenge WHERE name = '%s' AND mode = '%s'", Key(player), m.key))
+        State(player)[m.key] = nil
+        player:SendBroadcastMessage(TAG .. "You abandoned " .. m.name .. ". You can take it again.")
+    end
+end
+local function ResetChallenges(player)
+    pcall(CharDBExecute, string.format("DELETE FROM characters.hero_challenge WHERE name = '%s' AND NOT (mode = 'hardcore' AND status = 3)", Key(player)))
+    CACHE[player:GetName()] = nil
+    State(player)
+    player:SendBroadcastMessage(TAG .. "Challenge states reset (a Hardcore death, if any, stays).")
+end
 local function Select(event, player, creature, sender, intid)
+    if sender == 9900133 then
+        -- DB trigger menu: window for UI players, gossip menu otherwise
+        if HasUI(player) then
+            player:GossipComplete()
+            SendWindow(player)
+        else
+            Show(player, creature)
+        end
+        return
+    end
     local m = MODES[intid]
     if m then
-        local s = State(player)[m.key]
-        if not s and player:GetLevel() <= MAX_START then
-            Save(player, m.key, ACTIVE, 0)
-            player:SendBroadcastMessage(TAG .. "You took the |cffc41e3a" .. m.name .. "|r challenge. " .. m.desc ..
-                " Rewards at levels 20, 40, 60, 80 and a title at " .. FINAL .. ".")
-            if m.key == "lonewolf" or m.key == "ironman" then pcall(function() player:RemoveFromGroup() end) end
-        elseif s and s.status == ACTIVE then
-            Save(player, m.key, FAILED, s.reward)
-            player:SendBroadcastMessage(TAG .. "You abandoned " .. m.name .. ".")
-        end
+        TakeChallenge(player, m.key)
     elseif intid == 60 then
         player:GossipComplete()
         if PROG_Rebirth then PROG_Rebirth(player) end
@@ -196,6 +238,9 @@ local function Select(event, player, creature, sender, intid)
     elseif intid == 50 then
         player:SendBroadcastMessage(TAG .. "Up to level " .. MAX_START .. " you may take any number of challenges. Each one makes the road harder " ..
             "and pays Mystic Runes, gold and enchants at levels 20/40/60/80, and a title at " .. FINAL .. ". Three completed challenges make you Ascended.")
+    elseif intid == 70 then
+        -- reset bugged states, but never a Hardcore death (PERISHED hardcore stays dead)
+        ResetChallenges(player)
     end
     Show(player, creature)
 end
@@ -237,5 +282,26 @@ if ENABLED then
         end
     end)
     RegisterCreatureGossipEvent(NPC, 2, Select)
+    -- addon window protocol (WCARD): CHALQUERY -> CHALOPEN; CHALTAKE;key, CHALDROP;key, CHALRESET
+    RegisterServerEvent(30, function(_, sender, _, prefix, msg)
+        if prefix ~= "WCARD" or type(msg) ~= "string" then return end
+        local okP, isP = pcall(function() return sender.LearnSpell ~= nil end)
+        if not okP or not isP then return end
+        local kind, arg = string.match(msg, "^(CHAL[A-Z]*);?(%w*.-)$")
+        if kind == "CHALQUERY" then SendWindow(sender)
+        elseif (kind == "CHALTAKE" or kind == "CHALDROP") and arg ~= "" then TakeChallenge(sender, arg:lower()); SendWindow(sender)
+        elseif kind == "CHALRESET" then ResetChallenges(sender); SendWindow(sender) end
+    end)
+    -- .chall text fallback (works even if no gossip fires at all)
+    RegisterPlayerEvent(42, function(_, player, command)
+        if command ~= "chall" and command ~= "challenge" then return end
+        local st = State(player)
+        player:SendBroadcastMessage(TAG .. "Challenges (take up to level " .. MAX_START .. "):")
+        for _, m in ipairs(MODES) do
+            local s = st[m.key]
+            player:SendBroadcastMessage("  " .. m.name .. " - " .. (s and s.status or "available") .. ". " .. m.desc)
+        end
+        return false
+    end)
     print("[challenges] loaded: " .. #MODES .. " challenges")
 end

@@ -91,7 +91,7 @@ end
 local function FindJob(c)
     local name = Name(c)
     if name == "" or Matches(name, SKIP) then return nil end
-    -- Lazy Peon (10556) ma vlastny quest system v peons.lua (spi / vstane na blackjack).
+    -- Lazy Peon (10556) ma vlastny C++ system npc_lazy_peon (zone_durotar: spi / vstane na blackjack).
     -- Workday by ho nutlil rubat v lahu. Vylucit.
     local okE, entry = pcall(function() return c:GetEntry() end)
     if okE and entry == 10556 then return nil end
@@ -121,7 +121,7 @@ local function Tick()
     local day = IsDay()
     local now = os.time()
     local seen = {}
-    for _, p in ipairs(MAP_Players() or {}) do
+    for _, p in ipairs(LW_Players() or {}) do
         local ok, list = pcall(function() return p:GetCreaturesInRange(SCAN) end)
         if ok and list then
             local started = 0

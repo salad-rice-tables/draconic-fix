@@ -1,0 +1,10 @@
+-- 93018 pen extras (user-reported retail behavior 2026-10-14, marked as such).
+-- Ukozi 259415 + Shala'ze 259164 placed at user pen (6956.7,-10958.8); Shala'ze sits (emote 13).
+-- Says: user-quoted retail lines (verbatim incl. "regres"). Chatter via UPDATE_OOC+TALK.
+-- Undo: 20261014_pen_extras_undo.sql -- NEEDS restart
+-- NPC 3510000169 entry 259415 at (6959.0,-10962.0)
+-- NPC 3510000170 entry 259164 at (6954.0,-10956.0)
+-- says 259692
+-- says 259412
+-- says 253829
+-- Shalaze sit script

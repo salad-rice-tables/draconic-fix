@@ -1,0 +1,14 @@
+{
+ "html": "C:\\WowServer\\Custom\\docs\\probe_npc_237221.html",
+ "title": "Empowered Dragonhawk - NPC - World of Warcraft",
+ "npc_id": null,
+ "drops": [],
+ "abilities": [],
+ "objective_of": [
+  {
+   "id": 86806,
+   "name": "Luminous Wings",
+   "currencyrewards": null
+  }
+ ]
+}

@@ -1,0 +1,5301 @@
+[
+ {
+  "line": "The Light's Summons",
+  "order": 0,
+  "quest": 91281,
+  "title": "Midnight",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    167032
+   ],
+   [
+    "c",
+    241677
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    241677
+   ]
+  ],
+  "objectives": 1,
+  "prev": "0"
+ },
+ {
+  "line": "The Light's Summons",
+  "order": 1,
+  "quest": 88719,
+  "title": "A Voice from the Light",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    241677
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236692
+   ],
+   [
+    "c",
+    236693
+   ]
+  ],
+  "objectives": 5,
+  "prev": "91281"
+ },
+ {
+  "line": "The Light's Summons",
+  "order": 2,
+  "quest": 86769,
+  "title": "Last Bastion of the Light",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236693
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236693
+   ]
+  ],
+  "objectives": 0,
+  "prev": 0
+ },
+ {
+  "line": "The Light's Summons",
+  "order": 3,
+  "quest": 86770,
+  "title": "Champions of Quel'Danas",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236693
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236896
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "The Light's Summons",
+  "order": 4,
+  "quest": 89271,
+  "title": "My Son",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236906
+   ],
+   [
+    "c",
+    236954
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236906
+   ],
+   [
+    "c",
+    236954
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "The Light's Summons",
+  "order": 5,
+  "quest": 86780,
+  "title": "Where Heroes Hold",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236954
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236906
+   ],
+   [
+    "c",
+    236954
+   ]
+  ],
+  "objectives": 15,
+  "prev": 0
+ },
+ {
+  "line": "The Light's Summons",
+  "order": 6,
+  "quest": 86805,
+  "title": "The Hour of Need",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236896
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236961
+   ]
+  ],
+  "objectives": 13,
+  "prev": 0
+ },
+ {
+  "line": "The Light's Summons",
+  "order": 7,
+  "quest": 89012,
+  "title": "A Safe Path",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    243091
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236896
+   ],
+   [
+    "c",
+    236961
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "The Light's Summons",
+  "order": 8,
+  "quest": 86806,
+  "title": "Luminous Wings",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236961
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236961
+   ]
+  ],
+  "objectives": 10,
+  "prev": 0
+ },
+ {
+  "line": "The Light's Summons",
+  "order": 9,
+  "quest": 86807,
+  "title": "The Gate",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    243091
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236974
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "The Light's Summons",
+  "order": 10,
+  "quest": 91274,
+  "title": "Severing the Void",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236974
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236978
+   ]
+  ],
+  "objectives": 7,
+  "prev": 0
+ },
+ {
+  "line": "The Light's Summons",
+  "order": 11,
+  "quest": 86834,
+  "title": "Voidborn Banishing",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236964
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236978
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "The Light's Summons",
+  "order": 12,
+  "quest": 86811,
+  "title": "Ethereal Eradication",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236978
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236978
+   ]
+  ],
+  "objectives": 5,
+  "prev": 0
+ },
+ {
+  "line": "The Light's Summons",
+  "order": 13,
+  "quest": 86848,
+  "title": "Light's Arsenal",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237253
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237253
+   ]
+  ],
+  "objectives": 20,
+  "prev": 0
+ },
+ {
+  "line": "The Light's Summons",
+  "order": 14,
+  "quest": 86849,
+  "title": "Wrath Unleashed",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236978
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237277
+   ]
+  ],
+  "objectives": 4,
+  "prev": 0
+ },
+ {
+  "line": "The Light's Summons",
+  "order": 15,
+  "quest": 86850,
+  "title": "Broken Sun",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237277
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237278
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "The Light's Summons",
+  "order": 16,
+  "quest": 86852,
+  "title": "Light's Last Stand",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237278
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    241068
+   ]
+  ],
+  "objectives": 14,
+  "prev": 0
+ },
+ {
+  "line": "Whispers in the Twilight",
+  "order": 0,
+  "quest": 86733,
+  "title": "Silvermoon Negotiations",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236779
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235787
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Whispers in the Twilight",
+  "order": 1,
+  "quest": 86734,
+  "title": "Diplomacy",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235787
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235787
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Whispers in the Twilight",
+  "order": 2,
+  "quest": 86735,
+  "title": "Paved in Ash",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235787
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235787
+   ]
+  ],
+  "objectives": 7,
+  "prev": 0
+ },
+ {
+  "line": "Whispers in the Twilight",
+  "order": 3,
+  "quest": 86736,
+  "title": "Paved in Ash",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235787
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235787
+   ]
+  ],
+  "objectives": 7,
+  "prev": 0
+ },
+ {
+  "line": "Whispers in the Twilight",
+  "order": 4,
+  "quest": 86737,
+  "title": "Fair Breeze, Light Bloom",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235787
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236739
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "Whispers in the Twilight",
+  "order": 5,
+  "quest": 86738,
+  "title": "Sharpmaw",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236739
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236739
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "Whispers in the Twilight",
+  "order": 6,
+  "quest": 86739,
+  "title": "Fairbreeze Favors",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236739
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236739
+   ]
+  ],
+  "objectives": 7,
+  "prev": 0
+ },
+ {
+  "line": "Whispers in the Twilight",
+  "order": 7,
+  "quest": 86740,
+  "title": "Displaced Denizens",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236743
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236743
+   ]
+  ],
+  "objectives": 13,
+  "prev": 0
+ },
+ {
+  "line": "Whispers in the Twilight",
+  "order": 8,
+  "quest": 86741,
+  "title": "Lightbloom Looming",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236743
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236903
+   ]
+  ],
+  "objectives": 6,
+  "prev": 0
+ },
+ {
+  "line": "Whispers in the Twilight",
+  "order": 9,
+  "quest": 86742,
+  "title": "Curious Cultivation",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236903
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236903
+   ],
+   [
+    "c",
+    240663
+   ]
+  ],
+  "objectives": 8,
+  "prev": 0
+ },
+ {
+  "line": "Whispers in the Twilight",
+  "order": 10,
+  "quest": 86743,
+  "title": "Trimming the Lightbloom",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236903
+   ],
+   [
+    "c",
+    240663
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236903
+   ],
+   [
+    "c",
+    240663
+   ]
+  ],
+  "objectives": 13,
+  "prev": 0
+ },
+ {
+  "line": "Whispers in the Twilight",
+  "order": 11,
+  "quest": 86744,
+  "title": "Seeking Truth",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236903
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236903
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "Whispers in the Twilight",
+  "order": 12,
+  "quest": 86745,
+  "title": "Silvermoon Must Know",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236716
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236716
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "Whispers in the Twilight",
+  "order": 13,
+  "quest": 94871,
+  "title": "Eversong",
+  "problems": [
+   "no starter"
+  ],
+  "starter": [],
+  "ender": [
+   [
+    "c",
+    236739
+   ]
+  ],
+  "objectives": 0,
+  "prev": 0
+ },
+ {
+  "line": "Whispers in the Twilight",
+  "order": 14,
+  "quest": 94993,
+  "title": "Adventuring in Midnight",
+  "problems": [
+   "giver 235386 not spawned"
+  ],
+  "starter": [
+   [
+    "c",
+    259153
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235386
+   ],
+   [
+    "c",
+    259153
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Whispers in the Twilight",
+  "order": 15,
+  "quest": 95008,
+  "title": "Adventuring in Midnight",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    259153
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    259153
+   ]
+  ],
+  "objectives": 2,
+  "prev": "999999"
+ },
+ {
+  "line": "Shadowfall",
+  "order": 0,
+  "quest": 86621,
+  "title": "The Wayward Magister",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236716
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236087
+   ]
+  ],
+  "objectives": 4,
+  "prev": 0
+ },
+ {
+  "line": "Shadowfall",
+  "order": 1,
+  "quest": 86623,
+  "title": "Appeal to the Void",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236087
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236087
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "Shadowfall",
+  "order": 2,
+  "quest": 86624,
+  "title": "Rational Explanation",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236100
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236100
+   ]
+  ],
+  "objectives": 30,
+  "prev": 0
+ },
+ {
+  "line": "Shadowfall",
+  "order": 3,
+  "quest": 90907,
+  "title": "The First to Know",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236087
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    245004
+   ]
+  ],
+  "objectives": 4,
+  "prev": 0
+ },
+ {
+  "line": "Shadowfall",
+  "order": 4,
+  "quest": 86622,
+  "title": "Chance Meeting",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    245004
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236100
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "Shadowfall",
+  "order": 5,
+  "quest": 86626,
+  "title": "The Ransacked Lab",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    242143
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236687
+   ],
+   [
+    "c",
+    242143
+   ]
+  ],
+  "objectives": 5,
+  "prev": 0
+ },
+ {
+  "line": "Shadowfall",
+  "order": 6,
+  "quest": 86632,
+  "title": "The Battle for Tranquillien",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236687
+   ],
+   [
+    "c",
+    242143
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    243984
+   ]
+  ],
+  "objectives": 6,
+  "prev": 0
+ },
+ {
+  "line": "Shadowfall",
+  "order": 7,
+  "quest": 90493,
+  "title": "The Heart of Tranquillien",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236100
+   ],
+   [
+    "c",
+    243984
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    243984
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Shadowfall",
+  "order": 8,
+  "quest": 90509,
+  "title": "The Traitors of Tranquillien",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236100
+   ],
+   [
+    "c",
+    243984
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    243984
+   ]
+  ],
+  "objectives": 3,
+  "prev": "90493"
+ },
+ {
+  "line": "Shadowfall",
+  "order": 9,
+  "quest": 90494,
+  "title": "The Missing Magister",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    243984
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    242143
+   ]
+  ],
+  "objectives": 4,
+  "prev": 0
+ },
+ {
+  "line": "Shadowfall",
+  "order": 10,
+  "quest": 86781,
+  "title": "Face the Past",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    242143
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236363
+   ],
+   [
+    "c",
+    236391
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "Shadowfall",
+  "order": 11,
+  "quest": 86634,
+  "title": "The Past Keeps Watch",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236391
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236391
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Shadowfall",
+  "order": 12,
+  "quest": 86633,
+  "title": "Comprehend the Void",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236363
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237240
+   ]
+  ],
+  "objectives": 7,
+  "prev": 0
+ },
+ {
+  "line": "Shadowfall",
+  "order": 13,
+  "quest": 86635,
+  "title": "To Deatholme",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237240
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236730
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "Shadowfall",
+  "order": 14,
+  "quest": 86636,
+  "title": "Void Walk With Me",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236730
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236730
+   ],
+   [
+    "c",
+    242433
+   ]
+  ],
+  "objectives": 5,
+  "prev": 0
+ },
+ {
+  "line": "Ripple Effects",
+  "order": 0,
+  "quest": 86637,
+  "title": "Anything but Reprieve",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    242433
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236099
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Ripple Effects",
+  "order": 1,
+  "quest": 86638,
+  "title": "Choking Tendrils",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236132
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236568
+   ]
+  ],
+  "objectives": 23,
+  "prev": 0
+ },
+ {
+  "line": "Ripple Effects",
+  "order": 2,
+  "quest": 86639,
+  "title": "What's Left",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236099
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236099
+   ]
+  ],
+  "objectives": 7,
+  "prev": 0
+ },
+ {
+  "line": "Ripple Effects",
+  "order": 3,
+  "quest": 86640,
+  "title": "Premonition",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236572
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    241206
+   ]
+  ],
+  "objectives": 0,
+  "prev": 0
+ },
+ {
+  "line": "Ripple Effects",
+  "order": 4,
+  "quest": 86641,
+  "title": "Old Scars",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    241206
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    241272
+   ]
+  ],
+  "objectives": 11,
+  "prev": 0
+ },
+ {
+  "line": "Ripple Effects",
+  "order": 5,
+  "quest": 86642,
+  "title": "A Foe Unseen",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236567
+   ],
+   [
+    "c",
+    241205
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    241205
+   ]
+  ],
+  "objectives": 11,
+  "prev": 0
+ },
+ {
+  "line": "Ripple Effects",
+  "order": 6,
+  "quest": 86643,
+  "title": "Following the Root",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    241205
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236610
+   ]
+  ],
+  "objectives": 7,
+  "prev": 0
+ },
+ {
+  "line": "Ripple Effects",
+  "order": 7,
+  "quest": 86644,
+  "title": "Gods Before Us",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236610
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236610
+   ],
+   [
+    "c",
+    240662
+   ]
+  ],
+  "objectives": 16,
+  "prev": 0
+ },
+ {
+  "line": "Ripple Effects",
+  "order": 8,
+  "quest": 86646,
+  "title": "An Impasse",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236610
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236610
+   ],
+   [
+    "c",
+    236737
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "Ripple Effects",
+  "order": 9,
+  "quest": 86647,
+  "title": "Beat of Blood",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236737
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236611
+   ]
+  ],
+  "objectives": 0,
+  "prev": 0
+ },
+ {
+  "line": "Ripple Effects",
+  "order": 10,
+  "quest": 86648,
+  "title": "Light Guide Us",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236612
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236612
+   ]
+  ],
+  "objectives": 22,
+  "prev": 0
+ },
+ {
+  "line": "Ripple Effects",
+  "order": 11,
+  "quest": 86649,
+  "title": "Past Redemption",
+  "problems": [
+   "giver 237433 not spawned"
+  ],
+  "starter": [
+   [
+    "c",
+    241654
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236572
+   ],
+   [
+    "c",
+    236612
+   ],
+   [
+    "c",
+    237433
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Ripple Effects",
+  "order": 12,
+  "quest": 86650,
+  "title": "Fractured",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236572
+   ],
+   [
+    "c",
+    236612
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235787
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Dis Was Our Land",
+  "order": 0,
+  "quest": 86708,
+  "title": "The Gates of Zul'Aman",
+  "problems": [
+   "no starter"
+  ],
+  "starter": [],
+  "ender": [
+   [
+    "c",
+    236436
+   ]
+  ],
+  "objectives": 0,
+  "prev": 0
+ },
+ {
+  "line": "Dis Was Our Land",
+  "order": 1,
+  "quest": 86710,
+  "title": "The Line Must be Drawn Here",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236436
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236436
+   ]
+  ],
+  "objectives": 4,
+  "prev": 0
+ },
+ {
+  "line": "Dis Was Our Land",
+  "order": 2,
+  "quest": 90749,
+  "title": "Our Mutual Enemy",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236436
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236485
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Dis Was Our Land",
+  "order": 3,
+  "quest": 86711,
+  "title": "Amani Clarion Call",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236468
+   ],
+   [
+    "c",
+    236559
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236559
+   ]
+  ],
+  "objectives": 4,
+  "prev": 0
+ },
+ {
+  "line": "Dis Was Our Land",
+  "order": 4,
+  "quest": 86868,
+  "title": "Goodwill Tour",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236485
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236570
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "Dis Was Our Land",
+  "order": 5,
+  "quest": 86719,
+  "title": "Important Amani",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236588
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236522
+   ]
+  ],
+  "objectives": 5,
+  "prev": 0
+ },
+ {
+  "line": "Dis Was Our Land",
+  "order": 6,
+  "quest": 86717,
+  "title": "Show Us Your Worth",
+  "problems": [
+   "giver 236558 not spawned"
+  ],
+  "starter": [
+   [
+    "c",
+    236522
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236522
+   ],
+   [
+    "c",
+    236558
+   ],
+   [
+    "c",
+    236594
+   ]
+  ],
+  "objectives": 17,
+  "prev": 0
+ },
+ {
+  "line": "Dis Was Our Land",
+  "order": 7,
+  "quest": 86716,
+  "title": "Armed by Light",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236522
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236522
+   ],
+   [
+    "c",
+    236540
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Dis Was Our Land",
+  "order": 8,
+  "quest": 86721,
+  "title": "Everything We Worked For",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236522
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236522
+   ],
+   [
+    "c",
+    236540
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "Dis Was Our Land",
+  "order": 9,
+  "quest": 86718,
+  "title": "Twilight Bled",
+  "problems": [
+   "giver 236587 not spawned"
+  ],
+  "starter": [
+   [
+    "c",
+    236541
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236126
+   ],
+   [
+    "c",
+    236541
+   ],
+   [
+    "c",
+    236587
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Dis Was Our Land",
+  "order": 10,
+  "quest": 86715,
+  "title": "Rituals Cut Short",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236542
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236542
+   ],
+   [
+    "c",
+    236570
+   ],
+   [
+    "c",
+    236586
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "Dis Was Our Land",
+  "order": 11,
+  "quest": 86712,
+  "title": "The Amani Stand Strong",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236540
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236540
+   ],
+   [
+    "c",
+    236588
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "Dis Was Our Land",
+  "order": 12,
+  "quest": 86720,
+  "title": "Break the Blade",
+  "problems": [
+   "giver 236601 not spawned"
+  ],
+  "starter": [
+   [
+    "c",
+    236559
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236126
+   ],
+   [
+    "c",
+    236559
+   ],
+   [
+    "c",
+    236601
+   ]
+  ],
+  "objectives": 4,
+  "prev": 0
+ },
+ {
+  "line": "Dis Was Our Land",
+  "order": 13,
+  "quest": 86722,
+  "title": "Heart of the Amani",
+  "problems": [
+   "giver 236602 not spawned"
+  ],
+  "starter": [
+   [
+    "c",
+    236559
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236126
+   ],
+   [
+    "c",
+    236602
+   ],
+   [
+    "c",
+    236659
+   ]
+  ],
+  "objectives": 0,
+  "prev": 0
+ },
+ {
+  "line": "Dis Was Our Land",
+  "order": 14,
+  "quest": 86723,
+  "title": "Isolation",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236126
+   ],
+   [
+    "c",
+    236659
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236659
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "Dis Was Our Land",
+  "order": 15,
+  "quest": 86652,
+  "title": "Left in the Shadows",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236659
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236126
+   ],
+   [
+    "c",
+    240186
+   ]
+  ],
+  "objectives": 6,
+  "prev": 0
+ },
+ {
+  "line": "Path of de Hash'ey",
+  "order": 0,
+  "quest": 86653,
+  "title": "The Path of the Amani",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236126
+   ],
+   [
+    "c",
+    240186
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236140
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "Path of de Hash'ey",
+  "order": 1,
+  "quest": 86654,
+  "title": "Gnarldin Bashing",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236143
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236143
+   ],
+   [
+    "c",
+    236146
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Path of de Hash'ey",
+  "order": 2,
+  "quest": 86655,
+  "title": "De Ancient Path",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236140
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236140
+   ],
+   [
+    "c",
+    236147
+   ]
+  ],
+  "objectives": 6,
+  "prev": 0
+ },
+ {
+  "line": "Path of de Hash'ey",
+  "order": 3,
+  "quest": 89334,
+  "title": "Ahead of the Issue",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236140
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236140
+   ],
+   [
+    "c",
+    236147
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "Path of de Hash'ey",
+  "order": 4,
+  "quest": 86656,
+  "title": "Brutal Feast",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236140
+   ],
+   [
+    "c",
+    236147
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    244422
+   ]
+  ],
+  "objectives": 7,
+  "prev": 0
+ },
+ {
+  "line": "Path of de Hash'ey",
+  "order": 5,
+  "quest": 86809,
+  "title": "Test of Conviction",
+  "problems": [
+   "giver 236141 not spawned"
+  ],
+  "starter": [
+   [
+    "c",
+    244422
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236126
+   ],
+   [
+    "c",
+    236141
+   ],
+   [
+    "c",
+    244422
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "Path of de Hash'ey",
+  "order": 6,
+  "quest": 86657,
+  "title": "Shadebasin Watch",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236126
+   ],
+   [
+    "c",
+    244422
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    244438
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "Path of de Hash'ey",
+  "order": 7,
+  "quest": 86658,
+  "title": "The Crypt in the Mist",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    244438
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    244588
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "Path of de Hash'ey",
+  "order": 8,
+  "quest": 86660,
+  "title": "Rescue from the Shadows",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    244438
+   ],
+   [
+    "c",
+    244588
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    244588
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Path of de Hash'ey",
+  "order": 9,
+  "quest": 86659,
+  "title": "Breaching the Mist",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    244588
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236155
+   ]
+  ],
+  "objectives": 6,
+  "prev": 0
+ },
+ {
+  "line": "Path of de Hash'ey",
+  "order": 10,
+  "quest": 92084,
+  "title": "Halazzi's Guile",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236155
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236155
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Path of de Hash'ey",
+  "order": 11,
+  "quest": 86661,
+  "title": "Coals of a Dead Loa",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236155
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    244592
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Path of de Hash'ey",
+  "order": 12,
+  "quest": 86808,
+  "title": "The Riddled Speaker",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236155
+   ],
+   [
+    "c",
+    244592
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236162
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Path of de Hash'ey",
+  "order": 13,
+  "quest": 86663,
+  "title": "Embers to a Flame",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236162
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236162
+   ]
+  ],
+  "objectives": 9,
+  "prev": 0
+ },
+ {
+  "line": "Path of de Hash'ey",
+  "order": 14,
+  "quest": 86664,
+  "title": "Seer or Sear",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236162
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236162
+   ]
+  ],
+  "objectives": 7,
+  "prev": 0
+ },
+ {
+  "line": "Path of de Hash'ey",
+  "order": 15,
+  "quest": 86665,
+  "title": "Face in the Fire",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236162
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236162
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "Path of de Hash'ey",
+  "order": 16,
+  "quest": 90772,
+  "title": "The Flames Rise Higher",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236162
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236162
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Path of de Hash'ey",
+  "order": 17,
+  "quest": 86666,
+  "title": "In the Shadow of Rebirth",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236162
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236126
+   ],
+   [
+    "c",
+    240186
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Where War Slumbers",
+  "order": 0,
+  "quest": 86681,
+  "title": "Den of Nalorakk: A Taste of Vengeance",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236126
+   ],
+   [
+    "c",
+    240186
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236126
+   ],
+   [
+    "c",
+    240186
+   ]
+  ],
+  "objectives": 8,
+  "prev": 0
+ },
+ {
+  "line": "Where War Slumbers",
+  "order": 1,
+  "quest": 86682,
+  "title": "Den of Nalorakk: Waking de Bear",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236126
+   ],
+   [
+    "c",
+    240186
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    240215
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "Where War Slumbers",
+  "order": 2,
+  "quest": 91958,
+  "title": "Den of Nalorakk: Unforgiven",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    240215
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    240215
+   ]
+  ],
+  "objectives": 4,
+  "prev": 0
+ },
+ {
+  "line": "De Amani Never Die",
+  "order": 0,
+  "quest": 86683,
+  "title": "Hash'ey Away",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    240215
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    240216
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "De Amani Never Die",
+  "order": 1,
+  "quest": 86684,
+  "title": "The Blade's Edge",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    240216
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    240033
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "De Amani Never Die",
+  "order": 2,
+  "quest": 86685,
+  "title": "Chip and Shatter",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    240033
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    240033
+   ],
+   [
+    "c",
+    245270
+   ]
+  ],
+  "objectives": 10,
+  "prev": 0
+ },
+ {
+  "line": "De Amani Never Die",
+  "order": 3,
+  "quest": 86686,
+  "title": "Light Indiscriminate",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    240039
+   ],
+   [
+    "c",
+    245271
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    240039
+   ],
+   [
+    "c",
+    245271
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "De Amani Never Die",
+  "order": 4,
+  "quest": 86687,
+  "title": "Conduit Crisis",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    240033
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    240033
+   ],
+   [
+    "c",
+    245270
+   ]
+  ],
+  "objectives": 9,
+  "prev": 0
+ },
+ {
+  "line": "De Amani Never Die",
+  "order": 5,
+  "quest": 91001,
+  "title": "Clear de Way",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    245270
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    240034
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "De Amani Never Die",
+  "order": 6,
+  "quest": 86692,
+  "title": "Blade Shattered",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    240034
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    240034
+   ],
+   [
+    "c",
+    240037
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "De Amani Never Die",
+  "order": 7,
+  "quest": 86693,
+  "title": "De Legend of de Hash'ey",
+  "problems": [
+   "giver 241306 not spawned"
+  ],
+  "starter": [
+   [
+    "c",
+    240034
+   ],
+   [
+    "c",
+    240037
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    236126
+   ],
+   [
+    "c",
+    241306
+   ],
+   [
+    "c",
+    249653
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "De Amani Never Die",
+  "order": 8,
+  "quest": 91062,
+  "title": "Broken Bridges",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    249653
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    241308
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "Of Caves and Cradles",
+  "order": 0,
+  "quest": 89402,
+  "title": "Harandar",
+  "problems": [
+   "no starter"
+  ],
+  "starter": [],
+  "ender": [
+   [
+    "c",
+    236704
+   ]
+  ],
+  "objectives": 0,
+  "prev": "0"
+ },
+ {
+  "line": "Of Caves and Cradles",
+  "order": 1,
+  "quest": 86899,
+  "title": "The Root Cause",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236704
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237480
+   ]
+  ],
+  "objectives": 3,
+  "prev": "89402"
+ },
+ {
+  "line": "Of Caves and Cradles",
+  "order": 2,
+  "quest": 86900,
+  "title": "To Har'athir",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237480
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237483
+   ],
+   [
+    "c",
+    239525
+   ]
+  ],
+  "objectives": 6,
+  "prev": "86899"
+ },
+ {
+  "line": "Of Caves and Cradles",
+  "order": 3,
+  "quest": 86901,
+  "title": "The Rift and the Den",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237483
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237345
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "Of Caves and Cradles",
+  "order": 4,
+  "quest": 86907,
+  "title": "The Den of Echoes",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237332
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237567
+   ]
+  ],
+  "objectives": 0,
+  "prev": 0
+ },
+ {
+  "line": "Of Caves and Cradles",
+  "order": 5,
+  "quest": 86910,
+  "title": "Koozat's Trample",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    240839
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    240533
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Of Caves and Cradles",
+  "order": 6,
+  "quest": 86911,
+  "title": "Echoes and Memories",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237567
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    239650
+   ]
+  ],
+  "objectives": 5,
+  "prev": 0
+ },
+ {
+  "line": "Of Caves and Cradles",
+  "order": 7,
+  "quest": 90094,
+  "title": "Echo of the Hunt",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    239650
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    239795
+   ],
+   [
+    "g",
+    900014
+   ]
+  ],
+  "objectives": 5,
+  "prev": 0
+ },
+ {
+  "line": "Of Caves and Cradles",
+  "order": 8,
+  "quest": 90095,
+  "title": "Echo of the Call",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    239795
+   ],
+   [
+    "g",
+    900014
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    243884
+   ],
+   [
+    "g",
+    900015
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "Of Caves and Cradles",
+  "order": 9,
+  "quest": 86912,
+  "title": "Down the Rootways",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    243884
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    240839
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "Of Caves and Cradles",
+  "order": 10,
+  "quest": 86913,
+  "title": "A Hut in Har'mara",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    240839
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237786
+   ],
+   [
+    "c",
+    240839
+   ]
+  ],
+  "objectives": 0,
+  "prev": 0
+ },
+ {
+  "line": "Of Caves and Cradles",
+  "order": 11,
+  "quest": 86914,
+  "title": "Tending to Har'mara",
+  "problems": [
+   "giver 237572 not spawned"
+  ],
+  "starter": [
+   [
+    "c",
+    240839
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237332
+   ],
+   [
+    "c",
+    237572
+   ],
+   [
+    "c",
+    240839
+   ]
+  ],
+  "objectives": 8,
+  "prev": 0
+ },
+ {
+  "line": "Of Caves and Cradles",
+  "order": 12,
+  "quest": 86929,
+  "title": "The Council Assembles",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237345
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237332
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Of Caves and Cradles",
+  "order": 13,
+  "quest": 86930,
+  "title": "To Sow the Seed",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    240839
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237860
+   ]
+  ],
+  "objectives": 0,
+  "prev": 0
+ },
+ {
+  "line": "Of Caves and Cradles",
+  "order": 14,
+  "quest": 89034,
+  "title": "Burning Bitterblooms",
+  "problems": [
+   "giver 240630 not spawned"
+  ],
+  "starter": [
+   [
+    "c",
+    237787
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237341
+   ],
+   [
+    "c",
+    237787
+   ],
+   [
+    "c",
+    240630
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Of Caves and Cradles",
+  "order": 15,
+  "quest": 86973,
+  "title": "Halting Harm in Har'mara",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    240533
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    240533
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Of Caves and Cradles",
+  "order": 16,
+  "quest": 86942,
+  "title": "Culling the Spread",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    240533
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    240533
+   ]
+  ],
+  "objectives": 4,
+  "prev": 0
+ },
+ {
+  "line": "Of Caves and Cradles",
+  "order": 17,
+  "quest": 86944,
+  "title": "Seeds of the Rift",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    240533
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237786
+   ],
+   [
+    "c",
+    240839
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "Of Caves and Cradles",
+  "order": 18,
+  "quest": 86956,
+  "title": "The Traveling Flowers",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237787
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237787
+   ]
+  ],
+  "objectives": 4,
+  "prev": 0
+ },
+ {
+  "line": "Call of the Goddess",
+  "order": 0,
+  "quest": 86864,
+  "title": "Watch the Den",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237860
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237234
+   ]
+  ],
+  "objectives": 4,
+  "prev": 0
+ },
+ {
+  "line": "Call of the Goddess",
+  "order": 1,
+  "quest": 86836,
+  "title": "The Hunter Awaits",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    241045
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237236
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "Call of the Goddess",
+  "order": 2,
+  "quest": 86851,
+  "title": "The Foundation of Aln",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237236
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    241070
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Call of the Goddess",
+  "order": 3,
+  "quest": 86855,
+  "title": "Consequences of Our Duty",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237236
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    241070
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Call of the Goddess",
+  "order": 4,
+  "quest": 86856,
+  "title": "Dampening the Call",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    241070
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    241070
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Call of the Goddess",
+  "order": 5,
+  "quest": 86857,
+  "title": "Descent into the Rift",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    241070
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237284
+   ]
+  ],
+  "objectives": 4,
+  "prev": 0
+ },
+ {
+  "line": "Call of the Goddess",
+  "order": 6,
+  "quest": 86858,
+  "title": "The Madness Roots Deep",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237284
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237284
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Call of the Goddess",
+  "order": 7,
+  "quest": 86859,
+  "title": "Grinding Out a Solution",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237284
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237284
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Call of the Goddess",
+  "order": 8,
+  "quest": 86860,
+  "title": "Before They Grow",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237284
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237284
+   ]
+  ],
+  "objectives": 6,
+  "prev": 0
+ },
+ {
+  "line": "Call of the Goddess",
+  "order": 9,
+  "quest": 86861,
+  "title": "Herding Manifestations",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237284
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237284
+   ]
+  ],
+  "objectives": 4,
+  "prev": 0
+ },
+ {
+  "line": "Call of the Goddess",
+  "order": 10,
+  "quest": 86862,
+  "title": "The Greater They Aln",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237284
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237284
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "Call of the Goddess",
+  "order": 11,
+  "quest": 86865,
+  "title": "In Search of the Problem",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237284
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237295
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "Call of the Goddess",
+  "order": 12,
+  "quest": 94677,
+  "title": "The Missing Rootwarden",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237325
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237356
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "Call of the Goddess",
+  "order": 13,
+  "quest": 86866,
+  "title": "Can We Heal This?",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237325
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237325
+   ],
+   [
+    "c",
+    237356
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "Call of the Goddess",
+  "order": 14,
+  "quest": 86882,
+  "title": "Alndust in Right Hands",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237325
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237325
+   ],
+   [
+    "c",
+    237356
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "Call of the Goddess",
+  "order": 15,
+  "quest": 86877,
+  "title": "Righteous Pruning",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237356
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237356
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Call of the Goddess",
+  "order": 16,
+  "quest": 86880,
+  "title": "Our Beloved, Returned",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237356
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237356
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Call of the Goddess",
+  "order": 17,
+  "quest": 86881,
+  "title": "At the Root",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237356
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237356
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Call of the Goddess",
+  "order": 18,
+  "quest": 86867,
+  "title": "Into the Lightbloom",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237325
+   ],
+   [
+    "c",
+    237356
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237356
+   ]
+  ],
+  "objectives": 7,
+  "prev": 0
+ },
+ {
+  "line": "Call of the Goddess",
+  "order": 19,
+  "quest": 86890,
+  "title": "Tell the People What You Have Seen",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237356
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    241742
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "Call of the Goddess",
+  "order": 20,
+  "quest": 86874,
+  "title": "Culling the Light",
+  "problems": [
+   "no text"
+  ],
+  "starter": [
+   [
+    "c",
+    237356
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237356
+   ]
+  ],
+  "objectives": 4,
+  "prev": 0
+ },
+ {
+  "line": "Emergence",
+  "order": 0,
+  "quest": 86883,
+  "title": "The Frenzied March",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    241742
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237361
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Emergence",
+  "order": 1,
+  "quest": 86884,
+  "title": "Cull and Burn",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237361
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237361
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Emergence",
+  "order": 2,
+  "quest": 86885,
+  "title": "Stem the Tides",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237465
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237465
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Emergence",
+  "order": 3,
+  "quest": 86887,
+  "title": "Expeditious Retreat",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237465
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237465
+   ],
+   [
+    "c",
+    241130
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "Emergence",
+  "order": 4,
+  "quest": 86891,
+  "title": "A Last Resort",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237465
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237361
+   ],
+   [
+    "c",
+    237465
+   ],
+   [
+    "c",
+    241130
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "Emergence",
+  "order": 5,
+  "quest": 86892,
+  "title": "Survive",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237361
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237361
+   ]
+  ],
+  "objectives": 4,
+  "prev": 0
+ },
+ {
+  "line": "Emergence",
+  "order": 6,
+  "quest": 86894,
+  "title": "The Gift of Aln'hara",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237361
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237361
+   ]
+  ],
+  "objectives": 12,
+  "prev": 0
+ },
+ {
+  "line": "Emergence",
+  "order": 7,
+  "quest": 86896,
+  "title": "Light Finds a Way",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237361
+   ],
+   [
+    "c",
+    241130
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237465
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Emergence",
+  "order": 8,
+  "quest": 86897,
+  "title": "Quelling the Frenzy",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237361
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237361
+   ],
+   [
+    "c",
+    241704
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "Emergence",
+  "order": 9,
+  "quest": 86898,
+  "title": "Rise of the Haranir",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    241704
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    255822
+   ]
+  ],
+  "objectives": 0,
+  "prev": 0
+ },
+ {
+  "line": "The Path of Light",
+  "order": 0,
+  "quest": 89193,
+  "title": "Arator",
+  "problems": [
+   "no starter"
+  ],
+  "starter": [],
+  "ender": [
+   [
+    "c",
+    237565
+   ]
+  ],
+  "objectives": 0,
+  "prev": 0
+ },
+ {
+  "line": "The Path of Light",
+  "order": 1,
+  "quest": 86837,
+  "title": "Meet at the Sunwell",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237565
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    240240
+   ]
+  ],
+  "objectives": 4,
+  "prev": 0
+ },
+ {
+  "line": "The Path of Light",
+  "order": 2,
+  "quest": 86838,
+  "title": "Renewal for the Weary",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    240240
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    240240
+   ]
+  ],
+  "objectives": 5,
+  "prev": 0
+ },
+ {
+  "line": "The Path of Light",
+  "order": 3,
+  "quest": 86839,
+  "title": "Relics of Light's Hope",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    240240
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237594
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "The Path of Light",
+  "order": 4,
+  "quest": 86840,
+  "title": "Flickering Hope",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237594
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237594
+   ]
+  ],
+  "objectives": 7,
+  "prev": 0
+ },
+ {
+  "line": "The Path of Light",
+  "order": 5,
+  "quest": 86841,
+  "title": "Relics of Paladins Past",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237594
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237594
+   ]
+  ],
+  "objectives": 9,
+  "prev": 0
+ },
+ {
+  "line": "The Path of Light",
+  "order": 6,
+  "quest": 86842,
+  "title": "Scarlet Power",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237594
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    241311
+   ]
+  ],
+  "objectives": 4,
+  "prev": 0
+ },
+ {
+  "line": "The Path of Light",
+  "order": 7,
+  "quest": 86843,
+  "title": "Light Miswielded",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    240714
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237602
+   ],
+   [
+    "c",
+    240714
+   ]
+  ],
+  "objectives": 16,
+  "prev": 0
+ },
+ {
+  "line": "The Path of Light",
+  "order": 8,
+  "quest": 86844,
+  "title": "Light Repurposed",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237602
+   ],
+   [
+    "c",
+    240714
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237602
+   ],
+   [
+    "c",
+    240714
+   ]
+  ],
+  "objectives": 4,
+  "prev": 0
+ },
+ {
+  "line": "The Path of Light",
+  "order": 9,
+  "quest": 92136,
+  "title": "Infusion of Hope",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237602
+   ],
+   [
+    "c",
+    240714
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    251355
+   ]
+  ],
+  "objectives": 4,
+  "prev": 0
+ },
+ {
+  "line": "The Path of Light",
+  "order": 10,
+  "quest": 86902,
+  "title": "Relinquishing Relics",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    251355
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    251355
+   ]
+  ],
+  "objectives": 11,
+  "prev": 0
+ },
+ {
+  "line": "The Path of Light",
+  "order": 11,
+  "quest": 86845,
+  "title": "The Sunwalker Path",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    251355
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    245186
+   ]
+  ],
+  "objectives": 5,
+  "prev": 0
+ },
+ {
+  "line": "The Path of Light",
+  "order": 12,
+  "quest": 91000,
+  "title": "A Humble Servant",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    245186
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    245186
+   ],
+   [
+    "c",
+    247299
+   ]
+  ],
+  "objectives": 15,
+  "prev": 0
+ },
+ {
+  "line": "The Path of Light",
+  "order": 13,
+  "quest": 86846,
+  "title": "Resupplying Our Suppliers",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    247299
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    247299
+   ]
+  ],
+  "objectives": 9,
+  "prev": 0
+ },
+ {
+  "line": "The Path of Light",
+  "order": 14,
+  "quest": 89338,
+  "title": "Gathering Plowshares",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    247299
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    247299
+   ]
+  ],
+  "objectives": 4,
+  "prev": 0
+ },
+ {
+  "line": "Regrets of the Past",
+  "order": 0,
+  "quest": 86822,
+  "title": "One Final Relic",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    240747
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    242120
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "Regrets of the Past",
+  "order": 1,
+  "quest": 86823,
+  "title": "The Dark Horde",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237224
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237224
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Regrets of the Past",
+  "order": 2,
+  "quest": 86824,
+  "title": "None Left Standing",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237224
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237224
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "Regrets of the Past",
+  "order": 3,
+  "quest": 86825,
+  "title": "Faithful Servant, Faithless Cause",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237224
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237224
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "Regrets of the Past",
+  "order": 4,
+  "quest": 91391,
+  "title": "Still Scouting",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237224
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237268
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Regrets of the Past",
+  "order": 5,
+  "quest": 86827,
+  "title": "Due Recognition",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237268
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237268
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "Regrets of the Past",
+  "order": 6,
+  "quest": 86826,
+  "title": "Nagosh the Scarred",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237268
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237268
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "Regrets of the Past",
+  "order": 7,
+  "quest": 91842,
+  "title": "Disarm the Dark Horde",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237268
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237268
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "Regrets of the Past",
+  "order": 8,
+  "quest": 86828,
+  "title": "Not Just a Troll's Bane",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237268
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    242120
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Regrets of the Past",
+  "order": 9,
+  "quest": 86831,
+  "title": "Warriors Without a Warlord",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    242120
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    242120
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "Regrets of the Past",
+  "order": 10,
+  "quest": 86830,
+  "title": "A True Horde of Dark Horde",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    242120
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    242120
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "Regrets of the Past",
+  "order": 11,
+  "quest": 86829,
+  "title": "A Landmark Moment",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    242120
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    248263
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Regrets of the Past",
+  "order": 12,
+  "quest": 91726,
+  "title": "Unstoppable Force",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237268
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237268
+   ],
+   [
+    "c",
+    248250
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "Regrets of the Past",
+  "order": 13,
+  "quest": 86832,
+  "title": "A Worthy Forge",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235503
+   ],
+   [
+    "c",
+    237508
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237511
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "Regrets of the Past",
+  "order": 14,
+  "quest": 86833,
+  "title": "A Bulwark Remade",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    237511
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    237510
+   ]
+  ],
+  "objectives": 10,
+  "prev": 0
+ },
+ {
+  "line": "Regrets of the Past",
+  "order": 15,
+  "quest": 86903,
+  "title": "The Arcantina",
+  "problems": [
+   "giver 237502 not spawned"
+  ],
+  "starter": [
+   [
+    "c",
+    253125
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235479
+   ],
+   [
+    "c",
+    237502
+   ],
+   [
+    "c",
+    253988
+   ]
+  ],
+  "objectives": 13,
+  "prev": 0
+ },
+ {
+  "line": "Regrets of the Past",
+  "order": 16,
+  "quest": 91787,
+  "title": "The Journey Ends",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    253988
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235787
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Into the Abyss",
+  "order": 0,
+  "quest": 89388,
+  "title": "Voidstorm",
+  "problems": [
+   "giver 235386 not spawned"
+  ],
+  "starter": [
+   [
+    "c",
+    235411
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235386
+   ],
+   [
+    "c",
+    235411
+   ]
+  ],
+  "objectives": 0,
+  "prev": 0
+ },
+ {
+  "line": "Into the Abyss",
+  "order": 1,
+  "quest": 92061,
+  "title": "Rising Storm",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235787
+   ],
+   [
+    "c",
+    239944
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235787
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "Into the Abyss",
+  "order": 2,
+  "quest": 86543,
+  "title": "Magisters' Terrace: Homecoming",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235411
+   ],
+   [
+    "c",
+    239944
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235405
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "Into the Abyss",
+  "order": 3,
+  "quest": 86549,
+  "title": "No Fear of the Dark",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235405
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235411
+   ]
+  ],
+  "objectives": 8,
+  "prev": 0
+ },
+ {
+  "line": "Into the Abyss",
+  "order": 4,
+  "quest": 86557,
+  "title": "A Matter of Strife and Death",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235486
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235522
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Into the Abyss",
+  "order": 5,
+  "quest": 86558,
+  "title": "Save a Piece of Mind",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235411
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235486
+   ],
+   [
+    "c",
+    235522
+   ]
+  ],
+  "objectives": 4,
+  "prev": 0
+ },
+ {
+  "line": "Into the Abyss",
+  "order": 6,
+  "quest": 86559,
+  "title": "The Far, Far Frontier",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235522
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235522
+   ],
+   [
+    "c",
+    235530
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "Into the Abyss",
+  "order": 7,
+  "quest": 86561,
+  "title": "A Strange, Different World",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235532
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235535
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Into the Abyss",
+  "order": 8,
+  "quest": 86562,
+  "title": "Dancing with Death",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235522
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235522
+   ],
+   [
+    "c",
+    235530
+   ],
+   [
+    "c",
+    235535
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "Into the Abyss",
+  "order": 9,
+  "quest": 86565,
+  "title": "No Prayer for the Wicked",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235535
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235606
+   ]
+  ],
+  "objectives": 5,
+  "prev": 0
+ },
+ {
+  "line": "The Night's Veil",
+  "order": 0,
+  "quest": 86536,
+  "title": "Reliable Enemies",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235606
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235389
+   ]
+  ],
+  "objectives": 5,
+  "prev": 0
+ },
+ {
+  "line": "The Night's Veil",
+  "order": 1,
+  "quest": 89249,
+  "title": "Overwhelmed",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    241109
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235724
+   ]
+  ],
+  "objectives": 0,
+  "prev": 0
+ },
+ {
+  "line": "The Night's Veil",
+  "order": 2,
+  "quest": 86531,
+  "title": "Work Disruption",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235389
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235717
+   ]
+  ],
+  "objectives": 30,
+  "prev": 0
+ },
+ {
+  "line": "The Night's Veil",
+  "order": 3,
+  "quest": 86530,
+  "title": "First, The Shells",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235713
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235713
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "The Night's Veil",
+  "order": 4,
+  "quest": 86528,
+  "title": "A Cracked Holokey",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235717
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235717
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "The Night's Veil",
+  "order": 5,
+  "quest": 86538,
+  "title": "Second, The Fuel",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235713
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235713
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "The Night's Veil",
+  "order": 6,
+  "quest": 86537,
+  "title": "Network Insecurity",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235717
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235717
+   ]
+  ],
+  "objectives": 5,
+  "prev": 0
+ },
+ {
+  "line": "The Night's Veil",
+  "order": 7,
+  "quest": 88768,
+  "title": "Agents of Darkness",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235662
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235662
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "The Night's Veil",
+  "order": 8,
+  "quest": 86540,
+  "title": "Third, Blow It Up",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235648
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235649
+   ]
+  ],
+  "objectives": 4,
+  "prev": 0
+ },
+ {
+  "line": "The Night's Veil",
+  "order": 9,
+  "quest": 86541,
+  "title": "Just In Case...",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235652
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235652
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "The Night's Veil",
+  "order": 10,
+  "quest": 86542,
+  "title": "Flicker in the Dark",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235649
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235649
+   ],
+   [
+    "c",
+    235664
+   ]
+  ],
+  "objectives": 5,
+  "prev": 0
+ },
+ {
+  "line": "The Night's Veil",
+  "order": 11,
+  "quest": 86544,
+  "title": "Post-Mortem",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235724
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235724
+   ]
+  ],
+  "objectives": 9,
+  "prev": 0
+ },
+ {
+  "line": "The Night's Veil",
+  "order": 12,
+  "quest": 86545,
+  "title": "The Light's Brand",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235724
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235726
+   ]
+  ],
+  "objectives": 9,
+  "prev": 0
+ },
+ {
+  "line": "The Night's Veil",
+  "order": 13,
+  "quest": 86539,
+  "title": "A Naaru!",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235717
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235648
+   ]
+  ],
+  "objectives": 0,
+  "prev": 0
+ },
+ {
+  "line": "Dawn of Reckoning",
+  "order": 0,
+  "quest": 86509,
+  "title": "Friend or Fiend",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    240691
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235697
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "Dawn of Reckoning",
+  "order": 1,
+  "quest": 86510,
+  "title": "Domus Penumbra",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235697
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235697
+   ]
+  ],
+  "objectives": 8,
+  "prev": 0
+ },
+ {
+  "line": "Dawn of Reckoning",
+  "order": 2,
+  "quest": 90571,
+  "title": "The Lay of the Beast",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235697
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235697
+   ]
+  ],
+  "objectives": 6,
+  "prev": 0
+ },
+ {
+  "line": "Dawn of Reckoning",
+  "order": 3,
+  "quest": 86511,
+  "title": "Edge of the Abyss",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    238296
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235471
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Dawn of Reckoning",
+  "order": 4,
+  "quest": 86512,
+  "title": "The Harvest",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235633
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235471
+   ],
+   [
+    "c",
+    236945
+   ]
+  ],
+  "objectives": 8,
+  "prev": 0
+ },
+ {
+  "line": "Dawn of Reckoning",
+  "order": 5,
+  "quest": 86513,
+  "title": "Face the Tide",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236944
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235469
+   ],
+   [
+    "c",
+    236944
+   ]
+  ],
+  "objectives": 4,
+  "prev": 0
+ },
+ {
+  "line": "Dawn of Reckoning",
+  "order": 6,
+  "quest": 86514,
+  "title": "Lady of the Pit",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    236945
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235502
+   ]
+  ],
+  "objectives": 6,
+  "prev": 0
+ },
+ {
+  "line": "Dawn of Reckoning",
+  "order": 7,
+  "quest": 86515,
+  "title": "Hollow Hunger",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235504
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235504
+   ]
+  ],
+  "objectives": 2,
+  "prev": 0
+ },
+ {
+  "line": "Dawn of Reckoning",
+  "order": 8,
+  "quest": 86516,
+  "title": "All Become Prey",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235502
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235502
+   ]
+  ],
+  "objectives": 5,
+  "prev": 0
+ },
+ {
+  "line": "Dawn of Reckoning",
+  "order": 9,
+  "quest": 86517,
+  "title": "Vanished in the Void",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235503
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235503
+   ]
+  ],
+  "objectives": 5,
+  "prev": 0
+ },
+ {
+  "line": "Dawn of Reckoning",
+  "order": 10,
+  "quest": 86518,
+  "title": "The Mantle of Predation",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235502
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235715
+   ]
+  ],
+  "objectives": 8,
+  "prev": 0
+ },
+ {
+  "line": "Dawn of Reckoning",
+  "order": 11,
+  "quest": 86519,
+  "title": "Abyssus, Abyssum",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235715
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    239574
+   ]
+  ],
+  "objectives": 4,
+  "prev": 0
+ },
+ {
+  "line": "Dawn of Reckoning",
+  "order": 12,
+  "quest": 86520,
+  "title": "Hunt the Light",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    239574
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235763
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Dawn of Reckoning",
+  "order": 13,
+  "quest": 86521,
+  "title": "Nexus-Point Xenas: Eclipse",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235763
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235765
+   ]
+  ],
+  "objectives": 4,
+  "prev": 0
+ },
+ {
+  "line": "Dawn of Reckoning",
+  "order": 14,
+  "quest": 86522,
+  "title": "Daylight is Breaking",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235765
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235787
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "Dawn of Reckoning",
+  "order": 15,
+  "quest": 95276,
+  "title": "The Last Push",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235787
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235787
+   ]
+  ],
+  "objectives": 1,
+  "prev": 0
+ },
+ {
+  "line": "The Darkening Sky",
+  "order": 0,
+  "quest": 91854,
+  "title": "Deepening Shadows",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    248631
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    248631
+   ]
+  ],
+  "objectives": 3,
+  "prev": 0
+ },
+ {
+  "line": "The Darkening Sky",
+  "order": 1,
+  "quest": 91967,
+  "title": "You Know This Evil?",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235787
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235787
+   ]
+  ],
+  "objectives": 6,
+  "prev": 0
+ },
+ {
+  "line": "The Darkening Sky",
+  "order": 2,
+  "quest": 91087,
+  "title": "Reports Returned",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    241308
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235787
+   ]
+  ],
+  "objectives": 0,
+  "prev": 0
+ },
+ {
+  "line": "The Darkening Sky",
+  "order": 3,
+  "quest": 91084,
+  "title": "Looming Shadows",
+  "problems": [],
+  "starter": [
+   [
+    "c",
+    235787
+   ],
+   [
+    "c",
+    255819
+   ]
+  ],
+  "ender": [
+   [
+    "c",
+    235787
+   ]
+  ],
+  "objectives": 0,
+  "prev": 0
+ }
+]

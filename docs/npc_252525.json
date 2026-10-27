@@ -1,0 +1,463 @@
+{
+ "html": "C:\\WowServer\\Custom\\docs\\probe_npc_252525.html",
+ "title": "Amani Hauler - NPC - World of Warcraft",
+ "npc_id": null,
+ "drops": [
+  {
+   "id": 236963,
+   "name": "Bright Linen",
+   "count": 65,
+   "percent": null,
+   "level": 80,
+   "quality": 2
+  },
+  {
+   "id": 237015,
+   "name": "Sunfire Silk",
+   "count": 6,
+   "percent": null,
+   "level": 80,
+   "quality": 3
+  },
+  {
+   "id": 237016,
+   "name": "Sunfire Silk",
+   "count": 9,
+   "percent": null,
+   "level": 80,
+   "quality": 3
+  },
+  {
+   "id": 237017,
+   "name": "Arcanoweave",
+   "count": 9,
+   "percent": null,
+   "level": 80,
+   "quality": 3
+  },
+  {
+   "id": 237018,
+   "name": "Arcanoweave",
+   "count": 9,
+   "percent": null,
+   "level": 80,
+   "quality": 3
+  },
+  {
+   "id": 245833,
+   "name": "Four of Hunt",
+   "count": 1,
+   "percent": null,
+   "level": 90,
+   "quality": 3
+  },
+  {
+   "id": 245837,
+   "name": "Eight of Hunt",
+   "count": 1,
+   "percent": null,
+   "level": 90,
+   "quality": 3
+  },
+  {
+   "id": 245845,
+   "name": "Eight of Void",
+   "count": 1,
+   "percent": null,
+   "level": 90,
+   "quality": 3
+  },
+  {
+   "id": 245848,
+   "name": "Two of Rot",
+   "count": 1,
+   "percent": null,
+   "level": 90,
+   "quality": 3
+  },
+  {
+   "id": 245849,
+   "name": "Three of Rot",
+   "count": 1,
+   "percent": null,
+   "level": 90,
+   "quality": 3
+  },
+  {
+   "id": 245851,
+   "name": "Five of Rot",
+   "count": 1,
+   "percent": null,
+   "level": 90,
+   "quality": 3
+  },
+  {
+   "id": 245852,
+   "name": "Six of Rot",
+   "count": 1,
+   "percent": null,
+   "level": 90,
+   "quality": 3
+  },
+  {
+   "id": 245854,
+   "name": "Eight of Rot",
+   "count": 1,
+   "percent": null,
+   "level": 90,
+   "quality": 3
+  },
+  {
+   "id": 245856,
+   "name": "Ace of Blood",
+   "count": 1,
+   "percent": null,
+   "level": 90,
+   "quality": 3
+  },
+  {
+   "id": 245858,
+   "name": "Three of Blood",
+   "count": 1,
+   "percent": null,
+   "level": 90,
+   "quality": 3
+  },
+  {
+   "id": 245861,
+   "name": "Six of Blood",
+   "count": 1,
+   "percent": null,
+   "level": 90,
+   "quality": 3
+  },
+  {
+   "id": 258848,
+   "name": "Stained Girdle",
+   "count": 2,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  },
+  {
+   "id": 258849,
+   "name": "Stained Headguard",
+   "count": 2,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  },
+  {
+   "id": 258850,
+   "name": "Stained Fistguards",
+   "count": 2,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  },
+  {
+   "id": 258851,
+   "name": "Stained Hauberk",
+   "count": 1,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  },
+  {
+   "id": 258852,
+   "name": "Stained Greaves",
+   "count": 1,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  },
+  {
+   "id": 258853,
+   "name": "Stained Sabatons",
+   "count": 4,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  },
+  {
+   "id": 258854,
+   "name": "Stained Pauldrons",
+   "count": 1,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  },
+  {
+   "id": 258855,
+   "name": "Stained Armguards",
+   "count": 3,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  },
+  {
+   "id": 258856,
+   "name": "Threadbare Mantle",
+   "count": 2,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  },
+  {
+   "id": 258857,
+   "name": "Threadbare Sash",
+   "count": 2,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  },
+  {
+   "id": 258858,
+   "name": "Threadbare Crown",
+   "count": 4,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  },
+  {
+   "id": 258859,
+   "name": "Threadbare Mitts",
+   "count": 3,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  },
+  {
+   "id": 258860,
+   "name": "Threadbare Leggings",
+   "count": 1,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  },
+  {
+   "id": 258862,
+   "name": "Threadbare Vestments",
+   "count": 1,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  },
+  {
+   "id": 258865,
+   "name": "Brittle Breastplate",
+   "count": 2,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  },
+  {
+   "id": 258866,
+   "name": "Brittle Gauntlets",
+   "count": 1,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  },
+  {
+   "id": 258868,
+   "name": "Brittle Legguards",
+   "count": 2,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  },
+  {
+   "id": 258870,
+   "name": "Brittle Warboots",
+   "count": 1,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  },
+  {
+   "id": 258871,
+   "name": "Brittle Armplates",
+   "count": 1,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  },
+  {
+   "id": 258873,
+   "name": "Frayed Tunic",
+   "count": 4,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  },
+  {
+   "id": 258874,
+   "name": "Frayed Shoulderpads",
+   "count": 1,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  },
+  {
+   "id": 258875,
+   "name": "Frayed Britches",
+   "count": 1,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  },
+  {
+   "id": 258876,
+   "name": "Frayed Guise",
+   "count": 1,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  },
+  {
+   "id": 258877,
+   "name": "Frayed Handwraps",
+   "count": 5,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  },
+  {
+   "id": 258878,
+   "name": "Frayed Boots",
+   "count": 3,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  },
+  {
+   "id": 258879,
+   "name": "Frayed Strap",
+   "count": 1,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  },
+  {
+   "id": 258909,
+   "name": "Tarnished Dawnlit Signet",
+   "count": 1,
+   "percent": null,
+   "level": 197,
+   "quality": 2
+  },
+  {
+   "id": 258911,
+   "name": "Tarnished Dawnlit Pendant",
+   "count": 1,
+   "percent": null,
+   "level": 197,
+   "quality": 2
+  },
+  {
+   "id": 258916,
+   "name": "Tarnished Dawnlit Spellbinder's Trousers",
+   "count": 1,
+   "percent": null,
+   "level": 197,
+   "quality": 2
+  },
+  {
+   "id": 258922,
+   "name": "Tarnished Dawnlit Corsair's Gloves",
+   "count": 2,
+   "percent": null,
+   "level": 197,
+   "quality": 2
+  },
+  {
+   "id": 258928,
+   "name": "Tarnished Dawnlit Sentinel's Hauberk",
+   "count": 1,
+   "percent": null,
+   "level": 197,
+   "quality": 2
+  },
+  {
+   "id": 258936,
+   "name": "Tarnished Dawnlit Commander's Breastplate",
+   "count": 1,
+   "percent": null,
+   "level": 197,
+   "quality": 2
+  },
+  {
+   "id": 258937,
+   "name": "Tarnished Dawnlit Commander's Warboots",
+   "count": 1,
+   "percent": null,
+   "level": 197,
+   "quality": 2
+  },
+  {
+   "id": 258956,
+   "name": "Tarnished Dawnlit Scepter",
+   "count": 2,
+   "percent": null,
+   "level": 197,
+   "quality": 2
+  },
+  {
+   "id": 258958,
+   "name": "Tarnished Dawnlit Greatsword",
+   "count": 2,
+   "percent": null,
+   "level": 197,
+   "quality": 2
+  },
+  {
+   "id": 258959,
+   "name": "Tarnished Dawnlit Blade",
+   "count": 1,
+   "percent": null,
+   "level": 197,
+   "quality": 2
+  },
+  {
+   "id": 265803,
+   "name": "Bazaar Bites",
+   "count": 35,
+   "percent": null,
+   "level": 78,
+   "quality": 3
+  },
+  {
+   "id": 266216,
+   "name": "Threadbare Cloak",
+   "count": 2,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  },
+  {
+   "id": 266223,
+   "name": "Stained Drape",
+   "count": 2,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  },
+  {
+   "id": 266224,
+   "name": "Brittle Cape",
+   "count": 1,
+   "percent": null,
+   "level": 78,
+   "quality": 0
+  }
+ ],
+ "abilities": [],
+ "objective_of": [
+  {
+   "id": 92144,
+   "name": "No Squatters",
+   "currencyrewards": null
+  }
+ ]
+}

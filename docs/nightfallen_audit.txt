@@ -1,0 +1,91 @@
+39985 Khadgar's Discovery | OK
+44555 Khadgar's Discovery | NO STARTER and no prev
+39986 Magic Message | OK
+39987 Trail of Echoes | OBJ differs from TDB (world 5 rows, tdb 5); obj creature 114070 no spawn; obj creature 114071 no spawn
+40008 The Only Way Out is Through | OBJ differs from TDB (world 2 rows, tdb 1)
+40123 The Nightborne Pact | obj creature 99482 no spawn
+40009 Arcane Thirst | OK
+42229 Shal'Aran | OBJ differs from TDB (world 3 rows, tdb 3); obj creature 111723 no spawn; obj creature 111724 no spawn
+44672 Ancient Mana | OBJ differs from TDB (world 1 rows, tdb 1)
+40011 Oculeth's Workshop | OK
+40747 The Delicate Art of Telemancy | OBJ differs from TDB (world 7 rows, tdb 7)
+40748 Network Security | OBJ differs from TDB (world 6 rows, tdb 6); obj creature 101782 no spawn
+40830 Close Enough | OBJ differs from TDB (world 2 rows, tdb 2)
+44691 Hungry Work | OK
+40956 Survey Says... | obj creature 106686 no spawn
+40012 An Old Ally | OK
+40326 Scattered Memories | OK
+41149 A Re-Warding Effort | NO ENDER; obj creature 100059 no spawn
+41702 Written in Stone | OK
+41704 Subject 16 | OBJ differs from TDB (world 1 rows, tdb 1); obj creature 255908 no spawn
+41760 Kel'danath's Legacy | OK
+41762 Sympathizers Among the Shal'dorei | obj creature 104998 no spawn
+41834 The Masks We Wear | OK
+41989 Blood of My Blood | OK
+42079 Masquerade | obj creature 106418 no spawn
+42147 First Contact | OK
+40010 Tapping the Leylines | OK
+41028 Power Grid | OBJ differs from TDB (world 10 rows, tdb 10)
+41138 Feeding Shal'Aran | OK
+40324 Arcane Communion | OK
+40325 Scenes from a Memory | OK
+42224 Cloaked in Moonshade | OK
+42225 Breaking the Seal | OK
+42226 Moonshade Holdout | OK
+42227 Into the Crevasse | OK
+42228 The Hidden City | OK
+42230 The Valewalker's Burden | OK
+41877 Lady Lunastre | OK
+40746 One of the People | OK
+41148 Dispensing Compassion | OBJ differs from TDB (world 6 rows, tdb 6); obj creature 107636 no spawn
+40947 Special Delivery | OK
+41878 The Gondolier | OK
+40730 Redistribution | OK
+40727 All Along the Waterways | OK
+40745 Shift Change | OBJ differs from TDB (world 3 rows, tdb 3); obj creature 107474 no spawn; obj creature 107318 no spawn
+42722 Friends in Cages | OK
+42486 Little One Lost | OBJ differs from TDB (world 1 rows, tdb 1)
+42487 Friends On the Outside | OBJ differs from TDB (world 2 rows, tdb 2)
+42488 Thalyssra's Abode | OK
+42489 Thalyssra's Drawers | GO 251032 has NO spawn
+42828 Moths to a Flame | OK
+42829 Make an Entrance | OBJ differs from TDB (world 3 rows, tdb 3)
+42832 The Fruit of Our Efforts | OK
+42833 How It's Made: Arcwine | OK
+42834 Intense Concentration | OBJ differs from TDB (world 3 rows, tdb 3)
+42835 The Old Fashioned Way | OBJ differs from TDB (world 2 rows, tdb 2)
+42836 Silkwing Sabotage | OK
+42837 Balance to Spare | OK
+42838 Reversal | OBJ differs from TDB (world 1 rows, tdb 1)
+44084 Vengeance for Margaux | OK
+42839 Seek the Unsavory | OK
+43969 Hired Help | OBJ differs from TDB (world 3 rows, tdb 3)
+42840 If Words Don't Work... | OK
+42841 A Big Score | OK
+43352 Asset Security | OBJ differs from TDB (world 2 rows, tdb 2)
+42792 Make Your Mark | OK
+44052 And They Will Tremble | OK
+43309 The Perfect Opportunity | OK
+43310 Either With Us | OK
+43312 Thinly Veiled Threats | OK
+44040 Vote of Confidence | OK
+43311 Or Against Us | OK
+43315 Death Becomes Him | OK
+43313 Rumor Has It | OBJ differs from TDB (world 4 rows, tdb 4)
+43317 In the Bag | OK
+43318 Ly'leth's Champion | OK
+44053 Friends With Benefits | OK
+44152 A Growing Crisis | OK
+43360 The Shardmaidens | OK
+43361 Fragments of Disaster | obj creature 110538 no spawn
+44156 Another Arcan'dor Closes... | OK
+40125 Branch of the Arcan'dor | OK
+43362 The Stuff of Dreams | OBJ differs from TDB (world 3 rows, tdb 3)
+43502 A Change of Seasons | OK
+43562 Giving It All We've Got | OBJ differs from TDB (world 8 rows, tdb 8)
+43563 Ephemeral Manastorm Projector | OK
+43564 Flow Control | OK
+43565 Bring Home the Beacon | OBJ differs from TDB (world 3 rows, tdb 3)
+43567 All In | OBJ differs from TDB (world 9 rows, tdb 4); obj creature 113062 no spawn; obj creature 113061 no spawn
+43568 Arcan'dor, Gift of the Ancient Magi | OBJ differs from TDB (world 4 rows, tdb 4)
+43569 Arluin's Request | OK

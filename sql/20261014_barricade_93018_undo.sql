@@ -1,0 +1,21 @@
+-- Undo for 20261014_barricade_93018.sql.
+DELETE FROM `world`.`gameobject_template` WHERE `entry`=641790;
+DELETE FROM `world`.`gameobject` WHERE `guid`=990000000101200540;
+DELETE FROM `world`.`gameobject` WHERE `guid`=990000000101200541;
+DELETE FROM `world`.`creature` WHERE `guid`=3500001183;
+DELETE FROM `world`.`creature` WHERE `guid`=3500001184;
+DELETE FROM `world`.`creature` WHERE `guid`=3500001185;
+DELETE FROM `world`.`creature` WHERE `guid`=3500001186;
+DELETE FROM `world`.`creature` WHERE `guid`=3500001187;
+DELETE FROM `world`.`creature` WHERE `guid`=3500001188;
+DELETE FROM `world`.`creature` WHERE `guid`=3500001189;
+DELETE FROM `world`.`smart_scripts` WHERE `entryorguid`=641790 AND `source_type`=1 AND `id`=0;
+DELETE FROM `world`.`smart_scripts` WHERE `entryorguid`=641790 AND `source_type`=1 AND `id`=1;
+DELETE FROM `world`.`smart_scripts` WHERE `entryorguid`=641790 AND `source_type`=1 AND `id`=2;
+DELETE FROM `world`.`smart_scripts` WHERE `entryorguid`=641790 AND `source_type`=1 AND `id`=3;
+DELETE FROM `world`.`smart_scripts` WHERE `entryorguid`=641790 AND `source_type`=1 AND `id`=4;
+DELETE FROM `world`.`smart_scripts` WHERE `entryorguid`=641790 AND `source_type`=1 AND `id`=5;
+DELETE FROM `world`.`smart_scripts` WHERE `entryorguid`=641790 AND `source_type`=1 AND `id`=6;
+DELETE FROM `world`.`smart_scripts` WHERE `entryorguid`=641790 AND `source_type`=1 AND `id`=7;
+DELETE FROM `world`.`smart_scripts` WHERE `entryorguid`=641790 AND `source_type`=1 AND `id`=8;
+DELETE FROM `world`.`smart_scripts` WHERE `entryorguid`=641790 AND `source_type`=1 AND `id`=9;

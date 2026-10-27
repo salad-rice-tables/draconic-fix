@@ -1,0 +1,7 @@
+DELETE FROM creature WHERE guid = 11860001;
+DELETE FROM creature WHERE guid = 11860002;
+DELETE FROM creature WHERE guid = 11860003;
+DELETE FROM creature WHERE guid = 11860004;
+DELETE FROM creature WHERE guid = 11860005;
+DELETE FROM creature WHERE guid = 11860006;
+DELETE FROM creature WHERE guid = 11860007;

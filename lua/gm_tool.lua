@@ -19,7 +19,7 @@ if not IS_WORLD_STATE then return end
 local PREFIX_TYPE = 7   -- CHAT_MSG_WHISPER
 local SEL = {}          -- player name -> {kind, obj guid, row (db guid), entry, name, x, y, z, o}
 local function Send(p, msg) pcall(function() p:SendAddonMessage("WCARD", msg, PREFIX_TYPE, p) end) end
-local function Esc(s) return (string.gsub(tostring(s or ""), "'", "''")) end
+local function Esc(s) return (string.gsub(tostring(s or ""), "'", "''")) end -- local: Eluna izoluje subory, zdielany global nefunguje
 local function Num(v) return tonumber((string.gsub(tostring(v or 0), "U?LL$", ""))) or 0 end   -- db guids come back as 64-bit userdata
 -- Database rows (gameobject guids reach 990000000101170004) must stay exact: a Lua number loses digits above 2^53 and "%d" only takes 32 bits.
 -- So rows are kept as decimal STRINGS ("0" = not saved).
@@ -536,4 +536,27 @@ RegisterPlayerEvent(42, function(_, player, command)
         player:SendBroadcastMessage("|cffff0000[GM]|r Spawn zlyhal pre entry " .. id .. " (aj docasny). Skus .npc add " .. id .. ".")
     end
     return false
+end)
+
+-- ---------------------------------------------------------------- dupe-varovanie pre core .npc add / .gob add
+-- Len VARUJE (nikdy neblokuje): ak rovnake entry uz stoji do 5 yd, GM dostane
+-- spravu aby nevznikali presne duplikaty (audit 2026-10-12: 16 544 zmazanych).
+RegisterPlayerEvent(42, function(_, player, command)
+    local cmd = string.lower(command or "")
+    local nId = string.match(cmd, "^npc%s+add%s+(%d+)")
+    local gId = string.match(cmd, "^gob%s+add%s+(%d+)")
+    if not nId and not gId then return end
+    if nId then
+        local okN, near = pcall(function() return player:GetNearestCreature(5, tonumber(nId)) end)
+        if okN and near then
+            player:SendBroadcastMessage("|cffff8000[GM]|r POZOR: entry " .. nId .. " uz stoji do 5 yd - dalsi .npc add spravi duplikat.")
+        end
+    end
+    if gId then
+        local okG, near = pcall(function() return player:GetNearestGameObject(5, tonumber(gId)) end)
+        if okG and near then
+            player:SendBroadcastMessage("|cffff8000[GM]|r POZOR: object " .. gId .. " uz stoji do 5 yd - dalsi .gob add spravi duplikat.")
+        end
+    end
+    -- zamerne bez return false: core prikaz vzdy prebehne
 end)

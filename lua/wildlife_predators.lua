@@ -34,7 +34,7 @@ local function Dist(a, b) return math.sqrt((a:GetX() - b:GetX()) ^ 2 + (a:GetY()
 
 local function Tick()
     local now = os.time()
-    for _, p in ipairs(MAP_Players() or {}) do
+    for _, p in ipairs(LW_Players() or {}) do
         local ok, list = pcall(function() return p:GetCreaturesInRange(SCAN) end)
         if ok and list then
             local preds, prey = {}, {}

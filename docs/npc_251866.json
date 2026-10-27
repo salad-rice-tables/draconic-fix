@@ -1,0 +1,13 @@
+{
+ "html": "C:\\WowServer\\Custom\\docs\\probe_npc_251866.html",
+ "title": "Stranglemist Totem - NPC - World of Warcraft",
+ "npc_id": null,
+ "drops": [],
+ "abilities": [
+  {
+   "id": 1254305,
+   "name": "poison nova"
+  }
+ ],
+ "objective_of": []
+}

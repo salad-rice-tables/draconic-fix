@@ -1,0 +1,2 @@
+DELETE FROM graveyard_zone WHERE ID = 9200013;
+DELETE FROM world_safe_locs WHERE ID = 9200013;

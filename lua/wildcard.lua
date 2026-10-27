@@ -1,5 +1,5 @@
 -- =====================================================================
--- Wildcard v2 (Descend-inspired) for TrinityCore Retail + Eluna.
+-- Wildcard v2 (Ascension-inspired) for TrinityCore Retail + Eluna.
 -- No core recompile, no client patch. Chat + Fortuna gossip UI.
 -- v2: ~100 abilities from every class, rarity (Common/Uncommon/Rare/Epic)
 --     weighted drafts, all races, invalid spell IDs filtered at startup.
@@ -19,12 +19,9 @@
 -- POOL POUZIVA VLASTNE KLONY 1410xxx ("Hero's X", vsetko na Essence).
 -- Generuje pool_build.py + clone_spells.py (hotfix push 1901800). Retail IDcka
 -- sa v poole nepouzivaju; prestahovanie starych hracov robi MigratePoolSpells.
--- POOL POUZIVA VLASTNE KLONY 1410xxx ("Hero's X", vsetko na Essence).
--- Generuje pool_build.py + clone_spells.py (hotfix push 1901800). Retail IDcka
--- sa v poole nepouzivaju; prestahovanie starych hracov robi MigratePoolSpells.
 -- =====================================================================
 local ENABLED = true
-local DRAFT_SIZE = 1          -- Descend style: one roll, Keep or Reroll
+local DRAFT_SIZE = 1          -- Ascension style: one roll, Keep or Reroll
 local LEVEL_CHOICES = 3       -- at every level up the Dice of Destiny offers three cards: pick one (or reroll all three)
 local CHARGES_PER_LEVEL = 5
 local FREE_REROLL_LEVEL = 10   -- unlimited rerolls up to this level
@@ -121,7 +118,7 @@ local POOL = {
     {1410341, "Bloodthirst Heal", 1, 0, 1}, {1410342, "Fists of Fury", 1, 0, 1}, 
     
     {1410413, "Ysera's Gift", 1, 0, 1}, {1410416, "Ravager", 1, 0, 1}, 
-    {1410420, "Descend", 1, 0, 3}, {1410421, "Jailer's Judgment", 1, 0, 5},
+    {1410420, "Ascension", 1, 0, 3}, {1410421, "Jailer's Judgment", 1, 0, 5},
     {1410429, "Chaos Strike", 1, 0, 1},  
     {1410456, "Chaos Barrage", 1, 0, 1}, {1410459, "Lightning Bolt", 1, 0, 1}, 
     
@@ -324,7 +321,7 @@ local POOL = {
     {1470152, "Angelic Feather", 1, 0, C}, {1470153, "Mindbender", 1, 0, R}, {1470154, "Holy Nova", 31, 0, C}, {1470155, "Power Word: Radiance", 8, 0, C},
     {1470156, "Apotheosis", 1, 0, E}, {1470157, "Dominate Mind", 1, 0, R}, {1470158, "Purify Disease", 18, 0, C}, {1470159, "Voidform", 48, 0, E},
     {1470160, "Dark Void", 32, 0, R}, {1470161, "Holy Word: Salvation", 27, 0, E}, {1470162, "Shadow Word: Madness", 8, 0, C}, {1470163, "Divine Word", 32, 0, R},
-    {1470164, "Power Word: Life", 16, 0, U}, {1470165, "Dark Descend", 32, 0, R}, {1470166, "Ultimate Penitence", 48, 0, E}, {1470167, "Evangelism", 32, 0, R},
+    {1470164, "Power Word: Life", 16, 0, U}, {1470165, "Dark Ascension", 32, 0, R}, {1470166, "Ultimate Penitence", 48, 0, E}, {1470167, "Evangelism", 32, 0, R},
     {1470168, "Tentacle Slam", 8, 0, C}, {1470169, "Army of the Dead", 32, 0, R}, {1470170, "Mind Freeze", 7, 0, U}, {1470171, "Empower Rune Weapon", 8, 0, C},
     {1470172, "Death Pact", 48, 0, E}, {1470173, "Obliterate", 14, 0, C}, {1470174, "Dancing Rune Weapon", 34, 0, E}, {1470175, "Frost Strike", 11, 0, C},
     {1470176, "Howling Blast", 10, 0, C}, {1470177, "Death Strike", 4, 0, C}, {1470178, "Blood Boil", 17, 0, C}, {1470179, "Anti-Magic Zone", 48, 0, E},
@@ -811,6 +808,19 @@ local function ValidatePool()
     return dropped
 end
 local DROPPED = ValidatePool()
+-- Audit hook: with a spell_dump.run flag file next to worldserver.exe the effective pool ids are written out for spell_dump.lua
+do
+    local fl = io.open("spell_dump.run", "r")
+    if fl then
+        fl:close()
+        local o = io.open("C:/WowServer/Custom/data/spell_dump_ids.txt", "w")
+        if o then
+            for _, e in ipairs(POOL) do o:write(e[1], "\n") end
+            for _, e in ipairs(TALENTS) do o:write(e[1], "\n") end
+            o:close()
+        end
+    end
+end
 local TALENT_BY_ID = {}
 for _, e in ipairs(TALENTS) do TALENT_BY_ID[e[1]] = e end
 local function IsTalent(id) return TALENT_BY_ID[id] ~= nil end
@@ -882,7 +892,7 @@ local function ParseDraft(draft)
 end
 
 -- ---------------------------------------------------------------- hero paths
--- Every character picks ONE path for good (Descend Hero):
+-- Every character picks ONE path for good (Ascension Hero):
 --   1 Classless: buy any ability with Ability Essence (AE), unlearn = refund
 --   2 Wildcard : the Dice of Destiny rolls abilities, Keep or Reroll
 local PATH_NONE, PATH_CLASSLESS, PATH_WILDCARD, PATH_CONQUEST = 0, 1, 2, 3
@@ -917,7 +927,7 @@ local function ClasslessOwned(key, spell)
 end
 
 -- ---------------------------------------------------------------- Hero talents
--- Talent Essence (TE): 1 per level from 10 (Descend). A talent rank costs 1 TE.
+-- Talent Essence (TE): 1 per level from 10 (Ascension). A talent rank costs 1 TE.
 -- Wildcard heroes roll talents instead: from level 10 every even level is a talent roll.
 local TTAG = "|cffb048f8[Talents]|r "
 local TALENT_START = 10
@@ -1106,6 +1116,9 @@ local function EnterHero(player)
     player:Data():Set("hero_attune", TalentRanks(player, "Essence Attunement"))
     local n = StripClassSpells(player)
     CleanClassButtons(player)
+    for _, ms in ipairs({500, 1500, 3500}) do
+        player:RegisterEvent(function(_, _, _, p) if p then pcall(StripClassSpells, p); pcall(CleanClassButtons, p) end end, ms, 1)
+    end
     PrintInfo(string.format("[wildcard] EnterHero %s: aura=%s class=%d stripped=%d", player:GetName(), tostring(player:HasAura(HERO_AURA)), player:GetClass(), n))
     if n > 0 then
         player:SendBroadcastMessage("|cffff8000[Hero]|r Your class is only a body now: " .. n ..
@@ -1222,6 +1235,77 @@ local function BadSpells()
     return bad
 end
 
+-- Niche/situational spells: excluded from Wildcard random rolls (Ascension Ability
+-- Gems idea - core rotational kit rolls separately from niche toys). Still buyable
+-- via Classless shop (.cl learn) which does not use RollDraft. Starting set and
+-- level-up drafts only offer core spells; niche comes from cards/shop.
+-- (Declared here because RollDraft below closes over it - locals must precede use.)
+local NICHE = {
+    [1470270] = true, -- Nether Tempest (bomb, situational)
+    [1470356] = true, -- Rushing Jade Wind (situational AoE)
+    [1470370] = true, -- Refreshing Jade Wind (situational heal)
+    [1470348] = true, -- Summon Jade Serpent Statue (totem toy)
+    [1470349] = true, -- Summon Black Ox Statue (totem toy)
+    [1470340] = true, -- Transcendence (two-button teleport toy)
+    [1470371] = true, -- Song of Chi-Ji (long-CD situational)
+    [1470368] = true, -- Storm, Earth, and Fire (clunky clone pet)
+    [1470358] = true, -- Zen Flight (travel toy)
+    [1410111] = true, -- Far Sight (scout toy)
+}
+-- SYNERGY + PITY + REROLL MEMORY (Ascension): kazda karta ma 10% + 10%/pity sancu
+-- zdielat class s niecim co hrdina vlastni (tanki najdu Taunt...). Pity sa nuluje
+-- pri uspechu. Rerollnute IDcka sa neponuknu v ziadnom rolle (perzistentna verzia
+-- session SHOWN tabulky, cap 24). Ulozene vo world.lw_state. Vlastne mini-DB
+-- funkcie (nie LwGet/LwSet - tie su definovane nizsie a localy musia predchadzat).
+local function SynMemGet(k)
+    local ok, r = pcall(WorldDBQuery, string.format("SELECT v FROM world.lw_state WHERE k = '%s'", k))
+    if ok and r then local ok2, v = pcall(function() return r:GetString(0) end); if ok2 and v then return v end end
+    return nil
+end
+local function SynMemSet(k, v)
+    pcall(WorldDBExecute, string.format("REPLACE INTO world.lw_state (k, v) VALUES ('%s', '%s')", k, tostring(v)))
+end
+local function OwnedClasses(player)
+    local cls = {}
+    for _, e in ipairs(POOL) do
+        local ok, has = pcall(function() return player:HasSpell(e[1]) end)
+        if ok and has then local c = SPELL_CLASS[e[1]]; if c and c ~= 0 then cls[c] = true end end
+    end
+    return cls
+end
+local function RerollMem(player)
+    local mem = {}
+    for x in string.gmatch(SynMemGet("rerollmem:" .. CharKey(player)) or "", "%d+") do mem[tonumber(x)] = true end
+    return mem
+end
+local function RerollMemAdd(player, ids)
+    local mem = {}
+    for x in string.gmatch(SynMemGet("rerollmem:" .. CharKey(player)) or "", "%d+") do mem[#mem + 1] = x end
+    for _, id in ipairs(ids) do mem[#mem + 1] = tostring(id) end
+    while #mem > 24 do table.remove(mem, 1) end
+    SynMemSet("rerollmem:" .. CharKey(player), table.concat(mem, ","))
+end
+-- PRIMARY STAT (Ascension style): the Hero picks Strength / Agility / Intellect / Spirit (world: characters.hero_primary, set in the Character
+-- Advancement window). Cards of classes that use that stat are far more likely; everything else can still appear (Wildcard stays wild).
+local STAT_CLASSES = {
+    [1] = {[1] = true, [2] = true, [6] = true},                                     -- Strength: Warrior, Paladin, Death Knight
+    [2] = {[3] = true, [4] = true, [7] = true, [10] = true, [11] = true, [12] = true}, -- Agility: Hunter, Rogue, Shaman, Monk, Druid, Demon Hunter
+    [3] = {[5] = true, [8] = true, [9] = true, [13] = true, [7] = true, [11] = true},  -- Intellect: Priest, Mage, Warlock, Evoker, Shaman, Druid
+    [4] = {[5] = true, [2] = true, [7] = true, [10] = true, [11] = true, [13] = true}, -- Spirit: healing classes
+}
+local STAT_NAME = {[1] = "Strength", [2] = "Agility", [3] = "Intellect", [4] = "Spirit"}
+local function PrimaryStat(player)
+    local ok, r = pcall(CharDBQuery, "SELECT stat FROM characters.hero_primary WHERE guid = " .. tostring(player:GetGUIDLow()))
+    if ok and r then return r:GetUInt32(0) end
+    return 0
+end
+local function StatMult(stat, spellId)
+    if not stat or stat < 1 then return 1 end
+    local c = SPELL_CLASS[spellId] or (POOL_MAP and SPELL_CLASS[POOL_MAP[spellId] or 0])   -- retail ids map back to the class of their clone
+    if not c or c == 0 then return 1.5 end            -- generic abilities fit everybody
+    return (STAT_CLASSES[stat] and STAT_CLASSES[stat][c]) and 4 or 1
+end
+
 local function RollDraft(player, n, talents, exclude, role)
     local lvl = player:GetLevel()
     local race = player:GetRace()
@@ -1234,19 +1318,42 @@ local function RollDraft(player, n, talents, exclude, role)
         end
     end
     for _, e in ipairs(talents and {} or POOL) do
-        if not bad[e[1]] and not (exclude and exclude[e[1]]) and (not role or SPELL_ROLE[e[1]] == role or (role == "u" and SPELL_ROLE[e[1]] == "m")) and e[3] <= lvl and (not e[4] or e[4] == 0 or e[4] == race) then
+        if not bad[e[1]] and not NICHE[e[1]] and not (exclude and exclude[e[1]]) and (not role or SPELL_ROLE[e[1]] == role or (role == "u" and SPELL_ROLE[e[1]] == "m")) and e[3] <= lvl and (not e[4] or e[4] == 0 or e[4] == race) then
             local ok, has = pcall(function() return player:HasSpell(e[1]) end)
             if ok and not has then cand[#cand + 1] = e end
         end
     end
     -- each card: roll a rarity by weight, then a random unowned spell of it
+    -- synergy (abilities only): 10% + 10%/pity (cap 80) that the cards share a
+    -- class with owned spells; reroll memory excludes recently rerolled IDs
+    if not talents then
+        local pkey = CharKey(player)
+        local pity = tonumber(SynMemGet("synpity:" .. pkey) or "0") or 0
+        local ocls, ncls = OwnedClasses(player), 0
+        for _ in pairs(ocls) do ncls = ncls + 1 end
+        local mem = RerollMem(player)
+        local pool2 = {}
+        for _, e in ipairs(cand) do if not mem[e[1]] then pool2[#pool2 + 1] = e end end
+        if #pool2 > 0 then cand = pool2 end
+        local synOn = ncls > 0 and math.random(100) <= math.min(80, 10 + 10 * pity)
+        local synpool = {}
+        if synOn then for _, e in ipairs(cand) do local c = SPELL_CLASS[e[1]]; if c and ocls[c] then synpool[#synpool + 1] = e end end end
+        if synOn and #synpool > 0 then
+            cand = synpool
+            SynMemSet("synpity:" .. pkey, 0)
+            print("[wildcard] synergy roll for " .. player:GetName() .. " (pity was " .. pity .. ")")
+        else
+            SynMemSet("synpity:" .. pkey, pity + 1)
+        end
+    end
     local out = {}
+    local pstat = talents and 0 or PrimaryStat(player)
     while #out < n and #cand > 0 do
         local total = 0
-        for _, e in ipairs(cand) do total = total + RARITY[e[5] or 1].weight end
+        for _, e in ipairs(cand) do total = total + RARITY[e[5] or 1].weight * StatMult(pstat, e[1]) end
         local pick, i = math.random() * total, 1
         for k, e in ipairs(cand) do
-            pick = pick - RARITY[e[5] or 1].weight
+            pick = pick - RARITY[e[5] or 1].weight * StatMult(pstat, e[1])
             if pick <= 0 then i = k break end
         end
         out[#out + 1] = cand[i][1]
@@ -1334,7 +1441,7 @@ local function SendDraftUI(player, ids, charges)
         if not dup then recent[#recent + 1] = tostring(id) end
     end
     while #recent > 8 do table.remove(recent, 1) end
-    pcall(WorldDBExecute, string.format("REPLACE INTO world.lw_state (k, v) VALUES ('offer:%s', '%s')", player:GetName(), table.concat(recent, ",")))
+    pcall(WorldDBExecute, string.format("REPLACE INTO world.lw_state (k, v) VALUES ('offer:%s', '%s')", CharKey(player), table.concat(recent, ",")))
     SendClient(player, "DRAFT;" .. (charges or 0) .. ";" .. table.concat(parts, ",") .. (pick and ";P" or ""))
 end
 
@@ -1344,7 +1451,7 @@ local function AnnounceDraft(player, ids, charges)
         player:SendBroadcastMessage("|cffffd200[Wildcard]|r No new spells available at your level. Pool exhausted!")
         return
     end
-    -- Descend styl: mozes vziat jednu (.wc pick N) alebo vsetky (.wc keep)
+    -- Ascension styl: mozes vziat jednu (.wc pick N) alebo vsetky (.wc keep)
     player:SendBroadcastMessage("|cffffd200[Wildcard]|r The dice offers you a draft - .wc pick 1|2|3 (one) or .wc keep (all):")
     for i, id in ipairs(ids) do
         local e = ById(id)
@@ -1355,8 +1462,37 @@ local function AnnounceDraft(player, ids, charges)
     player:SendBroadcastMessage("Rerolls left this level: " .. charges .. "  (.wc reroll = new cards, locked stay in UI)")
 end
 
--- Zober VSETKY karty z aktualneho draftu naraz (Descend styl: keep).
+-- Zober VSETKY karty z aktualneho draftu naraz (Ascension styl: keep).
 -- Pouziva chat (.wc keep) aj addon tlacidlo (KEEPALL sprava).
+-- ---------------------------------------------------------------- Dice of Destiny queue
+-- A Wildcard hero is ENTITLED to max(DICE_START, level) Dice rolls ("pick one of three"): 5 at the start, one more for every level above 5
+-- (a Nightborne that begins at level 45 gets 45). Every pick counts as one taken roll; forgetting an ability gives one roll back.
+-- Owed rolls = entitled - taken are served one after another (the next set appears right after a pick), never skipped or replaced.
+local DICE_START = 5
+local ServeDice   -- forward declaration, defined after ApplyCards: ServeDice(player, attempt)
+local function DiceEntitled(player) return DICE_START + math.max(0, player:GetLevel() - 1) end   -- level 1: 5 rolls, level 2: 6, level 45: 49
+local TAKEN_CACHE = {}   -- per character, authoritative while the Lua state lives (the DB write is asynchronous)
+local function DiceKey(player) return "wctaken:" .. CharKey(player) end
+local function DiceSet(player, v)
+    TAKEN_CACHE[CharKey(player)] = math.max(0, v)
+    pcall(WorldDBExecute, string.format("REPLACE INTO world.lw_state (k, v) VALUES ('%s', '%d')", DiceKey(player), math.max(0, v)))
+end
+local function DiceTaken(player)
+    if TAKEN_CACHE[CharKey(player)] then return TAKEN_CACHE[CharKey(player)] end
+    local ok, r = pcall(WorldDBQuery, string.format("SELECT v FROM world.lw_state WHERE k = '%s'", DiceKey(player)))
+    if ok and r then TAKEN_CACHE[CharKey(player)] = tonumber(r:GetString(0)) or 0; return TAKEN_CACHE[CharKey(player)] end
+    -- first time we see this hero: a character that already went through the old start flow (or has a Wildcard state row) keeps what it has,
+    -- no retroactive rolls; a brand new Wildcard hero starts with nothing taken
+    local legacy = false
+    local ok2, r2 = pcall(WorldDBQuery, string.format("SELECT v FROM world.lw_state WHERE k = 'wcstart:%s'", CharKey(player)))
+    if ok2 and r2 then legacy = true end
+    local ok3, r3 = pcall(CharDBQuery, string.format("SELECT 1 FROM characters.wildcard_state WHERE name = '%s'", CharKey(player)))
+    if ok3 and r3 then legacy = true end
+    local v = legacy and DiceEntitled(player) or 0
+    DiceSet(player, v)
+    return v
+end
+
 local function LearnAllDraft(player)
     local guid = CharKey(player)
     if GetPath(guid) ~= PATH_WILDCARD then return end
@@ -1366,6 +1502,11 @@ local function LearnAllDraft(player)
         player:SendBroadcastMessage("|cffffd200[Wildcard]|r No pending draft to keep.")
         return
     end
+    if #ids > 1 then
+        player:SendBroadcastMessage("|cffffd200[Wildcard]|r Pick ONE of the cards (.wc pick 1|2|3) or reroll; you cannot keep them all.")
+        return
+    end
+    DiceSet(player, DiceTaken(player) + 1)
     for _, id in ipairs(ids) do
         if IsTalent(id) then
             GiveTalent(player, id, 0)
@@ -1422,16 +1563,8 @@ local function LearnDraftPick(player, idx, forceId)
     DbPut(guid, st.charges, "")
     SendClient(player, "LEARNED;" .. id)
     SendClient(player, "NONE;" .. st.charges)
-    -- the starting abilities are STARTING_ABILITIES rounds of "pick one of three"
-    if player:GetLevel() <= START_MAX_LEVEL and OwnedCount(player) < STARTING_ABILITIES then
-        player:RegisterEvent(function(_, _, _, p)
-            if not p then return end
-            local g = CharKey(p)
-            if #ParseDraft(DbGet(g).draft) > 0 or OwnedCount(p) >= STARTING_ABILITIES then return end
-            local nx = StartCards(p)
-            if #nx > 0 then DbPut(g, CHARGES_PER_LEVEL, table.concat(nx, ",")); AnnounceDraft(p, nx, CHARGES_PER_LEVEL) end
-        end, 800, 1)
-    end
+    if not forceId then DiceSet(player, DiceTaken(player) + 1) end
+    player:RegisterEvent(function(_, _, _, p) if p then ServeDice(p, 1) end end, 800, 1)   -- the next owed Dice roll, if any
     print("[wildcard] " .. player:GetName() .. " picked spell " .. id)
 end
 
@@ -1454,7 +1587,7 @@ local function RerollDraft(player, lockMask)
     if #ids > 1 then
         -- starting set: locked slots stay, the others are rolled again.
         -- Sucasny set je cely excludnuty, takze reroll nikdy nevrati to iste
-        -- (Descend styl: zle karty vymen za nove, dobre si zamkni v UI).
+        -- (Ascension styl: zle karty vymen za nove, dobre si zamkni v UI).
         local ex, open = {}, 0
         local hist = SHOWN[guid] or {}
         SHOWN[guid] = hist
@@ -1500,6 +1633,7 @@ local function RerollDraft(player, lockMask)
         return
     end
     local left = free and st.charges or st.charges - 1
+    RerollMemAdd(player, ids) -- rerolled cards stay out of future rolls (persistent)
     DbPut(guid, left, table.concat(fresh, ","))
     AnnounceDraft(player, fresh, left)
     print("[wildcard] " .. player:GetName() .. " rerolled draft: " .. table.concat(ids, ",") .. " -> " .. table.concat(fresh, ",") .. " (lock mask " .. tostring(lockMask) .. ")")
@@ -1575,7 +1709,7 @@ local function MigrateToRetail(player)
 end
 
 -- Odmena za bossa: nahodne este neobjavene WORLD_DROPS kouzlo (teleport/mount).
--- Vola descend_world.lua z OnKill (rare/boss). Len pool hrdinovia, Conquest nie.
+-- Vola ascension_world.lua z OnKill (rare/boss). Len pool hrdinovia, Conquest nie.
 function WORLD_DROP_TryGive(player)
     if true then return end   -- travel and mount spells are learned at the Mystic Altar now (worldforge.lua), not from boss kills
     if not player or not WORLD_DROPS or #WORLD_DROPS == 0 then return end
@@ -1602,24 +1736,14 @@ local function ForgetAbility(player, id)
     local function Err(m) player:SendBroadcastMessage("|cffffd200[Wildcard]|r " .. m); SendClient(player, "ERR;" .. m) end
     local e = ById(id)
     if not e or IsTalent(id) or not Knows(player, id) then Err("You do not know that ability.") return end
-    local st = DbGet(guid)
-    if #ParseDraft(st.draft) > 0 then Err("Pick or reroll your pending choice first.") return end
-    local free = true   -- unlimited rerolls
-    if not free and st.charges <= 0 then Err("You need a reroll to forget an ability (you earn one every level).") return end
     pcall(function() player:RemoveSpell(id) end)
     pcall(CharDBExecute, string.format("DELETE FROM characters.wildcard_classless WHERE name = '%s' AND spell = %d", guid, id))
     pcall(function() player:RemoveActionButtonsForSpell(id) end)
-    local fresh = RollDraft(player, LEVEL_CHOICES, false, {[id] = true})
-    if #fresh == 0 then
-        pcall(function() player:LearnSpell(id) end); RememberHeroSpell(player, id, 0)
-        Err("Nothing else to roll, the ability was kept.")
-        return
-    end
-    local left = free and st.charges or st.charges - 1
-    DbPut(guid, left, table.concat(fresh, ","))
-    player:SendBroadcastMessage("|cffffd200[Wildcard]|r You forgot " .. SpellLink(id, e[2], e[5]) .. ". Choose a new ability!")
-    AnnounceDraft(player, fresh, left)
+    RerollMemAdd(player, {id}) -- forgotten ability stays out of future rolls
+    DiceSet(player, DiceTaken(player) - 1)   -- one Dice roll is owed again
+    player:SendBroadcastMessage("|cffffd200[Wildcard]|r You forgot " .. SpellLink(id, e[2], e[5]) .. ". The Dice of Destiny roll a new ability for you!")
     SendClient(player, "BUILD;" .. "")
+    ServeDice(player)   -- shows at once, or right after the draft that is still pending
     print("[wildcard] " .. player:GetName() .. " forgot spell " .. id)
 end
 
@@ -1825,6 +1949,51 @@ local function ChooseCoa(player, c)
     LearnKit(player)
 end
 
+-- Ascension-style baseline core kit (CoA core kits): interrupt + dispel + taunt
+-- + rez, granted FREE at level 10 to every Wildcard hero, never rolled, never
+-- rerolled away. Retail IDs with Essence costs in world.hero_spell_cost
+-- (Kick 1766, Purify 527, Taunt 355, Resurrection 2006 - rows verified 2026-10-16).
+local CORE_KIT = {
+    {1766, "Kick"}, {527, "Purify"}, {355, "Taunt"}, {2006, "Resurrection"},
+}
+local CORE_KIT_AUTO = false   -- owner rule: nobody gets spells automatically, only through the Dice of Destiny
+local function LearnCoreKit(player)
+    if not CORE_KIT_AUTO or player:GetLevel() < 10 then return 0 end
+    local n = 0
+    for _, k in ipairs(CORE_KIT) do
+        local okH, has = pcall(function() return player:HasSpell(k[1]) end)
+        if okH and not has then
+            pcall(function() player:LearnSpell(k[1]) end)
+            pcall(function() RememberHeroSpell(player, k[1], 0) end)
+            n = n + 1
+        end
+    end
+    if n > 0 then player:SendBroadcastMessage("|cffffd200[Wildcard]|r Core kit learned: Kick, Purify, Taunt, Resurrection (free baseline, never rerolled).") end
+    return n
+end
+
+-- Ascension-style baseline core kit (CoA core kits): interrupt + dispel + taunt
+-- + rez, granted FREE at level 10 to every Wildcard hero, never rolled, never
+-- rerolled away. Retail IDs with Essence costs in world.hero_spell_cost
+-- (Kick 1766, Purify 527, Taunt 355, Resurrection 2006 - all rows verified).
+local CORE_KIT = {
+    {1766, "Kick"}, {527, "Purify"}, {355, "Taunt"}, {2006, "Resurrection"},
+}
+local function LearnCoreKit(player)
+    if not CORE_KIT_AUTO or player:GetLevel() < 10 then return 0 end
+    local n = 0
+    for _, k in ipairs(CORE_KIT) do
+        local okH, has = pcall(function() return player:HasSpell(k[1]) end)
+        if okH and not has then
+            pcall(function() player:LearnSpell(k[1]) end)
+            pcall(function() RememberHeroSpell(player, k[1], 0) end)
+            n = n + 1
+        end
+    end
+    if n > 0 then player:SendBroadcastMessage("|cffffd200[Wildcard]|r Core kit learned: Kick, Purify, Taunt, Resurrection (free baseline, never rerolled).") end
+    return n
+end
+
 local OnLogin  -- forward declaration: choosing Wildcard runs the Wildcard login flow
 
 
@@ -1864,6 +2033,9 @@ function OnLogin(event, player)
     if path == PATH_NONE then
         -- every character is a Hero from the start: no class spells even before the path is chosen
         StripClassSpells(player)
+        for _, ms in ipairs({500, 1500, 3500}) do
+            player:RegisterEvent(function(_, _, _, p) if p then pcall(StripClassSpells, p); pcall(CleanClassButtons, p) end end, ms, 1)
+        end
         AskPath(player)
         return
     end
@@ -1878,36 +2050,13 @@ function OnLogin(event, player)
         return
     end
     local st = DbGet(guid)
-    if st.fresh then
-        DbPut(guid, 0, "")
-        if player:GetLevel() <= START_MAX_LEVEL and OwnedCount(player) == 0 then
-            -- a new Hero rolls its first abilities with the Dice (STARTING_ABILITIES rolls, one after another)
-            local ids = StartCards(player)
-            MarkStartDone(guid)
-            DbPut(guid, CHARGES_PER_LEVEL, table.concat(ids, ","))
-            player:SendBroadcastMessage("|cffffd200[Wildcard]|r The Dice of Destiny waits for you: pick one of three, " .. STARTING_ABILITIES .. " times, to build your starting abilities.")
-            AnnounceDraft(player, ids, CHARGES_PER_LEVEL)
-        else
-            -- existing characters join the Wildcard system with a welcome draft
-            local ids = RollDraft(player, LEVEL_CHOICES)
-            MarkStartDone(guid)
-            DbPut(guid, CHARGES_PER_LEVEL, table.concat(ids, ","))
-            player:SendBroadcastMessage("|cffffd200[Wildcard]|r The Dice of Destiny has found you. Pick one of three:")
-            AnnounceDraft(player, ids, CHARGES_PER_LEVEL)
-        end
-        return
-    end
     local ids = ParseDraft(st.draft)
-    if #ids == 0 and OwnedCount(player) < STARTING_ABILITIES and player:GetLevel() <= START_MAX_LEVEL and not StartDone(guid) then
-        -- the starting rolls were never offered (one time only): the Dice waits with them
-        MarkStartDone(guid)
-        ids = StartCards(player)
-        if #ids > 0 then DbPut(guid, CHARGES_PER_LEVEL, table.concat(ids, ",")); st.charges = CHARGES_PER_LEVEL end
-    end
     if #ids > 0 then
         player:SendBroadcastMessage("|cffffd200[Wildcard]|r You still have an unpicked draft:")
         AnnounceDraft(player, ids, st.charges)
     end
+    ServeDice(player)   -- the first Dice rolls of a new Wildcard hero, or the rolls still owed (nothing happens while a draft is pending)
+    pcall(LearnCoreKit, player) -- baseline core kit safety net (level 10+)
 end
 
 -- ------------------------------------------------------------------ Golden Skill Cards and Hands of Fate
@@ -1918,7 +2067,7 @@ local function LwGet(k)
     if ok and r then return r:GetString(0) end
     return nil
 end
-local function LwSet(k, v) pcall(WorldDBExecute, string.format("REPLACE INTO world.lw_state (k, v) VALUES ('%s', '%s')", k, v)) end
+local function LwSet(k, v) k = (string.gsub(tostring(k or ""), "'", "''")); v = (string.gsub(tostring(v or ""), "'", "''")); pcall(WorldDBExecute, string.format("REPLACE INTO world.lw_state (k, v) VALUES ('%s', '%s')", k, v)) end
 local function CardList(player)
     local out = {}
     for x in string.gmatch(LwGet("card:" .. player:GetName()) or "", "%d+") do out[#out + 1] = tonumber(x) end
@@ -1965,6 +2114,56 @@ local function ApplyCards(player, ids)
     return out
 end
 
+-- Shows the next owed Dice of Destiny roll (three cards, pick one) when nothing is pending. Called after choosing Wildcard, on login, on every
+-- level up, after every pick and after forgetting an ability, so the Dice always appear at the right time and 20 levels mean 20 rolls in a row.
+ServeDice = function(player, attempt)
+    if not ENABLED or not HasSQL() or not player or not player:IsInWorld() or not Alive(player) then return end
+    local guid = CharKey(player)
+    if GetPath(guid) ~= PATH_WILDCARD then return end
+    local taken = DiceTaken(player)
+    local owed = DiceEntitled(player) - taken
+    if owed <= 0 then return end
+    local st = DbGet(guid)
+    if #ParseDraft(st.draft) > 0 then
+        -- a draft is on screen: the next roll follows right after the pick. Right after a pick the stored draft can still be the old one
+        -- (asynchronous DB write), so look again a few times before giving up
+        if attempt and attempt < 5 then
+            player:RegisterEvent(function(_, _, _, p) if p then ServeDice(p, attempt + 1) end end, 1200, 1)
+        end
+        return
+    end
+    local idx = taken + 1
+    local ids
+    if idx <= DICE_START then
+        ids = StartCards(player)
+    elseif idx >= TALENT_START and idx % 2 == 0 then
+        local n = math.min(6, LEVEL_CHOICES + FateCount(player))
+        ids = RollDraft(player, n, true)
+        if #ids < n then
+            local ex = {}
+            for _, x in ipairs(ids) do ex[x] = true end
+            for _, x in ipairs(RollDraft(player, n - #ids, false, ex)) do ids[#ids + 1] = x end
+        end
+    else
+        local role = LEVEL_ROLES[(idx % #LEVEL_ROLES) + 1]
+        local want = math.min(6, LEVEL_CHOICES + FateCount(player))
+        ids = RollDraft(player, want, false, nil, role)
+        if #ids < want then
+            local ex = {}
+            for _, x in ipairs(ids) do ex[x] = true end
+            for _, x in ipairs(RollDraft(player, want - #ids, false, ex)) do ids[#ids + 1] = x end
+        end
+    end
+    ids = ApplyCards(player, ids)
+    if #ids == 0 then PrintInfo("[wildcard] dice: nothing to roll for " .. player:GetName() .. " (idx " .. idx .. ")") return end
+    DbPut(guid, CHARGES_PER_LEVEL, table.concat(ids, ","))
+    PrintInfo("[wildcard] dice roll " .. idx .. " owed " .. owed .. " for " .. player:GetName() .. ": " .. table.concat(ids, ","))
+    player:SendBroadcastMessage("|cffffd200[Wildcard]|r The Dice of Destiny: roll " .. idx .. " of " .. DiceEntitled(player) ..
+        (owed > 1 and (" (" .. (owed - 1) .. " more after this one)") or "") .. ". Pick one:")
+    AnnounceDraft(player, ids, CHARGES_PER_LEVEL)
+    print("[wildcard] dice roll " .. idx .. " (owed " .. owed .. ") for " .. player:GetName())
+end
+
 local function OnLevelChange(event, player, oldLevel)
     if not ENABLED or not HasSQL() then return end
     local newLevel = player:GetLevel()
@@ -1994,39 +2193,27 @@ local function OnLevelChange(event, player, oldLevel)
     elseif path ~= PATH_WILDCARD then
         return
     end
-    local st = DbGet(guid)
-    if #ParseDraft(st.draft) > 0 then
-        player:SendBroadcastMessage("|cffffd200[Wildcard]|r Unpicked draft replaced by a fresh level " ..
-            newLevel .. " roll.")
+    pcall(LearnCoreKit, player) -- level 10 ding grants the baseline core kit
+    -- every level above 5 owes one Dice roll; they queue up (20 levels at once = 20 rolls, one after another) and are never replaced
+    player:RegisterEvent(function(_, _, _, p) if p then ServeDice(p) end end, 1500, 1)
+    print("[wildcard] level " .. newLevel .. " dice for " .. player:GetName())
+end
+
+local function SpellsReport(player)
+    local ok, res = pcall(CharDBQuery, string.format("SELECT spell FROM characters.wildcard_classless WHERE name = '%s'", CharKey(player)))
+    local lines, miss = {}, 0
+    if ok and res then
+        repeat
+            local id = res:GetUInt32(0)
+            local okH, has = pcall(function() return player:HasSpell(id) end)
+            local e = ById(id)
+            if not (okH and has) then miss = miss + 1 end
+            lines[#lines + 1] = id .. ":" .. (e and e[2] or "?") .. ":" .. ((okH and has) and "known" or "MISSING")
+        until not res:NextRow()
     end
-    local talentRoll = newLevel >= TALENT_START and newLevel % 2 == 0
-    local ids
-    if talentRoll then
-        local n = math.min(6, LEVEL_CHOICES + FateCount(player))
-        ids = RollDraft(player, n, talentRoll)
-        if #ids < n then   -- never fewer than the usual cards: top up with abilities when the talent pool runs short
-            local ex = {}
-            for _, x in ipairs(ids) do ex[x] = true end
-            for _, x in ipairs(RollDraft(player, n - #ids, false, ex)) do ids[#ids + 1] = x end
-        end
-    else
-        -- the role rotates with the level (o/d/m/h/b/c/u): the three cards share it, the pool falls back to any ability
-        local role = LEVEL_ROLES[(newLevel % #LEVEL_ROLES) + 1]
-        local want = math.min(6, LEVEL_CHOICES + FateCount(player))
-        ids = RollDraft(player, want, false, nil, role)
-        if #ids < want then
-            local ex = {}
-            for _, x in ipairs(ids) do ex[x] = true end
-            for _, x in ipairs(RollDraft(player, want - #ids, false, ex)) do ids[#ids + 1] = x end
-        end
-    end
-    ids = ApplyCards(player, ids)
-    DbPut(guid, CHARGES_PER_LEVEL, table.concat(ids, ","))
-    if #ids > 0 and IsTalent(ids[1]) then
-        player:SendBroadcastMessage("|cffffd200[Wildcard]|r Level " .. newLevel .. ": the Dice of Destiny rolls a |cffb048f8talent|r.")
-    end
-    AnnounceDraft(player, ids, CHARGES_PER_LEVEL)
-    print("[wildcard] level " .. newLevel .. " draft for " .. player:GetName())
+    PrintInfo("[wildcard] spells of " .. player:GetName() .. ": " .. table.concat(lines, " | "))
+    player:SendBroadcastMessage("|cffffd200[Wildcard]|r " .. #lines .. " remembered spells, " .. miss .. " missing (see Eluna log). Missing ones are learned again now.")
+    RestoreHeroSpells(player)
 end
 
 local function OnCommand(event, player, command)
@@ -2034,6 +2221,10 @@ local function OnCommand(event, player, command)
     local args = {}
     for w in string.gmatch(string.lower(command or ""), "%S+") do
         args[#args + 1] = w
+    end
+    if args[1] == "hero" and args[2] == "spells" then   -- diagnostic (".wc <sub>" is swallowed by the core command .wchange): real state of every remembered spell
+        SpellsReport(player)
+        return false
     end
     if args[1] == "ca" or args[1] == "hero" then
         if HERO_Home then HERO_Home(player) end
@@ -2090,7 +2281,10 @@ local function OnCommand(event, player, command)
         ShowBuild(player)
     elseif sub == "status" then
         ShowStatus(player)
+    elseif sub == "spells" then
+        SpellsReport(player)
     elseif not sub then
+        ServeDice(player)   -- .wc always brings up the Dice that are owed (no-op while a draft is already pending)
         if HERO_DraftWindow then HERO_DraftWindow(player) end
     else
         player:SendBroadcastMessage("|cffffd200[Wildcard]|r Commands: .wc (window)  .wc pick 1  .wc keep (take all)  .wc reroll  .wc build  .wc status   .ca Character Advancement")
@@ -2203,6 +2397,17 @@ local function OnAddonMessage(event, sender, msgType, prefix, msg, target)
             return
         end
         LearnDraftPick(sender, tonumber(arg))
+    elseif kind == "PSTAT" then
+        -- the Primary Stat was (re)chosen in the window (stored by primary_stat.lua): start the first cards if none were rolled yet
+        local n = tonumber(arg) or 0
+        if n >= 1 and path == PATH_WILDCARD then
+            sender:RegisterEvent(function(_, _, _, p)
+                if not p or not p:IsInWorld() then return end
+                if #ParseDraft(DbGet(CharKey(p)).draft) == 0 then ServeDice(p) end
+                p:SendBroadcastMessage("|cffffd200[Wildcard]|r Primary Stat: |cffff8000" .. (STAT_NAME[n] or "?") .. "|r. Your next cards favour it.")
+            end, 1500, 1)
+        end
+        return
     elseif kind == "FORGET" then
         ForgetAbility(sender, tonumber(arg) or 0)
     elseif kind == "REROLL" then

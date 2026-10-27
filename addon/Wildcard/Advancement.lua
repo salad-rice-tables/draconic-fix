@@ -1,5 +1,5 @@
 -- =====================================================================
--- Character Advancement, Descend layout: class banners down the left side (plus Summary), an open book in the
+-- Character Advancement, Ascension layout: class banners down the left side (plus Summary), an open book in the
 -- middle (left page Ability Essence, right page Talent Essence) and a spell list on the right (Spells | Specs).
 -- Bottom: Rapid Rolling, the Ability Essence orb and the window tabs. Opens with N (Bindings.xml), the Hero's
 -- Codex, or when the server sends OPEN;home / OPEN;mystic.
@@ -104,7 +104,7 @@ local Render
 
 -- ---------------------------------------------------------------- class banners (left column)
 
--- alphabetical like Descend: classes, then Summary
+-- alphabetical like Ascension: classes, then Summary
 local ORDER = {6, 12, 11, 13, 3, 8, 10, 2, 5, 4, 7, 9, 1, 0}
 local classBtns = {}
 local function SetClassIcon(tex, cls)
@@ -490,7 +490,7 @@ local cardsF = CreateFrame("Frame", nil, f, "BackdropTemplate")
 cardsF:SetPoint("TOPLEFT", 8, -64); cardsF:SetPoint("BOTTOMRIGHT", -8, 62)   -- the whole window while the Skill Cards tab is open
 WildcardSkin(cardsF, 0.95)
 cardsF:Hide()
--- Descend "Card Packs and Cards" layout: a dark spell-room panel, a progress bar on top, the cards in rows, the pack slots at the bottom
+-- Ascension "Card Packs and Cards" layout: a dark spell-room panel, a progress bar on top, the cards in rows, the pack slots at the bottom
 local cardsBg = cardsF:CreateTexture(nil, "BACKGROUND", nil, -5)
 cardsBg:SetPoint("TOPLEFT", 4, -4); cardsBg:SetPoint("BOTTOMRIGHT", -4, 4)
 cardsBg:SetTexture("Interface/AddOns/Wildcard/art/bg_cards"); cardsBg:SetAlpha(0.8)
@@ -870,7 +870,7 @@ for _, n in ipairs(nodes) do
         if not c or (data.path ~= 1 and data.path ~= 3) then return end
         local have = Owned(c)
         if button == "RightButton" then
-            -- right-click menu as on Descend: Learn (costs Talent Essence) when you do not know it yet, Unlearn when you do
+            -- right-click menu as on Ascension: Learn (costs Talent Essence) when you do not know it yet, Unlearn when you do
             if MenuUtil and MenuUtil.CreateContextMenu then
                 MenuUtil.CreateContextMenu(self, function(_, root)
                     root:CreateTitle(SpellName(c.ranks[1].id))
@@ -1047,7 +1047,7 @@ binder:RegisterEvent("PLAYER_LOGIN")
 binder:RegisterEvent("PLAYER_REGEN_ENABLED")
 binder:SetScript("OnEvent", function(self)
     if InCombatLockdown() or self.done then return end
-    -- like Descend, N opens Character Advancement (Heroes have no use for the default talent window)
+    -- like Ascension, N opens Character Advancement (Heroes have no use for the default talent window)
     SetOverrideBinding(self, true, "N", "WILDCARD_TOGGLE")
     self.done = true
 end)

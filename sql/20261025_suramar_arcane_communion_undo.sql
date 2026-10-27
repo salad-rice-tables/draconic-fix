@@ -1,0 +1,1 @@
+-- undo is manual: restore smart_scripts rows from TDB source_type 12 ids 9106439/9106440 (credit 104618), Theryn SAI, AIName SmartAI

@@ -1,0 +1,4338 @@
+[
+ {
+  "zone": 0,
+  "name": "?",
+  "total": 107789,
+  "custom_entry": 3854,
+  "custom_placed": 87656,
+  "heritage": 16279
+ },
+ {
+  "zone": 13645,
+  "name": "Ohn'ahran Plains",
+  "total": 10709,
+  "custom_entry": 0,
+  "custom_placed": 10624,
+  "heritage": 85
+ },
+ {
+  "zone": 14529,
+  "name": "Emerald Dream",
+  "total": 8261,
+  "custom_entry": 0,
+  "custom_placed": 8261,
+  "heritage": 0
+ },
+ {
+  "zone": 13644,
+  "name": "The Waking Shores",
+  "total": 7552,
+  "custom_entry": 0,
+  "custom_placed": 7483,
+  "heritage": 69
+ },
+ {
+  "zone": 6723,
+  "name": "Tanaan Jungle",
+  "total": 4180,
+  "custom_entry": 0,
+  "custom_placed": 4134,
+  "heritage": 46
+ },
+ {
+  "zone": 13647,
+  "name": "Thaldraszus",
+  "total": 3999,
+  "custom_entry": 0,
+  "custom_placed": 3990,
+  "heritage": 9
+ },
+ {
+  "zone": 14022,
+  "name": "Zaralek Cavern",
+  "total": 4182,
+  "custom_entry": 1,
+  "custom_placed": 3817,
+  "heritage": 364
+ },
+ {
+  "zone": 8701,
+  "name": "Eredath",
+  "total": 3493,
+  "custom_entry": 1,
+  "custom_placed": 3492,
+  "heritage": 0
+ },
+ {
+  "zone": 13769,
+  "name": "The Forbidden Reach",
+  "total": 3198,
+  "custom_entry": 0,
+  "custom_placed": 3112,
+  "heritage": 86
+ },
+ {
+  "zone": 13646,
+  "name": "The Azure Span",
+  "total": 5505,
+  "custom_entry": 3,
+  "custom_placed": 2968,
+  "heritage": 2534
+ },
+ {
+  "zone": 14717,
+  "name": "Isle of Dorn",
+  "total": 4804,
+  "custom_entry": 0,
+  "custom_placed": 2795,
+  "heritage": 2009
+ },
+ {
+  "zone": 15958,
+  "name": "Masters' Perch",
+  "total": 2617,
+  "custom_entry": 0,
+  "custom_placed": 2617,
+  "heritage": 0
+ },
+ {
+  "zone": 14795,
+  "name": "The Ringing Deeps",
+  "total": 2514,
+  "custom_entry": 0,
+  "custom_placed": 2496,
+  "heritage": 18
+ },
+ {
+  "zone": 14838,
+  "name": "Hallowfall",
+  "total": 2427,
+  "custom_entry": 0,
+  "custom_placed": 2408,
+  "heritage": 19
+ },
+ {
+  "zone": 8574,
+  "name": "Krokuun",
+  "total": 2381,
+  "custom_entry": 0,
+  "custom_placed": 2381,
+  "heritage": 0
+ },
+ {
+  "zone": 15968,
+  "name": "Eversong Woods",
+  "total": 1840,
+  "custom_entry": 5,
+  "custom_placed": 1821,
+  "heritage": 14
+ },
+ {
+  "zone": 8899,
+  "name": "Antoran Wastes",
+  "total": 1776,
+  "custom_entry": 2,
+  "custom_placed": 1774,
+  "heritage": 0
+ },
+ {
+  "zone": 6738,
+  "name": "Siege of Orgrimmar",
+  "total": 1543,
+  "custom_entry": 0,
+  "custom_placed": 1543,
+  "heritage": 0
+ },
+ {
+  "zone": 13982,
+  "name": "Ohn'ahran Plains",
+  "total": 1491,
+  "custom_entry": 0,
+  "custom_placed": 1491,
+  "heritage": 0
+ },
+ {
+  "zone": 15969,
+  "name": "Silvermoon City",
+  "total": 1406,
+  "custom_entry": 3,
+  "custom_placed": 1400,
+  "heritage": 3
+ },
+ {
+  "zone": 9734,
+  "name": "Arathi Highlands",
+  "total": 1305,
+  "custom_entry": 4,
+  "custom_placed": 1301,
+  "heritage": 0
+ },
+ {
+  "zone": 14752,
+  "name": "Azj-Kahet",
+  "total": 1125,
+  "custom_entry": 0,
+  "custom_placed": 1120,
+  "heritage": 5
+ },
+ {
+  "zone": 15947,
+  "name": "Zul'Aman",
+  "total": 964,
+  "custom_entry": 5,
+  "custom_placed": 952,
+  "heritage": 7
+ },
+ {
+  "zone": 7637,
+  "name": "Suramar",
+  "total": 7211,
+  "custom_entry": 0,
+  "custom_placed": 953,
+  "heritage": 6258
+ },
+ {
+  "zone": 6719,
+  "name": "Shadowmoon Valley",
+  "total": 8988,
+  "custom_entry": 0,
+  "custom_placed": 943,
+  "heritage": 8045
+ },
+ {
+  "zone": 14030,
+  "name": "Vault of the Incarnates",
+  "total": 801,
+  "custom_entry": 0,
+  "custom_placed": 801,
+  "heritage": 0
+ },
+ {
+  "zone": 14092,
+  "name": "Azmerloth",
+  "total": 766,
+  "custom_entry": 0,
+  "custom_placed": 766,
+  "heritage": 0
+ },
+ {
+  "zone": 13862,
+  "name": "Valdrakken",
+  "total": 844,
+  "custom_entry": 0,
+  "custom_placed": 765,
+  "heritage": 79
+ },
+ {
+  "zone": 15355,
+  "name": "Harandar",
+  "total": 919,
+  "custom_entry": 0,
+  "custom_placed": 757,
+  "heritage": 162
+ },
+ {
+  "zone": 6967,
+  "name": "Blackrock Foundry",
+  "total": 715,
+  "custom_entry": 0,
+  "custom_placed": 715,
+  "heritage": 0
+ },
+ {
+  "zone": 15458,
+  "name": "Voidstorm",
+  "total": 703,
+  "custom_entry": 0,
+  "custom_placed": 698,
+  "heritage": 5
+ },
+ {
+  "zone": 6622,
+  "name": "Throne of Thunder",
+  "total": 680,
+  "custom_entry": 0,
+  "custom_placed": 680,
+  "heritage": 0
+ },
+ {
+  "zone": 14514,
+  "name": "Dawn of the Infinite",
+  "total": 662,
+  "custom_entry": 0,
+  "custom_placed": 662,
+  "heritage": 0
+ },
+ {
+  "zone": 10076,
+  "name": "Battle of Dazar'alor",
+  "total": 645,
+  "custom_entry": 0,
+  "custom_placed": 645,
+  "heritage": 0
+ },
+ {
+  "zone": 7545,
+  "name": "Hellfire Citadel",
+  "total": 621,
+  "custom_entry": 0,
+  "custom_placed": 621,
+  "heritage": 0
+ },
+ {
+  "zone": 8026,
+  "name": "The Emerald Nightmare",
+  "total": 621,
+  "custom_entry": 0,
+  "custom_placed": 621,
+  "heritage": 0
+ },
+ {
+  "zone": 7334,
+  "name": "Azsuna",
+  "total": 4809,
+  "custom_entry": 13,
+  "custom_placed": 590,
+  "heritage": 4206
+ },
+ {
+  "zone": 8524,
+  "name": "Tomb of Sargeras",
+  "total": 567,
+  "custom_entry": 0,
+  "custom_placed": 567,
+  "heritage": 0
+ },
+ {
+  "zone": 13991,
+  "name": "Brackenhide Hollow",
+  "total": 539,
+  "custom_entry": 0,
+  "custom_placed": 539,
+  "heritage": 0
+ },
+ {
+  "zone": 8277,
+  "name": "The Exodar",
+  "total": 535,
+  "custom_entry": 0,
+  "custom_placed": 535,
+  "heritage": 0
+ },
+ {
+  "zone": 8581,
+  "name": "Assault on Broken Shore",
+  "total": 525,
+  "custom_entry": 0,
+  "custom_placed": 525,
+  "heritage": 0
+ },
+ {
+  "zone": 7588,
+  "name": "Helheim",
+  "total": 517,
+  "custom_entry": 0,
+  "custom_placed": 517,
+  "heritage": 0
+ },
+ {
+  "zone": 7541,
+  "name": "Stormheim",
+  "total": 5609,
+  "custom_entry": 0,
+  "custom_placed": 453,
+  "heritage": 5156
+ },
+ {
+  "zone": 6426,
+  "name": "Brewmoon Festival",
+  "total": 429,
+  "custom_entry": 0,
+  "custom_placed": 429,
+  "heritage": 0
+ },
+ {
+  "zone": 8950,
+  "name": "Ruins of Lordaeron",
+  "total": 1237,
+  "custom_entry": 118,
+  "custom_placed": 301,
+  "heritage": 818
+ },
+ {
+  "zone": 1637,
+  "name": "Orgrimmar",
+  "total": 1821,
+  "custom_entry": 45,
+  "custom_placed": 353,
+  "heritage": 1423
+ },
+ {
+  "zone": 14663,
+  "name": "Aberrus, the Shadowed Crucible",
+  "total": 467,
+  "custom_entry": 0,
+  "custom_placed": 385,
+  "heritage": 82
+ },
+ {
+  "zone": 440,
+  "name": "Tanaris",
+  "total": 3136,
+  "custom_entry": 6,
+  "custom_placed": 374,
+  "heritage": 2756
+ },
+ {
+  "zone": 6182,
+  "name": "Mogu'shan Palace",
+  "total": 376,
+  "custom_entry": 0,
+  "custom_placed": 376,
+  "heritage": 0
+ },
+ {
+  "zone": 6996,
+  "name": "Highmaul",
+  "total": 356,
+  "custom_entry": 0,
+  "custom_placed": 356,
+  "heritage": 0
+ },
+ {
+  "zone": 5918,
+  "name": "Shado-Pan Monastery",
+  "total": 352,
+  "custom_entry": 0,
+  "custom_placed": 352,
+  "heritage": 0
+ },
+ {
+  "zone": 7902,
+  "name": "The Wandering Isle",
+  "total": 351,
+  "custom_entry": 0,
+  "custom_placed": 351,
+  "heritage": 0
+ },
+ {
+  "zone": 7796,
+  "name": "Broken Shore",
+  "total": 341,
+  "custom_entry": 0,
+  "custom_placed": 341,
+  "heritage": 0
+ },
+ {
+  "zone": 7838,
+  "name": "Azshara",
+  "total": 331,
+  "custom_entry": 0,
+  "custom_placed": 331,
+  "heritage": 0
+ },
+ {
+  "zone": 7674,
+  "name": "Legion Dungeon",
+  "total": 329,
+  "custom_entry": 0,
+  "custom_placed": 329,
+  "heritage": 0
+ },
+ {
+  "zone": 14011,
+  "name": "Neltharus",
+  "total": 329,
+  "custom_entry": 0,
+  "custom_placed": 329,
+  "heritage": 0
+ },
+ {
+  "zone": 6874,
+  "name": "Bloodmaul Slag Mines",
+  "total": 319,
+  "custom_entry": 0,
+  "custom_placed": 319,
+  "heritage": 0
+ },
+ {
+  "zone": 6214,
+  "name": "Siege of Niuzao Temple",
+  "total": 317,
+  "custom_entry": 0,
+  "custom_placed": 317,
+  "heritage": 0
+ },
+ {
+  "zone": 6720,
+  "name": "Frostfire Ridge",
+  "total": 5790,
+  "custom_entry": 0,
+  "custom_placed": 313,
+  "heritage": 5477
+ },
+ {
+  "zone": 5841,
+  "name": "Kun-Lai Summit",
+  "total": 4486,
+  "custom_entry": 0,
+  "custom_placed": 312,
+  "heritage": 4174
+ },
+ {
+  "zone": 85,
+  "name": "Tirisfal Glades",
+  "total": 2383,
+  "custom_entry": 5,
+  "custom_placed": 305,
+  "heritage": 2073
+ },
+ {
+  "zone": 7558,
+  "name": "Val'sharah",
+  "total": 3847,
+  "custom_entry": 0,
+  "custom_placed": 307,
+  "heritage": 3540
+ },
+ {
+  "zone": 6297,
+  "name": "Heart of Fear",
+  "total": 304,
+  "custom_entry": 0,
+  "custom_placed": 304,
+  "heritage": 0
+ },
+ {
+  "zone": 7673,
+  "name": "Darkheart Thicket",
+  "total": 709,
+  "custom_entry": 0,
+  "custom_placed": 293,
+  "heritage": 416
+ },
+ {
+  "zone": 16091,
+  "name": "Murder Row",
+  "total": 292,
+  "custom_entry": 0,
+  "custom_placed": 290,
+  "heritage": 2
+ },
+ {
+  "zone": 13995,
+  "name": "Pandaren Revolution",
+  "total": 279,
+  "custom_entry": 0,
+  "custom_placed": 279,
+  "heritage": 0
+ },
+ {
+  "zone": 7109,
+  "name": "The Everbloom",
+  "total": 276,
+  "custom_entry": 0,
+  "custom_placed": 276,
+  "heritage": 0
+ },
+ {
+  "zone": 6932,
+  "name": "Shadowmoon Burial Grounds",
+  "total": 274,
+  "custom_entry": 0,
+  "custom_placed": 274,
+  "heritage": 0
+ },
+ {
+  "zone": 13992,
+  "name": "The Primalist Future",
+  "total": 270,
+  "custom_entry": 0,
+  "custom_placed": 269,
+  "heritage": 1
+ },
+ {
+  "zone": 6040,
+  "name": "Dustwallow Marsh",
+  "total": 264,
+  "custom_entry": 0,
+  "custom_placed": 264,
+  "heritage": 0
+ },
+ {
+  "zone": 5963,
+  "name": "Stormstout Brewery",
+  "total": 256,
+  "custom_entry": 0,
+  "custom_placed": 256,
+  "heritage": 0
+ },
+ {
+  "zone": 8180,
+  "name": "Malorne's Nightmare",
+  "total": 253,
+  "custom_entry": 0,
+  "custom_placed": 253,
+  "heritage": 0
+ },
+ {
+  "zone": 7979,
+  "name": "Emerald Dreamway",
+  "total": 252,
+  "custom_entry": 0,
+  "custom_placed": 252,
+  "heritage": 0
+ },
+ {
+  "zone": 7307,
+  "name": "Upper Blackrock Spire",
+  "total": 244,
+  "custom_entry": 0,
+  "custom_placed": 244,
+  "heritage": 0
+ },
+ {
+  "zone": 8125,
+  "name": "Firelands",
+  "total": 244,
+  "custom_entry": 0,
+  "custom_placed": 244,
+  "heritage": 0
+ },
+ {
+  "zone": 616,
+  "name": "Mount Hyjal",
+  "total": 5349,
+  "custom_entry": 6,
+  "custom_placed": 233,
+  "heritage": 5110
+ },
+ {
+  "zone": 6125,
+  "name": "Mogu'shan Vaults",
+  "total": 223,
+  "custom_entry": 0,
+  "custom_placed": 223,
+  "heritage": 0
+ },
+ {
+  "zone": 6613,
+  "name": "Black Temple",
+  "total": 223,
+  "custom_entry": 0,
+  "custom_placed": 223,
+  "heritage": 0
+ },
+ {
+  "zone": 1519,
+  "name": "Stormwind City",
+  "total": 2636,
+  "custom_entry": 0,
+  "custom_placed": 207,
+  "heritage": 2429
+ },
+ {
+  "zone": 10424,
+  "name": "Exile's Reach",
+  "total": 1114,
+  "custom_entry": 0,
+  "custom_placed": 201,
+  "heritage": 913
+ },
+ {
+  "zone": 5976,
+  "name": "Gate of the Setting Sun",
+  "total": 200,
+  "custom_entry": 0,
+  "custom_placed": 200,
+  "heritage": 0
+ },
+ {
+  "zone": 8252,
+  "name": "The Oculus",
+  "total": 194,
+  "custom_entry": 0,
+  "custom_placed": 194,
+  "heritage": 0
+ },
+ {
+  "zone": 6209,
+  "name": "The Jade Forest",
+  "total": 187,
+  "custom_entry": 0,
+  "custom_placed": 187,
+  "heritage": 0
+ },
+ {
+  "zone": 16215,
+  "name": "Isle of Quel'Danas",
+  "total": 187,
+  "custom_entry": 2,
+  "custom_placed": 185,
+  "heritage": 0
+ },
+ {
+  "zone": 6951,
+  "name": "Iron Docks",
+  "total": 399,
+  "custom_entry": 0,
+  "custom_placed": 184,
+  "heritage": 215
+ },
+ {
+  "zone": 7875,
+  "name": "Dreadscar Rift",
+  "total": 185,
+  "custom_entry": 0,
+  "custom_placed": 184,
+  "heritage": 1
+ },
+ {
+  "zone": 13742,
+  "name": "Sepulcher of the First Ones",
+  "total": 195,
+  "custom_entry": 0,
+  "custom_placed": 182,
+  "heritage": 13
+ },
+ {
+  "zone": 8094,
+  "name": "The Beyond",
+  "total": 182,
+  "custom_entry": 0,
+  "custom_placed": 182,
+  "heritage": 0
+ },
+ {
+  "zone": 8596,
+  "name": "Stormheim",
+  "total": 179,
+  "custom_entry": 0,
+  "custom_placed": 179,
+  "heritage": 0
+ },
+ {
+  "zone": 8531,
+  "name": "Stormstout Brewery",
+  "total": 178,
+  "custom_entry": 0,
+  "custom_placed": 178,
+  "heritage": 0
+ },
+ {
+  "zone": 8625,
+  "name": "Azsuna",
+  "total": 170,
+  "custom_entry": 0,
+  "custom_placed": 170,
+  "heritage": 0
+ },
+ {
+  "zone": 13994,
+  "name": "War of the Shifting Sands",
+  "total": 167,
+  "custom_entry": 0,
+  "custom_placed": 167,
+  "heritage": 0
+ },
+ {
+  "zone": 8392,
+  "name": "Dalaran Sewers",
+  "total": 170,
+  "custom_entry": 0,
+  "custom_placed": 166,
+  "heritage": 4
+ },
+ {
+  "zone": 9042,
+  "name": "Stormsong Valley",
+  "total": 9112,
+  "custom_entry": 15,
+  "custom_placed": 150,
+  "heritage": 8947
+ },
+ {
+  "zone": 8646,
+  "name": "Highmountain",
+  "total": 158,
+  "custom_entry": 0,
+  "custom_placed": 158,
+  "heritage": 0
+ },
+ {
+  "zone": 8570,
+  "name": "Val'sharah",
+  "total": 157,
+  "custom_entry": 0,
+  "custom_placed": 157,
+  "heritage": 0
+ },
+ {
+  "zone": 9012,
+  "name": "Forge of Aeons",
+  "total": 157,
+  "custom_entry": 0,
+  "custom_placed": 157,
+  "heritage": 0
+ },
+ {
+  "zone": 6988,
+  "name": "Skyreach",
+  "total": 150,
+  "custom_entry": 0,
+  "custom_placed": 150,
+  "heritage": 0
+ },
+ {
+  "zone": 8105,
+  "name": "Niskara",
+  "total": 150,
+  "custom_entry": 0,
+  "custom_placed": 149,
+  "heritage": 1
+ },
+ {
+  "zone": 7834,
+  "name": "Netherlight Temple",
+  "total": 169,
+  "custom_entry": 0,
+  "custom_placed": 147,
+  "heritage": 22
+ },
+ {
+  "zone": 7004,
+  "name": "Frostwall",
+  "total": 148,
+  "custom_entry": 0,
+  "custom_placed": 138,
+  "heritage": 10
+ },
+ {
+  "zone": 8309,
+  "name": "Tol Barad",
+  "total": 138,
+  "custom_entry": 0,
+  "custom_placed": 138,
+  "heritage": 0
+ },
+ {
+  "zone": 7918,
+  "name": "Dreadscar Rift",
+  "total": 138,
+  "custom_entry": 0,
+  "custom_placed": 136,
+  "heritage": 2
+ },
+ {
+  "zone": 331,
+  "name": "Ashenvale",
+  "total": 4423,
+  "custom_entry": 76,
+  "custom_placed": 59,
+  "heritage": 4288
+ },
+ {
+  "zone": 6109,
+  "name": "Scarlet Monastery",
+  "total": 290,
+  "custom_entry": 0,
+  "custom_placed": 135,
+  "heritage": 155
+ },
+ {
+  "zone": 8840,
+  "name": "Azuremyst Isle",
+  "total": 133,
+  "custom_entry": 0,
+  "custom_placed": 133,
+  "heritage": 0
+ },
+ {
+  "zone": 8567,
+  "name": "Tiragarde Sound",
+  "total": 14082,
+  "custom_entry": 0,
+  "custom_placed": 131,
+  "heritage": 13951
+ },
+ {
+  "zone": 5956,
+  "name": "Temple of the Jade Serpent",
+  "total": 131,
+  "custom_entry": 0,
+  "custom_placed": 131,
+  "heritage": 0
+ },
+ {
+  "zone": 9188,
+  "name": "Telogrus Rift",
+  "total": 129,
+  "custom_entry": 0,
+  "custom_placed": 129,
+  "heritage": 0
+ },
+ {
+  "zone": 7078,
+  "name": "Lunarfall",
+  "total": 360,
+  "custom_entry": 0,
+  "custom_placed": 122,
+  "heritage": 238
+ },
+ {
+  "zone": 6052,
+  "name": "Scarlet Halls",
+  "total": 329,
+  "custom_entry": 0,
+  "custom_placed": 121,
+  "heritage": 208
+ },
+ {
+  "zone": 7745,
+  "name": "The Maelstrom",
+  "total": 120,
+  "custom_entry": 0,
+  "custom_placed": 120,
+  "heritage": 0
+ },
+ {
+  "zone": 4922,
+  "name": "Twilight Highlands",
+  "total": 7597,
+  "custom_entry": 26,
+  "custom_placed": 91,
+  "heritage": 7480
+ },
+ {
+  "zone": 40,
+  "name": "Westfall",
+  "total": 2492,
+  "custom_entry": 9,
+  "custom_placed": 105,
+  "heritage": 2378
+ },
+ {
+  "zone": 10534,
+  "name": "Bastion",
+  "total": 4294,
+  "custom_entry": 0,
+  "custom_placed": 111,
+  "heritage": 4183
+ },
+ {
+  "zone": 7672,
+  "name": "Halls of Valor",
+  "total": 427,
+  "custom_entry": 0,
+  "custom_placed": 110,
+  "heritage": 317
+ },
+ {
+  "zone": 7955,
+  "name": "Deepholm",
+  "total": 106,
+  "custom_entry": 0,
+  "custom_placed": 106,
+  "heritage": 0
+ },
+ {
+  "zone": 17,
+  "name": "Northern Barrens",
+  "total": 2491,
+  "custom_entry": 41,
+  "custom_placed": 60,
+  "heritage": 2390
+ },
+ {
+  "zone": 9525,
+  "name": "Shrine of the Storm",
+  "total": 414,
+  "custom_entry": 0,
+  "custom_placed": 101,
+  "heritage": 313
+ },
+ {
+  "zone": 41,
+  "name": "Deadwind Pass",
+  "total": 426,
+  "custom_entry": 1,
+  "custom_placed": 98,
+  "heritage": 327
+ },
+ {
+  "zone": 7879,
+  "name": "Hall of the Guardian",
+  "total": 96,
+  "custom_entry": 0,
+  "custom_placed": 96,
+  "heritage": 0
+ },
+ {
+  "zone": 14,
+  "name": "Durotar",
+  "total": 2308,
+  "custom_entry": 38,
+  "custom_placed": 56,
+  "heritage": 2214
+ },
+ {
+  "zone": 6309,
+  "name": "Unga Ingoo",
+  "total": 94,
+  "custom_entry": 0,
+  "custom_placed": 94,
+  "heritage": 0
+ },
+ {
+  "zone": 8142,
+  "name": "Shadowgore Citadel",
+  "total": 93,
+  "custom_entry": 0,
+  "custom_placed": 93,
+  "heritage": 0
+ },
+ {
+  "zone": 12,
+  "name": "Elwynn Forest",
+  "total": 1903,
+  "custom_entry": 7,
+  "custom_placed": 85,
+  "heritage": 1811
+ },
+ {
+  "zone": 4709,
+  "name": "Southern Barrens",
+  "total": 2129,
+  "custom_entry": 31,
+  "custom_placed": 61,
+  "heritage": 2037
+ },
+ {
+  "zone": 8911,
+  "name": "Arcatraz",
+  "total": 91,
+  "custom_entry": 0,
+  "custom_placed": 91,
+  "heritage": 0
+ },
+ {
+  "zone": 215,
+  "name": "Mulgore",
+  "total": 1204,
+  "custom_entry": 4,
+  "custom_placed": 86,
+  "heritage": 1114
+ },
+ {
+  "zone": 8672,
+  "name": "The Ruby Sanctum",
+  "total": 90,
+  "custom_entry": 0,
+  "custom_placed": 90,
+  "heritage": 0
+ },
+ {
+  "zone": 141,
+  "name": "Teldrassil",
+  "total": 1319,
+  "custom_entry": 31,
+  "custom_placed": 58,
+  "heritage": 1230
+ },
+ {
+  "zone": 13996,
+  "name": "The Black Empire",
+  "total": 90,
+  "custom_entry": 0,
+  "custom_placed": 87,
+  "heritage": 3
+ },
+ {
+  "zone": 6134,
+  "name": "Krasarang Wilds",
+  "total": 3602,
+  "custom_entry": 19,
+  "custom_placed": 67,
+  "heritage": 3516
+ },
+ {
+  "zone": 6101,
+  "name": "A Brewing Storm",
+  "total": 86,
+  "custom_entry": 0,
+  "custom_placed": 86,
+  "heritage": 0
+ },
+ {
+  "zone": 9102,
+  "name": "Invasion Point: Naigtal",
+  "total": 86,
+  "custom_entry": 0,
+  "custom_placed": 86,
+  "heritage": 0
+ },
+ {
+  "zone": 3483,
+  "name": "Hellfire Peninsula",
+  "total": 3273,
+  "custom_entry": 27,
+  "custom_placed": 55,
+  "heritage": 3191
+ },
+ {
+  "zone": 406,
+  "name": "Stonetalon Mountains",
+  "total": 3077,
+  "custom_entry": 19,
+  "custom_placed": 62,
+  "heritage": 2996
+ },
+ {
+  "zone": 9318,
+  "name": "The Sunwell",
+  "total": 81,
+  "custom_entry": 0,
+  "custom_placed": 81,
+  "heritage": 0
+ },
+ {
+  "zone": 13993,
+  "name": "The Gnoll War",
+  "total": 81,
+  "custom_entry": 0,
+  "custom_placed": 81,
+  "heritage": 0
+ },
+ {
+  "zone": 495,
+  "name": "Howling Fjord",
+  "total": 6148,
+  "custom_entry": 25,
+  "custom_placed": 55,
+  "heritage": 6068
+ },
+ {
+  "zone": 4,
+  "name": "Blasted Lands",
+  "total": 3021,
+  "custom_entry": 22,
+  "custom_placed": 58,
+  "heritage": 2941
+ },
+ {
+  "zone": 5034,
+  "name": "Uldum",
+  "total": 4195,
+  "custom_entry": 17,
+  "custom_placed": 61,
+  "heritage": 4117
+ },
+ {
+  "zone": 65,
+  "name": "Dragonblight",
+  "total": 4965,
+  "custom_entry": 19,
+  "custom_placed": 58,
+  "heritage": 4888
+ },
+ {
+  "zone": 1,
+  "name": "Dun Morogh",
+  "total": 2229,
+  "custom_entry": 19,
+  "custom_placed": 57,
+  "heritage": 2153
+ },
+ {
+  "zone": 148,
+  "name": "Darkshore",
+  "total": 2498,
+  "custom_entry": 18,
+  "custom_placed": 57,
+  "heritage": 2423
+ },
+ {
+  "zone": 33,
+  "name": "Northern Stranglethorn",
+  "total": 1147,
+  "custom_entry": 18,
+  "custom_placed": 56,
+  "heritage": 1073
+ },
+ {
+  "zone": 400,
+  "name": "Thousand Needles",
+  "total": 2941,
+  "custom_entry": 13,
+  "custom_placed": 61,
+  "heritage": 2867
+ },
+ {
+  "zone": 7777,
+  "name": "The Violet Hold",
+  "total": 74,
+  "custom_entry": 0,
+  "custom_placed": 74,
+  "heritage": 0
+ },
+ {
+  "zone": 8678,
+  "name": "Kyranastrasz' Rest",
+  "total": 74,
+  "custom_entry": 0,
+  "custom_placed": 74,
+  "heritage": 0
+ },
+ {
+  "zone": 8842,
+  "name": "The Exodar",
+  "total": 74,
+  "custom_entry": 0,
+  "custom_placed": 74,
+  "heritage": 0
+ },
+ {
+  "zone": 3537,
+  "name": "Borean Tundra",
+  "total": 5286,
+  "custom_entry": 18,
+  "custom_placed": 55,
+  "heritage": 5213
+ },
+ {
+  "zone": 357,
+  "name": "Feralas",
+  "total": 2466,
+  "custom_entry": 11,
+  "custom_placed": 62,
+  "heritage": 2393
+ },
+ {
+  "zone": 8,
+  "name": "Swamp of Sorrows",
+  "total": 1134,
+  "custom_entry": 14,
+  "custom_placed": 59,
+  "heritage": 1061
+ },
+ {
+  "zone": 5144,
+  "name": "Shimmering Expanse",
+  "total": 3703,
+  "custom_entry": 16,
+  "custom_placed": 57,
+  "heritage": 3630
+ },
+ {
+  "zone": 8093,
+  "name": "The Vortex Pinnacle",
+  "total": 73,
+  "custom_entry": 0,
+  "custom_placed": 73,
+  "heritage": 0
+ },
+ {
+  "zone": 5785,
+  "name": "The Jade Forest",
+  "total": 8296,
+  "custom_entry": 0,
+  "custom_placed": 72,
+  "heritage": 8224
+ },
+ {
+  "zone": 8645,
+  "name": "Halls of Valor",
+  "total": 72,
+  "custom_entry": 0,
+  "custom_placed": 72,
+  "heritage": 0
+ },
+ {
+  "zone": 130,
+  "name": "Silverpine Forest",
+  "total": 903,
+  "custom_entry": 14,
+  "custom_placed": 57,
+  "heritage": 832
+ },
+ {
+  "zone": 267,
+  "name": "Hillsbrad Foothills",
+  "total": 847,
+  "custom_entry": 6,
+  "custom_placed": 64,
+  "heritage": 777
+ },
+ {
+  "zone": 45,
+  "name": "Arathi Highlands",
+  "total": 1217,
+  "custom_entry": 4,
+  "custom_placed": 66,
+  "heritage": 1147
+ },
+ {
+  "zone": 28,
+  "name": "Western Plaguelands",
+  "total": 1297,
+  "custom_entry": 11,
+  "custom_placed": 58,
+  "heritage": 1228
+ },
+ {
+  "zone": 8721,
+  "name": "Drustvar",
+  "total": 9499,
+  "custom_entry": 0,
+  "custom_placed": 69,
+  "heritage": 9430
+ },
+ {
+  "zone": 394,
+  "name": "Grizzly Hills",
+  "total": 3115,
+  "custom_entry": 13,
+  "custom_placed": 55,
+  "heritage": 3047
+ },
+ {
+  "zone": 16,
+  "name": "Azshara",
+  "total": 3242,
+  "custom_entry": 5,
+  "custom_placed": 63,
+  "heritage": 3174
+ },
+ {
+  "zone": 361,
+  "name": "Felwood",
+  "total": 1773,
+  "custom_entry": 11,
+  "custom_placed": 57,
+  "heritage": 1705
+ },
+ {
+  "zone": 11,
+  "name": "Wetlands",
+  "total": 2175,
+  "custom_entry": 7,
+  "custom_placed": 60,
+  "heritage": 2108
+ },
+ {
+  "zone": 44,
+  "name": "Redridge Mountains",
+  "total": 1079,
+  "custom_entry": 8,
+  "custom_placed": 59,
+  "heritage": 1012
+ },
+ {
+  "zone": 405,
+  "name": "Desolace",
+  "total": 2918,
+  "custom_entry": 6,
+  "custom_placed": 61,
+  "heritage": 2851
+ },
+ {
+  "zone": 6721,
+  "name": "Gorgrond",
+  "total": 6131,
+  "custom_entry": 0,
+  "custom_placed": 67,
+  "heritage": 6064
+ },
+ {
+  "zone": 210,
+  "name": "Icecrown",
+  "total": 6130,
+  "custom_entry": 11,
+  "custom_placed": 55,
+  "heritage": 6064
+ },
+ {
+  "zone": 3519,
+  "name": "Terokkar Forest",
+  "total": 3086,
+  "custom_entry": 11,
+  "custom_placed": 55,
+  "heritage": 3020
+ },
+ {
+  "zone": 15,
+  "name": "Dustwallow Marsh",
+  "total": 1928,
+  "custom_entry": 8,
+  "custom_placed": 58,
+  "heritage": 1862
+ },
+ {
+  "zone": 3522,
+  "name": "Blade's Edge Mountains",
+  "total": 2788,
+  "custom_entry": 10,
+  "custom_placed": 55,
+  "heritage": 2723
+ },
+ {
+  "zone": 139,
+  "name": "Eastern Plaguelands",
+  "total": 3156,
+  "custom_entry": 6,
+  "custom_placed": 59,
+  "heritage": 3091
+ },
+ {
+  "zone": 8499,
+  "name": "Zuldazar",
+  "total": 13083,
+  "custom_entry": 10,
+  "custom_placed": 55,
+  "heritage": 13018
+ },
+ {
+  "zone": 3,
+  "name": "Badlands",
+  "total": 1343,
+  "custom_entry": 9,
+  "custom_placed": 56,
+  "heritage": 1278
+ },
+ {
+  "zone": 6138,
+  "name": "Dread Wastes",
+  "total": 4442,
+  "custom_entry": 0,
+  "custom_placed": 65,
+  "heritage": 4377
+ },
+ {
+  "zone": 6722,
+  "name": "Spires of Arak",
+  "total": 4300,
+  "custom_entry": 0,
+  "custom_placed": 65,
+  "heritage": 4235
+ },
+ {
+  "zone": 11510,
+  "name": "Ardenweald",
+  "total": 15692,
+  "custom_entry": 0,
+  "custom_placed": 65,
+  "heritage": 15627
+ },
+ {
+  "zone": 38,
+  "name": "Loch Modan",
+  "total": 1342,
+  "custom_entry": 9,
+  "custom_placed": 55,
+  "heritage": 1278
+ },
+ {
+  "zone": 10413,
+  "name": "Revendreth",
+  "total": 6342,
+  "custom_entry": 0,
+  "custom_placed": 64,
+  "heritage": 6278
+ },
+ {
+  "zone": 47,
+  "name": "The Hinterlands",
+  "total": 1238,
+  "custom_entry": 6,
+  "custom_placed": 58,
+  "heritage": 1174
+ },
+ {
+  "zone": 5145,
+  "name": "Abyssal Depths",
+  "total": 2672,
+  "custom_entry": 6,
+  "custom_placed": 58,
+  "heritage": 2608
+ },
+ {
+  "zone": 5805,
+  "name": "Valley of the Four Winds",
+  "total": 4620,
+  "custom_entry": 0,
+  "custom_placed": 64,
+  "heritage": 4556
+ },
+ {
+  "zone": 3433,
+  "name": "Ghostlands",
+  "total": 1545,
+  "custom_entry": 8,
+  "custom_placed": 55,
+  "heritage": 1482
+ },
+ {
+  "zone": 3711,
+  "name": "Sholazar Basin",
+  "total": 2247,
+  "custom_entry": 8,
+  "custom_placed": 55,
+  "heritage": 2184
+ },
+ {
+  "zone": 5339,
+  "name": "Stranglethorn Vale",
+  "total": 703,
+  "custom_entry": 7,
+  "custom_placed": 56,
+  "heritage": 640
+ },
+ {
+  "zone": 5840,
+  "name": "Vale of Eternal Blossoms",
+  "total": 2626,
+  "custom_entry": 0,
+  "custom_placed": 63,
+  "heritage": 2563
+ },
+ {
+  "zone": 6298,
+  "name": "Brawl'gar Arena",
+  "total": 63,
+  "custom_entry": 0,
+  "custom_placed": 63,
+  "heritage": 0
+ },
+ {
+  "zone": 5287,
+  "name": "The Cape of Stranglethorn",
+  "total": 1248,
+  "custom_entry": 6,
+  "custom_placed": 56,
+  "heritage": 1186
+ },
+ {
+  "zone": 10,
+  "name": "Duskwood",
+  "total": 1593,
+  "custom_entry": 4,
+  "custom_placed": 58,
+  "heritage": 1531
+ },
+ {
+  "zone": 4815,
+  "name": "Kelp'thar Forest",
+  "total": 935,
+  "custom_entry": 5,
+  "custom_placed": 57,
+  "heritage": 873
+ },
+ {
+  "zone": 6662,
+  "name": "Talador",
+  "total": 6618,
+  "custom_entry": 0,
+  "custom_placed": 62,
+  "heritage": 6556
+ },
+ {
+  "zone": 66,
+  "name": "Zul'Drak",
+  "total": 3078,
+  "custom_entry": 6,
+  "custom_placed": 55,
+  "heritage": 3017
+ },
+ {
+  "zone": 3520,
+  "name": "Shadowmoon Valley",
+  "total": 3608,
+  "custom_entry": 46,
+  "custom_placed": 15,
+  "heritage": 3547
+ },
+ {
+  "zone": 618,
+  "name": "Winterspring",
+  "total": 1828,
+  "custom_entry": 4,
+  "custom_placed": 57,
+  "heritage": 1767
+ },
+ {
+  "zone": 6453,
+  "name": "Echo Isles",
+  "total": 720,
+  "custom_entry": 3,
+  "custom_placed": 57,
+  "heritage": 660
+ },
+ {
+  "zone": 6755,
+  "name": "Nagrand",
+  "total": 7415,
+  "custom_entry": 0,
+  "custom_placed": 60,
+  "heritage": 7355
+ },
+ {
+  "zone": 14032,
+  "name": "Algeth'ar Academy",
+  "total": 291,
+  "custom_entry": 0,
+  "custom_placed": 60,
+  "heritage": 231
+ },
+ {
+  "zone": 8630,
+  "name": "The Deadmines",
+  "total": 60,
+  "custom_entry": 0,
+  "custom_placed": 60,
+  "heritage": 0
+ },
+ {
+  "zone": 8583,
+  "name": "Black Rook Hold",
+  "total": 60,
+  "custom_entry": 0,
+  "custom_placed": 60,
+  "heritage": 0
+ },
+ {
+  "zone": 3521,
+  "name": "Zangarmarsh",
+  "total": 2992,
+  "custom_entry": 4,
+  "custom_placed": 55,
+  "heritage": 2933
+ },
+ {
+  "zone": 6451,
+  "name": "Valley of Trials",
+  "total": 326,
+  "custom_entry": 4,
+  "custom_placed": 55,
+  "heritage": 267
+ },
+ {
+  "zone": 6457,
+  "name": "New Tinkertown",
+  "total": 610,
+  "custom_entry": 4,
+  "custom_placed": 55,
+  "heritage": 551
+ },
+ {
+  "zone": 9180,
+  "name": "Invasion Point: Bonich",
+  "total": 59,
+  "custom_entry": 0,
+  "custom_placed": 59,
+  "heritage": 0
+ },
+ {
+  "zone": 6176,
+  "name": "Coldridge Valley",
+  "total": 412,
+  "custom_entry": 3,
+  "custom_placed": 55,
+  "heritage": 354
+ },
+ {
+  "zone": 3518,
+  "name": "Nagrand",
+  "total": 2755,
+  "custom_entry": 2,
+  "custom_placed": 55,
+  "heritage": 2698
+ },
+ {
+  "zone": 3430,
+  "name": "Eversong Woods (Burning Crusade)",
+  "total": 1519,
+  "custom_entry": 1,
+  "custom_placed": 56,
+  "heritage": 1462
+ },
+ {
+  "zone": 3523,
+  "name": "Netherstorm",
+  "total": 3025,
+  "custom_entry": 2,
+  "custom_placed": 55,
+  "heritage": 2968
+ },
+ {
+  "zone": 5146,
+  "name": "Vashj'ir",
+  "total": 594,
+  "custom_entry": 1,
+  "custom_placed": 56,
+  "heritage": 537
+ },
+ {
+  "zone": 6450,
+  "name": "Shadowglen",
+  "total": 420,
+  "custom_entry": 1,
+  "custom_placed": 55,
+  "heritage": 364
+ },
+ {
+  "zone": 3524,
+  "name": "Azuremyst Isle",
+  "total": 1483,
+  "custom_entry": 1,
+  "custom_placed": 55,
+  "heritage": 1427
+ },
+ {
+  "zone": 1657,
+  "name": "Darnassus",
+  "total": 736,
+  "custom_entry": 0,
+  "custom_placed": 56,
+  "heritage": 680
+ },
+ {
+  "zone": 3525,
+  "name": "Bloodmyst Isle",
+  "total": 1385,
+  "custom_entry": 1,
+  "custom_placed": 55,
+  "heritage": 1329
+ },
+ {
+  "zone": 1497,
+  "name": "Undercity",
+  "total": 504,
+  "custom_entry": 0,
+  "custom_placed": 56,
+  "heritage": 448
+ },
+ {
+  "zone": 6941,
+  "name": "Ashran",
+  "total": 1791,
+  "custom_entry": 0,
+  "custom_placed": 56,
+  "heritage": 1735
+ },
+ {
+  "zone": 6170,
+  "name": "Northshire",
+  "total": 338,
+  "custom_entry": 1,
+  "custom_placed": 55,
+  "heritage": 282
+ },
+ {
+  "zone": 4706,
+  "name": "Ruins of Gilneas",
+  "total": 811,
+  "custom_entry": 1,
+  "custom_placed": 55,
+  "heritage": 755
+ },
+ {
+  "zone": 6452,
+  "name": "Camp Narache",
+  "total": 791,
+  "custom_entry": 1,
+  "custom_placed": 55,
+  "heritage": 735
+ },
+ {
+  "zone": 8262,
+  "name": "Temple of the Jade Serpent",
+  "total": 56,
+  "custom_entry": 0,
+  "custom_placed": 56,
+  "heritage": 0
+ },
+ {
+  "zone": 7578,
+  "name": "Eye of Azshara",
+  "total": 693,
+  "custom_entry": 0,
+  "custom_placed": 55,
+  "heritage": 638
+ },
+ {
+  "zone": 7503,
+  "name": "Highmountain",
+  "total": 4306,
+  "custom_entry": 0,
+  "custom_placed": 55,
+  "heritage": 4251
+ },
+ {
+  "zone": 493,
+  "name": "Moonglade",
+  "total": 546,
+  "custom_entry": 0,
+  "custom_placed": 55,
+  "heritage": 491
+ },
+ {
+  "zone": 6455,
+  "name": "Sunstrider Isle",
+  "total": 411,
+  "custom_entry": 0,
+  "custom_placed": 55,
+  "heritage": 356
+ },
+ {
+  "zone": 11462,
+  "name": "Maldraxxus",
+  "total": 5866,
+  "custom_entry": 0,
+  "custom_placed": 55,
+  "heritage": 5811
+ },
+ {
+  "zone": 13570,
+  "name": "Korthia",
+  "total": 1648,
+  "custom_entry": 0,
+  "custom_placed": 55,
+  "heritage": 1593
+ },
+ {
+  "zone": 14433,
+  "name": "The Forbidden Reach",
+  "total": 2381,
+  "custom_entry": 0,
+  "custom_placed": 55,
+  "heritage": 2326
+ },
+ {
+  "zone": 8500,
+  "name": "Nazmir",
+  "total": 8426,
+  "custom_entry": 0,
+  "custom_placed": 55,
+  "heritage": 8371
+ },
+ {
+  "zone": 8501,
+  "name": "Vol'dun",
+  "total": 8787,
+  "custom_entry": 0,
+  "custom_placed": 55,
+  "heritage": 8732
+ },
+ {
+  "zone": 8502,
+  "name": "South Seas",
+  "total": 146,
+  "custom_entry": 0,
+  "custom_placed": 55,
+  "heritage": 91
+ },
+ {
+  "zone": 7543,
+  "name": "Broken Shore",
+  "total": 4830,
+  "custom_entry": 0,
+  "custom_placed": 55,
+  "heritage": 4775
+ },
+ {
+  "zone": 67,
+  "name": "The Storm Peaks",
+  "total": 2638,
+  "custom_entry": 2,
+  "custom_placed": 52,
+  "heritage": 2584
+ },
+ {
+  "zone": 7960,
+  "name": "Skywall",
+  "total": 53,
+  "custom_entry": 0,
+  "custom_placed": 53,
+  "heritage": 0
+ },
+ {
+  "zone": 8549,
+  "name": "The Maelstrom",
+  "total": 51,
+  "custom_entry": 0,
+  "custom_placed": 51,
+  "heritage": 0
+ },
+ {
+  "zone": 46,
+  "name": "Burning Steppes",
+  "total": 1263,
+  "custom_entry": 4,
+  "custom_placed": 44,
+  "heritage": 1215
+ },
+ {
+  "zone": 51,
+  "name": "Searing Gorge",
+  "total": 959,
+  "custom_entry": 7,
+  "custom_placed": 40,
+  "heritage": 912
+ },
+ {
+  "zone": 10425,
+  "name": "The Eternal Palace",
+  "total": 411,
+  "custom_entry": 0,
+  "custom_placed": 47,
+  "heritage": 364
+ },
+ {
+  "zone": 490,
+  "name": "Un'Goro Crater",
+  "total": 1647,
+  "custom_entry": 4,
+  "custom_placed": 42,
+  "heritage": 1601
+ },
+ {
+  "zone": 8017,
+  "name": "Gloaming Reef",
+  "total": 46,
+  "custom_entry": 0,
+  "custom_placed": 46,
+  "heritage": 0
+ },
+ {
+  "zone": 7812,
+  "name": "Helmouth Cliffs",
+  "total": 157,
+  "custom_entry": 0,
+  "custom_placed": 45,
+  "heritage": 112
+ },
+ {
+  "zone": 8641,
+  "name": "Fields of the Eternal Hunt",
+  "total": 43,
+  "custom_entry": 0,
+  "custom_placed": 43,
+  "heritage": 0
+ },
+ {
+  "zone": 9300,
+  "name": "Greater Invasion Point: Mistress Alluradel",
+  "total": 43,
+  "custom_entry": 0,
+  "custom_placed": 43,
+  "heritage": 0
+ },
+ {
+  "zone": 13983,
+  "name": "Tirisfal Glades",
+  "total": 393,
+  "custom_entry": 2,
+  "custom_placed": 38,
+  "heritage": 353
+ },
+ {
+  "zone": 8440,
+  "name": "Trial of Valor",
+  "total": 318,
+  "custom_entry": 0,
+  "custom_placed": 40,
+  "heritage": 278
+ },
+ {
+  "zone": 8106,
+  "name": "Abyssal Maw",
+  "total": 39,
+  "custom_entry": 0,
+  "custom_placed": 39,
+  "heritage": 0
+ },
+ {
+  "zone": 10290,
+  "name": "Mechagon",
+  "total": 357,
+  "custom_entry": 0,
+  "custom_placed": 38,
+  "heritage": 319
+ },
+ {
+  "zone": 9296,
+  "name": "Greater Invasion Point: Pit Lord Vilemus",
+  "total": 38,
+  "custom_entry": 0,
+  "custom_placed": 38,
+  "heritage": 0
+ },
+ {
+  "zone": 4755,
+  "name": "Gilneas City",
+  "total": 1893,
+  "custom_entry": 0,
+  "custom_placed": 36,
+  "heritage": 1857
+ },
+ {
+  "zone": 7502,
+  "name": "Dalaran",
+  "total": 874,
+  "custom_entry": 0,
+  "custom_placed": 35,
+  "heritage": 839
+ },
+ {
+  "zone": 8005,
+  "name": "Terrace of Endless Spring",
+  "total": 35,
+  "custom_entry": 0,
+  "custom_placed": 35,
+  "heritage": 0
+ },
+ {
+  "zone": 9298,
+  "name": "Greater Invasion Point: Occularus",
+  "total": 35,
+  "custom_entry": 0,
+  "custom_placed": 35,
+  "heritage": 0
+ },
+ {
+  "zone": 9299,
+  "name": "Greater Invasion Point: Sotanathor",
+  "total": 32,
+  "custom_entry": 0,
+  "custom_placed": 32,
+  "heritage": 0
+ },
+ {
+  "zone": 7822,
+  "name": "Nagrand Arena",
+  "total": 110,
+  "custom_entry": 0,
+  "custom_placed": 30,
+  "heritage": 80
+ },
+ {
+  "zone": 10565,
+  "name": "Oribos",
+  "total": 488,
+  "custom_entry": 1,
+  "custom_placed": 28,
+  "heritage": 459
+ },
+ {
+  "zone": 9295,
+  "name": "Greater Invasion Point: Matron Folnuna",
+  "total": 29,
+  "custom_entry": 0,
+  "custom_placed": 29,
+  "heritage": 0
+ },
+ {
+  "zone": 7996,
+  "name": "Violet Hold",
+  "total": 114,
+  "custom_entry": 0,
+  "custom_placed": 28,
+  "heritage": 86
+ },
+ {
+  "zone": 11400,
+  "name": "The Maw",
+  "total": 1983,
+  "custom_entry": 27,
+  "custom_placed": 0,
+  "heritage": 1956
+ },
+ {
+  "zone": 6757,
+  "name": "Timeless Isle",
+  "total": 1234,
+  "custom_entry": 0,
+  "custom_placed": 25,
+  "heritage": 1209
+ },
+ {
+  "zone": 5842,
+  "name": "Townlong Steppes",
+  "total": 4192,
+  "custom_entry": 0,
+  "custom_placed": 25,
+  "heritage": 4167
+ },
+ {
+  "zone": 4714,
+  "name": "Gilneas",
+  "total": 2739,
+  "custom_entry": 0,
+  "custom_placed": 22,
+  "heritage": 2717
+ },
+ {
+  "zone": 16535,
+  "name": "Vaults of Atal'Utek",
+  "total": 22,
+  "custom_entry": 0,
+  "custom_placed": 22,
+  "heritage": 0
+ },
+ {
+  "zone": 4395,
+  "name": "Dalaran",
+  "total": 555,
+  "custom_entry": 0,
+  "custom_placed": 21,
+  "heritage": 534
+ },
+ {
+  "zone": 6454,
+  "name": "Deathknell",
+  "total": 438,
+  "custom_entry": 5,
+  "custom_placed": 16,
+  "heritage": 417
+ },
+ {
+  "zone": 8275,
+  "name": "Azuremyst Isle",
+  "total": 20,
+  "custom_entry": 0,
+  "custom_placed": 20,
+  "heritage": 0
+ },
+ {
+  "zone": 1638,
+  "name": "Thunder Bluff",
+  "total": 299,
+  "custom_entry": 4,
+  "custom_placed": 15,
+  "heritage": 280
+ },
+ {
+  "zone": 9136,
+  "name": "Seething Shore",
+  "total": 152,
+  "custom_entry": 0,
+  "custom_placed": 19,
+  "heritage": 133
+ },
+ {
+  "zone": 8538,
+  "name": "Twisting Nether",
+  "total": 18,
+  "custom_entry": 0,
+  "custom_placed": 18,
+  "heritage": 0
+ },
+ {
+  "zone": 3487,
+  "name": "Silvermoon City (Burning Crusade)",
+  "total": 531,
+  "custom_entry": 0,
+  "custom_placed": 17,
+  "heritage": 514
+ },
+ {
+  "zone": 2817,
+  "name": "Crystalsong Forest",
+  "total": 415,
+  "custom_entry": 2,
+  "custom_placed": 15,
+  "heritage": 398
+ },
+ {
+  "zone": 6006,
+  "name": "The Veiled Stair",
+  "total": 276,
+  "custom_entry": 0,
+  "custom_placed": 17,
+  "heritage": 259
+ },
+ {
+  "zone": 8046,
+  "name": "The Maelstrom",
+  "total": 17,
+  "custom_entry": 0,
+  "custom_placed": 17,
+  "heritage": 0
+ },
+ {
+  "zone": 6456,
+  "name": "Ammen Vale",
+  "total": 377,
+  "custom_entry": 0,
+  "custom_placed": 15,
+  "heritage": 362
+ },
+ {
+  "zone": 3479,
+  "name": "The Veiled Sea",
+  "total": 87,
+  "custom_entry": 0,
+  "custom_placed": 15,
+  "heritage": 72
+ },
+ {
+  "zone": 8483,
+  "name": "The Eye of Eternity",
+  "total": 15,
+  "custom_entry": 0,
+  "custom_placed": 15,
+  "heritage": 0
+ },
+ {
+  "zone": 5042,
+  "name": "Deepholm",
+  "total": 6541,
+  "custom_entry": 0,
+  "custom_placed": 14,
+  "heritage": 6527
+ },
+ {
+  "zone": 15105,
+  "name": "Amirdrassil",
+  "total": 93,
+  "custom_entry": 0,
+  "custom_placed": 14,
+  "heritage": 79
+ },
+ {
+  "zone": 8528,
+  "name": "Wailing Caverns",
+  "total": 13,
+  "custom_entry": 0,
+  "custom_placed": 13,
+  "heritage": 0
+ },
+ {
+  "zone": 8594,
+  "name": "Halls of Valor",
+  "total": 13,
+  "custom_entry": 0,
+  "custom_placed": 13,
+  "heritage": 0
+ },
+ {
+  "zone": 9128,
+  "name": "Invasion Point: Sangua",
+  "total": 13,
+  "custom_entry": 0,
+  "custom_placed": 13,
+  "heritage": 0
+ },
+ {
+  "zone": 3557,
+  "name": "The Exodar",
+  "total": 520,
+  "custom_entry": 0,
+  "custom_placed": 12,
+  "heritage": 508
+ },
+ {
+  "zone": 1537,
+  "name": "Ironforge",
+  "total": 372,
+  "custom_entry": 0,
+  "custom_placed": 11,
+  "heritage": 361
+ },
+ {
+  "zone": 3979,
+  "name": "The Frozen Sea",
+  "total": 91,
+  "custom_entry": 0,
+  "custom_placed": 10,
+  "heritage": 81
+ },
+ {
+  "zone": 5695,
+  "name": "Ahn'Qiraj: The Fallen Kingdom",
+  "total": 36,
+  "custom_entry": 0,
+  "custom_placed": 9,
+  "heritage": 27
+ },
+ {
+  "zone": 5736,
+  "name": "The Wandering Isle",
+  "total": 1957,
+  "custom_entry": 6,
+  "custom_placed": 3,
+  "heritage": 1948
+ },
+ {
+  "zone": 8566,
+  "name": "The Great Sea",
+  "total": 30,
+  "custom_entry": 0,
+  "custom_placed": 9,
+  "heritage": 21
+ },
+ {
+  "zone": 6219,
+  "name": "Arena of Annihilation",
+  "total": 9,
+  "custom_entry": 0,
+  "custom_placed": 9,
+  "heritage": 0
+ },
+ {
+  "zone": 7974,
+  "name": "Ursoc's Lair",
+  "total": 9,
+  "custom_entry": 0,
+  "custom_placed": 9,
+  "heritage": 0
+ },
+ {
+  "zone": 8660,
+  "name": "Throne of the Four Winds",
+  "total": 9,
+  "custom_entry": 0,
+  "custom_placed": 9,
+  "heritage": 0
+ },
+ {
+  "zone": 8712,
+  "name": "The Trial of Style",
+  "total": 9,
+  "custom_entry": 0,
+  "custom_placed": 9,
+  "heritage": 0
+ },
+ {
+  "zone": 4720,
+  "name": "The Lost Isles",
+  "total": 5633,
+  "custom_entry": 0,
+  "custom_placed": 8,
+  "heritage": 5625
+ },
+ {
+  "zone": 1581,
+  "name": "The Deadmines",
+  "total": 417,
+  "custom_entry": 6,
+  "custom_placed": 2,
+  "heritage": 409
+ },
+ {
+  "zone": 8205,
+  "name": "Realm of the Mage Hunter",
+  "total": 8,
+  "custom_entry": 0,
+  "custom_placed": 8,
+  "heritage": 0
+ },
+ {
+  "zone": 8482,
+  "name": "Blade's Edge Arena",
+  "total": 15,
+  "custom_entry": 0,
+  "custom_placed": 7,
+  "heritage": 8
+ },
+ {
+  "zone": 15336,
+  "name": "K'aresh",
+  "total": 30,
+  "custom_entry": 0,
+  "custom_placed": 7,
+  "heritage": 23
+ },
+ {
+  "zone": 8561,
+  "name": "The Twisting Nether",
+  "total": 7,
+  "custom_entry": 0,
+  "custom_placed": 7,
+  "heritage": 0
+ },
+ {
+  "zone": 8518,
+  "name": "The Eye of Eternity",
+  "total": 7,
+  "custom_entry": 0,
+  "custom_placed": 7,
+  "heritage": 0
+ },
+ {
+  "zone": 8478,
+  "name": "Karazhan",
+  "total": 6,
+  "custom_entry": 0,
+  "custom_placed": 6,
+  "heritage": 0
+ },
+ {
+  "zone": 8546,
+  "name": "Cave of the Bloodtotem",
+  "total": 5,
+  "custom_entry": 0,
+  "custom_placed": 5,
+  "heritage": 0
+ },
+ {
+  "zone": 8676,
+  "name": "The Lost Glacier",
+  "total": 5,
+  "custom_entry": 0,
+  "custom_placed": 5,
+  "heritage": 0
+ },
+ {
+  "zone": 8717,
+  "name": "Boralus Harbor",
+  "total": 174,
+  "custom_entry": 1,
+  "custom_placed": 3,
+  "heritage": 170
+ },
+ {
+  "zone": 10355,
+  "name": "Icecrown Citadel",
+  "total": 90,
+  "custom_entry": 0,
+  "custom_placed": 4,
+  "heritage": 86
+ },
+ {
+  "zone": 1377,
+  "name": "Silithus",
+  "total": 1083,
+  "custom_entry": 4,
+  "custom_placed": 0,
+  "heritage": 1079
+ },
+ {
+  "zone": 5861,
+  "name": "Darkmoon Island",
+  "total": 428,
+  "custom_entry": 0,
+  "custom_placed": 4,
+  "heritage": 424
+ },
+ {
+  "zone": 9310,
+  "name": "Silithus: The Wound",
+  "total": 679,
+  "custom_entry": 4,
+  "custom_placed": 0,
+  "heritage": 675
+ },
+ {
+  "zone": 14063,
+  "name": "Ruby Life Pools",
+  "total": 310,
+  "custom_entry": 0,
+  "custom_placed": 4,
+  "heritage": 306
+ },
+ {
+  "zone": 6507,
+  "name": "Isle of Thunder",
+  "total": 3791,
+  "custom_entry": 0,
+  "custom_placed": 3,
+  "heritage": 3788
+ },
+ {
+  "zone": 13536,
+  "name": "Zereth Mortis",
+  "total": 5323,
+  "custom_entry": 0,
+  "custom_placed": 3,
+  "heritage": 5320
+ },
+ {
+  "zone": 14771,
+  "name": "Dornogal",
+  "total": 1200,
+  "custom_entry": 0,
+  "custom_placed": 3,
+  "heritage": 1197
+ },
+ {
+  "zone": 9297,
+  "name": "Greater Invasion Point: Inquisitor Meto",
+  "total": 3,
+  "custom_entry": 0,
+  "custom_placed": 3,
+  "heritage": 0
+ },
+ {
+  "zone": 9127,
+  "name": "Invasion Point: Val",
+  "total": 3,
+  "custom_entry": 0,
+  "custom_placed": 3,
+  "heritage": 0
+ },
+ {
+  "zone": 7025,
+  "name": "Tanaan Jungle",
+  "total": 979,
+  "custom_entry": 1,
+  "custom_placed": 1,
+  "heritage": 977
+ },
+ {
+  "zone": 4737,
+  "name": "Kezan",
+  "total": 2032,
+  "custom_entry": 0,
+  "custom_placed": 2,
+  "heritage": 2030
+ },
+ {
+  "zone": 10581,
+  "name": "Darkmaul Citadel",
+  "total": 39,
+  "custom_entry": 0,
+  "custom_placed": 2,
+  "heritage": 37
+ },
+ {
+  "zone": 7787,
+  "name": "Vault of the Wardens",
+  "total": 320,
+  "custom_entry": 0,
+  "custom_placed": 2,
+  "heritage": 318
+ },
+ {
+  "zone": 9424,
+  "name": "Waycrest Manor",
+  "total": 199,
+  "custom_entry": 0,
+  "custom_placed": 2,
+  "heritage": 197
+ },
+ {
+  "zone": 10416,
+  "name": "Siren Isle",
+  "total": 238,
+  "custom_entry": 0,
+  "custom_placed": 2,
+  "heritage": 236
+ },
+ {
+  "zone": 7656,
+  "name": "The Great Sea",
+  "total": 33,
+  "custom_entry": 0,
+  "custom_placed": 2,
+  "heritage": 31
+ },
+ {
+  "zone": 6611,
+  "name": "Dalaran",
+  "total": 2,
+  "custom_entry": 0,
+  "custom_placed": 2,
+  "heritage": 0
+ },
+ {
+  "zone": 9100,
+  "name": "Invasion Point: Aurinor",
+  "total": 2,
+  "custom_entry": 0,
+  "custom_placed": 2,
+  "heritage": 0
+ },
+ {
+  "zone": 9126,
+  "name": "Invasion Point: Cen'gar",
+  "total": 2,
+  "custom_entry": 0,
+  "custom_placed": 2,
+  "heritage": 0
+ },
+ {
+  "zone": 3277,
+  "name": "Warsong Gulch",
+  "total": 2,
+  "custom_entry": 0,
+  "custom_placed": 2,
+  "heritage": 0
+ },
+ {
+  "zone": 10472,
+  "name": "Torghast, Tower of the Damned",
+  "total": 2,
+  "custom_entry": 0,
+  "custom_placed": 2,
+  "heritage": 0
+ },
+ {
+  "zone": 4812,
+  "name": "Icecrown Citadel",
+  "total": 671,
+  "custom_entry": 0,
+  "custom_placed": 1,
+  "heritage": 670
+ },
+ {
+  "zone": 4742,
+  "name": "Hrothgar's Landing",
+  "total": 245,
+  "custom_entry": 1,
+  "custom_placed": 0,
+  "heritage": 244
+ },
+ {
+  "zone": 6661,
+  "name": "Isle of Giants",
+  "total": 164,
+  "custom_entry": 0,
+  "custom_placed": 1,
+  "heritage": 163
+ },
+ {
+  "zone": 7705,
+  "name": "Mardum, the Shattered Abyss",
+  "total": 1773,
+  "custom_entry": 1,
+  "custom_placed": 0,
+  "heritage": 1772
+ },
+ {
+  "zone": 8910,
+  "name": "The Seat of the Triumvirate",
+  "total": 560,
+  "custom_entry": 0,
+  "custom_placed": 1,
+  "heritage": 559
+ },
+ {
+  "zone": 7546,
+  "name": "Neltharion's Lair",
+  "total": 310,
+  "custom_entry": 0,
+  "custom_placed": 1,
+  "heritage": 309
+ },
+ {
+  "zone": 8443,
+  "name": "Karazhan",
+  "total": 631,
+  "custom_entry": 0,
+  "custom_placed": 1,
+  "heritage": 630
+ },
+ {
+  "zone": 14980,
+  "name": "Nerub-ar Palace",
+  "total": 81,
+  "custom_entry": 0,
+  "custom_placed": 1,
+  "heritage": 80
+ },
+ {
+  "zone": 8445,
+  "name": "The Great Sea",
+  "total": 19,
+  "custom_entry": 1,
+  "custom_placed": 0,
+  "heritage": 18
+ },
+ {
+  "zone": 8022,
+  "name": "Mardum, the Shattered Abyss",
+  "total": 139,
+  "custom_entry": 1,
+  "custom_placed": 0,
+  "heritage": 138
+ },
+ {
+  "zone": 12003,
+  "name": "?",
+  "total": 1,
+  "custom_entry": 0,
+  "custom_placed": 1,
+  "heritage": 0
+ },
+ {
+  "zone": 7609,
+  "name": "[TEMP] JT (copy)",
+  "total": 1,
+  "custom_entry": 0,
+  "custom_placed": 1,
+  "heritage": 0
+ },
+ {
+  "zone": 1220,
+  "name": "Darnassian Base Camp",
+  "total": 1,
+  "custom_entry": 0,
+  "custom_placed": 1,
+  "heritage": 0
+ },
+ {
+  "zone": 1583,
+  "name": "Blackrock Spire",
+  "total": 580,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 580
+ },
+ {
+  "zone": 3715,
+  "name": "The Steamvault",
+  "total": 162,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 162
+ },
+ {
+  "zone": 3845,
+  "name": "Tempest Keep",
+  "total": 217,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 217
+ },
+ {
+  "zone": 4080,
+  "name": "Isle of Quel'Danas",
+  "total": 965,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 965
+ },
+ {
+  "zone": 12916,
+  "name": "The Necrotic Wake",
+  "total": 307,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 307
+ },
+ {
+  "zone": 2557,
+  "name": "Dire Maul",
+  "total": 757,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 757
+ },
+ {
+  "zone": 3968,
+  "name": "Ruins of Lordaeron",
+  "total": 3,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 3
+ },
+ {
+  "zone": 1584,
+  "name": "Blackrock Depths",
+  "total": 1103,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 1103
+ },
+ {
+  "zone": 2367,
+  "name": "Old Hillsbrad Foothills",
+  "total": 183,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 183
+ },
+ {
+  "zone": 3703,
+  "name": "Shattrath City",
+  "total": 909,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 909
+ },
+ {
+  "zone": 3428,
+  "name": "Ahn'Qiraj",
+  "total": 565,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 565
+ },
+ {
+  "zone": 4265,
+  "name": "The Nexus",
+  "total": 268,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 268
+ },
+ {
+  "zone": 3959,
+  "name": "Black Temple",
+  "total": 754,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 754
+ },
+ {
+  "zone": 3923,
+  "name": "Gruul's Lair",
+  "total": 18,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 18
+ },
+ {
+  "zone": 3848,
+  "name": "The Arcatraz",
+  "total": 150,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 150
+ },
+ {
+  "zone": 4987,
+  "name": "The Ruby Sanctum",
+  "total": 50,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 50
+ },
+ {
+  "zone": 3791,
+  "name": "Sethekk Halls",
+  "total": 190,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 190
+ },
+ {
+  "zone": 796,
+  "name": "Scarlet Monastery",
+  "total": 339,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 339
+ },
+ {
+  "zone": 3717,
+  "name": "The Slave Pens",
+  "total": 222,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 222
+ },
+ {
+  "zone": 4197,
+  "name": "Wintergrasp",
+  "total": 591,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 591
+ },
+ {
+  "zone": 722,
+  "name": "Razorfen Downs",
+  "total": 261,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 261
+ },
+ {
+  "zone": 2717,
+  "name": "Molten Core",
+  "total": 233,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 233
+ },
+ {
+  "zone": 209,
+  "name": "Shadowfang Keep",
+  "total": 389,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 389
+ },
+ {
+  "zone": 721,
+  "name": "Gnomeregan",
+  "total": 409,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 409
+ },
+ {
+  "zone": 1337,
+  "name": "Uldaman",
+  "total": 317,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 317
+ },
+ {
+  "zone": 9553,
+  "name": "Stormwind City",
+  "total": 587,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 587
+ },
+ {
+  "zone": 2366,
+  "name": "The Black Morass",
+  "total": 237,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 237
+ },
+ {
+  "zone": 3714,
+  "name": "The Shattered Halls",
+  "total": 285,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 285
+ },
+ {
+  "zone": 4131,
+  "name": "Magisters' Terrace",
+  "total": 226,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 226
+ },
+ {
+  "zone": 1176,
+  "name": "Zul'Farrak",
+  "total": 268,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 268
+ },
+ {
+  "zone": 2017,
+  "name": "Stratholme",
+  "total": 459,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 459
+ },
+ {
+  "zone": 3606,
+  "name": "Hyjal Summit",
+  "total": 140,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 140
+ },
+ {
+  "zone": 4196,
+  "name": "Drak'Tharon Keep",
+  "total": 183,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 183
+ },
+ {
+  "zone": 3847,
+  "name": "The Botanica",
+  "total": 182,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 182
+ },
+ {
+  "zone": 4273,
+  "name": "Ulduar",
+  "total": 1421,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 1421
+ },
+ {
+  "zone": 4075,
+  "name": "Sunwell Plateau",
+  "total": 434,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 434
+ },
+ {
+  "zone": 4813,
+  "name": "Pit of Saron",
+  "total": 358,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 358
+ },
+ {
+  "zone": 4298,
+  "name": "Plaguelands: The Scarlet Enclave",
+  "total": 1890,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 1890
+ },
+ {
+  "zone": 2159,
+  "name": "Onyxia's Lair",
+  "total": 9,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 9
+ },
+ {
+  "zone": 1977,
+  "name": "Zul'Gurub",
+  "total": 998,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 998
+ },
+ {
+  "zone": 2057,
+  "name": "Scholomance",
+  "total": 403,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 403
+ },
+ {
+  "zone": 3456,
+  "name": "Naxxramas",
+  "total": 880,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 880
+ },
+ {
+  "zone": 2100,
+  "name": "Maraudon",
+  "total": 610,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 610
+ },
+ {
+  "zone": 3716,
+  "name": "The Underbog",
+  "total": 221,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 221
+ },
+ {
+  "zone": 3789,
+  "name": "Shadow Labyrinth",
+  "total": 243,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 243
+ },
+ {
+  "zone": 3455,
+  "name": "The North Sea",
+  "total": 29,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 29
+ },
+ {
+  "zone": 4258,
+  "name": "The North Sea",
+  "total": 1,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 1
+ },
+ {
+  "zone": 2677,
+  "name": "Blackwing Lair",
+  "total": 240,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 240
+ },
+ {
+  "zone": 3849,
+  "name": "The Mechanar",
+  "total": 82,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 82
+ },
+ {
+  "zone": 4494,
+  "name": "Ahn'kahet: The Old Kingdom",
+  "total": 216,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 216
+ },
+ {
+  "zone": 3540,
+  "name": "Twisting Nether",
+  "total": 1,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 1
+ },
+ {
+  "zone": 3457,
+  "name": "Karazhan",
+  "total": 876,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 876
+ },
+ {
+  "zone": 4384,
+  "name": "Strand of the Ancients",
+  "total": 57,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 57
+ },
+ {
+  "zone": 4272,
+  "name": "Halls of Lightning",
+  "total": 189,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 189
+ },
+ {
+  "zone": 4722,
+  "name": "Trial of the Crusader",
+  "total": 155,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 155
+ },
+ {
+  "zone": 3607,
+  "name": "Serpentshrine Cavern",
+  "total": 212,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 212
+ },
+ {
+  "zone": 3792,
+  "name": "Mana-Tombs",
+  "total": 170,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 170
+ },
+ {
+  "zone": 3790,
+  "name": "Auchenai Crypts",
+  "total": 194,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 194
+ },
+ {
+  "zone": 3805,
+  "name": "Zul'Aman",
+  "total": 437,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 437
+ },
+ {
+  "zone": 491,
+  "name": "Razorfen Kraul",
+  "total": 189,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 189
+ },
+ {
+  "zone": 4277,
+  "name": "Azjol-Nerub",
+  "total": 118,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 118
+ },
+ {
+  "zone": 3836,
+  "name": "Magtheridon's Lair",
+  "total": 32,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 32
+ },
+ {
+  "zone": 4100,
+  "name": "The Culling of Stratholme",
+  "total": 424,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 424
+ },
+ {
+  "zone": 4710,
+  "name": "Isle of Conquest",
+  "total": 245,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 245
+ },
+ {
+  "zone": 3713,
+  "name": "The Blood Furnace",
+  "total": 205,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 205
+ },
+ {
+  "zone": 4228,
+  "name": "The Oculus",
+  "total": 150,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 150
+ },
+ {
+  "zone": 4415,
+  "name": "The Violet Hold",
+  "total": 44,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 44
+ },
+ {
+  "zone": 2917,
+  "name": "Hall of Legends",
+  "total": 11,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 11
+ },
+ {
+  "zone": 2918,
+  "name": "Champions' Hall",
+  "total": 10,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 10
+ },
+ {
+  "zone": 4603,
+  "name": "Vault of Archavon",
+  "total": 17,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 17
+ },
+ {
+  "zone": 206,
+  "name": "Utgarde Keep",
+  "total": 166,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 166
+ },
+ {
+  "zone": 1196,
+  "name": "Utgarde Pinnacle",
+  "total": 201,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 201
+ },
+ {
+  "zone": 4493,
+  "name": "The Obsidian Sanctum",
+  "total": 160,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 160
+ },
+ {
+  "zone": 4264,
+  "name": "Halls of Stone",
+  "total": 147,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 147
+ },
+ {
+  "zone": 4416,
+  "name": "Gundrak",
+  "total": 225,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 225
+ },
+ {
+  "zone": 11014,
+  "name": "The Temple of Purity",
+  "total": 1,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 1
+ },
+ {
+  "zone": 4500,
+  "name": "The Eye of Eternity",
+  "total": 12,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 12
+ },
+ {
+  "zone": 4820,
+  "name": "Halls of Reflection",
+  "total": 37,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 37
+ },
+ {
+  "zone": 4723,
+  "name": "Trial of the Champion",
+  "total": 134,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 134
+ },
+ {
+  "zone": 3429,
+  "name": "Ruins of Ahn'Qiraj",
+  "total": 348,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 348
+ },
+ {
+  "zone": 4809,
+  "name": "The Forge of Souls",
+  "total": 122,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 122
+ },
+ {
+  "zone": 3562,
+  "name": "Hellfire Ramparts",
+  "total": 101,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 101
+ },
+ {
+  "zone": 3358,
+  "name": "Arathi Basin",
+  "total": 2,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 2
+ },
+ {
+  "zone": 3820,
+  "name": "Eye of the Storm",
+  "total": 21,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 21
+ },
+ {
+  "zone": 2597,
+  "name": "Alterac Valley",
+  "total": 1138,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 1138
+ },
+ {
+  "zone": 4926,
+  "name": "Blackrock Caverns",
+  "total": 224,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 224
+ },
+ {
+  "zone": 5094,
+  "name": "Blackwing Descent",
+  "total": 99,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 99
+ },
+ {
+  "zone": 5095,
+  "name": "Tol Barad",
+  "total": 201,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 201
+ },
+ {
+  "zone": 1477,
+  "name": "The Temple of Atal'Hakkar",
+  "total": 105,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 105
+ },
+ {
+  "zone": 718,
+  "name": "Wailing Caverns",
+  "total": 147,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 147
+ },
+ {
+  "zone": 5004,
+  "name": "Throne of the Tides",
+  "total": 576,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 576
+ },
+ {
+  "zone": 5334,
+  "name": "The Bastion of Twilight",
+  "total": 612,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 612
+ },
+ {
+  "zone": 5844,
+  "name": "Hour of Twilight",
+  "total": 394,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 394
+ },
+ {
+  "zone": 5789,
+  "name": "End Time",
+  "total": 368,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 368
+ },
+ {
+  "zone": 4945,
+  "name": "Halls of Origination",
+  "total": 303,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 303
+ },
+ {
+  "zone": 5396,
+  "name": "Lost City of the Tol'vir",
+  "total": 205,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 205
+ },
+ {
+  "zone": 5600,
+  "name": "Baradin Hold",
+  "total": 25,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 25
+ },
+ {
+  "zone": 5723,
+  "name": "Firelands",
+  "total": 704,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 704
+ },
+ {
+  "zone": 5389,
+  "name": "Tol Barad Peninsula",
+  "total": 627,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 627
+ },
+ {
+  "zone": 5733,
+  "name": "Molten Front",
+  "total": 421,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 421
+ },
+ {
+  "zone": 5031,
+  "name": "Twin Peaks",
+  "total": 74,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 74
+ },
+ {
+  "zone": 4950,
+  "name": "Grim Batol",
+  "total": 527,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 527
+ },
+ {
+  "zone": 5638,
+  "name": "Throne of the Four Winds",
+  "total": 23,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 23
+ },
+ {
+  "zone": 5088,
+  "name": "The Stonecore",
+  "total": 425,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 425
+ },
+ {
+  "zone": 5416,
+  "name": "The Maelstrom",
+  "total": 87,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 87
+ },
+ {
+  "zone": 5788,
+  "name": "Well of Eternity",
+  "total": 245,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 245
+ },
+ {
+  "zone": 5035,
+  "name": "The Vortex Pinnacle",
+  "total": 100,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 100
+ },
+ {
+  "zone": 5892,
+  "name": "Dragon Soul",
+  "total": 271,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 271
+ },
+ {
+  "zone": 717,
+  "name": "The Stockade",
+  "total": 136,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 136
+ },
+ {
+  "zone": 8239,
+  "name": "Black Temple",
+  "total": 2,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 2
+ },
+ {
+  "zone": 14046,
+  "name": "Tirisfal Glades",
+  "total": 96,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 96
+ },
+ {
+  "zone": 6066,
+  "name": "Scholomance",
+  "total": 382,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 382
+ },
+ {
+  "zone": 8064,
+  "name": "The MOTHERLODE!!",
+  "total": 562,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 562
+ },
+ {
+  "zone": 8638,
+  "name": "Antorus, the Burning Throne",
+  "total": 648,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 648
+ },
+ {
+  "zone": 2257,
+  "name": "Deeprun Tram",
+  "total": 109,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 109
+ },
+ {
+  "zone": 7813,
+  "name": "Skyhold",
+  "total": 125,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 125
+ },
+ {
+  "zone": 6067,
+  "name": "Terrace of Endless Spring",
+  "total": 49,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 49
+ },
+ {
+  "zone": 10052,
+  "name": "Nazjatar",
+  "total": 5100,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 5100
+ },
+ {
+  "zone": 9527,
+  "name": "Temple of Sethraliss",
+  "total": 375,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 375
+ },
+ {
+  "zone": 9391,
+  "name": "The Underrot",
+  "total": 379,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 379
+ },
+ {
+  "zone": 13228,
+  "name": "Plaguefall",
+  "total": 526,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 526
+ },
+ {
+  "zone": 13334,
+  "name": "Mists of Tirna Scithe",
+  "total": 317,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 317
+ },
+ {
+  "zone": 13224,
+  "name": "Castle Nathria",
+  "total": 687,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 687
+ },
+ {
+  "zone": 13332,
+  "name": "The Maw",
+  "total": 1397,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 1397
+ },
+ {
+  "zone": 12842,
+  "name": "Sanguine Depths",
+  "total": 342,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 342
+ },
+ {
+  "zone": 12831,
+  "name": "Halls of Atonement",
+  "total": 236,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 236
+ },
+ {
+  "zone": 13309,
+  "name": "De Other Side",
+  "total": 232,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 232
+ },
+ {
+  "zone": 12841,
+  "name": "Theater of Pain",
+  "total": 201,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 201
+ },
+ {
+  "zone": 12837,
+  "name": "Spires of Ascension",
+  "total": 259,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 259
+ },
+ {
+  "zone": 13433,
+  "name": "The In-Between",
+  "total": 11,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 11
+ },
+ {
+  "zone": 13577,
+  "name": "Tazavesh, the Veiled Market",
+  "total": 1254,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 1254
+ },
+ {
+  "zone": 13672,
+  "name": "Tazavesh, the Veiled Market",
+  "total": 14,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 14
+ },
+ {
+  "zone": 13561,
+  "name": "Sanctum of Domination",
+  "total": 505,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 505
+ },
+ {
+  "zone": 9415,
+  "name": "Telogrus Rift",
+  "total": 70,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 70
+ },
+ {
+  "zone": 9359,
+  "name": "The Vindicaar",
+  "total": 69,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 69
+ },
+ {
+  "zone": 10028,
+  "name": "Blackrock Depths",
+  "total": 135,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 135
+ },
+ {
+  "zone": 12825,
+  "name": "Mechagon City",
+  "total": 38,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 38
+ },
+ {
+  "zone": 10053,
+  "name": "Arathi Basin",
+  "total": 298,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 298
+ },
+ {
+  "zone": 12952,
+  "name": "Icecrown Citadel",
+  "total": 33,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 33
+ },
+ {
+  "zone": 7814,
+  "name": "Vault of the Wardens",
+  "total": 383,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 383
+ },
+ {
+  "zone": 13954,
+  "name": "The Azure Vault",
+  "total": 242,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 242
+ },
+ {
+  "zone": 4378,
+  "name": "Dalaran Arena",
+  "total": 6,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 6
+ },
+ {
+  "zone": 8978,
+  "name": "Tol Dagor",
+  "total": 127,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 127
+ },
+ {
+  "zone": 5449,
+  "name": "The Battle for Gilneas",
+  "total": 9,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 9
+ },
+ {
+  "zone": 7695,
+  "name": "Icecrown Citadel",
+  "total": 245,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 245
+ },
+ {
+  "zone": 2437,
+  "name": "Ragefire Chasm",
+  "total": 138,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 138
+ },
+ {
+  "zone": 6126,
+  "name": "Silvershard Mines",
+  "total": 9,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 9
+ },
+ {
+  "zone": 6051,
+  "name": "Temple of Kotmogu",
+  "total": 54,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 54
+ },
+ {
+  "zone": 6912,
+  "name": "Auchindoun",
+  "total": 157,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 157
+ },
+ {
+  "zone": 719,
+  "name": "Blackfathom Deeps",
+  "total": 280,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 280
+ },
+ {
+  "zone": 7805,
+  "name": "Black Rook Hold",
+  "total": 284,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 284
+ },
+ {
+  "zone": 8527,
+  "name": "Cathedral of Eternal Night",
+  "total": 207,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 207
+ },
+ {
+  "zone": 7855,
+  "name": "The Arcway",
+  "total": 368,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 368
+ },
+ {
+  "zone": 8079,
+  "name": "Court of Stars",
+  "total": 372,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 372
+ },
+ {
+  "zone": 8040,
+  "name": "Eye of Azshara",
+  "total": 622,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 622
+ },
+ {
+  "zone": 8025,
+  "name": "The Nighthold",
+  "total": 696,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 696
+ },
+ {
+  "zone": 8008,
+  "name": "Ashamane's Fall",
+  "total": 62,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 62
+ },
+ {
+  "zone": 7816,
+  "name": "Black Rook Hold Arena",
+  "total": 45,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 45
+ },
+ {
+  "zone": 10218,
+  "name": "Warsong Gulch",
+  "total": 28,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 28
+ },
+ {
+  "zone": 9028,
+  "name": "Atal'Dazar",
+  "total": 225,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 225
+ },
+ {
+  "zone": 9526,
+  "name": "Kings' Rest",
+  "total": 212,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 212
+ },
+ {
+  "zone": 9992,
+  "name": "Mugambala",
+  "total": 20,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 20
+ },
+ {
+  "zone": 10497,
+  "name": "The Robodrome",
+  "total": 24,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 24
+ },
+ {
+  "zone": 9279,
+  "name": "Hook Point",
+  "total": 30,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 30
+ },
+ {
+  "zone": 13972,
+  "name": "Maldraxxus Coliseum",
+  "total": 41,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 41
+ },
+ {
+  "zone": 14083,
+  "name": "Enigma Crucible",
+  "total": 1,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 1
+ },
+ {
+  "zone": 13428,
+  "name": "Empyrean Domain",
+  "total": 6,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 6
+ },
+ {
+  "zone": 15115,
+  "name": "Bel'ameth",
+  "total": 50,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 50
+ },
+ {
+  "zone": 13968,
+  "name": "Uldaman",
+  "total": 227,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 227
+ },
+ {
+  "zone": 14436,
+  "name": "Nokhudon Proving Grounds",
+  "total": 26,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 26
+ },
+ {
+  "zone": 14954,
+  "name": "Priory of the Sacred Flame",
+  "total": 357,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 357
+ },
+ {
+  "zone": 14971,
+  "name": "The Dawnbreaker",
+  "total": 65,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 65
+ },
+ {
+  "zone": 14938,
+  "name": "The Rookery",
+  "total": 37,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 37
+ },
+ {
+  "zone": 14883,
+  "name": "The Stonevault",
+  "total": 177,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 177
+ },
+ {
+  "zone": 15103,
+  "name": "Cinderbrew Meadery",
+  "total": 282,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 282
+ },
+ {
+  "zone": 14882,
+  "name": "Darkflame Cleft",
+  "total": 277,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 277
+ },
+ {
+  "zone": 14979,
+  "name": "City of Threads",
+  "total": 864,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 864
+ },
+ {
+  "zone": 15093,
+  "name": "Ara-Kara, City of Echoes",
+  "total": 408,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 408
+ },
+ {
+  "zone": 15509,
+  "name": "The Forbidden Reach",
+  "total": 40,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 40
+ },
+ {
+  "zone": 14990,
+  "name": "Deephaul Ravine",
+  "total": 104,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 104
+ },
+ {
+  "zone": 15522,
+  "name": "Liberation of Undermine",
+  "total": 76,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 76
+ },
+ {
+  "zone": 15452,
+  "name": "Operation: Floodgate",
+  "total": 382,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 382
+ },
+ {
+  "zone": 14753,
+  "name": "City of Threads",
+  "total": 1,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 1
+ },
+ {
+  "zone": 16104,
+  "name": "Eco-Dome Al'dani",
+  "total": 167,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 167
+ },
+ {
+  "zone": 15781,
+  "name": "Tazavesh, the Veiled Market",
+  "total": 39,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 39
+ },
+ {
+  "zone": 15332,
+  "name": "Cage of Carnage",
+  "total": 1,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 1
+ },
+ {
+  "zone": 6141,
+  "name": "Shrine of Two Moons",
+  "total": 61,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 61
+ },
+ {
+  "zone": 6553,
+  "name": "Shrine of Seven Stars",
+  "total": 93,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 93
+ },
+ {
+  "zone": 6074,
+  "name": "Guo-Lai Halls",
+  "total": 146,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 146
+ },
+ {
+  "zone": 16395,
+  "name": "Maisara Caverns",
+  "total": 376,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 376
+ },
+ {
+  "zone": 16531,
+  "name": "The Dreamrift",
+  "total": 37,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 37
+ },
+ {
+  "zone": 16368,
+  "name": "Den of Nalorakk",
+  "total": 217,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 217
+ },
+ {
+  "zone": 8250,
+  "name": "Rescue Koltira",
+  "total": 65,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 65
+ },
+ {
+  "zone": 8285,
+  "name": "Scarlet Monastery",
+  "total": 160,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 160
+ },
+ {
+  "zone": 8651,
+  "name": "Mardum, the Shattered Abyss",
+  "total": 213,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 213
+ },
+ {
+  "zone": 7945,
+  "name": "Mardum, the Shattered Abyss",
+  "total": 110,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 110
+ },
+ {
+  "zone": 8529,
+  "name": "Pit of Saron",
+  "total": 28,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 28
+ },
+ {
+  "zone": 7731,
+  "name": "Thunder Totem",
+  "total": 30,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 30
+ },
+ {
+  "zone": 7846,
+  "name": "The Dreamgrove",
+  "total": 25,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 25
+ },
+ {
+  "zone": 7679,
+  "name": "Acherus: The Ebon Hold",
+  "total": 136,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 136
+ },
+ {
+  "zone": 9327,
+  "name": "Tol Dagor",
+  "total": 359,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 359
+ },
+ {
+  "zone": 10015,
+  "name": "Tol Dagor",
+  "total": 3,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 3
+ },
+ {
+  "zone": 10522,
+  "name": "Ny'alotha, the Waking City",
+  "total": 287,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 287
+ },
+ {
+  "zone": 9389,
+  "name": "Uldir",
+  "total": 440,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 440
+ },
+ {
+  "zone": 7737,
+  "name": "Niskara",
+  "total": 389,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 389
+ },
+ {
+  "zone": 10057,
+  "name": "Crucible of Storms",
+  "total": 36,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 36
+ },
+ {
+  "zone": 9570,
+  "name": "Zuldazar",
+  "total": 596,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 596
+ },
+ {
+  "zone": 6984,
+  "name": "Grimrail Depot",
+  "total": 122,
+  "custom_entry": 0,
+  "custom_placed": 0,
+  "heritage": 122
+ }
+]

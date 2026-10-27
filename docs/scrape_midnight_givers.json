@@ -1,0 +1,207 @@
+[
+ {
+  "id": 86734,
+  "title": "Diplomacy",
+  "start": "Lor'themar Theron",
+  "end": "Lor'themar Theron",
+  "npc_links": [
+   "https://www.wowhead.com/npc=235787/lorthemar-theron|Lor'themar Theron",
+   "/npc=235787/listen-to-the-discussion|Listen to the discussion",
+   "https://www.wowhead.com/npc=235787|"
+  ]
+ },
+ {
+  "id": 86735,
+  "title": "Paved in Ash",
+  "start": "Lor'themar Theron",
+  "end": "Lor'themar Theron",
+  "npc_links": [
+   "https://www.wowhead.com/npc=235787/lorthemar-theron|Lor'themar Theron",
+   "/npc=239630/check-in-at-wayfarers-rest|Check in at Wayfarer's Rest",
+   "/npc=239673/check-on-the-portal-network|Check on the portal network",
+   "/npc=239639/speak-with-the-skymaster-of-silvermoon|Speak with the Skymaster of Silvermoon",
+   "/npc=239664/check-in-with-the-head-bank-teller|Check in with the head bank teller",
+   "/npc=242435/check-in-with-the-reliquary|Check in with the Reliquary",
+   "/npc=240936/check-in-with-guard-captain-goldblade|Check in with Guard Captain Goldblade",
+   "/npc=248629/vanguard-of-the-light-greeted|Vanguard of the Light greeted",
+   "https://www.wowhead.com/npc=248629|",
+   "https://www.wowhead.com/npc=235787|",
+   "https://www.wowhead.com/npc=239664|",
+   "https://www.wowhead.com/npc=239673|",
+   "https://www.wowhead.com/npc=239639|",
+   "https://www.wowhead.com/npc=239630|",
+   "https://www.wowhead.com/npc=240936|"
+  ]
+ },
+ {
+  "id": 86737,
+  "title": "Fair Breeze, Light Bloom",
+  "start": "Lor'themar Theron",
+  "end": "Magistrix Landra Dawnstrider",
+  "npc_links": [
+   "https://www.wowhead.com/npc=235787/lorthemar-theron|Lor'themar Theron",
+   "https://www.wowhead.com/npc=236739/magistrix-landra-dawnstrider|Magistrix Landra Dawnstrider",
+   "/npc=236583/obtain-the-arcane-projector-from-rommath|Obtain the arcane projector from Rommath",
+   "/npc=252821/stay-awhile-and-listen-to-liadrin|Stay awhile and listen to Liadrin",
+   "/npc=239973/reach-fairbreeze-village|Reach Fairbreeze Village"
+  ]
+ },
+ {
+  "id": 91822,
+  "title": "The Regent's Request",
+  "start": "Valeera Sanguinar",
+  "end": "Valeera Sanguinar",
+  "npc_links": [
+   "https://www.wowhead.com/npc=242381/valeera-sanguinar|Valeera Sanguinar",
+   "https://www.wowhead.com/npc=248750/valeera-sanguinar|Valeera Sanguinar",
+   "/npc=250179/talk-with-lorthemar|Talk with Lor'themar",
+   "https://www.wowhead.com/npc=242381|"
+  ]
+ },
+ {
+  "id": 91967,
+  "title": "You Know This Evil?",
+  "start": "Lor'themar Theron",
+  "end": "Lor'themar Theron",
+  "npc_links": [
+   "https://www.wowhead.com/npc=235787/lorthemar-theron|Lor'themar Theron",
+   "/npc=249272/magister-umbric|Magister Umbric",
+   "/npc=249272/find-umbric|Find Umbric",
+   "/npc=249268/lothraxion-petitioned|Lothraxion petitioned",
+   "/npc=248628/war-chaplain-senn-petitioned|War Chaplain Senn petitioned",
+   "/npc=249270/grand-magister-rommath-petitioned|Grand Magister Rommath petitioned",
+   "/npc=249289/anduin-wrynn-petitioned|Anduin Wrynn petitioned",
+   "/npc=235787/report-to-lorthemar-theron|Report to Lor'themar Theron",
+   "https://www.wowhead.com/npc=235787|",
+   "https://www.wowhead.com/npc=249289|",
+   "https://www.wowhead.com/npc=126470/nether-prince-durzaan|Nether-Prince Durzaan"
+  ]
+ },
+ {
+  "id": 91854,
+  "title": "Deepening Shadows",
+  "start": "Commander Koruth Mountainfist",
+  "end": "Commander Koruth Mountainfist",
+  "npc_links": [
+   "https://www.wowhead.com/npc=248631/commander-koruth-mountainfist|Commander Koruth Mountainfist",
+   "/npc=249174/city-dispute-de-escalated|City dispute de-escalated",
+   "/npc=248630/prisoner-released|Prisoner released",
+   "/npc=248826/doomsayer|Doomsayer",
+   "/npc=249040/twilights-blade-cultist|Twilight's Blade Cultist",
+   "https://www.wowhead.com/npc=248826|",
+   "https://www.wowhead.com/npc=248631|",
+   "https://www.wowhead.com/npc=248630|",
+   "https://www.wowhead.com/npc=249174/sindorei-fruit-vendor|",
+   "https://www.wowhead.com/npc=249174/sindorei-fruit-vendor|Sin'dorei Fruit Vendor",
+   "https://www.wowhead.com/npc=249467/tehd-shoemaker|Tehd Shoemaker"
+  ]
+ },
+ {
+  "id": 89388,
+  "title": "Voidstorm",
+  "start": "",
+  "end": "Magister Umbric",
+  "npc_links": [
+   "https://www.wowhead.com/npc=235386/magister-umbric|Magister Umbric",
+   "/npc=235386/magister-umbric|Magister Umbric",
+   "https://www.wowhead.com/npc=235386|"
+  ]
+ },
+ {
+  "id": 92061,
+  "title": "Rising Storm",
+  "start": "Lor'themar Theron",
+  "end": "Lor'themar Theron",
+  "npc_links": [
+   "https://www.wowhead.com/npc=235787/lorthemar-theron|Lor'themar Theron",
+   "/npc=250580/high-exarch-turalyon-consulted|High Exarch Turalyon consulted",
+   "/npc=250587/vanguard-of-the-light-consulted|Vanguard of the Light consulted",
+   "https://www.wowhead.com/npc=250580|",
+   "https://www.wowhead.com/npc=235787|"
+  ]
+ },
+ {
+  "id": 86543,
+  "title": "Magisters' Terrace: Homecoming",
+  "start": "Magister Umbric",
+  "end": "Magister Umbric",
+  "npc_links": [
+   "https://www.wowhead.com/npc=235386/magister-umbric|Magister Umbric",
+   "https://www.wowhead.com/npc=235405/magister-umbric|Magister Umbric",
+   "/npc=235405/magister-umbric|Magister Umbric",
+   "/npc=235395/meet-magister-umbric-on-the-isle-of-queldanas|Meet Magister Umbric on the Isle of Quel'Danas",
+   "/npc=238157/talk-to-umbric-to-queue-for-follower-dungeon|Talk to Umbric to queue for follower dungeon",
+   "https://www.wowhead.com/npc=235405|",
+   "https://www.wowhead.com/npc=235386|"
+  ]
+ },
+ {
+  "id": 86549,
+  "title": "No Fear of the Dark",
+  "start": "Magister Umbric",
+  "end": "Magister Umbric",
+  "npc_links": [
+   "https://www.wowhead.com/npc=235405/magister-umbric|Magister Umbric",
+   "https://www.wowhead.com/npc=235411/magister-umbric|Magister Umbric",
+   "/npc=239477/shadow-foci-connected|Shadow Foci connected",
+   "/npc=243066/kill-credit-node-connected-1-2|Kill Credit: Node Connected 1-2",
+   "/npc=243067/kill-credit-node-connected-2-3|Kill Credit: Node Connected 2-3",
+   "/npc=243068/kill-credit-node-connected-3-1|Kill Credit: Node Connected 3-1",
+   "/npc=250875/kill-credit-boss-emote-instructions|Kill Credit: boss emote instructions",
+   "/npc=260106/stay-awhile-and-listen-to-lorthemar|Stay awhile and listen to Lor'themar",
+   "/npc=239600/portal-entered|Portal entered",
+   "/npc=239643/kill-credit-enter-voidstorm-tls|Kill Credit: enter voidstorm TLS",
+   "https://www.wowhead.com/npc=235405|"
+  ]
+ },
+ {
+  "id": 86557,
+  "title": "A Matter of Strife and Death",
+  "start": "Lothraxion",
+  "end": "Lothraxion",
+  "npc_links": [
+   "https://www.wowhead.com/npc=235486/lothraxion|Lothraxion",
+   "https://www.wowhead.com/npc=235522/lothraxion|Lothraxion",
+   "/npc=235414/ravenous-shredclaw|Ravenous Shredclaw",
+   "/npc=235416/cunning-harrower|Cunning Harrower",
+   "/npc=242369/hungry-kilivore|Hungry Kilivore",
+   "/npc=242382/ravenous-shredclaw|Ravenous Shredclaw",
+   "/npc=235415/hungry-kilivore|Hungry Kilivore",
+   "/npc=239684/ingress-monsters|Ingress monsters",
+   "/npc=242379/territorial-netherwasp|Territorial Netherwasp",
+   "/npc=248869/cunning-voidscythe|Cunning Voidscythe",
+   "https://www.wowhead.com/npc=242382|"
+  ]
+ },
+ {
+  "id": 86558,
+  "title": "Save a Piece of Mind",
+  "start": "Magister Umbric",
+  "end": "Lothraxion",
+  "npc_links": [
+   "https://www.wowhead.com/npc=235411/magister-umbric|Magister Umbric",
+   "https://www.wowhead.com/npc=235486/lothraxion|Lothraxion",
+   "https://www.wowhead.com/npc=235522/lothraxion|Lothraxion",
+   "/npc=239693/shadestar-locus-activated|Shadestar Locus activated",
+   "/npc=240244/left|left",
+   "/npc=240249/darkglen|darkglen",
+   "/npc=240252/astre|astre",
+   "https://www.wowhead.com/npc=235522|"
+  ]
+ },
+ {
+  "id": 92897,
+  "title": "The Preparations Are Complete",
+  "start": "",
+  "end": "Orweyna",
+  "npc_links": [
+   "https://www.wowhead.com/npc=253640/orweyna|Orweyna",
+   "/npc=253640/orweyna|Orweyna",
+   "https://www.wowhead.com/npc=253640|",
+   "https://www.wowhead.com/npc=255234/ancient-visionstone|Ancient Visionstone",
+   "https://www.wowhead.com/npc=253833/befuddled-amani-mask|Befuddled Amani Mask",
+   "https://www.wowhead.com/npc=237301/loa-speaker-kinduru|Loa Speaker Kinduru",
+   "https://www.wowhead.com/npc=253858/strongblood-jakmo|Strongblood Jak'mo"
+  ]
+ }
+]

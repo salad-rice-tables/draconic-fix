@@ -1,0 +1,68 @@
+{{Questbox
+ | id = 44876
+ | name = A Dance With Dragons
+ | category = Azsuna
+ | level = {{level|Suramar}}
+ | levelreq = {{level|Suramar}}
+ | start = [[Stellagosa]]
+ | end = [[First Arcanist Thalyssra]]
+ | reputation = +250 [[Nightfallen (faction)|The Nightfallen]]
+ | experience = 16,450
+ | money = {{cost|19|40|}}
+ | shareable = No
+ | previous = [[The Art of Flow]]
+}}
+
+==Objectives==
+Speak with [[Stellagosa]] to ride back to [[Shal'Aran]].
+
+==Description==
+I must say I am impressed, <name>.
+
+You and your friend were able to fix a [[ley line]], and you are not even dragons!
+
+You both seem exhausted by this ordeal. Allow me to help you get back home.
+
+==Rewards==
+You will receive:
+*{{cost|19|40|}}
+*16,450 [[XP]]
+*+250 [[reputation]] with [[Nightfallen (faction)|The Nightfallen]]
+
+==Completion==
+That is quite the adventure you had. Thankfully we now have plenty of mana for the refugees. Thank you, <name>.
+
+==Notes==
+On accept:
+: ''Valtrois kneels.''
+:{{Text|say|Arcanist Valtrois|I must rest before we make our way back to Shal'Aran. That was more taxing than I expected...}}
+: ''Stella heads upward toward the entrance of the cave.''
+:{{Text|say|Stellagosa|You have done enough, arcanist. I shall take you both to Shal'Aran. Come with me.}}
+
+Get out of the cave. Stellagosa will be waiting for you just outside in [[blue dragon]] form.
+
+;Speak with Stellagosa to ride back to Shal'Aran.
+:{{Text|say|Stellagosa|Your control over such vast energies is impressive. That was no small task.}}
+:{{Text|say|Arcanist Valtrois|You made an excellent assistant. Your inherent knowledge of ley lines is almost as expansive as mine.}}
+:{{Text|say|Stellagosa|Yes, and I know the convergence of ley lines feeds great power to the [[Nightwell]]. Harnessing that much power is perilous, but if [[Elisande|she]] could...}}
+: NOTE: The conversation is currently bugged and will not continue from here.
+:{{Text|say|Arcanist Valtrois|I know what she would be capable of. That is why we must stop her.}}
+:{{Text|say|Arcanist Valtrois|You go on ahead and inform [[Thalyssra]]. I have a few questions for our friend here.}}
+:''Stellagosa lands near the entrance to Shal'Aran and dismounts you.''
+:{{Text|say|Stellagosa|Yes? What do you want to know?}}
+:{{Text|say|Arcanist Valtrois|Do you actually visualize the lines, or is it more that you sense them? Is it a constant sensation, or can you turn it on and off?}}
+:''Stellagosa flies away, with Valtrois still on her back.''
+
+===Trivia===
+The name of this quest is a reference to [[wikipedia:A Dance with Dragons|the fifth novel]] in [[wikipedia:George R. R. Martin|George R. R. Martin]]'s ''[[wikipedia:A Song of Ice and Fire|A Song of Ice and Fire]]'' novel series.
+
+==Progression==
+{{Crafting War}}
+
+==Patch changes==
+*{{Patch 7.1.0|note=Added.}}
+
+==External links==
+{{Elinks-quest|44876}}
+
+[[Category:The Nightfallen quests]]

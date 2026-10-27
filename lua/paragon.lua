@@ -9,7 +9,7 @@
 local MAXL = 90
 local CAP_PARAGON = 500
 
-local function Esc(s) return (string.gsub(tostring(s or ""), "'", "''")) end
+local function Esc(s) return (string.gsub(tostring(s or ""), "'", "''")) end -- local: Eluna izoluje subory, zdielany global nefunguje
 local function SendC(p, msg) pcall(function() p:SendAddonMessage("WCARD", msg, 7, p) end) end
 
 pcall(CharDBExecute, [[CREATE TABLE IF NOT EXISTS characters.hero_paragon (name VARCHAR(40) NOT NULL PRIMARY KEY,
@@ -18,7 +18,7 @@ pcall(CharDBExecute, [[CREATE TABLE IF NOT EXISTS characters.hero_paragon (name 
 
 local function Get(p)
     local ok, q = pcall(CharDBQuery, "SELECT lvl, xp, prestige, choice FROM characters.hero_paragon WHERE name = '" .. Esc(p:GetName()) .. "'")
-    if ok and q then return {lvl = q:GetUInt32(0), xp = q:GetUInt64(1), prestige = q:GetUInt32(2), choice = q:GetUInt32(3)} end
+    if ok and q then return {lvl = q:GetUInt32(0), xp = tonumber(q:GetUInt64(1)) or 0, prestige = q:GetUInt32(2), choice = q:GetUInt32(3)} end
     return {lvl = 0, xp = 0, prestige = 0, choice = 0}
 end
 local function Put(p, t)

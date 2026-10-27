@@ -1,0 +1,1 @@
+-- undo: restore rows from 20261024_scouting_map_dupes_backup.tsv (creature guid 11000752 id 240523, 11000753 id 244550, map 0 at 8457,-4617,~48)

@@ -1,5 +1,5 @@
 -- =====================================================================
--- Worldforge (Descend): hidden objects all over Azeroth, each holds one
+-- Worldforge (Ascension): hidden objects all over Azeroth, each holds one
 -- unique Worldforged item (custom items 9700001+, worldforge_items.sql).
 --  * Objects (gameobject entry = item ID, worldforge_objects.sql) are put into
 --    the world the first time a player comes near: ground height is taken from
@@ -8,7 +8,7 @@
 --  * Each character can claim each Worldforged item once
 --    (characters.worldforge_looted).
 --  * .wf  -> how many you found in this zone and how far the nearest one is.
--- Mystic Enchants (Descend): Mystic Scroll objects (9710001+, mystic_enchants.sql)
+-- Mystic Enchants (Ascension): Mystic Scroll objects (9710001+, mystic_enchants.sql)
 -- teach an enchant into your collection; turn enchants on in /ca (Mystic tab) or
 -- with .me. Slots: 1 + 1 per 10 levels, at most 1 Legendary/Artifact and 3 Epic.
 -- =====================================================================
@@ -368,6 +368,11 @@ local function GiveRolled(player)
 end
 
 local function AltarSelect(event, player, creature, sender, intid, code)
+    if sender == 9900130 then
+        -- DB trigger menu (gossip_menu 9900130): route straight into the altar menu
+        AltarShow(player, creature)
+        return
+    end
     if intid == 8 then UtilityShow(player, creature); return
     elseif intid > 100 and intid < 3000 then
         local e = (WORLD_DROPS or {})[intid - 100]
@@ -470,7 +475,7 @@ if ENABLED then
     print("[worldforge] loaded: objects " .. FIRST .. "-" .. LAST .. ", " .. ne .. " Mystic Enchants")
 end
 
--- ---------------------------------------------------------------- shared with descend_world.lua
+-- ---------------------------------------------------------------- shared with ascension_world.lua
 -- Give the player an unclaimed Worldforged item from near (x, y) on map; returns item id or nil.
 function WF_GiveNearbyItem(player, radius)
     local px, py = player:GetX(), player:GetY()
@@ -501,7 +506,7 @@ end
 
 function MYS_GiveRandomEnchant(player) return GiveRolled(player) end
 
--- Descend style scrolls: item 9740000 + enchant id teaches exactly that enchant (loot from any creature, see mystic_scroll_items.py)
+-- Ascension style scrolls: item 9740000 + enchant id teaches exactly that enchant (loot from any creature, see mystic_scroll_items.py)
 local SCROLL_BASE = 9740000
 local function LearnScroll(player, e, quiet)
     local col = Collection(player)
@@ -523,7 +528,7 @@ end
 
 -- ---------------------------------------------------------------- Mystic Forge (object with a window)
 local FORGE_GO, BULLION, BOLT, FORGE_COPPER = 9712501, 9750005, 9750006, 5000
-local MARK, MARK_COST = 9750009, 5   -- Mark of Descend: quests, dungeons and bosses give them
+local MARK, MARK_COST = 9750009, 5   -- Mark of Ascension: quests, dungeons and bosses give them
 local ODDS = {   -- Rare, Epic, Legendary, Artifact by payment: 1 = 50 silver, 2 = Bedlam Bullion, 3 = Bonzo Bolt
     [1] = {62, 28, 9, 1}, [2] = {62, 28, 9, 1}, [3] = {30, 45, 22, 3}, [4] = {55, 33, 11, 1},
 }
@@ -554,7 +559,7 @@ end
 local function ForgeBuy(player, method)
     if player:IsInCombat() then SendClient(player, "ERR;Not in combat.") return end
     if method == 4 then
-        if player:GetItemCount(MARK) < MARK_COST then SendClient(player, "ERR;You need " .. MARK_COST .. " Marks of Descend.") return end
+        if player:GetItemCount(MARK) < MARK_COST then SendClient(player, "ERR;You need " .. MARK_COST .. " Marks of Ascension.") return end
     elseif method == 3 then
         if player:GetItemCount(BOLT) < 1 then SendClient(player, "ERR;You need a Bonzo Bolt.") return end
     elseif method == 2 then

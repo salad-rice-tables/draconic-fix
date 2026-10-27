@@ -1,0 +1,1016 @@
+[
+ {
+  "quest": 91281,
+  "title": "Midnight",
+  "url": "https://warcraft.wiki.gg/wiki/Midnight_(Alliance)",
+  "objectives": [
+   "Travel to the nearest Image of Lady Liadrin.",
+   "Locate the Image of Lady Liadrin"
+  ],
+  "description": "Locate one of the images of Lady Liadrin that have appeared across Azeroth.",
+  "progress": "",
+  "completion": "I am glad you came, <name>. We need your help urgently.",
+  "rewards": "You will receive:\n*3g 9s\n*1,450 XP",
+  "prev": "",
+  "next": "A Voice from the Light",
+  "note": "faction variant page; other-faction: Midnight (Horde)"
+ },
+ {
+  "quest": 88719,
+  "title": "A Voice from the Light",
+  "url": "https://warcraft.wiki.gg/wiki/A_Voice_from_the_Light",
+  "objectives": [
+   "Accept the summons and travel to Quel'Danas to aid the Vanguard of the Light.",
+   "Speak with Liadrin's image or use the Light's Summon",
+   "Travel to Quel'Danas",
+   "Light's Summon (provided)"
+  ],
+  "description": "<Name>, you have been chosen.\n\nXal'atath's army of the Void has descended upon the Sunwell. We have put our faith in the Light, and in turn, the Light has called upon the greatest champions of Azeroth.\n\nAnswer this summons and stand against the Devouring Host! The fate of Quel'Danas and the world rests in your hands.",
+  "progress": "",
+  "completion": "The Light has called you, <name>. Our hope rests in the champions of Azeroth and the Vanguard of the Light!",
+  "rewards": "You will receive:\n*3g 9s\n*1,450 XP",
+  "prev": "Midnight (quest)",
+  "next": "Last Bastion of the Light"
+ },
+ {
+  "quest": 86769,
+  "title": "Last Bastion of the Light",
+  "url": "https://warcraft.wiki.gg/wiki/Last_Bastion_of_the_Light",
+  "objectives": [
+   "Follow Lady Liadrin to Parhelion Plaza."
+  ],
+  "description": "Your arrival has reignited hope.\n\nWe have pushed Xal'atath's forces away from the Sunwell, yet they still infest the Isle of Quel'Danas, and appear to be massing for another attack as they prey upon the sin'dorei.\n\nWe must join up with the Vanguard of Light.",
+  "progress": "",
+  "completion": "We must use this miraculous event to turn the tide against chaos. We must not falter.",
+  "rewards": "You will receive:\n*3g 9s\n*1,450 XP",
+  "prev": "A Voice from the Light",
+  "next": "Champions of Quel'Danas, Where Heroes Hold, & My Son"
+ },
+ {
+  "quest": 86770,
+  "title": "Champions of Quel'Danas",
+  "url": "https://warcraft.wiki.gg/wiki/Champions_of_Quel'Danas",
+  "objectives": [
+   "Rally Faerin Lothar, Lothraxion, and Alonsus Faol at Light's Spire.",
+   "Recruit Faerin Lothar",
+   "Recruit Alonsus Faol",
+   "Recruit Lothraxion",
+   "Meet Lor'themar at Sunstrider Rise."
+  ],
+  "description": "Lor'themar has formed a rally point at Sunstrider Rise, while the civilians there are evacuated to Silvermoon, but the forces of the Vanguard of Light are scattered throughout the battlefield.\n\nWe need to fight as one to defeat this host. Together, we can defeat Xal'atath and save the Sunwell.",
+  "progress": "You have gathered help?",
+  "completion": "Thank you, <name>. With this force, we can protect the survivors and escort them to the boats.",
+  "rewards": "You will receive:\n*3g 9s\n*1,450 XP",
+  "prev": "Last Bastion of the Light",
+  "next": "The Hour of Need & A Safe Path"
+ },
+ {
+  "quest": 89271,
+  "title": "My Son",
+  "url": "https://warcraft.wiki.gg/wiki/My_Son",
+  "objectives": [
+   "Find Arator and bring him to Turalyon at Light's Spire.",
+   "Gain Arator's assistance",
+   "Reach Light's Spire",
+   "Meet Turalyon at Sunstrider Rise."
+  ],
+  "description": "One moment, <Name>. I have a personal matter. I would like you to find my son, Arator. He is a member of the Silver Hand, an accomplished paladin.\n\nI know he must have been called. His faith is strong. The Light would want him here fighting against Xal'atath.",
+  "progress": "Have you found my son?",
+  "completion": "You found him? Thank the Light!\n\nWe can't afford distractions. I need Arator here with the assembled forces, fully focused on the assault against Xal'atath.",
+  "rewards": "You will receive:\n*30g 98s\n*11,750 XP",
+  "prev": "Last Bastion of the Light",
+  "next": "The Hour of Need & A Safe Path"
+ },
+ {
+  "quest": 86780,
+  "title": "Where Heroes Hold",
+  "url": "https://warcraft.wiki.gg/wiki/Where_Heroes_Hold",
+  "objectives": [
+   "Hinder the Voidfront forces along the walls of Parhelion Plaza.",
+   "Hinder the attacking Void forces (0/100%)",
+   "Meet Turalyon at Sunstrider Rise."
+  ],
+  "description": "We have stopped the Devouring Host's initial attack. This battle will not be won if we go on the defensive, not even to safeguard the innocents of Quel'Danas.\n\nFocus on culling the Voidfront. Without their invading force, the Devouring Host cannot maintain a foothold!\n\nWe will rally at Sunstrider Rise when ready.",
+  "progress": "Have you thwarted the enemy?",
+  "completion": "Excellent work, <name>. Their numbers dwindle as ours grow. The Light truly has brought hope to this battlefield.",
+  "rewards": "You will receive one of:\n*Clasp of the Voidslayer\n*Sunwell Defender's Brooch\n\nYou will also receive:\n*30g 98s\n*11,750 XP",
+  "prev": "Last Bastion of the Light",
+  "next": "The Hour of Need & A Safe Path"
+ },
+ {
+  "quest": 86805,
+  "title": "The Hour of Need",
+  "url": "https://warcraft.wiki.gg/wiki/The_Hour_of_Need",
+  "objectives": [
+   "Rescue 20 citizens, then head to the Silver Landing.",
+   "Civilian Rescued (20)",
+   "Proceed to the Silver Landing"
+  ],
+  "description": "Turalyon is thinking like a battlefield captain and not like a leader! My people, the sin'dorei, have suffered much in these past few wars. How many must die in the name of his victory?\n\nPlease, <name>. Rescue any citizens you can and help guide them safely to the boats at the Silver Landing.\n\nEvery life saved is a victory for the blood elves.",
+  "progress": "The ships still have space for more! Rescue as many as you can.",
+  "completion": "The citizens have boarded the ships. They will soon reach the safety of Silvermoon.",
+  "rewards": "You will receive one of:\n*Sin'dorei Citizen's Cloak\n*Sin'dorei Citizen's Shawl\n\nYou will also receive:\n*30g 98s\n*11,750 XP",
+  "prev": "Champions of Quel'Danas, Where Heroes Hold, & My Son",
+  "next": "Luminous Wings"
+ },
+ {
+  "quest": 89012,
+  "title": "A Safe Path",
+  "url": "https://warcraft.wiki.gg/wiki/A_Safe_Path",
+  "objectives": [
+   "Eliminate Gloomstress.",
+   "Gloomstress slain"
+  ],
+  "description": "We must rescue the civilians and get them to the ships, yet the path to the docks is barred by a vile, hungering creature.\n\nIf we are to save my people, then we need to clear an evacuation path. We cannot leave them to fend for themselves.",
+  "progress": "Does the engulfing void still bar the way?",
+  "completion": "Thank you, <Name>. These rescue missions are rarely as straightforward as they seem. There is always one more threat that appears that you didn't account for.",
+  "rewards": "You will receive:\n*30g 98s\n*11,750 XP",
+  "prev": "Champions of Quel'Danas, Where Heroes Hold, & My Son",
+  "next": "Luminous Wings"
+ },
+ {
+  "quest": 86806,
+  "title": "Luminous Wings",
+  "url": "https://warcraft.wiki.gg/wiki/Luminous_Wings",
+  "objectives": [
+   "Take flight on the Empowered Dragonhawk, destroy 16 Devouring Host, and rescue 3 civilians in need.",
+   "Mount Empowered Dragonhawk",
+   "Void Invaders slain (16)",
+   "Distressed Civilian rescued (3)"
+  ],
+  "description": "No! Xal'atath's Host has opened portals above the strait. Void creatures spill out and descend upon the refugee's ships. We have to safeguard the civilians!\n\nThose dragonhawks have been empowered by the Light. They should give you enough power to defeat the Void beasts and rescue the fleeing civilians.",
+  "progress": "The ships full of sin'dorei refugees are still in danger.",
+  "completion": "The ships have crossed the strait and the refugees have made it safely to Silvermoon. Thank you, <name>. You have done my people a great service.",
+  "rewards": "You will receive:\n*30g 98s\n*11,750 XP",
+  "prev": "The Hour of Need & A Safe Path",
+  "next": "The Gate"
+ },
+ {
+  "quest": 86807,
+  "title": "The Gate",
+  "url": "https://warcraft.wiki.gg/wiki/The_Gate",
+  "objectives": [
+   "Assemble with the Vanguard of Light.",
+   "Tarenar",
+   "Aponi",
+   "Reach the North Gate"
+  ],
+  "description": "The High Exarch commanded us to assemble with his Vanguard of Light and attack the Devouring Host. I do not regret my delay of that order, but he will have noticed my absence.\n\nWe should make haste and assemble with the others.",
+  "progress": "",
+  "completion": "Champion, I am glad to hear so many of the sin'dorei survived. Even though this was contrary to my orders to the Vanguard, you are not under my command. You acquitted yourself well. Arator did not.",
+  "rewards": "You will receive:\n*3g 9s\n*1,450 XP",
+  "prev": "Luminous Wings",
+  "next": "Severing the Void & Voidborn Banishing"
+ },
+ {
+  "quest": 91274,
+  "title": "Severing the Void",
+  "url": "https://warcraft.wiki.gg/wiki/Severing_the_Void",
+  "objectives": [
+   "Activate 5 Quel'Danas Sentinels to destroy the Void Pylons.",
+   "Sentinels activated (5)",
+   "Void-Breach Pylon Destroyed"
+  ],
+  "description": "The High Exarch has formed an impressive defensive line. It will hold the Devouring Host's current numbers. But I can see void pylons behind the lines. Those will call forth more Devouring Host and overwhelm the Vanguard of Light.\n\nTheir power is too dangerous for us to destroy directly, but if we can re-activate the sentinels that fell in the initial assault, they could destroy the pylons for us.",
+  "progress": "We need to activate all the sentinels if we want to destroy the Void pylons.",
+  "completion": "With those Void pylons destroyed, the Devouring Host has weakened. We may have a chance of winning this.",
+  "rewards": "You will receive:\n*30g 98s\n*11,750 XP",
+  "prev": "The Gate",
+  "next": "Ethereal Eradication & Light's Arsenal"
+ },
+ {
+  "quest": 86834,
+  "title": "Voidborn Banishing",
+  "url": "https://warcraft.wiki.gg/wiki/Voidborn_Banishing",
+  "objectives": [
+   "Slay Latrunculon, Blightclaw, and The Wasting.",
+   "The Wasting slain",
+   "Blightclaw slain",
+   "Latrunculon slain"
+  ],
+  "description": "The Devouring Host are composed of horrors from the depths of the Void, but they are still an army, with soldiers and leaders. Amongst that sea of void walkers, I notice there are singular creatures.\n\nWhether commander or mascot to the Host, removing them from the battlefield will help to break their lines.",
+  "progress": "We need to defeat all of the void commanders.",
+  "completion": "Going behind our lines was reckless! Was this Arator's idea? He has been so headstrong lately.\n\nSorry, <name>. I shouldn't air this family business. I will admit that your actions have aided the Vanguard of Light in this battle.",
+  "rewards": "You will receive one of:\n*Voidbound Lieutenant's Band\n*Entropic Void Crystal\n\nYou will also receive:\n*30g 98s\n*11,750 XP",
+  "prev": "The Gate",
+  "next": "Ethereal Eradication & Light's Arsenal"
+ },
+ {
+  "quest": 86811,
+  "title": "Ethereal Eradication",
+  "url": "https://warcraft.wiki.gg/wiki/Ethereal_Eradication",
+  "objectives": [
+   "Eliminate Norkonahl the Looter and 12 Shadowguard intruders.",
+   "Shadowguard forces slain (12)",
+   "Norkonahl the Looter slain"
+  ],
+  "description": "<Name>! I have a mission for you. There is a contingent of Shadowguard ethereals to the northeast.\n\nThey appear to be looting the buildings, but that could change in a moment. The Vanguard cannot afford to be flanked as we advance. Take out their leader and decimate their forces while we engage the Host.",
+  "progress": "Have you completed the mission?",
+  "completion": "Excellent work, <name>. I knew I could count on you.",
+  "rewards": "You will receive:\n*30g 98s\n*11,750 XP",
+  "prev": "Severing the Void & Voidborn Banishing",
+  "next": "Wrath Unleashed"
+ },
+ {
+  "quest": 86848,
+  "title": "Light's Arsenal",
+  "url": "https://warcraft.wiki.gg/wiki/Light's_Arsenal",
+  "objectives": [
+   "Collect 7 Legendary Weapons.",
+   "Weapons collected (7)"
+  ],
+  "description": "The armory here stores legendary weapons and artifacts, blessed with the power of the Light due to their proximity to the Sunwell.\n\nWhile we are pinned down by the Host, the ethereals are looting these treasures.\n\n<Name>, secure these holy artifacts. They are our best weapons against the Void. Use them to cut down these invaders if you have the need.",
+  "progress": "Have you secured our artifacts?",
+  "completion": "Were they just here to loot us? Or did they have some reason to seek out weapons of the Light?\n\nI'll save that speculation for later. The Vanguard can use these weapons now. With them, we will push this Devouring Host off Quel'Danas!",
+  "rewards": "You will receive one of:\n*Recovered Sanctum Axe\n*Recovered Sanctum Blade\n*Recovered Sanctum Bow\n*Recovered Sanctum Dirk\n*Recovered Sanctum Greatsword\n*Recovered Sanctum Hacker\n*Recovered Sanctum Hatchet\n*Recovered Sanctum Pole\n*Recovered Sanctum Rapier\n*Recovered Sanctum Stave\n*Recovered Sanctum Sword\n\nYou will also receive:\n*30g 98s\n*11,750 XP",
+  "prev": "Severing the Void & Voidborn Banishing",
+  "next": "Wrath Unleashed"
+ },
+ {
+  "quest": 86849,
+  "title": "Wrath Unleashed",
+  "url": "https://warcraft.wiki.gg/wiki/Wrath_Unleashed",
+  "objectives": [
+   "Join the charge of the Vanguard of Light.",
+   "Aid Turalyon in attacking the Voidwake Behemoth",
+   "Channel the Light against the Voidwake Behemoth",
+   "Drive back Vorasius"
+  ],
+  "description": "<Name>, the time has come! We push these fiends to Sun's Reach Harbor! We drive them back into their accursed void portal and drive them from these sacred shores!\n\nFor the Light! For Azeroth!",
+  "progress": "Don't stop until we drive them from these shores!",
+  "completion": "By the Light! We cannot win this battle. Our only hope lies in the Sunwell!",
+  "rewards": "You will receive:\n*30g 98s\n*11,750 XP",
+  "prev": "Ethereal Eradication & Light's Arsenal",
+  "next": "Broken Sun"
+ },
+ {
+  "quest": 86850,
+  "title": "Broken Sun",
+  "url": "https://warcraft.wiki.gg/wiki/Broken_Sun",
+  "objectives": [
+   "Meet Liadrin at the entrance to the Sunwell.",
+   "Escape on the Empowered Dragonhawk",
+   "Arrive at the Sunwell",
+   "Meet Liadrin at the entrance to the Sunwell."
+  ],
+  "description": "We need to fall back! This is not a battle that we can win. Not like this.\n\nBut there is still hope! The Sunwell. It brought the Vanguard of Light here to defend it. It brought you, <name>. Fall back to the Sunwell chamber and defend it for as long as we can.\n\nI have faith the Light did not intend for us to lose this day.",
+  "progress": "",
+  "completion": "Thank the Light. Everyone from the Vanguard that survived is in the Sunwell chamber. Now that you are here, we can begin.",
+  "rewards": "You will receive:\n*30g 98s\n*11,750 XP",
+  "prev": "Wrath Unleashed",
+  "next": "Light's Last Stand"
+ },
+ {
+  "quest": 86852,
+  "title": "Light's Last Stand",
+  "url": "https://warcraft.wiki.gg/wiki/Light's_Last_Stand",
+  "objectives": [
+   "Defend the Sunwell from the attacking forces.",
+   "Speak with Liadrin to begin the ritual",
+   "Void forces repelled (0/100%)",
+   "Empowered by Sun's Ember (Optional)",
+   "Imperatus slain"
+  ],
+  "description": "Our attempts to fight Xal'atath's Devouring Host have failed. Our only hope is to call upon the Light once more and trust that there was a reason it brought this Vanguard together.\n\n<Name>, you and Arator need to protect the Sunwell from the Devouring Host. With so few of us left, we cannot spare any more defenders.\n\nOur faith in the Light will save us.",
+  "progress": "",
+  "completion": "May the Light bless and protect you, <name>. Your defense of the Sunwell chamber made this miracle possible.\n\nWe have not beaten Xal'atath, but we have forestalled the invasion of her Devouring Host. We now have the time to catch our breath and discover what we must do to defeat her.",
+  "rewards": "You will receive:\n*92g 94s\n*17,650 XP\n*100 Voidlight Marl\n*Silvermoon Court (commendation)",
+  "prev": "Broken Sun",
+  "next": "Silvermoon Negotiations"
+ },
+ {
+  "quest": 86733,
+  "title": "Silvermoon Negotiations",
+  "url": "https://warcraft.wiki.gg/wiki/Silvermoon_Negotiations",
+  "objectives": [
+   "Journey to Silvermoon City.",
+   "Arrive at the Sanctum of Light",
+   "Meet Lor'themar in the sanctum of Light in Silvermoon City"
+  ],
+  "description": "It would be an understatement to say things between Silvermoon and the Alliance are often tense and uneasy. I thank you for setting aside any prejudices you might have had and lending your strength to the defense of Silvermoon and the Sunwell.\n\nWe have Xal'atath's forces held for now, but this is far from over.\n\nI would include you in our next steps. Meet me at the Sanctum of Light.",
+  "progress": "",
+  "completion": "I'm glad you've arrived. Let's begin.",
+  "rewards": "You will receive one of:\n*Golden City Axe\n*Golden City Baton\n*Golden City Blade\n*Golden City Claymore\n*Golden City Cleaver\n*Golden City Dagger\n*Golden City Greatsword\n*Golden City Hatchet\n*Golden City Longbow\n*Golden City Shortsword\n*Golden City Staff\n\nYou will receive:\n*2g 34s\n*1,450 XP",
+  "prev": "Light's Last Stand",
+  "next": "Diplomacy (quest)"
+ },
+ {
+  "quest": 86734,
+  "title": "Diplomacy",
+  "url": "https://warcraft.wiki.gg/wiki/Diplomacy_(quest)",
+  "objectives": [
+   "Listen to the discussion.",
+   "Listen to the discussion"
+  ],
+  "description": "We shall all weigh in on the situation.\n\n<Lor'themar glances at Umbric and Rommath.>\n\nAs you can see, there are many tensions at play.\n\nPlease give us a moment to discuss.",
+  "progress": "We have much to discuss.",
+  "completion": "There are those that will disagree with my decision. But I will not have us lose our home. If we must host temporary guests, so be it.",
+  "rewards": "You will receive:\n*23g 40s\n*1,750 XP",
+  "prev": "Silvermoon Negotiations",
+  "next": "Paved in Ash"
+ },
+ {
+  "quest": 86735,
+  "title": "Paved in Ash",
+  "url": "https://warcraft.wiki.gg/wiki/Paved_in_Ash_(Alliance)",
+  "objectives": [
+   "Check in with civilians around the city.",
+   "Check in at Wayfarer's Rest",
+   "Check on the portal network",
+   "Speak with the Skymaster of Silvermoon",
+   "Check in with the head bank teller",
+   "Check in with the Reliquary",
+   "Check in with Guard Captain Goldblade",
+   "Vanguard of the Light greeted"
+  ],
+  "description": "Now that the matter is settled, you should acquaint yourself with Silvermoon. There are a few key civilians I'd like informed about your presence here--you should check in with them.\n\nShow them my signet ring, they'll know you've my permission to be here. But please take care where you go, and stay in the outer city to avoid any issues.",
+  "progress": "Have you spoken to everyone yet?",
+  "completion": "Remember, you are a guest here. Your aid is appreciated, but our rules must be followed while you are within these walls.",
+  "rewards": "You will receive one of:\n*Reluctant Diplomat's Cuffs\n*Reluctant Diplomat's Bracers\n*Reluctant Diplomat's Vambraces\n*Reluctant Diplomat's Wraps\n\nYou will also receive:\n*Worn Supply Bag\n*Silvermoon Curio Shelves\n*23g 40s\n*1,750 XP",
+  "prev": "",
+  "next": ""
+ },
+ {
+  "quest": 86736,
+  "title": "Paved in Ash",
+  "url": "https://warcraft.wiki.gg/wiki/Paved_in_Ash_(Horde)",
+  "objectives": [
+   "Check in with civilians around the city.",
+   "Check in at Wayfarer's Rest",
+   "Check on the portal network",
+   "Speak with the Skymaster of Silvermoon",
+   "Check in with the head bank teller",
+   "Check in with the Reliquary",
+   "Check in with Magistrix Nizara"
+  ],
+  "description": "I've more to review with Turalyon, but in the meantime, the rest of the city should be informed that we will have some temporary guests in the outer perimeter. I'd like you to check in with a few key civilians and deliver the news.\n\nWhile you're out there, take the chance to familiarize yourself with Silvermoon. We've made impressive strides rebuilding it since you've last visited.",
+  "progress": "Have you met with everyone?",
+  "completion": "While the Alliance and the Vanguard may become an additional stress for some, their presence is to be tolerated... for now.",
+  "rewards": "You will receive one of:\n*Reluctant Diplomat's Cuffs\n*Reluctant Diplomat's Bracers\n*Reluctant Diplomat's Vambraces\n*Reluctant Diplomat's Wraps\n\nYou will also receive:\n*23g 40s\n*1,750 XP\n*Worn Supply Bag\n*Silvermoon Curio Shelves",
+  "prev": "",
+  "next": ""
+ },
+ {
+  "quest": 86737,
+  "title": "Fair Breeze, Light Bloom",
+  "url": "https://warcraft.wiki.gg/wiki/Fair_Breeze,_Light_Bloom",
+  "objectives": [
+   "Journey to Fairbreeze Village.",
+   "Obtain the arcane projector from Rommath.",
+   "Stay awhile and listen to Liadrin (Optional)",
+   "Reach Fairbreeze Village"
+  ],
+  "description": "In recent years, small pockets of wild growth we call 'Lightbloom' have blossomed throughout Eversong. A curiosity for our local botanists, for the most part.\n\nHowever, the Magistrix in Fairbreeze is asking for help with the local Lightbloom. Every capable hand I have is focused on holding back the Voidstorm--but if the Magistrix cannot handle the matter herself, it requires swift attention.\n\nI'd like you to see to the issue. Magister Rommath can provide you with an arcane projector to keep in touch.",
+  "progress": "How am I supposed to handle all of this myself?",
+  "completion": "Thank goodness--everything is completely out of control!",
+  "rewards": "You will receive:\n*2g 34s\n*1,550 XP",
+  "prev": "Paved in Ash",
+  "next": "Sharpmaw (quest), Fairbreeze Favors, & Displaced Denizens"
+ },
+ {
+  "quest": 86738,
+  "title": "Sharpmaw",
+  "url": "https://warcraft.wiki.gg/wiki/Sharpmaw_(quest)",
+  "objectives": [
+   "Slay Sharpmaw.",
+   "Sharpmaw approached",
+   "Examine Sharpmaw",
+   "Murderous Lightbloom Flydra slain"
+  ],
+  "description": "These beasts roaming the village are nuisances, but we have a bigger problem.\n\nThere's a feral lynx prowling nearby that we call Sharpmaw. She used to keep her distance from the village, but the current situation has made her more bold. We've plenty of little ones around here, and more than once the guards have caught that beast eyeing them like they were a snack waiting to be snatched.\n\nStop her before she starts attacking my people in earnest!",
+  "progress": "Have you killed that beast yet?",
+  "completion": "A what? Giant plants? Yet another problem... at least that beast is gone for good. Thank you.",
+  "rewards": "You will receive one of:\n*Lynxslayer's Stitched Mitts\n*Lynxslayer's Leather Gloves\n*Lynxslayer's Scale Grips\n*Lynxslayer's Reinforced Gauntlets\n\nYou will also receive:\n*23g 40s\n*12,295 XP",
+  "prev": "",
+  "next": ""
+ },
+ {
+  "quest": 86739,
+  "title": "Fairbreeze Favors",
+  "url": "https://warcraft.wiki.gg/wiki/Fairbreeze_Favors",
+  "objectives": [
+   "Help restore order in Fairbreeze Village.",
+   "Erratic Light Wyrm slain (8)",
+   "Hawkstriders shooed (6)",
+   "Lynx trapped for relocation (3)",
+   "Citizens helped (3)"
+  ],
+  "description": "This is the oddest situation I've ever been in--our village is being overrun!\n\nI like to keep things neat and tidy around here, but these animals... they've come in from the wilds like they own the town. They're attacking our sweet pets, overturning our belongings, and causing havoc. No sooner have I solved one problem than another is rearing its head. I'm only one elf--I can't stop all of this on my own!\n\nLend a hand, won't you? This... elf... troll... person hasn't lifted a finger.",
+  "progress": "The sooner the village is returned to peace, the sooner I can breathe.",
+  "completion": "Thank you so much. Maybe now I can get this village back to some semblance of order!",
+  "rewards": "You will receive:\n*Sin'dorei Storage Jar\n*23g 40s\n*12,295 XP",
+  "prev": "Fair Breeze, Light Bloom",
+  "next": "Lightbloom Looming"
+ },
+ {
+  "quest": 86740,
+  "title": "Displaced Denizens",
+  "url": "https://warcraft.wiki.gg/wiki/Displaced_Denizens",
+  "objectives": [
+   "Study 3 disturbances caused by displaced wildlife and 3 unusual plants in Fairbreeze Village.",
+   "Disturbances investigated (3)",
+   "Strange plants examined (3)"
+  ],
+  "description": "The wildlife here seems to have been upset by something. Perhaps this is why the world's song bade me here: to discover why and correct it.\n\nStudy the displaced wildlife. Bring me your findings. If there is anything unusual, I wish to know of it. I will speak with the Magistrix. Perhaps together we can uncover this mystery.",
+  "progress": "Perhaps we can solve this problem together.",
+  "completion": "This lightbloom--it seems to be the cause of every trouble here.",
+  "rewards": "You will receive:\n*23g 40s\n*12,295 XP",
+  "prev": "Fair Breeze, Light Bloom",
+  "next": "Lightbloom Looming"
+ },
+ {
+  "quest": 86741,
+  "title": "Lightbloom Looming",
+  "url": "https://warcraft.wiki.gg/wiki/Lightbloom_Looming",
+  "objectives": [
+   "Follow the trail of the displaced wildlife.",
+   "Speak with Orweyna",
+   "Follow the trail out of Fairbreeze",
+   "Sentinel assisted",
+   "Trail followed further",
+   "Lightbloom Monstrosity slain",
+   "Trail followed to end"
+  ],
+  "description": "The wildlife seems to have been displaced from the south. It is there we will surely find answers.\n\nCome--I will use my magic to illuminate the path and we will follow the trail.",
+  "progress": "",
+  "completion": "These creatures all come from here. This Lightbloom... this is where the song of the world was leading me.",
+  "rewards": "You will receive one of:\n*Lightstalker's Slippers\n*Lightstalker's Treads\n*Lightstalker's Boots\n*Lightstalker's Greaves\n\nYou will also receive:\n*Ornate Silvermoon Candelabra\n*23g 40s\n*13,090 XP",
+  "prev": "",
+  "next": ""
+ },
+ {
+  "quest": 86742,
+  "title": "Curious Cultivation",
+  "url": "https://warcraft.wiki.gg/wiki/Curious_Cultivation",
+  "objectives": [
+   "Examine 3 Lightbloom Plant Growths in lightbloom Ath'Ran.",
+   "Lightbloom growths examined",
+   "Find and meet up with Arator",
+   "Lightblinded Rutaani Grovewarden slain",
+   "Pick up strange seed",
+   "Meet Arator in a safer location"
+  ],
+  "description": "This place is unlike anything I have seen before. The plant growth is unique.\n\n<Name>, let us examine the Lightbloom more closely. Perhaps we can uncover the secrets of this place together.",
+  "progress": "This makes no sense.",
+  "completion": "The rutaani are not like this! Not where I am from, at least. There is something affecting them. This behavior is not normal.",
+  "rewards": "You will receive one of:\n* Ring of Overgrowth\n* Lightbloom Band\n\nYou will also receive:\n*23g 40s\n*13,090 XP",
+  "prev": "",
+  "next": ""
+ },
+ {
+  "quest": 86743,
+  "title": "Trimming the Lightbloom",
+  "url": "https://warcraft.wiki.gg/wiki/Trimming_the_Lightbloom",
+  "objectives": [
+   "Kill Lightbloom creatures in Lightbloom Ath'ran.",
+   "Lightbloom creatures slain"
+  ],
+  "description": "The creatures of this Lightbloom see us as the intruders. They threaten the surrounding wildlife and inhabitants who are naturally here.\n\nWe should reduce their numbers and end this threat.",
+  "progress": "These creatures are so odd... as if they are driven.",
+  "completion": "This will bring some peace to the region for now, at least.",
+  "rewards": "You will receive:\n*2g 34s\n*1,650 XP",
+  "prev": "Lightbloom Looming",
+  "next": "Seeking Truth"
+ },
+ {
+  "quest": 86744,
+  "title": "Seeking Truth",
+  "url": "https://warcraft.wiki.gg/wiki/Seeking_Truth",
+  "objectives": [
+   "Defend Orweyna.",
+   "Speak with Orweyna",
+   "Defend Orweyna",
+   "Regroup with Orweyna east of Runestone Falithas."
+  ],
+  "description": "I will channel on this strange seed we have collected, and see if I can discover what has happened here.\n\nThis may upset the rutaani. Make sure I am not interrupted. This is why I was called here--I know now. But I must discover what needs to be done.",
+  "progress": "Ah... perhaps we have some answers.",
+  "completion": "The rutaani are trying to spread the growth of the Lightbloom as far and wide as possible. But why?",
+  "rewards": "You will receive one of:\n*Sash of Herbicide\n*Belt of Herbicide\n*Waistguard of Herbicide\n*Girdle of Herbicide\n\nYou will also receive:\n*61g 96s\n*14,700 XP\n*+1500 reputation with Silvermoon Court",
+  "prev": "",
+  "next": ""
+ },
+ {
+  "quest": 86745,
+  "title": "Silvermoon Must Know",
+  "url": "https://warcraft.wiki.gg/wiki/Silvermoon_Must_Know",
+  "objectives": [
+   "Contact Silvermoon.",
+   "Contact Silvermoon"
+  ],
+  "description": "This growth--Lor'themar needs to know about this. I worry what will happen should it get out of control.\n\nAnd the Light's influence... my father should know, too.",
+  "progress": "We must contact Silvermoon to give them an update.",
+  "completion": "I hate to leave this as it stands... but Silvermoon should have enough information now to keep the Lightbloom at bay, while we wait for Orweyna's investigation.\n\nUntil then... we cannot address matters at the Sunwell without Umbric.",
+  "rewards": "You will receive:\n*23g 40s\n*13,090XP",
+  "prev": "Seeking Truth",
+  "next": "The Wayward Magister"
+ },
+ {
+  "quest": 94871,
+  "title": "Eversong",
+  "missing": true
+ },
+ {
+  "quest": 94993,
+  "title": "Adventuring in Midnight",
+  "url": "https://warcraft.wiki.gg/wiki/Adventuring_in_Midnight",
+  "objectives": [
+   "Review the Scouting Map and choose where to begin the Midnight campaign.",
+   "Campaign chosen from Scouting Map"
+  ],
+  "description": "The Void encroaches on Azeroth from all sides. Visit the Scouting Map in the Sanctum of Light and choose where you will make your stand.",
+  "progress": "",
+  "completion": "<Your decision has been made. You can return to the scouting map at any time to choose another location.>",
+  "rewards": "You will receive:\n* 3g 41s\n* 1,300 XP",
+  "prev": "Silvermoon Must Know",
+  "next": "Fractured",
+  "note": "questbox id 83543 != audit id 94993"
+ },
+ {
+  "quest": 95008,
+  "title": "Adventuring in Midnight",
+  "url": "https://warcraft.wiki.gg/wiki/Adventuring_in_Midnight",
+  "objectives": [
+   "Review the Scouting Map and choose where to begin the Midnight campaign.",
+   "Campaign chosen from Scouting Map"
+  ],
+  "description": "The Void encroaches on Azeroth from all sides. Visit the Scouting Map in the Sanctum of Light and choose where you will make your stand.",
+  "progress": "",
+  "completion": "<Your decision has been made. You can return to the scouting map at any time to choose another location.>",
+  "rewards": "You will receive:\n* 3g 41s\n* 1,300 XP",
+  "prev": "Silvermoon Must Know",
+  "next": "Fractured",
+  "note": "questbox id 83543 != audit id 95008"
+ },
+ {
+  "quest": 86621,
+  "title": "The Wayward Magister",
+  "url": "https://warcraft.wiki.gg/wiki/The_Wayward_Magister",
+  "objectives": [
+   "Accompany Arator to meet with Magister Umbric in Tranquillien.",
+   "Meet with Arator on the road to Tranquillien",
+   "Stay awhile and listen to Orweyna (Optional)",
+   "Mysterious corpse examined",
+   "Meet with Umbric in Tranquillien"
+  ],
+  "description": "Magister Umbric--he's second only to mother in mastering the Void. If anyone can help us with that storm in the sky, he's the one who can make it happen... if he can forgive the others for not listening to him in the first place.\n\nAt least Lor'themar saw reason. There's no way we can take the fight to Xal'atath without Umbric.\n\nThe forces keeping the Voidstorm at bay will only hold out so long. Let's make haste.",
+  "progress": "What's that you have there?",
+  "completion": "<Umbric looks stricken.>\n\nThat is not the news I was expecting. No!",
+  "rewards": "You will receive:\n*2g 34s\n*1,650XP",
+  "prev": "Silvermoon Must Know",
+  "next": "Appeal to the Void & Rational Explanation"
+ },
+ {
+  "quest": 86623,
+  "title": "Appeal to the Void",
+  "url": "https://warcraft.wiki.gg/wiki/Appeal_to_the_Void",
+  "objectives": [
+   "Assist Umbric with testing void theorems outside of Tranquillien.",
+   "Eastern ritual completed",
+   "Western ritual completed",
+   "Northern ritual completed"
+  ],
+  "description": "Kasiea... whatever you've found, you've perished for it.\n\nI won't let her work be in vain.\n\nThere's something to be found here, <name>. There are a few locations listed. Let's travel to them and try some of these theorems. The formulae may be incomplete, but perhaps we can discover what she was looking for.\n\nIt had to have been important.",
+  "progress": "Was she on to a breakthrough? Let's find out.",
+  "completion": "I don't understand. What was she doing with all this information?",
+  "rewards": "You will receive:\n*Umbric's Channeling Focus\n*23g 40s\n*13,090XP",
+  "prev": "The Wayward Magister",
+  "next": "The First to Know"
+ },
+ {
+  "quest": 86624,
+  "title": "Rational Explanation",
+  "url": "https://warcraft.wiki.gg/wiki/Rational_Explanation",
+  "objectives": [
+   "Question the townsfolk of Tranquillien and take note of any clues.",
+   "Townsfolk questioned (4)",
+   "Clues found in Tranquillien",
+   "Speak with Innkeeper Kalarin",
+   "Kasiea's Journal found"
+  ],
+  "description": "Something just doesn't feel right about all of this. Umbric can look into the notebook, but I suspect there's something more going on here.\n\nIt couldn't hurt to ask around Tranquillien and see if anyone's heard anything odd. I'll take the north side of town, and you take the south.\n\nAnd... use your discretion, my friend. We should avoid alarming anyone for now.",
+  "progress": "How goes your investigation?",
+  "completion": "There's far more to Tranquillien than meets the eye, it seems.",
+  "rewards": "You will receive:\n*23g 40s\n*13,090XP",
+  "prev": "The Wayward Magister",
+  "next": "The First to Know"
+ },
+ {
+  "quest": 90907,
+  "title": "The First to Know",
+  "url": "https://warcraft.wiki.gg/wiki/The_First_to_Know",
+  "objectives": [
+   "Inform Lord Antenorian, governor of Tranquillien, of your investigation results.",
+   "Meet at Lord Antenorian's office",
+   "Secretary Faloria questioned",
+   "Strange Lockbox investigated",
+   "Inform Antenorian of your findings."
+  ],
+  "description": "Notes speaking of fear, of uncertainty--of some mysterious truth? This is not good, <Name>. By all accounts, it sounds as if a cult has managed to infiltrate Tranquillien.\n\nIf that journal entry was true, Kasiea was attempting to leave it.\n\nWe must tell Antenorian. He'll want to secure the town and make sure his people are safe.",
+  "progress": "I hope our fair town is treating you well. If you have any concerns at all, bring them to me.",
+  "completion": "It is heartening that you trust me with these serious concerns.",
+  "rewards": "You will receive:\n*Majestic Lightwood Table\n*23g 40s\n*13,090XP",
+  "prev": "Appeal to the Void & Rational Explanation",
+  "next": "Chance Meeting"
+ },
+ {
+  "quest": 86622,
+  "title": "Chance Meeting",
+  "url": "https://warcraft.wiki.gg/wiki/Chance_Meeting",
+  "objectives": [
+   "Meet with Lord Antenorian's scout near Tranquillien.",
+   "Rendezvous with Lord Antenorian's scout",
+   "Cultist Ambusher slain",
+   "Suspicious Missive collected",
+   "Return to Arator in Magister Umbric's study."
+  ],
+  "description": "I've heard some odd rumors myself. Strange happenings to the south--but also to the east and west, and the north. Tranquillien is surrounded by enemies, it seems.\n\nSince you are so dead-set on your investigation, would you look into something for me?\n\nThere is an important report I need from one of my scouts. Check in with them, while I check over the rest of town.",
+  "progress": "Let's get to the bottom of this.",
+  "completion": "Blast--it appears that cult has ears everywhere!",
+  "rewards": "You will receive:\n*23g 40s\n*13,090XP",
+  "prev": "",
+  "next": ""
+ },
+ {
+  "quest": 86626,
+  "title": "The Ransacked Lab",
+  "url": "https://warcraft.wiki.gg/wiki/The_Ransacked_Lab",
+  "objectives": [
+   "Scour Umbric's ransacked lab for any salvageable research.",
+   "Void Samples found",
+   "Forgotten Pendant examined"
+  ],
+  "description": "My notes, my research... I never should have left it alone.\n\nI was just beginning to understand the Voidstorm! Everything I'd learned, torn from my hands by cultists... Were they watching the entire time? Waiting for me to turn my back?\n\nI cannot let this stop me. They can't have destroyed everything. Perhaps there's enough here to salvage.",
+  "progress": "",
+  "completion": "The Twilight's Blade--Antenorian, what have you done!",
+  "rewards": "You will receive:\n*23g 40s\n*13,090XP",
+  "prev": "Chance Meeting",
+  "next": "The Battle for Tranquillien, The Traitors of Tranquillien, & The Heart of Tranquillien"
+ },
+ {
+  "quest": 86632,
+  "title": "The Battle for Tranquillien",
+  "url": "https://warcraft.wiki.gg/wiki/The_Battle_for_Tranquillien",
+  "objectives": [
+   "Free Tranquillien from the grip of the Twilight's Blade.",
+   "Fight back the Twilight's Blade (0/100%)",
+   "Reconvene with Arator at the Tranquillien inn."
+  ],
+  "description": "The Twilight's Blade? Attacking in broad daylight now that their cover's blown... we'll prove what a mistake that was.\n\nSlay the traitors and the creatures they've summoned. Destroy their effigies and their supplies.\n\nMake this retreat costly, <name>.",
+  "progress": "Let's hope there's enough left here to rebuild.",
+  "completion": "I fear this is far from over...",
+  "rewards": "You will receive:\n*46g 80s\n*16,390XP",
+  "prev": "The Ransacked Lab",
+  "next": "The Missing Magister"
+ },
+ {
+  "quest": 90493,
+  "title": "The Heart of Tranquillien",
+  "url": "https://warcraft.wiki.gg/wiki/The_Heart_of_Tranquillien",
+  "objectives": [
+   "Rescue 8 innocent Tranquillien Citizens.",
+   "Tranquillien Citizens rescued (8)",
+   "Reconvene with Arator at the Tranquillien inn."
+  ],
+  "description": "We can't let the Twilight's Blade get away with this. There are innocent citizens all over town who had nothing to do with this cult. You heard the governor: anyone who doesn't join will be executed.\n\nI won't stand for that.\n\nGo--aid any civilians you can find. Get them out of harm's way. If they're being attacked, take their attacker down. Tranquillien will not fall under my watch.",
+  "progress": "Tranquilien will not fall under my watch!",
+  "completion": "You're safe, and so are the weary citizens of Tranquillien. Thank the Light.",
+  "rewards": "You will receive one of:\n*Sin'dorei Honor Stone\n*Diamond Honor Stone\n\nYou will also receive:\n*23g 40s\n*13,090XP",
+  "prev": "The Ransacked Lab",
+  "next": "The Missing Magister"
+ },
+ {
+  "quest": 90509,
+  "title": "The Traitors of Tranquillien",
+  "url": "https://warcraft.wiki.gg/wiki/The_Traitors_of_Tranquillien",
+  "objectives": [
+   "Slay Ranger Lethvalin, Matron Narsilla, and Guard Captain Leonic.",
+   "Ranger Lethvalin slain",
+   "Matron Narsilla slain",
+   "Guard Captain Leonic slain",
+   "Reconvene with Arator at the Tranquillien inn."
+  ],
+  "description": "Some of the town's most respected citizens, traitors?\n\nHow long has the Twilight's Blade been here? How many scouts have gone missing? Crimes gone unreported? Innocents recruited by those they thought they could trust?\n\nThey must be stopped. Cut down the traitors. Show them that Tranquillien is no home for cultists.",
+  "progress": "We cannot allow these traitors to escape!",
+  "completion": "We'll need to do more to reverse the damage done here, but this was a good first step. Thank you.",
+  "rewards": "You will receive one of:\n*Backstabber's Back Stabber\n*Cultist's Pillaged Glaive\n*Fallen Matron's Mace\n*Gavel of the Unjust\n*Malicious Skullcracker\n*Protector's Discarded Shield\n*Traitor Captain's Executioner\n*Traitorous Acolyte's Blade\n*Treasonous Ranger's Longbow\n*Twilight Agitator's Stave\n\nYou will also receive:\n*23g 40s\n*13,090XP",
+  "prev": "",
+  "next": ""
+ },
+ {
+  "quest": 90494,
+  "title": "The Missing Magister",
+  "url": "https://warcraft.wiki.gg/wiki/The_Missing_Magister",
+  "objectives": [
+   "Find Magister Umbric.",
+   "Find Umbric",
+   "Secretary Faloria slain",
+   "Jeweled Key collected",
+   "Plans of Infiltration collected",
+   "Reconvene with Umbric in his study."
+  ],
+  "description": "Umbric went to chase down Antenorian when the fighting broke out, but nobody has seen him since.\n\nI trust him to hold his own, but between Kasiea's death and Antenorian's betrayal, I worry he may be so set on revenge that he won't see an attack if one happens. Can you find him for me?\n\nI'll stay here and make sure these civilians remain safe.",
+  "progress": "I will not allow them to get away with this.",
+  "completion": "A map of Eversong? With multiple villages marked by the Twilight's Blade!",
+  "rewards": "You will receive one of:\n* Shroud of Treachery\n* Corrupted Twilight Cowl\n\nYou will also receive:\n*23g 40s\n*13,090XP",
+  "prev": "",
+  "next": ""
+ },
+ {
+  "quest": 86781,
+  "title": "Face the Past",
+  "url": "https://warcraft.wiki.gg/wiki/Face_the_Past",
+  "objectives": [
+   "Regroup in Windrunner Village.",
+   "Check in with Silvermoon (Optional)",
+   "Regroup in Windrunner Village"
+  ],
+  "description": "<Umbric scans the Eversong map with grave intent.>\n\nTranquillien was marked, as are a number of other locations.\n\n<Umbric stops, voice tightening.>\n\nWindrunner Village. It's marked.\n\nThe Twilight's Blade retreated to their base in Deatholme, but my home may be in peril. We must make sure my people in Windrunner Village are safe before pursuing them.",
+  "progress": "",
+  "completion": "It seems all is well here... for now.",
+  "rewards": "You will receive:\n*2g 34s\n*1,650XP",
+  "prev": "The Missing Magister",
+  "next": "The Past Keeps Watch"
+ },
+ {
+  "quest": 86634,
+  "title": "The Past Keeps Watch",
+  "url": "https://warcraft.wiki.gg/wiki/The_Past_Keeps_Watch",
+  "objectives": [
+   "Activate 6 Decrepit Ranger Constructs on the borders of Windrunner Village.",
+   "Decrepit Ranger Constructs activated (6)"
+  ],
+  "description": "I don't trust the quiet here. Let's shore up the defenses. Did you see those slumped over arcane golems around the village?\n\nThey may not look like much now, but a quick tune up will have them on their feet soon enough. They're good for standing guard, and also for ferreting out any hidden snakes in the weeds.\n\nLet's get to work. The sooner the golems are running, the better I'll feel about this town's safety.",
+  "progress": "It's odd being here. This place is... well, I suppose it's technically my namesake.",
+  "completion": "The Twilight's Blade were already skulking around the perimeter... We were right to come here quickly.",
+  "rewards": "You will receive one of:\n* Twilight Spy's Pants\n* Twilight Spy's Tights\n* Twilight Spy's Breeches\n* Twilight Spy's Legguards\n\nYou will also receive:\n*23g 40s\n*13,090XP",
+  "prev": "",
+  "next": ""
+ },
+ {
+  "quest": 86633,
+  "title": "Comprehend the Void",
+  "url": "https://warcraft.wiki.gg/wiki/Comprehend_the_Void",
+  "objectives": [
+   "Meet Umbric at the ritual site in Windrunner Village. There, collect 4 Void Shards and return them to the void nexus.",
+   "Meet Umbric at the ritual site",
+   "Stay awhile and listen to Arator (Optional)",
+   "Void Shards subsumed (4)"
+  ],
+  "description": "Kasiea's notes may be lost forever--but we must try and improvise. I have one final ritual to try.\n\nIf this doesn't work, then the answers lay in Deatholme, the Twilight's Blade's heart. But first...",
+  "progress": "I can't hold this indefinitely--a little speed would be appreciated!",
+  "completion": "No! No... I was so close.\n\n<Umbric collects himself--a paradigm of focus.>\n\nDeatholme it is, then. The base of the Twilight's Blade.",
+  "rewards": "You will receive one of:\n* Depleted Voidshard Ring\n* Voidtainted Ritual Band\n\nYou will also receive:\n*23g 40s\n*13,090XP",
+  "prev": "",
+  "next": ""
+ },
+ {
+  "quest": 86635,
+  "title": "To Deatholme",
+  "url": "https://warcraft.wiki.gg/wiki/To_Deatholme",
+  "objectives": [
+   "Meet with Magister Umbric in the Ruins of Deatholme.",
+   "Journey to the Ruins of Deatholme",
+   "Speak with Valeera Sanguinar"
+  ],
+  "description": "That coward Antenorian has doomed us all. I had hoped it wouldn't come to this, but...\n\nWe need the rest of Kasiea's research--the missing pages that were stolen from her corpse. But the cult has retreated south, to the ruins of Deatholme.\n\nFitting that such traitors would sequester themselves in such a vile place. But we must root them out.",
+  "progress": "Watch your back. The ruins of Deatholme are still dangerous.",
+  "completion": "I am loath to find myself here again... but it is the only way.",
+  "rewards": "You will receive:\n*2g 34s\n*1,650XP",
+  "prev": "Comprehend the Void",
+  "next": "Void Walk With Me"
+ },
+ {
+  "quest": 86636,
+  "title": "Void Walk With Me",
+  "url": "https://warcraft.wiki.gg/wiki/Void_Walk_With_Me",
+  "objectives": [
+   "Complete the Deatholme Delve.",
+   "Deatholme delve entered",
+   "Open the Delvers' Supplies",
+   "Select a Combat Role for Valeera Sanguinar",
+   "Pursue Antenorian",
+   "Rituals stopped",
+   "Cultists purged",
+   "Lord Antenorian slain",
+   "Stolen Knowledge (quest item) reclaimed",
+   "Return to Magister Umbric in the Ruins of Deatholme."
+  ],
+  "description": "I did not expect this place to be so heavily guarded. This is far more complicated than one charismatic leader and a group of wayward pilgrims. Still... if we take out Antenorian, it should weaken them considerably. A cult is nothing without its leader.\n\nValeera tracked the governor to that cavern. He's gone in. We'll make sure he never comes out.",
+  "progress": "Let's be done with this. The Twilight's Blade must fall.",
+  "completion": "Kasiea's notes! At long last! I must go!",
+  "rewards": "You will receive one of:\n* Twilight Tamer's Mantle\n* Twilight Tamer's Shoulderpads\n* Twilight Tamer's Spaulders\n* Twilight Tamer's Pauldrons\n\nYou will also receive:\n*93g 60s\n*26,180XP",
+  "prev": "",
+  "next": ""
+ },
+ {
+  "quest": 86637,
+  "title": "Anything but Reprieve",
+  "url": "https://warcraft.wiki.gg/wiki/Anything_but_Reprieve",
+  "objectives": [
+   "Contact Silvermoon.",
+   "Contact Silvermoon",
+   "Find Lady Liadrin at Suncrown's Southern gate."
+  ],
+  "description": "This is dire. The Twilight's Blade is much larger--much more powerful--than any of us could have guessed.\n\nI'm relieved Umbric is on the case, but we need to let Silvermoon know what's happened here.",
+  "progress": "",
+  "completion": "I was not expecting reinforcements so soon! Is your business with Magister Umbric complete, then ?\n\nLet's get moving.",
+  "rewards": "You will receive:\n*2g 34s\n*1,650XP",
+  "prev": "Void Walk With Me",
+  "next": "What's Left & Choking Tendrils"
+ },
+ {
+  "quest": 86638,
+  "title": "Choking Tendrils",
+  "url": "https://warcraft.wiki.gg/wiki/Choking_Tendrils",
+  "objectives": [
+   "Cull the Lightbloom in Suncrown Village.",
+   "Lightbloom creatures slain (0/100%)",
+   "Meet Arator at Runestone Shan'dor."
+  ],
+  "description": "I haven't the expertise of Orweyna in these matters. But if the Lightbloom moved this quickly, I assume the rutaani are accelerating the spread here just as they were in Fairbreeze.\n\nThe town is beyond saving, but we can at least try to contain the Lightbloom within its walls.",
+  "progress": "Fairbreeze was nothing compared to this. What... happened here?",
+  "completion": "We've cut back what we can. I only hope it's enough.",
+  "rewards": "You will receive:\n*23g 40s\n*13,255XP",
+  "prev": "Anything but Reprieve",
+  "next": "Premonition (quest)"
+ },
+ {
+  "quest": 86639,
+  "title": "What's Left",
+  "url": "https://warcraft.wiki.gg/wiki/What's_Left",
+  "objectives": [
+   "Find and aid survivors in Suncrown Village.",
+   "Suncrown Survivors aided (10)",
+   "Apprentice Erilia rescued",
+   "Magistrix Silanna rescued",
+   "Outrunner Alarion rescued",
+   "Trainee Solanin rescued",
+   "Meet Lady Liadrin at Runestone Shan'dor."
+  ],
+  "description": "You see what we have to contend with here. Runestone Shan'dor is helping stop the spread further north, but if this Lightbloom surges again, I don't know if we can halt it.\n\nI've heard cries for help from survivors still trapped within. We have to find them, and direct them to safety!",
+  "progress": "By the Light... this is so much worse than I would have ever imagined.",
+  "completion": "Some live... I am grateful, as are they.",
+  "rewards": "You will receive one of:\n* Suncrown Savior's Drape\n* Bloomtrimmer's Wrap\n\nYou will also receive:\n*23g 40s\n*13,255XP",
+  "prev": "",
+  "next": ""
+ },
+ {
+  "quest": 86640,
+  "title": "Premonition",
+  "url": "https://warcraft.wiki.gg/wiki/Premonition_(quest)",
+  "objectives": [
+   "Regroup with Lor'themar Theron at Scintilas Outpost."
+  ],
+  "description": "I came as quickly as I could. This is... devastating.\n\nI have called in our magisters to reinforce this runestone. They will keep an eye on the lightbloom spread.\n\nI suspect Halduron Brightwing and the Farstriders have uncovered more than the villagers know. I can rely on him for anything. We shall rendezvous with him at the encampment to the north, and soon have some answers.",
+  "progress": "",
+  "completion": "<Lor'themar falls still, eyes on the shore ahead.>",
+  "rewards": "You will receive:\n*2g 34s\n*1,650XP",
+  "prev": "What's Left & Choking Tendrils",
+  "next": "Old Scars & A Foe Unseen"
+ },
+ {
+  "quest": 86641,
+  "title": "Old Scars",
+  "url": "https://warcraft.wiki.gg/wiki/Old_Scars",
+  "objectives": [
+   "Disrupt the Amani lumber operation in Tor'Watha.",
+   "Troll lumber operations disrupted"
+  ],
+  "description": "Of course the Amani would use this moment to encroach, the cowards. We are beset on all sides!\n\nThis land belongs to the sin'dorei, and I will not see it taken by anyone. Not by raging plants, not by a cult, not by the void, and never by the Amani!\n\nWhatever they are doing over there, it must be stopped. Do whatever you can to disrupt them and send them scurrying back to Zul'Aman where they belong.",
+  "progress": "",
+  "completion": "Whatever their reasons, the Amani will regret this trespass.",
+  "rewards": "You will receive one of:\n* Burnt Watha'nan Robes\n* Burnt Watha'nan Jerkin\n* Burnt Watha'nan Chainmail\n* Burnt Watha'nan Breastplate\n\nYou will also receive:\n* 23g 40s\n* 13,255 XP",
+  "prev": "",
+  "next": ""
+ },
+ {
+  "quest": 86642,
+  "title": "A Foe Unseen",
+  "url": "https://warcraft.wiki.gg/wiki/A_Foe_Unseen",
+  "objectives": [
+   "Find information about what the trolls are doing in Tor'Watha.",
+   "Amani operations investigated (5)"
+  ],
+  "description": "I know Lor'themar is angry, but... this is strange, <name>. They didn't attack Suncrown, the Lightbloom did. What are the Amani doing over there?\n\nThere has to be some kind of explanation for this. It doesn't look like an invasion. Let's see what we can find out.",
+  "progress": "",
+  "completion": "What have you found?",
+  "rewards": "You will receive:\n* 11g 70s\n* 5,900 XP",
+  "prev": "Premonition (quest)",
+  "next": "Following the Root"
+ },
+ {
+  "quest": 86643,
+  "title": "Following the Root",
+  "url": "https://warcraft.wiki.gg/wiki/Following_the_Root",
+  "objectives": [
+   "Meet Arator at Watha'nan Crypts in Eversong.",
+   "Meet Arator at the entrance of Watha'nan Crypts",
+   "Stay awhile and listen to Halduron (Optional)",
+   "Warding Totems destroyed (4)",
+   "Speak to Arator"
+  ],
+  "description": "Lor'themar has a right to defend this land, but I don't think he's seeing clearly. The presence of Amani is too inciting.\n\nThis doesn't add up. The trolls are going out of their way to craft Lightbloom weapons--to fight what? It isn't us. They didn't attack Suncrown. They could have, and they didn't.\n\nWe need to find the truth. Let's head south. That hideout I discovered must have some answers.",
+  "progress": "There must be a reasonable answer for all of this.",
+  "completion": "The Twilight's Blade are terrorizing Zul'Aman as well? This is no coincidence!",
+  "rewards": "You will receive:\n* 2g 34s\n* 1,650 XP",
+  "prev": "Old Scars & A Foe Unseen",
+  "next": "Gods Before Us"
+ },
+ {
+  "quest": 86644,
+  "title": "Gods Before Us",
+  "url": "https://warcraft.wiki.gg/wiki/Gods_Before_Us",
+  "objectives": [
+   "Explore Watha'nan Crypts and pursue Zul'jan.",
+   "Amani Riddle inspected",
+   "Venture deeper into the crypt",
+   "Carved Tiles matched",
+   "Amani Riddle solved",
+   "Stay awhile and listen to Arator"
+  ],
+  "description": "I suppose I shouldn't have expected a greeting with open arms, but I did not expect to be trapped in here.\n\nThe Amani are clever. They must have made a way to escape. We have only to find it. Let's look around.",
+  "progress": "There's a way out of here--I know it.",
+  "completion": "You made that look easy.",
+  "rewards": "You will receive:\n*Puzzling Crypt Relic\n*23g 40s\n*13,255 XP",
+  "prev": "Following the Root",
+  "next": "An Impasse"
+ },
+ {
+  "quest": 86646,
+  "title": "An Impasse",
+  "url": "https://warcraft.wiki.gg/wiki/An_Impasse",
+  "objectives": [
+   "Pursue Vanatha and Zul'jan deeper into Watha'nan Crypts.",
+   "Vanatha confronted",
+   "Meet Arator outside Watha'nan Crypts"
+  ],
+  "description": "How deep does this crypt go?\n\nWe need to find Zul'jan and explain to him that we fight a common enemy. surely he'll see reason!\n\nCome on. They can't have gotten much farther in this maze.",
+  "progress": "",
+  "completion": "This is senseless. We have to stop it!",
+  "rewards": "You will receive one of:\n*Enchanted Crypt Battlestaff\n*Enchanted Crypt Bow\n*Enchanted Crypt Claymore\n*Enchanted Crypt Cleaver\n*Enchanted Crypt Greatsword\n*Enchanted Crypt Falchion\n*Enchanted Crypt Fetish\n*Enchanted Crypt Hacker\n*Enchanted Crypt Hatchet\n*Enchanted Crypt Shiv\n*Enchanted Crypt Stave\n*Enchanted Crypt Sword\n\nYou will also receive:\n*46g 80s\n*16,555 XP",
+  "prev": "",
+  "next": ""
+ },
+ {
+  "quest": 86647,
+  "title": "Beat of Blood",
+  "url": "https://warcraft.wiki.gg/wiki/Beat_of_Blood",
+  "objectives": [
+   "Meet Arator at the Amani Pass."
+  ],
+  "description": "None of this is necessary. We need to make them see reason!\n\nMy father will know what to do. I know he'll see reason, once I explain what has happened here. There is no need for bloodshed! It's simple--if the Amani are set against the Twilight's Blade, we fight on the same side.",
+  "progress": "",
+  "completion": "I must put a stop to this.",
+  "rewards": "You will receive:\n*2g 34s\n*1,650 XP",
+  "prev": "An Impasse",
+  "next": "Light Guide Us"
+ },
+ {
+  "quest": 86648,
+  "title": "Light Guide Us",
+  "url": "https://warcraft.wiki.gg/wiki/Light_Guide_Us",
+  "objectives": [
+   "Resolve the battle at the Amani Pass by helping the blood elves secure it, or try to dissuade the blood elves from fighting.",
+   "Resolve the battle at Amani Pass",
+   "Sin'dorei forces dissuaded (Optional) (8)",
+   "Sin'dorei Banners planted and Amani Banners burned (Optional) (8)",
+   "Find Lor'themar at the top of Amani Pass"
+  ],
+  "description": "Our findings at Tor'Watha were correct. By the time Turalyon and I arrived here with troops, the Amani had already begun to take the pass. They seek to establish another path to acquire the Lightwood from our land.\n\nThe Amani have chosen war, as they always do. This, at least, is a threat I know how to handle.\n\nArator is but a boy. He cannot grasp the magnitude of history between the sin'dorei and Amani--and I don't expect him to.\n\nWill you stand by the blood elves, and all that is right?",
+  "progress": "We will drive these trolls out of our land once and for all.",
+  "completion": "There he is--the one who leads this little incursion.",
+  "rewards": "You will receive one of:\n*Eversong Defender's Crown\n*Eversong Defender's Hood\n*Eversong Defender's Helmet\n*Eversong Defender's Helm\n\nYou will also receive:\n*70g 20s\n*19,855 XP",
+  "prev": "",
+  "next": ""
+ },
+ {
+  "quest": 86649,
+  "title": "Past Redemption",
+  "url": "https://warcraft.wiki.gg/wiki/Past_Redemption",
+  "objectives": [
+   "Finish the battle against the Amani at the Amani Pass.",
+   "Speak to Turalyon"
+  ],
+  "description": "These monsters deserve nothing more than swift retribution. For Silvermoon. For the sin'dorei.\n\n<Turalyon's eyes blaze with Light.>\n\nFor Alleria. This will be finished!",
+  "progress": "",
+  "completion": "I did not expect... this.\n\n<Lor'themar glances at Turalyon.>\n\nPerhaps we overstepped our bounds.",
+  "rewards": "You will receive:\n*23g 40s\n*13,255 XP",
+  "prev": "Light Guide Us",
+  "next": "Fractured"
+ },
+ {
+  "quest": 86650,
+  "title": "Fractured",
+  "url": "https://warcraft.wiki.gg/wiki/Fractured",
+  "objectives": [
+   "Return to Silvermoon City.",
+   "Speak to Lor'themar"
+  ],
+  "description": "Lady Liadrin will remain here. The rest of us shall return to Silvermoon and debrief.\n\n<Lor'themar looks at the devastated Turalyon.>\n\nWe still have many battles ahead, it seems.",
+  "progress": "There is much to do.",
+  "completion": "Would that I could join you, but there is much still to do here in Silvermoon.\n\nYou have your objectives. Keep in touch.\n\nAs for Arator... I hope you find him soon. Anu belore dela'na, <Name>.",
+  "rewards": "You will receive:\n*92g 94s\n*17,650 XP\n*Silvermoon Sundial\n*+10 reputation with the Silvermoon Court",
+  "prev": "Past Redemption",
+  "next": "{{plainlist|"
+ }
+]

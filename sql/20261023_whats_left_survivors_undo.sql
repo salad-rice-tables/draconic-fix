@@ -1,0 +1,3 @@
+DELETE FROM smart_scripts WHERE source_type=0 AND entryorguid IN (240059,240067,240100,240109,240144) AND id IN (101,102);
+DELETE FROM creature_template_gossip WHERE MenuID=999999999 AND CreatureID IN (240059,240067,240100,240109,240144);
+UPDATE creature_template SET npcflag=npcflag&~1, AIName='' WHERE entry IN (240059,240067,240100,240109,240144);

@@ -1,0 +1,1 @@
+DELETE FROM quest_template_addon WHERE ID IN (86807, 91274) AND PrevQuestID IN (86806, 86807);

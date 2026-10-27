@@ -1,0 +1,34 @@
+# Midnight audit 2026-10-08T10:04:29 (client 12.1.0.69587, TDB 22111)
+
+## DB pocty
+- world_quest_total: 48283
+- world_creature_total: 228886
+- hotfixes_quest_template: 47162
+- hotfixes_broadcast: 235159
+- campaign: 12
+- campaign_x_quest_line: 10
+- quest_line_x_quest: 10
+- quest_85000_86000: 326
+- quest_86000_87000: 428
+- quest_87000_88000: 124
+- quest_88000_90000: 364
+- quest_90000_95000: 1468
+- npc_230000_240000: 8168
+- npc_240000_250000: 7589
+- npc_200000_230000: 27165
+
+## Questlines
+CHYBA: v hotfixes.quest_line_x_quest je len 10 riadkov (custom 9001-9010), retail questlines uplne chybaju. Retail by mal mat tisice questlines (kazda zona/kampan). Treba doplnit z DB2 (QuestLine.db2 / QuestLineXQuest.db2) alebo TDB update.
+
+## Wowhead vzorky: 200 checked, 1 mismatch, 0 nenajdene
+- quest 85111: DB='[DNT] Council of Dornogal Renown Unlock' WH=None HTTP 404
+
+Full JSON: midnight_audit_report.json
+
+## Oprava 10:05 - DB2 verifikacia (klient 69933, dbc 68914)
+- QuestLine.db2 (70KB): Eversong, Zul'Aman, Harandar, Voidstorm, Coiled, Haranir - PRITOMNE
+- AreaTable.db2 (663KB): vsetky Midnight zony - PRITOMNE
+- Map.db2: Zul'Aman, Harandar, Voidstorm, Silvermoon - PRITOMNE (Eversong je sucast EK mapy)
+- UiMap.db2: vsetky Midnight zony - PRITOMNE
+- hotfixes questlines (10 custom) je SPRAVNE - retail ide z DB2, worldserver loaduje 421 DB2 stores + 322k hotfixov
+- worldserver Server.log: Initialized 421 DB2, Loaded 322074 hotfix records - OK

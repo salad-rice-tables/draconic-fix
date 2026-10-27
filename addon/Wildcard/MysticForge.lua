@@ -1,13 +1,13 @@
 -- Mystic Forge window (server: FORGE;OPEN;bullion;bolt;runes;silver;marks and FORGE;RES;id;rarity;duplicate;spell;name).
 -- Built like the modern Blizzard crafting frames: portrait frame, an inset with the result slot, a row of payment slots (icon buttons with counts and tooltips),
--- one primary "Forge" button. Pay 50 silver, 5 Marks of Descend, a Bedlam Bullion or a Bonzo Bolt: the slot cycles through the rarity colours, then shows the enchant you got.
+-- one primary "Forge" button. Pay 50 silver, 5 Marks of Ascension, a Bedlam Bullion or a Bonzo Bolt: the slot cycles through the rarity colours, then shows the enchant you got.
 local PREFIX = "WCARD"
 local function Send(msg) C_ChatInfo.SendAddonMessage(PREFIX, msg, "WHISPER", UnitName("player")) end
 local QCOL = {[3] = {0.0, 0.44, 0.87}, [4] = {0.64, 0.21, 0.93}, [5] = {1.0, 0.5, 0.0}, [6] = {0.9, 0.8, 0.5}}
 local QNAME = {[3] = "Rare", [4] = "Epic", [5] = "Legendary", [6] = "Artifact"}
 local FORGE_ICON = 1500880
 local PAY = {   -- method id, label, icon, cost, tooltip odds
-    {method = 4, name = "Marks of Descend", icon = 4549168, cost = 5,  key = "marks",   odds = "Rare 62%, Epic 28%, Legendary 9%, Artifact 1%"},
+    {method = 4, name = "Marks of Ascension", icon = 4549168, cost = 5,  key = "marks",   odds = "Rare 62%, Epic 28%, Legendary 9%, Artifact 1%"},
     {method = 1, name = "Silver",             icon = 133785,  cost = 50, key = "silver",  odds = "Rare 62%, Epic 28%, Legendary 9%, Artifact 1%"},
     {method = 2, name = "Bedlam Bullion",     icon = 7816867, cost = 1,  key = "bullion", odds = "Rare 62%, Epic 28%, Legendary 9%, Artifact 1%"},
     {method = 3, name = "Bonzo Bolt",         icon = 7816863, cost = 1,  key = "bolt",    odds = "Rare 30%, Epic 45%, Legendary 22%, Artifact 3%"},

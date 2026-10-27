@@ -1,0 +1,3 @@
+-- Where Heroes Hold: Ballista D (519449) has no retail position available; placed on the rectangle completed by A/B/C (estimate)
+INSERT INTO gameobject (guid,id,map,zoneId,areaId,spawnDifficulties,phaseUseFlags,PhaseId,PhaseGroup,terrainSwapMap,position_x,position_y,position_z,orientation,rotation0,rotation1,rotation2,rotation3,spawntimesecs,animprogress,state,VerifiedBuild)
+SELECT 19850100,519449,map,zoneId,areaId,spawnDifficulties,phaseUseFlags,PhaseId,PhaseGroup,terrainSwapMap,10880,-4350,53.66,orientation,rotation0,rotation1,rotation2,rotation3,spawntimesecs,animprogress,state,VerifiedBuild FROM gameobject WHERE guid=19850057 AND NOT EXISTS (SELECT 1 FROM (SELECT guid FROM gameobject WHERE guid=19850100) x);

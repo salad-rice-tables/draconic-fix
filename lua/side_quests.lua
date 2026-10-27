@@ -15,7 +15,7 @@ pcall(CharDBExecute, [[CREATE TABLE IF NOT EXISTS characters.hero_sidequest (id 
   lvl_sum INT UNSIGNED NOT NULL DEFAULT 0, map INT UNSIGNED NOT NULL DEFAULT 0, x FLOAT NOT NULL DEFAULT 0, y FLOAT NOT NULL DEFAULT 0,
   KEY (name)) ENGINE=InnoDB]])
 
-local function Esc(s) return (string.gsub(tostring(s or ""), "'", "''")) end
+local function Esc(s) return (string.gsub(tostring(s or ""), "'", "''")) end -- local: Eluna izoluje subory, zdielany global nefunguje
 
 local VILL = {}       -- elder entry -> {map, x, y, z, zone}
 local VLIST = {}

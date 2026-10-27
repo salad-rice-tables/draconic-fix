@@ -1,0 +1,4 @@
+-- Midnight main campaign: single-option NPCs credited on gossip OPEN (SAI event 64); retail credits on option select (Lua midnight_gossip_credit.lua).
+CREATE TABLE IF NOT EXISTS bak_20261020_smart_scripts_gossipopen LIKE smart_scripts;
+INSERT INTO bak_20261020_smart_scripts_gossipopen SELECT s.* FROM smart_scripts s WHERE s.source_type=0 AND s.event_type=64 AND s.action_type=33 AND s.action_param1=s.entryorguid AND s.entryorguid IN (239349,235664,235522,244840,239457,239406,242568,251540,251542,251539,251543,240936,248629) AND NOT EXISTS (SELECT 1 FROM bak_20261020_smart_scripts_gossipopen b WHERE b.entryorguid=s.entryorguid AND b.source_type=0 AND b.id=s.id);
+DELETE FROM smart_scripts WHERE source_type=0 AND event_type=64 AND action_type=33 AND action_param1=entryorguid AND entryorguid IN (239349,235664,235522,244840,239457,239406,242568,251540,251542,251539,251543,240936,248629);

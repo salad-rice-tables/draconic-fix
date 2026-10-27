@@ -395,7 +395,7 @@ end
 
 local function Director()
     local now = os.time()
-    for _, p in ipairs(MAP_Players() or {}) do
+    for _, p in ipairs(LW_Players() or {}) do
         for _, v in ipairs(VILLAGES) do
             if v.map == p:GetMapId() and now - v.last >= COOLDOWN and (v.x - p:GetX()) ^ 2 + (v.y - p:GetY()) ^ 2 < NEAR * NEAR then
                 if math.random() < 0.7 then Run(v, p) else v.last = now - COOLDOWN + 60 end

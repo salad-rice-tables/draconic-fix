@@ -1,0 +1,316 @@
+﻿creature,npc,gender,own,owns,own_files,own_vo,zone,rows,spoken,kit,own_linked,foreign,silent,fixable,fixable_exact,unfixable,bt,bt_missing,text_mismatch,bt_empty,ru,bad_sound
+19622,Kael'thas Sunstrider,0,kaelthas_sunstrider,"kaelthas_sunstrider,princekaelthassunstrider",180,154,TempestKeep,20,19,19,1,18,0,0,0,18,20,0,0,0,0,0
+114247,The Curator,2,the_curator,"curator,the_curator,the_curator_venthyr",37,37,LegionKarazhanDungeon,9,9,9,4,5,0,0,0,5,4,0,0,0,0,0
+15990,Kel'Thuzad,0,kelthuzad,"kelthuzad,kelthuzadshadowlands",199,150,Naxxrammas,27,25,24,22,2,1,0,0,3,22,0,0,0,0,0
+36513,Trade Prince Gallywix,0,trade_prince_gallywix,"gallywix,trade_prince_gallywix",261,282,,3,3,3,1,2,0,0,0,2,3,0,0,0,0,0
+42277,Garrosh Hellscream,0,garrosh_hellscream,"garrosh,garrosh_hellscream",13,13,,14,14,5,4,1,9,0,0,10,4,0,0,0,0,0
+97225,Wrathguard Legate,0,wrathguard_legate,wrathguard_legate,7,7,VaultOfTheWardensDH,7,6,5,4,1,1,0,0,2,5,0,0,0,0,0
+46900,Cho'gall,0,chogall,chogall,126,130,,4,4,4,3,1,0,0,0,1,0,0,0,0,0,0
+47162,Glubtok,0,glubtokboth,"glubtokboth,glubtokhead1,glubtokhead2",28,28,TheDeadmines,9,9,9,8,1,0,0,0,1,9,0,0,0,0,0
+72793,Razuun,0,razuun,razuun,35,35,ShadowmoonValleyDR,3,2,2,1,1,0,0,0,1,2,0,0,0,0,0
+91797,King Deepbeard,0,king_deepbeard,king_deepbeard,45,47,AszunaDungeon,18,16,16,15,1,0,0,0,1,17,0,0,0,0,0
+107848,Lady Kyranith,1,lady_kyranith,lady_kyranith,36,36,,2,2,2,1,1,0,0,0,1,2,0,0,0,0,0
+109633,Greywatch Infiltrator,1,greywatch_infiltrator,greywatch_infiltrator,11,11,Stormheim,2,2,2,1,1,0,0,0,1,2,0,0,0,0,0
+111944,Kayn Sunfury,0,kayn_sunfury,kayn_sunfury,154,154,,2,2,2,1,1,0,1,0,0,2,0,0,0,0,0
+113208,First Arcanist Thalyssra,1,first_arcanist_thalyssra,first_arcanist_thalyssra,539,569,,2,2,2,1,1,0,0,0,1,2,0,0,0,0,0
+131825,Sister Briar,1,sister_briar,sister_briar,46,78,DrustvarManorDungeon,9,8,8,7,1,0,0,0,1,8,0,0,0,0,0
+10162,Lord Victor Nefarius,0,lordvictornefarius,lordvictornefarius,2,0,BlackwingLair,16,16,2,2,0,14,0,0,14,16,0,0,0,0,0
+24023,Queen Angerboda,1,queenangerboda,queenangerboda,2,0,HowlingFjord,15,15,2,2,0,13,0,0,13,15,0,0,0,0,0
+100235,Apata Highmountain,1,apata_highmountain,apata_highmountain,78,85,,16,16,3,3,0,13,0,0,13,4,0,0,0,0,0
+103685,Tichondrius,0,tichondrius,tichondrius,6,6,SuramarRaid,15,14,1,1,0,13,0,0,13,3,0,0,0,0,0
+11583,Nefarian,0,nefarian,"dragonnefarianzombified,nefarian",86,88,,16,16,6,6,0,10,0,0,10,15,0,0,0,0,0
+34996,Highlord Tirion Fordring,0,highlord_tirion_fordring,"highlord_tirion_fordring,tirionfordring",30,36,TheArgentColiseum,32,32,23,17,0,9,0,0,15,32,0,0,0,0,0
+21700,Akama,0,akama,akama,142,124,ShadowmoonValley,16,16,8,8,0,8,0,0,8,16,0,0,0,0,0
+35361,Highlord Tirion Fordring,0,highlord_tirion_fordring,"highlord_tirion_fordring,tirionfordring",30,36,Icecrown,15,14,6,6,0,8,0,0,8,15,0,0,0,0,0
+42039,High Chieftain Cliffwalker,0,cliffwalker,cliffwalker,37,37,StonetalonMountains,12,11,3,3,0,8,0,0,8,12,0,0,0,0,0
+102700,Meryl Felstorm,0,meryl_felstorm,meryl_felstorm,148,183,Dalaran70,17,15,7,7,0,8,0,0,8,8,0,0,0,0,0
+163565,Temel,2,temel,temel,43,61,,10,9,1,1,0,8,0,0,8,1,0,0,0,0,0
+29311,Herald Volazj,2,heraldvolazj,heraldvolazj,26,0,Ahnkahet,14,14,7,7,0,7,0,0,7,14,0,0,0,0,0
+34990,King Varian Wrynn,0,kingvarianwrynn,"king_varian_wrynn,kingvarianwrynn,varianwrynn",140,141,TheArgentColiseum,17,17,10,10,0,7,0,0,7,17,0,0,0,0,0
+108097,Meryl Felstorm,0,meryl_felstorm,meryl_felstorm,148,183,Azsuna,8,8,1,1,0,7,0,0,7,1,0,0,0,0,0
+134983,Samuel Williams,2,samuel_williams,samuel_williams,22,28,StormsongValley,9,9,2,2,0,7,0,0,7,5,0,0,0,0,0
+164185,Echelon,0,echelon,echelon,39,45,RevendrethCathedralDungeon,33,27,20,20,0,7,0,0,7,13,0,0,0,0,0
+34995,Garrosh Hellscream,0,garrosh_hellscream,"garrosh,garrosh_hellscream",13,13,TheArgentColiseum,16,16,10,10,0,6,0,0,6,16,0,0,0,0,0
+107574,Anduin Wrynn,0,anduin_wrynn,"anduin,anduin_wrynn,anduinwrynn,king_anduin_wrynn,kinganduinwrynn",611,627,StormwindCity,11,9,3,3,0,6,0,0,6,6,0,0,0,0,0
+182777,Rygelon,2,rygelon,rygelon,19,19,,15,11,5,5,0,6,0,0,6,0,0,0,0,0,0
+12018,Majordomo Executus,0,executus,executus,8,0,,11,11,6,6,0,5,0,0,5,11,0,0,0,0,0
+17876,Thrall,0,thrall,"thrall,thrallcot,thrallcotraid",561,543,,28,28,23,23,0,5,0,0,5,28,0,0,0,0,0
+90417,Archmage Khadgar,0,archmage_khadgar,"archmage_khadgar,khadgar",560,627,Dalaran70,14,12,7,7,0,5,1,0,4,11,0,0,0,0,0
+93963,Echo of Arthas Menethil,0,echo_of_arthas_menethil,"arthas,choofa,echo_of_arthas_menethil",37,37,IcecrownCitadelDeathKnight,7,7,2,2,0,5,2,0,3,2,0,0,0,0,0
+95727,Darkfiend Corruptor,0,darkfiend_corruptor,darkfiend_corruptor,7,7,Valsharah,9,9,4,4,0,5,0,0,5,4,0,0,0,0,0
+120814,Master Bu,0,master_bu,master_bu,18,18,,6,6,1,1,0,5,0,0,5,1,0,0,0,0,0
+181399,Kin'tessa,1,kintessa,"kintessa,kintessa_kah-than",17,17,,8,6,1,1,0,5,0,0,5,0,0,0,0,0,0
+23089,Akama,0,akama,akama,142,124,,9,9,5,5,0,4,0,0,4,9,0,0,0,0,0
+28890,Gothik the Harvester,0,gothik,gothik,4,0,PlaguelandsTheScarletEnclave,5,5,1,1,0,4,0,0,4,5,0,0,0,0,0
+59442,General Nazgrim,0,nazgrim,nazgrim,155,170,KunLaiSummit,5,5,1,1,0,4,0,0,4,5,0,0,0,0,0
+164218,Lord Chamberlain,0,lord_chamberlain,lord_chamberlain,119,108,RevendrethCathedralDungeon,23,17,13,13,0,4,0,0,4,8,0,0,0,0,0
+16060,Gothik the Harvester,0,gothik,gothik,4,0,Naxxrammas,9,7,4,4,0,3,0,0,3,9,0,0,0,0,0
+16808,Warchief Kargath Bladefist,0,kargath,"kargath,warchiefkargath",62,62,TheShatteredHalls,9,9,6,6,0,3,0,0,3,9,0,0,0,0,0
+17225,Nightbane,2,nightbane,nightbane,76,59,Karazhan,6,4,1,1,0,3,0,0,3,6,0,0,0,0,0
+18728,Doom Lord Kazzak,0,doomlordkazzak,doomlordkazzak,58,40,Hellfire,13,12,9,9,0,3,0,0,3,13,0,0,0,0,0
+23191,Akama,0,akama,akama,142,124,,5,5,2,2,0,3,0,0,3,5,0,0,0,0,0
+24850,Kalecgos,0,kalecgos,"dragonkalecgos2,kalecgos,kalecgos2",499,518,SunwellPlateau,9,8,5,5,0,3,0,0,3,9,0,0,0,0,0
+25165,Lady Sacrolash,1,ladysacrolash,"lady_sacrolash,ladysacrolash",26,0,SunwellPlateau,9,7,4,4,0,3,0,0,3,9,0,0,0,0,0
+26499,Arthas,0,arthas,"arthas,arthasprisoner,echo_of_arthas_menethil,memory_of_arthas",109,40,,41,41,38,38,0,3,0,0,3,41,0,0,0,0,0
+29310,Jedoga Shadowseeker,1,jedogashadowseeker,jedogashadowseeker,34,0,Ahnkahet,14,14,11,11,0,3,0,0,3,14,0,0,0,0,0
+29621,Grand Admiral Westwind,0,grandadmiralwestwind,grandadmiralwestwind,30,0,Icecrown,10,10,7,7,0,3,0,0,3,10,0,0,0,0,0
+51355,Deathwing,2,deathwing,"deathwing,deathwingbabymurloc",132,50,,6,6,3,3,0,3,0,0,3,3,0,0,0,0,0
+56884,Taran Zhu,0,taranzhu,"taran_zhu,taranzhu",148,154,ShadowpanHideout,4,4,1,1,0,3,0,0,3,1,0,0,0,0,0
+57767,Wrathion,0,wrathion,"wrathion,wrathiondrake",896,878,,4,4,1,1,0,3,2,0,1,1,0,0,0,0,0
+64528,Xuen,0,xuen,xuen,91,91,,7,7,4,4,0,3,1,0,2,4,0,0,0,0,0
+69465,Jin'rokh the Breaker,0,jinrokh,jinrokh,10,10,ThunderKingRaid,9,7,4,4,0,3,0,0,3,6,0,0,0,0,0
+90378,Kilrogg Deadeye,0,kilrog,kilrog,54,54,HellfireRaid,10,6,3,3,0,3,0,0,3,5,0,0,0,0,0
+103344,Oakheart,2,oakheart,oakheart,48,48,DarkheartThicket,11,11,8,8,0,3,0,0,3,8,0,0,0,0,0
+181398,Mal'Ganis,2,malganis,malganis,71,36,,6,5,2,2,0,3,0,0,3,0,0,0,0,0,0
+3679,Naralex,0,naralex,naralex,71,79,WailingCaverns,6,3,1,1,0,2,0,0,2,6,0,0,0,0,0
+7271,Witch Doctor Zum'rah,0,witchdoctorzumrah,"witch doctor,witchdoctorzumrah",2,0,ZulFarrak,6,6,4,4,0,2,0,0,2,4,0,0,0,0,0
+11382,Bloodlord Mandokir,0,mandokir,mandokir,52,52,,5,4,2,1,0,2,0,0,2,2,0,0,0,0,0
+17381,The Maker,0,themaker,themaker,6,0,TheBloodFurnace,8,8,6,6,0,2,0,0,2,6,0,0,0,0,0
+17455,Bonechewer Beastmaster,0,bonechewerbeastmaster,bonechewerbeastmaster,2,0,HellfireRamparts,4,4,2,2,0,2,0,0,2,4,0,0,0,0,0
+17797,Hydromancer Thespia,1,hydromancerthespia,hydromancerthespia,7,0,TheSteamvault,8,8,6,6,0,2,0,0,2,8,0,0,0,0,0
+18732,Grandmaster Vorpil,0,grandmastervorpil,grandmastervorpil,8,0,ShadowLabyrinth,9,9,7,7,0,2,0,0,2,9,0,0,0,0,0
+18805,High Astromancer Solarian,1,highastromancersolarian,highastromancersolarian,23,0,TempestKeep,9,9,7,7,0,2,0,0,2,9,0,0,0,0,0
+20977,Millhouse Manastorm,0,millhouse_manastorm,"image_of_millhouse_manastorm,millhouse,millhouse_manastorm,millhousemanastorm",79,88,,15,15,13,13,0,2,0,0,2,15,0,0,0,0,0
+27480,Muradin,0,muradin,"muradin,muradin_bronzebeard,muradinbronzebeard",48,41,,6,6,4,4,0,2,0,0,2,6,0,0,0,0,0
+33213,Hodir,0,hodir,hodir,59,46,,3,3,1,1,0,2,0,0,2,2,0,0,0,0,0
+33242,Thorim,0,thorim,"image_of_thorim,thorim",121,72,,3,3,1,1,0,2,0,0,2,2,0,0,0,0,0
+38255,Maximillian of Northshire,0,maximillian_of_northshire,maximillian_of_northshire,58,67,,9,3,1,1,0,2,0,0,2,2,0,0,0,0,0
+39853,Taerar,0,taerar,taerar,37,38,,4,3,1,1,0,2,0,0,2,1,0,0,0,0,0
+42419,Image of High Tinker Mekkatorque,2,mekkatorque,"high_tinker_mekkatorque,hightinkermekkatorque,mekkatorque",57,11,,6,6,4,4,0,2,0,0,2,5,0,0,0,0,0
+42423,Thermaplugg's Brag-bot,2,thermaplugg,thermaplugg,4,0,,4,4,2,2,0,2,0,0,2,4,0,0,0,0,0
+69473,Ra-den,0,ra-den,"ra-den,raden",84,59,ThunderKingRaid,9,9,7,7,0,2,0,0,2,9,0,0,0,0,0
+80593,Incineratus,2,incineratus,incineratus,2,2,NagrandDraenor,4,4,2,2,0,2,0,0,2,4,0,0,0,0,0
+81770,Reshad,2,reshad,"reshad,threshadon",90,90,SpiresOfArak,6,6,4,4,0,2,0,0,2,6,0,0,0,0,0
+90481,Draka,1,draka,draka,283,337,TanaanJungle,3,3,1,1,0,2,0,0,2,3,0,0,0,0,0
+90708,Vol'jin,0,voljin,"spirit_of_vol'jin,voljin,warchief_voljin",233,208,,4,4,2,2,0,2,1,0,1,3,0,0,0,0,0
+91109,Malfurion Stormrage,0,malfurion_stormrage,"malfurion,malfurion_stormrage",278,288,Valsharah,4,4,2,2,0,2,0,0,2,3,0,0,0,0,0
+94982,Echo of Ner'zhul,0,echo_of_nerzhul,"echo_of_nerzhul,nerzhul",3,3,IcecrownCitadelDeathKnight,4,3,1,1,0,2,1,0,1,2,0,0,0,0,0
+95843,King Haldor,0,king_haldor,king_haldor,33,33,HallsofValor,4,4,2,2,0,2,0,0,2,4,0,0,0,0,0
+96759,Helya,1,helya,helya,118,119,HelheimDungeonDock,20,17,15,15,0,2,2,0,0,15,0,0,0,0,0
+96853,The Candleking,0,candle_king,candle_king,12,12,Highmountain,3,3,1,1,0,2,0,0,2,3,0,0,0,0,0
+97081,King Bjorn,0,king_bjorn,king_bjorn,3,3,HallsofValor,4,3,1,1,0,2,0,0,2,3,0,0,0,0,0
+97083,King Ranulf,0,king_ranulf,king_ranulf,33,33,HallsofValor,4,4,2,2,0,2,0,0,2,4,0,0,0,0,0
+97084,King Tor,0,king_tor,king_tor,3,3,HallsofValor,4,4,2,2,0,2,0,0,2,4,0,0,0,0,0
+97649,Aspiring Helarjar,0,aspiring_helarjar,aspiring_helarjar,3,3,,3,3,1,1,0,2,0,0,2,3,0,0,0,0,0
+98206,General Xakal,2,general_xakal,general_xakal,10,10,SuamarCatacombsDungeon,11,8,6,6,0,2,0,0,2,8,0,0,0,0,0
+105917,Image of Kalec,0,image_of_kalec,image_of_kalec,21,21,,3,3,1,1,0,2,0,0,2,1,0,0,0,0,0
+106656,Seeker of Wisdom,1,seeker_of_wisdom,seeker_of_wisdom,9,9,,5,5,3,3,0,2,0,0,2,3,0,0,0,0,0
+107126,Valewalker Farodin,0,valewalker_farodin,valewalker_farodin,93,106,Suramar,7,5,3,3,0,2,0,0,2,5,0,0,0,0,0
+107253,Arluin,0,arluin,arluin,49,58,Suramar,8,5,3,3,0,2,0,0,2,6,0,0,0,0,0
+108572,Kayn Sunfury,0,kayn_sunfury,kayn_sunfury,154,154,DemonHunterOrderHallTerrain,4,4,2,2,0,2,0,0,2,2,0,0,0,0,0
+111307,Master Mathias Shaw,0,master_mathias_shaw,master_mathias_shaw,329,344,,3,3,1,1,0,2,0,0,2,1,0,0,0,0,0
+146931,Rexxar,0,rexxar,rexxar,120,147,,9,8,6,6,0,2,0,0,2,7,0,0,0,0,0
+164128,Mephiles the Loyal,0,mephiles_the_loyal,mephiles_the_loyal,6,6,,3,3,1,1,0,2,0,0,2,1,0,0,0,0,0
+168162,Baine Bloodhoof,0,baine_bloodhoof,"baine_bloodhoof,bainebloodhoof",219,242,TheMawIntro,10,8,6,6,0,2,0,0,2,7,0,0,0,0,0
+4420,Overlord Ramtusk,2,overlordramtusk,overlordramtusk,1,0,RazorfenKraul,2,2,1,1,0,1,0,0,1,1,0,0,0,0,0
+5721,Dreamscythe,2,dreamscythe,dreamscythe,1,0,,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+7267,Chief Ukorz Sandscalp,0,chiefukorzsandscalp,chiefukorzsandscalp,4,0,ZulFarrak,5,5,4,4,0,1,0,0,1,4,0,0,0,0,0
+7274,Sandfury Executioner,0,sandfuryexecutioner,sandfuryexecutioner,2,0,ZulFarrak,3,3,2,2,0,1,0,0,1,3,0,0,0,0,0
+15608,Medivh,0,medivh,"image_of_medivh,medivh,medivhsecho,shade_of_medivh",48,43,CoTTheBlackMorass,7,7,6,6,0,1,0,0,1,7,0,0,0,0,0
+16812,Barnes,0,barnes,"barnes,barnesthestagemanager",9,9,Karazhan,13,13,12,12,0,1,0,0,1,13,0,0,0,0,0
+17306,Watchkeeper Gargolmar,0,watchkeepergargolmar,"keeper,watchkeepergargolmar",8,0,HellfireRamparts,8,8,7,7,0,1,0,0,1,8,0,0,0,0,0
+17978,Thorngrin the Tender,0,thorngrinthetender,thorngrinthetender,8,0,TheBotanica,11,10,9,9,0,1,0,0,1,10,0,0,0,0,0
+19220,Pathaleon the Calculator,0,pathaleonthecalculator,pathaleonthecalculator,14,0,TheMechanar,8,8,7,7,0,1,0,0,1,8,0,0,0,0,0
+21174,Magtheridon,0,magtheridon,magtheridon,12,0,TheBloodFurnace,9,8,7,7,0,1,0,0,1,7,0,0,0,0,0
+23420,Essence of Anger,0,essenceofanger,essenceofanger,16,0,,9,9,8,8,0,1,0,0,1,9,0,0,0,0,0
+23576,Nalorakk,0,nalorakk,"den_of_nalorakk_boss_1_the_hoardmonger,den_of_nalorakk_boss_2_sentinel_of_winter,loa_speaker_nanea_revantusk_-_nalorakk,nalorakk,nalorakk_bear,nalorakkexertions",14,0,,16,15,14,14,0,1,0,0,1,16,0,0,0,0,0
+24664,Kael'thas Sunstrider,0,kaelthas_sunstrider,"kaelthas_sunstrider,princekaelthassunstrider",180,154,MagistersTerrace,9,8,7,7,0,1,0,0,1,9,0,0,0,0,0
+25166,Grand Warlock Alythess,1,grand_warlock_alythess,"grand_warlock_alythess,grandwarlockalythess",51,51,SunwellPlateau,9,7,6,6,0,1,0,0,1,9,0,0,0,0,0
+25250,General Arlos,0,generalarlos,generalarlos,2,0,BoreanTundra,3,3,2,2,0,1,0,0,1,3,0,0,0,0,0
+26170,Thassarian,0,thassarian,thassarian,115,84,BoreanTundra,8,8,7,7,0,1,0,0,1,8,0,0,0,0,0
+29308,Prince Taldaram,0,princetaldaram,"princetaldaram,taldaram",23,0,Ahnkahet,11,10,9,9,0,1,0,0,1,11,0,0,0,0,0
+33241,Freya,1,freya,freya,25,0,,3,3,2,2,0,1,0,0,1,3,0,0,0,0,0
+33244,Mimiron,2,mimiron,"image_of_mimiron,mimiron,mimironcannon,mimironheadmount,mimirontorso",48,36,,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+33288,Yogg-Saron,2,yoggsaron,"yogg-saron,yoggsaron,yoggsarontentacles",64,0,,13,7,6,6,0,1,0,0,1,13,0,0,0,0,0
+35321,King Varian Wrynn,0,kingvarianwrynn,"king_varian_wrynn,kingvarianwrynn,varianwrynn",140,141,Icecrown,4,4,3,3,0,1,0,0,1,4,0,0,0,0,0
+36597,The Lich King,0,the_lich_king,"lichking,the_lich_king,the_lich_king_-_bolvar",79,79,IcecrownCitadel,23,21,20,20,0,1,0,0,1,23,0,0,0,0,0
+36624,Caladis Brightspear,0,caladis,caladis,2,0,Icecrown,3,3,2,2,0,1,0,0,1,3,0,0,0,0,0
+36642,Myralion Sunblaze,0,myralion,myralion,2,0,Icecrown,3,3,2,2,0,1,0,0,1,3,0,0,0,0,0
+37195,Lord Darius Crowley,0,lord_darius_crowley,"crowley,lord_darius_crowley",86,110,Gilneas,7,7,6,6,0,1,0,0,1,3,0,0,0,0,0
+37846,Blood-Queen Lana'thel,1,bloodqueenlanathel,bloodqueenlanathel,47,0,,11,11,10,10,0,1,0,0,1,11,0,0,0,0,0
+39128,Aronus,2,aronus,"aronus,charonus",34,34,,7,7,6,6,0,1,0,0,1,6,0,0,0,0,0
+40765,Commander Ulthok,2,ulthok,ulthok,40,40,ThroneofTides,4,4,3,3,0,1,0,0,1,4,0,0,0,0,0
+43686,Ignacious,0,ignacious,ignacious,34,34,TheBastionofTwilight,5,4,3,3,0,1,0,0,1,4,0,0,0,0,0
+43687,Feludius,2,feludius,feludius,42,42,TheBastionofTwilight,5,5,4,4,0,1,0,0,1,4,0,0,0,0,0
+43688,Arion,0,arion,arion,38,38,TheBastionofTwilight,5,5,4,4,0,1,0,0,1,4,0,0,0,0,0
+43689,Terrastra,2,terrastra,terrastra,33,33,TheBastionofTwilight,5,5,4,4,0,1,0,0,1,4,0,0,0,0,0
+47626,Admiral Ripsnarl,0,ripsnarl,ripsnarl,37,44,TheDeadmines,9,7,6,6,0,1,0,0,1,8,0,0,0,0,0
+53015,Archdruid Hamuul Runetotem,0,arch_druid_hamuul_runetotem,"arch_druid_hamuul_runetotem,hamuul",30,42,,3,3,2,2,0,1,1,0,0,2,0,0,0,0,0
+53691,Shannox,0,shannox,shannox,57,57,,20,20,19,19,0,1,0,0,1,13,0,0,0,0,0
+54548,Thrall,0,thrall,"thrall,thrallcot,thrallcotraid",561,543,HourofTwilight,2,2,1,1,0,1,0,0,1,1,0,0,0,0,0
+56013,Spirit of Master Shang Xi,0,shangxi,shangxi,40,40,TheWanderingIsle,4,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+56133,Chen Stormstout,0,chenstormstout,"chen_stormstout,chenstormstout",170,171,ValleyoftheFourWinds,5,5,4,4,0,1,0,0,1,5,0,0,0,0,0
+56343,Chen Stormstout,0,chenstormstout,"chen_stormstout,chenstormstout",170,171,,3,3,2,2,0,1,1,0,0,2,0,0,0,0,0
+56418,Ji Firepaw,0,jifirepaw,"ji_firepaw,jifirepaw",102,102,TheWanderingIsle,4,3,2,2,0,1,0,0,1,4,0,0,0,0,0
+56573,Mudmug,0,mudmug,mudmug,90,91,,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+56636,Commander Ri'mok,2,commanderrimok,commanderrimok,6,6,TheGreatWall,2,2,1,1,0,1,0,0,1,1,0,0,0,0,0
+56747,Gu Cloudstrike,0,gucloudstrike,gucloudstrike,41,50,ShadowpanHideout,10,9,8,8,0,1,0,0,1,10,0,0,0,0,0
+56843,Lorewalker Stonestep,0,lorewalkerstonestep,lorewalkerstonestep,23,23,EastTemple,19,19,18,18,0,1,0,0,1,18,0,0,0,0,0
+57777,Wrathion,0,wrathion,"wrathion,wrathiondrake",896,878,,7,7,6,6,0,1,1,0,0,6,0,0,0,0,0
+59719,Chi-Ji,0,chiji,chiji,85,85,Krasarang,3,3,2,2,0,1,1,0,0,2,0,0,0,0,0
+60585,Elder Regail,0,elderregail,elderregail,37,37,TerraceOfEndlessSpring,8,5,4,4,0,1,0,0,1,7,0,0,0,0,0
+60968,Xuen,0,xuen,xuen,91,91,KunLaiSummit,14,14,13,13,0,1,0,0,1,13,0,0,0,0,0
+62081,Ji Firepaw,0,jifirepaw,"ji_firepaw,jifirepaw",102,102,,5,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+62778,Mama Stormstout,1,mamastormstout,mamastormstout,18,18,,6,6,5,5,0,1,1,0,0,5,0,0,0,0,0
+63618,Hawkmaster Nurong,0,hawkmasternurong,hawkmasternurong,98,98,TownlongWastes,2,2,1,1,0,1,1,0,0,1,0,0,0,0,0
+68078,Iron Qon,2,ironqon,ironqon,48,48,ThunderKingRaid,10,10,9,9,0,1,0,0,1,9,0,0,0,0,0
+68397,Lei Shen,0,leishen,leishen,57,57,ThunderKingRaid,16,11,10,10,0,1,0,0,1,15,0,0,0,0,0
+69078,Sul the Sandcrawler,0,sulthesandcrawler,"crawler,sulthesandcrawler",37,46,ThunderKingRaid,2,2,1,1,0,1,1,0,0,1,0,0,0,0,0
+69917,Taoshi,1,taoshi,taoshi,243,255,,2,2,1,1,0,1,0,0,1,1,0,0,0,0,0
+70989,Yu'lon,1,yulon,yulon,81,81,,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+71037,Wrathion,0,wrathion,"wrathion,wrathiondrake",896,878,,3,3,2,2,0,1,1,0,0,3,0,0,0,0,0
+71480,Sun Tenderheart,1,suntenderheart,suntenderheart,38,46,OrgrimmarRaid,7,3,2,2,0,1,0,0,1,0,0,0,0,0,0
+71865,Garrosh Hellscream,2,garrosh_hellscream,"garrosh,garrosh_hellscream",13,13,OrgrimmarRaid,13,13,12,12,0,1,0,0,1,12,0,0,0,0,0
+73330,Lorewalker Cho,0,lorewalkercho,"lorewalker_cho,lorewalkercho",320,324,,16,16,15,15,0,1,0,0,1,15,0,0,0,0,0
+74778,Ner'zhul,0,nerzhul,"echo_of_nerzhul,nerzhul,nerzhulshadowlands,remnant_of_nerzhul",62,72,,3,2,1,1,0,1,0,0,1,3,0,0,0,0,0
+74877,Yrel,1,yrel,yrel,234,234,,12,12,11,11,0,1,0,0,1,12,0,0,0,0,0
+75358,Arnokk the Burner,0,arnokk,arnokk,38,38,ShadowmoonValleyDR,3,3,2,2,0,1,0,0,1,2,0,0,0,0,0
+76669,Durotan,2,durotan,durotan,166,168,FrostfireRidge,8,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+76809,Foreman Feldspar,0,foreman,foreman,43,43,,9,7,6,6,0,1,0,0,1,8,0,0,0,0,0
+76877,Gruul,0,gruul,gruul,40,40,FoundryRaid,9,8,7,7,0,1,0,0,1,8,0,0,0,0,0
+77197,Yrel,1,yrel,yrel,234,234,,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+78553,Thrall,0,thrall,"thrall,thrallcot,thrallcotraid",561,543,TanaanJungleIntro,16,8,7,7,0,1,0,0,1,7,0,0,0,0,0
+78558,Archmage Khadgar,0,archmage_khadgar,"archmage_khadgar,khadgar",560,627,TanaanJungleIntro,10,9,8,8,0,1,1,0,0,9,0,0,0,0,0
+78559,Archmage Khadgar,0,archmage_khadgar,"archmage_khadgar,khadgar",560,627,TanaanJungleIntro,2,2,1,1,0,1,0,0,1,1,0,0,0,0,0
+78996,Farseer Drek'Thar,0,farseer_drekthar,"drekthar,farseer_drekthar",22,31,TanaanJungleIntro,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+79521,Yrel,1,yrel,yrel,234,234,ShadowmoonValleyDR,5,3,2,2,0,1,0,0,1,3,0,0,0,0,0
+80595,Kalandrios,2,kalandrios,kalandrios,2,2,NagrandDraenor,3,3,2,2,0,1,0,0,1,3,0,0,0,0,0
+82624,Grommash Hellscream,0,grommash_hellscream,"grommash,grommash_hellscream",23,23,TanaanJungleIntro,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+82919,Thrall,0,thrall,"thrall,thrallcot,thrallcotraid",561,543,,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+88091,Athissa,1,athissa,athissa,52,87,Azsuna,3,2,1,1,0,1,0,0,1,1,0,0,0,0,0
+89117,Warlord Parjesh,0,warlord_parjesh,warlord_parjesh,45,45,,2,2,1,1,0,1,0,0,1,1,0,0,0,0,0
+90109,Hatecoil Slavemaster,0,hatecoil_slavemaster,hatecoil_slavemaster,47,47,Azsuna,3,3,2,2,0,1,0,0,1,2,0,0,0,0,0
+90199,Gorefiend,0,gorefiend,"gorefiend,terongorefiend",45,45,HellfireRaid,10,8,7,7,0,1,0,0,1,8,0,0,0,0,0
+90463,Archmage Karlain,0,archmage_karlain,archmage_karlain,3,3,Dalaran70,3,3,2,2,0,1,0,0,1,2,0,0,0,0,0
+90709,Lady Sylvanas Windrunner,1,lady_sylvanas_windrunner,"lady_sylvanas_windrunner,sylvanas,sylvanaswindrunner",552,576,,6,6,5,5,0,1,0,0,1,6,0,0,0,0,0
+90716,Gelbin Mekkatorque,0,gelbin_mekkatorque,"gelbin_mekkatorque,mekkatorque",102,115,,3,3,2,2,0,1,0,0,1,2,0,0,0,0,0
+90749,Sky Admiral Rogers,1,skyadmiralrogers,"sky_admiral_rogers,skyadmiralrogers",33,33,Stormheim,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+90985,Lost Tormenter,2,lost_tormenter,lost_tormenter,1,1,Azsuna,2,2,1,1,0,1,0,0,1,1,0,0,0,0,0
+91131,Runas the Shamed,0,runas_the_shamed,runas_the_shamed,80,80,Azsuna,5,5,4,4,0,1,0,0,1,4,0,0,0,0,0
+91149,Acolyte of Elothir,1,acolyte_of_elothir,"acolyte_of_elothir,acolyte_of_elothir_female,elothir",8,8,Valsharah,6,6,5,5,0,1,0,0,1,6,0,0,0,0,0
+91349,Mannoroth,2,mannoroth,"mannoroth,mannorothsdeath",83,85,HellfireRaid,16,11,10,10,0,1,0,0,1,11,0,0,0,0,0
+91571,Thane Wildsky,0,thane_wildsky,thane_wildsky,38,38,Stormheim,3,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+91789,Lady Hatecoil,1,lady_hatecoil,lady_hatecoil,42,46,AszunaDungeon,15,14,13,13,0,1,1,0,0,13,0,0,0,0,0
+91866,Lord Maxwell Tyrosus,0,lord_maxwell_tyrosus,"lord_maxwell_tyrosus,lordmaxwelltyrosus",130,141,,4,4,3,3,0,1,0,0,1,3,0,0,0,0,0
+92539,Havi,0,havi,havi,57,57,Stormheim,11,11,10,10,0,1,0,0,1,10,0,0,0,0,0
+92874,Acolyte of Elothir,2,acolyte_of_elothir,"acolyte_of_elothir,acolyte_of_elothir_female,elothir",8,8,Valsharah,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+92986,Altruis the Sufferer,0,altruis_the_sufferer,altruis_the_sufferer,161,161,VaultOfTheWardensDH,4,4,3,3,0,1,0,0,1,2,0,0,0,0,0
+93111,Darkfiend Defiler,0,darkfiend_defiler,darkfiend_defiler,21,21,Valsharah,4,4,3,3,0,1,0,0,1,3,0,0,0,0,0
+93410,Vindicator Boros,0,vindicator_boros,vindicator_boros,91,101,,2,2,1,1,0,1,0,0,1,1,0,0,0,0,0
+93486,Dread-Captain Tattersail,1,dread-captain_tattersail,"captain,dread-captain_tattersail",49,49,,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+93802,Brood Queen Tyranna,1,brood_queen_tyranna,brood_queen_tyranna,56,56,MardumtheShatteredAbyss,8,2,1,1,0,1,0,0,1,1,0,0,0,0,0
+93826,Mayla Highmountain,1,mayla_highmountain,mayla_highmountain,160,171,ThunderTotem,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+93846,Mayla Highmountain,1,mayla_highmountain,mayla_highmountain,160,171,Highmountain,2,2,1,1,0,1,0,0,1,1,0,0,0,0,0
+94138,Princess Tess Greymane,1,princess_tess_greymane,"greymane,princess_tess_greymane,princess_tess_greymane_worgen",170,181,Dalaran70,3,3,2,2,0,1,0,0,1,2,0,0,0,0,0
+94175,Vindicator Boros,0,vindicator_boros,vindicator_boros,91,101,,3,3,2,2,0,1,0,0,1,3,0,0,0,0,0
+95226,Anguish Jailer,2,anguish_jailer,"anguish_jailer,jailer",10,10,MardumtheShatteredAbyss,11,9,8,8,0,1,0,0,1,7,0,0,0,0,0
+95240,Kayn Sunfury,0,kayn_sunfury,kayn_sunfury,154,154,,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+95256,Oakin Ironbull,0,oakin_ironbull,oakin_ironbull,48,48,Highmountain,4,4,3,3,0,1,0,0,1,4,0,0,0,0,0
+95885,Tirathon Saltheril,0,tirathon,tirathon,51,51,VaultOfTheWardens,6,6,5,5,0,1,0,0,1,6,0,0,0,0,0
+96453,Stonedark Drogbar,0,stonedark_drogbar,"drogbar,stonedark_drogbar",1,1,,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+96527,Thrall,0,thrall,"thrall,thrallcot,thrallcotraid",561,543,MaelstromShaman,18,18,17,17,0,1,0,0,1,17,0,0,0,0,0
+96754,Harbaron,0,harbaron,harbaron,49,51,HelheimDungeonDock,11,7,6,6,0,1,1,0,0,6,0,0,0,0,0
+96758,Mackay Firebeard,0,mackay_firebeard,mackay_firebeard,4,4,MaelstromShaman,2,2,1,1,0,1,0,0,1,1,0,0,0,0,0
+97265,Kayn Sunfury,0,kayn_sunfury,kayn_sunfury,154,154,VaultOfTheWardensDH,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+97370,General Volroth,0,general_volroth,general_volroth,37,37,MardumtheShatteredAbyss,7,6,5,5,0,1,0,0,1,4,0,0,0,0,0
+97979,Vethir,2,vethir,vethir,50,50,Stormheim,3,3,2,2,0,1,0,0,1,2,0,0,0,0,0
+98378,Stormcaller Mylra,1,stormcaller_mylra,stormcaller_mylra,40,40,,15,15,14,14,0,1,0,0,1,14,0,0,0,0,0
+99045,Kor'vas Bloodthorn,1,korvas_bloodthorn,korvas_bloodthorn,162,163,MardumtheShatteredAbyss,4,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+99178,Calydus,2,calydus,calydus,40,47,DreadscarRift,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+99254,Altruis the Sufferer,0,altruis_the_sufferer,altruis_the_sufferer,161,161,,3,3,2,2,0,1,0,0,1,2,0,0,0,0,0
+99343,Kor'vas Bloodthorn,1,korvas_bloodthorn,korvas_bloodthorn,162,163,,2,2,1,1,0,1,0,0,1,1,0,0,0,0,0
+99374,Apata Highmountain,1,apata_highmountain,apata_highmountain,78,85,Stormheim,2,2,1,1,0,1,0,0,1,1,0,0,0,0,0
+99398,Archmage Modera,1,archmage_modera,"archmage_modera,image_of_archmage_modera",30,30,HillsbradFoothills,4,4,3,3,0,1,1,0,0,3,0,0,0,0,0
+99427,Aethas Sunreaver,0,aethas_sunreaver,"aethas,aethas_sunreaver",120,148,,7,7,6,6,0,1,1,0,0,6,0,0,0,0,0
+100308,Li Li Stormstout,1,li_li_stormstout,"li_li_stormstout,lilistormstout",164,173,KunLaiSummit,5,5,4,4,0,1,0,0,1,4,0,0,0,0,0
+100323,Revil Kost,0,revil_kost,revil_kost,104,113,,3,3,2,2,0,1,0,0,1,3,0,0,0,0,0
+100344,Ariden,0,ariden,ariden,64,64,DeadwindPass,5,5,4,4,0,1,1,0,0,5,0,0,0,0,0
+100571,Li Li Stormstout,1,li_li_stormstout,"li_li_stormstout,lilistormstout",164,173,,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+100727,Li Li Stormstout,1,li_li_stormstout,"li_li_stormstout,lilistormstout",164,173,ArtifactSkywall,2,2,1,1,0,1,1,0,0,1,0,0,0,0,0
+100729,Revil Kost,0,revil_kost,revil_kost,104,113,,2,2,1,1,0,1,1,0,0,2,0,0,0,0,0
+101195,Rensar Greathoof,0,rensar_greathoof,rensar_greathoof,92,99,TheDreamgrove,3,3,2,2,0,1,0,0,1,2,0,0,0,0,0
+101656,Valorn Stillbough,0,valorn_stillbough,valorn_stillbough,2,2,,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+101765,Syrana Starweaver,1,syrana_starweaver,syrana_starweaver,19,25,Suramar,4,3,2,2,0,1,0,0,1,3,0,0,0,0,0
+101766,Thalrenus Rivertree,0,thalrenus_rivertree,thalrenus_rivertree,21,27,Suramar,6,6,5,5,0,1,0,0,1,6,0,0,0,0,0
+101768,Lothrius Mooncaller,0,lothrius_mooncaller,lothrius_mooncaller,21,27,Suramar,7,5,4,4,0,1,0,0,1,5,0,0,0,0,0
+101881,Taran Zhu,0,taranzhu,"taran_zhu,taranzhu",148,154,TerraceofEndlessSpringScenario,12,10,9,9,0,1,0,0,1,12,0,0,0,0,0
+102185,First Mate DeGauza,2,first_mate_degauza,first_mate_degauza,43,43,Azsuna,4,4,3,3,0,1,0,0,1,3,0,0,0,0,0
+102293,Dread Admiral Eliza,1,dread_admiral_eliza,dread_admiral_eliza,39,39,Azsuna,5,5,4,4,0,1,0,0,1,4,0,0,0,0,0
+102358,Alonsus Faol,0,alonsus_faol,alonsus_faol,117,135,,4,4,3,3,0,1,0,0,1,3,0,0,0,0,0
+102387,Sael'orn,1,saelorn,saelorn,49,49,,8,8,7,7,0,1,0,0,1,8,0,0,0,0,0
+102522,Laith Sha'ol,0,laith_shaol,laith_shaol,8,8,,3,3,2,2,0,1,0,0,1,3,0,0,0,0,0
+102534,Vanessa VanCleef,1,vanessa_vancleef,"vanessa_vancleef,vanessavancleef",120,142,,9,9,8,8,0,1,0,0,1,8,0,0,0,0,0
+102574,Emmarel Shadewarden,1,emmarel_shadewarden,emmarel_shadewarden,83,93,Highmountain,5,5,4,4,0,1,0,0,1,5,0,0,0,0,0
+102578,Emmarel Shadewarden,1,emmarel_shadewarden,emmarel_shadewarden,83,93,Highmountain,5,4,3,3,0,1,0,0,1,3,0,0,0,0,0
+103133,Naralex,0,naralex,naralex,71,79,Moonglade,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+103136,Zen'tabra,1,zentabra,zentabra,95,89,Moonglade,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+103168,Li Li Stormstout,1,li_li_stormstout,"li_li_stormstout,lilistormstout",164,173,KunLaiSummit,4,4,3,3,0,1,0,0,1,4,0,0,0,0,0
+104154,Gul'dan,0,guldan,"guldan,image_of_guldan",159,197,SuramarRaid,36,28,27,27,0,1,0,0,1,35,0,0,0,0,0
+104215,Patrol Captain Gerdo,0,patrol_captain_gerdo,"captain,patrol_captain_gerdo",11,11,SuramarNoblesDistrict,12,11,10,10,0,1,1,0,0,10,0,0,0,0,0
+104865,Galius Miremoore,0,galius_miremoore,galius_miremoore,44,44,,3,3,2,2,0,1,1,0,0,3,0,0,0,0,0
+104881,Spellblade Aluriel,1,spellblade_aluriel,spellblade_aluriel,71,71,SuramarRaid,21,21,20,20,0,1,0,0,1,21,0,0,0,0,0
+105298,Grash,0,grash,grash,14,21,AbyssalMawShamanAcquisition,6,4,3,3,0,1,0,0,1,6,0,0,0,0,0
+105488,Val'zuun,0,valzuun,valzuun,25,32,,2,2,1,1,0,1,0,0,1,1,0,0,0,0,0
+105694,Cato,0,cato,cato,37,37,Stormheim,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+106072,Sylendra Gladesong,1,sylendra_gladesong,sylendra_gladesong,29,29,,2,2,1,1,0,1,0,0,1,1,0,0,0,0,0
+106107,Captain Naranoth,0,captain_naranoth,"captain,captain_naranoth",2,2,,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+106639,Travard,0,travard,travard,236,149,TirisfalGlades,6,4,3,3,0,1,0,0,1,6,0,0,0,0,0
+106777,Travard,0,travard,travard,236,149,,7,7,6,6,0,1,0,0,1,7,0,0,0,0,0
+107289,Lanigosa,1,lanigosa,"lanigosa,lanigosa_01,lanigosa_02,lanigosa_03,lanigosa_04,lanigosa_05,lanigosa_06",27,33,Dragonblight,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+107465,Kalecgos,0,kalecgos,"dragonkalecgos2,kalecgos,kalecgos2",499,518,,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+107966,Archmage Khadgar,0,archmage_khadgar,"archmage_khadgar,khadgar",560,627,,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+108080,Kayn Sunfury,0,kayn_sunfury,kayn_sunfury,154,154,70BlackTempleLegion,5,5,4,4,0,1,0,0,1,5,0,0,0,0,0
+108090,Akama,0,akama,akama,142,124,,12,11,10,10,0,1,0,0,1,12,0,0,0,0,0
+108183,Hakkar the Houndmaster,2,hakkar_the_houndmaster,"hakkar,hakkar_the_houndmaster",13,13,,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+108401,Blacksmith Kyriel,0,blacksmith_kyriel,blacksmith_kyriel,6,6,Dalaran70,6,6,5,5,0,1,0,0,1,6,0,0,0,0,0
+108567,Thassarian,0,thassarian,thassarian,115,84,TirisfalGlades,3,3,2,2,0,1,0,0,1,3,0,0,0,0,0
+108693,Orik Trueheart,0,orik_trueheart,orik_trueheart,30,36,,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+108782,Belath Dawnblade,0,belath_dawnblade,belath_dawnblade,83,89,DemonHunterOrderHallTerrain,2,2,1,1,0,1,1,0,0,2,0,0,0,0,0
+108793,Human Archmage,0,human_archmage,human_archmage,3,3,,2,2,1,1,0,1,0,0,1,1,0,0,0,0,0
+109109,Varedis Felsoul,0,varedis_felsoul,varedis_felsoul,58,58,Niskara,3,3,2,2,0,1,0,0,1,3,0,0,0,0,0
+109143,Prophet Velen,0,prophet_velen,prophet_velen,418,420,TheExodarScenario,14,14,13,13,0,1,0,0,1,14,0,0,0,0,0
+109316,Kayn Sunfury,0,kayn_sunfury,kayn_sunfury,154,154,Niskara,3,3,2,2,0,1,0,0,1,3,0,0,0,0,0
+110533,Gul'dan,0,guldan,"guldan,image_of_guldan",159,197,,5,5,4,4,0,1,0,0,1,5,0,0,0,0,0
+110564,Alonsus Faol,0,alonsus_faol,alonsus_faol,117,135,NetherlightTemple,4,4,3,3,0,1,0,0,1,3,0,0,0,0,0
+111826,Archmage Kalec,0,archmage_kalec,archmage_kalec,58,58,,10,10,9,9,0,1,0,0,1,9,0,0,0,0,0
+112797,Dvalen Ironrune,0,dvalen_ironrune,dvalen_ironrune,41,55,,7,7,6,6,0,1,0,0,1,6,0,0,0,0,0
+114312,Moroes,0,moroes,moroes,67,50,LegionKarazhanDungeon,20,20,19,19,0,1,1,0,0,19,0,0,0,0,0
+114339,Barnes,0,barnes,"barnes,barnesthestagemanager",9,9,LegionKarazhanDungeon,10,10,9,9,0,1,0,0,1,10,0,0,0,0,0
+115499,Silgryn,0,silgryn,silgryn,76,90,,5,5,4,4,0,1,0,0,1,5,0,0,0,0,0
+115777,Archmage Khadgar,0,archmage_khadgar,"archmage_khadgar,khadgar",560,627,,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+115844,Goroth,2,goroth,"goroth,mazgoroth",22,22,TombRaid,13,12,11,11,0,1,0,0,1,12,0,0,0,0,0
+116448,Kor'vas Bloodthorn,1,korvas_bloodthorn,korvas_bloodthorn,162,163,,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+116497,Torvald,0,torvald,torvald,10,10,,10,10,9,9,0,1,0,0,1,9,0,0,0,0,0
+117355,Torturer Relyn,0,torturer_relyn,torturer_relyn,36,36,,3,3,2,2,0,1,0,0,1,2,0,0,0,0,0
+117362,Nighthuntress Lexera,1,nighthuntress_lexera,"huntress,nighthuntress_lexera",3,3,BrokenShore,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+118374,Captain Yathae Moonstrike,1,captain_yathae_moonstrike,"captain,captain_yathae_moonstrike",53,53,,4,3,2,2,0,1,0,0,1,4,0,0,0,0,0
+118447,Commander Jarod Shadowsong,0,commander_jarod_shadowsong,"commander_jarod_shadowsong,jarod_shadowsong",99,99,BlackRookHoldArtifactChallenge,5,2,1,1,0,1,0,0,1,4,0,0,0,0,0
+119718,Imp Mother Bruva,1,mother,"imp_mother,impmother,mother",218,226,BrokenShore,5,5,4,4,0,1,0,0,1,4,0,0,0,0,0
+119781,Matron Mother Malevolence,1,matron_mother_malevolence,"matron_mother_malevolence,mother",90,90,FelwingLedgeMardumArea,8,8,7,7,0,1,0,0,1,8,0,0,0,0,0
+119850,Mayla Highmountain,1,mayla_highmountain,mayla_highmountain,160,171,HighmountainScenarioOnly,6,6,5,5,0,1,0,0,1,6,0,0,0,0,0
+120756,Anduin Wrynn,0,anduin_wrynn,"anduin,anduin_wrynn,anduinwrynn,king_anduin_wrynn,kinganduinwrynn",611,627,StormwindCity,10,7,6,6,0,1,0,0,1,7,0,0,0,0,0
+121224,Anduin Wrynn,2,anduin_wrynn,"anduin,anduin_wrynn,anduinwrynn,king_anduin_wrynn,kinganduinwrynn",611,627,,5,5,4,4,0,1,0,0,1,5,0,0,0,0,0
+121239,Flynn Fairwind,0,flynn_fairwind,flynn_fairwind,400,426,KulTirasPrisonIsland,14,5,4,4,0,1,0,0,1,5,0,0,0,0,0
+122289,Bladeguard Kaja,1,bladeguard_kaja,bladeguard_kaja,59,66,Voldun,3,2,1,1,0,1,1,0,0,1,0,0,0,0,0
+126612,Windseeker Durja,0,windseeker_durja,windseeker_durja,34,34,,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+127085,Talgath,0,talgath,talgath,51,51,,5,3,2,2,0,1,0,0,1,2,0,0,0,0,0
+127992,Akunda the Exalted,0,akunda_the_exalted,"akunda,akunda_the_exalted",50,52,Voldun,6,3,2,2,0,1,0,0,1,2,0,0,0,0,0
+133050,Princess Talanji,1,princess_talanji,princess_talanji,489,503,Zuldazar,2,2,1,1,0,1,0,0,1,1,0,0,0,0,0
+134038,Rokhan,0,rokhan,rokhan,239,249,,10,5,4,4,0,1,0,0,1,3,0,0,0,0,0
+136692,Taelia,1,taelia,"taelia,taelia_fordragon",379,404,,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+138184,Rexxar,0,rexxar,rexxar,120,147,,3,2,1,1,0,1,0,0,1,1,0,0,0,0,0
+139636,Master Mathias Shaw,0,master_mathias_shaw,master_mathias_shaw,329,344,StormwindCity,6,5,4,4,0,1,0,0,1,5,0,0,0,0,0
+147088,Arcanist Valtrois,1,arcanist_valtrois,arcanist_valtrois,114,129,,8,6,5,5,0,1,0,0,1,6,0,0,0,0,0
+153755,Naeno Megacrash,0,naeno_megacrash,naeno_megacrash,47,47,,9,7,6,6,0,1,0,0,1,6,0,0,0,0,0
+157732,Blistering Ash Ghoul,2,ash_ghoul,ash_ghoul,79,125,Revendreth,3,3,2,2,0,1,0,0,1,2,0,0,0,0,0
+162899,Grandmaster Vole,2,grandmaster_vole,grandmaster_vole,109,72,Maldraxxus,10,4,3,3,0,1,0,0,1,3,0,0,0,0,0
+164244,Grandmaster Vole,2,grandmaster_vole,grandmaster_vole,109,72,,2,2,1,1,0,1,0,0,1,1,0,0,0,0,0
+164517,Tred'ova,2,tredova,tredova,39,39,MistsofTirneScitheDungeon,15,14,13,13,0,1,1,1,0,13,0,0,0,0,0
+165543,Helya,1,helya,helya,118,119,TheMawIntro,3,3,2,2,0,1,0,0,1,3,0,0,0,0,0
+165918,Highlord Darion Mograine,0,highlord_darion_mograine,"darionmograine,highlord_darion_mograine",222,177,TheMawIntro,48,38,37,37,0,1,0,0,1,39,0,0,0,0,0
+166608,Mueh'zala,2,mueh'zala,"mueh'zala,muehzala",42,0,BwonsamdiDungeon,25,16,15,15,0,1,0,0,1,9,0,0,0,0,0
+166980,Lady Jaina Proudmoore,1,lady_jaina_proudmoore,"jainaproudmoore,lady_jaina_proudmoore",644,713,TheMawIntro,36,22,21,21,0,1,0,0,1,22,0,0,0,0,0
+167250,Crenna Earth-Daughter,1,crenna_earth-daughter,crenna_earth-daughter,18,24,,2,2,1,1,0,1,0,0,1,2,0,0,0,0,0
+167425,Overseer Kah-Delen,1,overseer_kah-delen,overseer_kah-delen,24,39,Oribos,7,4,3,3,0,1,0,0,1,4,0,0,0,0,0
+167833,Anduin Wrynn,0,anduin_wrynn,"anduin,anduin_wrynn,anduinwrynn,king_anduin_wrynn,kinganduinwrynn",611,627,TheMawIntro,12,7,6,6,0,1,1,0,0,7,0,0,0,0,0
+171934,Prince Renathal,0,prince_renathal,prince_renathal,276,203,,6,4,3,3,0,1,0,0,1,3,0,0,0,0,0

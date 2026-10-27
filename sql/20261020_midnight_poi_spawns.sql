@@ -1,0 +1,17 @@
+-- spawns at retail QuestPOI centroids (poi_spawn_sql.py)
+-- 86531:239465: no POI blob
+INSERT INTO creature (guid,id,map,zoneId,areaId,spawnDifficulties,phaseUseFlags,PhaseId,PhaseGroup,terrainSwapMap,modelid,equipment_id,position_x,position_y,position_z,orientation,spawntimesecs,wander_distance,currentwaypoint,curHealthPct,MovementType,npcflag,unit_flags,unit_flags2,unit_flags3,ScriptName,StringId,VerifiedBuild,size) VALUES (11860001,244883,0,0,0,'0',0,0,0,-1,0,0,3547.08,-5773.92,435.28,0.0,120,0,0,100,0,NULL,NULL,NULL,NULL,'',NULL,0,-1);
+INSERT INTO creature (guid,id,map,zoneId,areaId,spawnDifficulties,phaseUseFlags,PhaseId,PhaseGroup,terrainSwapMap,modelid,equipment_id,position_x,position_y,position_z,orientation,spawntimesecs,wander_distance,currentwaypoint,curHealthPct,MovementType,npcflag,unit_flags,unit_flags2,unit_flags3,ScriptName,StringId,VerifiedBuild,size) VALUES (11860002,244883,0,0,0,'0',0,0,0,-1,0,0,3509.58,-5752.27,435.28,2.09,120,0,0,100,0,NULL,NULL,NULL,NULL,'',NULL,0,-1);
+INSERT INTO creature (guid,id,map,zoneId,areaId,spawnDifficulties,phaseUseFlags,PhaseId,PhaseGroup,terrainSwapMap,modelid,equipment_id,position_x,position_y,position_z,orientation,spawntimesecs,wander_distance,currentwaypoint,curHealthPct,MovementType,npcflag,unit_flags,unit_flags2,unit_flags3,ScriptName,StringId,VerifiedBuild,size) VALUES (11860003,244883,0,0,0,'0',0,0,0,-1,0,0,3509.58,-5795.57,435.28,4.19,120,0,0,100,0,NULL,NULL,NULL,NULL,'',NULL,0,-1);
+-- 86687:244883: 3 spawns
+INSERT INTO creature (guid,id,map,zoneId,areaId,spawnDifficulties,phaseUseFlags,PhaseId,PhaseGroup,terrainSwapMap,modelid,equipment_id,position_x,position_y,position_z,orientation,spawntimesecs,wander_distance,currentwaypoint,curHealthPct,MovementType,npcflag,unit_flags,unit_flags2,unit_flags3,ScriptName,StringId,VerifiedBuild,size) VALUES (11860004,244882,0,0,0,'0',0,0,0,-1,0,0,3470.67,-6081.0,439.03,0.0,120,0,0,100,0,NULL,NULL,NULL,NULL,'',NULL,0,-1);
+INSERT INTO creature (guid,id,map,zoneId,areaId,spawnDifficulties,phaseUseFlags,PhaseId,PhaseGroup,terrainSwapMap,modelid,equipment_id,position_x,position_y,position_z,orientation,spawntimesecs,wander_distance,currentwaypoint,curHealthPct,MovementType,npcflag,unit_flags,unit_flags2,unit_flags3,ScriptName,StringId,VerifiedBuild,size) VALUES (11860005,244882,0,0,0,'0',0,0,0,-1,0,0,3433.17,-6059.35,439.03,2.09,120,0,0,100,0,NULL,NULL,NULL,NULL,'',NULL,0,-1);
+INSERT INTO creature (guid,id,map,zoneId,areaId,spawnDifficulties,phaseUseFlags,PhaseId,PhaseGroup,terrainSwapMap,modelid,equipment_id,position_x,position_y,position_z,orientation,spawntimesecs,wander_distance,currentwaypoint,curHealthPct,MovementType,npcflag,unit_flags,unit_flags2,unit_flags3,ScriptName,StringId,VerifiedBuild,size) VALUES (11860006,244882,0,0,0,'0',0,0,0,-1,0,0,3433.17,-6102.65,439.03,4.19,120,0,0,100,0,NULL,NULL,NULL,NULL,'',NULL,0,-1);
+-- 86687:244882: 3 spawns
+-- 86743:237404: no POI blob
+-- 86857:245574: no POI blob
+-- 86861:241652: no POI blob
+-- 86861:241653: no POI blob
+-- 86852:259731: no POI blob
+INSERT INTO creature (guid,id,map,zoneId,areaId,spawnDifficulties,phaseUseFlags,PhaseId,PhaseGroup,terrainSwapMap,modelid,equipment_id,position_x,position_y,position_z,orientation,spawntimesecs,wander_distance,currentwaypoint,curHealthPct,MovementType,npcflag,unit_flags,unit_flags2,unit_flags3,ScriptName,StringId,VerifiedBuild,size) VALUES (11860007,246317,2858,0,0,'0',0,0,0,-1,0,0,11296.0,-4174.0,4.89,0.0,120,0,0,100,0,NULL,NULL,NULL,NULL,'',NULL,0,-1);
+-- 91274:246317: 1 spawns

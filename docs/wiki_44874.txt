@@ -1,0 +1,89 @@
+{{Questbox
+ | id = 44874
+ | name = Unbeleyvable
+ | category = Azsuna
+ | level = {{level|Suramar}}
+ | levelreq = {{level|Suramar}}
+ | start = [[Arcanist Valtrois]]
+ | reputation = +250 [[Nightfallen (faction)|The Nightfallen]]
+ | experience = 16,450
+ | rewards = [[Enchanted Nightborne Coin]]
+ | money = {{cost|19|40}}
+ | shareable = No
+ | previous = [[Oculeth Ex Machina]]
+ | next = [[The Art of Flow]]
+}}
+[[File:Lay line tap.jpg|thumb|Ley line tap.]]
+
+==Objectives==
+Assist [[Arcanist Valtrois]] with placing ley line taps.
+*[[Ley Line Tap]] placed
+*Follow Valtrois
+*Ley Line Tap placed
+*Ley Line Tap placed
+*Ley Line Tap placed
+*Ley Line Tap placed
+*Ley Line Tap placed
+*Follow Valtrois
+*Ley Line Tap placed
+
+==Description==
+Back to the task at hand!
+
+Take these ley line taps. We can use the resonant energies to properly redirect the flow, but they must be placed in precise locations. I will show you where.
+
+Your friend has agreed to... "supervise" us. Let us hope she just stays out of the way while the professionals take care of this.
+
+==Rewards==
+You will receive:
+*[[Enchanted Nightborne Coin]]
+*{{cost|19|40}}
+*16,450 [[XP]]
+*+250 [[reputation]] with [[Nightfallen (faction)|The Nightfallen]]
+
+==Progress==
+This ley line energy will not move itself. We must give it encouragement.
+
+==Completion==
+That was more infuriating than it should have been. At least her natural talents mostly matched my calculations...
+
+==Notes==
+Click on each ley line tap to proceed once Valtrois and Stellagosa agree on its location.
+
+First ley line tap:
+: ''Valtrois walks further down to the central cluster of crystals, Stellagosa trailing behind.''
+:{{Text|say|Arcanist Valtrois|By placing the taps on key points of the ley line, I can direct its flow.}}
+:{{Text|say|Stellagosa|If you are going to poke at a ley line, at least make sure it's the right spot. Try a little bit to the right.}}
+:{{Text|say|Arcanist Valtrois|I am not "poking" it, I am tapping-- Hmph. I suppose it ''could'' work there...}}
+
+Second ley line tap:
+: ''The pair walk downward to the left.''
+:{{Text|say|Arcanist Valtrois|Anyway, moving along!}}
+: ''They stop by a broken table.''
+:{{Text|say|Arcanist Valtrois|The next tap should go here.}}
+: ''Valtrois places the tap in front of herself.''
+:{{Text|say|Stellagosa|Are you sure about that placement? It would be better here.}}
+: ''Stella places the tap in front of herself, about two paces to the left.''
+:{{Text|say|Arcanist Valtrois|I have spent millennia studying ley lines. I am certainly capable of finding one right beneath my feet!}}
+: ''Indignant, Valtrois moves it back.''
+:{{Text|say|Stellagosa|But I can see the line and the focus of the conduit. You want to put it there.}}
+: ''Insistent, Stella moves it again.''
+:{{Text|say|Arcanist Valtrois|Fine! We can do it your way. But if this entire cave ends up ''exploding'' with arcane energy, it will be on your head.}}
+
+Third ley line tap:
+: ''The pair walk upward to the north.''
+:{{Text|say|Arcanist Valtrois|This final tap will allow me to steer the flow of energy, like the rudder of a ship. Right around here should do the trick.}}
+: ''Valtrois places the tap. Stella sounds honestly impressed.''
+:{{Text|say|Stellagosa|You can do that? Perhaps you know a thing or two after all.}}
+:{{Text|say|Arcanist Valtrois|My goodness. Was that a compliment?}}
+
+==Progression==
+{{Crafting War}}
+
+==Patch changes==
+*{{Patch 7.1.0|note=Added.}}
+
+==External links==
+{{Elinks-quest|44874}}
+
+[[Category:The Nightfallen quests]]

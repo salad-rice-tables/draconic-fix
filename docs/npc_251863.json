@@ -1,0 +1,13 @@
+{
+ "html": "C:\\WowServer\\Custom\\docs\\probe_npc_251863.html",
+ "title": "Grimfire Totem - NPC - World of Warcraft",
+ "npc_id": null,
+ "drops": [],
+ "abilities": [
+  {
+   "id": 417620,
+   "name": "firestorm"
+  }
+ ],
+ "objective_of": []
+}

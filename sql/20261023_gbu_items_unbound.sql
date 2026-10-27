@@ -1,0 +1,4 @@
+-- 86644 quest items destroyed by DestroyZoneLimitedItem -> unbound override rows
+DELETE FROM hotfixes.item_sparse WHERE ID IN (244143,244144);
+INSERT INTO hotfixes.item_sparse VALUES (244143,'Sturdy and smooth like polished bone. You are what you eat...','','','','Bonecarapace Fangs',11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,0,0,0,-1,-1,0,0,1,1,1.0095000267,133120,12288,33554432,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,2,0,4,0,0,0,0,1,0,1,70391);
+INSERT INTO hotfixes.item_sparse VALUES (244144,'The bloody mass glows faintly in the dark, as if still alive.','','','','Bloodvein Clot',11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,1,0,0,0,-1,-1,0,0,1,1,1.01320004463,133120,12288,33554432,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,0,4,0,0,0,0,1,0,1,70391);

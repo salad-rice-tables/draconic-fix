@@ -11,7 +11,7 @@ if IS_WORLD_STATE then return end
 local SaidAt = {}
 local COOLDOWN = 180
 
-local function SayDelayed(player, key, entry, delayMs, text)
+local function SayDelayed(player, key, entry, delayMs, text, kit)
     local stamp = os.time()
     local prev = SaidAt[player:GetName() .. ":" .. key] or 0
     if stamp - prev < COOLDOWN then return end
@@ -24,6 +24,7 @@ local function SayDelayed(player, key, entry, delayMs, text)
             local okE, e = pcall(function() return c:GetEntry() end)
             if okE and e == entry then
                 local okS, err = pcall(function() c:SendUnitSay(text, 0) end)
+                if kit then pcall(function() c:PlayDistanceSound(kit, p) end) end
                 pcall(function() PrintInfo("[abyss] say " .. (okS and "SENT" or "FAILED:" .. tostring(err)) .. " entry=" .. entry) end)
                 return
             end
@@ -36,8 +37,11 @@ RegisterCreatureGossipEvent(250580, 2, function(_, player, creature, sender, int
     pcall(function() PrintInfo(string.format("[abyss] player=%s npc=250580 menu=%s intid=%s q92061=%s", player:GetName(), tostring(sender), tostring(intid), tostring(player:GetQuestStatus(92061)))) end)
     if intid == 0 then
         pcall(function() player:KilledMonsterCredit(250580) end)
-        if creature then pcall(function() creature:SendUnitSay("The situation is dire! We will accept any help. Even from Magister Umbric.", 0) end) end
-        SayDelayed(player, "lothraxion", 235477, 8000, "No! Those Void addicts are not our salvation. The Light is the only way to stop Xal'atath's evil.")
+        if creature then
+            pcall(function() creature:SendUnitSay("The situation is dire! We will accept any help. Even from Magister Umbric.", 0) end)
+            pcall(function() creature:PlayDistanceSound(308329, player) end)
+        end
+        SayDelayed(player, "lothraxion", 235477, 8000, "No! Those Void addicts are not our salvation. The Light is the only way to stop Xal'atath's evil.", 308330)
     end
 end)
 
@@ -45,8 +49,11 @@ RegisterCreatureGossipEvent(9100622, 2, function(_, player, creature, sender, in
     pcall(function() PrintInfo(string.format("[abyss] player=%s npc=9100622 menu=%s intid=%s q92061=%s", player:GetName(), tostring(sender), tostring(intid), tostring(player:GetQuestStatus(92061)))) end)
     if intid == 0 then
         pcall(function() player:KilledMonsterCredit(250587) end)
-        if creature then pcall(function() creature:SendUnitSay("Lor'themar promised his Magisters would provide a solution. It's now or never!", 0) end) end
-        SayDelayed(player, "koruth", 250590, 7000, "If we could just take the fight to Xal'atath, we'd give her such a drumming she'd hop back inside that knife.")
+        if creature then
+            pcall(function() creature:SendUnitSay("Lor'themar promised his Magisters would provide a solution. It's now or never!", 0) end)
+            pcall(function() creature:PlayDistanceSound(308333, player) end)  -- bt 296436 kit2 vo_120_amias_bellamy_18
+        end
+        SayDelayed(player, "koruth", 250590, 7000, "If we could just take the fight to Xal'atath, we'd give her such a drumming she'd hop back inside that knife.", 308332)
     end
 end)
 

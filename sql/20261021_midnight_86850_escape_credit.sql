@@ -1,0 +1,4 @@
+-- 86850 Broken Sun: selecting the dragonhawk gossip (menu 912046707) teleports to the Sunwell but never credited "Escape on the Empowered Dragonhawk" (237388).
+DELETE FROM smart_scripts WHERE source_type=0 AND entryorguid IN (237388,245993) AND id=2;
+INSERT INTO smart_scripts (entryorguid,source_type,id,link,event_type,event_phase_mask,event_chance,event_flags,event_param1,event_param2,event_param3,event_param4,event_param5,action_type,action_param1,action_param2,action_param3,action_param4,action_param5,action_param6,target_type,target_param1,target_param2,target_param3,target_param4,target_x,target_y,target_z,target_o,comment)
+SELECT e,0,2,0,62,0,100,0,912046707,0,0,0,0,33,237388,0,0,0,0,0,7,0,0,0,0,0,0,0,0,'Broken Sun - dragonhawk gossip select - credit Escape on the Empowered Dragonhawk' FROM (SELECT 237388 e UNION SELECT 245993) x;

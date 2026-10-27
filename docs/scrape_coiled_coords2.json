@@ -1,0 +1,171 @@
+[
+ {
+  "id": 259319,
+  "name": "Zul'jarra",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "57.2, 48.6"
+  ],
+  "quests": [
+   "93418"
+  ]
+ },
+ {
+  "id": 259417,
+  "name": "Lady Liadrin",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "21.6, 64.8"
+  ],
+  "quests": [
+   "93420"
+  ]
+ },
+ {
+  "id": 260034,
+  "name": "Raz'taka",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "58.4, 46.0"
+  ],
+  "quests": []
+ },
+ {
+  "id": 260783,
+  "name": "Ofi the Sly",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "60.4, 33.0"
+  ],
+  "quests": []
+ },
+ {
+  "id": 263735,
+  "name": "Scout Ko'ruku",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "57.0, 48.0"
+  ],
+  "quests": []
+ },
+ {
+  "id": 265262,
+  "name": "Hisstara <The Raiser>",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "43.8, 50.8",
+   "44.0, 50.4"
+  ],
+  "quests": []
+ },
+ {
+  "id": 265267,
+  "name": "Sanctum Attendant Ethrandil <Servant of Astalor>",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "58.2, 48.6"
+  ],
+  "quests": [
+   "96474",
+   "96525"
+  ]
+ },
+ {
+  "id": 265549,
+  "name": "Amani Quartermaster",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "58.6, 48.6"
+  ],
+  "quests": []
+ },
+ {
+  "id": 267635,
+  "name": "Talon Commander Zela",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "58.6, 45.8"
+  ],
+  "quests": [
+   "95520",
+   "96995"
+  ]
+ },
+ {
+  "id": 268228,
+  "name": "Jan'sari the Watchful <Renown Quartermaster>",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "58.8, 46.0"
+  ],
+  "quests": []
+ },
+ {
+  "id": 269595,
+  "name": "Frostcaller Chi'lt",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "69.2, 55.7",
+   "69.5, 55.0",
+   "69.8, 56.4",
+   "69.9, 56.5"
+  ],
+  "quests": []
+ },
+ {
+  "id": 269599,
+  "name": "Mindbender Baltazar",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "68.8, 55.4",
+   "69.0, 55.5",
+   "69.2, 56.2",
+   "69.2, 56.9",
+   "69.5, 55.7"
+  ],
+  "quests": []
+ },
+ {
+  "id": 269600,
+  "name": "Marksman Alitri",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "69.0, 57.6",
+   "69.2, 56.6",
+   "69.3, 56.2",
+   "69.3, 57.0",
+   "69.5, 56.4",
+   "69.6, 56.5"
+  ],
+  "quests": []
+ },
+ {
+  "id": 270399,
+  "name": "Firetender Zab'ni <Decor Specialist>",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "58.4, 46.0",
+   "58.6, 46.0"
+  ],
+  "quests": []
+ },
+ {
+  "id": 270604,
+  "name": "Eagletender Oraka'nago <Flight Master>",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "57.8, 45.6"
+  ],
+  "quests": []
+ },
+ {
+  "id": 271157,
+  "name": "Beastminder Tak'za <Stable Master>",
+  "zone": "The Coiled Isle",
+  "coords": [
+   "57.6, 47.4",
+   "57.6, 47.6"
+  ],
+  "quests": []
+ }
+]

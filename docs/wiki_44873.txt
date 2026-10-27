@@ -1,0 +1,63 @@
+{{Questbox
+ | id = 44873
+ | name = Oculeth Ex Machina
+ | category = Suramar
+ | level = {{level|Suramar}}
+ | levelreq = {{level|Suramar}}
+ | start = [[Arcanist Valtrois]]
+ | reputation = +250 [[Nightfallen (faction)|The Nightfallen]]
+ | experience = 8,230
+ | money = {{cost|9|70|}}
+ | previous = [[Mouths to Feed]]
+ | next = [[Unbeleyvable]]
+}}
+
+==Objectives==
+Speak with [[Oculeth]] and teleport to [[Azsuna]].
+*Speak with Oculeth
+
+==Description==
+I have a plan to feed [[Shal'Aran]].
+
+Now that I am no longer starving for mana I have had time to study [[ley line]]s in new regions. I detected an eddy of mana in the ley lines of Azsuna. I have plenty of magic at my disposal, but we must visit the ley line in person in order to properly redirect the energy to Shal'Aran.
+
+Oculeth has graciously offered to teleport us there, but I could use an assistant. Care to join me?
+
+==Rewards==
+You will receive:
+*{{cost|9|70|}}
+*8,230 [[XP]]
+*+250 [[reputation]] with [[Nightfallen (faction)|The Nightfallen]]
+
+==Completion==
+That was a little terrifying. Sometimes I am not entirely sure that Oculeth knows what he is doing.
+
+==Notes==
+Talk to Oculeth.
+
+:Ready to go, <name>? I always love teleporting to a new place!
+
+''{{Gossip|Let's go!}}''
+
+:{{Text|say|Chief Telemancer Oculeth|Next stop, sunny Azsuna! At least... it was sunny last time I checked. Which was only a few thousand years ago.}}
+:{{Text|say|Chief Telemancer Oculeth|There we are! I am more or less locked on to the location you requested. Off you go!}}
+:{{Text|say|[[Arcanist Valtrois]]|Wait... What are you--}}
+
+You and Valtrois appear inside a cave in the [[Ley-Ruins of Zarkhenar]].
+
+On complete, an old friend approaches!
+
+:{{Text|say|[[Stellagosa]]|You sought to hide, [[Nightfallen]]? I could sense your teleportation signatures from [[Azurewing Repose|Azurewing]]!}}
+:{{Text|say|Arcanist Valtrois|Wait! This isn't what it looks like! We simply need to tap the... Oh. I guess it is what it looks like...}}
+:{{Text|say|Stellagosa|Our champion's presence is the only thing staying my hand. Speak quickly.}}
+
+==Progression==
+{{Crafting War}}
+
+==Patch changes==
+*{{Patch 7.1.0|note=Added.}}
+
+==External links==
+{{Elinks-quest|44873}}
+
+[[Category:The Nightfallen quests]]

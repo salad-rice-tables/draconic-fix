@@ -1,0 +1,1 @@
+UPDATE conversation_line SET AdditionalDuration=0 WHERE (ID BETWEEN 87529 AND 87534) OR (ID BETWEEN 89276 AND 89291);

@@ -1,0 +1,20 @@
+-- world: Gods Before Us (86644)
+DELETE FROM conversation_actors WHERE ConversationId=9108610;
+DELETE FROM conversation_line_template WHERE Id BETWEEN 64890 AND 64895;
+DELETE FROM conversation_template WHERE Id=9108610;
+INSERT INTO conversation_template (Id,FirstLineId,TextureKitId,Flags,ScriptName,VerifiedBuild) VALUES (9108610,64890,0,0,'',70391);
+INSERT INTO conversation_line_template (Id,UiCameraID,ActorIdx,Flags,ChatType,VerifiedBuild) VALUES (64890,0,0,0,0,70391),(64891,0,0,0,0,70391),(64892,0,0,0,0,70391),(64893,0,0,0,0,70391),(64894,0,0,0,0,70391),(64895,0,0,0,0,70391);
+INSERT INTO conversation_actors (ConversationId,ConversationActorId,ConversationActorGuid,Idx,CreatureId,CreatureDisplayInfoId,NoActorObject,ActivePlayerObject,VerifiedBuild) VALUES (9108610,9108620,3000209807,0,236610,0,0,0,70391);
+DELETE FROM creature_text WHERE CreatureID=236610 AND GroupID IN (5,6,7);
+INSERT INTO creature_text (CreatureID,GroupID,ID,Text,Type,Language,Probability,Emote,Duration,Sound,SoundPlayType,BroadcastTextId,TextRange,comment) VALUES (236610,5,0,'The mist ward is gone! Let''s find Zul''jan.',12,0,100,0,0,300092,0,290440,0,'retail quote (86644)');
+INSERT INTO creature_text (CreatureID,GroupID,ID,Text,Type,Language,Probability,Emote,Duration,Sound,SoundPlayType,BroadcastTextId,TextRange,comment) VALUES (236610,6,0,'More magic blocking the way. These tiles may offer a solution.',12,0,100,0,0,300093,0,285079,0,'retail quote (86644)');
+INSERT INTO creature_text (CreatureID,GroupID,ID,Text,Type,Language,Probability,Emote,Duration,Sound,SoundPlayType,BroadcastTextId,TextRange,comment) VALUES (236610,7,0,'Ha! You did it!',12,0,100,0,0,300094,0,285080,0,'retail quote (86644)');
+DELETE FROM smart_scripts WHERE source_type=0 AND entryorguid=236610 AND id=114;
+CREATE TEMPORARY TABLE t_ss SELECT * FROM smart_scripts WHERE entryorguid=244042 AND source_type=0 AND id=101;
+UPDATE t_ss SET entryorguid=236610,id=114,event_type=19,event_param1=86644,action_type=143,action_param1=9108610,target_type=7,comment='On quest accept 86644: Arator conversation (retail chat order)';
+INSERT INTO smart_scripts SELECT * FROM t_ss;
+DELETE FROM smart_scripts WHERE source_type=9 AND entryorguid IN (23661010,23661011);
+UPDATE t_ss SET entryorguid=23661010,source_type=9,id=0,event_type=0,event_param1=0,event_param2=0,event_param3=0,event_param4=0,action_type=1,action_param1=5,target_type=7,comment='Arator: mist ward is gone';
+INSERT INTO smart_scripts SELECT * FROM t_ss;
+DROP TEMPORARY TABLE t_ss;
+UPDATE gameobject SET PhaseId=45630 WHERE guid IN (990000000101167824,990000000101167825,990000000101167826);

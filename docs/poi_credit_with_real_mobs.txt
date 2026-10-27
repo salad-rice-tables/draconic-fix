@@ -1,0 +1,11 @@
+credit	cname	mobs	spawns
+238724	[DNT] Kill Credit - Generic 1	6	76
+240354	[DNT] Kill Credit	1	1
+240899	CH02Q07 Kill Credit [DNT]	3	3
+241575	[DNT] - Kill Credit	1	1
+242505	[DNT] Kill Credit	1	31
+242871	[DNT] Kill Credit	1	1
+245693	T3 Proxy [DNT]	1	1
+247612	[DNT] Kill Credit	1	1
+249654	Kill Credit	210	6
+259194	[DNT] Kill Credit: Talk to Alleria to queue for follower dungeon	1	1

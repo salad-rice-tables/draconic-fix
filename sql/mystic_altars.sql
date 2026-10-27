@@ -1,6 +1,6 @@
 -- =====================================================================
 -- Mystic Altary a Hero Traineri: Mystic Enchanter (9900130) + oltar (9709999) a Hero Trainer
--- (9900131) v hostincoch hlavnych miest a 4 Mystic Altare z Descend v otvorenom svete.
+-- (9900131) v hostincoch hlavnych miest a 4 Mystic Altare z Ascension v otvorenom svete.
 -- Sluzby robi Lua (worldforge.lua / wildcard.lua). Undo: mystic_altars_undo.sql
 -- =====================================================================
 DROP TEMPORARY TABLE IF EXISTS `world`.`tmp_map`;

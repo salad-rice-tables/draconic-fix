@@ -80,7 +80,7 @@ local function Tick()
     if not POSTS then POSTS = LoadPosts() end
     if #POSTS < 2 then return end
     local now = os.time()
-    for _, p in ipairs(MAP_Players()) do
+    for _, p in ipairs(LW_Players()) do
         if p:GetMapId() == MAP_ID then
             local ok, list = pcall(function() return p:GetCreaturesInRange(SCAN) end)
             if ok and list then

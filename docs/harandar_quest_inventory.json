@@ -1,0 +1,9031 @@
+[
+ {
+  "id": 86836,
+  "title": "The Hunter Awaits",
+  "sort": 15355,
+  "template": {
+   "ID": 86836,
+   "LogTitle": "The Hunter Awaits",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 31900,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "241045 Ku'paal"
+  ],
+  "enders": [
+   "237236 Amarakk"
+  ],
+  "objectives": 2
+ },
+ {
+  "id": 86851,
+  "title": "The Foundation of Aln",
+  "sort": 15355,
+  "template": {
+   "ID": 86851,
+   "LogTitle": "The Foundation of Aln",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 266259,
+   "RewardAmount1": 1,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 335000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "237236 Amarakk"
+  ],
+  "enders": [
+   "241070 Orweyna"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 86855,
+  "title": "Consequences of Our Duty",
+  "sort": 15355,
+  "template": {
+   "ID": 86855,
+   "LogTitle": "Consequences of Our Duty",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 256334,
+   "RewardAmount1": 1,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 335000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "237236 Amarakk"
+  ],
+  "enders": [
+   "241070 Orweyna"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 86856,
+  "title": "Dampening the Call",
+  "sort": 15355,
+  "template": {
+   "ID": 86856,
+   "LogTitle": "Dampening the Call",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 161000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "241070 Orweyna"
+  ],
+  "enders": [
+   "241070 Orweyna"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 86857,
+  "title": "Descent into the Rift",
+  "sort": 15355,
+  "template": {
+   "ID": 86857,
+   "LogTitle": "Descent into the Rift",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 246407,
+   "RewardAmount1": 1,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "241070 Orweyna"
+  ],
+  "enders": [
+   "237284 Amarakk"
+  ],
+  "objectives": 4
+ },
+ {
+  "id": 86858,
+  "title": "The Madness Roots Deep",
+  "sort": 15355,
+  "template": {
+   "ID": 86858,
+   "LogTitle": "The Madness Roots Deep",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 335000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "237284 Amarakk"
+  ],
+  "enders": [
+   "237284 Amarakk"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 86859,
+  "title": "Grinding Out a Solution",
+  "sort": 15355,
+  "template": {
+   "ID": 86859,
+   "LogTitle": "Grinding Out a Solution",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 322100,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "237284 Amarakk"
+  ],
+  "enders": [
+   "237284 Amarakk"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 86860,
+  "title": "Before They Grow",
+  "sort": 15355,
+  "template": {
+   "ID": 86860,
+   "LogTitle": "Before They Grow",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "237284 Amarakk"
+  ],
+  "enders": [
+   "237284 Amarakk"
+  ],
+  "objectives": 6
+ },
+ {
+  "id": 86861,
+  "title": "Herding Manifestations",
+  "sort": 15355,
+  "template": {
+   "ID": 86861,
+   "LogTitle": "Herding Manifestations",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 252045,
+   "RewardAmount1": 1,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "237284 Amarakk"
+  ],
+  "enders": [
+   "237284 Amarakk"
+  ],
+  "objectives": 4
+ },
+ {
+  "id": 86862,
+  "title": "The Greater They Aln",
+  "sort": 15355,
+  "template": {
+   "ID": 86862,
+   "LogTitle": "The Greater They Aln",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 252956,
+   "RewardAmount1": 1,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 638000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "237284 Amarakk"
+  ],
+  "enders": [
+   "237284 Amarakk"
+  ],
+  "objectives": 3
+ },
+ {
+  "id": 86864,
+  "title": "Watch the Den",
+  "sort": 15355,
+  "template": {
+   "ID": 86864,
+   "LogTitle": "Watch the Den",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 31900,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "237860 Orweyna"
+  ],
+  "enders": [
+   "237234 Orweyna"
+  ],
+  "objectives": 4
+ },
+ {
+  "id": 86865,
+  "title": "In Search of the Problem",
+  "sort": 15355,
+  "template": {
+   "ID": 86865,
+   "LogTitle": "In Search of the Problem",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 159500,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "237284 Amarakk"
+  ],
+  "enders": [
+   "237295 Byarc"
+  ],
+  "objectives": 2
+ },
+ {
+  "id": 86866,
+  "title": "Can We Heal This?",
+  "sort": 15355,
+  "template": {
+   "ID": 86866,
+   "LogTitle": "Can We Heal This?",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 252045,
+   "RewardAmount1": 1,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "237325 Orweyna"
+  ],
+  "enders": [
+   "237325 Orweyna",
+   "237356 Orweyna"
+  ],
+  "objectives": 3
+ },
+ {
+  "id": 86867,
+  "title": "Into the Lightbloom",
+  "sort": 15355,
+  "template": {
+   "ID": 86867,
+   "LogTitle": "Into the Lightbloom",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 253467,
+   "RewardAmount1": 1,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 638000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "237325 Orweyna",
+   "237356 Orweyna"
+  ],
+  "enders": [
+   "237356 Orweyna"
+  ],
+  "objectives": 7
+ },
+ {
+  "id": 86874,
+  "title": "Culling the Light",
+  "sort": 15355,
+  "template": {
+   "ID": 86874,
+   "LogTitle": "Culling the Light",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "237356 Orweyna"
+  ],
+  "enders": [
+   "237356 Orweyna"
+  ],
+  "objectives": 4
+ },
+ {
+  "id": 86877,
+  "title": "Righteous Pruning",
+  "sort": 15355,
+  "template": {
+   "ID": 86877,
+   "LogTitle": "Righteous Pruning",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 670000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "237356 Orweyna"
+  ],
+  "enders": [
+   "237356 Orweyna"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 86880,
+  "title": "Our Beloved, Returned",
+  "sort": 15355,
+  "template": {
+   "ID": 86880,
+   "LogTitle": "Our Beloved, Returned",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 325300,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "237356 Orweyna"
+  ],
+  "enders": [
+   "237356 Orweyna"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 86881,
+  "title": "At the Root",
+  "sort": 15355,
+  "template": {
+   "ID": 86881,
+   "LogTitle": "At the Root",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 335000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "237356 Orweyna"
+  ],
+  "enders": [
+   "237356 Orweyna"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 86882,
+  "title": "Alndust in Right Hands",
+  "sort": 15355,
+  "template": {
+   "ID": 86882,
+   "LogTitle": "Alndust in Right Hands",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "237325 Orweyna"
+  ],
+  "enders": [
+   "237325 Orweyna",
+   "237356 Orweyna"
+  ],
+  "objectives": 2
+ },
+ {
+  "id": 86883,
+  "title": "The Frenzied March",
+  "sort": 15355,
+  "template": {
+   "ID": 86883,
+   "LogTitle": "The Frenzied March",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 33500,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "241742 Orweyna"
+  ],
+  "enders": [
+   "237361 Orweyna"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 86884,
+  "title": "Cull and Burn",
+  "sort": 15355,
+  "template": {
+   "ID": 86884,
+   "LogTitle": "Cull and Burn",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 256224,
+   "RewardAmount1": 1,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 335000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "237361 Orweyna"
+  ],
+  "enders": [
+   "237361 Orweyna"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 86885,
+  "title": "Stem the Tides",
+  "sort": 15355,
+  "template": {
+   "ID": 86885,
+   "LogTitle": "Stem the Tides",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 335000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "237465 Halduron Brightwing"
+  ],
+  "enders": [
+   "237465 Halduron Brightwing"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 86887,
+  "title": "Expeditious Retreat",
+  "sort": 15355,
+  "template": {
+   "ID": 86887,
+   "LogTitle": "Expeditious Retreat",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "237465 Halduron Brightwing"
+  ],
+  "enders": [
+   "237465 Halduron Brightwing",
+   "241130 Halduron Brightwing"
+  ],
+  "objectives": 3
+ },
+ {
+  "id": 86890,
+  "title": "Tell the People What You Have Seen",
+  "sort": 15355,
+  "template": {
+   "ID": 86890,
+   "LogTitle": "Tell the People What You Have Seen",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 256228,
+   "RewardAmount1": 1,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "237356 Orweyna"
+  ],
+  "enders": [
+   "241742 Orweyna"
+  ],
+  "objectives": 3
+ },
+ {
+  "id": 86897,
+  "title": "Quelling the Frenzy",
+  "sort": 15355,
+  "template": {
+   "ID": 86897,
+   "LogTitle": "Quelling the Frenzy",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 252957,
+   "RewardAmount1": 1,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 638000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "237361 Orweyna"
+  ],
+  "enders": [
+   "237361 Orweyna",
+   "241704 Orweyna"
+  ],
+  "objectives": 2
+ },
+ {
+  "id": 86898,
+  "title": "Rise of the Haranir",
+  "sort": 15355,
+  "template": {
+   "ID": 86898,
+   "LogTitle": "Rise of the Haranir",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 164200,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "241704 Orweyna"
+  ],
+  "enders": [
+   "255822 Orweyna"
+  ],
+  "objectives": 0
+ },
+ {
+  "id": 86899,
+  "title": "The Root Cause",
+  "sort": 15355,
+  "template": {
+   "ID": 86899,
+   "LogTitle": "The Root Cause",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 31900,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": {
+   "PrevQuestID": 89402,
+   "NextQuestID": 0,
+   "ExclusiveGroup": 0,
+   "BreadcrumbForQuestId": 0,
+   "RewardMailTemplateID": 0
+  },
+  "starters": [
+   "236704 Orweyna"
+  ],
+  "enders": [
+   "237480 Orweyna"
+  ],
+  "objectives": 3
+ },
+ {
+  "id": 86900,
+  "title": "To Har'athir",
+  "sort": 15355,
+  "template": {
+   "ID": 86900,
+   "LogTitle": "To Har'athir",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": {
+   "PrevQuestID": 86899,
+   "NextQuestID": 0,
+   "ExclusiveGroup": 0,
+   "BreadcrumbForQuestId": 0,
+   "RewardMailTemplateID": 0
+  },
+  "starters": [
+   "237480 Orweyna"
+  ],
+  "enders": [
+   "237483 Orweyna",
+   "239525 Ruia"
+  ],
+  "objectives": 6
+ },
+ {
+  "id": 86901,
+  "title": "The Rift and the Den",
+  "sort": 15355,
+  "template": {
+   "ID": 86901,
+   "LogTitle": "The Rift and the Den",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 31900,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "237483 Orweyna"
+  ],
+  "enders": [
+   "237345 Halduron Brightwing"
+  ],
+  "objectives": 2
+ },
+ {
+  "id": 86907,
+  "title": "The Den of Echoes",
+  "sort": 15355,
+  "template": {
+   "ID": 86907,
+   "LogTitle": "The Den of Echoes",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 32200,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "237332 Hagar"
+  ],
+  "enders": [
+   "237567 Hagar"
+  ],
+  "objectives": 0
+ },
+ {
+  "id": 86910,
+  "title": "Koozat's Trample",
+  "sort": 15355,
+  "template": {
+   "ID": 86910,
+   "LogTitle": "Koozat's Trample",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 32500,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "240839 Hagar"
+  ],
+  "enders": [
+   "240533 Orweyna"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 86911,
+  "title": "Echoes and Memories",
+  "sort": 15355,
+  "template": {
+   "ID": 86911,
+   "LogTitle": "Echoes and Memories",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 246415,
+   "RewardAmount1": 1,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "237567 Hagar"
+  ],
+  "enders": [
+   "239650 Zur'ashar Kassameh"
+  ],
+  "objectives": 5
+ },
+ {
+  "id": 86912,
+  "title": "Down the Rootways",
+  "sort": 15355,
+  "template": {
+   "ID": 86912,
+   "LogTitle": "Down the Rootways",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 249620,
+   "RewardAmount1": 1,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 638000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "243884 Zur'ashar Kassameh"
+  ],
+  "enders": [
+   "240839 Hagar"
+  ],
+  "objectives": 3
+ },
+ {
+  "id": 86913,
+  "title": "A Hut in Har'mara",
+  "sort": 15355,
+  "template": {
+   "ID": 86913,
+   "LogTitle": "A Hut in Har'mara",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 33500,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "240839 Hagar"
+  ],
+  "enders": [
+   "237786 Orweyna",
+   "240839 Hagar"
+  ],
+  "objectives": 0
+ },
+ {
+  "id": 86914,
+  "title": "Tending to Har'mara",
+  "sort": 15355,
+  "template": {
+   "ID": 86914,
+   "LogTitle": "Tending to Har'mara",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "240839 Hagar"
+  ],
+  "enders": [
+   "237332 Hagar",
+   "240839 Hagar"
+  ],
+  "objectives": 8
+ },
+ {
+  "id": 86929,
+  "title": "The Council Assembles",
+  "sort": 15355,
+  "template": {
+   "ID": 86929,
+   "LogTitle": "The Council Assembles",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 335000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "237345 Halduron Brightwing"
+  ],
+  "enders": [
+   "237332 Hagar"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 86930,
+  "title": "To Sow the Seed",
+  "sort": 15355,
+  "template": {
+   "ID": 86930,
+   "LogTitle": "To Sow the Seed",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 256195,
+   "RewardAmount1": 1,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 335000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "240839 Hagar"
+  ],
+  "enders": [
+   "237860 Orweyna"
+  ],
+  "objectives": 0
+ },
+ {
+  "id": 86942,
+  "title": "Culling the Spread",
+  "sort": 15355,
+  "template": {
+   "ID": 86942,
+   "LogTitle": "Culling the Spread",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 638000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "240533 Orweyna"
+  ],
+  "enders": [
+   "240533 Orweyna"
+  ],
+  "objectives": 4
+ },
+ {
+  "id": 86944,
+  "title": "Seeds of the Rift",
+  "sort": 15355,
+  "template": {
+   "ID": 86944,
+   "LogTitle": "Seeds of the Rift",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 31900,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "240533 Orweyna"
+  ],
+  "enders": [
+   "237786 Orweyna",
+   "240839 Hagar"
+  ],
+  "objectives": 3
+ },
+ {
+  "id": 86956,
+  "title": "The Traveling Flowers",
+  "sort": 15355,
+  "template": {
+   "ID": 86956,
+   "LogTitle": "The Traveling Flowers",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 262614,
+   "RewardAmount1": 1,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 239200,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "237787 Halduron Brightwing"
+  ],
+  "enders": [
+   "237787 Halduron Brightwing"
+  ],
+  "objectives": 4
+ },
+ {
+  "id": 86973,
+  "title": "Halting Harm in Har'mara",
+  "sort": 15355,
+  "template": {
+   "ID": 86973,
+   "LogTitle": "Halting Harm in Har'mara",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 245535,
+   "RewardAmount1": 1,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 335000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "240533 Orweyna"
+  ],
+  "enders": [
+   "240533 Orweyna"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 88993,
+  "title": "Wey'nan's Ward",
+  "sort": 15355,
+  "template": {
+   "ID": 88993,
+   "LogTitle": "Wey'nan's Ward",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [
+   "238170 Zur'ashar Kassameh"
+  ],
+  "objectives": 2
+ },
+ {
+  "id": 88994,
+  "title": "The Cauldron of Echoes",
+  "sort": 15355,
+  "template": {
+   "ID": 88994,
+   "LogTitle": "The Cauldron of Echoes",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [
+   "238170 Zur'ashar Kassameh"
+  ],
+  "objectives": 2
+ },
+ {
+  "id": 88995,
+  "title": "Aln'hara's Bloom",
+  "sort": 15355,
+  "template": {
+   "ID": 88995,
+   "LogTitle": "Aln'hara's Bloom",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 88996,
+  "title": "The Echoless Flame",
+  "sort": 15355,
+  "template": {
+   "ID": 88996,
+   "LogTitle": "The Echoless Flame",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 88997,
+  "title": "Russula's Outreach",
+  "sort": 15355,
+  "template": {
+   "ID": 88997,
+   "LogTitle": "Russula's Outreach",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 88998,
+  "title": "Root of the World",
+  "sort": 15355,
+  "template": {
+   "ID": 88998,
+   "LogTitle": "Root of the World",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 88999,
+  "title": "Sky's Hope",
+  "sort": 15355,
+  "template": {
+   "ID": 88999,
+   "LogTitle": "Sky's Hope",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 89034,
+  "title": "Burning Bitterblooms",
+  "sort": 15355,
+  "template": {
+   "ID": 89034,
+   "LogTitle": "Burning Bitterblooms",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 325300,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "237787 Halduron Brightwing"
+  ],
+  "enders": [
+   "237341 Halduron Brightwing",
+   "237787 Halduron Brightwing"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 89035,
+  "title": "Renowned with the Hara'ti",
+  "sort": 15355,
+  "template": {
+   "ID": 89035,
+   "LogTitle": "Renowned with the Hara'ti",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 256055,
+   "RewardAmount1": 1,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 89268,
+  "title": "Lost Legends",
+  "sort": 15355,
+  "template": {
+   "ID": 89268,
+   "LogTitle": "Lost Legends",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [
+   "238170 Zur'ashar Kassameh"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 89402,
+  "title": "Harandar",
+  "sort": 15355,
+  "template": {
+   "ID": 89402,
+   "LogTitle": "Harandar",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 32500,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": {
+   "PrevQuestID": 0,
+   "NextQuestID": 0,
+   "ExclusiveGroup": 0,
+   "BreadcrumbForQuestId": 0,
+   "RewardMailTemplateID": 0
+  },
+  "starters": [],
+  "enders": [
+   "236704 Orweyna"
+  ],
+  "objectives": 0
+ },
+ {
+  "id": 90094,
+  "title": "Echo of the Hunt",
+  "sort": 15355,
+  "template": {
+   "ID": 90094,
+   "LogTitle": "Echo of the Hunt",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "239650 Zur'ashar Kassameh"
+  ],
+  "enders": [
+   "239795 Zur'ashar Kassameh"
+  ],
+  "objectives": 5
+ },
+ {
+  "id": 90095,
+  "title": "Echo of the Call",
+  "sort": 15355,
+  "template": {
+   "ID": 90095,
+   "LogTitle": "Echo of the Call",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 638000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "239795 Zur'ashar Kassameh"
+  ],
+  "enders": [
+   "243884 Zur'ashar Kassameh"
+  ],
+  "objectives": 2
+ },
+ {
+  "id": 90467,
+  "title": "Tales of the Sky",
+  "sort": 15355,
+  "template": {
+   "ID": 90467,
+   "LogTitle": "Tales of the Sky",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "242358 Kuri"
+  ],
+  "enders": [
+   "242689 Kamari"
+  ],
+  "objectives": 2
+ },
+ {
+  "id": 90468,
+  "title": "Ugh, Chores!",
+  "sort": 15355,
+  "template": {
+   "ID": 90468,
+   "LogTitle": "Ugh, Chores!",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "242358 Kuri"
+  ],
+  "enders": [
+   "242689 Kamari"
+  ],
+  "objectives": 2
+ },
+ {
+  "id": 90469,
+  "title": "Carry On, Wayward Kuri",
+  "sort": 15355,
+  "template": {
+   "ID": 90469,
+   "LogTitle": "Carry On, Wayward Kuri",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 239200,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "242689 Kamari"
+  ],
+  "enders": [
+   "242691 Kuri"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 90470,
+  "title": "Skyglass Scavenging",
+  "sort": 15355,
+  "template": {
+   "ID": 90470,
+   "LogTitle": "Skyglass Scavenging",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "242691 Kuri"
+  ],
+  "enders": [
+   "242691 Kuri"
+  ],
+  "objectives": 10
+ },
+ {
+  "id": 90474,
+  "title": "The Legend of Aln'sharan",
+  "sort": 15355,
+  "template": {
+   "ID": 90474,
+   "LogTitle": "The Legend of Aln'sharan",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 255826,
+   "RewardAmount1": 1,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "242691 Kuri"
+  ],
+  "enders": [
+   "242358 Kuri"
+  ],
+  "objectives": 3
+ },
+ {
+  "id": 90533,
+  "title": "Go Get Orweyna!",
+  "sort": 15355,
+  "template": {
+   "ID": 90533,
+   "LogTitle": "Go Get Orweyna!",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": {
+   "PrevQuestID": 0,
+   "NextQuestID": 0,
+   "ExclusiveGroup": 0,
+   "BreadcrumbForQuestId": 0,
+   "RewardMailTemplateID": 0
+  },
+  "starters": [
+   "242593 Monte Gazlowe"
+  ],
+  "enders": [
+   "242592 Orweyna"
+  ],
+  "objectives": 3
+ },
+ {
+  "id": 90534,
+  "title": "The Home of the Haranir",
+  "sort": 15355,
+  "template": {
+   "ID": 90534,
+   "LogTitle": "The Home of the Haranir",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": {
+   "PrevQuestID": 90533,
+   "NextQuestID": 0,
+   "ExclusiveGroup": 0,
+   "BreadcrumbForQuestId": 0,
+   "RewardMailTemplateID": 0
+  },
+  "starters": [
+   "242592 Orweyna"
+  ],
+  "enders": [
+   "242881 Monte Gazlowe"
+  ],
+  "objectives": 3
+ },
+ {
+  "id": 90535,
+  "title": "Leave Your Mark",
+  "sort": 15355,
+  "template": {
+   "ID": 90535,
+   "LogTitle": "Leave Your Mark",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": {
+   "PrevQuestID": 90534,
+   "NextQuestID": 0,
+   "ExclusiveGroup": 0,
+   "BreadcrumbForQuestId": 0,
+   "RewardMailTemplateID": 0
+  },
+  "starters": [
+   "242882 Orweyna"
+  ],
+  "enders": [
+   "242882 Orweyna"
+  ],
+  "objectives": 2
+ },
+ {
+  "id": 90536,
+  "title": "The Tale of Wey'nan's Ward",
+  "sort": 15355,
+  "template": {
+   "ID": 90536,
+   "LogTitle": "The Tale of Wey'nan's Ward",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 7
+ },
+ {
+  "id": 90537,
+  "title": "Late Bloomers",
+  "sort": 15355,
+  "template": {
+   "ID": 90537,
+   "LogTitle": "Late Bloomers",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "242650 Ney'leia"
+  ],
+  "enders": [
+   "242684 Ney'leia",
+   "243053 Ney'leia"
+  ],
+  "objectives": 4
+ },
+ {
+  "id": 90540,
+  "title": "Rutaani Rescue",
+  "sort": 15355,
+  "template": {
+   "ID": 90540,
+   "LogTitle": "Rutaani Rescue",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": {
+   "PrevQuestID": 90537,
+   "NextQuestID": 0,
+   "ExclusiveGroup": 0,
+   "BreadcrumbForQuestId": 0,
+   "RewardMailTemplateID": 0
+  },
+  "starters": [
+   "242684 Ney'leia"
+  ],
+  "enders": [
+   "243053 Ney'leia"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 90569,
+  "title": "Back in the Bag",
+  "sort": 15355,
+  "template": {
+   "ID": 90569,
+   "LogTitle": "Back in the Bag",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "242684 Ney'leia",
+   "243053 Ney'leia"
+  ],
+  "enders": [
+   "243053 Ney'leia"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 90601,
+  "title": "Gathering Glowshrooms",
+  "sort": 15355,
+  "template": {
+   "ID": 90601,
+   "LogTitle": "Gathering Glowshrooms",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "245166 Ney'leia"
+  ],
+  "enders": [
+   "245166 Ney'leia"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 90602,
+  "title": "Gomphusta",
+  "sort": 15355,
+  "template": {
+   "ID": 90602,
+   "LogTitle": "Gomphusta",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 263473,
+   "RewardAmount1": 1,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 638000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "245166 Ney'leia"
+  ],
+  "enders": [
+   "245166 Ney'leia"
+  ],
+  "objectives": 2
+ },
+ {
+  "id": 90615,
+  "title": "Be Grudge You",
+  "sort": 15355,
+  "template": {
+   "ID": 90615,
+   "LogTitle": "Be Grudge You",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [
+   "243226 Boletus"
+  ],
+  "objectives": 0
+ },
+ {
+  "id": 90616,
+  "title": "You Strong?",
+  "sort": 15355,
+  "template": {
+   "ID": 90616,
+   "LogTitle": "You Strong?",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "243226 Boletus"
+  ],
+  "enders": [
+   "243226 Boletus"
+  ],
+  "objectives": 7
+ },
+ {
+  "id": 90617,
+  "title": "A Few Fun Guys",
+  "sort": 15355,
+  "template": {
+   "ID": 90617,
+   "LogTitle": "A Few Fun Guys",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 159500,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "243226 Boletus"
+  ],
+  "enders": [
+   "243226 Boletus"
+  ],
+  "objectives": 5
+ },
+ {
+  "id": 90619,
+  "title": "What Doesn't Kill Them",
+  "sort": 15355,
+  "template": {
+   "ID": 90619,
+   "LogTitle": "What Doesn't Kill Them",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "243226 Boletus"
+  ],
+  "enders": [
+   "246208 Brakko"
+  ],
+  "objectives": 3
+ },
+ {
+  "id": 90620,
+  "title": "To the Ring",
+  "sort": 15355,
+  "template": {
+   "ID": 90620,
+   "LogTitle": "To the Ring",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 638000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "251715 Tuktuk"
+  ],
+  "enders": [
+   "243178 Brakko",
+   "246208 Brakko",
+   "257287 Brakko"
+  ],
+  "objectives": 10
+ },
+ {
+  "id": 90621,
+  "title": "Tiny Heroes' Journeys",
+  "sort": 15355,
+  "template": {
+   "ID": 90621,
+   "LogTitle": "Tiny Heroes' Journeys",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 159500,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "243226 Boletus"
+  ],
+  "enders": [
+   "243226 Boletus"
+  ],
+  "objectives": 6
+ },
+ {
+  "id": 90622,
+  "title": "Not-Yet Defeated Champions",
+  "sort": 15355,
+  "template": {
+   "ID": 90622,
+   "LogTitle": "Not-Yet Defeated Champions",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 638000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "243226 Boletus"
+  ],
+  "enders": [
+   "243226 Boletus"
+  ],
+  "objectives": 6
+ },
+ {
+  "id": 90733,
+  "title": "The Listener",
+  "sort": 15355,
+  "template": {
+   "ID": 90733,
+   "LogTitle": "The Listener",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [
+   "243759 Aksem"
+  ],
+  "objectives": 0
+ },
+ {
+  "id": 90734,
+  "title": "In the Name of the Goddess",
+  "sort": 15355,
+  "template": {
+   "ID": 90734,
+   "LogTitle": "In the Name of the Goddess",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 90735,
+  "title": "The Stolen Staff",
+  "sort": 15355,
+  "template": {
+   "ID": 90735,
+   "LogTitle": "The Stolen Staff",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 90736,
+  "title": "That's Not Yours",
+  "sort": 15355,
+  "template": {
+   "ID": 90736,
+   "LogTitle": "That's Not Yours",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 90737,
+  "title": "Nested Clues",
+  "sort": 15355,
+  "template": {
+   "ID": 90737,
+   "LogTitle": "Nested Clues",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 3
+ },
+ {
+  "id": 90738,
+  "title": "To the Blossoming Terrace",
+  "sort": 15355,
+  "template": {
+   "ID": 90738,
+   "LogTitle": "To the Blossoming Terrace",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 90739,
+  "title": "The Root of Things",
+  "sort": 15355,
+  "template": {
+   "ID": 90739,
+   "LogTitle": "The Root of Things",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 3
+ },
+ {
+  "id": 90740,
+  "title": "A Legend to Know",
+  "sort": 15355,
+  "template": {
+   "ID": 90740,
+   "LogTitle": "A Legend to Know",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 90741,
+  "title": "Once More Into the Rift",
+  "sort": 15355,
+  "template": {
+   "ID": 90741,
+   "LogTitle": "Once More Into the Rift",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 90742,
+  "title": "Shrouded by Aln'hara",
+  "sort": 15355,
+  "template": {
+   "ID": 90742,
+   "LogTitle": "Shrouded by Aln'hara",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 7
+ },
+ {
+  "id": 90743,
+  "title": "Ritual Reinforcement",
+  "sort": 15355,
+  "template": {
+   "ID": 90743,
+   "LogTitle": "Ritual Reinforcement",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 4
+ },
+ {
+  "id": 90744,
+  "title": "The Dreamrift: Malformed Mystery",
+  "sort": 15355,
+  "template": {
+   "ID": 90744,
+   "LogTitle": "The Dreamrift: Malformed Mystery",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 90745,
+  "title": "The Empty Cradle",
+  "sort": 15355,
+  "template": {
+   "ID": 90745,
+   "LogTitle": "The Empty Cradle",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 90824,
+  "title": "My Brother's Alive!",
+  "sort": 15355,
+  "template": {
+   "ID": 90824,
+   "LogTitle": "My Brother's Alive!",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "244163 Chua"
+  ],
+  "enders": [
+   "244242 En'liahn"
+  ],
+  "objectives": 0
+ },
+ {
+  "id": 90826,
+  "title": "The Healing Waters of Ahl'ua",
+  "sort": 15355,
+  "template": {
+   "ID": 90826,
+   "LogTitle": "The Healing Waters of Ahl'ua",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 341600,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "244242 En'liahn"
+  ],
+  "enders": [
+   "244242 En'liahn"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 90827,
+  "title": "Only the Poisonous Parts",
+  "sort": 15355,
+  "template": {
+   "ID": 90827,
+   "LogTitle": "Only the Poisonous Parts",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 341600,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "244242 En'liahn"
+  ],
+  "enders": [
+   "244242 En'liahn"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 90829,
+  "title": "Meeting My Mentor",
+  "sort": 15355,
+  "template": {
+   "ID": 90829,
+   "LogTitle": "Meeting My Mentor",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 33500,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "244242 En'liahn"
+  ],
+  "enders": [
+   "244394 En'liahn"
+  ],
+  "objectives": 0
+ },
+ {
+  "id": 90830,
+  "title": "The Path Will Reveal Itself",
+  "sort": 15355,
+  "template": {
+   "ID": 90830,
+   "LogTitle": "The Path Will Reveal Itself",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "244394 En'liahn"
+  ],
+  "enders": [
+   "244455 Amarakk"
+  ],
+  "objectives": 7
+ },
+ {
+  "id": 90831,
+  "title": "Doing Is Becoming",
+  "sort": 15355,
+  "template": {
+   "ID": 90831,
+   "LogTitle": "Doing Is Becoming",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "244455 Amarakk"
+  ],
+  "enders": [
+   "244455 Amarakk"
+  ],
+  "objectives": 7
+ },
+ {
+  "id": 90832,
+  "title": "As Her Voice Goes Silent",
+  "sort": 15355,
+  "template": {
+   "ID": 90832,
+   "LogTitle": "As Her Voice Goes Silent",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 159500,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "244455 Amarakk"
+  ],
+  "enders": [
+   "244455 Amarakk"
+  ],
+  "objectives": 5
+ },
+ {
+  "id": 90833,
+  "title": "The Final Rite",
+  "sort": 15355,
+  "template": {
+   "ID": 90833,
+   "LogTitle": "The Final Rite",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 683200,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "244455 Amarakk"
+  ],
+  "enders": [
+   "244473 En'liahn"
+  ],
+  "objectives": 2
+ },
+ {
+  "id": 90834,
+  "title": "From This Point Forward",
+  "sort": 15355,
+  "template": {
+   "ID": 90834,
+   "LogTitle": "From This Point Forward",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 263020,
+   "RewardAmount1": 1,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 341600,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "244473 En'liahn"
+  ],
+  "enders": [
+   "244394 En'liahn"
+  ],
+  "objectives": 0
+ },
+ {
+  "id": 90889,
+  "title": "Tale of the Echoes of Sai'alyo",
+  "sort": 15355,
+  "template": {
+   "ID": 90889,
+   "LogTitle": "Tale of the Echoes of Sai'alyo",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 7
+ },
+ {
+  "id": 90957,
+  "title": "Initiation Day",
+  "sort": -664,
+  "template": {
+   "ID": 90957,
+   "LogTitle": "Initiation Day",
+   "QuestType": 2,
+   "QuestSortID": -664,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 863,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "245090 Hagar"
+  ],
+  "enders": [
+   "245102 Dalnir"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 90958,
+  "title": "Roots Above All",
+  "sort": -664,
+  "template": {
+   "ID": 90958,
+   "LogTitle": "Roots Above All",
+   "QuestType": 2,
+   "QuestSortID": -664,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 863,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": {
+   "PrevQuestID": 90957,
+   "NextQuestID": 0,
+   "ExclusiveGroup": 0,
+   "BreadcrumbForQuestId": 0,
+   "RewardMailTemplateID": 0
+  },
+  "starters": [
+   "245102 Dalnir"
+  ],
+  "enders": [
+   "245102 Dalnir"
+  ],
+  "objectives": 10
+ },
+ {
+  "id": 90959,
+  "title": "Traditional Duties",
+  "sort": -664,
+  "template": {
+   "ID": 90959,
+   "LogTitle": "Traditional Duties",
+   "QuestType": 2,
+   "QuestSortID": -664,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 863,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "245879 Orweyna"
+  ],
+  "enders": [
+   "245881 Orweyna"
+  ],
+  "objectives": 6
+ },
+ {
+  "id": 90960,
+  "title": "My Story, My Legacy",
+  "sort": -664,
+  "template": {
+   "ID": 90960,
+   "LogTitle": "My Story, My Legacy",
+   "QuestType": 2,
+   "QuestSortID": -664,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 863,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "245096 Hagar"
+  ],
+  "enders": [
+   "245097 Hagar"
+  ],
+  "objectives": 9
+ },
+ {
+  "id": 90961,
+  "title": "Stranger in a New Land",
+  "sort": -664,
+  "template": {
+   "ID": 90961,
+   "LogTitle": "Stranger in a New Land",
+   "QuestType": 2,
+   "QuestSortID": -664,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 863,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "245097 Hagar"
+  ],
+  "enders": [
+   "133362 Ambassador Moorgard",
+   "133407 Ambassador Blackguard"
+  ],
+  "objectives": 2
+ },
+ {
+  "id": 90963,
+  "title": "Caves of the Cleft",
+  "sort": 15355,
+  "template": {
+   "ID": 90963,
+   "LogTitle": "Caves of the Cleft",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 34100,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "243053 Ney'leia"
+  ],
+  "enders": [
+   "245166 Ney'leia"
+  ],
+  "objectives": 0
+ },
+ {
+  "id": 91063,
+  "title": "The Blooming Lattice",
+  "sort": 15355,
+  "template": {
+   "ID": 91063,
+   "LogTitle": "The Blooming Lattice",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "245637 Su'meera"
+  ],
+  "enders": [
+   "245639 Su'meera"
+  ],
+  "objectives": 0
+ },
+ {
+  "id": 91065,
+  "title": "Purloining Petals",
+  "sort": 15355,
+  "template": {
+   "ID": 91065,
+   "LogTitle": "Purloining Petals",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "245639 Su'meera"
+  ],
+  "enders": [
+   "245639 Su'meera"
+  ],
+  "objectives": 4
+ },
+ {
+  "id": 91084,
+  "title": "Looming Shadows",
+  "sort": 15355,
+  "template": {
+   "ID": 91084,
+   "LogTitle": "Looming Shadows",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "235787 Lor'themar Theron",
+   "255819 Elder Hagar"
+  ],
+  "enders": [
+   "235787 Lor'themar Theron"
+  ],
+  "objectives": 0
+ },
+ {
+  "id": 91085,
+  "title": "Petal Bristles",
+  "sort": 15355,
+  "template": {
+   "ID": 91085,
+   "LogTitle": "Petal Bristles",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 335000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "245639 Su'meera"
+  ],
+  "enders": [
+   "245639 Su'meera"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 91086,
+  "title": "Nipping the Buds",
+  "sort": 15355,
+  "template": {
+   "ID": 91086,
+   "LogTitle": "Nipping the Buds",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 638000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "245639 Su'meera"
+  ],
+  "enders": [
+   "245639 Su'meera"
+  ],
+  "objectives": 2
+ },
+ {
+  "id": 91088,
+  "title": "Behind the Falls",
+  "sort": 15355,
+  "template": {
+   "ID": 91088,
+   "LogTitle": "Behind the Falls",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 31900,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "245639 Su'meera"
+  ],
+  "enders": [
+   "245986 Su'meera"
+  ],
+  "objectives": 0
+ },
+ {
+  "id": 91136,
+  "title": "Memories in Stone",
+  "sort": 15355,
+  "template": {
+   "ID": 91136,
+   "LogTitle": "Memories in Stone",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 638000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "245986 Su'meera"
+  ],
+  "enders": [
+   "245728 Su'meera"
+  ],
+  "objectives": 2
+ },
+ {
+  "id": 91270,
+  "title": "The Most Important Thing",
+  "sort": 15355,
+  "template": {
+   "ID": 91270,
+   "LogTitle": "The Most Important Thing",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 159500,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "243226 Boletus"
+  ],
+  "enders": [
+   "251715 Tuktuk"
+  ],
+  "objectives": 4
+ },
+ {
+  "id": 91346,
+  "title": "Supplicants to the Goddess",
+  "sort": 15355,
+  "template": {
+   "ID": 91346,
+   "LogTitle": "Supplicants to the Goddess",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "246607 Greenspeaker Cyenna"
+  ],
+  "enders": [
+   "246607 Greenspeaker Cyenna"
+  ],
+  "objectives": 2
+ },
+ {
+  "id": 91359,
+  "title": "Fungal Lashers B Gone",
+  "sort": 15355,
+  "template": {
+   "ID": 91359,
+   "LogTitle": "Fungal Lashers B Gone",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 341600,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "246607 Greenspeaker Cyenna"
+  ],
+  "enders": [
+   "246607 Greenspeaker Cyenna"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 91360,
+  "title": "Weeding Out the Unwanted",
+  "sort": 15355,
+  "template": {
+   "ID": 91360,
+   "LogTitle": "Weeding Out the Unwanted",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 335000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "246607 Greenspeaker Cyenna"
+  ],
+  "enders": [
+   "246607 Greenspeaker Cyenna"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 91361,
+  "title": "Back on Duty?",
+  "sort": 15355,
+  "template": {
+   "ID": 91361,
+   "LogTitle": "Back on Duty?",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 260431,
+   "RewardAmount1": 1,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "246607 Greenspeaker Cyenna"
+  ],
+  "enders": [
+   "246607 Greenspeaker Cyenna"
+  ],
+  "objectives": 3
+ },
+ {
+  "id": 91375,
+  "title": "The Silence at Fungara Village",
+  "sort": 15355,
+  "template": {
+   "ID": 91375,
+   "LogTitle": "The Silence at Fungara Village",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 91376,
+  "title": "Little Monsters",
+  "sort": 15355,
+  "template": {
+   "ID": 91376,
+   "LogTitle": "Little Monsters",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "246777 Ghikal"
+  ],
+  "enders": [
+   "246777 Ghikal"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 91377,
+  "title": "Spawn of the Dead",
+  "sort": 15355,
+  "template": {
+   "ID": 91377,
+   "LogTitle": "Spawn of the Dead",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "246777 Ghikal"
+  ],
+  "enders": [
+   "246777 Ghikal"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 91378,
+  "title": "You Are Legend",
+  "sort": 15355,
+  "template": {
+   "ID": 91378,
+   "LogTitle": "You Are Legend",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 335000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "246777 Ghikal"
+  ],
+  "enders": [
+   "246777 Ghikal"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 91379,
+  "title": "Decayed Land",
+  "sort": 15355,
+  "template": {
+   "ID": 91379,
+   "LogTitle": "Decayed Land",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 335000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "246777 Ghikal"
+  ],
+  "enders": [
+   "246777 Ghikal"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 91381,
+  "title": "Reticent Evil",
+  "sort": 15355,
+  "template": {
+   "ID": 91381,
+   "LogTitle": "Reticent Evil",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "246777 Ghikal"
+  ],
+  "enders": [
+   "246777 Ghikal"
+  ],
+  "objectives": 2
+ },
+ {
+  "id": 91450,
+  "title": "We Ready Now",
+  "sort": 15355,
+  "template": {
+   "ID": 91450,
+   "LogTitle": "We Ready Now",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 33100,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "246208 Brakko"
+  ],
+  "enders": [
+   "243226 Boletus"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 91490,
+  "title": "Dousing Teldrassil",
+  "sort": 15355,
+  "template": {
+   "ID": 91490,
+   "LogTitle": "Dousing Teldrassil",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4567,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 91492,
+  "title": "The Tale of Aln'hara's Bloom",
+  "sort": 15355,
+  "template": {
+   "ID": 91492,
+   "LogTitle": "The Tale of Aln'hara's Bloom",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 11
+ },
+ {
+  "id": 91506,
+  "title": "Tale of the First Shul'ka and the Flame",
+  "sort": 15355,
+  "template": {
+   "ID": 91506,
+   "LogTitle": "Tale of the First Shul'ka and the Flame",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 6
+ },
+ {
+  "id": 91507,
+  "title": "The Tale of Russula",
+  "sort": 15355,
+  "template": {
+   "ID": 91507,
+   "LogTitle": "The Tale of Russula",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 11
+ },
+ {
+  "id": 91508,
+  "title": "Tale of Rootways and Wardens",
+  "sort": 15355,
+  "template": {
+   "ID": 91508,
+   "LogTitle": "Tale of Rootways and Wardens",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 6
+ },
+ {
+  "id": 91509,
+  "title": "The Tale of a Stone Falls from the Sky",
+  "sort": 15355,
+  "template": {
+   "ID": 91509,
+   "LogTitle": "The Tale of a Stone Falls from the Sky",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 9
+ },
+ {
+  "id": 91550,
+  "title": "A Game of Silence and Shadow",
+  "sort": 15355,
+  "template": {
+   "ID": 91550,
+   "LogTitle": "A Game of Silence and Shadow",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "247640 Shao'mal"
+  ],
+  "enders": [
+   "247658 Nayeli"
+  ],
+  "objectives": 8
+ },
+ {
+  "id": 91551,
+  "title": "De-nest-stration",
+  "sort": 15355,
+  "template": {
+   "ID": 91551,
+   "LogTitle": "De-nest-stration",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 159500,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "247658 Nayeli"
+  ],
+  "enders": [
+   "247658 Nayeli",
+   "247736 Nayeli"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 91552,
+  "title": "Feathered Fury",
+  "sort": 15355,
+  "template": {
+   "ID": 91552,
+   "LogTitle": "Feathered Fury",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "247658 Nayeli"
+  ],
+  "enders": [
+   "247736 Nayeli"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 91553,
+  "title": "Haranir Never Say Die!",
+  "sort": 15355,
+  "template": {
+   "ID": 91553,
+   "LogTitle": "Haranir Never Say Die!",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 260439,
+   "RewardAmount1": 1,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 638000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "247658 Nayeli",
+   "247736 Nayeli"
+  ],
+  "enders": [
+   "248574 Shao'mal"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 91555,
+  "title": "Defenders of the Vale",
+  "sort": 15355,
+  "template": {
+   "ID": 91555,
+   "LogTitle": "Defenders of the Vale",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4567,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 91582,
+  "title": "Pruning the Lattice",
+  "sort": 15355,
+  "template": {
+   "ID": 91582,
+   "LogTitle": "Pruning the Lattice",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4567,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 8
+ },
+ {
+  "id": 91585,
+  "title": "Fresh from the Garden",
+  "sort": 15355,
+  "template": {
+   "ID": 91585,
+   "LogTitle": "Fresh from the Garden",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "247936 Yu'relen"
+  ],
+  "enders": [
+   "247936 Yu'relen"
+  ],
+  "objectives": 3
+ },
+ {
+  "id": 91586,
+  "title": "Soil-Based Alternatives",
+  "sort": 15355,
+  "template": {
+   "ID": 91586,
+   "LogTitle": "Soil-Based Alternatives",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "247936 Yu'relen"
+  ],
+  "enders": [
+   "247936 Yu'relen"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 91587,
+  "title": "Carcass Cuisine",
+  "sort": 15355,
+  "template": {
+   "ID": 91587,
+   "LogTitle": "Carcass Cuisine",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "247936 Yu'relen"
+  ],
+  "enders": [
+   "247936 Yu'relen"
+  ],
+  "objectives": 2
+ },
+ {
+  "id": 91588,
+  "title": "Harandar's Kitchen",
+  "sort": 15355,
+  "template": {
+   "ID": 91588,
+   "LogTitle": "Harandar's Kitchen",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "247936 Yu'relen"
+  ],
+  "enders": [
+   "247936 Yu'relen"
+  ],
+  "objectives": 3
+ },
+ {
+  "id": 91589,
+  "title": "Root Dash Delivery",
+  "sort": 15355,
+  "template": {
+   "ID": 91589,
+   "LogTitle": "Root Dash Delivery",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 264178,
+   "RewardAmount1": 1,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 159500,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "247936 Yu'relen"
+  ],
+  "enders": [
+   "248117 Yu'relen"
+  ],
+  "objectives": 5
+ },
+ {
+  "id": 91785,
+  "title": "Ensporcelled",
+  "sort": 15355,
+  "template": {
+   "ID": 91785,
+   "LogTitle": "Ensporcelled",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4567,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 91872,
+  "title": "The Former Rootwarden",
+  "sort": 15355,
+  "template": {
+   "ID": 91872,
+   "LogTitle": "The Former Rootwarden",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "240839 Hagar"
+  ],
+  "enders": [
+   "252495 Hagar"
+  ],
+  "objectives": 0
+ },
+ {
+  "id": 91873,
+  "title": "Buffer Zone",
+  "sort": 15355,
+  "template": {
+   "ID": 91873,
+   "LogTitle": "Buffer Zone",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "252495 Hagar"
+  ],
+  "enders": [
+   "240839 Hagar",
+   "252495 Hagar"
+  ],
+  "objectives": 4
+ },
+ {
+  "id": 91874,
+  "title": "Flare Up",
+  "sort": 15355,
+  "template": {
+   "ID": 91874,
+   "LogTitle": "Flare Up",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "252495 Hagar"
+  ],
+  "enders": [
+   "237332 Hagar",
+   "240839 Hagar",
+   "252495 Hagar"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 91875,
+  "title": "Natural Remedy",
+  "sort": 15355,
+  "template": {
+   "ID": 91875,
+   "LogTitle": "Natural Remedy",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "252495 Hagar"
+  ],
+  "enders": [
+   "237332 Hagar",
+   "240839 Hagar",
+   "252495 Hagar"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 91876,
+  "title": "Tending Hope",
+  "sort": 15355,
+  "template": {
+   "ID": 91876,
+   "LogTitle": "Tending Hope",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "252495 Hagar"
+  ],
+  "enders": [
+   "237332 Hagar",
+   "240839 Hagar",
+   "252495 Hagar"
+  ],
+  "objectives": 4
+ },
+ {
+  "id": 91927,
+  "title": "Ooze Booting",
+  "sort": 15355,
+  "template": {
+   "ID": 91927,
+   "LogTitle": "Ooze Booting",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4567,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 91937,
+  "title": "Portraits in the Vale",
+  "sort": 15355,
+  "template": {
+   "ID": 91937,
+   "LogTitle": "Portraits in the Vale",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4567,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 6
+ },
+ {
+  "id": 91970,
+  "title": "WANTED: Gelatonius",
+  "sort": 15355,
+  "template": {
+   "ID": 91970,
+   "LogTitle": "WANTED: Gelatonius",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 5915,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [
+   "249361 Shul'ka Li'tya"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 91980,
+  "title": "WANTED: Hellebora's Thorn",
+  "sort": 15355,
+  "template": {
+   "ID": 91980,
+   "LogTitle": "WANTED: Hellebora's Thorn",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 5915,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [
+   "249361 Shul'ka Li'tya"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 91981,
+  "title": "To Poison and to Heal",
+  "sort": 15355,
+  "template": {
+   "ID": 91981,
+   "LogTitle": "To Poison and to Heal",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4567,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 91982,
+  "title": "WANTED: Toadshade's Petals",
+  "sort": 15355,
+  "template": {
+   "ID": 91982,
+   "LogTitle": "WANTED: Toadshade's Petals",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 5915,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 91998,
+  "title": "WANTED: Muckmire's Choking Vines",
+  "sort": 15355,
+  "template": {
+   "ID": 91998,
+   "LogTitle": "WANTED: Muckmire's Choking Vines",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 5915,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 92010,
+  "title": "WANTED: Slewstalk's Stalks",
+  "sort": 15355,
+  "template": {
+   "ID": 92010,
+   "LogTitle": "WANTED: Slewstalk's Stalks",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 5915,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [
+   "249361 Shul'ka Li'tya"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 92012,
+  "title": "WANTED: Gorebarb's Pincers",
+  "sort": 15355,
+  "template": {
+   "ID": 92012,
+   "LogTitle": "WANTED: Gorebarb's Pincers",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 5915,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 92013,
+  "title": "WANTED: Dionaea's Thorntusks",
+  "sort": 15355,
+  "template": {
+   "ID": 92013,
+   "LogTitle": "WANTED: Dionaea's Thorntusks",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 5915,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 92034,
+  "title": "Thorm'belan",
+  "sort": 15355,
+  "template": {
+   "ID": 92034,
+   "LogTitle": "Thorm'belan",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4907,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 92062,
+  "title": "Tending the Roots",
+  "sort": 15355,
+  "template": {
+   "ID": 92062,
+   "LogTitle": "Tending the Roots",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4567,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 92085,
+  "title": "Claw Enforcement",
+  "sort": 15355,
+  "template": {
+   "ID": 92085,
+   "LogTitle": "Claw Enforcement",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4567,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 92086,
+  "title": "A Taste of Accord",
+  "sort": 15355,
+  "template": {
+   "ID": 92086,
+   "LogTitle": "A Taste of Accord",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4567,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 4
+ },
+ {
+  "id": 92119,
+  "title": "Bitterbloom Burn Down",
+  "sort": 15355,
+  "template": {
+   "ID": 92119,
+   "LogTitle": "Bitterbloom Burn Down",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4567,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 92162,
+  "title": "A Refined Potadpalate",
+  "sort": 15355,
+  "template": {
+   "ID": 92162,
+   "LogTitle": "A Refined Potadpalate",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4569,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 6
+ },
+ {
+  "id": 92184,
+  "title": "Potadpole Wrangling",
+  "sort": 15355,
+  "template": {
+   "ID": 92184,
+   "LogTitle": "Potadpole Wrangling",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4567,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 92448,
+  "title": "Where Dust Dances",
+  "sort": 15355,
+  "template": {
+   "ID": 92448,
+   "LogTitle": "Where Dust Dances",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 32500,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [
+   "251259 Mothkeeper Wew'tam"
+  ],
+  "objectives": 0
+ },
+ {
+  "id": 92547,
+  "title": "Emissary of the Hara'ti",
+  "sort": 15355,
+  "template": {
+   "ID": 92547,
+   "LogTitle": "Emissary of the Hara'ti",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 92582,
+  "title": "Apply to Roots",
+  "sort": 15355,
+  "template": {
+   "ID": 92582,
+   "LogTitle": "Apply to Roots",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4567,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 92583,
+  "title": "Fungicide",
+  "sort": 15355,
+  "template": {
+   "ID": 92583,
+   "LogTitle": "Fungicide",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4567,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 8
+ },
+ {
+  "id": 92589,
+  "title": "<DNT> Last Scenario Step Quest",
+  "sort": -671,
+  "template": {
+   "ID": 92589,
+   "LogTitle": "<DNT> Last Scenario Step Quest",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 92616,
+  "title": "Mushrooming Courage",
+  "sort": 15355,
+  "template": {
+   "ID": 92616,
+   "LogTitle": "Mushrooming Courage",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "257287 Brakko"
+  ],
+  "enders": [
+   "251524 Sturdy Fungarian",
+   "257287 Brakko"
+  ],
+  "objectives": 3
+ },
+ {
+  "id": 92617,
+  "title": "Mushrooming Resilience",
+  "sort": 15355,
+  "template": {
+   "ID": 92617,
+   "LogTitle": "Mushrooming Resilience",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "251723 Ziny"
+  ],
+  "enders": [
+   "251723 Ziny"
+  ],
+  "objectives": 3
+ },
+ {
+  "id": 92618,
+  "title": "Mushrooming Confidence",
+  "sort": 15355,
+  "template": {
+   "ID": 92618,
+   "LogTitle": "Mushrooming Confidence",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "251715 Tuktuk"
+  ],
+  "enders": [
+   "247252 Tuktuk",
+   "251715 Tuktuk"
+  ],
+  "objectives": 6
+ },
+ {
+  "id": 92636,
+  "title": "Predaxas",
+  "sort": 15355,
+  "template": {
+   "ID": 92636,
+   "LogTitle": "Predaxas",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4907,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 92694,
+  "title": "Dusk Among Pigments",
+  "sort": 15355,
+  "template": {
+   "ID": 92694,
+   "LogTitle": "Dusk Among Pigments",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "252871 Zur'ashar Shay'neia"
+  ],
+  "enders": [
+   "252872 Orn'shan"
+  ],
+  "objectives": 0
+ },
+ {
+  "id": 92695,
+  "title": "The Stroke of Storms",
+  "sort": 15355,
+  "template": {
+   "ID": 92695,
+   "LogTitle": "The Stroke of Storms",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "252872 Orn'shan"
+  ],
+  "enders": [
+   "252872 Orn'shan"
+  ],
+  "objectives": 9
+ },
+ {
+  "id": 92696,
+  "title": "Colors Born Anew",
+  "sort": 15355,
+  "template": {
+   "ID": 92696,
+   "LogTitle": "Colors Born Anew",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "252872 Orn'shan"
+  ],
+  "enders": [
+   "252872 Orn'shan"
+  ],
+  "objectives": 2
+ },
+ {
+  "id": 92697,
+  "title": "Hues of Tomorrow",
+  "sort": 15355,
+  "template": {
+   "ID": 92697,
+   "LogTitle": "Hues of Tomorrow",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 164200,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "252872 Orn'shan"
+  ],
+  "enders": [
+   "252872 Orn'shan"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 92713,
+  "title": "Echoes Rekindled",
+  "sort": 15355,
+  "template": {
+   "ID": 92713,
+   "LogTitle": "Echoes Rekindled",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 92716,
+  "title": "The Story of Wey'nan's Ward",
+  "sort": 15355,
+  "template": {
+   "ID": 92716,
+   "LogTitle": "The Story of Wey'nan's Ward",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 92719,
+  "title": "The Story of the Cauldron of Echoes",
+  "sort": 15355,
+  "template": {
+   "ID": 92719,
+   "LogTitle": "The Story of the Cauldron of Echoes",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 92720,
+  "title": "The Story of Aln'hara's Bloom",
+  "sort": 15355,
+  "template": {
+   "ID": 92720,
+   "LogTitle": "The Story of Aln'hara's Bloom",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 92721,
+  "title": "The Story of the Echoless Flame",
+  "sort": 15355,
+  "template": {
+   "ID": 92721,
+   "LogTitle": "The Story of the Echoless Flame",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 92722,
+  "title": "The Story of Russula's Outreach",
+  "sort": 15355,
+  "template": {
+   "ID": 92722,
+   "LogTitle": "The Story of Russula's Outreach",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 92724,
+  "title": "The Story of the Root of the World",
+  "sort": 15355,
+  "template": {
+   "ID": 92724,
+   "LogTitle": "The Story of the Root of the World",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 92725,
+  "title": "The Story of Sky's Hope",
+  "sort": 15355,
+  "template": {
+   "ID": 92725,
+   "LogTitle": "The Story of Sky's Hope",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 92732,
+  "title": "Light Disturbance",
+  "sort": 15355,
+  "template": {
+   "ID": 92732,
+   "LogTitle": "Light Disturbance",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "241655 Hannan"
+  ],
+  "enders": [
+   "253087 Luminescent Corpse"
+  ],
+  "objectives": 0
+ },
+ {
+  "id": 92736,
+  "title": "Light Stroll",
+  "sort": 15355,
+  "template": {
+   "ID": 92736,
+   "LogTitle": "Light Stroll",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "253087 Luminescent Corpse"
+  ],
+  "enders": [
+   "253105 Hannan"
+  ],
+  "objectives": 5
+ },
+ {
+  "id": 92737,
+  "title": "Light Carnage",
+  "sort": 15355,
+  "template": {
+   "ID": 92737,
+   "LogTitle": "Light Carnage",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "253105 Hannan"
+  ],
+  "enders": [
+   "253105 Hannan"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 92738,
+  "title": "Potatoad Tots",
+  "sort": 15355,
+  "template": {
+   "ID": 92738,
+   "LogTitle": "Potatoad Tots",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "253105 Hannan"
+  ],
+  "enders": [
+   "253105 Hannan"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 92739,
+  "title": "O.K. Bloomer",
+  "sort": 15355,
+  "template": {
+   "ID": 92739,
+   "LogTitle": "O.K. Bloomer",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "253105 Hannan"
+  ],
+  "enders": [
+   "241655 Hannan"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 92864,
+  "title": "Drift Them Away",
+  "sort": 15355,
+  "template": {
+   "ID": 92864,
+   "LogTitle": "Drift Them Away",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "253312 Ney'tar"
+  ],
+  "enders": [
+   "253312 Ney'tar"
+  ],
+  "objectives": 2
+ },
+ {
+  "id": 92865,
+  "title": "Feeding the Buds",
+  "sort": 15355,
+  "template": {
+   "ID": 92865,
+   "LogTitle": "Feeding the Buds",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "253312 Ney'tar"
+  ],
+  "enders": [
+   "253312 Ney'tar"
+  ],
+  "objectives": 5
+ },
+ {
+  "id": 92866,
+  "title": "Re-Hydra-ted",
+  "sort": 15355,
+  "template": {
+   "ID": 92866,
+   "LogTitle": "Re-Hydra-ted",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 260705,
+   "RewardAmount1": 1,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "253312 Ney'tar"
+  ],
+  "enders": [
+   "253312 Ney'tar"
+  ],
+  "objectives": 9
+ },
+ {
+  "id": 92882,
+  "title": "A Hunter's Plight",
+  "sort": 15355,
+  "template": {
+   "ID": 92882,
+   "LogTitle": "A Hunter's Plight",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "253390 Ketan"
+  ],
+  "enders": [
+   "253392 Akazi"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 92883,
+  "title": "A Hunter's Duty",
+  "sort": 15355,
+  "template": {
+   "ID": 92883,
+   "LogTitle": "A Hunter's Duty",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 341600,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "253392 Akazi"
+  ],
+  "enders": [
+   "253433 Ketan"
+  ],
+  "objectives": 7
+ },
+ {
+  "id": 92884,
+  "title": "A Hunter's Weapon",
+  "sort": 15355,
+  "template": {
+   "ID": 92884,
+   "LogTitle": "A Hunter's Weapon",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 319000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "253433 Ketan"
+  ],
+  "enders": [
+   "253392 Akazi"
+  ],
+  "objectives": 6
+ },
+ {
+  "id": 92885,
+  "title": "A Hunter's Prey",
+  "sort": 15355,
+  "template": {
+   "ID": 92885,
+   "LogTitle": "A Hunter's Prey",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 638000,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "253392 Akazi"
+  ],
+  "enders": [
+   "253392 Akazi"
+  ],
+  "objectives": 3
+ },
+ {
+  "id": 92890,
+  "title": "A Handful of Voidlight Marl",
+  "sort": 15355,
+  "template": {
+   "ID": 92890,
+   "LogTitle": "A Handful of Voidlight Marl",
+   "QuestType": 0,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [
+   "240407 Naynar"
+  ],
+  "objectives": 0
+ },
+ {
+  "id": 92891,
+  "title": "A Cluster of Voidlight Marl",
+  "sort": 15355,
+  "template": {
+   "ID": 92891,
+   "LogTitle": "A Cluster of Voidlight Marl",
+   "QuestType": 0,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 92892,
+  "title": "A Trove of Voidlight Marl",
+  "sort": 15355,
+  "template": {
+   "ID": 92892,
+   "LogTitle": "A Trove of Voidlight Marl",
+   "QuestType": 0,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 92895,
+  "title": "Hagar's Invitation",
+  "sort": -663,
+  "template": {
+   "ID": 92895,
+   "LogTitle": "Hagar's Invitation",
+   "QuestType": 2,
+   "QuestSortID": -663,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 5855,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 23400,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "253640 Orweyna"
+  ],
+  "enders": [
+   "253654 Orweyna"
+  ],
+  "objectives": 2
+ },
+ {
+  "id": 92899,
+  "title": "History Lesson",
+  "sort": -663,
+  "template": {
+   "ID": 92899,
+   "LogTitle": "History Lesson",
+   "QuestType": 2,
+   "QuestSortID": -663,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 0,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 170800,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "253654 Orweyna"
+  ],
+  "enders": [
+   "253651 Loa Speaker Kinduru"
+  ],
+  "objectives": 8
+ },
+ {
+  "id": 92900,
+  "title": "A Favor for Kinduru",
+  "sort": -663,
+  "template": {
+   "ID": 92900,
+   "LogTitle": "A Favor for Kinduru",
+   "QuestType": 2,
+   "QuestSortID": -663,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 0,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 34100,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "253651 Loa Speaker Kinduru",
+   "253790 Loa Speaker Kinduru"
+  ],
+  "enders": [
+   "253653 Zul'jan"
+  ],
+  "objectives": 4
+ },
+ {
+  "id": 92901,
+  "title": "Revisionist History",
+  "sort": -663,
+  "template": {
+   "ID": 92901,
+   "LogTitle": "Revisionist History",
+   "QuestType": 2,
+   "QuestSortID": -663,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 5855,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": {
+   "PrevQuestID": 92900,
+   "NextQuestID": 0,
+   "ExclusiveGroup": 0,
+   "BreadcrumbForQuestId": 0,
+   "RewardMailTemplateID": 0
+  },
+  "starters": [
+   "255659 Orweyna"
+  ],
+  "enders": [
+   "255659 Orweyna"
+  ],
+  "objectives": 9
+ },
+ {
+  "id": 92902,
+  "title": "Rescue Amani from Priest Sacrifices",
+  "sort": 15355,
+  "template": {
+   "ID": 92902,
+   "LogTitle": "Rescue Amani from Priest Sacrifices",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 5855,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 92904,
+  "title": "Return to Zul'Aman",
+  "sort": -663,
+  "template": {
+   "ID": 92904,
+   "LogTitle": "Return to Zul'Aman",
+   "QuestType": 2,
+   "QuestSortID": -663,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 5855,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": {
+   "PrevQuestID": 92901,
+   "NextQuestID": 0,
+   "ExclusiveGroup": 0,
+   "BreadcrumbForQuestId": 0,
+   "RewardMailTemplateID": 0
+  },
+  "starters": [
+   "255660 Zul'jan"
+  ],
+  "enders": [
+   "256260 Zul'jan"
+  ],
+  "objectives": 2
+ },
+ {
+  "id": 92907,
+  "title": "Amani Answers",
+  "sort": -663,
+  "template": {
+   "ID": 92907,
+   "LogTitle": "Amani Answers",
+   "QuestType": 2,
+   "QuestSortID": -663,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 5855,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": {
+   "PrevQuestID": 92904,
+   "NextQuestID": 0,
+   "ExclusiveGroup": 0,
+   "BreadcrumbForQuestId": 0,
+   "RewardMailTemplateID": 0
+  },
+  "starters": [
+   "256260 Zul'jan"
+  ],
+  "enders": [
+   "256260 Zul'jan"
+  ],
+  "objectives": 11
+ },
+ {
+  "id": 92951,
+  "title": "Digging Deeper",
+  "sort": -663,
+  "template": {
+   "ID": 92951,
+   "LogTitle": "Digging Deeper",
+   "QuestType": 2,
+   "QuestSortID": -663,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 5855,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": {
+   "PrevQuestID": 92952,
+   "NextQuestID": 0,
+   "ExclusiveGroup": 0,
+   "BreadcrumbForQuestId": 0,
+   "RewardMailTemplateID": 0
+  },
+  "starters": [
+   "253806 Zul'jan"
+  ],
+  "enders": [
+   "253804 Loa Speaker Kinduru"
+  ],
+  "objectives": 4
+ },
+ {
+  "id": 92952,
+  "title": "Mission to Maisara",
+  "sort": -663,
+  "template": {
+   "ID": 92952,
+   "LogTitle": "Mission to Maisara",
+   "QuestType": 2,
+   "QuestSortID": -663,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 5855,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": {
+   "PrevQuestID": 92957,
+   "NextQuestID": 0,
+   "ExclusiveGroup": 0,
+   "BreadcrumbForQuestId": 0,
+   "RewardMailTemplateID": 0
+  },
+  "starters": [
+   "253833 Befuddled Amani Mask"
+  ],
+  "enders": [
+   "253805 Enchanted Amani Mask"
+  ],
+  "objectives": 2
+ },
+ {
+  "id": 92953,
+  "title": "Memories of Malacrass",
+  "sort": -663,
+  "template": {
+   "ID": 92953,
+   "LogTitle": "Memories of Malacrass",
+   "QuestType": 2,
+   "QuestSortID": -663,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 5855,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": {
+   "PrevQuestID": 92952,
+   "NextQuestID": 0,
+   "ExclusiveGroup": 0,
+   "BreadcrumbForQuestId": 0,
+   "RewardMailTemplateID": 0
+  },
+  "starters": [
+   "253805 Enchanted Amani Mask"
+  ],
+  "enders": [
+   "253804 Loa Speaker Kinduru"
+  ],
+  "objectives": 4
+ },
+ {
+  "id": 92954,
+  "title": "Maisara Caverns: Master of Souls",
+  "sort": -663,
+  "template": {
+   "ID": 92954,
+   "LogTitle": "Maisara Caverns: Master of Souls",
+   "QuestType": 2,
+   "QuestSortID": -663,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 5071,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": {
+   "PrevQuestID": 92953,
+   "NextQuestID": 0,
+   "ExclusiveGroup": 0,
+   "BreadcrumbForQuestId": 0,
+   "RewardMailTemplateID": 0
+  },
+  "starters": [
+   "253806 Zul'jan"
+  ],
+  "enders": [
+   "253806 Zul'jan"
+  ],
+  "objectives": 4
+ },
+ {
+  "id": 92955,
+  "title": "The Tablets of Numazon",
+  "sort": -663,
+  "template": {
+   "ID": 92955,
+   "LogTitle": "The Tablets of Numazon",
+   "QuestType": 2,
+   "QuestSortID": -663,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 5855,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": {
+   "PrevQuestID": 92907,
+   "NextQuestID": 0,
+   "ExclusiveGroup": 0,
+   "BreadcrumbForQuestId": 0,
+   "RewardMailTemplateID": 0
+  },
+  "starters": [
+   "256260 Zul'jan"
+  ],
+  "enders": [
+   "253834 Zul'jan"
+  ],
+  "objectives": 0
+ },
+ {
+  "id": 92957,
+  "title": "There's the Rub",
+  "sort": -663,
+  "template": {
+   "ID": 92957,
+   "LogTitle": "There's the Rub",
+   "QuestType": 2,
+   "QuestSortID": -663,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 5855,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": {
+   "PrevQuestID": 92955,
+   "NextQuestID": 0,
+   "ExclusiveGroup": 0,
+   "BreadcrumbForQuestId": 0,
+   "RewardMailTemplateID": 0
+  },
+  "starters": [
+   "253834 Zul'jan"
+  ],
+  "enders": [
+   "253832 Loa Speaker Kinduru"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 92958,
+  "title": "Brain Drain",
+  "sort": -663,
+  "template": {
+   "ID": 92958,
+   "LogTitle": "Brain Drain",
+   "QuestType": 2,
+   "QuestSortID": -663,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 5855,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": {
+   "PrevQuestID": 92955,
+   "NextQuestID": 0,
+   "ExclusiveGroup": 0,
+   "BreadcrumbForQuestId": 0,
+   "RewardMailTemplateID": 0
+  },
+  "starters": [
+   "253833 Befuddled Amani Mask"
+  ],
+  "enders": [
+   "253833 Befuddled Amani Mask"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 93010,
+  "title": "The Serpent Shrine",
+  "sort": -663,
+  "template": {
+   "ID": 93010,
+   "LogTitle": "The Serpent Shrine",
+   "QuestType": 2,
+   "QuestSortID": -663,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 5855,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": {
+   "PrevQuestID": 92954,
+   "NextQuestID": 0,
+   "ExclusiveGroup": 0,
+   "BreadcrumbForQuestId": 0,
+   "RewardMailTemplateID": 0
+  },
+  "starters": [
+   "253806 Zul'jan"
+  ],
+  "enders": [
+   "253840 Zul'jan"
+  ],
+  "objectives": 0
+ },
+ {
+  "id": 93011,
+  "title": "Legacy of the Amani",
+  "sort": -663,
+  "template": {
+   "ID": 93011,
+   "LogTitle": "Legacy of the Amani",
+   "QuestType": 2,
+   "QuestSortID": -663,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 5855,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": {
+   "PrevQuestID": 93010,
+   "NextQuestID": 0,
+   "ExclusiveGroup": 0,
+   "BreadcrumbForQuestId": 0,
+   "RewardMailTemplateID": 0
+  },
+  "starters": [
+   "253840 Zul'jan"
+  ],
+  "enders": [
+   "259778 Orweyna"
+  ],
+  "objectives": 3
+ },
+ {
+  "id": 93012,
+  "title": "Dead End",
+  "sort": -663,
+  "template": {
+   "ID": 93012,
+   "LogTitle": "Dead End",
+   "QuestType": 2,
+   "QuestSortID": -663,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 5855,
+   "RewardItem1": 268557,
+   "RewardAmount1": 1,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": {
+   "PrevQuestID": 93011,
+   "NextQuestID": 0,
+   "ExclusiveGroup": 0,
+   "BreadcrumbForQuestId": 0,
+   "RewardMailTemplateID": 0
+  },
+  "starters": [
+   "259778 Orweyna"
+  ],
+  "enders": [
+   "253848 Zul'jarra"
+  ],
+  "objectives": 6
+ },
+ {
+  "id": 93013,
+  "title": "Special Assignment: Push Back the Light",
+  "sort": 15355,
+  "template": {
+   "ID": 93013,
+   "LogTitle": "Special Assignment: Push Back the Light",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4567,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 5
+ },
+ {
+  "id": 93046,
+  "title": "Nestled Belongings",
+  "sort": 15355,
+  "template": {
+   "ID": 93046,
+   "LogTitle": "Nestled Belongings",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4567,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 5
+ },
+ {
+  "id": 93053,
+  "title": "Cleaning the Den",
+  "sort": 15355,
+  "template": {
+   "ID": 93053,
+   "LogTitle": "Cleaning the Den",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4567,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 93071,
+  "title": "Rotten to the Core",
+  "sort": 15355,
+  "template": {
+   "ID": 93071,
+   "LogTitle": "Rotten to the Core",
+   "QuestType": 3,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4567,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 93416,
+  "title": "Delver's Call: The Gulf of Memory",
+  "sort": 15355,
+  "template": {
+   "ID": 93416,
+   "LogTitle": "Delver's Call: The Gulf of Memory",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4898,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 3717600,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [
+   "238170 Zur'ashar Kassameh"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 93421,
+  "title": "Delver's Call: The Grudge Pit",
+  "sort": 15355,
+  "template": {
+   "ID": 93421,
+   "LogTitle": "Delver's Call: The Grudge Pit",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4898,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 3717600,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [
+   "243226 Boletus"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 93425,
+  "title": "Sparks of War: Harandar",
+  "sort": 15355,
+  "template": {
+   "ID": 93425,
+   "LogTitle": "Sparks of War: Harandar",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3313,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "254971 Zerella"
+  ],
+  "enders": [
+   "254971 Zerella"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 93566,
+  "title": "Renowned with the Amani Tribe",
+  "sort": 15355,
+  "template": {
+   "ID": 93566,
+   "LogTitle": "Renowned with the Amani Tribe",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 251970,
+   "RewardAmount1": 1,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "240279 Magovu"
+  ],
+  "enders": [
+   "240279 Magovu"
+  ],
+  "objectives": 0
+ },
+ {
+  "id": 93668,
+  "title": "An Old Game for a New Age",
+  "sort": -665,
+  "template": {
+   "ID": 93668,
+   "LogTitle": "An Old Game for a New Age",
+   "QuestType": 2,
+   "QuestSortID": -665,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3344,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 93716,
+  "title": "Learning the Cloaks - Part 1",
+  "sort": -665,
+  "template": {
+   "ID": 93716,
+   "LogTitle": "Learning the Cloaks - Part 1",
+   "QuestType": 2,
+   "QuestSortID": -665,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3344,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 93717,
+  "title": "Learning the Cloaks - Part 2",
+  "sort": -665,
+  "template": {
+   "ID": 93717,
+   "LogTitle": "Learning the Cloaks - Part 2",
+   "QuestType": 2,
+   "QuestSortID": -665,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3344,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 93719,
+  "title": "Nothing Captured, Nothing Gained",
+  "sort": -665,
+  "template": {
+   "ID": 93719,
+   "LogTitle": "Nothing Captured, Nothing Gained",
+   "QuestType": 2,
+   "QuestSortID": -665,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3344,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 3
+ },
+ {
+  "id": 93745,
+  "title": "Har'athir, Village of Memory",
+  "sort": 15355,
+  "template": {
+   "ID": 93745,
+   "LogTitle": "Har'athir, Village of Memory",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 34100,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 93771,
+  "title": "Har'kuai, Village of Rain",
+  "sort": 15355,
+  "template": {
+   "ID": 93771,
+   "LogTitle": "Har'kuai, Village of Rain",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 34100,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 93774,
+  "title": "When is a Chair not for Sitting?",
+  "sort": -665,
+  "template": {
+   "ID": 93774,
+   "LogTitle": "When is a Chair not for Sitting?",
+   "QuestType": 2,
+   "QuestSortID": -665,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3344,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 93775,
+  "title": "Har'mara, Village of Balance",
+  "sort": 15355,
+  "template": {
+   "ID": 93775,
+   "LogTitle": "Har'mara, Village of Balance",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 34100,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 93776,
+  "title": "Har'alnor, Village of Twilight",
+  "sort": 15355,
+  "template": {
+   "ID": 93776,
+   "LogTitle": "Har'alnor, Village of Twilight",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 93816,
+  "title": "Putting it Together",
+  "sort": -665,
+  "template": {
+   "ID": 93816,
+   "LogTitle": "Putting it Together",
+   "QuestType": 2,
+   "QuestSortID": -665,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3344,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 93870,
+  "title": "The Ephemeron Masquerade",
+  "sort": -665,
+  "template": {
+   "ID": 93870,
+   "LogTitle": "The Ephemeron Masquerade",
+   "QuestType": 2,
+   "QuestSortID": -665,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 6069,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 93907,
+  "title": "Edification of the Worthy",
+  "sort": -665,
+  "template": {
+   "ID": 93907,
+   "LogTitle": "Edification of the Worthy",
+   "QuestType": 2,
+   "QuestSortID": -665,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3344,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 93932,
+  "title": "Legendary Prosperity",
+  "sort": 15355,
+  "template": {
+   "ID": 93932,
+   "LogTitle": "Legendary Prosperity",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4240,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [
+   "240407 Naynar"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 93954,
+  "title": "Prestidigimotion",
+  "sort": -665,
+  "template": {
+   "ID": 93954,
+   "LogTitle": "Prestidigimotion",
+   "QuestType": 2,
+   "QuestSortID": -665,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3344,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 94380,
+  "title": "Ranger Captain's Summons",
+  "sort": -671,
+  "template": {
+   "ID": 94380,
+   "LogTitle": "Ranger Captain's Summons",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 94382,
+  "title": "Ritual Problems",
+  "sort": -672,
+  "template": {
+   "ID": 94382,
+   "LogTitle": "Ritual Problems",
+   "QuestType": 2,
+   "QuestSortID": -672,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3313,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 94383,
+  "title": "Ritual Interest",
+  "sort": -672,
+  "template": {
+   "ID": 94383,
+   "LogTitle": "Ritual Interest",
+   "QuestType": 2,
+   "QuestSortID": -672,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3313,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 94385,
+  "title": "Void Assaults: Eversong Woods",
+  "sort": -671,
+  "template": {
+   "ID": 94385,
+   "LogTitle": "Void Assaults: Eversong Woods",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "257411 Ranger Captain Lilatha"
+  ],
+  "enders": [],
+  "objectives": 3
+ },
+ {
+  "id": 94386,
+  "title": "Void Assaults: Zul'Aman",
+  "sort": -671,
+  "template": {
+   "ID": 94386,
+   "LogTitle": "Void Assaults: Zul'Aman",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 3
+ },
+ {
+  "id": 94390,
+  "title": "Special Assignment: A Hunter's Regret",
+  "sort": 15355,
+  "template": {
+   "ID": 94390,
+   "LogTitle": "Special Assignment: A Hunter's Regret",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4567,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 94391,
+  "title": "Special Assignment: Push Back the Light",
+  "sort": 15355,
+  "template": {
+   "ID": 94391,
+   "LogTitle": "Special Assignment: Push Back the Light",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4567,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 94444,
+  "title": "Choose a Path",
+  "sort": -664,
+  "template": {
+   "ID": 94444,
+   "LogTitle": "Choose a Path",
+   "QuestType": 2,
+   "QuestSortID": -664,
+   "AllowableRaces": 524288,
+   "ContentTuningID": 863,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 94445,
+  "title": "Choose a Path",
+  "sort": -664,
+  "template": {
+   "ID": 94445,
+   "LogTitle": "Choose a Path",
+   "QuestType": 2,
+   "QuestSortID": -664,
+   "AllowableRaces": 1048576,
+   "ContentTuningID": 863,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 94456,
+  "title": "<DNT> Last Scenario Step Quest",
+  "sort": -671,
+  "template": {
+   "ID": 94456,
+   "LogTitle": "<DNT> Last Scenario Step Quest",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 94464,
+  "title": "Heritage of the Haranir",
+  "sort": -664,
+  "template": {
+   "ID": 94464,
+   "LogTitle": "Heritage of the Haranir",
+   "QuestType": 2,
+   "QuestSortID": -664,
+   "AllowableRaces": 1572864,
+   "ContentTuningID": 1281,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [
+   "255828 Orweyna"
+  ],
+  "objectives": 0
+ },
+ {
+  "id": 94469,
+  "title": "A Handful of Voidlight Marl",
+  "sort": 15355,
+  "template": {
+   "ID": 94469,
+   "LogTitle": "A Handful of Voidlight Marl",
+   "QuestType": 0,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [
+   "248328 Void Researcher Anomander"
+  ],
+  "objectives": 0
+ },
+ {
+  "id": 94470,
+  "title": "A Cluster of Voidlight Marl",
+  "sort": 15355,
+  "template": {
+   "ID": 94470,
+   "LogTitle": "A Cluster of Voidlight Marl",
+   "QuestType": 0,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 94471,
+  "title": "A Trove of Voidlight Marl",
+  "sort": 15355,
+  "template": {
+   "ID": 94471,
+   "LogTitle": "A Trove of Voidlight Marl",
+   "QuestType": 0,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 94671,
+  "title": "Finery Funds",
+  "sort": 15355,
+  "template": {
+   "ID": 94671,
+   "LogTitle": "Finery Funds",
+   "QuestType": 0,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [
+   "248328 Void Researcher Anomander"
+  ],
+  "objectives": 0
+ },
+ {
+  "id": 94677,
+  "title": "The Missing Rootwarden",
+  "sort": 15355,
+  "template": {
+   "ID": 94677,
+   "LogTitle": "The Missing Rootwarden",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3087,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 159500,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "237325 Orweyna"
+  ],
+  "enders": [
+   "237356 Orweyna"
+  ],
+  "objectives": 3
+ },
+ {
+  "id": 94794,
+  "title": "Fine Fashion Funding",
+  "sort": 15355,
+  "template": {
+   "ID": 94794,
+   "LogTitle": "Fine Fashion Funding",
+   "QuestType": 0,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 94878,
+  "title": "Ritual Site: Broken Throne",
+  "sort": -672,
+  "template": {
+   "ID": 94878,
+   "LogTitle": "Ritual Site: Broken Throne",
+   "QuestType": 2,
+   "QuestSortID": -672,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3617,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 94880,
+  "title": "Ritual Site: Daggerspine Point",
+  "sort": -672,
+  "template": {
+   "ID": 94880,
+   "LogTitle": "Ritual Site: Daggerspine Point",
+   "QuestType": 2,
+   "QuestSortID": -672,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3617,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 94920,
+  "title": "Hal'hadar Battery Core",
+  "sort": -671,
+  "template": {
+   "ID": 94920,
+   "LogTitle": "Hal'hadar Battery Core",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 3
+ },
+ {
+  "id": 95069,
+  "title": "Torn Twilight Missive",
+  "sort": -671,
+  "template": {
+   "ID": 95069,
+   "LogTitle": "Torn Twilight Missive",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 95070,
+  "title": "Permafrosted Keystone",
+  "sort": -671,
+  "template": {
+   "ID": 95070,
+   "LogTitle": "Permafrosted Keystone",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 95071,
+  "title": "Enchanted Naga Scroll",
+  "sort": -671,
+  "template": {
+   "ID": 95071,
+   "LogTitle": "Enchanted Naga Scroll",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 95391,
+  "title": "Ritual Site Renowned",
+  "sort": -672,
+  "template": {
+   "ID": 95391,
+   "LogTitle": "Ritual Site Renowned",
+   "QuestType": 2,
+   "QuestSortID": -672,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 269234,
+   "RewardAmount1": 1,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 95547,
+  "title": "Ritual Site Challenge Report: Tendrils",
+  "sort": -672,
+  "template": {
+   "ID": 95547,
+   "LogTitle": "Ritual Site Challenge Report: Tendrils",
+   "QuestType": 2,
+   "QuestSortID": -672,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4240,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 95548,
+  "title": "Tainted Sample",
+  "sort": -672,
+  "template": {
+   "ID": 95548,
+   "LogTitle": "Tainted Sample",
+   "QuestType": 2,
+   "QuestSortID": -672,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4240,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 95549,
+  "title": "Raising Magical Alarms",
+  "sort": -672,
+  "template": {
+   "ID": 95549,
+   "LogTitle": "Raising Magical Alarms",
+   "QuestType": 2,
+   "QuestSortID": -672,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4240,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 4
+ },
+ {
+  "id": 95550,
+  "title": "Thin Their Ranks",
+  "sort": -672,
+  "template": {
+   "ID": 95550,
+   "LogTitle": "Thin Their Ranks",
+   "QuestType": 2,
+   "QuestSortID": -672,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4240,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 95551,
+  "title": "Misappropriated Treasures",
+  "sort": -672,
+  "template": {
+   "ID": 95551,
+   "LogTitle": "Misappropriated Treasures",
+   "QuestType": 2,
+   "QuestSortID": -672,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4240,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 4
+ },
+ {
+  "id": 95552,
+  "title": "Dark Obelisk Investigation",
+  "sort": -672,
+  "template": {
+   "ID": 95552,
+   "LogTitle": "Dark Obelisk Investigation",
+   "QuestType": 2,
+   "QuestSortID": -672,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4240,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 95553,
+  "title": "Manifested Density",
+  "sort": -672,
+  "template": {
+   "ID": 95553,
+   "LogTitle": "Manifested Density",
+   "QuestType": 2,
+   "QuestSortID": -672,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4240,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 95554,
+  "title": "Questionable Power",
+  "sort": -672,
+  "template": {
+   "ID": 95554,
+   "LogTitle": "Questionable Power",
+   "QuestType": 2,
+   "QuestSortID": -672,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4240,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 95933,
+  "title": "Traces in the Dark",
+  "sort": -671,
+  "template": {
+   "ID": 95933,
+   "LogTitle": "Traces in the Dark",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 96049,
+  "title": "Stalkers of the Stars",
+  "sort": -671,
+  "template": {
+   "ID": 96049,
+   "LogTitle": "Stalkers of the Stars",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 7
+ },
+ {
+  "id": 96051,
+  "title": "Through the Cold Rift",
+  "sort": -671,
+  "template": {
+   "ID": 96051,
+   "LogTitle": "Through the Cold Rift",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 4
+ },
+ {
+  "id": 96052,
+  "title": "Through the Mana Rift",
+  "sort": -671,
+  "template": {
+   "ID": 96052,
+   "LogTitle": "Through the Mana Rift",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 4
+ },
+ {
+  "id": 96053,
+  "title": "Surveying the Frozen Wastes",
+  "sort": -671,
+  "template": {
+   "ID": 96053,
+   "LogTitle": "Surveying the Frozen Wastes",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [
+   "235850 Belath Dawnblade"
+  ],
+  "objectives": 5
+ },
+ {
+  "id": 96054,
+  "title": "Surveying the Mana-Bog",
+  "sort": -671,
+  "template": {
+   "ID": 96054,
+   "LogTitle": "Surveying the Mana-Bog",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 5
+ },
+ {
+  "id": 96080,
+  "title": "Void Strike",
+  "sort": -671,
+  "template": {
+   "ID": 96080,
+   "LogTitle": "Void Strike",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 96228,
+  "title": "The Shadowed Spire",
+  "sort": -670,
+  "template": {
+   "ID": 96228,
+   "LogTitle": "The Shadowed Spire",
+   "QuestType": 2,
+   "QuestSortID": -670,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 5
+ },
+ {
+  "id": 96230,
+  "title": "Unraveling the Wards",
+  "sort": -670,
+  "template": {
+   "ID": 96230,
+   "LogTitle": "Unraveling the Wards",
+   "QuestType": 2,
+   "QuestSortID": -670,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 6
+ },
+ {
+  "id": 96242,
+  "title": "An Easy Path to Trickery",
+  "sort": -665,
+  "template": {
+   "ID": 96242,
+   "LogTitle": "An Easy Path to Trickery",
+   "QuestType": 2,
+   "QuestSortID": -665,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3344,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 96310,
+  "title": "Disrupting the Order",
+  "sort": -671,
+  "template": {
+   "ID": 96310,
+   "LogTitle": "Disrupting the Order",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "214873 Riftblade Maella"
+  ],
+  "enders": [
+   "265166 Lightveil Scout"
+  ],
+  "objectives": 7
+ },
+ {
+  "id": 96338,
+  "title": "Port of Entry",
+  "sort": -671,
+  "template": {
+   "ID": 96338,
+   "LogTitle": "Port of Entry",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "265166 Lightveil Scout"
+  ],
+  "enders": [
+   "265166 Lightveil Scout"
+  ],
+  "objectives": 3
+ },
+ {
+  "id": 96382,
+  "title": "A New Approach",
+  "sort": -671,
+  "template": {
+   "ID": 96382,
+   "LogTitle": "A New Approach",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "235697 Decimus"
+  ],
+  "enders": [],
+  "objectives": 4
+ },
+ {
+  "id": 96389,
+  "title": "A Place to Negotiate",
+  "sort": -671,
+  "template": {
+   "ID": 96389,
+   "LogTitle": "A Place to Negotiate",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 96440,
+  "title": "Victory Within Hindsight",
+  "sort": -671,
+  "template": {
+   "ID": 96440,
+   "LogTitle": "Victory Within Hindsight",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "265166 Lightveil Scout"
+  ],
+  "enders": [
+   "214873 Riftblade Maella"
+  ],
+  "objectives": 2
+ },
+ {
+  "id": 96441,
+  "title": "Seeking Knowledge Week 2 of 5: Ritualized Arcana",
+  "sort": -670,
+  "template": {
+   "ID": 96441,
+   "LogTitle": "Seeking Knowledge Week 2 of 5: Ritualized Arcana",
+   "QuestType": 2,
+   "QuestSortID": -670,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3313,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 96442,
+  "title": "Seeking Knowledge Week 3 of 5: Ley Line Assaults",
+  "sort": -670,
+  "template": {
+   "ID": 96442,
+   "LogTitle": "Seeking Knowledge Week 3 of 5: Ley Line Assaults",
+   "QuestType": 2,
+   "QuestSortID": -670,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3313,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 96443,
+  "title": "Seeking Knowledge Week 4 of 5: Magical Primessence",
+  "sort": -670,
+  "template": {
+   "ID": 96443,
+   "LogTitle": "Seeking Knowledge Week 4 of 5: Magical Primessence",
+   "QuestType": 2,
+   "QuestSortID": -670,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3313,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 7
+ },
+ {
+  "id": 96444,
+  "title": "Seeking Knowledge Week 5 of 5: Off-World Magic",
+  "sort": -670,
+  "template": {
+   "ID": 96444,
+   "LogTitle": "Seeking Knowledge Week 5 of 5: Off-World Magic",
+   "QuestType": 2,
+   "QuestSortID": -670,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3313,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 4
+ },
+ {
+  "id": 96472,
+  "title": "The Nexus-Captain",
+  "sort": -671,
+  "template": {
+   "ID": 96472,
+   "LogTitle": "The Nexus-Captain",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 96473,
+  "title": "Imperator Pertinax",
+  "sort": -671,
+  "template": {
+   "ID": 96473,
+   "LogTitle": "Imperator Pertinax",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "235850 Belath Dawnblade"
+  ],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 96475,
+  "title": "Captivating Science",
+  "sort": -671,
+  "template": {
+   "ID": 96475,
+   "LogTitle": "Captivating Science",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 7
+ },
+ {
+  "id": 96496,
+  "title": "The Road Not Taken Twice",
+  "sort": -671,
+  "template": {
+   "ID": 96496,
+   "LogTitle": "The Road Not Taken Twice",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "214873 Riftblade Maella"
+  ],
+  "enders": [],
+  "objectives": 4
+ },
+ {
+  "id": 96497,
+  "title": "Spatial Reasoning",
+  "sort": -671,
+  "template": {
+   "ID": 96497,
+   "LogTitle": "Spatial Reasoning",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 4
+ },
+ {
+  "id": 96498,
+  "title": "Grovewarden's Kris",
+  "sort": 15355,
+  "template": {
+   "ID": 96498,
+   "LogTitle": "Grovewarden's Kris",
+   "QuestType": 0,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 96499,
+  "title": "Grovewarden's Dagger",
+  "sort": 15355,
+  "template": {
+   "ID": 96499,
+   "LogTitle": "Grovewarden's Dagger",
+   "QuestType": 0,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 96500,
+  "title": "Firm Haranir Pillow",
+  "sort": 15355,
+  "template": {
+   "ID": 96500,
+   "LogTitle": "Firm Haranir Pillow",
+   "QuestType": 0,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 96501,
+  "title": "Grovewarden's Rapier",
+  "sort": 15355,
+  "template": {
+   "ID": 96501,
+   "LogTitle": "Grovewarden's Rapier",
+   "QuestType": 0,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 96502,
+  "title": "Vivid Chloroceros",
+  "sort": 15355,
+  "template": {
+   "ID": 96502,
+   "LogTitle": "Vivid Chloroceros",
+   "QuestType": 0,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 96504,
+  "title": "Warm Haranir Blanket",
+  "sort": 15355,
+  "template": {
+   "ID": 96504,
+   "LogTitle": "Warm Haranir Blanket",
+   "QuestType": 0,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 96505,
+  "title": "Grovewarden's Buckler",
+  "sort": 15355,
+  "template": {
+   "ID": 96505,
+   "LogTitle": "Grovewarden's Buckler",
+   "QuestType": 0,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 96506,
+  "title": "Grovewarden's Staff",
+  "sort": 15355,
+  "template": {
+   "ID": 96506,
+   "LogTitle": "Grovewarden's Staff",
+   "QuestType": 0,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 96507,
+  "title": "Haranir Reclined Bed",
+  "sort": 15355,
+  "template": {
+   "ID": 96507,
+   "LogTitle": "Haranir Reclined Bed",
+   "QuestType": 0,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 96508,
+  "title": "Grovewarden's Halberd",
+  "sort": 15355,
+  "template": {
+   "ID": 96508,
+   "LogTitle": "Grovewarden's Halberd",
+   "QuestType": 0,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 96509,
+  "title": "Grovewarden's Greatsword",
+  "sort": 15355,
+  "template": {
+   "ID": 96509,
+   "LogTitle": "Grovewarden's Greatsword",
+   "QuestType": 0,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 96510,
+  "title": "Elder Glowmite",
+  "sort": 15355,
+  "template": {
+   "ID": 96510,
+   "LogTitle": "Elder Glowmite",
+   "QuestType": 0,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 96534,
+  "title": "Preparing for Threats",
+  "sort": -671,
+  "template": {
+   "ID": 96534,
+   "LogTitle": "Preparing for Threats",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 96567,
+  "title": "Data Decryption Disaster",
+  "sort": -671,
+  "template": {
+   "ID": 96567,
+   "LogTitle": "Data Decryption Disaster",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 4
+ },
+ {
+  "id": 96570,
+  "title": "Technological Transference",
+  "sort": -671,
+  "template": {
+   "ID": 96570,
+   "LogTitle": "Technological Transference",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 5
+ },
+ {
+  "id": 96571,
+  "title": "The Node Knows",
+  "sort": -671,
+  "template": {
+   "ID": 96571,
+   "LogTitle": "The Node Knows",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 5
+ },
+ {
+  "id": 96572,
+  "title": "Malfunctioning Nullframe",
+  "sort": -671,
+  "template": {
+   "ID": 96572,
+   "LogTitle": "Malfunctioning Nullframe",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 96573,
+  "title": "Soul Lattice Revealed",
+  "sort": -671,
+  "template": {
+   "ID": 96573,
+   "LogTitle": "Soul Lattice Revealed",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 96574,
+  "title": "Cryptside Rendezvous",
+  "sort": -671,
+  "template": {
+   "ID": 96574,
+   "LogTitle": "Cryptside Rendezvous",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 96575,
+  "title": "Cages of the Soul",
+  "sort": -671,
+  "template": {
+   "ID": 96575,
+   "LogTitle": "Cages of the Soul",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 3
+ },
+ {
+  "id": 96576,
+  "title": "Mementos of the Dead",
+  "sort": -671,
+  "template": {
+   "ID": 96576,
+   "LogTitle": "Mementos of the Dead",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 96577,
+  "title": "The Soul Architect",
+  "sort": -671,
+  "template": {
+   "ID": 96577,
+   "LogTitle": "The Soul Architect",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 4
+ },
+ {
+  "id": 96578,
+  "title": "Cryptic Departure",
+  "sort": -671,
+  "template": {
+   "ID": 96578,
+   "LogTitle": "Cryptic Departure",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 96708,
+  "title": "To the Voidstorm and Beyond!",
+  "sort": -671,
+  "template": {
+   "ID": 96708,
+   "LogTitle": "To the Voidstorm and Beyond!",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 96713,
+  "title": "Showdown on Val",
+  "sort": -671,
+  "template": {
+   "ID": 96713,
+   "LogTitle": "Showdown on Val",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3313,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "263479 Riftblade Maella"
+  ],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 96714,
+  "title": "Showdown on Val (Heroic)",
+  "sort": -671,
+  "template": {
+   "ID": 96714,
+   "LogTitle": "Showdown on Val (Heroic)",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3313,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 96717,
+  "title": "Showdown on Naigtal",
+  "sort": -671,
+  "template": {
+   "ID": 96717,
+   "LogTitle": "Showdown on Naigtal",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3313,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 96718,
+  "title": "Showdown on Naigtal (Heroic)",
+  "sort": -671,
+  "template": {
+   "ID": 96718,
+   "LogTitle": "Showdown on Naigtal (Heroic)",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3313,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 96720,
+  "title": "Showdown on Naigtal",
+  "sort": -671,
+  "template": {
+   "ID": 96720,
+   "LogTitle": "Showdown on Naigtal",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 96725,
+  "title": "Sparks of War: Val",
+  "sort": -671,
+  "template": {
+   "ID": 96725,
+   "LogTitle": "Sparks of War: Val",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3313,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 96729,
+  "title": "Ritual Site Studies: Week 2 of 3",
+  "sort": -672,
+  "template": {
+   "ID": 96729,
+   "LogTitle": "Ritual Site Studies: Week 2 of 3",
+   "QuestType": 2,
+   "QuestSortID": -672,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4240,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 96730,
+  "title": "Ritual Site Studies: Week 3 of 3",
+  "sort": -672,
+  "template": {
+   "ID": 96730,
+   "LogTitle": "Ritual Site Studies: Week 3 of 3",
+   "QuestType": 2,
+   "QuestSortID": -672,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4240,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 96731,
+  "title": "Advanced Ritual Site Studies: Week 4 of 6",
+  "sort": -672,
+  "template": {
+   "ID": 96731,
+   "LogTitle": "Advanced Ritual Site Studies: Week 4 of 6",
+   "QuestType": 2,
+   "QuestSortID": -672,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4240,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 96732,
+  "title": "Advanced Ritual Site Studies: Week 5 of 6",
+  "sort": -672,
+  "template": {
+   "ID": 96732,
+   "LogTitle": "Advanced Ritual Site Studies: Week 5 of 6",
+   "QuestType": 2,
+   "QuestSortID": -672,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4240,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 96733,
+  "title": "Advanced Ritual Site Studies: Week 6 of 6",
+  "sort": -672,
+  "template": {
+   "ID": 96733,
+   "LogTitle": "Advanced Ritual Site Studies: Week 6 of 6",
+   "QuestType": 2,
+   "QuestSortID": -672,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 4240,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 96744,
+  "title": "Bouncy Mushrooms",
+  "sort": -671,
+  "template": {
+   "ID": 96744,
+   "LogTitle": "Bouncy Mushrooms",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 96745,
+  "title": "Aerospores",
+  "sort": -671,
+  "template": {
+   "ID": 96745,
+   "LogTitle": "Aerospores",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 96809,
+  "title": "Exterior Manaforge Translocator",
+  "sort": -671,
+  "template": {
+   "ID": 96809,
+   "LogTitle": "Exterior Manaforge Translocator",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 4
+ },
+ {
+  "id": 96831,
+  "title": "Magister's Summons",
+  "sort": -670,
+  "template": {
+   "ID": 96831,
+   "LogTitle": "Magister's Summons",
+   "QuestType": 2,
+   "QuestSortID": -670,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3313,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 96845,
+  "title": "The Grappler",
+  "sort": -671,
+  "template": {
+   "ID": 96845,
+   "LogTitle": "The Grappler",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 97031,
+  "title": "Vilaldoun Valediction",
+  "sort": -671,
+  "template": {
+   "ID": 97031,
+   "LogTitle": "Vilaldoun Valediction",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 97034,
+  "title": "Vanquish the Warmonger",
+  "sort": -671,
+  "template": {
+   "ID": 97034,
+   "LogTitle": "Vanquish the Warmonger",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 8
+ },
+ {
+  "id": 97035,
+  "title": "Depose the Deranged",
+  "sort": -671,
+  "template": {
+   "ID": 97035,
+   "LogTitle": "Depose the Deranged",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 5
+ },
+ {
+  "id": 97036,
+  "title": "Umbral Title Bout",
+  "sort": -671,
+  "template": {
+   "ID": 97036,
+   "LogTitle": "Umbral Title Bout",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 97037,
+  "title": "Stargrim Revelations",
+  "sort": -671,
+  "template": {
+   "ID": 97037,
+   "LogTitle": "Stargrim Revelations",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 97071,
+  "title": "A Frigid Welcome to Val",
+  "sort": -671,
+  "template": {
+   "ID": 97071,
+   "LogTitle": "A Frigid Welcome to Val",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [
+   "235850 Belath Dawnblade"
+  ],
+  "enders": [
+   "214873 Riftblade Maella"
+  ],
+  "objectives": 1
+ },
+ {
+  "id": 97072,
+  "title": "A Swampy Welcome to Naigtal",
+  "sort": -671,
+  "template": {
+   "ID": 97072,
+   "LogTitle": "A Swampy Welcome to Naigtal",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 97077,
+  "title": "A Shot at the Dark",
+  "sort": -671,
+  "template": {
+   "ID": 97077,
+   "LogTitle": "A Shot at the Dark",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 2
+ },
+ {
+  "id": 97080,
+  "title": "More Disruptions: Val",
+  "sort": -671,
+  "template": {
+   "ID": 97080,
+   "LogTitle": "More Disruptions: Val",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 97081,
+  "title": "More Disruptions: Val (Heroic)",
+  "sort": -671,
+  "template": {
+   "ID": 97081,
+   "LogTitle": "More Disruptions: Val (Heroic)",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3313,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 97082,
+  "title": "Dangerous Enemies: Val",
+  "sort": -671,
+  "template": {
+   "ID": 97082,
+   "LogTitle": "Dangerous Enemies: Val",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 97083,
+  "title": "Dangerous Enemies: Val (Heroic)",
+  "sort": -671,
+  "template": {
+   "ID": 97083,
+   "LogTitle": "Dangerous Enemies: Val (Heroic)",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3313,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 97084,
+  "title": "More Disruption: Naigtal",
+  "sort": -671,
+  "template": {
+   "ID": 97084,
+   "LogTitle": "More Disruption: Naigtal",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 97085,
+  "title": "Dangerous Enemies: Naigtal",
+  "sort": -671,
+  "template": {
+   "ID": 97085,
+   "LogTitle": "Dangerous Enemies: Naigtal",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 97086,
+  "title": "Dangerous Enemies: Naigtal (Heroic)",
+  "sort": -671,
+  "template": {
+   "ID": 97086,
+   "LogTitle": "Dangerous Enemies: Naigtal (Heroic)",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3313,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 97087,
+  "title": "More Disruption: Naigtal (Heroic)",
+  "sort": -671,
+  "template": {
+   "ID": 97087,
+   "LogTitle": "More Disruption: Naigtal (Heroic)",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3313,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 97088,
+  "title": "So Much More To Do",
+  "sort": -671,
+  "template": {
+   "ID": 97088,
+   "LogTitle": "So Much More To Do",
+   "QuestType": 3,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 97089,
+  "title": "So Much More To Do",
+  "sort": -671,
+  "template": {
+   "ID": 97089,
+   "LogTitle": "So Much More To Do",
+   "QuestType": 3,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3313,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 97215,
+  "title": "A Secondary Strike",
+  "sort": -671,
+  "template": {
+   "ID": 97215,
+   "LogTitle": "A Secondary Strike",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3321,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 97256,
+  "title": "Knocking Off the Top (Heroic)",
+  "sort": -671,
+  "template": {
+   "ID": 97256,
+   "LogTitle": "Knocking Off the Top (Heroic)",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3313,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 1
+ },
+ {
+  "id": 97491,
+  "title": "<DNT> Early Scenario Steps Quest",
+  "sort": -671,
+  "template": {
+   "ID": 97491,
+   "LogTitle": "<DNT> Early Scenario Steps Quest",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 97492,
+  "title": "<DNT> Early Scenario Steps Quest",
+  "sort": -671,
+  "template": {
+   "ID": 97492,
+   "LogTitle": "<DNT> Early Scenario Steps Quest",
+   "QuestType": 2,
+   "QuestSortID": -671,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 3322,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": null,
+  "starters": [],
+  "enders": [],
+  "objectives": 0
+ },
+ {
+  "id": 89402000,
+  "title": "Harandar",
+  "sort": 15355,
+  "template": {
+   "ID": 89402000,
+   "LogTitle": "Harandar",
+   "QuestType": 2,
+   "QuestSortID": 15355,
+   "AllowableRaces": 18446744073709551615,
+   "ContentTuningID": 0,
+   "RewardItem1": 0,
+   "RewardAmount1": 0,
+   "RewardChoiceItemID1": 0,
+   "RewardChoiceItemQuantity1": 0,
+   "RewardBonusMoney": 0,
+   "RewardDisplaySpell1": 0
+  },
+  "addon": {
+   "PrevQuestID": 91062,
+   "NextQuestID": 0,
+   "ExclusiveGroup": 0,
+   "BreadcrumbForQuestId": 0,
+   "RewardMailTemplateID": 0
+  },
+  "starters": [
+   "9100629 Scouting Map"
+  ],
+  "enders": [
+   "236704 Orweyna"
+  ],
+  "objectives": 0
+ }
+]

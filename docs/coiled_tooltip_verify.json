@@ -1,0 +1,382 @@
+{
+ "checked": 683,
+ "match": 608,
+ "mismatch": [
+  [
+   253480,
+   "Yanti the Bold",
+   "Yan'ti the Bold"
+  ],
+  [
+   253505,
+   "Nraqi Commander",
+   "N'raqi Commander"
+  ],
+  [
+   253829,
+   "Dakzor",
+   "Dak'zor"
+  ],
+  [
+   254016,
+   "Beatin Man",
+   "Beatin' Man"
+  ],
+  [
+   254447,
+   "Wakani",
+   "Wa'kani"
+  ],
+  [
+   254743,
+   "Level: 90",
+   "Fierce Bulwark"
+  ],
+  [
+   254745,
+   "Level: 90",
+   "Shadow Warrior"
+  ],
+  [
+   254746,
+   "Level: 90",
+   "Shaman of Jan'alai"
+  ],
+  [
+   254954,
+   "Invisible Stalker",
+   "Unseen Predator"
+  ],
+  [
+   254980,
+   "Invisible Stalker",
+   "Unseen Predator"
+  ],
+  [
+   255226,
+   "Wakani",
+   "Wa'kani"
+  ],
+  [
+   255553,
+   "Wakani",
+   "Wa'kani"
+  ],
+  [
+   255804,
+   "Greed Cursed Buccaneer",
+   "Greed-Cursed Buccaneer"
+  ],
+  [
+   255843,
+   "Jazdi Wiseman",
+   "Jaz'di Wiseman"
+  ],
+  [
+   255939,
+   "Yanti the Bold",
+   "Yan'ti the Bold"
+  ],
+  [
+   255978,
+   "Wakani",
+   "Wa'kani"
+  ],
+  [
+   256674,
+   "Jabonu",
+   "Ja'bonu"
+  ],
+  [
+   256686,
+   "Mabjul",
+   "Mab'jul"
+  ],
+  [
+   256688,
+   "Ataleki",
+   "Ata'leki"
+  ],
+  [
+   256868,
+   "Blisterfang Bone Melter",
+   "Blisterfang Bone-melter"
+  ],
+  [
+   256872,
+   "Kiclak",
+   "Ki'clak"
+  ],
+  [
+   256874,
+   "Jabonu",
+   "Ja'bonu"
+  ],
+  [
+   256929,
+   "Jelana",
+   "Je'lana"
+  ],
+  [
+   256939,
+   "Kirbo",
+   "Kir'bo"
+  ],
+  [
+   257298,
+   "Loa Speaker Ylmul",
+   "Loa Speaker Yl'mul"
+  ],
+  [
+   257299,
+   "Captain Salchatah",
+   "Captain Sal'chatah"
+  ],
+  [
+   257306,
+   "Loa Speaker Ylmul",
+   "Loa Speaker Yl'mul"
+  ],
+  [
+   258109,
+   "Flesh Burrowing Gnats",
+   "Flesh-Burrowing Gnats"
+  ],
+  [
+   258684,
+   "Hissmir",
+   "Hiss'mir"
+  ],
+  [
+   258717,
+   "Aolggin",
+   "Aol'ggin"
+  ],
+  [
+   258904,
+   "Yalami",
+   "Ya'lami"
+  ],
+  [
+   259073,
+   "Aolggin",
+   "Aol'ggin"
+  ],
+  [
+   259074,
+   "Aolggin",
+   "Aol'ggin"
+  ],
+  [
+   259075,
+   "Aolggin",
+   "Aol'ggin"
+  ],
+  [
+   259076,
+   "Aolggin",
+   "Aol'ggin"
+  ],
+  [
+   259225,
+   "Dakzor",
+   "Dak'zor"
+  ],
+  [
+   259297,
+   "Aolggin",
+   "Aol'ggin"
+  ],
+  [
+   259299,
+   "Aolggin",
+   "Aol'ggin"
+  ],
+  [
+   259383,
+   "Dakzor",
+   "Dak'zor"
+  ],
+  [
+   259784,
+   "Level: 90",
+   "Nalago"
+  ],
+  [
+   259976,
+   "Ofis Mask",
+   "Ofi's Mask"
+  ],
+  [
+   260034,
+   "Raztaka",
+   "Raz'taka"
+  ],
+  [
+   260315,
+   "Level: 90",
+   "Goldfin Grouper"
+  ],
+  [
+   260697,
+   "Level: 90",
+   "Amani Soldier"
+  ],
+  [
+   261114,
+   "Level: 1",
+   "Treeflitter"
+  ],
+  [
+   261228,
+   "Sprinter Dakreia",
+   "Sprinter Da'kreia"
+  ],
+  [
+   261475,
+   "Level: 1",
+   "Cerulean Firefly"
+  ],
+  [
+   261647,
+   "Level: 1",
+   "Deadlight Firefly"
+  ],
+  [
+   261748,
+   "Egg of Ulatek",
+   "Egg of Ula'tek"
+  ],
+  [
+   261820,
+   "Venom Bloated Python",
+   "Venom-Bloated Python"
+  ],
+  [
+   261917,
+   "Greed Cursed Pirate",
+   "Greed-Cursed Pirate"
+  ],
+  [
+   262233,
+   "Sticky Foot Swamp Hopper",
+   "Sticky-Foot Swamp Hopper"
+  ],
+  [
+   262739,
+   "Spirit Bound Blade",
+   "Spirit-Bound Blade"
+  ],
+  [
+   262753,
+   "Half Eaten Kapara",
+   "Half-Eaten Kapara"
+  ],
+  [
+   263110,
+   "Half Eaten Snapper",
+   "Half-Eaten Snapper"
+  ],
+  [
+   263242,
+   "Zanja",
+   "Zan'ja"
+  ],
+  [
+   263243,
+   "Ruko",
+   "Ru'ko"
+  ],
+  [
+   263265,
+   "Vulzahn",
+   "Vul'zahn"
+  ],
+  [
+   263690,
+   "Inktails Reinforced Canoe",
+   "Inktail's Reinforced Canoe"
+  ],
+  [
+   263708,
+   "Wartusk Apone",
+   "Wartusk A'pone"
+  ],
+  [
+   263735,
+   "Scout Koruku",
+   "Scout Ko'ruku"
+  ],
+  [
+   264058,
+   "Level: 90",
+   "Shaman of Jan'alai"
+  ],
+  [
+   264840,
+   "Leathertongues Stewpot",
+   "Leathertongue's Stewpot"
+  ],
+  [
+   265014,
+   "Quick Facts",
+   "Sprinter Jahka"
+  ],
+  [
+   265173,
+   "Kulamara the Fierce",
+   "Kul'amara the Fierce"
+  ],
+  [
+   265329,
+   "Zeika",
+   "Zei'ka"
+  ],
+  [
+   265566,
+   "Servant of Ralkala",
+   "Servant of Ral'kala"
+  ],
+  [
+   265676,
+   "Zeika",
+   "Zei'ka"
+  ],
+  [
+   265964,
+   "Blisterfang Bone Harvester",
+   "Blisterfang Bone-Harvester"
+  ],
+  [
+   265966,
+   "Half Eaten Kapara",
+   "Half-Eaten Kapara"
+  ],
+  [
+   265967,
+   "Half Eaten Eagle",
+   "Half-Eaten Eagle"
+  ],
+  [
+   269595,
+   "Frostcaller Chilt",
+   "Frostcaller Chi'lt"
+  ],
+  [
+   270255,
+   "Blisterfang Bone Melter",
+   "Blisterfang Bone-melter"
+  ],
+  [
+   270399,
+   "Firetender Zabni",
+   "Firetender Zab'ni"
+  ],
+  [
+   271157,
+   "Beastminder Takza",
+   "Beastminder Tak'za"
+  ]
+ ],
+ "nodb": []
+}

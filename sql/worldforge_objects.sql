@@ -1,6 +1,6 @@
 -- =====================================================================
 -- Worldforge objekty: 1380 klikatelnych objektov (goober, entry = ID itemu),
--- poloha z classic map (Descend), meno z AzerothHub. Spawn robi worldforge.lua
+-- poloha z classic map (Ascension), meno z AzerothHub. Spawn robi worldforge.lua
 -- (vysku Z dopocita v hre) - spawny su v `gameobject` s id 9700004-9701383.
 -- Undo: worldforge_objects_undo.sql
 -- =====================================================================

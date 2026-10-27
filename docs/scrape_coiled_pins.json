@@ -1,0 +1,32 @@
+{
+ "pins": [],
+ "note": "Zone map has no NPC pins: g_mapperData for 16365 is empty object, myMapper created without pin data, only map tile wow.zamimg.com 16365.jpg; NPC listview rows carry no x/y. Pin-per-NPC would need individual npc page loads (out of scope).",
+ "eval": {
+  "found": [
+   "pin-like elements: 1",
+   "mapEl: btn btn-site btn-small mapper-som-button fa fa-search",
+   "global g_mapperData exists",
+   "global myMapper exists"
+  ],
+  "attrs": [],
+  "scripts": [],
+  "mapperKeys": [
+   "sizes",
+   "zoneLevelOffset",
+   "multiLevelZones",
+   "zonePhased",
+   "garrisonLevelsToMapTiers",
+   "zoneDefaultLevel",
+   "remappedLevels",
+   "dataReady",
+   "isDataReady",
+   "zoneDefaultPhase"
+  ],
+  "inline": [
+   "var g_mapperData = {\"16365\":{}};\nvar myMapper = new Mapper({\"parent\":\"k6b43j6b\",\"zone\":16365,\"name\":\"The Coiled Isle\"});\n"
+  ],
+  "resources": [
+   "https://wow.zamimg.com/images/wow/maps/enus/normal/16365.jpg?1791788844"
+  ]
+ }
+}

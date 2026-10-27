@@ -1,0 +1,414 @@
+﻿creature,name,group,id,type,text,bt,sound,retail_sound,retail_bt,folder,why
+137104,Orc Raider,0,0,12,For the Horde!,136345,0,103730,136345,stormsong_horde_grunt,bt-text-match
+109670,Chronarch Defender,1,0,12,Scanning arcane essence...,119797,0,65819,119797,nightborne_male_caster,bt-text-match
+116360,Duskwatch Scryer,3,0,12,Something's not quite right...,124630,0,66004,124630,nightborne_female_caster,bt-text-match
+16065,Lady Blaumeux,1,0,14,"Come, Zeliek, do not drive them out. Not before we've had our fun!",13014,0,8896,13014,dameblaumeux,bt-text-match
+120198,Bradensbrook Villager,3,0,12,What in blazes happened to my chickens?,129058,0,53431,129058,wyrmtongue,bt-text-match
+124628,Ren'Zuli,0,0,12,Blood God... take me! Dis not... be... da end...,133346,0,98569,133346,kragwa_the_huge,bt-text-match
+81859,Fangraal,3,0,12,From death.... sprouts life.,85613,0,46572,85613,volrath,bt-text-match
+111619,Duskwatch Shroud,1,0,12,Something's not quite right...,124630,0,65803,124630,nightborne_male_caster,bt-text-match
+109408,Lieutenant Piet,3,0,12,"You fool, you were followed! To arms!",115282,0,65778,115282,nightborne_male_child,bt-text-match
+91131,Runas the Shamed,1,0,12,Can you even hear me???,0,0,62762,52613,runas_the_shamed,own-voice-folder
+92450,Eredar Riftweaver,0,4,12,You cannot stop us. We are infinite.,95073,0,56967,95073,eredar_summoner_f,bt-text-match
+93846,Mayla Highmountain,0,0,12,"When you face the worms, call to us, and we shall be there.",0,0,54897,102252,hess_highmountain,bt-text-match
+15690,Prince Malchezaar,2,2,14,How can you hope to stand against such overwhelming power?,15342,0,9321,15342,princemalchezzar,bt-text-match
+72953,Grimfrost Wolfslayer,4,0,12,"Don't hit me, stupid!",76594,0,1108,76594,wolf,bt-text-match
+107866,Watcher Fraizer,3,0,12,I heard something over here.,125447,0,63555,125447,commander_althea_ebonlocke,bt-text-match
+90109,Hatecoil Slavemaster,1,0,12,"Die, landwalker!",0,0,52684,97409,hatecoil_fathom-stalker,bt-text-match
+78509,Bleeding Hollow Berserker,1,0,12,"CRUSH YOU, MAKE BLEED!",81243,0,46152,81243,femdraeneiprisoner,bt-text-match
+61792,Aysa Cloudsinger,0,0,12,Show me.,131762,0,27391,131762,aysacloudsong,bt-text-match
+118783,Dreadflame Corruptor,0,0,12,By the might of Sargeras!,109464,0,56997,109464,eredar_summoner_m,bt-text-match
+18702,Auchenai Necromancer,3,0,14,How dare you come here?,17642,0,10537,17642,necromancerdraenei03,bt-text-match
+110654,Frightened Laborer,3,0,12,Run!,118743,0,66336,118743,ruven,bt-text-match
+119516,Frenzied Dedicant,1,0,12,By the might of Sargeras!,109464,0,56997,109464,eredar_summoner_m,bt-text-match
+73465,Dark Acolyte,0,0,12,You will make a fine sacrifice!,76134,0,2992,76134,frog,bt-text-match
+79128,Wor'gol Cold-Singer,4,0,12,Live!,81370,0,37730,81370,wolf,bt-text-match
+103685,Tichondrius,4,0,14,Witness your end!,0,0,60124,111050,steve,bt-text-match
+127883,Echo of Valok,1,0,12,How dare you suggest such a thing!,137367,0,87810,137367,kiljaeden,bt-text-match
+118412,Kirin Tor Mage,0,0,14,Coming at ya!,127855,0,83023,127855,human_male,bt-text-match
+112797,Dvalen Ironrune,2,0,12,Fool! Die!,0,0,68078,121830,dvalen_ironrune,own-voice-folder
+23543,Shade of the Horseman,1,0,14,"Prepare yourselves, the bells have tolled! Shelter your weak, your young and your old! Each of you shall pay the final sum. Cry for mercy, the reckoning has come!",22022,0,11966,22022,headlesshorseman,bt-text-match
+109670,Chronarch Defender,2,0,12,Stand by for screening.,119794,0,66004,119794,nightborne_female_caster,bt-text-match
+110564,Alonsus Faol,1,0,12,"In times such as these, we cannot afford to turn away those willing to help. We welcome you, as our new ally.",0,0,68275,119549,prophet_velen,bt-text-match
+33134,Sara,1,2,14,The time to strike at the head of the beast will soon be upon us! Focus your anger and hatred on his minions!,34346,0,15775,34346,yoggsaron,bt-text-match
+26246,Prophet Velen,3,0,12,"In time, the light and hope held within - will rebirth more than this mere fount of power... Mayhap, they will rebirth the soul of a nation. 
+",25412,0,12521,25412,velen,bt-text-match
+38455,Ace,3,0,14,We know you were getting ready to attack us. You brought this on yourselves.,38377,0,3434,38377,naga,bt-text-match
+76877,Gruul,4,0,14,Stop that.,0,0,45035,84963,gruul,bt-text-match
+95152,Wormtalon Huntress,1,0,12,I will rip you to shreds!,127508,0,61244,127508,stoneblood_harpy_b,bt-text-match
+76190,Liberated Soul,3,0,12,Thank you!,131553,0,43198,131553,nhalish,bt-text-match
+119516,Frenzied Dedicant,0,0,12,You dare?!,129829,0,57006,129829,eredar_summoner_m,bt-text-match
+98074,Junior Trainee,3,0,12,"Sorry, mister Stormstout.",99968,0,62044,99968,chen_stormstout,bt-text-match
+15690,Prince Malchezaar,3,2,14,You are but a plaything. Unfit even to amuse.,15126,0,9319,15126,princemalchezzar,bt-text-match
+71865,Garrosh Hellscream,11,0,14,Pathetic!,0,0,38065,134193,garrosh,bt-text-match
+89101,Prince Oceanus,3,0,12,"Go away, tiny creature, or I will have you for a snack.",92014,0,13390,92014,northrendgiant,bt-text-match
+95727,Darkfiend Corruptor,0,3,12,The Nightmare... welcomes me...,0,0,52347,93842,darkfiend_summoner,bt-text-match
+101784,Nightborne Infiltrator,1,0,12,No mercy for outlanders!,116680,0,65869,116680,nightborne_female_light,bt-text-match
+102100,Skyhorn Pathfinder,0,2,12,They took us by surprise at night.,104409,0,74741,104409,highmountain_brave_male,bt-text-match
+119839,Wrathsteed of Xoroth,0,0,14,I will cut you down myself!,130049,0,82712,130049,eredar_male_caster,bt-text-match
+118791,Sturdy Love Fool,1,0,12,It was only the one time.,126990,0,88349,126990,mistress_alluradel,bt-text-match
+119490,Skycaller Drez'mal,0,2,12,You dare?!,129829,0,57006,129829,eredar_summoner_m,bt-text-match
+56884,Taran Zhu,1,0,14,Hatred will consume and conquer all!,0,0,28332,63342,shaofhatred,bt-text-match
+134983,Samuel Williams,1,0,15,You will all drown in the lightless abyss.,149326,0,98462,149326,faceless_one,bt-text-match
+102194,Dread Crewman,0,0,12,Keep your eyes peeled. The admiral is not to be disturbed.,104497,0,43955,104497,orcskeleton,bt-text-match
+132708,Zeb'ahari Mender,0,0,12,Zeb'ahari is overrun!,145999,0,98963,145999,zandalari_religious,bt-text-match
+108871,Vineyard Warden,3,0,12,An illusion! What are you hiding?,124629,0,66003,124629,nightborne_female_caster,bt-text-match
+100431,Duskwatch Orbitist,1,0,12,This will be your end!,114571,0,65799,114571,nightborne_male_caster,bt-text-match
+80485,Shani Freezewind,2,0,14,Defeat never bothered me anyway.,82736,0,46573,82736,volrath,bt-text-match
+114802,Spectral Journeyman,1,0,12,You are not welcome here!,13774,0,77166,13774,attumen_the_huntsman,bt-text-match
+109409,Nightborne Wretch,0,1,12,"So generous! Thank you, I owe you my life!",115295,0,66151,115295,demon_female_-_shivan,bt-text-match
+34830,Defiant Troll,4,0,12,Ouch! Dat hurt!,40314,0,12007,40314,foresttrollmale,bt-text-match
+90317,Jace Darkweaver,3,0,12,"We must get the wards reignited. Otherwise, I guarantee the Legion will overrun our position and pour into Azsuna.",88528,0,55369,88528,wrath_warrior,bt-text-match
+137197,Azshj'thul the Drowned,0,0,15,The sunken realm welcomes your yawning souls.,153917,0,98458,153917,faceless_one,bt-text-match
+67647,Kor'kron Assassin,3,0,12,"Call for your king, $rt! Draw him in!",70994,0,34679,70994,kingvarianwrynn,bt-text-match
+117018,Demonic Instructor,1,0,12,You dare?!,129829,0,56982,129829,eredar_summoner_f,bt-text-match
+38455,Ace,4,0,14,You naga keep your distance. We're not kidding around here!,38374,0,3434,38374,naga,bt-text-match
+120028,Kirin Tor Mage,3,0,14,Coming at ya!,127855,0,83023,127855,human_male,bt-text-match
+115844,Goroth,2,0,14,Halt!,0,0,85239,135058,archmage_khadgar,bt-text-match
+113849,Duskwatch Saberguard,0,0,12,This will be your end!,114571,0,65906,114571,nightborne_female_heavy,bt-text-match
+76862,Gog'rak,0,0,12,"The last time I saw Orac, he was chasing Icepaw out the southern gates of Wor'gol.",79732,0,6529,79732,kodobeast,bt-text-match
+82320,Ephial,2,0,14,"Rise, and carry out my will!",84181,0,31957,84181,shaboss,bt-text-match
+8440,Shade of Hakkar,1,0,14,"DIE, MORTALS!",4546,0,5871,4546,avatarofhakkar,bt-text-match
+7849,Mobile Alert System,1,0,14,Warning! Warning! Intruder alert! Intruder alert!,4142,0,5805,4142,mobilealertbot,bt-text-match
+79766,Caregiver Felaani,0,0,12,"Oh, thank the Light for you, stranger!",81755,0,11819,81755,humanfemalekid,bt-text-match
+72783,All-Seeing Eye,4,0,14,NOOOOO!,74983,0,44120,74983,cordanafelsong,bt-text-match
+23574,Akil'zon,6,0,41,An electrical storm appears!,23603,0,12019,0,akilzon,own-voice-folder
+17860,Durnholde Veteran,2,0,12,Why...?,19516,0,10454,19516,thrallcot,bt-text-match
+140801,Forsaken Assassin,0,1,12,For the Dark Lady!,124586,0,103696,124586,stormsong_horde_deathguard,bt-text-match
+94138,Princess Tess Greymane,2,0,12,"You will not regret this choice, Shadowblade. I will take out any Legion demon or conspirator who crosses my path!",0,0,81239,127696,lilian_voss,bt-text-match
+56884,Taran Zhu,2,0,14,No... No!,0,0,28333,130880,shaofhatred,bt-text-match
+111869,Leyline Hunter,2,0,12,Ahhh!,122062,0,65862,122062,nightborne_female_light,bt-text-match
+124688,Natha'vor Cannibal,0,0,12,Fresh meat!,77509,0,98377,77509,blood_troll_female,bt-text-match
+16151,Midnight,1,2,14,Perhaps you would rather test yourselves against a more formidable opponent?!,15379,0,9299,15379,attumenthehuntsman,bt-text-match
+115502,Nightborne Rebel,2,0,12,Silgryn sends his regards.,124019,0,52234,124019,trelan_shieldbreaker,bt-text-match
+99070,Sashj'tar Diviner,9,0,12,Sashj'tar do not take prisonersss.,104961,0,68513,104961,finna_bjornsdottir,bt-text-match
+121254,Darkfallen Slave,0,0,12,Be swift before the pits consume you!,133520,0,88169,133520,broken,bt-text-match
+25301,Counselor Talbot,3,0,12,"Yes, my lord!",25365,0,14214,25365,princevalanar,bt-text-match
+32451,Dalaran Citizen,3,0,12,The skull on that axe looks... hungry.,106402,0,82821,106402,korvas_bloodthorn,bt-text-match
+16699,Shattered Hand Reaver,1,0,12,For Kargath!  For Victory!,16698,0,10246,16698,legionnaire03,bt-text-match
+177924,Concerned Attendant,7,0,12,Foolish... mortal...,209800,0,179682,209800,mawsworn_spiked_guard,bt-text-match
+164450,Dealer Xy'exa,4,0,14,The deal... fell through...,0,0,153444,0,dealer_gexa,own-voice-folder
+34830,Defiant Troll,5,0,12,"Don't tase me, mon!",35115,0,12007,35115,foresttrollmale,bt-text-match
+33134,Sara,0,1,14,What do you want from me? Leave me alone!,34343,0,15772,34343,yoggsaron,bt-text-match
+137197,Azshj'thul the Drowned,1,0,15,No light. No escape. The forgotten king returns.,153941,0,98459,153941,faceless_one,bt-text-match
+56636,Commander Ri'mok,1,0,14,You've got nowhere to run.,0,0,29074,134440,commanderrimok,bt-text-match
+115785,Direbeak Hatchling,8,0,12,Erk?,124424,0,68560,124424,archmage_khadgar,bt-text-match
+104154,Gul'dan,19,0,14,My will cannot be broken!,0,0,58794,127823,guldan,own-voice-folder
+82188,Mumper,4,0,12,Must... keep... fighting...,84092,0,44873,84092,khadgar,bt-text-match
+23418,Essence of Suffering,2,1,14,I didn't ask for this!,21762,0,11418,21762,essenceofgrief,bt-text-match
+56843,Lorewalker Stonestep,7,0,14,I can allow this no longer!,0,0,27747,57748,zaosunseeker,bt-text-match
+127892,Ancient Citizen,1,0,12,I am trying to listen. Go away!,137365,0,87810,137365,kiljaeden,bt-text-match
+117973,Firecaller Rok'duun,0,2,14,The Legion conquers all.,99763,0,55147,99763,doomguard_eradicator,bt-text-match
+90409,Gorebound Felcaster,11,0,14,Move out!,95599,0,50518,95599,martak,bt-text-match
+91419,Mr. Shackle,0,0,12,"Welcome to our humble place of business, traveler.",92192,0,40019,92192,ogredumb2,bt-text-match
+127671,Radix,1,0,12,Who has awoken me?,137158,0,67141,137158,broll_bearmantle,bt-text-match
+55564,Reclaimer A'zak,3,0,14,"Anub'Arak has fallen, my brothers! Rise from the depths and reclaim our birthright!",54151,0,14069,54151,anubarak,bt-text-match
+33579,Brann Bronzebeard,3,0,12,"The iron dwarves have been seen emerging from the bunkers at the base of the pillars straight ahead of you! Destroy the bunkers, and they'll be forced to fall back!",34145,0,15794,34145,brann,bt-text-match
+23417,Reliquary Combat Trigger,0,0,14,Now what do I do?,21765,0,11421,21765,essenceofgrief,bt-text-match
+138582,Chief Engineer Grizz,0,0,12,I've mis...calculated.,157795,0,103746,157795,stormsong_horde_rocketeer,bt-text-match
+25166,Grand Warlock Alythess,6,0,41,Alythess directs Conflagration at $n.,24426,0,12494,25518,grandwarlockalythess,own-voice-folder
+25211,Cleaver Bmurglbrm,3,0,15,"Psst... $r, over here! Next to the dead whale.",24450,0,3408,24450,orca,bt-text-match
+70279,Moira Thaurissan,2,0,12,Shimmer Ridge. I know it well. The Frostmane trolls breed and plot above the snow-blown mesa.,0,0,37190,0,moira,own-voice-folder
+72674,Grogal the Harvester,3,0,12,I will devour your soul!,103119,0,2992,103119,frog,bt-text-match
+25197,King Mrgl-Mrgl,3,0,12,"There, $n, now you will be able to speak with, and understand, the Winterfin murlocs.",24428,0,416,24428,murloc,bt-text-match
+80486,Necrolord Azael,4,0,14,"Alive or dead, I tower over you!",90397,0,46573,90397,volrath,bt-text-match
+99770,Sashj'tar Deep Witch,1,0,12,I will cut you into eel food!,105808,0,68512,105808,finna_bjornsdottir,bt-text-match
+90401,Allari the Souleater,7,0,12,"$p, you must enter the soul gem and force Arev'naal to reveal Lord Illidan's location.",92245,0,55191,92245,felguard_sentry,bt-text-match
+117362,Nighthuntress Lexera,1,0,12,We cannot be stopped!,129922,0,67213,129922,hemet_nesingwary,bt-text-match
+101783,Nightborne Siegecaster,5,0,12,My eyes!,109131,0,68513,109131,finna_bjornsdottir,bt-text-match
+113124,Screeching Hag-Sister,2,0,12,We cannot be stopped!,129922,0,61236,129922,stoneblood_harpy_b,bt-text-match
+142830,Captured Vulpera,0,0,12,Your kindness is unexpected.,131764,0,107262,131764,vulpera_generic,bt-text-match
+124688,Natha'vor Cannibal,1,0,12,Your blood for G'huun!,143870,0,98367,143870,blood_troll_female,bt-text-match
+103685,Tichondrius,7,2,14,Such a predictable demise.,0,0,60134,111064,steve,bt-text-match
+120814,Master Bu,3,0,12,"You have shown patience with Master Bu, honor with the grummles, duty with the Shado-Pan, and faith with the jinyu.",0,0,82425,128500,ban-lu,bt-text-match
+121121,Priestess of Eyir,3,0,12,"Champion, I bring you the favor of Eyir! Approach and obtain her blessing.",130193,0,19174,130193,raven,bt-text-match
+103685,Tichondrius,1,0,14,"Feed my hunger, wretch!",0,0,60123,111049,steve,bt-text-match
+103685,Tichondrius,4,1,14,The Light has abandoned you!,29512,0,60125,29512,steve,bt-text-match
+12018,Majordomo Executus,3,0,14,"Brashly, you have come to wrest the secrets of the Living Flame! You will soon regret the recklessness of your quest.",7567,0,8036,0,executus,own-voice-folder
+47296,Helix Gearbreaker,5,0,14,The mistress will pay me handsomely for your heads!,47474,0,20849,47474,helix,bt-text-match
+100431,Duskwatch Orbitist,3,0,12,Who goes there?,112905,0,65802,112905,nightborne_male_caster,bt-text-match
+108793,Human Archmage,0,0,12,Invisibility will not last long. Let's go!,0,0,66488,114522,archmage_vargoth,bt-text-match
+83697,Grom'kar Deckhand,2,0,14,You'll never make it out alive!,86418,0,43903,86418,captainkoramar,bt-text-match
+102670,Duskwatch Defender,3,0,12,You cannot harm us!,116672,0,65896,116672,nightborne_female_heavy,bt-text-match
+72248,Warlord Zaela,4,0,14,Next squad!,0,0,38393,0,zaela,own-voice-folder
+79415,Durotan,4,0,14,Champion! It is good that you have joined us! I will hold these Thunderlord off in case any of your allies arrive.,81548,0,41813,81548,draka,bt-text-match
+130822,Zeth'jir Enthraller,0,0,12,My life... for... Azshara...,144698,0,98675,144698,naga_female,bt-text-match
+90985,Lost Tormenter,0,1,12,We remember the queen.,0,0,52726,93049,lost_laborer,bt-text-match
+66905,Pandaren Cannoneer,3,0,12,"Quickly, this way! The cannon fire has opened a passage to the courtyard!",68130,0,29068,68130,gssarcher1,bt-text-match
+74478,Death's Head Shadowmender,2,0,12,We... cannot... be stopped.,78895,0,46219,78895,blackthorn,bt-text-match
+56208,Francis the Shepherd Boy,3,0,14,Stay away from my sheep!,55079,0,3580,55079,sheep,bt-text-match
+24892,Sathrovarr the Corruptor,5,0,14,I have toyed with you long enough!,25510,0,12457,25510,sathrovarthecorruptor,bt-text-match
+112006,Stelleris Vigilant,3,0,12,An illusion! What are you hiding?,124629,0,66003,124629,nightborne_female_caster,bt-text-match
+17862,Captain Skarloc,2,1,14,Did you really think you would leave here alive?,16676,0,10410,16676,captainscarloc,bt-text-match
+20977,Millhouse Manastorm,3,0,14,"Prepare to defend yourself, cretin!",19823,0,11174,19119,millhousemanastorm,own-voice-folder
+96483,Jepetto Joybuzz,3,0,12,"Oh, goodie. A new box of toys!",113081,0,35296,113081,creepycrate,bt-text-match
+102100,Skyhorn Pathfinder,0,3,12,They were going to feed us to their basilisks!,104405,0,74741,104405,highmountain_brave_male,bt-text-match
+25166,Grand Warlock Alythess,7,0,41,Sacrolash directs Shadow Nova at $n.,24424,0,12492,25516,grandwarlockalythess,own-voice-folder
+37581,Gorkun Ironskull,3,0,14,"Brave champions, we owe you our lives, our freedom.... Though it be a tiny gesture in the face of this enormous debt, I pledge that from this day forth, all will know of your deeds, and the blazing path of light you cut through the shadow of this dark citadel. ",37320,0,17151,37320,misc,bt-text-match
+92450,Eredar Riftweaver,0,1,12,"Surrender the Tidestone, mortal.",95072,0,56970,95072,eredar_summoner_f,bt-text-match
+134162,Julwaba,0,0,12,I need to head back to de arena. Be careful out dere. Jakra'zet has put a hefty price on your head.,148145,0,107102,148145,zandalari_exile_quest_boss_male,bt-text-match
+123453,Vilescale Sorceress,0,0,12,My life... for... Azshara...,144698,0,98675,144698,naga_female,bt-text-match
+94207,Stoneblood Ravager,0,0,12,We cannot be stopped!,129922,0,61236,129922,stoneblood_harpy_b,bt-text-match
+102670,Duskwatch Defender,2,0,12,Arrrrraaaaagghhhh!,135125,0,65893,135125,nightborne_female_heavy,bt-text-match
+72248,Warlord Zaela,3,0,14,They have broken into the tower. Destroy it!,0,0,38397,0,zaela,own-voice-folder
+120704,Annihilan Warden,0,0,12,You dare?!,129829,0,57006,129829,eredar_summoner_m,bt-text-match
+112005,Stelleris Libertine,4,0,12,I yield! I'll tell you anything!,121399,0,80777,121399,nerus_moonfang,bt-text-match
+99676,Mogu'shan Secret-Keeper,0,0,12,Lo-kal...,60638,0,64828,60638,inquisitor_tormentorum,bt-text-match
+127298,Zardrax the Empowerer,1,0,14,No... my link to G'huun is... fading?,136952,0,98367,136952,blood_troll_female,bt-text-match
+120814,Master Bu,4,0,12,"It is clear you embody the wisdom, integrity, and tenacity of a grandmaster. Only one test remains... Prove to me that you can fight like a grandmaster!",0,0,82426,128501,ban-lu,bt-text-match
+103685,Tichondrius,2,0,14,Fester and die!,0,0,60121,111047,steve,bt-text-match
+110949,Screeching Harridan,4,0,12,We cannot be stopped!,129922,0,61236,129922,stoneblood_harpy_b,bt-text-match
+107302,Pearlhunter Phin,12,0,12,Glmrg! Gmlrgm mglrmgrl mrmglr!,114794,0,18075,114794,murlocdeepsea,bt-text-match
+73465,Dark Acolyte,3,0,12,Quickly! Kill the intruders!,76132,0,8353,76132,frog,bt-text-match
+15690,Prince Malchezaar,4,1,14,"You face not Malchezaar alone, but the legions I command!",15344,0,9322,15344,princemalchezzar,bt-text-match
+131409,Stranded Battalion Soldier,1,0,12,I will not forget your bravery.,142906,0,98683,142906,naga_male,bt-text-match
+112489,Callus,3,0,12,Something's not quite right...,124630,0,65803,124630,nightborne_male_caster,bt-text-match
+93071,Bonespeaker Mystic,3,0,12,You are not worthy of being here!,103866,0,67109,103866,rehgar_earthfury,bt-text-match
+28658,Gothik the Harvester,2,0,12,The Scourge shall reign supreme!,28741,0,409,28741,ghoul,bt-text-match
+102670,Duskwatch Defender,4,0,12,For the shal'dorei!,116673,0,65896,116673,nightborne_female_heavy,bt-text-match
+90716,Gelbin Mekkatorque,2,0,14,Take that!,0,0,53408,127434,gelbin_mekkatorque,own-voice-folder
+72248,Warlord Zaela,5,0,14,Turn the cannons on the tower! Bury them alive!,0,0,38399,0,zaela,own-voice-folder
+43686,Ignacious,4,0,14,BEHOLD YOUR DOOM!,0,0,20289,44336,ignacious,bt-text-match
+81505,Vol'jin's Pride Grunt,4,0,14,Take cover within the shield!,83506,0,45094,83506,morkurk,bt-text-match
+124638,Ashvane Prospector,0,0,12,You're not welcome here!,121050,0,108968,121050,ashvane_generic,bt-text-match
+79758,Caregiver Felaani,3,0,12,I just want to take my daughter and leave. We aren't any threat to you.,81739,0,11819,81739,humanfemalekid,bt-text-match
+110654,Frightened Laborer,0,0,12,Run!,118743,0,66336,118743,ruven,bt-text-match
+91349,Mannoroth,6,0,14,Away!,0,0,50483,135117,mannoroth,bt-text-match
+88911,Bilgerudder,3,0,12,I'll murder all of you if I don't see some wins out there!,91669,0,3684,91669,mountaingiant,bt-text-match
+116497,Torvald,6,0,12,It... cannot... be so...,0,0,82280,133175,torvald,own-voice-folder
+83954,Nagrand Skirmisher,1,0,12,For Garrosh!,81860,0,46818,81860,sunreaverarcanist,bt-text-match
+93111,Darkfiend Defiler,0,1,12,Master...,0,0,52145,97767,darkfiend_defiler,bt-text-match
+127224,Empowered Worshipper,0,0,12,Me blood... for... G'huun!,144271,0,98373,144271,blood_troll_female,bt-text-match
+16809,Warbringer O'mrogg,0,0,16,%s roars!,14029,0,10311,16924,warbringeromrogg,own-voice-folder
+34054,Bronzebeard Radio,0,0,12,"You've done it! You've broken the defenses of Ulduar. In a few moments, we will be dropping in to...",34154,0,15804,34154,brann,bt-text-match
+106656,Seeker of Wisdom,0,0,12,The Burning Legion killed my family. Die!,0,0,67683,117139,esara_verrinde,bt-text-match
+106072,Sylendra Gladesong,3,0,12,Incoming!,0,0,66756,135524,sylendra_gladesong,bt-text-match
+81152,Scout Valdez,3,0,12,"$gSir:Ma'am;, I have some recent threats sketched out on the map here whenever you're ready.",88164,0,45661,88164,yrel,bt-text-match
+78529,Frostwolf Slave,0,0,14,Help us!,41118,0,43876,41118,maleorcprisoner,bt-text-match
+93931,Gorebound Felcaster,1,0,14,Move out!,95599,0,50825,95599,siegeorcfemale,bt-text-match
+142854,Captured Vulpera,0,0,12,The things I've seen...,137981,0,107261,137981,vulpera_generic,bt-text-match
+75358,Arnokk the Burner,4,0,14,I'll roast your flesh!,0,0,43672,80245,arnokk,bt-text-match
+82005,Challe Tebrilinde,3,0,12,Cannot fail... I will not fail...,84093,0,46401,84093,thrall,bt-text-match
+102828,Sashj'tar Sandcrusher,1,0,12,Sashj'tar destroy you!,105060,0,68512,105060,finna_bjornsdottir,bt-text-match
+127385,Image of Zardrax the Empowerer,0,0,12,No! Nana'kwug! Now I have to...,138516,0,98369,138516,blood_troll_female,bt-text-match
+95727,Darkfiend Corruptor,0,0,12,Looking for a fight? Allow me...,0,0,52077,98098,darkfiend_dreadbringer,bt-text-match
+95123,Grelda the Hag,1,0,12,Howww did it get passst the daughters?! We will feassst on its insssides!,109156,0,61249,109156,stoneblood_harpy_b,bt-text-match
+120604,Zealous Echo,3,0,12,Run... while you can.,134491,0,87170,134491,eredar_caster,bt-text-match
+95727,Darkfiend Corruptor,0,4,12,Pity. You could have joined us...,0,0,52078,121984,darkfiend_dreadbringer,bt-text-match
+33242,Thorim,3,0,12,"As you wish, $n.",0,0,15750,34418,thorim,own-voice-folder
+111514,Alonsus Faol,1,0,12,May the Light shine upon you.,0,0,68493,121081,alonsus_faol,own-voice-folder
+24689,Wretched Bruiser,0,0,12,It's MINE!,23845,0,12378,23845,selimfireheart,bt-text-match
+94046,Risen Assassin,5,0,12,No obstacle shall stand in our way.,95645,0,52292,95645,black_rook_assassin,bt-text-match
+23418,Essence of Suffering,2,2,14,The pain is only beginning...,21763,0,11419,21763,essenceofgrief,bt-text-match
+105759,High Mage of the Duskwatch,0,0,12,Who goes there?!,105557,0,65802,105557,nightborne_male_caster,bt-text-match
+41302,Galak Mauler,3,0,14,No gold for oil!,45423,0,1044,45423,centaur,bt-text-match
+116361,Silver Hand Recruit,1,0,12,We cannot be stopped!,129922,0,82688,129922,dreadlord,bt-text-match
+119923,Helblaze Soulmender,1,0,12,The cathedral is ours!,130742,0,81715,130742,agronox,bt-text-match
+24892,Sathrovarr the Corruptor,4,1,14,Haven't you heard? I always win!,25509,0,12456,25509,sathrovarthecorruptor,bt-text-match
+122903,Torcalin Cleric,0,0,12,Blood magic be forbidden! Da traitors must be stopped!,133476,0,98965,133476,zandalari_religious,bt-text-match
+100452,Dark Ranger Velonara,3,0,12,"The Dark Lady has lent her rangers to your cause, $ct.",105670,0,61862,105670,vereesa_windrunner,bt-text-match
+126199,Vrax'thul,1,0,12,I see you.,132218,0,55372,132218,inquisitor,bt-text-match
+76809,Foreman Feldspar,5,0,14,Die!,0,0,44400,94016,foreman,bt-text-match
+121246,Darkfallen Slave,3,0,12,Pheta vi acahachi!,133641,0,88169,133641,broken,bt-text-match
+107350,Cyrille,1,0,12,Vengeance for Margaux!,115599,0,69825,115599,overseer_elvire,bt-text-match
+18805,High Astromancer Solarian,4,0,14,Enough of this!  Now I call upon the fury of the cosmos itself.,20372,0,11135,20850,highastromancersolarian,own-voice-folder
+56884,Taran Zhu,0,0,14,"Taran Zhu and the Shado-Pan are MINE. Come forward and die by my hand, as all who oppose me shall in the days to come!",0,0,28334,63341,shaofhatred,bt-text-match
+111307,Master Mathias Shaw,1,0,14,My swarm will destroy you!,0,0,71090,121790,detheroc,bt-text-match
+24690,Wretched Husk,1,0,12,You wish to steal the power!  Die!,23846,0,12378,23846,selimfireheart,bt-text-match
+29621,Grand Admiral Westwind,5,0,14,ENOUGH! I waste my time here. I must gather my strength on the homeworld.,30277,0,14428,30277,malganis,bt-text-match
+34830,Defiant Troll,3,0,12,"Sorry, mon. It won't happen again.",35112,0,12007,35112,foresttrollmale,bt-text-match
+96615,Feltotem Demonkindre,3,0,12,I smell blood in the forest.,102402,0,54822,102402,feltotem_warmonger,bt-text-match
+103685,Tichondrius,9,0,14,Impossible! You are... inferior...,0,0,60135,111065,steve,bt-text-match
+102841,Commander Malt'his,0,0,12,What's thisss? A trespasser intrudesss on our conversation.,105268,0,68513,105268,finna_bjornsdottir,bt-text-match
+75336,Outcast Shadeweaver,0,0,12,Iskar will guide us to freedom.,78580,0,6528,78580,ancientprotector,bt-text-match
+82263,Agios Lumen,4,0,12,Must... keep... fighting...,84092,0,44860,84092,khadgar,bt-text-match
+15276,Emperor Vek'lor,2,0,14,"My brother, no!",11452,0,8660,11452,veknilash,bt-text-match
+73330,Lorewalker Cho,14,0,14,Rest in peace.,0,0,38136,88693,lorewalkercho,own-voice-folder
+15341,General Rajaxx,8,0,16,%s goes into a frenzy!,2384,0,8606,0,rajaxx,own-voice-folder
+89072,Bilgerudder,3,0,14,"Come on, $p, talk with Sternfathom. Let's get this fight started!",108568,0,3684,108568,mountaingiant,bt-text-match
+23953,Prince Keleseth,5,0,41,%s casts Frost Tomb on $n.,27152,0,13225,29592,princekeleseth,own-voice-folder
+106656,Seeker of Wisdom,2,0,12,I'm just as good with a sword as I am with spells. Any preference?,0,0,67684,117141,esara_verrinde,bt-text-match
+33579,Brann Bronzebeard,1,0,12,Okay! Let's move out. Get into your machines; I'll speak to you from here via the radio!,33684,0,15807,33684,brann,bt-text-match
+23543,Shade of the Horseman,0,0,14,"Fire consumes! You've tried and failed.  Let there be no doubt, justice prevailed!",22026,0,11967,22026,headlesshorseman,bt-text-match
+115697,Desperate Refugee,0,0,12,There are demons everywhere...,124198,0,55370,124198,wrath_warrior,bt-text-match
+92450,Eredar Riftweaver,0,2,12,You dare?!,129829,0,56982,129829,eredar_summoner_f,bt-text-match
+164450,Dealer Xy'exa,1,0,14,Did you dream of flying?,0,0,153436,0,dealer_gexa,own-voice-folder
+113738,Duskwatch Moonmage,1,0,12,"Die, outlander!",6226,0,65820,6226,nightborne_male_caster,bt-text-match
+109403,Niskaran Doombringer,0,0,12,By the might of Sargeras!,109464,0,56973,109464,eredar_summoner_f,bt-text-match
+111307,Master Mathias Shaw,2,0,14,Go to sleep. Forget everything.,0,0,71091,121791,detheroc,bt-text-match
+130078,Captured Farmer,3,0,12,Thank goodness you're here. Those cookpots were getting empty...,147870,0,104248,147870,quilboar,bt-text-match
+20909,Sulfuron Magma-Thrower,1,0,14,S-s-o-o... cold.,19834,0,11227,19834,wardenmellichar,bt-text-match
+98306,Cliffclutch Screecher,1,0,12,I will rip you to shreds!,127508,0,61244,127508,stoneblood_harpy_b,bt-text-match
+130824,Zeth'jir Seacaller,0,0,12,To the abyss with you!,142518,0,98671,142518,naga_female,bt-text-match
+47296,Helix Gearbreaker,3,0,14,Bombs away!,74032,0,20847,74032,helix,bt-text-match
+23177,Tarren Mill Lookout,3,0,12,Something riled that horse. Let's go!,15969,0,725,15969,horse,bt-text-match
+112717,Ginger Blockgear,3,0,12,"I must have this, the detail is outstanding!",121605,0,61693,121605,the_great_akazamzarak,bt-text-match
+29621,Grand Admiral Westwind,6,0,14,You'll never defeat the Lich King without my forces. I'll have my revenge... on him AND you!,30278,0,14429,30278,malganis,bt-text-match
+111393,Deathcaller Mystic,1,0,12,You are not worthy of being here!,103866,0,52488,103866,vrykul_male_mystic,bt-text-match
+77915,Throm'var Villager,3,0,12,The human wizard and his pet elf are to blame. The land knows they don't belong.,76147,0,45013,76147,khadgar,bt-text-match
+83697,Grom'kar Deckhand,0,0,14,You'll never make it out alive!,86418,0,43903,86418,captainkoramar,bt-text-match
+12018,Majordomo Executus,6,0,14,You think you've won already? Perhaps you'll need another lesson in pain!,8545,0,8041,7661,executus,own-voice-folder
+114868,Felborne Enforcer,3,0,12,An illusion! What are you hiding?,124629,0,65819,124629,nightborne_male_caster,bt-text-match
+43687,Feludius,4,0,14,BEHOLD YOUR DOOM!,0,0,20166,44336,feludius,bt-text-match
+16812,Barnes,0,0,12,Splendid. I'm going to get the audience ready. Break a leg!,14056,0,9174,14122,barnesthestagemanager,own-voice-folder
+108339,Ancient Flamecaller,1,0,12,Join us... join us forever...,100972,0,52903,100972,weeping_banshee,bt-text-match
+43689,Terrastra,4,0,14,BEHOLD YOUR DOOM!,0,0,21846,44336,terrastra,bt-text-match
+123658,Highguard Captain,1,0,12,You dare?!,129829,0,57007,129829,eredar_summoner_m,bt-text-match
+25301,Counselor Talbot,1,0,12,The power you've bestowed upon me has granted me great mental influence over human minds.  I bear these offerings as proof of my progress.,25358,0,14212,25358,princevalanar,bt-text-match
+164450,Dealer Xy'exa,2,0,14,Where shall I move you?,0,0,153435,0,dealer_gexa,own-voice-folder
+80833,Beastmaster Tagh,3,0,12,Commander $n approaches! Salute!,81733,0,45511,81733,krelas,bt-text-match
+91755,Orgrimmar Soldier,3,0,12,"No, please! No!",93910,0,47208,93910,orcmaleaggressive01,bt-text-match
+120814,Master Bu,2,0,12,"But in the midst of that reflection, I saw something new and interesting appear... you!",0,0,82424,128499,ban-lu,bt-text-match
+97346,Sira Moonwarden,3,0,12,"This way, sisters!",101083,0,57341,101083,kethrazor,bt-text-match
+115883,Corrine the Devout,2,0,12,We cannot be stopped!,129922,0,82688,129922,dreadlord,bt-text-match
+167425,Overseer Kah-Delen,2,0,12,Impossible!,0,0,131775,173301,priscilla_ashvane,bt-text-match
+102100,Skyhorn Pathfinder,0,0,12,"My thanks, champion!",104407,0,74741,104407,highmountain_brave_male,bt-text-match
+43688,Arion,4,0,14,BEHOLD YOUR DOOM!,0,0,20241,44336,arion,bt-text-match
+74979,Frightened Prisoner,1,0,12,"They were going to feed us to the beast Aku'mai. There are more prisoners deeper in the dungeon. Please, save them!",77940,0,43550,77940,executionergore,bt-text-match
+47296,Helix Gearbreaker,4,0,14,Ready Oafie? Throw!,0,0,20848,0,helix,own-voice-folder
+95727,Darkfiend Corruptor,0,5,12,This land is doomed!,0,0,52072,98091,darkfiend_defiler,bt-text-match
+103685,Tichondrius,5,0,14,"Pathetic! You're putting me to sleep. Here, let me return the favor!",0,0,60122,111048,steve,bt-text-match
+18094,Tarren Mill Lookout,0,0,12,"He's here, stop him!",15986,0,10449,15986,thrallcot,bt-text-match
+103685,Tichondrius,8,1,14,Another twig for the kindling!,0,0,60132,111060,steve,bt-text-match
+60968,Xuen,11,0,12,The elements walk in harmony with this one. I've not seen a better shaman since I fought alongside Thrall himself.,0,0,60608,102545,xuen,bt-text-match
+134472,Coven Hexcaller,0,0,12,You cannot win...,125067,0,97839,125067,drustvar_witch,bt-text-match
+72967,Guttra Wolfchew,4,0,12,"So, soo... hungry... Ack!!",76536,0,17671,76536,wolf,bt-text-match
+102100,Skyhorn Pathfinder,0,4,12,This is why I hate caves.,104408,0,74741,104408,highmountain_brave_male,bt-text-match
+105759,High Mage of the Duskwatch,0,1,12,An illusion! What are you hiding?,124629,0,65819,124629,nightborne_male_caster,bt-text-match
+111328,Helarjar Soulhunter,1,0,12,I will bathe in your blood!,102890,0,52495,102890,vrykul_male_cursed,bt-text-match
+114470,Duskwatch Orbitist,0,0,12,Confess! You are harboring traitors to Suramar!,124223,0,65771,124223,nightborne_male_child,bt-text-match
+109670,Chronarch Defender,3,0,12,Show your identification. COMPLY.,119796,0,65802,119796,nightborne_male_caster,bt-text-match
+81654,Garrison Laborer,3,0,12,We are with you commander.,88566,0,44807,88566,maraad,bt-text-match
+41204,Khan Ablinh,3,0,14,"What is this? FAKE! Splithoof, $n and the gnomes have tried to fool us. Kill $g him : her;!",41204,0,1044,41204,centaur,bt-text-match
+20908,Akkiris Lightning-Waker,2,0,14,You are... nothing!,19832,0,11178,19832,millhousemanastorm,bt-text-match
+81432,Grom'kar Technician,0,0,14,You'll never make it out alive!,86418,0,43903,86418,captainkoramar,bt-text-match
+120814,Master Bu,1,0,12,"Filled with sorrow by the death of Grandmaster Hight, I wandered Pandaria to reflect.",0,0,82423,128498,ban-lu,bt-text-match
+110861,Vaultwarden Umbra,1,0,12,"... I have failed you my lord, Detheroc...",119154,0,69514,119154,master_mathias_shaw,bt-text-match
+25301,Counselor Talbot,2,0,12,"Allow me to take care of the intruders, lord.  I will feed their entrails to the maggots.",25361,0,14213,25361,princevalanar,bt-text-match
+91571,Thane Wildsky,1,0,12,You will not bar my way.,0,0,51732,135483,thane_wildsky,bt-text-match
+125158,Talgathi Portal Keeper,1,0,12,Azeroth will be ours.,132523,0,56982,132523,eredar_summoner_f,bt-text-match
+177924,Concerned Attendant,6,0,12,You should have fled when you had the chance.,209799,0,179681,209799,mawsworn_spiked_guard,bt-text-match
+102670,Duskwatch Defender,1,0,12,Our magic will break you!,100930,0,65817,100930,nightborne_male_caster,bt-text-match
+106516,Empyrean Astrologer,1,0,12,Traitorous spies must die!,115615,0,67683,115615,esara_verrinde,bt-text-match
+72248,Warlord Zaela,2,0,14,For Garrosh!,0,0,38395,0,zaela,own-voice-folder
+101784,Nightborne Infiltrator,2,0,12,I cannot lose to a lowborn!,116756,0,65857,116756,nightborne_female_light,bt-text-match
+112531,Leleyna,3,0,12,An illusion! What are you hiding?,124629,0,66003,124629,nightborne_female_caster,bt-text-match
+115291,Helarjar Soulthief,0,0,12,I will bathe in your blood!,102890,0,51704,102890,unworthy_warrior,bt-text-match
+74329,Thunderlord Invader,3,0,12,We will crush you just the same!,80954,0,41809,80954,draka,bt-text-match
+38768,Lorna Crowley,3,0,14,Father!,69734,0,19697,69734,lorna,bt-text-match
+102496,Shal'dorei Servant,3,0,12,Run while you still can!,121708,0,68461,121708,koltira_deathweaver,bt-text-match
+103685,Tichondrius,6,0,14,Underlings! Get in here!,0,0,60126,111052,steve,bt-text-match
+54548,Thrall,1,0,12,Danger approaches!,0,0,25873,138096,thrall,own-voice-folder
+15608,Medivh,6,0,14,"Orcs of the Horde! This portal is the gateway to your new destiny! Azeroth lies before you, ripe for the taking!",19909,0,10440,16796,medivh,own-voice-folder
+120852,Doomsworn Harbinger,1,0,12,By the might of Sargeras!,109464,0,56997,109464,eredar_summoner_m,bt-text-match
+138228,Vulpera Kid,0,0,12,I told you Meerah wouldn't forget about us! She's the best!,154890,0,107772,154890,sethrak_quest_boss_female,bt-text-match
+23576,Nalorakk,4,0,14,Mua-ha-ha!,22145,0,12070,0,nalorakk,own-voice-folder
+56572,Li Li,3,0,12,I TOLD you he was weird.,55392,0,30411,55392,lilistormstout,bt-text-match
+128267,Crawg Rider,0,0,12,Guzincha!,143868,0,98369,143868,blood_troll_female,bt-text-match
+103685,Tichondrius,0,0,14,Never trust a mortal to do a demon's work!,0,0,60131,111057,steve,bt-text-match
+111992,Stelleris Vigilant,3,0,12,An illusion! What are you hiding?,124629,0,66005,124629,nightborne_female_caster,bt-text-match
+118135,Rakeeshi Honor Guard,0,0,12,You dare?!,129829,0,57006,129829,eredar_summoner_m,bt-text-match
+91575,Kvaldir Soulflayer,3,0,12,I will bathe in your blood!,102890,0,51704,102890,unworthy_warrior,bt-text-match
+109403,Niskaran Doombringer,0,1,12,You dare?!,129829,0,56973,129829,eredar_summoner_f,bt-text-match
+33213,Hodir,3,0,12,"As you wish, $n.",0,0,15559,34418,hodir,own-voice-folder
+28919,Noth the Plaguebringer,3,0,12,My task is done!,29070,0,8849,29070,noththefrozen,bt-text-match
+88696,Officer Rumsfeld,3,0,12,"We must focus all of our efforts into the mines. I agree with Dr. Jones, the Artifact has to be there. It has to be!",91315,0,4415,91315,mechastrider,bt-text-match
+134983,Samuel Williams,3,0,15,They are redemption. They are truth.,149328,0,98463,149328,faceless_one,bt-text-match
+94346,Ensign Ward,3,0,12,Champion! I bear orders from Greymane!,115655,0,19174,115655,raven,bt-text-match
+17862,Captain Skarloc,1,1,14,I don't know what Blackmoore sees in you. For my money you're just another ignorant savage!,16674,0,10408,16674,captainscarloc,bt-text-match
+53691,Shannox,3,1,14,Kill!,0,0,24571,95337,shannox,bt-text-match
+20977,Millhouse Manastorm,2,0,14,"I have no idea what goes on here, but I will gladly join your fight against this impudent imbecile!",19822,0,11173,19117,millhousemanastorm,own-voice-folder
+127935,Summoner Yarz,1,0,12,Haha... it be too late... da Blood God.. be here!,137424,0,101799,137424,jungo,bt-text-match
+17308,Omor the Unscarred,5,0,16,%s grins malevolently.,14756,0,10283,17632,omortheunscarred,own-voice-folder
+103685,Tichondrius,7,0,14,Laughable! As if you had a prayer of stopping the ritual...,0,0,60133,111063,steve,bt-text-match
+181057,Echo of Argus,0,0,12,Ist es... vorbei?,0,0,187953,0,argus,own-voice-folder
+110679,Aurore,1,0,12,Thank you. Do let Ly'leth know that I stand with her.,119496,0,65866,119496,nightborne_female_light,bt-text-match
+111485,Duskwatch Spellshield,0,0,12,Lowborn scum!,116685,0,65907,116685,nightborne_female_heavy,bt-text-match
+108004,Haunting Protector,1,0,12,Feel the chill of the grave!,116424,0,66046,116424,night_elf_male_ghost,bt-text-match
+34830,Defiant Troll,6,0,12,I'm going. I'm going!,35113,0,12007,35113,foresttrollmale,bt-text-match
+72785,Twisted Ancient,3,0,12,The pain.,76064,0,2991,76064,frog,bt-text-match
+108628,Armond Thaco,3,0,12,"Damn, $n! Back at it again with the sweet shades!",121046,0,4415,121046,mechastrider,bt-text-match
+20911,Blackwing Drakonaar,1,0,14,The dragonflight will... devour you.,19836,0,11228,19836,wardenmellichar,bt-text-match
+15690,Prince Malchezaar,3,1,14,"Your greed, your foolishness has brought you to this end.",15125,0,9318,15125,princemalchezzar,bt-text-match
+89117,Warlord Parjesh,3,0,12,"Yes, madam.",0,0,52901,144901,warlord_parjesh,own-voice-folder
+16700,Shattered Hand Legionnaire,3,0,14,Line up and crush these fools!,16346,0,10187,16346,legionnaire01,bt-text-match
+86535,Overseer Lykill,2,0,12,I WILL return!,93273,0,57400,93273,korvas_bloodthorn,bt-text-match
+90378,Kilrogg Deadeye,0,0,14,I've been waiting for this day!,0,0,50419,94091,jubeithos,bt-text-match
+102100,Skyhorn Pathfinder,0,1,12,They took some of our people deeper into the Enclave.,104406,0,74741,104406,highmountain_brave_male,bt-text-match
+29621,Grand Admiral Westwind,4,0,14,Kirel narak! I am Mal'Ganis. I AM ETERNAL!,30276,0,14427,30276,malganis,bt-text-match
+79799,Draenei Refugee,3,0,14,"It's not that far. Come on, just jump already!",81804,0,45391,81804,velen,bt-text-match
+30385,Twilight Volunteer,3,0,14,I have been chosen!,78566,0,14345,78566,jedogashadowseeker,bt-text-match
+12018,Majordomo Executus,4,0,14,"I go now to summon the lord whose house this is. Should you seek an audience with him, your paltry lives will surely be forfeit! Nevertheless, seek out his lair, if you dare!",7568,0,8038,7561,executus,own-voice-folder
+116823,Shadowdirge Soul Reaper,3,0,12,May the doors of Valhallas open for you.,126205,0,30541,126205,lilistormstout,bt-text-match
+96527,Thrall,2,0,12,Danger approaches!,0,0,60555,138096,thrall,own-voice-folder
+102100,Skyhorn Pathfinder,0,5,12,Time for some payback!,104410,0,74741,104410,highmountain_brave_male,bt-text-match
+111485,Duskwatch Spellshield,1,0,12,Anath'ashar!,116688,0,65910,116688,nightborne_female_heavy,bt-text-match
+25201,Winterfin Tadpole,3,0,12,Eww... $r!,24456,0,8475,24456,babymurloc,bt-text-match
+23954,Ingvar the Plunderer,3,0,41,%s roars!,14029,0,13211,29979,ingvartheplunderer,own-voice-folder
+81428,Fort Wrynn Footman,4,0,14,Take cover within the shield!,83506,0,45094,83506,morkurk,bt-text-match
+92539,Havi,9,0,14,I have had enough of that foul sorceress' games!,0,0,77637,123497,odyn,bt-text-match
+115079,Victoire,0,0,14,Over here!,143887,0,78625,143887,arluelle,bt-text-match
+116281,Doomsworn Harbinger,1,0,12,By the might of Sargeras!,109464,0,57005,109464,eredar_summoner_m,bt-text-match
+166451,Forsworn Swiftblade,0,0,12,My... service... ends...,189479,0,153638,189479,centurion_praetor,bt-text-match
+127085,Talgath,3,0,14,Arrrrraaaaagghhhh!,0,0,87973,135125,talgath,bt-text-match
+90378,Kilrogg Deadeye,7,0,14,"At last, this is the death I saw!",0,0,50420,94099,jubeithos,bt-text-match
+105526,Helmouth Soulflayer,4,0,12,I will bathe in your blood!,102890,0,51704,102890,unworthy_warrior,bt-text-match
+115507,Nightfallen Rebel,1,0,12,"Champion, I have come to learn from you.",124020,0,52234,124020,trelan_shieldbreaker,bt-text-match
+47296,Helix Gearbreaker,0,0,14,The scales...have...tipped...,47575,0,20844,47575,helix,bt-text-match
+98975,Doomherald Ak'vesh,0,0,12,The Warblades will consume you!,107704,0,53237,107704,doomguard2,bt-text-match
+64563,Talking Skull,3,0,14,"Die, Gandling! Kill him!",65149,0,29469,65149,lillianvoss,bt-text-match
+94046,Risen Assassin,4,0,12,Taste steel.,95644,0,52291,95644,black_rook_assassin,bt-text-match
+84225,Proximity Alarm-o-Bot 2000,0,0,12,Stealth Detection Systems Online. Invisibility Flare Booting up...,88223,0,45972,88223,krong,bt-text-match
+76039,Twilight Aquamancer,1,0,12,Your blood shall be the catalyst for the Old Gods' return!,2409,0,45759,2409,bathiel,bt-text-match
+118690,Wrathguard Invader,1,0,12,Your relics cannot save you now!,130743,0,81716,130743,agronox,bt-text-match
+33134,Sara,1,1,14,Let hatred and rage guide your blows!,34345,0,15774,34345,yoggsaron,bt-text-match
+102192,Dread Sharpshooter,0,0,12,Keep your eyes peeled. The admiral is not to be disturbed.,104497,0,43955,104497,orcskeleton,bt-text-match
+76289,Thunderlord Ranger,1,0,12,You cannot save them!,80952,0,37730,80952,wolf,bt-text-match
+75114,Razorfen Kraulshaper,3,0,14,They killed Bonetusk... we must hold them off!,78929,0,41946,78929,bonetusk,bt-text-match
+47296,Helix Gearbreaker,2,0,14,I didn't need him! Not when I've got YOU oafs!,47573,0,20846,47573,helix,bt-text-match
+123539,Injured Sailor,0,0,12,Th... thank you!,132605,0,98680,132605,naga_male,bt-text-match
+25165,Lady Sacrolash,0,0,12,Misery...confusion...mistrust. These are the hallmarks.,25512,0,12484,0,ladysacrolash,own-voice-folder
+134983,Samuel Williams,5,0,15,You struggle at the surface... but He waits below.,149341,0,98464,149341,faceless_one,bt-text-match
+108931,Vineyard Laborer,1,0,12,Agh!,115114,0,66279,115114,margaux,bt-text-match
+103685,Tichondrius,6,1,14,Show these pretenders how to fight!,0,0,60128,111053,steve,bt-text-match
+16151,Midnight,1,1,14,Who dares attack the steed of the Huntsman?,15378,0,9298,15378,attumenthehuntsman,bt-text-match
+78533,Wor'gol Defender,4,0,12,Well fought!,119539,0,41809,119539,draka,bt-text-match
+120764,Echo of Khazaduum,1,1,12,There is nowhere to run.,134496,0,86717,134496,legion-ghost_eredar_caster,bt-text-match
+89350,Oublion,4,0,12,"What am I thinking? This fight is all yours, my queen.",92156,0,68513,92156,finna_bjornsdottir,bt-text-match
+72783,All-Seeing Eye,1,0,12,I SEE YOU!,74999,0,18240,74999,ancientofarcane,bt-text-match
+33134,Sara,3,1,14,Could they have been saved?,34350,0,15779,34350,yoggsaron,bt-text-match
+95727,Darkfiend Corruptor,0,2,12,Welcome to your nightmare!,0,0,52342,121987,darkfiend_zealot,bt-text-match
+90401,Allari the Souleater,3,0,12,"Quickly, $p, break the next soul gem.",92252,0,56847,92252,felbat,bt-text-match
+23597,Amani'shi Guardian,3,0,14,More intruders! Sound da alarm!,23252,0,12104,23252,zulamanguard,bt-text-match
+47296,Helix Gearbreaker,1,0,14,Only ten copper? You're not even worth killing!,47574,0,20845,47574,helix,bt-text-match
+124688,Natha'vor Cannibal,2,0,12,Blood! Blood! Blood!,143875,0,98371,143875,blood_troll_female,bt-text-match
+78559,Archmage Khadgar,0,0,12,Stop. Now.,0,0,44862,128584,khadgar,own-voice-folder
+25165,Lady Sacrolash,7,0,41,Alythess directs Conflagration at $n.,24426,0,12488,24452,ladysacrolash,own-voice-folder
+76669,Durotan,4,0,12,"$p, don't let Fenris escape!",79569,0,44094,79569,ganar,bt-text-match
+118447,Commander Jarod Shadowsong,1,0,12,My best...was not enough...,0,0,82370,127469,commander_jarod_shadowsong,bt-text-match
+72248,Warlord Zaela,0,0,14,Warriors of the Dragonmaw! Retake the docks and drive the enemy into the sea! In the name of the True Horde!,0,0,38391,0,zaela,own-voice-folder
+126492,Netherguard Adept,1,0,12,"Die, fleshling!",132224,0,86795,132224,shadowguard_ethereal,bt-text-match
+72955,Grimfrost Drudge,4,0,12,"Hey, watch it!",111955,0,1108,111955,wolf,bt-text-match
+34830,Defiant Troll,7,0,12,I report you to HR!,40315,0,12007,40315,foresttrollmale,bt-text-match
+33134,Sara,2,1,14,"Tremble, mortals, before the coming of the end!",34348,0,15777,34348,yoggsaron,bt-text-match
+115852,Morta the Wretch,0,0,12,The shadow is... gone?,124796,0,81679,124796,archmage_xylem,bt-text-match
+28375,Glrglrglr,3,0,12,"So long, suckers. I'm out of here!",27829,0,414,27829,murloc,bt-text-match
+103685,Tichondrius,7,1,14,You think getting past a few power-addled elves means you can stand against a true son of the Legion?,0,0,60130,111056,steve,bt-text-match
+97193,Apprentice Warlock,0,0,12,Together we will imprison these demons once again.,98887,0,72571,98887,skywhisker_scrapper,bt-text-match
+17797,Hydromancer Thespia,0,0,14,Enjoy the storm warm bloods!,19456,0,10360,0,hydromancerthespia,own-voice-folder
+56701,Pearlfin Poolwatcher,0,0,12,For the Pearlfin!,58038,0,31787,58038,lorewalkercho,bt-text-match
+125392,Vilescale Mana Taster,0,0,12,The tide... ebbs...,144695,0,98678,144695,naga_female,bt-text-match
+132230,Warmother Molaka,1,0,12,Me be da one... crushed?,157026,0,103862,157026,princess_talanji,bt-text-match
+95138,Wormtalon Witch,1,0,12,I will rip you to shreds!,127508,0,61244,127508,stoneblood_harpy_b,bt-text-match
+120606,Blood Troll Hexxer,0,0,12,Da Blood God... claims... all...,144276,0,98329,144276,blood_troll_female,bt-text-match
+17693,Shattered Hand Scout,1,0,14,Invaders have breached the defenses!,14309,0,10285,14309,scout,bt-text-match
+113738,Duskwatch Moonmage,0,0,12,An illusion! What are you hiding?,124629,0,65819,124629,nightborne_male_caster,bt-text-match
+90378,Kilrogg Deadeye,9,0,14,"Fall, hero!",0,0,50426,129619,kilrog,bt-text-match
+70279,Moira Thaurissan,4,0,12,Aye. I am loathe to send my men into that. It reeks of ambush and bloody disaster.,0,0,37192,0,moira,own-voice-folder
+94261,Bitestone Rockbeater,1,0,12,Shadows engulf you!,117302,0,57965,117302,drogbar_earthrender,bt-text-match
+111489,Loyalist Sycophant,1,0,12,Your star is fading!,116684,0,65866,116684,nightborne_female_light,bt-text-match
+90199,Gorefiend,8,0,14,Ended!,0,0,50371,133907,gorefiend,bt-text-match
+19044,Gruul the Dragonkiller,4,0,16,%s roars!,14029,0,11363,0,gruulthedragonkiller,own-voice-folder
+73225,Throm'var Villager,3,0,12,Why does the ground shake? Are we under attack?,76145,0,44144,76145,cordanafelsong,bt-text-match
+120814,Master Bu,5,0,14,"Your skills are impressive indeed, Grandmaster! I would be honored to serve you, as I served the great leaders of our order who came before.",0,0,82427,128502,ban-lu,bt-text-match
+118402,Succubus,4,0,12,"I have waited a long time for this, Cazarian! Now the whip is in the other hand!",126775,0,67109,126775,rehgar_earthfury,bt-text-match

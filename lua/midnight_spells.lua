@@ -13,6 +13,28 @@ RegisterPlayerEvent(5, function(_, player, spell)   -- ON_SPELL_CAST
     if ok and id == MASK then
         pcall(function() player:CastSpell(player, MASK_VISUAL, true) end)
     end
+    -- Translocator Recall (1405002): prvy cast ulozi kotvu, dalsi teleportuje spat.
+    if ok and id == 1405002 and player and player.GetName then
+        local key = (string.gsub(player:GetName() or "", "'", "''"))
+        local q = WorldDBQuery(string.format("SELECT v FROM world.lw_state WHERE k = 'transloc:%s'", key))
+        local anchor = q and q:GetString(0) or nil
+        if anchor then
+            local m, x, y, z, o = string.match(anchor, "([^:]+):([^:]+):([^:]+):([^:]+):([^:]+)")
+            m, x, y, z, o = tonumber(m), tonumber(x), tonumber(y), tonumber(z), tonumber(o or 0)
+            if m and x and y and z then
+                pcall(function() player:Teleport(m, x, y, z, o) end)
+                player:SendBroadcastMessage("|cff6fd6ff[Translocator]|r Recalled to your anchor.")
+            else
+                player:SendBroadcastMessage("|cff6fd6ff[Translocator]|r Anchor corrupted, setting a new one here.")
+                anchor = nil
+            end
+        end
+        if not anchor then
+            pcall(WorldDBExecute, string.format("REPLACE INTO world.lw_state (k, v) VALUES ('transloc:%s', '%d:%.2f:%.2f:%.2f:%.2f')",
+                key, player:GetMapId(), player:GetX(), player:GetY(), player:GetZ(), player:GetO()))
+            player:SendBroadcastMessage("|cff6fd6ff[Translocator]|r Anchor set here. Cast again to return.")
+        end
+    end
 end)
 
 local last = {}   -- name -> last time in clean water

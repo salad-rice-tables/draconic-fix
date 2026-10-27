@@ -1,0 +1,21 @@
+{
+  "when": "2026-10-08T10:18:49",
+  "phase": "custom",
+  "total": 108,
+  "collisions": [
+    {
+      "kind": "quest",
+      "id": 95008,
+      "wowhead": "200",
+      "wh_name": "Adventuring in Midnight",
+      "verdict": "CHECK"
+    },
+    {
+      "kind": "quest",
+      "id": 95009,
+      "wowhead": "200",
+      "wh_name": "Doing the Dash",
+      "verdict": "CHECK"
+    }
+  ]
+}

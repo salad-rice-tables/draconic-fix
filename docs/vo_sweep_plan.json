@@ -1,0 +1,36 @@
+{
+ "summary": {
+  "no_bt": 10565,
+  "emote": 3176,
+  "raid": 1883,
+  "silent": 38639,
+  "spoken": 44729,
+  "wrong_speaker": 2481,
+  "speaker_unknown": 61,
+  "text_diff": 8315,
+  "eff_empty": 6782,
+  "speaker_ok": 5431,
+  "ru_text": 4899,
+  "bt_missing": 51
+ },
+ "flags_combo": {
+  "silent": 20512,
+  "wrong_speaker": 1622,
+  "silent+text_diff": 1392,
+  "eff_empty+silent": 4864,
+  "eff_empty+silent+text_diff": 724,
+  "no_bt+silent": 6446,
+  "": 3761,
+  "ru_text+silent+text_diff": 1917,
+  "text_diff+wrong_speaker": 414,
+  "ru_text+silent": 4,
+  "eff_empty+ru_text+silent+text_diff": 918,
+  "ru_text+text_diff+wrong_speaker": 411,
+  "speaker_unknown": 16,
+  "text_diff": 701,
+  "ru_text+text_diff": 964,
+  "bt_missing+silent": 39,
+  "ru_text+speaker_unknown+text_diff": 15,
+  "speaker_unknown+text_diff": 9
+ }
+}

@@ -1,0 +1,1 @@
+UPDATE quest_objectives SET Type=2,ObjectID=544004 WHERE ID=460719 AND QuestID=86644; DELETE FROM smart_scripts WHERE source_type=1 AND entryorguid=544004 AND id=1; DELETE FROM creature_template WHERE entry=9108870;

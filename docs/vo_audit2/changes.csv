@@ -1,0 +1,1135 @@
+﻿action,creature,group,id,why,old_text,new_text,old_bt,new_bt,old_sound,new_sound
+restore_sound,1299,0,2,tdb_sound=85643 folder=aussiepup,"Greetings, $c.","Greetings, $c.",32808,32808,0,85643
+restore_sound,3063,5,0,tdb_sound=6575 folder=tauren,Well Done!,Well Done!,6038,6038,0,6575
+restore_sound,3977,0,0,tdb_sound=5838 folder=highinquisitorwhitemane,"Mograine has fallen! You shall pay for this treachery! Arise, my champion! Arise!","Mograine has fallen! You shall pay for this treachery! Arise, my champion! Arise!",18023,18023,0,5838
+restore_sound,3977,2,0,tdb_sound=5840 folder=highinquisitorwhitemane,"Arise, my champion!","Arise, my champion!",6532,6532,0,5840
+restore_sound,4832,0,0,tdb_sound=5802 folder=twilightmasterkelris,Who dares disturb my meditation?,Who dares disturb my meditation?,6171,6171,0,5802
+restore_sound,4832,1,0,tdb_sound=5804 folder=twilightmasterkelris,Sleep...,Sleep...,0,0,0,5804
+restore_sound,4832,2,0,tdb_sound=5803 folder=twilightmasterkelris,Dust to dust.,Dust to dust.,6172,6172,0,5803
+restore_sound,4854,0,0,tdb_sound=5853 folder=grimlock,"Me Grimlok, king!","Me Grimlok, king!",6213,6213,0,5853
+restore_sound,4854,2,0,tdb_sound=5854 folder=grimlock,Die! Die!,Die! Die!,6214,6214,0,5854
+restore_sound,10556,0,0,tdb_sound=7514 folder=peon,"Ow!  OK, I'll get back to work, $n!","Ow!  OK, I'll get back to work, $n!",5774,5774,0,7514
+restore_sound,10556,0,2,tdb_sound=7514 folder=peon,"OK boss, I get back to tree-hitting.","OK boss, I get back to tree-hitting.",40937,40937,0,7514
+restore_sound,10556,0,3,tdb_sound=7514 folder=peon,Just was resting eyes!  Back to work now!,Just was resting eyes!  Back to work now!,40938,40938,0,7514
+restore_sound,10556,0,4,tdb_sound=7514 folder=peon,Sleepy... so sleepy...,Sleepy... so sleepy...,40936,40936,0,7514
+restore_sound,10599,0,0,tdb_sound=6280 folder=tauren,Start running!,Start running!,5966,5966,0,6280
+restore_sound,10599,1,0,tdb_sound=6281 folder=tauren,Bring it on!,Bring it on!,5967,5967,0,6281
+restore_sound,10600,0,0,tdb_sound=6277 folder=tauren,"Do not push me, or I will impale you on my horns!","Do not push me, or I will impale you on my horns!",5968,5968,0,6277
+restore_sound,11218,0,0,tdb_sound=6209 folder=druid of the claw,"Liladris has been waiting for me at Maestra's Post, so we should make haste, $n.","Liladris has been waiting for me at Maestra's Post, so we should make haste, $n.",6540,6540,0,6209
+restore_sound,12017,0,0,tdb_sound=8286 folder=broodlordlasher,None of your kind should be here!  You've doomed only yourselves!,None of your kind should be here!  You've doomed only yourselves!,9967,9967,0,8286
+restore_sound,12017,1,0,tdb_sound=8287 folder=broodlordlasher,"Clever, mortals - but I am not so easily lured away from my sanctum!","Clever, mortals - but I am not so easily lured away from my sanctum!",9968,9968,0,8287
+restore_sound,15516,0,0,tdb_sound=8646 folder=fankriss,"You will be judged for defiling these sacred grounds!  The laws of the Ancients will not be challenged!  Trespassers will be annihilated!
+","You will be judged for defiling these sacred grounds!  The laws of the Ancients will not be challenged!  Trespassers will be annihilated!
+",11442,11442,0,8646
+restore_sound,15516,1,0,tdb_sound=8647 folder=fankriss,I sentence you to death!,I sentence you to death!,11443,11443,0,8647
+restore_sound,15516,2,0,tdb_sound=8648 folder=fankriss,I serve to the last!,I serve to the last!,11444,11444,0,8648
+restore_sound,15690,0,0,tdb_sound=9218 folder=princemalchezzar,Madness has brought you here to me. I shall be your undoing!,Madness has brought you here to me. I shall be your undoing!,15127,15127,0,9218
+restore_sound,15690,1,0,tdb_sound=9220 folder=princemalchezzar,Simple fools! Time is the fire in which you'll burn!,Simple fools! Time is the fire in which you'll burn!,15341,15341,0,9220
+restore_sound,15690,2,0,tdb_sound=9317 folder=princemalchezzar,I see the subtlety of conception is beyond primitives such as you.,I see the subtlety of conception is beyond primitives such as you.,0,0,0,9317
+restore_sound,15690,3,0,tdb_sound=9223 folder=princemalchezzar,Who knows what secrets hide in the dark.,Who knows what secrets hide in the dark.,0,0,0,9223
+restore_sound,15690,4,0,tdb_sound=9320 folder=princemalchezzar,The cerestial forces are mine to manipulate.,The cerestial forces are mine to manipulate.,0,0,0,9320
+restore_sound,15690,5,0,tdb_sound=9321 folder=princemalchezzar,How can you hope to stand against such overwhelming power?,How can you hope to stand against such overwhelming power?,15342,15342,0,9321
+restore_sound,15690,6,0,tdb_sound=9222 folder=princemalchezzar,Surely you did not think you could win.,Surely you did not think you could win.,15124,15124,0,9222
+restore_sound,15690,6,1,tdb_sound=9318 folder=princemalchezzar,"Your greed, your foolishness has brought you to this end.","Your greed, your foolishness has brought you to this end.",15125,15125,0,9318
+restore_sound,15690,6,2,tdb_sound=9319 folder=princemalchezzar,You are but a plaything. Unfit even to amuse.,You are but a plaything. Unfit even to amuse.,15126,15126,0,9319
+restore_sound,15690,7,0,tdb_sound=9224 folder=princemalchezzar,"All realities, all dimensions are open to me!","All realities, all dimensions are open to me!",15343,15343,0,9224
+restore_sound,15690,7,1,tdb_sound=9322 folder=princemalchezzar,"You face not Malchezaar alone, but the legions I command!","You face not Malchezaar alone, but the legions I command!",15344,15344,0,9322
+restore_sound,15690,8,0,tdb_sound=9221 folder=princemalchezzar,I refuse to concede defeat! I am a prince of the Eredar! I... am...,I refuse to concede defeat! I am a prince of the Eredar! I... am...,15123,15123,0,9221
+restore_sound,15936,0,0,tdb_sound=8825 folder=loathstare,You are mine now.,You are mine now.,13041,13041,0,8825
+restore_sound,15936,0,1,tdb_sound=8826 folder=loathstare,I see you...,I see you...,13042,13042,0,8826
+restore_sound,15936,0,2,tdb_sound=8827 folder=loathstare,You... are next.,You... are next.,13043,13043,0,8827
+restore_sound,15936,1,0,tdb_sound=8829 folder=loathstare,Close your eyes. Sleep.,Close your eyes. Sleep.,13045,13045,0,8829
+restore_sound,15936,2,0,tdb_sound=8830 folder=loathstare,The races of the world will perish. It is only a matter of time.,The races of the world will perish. It is only a matter of time.,13046,13046,0,8830
+restore_sound,15936,2,1,tdb_sound=8831 folder=loathstare,I see endless suffering. I see torment. I see rage. I see everything...,I see endless suffering. I see torment. I see rage. I see everything...,13047,13047,0,8831
+restore_sound,15936,2,2,tdb_sound=8832 folder=loathstare,Soon the world will tremble.,Soon the world will tremble.,13048,13048,0,8832
+restore_sound,15936,2,3,tdb_sound=8833 folder=loathstare,The end is upon you.,The end is upon you.,13049,13049,0,8833
+restore_sound,15936,2,4,tdb_sound=8834 folder=loathstare,Hungry worms will feast on your rotting flesh.,Hungry worms will feast on your rotting flesh.,13050,13050,0,8834
+restore_sound,15936,3,0,tdb_sound=8828 folder=loathstare,Noo... o...,Noo... o...,0,0,0,8828
+restore_sound,15954,0,0,tdb_sound=8845 folder=noththefrozen,Glory to the master!,Glory to the master!,13061,13061,0,8845
+restore_sound,15954,0,1,tdb_sound=8846 folder=noththefrozen,Your life is forfeit!,Your life is forfeit!,13062,13062,0,8846
+restore_sound,15954,0,2,tdb_sound=8847 folder=noththefrozen,"Die, trespasser!","Die, trespasser!",13063,13063,0,8847
+restore_sound,15954,1,0,tdb_sound=8851 folder=noththefrozen,"Rise, my soldiers! Rise and fight once more!","Rise, my soldiers! Rise and fight once more!",13067,13067,0,8851
+restore_sound,15954,2,0,tdb_sound=8849 folder=noththefrozen,My task is done!,My task is done!,13065,13065,0,8849
+restore_sound,15954,2,1,tdb_sound=8850 folder=noththefrozen,Breathe no more!,Breathe no more!,13066,13066,0,8850
+restore_sound,15954,3,0,tdb_sound=8848 folder=noththefrozen,I will serve the master... in death!,I will serve the master... in death!,13064,13064,0,8848
+restore_sound,15990,1,0,tdb_sound=8881 folder=lichking,"It is good that you serve me so faithfully. Soon, all will serve the Lich King and in the end, you shall be rewarded...so long as you do not falter.","It is good that you serve me so faithfully. Soon, all will serve the Lich King and in the end, you shall be rewarded...so long as you do not falter.",0,0,0,8881
+restore_sound,15990,3,0,tdb_sound=8882 folder=lichking,Your security measures have failed! See to this interruption immediately!,Your security measures have failed! See to this interruption immediately!,0,0,0,8882
+restore_sound,16065,0,0,tdb_sound=8892 folder=dameblaumeux,Defend yourself!,Defend yourself!,13010,13010,0,8892
+restore_sound,16065,1,2,tdb_sound=8898 folder=dameblaumeux,The first kill goes to me! Anyone care to wager?,The first kill goes to me! Anyone care to wager?,13016,13016,0,8898
+restore_sound,16065,2,0,tdb_sound=8895 folder=dameblaumeux,Your life is mine!,Your life is mine!,13013,13013,0,8895
+restore_sound,16065,3,0,tdb_sound=8894 folder=dameblaumeux,Who's next?,Who's next?,13012,13012,0,8894
+restore_sound,16065,4,0,tdb_sound=8893 folder=dameblaumeux,Touche...,Touche...,13011,13011,0,8893
+restore_sound,16065,5,0,tdb_sound=8896 folder=dameblaumeux,"Come, Zeliek, do not drive them out. Not before we've had our fun!","Come, Zeliek, do not drive them out. Not before we've had our fun!",13014,13014,0,8896
+restore_sound,16065,6,0,tdb_sound=8897 folder=dameblaumeux,I do hope they stay alive long enough for me to... introduce myself.,I do hope they stay alive long enough for me to... introduce myself.,13015,13015,0,8897
+restore_sound,17521,0,0,tdb_sound=9276 folder=hoodwolf,The better to own you with!,The better to own you with!,14212,14212,0,9276
+restore_sound,17521,1,0,tdb_sound=9277 folder=hoodwolf,Mmmm... delicious.,Mmmm... delicious.,15153,15153,0,9277
+restore_sound,17521,2,0,tdb_sound=9278 folder=hoodwolf,"Run away little girl, run away!","Run away little girl, run away!",14213,14213,0,9278
+restore_sound,17653,0,0,tdb_sound=10166 folder=kelidanthebreaker,You mustn't let him loose!,You mustn't let him loose!,17673,17673,0,10166
+restore_sound,17653,0,1,tdb_sound=10167 folder=kelidanthebreaker,Ignorant whelps!,Ignorant whelps!,17674,17674,0,10167
+restore_sound,17653,0,2,tdb_sound=10168 folder=kelidanthebreaker,You fools! He'll kill us all!,You fools! He'll kill us all!,17675,17675,0,10168
+restore_sound,17693,0,0,tdb_sound=10285 folder=scout,Invaders have breached the defenses!,Invaders have breached the defenses!,14309,14309,0,10285
+restore_sound,17862,0,0,tdb_sound=10406 folder=captainscarloc,"Thrall! You didn't really think you would escape, did you?  You and your allies shall answer to Blackmoore... after I've had my fun.","Thrall! You didn't really think you would escape, did you?  You and your allies shall answer to Blackmoore... after I've had my fun.",15909,15909,0,10406
+restore_sound,17862,1,0,tdb_sound=10407 folder=captainscarloc,You're a slave! That's all you'll ever be!,You're a slave! That's all you'll ever be!,16673,16673,0,10407
+restore_sound,17862,2,0,tdb_sound=10408 folder=captainscarloc,I don't know what Blackmoore sees in you. For my money you're just another ignorant savage!,I don't know what Blackmoore sees in you. For my money you're just another ignorant savage!,16674,16674,0,10408
+restore_sound,17862,3,0,tdb_sound=10409 folder=captainscarloc,Thrall will never be free!,Thrall will never be free!,16675,16675,0,10409
+restore_sound,17862,3,1,tdb_sound=10410 folder=captainscarloc,Did you really think you would leave here alive?,Did you really think you would leave here alive?,16676,16676,0,10410
+restore_sound,17862,4,0,tdb_sound=10411 folder=captainscarloc,Guards... guards!,Guards... guards!,16677,16677,0,10411
+restore_sound,17881,0,0,tdb_sound=10400 folder=aeonis,The time has come to shatter this clockwork universe forever! Let us no longer be slaves of the hourglass! I warn you: those who do not embrace this greater path shall become victims of its passing!,The time has come to shatter this clockwork universe forever! Let us no longer be slaves of the hourglass! I warn you: those who do not embrace this greater path shall become victims of its passing!,16827,16827,0,10400
+restore_sound,17881,1,0,tdb_sound=10401 folder=aeonis,"Your time is up, slave of the past.","Your time is up, slave of the past.",16829,16829,0,10401
+restore_sound,17881,2,0,tdb_sound=10402 folder=aeonis,Let us see what fate has in store....,Let us see what fate has in store....,16828,16828,0,10402
+restore_sound,17881,3,0,tdb_sound=10403 folder=aeonis,One less obstacle in our way!,One less obstacle in our way!,16831,16831,0,10403
+restore_sound,17881,3,1,tdb_sound=10404 folder=aeonis,No one will stop us!,No one will stop us!,16832,16832,0,10404
+restore_sound,17881,4,0,tdb_sound=10405 folder=aeonis,We will triumph. It is only a matter... of time.,We will triumph. It is only a matter... of time.,16830,16830,0,10405
+restore_sound,17941,0,0,tdb_sound=10376 folder=mennuthetraitorous,The work must continue!,The work must continue!,17888,17888,0,10376
+restore_sound,17941,0,1,tdb_sound=10378 folder=mennuthetraitorous,You brought this on yourselves!,You brought this on yourselves!,17889,17889,0,10378
+restore_sound,17941,0,2,tdb_sound=10379 folder=mennuthetraitorous,Don't make me kill you!,Don't make me kill you!,17890,17890,0,10379
+restore_sound,17941,1,0,tdb_sound=10380 folder=mennuthetraitorous,It had to be done....,It had to be done....,17892,17892,0,10380
+restore_sound,17941,1,1,tdb_sound=10381 folder=mennuthetraitorous,You should not have come....,You should not have come....,17893,17893,0,10381
+restore_sound,17941,2,0,tdb_sound=10382 folder=mennuthetraitorous,I... deserve this....,I... deserve this....,17894,17894,0,10382
+restore_sound,17975,0,0,tdb_sound=11144 folder=highbontanistfreywinn,What are you doing?  These specimens are very delicate!,What are you doing?  These specimens are very delicate!,19944,19944,0,11144
+restore_sound,17975,1,0,tdb_sound=11145 folder=highbontanistfreywinn,Your life cycle is now concluded.,Your life cycle is now concluded.,19945,19945,0,11145
+restore_sound,17975,1,1,tdb_sound=11146 folder=highbontanistfreywinn,You will feed the worms.,You will feed the worms.,19946,19946,0,11146
+restore_sound,17975,2,0,tdb_sound=11147 folder=highbontanistfreywinn,Endorel anuminor!,Endorel anuminor!,19947,19947,0,11147
+restore_sound,17975,2,1,tdb_sound=11148 folder=highbontanistfreywinn,Nature bends to my will....,Nature bends to my will....,19948,19948,0,11148
+restore_sound,17975,3,0,tdb_sound=11149 folder=highbontanistfreywinn,The specimens... must be preserved.,The specimens... must be preserved.,19949,19949,0,11149
+restore_sound,18076,1,0,tdb_sound=10629 folder=mannorothsdeath,Thrall... The blood haze has lifted.,Thrall... The blood haze has lifted.,17150,17150,0,10629
+restore_sound,18076,3,0,tdb_sound=10630 folder=mannorothsdeath,"The demon's fire has burnt out in my veins. I have... freed myself.
+","The demon's fire has burnt out in my veins. I have... freed myself.
+",17152,17152,0,10630
+restore_sound,18168,0,0,tdb_sound=9179 folder=crone,"Woe to each and every one of you, my pretties!","Woe to each and every one of you, my pretties!",15050,15050,0,9179
+restore_sound,18168,0,1,tdb_sound=9307 folder=crone,It will all be over soon!,It will all be over soon!,15332,15332,0,9307
+restore_sound,18168,1,0,tdb_sound=9178 folder=crone,"How could you? What a cruel, cruel world...","How could you? What a cruel, cruel world...",15052,15052,0,9178
+restore_sound,18168,2,0,tdb_sound=9180 folder=crone,"Fixed you, didn't I?","Fixed you, didn't I?",15051,15051,0,9180
+restore_sound,18344,0,0,tdb_sound=10539 folder=nexusprinceshafar,"What is this? You must forgive me, but I was not expecting company. As you can see, we are somewhat preoccupied right now. But no matter. As I am a gracious host, I will tend to you... personally.","What is this? You must forgive me, but I was not expecting company. As you can see, we are somewhat preoccupied right now. But no matter. As I am a gracious host, I will tend to you... personally.",17784,17784,0,10539
+restore_sound,18344,1,0,tdb_sound=10541 folder=nexusprinceshafar,We have not been properly introduced.,We have not been properly introduced.,17780,17780,0,10541
+restore_sound,18344,1,1,tdb_sound=10542 folder=nexusprinceshafar,"An epic battle, how exciting!","An epic battle, how exciting!",17781,17781,0,10542
+restore_sound,18344,1,2,tdb_sound=10543 folder=nexusprinceshafar,I've longed for a good adventure!,I've longed for a good adventure!,17782,17782,0,10543
+restore_sound,18344,2,0,tdb_sound=10544 folder=nexusprinceshafar,It has been... entertaining.,It has been... entertaining.,17779,17779,0,10544
+restore_sound,18344,2,1,tdb_sound=10545 folder=nexusprinceshafar,And now we part company.,And now we part company.,17778,17778,0,10545
+restore_sound,18344,3,0,tdb_sound=10540 folder=nexusprinceshafar,I have such fascinating things to show you.,I have such fascinating things to show you.,17783,17783,0,10540
+restore_sound,18344,4,0,tdb_sound=10546 folder=nexusprinceshafar,I must bid you... farewell.,I must bid you... farewell.,17777,17777,0,10546
+restore_sound,18702,0,0,tdb_sound=10530 folder=necromancerdraenei01,This is sacred ground!,This is sacred ground!,17641,17641,0,10530
+restore_sound,18702,0,1,tdb_sound=10531 folder=necromancerdraenei01,How dare you come here?,How dare you come here?,17642,17642,0,10531
+restore_sound,18702,0,2,tdb_sound=10532 folder=necromancerdraenei01,Outsiders are forbidden!,Outsiders are forbidden!,17643,17643,0,10532
+restore_sound,18702,0,3,tdb_sound=10533 folder=necromancerdraenei02,This is sacred ground!,This is sacred ground!,17641,17641,0,10533
+restore_sound,18702,0,4,tdb_sound=10534 folder=necromancerdraenei02,How dare you come here?,How dare you come here?,17642,17642,0,10534
+restore_sound,18702,0,5,tdb_sound=10535 folder=necromancerdraenei02,Outsiders are forbidden!,Outsiders are forbidden!,17643,17643,0,10535
+restore_sound,18702,0,6,tdb_sound=10536 folder=necromancerdraenei03,This is sacred ground!,This is sacred ground!,17641,17641,0,10536
+restore_sound,18702,0,7,tdb_sound=10537 folder=necromancerdraenei03,How dare you come here?,How dare you come here?,17642,17642,0,10537
+restore_sound,18702,0,8,tdb_sound=10538 folder=necromancerdraenei03,Outsiders are forbidden!,Outsiders are forbidden!,17643,17643,0,10538
+restore_sound,19228,21,0,tdb_sound=4415 folder=mechastrider,"The other day I saw one walking down the street shouting, ""Once you go gnome, you never go home!""","The other day I saw one walking down the street shouting, ""Once you go gnome, you never go home!""",16670,16670,0,4415
+restore_sound,19380,0,0,tdb_sound=1040 folder=centaur,"Hurry up with that axe, you! I want it sharp enough to cut the wind!","Hurry up with that axe, you! I want it sharp enough to cut the wind!",16532,16532,0,1040
+restore_sound,19523,0,0,tdb_sound=10306 folder=warbringeromrogg,Smash!,Smash!,14046,14046,0,10306
+restore_sound,19523,1,0,tdb_sound=10307 folder=warbringeromrogg,Hey!,Hey!,16917,16917,0,10307
+restore_sound,19523,2,0,tdb_sound=10308 folder=warbringeromrogg,If you nice me let you live.,If you nice me let you live.,14048,14048,0,10308
+restore_sound,19523,3,0,tdb_sound=10309 folder=warbringeromrogg,Me hungry.,Me hungry.,16918,16918,0,10309
+restore_sound,19523,4,0,tdb_sound=10300 folder=warbringeromrogg,Me not like this one...,Me not like this one...,14043,14043,0,10300
+restore_sound,19523,5,0,tdb_sound=10301 folder=warbringeromrogg,We kill his friend!,We kill his friend!,14045,14045,0,10301
+restore_sound,19523,6,0,tdb_sound=10302 folder=warbringeromrogg,We kill someone else!,We kill someone else!,16895,16895,0,10302
+restore_sound,19523,7,0,tdb_sound=10303 folder=warbringeromrogg,You stay here.  Me go kill someone else!,You stay here.  Me go kill someone else!,16898,16898,0,10303
+restore_sound,19523,8,0,tdb_sound=10304 folder=warbringeromrogg,Ha ha ha.,Ha ha ha.,16900,16900,0,10304
+restore_sound,19523,9,0,tdb_sound=10305 folder=warbringeromrogg,Me get bored.,Me get bored.,16902,16902,0,10305
+restore_sound,19523,10,0,tdb_sound=10310 folder=warbringeromrogg,This one die easy!,This one die easy!,16922,16922,0,10310
+restore_sound,19523,11,0,tdb_sound=10311 folder=warbringeromrogg,This all... your fault!,This all... your fault!,16924,16924,0,10311
+restore_sound,19524,0,0,tdb_sound=10317 folder=warbringeromrogg,Why don't you let me do the talking?,Why don't you let me do the talking?,14047,14047,0,10317
+restore_sound,19524,1,0,tdb_sound=10318 folder=warbringeromrogg,"No, we will NOT let you live.","No, we will NOT let you live.",16916,16916,0,10318
+restore_sound,19524,2,0,tdb_sound=10319 folder=warbringeromrogg,You're always hungry.  That's why we so fat!,You're always hungry.  That's why we so fat!,16919,16919,0,10319
+restore_sound,19524,3,0,tdb_sound=10312 folder=warbringeromrogg,"Hey, you numbskull!","Hey, you numbskull!",14044,14044,0,10312
+restore_sound,19524,4,0,tdb_sound=10313 folder=warbringeromrogg,"I'm not done yet, idiot!","I'm not done yet, idiot!",16896,16896,0,10313
+restore_sound,19524,5,0,tdb_sound=10314 folder=warbringeromrogg,That's not funny!,That's not funny!,16899,16899,0,10314
+restore_sound,19524,6,0,tdb_sound=10315 folder=warbringeromrogg,What are you doing?,What are you doing?,16901,16901,0,10315
+restore_sound,19524,7,0,tdb_sound=10316 folder=warbringeromrogg,Bored? He was almost dead!,Bored? He was almost dead!,16903,16903,0,10316
+restore_sound,19524,8,0,tdb_sound=10320 folder=warbringeromrogg,I'm tired.  You kill next one!,I'm tired.  You kill next one!,16921,16921,0,10320
+restore_sound,19524,9,0,tdb_sound=10321 folder=warbringeromrogg,That's because I do all the hard work!,That's because I do all the hard work!,16923,16923,0,10321
+restore_sound,19524,10,0,tdb_sound=10322 folder=warbringeromrogg,I... hate... you.,I... hate... you.,16925,16925,0,10322
+restore_sound,19647,1,0,tdb_sound=10631 folder=mannorothsdeath,"No, old friend. You've freed us all...","No, old friend. You've freed us all...",17153,17153,0,10631
+restore_sound,19995,4,2,tdb_sound=398 folder=ogre,"Ohh, look! Bloodmaul Brew! Mmmm...","Ohh, look! Bloodmaul Brew! Mmmm...",18170,18170,0,398
+restore_sound,20885,0,0,tdb_sound=11085 folder=daliahthedoomsayer,Don't worry about me; kill that worthless dullard instead!,Don't worry about me; kill that worthless dullard instead!,19979,19979,0,11085
+restore_sound,20885,1,0,tdb_sound=11086 folder=daliahthedoomsayer,It is unwise to anger me!,It is unwise to anger me!,19978,19978,0,11086
+restore_sound,20885,2,0,tdb_sound=11087 folder=daliahthedoomsayer,Completely ineffective.  Just like someone else I know.,Completely ineffective.  Just like someone else I know.,19980,19980,0,11087
+restore_sound,20885,2,1,tdb_sound=11088 folder=daliahthedoomsayer,You chose the wrong opponent.,You chose the wrong opponent.,19981,19981,0,11088
+restore_sound,20885,3,0,tdb_sound=11089 folder=daliahthedoomsayer,Reap the whirlwind!,Reap the whirlwind!,19982,19982,0,11089
+restore_sound,20885,3,1,tdb_sound=11090 folder=daliahthedoomsayer,I'll cut you to pieces!,I'll cut you to pieces!,19983,19983,0,11090
+restore_sound,20885,4,0,tdb_sound=11091 folder=daliahthedoomsayer,That is much better.,That is much better.,19984,19984,0,11091
+restore_sound,20885,4,1,tdb_sound=11092 folder=daliahthedoomsayer,Ahh... just what I needed.,Ahh... just what I needed.,19985,19985,0,11092
+restore_sound,20885,5,0,tdb_sound=11093 folder=daliahthedoomsayer,Now I'm really angry.,Now I'm really angry.,19986,19986,0,11093
+restore_sound,20885,6,0,tdb_sound=11094 folder=daliahthedoomsayer,"More than you can handle, scryer?","More than you can handle, scryer?",19987,19987,0,11094
+restore_sound,20885,6,1,tdb_sound=11095 folder=daliahthedoomsayer,I suppose I'll end up fighting them all myself.,I suppose I'll end up fighting them all myself.,19988,19988,0,11095
+restore_sound,20885,6,2,tdb_sound=11096 folder=daliahthedoomsayer,I've grown used to cleaning up your messes.,I've grown used to cleaning up your messes.,19989,19989,0,11096
+restore_sound,20885,7,0,tdb_sound=11097 folder=daliahthedoomsayer,Congratulations.  I've wanted to do that for years.,Congratulations.  I've wanted to do that for years.,19990,19990,0,11097
+restore_sound,20886,0,0,tdb_sound=11237 folder=wratchscryersoccothrates,Have you come to kill Dalliah?  Can I watch?,Have you come to kill Dalliah?  Can I watch?,19968,19968,0,11237
+restore_sound,20886,1,0,tdb_sound=11238 folder=wratchscryersoccothrates,"At last, a target for my frustrations!","At last, a target for my frustrations!",19967,19967,0,11238
+restore_sound,20886,2,0,tdb_sound=11239 folder=wratchscryersoccothrates,"Yes, that was quite satisfying.","Yes, that was quite satisfying.",19969,19969,0,11239
+restore_sound,20886,3,0,tdb_sound=11241 folder=wratchscryersoccothrates,On guard!,On guard!,19971,19971,0,11241
+restore_sound,20886,3,1,tdb_sound=11242 folder=wratchscryersoccothrates,"Defend yourself, for all the good it will do....","Defend yourself, for all the good it will do....",19972,19972,0,11242
+restore_sound,20886,4,0,tdb_sound=11243 folder=wratchscryersoccothrates,Knew this was... the only way out.,Knew this was... the only way out.,19973,19973,0,11243
+restore_sound,20886,5,0,tdb_sound=11244 folder=wratchscryersoccothrates,"Having problems, Dalliah?  How nice.","Having problems, Dalliah?  How nice.",19974,19974,0,11244
+restore_sound,20886,5,1,tdb_sound=11245 folder=wratchscryersoccothrates,"This may be the end for you, Dalliah.  What a shame that would be.","This may be the end for you, Dalliah.  What a shame that would be.",19975,19975,0,11245
+restore_sound,20886,5,2,tdb_sound=11246 folder=wratchscryersoccothrates,I suggest a new strategy: you draw their attacks while I gather reinforcements.,I suggest a new strategy: you draw their attacks while I gather reinforcements.,19976,19976,0,11246
+restore_sound,20886,6,0,tdb_sound=11247 folder=wratchscryersoccothrates,Finally!  Well done!,Finally!  Well done!,19977,19977,0,11247
+restore_sound,20886,7,0,tdb_sound=11236 folder=wrathscryeranddalliah,Did you call on me?,Did you call on me?,20051,20051,0,11236
+restore_sound,21215,0,0,tdb_sound=11304 folder=leotheras_demon,"Be gone, trifling elf.  I am in control now!","Be gone, trifling elf.  I am in control now!",19595,19595,0,11304
+restore_sound,21215,1,0,tdb_sound=11305 folder=leotheras_demon,We all have our demons....,We all have our demons....,19597,19597,0,11305
+restore_sound,21215,2,0,tdb_sound=11306 folder=leotheras_demon,I have no equal!,I have no equal!,19993,19993,0,11306
+restore_sound,21215,2,1,tdb_sound=11307 folder=leotheras_demon,"Perish, mortal!","Perish, mortal!",19994,19994,0,11307
+restore_sound,21215,2,2,tdb_sound=11308 folder=leotheras_demon,Yes... yes!,Yes... yes!,19995,19995,0,11308
+restore_sound,21215,3,0,tdb_sound=11312 folder=leotheras_nightelf,"Finally, my banishment ends!","Finally, my banishment ends!",19596,19596,0,11312
+restore_sound,21215,4,0,tdb_sound=11313 folder=leotheras_nightelf,No... no! What have you done? I am the master! Do you hear me? I am... aaggh! Can't... contain him.,No... no! What have you done? I am the master! Do you hear me? I am... aaggh! Can't... contain him.,19501,19501,0,11313
+restore_sound,21215,5,0,tdb_sound=11314 folder=leotheras_nightelf,"Kill, kill!","Kill, kill!",19996,19996,0,11314
+restore_sound,21215,5,1,tdb_sound=11315 folder=leotheras_nightelf,"That's right, yes!","That's right, yes!",19997,19997,0,11315
+restore_sound,21215,5,2,tdb_sound=11316 folder=leotheras_nightelf,Who's the master now?,Who's the master now?,19998,19998,0,11316
+restore_sound,21215,6,0,tdb_sound=11317 folder=leotheras_nightelf,"You cannot kill me, fools! I'll be back, I'll....","You cannot kill me, fools! I'll be back, I'll....",19999,19999,0,11317
+restore_sound,21504,6,0,tdb_sound=7274 folder=dragons, I think that we should teach a lesson to both the Horde and the Alliance.  One that they will not soon forget!, I think that we should teach a lesson to both the Horde and the Alliance.  One that they will not soon forget!,19194,19194,0,7274
+restore_sound,21697,0,0,tdb_sound=10412 folder=chronolorddeja,"Why do you aid the Magus? Just think of how many lives could be saved if the portal is never opened, if the resulting wars could be erased....","Why do you aid the Magus? Just think of how many lives could be saved if the portal is never opened, if the resulting wars could be erased....",16814,16814,0,10412
+restore_sound,21697,1,0,tdb_sound=10413 folder=chronolorddeja,"You have outstayed your welcome, Keeper. Be gone!","You have outstayed your welcome, Keeper. Be gone!",16817,16817,0,10413
+restore_sound,21697,2,0,tdb_sound=10414 folder=chronolorddeja,"If you will not cease this foolish quest, then you will die!","If you will not cease this foolish quest, then you will die!",16815,16815,0,10414
+restore_sound,21697,3,0,tdb_sound=10415 folder=chronolorddeja,I told you it was a fool's quest!,I told you it was a fool's quest!,16818,16818,0,10415
+restore_sound,21697,3,1,tdb_sound=10416 folder=chronolorddeja,Leaving so soon?,Leaving so soon?,16819,16819,0,10416
+restore_sound,21697,4,0,tdb_sound=10417 folder=chronolorddeja,Time... is on our side.,Time... is on our side.,16816,16816,0,10417
+restore_sound,21698,0,0,tdb_sound=10442 folder=temporustheunraveller,Why do you persist? Surely you can see the futility of it all. It is not too late! You may still leave with your lives...,Why do you persist? Surely you can see the futility of it all. It is not too late! You may still leave with your lives...,16821,16821,0,10442
+restore_sound,21698,1,0,tdb_sound=10443 folder=temporustheunraveller,Keeper! The sands of time have run out for you.,Keeper! The sands of time have run out for you.,16824,16824,0,10443
+restore_sound,21698,2,0,tdb_sound=10444 folder=temporustheunraveller,So be it... you have been warned.,So be it... you have been warned.,16822,16822,0,10444
+restore_sound,21698,3,0,tdb_sound=10445 folder=temporustheunraveller,You should have left when you had the chance.,You should have left when you had the chance.,16825,16825,0,10445
+restore_sound,21698,3,1,tdb_sound=10446 folder=temporustheunraveller,Your days are done.,Your days are done.,16826,16826,0,10446
+restore_sound,21698,4,0,tdb_sound=10447 folder=temporustheunraveller,My death means... little.,My death means... little.,16823,16823,0,10447
+restore_sound,21875,0,0,tdb_sound=11309 folder=leotheras_demon,At last I am liberated. It has been too long since I have tasted true freedom!,At last I am liberated. It has been too long since I have tasted true freedom!,19502,19502,0,11309
+restore_sound,22820,0,0,tdb_sound=11611 folder=olum,"Akama, my friend!  Have you been informed?  I was found out by Vashj's followers.  Our secret is in peril!","Akama, my friend!  Have you been informed?  I was found out by Vashj's followers.  Our secret is in peril!",20498,20498,0,11611
+restore_sound,22820,1,0,tdb_sound=11612 folder=olum,Illidan is looking for me.  I am not safe here... none of us are.,Illidan is looking for me.  I am not safe here... none of us are.,20502,20502,0,11612
+restore_sound,22820,2,0,tdb_sound=11613 folder=olum,Illidan will find me and when he does... he will pry the Ashtongue secret from me - such is the power of the Betrayer!  No... there is only one way.  My usefulness to the cause has come to an end. I must venture into the spirit world!,Illidan will find me and when he does... he will pry the Ashtongue secret from me - such is the power of the Betrayer!  No... there is only one way.  My usefulness to the cause has come to an end. I must venture into the spirit world!,20499,20499,0,11613
+restore_sound,22820,3,0,tdb_sound=11614 folder=olum,My decision is final.  I will not be dissuaded.  I have devoted my life to our plan.  To jeopardize it now would betray all who have died for the cause long before me.,My decision is final.  I will not be dissuaded.  I have devoted my life to our plan.  To jeopardize it now would betray all who have died for the cause long before me.,20500,20500,0,11614
+restore_sound,22820,4,0,tdb_sound=11615 folder=olum,"I thank you, Akama.  You honor me by allowing me this moment, surrounded by my brothers.  Farewell, friend.  Guide our people well.","I thank you, Akama.  You honor me by allowing me this moment, surrounded by my brothers.  Farewell, friend.  Guide our people well.",20501,20501,0,11615
+restore_sound,23061,0,0,tdb_sound=7274 folder=dragons,Get away from my clutch!!!,Get away from my clutch!!!,21696,21696,0,7274
+restore_sound,23061,0,1,tdb_sound=7274 folder=dragons,"I know you by your stench, little $n.  Here, in my perch, is where your bones shall finally rest.","I know you by your stench, little $n.  Here, in my perch, is where your bones shall finally rest.",21706,21706,0,7274
+restore_sound,23061,0,2,tdb_sound=7274 folder=dragons,"I tire of interruptions from the insignificant.  Your time has come, $n!","I tire of interruptions from the insignificant.  Your time has come, $n!",21710,21710,0,7274
+restore_sound,23061,0,3,tdb_sound=7274 folder=dragons,"The Skyguard shall pay for your temerity, $n!","The Skyguard shall pay for your temerity, $n!",21714,21714,0,7274
+restore_sound,23061,0,4,tdb_sound=7274 folder=dragons,I believe that I shall feast upon both $r and ogre flesh tonight.,I believe that I shall feast upon both $r and ogre flesh tonight.,21718,21718,0,7274
+restore_sound,23061,0,5,tdb_sound=7274 folder=dragons,"Little $r, you will now come to appreciate my wrath!","Little $r, you will now come to appreciate my wrath!",21720,21720,0,7274
+restore_sound,23061,0,6,tdb_sound=7274 folder=dragons,You have dared to defile my perch and must now be cleansed in fire!,You have dared to defile my perch and must now be cleansed in fire!,21726,21726,0,7274
+restore_sound,23061,0,7,tdb_sound=7274 folder=dragons,What's this?!  $n and $g his : her; friends come to play?,What's this?!  $n and $g his : her; friends come to play?,21733,21733,0,7274
+restore_sound,23197,0,0,tdb_sound=11493 folder=maiev,That is for Naisha!,That is for Naisha!,21489,21489,0,11493
+restore_sound,23197,0,1,tdb_sound=11494 folder=maiev,Bleed as I have bled!,Bleed as I have bled!,0,0,0,11494
+restore_sound,23197,0,3,tdb_sound=11500 folder=maiev,"Meet your end, demon!","Meet your end, demon!",0,0,0,11500
+restore_sound,23197,1,0,tdb_sound=11491 folder=maiev,"Their fury pales before mine, Illidan. We have some unsettled business between us.","Their fury pales before mine, Illidan. We have some unsettled business between us.",21070,21070,0,11491
+restore_sound,23197,2,0,tdb_sound=11492 folder=maiev,"My long hunt is finally over. Today, Justice will be done!","My long hunt is finally over. Today, Justice will be done!",21071,21071,0,11492
+restore_sound,23197,3,0,tdb_sound=11495 folder=maiev,There shall be no prison for you this time!,There shall be no prison for you this time!,22208,22208,0,11495
+restore_sound,23197,5,0,tdb_sound=11496 folder=maiev,It is finished. You are beaten.,It is finished. You are beaten.,21507,21507,0,11496
+restore_sound,23197,6,0,tdb_sound=11497 folder=maiev,He's right. I feel nothing... I am... nothing.,He's right. I feel nothing... I am... nothing.,21508,21508,0,11497
+restore_sound,23197,7,0,tdb_sound=11498 folder=maiev,"Farewell, champions.","Farewell, champions.",21509,21509,0,11498
+restore_sound,23261,0,0,tdb_sound=7274 folder=dragons,Get away from my clutch!!!,Get away from my clutch!!!,21696,21696,0,7274
+restore_sound,23261,0,1,tdb_sound=7274 folder=dragons,"I know you by your stench, little $n.  Here, in my perch, is where your bones shall finally rest.","I know you by your stench, little $n.  Here, in my perch, is where your bones shall finally rest.",21706,21706,0,7274
+restore_sound,23261,0,2,tdb_sound=7274 folder=dragons,"I tire of interruptions from the insignificant.  Your time has come, $n!","I tire of interruptions from the insignificant.  Your time has come, $n!",21710,21710,0,7274
+restore_sound,23261,0,3,tdb_sound=7274 folder=dragons,"The Skyguard shall pay for your temerity, $n!","The Skyguard shall pay for your temerity, $n!",21714,21714,0,7274
+restore_sound,23261,0,4,tdb_sound=7274 folder=dragons,I believe that I shall feast upon both $r and ogre flesh tonight.,I believe that I shall feast upon both $r and ogre flesh tonight.,21718,21718,0,7274
+restore_sound,23261,0,5,tdb_sound=7274 folder=dragons,"Little $r, you will now come to appreciate my wrath!","Little $r, you will now come to appreciate my wrath!",21720,21720,0,7274
+restore_sound,23261,0,6,tdb_sound=7274 folder=dragons,You have dared to defile my perch and must now be cleansed in fire!,You have dared to defile my perch and must now be cleansed in fire!,21726,21726,0,7274
+restore_sound,23261,0,7,tdb_sound=7274 folder=dragons,What's this?!  $n and $g his : her; friends come to play?,What's this?!  $n and $g his : her; friends come to play?,21733,21733,0,7274
+restore_sound,23281,0,0,tdb_sound=7274 folder=dragons,Get away from my clutch!!!,Get away from my clutch!!!,21696,21696,0,7274
+restore_sound,23281,0,1,tdb_sound=7274 folder=dragons,"I know you by your stench, little $n.  Here, in my perch, is where your bones shall finally rest.","I know you by your stench, little $n.  Here, in my perch, is where your bones shall finally rest.",21706,21706,0,7274
+restore_sound,23281,0,2,tdb_sound=7274 folder=dragons,"I tire of interruptions from the insignificant.  Your time has come, $n!","I tire of interruptions from the insignificant.  Your time has come, $n!",21710,21710,0,7274
+restore_sound,23281,0,3,tdb_sound=7274 folder=dragons,"The Skyguard shall pay for your temerity, $n!","The Skyguard shall pay for your temerity, $n!",21714,21714,0,7274
+restore_sound,23281,0,4,tdb_sound=7274 folder=dragons,I believe that I shall feast upon both $r and ogre flesh tonight.,I believe that I shall feast upon both $r and ogre flesh tonight.,21718,21718,0,7274
+restore_sound,23281,0,5,tdb_sound=7274 folder=dragons,"Little $r, you will now come to appreciate my wrath!","Little $r, you will now come to appreciate my wrath!",21720,21720,0,7274
+restore_sound,23281,0,6,tdb_sound=7274 folder=dragons,You have dared to defile my perch and must now be cleansed in fire!,You have dared to defile my perch and must now be cleansed in fire!,21726,21726,0,7274
+restore_sound,23281,0,7,tdb_sound=7274 folder=dragons,What's this?!  $n and $g his : her; friends come to play?,What's this?!  $n and $g his : her; friends come to play?,21733,21733,0,7274
+restore_sound,23282,0,0,tdb_sound=7274 folder=dragons,Get away from my clutch!!!,Get away from my clutch!!!,21696,21696,0,7274
+restore_sound,23282,0,1,tdb_sound=7274 folder=dragons,"I know you by your stench, little $n.  Here, in my perch, is where your bones shall finally rest.","I know you by your stench, little $n.  Here, in my perch, is where your bones shall finally rest.",21706,21706,0,7274
+restore_sound,23282,0,2,tdb_sound=7274 folder=dragons,"I tire of interruptions from the insignificant.  Your time has come, $n!","I tire of interruptions from the insignificant.  Your time has come, $n!",21710,21710,0,7274
+restore_sound,23282,0,3,tdb_sound=7274 folder=dragons,"The Skyguard shall pay for your temerity, $n!","The Skyguard shall pay for your temerity, $n!",21714,21714,0,7274
+restore_sound,23282,0,4,tdb_sound=7274 folder=dragons,I believe that I shall feast upon both $r and ogre flesh tonight.,I believe that I shall feast upon both $r and ogre flesh tonight.,21718,21718,0,7274
+restore_sound,23282,0,5,tdb_sound=7274 folder=dragons,"Little $r, you will now come to appreciate my wrath!","Little $r, you will now come to appreciate my wrath!",21720,21720,0,7274
+restore_sound,23282,0,6,tdb_sound=7274 folder=dragons,You have dared to defile my perch and must now be cleansed in fire!,You have dared to defile my perch and must now be cleansed in fire!,21726,21726,0,7274
+restore_sound,23282,0,7,tdb_sound=7274 folder=dragons,What's this?!  $n and $g his : her; friends come to play?,What's this?!  $n and $g his : her; friends come to play?,21733,21733,0,7274
+restore_sound,23418,0,0,tdb_sound=11415 folder=essenceofgrief,Pain and suffering are all that await you!,Pain and suffering are all that await you!,21759,21759,0,11415
+restore_sound,23418,1,0,tdb_sound=11416 folder=essenceofgrief,Don't leave me alone!,Don't leave me alone!,21760,21760,0,11416
+restore_sound,23418,1,1,tdb_sound=11417 folder=essenceofgrief,Look at what you made me do!,Look at what you made me do!,21761,21761,0,11417
+restore_sound,23418,1,2,tdb_sound=11418 folder=essenceofgrief,I didn't ask for this!,I didn't ask for this!,21762,21762,0,11418
+restore_sound,23418,2,0,tdb_sound=11419 folder=essenceofgrief,The pain is only beginning...,The pain is only beginning...,21763,21763,0,11419
+restore_sound,23418,3,0,tdb_sound=11420 folder=essenceofgrief,I don't want to go back!,I don't want to go back!,21764,21764,0,11420
+restore_sound,23418,4,0,tdb_sound=11421 folder=essenceofgrief,Now what do I do?,Now what do I do?,21765,21765,0,11421
+restore_sound,23586,0,0,tdb_sound=12104 folder=zulamanguard,Invaders! Sound the alarm!,Invaders! Sound the alarm!,23109,23109,0,12104
+restore_sound,23597,0,0,tdb_sound=12104 folder=zulamanguard,More intruders! Sound da alarm!,More intruders! Sound da alarm!,23252,23252,0,12104
+restore_sound,23775,0,0,tdb_sound=11969 folder=headlesshorseman,"So eager you are, for my blood to spill. Yet to vanquish me, 'tis my head you must kill!","So eager you are, for my blood to spill. Yet to vanquish me, 'tis my head you must kill!",22757,22757,0,11969
+restore_sound,23775,1,0,tdb_sound=12569 folder=headlesshorseman,"Get over here, you idiot!","Get over here, you idiot!",22415,22415,0,12569
+restore_sound,24723,0,0,tdb_sound=12378 folder=selimfireheart,You only waste my time!,You only waste my time!,25423,25423,0,12378
+restore_sound,24723,1,0,tdb_sound=12381 folder=selimfireheart,My hunger knows no bounds!,My hunger knows no bounds!,25424,25424,0,12381
+restore_sound,24723,2,0,tdb_sound=12382 folder=selimfireheart,Yes!! I am a god!,Yes!! I am a god!,25425,25425,0,12382
+restore_sound,24723,3,0,tdb_sound=12388 folder=selimfireheart,Enough distractions!,Enough distractions!,25428,25428,0,12388
+restore_sound,24723,3,1,tdb_sound=12385 folder=selimfireheart,I am invincible!,I am invincible!,34142,34142,0,12385
+restore_sound,24723,4,0,tdb_sound=12383 folder=selimfireheart,"No... more, I must have more!!","No... more, I must have more!!",25426,25426,0,12383
+restore_sound,24742,0,0,tdb_sound=3403 folder=walrus,"Yarrrrrrr!  Ye'll never get me spyglass, bilgesucker!","Yarrrrrrr!  Ye'll never get me spyglass, bilgesucker!",23705,23705,0,3403
+restore_sound,24742,1,1,tdb_sound=3403 folder=walrus,"Is this how you repay your master, you fleabag?  Arrrrrgghh!!","Is this how you repay your master, you fleabag?  Arrrrrgghh!!",23851,23851,0,3403
+restore_sound,24892,0,0,tdb_sound=12451 folder=sathrovarthecorruptor,There will be no reprieve! My work here is nearly finished!,There will be no reprieve! My work here is nearly finished!,25504,25504,0,12451
+restore_sound,24892,1,0,tdb_sound=12455 folder=sathrovarthecorruptor,Piteous mortal!,Piteous mortal!,25508,25508,0,12455
+restore_sound,24892,1,1,tdb_sound=12456 folder=sathrovarthecorruptor,Haven't you heard? I always win!,Haven't you heard? I always win!,25509,25509,0,12456
+restore_sound,24892,2,0,tdb_sound=12452 folder=sathrovarthecorruptor,I'm never on the... losing... side!,I'm never on the... losing... side!,25505,25505,0,12452
+restore_sound,24892,3,0,tdb_sound=12453 folder=sathrovarthecorruptor,Your misery is my delight!,Your misery is my delight!,25506,25506,0,12453
+restore_sound,24892,4,0,tdb_sound=12454 folder=sathrovarthecorruptor,I will watch you bleed!,I will watch you bleed!,25507,25507,0,12454
+restore_sound,25038,0,0,tdb_sound=12477 folder=felblaze,Glory to Kil'jaeden! Death to all who oppose!,Glory to Kil'jaeden! Death to all who oppose!,25637,25637,0,12477
+restore_sound,25038,1,0,tdb_sound=12480 folder=felblaze,I kill for the master!,I kill for the master!,25640,25640,0,12480
+restore_sound,25038,1,1,tdb_sound=12481 folder=felblaze,The end has come!,The end has come!,38040,38040,0,12481
+restore_sound,25038,2,0,tdb_sound=12478 folder=felblaze,Choke on your final breath!,Choke on your final breath!,25638,25638,0,12478
+restore_sound,25038,3,0,tdb_sound=12479 folder=felblaze,I am stronger than ever before!,I am stronger than ever before!,25639,25639,0,12479
+restore_sound,25038,4,0,tdb_sound=12482 folder=felblaze,No more hesitation! Your fates are written!,No more hesitation! Your fates are written!,25642,25642,0,12482
+restore_sound,25038,5,0,tdb_sound=12483 folder=felblaze,Kil'jaeden will... prevail!,Kil'jaeden will... prevail!,25643,25643,0,12483
+restore_sound,25038,6,0,tdb_sound=12439 folder=kalecgos,"Madrigosa deserved a far better fate. You did what had to be done, but this battle is far from over!","Madrigosa deserved a far better fate. You did what had to be done, but this battle is far from over!",25261,25261,0,12439
+restore_sound,25753,1,0,tdb_sound=5805 folder=mobilealertbot,Warning! Warning! Intruder alert! Intruder alert!,Warning! Warning! Intruder alert! Intruder alert!,4142,4142,0,5805
+restore_sound,26237,1,0,tdb_sound=7274 folder=dragons,MALYGOS!!,MALYGOS!!,25475,25475,0,7274
+restore_sound,26648,0,0,tdb_sound=11557 folder=krakken,"Little $n, why do you call me forth? Are you working with the trolls of this land? Have you come to kill me and take my power as your own?","Little $n, why do you call me forth? Are you working with the trolls of this land? Have you come to kill me and take my power as your own?",25854,25854,0,11557
+restore_sound,26648,1,0,tdb_sound=11557 folder=krakken,"I sense uncertainty in you, and I do not trust it whether you are with them, or not. If you wish my augury for the Kalu'ak, you will have to prove yourself first.","I sense uncertainty in you, and I do not trust it whether you are with them, or not. If you wish my augury for the Kalu'ak, you will have to prove yourself first.",25863,25863,0,11557
+restore_sound,26648,2,0,tdb_sound=11557 folder=krakken,I will lay a mild compulsion upon you. Jump into the depths before me so that you put yourself into my element and thereby display your submission.,I will lay a mild compulsion upon you. Jump into the depths before me so that you put yourself into my element and thereby display your submission.,25864,25864,0,11557
+restore_sound,26648,3,0,tdb_sound=11557 folder=krakken,"Though you are compelled, the choice, and the last step before you leap, are yours. You have twenty more seconds to decide.","Though you are compelled, the choice, and the last step before you leap, are yours. You have twenty more seconds to decide.",25865,25865,0,11557
+restore_sound,26648,4,0,tdb_sound=11557 folder=krakken,"I'm rather curious as to what will happen, should you ignore this and NOT jump into the water.","I'm rather curious as to what will happen, should you ignore this and NOT jump into the water.",0,0,0,11557
+restore_sound,26648,5,0,tdb_sound=11557 folder=krakken,"Well done, $n. Your display of respect is duly noted. Now, I have information for you that you must convey to the Kalu'ak.","Well done, $n. Your display of respect is duly noted. Now, I have information for you that you must convey to the Kalu'ak.",25867,25867,0,11557
+restore_sound,26648,9,0,tdb_sound=11557 folder=krakken,"Very well, $n, you have failed to act. The prophecy is not yours to learn. Do not call upon me again until you have found your backbone!","Very well, $n, you have failed to act. The prophecy is not yours to learn. Do not call upon me again until you have found your backbone!",25866,25866,0,11557
+restore_sound,27951,0,0,tdb_sound=14198 folder=grandadmiralwestwind,Kill them Abbendis! Do not fail me!,Kill them Abbendis! Do not fail me!,27354,27354,0,14198
+restore_sound,27951,2,0,tdb_sound=14199 folder=grandadmiralwestwind,You served your purpose.,You served your purpose.,27357,27357,0,14199
+restore_sound,27951,3,0,tdb_sound=14200 folder=grandadmiralwestwind,I will see you weaklings in Icecrown... if you live that long!,I will see you weaklings in Icecrown... if you live that long!,27358,27358,0,14200
+restore_sound,28068,1,0,tdb_sound=4496 folder=serpent,"Mmm, more mojo.","Mmm, more mojo.",27531,27531,0,4496
+restore_sound,28070,0,0,tdb_sound=14244 folder=brann,Now that's earnin' your supper!,Now that's earnin' your supper!,30525,30525,0,14244
+restore_sound,28070,0,1,tdb_sound=14245 folder=brann,Press on; that's the way!,Press on; that's the way!,30526,30526,0,14245
+restore_sound,28070,0,2,tdb_sound=14246 folder=brann,Keep it up now. Plenty of death-dealing for everyone!,Keep it up now. Plenty of death-dealing for everyone!,0,0,0,14246
+restore_sound,28070,1,0,tdb_sound=14257 folder=brann,I'm all kinds of busted up... might not... make it.,I'm all kinds of busted up... might not... make it.,28121,28121,0,14257
+restore_sound,28070,2,0,tdb_sound=14258 folder=brann,Not yet... not ye--,Not yet... not ye--,30522,30522,0,14258
+restore_sound,28070,3,0,tdb_sound=14260 folder=brann,I'm doin' everything I can!,I'm doin' everything I can!,30562,30562,0,14260
+restore_sound,28070,3,1,tdb_sound=14261 folder=brann,Light preserve ye!,Light preserve ye!,30563,30563,0,14261
+restore_sound,28070,3,2,tdb_sound=14262 folder=brann,I hope this is all worth it!,I hope this is all worth it!,30564,30564,0,14262
+restore_sound,28070,4,0,tdb_sound=14259 folder=brann,Time to get some answers! Let's get this show on the road!,Time to get some answers! Let's get this show on the road!,30561,30561,0,14259
+restore_sound,28070,5,0,tdb_sound=14274 folder=brann,"Don't worry! Ol' Brann's got yer back! Keep that metal monstrosity busy, and I'll see if I can't sweet talk this machine into helping ye!","Don't worry! Ol' Brann's got yer back! Keep that metal monstrosity busy, and I'll see if I can't sweet talk this machine into helping ye!",31555,31555,0,14274
+restore_sound,28070,6,0,tdb_sound=14275 folder=brann,"This is a wee bit trickier than before... Oh, bloody--incomin'!","This is a wee bit trickier than before... Oh, bloody--incomin'!",27589,27589,0,14275
+restore_sound,28070,7,0,tdb_sound=14276 folder=brann,What in the name o' Madoran did THAT do? Oh! Wait: I just about got it...,What in the name o' Madoran did THAT do? Oh! Wait: I just about got it...,27590,27590,0,14276
+restore_sound,28070,8,0,tdb_sound=14277 folder=brann,"Ha, that did it! Help's a-comin'! Take this, ya glowin' iron brute!","Ha, that did it! Help's a-comin'! Take this, ya glowin' iron brute!",27591,27591,0,14277
+restore_sound,28070,9,0,tdb_sound=14247 folder=brann,"Take a moment and relish this with me. Soon... all will be revealed. Okay then, let's do this!","Take a moment and relish this with me. Soon... all will be revealed. Okay then, let's do this!",30523,30523,0,14247
+restore_sound,28070,10,0,tdb_sound=14248 folder=brann,Now keep an eye out! I'll have this licked in two shakes of a--,Now keep an eye out! I'll have this licked in two shakes of a--,30552,30552,0,14248
+restore_sound,28070,11,0,tdb_sound=14249 folder=brann,"Oh, that doesn't sound good. We might have a complication or two...","Oh, that doesn't sound good. We might have a complication or two...",30553,30553,0,14249
+restore_sound,28070,12,0,tdb_sound=14250 folder=brann,"Ah, you want to play hardball, eh? That's just my game!","Ah, you want to play hardball, eh? That's just my game!",30554,30554,0,14250
+restore_sound,28070,13,0,tdb_sound=14251 folder=brann,Couple more minutes and I'll--,Couple more minutes and I'll--,30555,30555,0,14251
+restore_sound,28070,14,0,tdb_sound=14252 folder=brann,Heightened? What's the good news?,Heightened? What's the good news?,30556,30556,0,14252
+restore_sound,28070,15,0,tdb_sound=14253 folder=brann,So that was the problem? Now I'm makin' progress...,So that was the problem? Now I'm makin' progress...,30557,30557,0,14253
+restore_sound,28070,16,0,tdb_sound=14254 folder=brann,Hang on! Nobody's gonna' be sanitized as long as I have a say in it!,Hang on! Nobody's gonna' be sanitized as long as I have a say in it!,30558,30558,0,14254
+restore_sound,28070,17,0,tdb_sound=14255 folder=brann,Ha! The old magic fingers finally won through! Now let's get down to--,Ha! The old magic fingers finally won through! Now let's get down to--,30559,30559,0,14255
+restore_sound,28070,18,0,tdb_sound=14256 folder=brann,"Purge? No no no no no.. where did I-- Aha, this should do the trick...","Purge? No no no no no.. where did I-- Aha, this should do the trick...",30560,30560,0,14256
+restore_sound,28070,19,0,tdb_sound=14263 folder=brann,"Query? What do you think I'm here for, tea and biscuits? Spill the beans already!","Query? What do you think I'm here for, tea and biscuits? Spill the beans already!",30565,30565,0,14263
+restore_sound,28070,20,0,tdb_sound=14264 folder=brann,"Tell me how the dwarves came to be, and start at the beginning!","Tell me how the dwarves came to be, and start at the beginning!",30566,30566,0,14264
+restore_sound,28070,21,0,tdb_sound=14265 folder=brann,"Right, right... I know the earthen were made from stone to shape the deep regions o' the world. But what about the anomalies? Matrix non-stabilizin' and what-not?","Right, right... I know the earthen were made from stone to shape the deep regions o' the world. But what about the anomalies? Matrix non-stabilizin' and what-not?",30567,30567,0,14265
+restore_sound,28070,22,0,tdb_sound=14266 folder=brann,"Necrowhatinthe-- Speak bloody Common, will ye?","Necrowhatinthe-- Speak bloody Common, will ye?",30568,30568,0,14266
+restore_sound,28070,23,0,tdb_sound=14267 folder=brann,"Old Gods, huh? So they zapped the earthen with this Curse of Flesh... and then what?","Old Gods, huh? So they zapped the earthen with this Curse of Flesh... and then what?",30577,30577,0,14267
+restore_sound,28070,24,0,tdb_sound=14268 folder=brann,"If they killed the Old Gods, Azeroth would've been destroyed...","If they killed the Old Gods, Azeroth would've been destroyed...",30578,30578,0,14268
+restore_sound,28070,25,0,tdb_sound=14269 folder=brann,What protectors?,What protectors?,30579,30579,0,14269
+restore_sound,28070,26,0,tdb_sound=14270 folder=brann,"Aesir and Vanir... Okay, so the Forge o' Wills started makin' new earthen... but what happened to the old ones?","Aesir and Vanir... Okay, so the Forge o' Wills started makin' new earthen... but what happened to the old ones?",30580,30580,0,14270
+restore_sound,28070,27,0,tdb_sound=14271 folder=brann,Hold everything! The Aesir and Vanir went to war? Why?,Hold everything! The Aesir and Vanir went to war? Why?,30581,30581,0,14271
+restore_sound,28070,28,0,tdb_sound=14272 folder=brann,"This ""Loken"" sounds like a nasty character. Glad we don't have to worry about the likes o' him anymore. So... if I'm understandin' ye right, the original earthen eventually woke up from this stasis, and by that time the destabili-whatever had turned 'em into proper dwarves. Or at least... dwarf ancestors.","This ""Loken"" sounds like a nasty character. Glad we don't have to worry about the likes o' him anymore. So... if I'm understandin' ye right, the original earthen eventually woke up from this stasis, and by that time the destabili-whatever had turned 'em into proper dwarves. Or at least... dwarf ancestors.",30582,30582,0,14272
+restore_sound,28070,29,0,tdb_sound=14273 folder=brann,"Well, now... that's a lot to digest. I'm gonna need some time to take all this in. Thank ye.","Well, now... that's a lot to digest. I'm gonna need some time to take all this in. Thank ye.",30583,30583,0,14273
+restore_sound,28070,30,0,tdb_sound=14278 folder=brann,"Loken?! That's downright bothersome... We might've neutralized the iron dwarves, but I'd lay odds there's another machine somewhere else churnin' out a whole mess o' these iron vrykul!","Loken?! That's downright bothersome... We might've neutralized the iron dwarves, but I'd lay odds there's another machine somewhere else churnin' out a whole mess o' these iron vrykul!",28591,28591,0,14278
+restore_sound,28070,31,0,tdb_sound=14279 folder=brann,I'll use the forge to make batches o' earthen to stand guard... But our greatest challenge still remains: find and stop Loken!,I'll use the forge to make batches o' earthen to stand guard... But our greatest challenge still remains: find and stop Loken!,30584,30584,0,14279
+restore_sound,28215,3,0,tdb_sound=14212 folder=princevalanar,Seem like there more wasps every time Dajik come back. Why they not run out?,Seem like there more wasps every time Dajik come back. Why they not run out?,28189,28189,0,14212
+restore_sound,28416,0,0,tdb_sound=478 folder=bear,"I will not simply lay here and allow you to slay me! You will have to earn your right to draw another breath if you want to kill me, mortal!","I will not simply lay here and allow you to slay me! You will have to earn your right to draw another breath if you want to kill me, mortal!",28544,28544,0,478
+restore_sound,28514,0,0,tdb_sound=473 folder=bear,But try they must or all will be lost. The Drakkari will be the death of both themselves and their gods!,But try they must or all will be lost. The Drakkari will be the death of both themselves and their gods!,28435,28435,0,473
+restore_sound,28515,0,0,tdb_sound=9919 folder=dragonhawk,The spotted one must be sought. Their fates are entwined.,The spotted one must be sought. Their fates are entwined.,28432,28432,0,9919
+restore_sound,28517,0,0,tdb_sound=643 folder=tiger,To her altar this mortal must travel. What they must do will not be easy. In the end it may prove impossible.,To her altar this mortal must travel. What they must do will not be easy. In the end it may prove impossible.,28434,28434,0,643
+restore_sound,28636,0,0,tdb_sound=12009 folder=foresttrollmale,Who's that beatin' on my drum?,Who's that beatin' on my drum?,28627,28627,0,12009
+restore_sound,28785,1,0,tdb_sound=7056 folder=avatarofhakar,I've returned to invite you to my housewarming in the underworld!,I've returned to invite you to my housewarming in the underworld!,28842,28842,0,7056
+restore_sound,28902,1,0,tdb_sound=6200 folder=forest troll,You have an enchanted tiki? YOU KILLED MY FAMILY!,You have an enchanted tiki? YOU KILLED MY FAMILY!,29040,29040,0,6200
+restore_sound,28952,0,0,tdb_sound=771 folder=kodobeast,"I'M FREE, LITTLE DRAKKARI. TIME TO PAY FOR YOUR MANY TRESSPASSES!","I'M FREE, LITTLE DRAKKARI. TIME TO PAY FOR YOUR MANY TRESSPASSES!",29177,29177,0,771
+restore_sound,29022,0,0,tdb_sound=643 folder=tiger,"Once more we hear your call, Khufu. We have wisdom for you and $n. You face great peril and must act swiftly or you all and Har'koa will die.","Once more we hear your call, Khufu. We have wisdom for you and $n. You face great peril and must act swiftly or you all and Har'koa will die.",29233,29233,0,643
+restore_sound,29023,0,0,tdb_sound=9919 folder=dragonhawk,The gusty essence of deceased Quetz'lun's wardens must be gathered to draw him near. To Har'koa must both of these rarities be delivered.,The gusty essence of deceased Quetz'lun's wardens must be gathered to draw him near. To Har'koa must both of these rarities be delivered.,29235,29235,0,9919
+restore_sound,29024,0,0,tdb_sound=473 folder=bear,The unblemished heart of the guardian must be secured to show defiance and strength. Jealous Zim'Rhuk keeps those who harbor it.,The unblemished heart of the guardian must be secured to show defiance and strength. Jealous Zim'Rhuk keeps those who harbor it.,29234,29234,0,473
+restore_sound,29028,0,0,tdb_sound=12009 folder=foresttrollmale,What is this? I recognize you from when I killed Akali. You must be this $n that everyone is dreading.,What is this? I recognize you from when I killed Akali. You must be this $n that everyone is dreading.,29250,29250,0,12009
+restore_sound,29028,1,0,tdb_sound=6200 folder=forest troll,"You don't worry me, $g boy : girl;. Just the opposite - I look forward to killing you. Nothing will stand between me and Zim'Torga now!","You don't worry me, $g boy : girl;. Just the opposite - I look forward to killing you. Nothing will stand between me and Zim'Torga now!",29251,29251,0,6200
+restore_sound,29050,0,0,tdb_sound=643 folder=tiger,PROPHET!,PROPHET!,29269,29269,0,643
+restore_sound,29050,1,0,tdb_sound=11887 folder=spectraltiger,YOU KEEP YOUR FILTHY DRAKKARI HANDS OFF OF THEM!,YOU KEEP YOUR FILTHY DRAKKARI HANDS OFF OF THEM!,29272,29272,0,11887
+restore_sound,29050,2,0,tdb_sound=11883 folder=spectraltiger,"I THINK NOT. YOU WILL DROP YOUR IMMUNITY, CEASE YOUR RITUAL NOW AND RELEASE THEM!","I THINK NOT. YOU WILL DROP YOUR IMMUNITY, CEASE YOUR RITUAL NOW AND RELEASE THEM!",29274,29274,0,11883
+restore_sound,29280,0,0,tdb_sound=14732 folder=lichking,"Your sacrifice is a testament to your obedience.  Indeed you are worthy of this charge. Arise, and forever be known as Svala Sorrowgrave!","Your sacrifice is a testament to your obedience.  Indeed you are worthy of this charge. Arise, and forever be known as Svala Sorrowgrave!",29688,29688,0,14732
+restore_sound,29280,1,0,tdb_sound=14733 folder=lichking,Your first test awaits you. Destroy our uninvited guests.,Your first test awaits you. Destroy our uninvited guests.,29689,29689,0,14733
+restore_sound,29281,0,0,tdb_sound=13856 folder=svalasorrowgrave,"My liege! I have done as you asked, and now beseech you for your blessing!","My liege! I have done as you asked, and now beseech you for your blessing!",29684,29684,0,13856
+restore_sound,29769,1,0,tdb_sound=1446 folder=fleshgolem,Vile free? Vile love $n!,Vile free? Vile love $n!,30460,30460,0,1446
+restore_sound,29770,1,0,tdb_sound=1173 folder=banshee,You dare?! Where is Baron Sliver? I would have words with him!,You dare?! Where is Baron Sliver? I would have words with him!,30458,30458,0,1173
+restore_sound,29840,1,0,tdb_sound=12937 folder=northrendgeist,Mrmrmmrmrmrmrm... mrmrmrmr?!,Mrmrmmrmrmrmrm... mrmrmrmr?!,30459,30459,0,12937
+restore_sound,29881,0,0,tdb_sound=14376 folder=yoggsaron,They are coming for you.,They are coming for you.,30483,30483,0,14376
+restore_sound,29881,0,1,tdb_sound=14377 folder=yoggsaron,Give in to your fear.,Give in to your fear.,30484,30484,0,14377
+restore_sound,29881,0,2,tdb_sound=14378 folder=yoggsaron,Kill them all... before they kill you.,Kill them all... before they kill you.,30485,30485,0,14378
+restore_sound,29881,0,3,tdb_sound=14379 folder=yoggsaron,They have turned against you. Now... take your revenge.,They have turned against you. Now... take your revenge.,30486,30486,0,14379
+restore_sound,29881,0,4,tdb_sound=14380 folder=yoggsaron,Tell yourself again that these are not truly your friends.,Tell yourself again that these are not truly your friends.,30487,30487,0,14380
+restore_sound,29881,0,5,tdb_sound=14381 folder=yoggsaron,There is no escape. Not in this life. Not in the next.,There is no escape. Not in this life. Not in the next.,30488,30488,0,14381
+restore_sound,29881,0,6,tdb_sound=14382 folder=yoggsaron,You are a pawn of forces unseen.,You are a pawn of forces unseen.,30489,30489,0,14382
+restore_sound,29881,0,7,tdb_sound=14383 folder=yoggsaron,It WAS your fault.,It WAS your fault.,30490,30490,0,14383
+restore_sound,30632,0,1,tdb_sound=13695 folder=waterelemental,I'll eat your heart!,I'll eat your heart!,30508,30508,0,13695
+restore_sound,30897,0,0,tdb_sound=13761 folder=marnak,Threat index threshold exceeded.  Celestial archive aborted. Security level heightened.,Threat index threshold exceeded.  Celestial archive aborted. Security level heightened.,0,0,0,13761
+restore_sound,30897,1,0,tdb_sound=13762 folder=marnak,Additional background is relevant to your query: following global combat between Aesir and Vanir--,Additional background is relevant to your query: following global combat between Aesir and Vanir--,0,0,0,13762
+restore_sound,30897,2,0,tdb_sound=13763 folder=marnak,"Unknown. Data suggests that impetus for global combat originated with prime designate Loken, who neutralized all remaining Aesir and Vanir, affecting termination of conflict. Prime designate Loken then initiated stasis of several seed races, including earthen, giants and vrykul, at designated holding facilities.","Unknown. Data suggests that impetus for global combat originated with prime designate Loken, who neutralized all remaining Aesir and Vanir, affecting termination of conflict. Prime designate Loken then initiated stasis of several seed races, including earthen, giants and vrykul, at designated holding facilities.",0,0,0,13763
+restore_sound,30897,3,0,tdb_sound=13764 folder=marnak,Essentially that is correct.,Essentially that is correct.,0,0,0,13764
+restore_sound,30898,0,0,tdb_sound=13756 folder=kadrak,Security breach in progress. Analysis of historical archives transferred to lower-priority queue. Countermeasures engaged.,Security breach in progress. Analysis of historical archives transferred to lower-priority queue. Countermeasures engaged.,0,0,0,13756
+restore_sound,30898,1,0,tdb_sound=13757 folder=kadrak,Accessing... Creators arrived to extirpate symbiotic infection. Assessment revealed that Old God infestation had grown malignant. Excising parasites would result in loss of host--,Accessing... Creators arrived to extirpate symbiotic infection. Assessment revealed that Old God infestation had grown malignant. Excising parasites would result in loss of host--,0,0,0,13757
+restore_sound,30898,2,0,tdb_sound=13758 folder=kadrak,"Correct. Creators neutralized parasitic threat and contained it within the host. Forge of Wills and other systems were instituted to create new earthen. Safeguards were implemented, and protectors were appointed.","Correct. Creators neutralized parasitic threat and contained it within the host. Forge of Wills and other systems were instituted to create new earthen. Safeguards were implemented, and protectors were appointed.",0,0,0,13758
+restore_sound,30898,3,0,tdb_sound=13759 folder=kadrak,"Designations: Aesir and Vanir. Or in the common nomenclature, storm and earth giants. Sentinel Loken designated supreme. Dragon Aspects appointed to monitor evolution on Azeroth.","Designations: Aesir and Vanir. Or in the common nomenclature, storm and earth giants. Sentinel Loken designated supreme. Dragon Aspects appointed to monitor evolution on Azeroth.",0,0,0,13759
+restore_sound,30924,0,0,tdb_sound=1167 folder=banshee,"Now fight me, $n! Kill Iskalder!","Now fight me, $n! Kill Iskalder!",31540,31540,0,1167
+restore_sound,30945,0,0,tdb_sound=13824 folder=valkier,"Iskalder, there you are. What is this? Engaged in battle already?","Iskalder, there you are. What is this? Engaged in battle already?",31528,31528,0,13824
+restore_sound,30945,1,0,tdb_sound=13825 folder=valkier,NO! How is this possible?,NO! How is this possible?,31530,31530,0,13825
+restore_sound,30945,2,0,tdb_sound=13824 folder=valkier,"I know not how this was possible, but you must still be judged Iskalder. Wait... what is this?","I know not how this was possible, but you must still be judged Iskalder. Wait... what is this?",31531,31531,0,13824
+restore_sound,30945,3,0,tdb_sound=1168 folder=banshee,Stay away from me creature! Do not touch me!,Stay away from me creature! Do not touch me!,31533,31533,0,1168
+restore_sound,30945,4,0,tdb_sound=1167 folder=banshee,Ahahahahahaha! It is done. Return to my cave. We have much to discuss!,Ahahahahahaha! It is done. Return to my cave. We have much to discuss!,31534,31534,0,1167
+restore_sound,30955,0,0,tdb_sound=13824 folder=valkier,This? This is me taking control of you. This is me setting up my final revenge!,This? This is me taking control of you. This is me setting up my final revenge!,31532,31532,0,13824
+restore_sound,32295,0,0,tdb_sound=14406 folder=alexstraza,"I did what I had to, brother. You gave me no alternative.","I did what I had to, brother. You gave me no alternative.",32626,32626,0,14406
+restore_sound,32295,1,0,tdb_sound=14407 folder=alexstraza,And so ends the Nexus War. ,And so ends the Nexus War. ,32627,32627,0,14407
+restore_sound,32295,2,0,tdb_sound=14408 folder=alexstraza,"This resolution pains me deeply, but the destruction, the monumental loss of life had to end. Regardless of Malygos' recent transgressions, I will mourn his loss. He was once a guardian, a protector. This day, one of the world's mightiest has fallen.","This resolution pains me deeply, but the destruction, the monumental loss of life had to end. Regardless of Malygos' recent transgressions, I will mourn his loss. He was once a guardian, a protector. This day, one of the world's mightiest has fallen.",32628,32628,0,14408
+restore_sound,32295,3,0,tdb_sound=14409 folder=alexstraza,"The red dragonflight will take on the burden of mending the devastation wrought on Azeroth. Return home to your people and rest. Tomorrow will bring you new challenges, and you must be ready to face them. Life... goes on.","The red dragonflight will take on the burden of mending the devastation wrought on Azeroth. Return home to your people and rest. Tomorrow will bring you new challenges, and you must be ready to face them. Life... goes on.",32629,32629,0,14409
+restore_sound,33118,0,0,tdb_sound=15564 folder=ignisthefiremaster,Insolent whelps! Your blood will temper the weapons used to reclaim this world!,Insolent whelps! Your blood will temper the weapons used to reclaim this world!,34306,34306,0,15564
+restore_sound,33118,1,0,tdb_sound=15565 folder=ignisthefiremaster,"Arise, soldiers of the iron crucible! The Maker's will be done!","Arise, soldiers of the iron crucible! The Maker's will be done!",34307,34307,0,15565
+restore_sound,33118,2,0,tdb_sound=15566 folder=ignisthefiremaster,I will burn away your impurities!,I will burn away your impurities!,34308,34308,0,15566
+restore_sound,33118,3,0,tdb_sound=15567 folder=ignisthefiremaster,Let the inferno consume you!,Let the inferno consume you!,34309,34309,0,15567
+restore_sound,33118,3,1,tdb_sound=15568 folder=ignisthefiremaster,BURN! Burn in the Maker's fire!,BURN! Burn in the Maker's fire!,34310,34310,0,15568
+restore_sound,33118,4,0,tdb_sound=15569 folder=ignisthefiremaster,More scraps for the scrap heap.,More scraps for the scrap heap.,34311,34311,0,15569
+restore_sound,33118,4,1,tdb_sound=15570 folder=ignisthefiremaster,Your bones will serve as kindling.,Your bones will serve as kindling.,34312,34312,0,15570
+restore_sound,33118,5,0,tdb_sound=15571 folder=ignisthefiremaster,LET IT BE FINISHED!,LET IT BE FINISHED!,33871,33871,0,15571
+restore_sound,33118,6,0,tdb_sound=15572 folder=ignisthefiremaster,I. Have. Failed.,I. Have. Failed.,34313,34313,0,15572
+restore_sound,33134,0,0,tdb_sound=15771 folder=yoggsaron,HELP ME! Please get them off of me!,HELP ME! Please get them off of me!,34342,34342,0,15771
+restore_sound,33134,1,0,tdb_sound=15772 folder=yoggsaron,What do you want from me? Leave me alone!,What do you want from me? Leave me alone!,34343,34343,0,15772
+restore_sound,33134,2,0,tdb_sound=15775 folder=yoggsaron,The time to strike at the head of the beast will soon be upon us! Focus your anger and hatred on his minions!,The time to strike at the head of the beast will soon be upon us! Focus your anger and hatred on his minions!,34346,34346,0,15775
+restore_sound,33134,3,0,tdb_sound=15773 folder=yoggsaron,Yes! YES! Show them no mercy! Give no pause to your attacks!,Yes! YES! Show them no mercy! Give no pause to your attacks!,34344,34344,0,15773
+restore_sound,33134,4,0,tdb_sound=15774 folder=yoggsaron,Let hatred and rage guide your blows!,Let hatred and rage guide your blows!,34345,34345,0,15774
+restore_sound,33134,5,0,tdb_sound=15779 folder=yoggsaron,Could they have been saved?,Could they have been saved?,34350,34350,0,15779
+restore_sound,33134,5,1,tdb_sound=15778 folder=yoggsaron,Powerless to act....,Powerless to act....,34349,34349,0,15778
+restore_sound,33134,6,0,tdb_sound=15754 folder=yoggsaron,I am the lucid dream.,I am the lucid dream.,34351,34351,0,15754
+restore_sound,33134,10,0,tdb_sound=15777 folder=yoggsaron,"Tremble, mortals, before the coming of the end!","Tremble, mortals, before the coming of the end!",34348,34348,0,15777
+restore_sound,33134,11,0,tdb_sound=15776 folder=yoggsaron,Suffocate upon your own hate!,Suffocate upon your own hate!,34347,34347,0,15776
+restore_sound,33210,1,0,tdb_sound=15648 folder=razorscalenpc,Move quickly! She won't remain grounded for long!,Move quickly! She won't remain grounded for long!,33606,33606,0,15648
+restore_sound,33235,0,0,tdb_sound=15827 folder=brann,"You've defeated the Iron Council and unlocked the Archivum!  Well done, lads!","You've defeated the Iron Council and unlocked the Archivum!  Well done, lads!",33833,33833,0,15827
+restore_sound,33235,1,0,tdb_sound=15808 folder=brann,"Now, this is what we call a nice find!","Now, this is what we call a nice find!",33904,33904,0,15808
+restore_sound,33235,2,0,tdb_sound=15818 folder=brann,New orders! Unlock the entry to the Celestial Planetarium.,New orders! Unlock the entry to the Celestial Planetarium.,33932,33932,0,15818
+restore_sound,33235,3,0,tdb_sound=15819 folder=brann,"Four watchers? Sigils? Could ye be a little less cryptic, confounded machine?","Four watchers? Sigils? Could ye be a little less cryptic, confounded machine?",33933,33933,0,15819
+restore_sound,33235,4,0,tdb_sound=15809 folder=brann,"I'll show ye access, ye wretched machine. Here it is again: Norgannon's key!","I'll show ye access, ye wretched machine. Here it is again: Norgannon's key!",33905,33905,0,15809
+restore_sound,33235,5,0,tdb_sound=15810 folder=brann,Looks just like all the other titan archives me lads have found... only older... and bigger.,Looks just like all the other titan archives me lads have found... only older... and bigger.,33906,33906,0,15810
+restore_sound,33235,6,0,tdb_sound=15811 folder=brann,Wait a second: this doesn't look right! Next to this blinking light... what's this Algalon signal? ,Wait a second: this doesn't look right! Next to this blinking light... what's this Algalon signal? ,33907,33907,0,15811
+restore_sound,33235,7,0,tdb_sound=15812 folder=brann,"Prime Designate? Where have I 'eard that before? By my grandfather's beard, Loken is Azeroth's Prime Designate. Loken's death triggered this!","Prime Designate? Where have I 'eard that before? By my grandfather's beard, Loken is Azeroth's Prime Designate. Loken's death triggered this!",33908,33908,0,15812
+restore_sound,33235,8,0,tdb_sound=15813 folder=brann,Well? Who's on the listening side of the signal? What's going to happen?,Well? Who's on the listening side of the signal? What's going to happen?,33909,33909,0,15813
+restore_sound,33235,9,0,tdb_sound=15814 folder=brann,"Planetary re-origination? Speak plainly, ye blasted machine!","Planetary re-origination? Speak plainly, ye blasted machine!",33910,33910,0,15814
+restore_sound,33235,10,0,tdb_sound=15815 folder=brann,"Hear that, lads? It's only the end of the world! Well, what are ye waiting for, ye rusty machine? Initiate Reply-code Alpha. All is well! Pints are on me!","Hear that, lads? It's only the end of the world! Well, what are ye waiting for, ye rusty machine? Initiate Reply-code Alpha. All is well! Pints are on me!",33911,33911,0,15815
+restore_sound,33235,11,0,tdb_sound=15816 folder=brann,"Well, what's this Algalon going to be looking for with his diagnostics? What are our chances?","Well, what's this Algalon going to be looking for with his diagnostics? What are our chances?",33912,33912,0,15816
+restore_sound,33235,12,0,tdb_sound=15817 folder=brann,"Blast it, lads. Looks like we've got a fight ahead of us.","Blast it, lads. Looks like we've got a fight ahead of us.",33913,33913,0,15817
+restore_sound,33235,13,0,tdb_sound=15820 folder=brann,"How do we get the sigils from them, then? Just walk up to them and ask them nicely?","How do we get the sigils from them, then? Just walk up to them and ask them nicely?",33934,33934,0,15820
+restore_sound,33235,14,0,tdb_sound=15821 folder=brann,"You're going to tell us how to... ""un-compromise"" the sigils, aren't you?","You're going to tell us how to... ""un-compromise"" the sigils, aren't you?",33935,33935,0,15821
+restore_sound,33235,15,0,tdb_sound=15822 folder=brann,I've dreamed of roaming the halls of the titans for years. I never thought I'd be pitted against their creations.,I've dreamed of roaming the halls of the titans for years. I never thought I'd be pitted against their creations.,33936,33936,0,15822
+restore_sound,33442,0,0,tdb_sound=15470 folder=arthasprisoner,Arrrrrrgh!,Arrrrrrgh!,33610,33610,0,15470
+restore_sound,33442,1,0,tdb_sound=15471 folder=arthasprisoner,I'm not afraid of you!,I'm not afraid of you!,33611,33611,0,15471
+restore_sound,34044,0,0,tdb_sound=15826 folder=brann,"Just in time. Let's see this thing off, then.","Just in time. Let's see this thing off, then.",34084,34084,0,15826
+restore_sound,34064,0,0,tdb_sound=15824 folder=brann,"We did it, lads! We got here before Algalon's arrival. Maybe we can rig the systems to interfere with his analysis--","We did it, lads! We got here before Algalon's arrival. Maybe we can rig the systems to interfere with his analysis--",34161,34161,0,15824
+restore_sound,34064,1,0,tdb_sound=15825 folder=brann,I'll head back to the Archivum and see if I can jam his signal. I might be able to buy us some time while you take care of him.,I'll head back to the Archivum and see if I can jam his signal. I might be able to buy us some time while you take care of him.,34029,34029,0,15825
+restore_sound,34064,2,0,tdb_sound=15823 folder=brann,I know just the place. Will you be all right?,I know just the place. Will you be all right?,34017,34017,0,15823
+restore_sound,34143,0,0,tdb_sound=15413 folder=archivumsystem,Self-destruct sequence initiated.,Self-destruct sequence initiated.,34268,34268,0,15413
+restore_sound,34143,1,0,tdb_sound=15414 folder=archivumsystem,Self-destruct sequence terminated. Override code A-9-0-5.,Self-destruct sequence terminated. Override code A-9-0-5.,34284,34284,0,15414
+restore_sound,34143,2,0,tdb_sound=15415 folder=archivumsystem,This area will self-destruct in ten minutes.,This area will self-destruct in ten minutes.,34283,34283,0,15415
+restore_sound,34143,3,0,tdb_sound=15416 folder=archivumsystem,This area will self-destruct in nine minutes.,This area will self-destruct in nine minutes.,34282,34282,0,15416
+restore_sound,34143,4,0,tdb_sound=15417 folder=archivumsystem,This area will self-destruct in eight minutes.,This area will self-destruct in eight minutes.,34281,34281,0,15417
+restore_sound,34143,5,0,tdb_sound=15418 folder=archivumsystem,This area will self-destruct in seven minutes.,This area will self-destruct in seven minutes.,34280,34280,0,15418
+restore_sound,34143,6,0,tdb_sound=15419 folder=archivumsystem,This area will self-destruct in six minutes.,This area will self-destruct in six minutes.,34273,34273,0,15419
+restore_sound,34143,7,0,tdb_sound=15420 folder=archivumsystem,This area will self-destruct in five minutes.,This area will self-destruct in five minutes.,34274,34274,0,15420
+restore_sound,34143,8,0,tdb_sound=15421 folder=archivumsystem,This area will self-destruct in four minutes.,This area will self-destruct in four minutes.,34275,34275,0,15421
+restore_sound,34143,9,0,tdb_sound=15422 folder=archivumsystem,This area will self-destruct in three minutes.,This area will self-destruct in three minutes.,34276,34276,0,15422
+restore_sound,34143,10,0,tdb_sound=15423 folder=archivumsystem,This area will self-destruct in two minutes.,This area will self-destruct in two minutes.,34277,34277,0,15423
+restore_sound,34143,11,0,tdb_sound=15424 folder=archivumsystem,This area will self-destruct in one minute.,This area will self-destruct in one minute.,34278,34278,0,15424
+restore_sound,34143,12,0,tdb_sound=15425 folder=archivumsystem,Self-destruct sequence finalized. Have a nice day!,Self-destruct sequence finalized. Have a nice day!,34279,34279,0,15425
+restore_sound,34496,0,0,tdb_sound=16272 folder=sisters,In the name of our dark master. For the Lich King. You. Will. Die.,In the name of our dark master. For the Lich King. You. Will. Die.,35738,35738,0,16272
+restore_sound,34496,1,0,tdb_sound=16279 folder=sisters,Let the light consume you!,Let the light consume you!,35746,35746,0,16279
+restore_sound,34496,2,0,tdb_sound=16278 folder=sisters,Let the dark consume you!,Let the dark consume you!,35745,35745,0,16278
+restore_sound,34496,5,0,tdb_sound=16274 folder=sisters,CHAOS!,CHAOS!,29058,29058,0,16274
+restore_sound,34496,6,0,tdb_sound=16276 folder=sisters,You have been measured and found wanting.,You have been measured and found wanting.,35739,35739,0,16276
+restore_sound,34496,6,1,tdb_sound=16276 folder=sisters,Unworthy!,Unworthy!,35740,35740,0,16276
+restore_sound,34496,7,0,tdb_sound=16273 folder=sisters,You are finished!,You are finished!,35743,35743,0,16273
+restore_sound,34496,8,0,tdb_sound=16275 folder=sisters,The Scourge cannot be stopped...,The Scourge cannot be stopped...,35741,35741,0,16275
+restore_sound,34497,0,0,tdb_sound=16272 folder=sisters,In the name of our dark master. For the Lich King. You. Will. Die.,In the name of our dark master. For the Lich King. You. Will. Die.,35738,35738,0,16272
+restore_sound,34497,1,0,tdb_sound=16279 folder=sisters,Let the light consume you!,Let the light consume you!,35746,35746,0,16279
+restore_sound,34497,2,0,tdb_sound=16278 folder=sisters,Let the dark consume you!,Let the dark consume you!,35745,35745,0,16278
+restore_sound,34497,5,0,tdb_sound=16274 folder=sisters,CHAOS!,CHAOS!,29058,29058,0,16274
+restore_sound,34497,6,0,tdb_sound=16276 folder=sisters,You have been measured and found wanting.,You have been measured and found wanting.,35739,35739,0,16276
+restore_sound,34497,6,1,tdb_sound=16276 folder=sisters,Unworthy!,Unworthy!,35740,35740,0,16276
+restore_sound,34497,7,0,tdb_sound=16273 folder=sisters,You are finished!,You are finished!,35743,35743,0,16273
+restore_sound,34497,8,0,tdb_sound=16275 folder=sisters,The Scourge cannot be stopped...,The Scourge cannot be stopped...,35741,35741,0,16275
+restore_sound,34850,0,0,tdb_sound=19614 folder=liam,"Stand ready, guards!  We don't know how many intruders we're dealing with, but the Headlands are overrun and we're cut off from the harbor towns.  Expect to be outnumbered.","Stand ready, guards!  We don't know how many intruders we're dealing with, but the Headlands are overrun and we're cut off from the harbor towns.  Expect to be outnumbered.",0,0,0,19614
+restore_sound,34850,1,0,tdb_sound=19615 folder=liam,"I want the perimeter secured and the gates manned by two guards at all times.  No one gets in, no one gets out.","I want the perimeter secured and the gates manned by two guards at all times.  No one gets in, no one gets out.",0,0,0,19615
+restore_sound,34850,2,0,tdb_sound=19616 folder=liam,We protected Gilneas from the Scourge.  We protected Gilneas during the Northgate rebellion.  We will protect Gilneas from whatever this new threat may be.,We protected Gilneas from the Scourge.  We protected Gilneas during the Northgate rebellion.  We will protect Gilneas from whatever this new threat may be.,0,0,0,19616
+restore_sound,34913,0,0,tdb_sound=19617 folder=liam,Stand your ground,Stand your ground,0,0,0,19617
+restore_sound,34913,0,4,tdb_sound=19621 folder=liam,Take heart,Take heart,0,0,0,19621
+restore_sound,35378,0,0,tdb_sound=19696 folder=lorna,This mastiff will help you find the hidden worgen.,This mastiff will help you find the hidden worgen.,0,0,0,19696
+restore_sound,35813,4,0,tdb_sound=16458 folder=protodragon,"That's good enough for now. I'll make my way out on my own. Thanks for the escort, $n.","That's good enough for now. I'll make my way out on my own. Thanks for the escort, $n.",36018,36018,0,16458
+restore_sound,35893,1,0,tdb_sound=4121 folder=tiger,Go back to Aggra and tell her that we're moving northwest.,Go back to Aggra and tell her that we're moving northwest.,49855,49855,0,4121
+restore_sound,35917,1,0,tdb_sound=16458 folder=protodragon,Ride Bastia! Find Brax!,Ride Bastia! Find Brax!,49863,49863,0,16458
+restore_sound,36042,4,0,tdb_sound=4121 folder=tiger,Lok'tar!,Lok'tar!,36602,36602,0,4121
+restore_sound,36502,9,0,tdb_sound=16889 folder=devourerofsouls,Stare into the abyss and see your end.,Stare into the abyss and see your end.,0,0,0,16889
+restore_sound,36502,9,1,tdb_sound=16895 folder=devourerofsouls,Stare into the abyss and see your end.,Stare into the abyss and see your end.,0,0,0,16895
+restore_sound,36513,0,0,tdb_sound=16459 folder=rocketmount,"You think you're such a bigshot, saving everyone and making friends with these orc savages?!","You think you're such a bigshot, saving everyone and making friends with these orc savages?!",36460,36460,0,16459
+restore_sound,36513,2,0,tdb_sound=16459 folder=rocketmount,"Mark my words! I'm gonna get you, $n! I'll get you all! Out of my way!","Mark my words! I'm gonna get you, $n! I'll get you all! Out of my way!",36462,36462,0,16459
+restore_sound,37554,6,0,tdb_sound=17060 folder=sylvanaswindrunner,We're almost there... Don't give up!,We're almost there... Don't give up!,0,0,0,17060
+restore_sound,37592,0,0,tdb_sound=17150 folder=misc,"Heroes! We will hold off the undead as long as we can, even to our dying breath. Deal with the Scourgelord!","Heroes! We will hold off the undead as long as we can, even to our dying breath. Deal with the Scourgelord!",37232,37232,0,17150
+restore_sound,37596,4,0,tdb_sound=17042 folder=sylvanaswindrunner,Your first mission is to destroy the machines of death within this malevolent engine of souls and clear a path for our soldiers. ,Your first mission is to destroy the machines of death within this malevolent engine of souls and clear a path for our soldiers. ,0,0,0,17042
+restore_sound,38112,5,0,tdb_sound=16717 folder=falric,"As you wish, my lord.","As you wish, my lord.",0,0,0,16717
+restore_sound,38122,0,0,tdb_sound=6820 folder=chicken,"Hey, $n, come over here, would ya? I've got something for you to do.","Hey, $n, come over here, would ya? I've got something for you to do.",41261,41261,0,6820
+restore_sound,38387,0,0,tdb_sound=18259 folder=pygmy,"$n, hop into one of those B.C. Eliminators and wipe out the pygmies!","$n, hop into one of those B.C. Eliminators and wipe out the pygmies!",49973,49973,0,18259
+restore_sound,38387,1,0,tdb_sound=18259 folder=pygmy,"You're going to have to take the fight to them, $n. Look for Izzy just outside their village.","You're going to have to take the fight to them, $n. Look for Izzy just outside their village.",49974,49974,0,18259
+restore_sound,38409,11,0,tdb_sound=2304 folder=totemall,Mouse-sized beartraps... no... Bear-sized mousetraps!!,Mouse-sized beartraps... no... Bear-sized mousetraps!!,37423,37423,0,2304
+restore_sound,38409,12,0,tdb_sound=2304 folder=totemall,"Recycling! But, for stuff that's never been used before.","Recycling! But, for stuff that's never been used before.",37416,37416,0,2304
+restore_sound,38448,0,0,tdb_sound=15136 folder=facelessone,"WHO DARES?!  Little goblins? I remember when your race was created.  I care nothing for your threats or these naga. Prepare to be removed from existence. Now, you will die!","WHO DARES?!  Little goblins? I remember when your race was created.  I care nothing for your threats or these naga. Prepare to be removed from existence. Now, you will die!",910446,910446,0,15136
+restore_sound,38474,0,0,tdb_sound=19612 folder=liam,FATHER!!!,FATHER!!!,0,0,0,19612
+restore_sound,38537,1,0,tdb_sound=20918 folder=crenshaw,As you wish.,As you wish.,0,0,0,20918
+restore_sound,38745,3,0,tdb_sound=2304 folder=totemall,Upside-down boats!  They'll never capsize!,Upside-down boats!  They'll never capsize!,37424,37424,0,2304
+restore_sound,39908,0,0,tdb_sound=20897 folder=brann,"Right, let's go! Just need to input the final entry sequence into the door mechanism... and...","Right, let's go! Just need to input the final entry sequence into the door mechanism... and...",0,0,0,20897
+restore_sound,39908,1,0,tdb_sound=20898 folder=brann,That did the trick! The control room should be right behind this... oh... wow...,That did the trick! The control room should be right behind this... oh... wow...,0,0,0,20898
+restore_sound,39908,2,0,tdb_sound=20899 folder=brann,"What? This isn't the control room! There's another entire defense mechanism in place, and the blasted Rock Troggs broke into here somehow. Troggs. Why did it have to be Troggs!","What? This isn't the control room! There's another entire defense mechanism in place, and the blasted Rock Troggs broke into here somehow. Troggs. Why did it have to be Troggs!",0,0,0,20899
+restore_sound,39908,3,0,tdb_sound=20900 folder=brann,"Ok, let me think a moment.","Ok, let me think a moment.",0,0,0,20900
+restore_sound,39908,4,0,tdb_sound=20902 folder=brann,Mirrors pointing all over the place.,Mirrors pointing all over the place.,0,0,0,20902
+restore_sound,39908,5,0,tdb_sound=20901 folder=brann,Four platforms with huge elementals.,Four platforms with huge elementals.,0,0,0,20901
+restore_sound,39908,6,0,tdb_sound=20903 folder=brann,"I got it! I saw a tablet that mentioned this chamber. This is the Vault of Lights! Ok, simple enough. I need you adventurers to take out each of the four elementals to trigger the opening sequence for the far door!","I got it! I saw a tablet that mentioned this chamber. This is the Vault of Lights! Ok, simple enough. I need you adventurers to take out each of the four elementals to trigger the opening sequence for the far door!",0,0,0,20903
+restore_sound,39908,7,0,tdb_sound=20904 folder=brann,One down!,One down!,0,0,0,20904
+restore_sound,39908,8,0,tdb_sound=20905 folder=brann,Another one down! Just look at those light beams! They seem to be connecting to the far door!,Another one down! Just look at those light beams! They seem to be connecting to the far door!,0,0,0,20905
+restore_sound,39908,9,0,tdb_sound=20906 folder=brann,One more elemental to go! The door is almost open!,One more elemental to go! The door is almost open!,0,0,0,20906
+restore_sound,39908,10,0,tdb_sound=20907 folder=brann,"That's it, you've done it! The vault door is opening! Now we can... oh, no!","That's it, you've done it! The vault door is opening! Now we can... oh, no!",0,0,0,20907
+restore_sound,39908,11,0,tdb_sound=23709 folder=brann,We've done it! The control room is breached!,We've done it! The control room is breached!,0,0,0,23709
+restore_sound,39908,12,0,tdb_sound=23710 folder=brann,Here we go! Now this should only take a moment...,Here we go! Now this should only take a moment...,0,0,0,23710
+restore_sound,42195,0,0,tdb_sound=19660 folder=krazz,"Take us out, Mister Gearchum.","Take us out, Mister Gearchum.",0,0,0,19660
+restore_sound,42195,1,0,tdb_sound=19661 folder=krazz,Chart a course east with all possible speed. We'll rendezvous with the main fleet.,Chart a course east with all possible speed. We'll rendezvous with the main fleet.,0,0,0,19661
+restore_sound,42195,2,0,tdb_sound=19663 folder=krazz,Signal the fleet to fall into formation.,Signal the fleet to fall into formation.,0,0,0,19663
+restore_sound,42195,3,0,tdb_sound=19664 folder=krazz,"Order the fleet into close formation. Keep it tight, everyone!","Order the fleet into close formation. Keep it tight, everyone!",0,0,0,19664
+restore_sound,42195,4,0,tdb_sound=19665 folder=krazz,"Heart of Orgrimmar, you're coming in too low. Too low!","Heart of Orgrimmar, you're coming in too low. Too low!",0,0,0,19665
+restore_sound,42195,6,0,tdb_sound=19666 folder=krazz,The valley should mask our movements. Stay low. Stay close.,The valley should mask our movements. Stay low. Stay close.,0,0,0,19666
+restore_sound,42195,8,0,tdb_sound=19667 folder=krazz,What - WHAT!? What does he think he's DOING? The carriers are unprotected.,What - WHAT!? What does he think he's DOING? The carriers are unprotected.,0,0,0,19667
+restore_sound,42195,9,0,tdb_sound=19668 folder=krazz,What kind of madman orders away his close air support?,What kind of madman orders away his close air support?,0,0,0,19668
+restore_sound,42195,10,0,tdb_sound=19669 folder=krazz,"Mister Gearchum, signal the fleet. Defensive formations!","Mister Gearchum, signal the fleet. Defensive formations!",0,0,0,19669
+restore_sound,42195,11,0,tdb_sound=19670 folder=krazz,"We're without our escort. I want to see interlocking fields of fire. Now, now!","We're without our escort. I want to see interlocking fields of fire. Now, now!",0,0,0,19670
+restore_sound,42195,12,0,tdb_sound=19671 folder=krazz,What the WHAT!?,What the WHAT!?,0,0,0,19671
+restore_sound,42195,13,0,tdb_sound=19672 folder=krazz,"The guns, man the guns! Fire everything we've got!","The guns, man the guns! Fire everything we've got!",0,0,0,19672
+restore_sound,42195,14,0,tdb_sound=19673 folder=krazz,Egah - all hands aft. One's aboard. Shoot it! Kill it!,Egah - all hands aft. One's aboard. Shoot it! Kill it!,0,0,0,19673
+restore_sound,42195,15,0,tdb_sound=19674 folder=krazz,"Somebody, DO SOMETHING! That's an order!","Somebody, DO SOMETHING! That's an order!",0,0,0,19674
+restore_sound,42195,16,0,tdb_sound=19675 folder=krazz,Tamp down the inflammants. Batten up the gear carriage. Rudder for the shore.,Tamp down the inflammants. Batten up the gear carriage. Rudder for the shore.,0,0,0,19675
+restore_sound,42195,17,0,tdb_sound=19677 folder=krazz,"Everyone, to the parachutes!","Everyone, to the parachutes!",0,0,0,19677
+restore_sound,42195,18,0,tdb_sound=19676 folder=krazz,Mayday! Mayday! Mayday! Bail out everyone. BAIL!,Mayday! Mayday! Mayday! Bail out everyone. BAIL!,0,0,0,19676
+restore_sound,42277,13,0,tdb_sound=21505 folder=korkron,SHIP!,SHIP!,0,0,0,21505
+restore_sound,42471,0,0,tdb_sound=21743 folder=boden,"Hah! Did you mistake me for Diamant, $r? Or perhaps some other whimpering, compliant stone trogg who cares?","Hah! Did you mistake me for Diamant, $r? Or perhaps some other whimpering, compliant stone trogg who cares?",0,0,0,21743
+restore_sound,42471,1,0,tdb_sound=21744 folder=boden,"If you seek peace, relinquish the World Pillar and leave Deepholm. This is our realm. Your only welcome here shall be found underneath my stone foot.","If you seek peace, relinquish the World Pillar and leave Deepholm. This is our realm. Your only welcome here shall be found underneath my stone foot.",0,0,0,21744
+restore_sound,42471,2,0,tdb_sound=21749 folder=boden,It's not bravery that drives it.  It strode before me like it thought this place its home. It is a fool.  It will surely get itself killed soon enough.,It's not bravery that drives it.  It strode before me like it thought this place its home. It is a fool.  It will surely get itself killed soon enough.,0,0,0,21749
+restore_sound,42892,0,0,tdb_sound=21001 folder=mylra,"Over here, you ugly whale!","Over here, you ugly whale!",0,0,0,21001
+restore_sound,42892,1,0,tdb_sound=21002 folder=mylra,Meet me back up top.  This two-headed freak has a few questions to answer!,Meet me back up top.  This two-headed freak has a few questions to answer!,0,0,0,21002
+restore_sound,42965,0,0,tdb_sound=21003 folder=mylra,"All right, sunshine.  Time to spill your guts before I spill 'em for ya!","All right, sunshine.  Time to spill your guts before I spill 'em for ya!",0,0,0,21003
+restore_sound,42965,1,0,tdb_sound=21004 folder=mylra,I'm a daughter of the Wildhammer Clan and a shaman of the Earthen Ring.  My code compels me to honor my ancestors and the elements.,I'm a daughter of the Wildhammer Clan and a shaman of the Earthen Ring.  My code compels me to honor my ancestors and the elements.,0,0,0,21004
+restore_sound,42965,2,0,tdb_sound=21005 folder=mylra,Doesn't say a damn thing about dog-ugly ogres.,Doesn't say a damn thing about dog-ugly ogres.,0,0,0,21005
+restore_sound,42965,3,0,tdb_sound=21006 folder=mylra,You can start by telling us where the World Pillar fragment is.  My gryphon's starting to look a bit tired from hauling you around.,You can start by telling us where the World Pillar fragment is.  My gryphon's starting to look a bit tired from hauling you around.,0,0,0,21006
+restore_sound,42965,4,0,tdb_sound=21007 folder=mylra,"You were never in any danger, sweetheart.  My friends down below would've caught you.  You're worth too much to us alive!","You were never in any danger, sweetheart.  My friends down below would've caught you.  You're worth too much to us alive!",0,0,0,21007
+restore_sound,42965,5,0,tdb_sound=21008 folder=mylra,Interesting.  I'd never heard of the Twilight Council until now.,Interesting.  I'd never heard of the Twilight Council until now.,0,0,0,21008
+restore_sound,43160,0,0,tdb_sound=1285 folder=elementalfire,Do you want to live forever?,Do you want to live forever?,0,0,0,1285
+restore_sound,43372,0,0,tdb_sound=21769 folder=glop,No no no! Leave Glop alone! My mushrooms! Mine!,No no no! Leave Glop alone! My mushrooms! Mine!,0,0,0,21769
+restore_sound,43372,1,0,tdb_sound=21770 folder=glop,Mushrooms grow big and strong. Too big to stomp on! So strong they stomp back!,Mushrooms grow big and strong. Too big to stomp on! So strong they stomp back!,0,0,0,21770
+restore_sound,43372,2,0,tdb_sound=21773 folder=glop,Mean... rock fiends...,Mean... rock fiends...,0,0,0,21773
+restore_sound,44881,0,0,tdb_sound=21623 folder=azil,Forgemaster!  I've been informed the enemy has disrupted your operations.  Where is the fragment?,Forgemaster!  I've been informed the enemy has disrupted your operations.  Where is the fragment?,0,0,0,21623
+restore_sound,44881,1,0,tdb_sound=21624 folder=azil,Well done.  Meet me inside the Stonecore for further instructions.,Well done.  Meet me inside the Stonecore for further instructions.,0,0,0,21624
+restore_sound,44881,2,0,tdb_sound=21625 folder=azil,"Let's just say we have friends in high places, forgemaster.","Let's just say we have friends in high places, forgemaster.",0,0,0,21625
+restore_sound,45773,0,0,tdb_sound=1374 folder=gryphon,Aaaagghhh!,Aaaagghhh!,0,0,0,1374
+restore_sound,45773,4,0,tdb_sound=1374 folder=gryphon,Stinking ettins!,Stinking ettins!,0,0,0,1374
+restore_sound,45986,0,0,tdb_sound=10082 folder=gronn,WHAT WAS THAT?!,WHAT WAS THAT?!,0,0,0,10082
+restore_sound,45986,1,0,tdb_sound=10081 folder=gronn,THERE'S NOTHING HERE EXCEPT FOR THIS FOG!,THERE'S NOTHING HERE EXCEPT FOR THIS FOG!,0,0,0,10081
+restore_sound,46114,2,0,tdb_sound=23202 folder=chogall,Cho'gall!,Cho'gall!,0,0,0,23202
+restore_sound,46452,0,0,tdb_sound=20702 folder=netherdrakeall,"I am eternally grateful to you, $n.","I am eternally grateful to you, $n.",0,0,0,20702
+restore_sound,46472,0,0,tdb_sound=11778 folder=giantspider,"Ooh, this is gonna be good!","Ooh, this is gonna be good!",0,0,0,11778
+restore_sound,46472,1,0,tdb_sound=11778 folder=giantspider,Hang on!,Hang on!,0,0,0,11778
+restore_sound,46472,4,0,tdb_sound=11778 folder=giantspider,JUMP!!!,JUMP!!!,0,0,0,11778
+restore_sound,46513,6,0,tdb_sound=11778 folder=giantspider,Magmatooth?! NOOOOOOOO!,Magmatooth?! NOOOOOOOO!,0,0,0,11778
+restore_sound,46513,7,0,tdb_sound=20702 folder=netherdrakeall,Oh yeah? Um... get him!!!,Oh yeah? Um... get him!!!,0,0,0,20702
+restore_sound,46513,8,0,tdb_sound=20702 folder=netherdrakeall,"Take this, you ungrateful elemental. After all I've done for you!","Take this, you ungrateful elemental. After all I've done for you!",0,0,0,20702
+restore_sound,46513,9,0,tdb_sound=20702 folder=netherdrakeall,"Good riddance, you overblown, halfbaked, bomb ignition wannabe! See if I ever summon YOU again!","Good riddance, you overblown, halfbaked, bomb ignition wannabe! See if I ever summon YOU again!",0,0,0,20702
+restore_sound,46513,10,0,tdb_sound=11778 folder=giantspider,"Okay, let's get the controller off of him and use the portal to get out of here.","Okay, let's get the controller off of him and use the portal to get out of here.",0,0,0,11778
+restore_sound,46579,0,0,tdb_sound=11778 folder=giantspider,"Work harder, dark iron dogs!","Work harder, dark iron dogs!",0,0,0,11778
+restore_sound,46579,1,0,tdb_sound=3525 folder=dragons,Mining's all you dwarves are good for!,Mining's all you dwarves are good for!,0,0,0,3525
+restore_sound,46579,2,0,tdb_sound=11778 folder=giantspider,Don't let those spiders eat the Elementium!,Don't let those spiders eat the Elementium!,0,0,0,11778
+restore_sound,46579,3,0,tdb_sound=11778 folder=giantspider,I'm going to turn you to ash if you don't work faster!,I'm going to turn you to ash if you don't work faster!,0,0,0,11778
+restore_sound,46611,0,0,tdb_sound=11778 folder=giantspider,GOLDMINE! YOU THINK I'VE FORGOTTEN?! I TOLD YOU THAT I'D GET MY REVENGE!!!,GOLDMINE! YOU THINK I'VE FORGOTTEN?! I TOLD YOU THAT I'D GET MY REVENGE!!!,0,0,0,11778
+restore_sound,46611,1,0,tdb_sound=20702 folder=netherdrakeall,YOU'RE BOTH GOING TO BURN!,YOU'RE BOTH GOING TO BURN!,0,0,0,20702
+restore_sound,46611,2,0,tdb_sound=20702 folder=netherdrakeall,"I'LL GET YOU, GOLDMINE!","I'LL GET YOU, GOLDMINE!",0,0,0,20702
+restore_sound,46819,0,0,tdb_sound=3418 folder=ghost,Wh... what is this?,Wh... what is this?,0,0,0,3418
+restore_sound,46819,1,0,tdb_sound=3415 folder=ghost,I'm dead! Murdered by the Twilight's Hammer.,I'm dead! Murdered by the Twilight's Hammer.,0,0,0,3415
+restore_sound,46819,2,0,tdb_sound=20702 folder=netherdrakeall,The Spirit of the Loch sent you here. You seek information.,The Spirit of the Loch sent you here. You seek information.,0,0,0,20702
+restore_sound,46819,3,0,tdb_sound=3414 folder=ghost,They captured and enslaved us. Put us to work on a weapon.,They captured and enslaved us. Put us to work on a weapon.,0,0,0,3414
+restore_sound,46819,4,0,tdb_sound=20702 folder=netherdrakeall,A special project... an artifact for Cho'gall.,A special project... an artifact for Cho'gall.,0,0,0,20702
+restore_sound,46819,5,0,tdb_sound=3418 folder=ghost,"We were to be rewarded for the best work we'd ever done, and we were... with this.","We were to be rewarded for the best work we'd ever done, and we were... with this.",0,0,0,3418
+restore_sound,46819,6,0,tdb_sound=3414 folder=ghost,They imbued it with the power of an Old God.,They imbued it with the power of an Old God.,0,0,0,3414
+restore_sound,46819,7,0,tdb_sound=3417 folder=ghost,The weapon which you seek is called the Hammer of Twilight.,The weapon which you seek is called the Hammer of Twilight.,0,0,0,3417
+restore_sound,46819,8,0,tdb_sound=3416 folder=ghost,Now leave me be. I see the Light....,Now leave me be. I see the Light....,0,0,0,3416
+restore_sound,46900,3,0,tdb_sound=20702 folder=netherdrakeall,What Deathwing has set in motion... (...no man can stop.) No man! Least of all you wretches. (Show them. Show them their end!),What Deathwing has set in motion... (...no man can stop.) No man! Least of all you wretches. (Show them. Show them their end!),0,0,0,20702
+restore_sound,47206,0,0,tdb_sound=22491 folder=goblinhotrod,Zeppelin arrival in two minutes.,Zeppelin arrival in two minutes.,0,0,0,22491
+restore_sound,47206,1,0,tdb_sound=22491 folder=goblinhotrod,Zeppelin arrival in one minute. One minute.,Zeppelin arrival in one minute. One minute.,0,0,0,22491
+restore_sound,48145,0,0,tdb_sound=21073 folder=twilservant,"The Alliance has made landfall master, and in great numbers upon the shore.","The Alliance has made landfall master, and in great numbers upon the shore.",0,0,0,21073
+restore_sound,48145,1,0,tdb_sound=21075 folder=twilservant,"Our agents have been outed and killed, master.","Our agents have been outed and killed, master.",0,0,0,21075
+restore_sound,49234,1,0,tdb_sound=14046 folder=heraldvolazj,Uulwi gag erh'ongg w'ssh.,Uulwi gag erh'ongg w'ssh.,0,0,0,14046
+restore_sound,49275,0,0,tdb_sound=14046 folder=heraldvolazj,Get it! Kill it!,Get it! Kill it!,0,0,0,14046
+restore_sound,49277,0,0,tdb_sound=14046 folder=heraldvolazj,It's one of them!,It's one of them!,0,0,0,14046
+restore_sound,49278,0,0,tdb_sound=14046 folder=heraldvolazj,Stop that thing!,Stop that thing!,0,0,0,14046
+restore_sound,49279,0,0,tdb_sound=14046 folder=heraldvolazj,For the Wildhammer!,For the Wildhammer!,0,0,0,14046
+restore_sound,49314,0,0,tdb_sound=14046 folder=heraldvolazj,Waaaaahhhhh!!,Waaaaahhhhh!!,0,0,0,14046
+restore_sound,50881,0,0,tdb_sound=19686 folder=lorna,"You were a true man of the people, Liam.  Unlike any Royal I ever met.  We'll make them pay for this.","You were a true man of the people, Liam.  Unlike any Royal I ever met.  We'll make them pay for this.",0,0,0,19686
+restore_sound,52943,0,0,tdb_sound=12029 folder=halazzi,My liberators! Come down and have a word wit' Norkani.,My liberators! Come down and have a word wit' Norkani.,0,0,0,12029
+restore_sound,55135,0,0,tdb_sound=32520 folder=nazgrim,Get to the guns and burn down the enemy!,Get to the guns and burn down the enemy!,0,0,0,32520
+restore_sound,65469,0,0,tdb_sound=33646 folder=,Your form is impeccible.,Your form is impeccible.,0,0,0,33646
+restore_sound,91419,1,0,tdb_sound=40019 folder=ogredumb2,"It's unfortunate that affairs have come to this, but what are we going to do? Wait for them to come slaughter us in our sleep and go out of business?","It's unfortunate that affairs have come to this, but what are we going to do? Wait for them to come slaughter us in our sleep and go out of business?",111167,111167,0,40019
+restore_sound,91797,4,0,tdb_sound=54164 folder=prince_oceanus,The ocean will sweep you away!,The ocean will sweep you away!,0,0,0,54164
+restore_sound,96436,0,0,tdb_sound=55233 folder=jace_darkweaver,$n,$n,0,0,0,55233
+restore_sound,96655,0,0,tdb_sound=55010 folder=allari_the_souleater,Last I saw,Last I saw,0,0,0,55010
+restore_sound,101061,0,0,tdb_sound=62105 folder=arch_druid_hamuul_runetotem,I´ll meet you there as soon as you conclude your business in Dalaran.,I´ll meet you there as soon as you conclude your business in Dalaran.,9105682,9105682,0,62105
+restore_sound,102478,0,0,tdb_sound=64291 folder=emmarel_shadewarden,"You've returned with the artifact! Well done, $n!","You've returned with the artifact! Well done, $n!",103492,103492,0,64291
+restore_sound,114247,0,1,tdb_sound=77181 folder=fel_curator,The Menagerie is for-- ERADICATE! ERADICATE!,The Menagerie is for-- ERADICATE! ERADICATE!,0,0,0,77181
+restore_sound,114247,2,0,tdb_sound=77183 folder=fel_curator,Overload in progress. Prepare for-- PURGE! PURGE! PURGE!,Overload in progress. Prepare for-- PURGE! PURGE! PURGE!,0,0,0,77183
+restore_sound,114247,3,0,tdb_sound=77184 folder=fel_curator,EXTERMINATED!,EXTERMINATED!,0,0,0,77184
+restore_sound,114247,3,1,tdb_sound=77185 folder=fel_curator,Attention guests: DIE! DIE! DIE!,Attention guests: DIE! DIE! DIE!,0,0,0,77185
+restore_sound,114247,4,0,tdb_sound=77182 folder=fel_curator,Curator is no longer op... er... ation... al.,Curator is no longer op... er... ation... al.,0,0,0,77182
+restore_sound,120922,0,0,tdb_sound=112099 folder=lady_jaina_proudmoore,I hope this works... I am Jaina Proudmoore. I have come for an audience with Lord Admiral Katherine Proudmoore... my mother. I see the city guard is as disciplined as ever. My father was so proud of them. I suppose I have earned this. I will suffer what I must... For the Alliance.,I hope this works... I am Jaina Proudmoore. I have come for an audience with Lord Admiral Katherine Proudmoore... my mother. I see the city guard is as disciplined as ever. My father was so proud of them. I suppose I have earned this. I will suffer what I must... For the Alliance.,910152,910152,0,112099
+restore_sound,122169,2,0,tdb_sound=101537 folder=abby_lewis,Oh Mr. Munchykins! You were hungry,Oh Mr. Munchykins! You were hungry,0,0,0,101537
+restore_sound,122169,4,0,tdb_sound=101538 folder=abby_lewis,Naughty Mayor Striggs! Always running away from your responsibilities to the townsfolk. Well,Naughty Mayor Striggs! Always running away from your responsibilities to the townsfolk. Well,0,0,0,101538
+restore_sound,124922,1,0,tdb_sound=97670 folder=drustvar_witch,You should turn away now,You should turn away now,0,0,0,97670
+restore_sound,131825,6,0,tdb_sound=97515 folder=sister_malady,You've had your turn!,You've had your turn!,0,0,0,97515
+restore_sound,156891,0,0,tdb_sound=153011 folder=bjorn_stouthands,Bien,Bien,0,0,0,153011
+restore_sound,158281,0,0,tdb_sound=158110 folder=greeter_praetor,"Greetings, denizen of Azeroth! We have prepared a number of activities to help you acclimate to your new existence.","Greetings, denizen of Azeroth! We have prepared a number of activities to help you acclimate to your new existence.",9105597,9105597,0,158110
+restore_sound,158281,1,0,tdb_sound=158121 folder=greeter_praetor,Goodbye.,Goodbye.,113727,113727,0,158121
+restore_sound,166782,0,0,tdb_sound=156954 folder=warlord_breka_grimaxe,$n! You survived! We need to regroup at once.,$n! You survived! We need to regroup at once.,0,0,0,156954
+restore_sound,166824,0,0,tdb_sound=156952 folder=warlord_breka_grimaxe,Throg will spar with you for now. I must speak to the crew about the rain.,Throg will spar with you for now. I must speak to the crew about the rain.,0,0,0,156952
+restore_sound,166827,1,0,tdb_sound=156953 folder=warlord_breka_grimaxe,"Soldiers, brace yourselves!","Soldiers, brace yourselves!",0,0,0,156953
+fix_wrong_bt,38768,0,0,anduinwrynn -> lorna,Father!,Father!,69734,0,34184,19697
+clear_dangling_bt,27156,2,0,bt missing in 12.1.5,Yes,Yes,12,0,0,0
+clear_dangling_bt,44451,0,0,bt missing in 12.1.5,Coltira! Your queen is calling you!,Coltira! Your queen is calling you!,444510,0,0,0
+clear_dangling_bt,44451,1,0,bt missing in 12.1.5,Enough of this nerve! You think I don't see anything going on outside the walls of the suburbs?,Enough of this nerve! You think I don't see anything going on outside the walls of the suburbs?,444511,0,0,0
+clear_dangling_bt,44451,2,0,bt missing in 12.1.5,And it's not your fault. You should have taken the Andorals a few days ago when we beat the Whip.,And it's not your fault. You should have taken the Andorals a few days ago when we beat the Whip.,444512,0,0,0
+clear_dangling_bt,44451,3,0,bt missing in 12.1.5,"I know your secret, Coltira. I've heard of your friendship with the Alliance death knight, Tassarian.","I know your secret, Coltira. I've heard of your friendship with the Alliance death knight, Tassarian.",444513,0,0,0
+clear_dangling_bt,44451,4,0,bt missing in 12.1.5,Artas was completely united when he created his knights of death. You're still weak and soft.,Artas was completely united when he created his knights of death. You're still weak and soft.,444514,0,0,0
+clear_dangling_bt,44451,5,0,bt missing in 12.1.5,"Fortunately, my servants can help you... ...overcome your weakness. In the Suburbs, where you will go.","Fortunately, my servants can help you... ...overcome your weakness. In the Suburbs, where you will go.",444515,0,0,0
+clear_dangling_bt,44451,6,0,bt missing in 12.1.5,"Quiet, knight of death. When this is over, you will no longer feel fear.","Quiet, knight of death. When this is over, you will no longer feel fear.",444516,0,0,0
+clear_dangling_bt,44451,7,0,bt missing in 12.1.5,You'll say thank you later.,You'll say thank you later.,444517,0,0,0
+clear_dangling_bt,45112,0,0,bt missing in 12.1.5,Your Highness. I have conquered for you... Andoral.,Your Highness. I have conquered for you... Andoral.,451120,0,0,0
+clear_dangling_bt,45112,1,0,bt missing in 12.1.5,"I ... Your Highness, we have won!","I ... Your Highness, we have won!",451121,0,0,0
+clear_dangling_bt,45112,2,0,bt missing in 12.1.5,Y... Y- Your Highness...,Y... Y- Your Highness...,451122,0,0,0
+clear_dangling_bt,45112,3,0,bt missing in 12.1.5,No!,No!,451123,0,0,0
+clear_dangling_bt,70744,0,0,bt missing in 12.1.5,Oh,Oh,37292,0,0,0
+clear_dangling_bt,98378,13,0,bt missing in 12.1.5,Thanks...,Thanks...,104216,0,0,0
+clear_dangling_bt,125245,0,0,bt missing in 12.1.5,Hey,Hey,101333,0,0,0
+clear_dangling_bt,155533,0,0,bt missing in 12.1.5,Come,Come,159508,0,0,0
+clear_dangling_bt,166151,1,0,bt missing in 12.1.5,Спасибо,Спасибо,165983,0,0,0
+clear_dangling_bt,177925,0,0,bt missing in 12.1.5,I think it best to remain concealed while you activate this waystone. Remember,I think it best to remain concealed while you activate this waystone. Remember,180821,0,0,0
+clear_dangling_bt,178157,0,0,bt missing in 12.1.5,You do the fighting,You do the fighting,181164,0,0,0
+clear_dangling_bt,178470,1,0,bt missing in 12.1.5,This will do. Now,This will do. Now,180791,0,0,0
+clear_dangling_bt,178988,1,0,bt missing in 12.1.5,A trap,A trap,180640,0,0,0
+clear_dangling_bt,200000,0,0,bt missing in 12.1.5,What do you mean ? It Do not Trigger?,What do you mean ? It Do not Trigger?,300000,0,0,0
+clear_dangling_bt,200000,1,0,bt missing in 12.1.5,Yeahhhh is Triggert NOT.,Yeahhhh is Triggert NOT.,300001,0,0,0
+clear_dangling_bt,200000,2,0,bt missing in 12.1.5,Ok say Where you want to go,Ok say Where you want to go,300002,0,0,0
+clear_dangling_bt,234660,2,0,bt missing in 12.1.5,%s makes her escape.,%s makes her escape.,280475,0,299088,299088
+clear_dangling_bt,246156,0,0,bt missing in 12.1.5,"Over here, $p. The rumors I mentioned began in this part of the city.","Over here, $p. The rumors I mentioned began in this part of the city.",296405,0,300619,300619
+clear_dangling_bt,542163,1,0,bt missing in 12.1.5,"Die, Alliance scum!","Die, Alliance scum!",5421630,0,0,0
+clear_dangling_bt,542163,1,1,bt missing in 12.1.5,I'll crush you!,I'll crush you!,5421631,0,0,0
+clear_dangling_bt,542163,1,2,bt missing in 12.1.5,For the Horde!,For the Horde!,5421632,0,0,0
+clear_dangling_bt,542163,1,3,bt missing in 12.1.5,You will fall!,You will fall!,5421633,0,0,0
+clear_dangling_bt,542163,1,4,bt missing in 12.1.5,Weaken!,Weaken!,5421634,0,0,0
+clear_dangling_bt,542163,1,5,bt missing in 12.1.5,For the Warchief!,For the Warchief!,5421635,0,0,0
+clear_dangling_bt,542163,1,6,bt missing in 12.1.5,"Ah, you Alliance dog.","Ah, you Alliance dog.",5421636,0,0,0
+clear_dangling_bt,542163,1,7,bt missing in 12.1.5,Taste my blade.,Taste my blade.,5421637,0,0,0
+clear_dangling_bt,542164,1,0,bt missing in 12.1.5,For the Alliance!,For the Alliance!,5421640,0,0,0
+clear_dangling_bt,542164,1,1,bt missing in 12.1.5,Horde will fall!,Horde will fall!,5421641,0,0,0
+clear_dangling_bt,542164,1,2,bt missing in 12.1.5,For the King!,For the King!,5421642,0,0,0
+clear_dangling_bt,542164,1,3,bt missing in 12.1.5,For glory of the Alliance!,For glory of the Alliance!,5421643,0,0,0
+clear_dangling_bt,542164,1,4,bt missing in 12.1.5,I'll kill you fast!,I'll kill you fast!,5421644,0,0,0
+clear_dangling_bt,542164,1,5,bt missing in 12.1.5,You will beg for mercy!,You will beg for mercy!,5421645,0,0,0
+clear_dangling_bt,542164,1,6,bt missing in 12.1.5,For the honor.,For the honor.,5421646,0,0,0
+clear_dangling_bt,542164,1,7,bt missing in 12.1.5,"Give up, dogs!","Give up, dogs!",5421647,0,0,0
+clear_dangling_bt,542167,1,0,bt missing in 12.1.5,Heeeelp!,Heeeelp!,5421670,0,0,0
+clear_dangling_bt,542169,1,0,bt missing in 12.1.5,Heeeelp!,Heeeelp!,5421670,0,0,0
+clear_dangling_bt,542170,1,0,bt missing in 12.1.5,I'll help you!,I'll help you!,5421700,0,0,0
+clear_dangling_bt,542170,1,1,bt missing in 12.1.5,I'll heal your wounds.,I'll heal your wounds.,5421701,0,0,0
+clear_dangling_bt,542170,1,2,bt missing in 12.1.5,Powers of light will heal you.,Powers of light will heal you.,5421702,0,0,0
+clear_dangling_bt,542185,1,0,bt missing in 12.1.5,Casts,Casts,5421850,0,0,0
+clear_dangling_bt,542186,1,0,bt missing in 12.1.5,Here!,Here!,5421860,0,0,0
+clear_dangling_bt,600022,0,0,bt missing in 12.1.5,"Hello, $n! I want to warn you I can repair not all bugged and not working achievements, quests etc.","Hello, $n! I want to warn you I can repair not all bugged and not working achievements, quests etc.",600022,0,0,0
+link_bt,1853,0,0,own=darkmastergandling kit=27477,School is in session!,School is in session!,7145,58099,0,0
+link_bt,9156,0,0,own=ambassador_flamelash kit=262649,Your reign of terror ends now!  Face your doom mortals!,"Your reign of terror ends now! Face your doom, mortals!",4699,270001,0,0
+link_bt,11382,1,0,own=mandokir kit=24297,DING!,Ding!,10505,52032,0,0
+link_bt,14888,0,0,own=lethon kit=58508,I can sense the SHADOW on your hearts. There can be no rest for the wicked!,I can sense the shadow on your hearts. There can be no rest for the wicked!,10883,106179,0,0
+link_bt,14888,1,0,own=lethon kit=58502,Your wicked souls shall feed my power!,Your wicked souls shall feed my power!,10882,106180,0,0
+link_bt,14890,0,0,own=taerar kit=58509,Peace is but a fleeting dream! Let the NIGHTMARE reign!,Peace is but a fleeting dream! Let the Nightmare reign!,10886,106181,0,0
+link_bt,14890,1,0,own=taerar kit=58501,Children of Madness - I release you upon this world!,Children of madness! I release you upon this world!,10887,106182,0,0
+link_bt,17225,2,0,own=nightbane kit=77528,Miserable vermin. I shall exterminate you from the air!,Miserable vermin. I shall exterminate you from the air!,20023,123783,0,0
+link_bt,19622,9,0,own=kaelthas_sunstrider kit=155881,By the power of the sun!,By the power of the sun!,20200,198071,11266,0
+link_bt,28890,2,0,own=gothik kit=128588,Death is the only escape!,Death is the only escape!,29039,171259,0,0
+link_bt,29310,3,0,own=jedogashadowseeker kit=128217,Glory to Yogg-Saron!,Glory to Yogg-Saron!,31702,170744,0,0
+link_bt,29310,3,1,own=jedogashadowseeker kit=128216,You are unworthy.,You are unworthy.,31703,170745,0,0
+link_bt,29310,4,0,own=jedogashadowseeker kit=128214,Do not expect your sacrilege... to go unpunished.,Do not expect your sacrilege... to go unpunished.,31705,170747,0,0
+link_bt,38255,8,0,own=maximillian_of_northshire kit=81450,For Doloria!,For Doloria!,51108,128535,0,0
+link_bt,38469,0,0,own=lady_sylvanas_windrunner kit=131276,Enough!,Enough!,0,172725,23517,0
+link_bt,38469,1,0,own=lady_sylvanas_windrunner kit=131277,Let's see how brave Gilneas gets on without its stubborn leader!,Let's see how brave Gilneas gets on without its stubborn leader!,0,172726,0,0
+link_bt,38537,3,0,own=crenshaw kit=20918,As you wish.,As you wish!,0,38441,0,0
+link_bt,39731,0,0,own=ammunae kit=18569,The cycle continues...,The cycle continues...,0,44770,0,0
+link_bt,39731,3,0,own=ammunae kit=18573,Wither away!,Wither away!,0,44768,0,0
+link_bt,41793,0,0,own=nazgrim kit=32522,For the Horde!,For the Horde!,0,68807,0,0
+link_bt,42801,0,0,own=mornorokk kit=20988,"Ok, ok, I give up!  I'll tell you everything!","Ok, ok, I give up!  I'll tell you everything!",0,42813,23551,0
+link_bt,49820,1,0,own=deathwing kit=20279,"The sun has set on this mortal world, fools. Make peace with your end, for the hour of Twilight falls.","The sun has set on this mortal world, fools. Make peace with your end, for the hour of Twilight falls.",0,49445,0,0
+link_bt,51171,0,0,own=alexstrasza kit=21053,"Calen, no!","Calen, no!",0,49439,0,0
+link_bt,51186,3,0,own=alexstrasza kit=21052,Impossible!,Impossible!,0,49438,0,0
+link_bt,52301,3,0,own=venoxis kit=24327," My ssssserpents, dey already ssssslither beneath every rock an' shrub of Ssssstranglethorn.","My ssssserpents, dey already ssssslither beneath every rock an' shrub of Ssssstranglethorn.",0,50987,0,0
+link_bt,52301,4,0,own=venoxis kit=24328,We will reclaim thisss land. Gurubashi land. An'we kill anyone dat getssss in our way!,We will reclaim thisss land. Gurubashi land.  An' we kill anyone dat getssss in our way!,0,50988,0,0
+link_bt,52390,1,0,own=kilnara kit=24281,You kill him - you kill my cat! Why must I suffer so?,"You kill him - you kill my cat! Why must I suffer so?
+",0,51223,0,0
+link_bt,52390,5,0,own=kilnara kit=24283,Or stay if you want. We always be  needin' more to sacrifice.,Or stay if you want. We always be needin' more to sacrifice.,0,51225,0,0
+link_bt,52864,0,0,own=zanzil kit=24346,"A pinch of dis... A dash of dat... Heh, heh!","A pinch of dis... A dash of dat... Heh, heh!",0,51487,0,0
+link_bt,53014,1,0,own=leyara kit=24918,Enough of this!,Enough of this!,126939,51643,0,0
+link_bt,53014,4,0,own=leyara kit=24917,It is already determined. You have no hope... the flames shall consume all!,It is already determined.  You have no hope... the flames shall consume all!,0,51640,0,0
+link_bt,53014,6,0,own=leyara kit=24919,"Burn, tauren! BURN!!","Burn, tauren!  BURN!!",0,51645,0,0
+link_bt,53015,3,0,own=hamuul kit=24853,"What is this? I... can't move! Someone, help!","What is this?  I... can't move!  Someone, help!",0,51644,0,0
+link_bt,54314,0,0,own=alysrazor kit=24440,"No, NO! I didn`t `betray` the dragonflights. We were all betrayed. Ysera was lost in a dream while this whole world came undone.","No, NO! I didn't ""betray"" the dragonflights. We were all betrayed. Ysera was lost in a dream while this whole world came undone.",0,52825,0,0
+link_bt,55265,10,0,own=morchok kit=26285,I am unstoppable.,I am unstoppable.,0,56459,0,0
+link_bt,55500,1,0,own=illidan kit=26057,My blades hunger.,My blades hunger.,0,54503,0,0
+link_bt,55779,0,0,own=thrall kit=25877,Show yourself!,Show yourself!,0,53049,0,0
+link_bt,56347,3,0,own=haomann kit=32863,Over here!,Over here!,143887,55069,94977,0
+link_bt,56667,5,0,own=thrall kit=25900,Speak to me when you are ready to begin.,Speak to me when you are ready to begin.,0,56724,0,0
+link_bt,57777,3,0,own=wrathion kit=26454,"The gems you collected will be able to augment the power of the weapons I gave you, but I require another ingredient. It will come from your next target.","The gems you collected will be able to augment the power of the weapons I gave you, but I require another ingredient.  It will come from your next target.",0,56568,0,0
+link_bt,60491,2,0,own=shaofanger kit=29005,Give in to your anger.,Give in to your anger!,58563,59980,0,0
+link_bt,60491,4,1,own=shaofanger kit=29004,Let your rage consume you.,Let your rage consume you!,0,66406,0,0
+link_bt,60583,8,0,own=protectorkaolan kit=28371,My strength grows!,My strength grows!,0,61521,0,0
+link_bt,61093,2,0,own=niuzao kit=31039,"Thank you, $n. You have saved us all.","Thank you, $p. You have saved us all.",0,63896,0,0
+link_bt,62541,0,0,own=shaofhatred kit=28339,"Give in. The more you fight, the more your hatred broils within you.","Give in.  The more you fight, the more your hatred broils within you.",0,62006,0,0
+link_bt,62825,0,0,own=yaliasagewhisper kit=31422,Are you ready?,Are you ready?,105292,62321,0,0
+link_bt,63920,1,0,own=heifeng kit=30834,The storm will consume you!,The storm will consume you!,71890,65772,0,0
+link_bt,63920,3,0,own=heifeng kit=30837,"Master, I have failed you...","Master, I have failed you...",0,65775,0,0
+link_bt,66396,0,0,own=gatrul kit=32473,"By our sweat and your blood, this land WILL be ours!","By our sweat and your blood, this land WILL be ours!",910111,67592,0,0
+link_bt,66791,5,0,own=zorlok kit=29299,"""Unscathed"" indeed.","""Unscathed,"" indeed.",0,67846,0,0
+link_bt,68397,25,0,own=leishen kit=35600,Die!,Die!,0,72512,0,0
+link_bt,71658,1,0,own=korkronjailer1 kit=38985,What's going on in here? Get that thing back in its cage!,What's going on in here? Get that thing back in its cage!,0,74432,0,0
+link_bt,71954,1,0,own=niuzao kit=38755,We shall see.,We shall see.,0,75891,0,0
+link_bt,72057,1,0,own=ordos kit=38981,Burn!,Burn!,0,76164,0,0
+link_bt,72192,7,0,own=gamon kit=38282,"I, Gamon, will save us!","I, Gamon, will save us!",90157,74943,0,0
+link_bt,72646,3,0,own=khadgar kit=45015,"Greetings, farseer. We come on a matter of great urgency. $n, the savior of Wor'gol, will vouch for us.","Greetings, farseer. We come on a matter of great urgency. $n, the savior of Wor'gol, will vouch for us.",0,75731,0,0
+link_bt,72646,4,0,own=khadgar kit=45010,"Greetings, commander. It is good to see you again.","Greetings, commander. It is good to see you again.",0,75732,0,0
+link_bt,74366,0,0,own=gogduh kit=42051,Go away! I will fix this!,Go away! I will fix this!,0,77647,0,0
+link_bt,74366,1,0,own=gogduh kit=42055,Uh... stone!,Uh... stone!,0,77648,0,0
+link_bt,74366,3,0,own=gogduh kit=42052,Augh! Noooooo...,Augh! Noooooo...,0,78492,0,0
+link_bt,74475,0,0,own=magmolatus kit=41729,Yes... the brute weakens...,Yes... the brute weakens...,0,77662,0,0
+link_bt,74475,1,0,own=magmolatus kit=41730,Kill him! I will be free!,Kill him! I will be free!,0,77663,0,0
+link_bt,74475,2,0,own=magmolatus kit=41725,You are but a pebble amongst boulders...,You are but a pebble amongst boulders...,0,77653,0,0
+link_bt,74475,4,0,own=magmolatus kit=41738,Smash!,Smash!,0,77650,0,0
+link_bt,74475,5,0,own=magmolatus kit=41727,I will expunge your existence.,I will expunge your existence.,0,77671,0,0
+link_bt,74475,14,0,own=magmolatus kit=41728,I return to the earth...,I return to the earth...,0,78568,0,0
+link_bt,74787,3,0,own=crushto kit=41652,Get that one!,Get that one!,0,77969,0,0
+link_bt,74787,4,0,own=crushto kit=41648,My slaves! Those were Bloodmaul property!,My slaves! Those were Bloodmaul property!,0,78351,0,0
+link_bt,74787,5,0,own=crushto kit=41646,Ugg... we kill you all for this...,Ugg... we kill you all for this...,0,78570,0,0
+link_bt,74790,0,0,own=gugrokk kit=42068,It will be a pleasure to break you.,It will be a pleasure to break you.,0,83626,0,0
+link_bt,75005,0,0,own=samaara kit=46911,"Yrel? After the Iron Horde took you, I feared the worst! ","Yrel? After the Iron Horde took you, I feared the worst!",9105726,82552,0,0
+link_bt,75878,1,0,own=yrel kit=45567,We do not fear you!,We do not fear you!,53339,86213,0,0
+link_bt,76407,0,0,own=nerzhul kit=43682,The Shadowmoon CANNOT be defeated - we walk in the realm of death itself.,The Shadowmoon CANNOT be defeated - we walk in the realm of death itself.,0,90107,0,0
+link_bt,76488,4,0,own=thrall kit=311347,Lok-tar ogar!,Lok-tar ogar!,0,302269,0,0
+link_bt,76809,6,0,own=foreman kit=44397,Pathetic!,Pathetic!,0,79970,0,0
+link_bt,77195,1,0,own=khadgar kit=44900,They need your help with Blackhand! I can get you there. Speak with me when you're ready.,They need your help with Blackhand! I can get you there. Speak with me when you're ready.,0,83081,0,0
+link_bt,78430,0,0,own=cordanafelsong kit=44136,The front lines are faltering. They cannot hold for much longer.,The front lines are faltering. They cannot hold for much longer.,910113,84200,0,0
+link_bt,78561,0,0,own=khadgar kit=44857,"Exarch Maladaar, take Qiana with you and scout the cave. ","Exarch Maladaar, take Qiana with you and scout the cave.",910123,84122,0,0
+link_bt,78569,1,0,own=hansel kit=45702,There she goes...,There she goes...,0,83397,0,0
+link_bt,79457,0,0,own=maraad kit=44818,These pale orcs sound dangerous. Hopefully this is the last we see of them.,These pale orcs sound dangerous. Hopefully this is the last we see of them.,9105724,83700,0,0
+link_bt,79457,3,0,own=maraad kit=44816,Qiana just headed out to Moonflower Valley. She is quite eager to explore this new land.,Qiana just headed out to Moonflower Valley. She is quite eager to explore this new land.,0,81891,0,0
+link_bt,79567,1,0,own=yrel kit=45610,Killing the beast will surely gain the respect of Karabor peacekeepers.,Killing the beast will surely gain the respect of Karabor peacekeepers.,0,81725,0,0
+link_bt,79702,2,0,own=kelidan kit=45981,Come closer... and burn!,Come closer... and burn!,0,85242,0,0
+link_bt,80805,0,0,own=makogg kit=45801,You will burn!,You will burn!,0,85476,0,0
+link_bt,80816,1,0,own=ahriok kit=44693,You dare contest my power??? Our blood surges with energy!,You dare contest my power??? Our blood surges with energy!,0,85472,0,0
+link_bt,80962,0,0,own=machinistbrandt kit=43931,Don't let this nuisance anywhere near the cannon.,Don't let this nuisance anywhere near the cannon.,0,85745,0,0
+link_bt,81264,0,0,own=beatface kit=43829,Come at me!,Come at me!,0,88247,0,0
+link_bt,81305,0,0,own=nokgar kit=46059,Warsong arrows sing from the sky! They'll be the last thing you hear as I crush your skull.,Warsong arrows sing from the sky! They'll be the last thing you hear as I crush your skull.,0,85406,0,0
+link_bt,81305,1,0,own=nokgar kit=46057,Start the funeral pyres!,Start the funeral pyres!,0,85407,0,0
+link_bt,81305,5,0,own=nokgar kit=46062,Let them have it!,Let them have it!,0,85408,0,0
+link_bt,81305,6,0,own=nokgar kit=46058,You will burn with me.,You will burn with me.,0,85414,0,0
+link_bt,81912,0,0,own=zipfizzle kit=44534,C'mon people step it up here. We got hungry bellies to fill.,C'mon people step it up here. We got hungry bellies to fill.,0,83638,0,0
+link_bt,82523,3,0,own=citadelmage kit=46816,Seal those wolf dens!,Seal those wolf dens!,0,84344,0,0
+link_bt,82526,3,0,own=sharpshooter kit=44689,We need to move up.,We need to move up.,84396,84342,46817,0
+link_bt,82919,0,0,own=thrall kit=311347,Lok-tar ogar!,Lok-tar ogar!,127481,302269,80966,0
+link_bt,85571,2,0,own=commandergar kit=46588,You will never withstand the might of Goc!,You will never withstand the might of Goc!,0,87451,0,0
+link_bt,85571,3,0,own=commandergar kit=46587,See what weapons I have in my arsenal!,See what weapons I have in my arsenal!,0,87450,0,0
+link_bt,89024,1,0,own=hatecoil_fathom-stalker kit=52685,For Nazjatar!,For Nazjatar!,0,92730,0,0
+link_bt,90199,2,0,own=terongorefiend kit=128426,Death... really isn't so bad.,Death really isn't so bad.,96981,171022,0,0
+link_bt,90199,5,0,own=terongorefiend kit=128427,What are you afraid of?,What are you afraid of?,96982,171021,0,0
+link_bt,90417,3,0,own=archmage_khadgar kit=64656,Hmm. I must've put it over here.,"Hmm, I must've put it over here.",0,107391,0,0
+link_bt,90417,4,0,own=archmage_khadgar kit=64657,Arcane powder... soul shards... that's definitely not it...,Arcane powder... soul shards... that's definitely not it...,0,107392,0,0
+link_bt,90417,6,0,own=archmage_khadgar kit=64659,Would you mind grabbing it? These crystals tend to have an adverse effect on non-demonic beings.,Would you mind grabbing it? These crystals tend to have an adverse effect on non-demonic beings.,0,107398,0,0
+link_bt,90544,0,0,own=krosus kit=53463,You will know fear.,You will know fear.,0,99248,0,0
+link_bt,90714,0,0,own=lady_jaina_proudmoore kit=53345,The third fleet reinforcements!,The third fleet reinforcements!,0,94240,0,0
+link_bt,90714,2,0,own=lady_jaina_proudmoore kit=53357,Putting this one on ice!,Putting this one on ice!,0,94594,0,0
+link_bt,90714,3,0,own=lady_jaina_proudmoore kit=53449,I've got this.,I've got this.,0,99234,0,0
+link_bt,90717,2,0,own=genn_greymane kit=53354,Go for the throat!,Go for the throat!,0,94591,0,0
+link_bt,91149,0,4,own=acolyte_of_elothir_female kit=60965,I live!,I live!,98893,93823,0,0
+link_bt,91150,0,0,own=acolyte_of_elothir kit=53218,I felt myself slipping away...,I felt myself slipping away...,0,98903,0,0
+link_bt,91150,0,1,own=acolyte_of_elothir kit=53209,"Ahh, to breathe again!","Ahh, to breathe again!",0,98894,0,0
+link_bt,91150,0,2,own=acolyte_of_elothir kit=53212,"Bless you, stranger!","Bless you, stranger!",0,98897,0,0
+link_bt,91150,0,3,own=acolyte_of_elothir kit=53206,I live!,I live!,0,98891,0,0
+link_bt,91153,0,0,own=acolyte_of_elothir kit=53209,"Ahh, to breathe again!","Ahh, to breathe again!",93824,98894,0,0
+link_bt,91153,0,1,own=acolyte_of_elothir kit=53209,"Ahh, to breathe again!","Ahh, to breathe again!",93824,98894,0,0
+link_bt,91153,0,2,own=acolyte_of_elothir kit=53212,"Bless you, stranger!","Bless you, stranger!",93825,98897,0,0
+link_bt,91153,0,3,own=acolyte_of_elothir kit=53206,I live!,I live!,0,98891,0,0
+link_bt,91153,0,4,own=acolyte_of_elothir kit=53221,You... you have saved me!,You... you have saved me!,93828,98906,0,0
+link_bt,92874,0,0,own=acolyte_of_elothir kit=53209,"Ahh, to breathe again!","Ahh, to breathe again!",93824,98894,0,0
+link_bt,93219,0,0,own=gilnean_royal_guard kit=70951,I'm not going to make it...,I'm not going to make it...,0,94586,0,0
+link_bt,93221,0,0,own=doom_commander_beliash kit=55134,You won´t survive Inferno Peak...,You won't survive Inferno Peak...,910697,94991,0,0
+link_bt,93410,0,0,own=vindicator_boros kit=63838,"We pledge ourselves to your cause, Highlord!","We pledge ourselves to your cause, Highlord!",9105656,98602,0,0
+link_bt,93860,1,0,own=greywatch_infiltrator kit=51685,For the Alliance!,For the Alliance!,146212,97246,166369,0
+link_bt,94209,0,0,own=stormwind_knight kit=70948,For... the Alliance...,For... the Alliance...,0,99195,0,0
+link_bt,94276,0,0,own=guldan kit=53454,Destroy him.,Destroy him.,0,99239,0,0
+link_bt,94276,4,0,own=guldan kit=53514,And now you will fall.,And now you will fall.,0,99301,0,0
+link_bt,94825,1,0,own=greywatch_infiltrator kit=51686,The Horde will pay for their treachery!,The Horde will pay for their treachery!,0,97247,0,0
+link_bt,94825,2,0,own=greywatch_infiltrator kit=51692,Sylvanas will not escape...,Sylvanas will not escape...,0,97253,0,0
+link_bt,94825,4,0,own=greywatch_infiltrator kit=51690,Greymane... avenge me...,Greymane... avenge me...,0,97251,0,0
+link_bt,96468,11,0,own=hruthnir kit=60399,Watch out!,Watch out!,0,98689,0,0
+link_bt,96757,3,0,own=iain_firebeard kit=60541,Wildhammer!,Wildhammer!,0,99129,0,0
+link_bt,96759,0,0,own=helya kit=54395,You ALL will regret trespassing in my realm.,You ALL will regret trespassing in my realm.,0,102212,0,0
+link_bt,96759,1,0,own=helya kit=54180,You have come far enough. Time to die.,You have come far enough. Time to die.,0,102213,0,0
+link_bt,96759,2,0,own=helya kit=54392,Your fate rains down!,Your fate rains down!,0,102217,0,0
+link_bt,96759,3,0,own=helya kit=54244,You will pay for that.,You will pay for that.,0,102221,0,0
+link_bt,96759,3,1,own=helya kit=54245,I am losing my patience.,I am losing my patience.,0,102222,0,0
+link_bt,96759,3,2,own=helya kit=54389,No! This is not possible!,No! This is not possible!,0,102223,0,0
+link_bt,96759,3,3,own=helya kit=54390,What manner of creatures ARE you??,What manner of creatures ARE you??,0,102227,0,0
+link_bt,96759,3,4,own=helya kit=54372,Odyn values these creatures?,Odyn values these creatures?,0,102662,0,0
+link_bt,96759,4,0,own=helya kit=54399,An eternity of agony awaits you.,An eternity of agony awaits you!,0,102229,0,0
+link_bt,96759,4,2,own=helya kit=54401,Hold still!,Hold still!,0,102219,0,0
+link_bt,96759,5,1,own=helya kit=54393,Begone to the next life.,Begone to the next life.,0,102216,0,0
+link_bt,96759,7,0,own=helya kit=54396,Do you think you have won? You have merely survived the storm... The seas are unstoppable.,Do you think you have won? You have merely survived the storm... The seas are unstoppable.,0,102661,0,0
+link_bt,96853,2,0,own=candle_king kit=247825,You... no... take... candle...,You. No. Take. CANDLE!,98866,262503,0,0
+link_bt,96888,3,0,own=shivarra_destroyer kit=55361,I am here to maim and kill.,I am here to maim and kill.,0,99753,0,0
+link_bt,96888,4,0,own=shivarra_destroyer kit=55360,The Shivarra serve.,The Shivarra serve.,0,99754,0,0
+link_bt,97274,4,0,own=altruis_the_sufferer kit=57366,"We've done it, Illidari! FREEDOM IS OURS!","We've done it, Illidari! FREEDOM IS OURS!",99653,99008,57363,0
+link_bt,97297,0,0,own=cyana_nightglaive kit=55096,I´ll secure the exit portal back to the Black Temple once the others fly up here.,I'll secure the exit portal back to the Black Temple once the others fly up here.,910701,100418,0,0
+link_bt,97503,0,0,own=stormwind_knight kit=70947,I can't... go on...,I can't... go on...,0,99196,0,0
+link_bt,97643,0,0,own=korvas_bloodthorn kit=57323,This is sheer madness! The Wardens have lost control of their prison.,This is sheer madness! The Wardens have lost control of their prison.,910706,99531,0,0
+link_bt,97644,0,0,own=korvas_bloodthorn kit=57295,Stop this foolish bickering. We do not have time for this!,Stop this foolish bickering. We do not have time for this!,910707,99549,0,0
+link_bt,97778,4,0,own=master_hight kit=62039,Chuang!,Chuang!,0,100047,0,0
+link_bt,98203,0,0,own=ivanyr kit=57762,Stay back! It's mine!,Stay back! It's mine!,0,101906,0,0
+link_bt,98203,1,0,own=ivanyr kit=57765,Thieves! The mana is MINE! ,Thieves! The mana is MINE!,0,101907,0,0
+link_bt,98203,2,0,own=ivanyr kit=57757,Go away!,Go away!,0,101910,0,0
+link_bt,98203,2,1,own=ivanyr kit=57758,Get away from my mana!,Get away from my mana!,0,101909,0,0
+link_bt,98203,3,0,own=ivanyr kit=57760,Thieving wretch!,Thieving wretch!,0,101913,0,0
+link_bt,98203,3,1,own=ivanyr kit=57761,I warned you!,I warned you!,0,101912,0,0
+link_bt,98203,3,2,own=ivanyr kit=57756,I will not be consumed!,I will not be consumed!,0,101911,0,0
+link_bt,98203,4,0,own=ivanyr kit=57764,More... more...,More... more...,0,101914,0,0
+link_bt,98203,5,0,own=ivanyr kit=57763,No! I need more...,No! I need more...,0,101915,0,0
+link_bt,98203,5,1,own=ivanyr kit=57759,No! I will not succumb.,No! I will not succumb!,0,101908,0,0
+link_bt,98206,1,0,own=general_xakal kit=57772,Good! Some entertainment! I was getting restless!,Good! Some entertainment! I was getting restless!,0,105711,0,0
+link_bt,98206,2,0,own=general_xakal kit=57773,All who rise against the Legion are doomed!,All who rise against the Legion are doomed!,0,105719,0,0
+link_bt,98206,3,0,own=general_xakal kit=57774,All in my shadow will crumble and fall!,All in my shadow will crumble and fall!,0,105718,0,0
+link_bt,98206,4,1,own=general_xakal kit=57775,Reinforcements to me! NOW!,Reinforcements to me! NOW!,0,105717,0,0
+link_bt,98206,5,2,own=general_xakal kit=57769,No match for the great Xakal!,No match for the great Xakal!,0,105714,0,0
+link_bt,98206,7,0,own=general_xakal kit=57771,No... NO! None can best... the great Xakal...,No... NO! None can best... the great Xakal...,0,105713,0,0
+link_bt,98208,1,0,own=advisor_vandros kit=57780,Find the vermin and bring me their heads! Leave no stone unturned!,Find the vermin and bring me their heads! Leave no stone unturned!,0,105699,0,0
+link_bt,98208,2,0,own=advisor_vandros kit=57783,I have not survived for ten thousand years just to fall to a swarm of rats.,I have not survived for ten thousand years just to fall to a swarm of rats.,0,105700,0,0
+link_bt,98208,3,0,own=advisor_vandros kit=57785,Have you vermin ever witnessed such raw power? I think not.,Have you vermin ever witnessed such raw power? I think not.,0,105707,0,0
+link_bt,98208,4,0,own=advisor_vandros kit=57784,I am a conduit of the Nightwell's glorious power! I am NIGHTBORNE!,I am a conduit of the Nightwell's glorious power! I am NIGHTBORNE!,0,105708,0,0
+link_bt,98208,5,0,own=advisor_vandros kit=57786,Enough! You little beasts are getting out of hand!,Enough! You little beasts are getting out of hand!,0,105706,0,0
+link_bt,98208,6,0,own=advisor_vandros kit=57779,For the glory of Elisande!,For the glory of Elisande!,0,105703,0,0
+link_bt,98208,6,1,own=advisor_vandros kit=57777,Think of this as a mercy killing.,Think of this as a mercy killing.,0,105705,0,0
+link_bt,98208,7,0,own=advisor_vandros kit=57776,Alas... blind courage only triumphs in the fairy tales.,Alas... blind courage only triumphs in the fairy tales.,0,105702,0,0
+link_bt,99343,0,0,own=korvas_bloodthorn kit=58224,Kayn and the others await you at Krasus´ Landing. I´ll meet you there.,Kayn and the others await you at Krasus' Landing. I'll meet you there.,910730,100927,0,0
+link_bt,99398,2,0,own=archmage_modera kit=60498,I will bring your case before the others...but I cannot promise the outcome will be in your favor.,I will bring your case before the others... but I cannot promise the outcome will be in your favor.,0,101645,0,0
+link_bt,99398,3,0,own=archmage_modera kit=60503,Icecrown.You believe you´ll find her there?,Icecrown. You believe you'll find her there?,0,101637,0,0
+link_bt,99427,0,0,own=aethas_sunreaver kit=60495,"Thank you both for meeting me in such an inhospitable location.I assure you that if I were able to join you in Dalaran,I would.","Thank you both for meeting me in such an inhospitable location. I assure you that if I were able to join you in Dalaran, I would.",0,101010,0,0
+link_bt,99427,1,0,own=aethas_sunreaver kit=60497,"Precisely why I´m here.If I can´t return to my former position,then perhaps the council will at least consider restoring my access to the city.As a show of good faith.I have information to offer.","Precisely why I'm here. If I can't return to my former position, then perhaps the council will at least consider restoring my access to the city. As a show of good faith, I have information to offer.",0,101011,0,0
+link_bt,99427,2,0,own=aethas_sunreaver kit=60499,"You have my thanks,friend.","You have my thanks, friend.",0,101646,0,0
+link_bt,99427,4,0,own=aethas_sunreaver kit=60501,"After Kael´thas´s betrayal,she became obsessed with finding Felo´melorn to claim it for her own.I told her it was a fool´s errand,that she´d never find the relic.Indeed,it has been many years since I last heard from her.","After Kael'thas's betrayal, she became obsessed with finding Felo'melorn to claim it for her own. I told her it was a fool's errand, that she'd never find the relic. Indeed, it has been many years since I last heard from her.",0,101013,0,0
+link_bt,99427,5,0,own=aethas_sunreaver kit=60502,"But with the Legion´s coming,I decided to begin my own search for the location of the blade.I saw a vision of Lyandra with the weapon in hand.Around her the land was covered in ice,and an all-too-familiar fortress loomed behind her.","But with the Legion's coming, I decided to begin my own search for the location of the blade. I saw a vision of Lyandra with the weapon in hand. Around her the land was covered in ice, and an all-too-familiar fortress loomed behind her.",0,101636,0,0
+link_bt,99427,6,0,own=aethas_sunreaver kit=60504,Indeed I do.And nothing happens in that citadel unless its master wills it.I would not be surprised to learn he had a hand in this.,Indeed I do. And nothing happens in that citadel unless its master wills it. I would not be surprised to learn he had a hand in this.,0,101638,0,0
+link_bt,99619,2,0,own=navarrogg kit=54784,"Together, we are Highmountain!","Together, we are Highmountain!",0,101327,0,0
+link_bt,100397,14,0,own=vereesa_windrunner kit=61842,No!,No!,0,107105,0,0
+link_bt,101064,0,0,own=arch_druid_hamuul_runetotem kit=62128,"Zen ´tabra´s camp is on the western shore of the lake. Naralex was camped on the eastern shore, but he´s prone to wandering off. so keep your eyes and ears open.","Zen'tabra's camp is on the western shore of the lake. Naralex was camped on the eastern shore, but he's prone to wandering off, so keep your eyes and ears open.",9105683,106011,0,0
+link_bt,101282,0,0,own=revil_kost kit=60286,Take care! There is a dark energy emanating from the spirits of this place. We had best not get too close.,Take care! There is a dark energy emanating from the spirits of this place. We had best not get too close.,0,103594,0,0
+link_bt,101282,1,0,own=revil_kost kit=60251,It is done. The Dark Riders are defeated.,It is done. The Dark Riders are defeated.,0,103618,0,0
+link_bt,101282,2,0,own=revil_kost kit=60253,Now I can reclaim these stolen artifacts and return them to their rightful owners.,Now I can reclaim these stolen artifacts and return them to their rightful owners.,0,103619,0,0
+link_bt,101651,0,0,own=belysra_starbreeze kit=61867,"Valorn, no!... ","Valorn, no!",9105698,104056,0,0
+link_bt,102532,6,0,own=ariden kit=60274,No! The power... is mine!,No! The power... is mine!,0,104766,0,0
+link_bt,102533,2,0,own=laith_shaol kit=60277,You are free.,You are free.,0,104770,0,0
+link_bt,102561,8,0,own=minerva_ravensorrow kit=60341,Owwww!!! Owwww!!,Owwww!!! Owwww!!,105239,105285,0,0
+link_bt,103025,0,0,own=battlelord_gaardoun kit=64704,We´ve guarded it carefully ever since. I think it will prove quite useful to you.,We've guarded it carefully ever since. I think it will prove quite useful to you.,910735,105502,0,0
+link_bt,103506,0,0,own=ritssyn_flamescowl kit=63919,"Join us at the Circle of Wills in Dalaran´s underbelly, warlock. My portal will take you there directly. We will be waiting.","Join us at the Circle of Wills in Dalaran's underbelly, warlock. My portal will take you there directly. We will be waiting.",9105748,104179,0,0
+link_bt,103660,3,0,own=archmage_khadgar kit=58373,She must also be after the Pillar of Creation. This is unexpected.,She must also be after the Pillar of Creation. This is unexpected.,0,106575,0,0
+link_bt,103761,0,0,own=korvas_bloodthorn kit=66947,"Tell whoever you´re sending that the sooner Gaardoun has his demonic toys, the sooner we´ll have our new Ashtongue warriors.","Tell whoever you're sending that the sooner Gaardoun has his demonic toys, the sooner we'll have our new Ashtongue warriors.",910737,115842,0,0
+link_bt,104215,0,0,own=patrol_captain_gerdo kit=58627,No trespassers allowed!,No trespassers allowed!,0,108480,0,0
+link_bt,104215,1,0,own=patrol_captain_gerdo kit=58628,My watch... is ended,My watch... is ended.,0,108484,0,0
+link_bt,104215,2,0,own=patrol_captain_gerdo kit=58630,Basely done... cowards!,Basely done... cowards!,0,108489,0,0
+link_bt,104215,3,0,own=patrol_captain_gerdo kit=58632,Just what you deserved!,Just what you deserved!,0,108483,0,0
+link_bt,104215,3,1,own=patrol_captain_gerdo kit=58631,That should teach you!,That should teach you!,0,108482,0,0
+link_bt,104215,3,2,own=patrol_captain_gerdo kit=58635,A job well done!,A job well done!,0,108485,0,0
+link_bt,104215,4,0,own=patrol_captain_gerdo kit=58637,Guards! To me!,Guards! To me!,0,108973,0,0
+link_bt,104215,4,1,own=patrol_captain_gerdo kit=58636,I need reinforcements!,I need reinforcements!,0,108486,0,0
+link_bt,104215,5,1,own=patrol_captain_gerdo kit=58634,Halt!,Halt!,0,108971,0,0
+link_bt,104215,6,0,own=patrol_captain_gerdo kit=58629,This will even the odds!,This will even the odds!,0,108488,0,0
+link_bt,105016,0,0,own=xr9-47 kit=62584,Remote relay observer unit XR9-47 active. System status: damaged. Rebooting. Please stand by.,Remote relay observer unit XR9-47 active. System status: damaged. Rebooting. Please stand by.,9105779,109418,0,0
+link_bt,105140,0,0,own=shinfel_blightsworn kit=63900,What is this miserable creature?,What is this miserable creature?,9105754,100908,0,0
+link_bt,105948,0,0,own=sylendra_gladesong kit=66758,"Use your feral form to heighten your senses.
+Between the three of us, we can pick up the satyr´s trail.","Use your feral form to heighten your senses. Between the three of us, we can pick up the satyr's trail.",9105705,108914,0,0
+link_bt,106240,0,0,own=grif_wildheart kit=62583,Now let´s see... plug this in over here... realign the power unit…,Now let's see... plug this in over here... realign the power unit...,9105778,109417,0,0
+link_bt,107423,3,0,own=archmage_kalec kit=67643,Until we meet again.,Until we meet again.,0,111798,0,0
+link_bt,107806,0,0,own=prince_galen_trollbane kit=69444,It seems your... Deathlord... has finally arrived.,It seems your... Deathlord... has finally arrived.,9105621,118650,0,0
+link_bt,107837,1,0,own=commander_althea_ebonlocke kit=63554,We will not be stopped!,We will not be stopped!,15166,112994,0,0
+link_bt,107837,1,1,own=commander_althea_ebonlocke kit=63557,The Herald has promised us freedom and respect - we will not be denied!,The Herald has promised us freedom and respect. We will not be denied!,0,113016,0,0
+link_bt,107981,0,0,own=huntsman_blake kit=66584,"You ready to find some bones, boy?","You ready to find some bones, boy?",9105790,113247,0,0
+link_bt,108250,0,0,own=shade_of_akama kit=66952,"I know everything Akama knows, and more. I look forward to us working together to destroy the Legion.","I know everything Akama knows, and more. I look forward to us working together to destroy the Legion.",910743,115848,0,0
+link_bt,109422,0,0,own=kiljaeden kit=66972,Pathetic!,Pathetic.,0,115482,0,0
+link_bt,109427,0,0,own=jarvox kit=68360,Pitiful creatures... you´ll die screaming!,Pitiful creatures... you'll die screaming!,9105661,118754,0,0
+link_bt,109466,3,0,own=king_anduin_wrynn kit=66547,For the Alliance!,For the Alliance!,146212,117268,166369,0
+link_bt,109633,2,0,own=greywatch_infiltrator kit=51689,You cannot escape justice...,You cannot escape justice...,98171,97250,52508,0
+link_bt,110739,0,0,own=highlord_darion_mograine kit=68898,"Tirion´s body rests below, us in the Hall of Champions. We will join you shortly, Deathlord.","Tirion's body rests below, us in the Hall of Champions. We will join you shortly, Deathlord.",9105640,118809,0,0
+link_bt,110742,1,0,own=felguard_sentry kit=55192,For the Legion!,For the Legion!,135850,96663,88086,0
+link_bt,110749,0,0,own=aponi_brightmane kit=68312,Highlord! Over here!,Highlord! Over here!,9105664,119331,0,0
+link_bt,111264,0,0,own=prophet_velen kit=69353,A great enemy is defeated this day. We have shown the Legion that Azeroth will not fall quietly.,A great enemy is defeated this day. We have shown the Legion that Azeroth will not fall quietly.,9105669,120129,0,0
+link_bt,111944,0,0,own=kayn_sunfury kit=66903,"We are only here to talk, Akama...","We are only here to talk, Akama.",910742,114038,0,0
+link_bt,113208,0,0,own=first_arcanist_thalyssra kit=67515,Look out!,Look out!,114489,114536,0,0
+link_bt,114262,1,0,own=attumen_the_huntsman kit=77178,These days we hunt for sport... and the glory of the kill!,These days we hunt for sport... and the glory of the kill!,0,123417,0,0
+link_bt,114262,2,0,own=attumen_the_huntsman kit=77174,My quarry never escapes!,My quarry never escapes!,0,123307,0,0
+link_bt,114262,4,0,own=attumen_the_huntsman kit=77175,Time to face my quarry toe-to-toe!,Time to face my quarry toe-to-toe!,0,123308,0,0
+link_bt,114262,6,0,own=attumen_the_huntsman kit=77173,Form ranks! Charge!,Form ranks! Charge!,0,123306,0,0
+link_bt,114262,7,0,own=attumen_the_huntsman kit=77167,My trophy collection grows.,My trophy collection grows!,0,123300,0,0
+link_bt,114262,7,1,own=attumen_the_huntsman kit=77168,Easy prey!,Easy prey!,0,123301,0,0
+link_bt,114262,9,0,own=attumen_the_huntsman kit=77169,They had no chance! I kill for a living!,They had no chance! I kill for a living!,0,123302,0,0
+link_bt,114262,10,0,own=attumen_the_huntsman kit=77172,I... have become... the hunted...,I... have become... the hunted.,0,123305,0,0
+link_bt,114312,1,0,own=moroes kit=77509,I don't believe the master is expecting you!,I don't believe the master is expecting you!,0,123268,0,0
+link_bt,114312,1,1,own=moroes kit=77514,I do so detest party crashers!,I do so detest party crashers!,0,123425,0,0
+link_bt,114312,1,3,own=moroes kit=77636,May we see your invitation?,May we see your invitation?,0,123681,0,0
+link_bt,114312,2,0,own=moroes kit=77512,May I take your jacket?,May I take your jacket?,0,123271,0,0
+link_bt,114312,2,1,own=moroes kit=77519,Mind your manners!,Mind your manners!,0,123432,0,0
+link_bt,114312,3,0,own=moroes kit=77518,I insist you dress for dinner!,I insist you dress for dinner!,0,123431,0,0
+link_bt,114312,4,0,own=moroes kit=77513,Stop troubling the master's guests!,Stop troubling the master's guests!,0,123272,0,0
+link_bt,114312,5,0,own=moroes kit=77631,Nothing a good sprinkling of sawdust can't handle.,Nothing a good sprinkling of sawdust can't handle.,0,123686,0,0
+link_bt,114312,5,2,own=moroes kit=77633,Hm! Seems that one had enough for the evening.,Hm! Seems that one had enough for the evening.,0,123684,0,0
+link_bt,114312,6,0,own=moroes kit=77510,Perhaps your party would be more comfortable at the children's table.,Perhaps your party would be more comfortable at the children's table.,0,123269,0,0
+link_bt,114312,6,1,own=moroes kit=77516,The guards really must do a better job of keeping out the ruffians.,The guards really must do a better job of keeping out the ruffians.,0,123429,0,0
+link_bt,114312,7,0,own=moroes kit=77511,Seems I'll be... retiring... for... the evening...,Seems I'll be... retiring... for... the evening...,0,123270,0,0
+link_bt,114312,7,1,own=moroes kit=77517,Master... I hope... I served you... well...,Master... I hope... I served you... well...,0,123430,0,0
+link_bt,114312,7,2,own=moroes kit=77628,I fear that I am currently... indisposed...,I fear that I am currently... indisposed...,0,123689,0,0
+link_bt,114312,7,3,own=moroes kit=77630,I will just need... a moment...,I will just need... a moment...,0,123687,0,0
+link_bt,114328,6,0,own=coggleston kit=77111,It's working! It's working!,It's working! It's working!,0,123397,0,0
+link_bt,114895,3,1,own=nightbane kit=77546,I will end you!,I will end you!,134197,123804,87136,0
+link_bt,114895,5,2,own=nightbane kit=77536,Pathetic!,Pathetic!,134193,123793,87132,0
+link_bt,114895,13,0,own=nightbane kit=77536,Pathetic!,Pathetic!,134193,123793,87132,0
+link_bt,116939,7,0,own=fallen_avatar kit=83442,Ended!,Ended!,0,129557,0,0
+link_bt,120157,0,0,own=vandel kit=82741,We are under attack and taking heavy losses. Legion portals are opening up everywhere! We need reinforcements!,We are under attack and taking heavy losses. Legion portals are opening up everywhere! We need reinforcements!,9105555,125200,0,0
+link_bt,121975,6,1,own=aggramar kit=86355,There is no escape!,There is no escape.,0,133426,0,0
+link_bt,122104,1,0,own=keeper kit=85747,Witness the power to destroy worlds!,Witness the power to destroy worlds!,0,133167,0,0
+link_bt,122321,0,0,own=bladeguard_kaja kit=105863,!Rakera!,Rakera!,0,141684,0,0
+link_bt,122321,2,0,own=bladeguard_kaja kit=105865,Rakera?,Rakera?,0,141686,0,0
+link_bt,122661,0,0,own=general_jakrazet kit=109611,"When you left, you told your father you were going exploring. Not negotiating with mongrels from de Horde.","When you left, you told your father you were going exploring. Not negotiating with mongrels from de Horde.",910430,144883,0,0
+link_bt,123149,0,0,own=prophet_velen kit=87922,Look out!,Look out!,143886,135520,94978,0
+link_bt,127377,2,0,own=paku kit=113351,May the wind be at your back.,May the wind be at your back!,153632,159402,0,0
+link_bt,127484,0,0,own=jes_howlis kit=98150,Fresh meat!,Fresh meat!,0,141709,0,0
+link_bt,129907,4,0,own=zul_the_prophet kit=106234,You are right i will not. But my friend will.,You are right. I will not. But my friend will.,0,143042,0,0
+link_bt,131241,5,0,own=voljamba kit=103522,We both know i will not die by your hand. You cannot stop me.,We both know I will not die by your hand. You cannot stop me.,0,143041,0,0
+link_bt,131241,6,0,own=voljamba kit=103529,It is you who will die here!,It is you who will die here!,0,143044,0,0
+link_bt,132237,0,0,own=cyrus kit=107926,Some of our troops stole a boat and filled it with weapons. Take the fight to those undead monsters,Some of our troops stole a boat and filled it with weapons. Take the fight to those undead monsters!,910297,154979,0,0
+link_bt,134092,0,0,own=princess_talanji kit=106839,Hmm.. Thank you. My Prophet tells me you are allies.,Hmm... Thank you. My Prophet tells me you are allies.,910418,148875,0,0
+link_bt,134093,0,0,own=zul_the_prophet kit=106157,"Ah, our escort arrives. Just as I said, Princess.","Ah, our escort arrives. Just as I said, Princess.",910417,148872,0,0
+link_bt,135208,0,0,own=lasan_skyhorn kit=81544,These war eagles will carry us to our destination. Ready to go? Then climb aboard!,These war eagles will carry us to our destination. Ready to go? Then climb aboard!,910412,128639,0,0
+link_bt,135311,0,0,own=zandalari_exile kit=107032,"Whatever you`ve got, is gonna be mine soon!","Whatever you've got, it is gonna be mine soon!",910292,140554,0,0
+link_bt,138184,0,0,own=rexxar kit=108368,For the Horde!,For the Horde!,0,155438,0,0
+link_bt,145580,0,0,own=lady_jaina_proudmoore kit=122768,"Don´t start, Tandred. It still feels strange to hear people call me that. I´d always assumed Derek would become the next Lord Admiral.","Don't start, Tandred. It still feels strange to hear people call me that. I'd always assumed Derek would become the next Lord Admiral.",910391,163253,0,0
+link_bt,146931,4,0,own=rexxar kit=122736,Look out! The prisoner has broken free!,Look out! The prisoner has broken free!,0,165951,0,0
+link_bt,146931,5,0,own=rexxar kit=122731,Move out!,Move out!,0,165797,0,0
+link_bt,146931,6,0,own=rexxar kit=122732,Valtrois--light them up.,Valtrois--light them up.,0,165798,0,0
+link_bt,146931,7,0,own=rexxar kit=122764,Here they come.,Here they come.,0,166687,0,0
+link_bt,146931,8,0,own=rexxar kit=122763,We have to clear the path.,We have to clear the path.,0,166686,0,0
+link_bt,147088,1,0,own=arcanist_valtrois kit=121831,Even my magic is not potent enough to cover up that smell.,Even my magic is not potent enough to cover up that smell.,0,165767,0,0
+link_bt,147088,3,0,own=arcanist_valtrois kit=121833,Ashvane is here.,Ashvane is here.,0,165799,0,0
+link_bt,147088,4,0,own=arcanist_valtrois kit=121838,Time for us to go!,Time for us to go!,0,165962,0,0
+link_bt,147088,6,0,own=arcanist_valtrois kit=121837,I suggest you move away from the wall. It is about to get considerably hotter.,I suggest you move away from the wall. It is about to get considerably hotter.,0,165957,0,0
+link_bt,147088,7,0,own=arcanist_valtrois kit=121841,That ship is... quite something.,That ship is... quite something.,0,165988,0,0
+link_bt,147488,0,0,own=arcanist_valtrois kit=121832,"Officer! This is the infamous Horde criminal Rexxar. He belongs in the deepest, darkest corner of this dungeon!","Officer! This is the infamous Horde criminal Rexxar. He belongs in the deepest, darkest corner of this dungeon!",910469,165768,0,0
+link_bt,147553,0,0,own=flynn_fairwind kit=111959,Let s get down to the lower levels and find a way out.,Let's get down to the lower levels and find a way out.,910156,133037,0,0
+link_bt,147800,0,0,own=master_mathias_shaw kit=121741,An assault on the city of Dazar´alor will destabilize the Horde´s relations with the Zandalari.,An assault on the city of Dazar'alor will destabilize the Horde's relations with the Zandalari.,910654,162898,0,0
+link_bt,150207,0,0,own=lorthemar_theron kit=135960,It seemed as if the Alliance ships were about to capture us. Then the naga sprung their trap. What could those fiends be up to?,It seemed as if the Alliance ships were about to capture us. Then the naga sprung their trap. What could those fiends be up to?,910671,176765,0,0
+link_bt,157305,0,0,own=prince_renathal kit=163592,We are out of time. Gather what anima you can and then we move on Denathrius.,We are out of time. Gather what anima you can and then we move on Denathrius.,0,188823,0,0
+link_bt,157732,2,0,own=ash_ghoul kit=151415,You too will burn!,You too will burn!,0,181028,0,0
+link_bt,160280,3,0,own=mikanikos kit=156569,Lend Bron your power! Your bond will strengthen him.,Lend Bron your power! Your bond will strengthen him.,0,188799,0,0
+link_bt,162059,0,0,own=kin-tara kit=154990,You cannot hide!,You cannot hide!,0,197160,0,0
+link_bt,162059,1,0,own=kin-tara kit=152583,None shall be spared!,None shall be spared!,0,192174,0,0
+link_bt,162099,0,0,own=general_kaal kit=157664,Surrender the prisoner!,Surrender the prisoner!,0,192541,0,0
+link_bt,162099,1,0,own=general_kaal kit=157662,You lack the strength of stone.,You lack the strength of stone.,0,192544,0,0
+link_bt,162099,2,0,own=general_kaal kit=157663,Bleed for your crimes.,Bleed for your crimes.,0,195914,0,0
+link_bt,162099,3,0,own=general_kaal kit=157656,The depths will take you all!,The depths will take you all!,0,192545,0,0
+link_bt,162102,0,0,own=grand_proctor_beryllia kit=153683,How dare you interrupt my research!,How dare you interrupt my research!,0,192441,0,0
+link_bt,162102,1,0,own=grand_proctor_beryllia kit=153682,My patience is wearing thin!,My patience is wearing thin!,0,194844,0,0
+link_bt,162102,2,0,own=grand_proctor_beryllia kit=153684,So much... left... to discover...,So much... left... to discover...,0,192446,0,0
+link_bt,162103,0,0,own=executor_tarvold kit=154055,Let us begin.,Let us begin.,0,192419,0,0
+link_bt,162103,2,0,own=executor_tarvold kit=154056,The sinners... still... await...,The sinners... still... await...,0,192425,0,0
+link_bt,162133,2,0,own=general_kaal kit=161350,Wretched mortals!,Wretched mortals!,0,202136,0,0
+link_bt,162133,4,0,own=general_kaal kit=161351,You are nothing but Draven's dogs!,You are nothing but Draven's dogs!,0,202137,0,0
+link_bt,162133,6,0,own=general_kaal kit=157655,Stubborn rebels. You will meet your end!,Stubborn rebels. You will meet your end!,0,195948,0,0
+link_bt,162282,0,0,own=vorpalia kit=156037,En garde!,En garde!,0,195046,0,0
+link_bt,162282,1,0,own=vorpalia kit=156038,Prepare yourself for defeat!,Prepare yourself for defeat!,0,195047,0,0
+link_bt,162317,0,0,own=gorechop kit=152519,Rend and tear!,Rend and tear!,0,190042,0,0
+link_bt,162317,2,0,own=gorechop kit=152523,I'll catch something good!,I'll catch something good!,0,192079,0,0
+link_bt,162317,3,0,own=gorechop kit=152521,Open you up!,Open you up!,0,192080,0,0
+link_bt,162542,0,0,own=kleia kit=158715,"Sika, can we spare any anima for the Greeter?","Sika, can we spare any anima for the Greeter?",9105596,193980,0,0
+link_bt,162682,0,0,own=ben_howell kit=154672,The graveyard...? Why am I...,The graveyard...? Why am I...,0,188299,0,0
+link_bt,162682,1,0,own=ben_howell kit=154673,No matter. I should get home to see if my wife needs anything.,No matter. I should get home to see if my wife needs anything.,0,188300,0,0
+link_bt,162689,13,0,own=surgeon_stitchflesh kit=154574,My constructs can handle you on their own.,My constructs can handle you on their own.,0,193281,0,0
+link_bt,162689,15,0,own=surgeon_stitchflesh kit=154581,Another exquisite creation!,Another exquisite creation!,0,195705,0,0
+link_bt,162899,1,0,own=grandmaster_vole kit=163235,Raging earth and magma rise and take form against their will!,Raging earth and magma rise and take form against their will!,0,187112,0,0
+link_bt,163157,10,0,own=amarth_the_harvester kit=162797,One final act of service!,One final act of service!,0,193126,0,0
+link_bt,164079,0,0,own=bolvar kit=158957,Be at ease. I am Bolvar Fordragon. These knights and I are here to help.,Be at ease. I am Bolvar Fordragon. These knights and I are here to help.,9105590,195137,0,0
+link_bt,164185,32,0,own=echelon kit=157570,This... cannot... be...,This... cannot... be...,0,192916,0,0
+link_bt,164218,18,0,own=lord_chamberlain kit=156545,Your pride undoes you!,Your pride undoes you!,0,193071,0,0
+link_bt,164218,19,0,own=lord_chamberlain kit=156549,You are beneath my contempt!,You are beneath my contempt!,0,193063,0,0
+link_bt,164255,5,0,own=globgrog kit=152566,Intruders! You will be devoured whole!,Intruders! You will be devoured whole!,0,191813,0,0
+link_bt,164407,10,0,own=sludgefist kit=155272,Sound so sweet to squish you with my feet.,Sound so sweet to squish you with my feet.,0,197366,0,0
+link_bt,164451,0,0,own=dessia_the_decapitator kit=155012,My blade will feast on your souls!,My blade will feast on your souls!,0,190138,0,0
+link_bt,164451,1,0,own=dessia_the_decapitator kit=155013,Avenge... me...,Avenge... me...,0,190131,0,0
+link_bt,164501,10,0,own=mistcaller kit=154215,You found me! Great job!,You found me! Great job!,0,192269,0,0
+link_bt,164501,11,0,own=mistcaller kit=154214,Let's play a guessing game!,Let's play a guessing game!,0,192268,0,0
+link_bt,164556,5,0,own=millhouse_manastorm kit=156529,Stop! I'd rather give up the mojo than lose her!,Stop! I'd rather give up the mojo than lose her!,0,193605,0,0
+link_bt,164567,3,0,own=ingra_maloch kit=152791,How dare you defy me!,How dare you defy me!,0,192213,0,0
+link_bt,164804,1,0,own=droman_oulfarran kit=152806,You must... endure...,You must... endure...,0,192221,0,0
+link_bt,164967,0,0,own=doctor_ickus kit=152606,You cannot comprehend my genius!,You cannot comprehend my genius!,0,191782,0,0
+link_bt,164967,2,0,own=doctor_ickus kit=158818,The next procedure will be a real blowout!,The next procedure will be a real blowout!,0,200353,0,0
+link_bt,164967,3,0,own=doctor_ickus kit=152603,At least you were useful test subjects.,At least you were useful test subjects.,0,191790,0,0
+link_bt,164967,5,0,own=doctor_ickus kit=152609,It's time this experiment has an explosive result!,It's time this experiment has an explosive result!,0,191804,0,0
+link_bt,165714,0,0,own=kyrestia_the_firstborne_the_archon kit=155643,Mortals! Take up my spear!,Mortals! Take up my spear!,0,198111,0,0
+link_bt,165946,0,0,own=mordretha kit=152547,Behold my power and despair!,Behold my power and despair!,0,190141,0,0
+link_bt,165946,1,0,own=mordretha kit=152554,My magic reaches beyond your mortal ken.,My magic reaches beyond your mortal ken.,0,192088,0,0
+link_bt,165946,3,0,own=mordretha kit=152555,You shall be swept into oblivion.,You shall be swept into oblivion.,0,192087,0,0
+link_bt,166608,21,0,own=muehzala kit=165028,Ya served da wrong loa!,Ya served da wrong loa!,0,193621,0,0
+link_bt,166642,0,0,own=zrali kit=157757,The Light shines... even here!,The Light shines... even here!,0,194908,0,0
+link_bt,166981,0,0,own=thrall kit=163177,Baine! No!,Baine! No!,910131,203393,0,0
+link_bt,167424,0,0,own=overseer_kah-sher kit=162364,An ill omen. to be certain. What can it mean?,"An ill omen, to be certain. What can it mean?",9105589,195115,0,0
+link_bt,167425,0,0,own=overseer_kah-delen kit=162356,"The reports from our scryers were unmistakable.
+The Maw shuddered for a moment, as if reacting to some change.","The reports from our scryers were unmistakable. The Maw shuddered for a moment, as if reacting to some change.",9105588,195113,0,0
+link_bt,167524,0,0,own=valinor_the_light_of_eons kit=154783,Who seeks to walk the path of judgement?,Who seeks to walk the path of judgement?,0,195728,0,0
+link_bt,167524,9,0,own=valinor_the_light_of_eons kit=154789,You must be tested.,You must be tested.,0,195731,0,0
+link_bt,167873,0,0,own=thanikos_hand_of_courage kit=160342,I am glad to see I am not yet alone. The Maldraxxi attacked without warning!,I am glad to see I am not yet alone. The Maldraxxi attacked without warning!,9105801,196449,0,0
+link_bt,168038,0,0,own=uther kit=157834,Fools! The Forsworn will triumph over the Archon.,Fools! The Forsworn will triumph over the Archon.,9105800,196676,0,0
+link_bt,168112,3,0,own=general_kaal kit=159388,Flesh to stone!,Flesh to stone!,0,198191,0,0
+link_bt,168113,2,0,own=general_grashaal kit=159407,Die by my hand!,Die by my hand!,0,198210,0,0
+link_bt,168113,4,0,own=general_grashaal kit=159414,Your blades will break across my skin!,Your blades will break across my skin!,0,198212,0,0
+link_bt,168290,0,0,own=lysonia_hand_of_doubt kit=154782,Who dares interrupt the conversion of this nonbeliever?,Who dares interrupt the conversion of this nonbeliever?,0,195722,0,0
+link_bt,169506,7,0,own=bwonsamdi kit=163883,Ya never care about your people. Only power!,Ya never care about your people. Only power!,0,195790,0,0
+link_bt,172416,0,0,own=overseer_kah-sher kit=162373,We will call down one of the soul conduits for use as a gateway to Bastion. These paths have been dormant for some time. Your arrival will be… unexpected.,We will call down one of the soul conduits for use as a gateway to Bastion. These paths have been dormant for some time. Your arrival will be... unexpected.,9105594,195166,0,0
+link_bt,173119,0,0,own=prince_renathal kit=161751,Taking... all my strength... to hold back... their onslaught!,Taking... all my strength... to hold back... their onslaught!,0,199378,15962,0
+link_bt,175294,0,0,own=baine_bloodhoof kit=163260,I was dreaming of home... only to awaken in this place of torment.,I was dreaming of home... only to awaken in this place of torment.,0,196168,0,0
+link_bt,175294,1,0,own=baine_bloodhoof kit=163261,Champion! I... I saw you escape before we were recaptured. Do you have the means to take us out of the Maw?,Champion! I... I saw you escape before we were recaptured. Do you have the means to take us out of the Maw?,0,196169,0,0
+link_bt,175546,1,0,own=timecapn_hooktail kit=181851,You know not... the power... you chase...,You know not... the power... you chase...,0,211550,0,0
+link_bt,175663,0,0,own=hylbrande kit=179607,You are unworthy to lay claim to these relics!,You are unworthy to lay claim to these relics!,0,208622,0,0
+link_bt,175663,1,0,own=hylbrande kit=179615,You desecrate these halls!,You desecrate these halls!,0,207468,0,0
+link_bt,175663,2,0,own=hylbrande kit=179609,Only fire will purge your transgressions.,Only fire will purge your transgressions.,0,208447,0,0
+link_bt,175663,4,0,own=hylbrande kit=179616,That artifact... will... end you all...,That artifact... will... end you all...,0,208446,0,0
+link_bt,177269,0,0,own=soleah kit=180885,I will unmake you!,I will unmake you!,0,208897,0,0
+link_bt,177269,2,0,own=soleah kit=179835,The stars are mine!,The stars are mine!,0,208709,0,0
+link_bt,177269,4,0,own=soleah kit=179842,This power... is vast...,This power... is vast...,0,208716,0,0
+link_bt,177269,5,0,own=soleah kit=179845,Bow before Cartel So!,Bow before Cartel So!,0,208687,0,0
+link_bt,177269,6,0,own=soleah kit=179838,You are nothing!,You are nothing!,0,208718,0,0
+link_bt,177269,7,0,own=soleah kit=179839,Oppose me and be extinguished!,Oppose me and be extinguished!,0,208723,0,0
+link_bt,177269,10,0,own=soleah kit=179837,The tools of creation--at my command!,The tools of creation--at my command!,0,208722,0,0
+link_bt,177269,11,0,own=soleah kit=179834,The realms... I can feel them all!,The realms... I can feel them all!,0,208724,0,0
+link_bt,180085,1,0,own=xyvarek kit=188893,Al'firim... will be... found...,Al'firim... will be... found...,0,214997,0,0
+link_bt,181626,2,0,own=oracle_voraxxi kit=189158,Your cosmos... is forfeit...,Your cosmos... is forfeit...,0,213039,0,0
+link_bt,182441,0,0,own=emberthal kit=202504,Fall back! Help the wounded!,Fall back! Help the wounded!,910222,215541,0,0
+link_bt,182466,10,0,own=antros kit=191871,First Ones.... I have failed you... the pattern...,First Ones.... I have failed you... the pattern...,0,215013,0,0
+link_bt,183380,0,0,own=scalecommander_azurathel kit=202377,"Ungh... my head... Alright, we need to get our bearings. ","Ungh... my head... Alright, we need to get our bearings.",910181,213820,0,0
+link_bt,183543,0,0,own=noriko_the_all-remembering kit=206185,I´m getting a bit concerned... we haven´t heard back from the patrol up at Rhonin´s Shield.,I'm getting a bit concerned... we haven't heard back from the patrol up at Rhonin's Shield.,910576,217346,0,0
+link_bt,184870,0,0,own=naleidea_rivergleam kit=204416,"The Horde and Alliance have a long history of rivalry. But Toddy and I pursue knowledge, not violence.","The Horde and Alliance have a long history of rivalry. But Toddy and I pursue knowledge, not violence.",910253,225025,0,0
+link_bt,185615,0,0,own=kalecgos kit=201702,None. I fear our assumptions are correct--it´s a problem with the ley lines.,None. I fear our assumptions are correct--it's a problem with the ley lines.,910581,217439,0,0
+link_bt,185616,0,0,own=kalecgos kit=201701,Did you find any tomes detailing the Azure Oathstone?,Did you find any tomes detailing the Azure Oathstone?,910580,217438,0,0
+link_bt,185882,0,0,own=scout_tomul kit=205644,"Even a young hunter can aid in a proto-drake hunt. Let us see what you ve got, outsider.","Even a young hunter can aid in a proto-drake hunt. Let us see what you've got, outsider.",910371,218440,0,0
+link_bt,185904,0,0,own=mother_elion kit=203996,Hope,Hope.,910340,218980,0,0
+link_bt,186280,0,0,own=kalecgos kit=201709,"I´ll do what I can to repair any ley lines I find, and send my mirror images to keep an eye on things while I´m gone.","I'll do what I can to repair any ley lines I find, and send my mirror images to keep an eye on things while I'm gone.",910584,217960,0,0
+link_bt,186291,0,0,own=eternus kit=207574,"Whether I am here for a day or millennia, it matters not. I will ensure the rise of our Lord Murozond!","Whether I am here for a day or millennia, it matters not. I will ensure the rise of our Lord Murozond!",9105566,222470,0,0
+link_bt,186304,0,0,own=kalecgos kit=201757,I´ll join you once I deal with these proto dragons and the swath of elemental magic barraging me from the ground.,I'll join you once I deal with these proto dragons and the swath of elemental magic barraging me from the ground.,910600,218593,0,0
+link_bt,186499,0,0,own=chromie kit=207050,I´m so glad you´re here! We´re definitely in a bit of a situation.,I'm so glad you're here! We're definitely in a bit of a situation.,9105583,222666,0,0
+link_bt,186688,0,0,own=archmage_khadgar kit=203581,I´ll reinforce the wards around the tower and keep Raszageth busy.,I'll reinforce the wards around the tower and keep Raszageth busy.,910601,218592,0,0
+link_bt,186711,0,0,own=chromie kit=207057,"Better get comfortable in that bubble, Eternus. I won´t let you corrupt our Bronze Oathstone!","Better get comfortable in that bubble, Eternus. I won't let you corrupt our Bronze Oathstone!",9105565,222471,0,0
+link_bt,186779,0,0,own=archmage_khadgar kit=204114,"I will focus my efforts on shielding the tower. As long as that stands, we have a chance to stop Raszageth.","I will focus my efforts on shielding the tower. As long as that stands, we have a chance to stop Raszageth.",910716,218614,0,0
+link_bt,186843,0,0,own=siaszerathel_zera kit=206715,Not bad! Let me handle the next one by myself!,Not bad! Let me handle the next one by myself!,9105563,219709,0,0
+link_bt,187129,0,0,own=majordomo_selistra kit=205082,Commander! What news from the front?,Commander! What news from the front?,910347,219004,0,0
+link_bt,187290,0,0,own=alexstrasza_the_life-binder kit=206191,"At long last, our absent young are once more among us so that they can be raised together with all the flights.","At long last, our absent young are once more among us so that they can be raised together with all the flights.",910369,227050,0,0
+link_bt,189022,0,0,own=toddy_whiskers kit=204678,"Come on, Wildfeather. Off to the next adventure!","Come on, Wildfeather. Off to the next adventure!",910247,226133,0,0
+link_bt,190563,0,0,own=left kit=206693,The djaradin were ancient foes of the dragons for a good reason. They´re formidable fighters.,The djaradin were ancient foes of the dragons for a good reason. They're formidable fighters.,910324,221959,0,0
+link_bt,191711,0,0,own=right kit=203713,"Wrathion´s able to make the hard choices, the ones that no one else will, all for the greater good.","Wrathion's able to make the hard choices, the ones that no one else will, all for the greater good.",910364,222233,0,0
+link_bt,192795,0,0,own=emberthal kit=204600,The Obsidian Citadel may hold secrets of my people´s past. I would not miss a chance to reclaim it.,The Obsidian Citadel may hold secrets of my people's past. I would not miss a chance to reclaim it.,910351,223872,0,0
+link_bt,193371,0,0,own=wrathion kit=204482,"Ah, look who we have here!","Ah, look who we have here!",910257,225346,0,0
+link_bt,193837,0,0,own=archmage_khadgar kit=203580,"Adventurer, you made it not a moment too soon. Raszageth is draining the tower of its energy!","Adventurer, you made it not a moment too soon. Raszageth is draining the tower of its energy!",910718,225145,0,0
+link_bt,194174,0,0,own=amella kit=205094,"What do you mean, ´the whelplings do not want to fly´ ? This should be second nature to them!","What do you mean, 'the whelplings do not want to fly'? This should be second nature to them!",910342,225776,0,0
+link_bt,195900,0,0,own=scalecommander_sarkareth kit=202469,Ebon Scales! Strike as one!,Ebon Scales! Strike as one!,910218,222426,0,0
+link_bt,200046,0,0,own=ebyssian_ebonhorn kit=223668,"Before we enter this conflict, we must gather any information and resources available to us.","Before we enter this conflict, we must gather any information and resources available to us.",910647,239812,0,0
+link_bt,200080,0,0,own=ebyssian_ebonhorn kit=223383,So long as we do not run headlong into danger.,So long as we do not run headlong into danger.,910632,235946,0,0
+link_bt,200590,0,0,own=ebyssian_ebonhorn kit=219919,"I do not wish to be the harbinger of bad news, but Sundered Flame soldiers are patrolling the Reach.","I do not wish to be the harbinger of bad news, but Sundered Flame soldiers are patrolling the Reach.",910399,235358,0,0
+link_bt,201366,0,0,own=ebyssian_ebonhorn kit=223346,The niffen saw an eruption of fire in the cavern you came from. Was that Fyrakk? ,The niffen saw an eruption of fire in the cavern you came from. Was that Fyrakk?,910527,237536,0,0
+link_bt,201584,0,0,own=elder_honeypelt kit=224331,"Mmmm... we´ll be eating good tonight. Young man, would you help an elder carry this ton of meat to her wagon just outside the nests?","Mmmm... we'll be eating good tonight. Young man, would you help an elder carry this ton of meat to her wagon just outside the nests?",910515,240075,0,0
+link_bt,202451,0,0,own=elder_honeypelt kit=224369,Ooh. I am definitely getting too old to do this solo. Let´s take a breath and regroup,Ooh. I am definitely getting too old to do this solo. Let's take a breath and regroup.,910512,237497,0,0
+link_bt,202873,0,0,own=elder_honeypelt kit=224293,"I´m not leaving Brynnsahce here, I won´t--","I'm not leaving Brynnsahce here, I won't--",910644,236964,0,0
+link_bt,204300,0,0,own=wrathion kit=224094,It was a team effort! Something you are incapable of understanding!,It was a team effort! Something you are incapable of understanding!,910510,237109,0,0
+link_bt,205710,0,0,own=chromie kit=225804,"We have to go. Nozdormu needs us! If he becomes Murozond, then... We can´t lose him!","We have to go. Nozdormu needs us! If he becomes Murozond, then... We can't lose him!",9105527,241187,0,0
+link_bt,208474,0,0,own=clarelle kit=234120,Fall asleep again and I\'ll put caterpillars on you to munch off all your leaves!,Fall asleep again and I'll put caterpillars on you to munch off all your leaves!,0,245663,0,0
+link_bt,211993,100,100,own=thrall kit=244522,They´re growing stronger.,They're growing stronger.,912046592,256272,0,0
+link_bt,211994,100,100,own=lady_jaina_proudmoore kit=244521,Another vision. You saw it too.,Another vision. You saw it too.,912046591,256271,0,0
+link_bt,900159,0,0,own=lady_sylvanas_windrunner kit=53576,"Well, that was invigorating. Now how did they manage to get so many demons here so quickly? ","Well, that was invigorating. Now how did they manage to get so many demons here so quickly?",910174,99363,0,0
+link_bt,900165,0,0,own=lady_sylvanas_windrunner kit=53612,Convenient.,Convenient.,910177,99399,0,0
+link_bt,9000045,0,0,own=skyadmiralrogers kit=32545,"Those are Horde vessels... General quarters! Get our birds in the air. Clear the decks. Stations, people. Let s go to war!","Those are Horde vessels... General quarters! Get our birds in the air. Clear the decks. Stations, people. Let's go to war!",910110,68123,0,0
+link_bt,9100065,0,0,own=kayn_sunfury kit=66974,"Malevolence, get us out of here.","Malevolence, get us out of here.",9105551,115721,0,0
+link_bt,9100079,0,0,own=overseer_kah-sher kit=162376,"Here, mortal. This teleporter will convey you to the Ring of Transference.","Here, mortal. This teleporter will convey you to the Ring of Transference.",9105593,202741,0,0
+drop_empty_bt,10680,0,0,bt text empty for gender 0,%s summons a Blackhand Dreadweaver to his aid!,%s summons a Blackhand Dreadweaver to his aid!,5612,0,0,0
+drop_empty_bt,10681,0,0,bt text empty for gender 0,%s summons a Blackhand Veteran to his aid!,%s summons a Blackhand Veteran to his aid!,5614,0,0,0
+drop_empty_bt,16578,3,0,bt text empty for gender 0,%s gasps.,%s gasps.,109770,0,0,0
+drop_empty_bt,44807,3,0,bt text empty for gender 0,%s gasps.,%s gasps.,109770,0,0,0
+align_text,59075,1,0,bt display text,Hey... hey YOU! Are these OUR... flying... beer monsters?,Hey...hey YOU! Those are OUR flying...beer monsters?,63137,63137,27510,27510
+align_text,69923,4,0,bt display text,Bow down before me!,Kneel before me!,95127,95127,0,0
+align_text,71152,0,0,bt display text,I'll drink your blood!,I'll guzzle your blood!,105369,105369,38674,38674
+align_text,76815,3,0,bt display text,He... broke free. We let you down...,"It... is free. Warlord, we have failed...",86053,86053,42894,42894
+align_text,78238,7,0,bt display text,They scream when squeezed.,Dey squeal when ya smoosh 'em.,82815,82815,41935,41935
+align_text,78238,8,0,bt display text,Ha ha ha... there is one!,Hah hah hah... got one!,88468,88468,41933,41933
+align_text,78238,38,0,bt display text,This one is ready.,Dat one's dead.,82814,82814,41934,41934
+align_text,79015,10,0,bt display text,Insignificance.,Pathetic.,133789,133789,41979,41979
+align_text,79015,11,0,bt display text,I'll break it.,BREAK.,90278,90278,12924,12924
+align_text,90435,0,0,bt display text,Ð£Ð‘Ð˜Ð¢Ð¬!,Destroy them!,117075,117075,50078,50078
+align_text,91860,2,0,bt display text,Peace at last.,"Finally, I can rest.",96946,96946,52226,52226
+align_text,94015,4,0,bt display text,Goodbye to life!,Your life ends now!,134202,134202,50332,50332
+align_text,95138,4,0,bt display text,You will regret it!,Squaaak! You'll regret this!,121837,121837,61247,61247
+align_text,95247,3,0,bt display text,Do you want to save the Guardian? Too late!,"If you've come for the warden, you're too late!",96583,96583,0,0
+align_text,95726,0,0,bt display text,Now even your sanctuaries cannot be saved from us!,"Even your sacred shrines are no longer safe from us, druid!",110953,110953,68345,68345
+align_text,98953,2,0,bt display text,Eyir... I... let you down...,Eyir... I have failed...,96519,96519,52001,52001
+align_text,101644,4,0,bt display text,Now your bones will crunch!,Lemme hear your bones crunch!,96412,96412,54860,54860
+align_text,101783,1,0,bt display text,The shal'dorei will rule this world!,The Nightborne will rule this world!,116430,116430,66019,66019
+align_text,101783,2,0,bt display text,We are chosen to rule!,You will bow to us!,116693,116693,66025,66025
+align_text,101821,0,0,bt display text,My magic... defeated?,Forgive me... Elisande.,116433,116433,66016,66016
+align_text,101821,4,0,bt display text,None may challenge us!,No mercy for outlanders!,116701,116701,66026,66026
+align_text,101821,5,0,bt display text,No! It is not my time....,This cannot be...,116778,116778,66015,66015
+align_text,101825,1,0,bt display text,Death awaits you!,Your death is certain!,116696,116696,66021,66021
+align_text,101825,2,0,bt display text,Tor'teras falar!,Tor'theras falar!,116790,116790,65690,65690
+align_text,102347,0,0,bt display text,Upstairs you have no place!,Don't mess with the mountain!,107085,107085,0,0
+align_text,105372,3,0,bt display text,Death awaits you!,Your death is certain!,116696,116696,65904,65904
+align_text,105759,3,0,bt display text,None may challenge us!,No mercy for outlanders!,116701,116701,66026,66026
+align_text,106616,3,0,bt display text,Teacher said I am the strongest!,Teacher said my magic was strongest!,112872,112872,65977,65977
+align_text,106654,2,0,bt display text,Not... maybe...,Im... impossible.,116429,116429,65688,65688
+align_text,107717,2,0,bt display text,Can not be...,No... it cannot be!,121822,121822,66168,66168
+align_text,108004,2,0,bt display text,I have found peace.,I will rest now.,102391,102391,66047,66047
+align_text,108337,4,0,bt display text,This garden is not for people like you.,This place is not for you.,93048,93048,52728,52728
+align_text,108339,3,0,bt display text,Why did the queen leave us?,Why has the queen forsaken us?,93654,93654,0,0
+align_text,108600,0,1,bt display text,I ... I am saved!,You... you have saved me!,93828,93828,53222,53222
+align_text,109956,11,0,bt display text,I have it. A pity you didn't bring along the Book of Medivh. It's almost as if you don't trust me! Make haste to the Tomb of Sargeras. Do not disappoint Gul'dan.,Finally! The Book of Medivh is ours! Would have saved ourselves time if you'd just let me kill those death-lovers!,115699,115699,66455,66455
+align_text,111022,5,0,bt display text,Too easy!,Easily broken!,128279,128279,68568,68568
+align_text,111022,42,0,bt display text,Die!,"Fall, hero!",129619,129619,68569,68569
+align_text,111207,2,0,bt display text,Your hands... are also covered in blood...,Mine are not the only hands... stained in blood...,121969,121969,61443,61443
+align_text,111292,4,0,bt display text,Fight with valor!,Fight with honor!,117424,117424,68499,68499
+align_text,111446,1,0,bt display text,Tor'teras falar!,Tor'theras falar!,116790,116790,65688,65688
+align_text,111490,2,0,bt display text,There is no point in resisting.,It's no use!,116793,116793,65661,65661
+align_text,111510,4,0,bt display text,Eternal world.,The Light endures.,121094,121094,65689,65689
+align_text,111612,2,0,bt display text,Tor'teras falar!,Tor'theras falar!,116790,116790,65901,65901
+align_text,111730,2,0,bt display text,Not... maybe...,Im... impossible.,116429,116429,65688,65688
+align_text,111747,2,0,bt display text,The Nightborne will rule the world!,The shal'dorei will rule this world!,116792,116792,65899,65899
+align_text,111872,1,0,bt display text,Our magic will crush you!,Our magic will break you!,116704,116704,66022,66022
+align_text,113208,4,0,bt display text,Caution!,Incoming!,135524,135524,67352,67352
+align_text,113597,2,0,bt display text,The Shal'dorei will rule the world!,The Nightborne will rule this world!,116792,116792,65698,65698
+align_text,114472,2,0,bt display text,Forgive me... Elisande...,We have... failed.,116779,116779,65902,65902
+align_text,114868,2,0,bt display text,The Shal'dorei will rule the world!,The shal'dorei will rule this world!,116792,116792,66019,66019
+align_text,114929,2,0,bt display text,We... will stand...,We cannot stop them!,116785,116785,65650,65650
+align_text,115031,2,0,bt display text,You can't win!,You will not win this fight!,94060,94060,51703,51703
+align_text,115216,2,0,bt display text,Tor'teras falar!,Tor'theras falar!,116790,116790,65901,65901
+align_text,115562,3,0,bt display text,Death awaits you!,Your death is certain!,116696,116696,65663,65663
+align_text,116050,1,0,bt display text,Death is coming for you!,Your fate is sealed!,116703,116703,65814,65814
+align_text,116117,0,2,bt display text,Spare no strangers!,None may challenge us!,116701,116701,65710,65710
+align_text,116554,1,0,bt display text,Can not be...,No... it cannot be!,121822,121822,65903,65903
+align_text,116721,0,0,bt display text,I will destroy you!,I shall destroy you!,127505,127505,55334,55334
+align_text,117048,0,1,bt display text,I will destroy you!,I shall destroy you!,127505,127505,55325,55325
+align_text,117049,0,2,bt display text,I will destroy you!,I shall destroy you!,127505,127505,55325,55325
+align_text,117053,0,1,bt display text,I will destroy you!,I shall destroy you!,127505,127505,55325,55325
+align_text,117066,0,1,bt display text,You don't belong here!,You are not welcome here!,134549,134549,0,0
+align_text,117093,1,0,bt display text,Juicy brain. Crunchy bones.,Succulent marrow. Crunchy bones.,96651,96651,0,0
+align_text,117959,0,1,bt display text,I will destroy you!,I shall destroy you!,127505,127505,55325,55325
+align_text,118322,1,0,bt display text,Not... maybe...,Im... impossible.,116429,116429,65688,65688
+align_text,119515,1,0,bt display text,You don't belong here!,You are not welcome here!,134549,134549,55148,55148
+align_text,121319,1,1,bt display text,Learn the true power!,Wither before my might!,105125,105125,87382,87382
+align_text,128358,1,3,bt display text,Such darkness... I had hoped...the light...,Such darkness... I had hoped...,133621,133621,0,0
+align_text,128359,0,3,bt display text,Such darkness... I had hoped...the light...,Such darkness... I had hoped...,133621,133621,0,0
+align_text,950116,0,2,bt display text,Hurry! Let's kill the monsters while they haven't devoured anyone.,"Quickly, we must slaughter these beasts before they do more harm!",113358,113358,66564,66564
+align_text,950116,1,0,bt display text,"I’ll say a platitude, but be on the lookout. I sense the presence of something... from a long past...","This goes without saying, but be on your guard. I sense something... a presence I've not felt since...",124010,124010,78190,78190

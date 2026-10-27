@@ -1,0 +1,1 @@
+-- 86710: Liadrin/Zul'jan moved from phase 45638 to 45640 (interactable); 45640 stays on while 86710 active

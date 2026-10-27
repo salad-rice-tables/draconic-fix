@@ -1,5 +1,5 @@
 -- =====================================================================
--- Classless + Wildcard (Descend Hero): cesta postavy a Classless nakupy.
+-- Classless + Wildcard (Ascension Hero): cesta postavy a Classless nakupy.
 -- Logika: Custom/lua/wildcard.lua. Undo: hero_paths_undo.sql
 -- path: 0 = este nevybrata, 1 = Classless (kupuje za Ability Essence),
 --       2 = Wildcard (nahodne rolly). Vyber je natrvalo.

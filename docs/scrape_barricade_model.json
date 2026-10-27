@@ -1,0 +1,42 @@
+{
+  "id": 641790,
+  "display_hints": [
+    "Load(function () { var linksButton = WH.ge('open-links-button'); if (linksButton) { linksButton.dataset.displayId = 122605; linksButton.dataset.modelEntityType = 2; l",
+    "inksButton.dataset.modelEntityId = 641790; } });</script><a href=\"javascript:\" id=\"wh-mv-view-in-",
+    "3d-button\" class=\"btn btn-site btn-small\" style=\"margin-left:5px;float:right\" onclick=\"WH.Wow.ModelViewer.showLightbox({&quot;type&quot;:2,&quot;typeId&quot;:641790,&quot;displayId&quot;:122605})\" data-mv-type=\"2\" data-mv-ty",
+    "pe-id=\"641790\" data-mv-display-id=\"122605\">View in 3D</a><a href=\"javascript:\" id=\"open-links-button\"",
+    "margin-left:5px;float:right\" onclick=\"WH.Links.show(this, {&quot;type&quot;:2,&quot;typeId&quot;:641790}, event);\" data-display-id=\"122605\" data-model-entity-type=\"2\" data-model-entity-id=\"641790\">L",
+    "v></div> <script type=\"text/javascript\">//<![CDATA[ WH.Gatherer.addData(2, 1, {\"641790\":{\"name_enus\":\"Rough Barricade\",\"displayName\":\"\"}}); $.extend(g_objects[641790], {\"displayName\":\"Rough Barricade\",\"id\":641790,\"location\":[",
+    "late: 'object', id: 'same-model-as', name: WH.TERMS.samemodelas_stc, tabs: tabsRelated, parent: 'lkljbjkb574', data: [{\"displayName\":\"Ghastly Barricade\",\"id\":642041,\"location\":[16365],\"name\":\"Ghastly Barricade\",\"type\":-9}]})"
+  ],
+  "castbar": null,
+  "spells": [],
+  "raw_hits": [
+    "class=\"db-action-buttons\"><script>WH.onLoad(function () { var linksButton = WH.ge('open-links-button'); if (linksButton) { linksButton.dataset.displayId = 122605; linksButton.dataset.modelEntityType = 2; linksButton.dataset.modelEntityId = 641790; } });</script><a href=\"javascript:\" id=\"wh-m",
+    "v-view-in-3d-button\" class=\"btn btn-site btn-small\" style=\"margin-left:5px;float:right\" onclick=\"WH.Wow.ModelViewer.showLightbox({&quot;type&quot;:2,&quot;typeId&quot;:641790,&quot;displayId&quot;:122605})\" data-mv-type=\"2\" data-mv-type-id=\"641790\" data-mv-display-id=\"122605",
+    "ass=\"tabs-container\"><div class=\"tabs\" role=\"tablist\"><button role=\"tab\" data-href=\"#same-model-as\" tabindex=\"0\" data-selected=\"true\" aria-selected=\"true\"><div>Same model as (1)</div></button><button role=\"tab\" class=\"ugc-tab ugc-tab-comments\" data-href=\"#comments\" tabindex=\"-1\"><div>Comments</div></button><button role=\"tab\" class=",
+    "nshot using the form below. <ul> <li><div>Screenshots containing UI elements are generally declined on sight, the same goes for screenshots from the modelviewer or character selection screen.</div></li> <li><div>The higher the quality the better!</div></li> <li><div>Please review our <a href=\"/help=scre"
+  ],
+  "same_model_as": [
+    "642041"
+  ],
+  "status": 202,
+  "title": "Rough Barricade - Object - World of Warcraft",
+  "raw_hits_total_found": 5,
+  "same_model_section": "sor: pointer;\"></a></div></div></span><div class=\"wh-button-group\" style=\"position: absolute; right: 3px; top: 3px;\"><button class=\"wh-button zam-button\" type=\"button\" data-size=\"small\" data-style=\"primary\" data-variation=\"live\" style=\"float: right;\"><span class=\"wh-button-text body-text zam-button-text\" data-text-style=\"body-small-bold\">Hide pins</span></button></div><span class=\"mapper-zone-link\" style=\"\"><a href=\"https://www.wowhead.com/zone=16365/the-coiled-isle\">The Coiled Isle</a></span></div> <div style=\"clear:left\"></div> <script>var g_mapperData = {\"16365\":[{\"count\":3,\"coords\":[[44.7,30.1],[46.3,27.7],[47,30]],\"uiMapId\":2512,\"uiMapName\":\"The Coiled Isle\"}]}; var myMapper = new Mapper({\"parent\":\"k6b43j6b\",\"name\":\"Rough Barricade\"}); WH.gE(WH.ge('locations'), 'a')[0].onclick(); </script><div id=\"infobox-alternate-position\"></div><script>WH.Responsive.placeInfobox();</script> <div class=\"db-page-collection-tracker-cta\"><div class=\"collection-tracker-cta\" data-type=\"client\"><div class=\"collection-tracker-cta-name\">Gather info with the Wowhead Client</div><a href=\"javascript:\" class=\"btn btn-site btn-small\" style=\"margin-left:5px;float:right\">Download Now</a><span class=\"collection-tracker-cta-primary\"></span><span class=\"collection-tracker-cta-left\"></span><span class=\"collection-tracker-cta-center\"></span><span class=\"collection-tracker-cta-right\">Help keep the database up to date!</span><span class=\"collection-tracker-cta-gradient\"></span><a aria-label=\"Mount Collection Tracker\" class=\"collection-tracker-cta-cover\" href=\"/client\"></a></div></div> <script> const cta = WH.Tools.createWowheadClientCta(); if (cta) { $('.db-page-collection-tracker-cta').append(cta); } </script> <h2 class=\"heading-size-2 clear\">Related</h2></div> <div id=\"jkbfksdbl4\"><div class=\"tabs-container\"><div class=\"tabs\" role=\"tablist\"><button role=\"tab\" data-href=\"#same-model-as\" tabindex=\"0\" data-selected=\"true\" aria-selected=\"true\"><div>Same model as (1)</div></button><button role=\"tab\" ",
+  "gamedata_hits": [],
+  "data_display_attrs": [
+    "122605"
+  ],
+  "final_url": "https://www.wowhead.com/object=641790/rough-barricade",
+  "summary": {
+    "displayId": 122605,
+    "type": 2,
+    "typeId": 641790,
+    "same_model_as": [
+      "642041"
+    ],
+    "castbar_found": false,
+    "spells_found": []
+  }
+}

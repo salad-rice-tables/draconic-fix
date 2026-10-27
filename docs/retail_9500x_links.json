@@ -1,0 +1,46 @@
+[
+  {
+    "id": 95008,
+    "npc_links": [
+      {
+        "href": "https://www.wowhead.com/npc=259153/soridormi",
+        "text": "Soridormi"
+      },
+      {
+        "href": "https://www.wowhead.com/npc=259153",
+        "text": ""
+      },
+      {
+        "href": "/npc=259153/soridormi",
+        "text": "Soridormi"
+      }
+    ],
+    "qf": "Note: Your video will need to be approved before appearing on the site.",
+    "rewards": []
+  },
+  {
+    "id": 95009,
+    "npc_links": [
+      {
+        "href": "https://www.wowhead.com/npc=259191/kalaya",
+        "text": "Kalaya"
+      },
+      {
+        "href": "/npc=259191/kalaya",
+        "text": "Kalaya"
+      },
+      {
+        "href": "https://www.wowhead.com/npc=259191",
+        "text": ""
+      }
+    ],
+    "qf": "Note: Your video will need to be approved before appearing on the site.",
+    "rewards": []
+  },
+  {
+    "id": 95021,
+    "npc_links": [],
+    "qf": "Note: Your video will need to be approved before appearing on the site.",
+    "rewards": []
+  }
+]

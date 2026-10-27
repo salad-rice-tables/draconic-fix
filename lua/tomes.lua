@@ -9,7 +9,7 @@ if q then
     repeat TOME[q:GetUInt32(0)] = {q:GetUInt32(1), q:GetString(2)} until not q:NextRow()
 end
 
-local function Esc(s) return (string.gsub(tostring(s or ""), "'", "''")) end
+local function Esc(s) return (string.gsub(tostring(s or ""), "'", "''")) end -- local: Eluna izoluje subory, zdielany global nefunguje
 
 local function Study(_, caster, spellId, effIndex, itemObj)
     if not caster or not caster.LearnSpell or not itemObj then return true end

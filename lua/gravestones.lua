@@ -15,8 +15,10 @@ local function Fell(killed, by)
         TEXT[go:GetGUIDLow()] = "Here fell " .. class .. " " .. killed:GetName() .. " (level " .. killed:GetLevel() .. "), struck down by " .. (by or "an unknown foe") .. " at " .. os.date("%H:%M") .. "."
     end)
 end
-RegisterPlayerEvent(8, function(_, killer, killed) Fell(killed, killer and killer:GetName()) end)   -- killed by creature
-RegisterPlayerEvent(6, function(_, killer, killed) Fell(killed, killer and killer:GetName()) end)   -- killed by player
+-- the killer can already be despawned/invalidated (vehicle passengers, summons): read its name safely
+local function NameOf(u) local ok, n = pcall(function() return u and u:GetName() end); return ok and n or nil end
+RegisterPlayerEvent(8, function(_, killer, killed) Fell(killed, NameOf(killer)) end)   -- killed by creature
+RegisterPlayerEvent(6, function(_, killer, killed) Fell(killed, NameOf(killer)) end)   -- killed by player
 
 pcall(RegisterGameObjectEvent, GRAVE, 14, function(_, go, player)
     if not player then return true end

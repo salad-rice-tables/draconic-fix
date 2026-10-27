@@ -1,0 +1,110 @@
+[
+  {
+    "id": 94464,
+    "title": "Heritage of the Haranir",
+    "start": "",
+    "end": "Orweyna",
+    "desc": "Description\nYou have travelled far and learned much of Aln'hara's grace. It is time to return home and share the wisdom you have earned with your people.\nCompletion\nRewards\nYou will learn:\n\tHeritage of the Haranir\nSee if you've already completed this by typing:\n/run print(C_QuestLog.IsQuestFlaggedCompleted(94464))\nGather info with the Wowhead Client\nRelated\nComments (4)\nScreenshots\nVideos (1)\n1 - 4 of 4\nAdd your comment|Sort: newest first, oldest first, highest rated|Filter by patch: \n12.0.5\n12.0.1\n11.2.5\n\n10\n\n\t\nvalkiirifire\nWAR WITHIN 11.2.5\n11/22/2025\nSome indication within the quest as to how to get there would be super helpful. I made a Haranir to explore the new zone etc and there is zero help given as to how to go there to complete the quest.\n\n10\n\n\t\n\nac3UVspad3s\nWAR WITHIN 11.2.5\n11/",
+    "links": [
+      "https://www.wowhead.com/npc=255828/orweyna|Orweyna",
+      "/npc=255828/orweyna|Orweyna",
+      "https://www.wowhead.com/npc=255828|"
+    ]
+  },
+  {
+    "id": 93425,
+    "title": "Sparks of War: Harandar",
+    "start": "Zerella",
+    "end": "Zerella",
+    "desc": "Description\nPowerful creatures have grown through the lands across Harandar. Go look into it.\nProgress\nCompletion\nRewards\nYou will learn:\n\tSpark of Tides\nYou will also receive:\n1000\n\tBloody Tokens\t\n500\n\tHonor\n\n50\n\tConquest\t\n50\n\tVoidlight Marl\nSee if you've already completed this by typing:\n/run print(C_QuestLog.IsQuestFlaggedCompleted(93425))\nGather info with the Wowhead Client\nRelated\nCriteria of (2)\nComments (9)\nScreenshots\nVideos (2)\n1 - 2 of 2\n \nName\n\t\nSide\n\t\nPoints\n\t\nRewards\n\t\nCategory\n\n\n\tSpark in the Night\nComplete the Sparks of War quest in Midnight 5 times.\n\t\t5\t\tPlayer vs. Player\nWorld\n\n\tSpark in the Night\nComplete the Sparks of War quest in Midnight 20 times.\n\t\t10\t\tPlayer vs. Player\nWorld\n1 - 2 of 2\n \nContribute\nAdd your comment\nSubmit a screenshot\nSuggest a video\nSubmit your data",
+    "links": [
+      "https://www.wowhead.com/npc=254971/zerella|Zerella",
+      "https://www.wowhead.com/npc=254971|"
+    ]
+  },
+  {
+    "id": 86898,
+    "title": "Rise of the Haranir",
+    "start": "Orweyna",
+    "end": "Orweyna",
+    "desc": "Description\nIt is done. The frenzy is routed, the Rootwarden has fled, and the sin'dorei have reclaimed control of their forests. I can scarcely believe it, but... we succeeded, <name>. By Aln'hara's grace, we found a path forward. Now Halduron's people invite us to their den. I am not fond of your surface-cities, but... You have aided me so many times, my friend. It is time that the Hara'ti reached out hands of our own.\nCompletion\nRewards\nYou will receive: 15 95\n25\n\tVoidlight Marl\t\n1500\n\tThe Hara'ti\nGains\nUpon completion of this quest you will gain:\n6,100 experience\nLEVEL\n90\nSee if you've already completed this by typing:\n/run print(C_QuestLog.IsQuestFlaggedCompleted(86898))\nGather info with the Wowhead Client\nRelated\nCriteria of (1)\nNews (2)\nComments (6)\nScreenshots (1)\nVideos (2)\n1 - 1 ",
+    "links": [
+      "https://www.wowhead.com/npc=241704/orweyna|Orweyna",
+      "https://www.wowhead.com/npc=255822/orweyna|Orweyna",
+      "https://www.wowhead.com/npc=241704|"
+    ]
+  },
+  {
+    "id": 89402,
+    "title": "Harandar",
+    "start": "",
+    "end": "Orweyna",
+    "desc": "Description\nWith the Devouring Host occupying much of our attention and time, we leave our backs exposed to other threats that wait in the wings. This Lightbloom that has afflicted Eversong grows worse by the day. If it gets out of control, then we might find ourselves fighting a two-front conflict--or worse, having our home consumed completely while we busy ourselves with the Void. The strange woman who you found poking about the Lightbloom... You seem to be familiar with her. Seek her out. She may have answers.\nCompletion\nRewards\nYou will receive: 3 19\nGains\nUpon completion of this quest you will gain:\n1,500 experience\nLEVEL\n90\nSee if you've already completed this by typing:\n/run print(C_QuestLog.IsQuestFlaggedCompleted(89402))\nGather info with the Wowhead Client\nRelated\nSee also (2)\nNew",
+    "links": [
+      "https://www.wowhead.com/npc=236704/orweyna|Orweyna",
+      "/npc=236704/orweyna|Orweyna",
+      "https://www.wowhead.com/npc=236704|"
+    ]
+  },
+  {
+    "id": 90474,
+    "title": "The Legend of Aln'sharan",
+    "start": "Kuri",
+    "end": "Kuri",
+    "desc": "Description\nThis is it! We have all the skyglass we can carry. The legends say that Aln'sharan cries crystal tears to mourn the missing Goddess. Maybe if we give the crystals back to him, he won't be so sad? Maybe then he'll appear for us! Meet me back at the village. I think I know the perfect place to make our offering.\nProgress\nCompletion\nRewards\nYou will receive: 31 90\n\tMysterious Skyshards\t\n25\n\tVoidlight Marl\n\n250\n\tThe Hara'ti\nGains\nUpon completion of this quest you will gain:\n12,150 experience\nLEVEL\n90\nSee if you've already completed this by typing:\n/run print(C_QuestLog.IsQuestFlaggedCompleted(90474))\nGather info with the Wowhead Client\nRelated\nCriteria of (1)\nNews (1)\nComments (3)\nScreenshots (1)\nVideos (4)\n1 - 1 of 1\n \nName\n\t\nSide\n\t\nPoints\n\t\nRewards\n\t\nCategory\n\n\n\tSojourner of Hara",
+    "links": [
+      "https://www.wowhead.com/npc=242691/kuri|Kuri",
+      "https://www.wowhead.com/npc=242358/kuri|Kuri",
+      "/npc=248037/skyshards-thrown|Skyshards thrown",
+      "/npc=248436/kuri-approached|Kuri Approached",
+      "/npc=248449/missile-connected|Missile Connected",
+      "https://www.wowhead.com/npc=242358/kuri|",
+      "https://www.wowhead.com/npc=242691|"
+    ]
+  },
+  {
+    "id": 90534,
+    "title": "The Home of the Haranir",
+    "start": "Orweyna",
+    "end": "Monte Gazlowe",
+    "desc": "Description\nI am eager to show Monte my home, but I know it is very different from what he is used to. Come with us as he meets my people.\nCompletion\nRewards\nYou will receive: 31 90\n10\n\tVoidlight Marl\t\n50\n\tThe Hara'ti\nGains\nUpon completion of this quest you will gain:\n12,150 experience\nLEVEL\n90\nSee if you've already completed this by typing:\n/run print(C_QuestLog.IsQuestFlaggedCompleted(90534))\nGather info with the Wowhead Client\nRelated\nComments (5)\nScreenshots (3)\nVideos (2)\n1 - 5 of 5\nAdd your comment|Sort: newest first, oldest first, highest rated|Filter by patch: \n12.0.5\n12.0.1\n\n34\n\n\t\nandrea22uk\nMIDNIGHT 12.0.1\n03/03/2026\nThe claws are underground near the enchanting vendor\nLast edited by andrea22uk on 03/03/2026 (Patch 12.0.1)\n\n3\n\n\t\n\nSaphstar\nMIDNIGHT 12.0.1\n03/05/2026\n\nHole to the u",
+    "links": [
+      "https://www.wowhead.com/npc=242592/orweyna|Orweyna",
+      "https://www.wowhead.com/npc=242881/monte-gazlowe|Monte Gazlowe",
+      "/npc=242592/orweyna|Orweyna",
+      "/npc=242693/press-the-button-on-gazlowes-shredder|Press the Button on Gazlowe's Shredder",
+      "/npc=242935/try-the-tasty-mushroom-soup|Try the Tasty Mushroom Soup",
+      "https://www.wowhead.com/npc=242693|",
+      "https://www.wowhead.com/npc=242592|"
+    ]
+  },
+  {
+    "id": 91553,
+    "title": "Haranir Never Say Die!",
+    "start": "Nayeli",
+    "end": "Shao'mal",
+    "desc": "Description\nThat's the one! The big one! The one that took him! We didn't stop it before. But this time, we will. We are haranir. And haranir never back down. Haranir never give up. We're bringing him back. And we're ending this. Are you with me?\nCompletion\nRewards\nYou will receive: 63 80\n\tSilence and Shadow Champion's Badge\t\n25\n\tVoidlight Marl\n\n250\n\tThe Hara'ti\nGains\nUpon completion of this quest you will gain:\n15,200 experience\nLEVEL\n90\nSee if you've already completed this by typing:\n/run print(C_QuestLog.IsQuestFlaggedCompleted(91553))\nGather info with the Wowhead Client\nRelated\nCriteria of (1)\nComments\nScreenshots (1)\nVideos (1)\n1 - 1 of 1\n \nName\n\t\nSide\n\t\nPoints\n\t\nRewards\n\t\nCategory\n\n\n\tSojourner of Harandar\nComplete the optional Harandar storylines listed below.\n\t\t10\t\tQuests\nMidnight\n1",
+    "links": [
+      "https://www.wowhead.com/npc=247736/nayeli|Nayeli",
+      "https://www.wowhead.com/npc=248574/shaomal|Shao'mal",
+      "/npc=247665/behemoth-petalwing|Behemoth Petalwing",
+      "https://www.wowhead.com/npc=248574|",
+      "https://www.wowhead.com/npc=247665|"
+    ]
+  },
+  {
+    "id": 91588,
+    "title": "Harandar's Kitchen",
+    "start": "Yu'relen",
+    "end": "Yu'relen",
+    "desc": "Description\nNow comes the true work: preparing what's been gathered. The vegetables must be washed, the bones removed, and the fish roasted. A shared meal is only worthy if made with care. Only then may the meal carry the weight of peace.\nProgress\nCompletion\nRewards\nYou will receive: 31 90\n10\n\tVoidlight Marl\t\n50\n\tThe Hara'ti\nGains\nUpon completion of this quest you will gain:\n12,150 experience\nLEVEL\n90\nSee if you've already completed this by typing:\n/run print(C_QuestLog.IsQuestFlaggedCompleted(91588))\nGather info with the Wowhead Client\nRelated\nComments\nScreenshots (3)\nVideos (1)\nNo comments have been posted yet.\nPlease log in to add your comment, or register if you don't already have an account.\nContribute\nAdd your comment\nSubmit a screenshot\nSuggest a video\nSubmit your data\nPlease keep t",
+    "links": [
+      "https://www.wowhead.com/npc=247936/yurelen|Yu'relen",
+      "/object=558065/salad-washed|Salad washed",
+      "/object=558066/fish-filleted|Fish filleted",
+      "/object=558059/food-cooked-over-campfire|Food cooked over campfire",
+      "https://www.wowhead.com/npc=247936|",
+      "https://www.wowhead.com/object=558059|"
+    ]
+  }
+]

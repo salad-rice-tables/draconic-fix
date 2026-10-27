@@ -12,6 +12,7 @@ MysticData.lua
 MysticCodex.lua
 CoaData.lua
 ConquestChoice.lua
+ChallengesUI.lua
 MysticForge.lua
 Guide.lua
 EssenceColor.lua

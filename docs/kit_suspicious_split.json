@@ -1,0 +1,223 @@
+{
+ "trunc": [
+  {
+   "file": "agents_of_darkness.lua",
+   "kit": 321405,
+   "text": "EAT... OR BE...",
+   "heard": "EAT OR BE IN A MOUNTAIN",
+   "ratio": 0.56
+  },
+  {
+   "file": "blow_it_up.lua",
+   "kit": 300857,
+   "text": "s presence.",
+   "heard": "Aretor, keep an eye on your mother and her smirk hound. I don't want it out of the light's presence.",
+   "ratio": 0.19
+  },
+  {
+   "file": "blow_it_up.lua",
+   "kit": 300954,
+   "text": "m not one of them.",
+   "heard": "Direct your zeal at our foes, Lothraxian, and remember that I'm not one of them.",
+   "ratio": 0.37
+  },
+  {
+   "file": "dancing_death.lua",
+   "kit": 300685,
+   "text": "s the one in charge.",
+   "heard": "There, base of the tower. That's the one in charge.",
+   "ratio": 0.58
+  },
+  {
+   "file": "domus_penumbra.lua",
+   "kit": 301082,
+   "text": "s beast is in the way.",
+   "heard": "This is the most stable place for a portal, but Decimus's beast is in the way.",
+   "ratio": 0.44
+  },
+  {
+   "file": "friend_or_fiend.lua",
+   "kit": 301070,
+   "text": "t let me stop you.",
+   "heard": "If you prefer to keep throwing Nauru at Nexus points, don't let me stop you.",
+   "ratio": 0.38
+  },
+  {
+   "file": "friend_or_fiend.lua",
+   "kit": 301153,
+   "text": "d have you for dinner.",
+   "heard": "Ah, the rest of our party arrives. Will there time? I'd have you for dinner.",
+   "ratio": 0.46
+  },
+  {
+   "file": "friend_or_fiend.lua",
+   "kit": 301170,
+   "text": "s trust in the Void bring him?",
+   "heard": "Have you learned nothing from Karash? What did your mentor's trust in the void bring him?",
+   "ratio": 0.5
+  },
+  {
+   "file": "friend_or_fiend.lua",
+   "kit": 301173,
+   "text": "atath was always going to turn on us.",
+   "heard": "but then I came to realize what Locus Walker knew from the start. It didn't matter that Xalatath was always going to turn on us.",
+   "ratio": 0.45
+  },
+  {
+   "file": "harandar_90960.lua",
+   "kit": 305542,
+   "text": "s mind!",
+   "heard": "Melody. Outsiders. These distractions have tainted this one's mind.",
+   "ratio": 0.17
+  },
+  {
+   "file": "harandar_intro.lua",
+   "kit": 305530,
+   "text": "s concerning.",
+   "heard": "This is an outsider's war gear. Without it, they could be easy prey even for small predators. That's concerning.",
+   "ratio": 0.2
+  },
+  {
+   "file": "harandar_intro.lua",
+   "kit": 305526,
+   "text": "They do not understand...",
+   "heard": "They do not understand the dangers of Herinda. We must find them.",
+   "ratio": 0.52
+  },
+  {
+   "file": "lay_of_the_beast.lua",
+   "kit": 301137,
+   "text": "s delicious.",
+   "heard": "Watching your struggles blazing bright against an uncaring cosmos... Oh, it's delicious!",
+   "ratio": 0.24
+  },
+  {
+   "file": "mantle_of_predation.lua",
+   "kit": 301053,
+   "text": "ll take allies where I can get them.",
+   "heard": "Don't you think we have enough enemies ahead of us? I'll take allies where I can get them.",
+   "ratio": 0.58
+  },
+  {
+   "file": "mantle_of_predation.lua",
+   "kit": 301110,
+   "text": "d so hate for him to lose interest.",
+   "heard": "Don't keep our magnificent lord entertained friends. I'd so hate for him to lose interest.",
+   "ratio": 0.57
+  },
+  {
+   "file": "no_fear_of_the_dark.lua",
+   "kit": 300634,
+   "text": "dorei.",
+   "heard": "We are not monsters. We are in control. We are Rindorei.",
+   "ratio": 0.17
+  },
+  {
+   "file": "no_fear_of_the_dark.lua",
+   "kit": 300634,
+   "text": "dorei.",
+   "heard": "We are not monsters. We are in control. We are Rindorei.",
+   "ratio": 0.17
+  },
+  {
+   "file": "no_fear_of_the_dark.lua",
+   "kit": 300630,
+   "text": " Terrace in case of disaster.",
+   "heard": "Here champion, help me align the spell. It will anchor us back to Magister's Terrace in case of disaster.",
+   "ratio": 0.43
+  },
+  {
+   "file": "post_mortem.lua",
+   "kit": 300941,
+   "text": "t scare me away, either. My fight is by your side.",
+   "heard": "But you need to understand. You can't protect me from what's out there. And you can't scare me away either. My fight is by your side.",
+   "ratio": 0.54
+  },
+  {
+   "file": "rising_storm_chatter.lua",
+   "kit": 308330,
+   "text": "s evil.",
+   "heard": "No! Those worried addicts are not our salvation! The light is the only way to stop Zalatath's evil!",
+   "ratio": 0.12
+  }
+ ],
+ "wrong": [
+  {
+   "file": "afavor92900.lua",
+   "kit": 337059,
+   "text": "Heh. It matters plenty, Zekhan.",
+   "heard": "It might as plenty as a gun.",
+   "ratio": 0.58
+  },
+  {
+   "file": "agents_of_darkness.lua",
+   "kit": 300833,
+   "text": "ll smash the damned thing.",
+   "heard": "This is taking too long. Stand aside, I'll smash the damn thing!",
+   "ratio": 0.54
+  },
+  {
+   "file": "diplomacy86734.lua",
+   "kit": 299869,
+   "text": "dorei. You are guests in our fair city.",
+   "heard": "Your aid was timely and welcome to Rallion. But remember that Silvermoon and the Sunwell belong to the Sindorai. You are guests in our fair city.",
+   "ratio": 0.4
+  },
+  {
+   "file": "edge_of_the_abyss.lua",
+   "kit": 301128,
+   "text": "dorei, with me.",
+   "heard": "We'll follow him, my lady. Rendor Eye with me!",
+   "ratio": 0.44
+  },
+  {
+   "file": "fuel_network.lua",
+   "kit": 300946,
+   "text": "ar fail?",
+   "heard": "Do you think I cannot see the trap you have set? The peril that now faces my people should our operation admit our fail?",
+   "ratio": 0.11
+  },
+  {
+   "file": "harandar_61.lua",
+   "kit": 305563,
+   "text": " song, Dalnir.",
+   "heard": "tradition dictates that we follow the goddess's song, Dolnir.",
+   "ratio": 0.31
+  },
+  {
+   "file": "no_fear_of_the_dark.lua",
+   "kit": 300649,
+   "text": "ve ever-- Ha! Ahahaha!!",
+   "heard": "This... This power... It's like nothing I've ever... Da ha ha ha ha ha ha ha ha ha ha ha ha ha ha!",
+   "ratio": 0.33
+  },
+  {
+   "file": "no_fear_of_the_dark.lua",
+   "kit": 300635,
+   "text": "dorei have not wavered yet.",
+   "heard": "Enough! It was a risk to let them near the Sunwell, yes. But we will not win this war without taking risks. The Rendorai have not wavered yet.",
+   "ratio": 0.31
+  },
+  {
+   "file": "no_fear_of_the_dark.lua",
+   "kit": 300635,
+   "text": "dorei have not wavered yet.",
+   "heard": "Enough! It was a risk to let them near the Sunwell, yes. But we will not win this war without taking risks. The Rendorai have not wavered yet.",
+   "ratio": 0.31
+  },
+  {
+   "file": "reliable_enemies.lua",
+   "kit": 300762,
+   "text": "Ow. Ha. Hahaha.",
+   "heard": "Oh",
+   "ratio": 0.29
+  },
+  {
+   "file": "rising_storm_chatter.lua",
+   "kit": 308332,
+   "text": "d hop back inside that knife.",
+   "heard": "If we could just take the fight as alatath, we'd give her such a drumming she's hopped back inside that knife.",
+   "ratio": 0.42
+  }
+ ]
+}

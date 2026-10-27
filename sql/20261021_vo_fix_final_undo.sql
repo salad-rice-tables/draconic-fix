@@ -1,0 +1,25 @@
+-- UNDO for 20261021_vo_fix_final --
+UPDATE creature_text SET Text='As you wish.', BroadcastTextId=120871, Sound=70018 WHERE CreatureID=38537 AND GroupID=1 AND ID=0 AND Type=12;
+UPDATE creature_text SET Text='As you wish.', BroadcastTextId=120871, Sound=70018 WHERE CreatureID=38537 AND GroupID=3 AND ID=0 AND Type=12;
+UPDATE creature_text SET Text='No!', BroadcastTextId=0, Sound=0 WHERE CreatureID=62442 AND GroupID=13 AND ID=0 AND Type=14;
+UPDATE creature_text SET Text='Do not think... you''ve won...', BroadcastTextId=0, Sound=0 WHERE CreatureID=72694 AND GroupID=8 AND ID=0 AND Type=12;
+UPDATE creature_text SET Text='Death to our enemies!', BroadcastTextId=117502, Sound=0 WHERE CreatureID=74507 AND GroupID=4 AND ID=0 AND Type=12;
+UPDATE creature_text SET Text='What?!', BroadcastTextId=0, Sound=0 WHERE CreatureID=74653 AND GroupID=1 AND ID=0 AND Type=14;
+UPDATE creature_text SET Text='Burn!', BroadcastTextId=0, Sound=0 WHERE CreatureID=75927 AND GroupID=43 AND ID=0 AND Type=14;
+UPDATE creature_text SET Text='Cyana Nightglaive turned traitor. She joined the Legion.', BroadcastTextId=0, Sound=0 WHERE CreatureID=90536 AND GroupID=3 AND ID=0 AND Type=12;
+UPDATE creature_text SET Text='Surrender the Tidestone, mortal.', BroadcastTextId=95072, Sound=56970 WHERE CreatureID=92450 AND GroupID=0 AND ID=1 AND Type=12;
+UPDATE creature_text SET Text='You dare?!', BroadcastTextId=129829, Sound=56982 WHERE CreatureID=92450 AND GroupID=0 AND ID=2 AND Type=12;
+UPDATE creature_text SET Text='You cannot stop us. We are infinite.', BroadcastTextId=95073, Sound=56967 WHERE CreatureID=92450 AND GroupID=0 AND ID=4 AND Type=12;
+UPDATE creature_text SET Text='No... no...', BroadcastTextId=101293, Sound=52564 WHERE CreatureID=94337 AND GroupID=2 AND ID=0 AND Type=12;
+UPDATE creature_text SET Text='At last...', BroadcastTextId=124540, Sound=52562 WHERE CreatureID=94338 AND GroupID=4 AND ID=0 AND Type=12;
+UPDATE creature_text SET Text='I will not betray my lord!', BroadcastTextId=96585, Sound=52242 WHERE CreatureID=95247 AND GroupID=2 AND ID=0 AND Type=12;
+UPDATE creature_text SET Text='Burn!', BroadcastTextId=0, Sound=0 WHERE CreatureID=103344 AND GroupID=1 AND ID=0 AND Type=14;
+UPDATE creature_text SET Text='Outside lies doom.', BroadcastTextId=0, Sound=0 WHERE CreatureID=106617 AND GroupID=3 AND ID=0 AND Type=12;
+UPDATE creature_text SET Text='Ah... I hear the voice! The thousand truths!', BroadcastTextId=149698, Sound=101370 WHERE CreatureID=130094 AND GroupID=8 AND ID=0 AND Type=12;
+UPDATE creature_text SET Text='Your Archon cannot save you.', BroadcastTextId=190283, Sound=152132 WHERE CreatureID=156559 AND GroupID=3 AND ID=0 AND Type=12;
+UPDATE creature_text SET Text='Throg will spar with you for now. I must speak to the crew about the rain.', BroadcastTextId=0, Sound=156952 WHERE CreatureID=166824 AND GroupID=2 AND ID=0 AND Type=12;
+UPDATE creature_text SET Text='Nowhere to hide!', BroadcastTextId=181033, Sound=151408 WHERE CreatureID=168174 AND GroupID=0 AND ID=0 AND Type=12;
+UPDATE creature_text SET Text='Fall before the Lichsworn!', BroadcastTextId=179852, Sound=153661 WHERE CreatureID=172557 AND GroupID=0 AND ID=0 AND Type=12;
+UPDATE creature_text SET Text='Fall before the Lichsworn!', BroadcastTextId=179852, Sound=153661 WHERE CreatureID=172557 AND GroupID=5 AND ID=0 AND Type=12;
+UPDATE creature_text SET Text='Your bones will serve our masters!', BroadcastTextId=179853, Sound=153663 WHERE CreatureID=172557 AND GroupID=6 AND ID=0 AND Type=12;
+UPDATE creature_text SET Text='Fall before the Lichsworn!', BroadcastTextId=179852, Sound=153661 WHERE CreatureID=172557 AND GroupID=7 AND ID=0 AND Type=12;

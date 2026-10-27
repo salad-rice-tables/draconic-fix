@@ -1,0 +1,1669 @@
+{
+  "when": "2026-10-08T10:04:29",
+  "client": "12.1.0.69587",
+  "tdb": "RetailCore 22111",
+  "db_counts": {
+    "world_quest_total": 48283,
+    "world_creature_total": 228886,
+    "hotfixes_quest_template": 47162,
+    "hotfixes_broadcast": 235159,
+    "campaign": 12,
+    "campaign_x_quest_line": 10,
+    "quest_line_x_quest": 10,
+    "quest_85000_86000": 326,
+    "quest_86000_87000": 428,
+    "quest_87000_88000": 124,
+    "quest_88000_90000": 364,
+    "quest_90000_95000": 1468,
+    "npc_230000_240000": 8168,
+    "npc_240000_250000": 7589,
+    "npc_200000_230000": 27165
+  },
+  "questlines_gap": {
+    "rows_sample": [
+      [
+        9001,
+        9500001
+      ],
+      [
+        9002,
+        9500002
+      ],
+      [
+        9003,
+        9500003
+      ],
+      [
+        9004,
+        9500004
+      ],
+      [
+        9005,
+        9500005
+      ],
+      [
+        9006,
+        9500006
+      ],
+      [
+        9007,
+        9500007
+      ],
+      [
+        9008,
+        9500008
+      ],
+      [
+        9009,
+        9500009
+      ],
+      [
+        9010,
+        9500010
+      ]
+    ],
+    "verdict": "CHYBA: v hotfixes.quest_line_x_quest je len 10 riadkov (custom 9001-9010), retail questlines uplne chybaju. Retail by mal mat tisice questlines (kazda zona/kampan). Treba doplnit z DB2 (QuestLine.db2 / QuestLineXQuest.db2) alebo TDB update."
+  },
+  "samples": [
+    {
+      "kind": "quest",
+      "id": 85869,
+      "db": "Many Jobs, Handle It!",
+      "wowhead": "Many Jobs, Handle It!",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 87289,
+      "db": "Barreling Down",
+      "wowhead": "Barreling Down",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 85933,
+      "db": "Elder Knythall",
+      "wowhead": "Elder Knythall",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 89522,
+      "db": "Infinite Research: Cathedral of Eternal Night, Mythic",
+      "wowhead": "Infinite Research: Cathedral of Eternal Night, Mythic",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86811,
+      "db": "Ethereal Eradication",
+      "wowhead": "Ethereal Eradication",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 89193,
+      "db": "Arator",
+      "wowhead": "Arator",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86522,
+      "db": "Daylight is Breaking",
+      "wowhead": "Daylight is Breaking",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86619,
+      "db": "Theater Troupe",
+      "wowhead": "Theater Troupe",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 87294,
+      "db": "A Truth Universally Acknowledged",
+      "wowhead": "A Truth Universally Acknowledged",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86635,
+      "db": "To Deatholme",
+      "wowhead": "To Deatholme",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 85076,
+      "db": "Don't Bee Crazy",
+      "wowhead": "Don't Bee Crazy",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86659,
+      "db": "Breaching the Mist",
+      "wowhead": "Breaching the Mist",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86592,
+      "db": "Get Your Jabs",
+      "wowhead": "Get Your Jabs",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 85459,
+      "db": "Anima Reclamation Program",
+      "wowhead": "Anima Reclamation Program",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86395,
+      "db": "Stealing the Stolen",
+      "wowhead": "Stealing the Stolen",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 87321,
+      "db": "Things Left Undone",
+      "wowhead": "Things Left Undone",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86842,
+      "db": "Scarlet Power",
+      "wowhead": "Scarlet Power",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 85259,
+      "db": "Waggle Dance",
+      "wowhead": "Waggle Dance",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 85920,
+      "db": "Midnight",
+      "wowhead": "Midnight",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86643,
+      "db": "Following the Root",
+      "wowhead": "Following the Root",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 89230,
+      "db": "A Lover Not a Fighter",
+      "wowhead": "A Lover Not a Fighter",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86543,
+      "db": "Magisters' Terrace: Homecoming",
+      "wowhead": "Magisters' Terrace: Homecoming",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 88956,
+      "db": "Level 89",
+      "wowhead": "Level 89",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 85111,
+      "db": "[DNT] Council of Dornogal Renown Unlock",
+      "wowhead": null,
+      "match": false,
+      "note": "HTTP 404"
+    },
+    {
+      "kind": "quest",
+      "id": 87419,
+      "db": "Worldsoul: Delves",
+      "wowhead": "Worldsoul: Delves",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 85035,
+      "db": "Locus-Walker, Telogrus Ranger",
+      "wowhead": "Locus-Walker, Telogrus Ranger",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 85724,
+      "db": "Repel the Invaders",
+      "wowhead": "Repel the Invaders",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 88702,
+      "db": "Aegis of the Redeemer",
+      "wowhead": "Aegis of the Redeemer",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 89222,
+      "db": "Remnant of Azeroth",
+      "wowhead": "Remnant of Azeroth",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 85109,
+      "db": "Renowned with the K'aresh Trust",
+      "wowhead": "Renowned with the K'aresh Trust",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86503,
+      "db": "Who are the Dastardly Duos?",
+      "wowhead": "Who are the Dastardly Duos?",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 89678,
+      "db": "Infinite Research: Time to Raid, Arcing Aqueducts",
+      "wowhead": "Infinite Research: Time to Raid, Arcing Aqueducts",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 88662,
+      "db": "What's in a Name?",
+      "wowhead": "What's in a Name?",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 85926,
+      "db": "Breakneck Racing - Junkyard Jaunt",
+      "wowhead": "Breakneck Racing - Junkyard Jaunt",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 89507,
+      "db": "Abundant Offerings",
+      "wowhead": "Abundant Offerings",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 88805,
+      "db": "A Scarred Path Through Time",
+      "wowhead": "A Scarred Path Through Time",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86997,
+      "db": "Spellbook Scuffle",
+      "wowhead": "Spellbook Scuffle",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 85949,
+      "db": "A Frozen Journey Through Time",
+      "wowhead": "A Frozen Journey Through Time",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86706,
+      "db": "Seeking Knowledge of the Past",
+      "wowhead": "Seeking Knowledge of the Past",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 88655,
+      "db": "Outbound for Outland",
+      "wowhead": "Outbound for Outland",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86685,
+      "db": "Chip and Shatter",
+      "wowhead": "Chip and Shatter",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86563,
+      "db": "A Savage Journey Through Time",
+      "wowhead": "A Savage Journey Through Time",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 85155,
+      "db": "Do You Have a Spare?",
+      "wowhead": "Do You Have a Spare?",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 85475,
+      "db": "Secret in the Sands",
+      "wowhead": "Secret in the Sands",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 87338,
+      "db": "Day One Orientation",
+      "wowhead": "Day One Orientation",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86703,
+      "db": "Work It",
+      "wowhead": "Work It",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 89552,
+      "db": "Infinite Research: Halls of Valor, Mythic",
+      "wowhead": "Infinite Research: Halls of Valor, Mythic",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 85113,
+      "db": "Special Assignment: Storm's a Brewin",
+      "wowhead": "Special Assignment: Storm's a Brewin",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 85039,
+      "db": "Compromised Containment",
+      "wowhead": "Compromised Containment",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 85472,
+      "db": "It's Free Reagents!",
+      "wowhead": "It's Free Reagents!",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 85021,
+      "db": "Cleansing the Void",
+      "wowhead": "Cleansing the Void",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86642,
+      "db": "A Foe Unseen",
+      "wowhead": "A Foe Unseen",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86657,
+      "db": "Shadebasin Watch",
+      "wowhead": "Shadebasin Watch",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86549,
+      "db": "No Fear of the Dark",
+      "wowhead": "No Fear of the Dark",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 89204,
+      "db": "Five Finger Discount",
+      "wowhead": "Five Finger Discount",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 85097,
+      "db": "The Heaps Leap",
+      "wowhead": "The Heaps Leap",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 85481,
+      "db": "Ridge Racer",
+      "wowhead": "Ridge Racer",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 87376,
+      "db": "Ethereal Seal",
+      "wowhead": "Ethereal Seal",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86783,
+      "db": "Rays of Sunshine",
+      "wowhead": "Rays of Sunshine",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 85394,
+      "db": "An Eye for Trouble",
+      "wowhead": "An Eye for Trouble",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86782,
+      "db": "Atrium Hospital",
+      "wowhead": "Atrium Hospital",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 89409,
+      "db": "Infinite Bronze",
+      "wowhead": "Infinite Bronze",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 85214,
+      "db": "Here Goes Something",
+      "wowhead": "Here Goes Something",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 89353,
+      "db": "Liberation of Undermine: Splitting Pairs",
+      "wowhead": "Liberation of Undermine: Splitting Pairs",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86332,
+      "db": "Distribution of Power",
+      "wowhead": "Distribution of Power",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 89274,
+      "db": "The Ugly Mirror",
+      "wowhead": "The Ugly Mirror",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 89559,
+      "db": "Reasonless Worship",
+      "wowhead": "Reasonless Worship",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 85903,
+      "db": "Junkyard Jaunt - Reverse",
+      "wowhead": "Junkyard Jaunt - Reverse",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86621,
+      "db": "The Wayward Magister",
+      "wowhead": "The Wayward Magister",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 89548,
+      "db": "Infinite Research: Neltharion's Lair, Normal",
+      "wowhead": "Infinite Research: Neltharion's Lair, Normal",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 87336,
+      "db": "Remembering Again and Again",
+      "wowhead": "Remembering Again and Again",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86152,
+      "db": "Faceless Mask of the Daredevil",
+      "wowhead": "Faceless Mask of the Daredevil",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 89206,
+      "db": "Break and Enter",
+      "wowhead": "Break and Enter",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 89289,
+      "db": "Favor of the Court",
+      "wowhead": "Favor of the Court",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 89056,
+      "db": "Ray-ket Ball, Redux",
+      "wowhead": "Ray-ket Ball, Redux",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 88804,
+      "db": "Defeat the Mineraw!",
+      "wowhead": "Defeat the Mineraw!",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86633,
+      "db": "Comprehend the Void",
+      "wowhead": "Comprehend the Void",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 89390,
+      "db": "Flame's Radiance Stipend",
+      "wowhead": "Flame's Radiance Stipend",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86481,
+      "db": "Short-Supply Reward",
+      "wowhead": "Short-Supply Reward",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 89404,
+      "db": "Time Crisis",
+      "wowhead": "Time Crisis",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86485,
+      "db": "A Loyal Friend",
+      "wowhead": "A Loyal Friend",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 88666,
+      "db": "Mossy Beds",
+      "wowhead": "Mossy Beds",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 85269,
+      "db": "Boom Balloon",
+      "wowhead": "Boom Balloon",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86913,
+      "db": "A Hut in Har'mara",
+      "wowhead": "A Hut in Har'mara",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 89396,
+      "db": "Flame's Radiance Stipend",
+      "wowhead": "Flame's Radiance Stipend",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86342,
+      "db": "Soaring over K'aresh",
+      "wowhead": "Soaring over K'aresh",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 85524,
+      "db": "Disarming the Darkfuse",
+      "wowhead": "Disarming the Darkfuse",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86538,
+      "db": "Second, The Fuel",
+      "wowhead": "Second, The Fuel",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86912,
+      "db": "Down the Rootways",
+      "wowhead": "Down the Rootways",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 87324,
+      "db": "Pile of Voidbane Gems",
+      "wowhead": "Pile of Voidbane Gems",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 85241,
+      "db": "A Once-Proud Priest",
+      "wowhead": "A Once-Proud Priest",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 87672,
+      "db": "Void is in the Air",
+      "wowhead": "Void is in the Air",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86513,
+      "db": "Face the Tide",
+      "wowhead": "Face the Tide",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86465,
+      "db": "Devourer Attack: Tazavesh",
+      "wowhead": "Devourer Attack: Tazavesh",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86961,
+      "db": "Diversified Investments",
+      "wowhead": "Diversified Investments",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 89254,
+      "db": "Shutterbug",
+      "wowhead": "Shutterbug",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 88803,
+      "db": "Timely Assistance",
+      "wowhead": "Timely Assistance",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 89514,
+      "db": "Worldsoul: Horrific Visions Revisited",
+      "wowhead": "Worldsoul: Horrific Visions Revisited",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 87350,
+      "db": "Abundance: Loaknit Den",
+      "wowhead": "Abundance: Loaknit Den",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "quest",
+      "id": 86482,
+      "db": "A Lifeline",
+      "wowhead": "A Lifeline",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 231612,
+      "db": "Copper Robochicken",
+      "wowhead": "Copper Robochicken",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 231432,
+      "db": "Aurora Vabsley",
+      "wowhead": "Aurora Vabsley",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 244304,
+      "db": "Newstead Farmer",
+      "wowhead": "Newstead Farmer",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 244559,
+      "db": "Jubilant Snowman",
+      "wowhead": "Jubilant Snowman",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 234773,
+      "db": "Drill Sergeant",
+      "wowhead": "Drill Sergeant",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 230441,
+      "db": "Slaughtered Priest",
+      "wowhead": "Slaughtered Priest",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 235886,
+      "db": "Katy Stampwhistle",
+      "wowhead": "Katy Stampwhistle",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 239969,
+      "db": "Domanaar Destroyer",
+      "wowhead": "Domanaar Destroyer",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 244500,
+      "db": "bunny",
+      "wowhead": "bunny",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 244057,
+      "db": "Kill Credit: Examine Plants",
+      "wowhead": "Kill Credit: Examine Plants",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 239078,
+      "db": "S.C.U.B.A. Steeb",
+      "wowhead": "S.C.U.B.A. Steeb",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 242897,
+      "db": "Salandria",
+      "wowhead": "Salandria",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 241369,
+      "db": "[DNT] Kill Credit: Stealth Taxi Start",
+      "wowhead": "[DNT] Kill Credit: Stealth Taxi Start",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 232968,
+      "db": "Lor'themar Theron",
+      "wowhead": "Lor'themar Theron",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 240643,
+      "db": "Noellene",
+      "wowhead": "Noellene",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 245485,
+      "db": "Small Refugee",
+      "wowhead": "Small Refugee",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 234062,
+      "db": "Arcane Sentry",
+      "wowhead": "Arcane Sentry",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 231346,
+      "db": "Mister Qiu",
+      "wowhead": "Mister Qiu",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 247438,
+      "db": "Succulent Voidcrawler",
+      "wowhead": "Succulent Voidcrawler",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 241365,
+      "db": "Mylton Wyldbraun",
+      "wowhead": "Mylton Wyldbraun",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 236502,
+      "db": "Twilight Pillager",
+      "wowhead": "Twilight Pillager",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 233968,
+      "db": "[DNT] Kill Credit",
+      "wowhead": "[DNT] Kill Credit",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 234881,
+      "db": "Kill Credit: Auspicious Gathering",
+      "wowhead": "Kill Credit: Auspicious Gathering",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 232909,
+      "db": "Magatha Grimtotem",
+      "wowhead": "Magatha Grimtotem",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 237527,
+      "db": "Twilight Cultist",
+      "wowhead": "Twilight Cultist",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 232641,
+      "db": "Alleria Windrunner",
+      "wowhead": "Alleria Windrunner",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 244761,
+      "db": "Alleria Windrunner",
+      "wowhead": "Alleria Windrunner",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 238855,
+      "db": "Voidfront Defiler",
+      "wowhead": "Voidfront Defiler",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 230551,
+      "db": "Cartel Zo Enforcer",
+      "wowhead": "Cartel Zo Enforcer",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 247468,
+      "db": "Altar of Abundance",
+      "wowhead": "Altar of Abundance",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 231476,
+      "db": "Xal'atath",
+      "wowhead": "Xal'atath",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 231550,
+      "db": "Bombshell Crab",
+      "wowhead": "Bombshell Crab",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 248092,
+      "db": "Anomaly Barrel",
+      "wowhead": "Anomaly Barrel",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 245296,
+      "db": "Silvermoon Dockworker",
+      "wowhead": "Silvermoon Dockworker",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 241876,
+      "db": "Glacial Revenant",
+      "wowhead": "Glacial Revenant",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 242233,
+      "db": "Juras the Nethersent",
+      "wowhead": "Juras the Nethersent",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 235516,
+      "db": "Humanoid",
+      "wowhead": "Humanoid",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 246238,
+      "db": "Cow",
+      "wowhead": "Cow",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 243884,
+      "db": "Zur'ashar Kassameh",
+      "wowhead": "Zur'ashar Kassameh",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 231226,
+      "db": "Kill Credit: Echo Comment [DNT]",
+      "wowhead": "Kill Credit: Echo Comment [DNT]",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 237323,
+      "db": "Lich",
+      "wowhead": "Lich",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 240274,
+      "db": "Tavikko",
+      "wowhead": "Tavikko",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 247233,
+      "db": "Spying Spiderling",
+      "wowhead": "Spying Spiderling",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 231912,
+      "db": "Chen Stormstout",
+      "wowhead": "Chen Stormstout",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 231937,
+      "db": "Sally Boltwrench",
+      "wowhead": "Sally Boltwrench",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 245783,
+      "db": "Void Creeper",
+      "wowhead": "Void Creeper",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 244596,
+      "db": "Scourge War Engineer",
+      "wowhead": "Scourge War Engineer",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 247816,
+      "db": "Ridge Scavenger",
+      "wowhead": "Ridge Scavenger",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 233124,
+      "db": "Dead Meat",
+      "wowhead": "Dead Meat",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 237371,
+      "db": "Faerin Lothar",
+      "wowhead": "Faerin Lothar",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 236183,
+      "db": "Light Wyrm",
+      "wowhead": "Light Wyrm",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 243849,
+      "db": "Siphoncreep",
+      "wowhead": "Siphoncreep",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 239977,
+      "db": "Controller Bunny [DNT]",
+      "wowhead": "Controller Bunny [DNT]",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 232161,
+      "db": "Sureki Raider",
+      "wowhead": "Sureki Raider",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 248365,
+      "db": "Echo of Predation",
+      "wowhead": "Echo of Predation",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 240206,
+      "db": "Riftwalker Sideras",
+      "wowhead": "Riftwalker Sideras",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 246956,
+      "db": "High Vindicator Vureem",
+      "wowhead": "High Vindicator Vureem",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 234404,
+      "db": "Shadowguard Voidripper",
+      "wowhead": "Shadowguard Voidripper",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 238468,
+      "db": "Void Elf Researcher",
+      "wowhead": "Void Elf Researcher",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 232796,
+      "db": "Faded Construct",
+      "wowhead": "Faded Construct",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 236805,
+      "db": "Devourer Worm",
+      "wowhead": "Devourer Worm",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 245200,
+      "db": "Jesthenis Sunstriker",
+      "wowhead": "Jesthenis Sunstriker",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 239006,
+      "db": "Thieving Scurrier",
+      "wowhead": "Thieving Scurrier",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 239410,
+      "db": "Arcane Turbine",
+      "wowhead": "Arcane Turbine",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 241418,
+      "db": "Conjured Defense",
+      "wowhead": "Conjured Defense",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 239950,
+      "db": "Night Elf Archer",
+      "wowhead": "Night Elf Archer",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 239251,
+      "db": "Grabbable Rat",
+      "wowhead": "Grabbable Rat",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 242852,
+      "db": "Earthen Stormrider",
+      "wowhead": "Earthen Stormrider",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 247811,
+      "db": "Trelus the Grafter",
+      "wowhead": "Trelus the Grafter",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 244111,
+      "db": "Shadowguard Void Adept",
+      "wowhead": "Shadowguard Void Adept",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 242036,
+      "db": "[DNT] Trap Vehicle",
+      "wowhead": "[DNT] Trap Vehicle",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 246821,
+      "db": "Ku'tiri the Claw",
+      "wowhead": "Ku'tiri the Claw",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 232315,
+      "db": "Arathi Priest",
+      "wowhead": "Arathi Priest",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 243695,
+      "db": "Abducted Defender",
+      "wowhead": "Abducted Defender",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 239692,
+      "db": "Ve'nari",
+      "wowhead": "Ve'nari",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 241153,
+      "db": "Restless Consumptor",
+      "wowhead": "Restless Consumptor",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 248983,
+      "db": "Altar of Abundance",
+      "wowhead": "Altar of Abundance",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 242693,
+      "db": "Monte Gazlowe",
+      "wowhead": "Monte Gazlowe",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 246285,
+      "db": "Bazaar Overseer",
+      "wowhead": "Bazaar Overseer",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 249395,
+      "db": "Locus-Walker",
+      "wowhead": "Locus-Walker",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 245307,
+      "db": "Consortium Collector",
+      "wowhead": "Consortium Collector",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 235899,
+      "db": "Lakheesh Hologram",
+      "wowhead": "Lakheesh Hologram",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 233804,
+      "db": "Terenas Menethil II",
+      "wowhead": "Terenas Menethil II",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 244832,
+      "db": "Rune of Explosive Force",
+      "wowhead": "Rune of Explosive Force",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 237496,
+      "db": "Lightmad Saptor",
+      "wowhead": "Lightmad Saptor",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 246733,
+      "db": "Soaring Devilfish",
+      "wowhead": "Soaring Devilfish",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 242395,
+      "db": "Anduin Wrynn",
+      "wowhead": "Anduin Wrynn",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 232138,
+      "db": "Corrupted Predator",
+      "wowhead": "Corrupted Predator",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 243935,
+      "db": "Smokeflitter",
+      "wowhead": "Smokeflitter",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 249190,
+      "db": "Dredonus",
+      "wowhead": "Dredonus",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 232389,
+      "db": "Hips",
+      "wowhead": "Hips",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 239019,
+      "db": "Thieving Scurrier",
+      "wowhead": "Thieving Scurrier",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 235104,
+      "db": "The Wallbreaker",
+      "wowhead": "The Wallbreaker",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 242146,
+      "db": "Restless Spirit",
+      "wowhead": "Restless Spirit",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 234746,
+      "db": "Supplier Mizix",
+      "wowhead": "Supplier Mizix",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 236414,
+      "db": "Bored Orphan",
+      "wowhead": "Bored Orphan",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 242452,
+      "db": "Niblet",
+      "wowhead": "Niblet",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 247703,
+      "db": "Revantusk Civilian",
+      "wowhead": "Revantusk Civilian",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 242702,
+      "db": "Dundun",
+      "wowhead": "Dundun",
+      "match": true,
+      "note": ""
+    },
+    {
+      "kind": "npc",
+      "id": 248503,
+      "db": "Ogre High Arcanist",
+      "wowhead": "Ogre High Arcanist",
+      "match": true,
+      "note": ""
+    }
+  ]
+}

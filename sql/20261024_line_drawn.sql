@@ -1,0 +1,1 @@
+-- hotfixes: UPDATE phase SET Flags=8 WHERE ID IN (45638,45639);  (cosmetic phase NPCs are not clickable: LGU battle phase 45635 had the same problem)

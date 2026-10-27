@@ -1,0 +1,20 @@
+-- 86642 A Foe Unseen: every 'investigated' source credits 245221 (x5); Vanatha also credits 'Vanatha found' 240865
+UPDATE gameobject_template SET AIName='SmartGameObjectAI' WHERE entry IN (525293,526968,525307);
+DELETE FROM smart_scripts WHERE source_type=1 AND entryorguid IN (525293,526968,525307);
+DELETE FROM smart_scripts WHERE source_type=0 AND entryorguid=237386 AND id=101;
+CREATE TEMPORARY TABLE t_ss SELECT * FROM smart_scripts WHERE entryorguid=244042 AND source_type=0 AND id=101;
+UPDATE t_ss SET entryorguid=525293,source_type=1,id=101,event_type=64,event_param1=0,action_param1=245221,comment='Used: credit investigated';
+INSERT INTO smart_scripts SELECT * FROM t_ss;
+DROP TEMPORARY TABLE t_ss;
+CREATE TEMPORARY TABLE t_ss SELECT * FROM smart_scripts WHERE entryorguid=244042 AND source_type=0 AND id=101;
+UPDATE t_ss SET entryorguid=526968,source_type=1,id=101,event_type=64,event_param1=0,action_param1=245221,comment='Used: credit investigated';
+INSERT INTO smart_scripts SELECT * FROM t_ss;
+DROP TEMPORARY TABLE t_ss;
+CREATE TEMPORARY TABLE t_ss SELECT * FROM smart_scripts WHERE entryorguid=244042 AND source_type=0 AND id=101;
+UPDATE t_ss SET entryorguid=525307,source_type=1,id=101,event_type=70,event_param1=2,action_param1=245221,comment='Looted: credit investigated';
+INSERT INTO smart_scripts SELECT * FROM t_ss;
+DROP TEMPORARY TABLE t_ss;
+CREATE TEMPORARY TABLE t_ss SELECT * FROM smart_scripts WHERE entryorguid=244042 AND source_type=0 AND id=101;
+UPDATE t_ss SET entryorguid=237386,source_type=0,id=101,event_type=64,event_param1=0,action_param1=240865,comment='Gossip hello: credit Vanatha found';
+INSERT INTO smart_scripts SELECT * FROM t_ss;
+DROP TEMPORARY TABLE t_ss;

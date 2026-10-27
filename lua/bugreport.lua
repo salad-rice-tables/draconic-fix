@@ -10,7 +10,7 @@ pcall(WorldDBExecute, [[CREATE TABLE IF NOT EXISTS world.bug_reports (
   x FLOAT, y FLOAT, z FLOAT, text TEXT, server_info TEXT, client_info TEXT,
   status VARCHAR(12) NOT NULL DEFAULT 'new') ENGINE=InnoDB]])
 
-local function Esc(s) return (string.gsub(tostring(s or ""), "'", "''")) end
+local function Esc(s) return (string.gsub(tostring(s or ""), "'", "''")) end -- local: Eluna izoluje subory, zdielany global nefunguje
 
 local function LogErrors()
     local out = {}

@@ -1,4 +1,4 @@
--- Mystic Enchants window (Descend style): ring of Active Enchants on the left (Legendary / Artifact in the middle, Epic on the inner ring,
+-- Mystic Enchants window (Ascension style): ring of Active Enchants on the left (Legendary / Artifact in the middle, Epic on the inner ring,
 -- Rare on the outer ring), tabs "Enchant Collection" (the whole catalogue, found ones bright) and "Enchant Scrolls" (scrolls in your bags) on the right.
 -- Data: MysticData.lua (catalogue), server MYS / MSTATE / MRUNES / MCHANGED. /mystic opens it, the server opens it with OPEN;mystic.
 local PREFIX = "WCARD"
