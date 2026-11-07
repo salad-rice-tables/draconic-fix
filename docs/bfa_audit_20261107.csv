@@ -1,0 +1,1584 @@
+﻿quest,title,zone,block,warn,issues
+53755,Blight and Sound,8567,10,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 307029: no spawn; BLOCK OBJ_GO_NOSPAWN GO 307032: no spawn; BLOCK OBJ_GO_NOSPAWN GO 278495: no spawn; BLOCK OBJ_GO_NOSPAWN GO 307429: no spawn; BLOCK GO_NOSPAWN GO 278495 no spawn; BLOCK GO_NOSPAWN GO 307029 no spawn; BLOCK GO_NOSPAWN GO 307032 no spawn; BLOCK GO_NOSPAWN GO 307429 no spawn; WARN OBJ_NO_CREDIT creature 145177: no spawn, no credit"
+51900,Faithless Follow-Through,8501,8,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 281656: no spawn; BLOCK OBJ_GO_NOSPAWN GO 281664: no spawn; BLOCK OBJ_GO_NOSPAWN GO 281667: no spawn; BLOCK GO_NOSPAWN GO 281656 no spawn; BLOCK GO_NOSPAWN GO 281664 no spawn; BLOCK GO_NOSPAWN GO 281667 no spawn; WARN GO_OTHERMAP GO 281643 maps [,0,]"
+51924,Faithless Follow-Through,8501,8,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 281656: no spawn; BLOCK OBJ_GO_NOSPAWN GO 281664: no spawn; BLOCK OBJ_GO_NOSPAWN GO 281667: no spawn; BLOCK GO_NOSPAWN GO 281656 no spawn; BLOCK GO_NOSPAWN GO 281664 no spawn; BLOCK GO_NOSPAWN GO 281667 no spawn; WARN GO_OTHERMAP GO 281643 maps [,0,]"
+55801,Requisition: We Need It All,10052,8,1,"BLOCK OBJ_GO_NOSPAWN GO 325884: no spawn; BLOCK OBJ_GO_NOSPAWN GO 325912: no spawn; BLOCK OBJ_GO_NOSPAWN GO 325914: no spawn; BLOCK OBJ_GO_NOSPAWN GO 325916: no spawn; BLOCK GO_NOSPAWN GO 325884 no spawn; BLOCK GO_NOSPAWN GO 325912 no spawn; BLOCK GO_NOSPAWN GO 325914 no spawn; BLOCK GO_NOSPAWN GO 325916 no spawn; WARN OBJ_NO_CREDIT creature 155256: no spawn, no credit"
+50975,Azerite Mining,8501,6,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 287086: no spawn; BLOCK OBJ_GO_NOSPAWN GO 287497: no spawn; BLOCK GO_NOSPAWN GO 287086 no spawn; BLOCK GO_NOSPAWN GO 287497 no spawn; WARN OBJ_NO_CREDIT creature 146022: no spawn, no credit; WARN OBJ_NO_CREDIT creature 146023: no spawn, no credit"
+51411,Azerite Mining,8500,6,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 289535: no spawn; BLOCK OBJ_GO_NOSPAWN GO 289534: no spawn; BLOCK GO_NOSPAWN GO 289534 no spawn; BLOCK GO_NOSPAWN GO 289535 no spawn; WARN OBJ_NO_CREDIT creature 146022: no spawn, no credit; WARN OBJ_NO_CREDIT creature 146023: no spawn, no credit"
+51450,Azerite Mining,8499,6,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 289638: no spawn; BLOCK OBJ_GO_NOSPAWN GO 289637: no spawn; BLOCK GO_NOSPAWN GO 289637 no spawn; BLOCK GO_NOSPAWN GO 289638 no spawn; WARN OBJ_NO_CREDIT creature 146022: no spawn, no credit; WARN OBJ_NO_CREDIT creature 146023: no spawn, no credit"
+51581,Azerite Mining,8567,6,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 290535: no spawn; BLOCK OBJ_GO_NOSPAWN GO 290536: no spawn; BLOCK GO_NOSPAWN GO 290535 no spawn; BLOCK GO_NOSPAWN GO 290536 no spawn; WARN OBJ_NO_CREDIT creature 146022: no spawn, no credit; WARN OBJ_NO_CREDIT creature 146023: no spawn, no credit"
+51644,Azerite Mining,9042,6,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 290723: no spawn; BLOCK OBJ_GO_NOSPAWN GO 290721: no spawn; BLOCK GO_NOSPAWN GO 290721 no spawn; BLOCK GO_NOSPAWN GO 290723 no spawn; WARN OBJ_NO_CREDIT creature 146022: no spawn, no credit; WARN OBJ_NO_CREDIT creature 146023: no spawn, no credit"
+52873,Azerite Mining,9042,6,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 293977: no spawn; BLOCK OBJ_GO_NOSPAWN GO 293974: no spawn; BLOCK GO_NOSPAWN GO 293974 no spawn; BLOCK GO_NOSPAWN GO 293977 no spawn; WARN OBJ_NO_CREDIT creature 146022: no spawn, no credit; WARN OBJ_NO_CREDIT creature 146023: no spawn, no credit"
+52874,Azerite Mining,8567,6,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 293978: no spawn; BLOCK OBJ_GO_NOSPAWN GO 293973: no spawn; BLOCK GO_NOSPAWN GO 293973 no spawn; BLOCK GO_NOSPAWN GO 293978 no spawn; WARN OBJ_NO_CREDIT creature 146022: no spawn, no credit; WARN OBJ_NO_CREDIT creature 146023: no spawn, no credit"
+52875,Azerite Mining,8501,6,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 293979: no spawn; BLOCK OBJ_GO_NOSPAWN GO 293971: no spawn; BLOCK GO_NOSPAWN GO 293971 no spawn; BLOCK GO_NOSPAWN GO 293979 no spawn; WARN OBJ_NO_CREDIT creature 146022: no spawn, no credit; WARN OBJ_NO_CREDIT creature 146023: no spawn, no credit"
+50524,Purify the Temple,8499,6,0,BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 272388: no spawn; BLOCK OBJ_GO_NOSPAWN GO 281675: no spawn; BLOCK GO_NOSPAWN GO 272388 no spawn; BLOCK GO_NOSPAWN GO 281675 no spawn
+52144,Foundry Meltdown,8567,6,0,BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 295817: no spawn; BLOCK OBJ_GO_NOSPAWN GO 296064: no spawn; BLOCK GO_NOSPAWN GO 295817 no spawn; BLOCK GO_NOSPAWN GO 296064 no spawn
+53076,Foundry Meltdown,8567,6,0,BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 295817: no spawn; BLOCK OBJ_GO_NOSPAWN GO 296064: no spawn; BLOCK GO_NOSPAWN GO 295817 no spawn; BLOCK GO_NOSPAWN GO 296064 no spawn
+56325,Changing Tides,10052,5,1,"BLOCK OBJ_GO_NOSPAWN GO 326149: no spawn; BLOCK OBJ_GO_NOSPAWN GO 326150: no spawn; BLOCK NPC_NOQUESTFLAG creature 153193 npcflag=1; BLOCK GO_NOSPAWN GO 326149 no spawn; BLOCK GO_NOSPAWN GO 326150 no spawn; WARN OBJ_NO_CREDIT creature 153044: no spawn, no credit"
+54503,This Gang of Mine,8500,4,14,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 312313: no spawn; BLOCK GO_NOSPAWN GO 312313 no spawn; WARN OBJ_NO_CREDIT creature 148206: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148217: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148213: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148255: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148256: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148277: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148251: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148278: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148659: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148660: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148684: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148183: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148710: no spawn, no credit; WARN OBJ_NO_CREDIT creature 149044: no spawn, no credit"
+52475,Where Eagles Prey,8567,4,7,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 304011: no spawn; BLOCK GO_NOSPAWN GO 304011 no spawn; WARN OBJ_NO_CREDIT creature 144662: no spawn, no credit; WARN OBJ_NO_CREDIT creature 144659: no spawn, no credit; WARN OBJ_NO_CREDIT creature 144672: no spawn, no credit; WARN OBJ_NO_CREDIT creature 144674: no spawn, no credit; WARN OBJ_NO_CREDIT creature 144673: no spawn, no credit; WARN OBJ_NO_CREDIT creature 144660: no spawn, no credit; WARN OBJ_NO_CREDIT creature 144677: no spawn, no credit"
+53712,Unfriendly Skies,9042,4,4,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 309886: no spawn; BLOCK GO_NOSPAWN GO 309886 no spawn; WARN OBJ_NO_CREDIT creature 145557: no spawn, no credit; WARN OBJ_NO_CREDIT creature 146024: no spawn, no credit; WARN OBJ_NO_CREDIT creature 146035: no spawn, no credit; WARN OBJ_NO_CREDIT creature 149629: no spawn, no credit"
+51615,Azerite Mining,8721,4,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 290610: no spawn; BLOCK GO_NOSPAWN GO 290610 no spawn; WARN OBJ_NO_CREDIT creature 146022: no spawn, no credit; WARN OBJ_NO_CREDIT creature 146023: no spawn, no credit; WARN GO_OTHERMAP GO 290611 maps [,1,9,2,9,]"
+52872,Azerite Mining,8721,4,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 293972: no spawn; BLOCK GO_NOSPAWN GO 293972 no spawn; WARN OBJ_NO_CREDIT creature 146022: no spawn, no credit; WARN OBJ_NO_CREDIT creature 146023: no spawn, no credit; WARN GO_OTHERMAP GO 293980 maps [,1,]"
+52877,Azerite Mining,8499,4,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 293975: no spawn; BLOCK GO_NOSPAWN GO 293975 no spawn; WARN OBJ_NO_CREDIT creature 146022: no spawn, no credit; WARN OBJ_NO_CREDIT creature 146023: no spawn, no credit; WARN GO_OTHERMAP GO 293970 maps [,1,9,2,9,,, ,1,9,5,5,]"
+53886,Self Guided Tour,8500,4,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 307749: no spawn; BLOCK GO_NOSPAWN GO 307749 no spawn; WARN OBJ_NO_CREDIT creature 146286: no spawn, no credit; WARN OBJ_NO_CREDIT creature 146289: no spawn, no credit; WARN OBJ_NO_CREDIT creature 149628: no spawn, no credit"
+50444,Taking the Loa Road,8500,4,2,"BLOCK OBJ_GO_NOSPAWN GO 281406: no spawn; BLOCK NPC_NOQUESTFLAG creature 133828 npcflag=1; BLOCK NPC_NOQUESTFLAG creature 133845 npcflag=1; BLOCK GO_NOSPAWN GO 281406 no spawn; WARN OBJ_NO_CREDIT creature 133869: no spawn, no credit; WARN OBJ_NO_CREDIT creature 133894: no spawn, no credit"
+53808,Crawl To Victory,8567,4,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 307424: no spawn; BLOCK GO_NOSPAWN GO 307424 no spawn; WARN OBJ_NO_CREDIT creature 145314: no spawn, no credit; WARN OBJ_NO_CREDIT creature 149044: no spawn, no credit"
+54189,Desert Crawl,8501,4,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 311183: no spawn; BLOCK GO_NOSPAWN GO 311183 no spawn; WARN OBJ_NO_CREDIT creature 147115: no spawn, no credit; WARN OBJ_NO_CREDIT creature 149044: no spawn, no credit"
+50421,Sparring on the Spar,8567,4,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 281297: no spawn; BLOCK GO_NOSPAWN GO 281297 no spawn; WARN OBJ_NO_CREDIT creature 133810: no spawn, no credit"
+50587,Nagative Feedback,8500,4,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 287159: no spawn; BLOCK GO_NOSPAWN GO 287159 no spawn; WARN OBJ_NO_CREDIT creature 134372: no spawn, no credit"
+51548,Nagative Feedback,8500,4,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 287159: no spawn; BLOCK GO_NOSPAWN GO 287159 no spawn; WARN OBJ_NO_CREDIT creature 134372: no spawn, no credit"
+52507,Sticky Mess,9042,4,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 293681: no spawn; BLOCK GO_NOSPAWN GO 293681 no spawn; WARN OBJ_NO_CREDIT creature 141351: no spawn, no credit"
+53950,Explosive Relief,8567,4,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 307028: no spawn; BLOCK GO_NOSPAWN GO 307028 no spawn; WARN OBJ_NO_CREDIT creature 145818: no spawn, no credit"
+53951,Explosive Relief,8567,4,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 307028: no spawn; BLOCK GO_NOSPAWN GO 307028 no spawn; WARN OBJ_NO_CREDIT creature 145817: no spawn, no credit"
+54016,Azerite Transport,8499,4,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 313780: no spawn; BLOCK GO_NOSPAWN GO 313780 no spawn; WARN OBJ_NO_CREDIT creature 145391: no spawn, no credit"
+54644,Azerite Transport,8501,4,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 316399: no spawn; BLOCK GO_NOSPAWN GO 316399 no spawn; WARN OBJ_NO_CREDIT creature 148550: no spawn, no credit"
+54664,Azerite Transport,8500,4,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 316434: no spawn; BLOCK GO_NOSPAWN GO 316434 no spawn; WARN OBJ_NO_CREDIT creature 148642: no spawn, no credit"
+54681,Azerite Caravan,8721,4,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 316440: no spawn; BLOCK GO_NOSPAWN GO 316440 no spawn; WARN OBJ_NO_CREDIT creature 148676: no spawn, no credit"
+55799,The Tide Turns,10052,4,1,"BLOCK OBJ_GO_NOSPAWN GO 326149: no spawn; BLOCK OBJ_GO_NOSPAWN GO 326150: no spawn; BLOCK GO_NOSPAWN GO 326149 no spawn; BLOCK GO_NOSPAWN GO 326150 no spawn; WARN OBJ_NO_CREDIT creature 153044: no spawn, no credit"
+48653,A Bejeweled Prison,8500,4,0,BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 276184: no spawn; BLOCK GO_NOSPAWN GO 276184 no spawn
+50619,What Goes Up,8499,4,0,BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 293683: no spawn; BLOCK GO_NOSPAWN GO 293683 no spawn
+50650,Smashing Zalamar,8500,4,0,BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 281835: no spawn; BLOCK GO_NOSPAWN GO 281835 no spawn
+51388,Stopping the Infestation,8567,4,0,BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 289363: no spawn; BLOCK GO_NOSPAWN GO 289363 no spawn
+51578,The Sea Runs Red,8567,4,0,BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 290532: no spawn; BLOCK GO_NOSPAWN GO 290532 no spawn
+51824,You're Grounded,8499,4,0,BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 293674: no spawn; BLOCK GO_NOSPAWN GO 293674 no spawn
+52124,Losers Weepers,8567,4,0,BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 292613: no spawn; BLOCK GO_NOSPAWN GO 292613 no spawn
+52174,Snakes in the Shallows,9042,4,0,BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 292530: no spawn; BLOCK GO_NOSPAWN GO 292530 no spawn
+52785,Smashing Zalamar,8500,4,0,BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 281835: no spawn; BLOCK GO_NOSPAWN GO 281835 no spawn
+53874,End Their Vigil,8567,4,0,BLOCK NO_STARTER ; BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 307674: no spawn; BLOCK GO_NOSPAWN GO 307674 no spawn
+56304,The High Life,10052,4,0,BLOCK OBJ_GO_NOSPAWN GO 327613: no spawn; BLOCK OBJ_GO_NOSPAWN GO 327628: no spawn; BLOCK GO_NOSPAWN GO 327613 no spawn; BLOCK GO_NOSPAWN GO 327628 no spawn
+47527,Rituals of Heresy,8499,3,2,"BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 272401: no spawn; BLOCK GO_NOSPAWN GO 272401 no spawn; WARN OBJ_NO_CREDIT creature 124803: no spawn, no credit; WARN OBJ_NO_CREDIT creature 122916: no spawn, no credit"
+50798,Out on a Limb,8499,3,1,"BLOCK NPC_NOSPAWN creature 133678 no spawn; BLOCK NPC_NOSPAWN creature 135296 no spawn; BLOCK NPC_NOSPAWN creature 135308 no spawn; WARN OBJ_NO_CREDIT creature 135296: no spawn, no credit"
+50805,Skycaller Shutdown,8501,3,1,"BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 282461: no spawn; BLOCK GO_NOSPAWN GO 282461 no spawn; WARN OBJ_NO_CREDIT creature 140032: no spawn, no credit"
+50842,Mast Effect,8499,3,1,"BLOCK NPC_NOSPAWN creature 133679 no spawn; BLOCK NPC_NOSPAWN creature 135308 no spawn; BLOCK NPC_NOSPAWN creature 135481 no spawn; WARN OBJ_NO_CREDIT creature 135481: no spawn, no credit"
+51146,Kua'fon's Day Off,8499,3,1,"BLOCK NPC_NOSPAWN creature 133679 no spawn; BLOCK NPC_NOSPAWN creature 135308 no spawn; BLOCK NPC_NOSPAWN creature 136589 no spawn; WARN OBJ_NO_CREDIT creature 136589: no spawn, no credit"
+51147,Kua'fon's Day Off,8499,3,1,"BLOCK NPC_NOSPAWN creature 133680 no spawn; BLOCK NPC_NOSPAWN creature 135308 no spawn; BLOCK NPC_NOSPAWN creature 136581 no spawn; WARN OBJ_NO_CREDIT creature 136581: no spawn, no credit"
+53108,Iconoclasm,9042,3,1,"BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 296463: no spawn; BLOCK GO_NOSPAWN GO 296463 no spawn; WARN OBJ_NO_CREDIT creature 133758: no spawn, no credit"
+53344,Iconoclasm,9042,3,1,"BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 296463: no spawn; BLOCK GO_NOSPAWN GO 296463 no spawn; WARN OBJ_NO_CREDIT creature 133758: no spawn, no credit"
+47797,Occupation Hazard,8499,3,0,BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 272388: no spawn; BLOCK GO_NOSPAWN GO 272388 no spawn
+48093,Nagating the Threat,8500,3,0,BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 272754: no spawn; BLOCK GO_NOSPAWN GO 272754 no spawn
+49409,Missing Treasure!,8567,3,0,BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 278555: no spawn; BLOCK GO_NOSPAWN GO 278555 no spawn
+55719,Requisition: A Few Starfish,10052,3,0,BLOCK OBJ_GO_NOSPAWN GO 325884: no spawn; BLOCK NPC_NOQUESTFLAG creature 151633 npcflag=4224; BLOCK GO_NOSPAWN GO 325884 no spawn
+55726,Requisition: A Few Cone Shells,10052,3,0,BLOCK OBJ_GO_NOSPAWN GO 325916: no spawn; BLOCK NPC_NOQUESTFLAG creature 151633 npcflag=4224; BLOCK GO_NOSPAWN GO 325916 no spawn
+55785,Requisition: More Starfish,10052,3,0,BLOCK OBJ_GO_NOSPAWN GO 325884: no spawn; BLOCK NPC_NOQUESTFLAG creature 151633 npcflag=4224; BLOCK GO_NOSPAWN GO 325884 no spawn
+55792,Requisition: More Cone Shells,10052,3,0,BLOCK OBJ_GO_NOSPAWN GO 325916: no spawn; BLOCK NPC_NOQUESTFLAG creature 151633 npcflag=4224; BLOCK GO_NOSPAWN GO 325916 no spawn
+56739,The Power of Worship,10052,3,0,BLOCK NO_ENDER ; BLOCK OBJ_GO_NOSPAWN GO 330141: no spawn; BLOCK GO_NOSPAWN GO 330141 no spawn
+51804,Running Interference,8501,2,10,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 124195: no spawn, no credit; WARN OBJ_NO_CREDIT creature 139132: no spawn, no credit; WARN OBJ_NO_CREDIT creature 139138: no spawn, no credit; WARN OBJ_NO_CREDIT creature 139139: no spawn, no credit; WARN OBJ_NO_CREDIT creature 139154: no spawn, no credit; WARN OBJ_NO_CREDIT creature 139153: no spawn, no credit; WARN OBJ_NO_CREDIT creature 139159: no spawn, no credit; WARN OBJ_NO_CREDIT creature 139158: no spawn, no credit; WARN OBJ_NO_CREDIT creature 139155: no spawn, no credit; WARN OBJ_NO_CREDIT creature 139157: no spawn, no credit"
+53704,Not Too Sober Citizens Brigade,8567,2,8,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 145099: no spawn, no credit; WARN OBJ_NO_CREDIT creature 145101: no spawn, no credit; WARN OBJ_NO_CREDIT creature 146295: no spawn, no credit; WARN OBJ_NO_CREDIT creature 145107: no spawn, no credit; WARN OBJ_NO_CREDIT creature 145103: no spawn, no credit; WARN OBJ_NO_CREDIT creature 145115: no spawn, no credit; WARN OBJ_NO_CREDIT creature 145105: no spawn, no credit; WARN OBJ_NO_CREDIT creature 146826: no spawn, no credit"
+55111,Creature Study: Zanj'ir Naga,10052,2,8,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 150767: no spawn, no credit; WARN OBJ_NO_CREDIT creature 154876: no spawn, no credit; WARN OBJ_NO_CREDIT creature 150770: no spawn, no credit; WARN OBJ_NO_CREDIT creature 154877: no spawn, no credit; WARN OBJ_NO_CREDIT creature 154879: no spawn, no credit; WARN OBJ_NO_CREDIT creature 150772: no spawn, no credit; WARN OBJ_NO_CREDIT creature 150771: no spawn, no credit; WARN OBJ_NO_CREDIT creature 154878: no spawn, no credit"
+47894,Jump Around,8567,2,7,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 124626: no spawn, no credit; WARN OBJ_NO_CREDIT creature 124610: no spawn, no credit; WARN OBJ_NO_CREDIT creature 124611: no spawn, no credit; WARN OBJ_NO_CREDIT creature 124612: no spawn, no credit; WARN OBJ_NO_CREDIT creature 124613: no spawn, no credit; WARN OBJ_NO_CREDIT creature 124614: no spawn, no credit; WARN OBJ_NO_CREDIT creature 124615: no spawn, no credit"
+54127,Rocket Hop,8501,2,7,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 147043: no spawn, no credit; WARN OBJ_NO_CREDIT creature 147042: no spawn, no credit; WARN OBJ_NO_CREDIT creature 147046: no spawn, no credit; WARN OBJ_NO_CREDIT creature 147047: no spawn, no credit; WARN OBJ_NO_CREDIT creature 147050: no spawn, no credit; WARN OBJ_NO_CREDIT creature 147052: no spawn, no credit; WARN OBJ_NO_CREDIT creature 147060: no spawn, no credit"
+54689,Lights Out,8721,2,7,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148725: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148946: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148730: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148731: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148852: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148855: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148732: no spawn, no credit"
+56078,Time to Krill,10052,2,7,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 154077: no spawn, no credit; WARN OBJ_NO_CREDIT creature 154757: no spawn, no credit; WARN OBJ_NO_CREDIT creature 154756: no spawn, no credit; WARN OBJ_NO_CREDIT creature 154755: no spawn, no credit; WARN OBJ_NO_CREDIT creature 154754: no spawn, no credit; WARN OBJ_NO_CREDIT creature 154753: no spawn, no credit; WARN OBJ_NO_CREDIT creature 154752: no spawn, no credit"
+50718,Agent of Death,8500,2,6,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134816: no spawn, no credit; WARN OBJ_NO_CREDIT creature 134812: no spawn, no credit; WARN OBJ_NO_CREDIT creature 134841: no spawn, no credit; WARN OBJ_NO_CREDIT creature 135280: no spawn, no credit; WARN OBJ_NO_CREDIT creature 134856: no spawn, no credit; WARN OBJ_NO_CREDIT creature 134852: no spawn, no credit"
+51577,Defending the Academy,8567,2,6,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138166: no spawn, no credit; WARN OBJ_NO_CREDIT creature 138094: no spawn, no credit; WARN OBJ_NO_CREDIT creature 138136: no spawn, no credit; WARN OBJ_NO_CREDIT creature 138058: no spawn, no credit; WARN OBJ_NO_CREDIT creature 138029: no spawn, no credit; WARN OBJ_NO_CREDIT creature 141472: no spawn, no credit"
+53875,Fogsail for a Day,8567,2,6,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 146293: no spawn, no credit; WARN OBJ_NO_CREDIT creature 145534: no spawn, no credit; WARN OBJ_NO_CREDIT creature 146393: no spawn, no credit; WARN OBJ_NO_CREDIT creature 146395: no spawn, no credit; WARN OBJ_NO_CREDIT creature 147482: no spawn, no credit; WARN OBJ_NO_CREDIT creature 147525: no spawn, no credit"
+54268,Impulsive Propulsion,8567,2,6,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 147079: no spawn, no credit; WARN OBJ_NO_CREDIT creature 147624: no spawn, no credit; WARN OBJ_NO_CREDIT creature 147622: no spawn, no credit; WARN OBJ_NO_CREDIT creature 147660: no spawn, no credit; WARN OBJ_NO_CREDIT creature 147699: no spawn, no credit; WARN OBJ_NO_CREDIT creature 147697: no spawn, no credit"
+54415,Vulpera for a Day,8501,2,6,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148458: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148447: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148448: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148449: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148503: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148461: no spawn, no credit"
+54941,Scouting The Strand,10052,2,6,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 150265: no spawn, no credit; WARN OBJ_NO_CREDIT creature 150270: no spawn, no credit; WARN OBJ_NO_CREDIT creature 150266: no spawn, no credit; WARN OBJ_NO_CREDIT creature 150268: no spawn, no credit; WARN OBJ_NO_CREDIT creature 150269: no spawn, no credit; WARN OBJ_NO_CREDIT creature 150172: no spawn, no credit"
+51397,Up In Your Drill,8721,2,5,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 137518: no spawn, no credit; WARN OBJ_NO_CREDIT creature 138456: no spawn, no credit; WARN OBJ_NO_CREDIT creature 138457: no spawn, no credit; WARN OBJ_NO_CREDIT creature 138459: no spawn, no credit; WARN OBJ_NO_CREDIT creature 138458: no spawn, no credit"
+54500,Untapped Potential,8500,2,5,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148184: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148178: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148182: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148176: no spawn, no credit; WARN OBJ_NO_CREDIT creature 149192: no spawn, no credit"
+54502,It's Raining Mana,8500,2,5,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148184: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148178: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148182: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148176: no spawn, no credit; WARN OBJ_NO_CREDIT creature 149192: no spawn, no credit"
+49138,Captain Gulnaku's Treasure,8501,2,4,"BLOCK GO_NOSPAWN GO 277530 no spawn; BLOCK GO_NOSPAWN GO 289728 no spawn; WARN OBJ_NO_CREDIT creature 128499: no spawn, no credit; WARN OBJ_NO_CREDIT creature 128500: no spawn, no credit; WARN OBJ_NO_CREDIT creature 128501: no spawn, no credit; WARN OBJ_NO_CREDIT creature 128502: no spawn, no credit"
+50315,Not On the Itinerary,8567,2,4,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 133415: no spawn, no credit; WARN OBJ_NO_CREDIT creature 133418: no spawn, no credit; WARN OBJ_NO_CREDIT creature 133419: no spawn, no credit; WARN OBJ_NO_CREDIT creature 129988: no spawn, no credit"
+50332,Big Hunter Mon,8499,2,4,"BLOCK OBJ_GO_NOSPAWN GO 281251: no spawn; BLOCK GO_NOSPAWN GO 281251 no spawn; WARN OBJ_NO_CREDIT creature 133555: no spawn, no credit; WARN OBJ_NO_CREDIT creature 133979: no spawn, no credit; WARN OBJ_NO_CREDIT creature 133954: no spawn, no credit; WARN OBJ_NO_CREDIT creature 133984: no spawn, no credit"
+52119,Goblin Azerite Extraction,8567,2,4,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139959: no spawn, no credit; WARN OBJ_NO_CREDIT creature 123712: no spawn, no credit; WARN OBJ_NO_CREDIT creature 142064: no spawn, no credit; WARN OBJ_NO_CREDIT creature 142070: no spawn, no credit"
+52120,Gnomish Azerite Extraction,8567,2,4,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139965: no spawn, no credit; WARN OBJ_NO_CREDIT creature 123712: no spawn, no credit; WARN OBJ_NO_CREDIT creature 142064: no spawn, no credit; WARN OBJ_NO_CREDIT creature 142070: no spawn, no credit"
+52941,Light in the Darkness,9042,2,4,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 142259: no spawn, no credit; WARN OBJ_NO_CREDIT creature 142260: no spawn, no credit; WARN OBJ_NO_CREDIT creature 142264: no spawn, no credit; WARN OBJ_NO_CREDIT creature 142262: no spawn, no credit"
+53040,Squall Squelching,9042,2,4,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 142584: no spawn, no credit; WARN OBJ_NO_CREDIT creature 142585: no spawn, no credit; WARN OBJ_NO_CREDIT creature 142583: no spawn, no credit; WARN OBJ_NO_CREDIT creature 142575: no spawn, no credit"
+53042,Stormcaller,9042,2,4,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 142584: no spawn, no credit; WARN OBJ_NO_CREDIT creature 142585: no spawn, no credit; WARN OBJ_NO_CREDIT creature 142583: no spawn, no credit; WARN OBJ_NO_CREDIT creature 142575: no spawn, no credit"
+53726,Mechinations,8567,2,4,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 144705: no spawn, no credit; WARN OBJ_NO_CREDIT creature 144994: no spawn, no credit; WARN OBJ_NO_CREDIT creature 144718: no spawn, no credit; WARN OBJ_NO_CREDIT creature 145413: no spawn, no credit"
+54647,Ale Intent,9042,2,4,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148598: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148608: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148668: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148666: no spawn, no credit"
+47495,Insatiable Appetite [UNUSED],8499,2,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 122111: no spawn, no credit; WARN OBJ_NO_CREDIT creature 122002: no spawn, no credit; WARN OBJ_NO_CREDIT creature 122000: no spawn, no credit"
+50527,Behind Mogu Lines,8499,2,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134117: no spawn, no credit; WARN OBJ_NO_CREDIT creature 134125: no spawn, no credit; WARN OBJ_NO_CREDIT creature 134126: no spawn, no credit"
+51475,Brutal Escort,8499,2,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 137729: no spawn, no credit; WARN OBJ_NO_CREDIT creature 137829: no spawn, no credit; WARN OBJ_NO_CREDIT creature 137840: no spawn, no credit"
+52180,A Brennadam Shame,9042,2,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 140466: no spawn, no credit; WARN OBJ_NO_CREDIT creature 130747: no spawn, no credit; WARN OBJ_NO_CREDIT creature 103512: no spawn, no credit"
+52251,Compromised Reconnaissance,8499,2,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 142075: no spawn, no credit; WARN OBJ_NO_CREDIT creature 142076: no spawn, no credit; WARN OBJ_NO_CREDIT creature 142082: no spawn, no credit"
+52760,Like Fish in a Barrel,8567,2,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 141747: no spawn, no credit; WARN OBJ_NO_CREDIT creature 141731: no spawn, no credit; WARN OBJ_NO_CREDIT creature 141748: no spawn, no credit"
+52936,Plagued Earth Policy,9042,2,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 142227: no spawn, no credit; WARN OBJ_NO_CREDIT creature 142229: no spawn, no credit; WARN OBJ_NO_CREDIT creature 142230: no spawn, no credit"
+53773,Naga Attack!,9042,2,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 145207: no spawn, no credit; WARN OBJ_NO_CREDIT creature 145262: no spawn, no credit; WARN OBJ_NO_CREDIT creature 145265: no spawn, no credit"
+53812,A Carefully Laid Trap,8567,2,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 145286: no spawn, no credit; WARN OBJ_NO_CREDIT creature 145287: no spawn, no credit; WARN OBJ_NO_CREDIT creature 145292: no spawn, no credit"
+53945,Naga Attack!,9042,2,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 145214: no spawn, no credit; WARN OBJ_NO_CREDIT creature 145856: no spawn, no credit; WARN OBJ_NO_CREDIT creature 145855: no spawn, no credit"
+53963,Naga Attack!,8721,2,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 145891: no spawn, no credit; WARN OBJ_NO_CREDIT creature 145875: no spawn, no credit; WARN OBJ_NO_CREDIT creature 145873: no spawn, no credit"
+53979,Naga Attack!,8721,2,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 145950: no spawn, no credit; WARN OBJ_NO_CREDIT creature 145974: no spawn, no credit; WARN OBJ_NO_CREDIT creature 145959: no spawn, no credit"
+53994,Naga Attack!,8567,2,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 146055: no spawn, no credit; WARN OBJ_NO_CREDIT creature 146056: no spawn, no credit; WARN OBJ_NO_CREDIT creature 146057: no spawn, no credit"
+54051,Naga Attack!,8499,2,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 146376: no spawn, no credit; WARN OBJ_NO_CREDIT creature 146392: no spawn, no credit; WARN OBJ_NO_CREDIT creature 146397: no spawn, no credit"
+54060,Naga Attack!,8499,2,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 146517: no spawn, no credit; WARN OBJ_NO_CREDIT creature 146518: no spawn, no credit; WARN OBJ_NO_CREDIT creature 146519: no spawn, no credit"
+54188,Scrambled Bots,8501,2,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 144705: no spawn, no credit; WARN OBJ_NO_CREDIT creature 144994: no spawn, no credit; WARN OBJ_NO_CREDIT creature 147147: no spawn, no credit"
+54236,Naga Attack!,8500,2,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 147326: no spawn, no credit; WARN OBJ_NO_CREDIT creature 147328: no spawn, no credit; WARN OBJ_NO_CREDIT creature 147331: no spawn, no credit"
+54267,Naga Attack!,8500,2,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 147615: no spawn, no credit; WARN OBJ_NO_CREDIT creature 147616: no spawn, no credit; WARN OBJ_NO_CREDIT creature 147617: no spawn, no credit"
+54287,Naga Attack!,8501,2,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 147752: no spawn, no credit; WARN OBJ_NO_CREDIT creature 147769: no spawn, no credit; WARN OBJ_NO_CREDIT creature 147763: no spawn, no credit"
+54507,Fungal Infestation,8721,2,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148197: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148252: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148210: no spawn, no credit"
+54511,Down with the Death Captains!,8499,2,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148253: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148257: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148259: no spawn, no credit"
+54512,Cleansing Tide,8500,2,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148284: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148273: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148360: no spawn, no credit"
+54786,Stop the Shipments,8501,2,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 149305: no spawn, no credit; WARN OBJ_NO_CREDIT creature 149304: no spawn, no credit; WARN OBJ_NO_CREDIT creature 149298: no spawn, no credit"
+55982,The Lords of Water,10052,2,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 153604: no spawn, no credit; WARN OBJ_NO_CREDIT creature 153682: no spawn, no credit; WARN OBJ_NO_CREDIT creature 155488: no spawn, no credit"
+55997,Hungry Hungry Hydras,10052,2,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 153823: no spawn, no credit; WARN OBJ_NO_CREDIT creature 153801: no spawn, no credit; WARN OBJ_NO_CREDIT creature 153825: no spawn, no credit"
+56057,The Soulbinder,10052,2,3,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 152697: no spawn, no credit; WARN OBJ_NO_CREDIT creature 152729: no spawn, no credit; WARN OBJ_NO_CREDIT creature 152736: no spawn, no credit"
+47647,Monsters of Zem'lan,8501,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 129435: no spawn, no credit; WARN OBJ_NO_CREDIT creature 128369: no spawn, no credit"
+47704,Ranishu Feeding Frenzy,8501,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 137208: no spawn, no credit; WARN OBJ_NO_CREDIT creature 137194: no spawn, no credit"
+49397,Sausage Party,8721,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 137854: no spawn, no credit; WARN OBJ_NO_CREDIT creature 137865: no spawn, no credit"
+50195,Bilgemaul's Brigade,8721,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 132432: no spawn, no credit; WARN OBJ_NO_CREDIT creature 132479: no spawn, no credit"
+50206,Strike Back,8721,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 132451: no spawn, no credit; WARN OBJ_NO_CREDIT creature 132549: no spawn, no credit"
+50324,Picturesque Fizzsprings Resort,8567,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 133479: no spawn, no credit; WARN OBJ_NO_CREDIT creature 133484: no spawn, no credit"
+50529,The Spirits Within,8500,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134119: no spawn, no credit; WARN OBJ_NO_CREDIT creature 134140: no spawn, no credit"
+50651,Cut Off Potential,8499,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134315: no spawn, no credit; WARN OBJ_NO_CREDIT creature 134585: no spawn, no credit"
+50665,Cancel the Blood Troll Apocalypse,8500,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134758: no spawn, no credit; WARN OBJ_NO_CREDIT creature 134664: no spawn, no credit"
+50735,Burial Detail,8500,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134995: no spawn, no credit; WARN OBJ_NO_CREDIT creature 135028: no spawn, no credit"
+51250,Buzz Off!,8501,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 137063: no spawn, no credit; WARN OBJ_NO_CREDIT creature 136393: no spawn, no credit"
+51454,Once More Into Battle,8721,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 137788: no spawn, no credit; WARN OBJ_NO_CREDIT creature 137793: no spawn, no credit"
+51530,Wedding Crashers,8721,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 137909: no spawn, no credit; WARN OBJ_NO_CREDIT creature 137938: no spawn, no credit"
+51566,Resurgence of the Beast,8567,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 129456: no spawn, no credit; WARN OBJ_NO_CREDIT creature 132115: no spawn, no credit"
+51585,Quit Your Witchin',8721,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 125023: no spawn, no credit; WARN OBJ_NO_CREDIT creature 128326: no spawn, no credit"
+51625,Shell Game,8721,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138476: no spawn, no credit; WARN OBJ_NO_CREDIT creature 137973: no spawn, no credit"
+51626,Shell Game,8567,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 144350: no spawn, no credit; WARN OBJ_NO_CREDIT creature 137973: no spawn, no credit"
+51627,Shell Game,9042,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 144351: no spawn, no credit; WARN OBJ_NO_CREDIT creature 137973: no spawn, no credit"
+51628,Shell Game,8500,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 144352: no spawn, no credit; WARN OBJ_NO_CREDIT creature 137973: no spawn, no credit"
+51630,Shell Game,8499,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 144354: no spawn, no credit; WARN OBJ_NO_CREDIT creature 137973: no spawn, no credit"
+51633,Make Loh Go,9042,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 144360: no spawn, no credit; WARN OBJ_NO_CREDIT creature 138037: no spawn, no credit"
+51635,Make Loh Go,8501,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138480: no spawn, no credit; WARN OBJ_NO_CREDIT creature 138037: no spawn, no credit"
+51636,Make Loh Go,8499,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 144362: no spawn, no credit; WARN OBJ_NO_CREDIT creature 138037: no spawn, no credit"
+51637,Beachhead,8721,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138478: no spawn, no credit; WARN OBJ_NO_CREDIT creature 138330: no spawn, no credit"
+51638,Beachhead,8567,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 144356: no spawn, no credit; WARN OBJ_NO_CREDIT creature 138330: no spawn, no credit"
+51639,Beachhead,9042,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 144355: no spawn, no credit; WARN OBJ_NO_CREDIT creature 138330: no spawn, no credit"
+51640,Beachhead,8500,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 144357: no spawn, no credit; WARN OBJ_NO_CREDIT creature 138330: no spawn, no credit"
+51683,Slash and Burn Tactics,8721,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138525: no spawn, no credit; WARN OBJ_NO_CREDIT creature 138527: no spawn, no credit"
+51719,A Glaive Mistake,8721,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138732: no spawn, no credit; WARN OBJ_NO_CREDIT creature 138752: no spawn, no credit"
+51727,A Shot at the Dark Iron,8721,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138768: no spawn, no credit; WARN OBJ_NO_CREDIT creature 138765: no spawn, no credit"
+51747,Early Warning,8721,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138810: no spawn, no credit; WARN OBJ_NO_CREDIT creature 138791: no spawn, no credit"
+51760,Ranishu Feeding Frenzy,8501,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 137208: no spawn, no credit; WARN OBJ_NO_CREDIT creature 137194: no spawn, no credit"
+51827,They Came From Behind!,9042,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139085: no spawn, no credit; WARN OBJ_NO_CREDIT creature 139149: no spawn, no credit"
+51828,Burning the Legion,9042,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139141: no spawn, no credit; WARN GO_OTHERMAP GO 291106 maps [,8,7,0,,, ,1,0,6,4,]"
+51832,Beat Around The Bush,8721,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139079: no spawn, no credit; WARN OBJ_NO_CREDIT creature 139092: no spawn, no credit"
+51997,Thar She Sinks,8501,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139508: no spawn, no credit; WARN OBJ_NO_CREDIT creature 139511: no spawn, no credit"
+52004,Counter Intelligence,9042,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139525: no spawn, no credit; WARN OBJ_NO_CREDIT creature 139518: no spawn, no credit"
+52006,Preemptive Assault,8500,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139554: no spawn, no credit; WARN GO_OTHERMAP GO 291215 maps [,0,]"
+52007,Engines of War,8500,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139316: no spawn, no credit; WARN OBJ_NO_CREDIT creature 139510: no spawn, no credit"
+52047,Against the Storm,8567,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 136166: no spawn, no credit; WARN OBJ_NO_CREDIT creature 139699: no spawn, no credit"
+52057,Against the Storm,8567,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 136166: no spawn, no credit; WARN OBJ_NO_CREDIT creature 139699: no spawn, no credit"
+52059,Thar She Sinks,8501,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139508: no spawn, no credit; WARN OBJ_NO_CREDIT creature 139511: no spawn, no credit"
+52250,Saving Xibala,8499,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 141793: no spawn, no credit; WARN OBJ_NO_CREDIT creature 141640: no spawn, no credit"
+52317,"No Ptake, Only Throw",8499,2,2,"BLOCK NPC_NOSPAWN creature 133679 no spawn; BLOCK NPC_NOSPAWN creature 141025 no spawn; WARN OBJ_NO_CREDIT creature 141025: no spawn, no credit; WARN OBJ_NO_CREDIT creature 141220: no spawn, no credit"
+52757,Grimestone Crimes,8567,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 127290: no spawn, no credit; WARN OBJ_NO_CREDIT creature 141553: no spawn, no credit"
+53706,Salvage the Supplies,9042,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 144801: no spawn, no credit; WARN OBJ_NO_CREDIT creature 144897: no spawn, no credit"
+53707,Smoke the Supplies,9042,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 144801: no spawn, no credit; WARN OBJ_NO_CREDIT creature 144890: no spawn, no credit"
+53771,Gurin Stonebinder,9042,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 144997: no spawn, no credit; WARN OBJ_NO_CREDIT creature 145020: no spawn, no credit"
+53832,Counter-Sabotage,8567,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 145355: no spawn, no credit; WARN OBJ_NO_CREDIT creature 145410: no spawn, no credit"
+54182,Bilgewater Bash Brothers,8567,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 147061: no spawn, no credit; WARN OBJ_NO_CREDIT creature 147062: no spawn, no credit"
+54245,Azerite Altercation,8501,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 145432: no spawn, no credit; WARN OBJ_NO_CREDIT creature 146917: no spawn, no credit"
+54246,Azerite Altercation,8501,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 145432: no spawn, no credit; WARN OBJ_NO_CREDIT creature 146917: no spawn, no credit"
+54251,The Ambassador,8567,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 145392: no spawn, no credit; WARN OBJ_NO_CREDIT creature 145395: no spawn, no credit"
+54403,Tidesage Clarissa,9042,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 147941: no spawn, no credit; WARN OBJ_NO_CREDIT creature 147951: no spawn, no credit"
+54414,Gale's Unrest,9042,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148022: no spawn, no credit; WARN OBJ_NO_CREDIT creature 147931: no spawn, no credit"
+54448,Elemental Azerite,8721,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 145432: no spawn, no credit; WARN OBJ_NO_CREDIT creature 146917: no spawn, no credit"
+54449,Elemental Azerite,8721,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 145432: no spawn, no credit; WARN OBJ_NO_CREDIT creature 146917: no spawn, no credit"
+54498,Stack On The Tank,8499,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148174: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148179: no spawn, no credit"
+54505,Get On The Payload,8499,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148215: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148216: no spawn, no credit"
+54506,Fungal Infestation,8721,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148252: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148210: no spawn, no credit"
+54516,Crate n' Barrel,8499,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148229: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148281: no spawn, no credit"
+54524,Crate n' Barrel,8499,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148328: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148281: no spawn, no credit"
+54532,Receding Treeline,8499,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148390: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148393: no spawn, no credit"
+54649,Flames of War,8501,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148597: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148604: no spawn, no credit"
+54662,Brought to Light,8721,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148703: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148639: no spawn, no credit"
+54685,They Love Iron,8499,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148702: no spawn, no credit; WARN OBJ_NO_CREDIT creature 148433: no spawn, no credit"
+55264,Calligraphy,8721,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 151489: no spawn, no credit; WARN OBJ_NO_CREDIT creature 151379: no spawn, no credit"
+55340,Calligraphy,8567,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 151489: no spawn, no credit; WARN OBJ_NO_CREDIT creature 151379: no spawn, no credit"
+55341,Calligraphy,9042,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 151489: no spawn, no credit; WARN OBJ_NO_CREDIT creature 151379: no spawn, no credit"
+55342,Calligraphy,8500,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 151489: no spawn, no credit; WARN OBJ_NO_CREDIT creature 151379: no spawn, no credit"
+55343,Calligraphy,8501,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 151489: no spawn, no credit; WARN OBJ_NO_CREDIT creature 151379: no spawn, no credit"
+55344,Calligraphy,8499,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 151489: no spawn, no credit; WARN OBJ_NO_CREDIT creature 151379: no spawn, no credit"
+55970,Attrition,10052,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 153802: no spawn, no credit; WARN OBJ_NO_CREDIT creature 153758: no spawn, no credit"
+56041,Give 'Em Shell,10052,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 153944: no spawn, no credit; WARN OBJ_NO_CREDIT creature 153946: no spawn, no credit"
+56419,The Doppel Gang,10290,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 155060: no spawn, no credit; WARN OBJ_NO_CREDIT creature 155088: no spawn, no credit"
+57335,Murloc Mayhem,10052,2,2,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 152641: no spawn, no credit; WARN OBJ_NO_CREDIT creature 152635: no spawn, no credit"
+45972,The Accursed Thicket,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 129904: no spawn, no credit"
+47529,Supernatural Support,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 122860: no spawn, no credit"
+49073,Ritualistic Denial,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 127967: no spawn, no credit"
+49413,Scamps With Scrolls,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 129394: no spawn, no credit"
+49444,Underfoot,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 129646: no spawn, no credit"
+49994,Sliding with Style,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 131573: no spawn, no credit"
+50000,Beastly Dealings,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 144260: no spawn, no credit"
+50164,Polly Want A Cracker?,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 132339: no spawn, no credit"
+50299,Gryphon Wranglin',8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 133323: no spawn, no credit"
+50321,Mojo Mischief,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 133460: no spawn, no credit"
+50322,A Feathery Fad,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 141051: no spawn, no credit"
+50375,Ride With Me,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 133580: no spawn, no credit"
+50443,Down to the Roots,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 131596: no spawn, no credit"
+50459,Vugthuth,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 128584: no spawn, no credit"
+50461,Zujothgul,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 128578: no spawn, no credit"
+50483,Underlord Xerxiz,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134002: no spawn, no credit"
+50501,Queen Tzxi'kik,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 128974: no spawn, no credit"
+50505,Kal'draxa,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 124397: no spawn, no credit"
+50510,Overstuffed Saurolisk,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 124375: no spawn, no credit"
+50521,Scorched Earth,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134065: no spawn, no credit"
+50540,Rally the Rastari,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134196: no spawn, no credit"
+50548,Enforcing the Will of the King,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 133375: no spawn, no credit"
+50549,Absolutely Barbaric,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134259: no spawn, no credit"
+50566,Lost Scroll,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134294: no spawn, no credit"
+50568,Chag's Challenge,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134296: no spawn, no credit"
+50574,Preservation Methods,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134315: no spawn, no credit"
+50577,Unaccounted For,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134326: no spawn, no credit"
+50591,Son of a Bee,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 140275: no spawn, no credit"
+50648,Bubbles and Trouble,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134583: no spawn, no credit"
+50667,Past Due,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 136316: no spawn, no credit"
+50676,River Toll,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134740: no spawn, no credit"
+50689,It's the Pits,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134759: no spawn, no credit"
+50695,It's Never Time for Cannibalism,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134761: no spawn, no credit"
+50756,Subterranean Evacuation,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 135122: no spawn, no credit"
+50765,Herding Children,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 135152: no spawn, no credit"
+50776,False Prophets,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 135233: no spawn, no credit"
+50782,Word on the Streets,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 135218: no spawn, no credit"
+50786,Revenge of Krag'wa,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134982: no spawn, no credit"
+50796,SKREEEEE!,8499,2,1,"BLOCK NPC_NOSPAWN creature 133678 no spawn; BLOCK NPC_NOSPAWN creature 135279 no spawn; WARN OBJ_NO_CREDIT creature 135279: no spawn, no credit"
+50801,A Nose for Ptrouble,8499,2,1,BLOCK NPC_NOSPAWN creature 133678 no spawn; BLOCK NPC_NOSPAWN creature 135308 no spawn; WARN NPC_LUA_ONLY creature 135303 no spawn (script/credit)
+50813,Cargo Reclamation,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 135377: no spawn, no credit"
+50838,A Nose for Ptrouble,8499,2,1,BLOCK NPC_NOSPAWN creature 133679 no spawn; BLOCK NPC_NOSPAWN creature 135308 no spawn; WARN NPC_LUA_ONLY creature 135464 no spawn (script/credit)
+50839,SKREEEEE!,8499,2,1,"BLOCK NPC_NOSPAWN creature 133679 no spawn; BLOCK NPC_NOSPAWN creature 135455 no spawn; WARN OBJ_NO_CREDIT creature 135455: no spawn, no credit"
+50841,SKREEEEE!,8499,2,1,"BLOCK NPC_NOSPAWN creature 133680 no spawn; BLOCK NPC_NOSPAWN creature 135502 no spawn; WARN OBJ_NO_CREDIT creature 135502: no spawn, no credit"
+50847,Twisted Child of Rezan,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 130643: no spawn, no credit"
+50848,Brgl-Lrgl the Basher,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134643: no spawn, no credit"
+50849,Witch Doctor Habra'du,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134651: no spawn, no credit"
+50850,Tia'Kawan,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 133163: no spawn, no credit"
+50851,Mor'fani the Exile,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134694: no spawn, no credit"
+50852,Lady Seirine,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134707: no spawn, no credit"
+50853,Umbra'rix,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134717: no spawn, no credit"
+50854,Crimsonclaw,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 122004: no spawn, no credit"
+50857,Golrakahn,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 124185: no spawn, no credit"
+50860,A Nose for Ptrouble,8499,2,1,BLOCK NPC_NOSPAWN creature 133680 no spawn; BLOCK NPC_NOSPAWN creature 135308 no spawn; WARN NPC_LUA_ONLY creature 135504 no spawn (script/credit)
+50867,Tambano,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 131687: no spawn, no credit"
+50869,Kiboku,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 132244: no spawn, no credit"
+50871,Daggerjaw,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 133190: no spawn, no credit"
+50876,Murderbeak,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134782: no spawn, no credit"
+50930,Falling With Style,8499,2,1,"BLOCK NPC_NOSPAWN creature 135308 no spawn; BLOCK NPC_NOSPAWN creature 141026 no spawn; WARN OBJ_NO_CREDIT creature 141026: no spawn, no credit"
+50957,Wrath of Rezan,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 135908: no spawn, no credit"
+50959,Plundering Pirates,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 135898: no spawn, no credit"
+50962,Cargo Reclamation,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 135377: no spawn, no credit"
+50969,Emergency Management,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 136897: no spawn, no credit"
+51064,Azerite Wounds,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 136306: no spawn, no credit"
+51097,Bloated Krolusk,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 129476: no spawn, no credit"
+51099,Gut-Gut the Glutton,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 128674: no spawn, no credit"
+51102,Kamid the Trapper,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 128686: no spawn, no credit"
+51105,Ak'tar,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 135852: no spawn, no credit"
+51109,Scorched Earth,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134065: no spawn, no credit"
+51115,Zunashi the Exile,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 129411: no spawn, no credit"
+51116,Skycarver Krakit,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134745: no spawn, no credit"
+51118,Bloodwing Bonepicker,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 136393: no spawn, no credit"
+51119,Vathikur,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 130401: no spawn, no credit"
+51120,"Stef ""Marrow"" Quin",8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 136346: no spawn, no credit"
+51121,Enraged Krolusk,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 136335: no spawn, no credit"
+51122,Scorpox,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 136336: no spawn, no credit"
+51131,Absolutely Barbaric,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134259: no spawn, no credit"
+51153,Mor'fani the Exile,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134694: no spawn, no credit"
+51154,Past Due,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 136316: no spawn, no credit"
+51155,Brgl-Lrgl the Basher,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134643: no spawn, no credit"
+51156,Fangcaller Xorreth,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 136323: no spawn, no credit"
+51157,Golanar,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 129027: no spawn, no credit"
+51166,Down to the Roots,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 131596: no spawn, no credit"
+51175,Azerite Wounds,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 136306: no spawn, no credit"
+51176,Unaccounted For,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 136681: no spawn, no credit"
+51185,Azerite Empowerment,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 136732: no spawn, no credit"
+51198,Fertilizer Duty,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 136770: no spawn, no credit"
+51225,Albatrocity,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 136284: no spawn, no credit"
+51238,Abandoned in the Burrows,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138966: no spawn, no credit"
+51285,Feeding Frenzy,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 137085: no spawn, no credit"
+51315,Wild Flutterbies,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 150279: no spawn, no credit"
+51318,Go for the Boat,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 137159: no spawn, no credit"
+51406,The Lord's Hunt,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 125327: no spawn, no credit"
+51412,Azerite Empowerment,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 137663: no spawn, no credit"
+51428,Azerite Wounds,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 136306: no spawn, no credit"
+51433,Matron Morana,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 137704: no spawn, no credit"
+51434,Stone Golem,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 137708: no spawn, no credit"
+51444,Azerite Empowerment,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 136702: no spawn, no credit"
+51457,Whargarble the Ill-Tempered,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 128973: no spawn, no credit"
+51461,Deathcap,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134706: no spawn, no credit"
+51495,Old Rotana,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 137852: no spawn, no credit"
+51496,Loa Your Standards,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 141913: no spawn, no credit"
+51497,Hex Education,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 137870: no spawn, no credit"
+51508,Vicemaul,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 127651: no spawn, no credit"
+51542,Avalanche,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 137825: no spawn, no credit"
+51546,It's the Pits,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139631: no spawn, no credit"
+51550,Bubbles and Trouble,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134583: no spawn, no credit"
+51558,Spider Scorching,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139271: no spawn, no credit"
+51559,Damaged Goods,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139370: no spawn, no credit"
+51561,Spider Scorching,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139271: no spawn, no credit"
+51562,Damaged Goods,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139370: no spawn, no credit"
+51564,Fertilizer Duty,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 136770: no spawn, no credit"
+51565,Feeding Frenzy,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 137085: no spawn, no credit"
+51576,Any Witch Way but Dead,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138156: no spawn, no credit"
+51579,Dark Ranger Clea,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138039: no spawn, no credit"
+51583,Azerite Wounds,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 136306: no spawn, no credit"
+51586,Azerite Empowerment,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138226: no spawn, no credit"
+51588,Familiar Foes,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 125094: no spawn, no credit"
+51604,Hunters Hunted,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 129904: no spawn, no credit"
+51609,Azerite Wounds,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 136306: no spawn, no credit"
+51610,Adhara White,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138279: no spawn, no credit"
+51611,Ghost of the Deep,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138288: no spawn, no credit"
+51612,Azerite Empowerment,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138295: no spawn, no credit"
+51613,Bloodmaw,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138299: no spawn, no credit"
+51616,A Final Rest,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138320: no spawn, no credit"
+51617,Azerite Empowerment,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138332: no spawn, no credit"
+51619,Trapline,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN GO_OTHERMAP GO 290718 maps [,2,4,4,4,]"
+51620,Natural Resources,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138357: no spawn, no credit"
+51621,Tidal Teachings,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 136248: no spawn, no credit"
+51622,Tidal Teachings,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 136248: no spawn, no credit"
+51623,Azerite Wounds,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 136306: no spawn, no credit"
+51629,Shell Game,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 137973: no spawn, no credit"
+51632,Make Loh Go,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138037: no spawn, no credit"
+51641,Beachhead,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138330: no spawn, no credit"
+51642,Beachhead,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138330: no spawn, no credit"
+51646,Polly Want A Cracker?,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 132339: no spawn, no credit"
+51653,Auditor Dolp,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 132182: no spawn, no credit"
+51656,Saurolisk Tamer Mugg,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 127290: no spawn, no credit"
+51657,Twin-Hearted Construct,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 131984: no spawn, no credit"
+51658,Fly the Coop!,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134030: no spawn, no credit"
+51660,Pack Leader Asenya,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 131262: no spawn, no credit"
+51666,Bashmu,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 132068: no spawn, no credit"
+51667,This Bird You Cannot Change,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138405: no spawn, no credit"
+51672,Tangled Webs,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 144214: no spawn, no credit"
+51681,Basic Witch,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 129033: no spawn, no credit"
+51690,The Shadows of Corlain,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138543: no spawn, no credit"
+51694,Which Witch?,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 131189: no spawn, no credit"
+51697,Hunting for Truffle Hunters,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138610: no spawn, no credit"
+51699,Blighted Monstrosity,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138667: no spawn, no credit"
+51706,Deadwood,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134323: no spawn, no credit"
+51740,Hunting for Truffle Hunters,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138610: no spawn, no credit"
+51746,The Shadows of Corlain,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138543: no spawn, no credit"
+51754,Dogged Tenacity,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138874: no spawn, no credit"
+51761,Familiar Foes,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 125094: no spawn, no credit"
+51763,Zem'lan Rescue,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138974: no spawn, no credit"
+51764,Hunters Hunted,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 129904: no spawn, no credit"
+51765,Tangled Webs,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 144216: no spawn, no credit"
+51767,Trapline,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN GO_OTHERMAP GO 290718 maps [,2,4,4,4,]"
+51768,Natural Resources,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138357: no spawn, no credit"
+51783,Zem'lan Rescue,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138974: no spawn, no credit"
+51820,Oily Mess,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139215: no spawn, no credit"
+51831,Swift Strike,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139296: no spawn, no credit"
+51834,No Negotiations,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139234: no spawn, no credit"
+51840,Oily Mess,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139215: no spawn, no credit"
+51842,Carla Smirk,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139152: no spawn, no credit"
+51844,Gulliver,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139233: no spawn, no credit"
+51848,Captain Wintersail,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 132088: no spawn, no credit"
+51849,Tempestria,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 133356: no spawn, no credit"
+51850,Preserve the Oasis,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139249: no spawn, no credit"
+51853,Preserve the Oasis,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139249: no spawn, no credit"
+51855,A Pirate's Life For Me,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139262: no spawn, no credit"
+51884,Haywire Golem,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138618: no spawn, no credit"
+51893,Sawtooth,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139287: no spawn, no credit"
+51894,Tentulos the Drifter,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139289: no spawn, no credit"
+51895,Maison the Portable,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139290: no spawn, no credit"
+51897,Rimestone,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 128707: no spawn, no credit"
+51905,Reinforced Hullbreaker,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 132047: no spawn, no credit"
+51906,Sister Martha,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138863: no spawn, no credit"
+51917,Beshol,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 129805: no spawn, no credit"
+51920,Cottontail Matron,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 129904: no spawn, no credit"
+51921,Slickspill,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139319: no spawn, no credit"
+51947,Sabertron,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139328: no spawn, no credit"
+51972,Lost Goat,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 127844: no spawn, no credit"
+51974,Sabertron,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139359: no spawn, no credit"
+51977,Sabertron,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139335: no spawn, no credit"
+51981,Earthcaller's Abode,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139451: no spawn, no credit"
+51996,Earthcaller's Abode,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139451: no spawn, no credit"
+52010,The Tendrils of Fate,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 136166: no spawn, no credit"
+52011,Fiendish Fields,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139577: no spawn, no credit"
+52054,Too Much To Bear,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139802: no spawn, no credit"
+52056,The Tendrils of Fate,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 136166: no spawn, no credit"
+52064,Fiendish Fields,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139577: no spawn, no credit"
+52115,In the Shadow of the Kraken,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139930: no spawn, no credit"
+52133,Good Boy!,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 140150: no spawn, no credit"
+52140,A Thorny Problem,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 140629: no spawn, no credit"
+52143,Smaller Haulers,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 142727: no spawn, no credit"
+52157,A Chilling Encounter,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 140252: no spawn, no credit"
+52159,Swab This!,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 145236: no spawn, no credit"
+52163,The Winged Typhoon,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 136385: no spawn, no credit"
+52164,Rum- Paaaage!,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 140365: no spawn, no credit"
+52166,The Faceless Herald,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 140163: no spawn, no credit"
+52167,Hardcore Raiders,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 142810: no spawn, no credit"
+52168,It's Lit,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 140368: no spawn, no credit"
+52179,Fortified Resistance,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 141200: no spawn, no credit"
+52181,Smoke and Shadow,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 132701: no spawn, no credit"
+52196,Sandswept Bones,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138794: no spawn, no credit"
+52199,Rum- Paaaage!,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 140365: no spawn, no credit"
+52230,Loose Change,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 129618: no spawn, no credit"
+52236,A Thorny Problem,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 140629: no spawn, no credit"
+52239,Loose Change,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 129618: no spawn, no credit"
+52299,Whiplash,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 129803: no spawn, no credit"
+52309,SandFang,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139988: no spawn, no credit"
+52315,Severus the Outcast,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 140997: no spawn, no credit"
+52322,Taja the Tidehowler,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139980: no spawn, no credit"
+52328,Ice Sickle,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 141039: no spawn, no credit"
+52330,Beehemoth,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 134147: no spawn, no credit"
+52352,Zeritarj,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 140398: no spawn, no credit"
+52748,Eyes on the Skies,8499,2,1,"BLOCK NPC_NOSPAWN creature 133682 no spawn; BLOCK NPC_NOSPAWN creature 135308 no spawn; WARN OBJ_NO_CREDIT creature 135595: no spawn, no credit"
+52756,Snow Way Out,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 141548: no spawn, no credit"
+52832,Azerite Empowerment,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 141905: no spawn, no credit"
+52858,Azerite Empowerment,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 141959: no spawn, no credit"
+52862,Azerite Empowerment,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 141970: no spawn, no credit"
+52880,Milden Mud Snout,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 141977: no spawn, no credit"
+52882,Controlled Burn,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 142093: no spawn, no credit"
+52884,Azerite Wounds,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 142107: no spawn, no credit"
+52889,Sandscour,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 139515: no spawn, no credit"
+52891,Wendigo to Sleep,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 142790: no spawn, no credit"
+52935,A New Era,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 142214: no spawn, no credit"
+52947,Ettin Outta Here,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 142783: no spawn, no credit"
+52964,Pest Problem,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 142743: no spawn, no credit"
+52972,Favored Grandchild,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 142932: no spawn, no credit"
+52979,Ritual Cleansing,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 142345: no spawn, no credit"
+52982,Mine or Trouble,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 142817: no spawn, no credit"
+52986,A Wicked Vessel,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 142345: no spawn, no credit"
+52987,Let's Burn!,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 142394: no spawn, no credit"
+52988,House Cleaning,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 142401: no spawn, no credit"
+53008,Sage Wisdom,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 142401: no spawn, no credit"
+53012,Put Away Your Toys,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 138904: no spawn, no credit"
+53025,The Culling,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 142516: no spawn, no credit"
+53027,Edge of Glory,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 142516: no spawn, no credit"
+53188,Frozen Freestyle,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 131573: no spawn, no credit"
+53189,Slippery Slopes,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 131573: no spawn, no credit"
+53196,Swab This!,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 145236: no spawn, no credit"
+53271,Blooming Star Moss,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 143403: no spawn, no credit"
+53272,Blooming Siren's Sting,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 143404: no spawn, no credit"
+53273,Winter's Kiss Cluster,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 143407: no spawn, no credit"
+53279,Blooming Star Moss,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 143403: no spawn, no credit"
+53280,Blooming Siren's Sting,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 143404: no spawn, no credit"
+53281,Winter's Kiss Cluster,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 143407: no spawn, no credit"
+53285,Blooming Star Moss,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 143403: no spawn, no credit"
+53286,Blooming Siren's Sting,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 143404: no spawn, no credit"
+53287,Winter's Kiss Cluster,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 143407: no spawn, no credit"
+53291,Blooming Star Moss,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 143403: no spawn, no credit"
+53292,Blooming Siren's Sting,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 143404: no spawn, no credit"
+53294,Akunda's Bite Cluster,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 143427: no spawn, no credit"
+53298,Blooming Star Moss,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 143403: no spawn, no credit"
+53299,Blooming Siren's Sting,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 143404: no spawn, no credit"
+53303,Blooming Star Moss,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 143403: no spawn, no credit"
+53304,Blooming Siren's Sting,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 143404: no spawn, no credit"
+53331,Show-Off,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 128034: no spawn, no credit"
+53699,Gate Crashers,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 144728: no spawn, no credit"
+53714,Apothecary Jerrod,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 144855: no spawn, no credit"
+53715,Firewarden Viton Darkflare,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 144915: no spawn, no credit"
+53716,Eastpoint Emergency,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 144911: no spawn, no credit"
+53724,Shadow Hunter Mutumba,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 144987: no spawn, no credit"
+53752,Shell Outs,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 131037: no spawn, no credit"
+53753,Shell Outs,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 131053: no spawn, no credit"
+53759,Look Out Below!,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 145241: no spawn, no credit"
+53772,Zagg Brokeneye,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 145112: no spawn, no credit"
+53784,Siege Engineer Krackleboom,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 145161: no spawn, no credit"
+53804,Dinomancer Zakuru,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 145278: no spawn, no credit"
+53814,First Sergeant Steelfang,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 145308: no spawn, no credit"
+53857,Cap'n Gorok,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 145415: no spawn, no credit"
+53867,Engineer Bolthold,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 145465: no spawn, no credit"
+53878,Emergency Extrication,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 144911: no spawn, no credit"
+53983,Wet Work: Fort Knight,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 147001: no spawn, no credit"
+54089,Omgar Doombow,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 146607: no spawn, no credit"
+54091,Strong Arm John,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 146611: no spawn, no credit"
+54112,Mistweaver Nian,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 146651: no spawn, no credit"
+54119,Hartford Sternbach,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 146675: no spawn, no credit"
+54129,First Mate Malone,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 146773: no spawn, no credit"
+54143,Bird's-Eye View,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 146819: no spawn, no credit"
+54154,The Hills Have Spies,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 146946: no spawn, no credit"
+54162,Hard Landing,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 147778: no spawn, no credit"
+54166,Set Sail,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 147590: no spawn, no credit"
+54167,Set Sail,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 147590: no spawn, no credit"
+54170,Ormin Rocketbop,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 146979: no spawn, no credit"
+54237,Togoth Cruelarm,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 144722: no spawn, no credit"
+54253,Bombs Away,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 147449: no spawn, no credit"
+54257,Captain Greensails,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 147489: no spawn, no credit"
+54266,Mortar Master Zapfritz,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 147562: no spawn, no credit"
+54272,Battle Bots,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 147649: no spawn, no credit"
+54273,Battle Bots,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 147638: no spawn, no credit"
+54281,Bombing Ballistae,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 147706: no spawn, no credit"
+54295,Artillery Master Goodwin,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 147750: no spawn, no credit"
+54298,Gravity Matters,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 147839: no spawn, no credit"
+54328,Knight-Captain Joesiph,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 147923: no spawn, no credit"
+54434,Voidmaster Evenshade,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 147998: no spawn, no credit"
+54437,Owynn Graddock,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148044: no spawn, no credit"
+54442,Beast Tamer Watkins,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148075: no spawn, no credit"
+54468,Nalaess Featherseeker,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148092: no spawn, no credit"
+54471,Tend the Wounded,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148129: no spawn, no credit"
+54488,Zul'aki the Headhunter,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148146: no spawn, no credit"
+54504,Scout Captain Grizzleknob,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148198: no spawn, no credit"
+54508,No Bridge Too Dire,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148231: no spawn, no credit"
+54513,Dino Time!,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148264: no spawn, no credit"
+54515,Tidebinder Maka,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148276: no spawn, no credit"
+54522,Short for an Orc,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148308: no spawn, no credit"
+54523,Blinky Gizmospark,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148322: no spawn, no credit"
+54527,Dinohunter Wildbeard,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148343: no spawn, no credit"
+54533,Barreling Through,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148405: no spawn, no credit"
+54534,The Blightest Touch,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148405: no spawn, no credit"
+54535,Portal Keeper Romiir,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148403: no spawn, no credit"
+54537,Bilestomper,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148428: no spawn, no credit"
+54554,Wolfleader Skraug,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148446: no spawn, no credit"
+54555,Siege O' Matic 9000,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148451: no spawn, no credit"
+54574,Jin'tago,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148456: no spawn, no credit"
+54609,Beastlord Drakara,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148477: no spawn, no credit"
+54636,Sandbinder Sodir,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148494: no spawn, no credit"
+54638,Beat Up the Drums,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148510: no spawn, no credit"
+54643,Evezon the Eternal,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148534: no spawn, no credit"
+54645,Fury of the Earth,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148558: no spawn, no credit"
+54646,Grand Marshal Fury,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 146942: no spawn, no credit"
+54650,Muk'luk,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148155: no spawn, no credit"
+54663,Shadow Hunter Vol'tris,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148637: no spawn, no credit"
+54665,Duchess Fallensong,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148563: no spawn, no credit"
+54666,Packmaster Swiftarrow,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148648: no spawn, no credit"
+54671,Overgrown Ancient,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148651: no spawn, no credit"
+54680,Plague Master Herbert,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148674: no spawn, no credit"
+54684,Arcanist Quintril,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148679: no spawn, no credit"
+54686,Medical Emergency,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148695: no spawn, no credit"
+54688,Inquisitor Erik,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148717: no spawn, no credit"
+54690,Maddok the Sniper,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148723: no spawn, no credit"
+54691,Brewmaster Lin,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148744: no spawn, no credit"
+54692,Magister Crystalynn,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148739: no spawn, no credit"
+54693,Pterror of the Horde,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148753: no spawn, no credit"
+54694,Stormcaller Morka,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148759: no spawn, no credit"
+54697,Lightforged Warframe,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148779: no spawn, no credit"
+54699,Classic Gnomish Engineering,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148792: no spawn, no credit"
+54700,Thomas Vandergrief,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148813: no spawn, no credit"
+54701,Wrath of the Ravasaur,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148849: no spawn, no credit"
+54707,Siegeotron,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148842: no spawn, no credit"
+54711,Zillie Wunderwrench and Grizzwald,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148862: no spawn, no credit"
+54712,Spell Components,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 148895: no spawn, no credit"
+54839,Rightfully Ours,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 149383: no spawn, no credit"
+55215,The Cycle of Life,8721,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 150646: no spawn, no credit"
+55300,The Cycle of Life,8567,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 150646: no spawn, no credit"
+55301,The Cycle of Life,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 150646: no spawn, no credit"
+55302,The Cycle of Life,8500,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 150646: no spawn, no credit"
+55303,The Cycle of Life,8501,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 150646: no spawn, no credit"
+55304,The Cycle of Life,8499,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 150646: no spawn, no credit"
+55887,"Champion Alzana, Arrow of Thunder",10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 153309: no spawn, no credit"
+55888,"Champion Qalina, Spear of Ice",10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 153310: no spawn, no credit"
+55889,Champion Kyx'zhul the Deepspeaker,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 153312: no spawn, no credit"
+55891,"Champion Aldrantiss, Defender of Her Kingdom",10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 153314: no spawn, no credit"
+55892,"Champion Eldanar, Shield of Her Glory",10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 153315: no spawn, no credit"
+55893,"Azanz, the Slitherblade",10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 153311: no spawn, no credit"
+55895,Frozen Winds of Zhiela,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 153302: no spawn, no credit"
+55896,"Undana, Chilling Assassin",10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 153304: no spawn, no credit"
+55897,"Szun, Breaker of Slaves",10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 153299: no spawn, no credit"
+55898,Tempest-Speaker Shalan'ali,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 153296: no spawn, no credit"
+55899,Starseeker of the Shirakess,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 153301: no spawn, no credit"
+55900,"Kassar, Wielder of Dark Blades",10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 153303: no spawn, no credit"
+55973,Deepcoil Experiments,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 153835: no spawn, no credit"
+56003,Runelocked Chest,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 94878: no spawn, no credit"
+56006,Runelocked Chest,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 94878: no spawn, no credit"
+56007,Runelocked Chest,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 94878: no spawn, no credit"
+56008,Runelocked Chest,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 94878: no spawn, no credit"
+56009,Runelocked Chest,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 94878: no spawn, no credit"
+56010,Runelocked Chest,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 94878: no spawn, no credit"
+56011,Runelocked Chest,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 93588: no spawn, no credit"
+56012,Runelocked Chest,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 93588: no spawn, no credit"
+56013,Runelocked Chest,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 93588: no spawn, no credit"
+56014,Runelocked Chest,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 93588: no spawn, no credit"
+56015,Runelocked Chest,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 93588: no spawn, no credit"
+56016,Runelocked Chest,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 93588: no spawn, no credit"
+56017,Runelocked Chest,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 94848: no spawn, no credit"
+56018,Runelocked Chest,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 94848: no spawn, no credit"
+56019,Runelocked Chest,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 94848: no spawn, no credit"
+56020,Runelocked Chest,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 94848: no spawn, no credit"
+56021,Runelocked Chest,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 94848: no spawn, no credit"
+56022,Runelocked Chest,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 94848: no spawn, no credit"
+56023,Leylocked Chest,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 91947: no spawn, no credit"
+56024,Leylocked Chest,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 91365: no spawn, no credit"
+56025,Leylocked Chest,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 92323: no spawn, no credit"
+56032,Dirty Dozen,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 153893: no spawn, no credit"
+56036,A Steamy Situation,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 153916: no spawn, no credit"
+56048,The Drowned Oracles,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 153948: no spawn, no credit"
+56107,One of the Hive,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 153365: no spawn, no credit"
+56108,Leaving the Hive,9042,2,1,"BLOCK NPC_NOQUESTFLAG creature 155558 npcflag=0; BLOCK NPC_NOSPAWN creature 155744 no spawn; WARN OBJ_NO_CREDIT creature 153365: no spawn, no credit"
+56109,Defender of the Hive,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 153365: no spawn, no credit"
+56110,A Defender Emerges,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 153365: no spawn, no credit"
+56111,The Usurper,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 153365: no spawn, no credit"
+56112,A Royal Awakening,9042,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 153365: no spawn, no credit"
+56778,A Glint in the Darkness,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 155661: no spawn, no credit"
+56780,"Hidden, But Dangerous",10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 155670: no spawn, no credit"
+56781,Treasure In The Deep,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 155673: no spawn, no credit"
+56783,The Lambent Lockbox,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 155662: no spawn, no credit"
+56785,The Mystic Chest,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 155671: no spawn, no credit"
+56788,Reclaimed Treasure,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 155672: no spawn, no credit"
+56790,Treasure To Find,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 155663: no spawn, no credit"
+56791,Mysterious Treasure,10052,2,1,"BLOCK NO_STARTER ; BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 155674: no spawn, no credit"
+47246,Remnants of the Damned,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+47512,Nazmir,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+47514,Zuldazar,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+47518,Raal,8499,2,0,BLOCK NPC_NOSPAWN creature 132041 no spawn; BLOCK NPC_NOSPAWN creature 133302 no spawn
+47520,Walls Have Ears,8499,2,0,BLOCK NPC_NOSPAWN creature 132041 no spawn; BLOCK NPC_NOSPAWN creature 133302 no spawn
+47588,King of the Hunt,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+47695,Sound the Alarm,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+47952,The Missing Fleet,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+47960,Tiragarde Sound,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+47962,Stormsong Valley,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+47982,The Final Effigy,8721,2,0,BLOCK GO_NOSPAWN GO 124417 no spawn; BLOCK GO_NOSPAWN GO 278675 no spawn
+48023,Orders Received,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+48104,A Greater Challenge,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+48176,Big Trouble in Little Tortolla,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+48452,The Red Market,8499,2,0,BLOCK OBJ_GO_NOSPAWN GO 273454: no spawn; BLOCK GO_NOSPAWN GO 273454 no spawn
+48515,Silver Blades,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+48604,"Home Again, Home Again",8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+48808,Thesis Statement,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+48852,Stopping Zardrax,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+48905,Unappreciated Scrolls,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+48949,Weeds of the Mire,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+49013,A Jolt of Power,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+49068,Quelling the Cove,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+49123,Killer Crawgs,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+49124,Tortollan Rescue,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+49315,Dreadpearl Collusion,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+49345,Buried Treasure,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+49376,Just One Thing,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+49408,Pirate Dice,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+49464,Saurolisk Tails,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+49488,Tal'gurub,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+49661,Locally Sourced Eggs,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+49766,Your Next Move,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+49767,Your Next Move,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+49769,Wreckage of the Cataclysm,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+49952,The Essence of G'huun,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+49991,Featherfeet's Fun Falling's Fun Fee!,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50084,"Back On Your Feet, Soldier",8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50091,Village Repair,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50234,Crews of Freehold,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50287,Unending Gorilla Warfare,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50295,Like Pulling Teeth,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50296,Billy Goat Barber,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50350,We Need a Chemist,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50369,Bruin Potions,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50448,Reclaiming Corlain,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50468,Shul-Nagruth,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50474,The Other Side,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50488,Ancient Jawbreaker,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50489,Xu'ba,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50490,Uroku the Bound,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50491,Corpse Bringer Yal'kar,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50492,Cursed Chest,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50496,Glompmaw,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50497,Krag'wa's Favor,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50498,Gutrip,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50499,Gwugnug,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50502,Jax'teb the Reanimated,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50503,Juba the Scarred,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50506,King Kooba,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50507,Krubbs,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50509,Lo'kuno,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50511,Bajiatha,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50512,Scout Skrasniss,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50513,Tainted Guardian,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50514,Totem Maker Jash'ga,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50515,Venomjaw,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50516,Wardrummer Zurula,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50517,Mala'kili and Rohnkor,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50518,Zanxib,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50519,Za'amar,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50545,Forked Lightning,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50547,Knives of Zul,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50559,Getting Out of Hand,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50564,Azerite Infused Slag,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50570,Azerite Infused Elemental,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50571,Eggstermination,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50572,Bloody Intrusion,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50578,Bring Ruin Again,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50581,Scrolls and Scales,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50592,Tiny Terror,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50633,Pterrible Ingredients,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50634,Save Our Scrolls!,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50636,Ravoracious,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50652,Biting the Hand that Feeds Them,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50660,Survival Strategy,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50717,"Don't Stalk Me, Troll",8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50737,Silence the Speakers,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50743,The Immediate Problem,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50744,Refresh Their Memory,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50747,No Good Amani,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50767,The Scrimshaw Gang,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50792,Taking Bribes,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50845,Kul'krazahn,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50846,Headhunter Lee'za,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50855,Old R'gal,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50858,Sky Queen,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50859,Kandak,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50861,Torraske the Eternal,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50862,Bloodbulge,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50863,Avatar of Xolotal,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50864,Atal'zul Gotaka,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50866,Zayoos,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50868,Bramblewing,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50870,G'Naat,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50872,Warcrawler Karkithiss,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50873,Strange Egg,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50874,Hakbi the Risen,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50875,Darkspeaker Jo'la,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50877,Gahz'ralka,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50885,Lei-zhi,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50899,"Don't Stalk Me, Troll",8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50936,Survival Strategy,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50958,Watch Your Wallets,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50961,Save Our Scrolls!,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50964,Ritual Combat,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50966,Cleanup Crew,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50977,Smuggler Shakedown,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+50990,Cutting Edge Poultry Science,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51081,Syrawon the Dominus,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51084,Dark Chronicler,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51090,Picturesque Norwington Estate,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51092,Picturesque Boralus,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51095,Ashmane,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51096,Azer'tor,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51098,Commodore Calhoun,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51100,Jumbo Sandsnapper,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51103,Nez'ara,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51104,Skycaller Teskris,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51106,Songstress Nahjeen,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51107,Scaleclaw Broodmother,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51108,Hivemother Kraxi,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51112,Warbringer Hozzik,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51113,Warlord Zothix,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51114,Warmother Captive,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51117,Bajiani the Slick,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51123,Sirokar,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51124,Relic Hunter Hazaak,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51125,Jungleweb Hunter,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51127,Getting Out of Hand,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51172,Forked Lightning,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51173,Sandfishing,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51174,Instructions Not Included,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51178,Hundred Troll Holdout,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51179,Azerite Madness,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51180,Instructions Not Included,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51181,Instructions Not Included,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51210,Blast Back the Siege,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51223,Walking on Broken Glass,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51228,"Instant Meat, Ready to Eat",8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51232,Hundred Troll Holdout,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51239,Instructions Not Included,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51241,The Bear Witch Project,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51245,I'm a Lumberjack and I'm Okay,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51252,Kiro's Desert Flower,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51284,Falcon Hunt,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51305,Jelly Clouds,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51311,Energizing Extract,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51316,Walking in a Spiderweb,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51317,Grounding the Grimestone,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51322,Wings and Stingers,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51330,Resilient Seeds,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51333,Anchors Aweigh!,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51373,Ears Everywhere,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51374,Unending Gorilla Warfare,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51385,A Supply of Stingers,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51405,Corruption in the Bay,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51415,Azerite Madness,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51422,Azerite Madness,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51429,King Clickyclack,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51431,Soul Goliath,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51462,Paratroopers,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51463,Sky Drop Rescue,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51466,Arvon the Betrayed,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51467,Hyo'gi,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51468,Bonesquall,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51469,Betsy,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51491,Balethorn,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51494,The Blood Gate,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51505,Quillrat Matriarch,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51506,Barbthorn Queen,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51507,Gorehorn,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51512,Bilefang Mother,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51527,Executioner Blackwell,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51528,Captain Leadfist,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51529,Talon,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51541,Arclight,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51557,Irontide Warning,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51580,Rear Admiral Hainsworth,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51584,Azerite Madness,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51608,Azerite Madness,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51618,Azerite Madness,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51647,Crews of Freehold,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51651,Squacks,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51652,Barman Bill,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51654,Fowlmouth,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51655,Teres,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51659,Merianae,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51661,Raging Swell,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51662,Foxhollow Skyterror,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51664,Kulett the Ornery,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51665,Broodmother Razora,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51669,Black-Eyed Bart,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51670,Lumbergrasp Sentinel,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51671,Billy Goat Barber,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51676,What a Gull Wants,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51682,Witches by the Dozen,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51686,Where My Witches at?,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51687,A Smelly Solution,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51693,Intercepting the Irontide,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51707,More Valuable Than Gold,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51709,Bombarbment,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51710,Rise of the Yetis,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51737,Bruin Potions,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51738,Witches by the Dozen,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51739,Rise of the Yetis,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51741,Bombarbment,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51742,Intercepting the Irontide,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51743,More Valuable Than Gold,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51745,A Smelly Solution,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51758,Weapons Shipment,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51759,Seabreaker Skoloth,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51769,What a Gull Wants,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51774,Ragna,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51776,Galestorm,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51777,Dagrus the Scorned,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51778,Deepfang,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51779,Grimscowl the Hairbrained,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51780,Dinner for Dolly and Dot,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51781,Foreman Scripps,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51782,Captain Razorspine,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51791,Bubbling Totem Testing,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51792,Erupting Totem Testing,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51793,Bubbling Totem Testing,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51794,Erupting Totem Testing,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51806,Pest Remover Mk. II,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51811,Trapped Tortollans,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51814,Ravoracious,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51815,Eggstermination,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51816,Pterrible Ingredients,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51817,Trapped Tortollans,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51821,Quelling the Cove,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51822,Scrolls and Scales,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51836,Sourcing Resources,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51839,Squirgle of the Depths,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51841,Blackthorne,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51843,P4-N73R4,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51847,Tort Jaw,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51854,I Am the Shark,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51874,Gorged Boar,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51886,Pinku'shon,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51887,Fungi Trio,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51890,Ranja the Last Chillpaw,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51891,Sythian the Swift,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51892,Shiverscale the Toxic,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51901,Crushtacean,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51908,Nevermore,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51909,Grozgore,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51919,Emily Mayville,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51925,Instructions Not Included,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51928,Instructions Not Included,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51931,Instructions Not Included,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51933,Instructions Not Included,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51957,The Wrath of Vorrik,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51963,The Wrath of Vorrik,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51970,The Caterer,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51976,Sabertron,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51978,Sabertron,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51983,Vorrik's Vengeance,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51988,"Whitney ""Steelclaw"" Ramsay",8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51989,Braedan Whitewall,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+51995,Vorrik's Vengeance,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52009,Crab People,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52023,Informing the Horde,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52024,Informing the Horde,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52045,Boarder Patrol,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52063,Boarder Patrol,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52071,Briarback Mountain,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52117,Briarback Mountain,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52126,This Little Piggy Has Sharp Tusks,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52142,Restocking,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52145,Heave-Ho!,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52155,Treasure in the Tides,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52160,Restocking,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52165,Automated Chaos,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52198,Tank and Spank,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52200,Turtle Tactics,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52209,Turtle Tactics,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52211,Red Sunrise,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52218,Night Horrors,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52229,Too Much To Bear,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52248,The Shores of Xibala,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52249,The Shores of Xibala,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52271,Sea Salt Flavored,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52278,Rogue Azerite,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52280,Sea Salt Flavored,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52297,What's the Buzz?,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52300,Wagga Snarltusk,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52301,Vinespeaker Ratha,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52305,Nature Versus Nurture,8499,2,0,BLOCK NPC_NOSPAWN creature 133678 no spawn; BLOCK NPC_NOSPAWN creature 135308 no spawn
+52306,Croaker,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52310,Corrupted Tideskipper,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52316,Sea Creatures Are Weird,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52321,Kickers,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52325,Captured Evil,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52430,Not So Bad Down Here,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52432,Squall,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52446,Sister Absinthe,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52447,Room To Grow,8499,2,0,BLOCK NPC_NOSPAWN creature 133679 no spawn; BLOCK NPC_NOSPAWN creature 135308 no spawn
+52452,Song Mistress Dadalea,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52455,Unbreakable,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52459,Whirlwing,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52463,Haegol the Hammer,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52464,Osca the Bloodied,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52471,That's a Big Carcass,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52474,Poacher Zane,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52476,The Lichen King,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52751,Strange Looking Dogs,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52752,Vigilant Lookouts,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52754,Marshdwellers,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52755,Bringing the Heat,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52779,Crawg in the Bog,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52794,Lizards and Ledgers,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52798,A Few More Charges,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52799,Pack Leader,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52803,Accidental Dread,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52804,Something Stirs in the Depths,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52805,Like Pulling Teeth,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52849,Azerite Empowerment,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52850,Keeyo's Champions of Vol'dun,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52856,Snakes on a Terrace,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52864,"What Do You Mean, Mind Controlling Plants?",8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52865,Blockade Runner,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52869,Azerite Empowerment,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52871,Azerite Empowerment,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52878,Desert Survivors,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52879,Stiff Policy,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52892,"Critters are Friends, Not Food",8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52923,Add More to the Collection,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52924,Mead Some Help?,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52937,You've Never Seen Jammer Upset,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52938,Small Beginnings,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52939,Ordnance Orders,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52940,Arms Deal,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+52968,Time for a Little Blood,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53078,Treasure in the Tides,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53165,Stopping Antiquities Theft,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53266,Flourishing Sea Stalks,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53270,Flourishing Riverbud,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53274,Overgrown Anchor Weed,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53277,Flourishing Sea Stalks,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53278,Flourishing Riverbud,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53282,Overgrown Anchor Weed,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53283,Flourishing Sea Stalks,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53284,Flourishing Riverbud,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53288,Overgrown Anchor Weed,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53289,Flourishing Sea Stalks,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53290,Flourishing Riverbud,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53293,Overgrown Anchor Weed,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53296,Flourishing Sea Stalks,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53297,Flourishing Riverbud,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53300,Overgrown Anchor Weed,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53301,Flourishing Sea Stalks,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53302,Flourishing Riverbud,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53305,Overgrown Anchor Weed,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53308,Luminous Monelite,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53311,Gleaming Storm Silver,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53312,Burnished Platinum,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53313,Rough Monelite,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53314,Coarse Storm Silver,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53315,Smooth Platinum,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53316,Hardened Monelite,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53317,Dense Storm Silver,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53318,Ductile Platinum,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53321,Luminous Monelite,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53322,Gleaming Storm Silver,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53323,Burnished Platinum,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53324,Rough Monelite,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53325,Coarse Storm Silver,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53326,Smooth Platinum,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53327,Hardened Monelite,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53328,Dense Storm Silver,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53329,Ductile Platinum,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53346,Trogg Tromping,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53430,Order of Embers Crossbow,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53431,Order of Embers Flask,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53432,Order of Embers Knife,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53433,Order of Embers Hat,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53451,WANTED: Raging Earthguard,8567,2,0,BLOCK NO_STARTER ; BLOCK NPC_NOSPAWN creature 143785 no spawn
+53454,WANTED: Quartermaster Ssylis,8567,2,0,BLOCK NO_STARTER ; BLOCK NPC_NOSPAWN creature 143785 no spawn
+53713,Wet Work: Bridgeport,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53717,Hold the Highland,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53768,Furious Fracas,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53769,Furious Fracas,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+53877,Eastpoint Encounter,8567,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+54011,Wet Work: Arom's Stand,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+54014,Wet Work: Blood in the Sand,8501,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+54017,Wet Work: Warbeast Kraal,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+54020,Wet Work: Gloomwater Span,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+54187,Tea for Two,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+54190,Tea for Two,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+54308,Mine Your Business,9042,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+54472,Plowing the Field,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+54538,Skirmish at the Span,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+54539,Skirmish at the Span,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+54627,Paragon of the Order of Embers,8721,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+54630,Paragon of Talanji's Expedition,8500,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55099,TBD NOT USED,10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55148,Reclamation Rig,10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55224,Rank 2 - Poen test,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55225,Special Juices,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55226,Drive the Enemy,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55319,Tonk the Terrible,10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55320,Vehicle: TK02[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55321,Vehicle: TK03[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55322,Vehicle: TK04[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55323,Vehicle: TK05[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55324,Vehicle: TK06[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55325,Vehicle: TK07[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55326,Vehicle: TK08[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55327,Vehicle: TK09[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55328,Vehicle: TK10[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55329,Vehicle: TK11[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55330,Vehicle: TK12[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55331,Vehicle: TK13[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55332,Vehicle: TK14[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55333,Vehicle: TK15[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55334,Vehicle: TK16[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55335,Vehicle: TK17[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55336,Vehicle: TK18[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55337,Vehicle: TK19[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55338,Vehicle: TK20[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55523,Bring Him Some...,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55524,Bring Him Some...,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55525,Bring Him Some...,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55526,Bring Him Some...,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55527,Bring Him Some...,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55573,Purging the Defilers,10052,2,0,BLOCK OBJ_GO_NOSPAWN GO 326015: no spawn; BLOCK GO_NOSPAWN GO 326015 no spawn
+55605,NOT USED,10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55638,Making Kelpberry Wine,10052,2,0,BLOCK NPC_NOSPAWN creature 150344 no spawn; BLOCK GO_NOSPAWN GO 325869 no spawn
+55669,Encrypted Radio Receiver TBD,10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55681,Crab Marks The Spot,10052,2,0,BLOCK NO_ENDER ; BLOCK GO_NOSPAWN GO 325954 no spawn
+55721,Requisition: A Few Kelp Buds,10052,2,0,BLOCK OBJ_GO_NOSPAWN GO 325912: no spawn; BLOCK GO_NOSPAWN GO 325912 no spawn
+55725,Requisition: A Few Spiral Leaf,10052,2,0,BLOCK OBJ_GO_NOSPAWN GO 325914: no spawn; BLOCK GO_NOSPAWN GO 325914 no spawn
+55738,TBD NOT USED,10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55740,TBD NOT USED,10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55742,Bundle of Corroded Parts,10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55787,Requisition: More Kelp Buds,10052,2,0,BLOCK OBJ_GO_NOSPAWN GO 325912: no spawn; BLOCK GO_NOSPAWN GO 325912 no spawn
+55791,Requisition: More Spiral Leaf,10052,2,0,BLOCK OBJ_GO_NOSPAWN GO 325914: no spawn; BLOCK GO_NOSPAWN GO 325914 no spawn
+55794,Reclamation Rig,10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55884,Infestation of Madness,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55886,The Zanj'ir Brutalizer,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55890,Champion Vyz'olgo the Mind-Taker,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55894,"Zoko, Her Iron Defender",10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56050,PvP Event: Battle for Nazjatar,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56056,Terror of the Depths,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56071,De-Synced Vibro Blade,10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56072,De-Synced Vibro Blade,10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56080,March of the Murlocs,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56081,Octo-Grab,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56091,Usurper's Scent Gland,9042,2,0,BLOCK NO_STARTER ; BLOCK NPC_NOSPAWN creature 153365 no spawn
+56092,Hivethief's Jelly Stash,9042,2,0,BLOCK NO_STARTER ; BLOCK NPC_NOSPAWN creature 153365 no spawn
+56097,Grime-Coated Disc,10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56121,Jumping Jellies,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56141,Security First,10290,2,0,BLOCK CHAIN_DISABLED PrevQuestID=999999; BLOCK NO_ENDER 
+56144,Old Nasha's Paw,9042,2,0,BLOCK NO_STARTER ; BLOCK NPC_NOSPAWN creature 153365 no spawn
+56146,Making Kelpberry Wine,10052,2,0,BLOCK NPC_NOSPAWN creature 150344 no spawn; BLOCK GO_NOSPAWN GO 325869 no spawn
+56191,Blueprint: TK32[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56192,Blueprint: TK33[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56193,Blueprint: TK34[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56194,Blueprint: TK35[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56195,Blueprint: TK36[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56196,Blueprint: TK37[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56197,Blueprint: TK38[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56198,Blueprint: TK39[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56199,Blueprint: TK40[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56200,Blueprint: TK41[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56201,Blueprint: TK42[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56202,Blueprint: TK43[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56203,Blueprint: TK44[DNT],10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56214,Good Girl,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56215,Glittering Shell,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56216,Last Heirloom,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56217,Wild Tame,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56218,Beauty in the Deeps,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56219,Tome of Tears,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56381,Prince Wiggletail,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56382,Chomp,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56383,Silence,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56384,Shadowspike Lurker,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56385,Pearlhusk Crawler,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56386,Elderspawn of Nalaada,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56387,Ravenous Scalespawn,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56388,Mindshackle,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56389,Kelpstone,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56390,Voltgorger,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56391,Frenzied Knifefang,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56392,Giant Opaline Conch,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56393,Gnomefeaster,10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56394,Sputtertube,10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56395,Goldenbot XD,10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56396,Creakclank,10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56397,CK-9 Micro-Oppression Unit,10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56398,Unit 35,10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56399,Unit 6,10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56400,Unit 17,10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56436,Small Skull,10290,2,0,BLOCK NO_STARTER ; BLOCK NPC_NOSPAWN creature 150629 no spawn
+56437,Rusty Tube,10290,2,0,BLOCK NO_STARTER ; BLOCK NPC_NOSPAWN creature 150629 no spawn
+56438,Flashing Siren,10290,2,0,BLOCK NO_STARTER ; BLOCK NPC_NOSPAWN creature 150629 no spawn
+56439,Mechanical Egg Sac,10290,2,0,BLOCK NO_STARTER ; BLOCK NPC_NOSPAWN creature 150629 no spawn
+56440,Can of Critter Spray,10290,2,0,BLOCK NO_STARTER ; BLOCK NPC_NOSPAWN creature 150629 no spawn
+56441,Cluckbox,10290,2,0,BLOCK NO_STARTER ; BLOCK NPC_NOSPAWN creature 150629 no spawn
+56442,Broken Unit 6,10290,2,0,BLOCK NO_STARTER ; BLOCK NPC_NOSPAWN creature 150629 no spawn
+56443,Mechanical Eye,10290,2,0,BLOCK NO_STARTER ; BLOCK NPC_NOSPAWN creature 150629 no spawn
+56473,Envenomed Spider Fang,9042,2,0,BLOCK NO_STARTER ; BLOCK NPC_NOSPAWN creature 153365 no spawn
+56474,Hivekiller Stinger,9042,2,0,BLOCK NO_STARTER ; BLOCK NPC_NOSPAWN creature 153365 no spawn
+56475,Spiral Yeti Horn,9042,2,0,BLOCK NO_STARTER ; BLOCK NPC_NOSPAWN creature 153365 no spawn
+56515,Vinyl: Gnomeregan Forever,10290,2,0,BLOCK NO_STARTER ; BLOCK NPC_NOSPAWN creature 151201 no spawn
+56516,Vinyl: Mimiron's Brainstorm,10290,2,0,BLOCK NO_STARTER ; BLOCK NPC_NOSPAWN creature 151201 no spawn
+56517,Vinyl: Battle of Gnomeregan,10290,2,0,BLOCK NO_STARTER ; BLOCK NPC_NOSPAWN creature 151201 no spawn
+56518,Vinyl: Depths of Ulduar,10290,2,0,BLOCK NO_STARTER ; BLOCK NPC_NOSPAWN creature 151201 no spawn
+56519,Vinyl: Triumph of Gnomeregan,10290,2,0,BLOCK NO_STARTER ; BLOCK NPC_NOSPAWN creature 151201 no spawn
+56759,Rustbolt Requisitions: Tempest Hide,10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56760,Rustbolt Requisitions: Tempest Hide,10290,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56786,Naga Treasure,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56804,"With Friends Like You, Who Needs Anemones?",10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56806,Friends Through Eternity,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56807,Real Friends Help Hide Bodies,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56809,Super Friends,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56811,You've Got A Friend In Me,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56812,Friendship Is Magic,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56814,Anytime You Need A Friend,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56816,A Kelfin's Best Friend,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56817,Thank You For Being A Friend,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+56830,Summons from the Deep,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+57330,Time for Revenge,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+57331,Salvage Operations,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+57333,Terrace Terrors,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+57334,Cave of Murlocs,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+57336,Putting the Past to Rest,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+57338,Depopulation Effort,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+57340,Fathom Ray Feast,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+57353,Deepcoil Cleansing,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+57354,Overdue,10052,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+59225,[DNT] Azerite Reward Test Quest - BJI,8499,2,0,BLOCK NO_STARTER ; BLOCK NO_ENDER 
+55531,What Will It Mine?,10052,1,7,"BLOCK NO_STARTER ; WARN OBJ_NO_CREDIT creature 152217: no spawn, no credit; WARN OBJ_NO_CREDIT creature 152181: no spawn, no credit; WARN OBJ_NO_CREDIT creature 152179: no spawn, no credit; WARN OBJ_NO_CREDIT creature 152210: no spawn, no credit; WARN OBJ_NO_CREDIT creature 152211: no spawn, no credit; WARN OBJ_NO_CREDIT creature 152212: no spawn, no credit; WARN OBJ_NO_CREDIT creature 152213: no spawn, no credit"
+55901,Rustbolt Rebellion,10290,1,6,"BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 153353: no spawn, no credit; WARN OBJ_NO_CREDIT creature 153979: no spawn, no credit; WARN OBJ_NO_CREDIT creature 153354: no spawn, no credit; WARN OBJ_NO_CREDIT creature 153672: no spawn, no credit; WARN OBJ_NO_CREDIT creature 150614: no spawn, no credit; WARN OBJ_NO_CREDIT creature 154252: no spawn, no credit"
+50397,Aerial Aspirations,8499,1,4,"BLOCK NPC_NOSPAWN creature 133682 no spawn; WARN OBJ_NO_CREDIT creature 133682: no spawn, no credit; WARN OBJ_NO_CREDIT creature 135786: no spawn, no credit; WARN OBJ_NO_CREDIT creature 135787: no spawn, no credit; WARN OBJ_NO_CREDIT creature 135788: no spawn, no credit"
+50901,Saurid Surprise,8501,1,4,"BLOCK NPC_NOQUESTFLAG creature 135536 npcflag=1; WARN OBJ_NO_CREDIT creature 135659: no spawn, no credit; WARN OBJ_NO_CREDIT creature 135638: no spawn, no credit; WARN OBJ_NO_CREDIT creature 135665: no spawn, no credit; WARN OBJ_NO_CREDIT creature 135639: no spawn, no credit"
+55426,What Will It Grow?,10052,1,4,"BLOCK NO_STARTER ; WARN OBJ_NO_CREDIT creature 151767: no spawn, no credit; WARN OBJ_NO_CREDIT creature 152214: no spawn, no credit; WARN OBJ_NO_CREDIT creature 151770: no spawn, no credit; WARN OBJ_NO_CREDIT creature 151791: no spawn, no credit"
+55885,Rico's Rescue,10290,1,4,"BLOCK NPC_NOSPAWN creature 153324 no spawn; WARN OBJ_NO_CREDIT creature 153344: no spawn, no credit; WARN OBJ_NO_CREDIT creature 153336: no spawn, no credit; WARN OBJ_NO_CREDIT creature 153342: no spawn, no credit; WARN NPC_OTHERMAP creature 21118 maps [,5,3,0,]"
+56572,Toys Like Us,10290,1,4,"BLOCK NPC_NOQUESTFLAG creature 211728 npcflag=0; WARN OBJ_NO_CREDIT creature 155461: no spawn, no credit; WARN OBJ_NO_CREDIT creature 155462: no spawn, no credit; WARN OBJ_NO_CREDIT creature 155460: no spawn, no credit; WARN NPC_OTHERMAP creature 211728 maps [,2,6,0,1,]"
+55602,What Will It Lure?,10052,1,3,"BLOCK NO_STARTER ; WARN OBJ_NO_CREDIT creature 152472: no spawn, no credit; WARN OBJ_NO_CREDIT creature 152469: no spawn, no credit; WARN OBJ_NO_CREDIT creature 152406: no spawn, no credit"
+55717,Time for Heroics,10290,1,3,"BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 153349: no spawn, no credit; WARN OBJ_NO_CREDIT creature 153535: no spawn, no credit; WARN OBJ_NO_CREDIT creature 153538: no spawn, no credit"
+55816,The Other Place,10290,1,3,"BLOCK NPC_NOQUESTFLAG creature 204390 npcflag=0; WARN OBJ_NO_CREDIT creature 153994: no spawn, no credit; WARN OBJ_NO_CREDIT creature 153997: no spawn, no credit; WARN NPC_OTHERMAP creature 204390 maps [,2,5,7,9,]"
+56532,Nuke 'Em Norbit,10290,1,3,"BLOCK NPC_NOSPAWN creature 153701 no spawn; WARN OBJ_NO_CREDIT creature 155339: no spawn, no credit; WARN OBJ_NO_CREDIT creature 155341: no spawn, no credit; WARN OBJ_NO_CREDIT creature 155343: no spawn, no credit"
+47969,Fallhaven's Curse,8721,1,2,"BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 125023: no spawn, no credit; WARN OBJ_NO_CREDIT creature 128326: no spawn, no credit"
+48474,Crypt Keepers,8721,1,2,"BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 126282: no spawn, no credit; WARN OBJ_NO_CREDIT creature 126671: no spawn, no credit"
+50395,The Call of the Skies,8499,1,2,"BLOCK NPC_NOSPAWN creature 133678 no spawn; WARN OBJ_NO_CREDIT creature 133678: no spawn, no credit; WARN OBJ_NO_CREDIT creature 135392: no spawn, no credit"
+50887,Ptrust Fall,8499,1,2,"BLOCK NPC_NOSPAWN creature 135308 no spawn; WARN OBJ_NO_CREDIT creature 135550: no spawn, no credit; WARN OBJ_NO_CREDIT creature 135577: no spawn, no credit"
+51145,Curse of Jani,8501,1,2,"BLOCK NPC_NOQUESTFLAG creature 135536 npcflag=1; WARN OBJ_NO_CREDIT creature 136572: no spawn, no credit; WARN OBJ_NO_CREDIT creature 136563: no spawn, no credit"
+55244,Away From the Herd,8499,1,2,"BLOCK NPC_NOSPAWN creature 152258 no spawn; WARN OBJ_NO_CREDIT creature 152258: no spawn, no credit; WARN OBJ_NO_CREDIT creature 153002: no spawn, no credit"
+55246,Even Greener Pastures,8499,1,2,"BLOCK NPC_NOSPAWN creature 152258 no spawn; WARN OBJ_NO_CREDIT creature 152280: no spawn, no credit; WARN OBJ_NO_CREDIT creature 151864: no spawn, no credit"
+55658,Clues Abound,10290,1,2,"BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 152626: no spawn, no credit; WARN NPC_OTHERMAP creature 228605 maps [,2,5,5,2,]"
+55734,Drill Rig Construction,10290,1,2,"BLOCK NPC_NOSPAWN creature 153670 no spawn; WARN OBJ_NO_CREDIT creature 151075: no spawn, no credit; WARN OBJ_NO_CREDIT creature 153770: no spawn, no credit"
+56410,Discs of Norgannon,10290,1,2,"BLOCK NPC_NOSPAWN creature 154982 no spawn; WARN OBJ_NO_CREDIT creature 155057: no spawn, no credit; WARN OBJ_NO_CREDIT creature 155058: no spawn, no credit"
+47981,Cracking the Curse,8721,1,1,"BLOCK GO_NOSPAWN GO 278675 no spawn; WARN OBJ_NO_CREDIT creature 125112: no spawn, no credit"
+48181,Nooooope,8721,1,1,"BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 128916: no spawn, no credit"
+48525,Break Them to Splinters,8721,1,1,"BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 129033: no spawn, no credit"
+49079,"Hir'eek, the Bat Loa",8500,1,1,"BLOCK NPC_NOQUESTFLAG creature 127475 npcflag=0; WARN OBJ_NO_CREDIT creature 129395: no spawn, no credit"
+49529,Spring Cleaning,8567,1,1,"BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 129988: no spawn, no credit"
+50080,Raiding the Raiders,8500,1,1,"BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 133357: no spawn, no credit"
+50133,Weed Whacking,9042,1,1,"BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 140629: no spawn, no credit"
+50394,Your Problem Now,8499,1,1,"BLOCK NPC_NOSPAWN creature 133678 no spawn; WARN OBJ_NO_CREDIT creature 133676: no spawn, no credit"
+50412,Back to the Nest,8499,1,1,"BLOCK NPC_NOSPAWN creature 133678 no spawn; WARN OBJ_NO_CREDIT creature 133720: no spawn, no credit"
+50696,Fun With Magnets,9042,1,1,"BLOCK NPC_NOQUESTFLAG creature 136165 npcflag=0; WARN OBJ_NO_CREDIT creature 129618: no spawn, no credit"
+50791,Skree...,8499,1,1,BLOCK NPC_NOSPAWN creature 133678 no spawn; WARN NPC_LUA_ONLY creature 135272 no spawn (script/credit)
+50900,Maybe When You're Older,8499,1,1,"BLOCK NPC_NOSPAWN creature 135308 no spawn; WARN OBJ_NO_CREDIT creature 135594: no spawn, no credit"
+51142,Pests,8501,1,1,"BLOCK NPC_NOQUESTFLAG creature 135536 npcflag=1; WARN OBJ_NO_CREDIT creature 136561: no spawn, no credit"
+51534,The Battle for Brennadam,9042,1,1,"BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 130747: no spawn, no credit"
+53106,Censership,9042,1,1,"BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 133758: no spawn, no credit"
+53107,Plunder and Provisions,9042,1,1,"BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 133758: no spawn, no credit"
+53343,Censership,9042,1,1,"BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 133758: no spawn, no credit"
+53345,Plunder and Provisions,9042,1,1,"BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 133758: no spawn, no credit"
+53435,Azerite for the Horde,8499,1,1,"BLOCK NO_STARTER ; WARN OBJ_NO_CREDIT creature 132935: no spawn, no credit"
+53436,Azerite for the Alliance,8567,1,1,"BLOCK NO_STARTER ; WARN OBJ_NO_CREDIT creature 132935: no spawn, no credit"
+53456,WANTED: The Rime Huntress,8721,1,1,"BLOCK NO_STARTER ; WARN NPC_OTHERMAP creature 228469 maps [,2,1,2,7,]"
+53458,WANTED: Rindlewoe,8721,1,1,"BLOCK NO_STARTER ; WARN NPC_OTHERMAP creature 228469 maps [,2,1,2,7,]"
+53459,WANTED: Sister Lilias,8721,1,1,"BLOCK NO_STARTER ; WARN NPC_OTHERMAP creature 228469 maps [,2,1,2,7,]"
+54254,Bombs Away,8501,1,1,"BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 147451: no spawn, no credit"
+54992,The Start of Something Bigger,8567,1,1,"BLOCK NPC_NOSPAWN creature 152482 no spawn; WARN OBJ_NO_CREDIT creature 152488: no spawn, no credit"
+55245,Eat Like a Direhorn,8499,1,1,"BLOCK NPC_NOSPAWN creature 152258 no spawn; WARN OBJ_NO_CREDIT creature 151293: no spawn, no credit"
+55876,Plug the Geysers,10052,1,1,"BLOCK NPC_NOSPAWN creature 153833 no spawn; WARN OBJ_NO_CREDIT creature 153821: no spawn, no credit"
+56053,The Final Act,10290,1,1,"BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 153984: no spawn, no credit"
+56139,Junkyard Treasures,10290,1,1,"BLOCK NO_ENDER ; WARN OBJ_NO_CREDIT creature 154252: no spawn, no credit"
+56250,I Am the Trashmaster,8501,1,1,"BLOCK NPC_NOQUESTFLAG creature 135536 npcflag=1; WARN OBJ_NO_CREDIT creature 154458: no spawn, no credit"
+56326,Ravenous Rescue,10290,1,1,"BLOCK NPC_NOSPAWN creature 154568 no spawn; WARN OBJ_NO_CREDIT creature 153271: no spawn, no credit"
+56334,Bots Gone Wild,10290,1,1,"BLOCK NPC_NOSPAWN creature 154655 no spawn; WARN OBJ_NO_CREDIT creature 154608: no spawn, no credit"
+56380,Grounded,10290,1,1,"BLOCK NPC_NOSPAWN creature 154906 no spawn; WARN OBJ_NO_CREDIT creature 149850: no spawn, no credit"
+56433,Drowning the Alliance,10052,1,1,"BLOCK NPC_NOQUESTFLAG creature 85115 npcflag=128; WARN NPC_OTHERMAP creature 85115 maps [,1,1,1,6,]"
+56469,Pirates? I Hate Those Guys!,10290,1,1,"BLOCK NPC_NOQUESTFLAG creature 119430 npcflag=0; WARN NPC_OTHERMAP creature 119430 maps [,1,2,2,0,]"
+57009,Fame Waits for Gnome One,10290,1,1,"BLOCK NO_STARTER ; WARN OBJ_NO_CREDIT creature 156184: no spawn, no credit"
+47332,Your Next Move,8499,1,0,BLOCK NO_ENDER 
+47440,"Pa'ku, Master of Winds",8499,1,0,BLOCK CHAIN_DISABLED PrevQuestID=999999
+47513,Vol'dun,8499,1,0,BLOCK CHAIN_DISABLED PrevQuestID=999999
+47599,Revenge: Served Hot,8500,1,0,BLOCK NPC_NOQUESTFLAG creature 123883 npcflag=0
+47706,Hunt for King K'tal,8499,1,0,BLOCK GO_NOSPAWN GO 271706 no spawn
+47756,The Libation's Liberation,8500,1,0,BLOCK NO_ENDER 
+47961,Drustvar,8567,1,0,BLOCK NO_STARTER 
+47978,The Wayward Crone,8721,1,0,BLOCK GO_NOSPAWN GO 124922 no spawn
+47979,Witch Hunt,8721,1,0,BLOCK NO_ENDER 
+47980,Furious Familiars,8721,1,0,BLOCK NO_ENDER 
+47996,Mawfiend Extermination,8500,1,0,BLOCK NO_ENDER 
+48329,Beaten But Not Broken,8501,1,0,BLOCK NO_STARTER 
+48456,Witch Doctor Jala,8499,1,0,BLOCK CHAIN_DISABLED PrevQuestID=999999
+48585,Wasteland Survivor,8501,1,0,BLOCK GO_NOSPAWN GO 273854 no spawn
+48655,The Chef's Apprentice,8501,1,0,BLOCK GO_NOSPAWN GO 276187 no spawn
+48656,Savage Saurolisks,8501,1,0,BLOCK GO_NOSPAWN GO 276187 no spawn
+48657,They Might Be Delicious,8501,1,0,BLOCK GO_NOSPAWN GO 276187 no spawn
+48680,Not the Bees!,8721,1,0,BLOCK NO_ENDER 
+48778,Stone Soup,8567,1,0,BLOCK NO_ENDER 
+48897,The Bargain is Struck,8499,1,0,BLOCK CHAIN_DISABLED PrevQuestID=999999
+48934,Mark of the Damned,8500,1,0,BLOCK NO_ENDER 
+49300,Creature Corruption,8567,1,0,BLOCK NO_ENDER 
+49405,Defenders of Daelin's Gate,8567,1,0,BLOCK NPC_PHASE_ORPHAN creature 141078 all BfA spawns phased out: 49405:ORPHAN_ALL
+49406,Zalamar Slaughter,8500,1,0,BLOCK NO_ENDER 
+49424,The Full Prophecy,8499,1,0,BLOCK NPC_NOSPAWN creature 132041 no spawn
+49437,Tattered Note,8501,1,0,BLOCK NO_STARTER 
+49522,Carentan's Payment,8567,1,0,BLOCK NO_ENDER 
+49731,Fond Farewells,8501,1,0,BLOCK CHAIN_DISABLED PrevQuestID=999999
+49818,Trouble at Fort Daelin,9042,1,0,BLOCK CHAIN_DISABLED PrevQuestID=999999
+49832,An Illegible Scroll,9042,1,0,BLOCK NO_STARTER 
+49869,A Desperate Defense,8567,1,0,BLOCK NPC_PHASE_ORPHAN creature 141078 all BfA spawns phased out: 49405:ORPHAN_ALL
+49918,Gorilla Gorge,8499,1,0,BLOCK NO_ENDER 
+50009,Shipwreck Recovery Crew,8567,1,0,BLOCK NO_ENDER 
+50178,Trouble in the Rootway,8499,1,0,BLOCK NO_ENDER 
+50240,A Slip of the Tongue,8499,1,0,BLOCK NO_ENDER 
+50363,War Pigs,9042,1,0,BLOCK NPC_NOQUESTFLAG creature 134095 npcflag=1
+50367,Anger in a Bottle,9042,1,0,BLOCK NO_STARTER 
+50393,A Child of Pa'ku,8499,1,0,BLOCK NO_STARTER 
+50396,A Pterrible Fate,8499,1,0,BLOCK NPC_NOSPAWN creature 133679 no spawn
+50401,Fear of Falling,8499,1,0,BLOCK NPC_NOSPAWN creature 133678 no spawn
+50402,SKREEEEE!,8499,1,0,BLOCK NPC_NOSPAWN creature 133678 no spawn
+50433,Zanchuli Disbanded,8499,1,0,BLOCK CHAIN_DISABLED PrevQuestID=999999
+50593,A Bloody Mess,9042,1,0,BLOCK NO_STARTER 
+50598,Zandalari Empire,8499,1,0,BLOCK NO_STARTER 
+50599,Proudmoore Admiralty,8567,1,0,BLOCK NO_STARTER 
+50600,Order of Embers,8721,1,0,BLOCK NO_STARTER 
+50601,Storm's Wake,9042,1,0,BLOCK NO_STARTER 
+50602,Talanji's Expedition,8500,1,0,BLOCK NO_STARTER 
+50603,Voldunai,8501,1,0,BLOCK NO_STARTER 
+50605,Alliance War Effort,8567,1,0,BLOCK NO_STARTER 
+50606,Horde War Effort,8499,1,0,BLOCK NO_STARTER 
+50779,A Clean Slate,9042,1,0,BLOCK NO_ENDER 
+50788,Enemies Within,8567,1,0,BLOCK NO_ENDER 
+50789,Clear the Air,8567,1,0,BLOCK NO_ENDER 
+50886,Surrogate Wings,8499,1,0,BLOCK NPC_NOSPAWN creature 135308 no spawn
+50940,Wisdom of the Wingless,8499,1,0,BLOCK NPC_NOSPAWN creature 133682 no spawn
+50943,The Joy of Flight,8499,1,0,BLOCK NPC_NOSPAWN creature 135744 no spawn
+50944,"Down, But Not Out",8499,1,0,BLOCK NPC_NOSPAWN creature 135744 no spawn
+50956,Walking-Around Money,9042,1,0,BLOCK NO_ENDER 
+50976,An Ancient Curse,8500,1,0,BLOCK NO_ENDER 
+51089,WANTED: Tojek,8500,1,0,BLOCK NO_STARTER 
+51091,WANTED: Ten'gor and Nol'ixwan,8499,1,0,BLOCK GO_NOSPAWN GO 271706 no spawn
+51139,WANTED: Tojek,8500,1,0,BLOCK NO_STARTER 
+51161,WANTED: Za'roco,8501,1,0,BLOCK GO_NOSPAWN GO 287398 no spawn
+51162,WANTED: Taz'raka the Traitor,8501,1,0,BLOCK GO_NOSPAWN GO 287440 no spawn
+51164,WANTED: Cobra Excursion Participants,8501,1,0,BLOCK GO_NOSPAWN GO 287442 no spawn
+51199,The Glory of the Hunt,8567,1,0,BLOCK CHAIN_DISABLED PrevQuestID=999999
+51200,The Black Sheep,9042,1,0,BLOCK QPHASE_ORPHAN phase 44310 (area 9042) no phase_area
+51218,Undelivered Package,9042,1,0,BLOCK NO_STARTER 
+51547,WANTED: Rindlewoe,8721,1,0,BLOCK GO_NOSPAWN GO 124417 no spawn
+51689,Tortollan Rescue,8500,1,0,BLOCK NO_ENDER 
+51829,Ranah's Wrench,8501,1,0,BLOCK GO_NOSPAWN GO 291143 no spawn
+51980,WANTED: Jabra'kan,8499,1,0,BLOCK GO_NOSPAWN GO 291291 no spawn
+52061,Taptaf the Pig!,8721,1,0,BLOCK NPC_NOSPAWN creature 139380 no spawn
+52070,Bauer Backup,9042,1,0,BLOCK CHAIN_DISABLED PrevQuestID=999999
+52294,Fallen Idols,8500,1,0,BLOCK CHAIN_DISABLED PrevQuestID=999999
+52431,No-Landing Zone,8567,1,0,BLOCK NPC_PHASE_ORPHAN creature 141078 all BfA spawns phased out: 49405:ORPHAN_ALL
+52472,Make Loh Go,8499,1,0,BLOCK NO_ENDER 
+52480,WANTED: Ayame,8500,1,0,BLOCK NO_STARTER 
+53330,WANTED: Razorclaw Alpha,9042,1,0,BLOCK NO_STARTER 
+53348,WANTED: Thundersnout,9042,1,0,BLOCK NO_STARTER 
+53369,Make Loh Go,9042,1,0,BLOCK NO_ENDER 
+53434,The Vanishing Lord,8721,1,0,BLOCK NO_ENDER 
+53438,WANTED: Wyvern Poachers,8567,1,0,BLOCK NO_STARTER 
+53440,WANTED: The Hornet,8567,1,0,BLOCK NO_STARTER 
+53455,WANTED: The Crimson Cutthroats,8721,1,0,BLOCK NO_STARTER 
+53465,Tea Party,8721,1,0,BLOCK NO_ENDER 
+53982,Supplies From The Unshackled,10052,1,0,BLOCK NO_STARTER 
+54454,Supplies from the 7th Legion,8567,1,0,BLOCK NO_STARTER 
+54455,Supplies from the Honorbound,8499,1,0,BLOCK NO_STARTER 
+54456,Supplies from the Order of Embers,8721,1,0,BLOCK NO_STARTER 
+54457,Supplies from Storm's Wake,9042,1,0,BLOCK NO_STARTER 
+54458,Supplies from the Proudmoore Admiralty,8567,1,0,BLOCK NO_STARTER 
+54460,Supplies from Talanji's Expedition,8500,1,0,BLOCK NO_STARTER 
+54461,Supplies from the Voldunai,8501,1,0,BLOCK NO_STARTER 
+54462,Supplies from the Zandalari Empire,8499,1,0,BLOCK NO_STARTER 
+54618,Paragon of the 7th Legion,8567,1,0,BLOCK NO_STARTER 
+54626,Paragon of the Honorbound,8499,1,0,BLOCK NO_STARTER 
+54628,Paragon of the Storm's Wake,9042,1,0,BLOCK NO_STARTER 
+54629,Paragon of the Proudmoore Admiralty,8567,1,0,BLOCK NO_STARTER 
+54631,Paragon of the Voldunai,8501,1,0,BLOCK NO_STARTER 
+54632,Paragon of the Zandalari Empire,8499,1,0,BLOCK NO_STARTER 
+54756,Garbage for the Garbage God,8499,1,0,BLOCK NO_STARTER 
+55121,The Laboratory of Mardivas,10052,1,0,BLOCK GO_NOSPAWN GO 322533 no spawn
+55243,A Daughter of Torcali,8499,1,0,BLOCK NPC_NOSPAWN creature 152258 no spawn
+55247,The Trust You've Earned,8499,1,0,BLOCK NPC_NOSPAWN creature 19 no spawn
+55299,Bottom Feeding Stinkfish,10290,1,0,BLOCK NO_STARTER 
+55305,Bolted Steelhead,10290,1,0,BLOCK NO_STARTER 
+55306,Pond Hopping Springfish,10290,1,0,BLOCK NO_STARTER 
+55307,Shadowy Cave Eel,10290,1,0,BLOCK NO_STARTER 
+55308,Mechanical Blowfish,10290,1,0,BLOCK NO_STARTER 
+55309,Spitting Clownfish,10290,1,0,BLOCK NO_STARTER 
+55310,Sludge-fouled Carp,10290,1,0,BLOCK NO_STARTER 
+55311,Energized Lightning Cod,10290,1,0,BLOCK NO_STARTER 
+55312,Solarsprocket Barbel,10290,1,0,BLOCK NO_STARTER 
+55313,Tasty Steelfin,10290,1,0,BLOCK NO_STARTER 
+55348,Supplies from the Rustbolt Resistance,10290,1,0,BLOCK NO_STARTER 
+55451,Paint Vial: Fireball Red,10290,1,0,BLOCK NO_STARTER 
+55452,Paint Vial: Fel Mint Green,10290,1,0,BLOCK NO_STARTER 
+55454,Paint Vial: Lemonade Steel,10290,1,0,BLOCK NO_STARTER 
+55455,Paint Vial: Mechagon Gold,10290,1,0,BLOCK NO_STARTER 
+55456,Paint Vial: Copper Trim,10290,1,0,BLOCK NO_STARTER 
+55457,Paint Vial: Overload Orange,10290,1,0,BLOCK NO_STARTER 
+55517,Paint Vial: Big-ol Bronze,10290,1,0,BLOCK NO_STARTER 
+55534,Rustbolt Gramophone,10290,1,0,BLOCK NPC_NOSPAWN creature 155181 no spawn
+55535,The Tipsy Tinkerer,10290,1,0,BLOCK NO_ENDER 
+55633,The Sunken Chest,10052,1,0,BLOCK GO_NOSPAWN GO 325795 no spawn
+55636,A Life's Work,10052,1,0,BLOCK GO_NOSPAWN GO 325853 no spawn
+55662,Arcane Cache,10052,1,0,BLOCK GO_NOSPAWN GO 325894 no spawn
+55672,A Historical Mess,10290,1,0,BLOCK NO_ENDER 
+55688,A Growing Mystery,10290,1,0,BLOCK NO_ENDER 
+55714,Void Cache,10052,1,0,BLOCK GO_NOSPAWN GO 326026 no spawn
+55724,Requisition: A Few Deepcoral Buds,10052,1,0,BLOCK NPC_NOQUESTFLAG creature 153772 npcflag=8192
+55728,Reinforced Cache,10052,1,0,BLOCK GO_NOSPAWN GO 326047 no spawn
+55730,Rescuing the Resistance,10290,1,0,BLOCK NPC_NOSPAWN creature 153670 no spawn
+55731,My Father's Armies,10290,1,0,BLOCK NPC_NOSPAWN creature 153670 no spawn
+55743,More Recycling,10290,1,0,BLOCK GO_NOSPAWN GO 326027 no spawn
+55770,WANTED: Commander Sarj'eth,10052,1,0,BLOCK GO_NOSPAWN GO 326141 no spawn
+55772,WANTED: Lady Narjiss,10052,1,0,BLOCK GO_NOSPAWN GO 326141 no spawn
+55774,WANTED: Inquisitor Ithriza,10052,1,0,BLOCK GO_NOSPAWN GO 326141 no spawn
+55775,WANTED: Haggronar,10052,1,0,BLOCK GO_NOSPAWN GO 326140 no spawn
+55776,WANTED: Emorneth,10052,1,0,BLOCK GO_NOSPAWN GO 326140 no spawn
+55777,WANTED: Braxicus,10052,1,0,BLOCK GO_NOSPAWN GO 326140 no spawn
+55790,Requisition: More Deepcoral Buds,10052,1,0,BLOCK NPC_NOQUESTFLAG creature 153772 npcflag=8192
+55813,Aim High,10290,1,0,BLOCK NPC_NOSPAWN creature 154568 no spawn
+55825,Bounty: A Few Fathom Rays,10052,1,0,BLOCK NPC_NOQUESTFLAG creature 153772 npcflag=8192
+55834,Bounty: More Fathom Rays,10052,1,0,BLOCK NPC_NOQUESTFLAG creature 153772 npcflag=8192
+55845,Plans of Attack,10052,1,0,BLOCK GO_NOSPAWN GO 326148 no spawn
+55869,Clearing Out the Cache,10052,1,0,BLOCK GO_NOSPAWN GO 326588 no spawn
+55871,Gather Friends,10052,1,0,BLOCK NPC_NOSPAWN creature 151311 no spawn
+55976,Supplies From the Waveblade Ankoan,10052,1,0,BLOCK NO_STARTER 
+55993,A Little Edge,10052,1,0,BLOCK NPC_NOSPAWN creature 153743 no spawn
+55995,We Can Fix It,10290,1,0,BLOCK NPC_NOSPAWN creature 153670 no spawn
+56049,Deck 'Em,10290,1,0,BLOCK NPC_NOSPAWN creature 153538 no spawn
+56116,Even More Recycling,10290,1,0,BLOCK GO_NOSPAWN GO 326027 no spawn
+56117,Recyclable Parts,10290,1,0,BLOCK GO_NOSPAWN GO 326027 no spawn
+56119,The Waveblade Ankoan,10052,1,0,BLOCK NO_STARTER 
+56120,The Unshackled,10052,1,0,BLOCK NO_STARTER 
+56131,Security First,10290,1,0,BLOCK NO_ENDER 
+56172,Other Interests,10290,1,0,BLOCK CHAIN_DISABLED PrevQuestID=999999
+56173,Other Interests,10290,1,0,BLOCK CHAIN_DISABLED PrevQuestID=999999
+56174,Other Interests,10290,1,0,BLOCK CHAIN_DISABLED PrevQuestID=999999
+56222,WANTED: Lady Naz'jess,10052,1,0,BLOCK GO_NOSPAWN GO 327585 no spawn
+56223,WANTED: Commander Sarj'eth,10052,1,0,BLOCK GO_NOSPAWN GO 327585 no spawn
+56224,WANTED: Lord Ha'kass,10052,1,0,BLOCK GO_NOSPAWN GO 327585 no spawn
+56225,WANTED: Lady Narjiss,10052,1,0,BLOCK GO_NOSPAWN GO 327585 no spawn
+56226,WANTED: Gler'thogg,10052,1,0,BLOCK GO_NOSPAWN GO 327585 no spawn
+56227,WANTED: Inquisitor Ithriza,10052,1,0,BLOCK GO_NOSPAWN GO 327585 no spawn
+56231,Reinforced Cache,10052,1,0,BLOCK GO_NOSPAWN GO 326047 no spawn
+56232,Void Cache,10052,1,0,BLOCK GO_NOSPAWN GO 326026 no spawn
+56233,Arcane Cache,10052,1,0,BLOCK GO_NOSPAWN GO 325894 no spawn
+56306,The Family Jewels,10290,1,0,BLOCK NPC_NOQUESTFLAG creature 137302 npcflag=1
+56355,Battle Tested,10290,1,0,BLOCK NPC_NOSPAWN creature 151006 no spawn
+56370,Break a Few Eggs,10052,1,0,BLOCK NPC_NOSPAWN creature 155844 no spawn
+56434,WANTED: Junkbrat and Roadtrogg,10290,1,0,BLOCK GO_NOSPAWN GO 329641 no spawn
+56444,Wiggletail's Poking Fork,10052,1,0,BLOCK NO_STARTER 
+56445,Wiggletail's Poking Fork,10052,1,0,BLOCK NO_STARTER 
+56446,Leathery Venom Gland,10052,1,0,BLOCK NO_STARTER 
+56447,Half-Digested Deepcoral Pod,10052,1,0,BLOCK NO_STARTER 
+56448,Molted Spineshell,10052,1,0,BLOCK NO_STARTER 
+56449,Pearlescent Shell,10052,1,0,BLOCK NO_STARTER 
+56450,Eel Jelly,10052,1,0,BLOCK NO_STARTER 
+56451,Mottled Hydra Scale,10052,1,0,BLOCK NO_STARTER 
+56452,Strange Organ,10052,1,0,BLOCK NO_STARTER 
+56453,Overgrown Stone,10052,1,0,BLOCK NO_STARTER 
+56454,Crackling Mandible,10052,1,0,BLOCK NO_STARTER 
+56455,Frenzy Fang,10052,1,0,BLOCK NO_STARTER 
+56456,Opaline Conch,10052,1,0,BLOCK NO_STARTER 
+56457,Leathery Venom Gland,10052,1,0,BLOCK NO_STARTER 
+56458,Opaline Conch,10052,1,0,BLOCK NO_STARTER 
+56459,Half-Digested Deepcoral Pod,10052,1,0,BLOCK NO_STARTER 
+56460,Molted Spineshell,10052,1,0,BLOCK NO_STARTER 
+56461,Pearlescent Shell,10052,1,0,BLOCK NO_STARTER 
+56462,Eel Jelly,10052,1,0,BLOCK NO_STARTER 
+56463,Mottled Hydra Scale,10052,1,0,BLOCK NO_STARTER 
+56464,Strange Organ,10052,1,0,BLOCK NO_STARTER 
+56465,Overgrown Stone,10052,1,0,BLOCK NO_STARTER 
+56466,Crackling Mandible,10052,1,0,BLOCK NO_STARTER 
+56467,Frenzy Fang,10052,1,0,BLOCK NO_STARTER 
+56508,Waste Not,10290,1,0,BLOCK GO_NOSPAWN GO 329715 no spawn
+56560,A Curious Discovery,10052,1,0,BLOCK GO_NOSPAWN GO 329805 no spawn
+56561,A Curious Discovery,10052,1,0,BLOCK GO_NOSPAWN GO 329805 no spawn
+56746,Our Direct Line,10290,1,0,BLOCK NO_STARTER 
+56779,A Valorous Reward,10052,1,0,BLOCK NO_STARTER 
+56784,Helpful Provisions,10052,1,0,BLOCK NO_STARTER 
+56789,A Gift of Supplies,10052,1,0,BLOCK NO_STARTER 
+56805,That's What Friends Are For,10052,1,0,BLOCK NO_STARTER 
+56810,A Friend Indeed,10052,1,0,BLOCK NO_STARTER 
+56815,With A Little Help From My Friends,10052,1,0,BLOCK NO_STARTER 
+56907,Paint Bottle: Nukular Red,10290,1,0,BLOCK NO_STARTER 
+56908,Paint Bottle: Goblin Green,10290,1,0,BLOCK NO_STARTER 
+56909,Paint Bottle: Electric Blue,10290,1,0,BLOCK NO_STARTER 
+56971,Eel Filet,10052,1,0,BLOCK NO_STARTER 
+56972,Fathom Ray Wing,10052,1,0,BLOCK NO_STARTER 
+56973,Giant Crab Leg,10052,1,0,BLOCK NO_STARTER 
+57086,Legacy of the Mad Mage,10052,1,0,BLOCK NO_STARTER 
+57246,Eel Filet,10052,1,0,BLOCK NO_STARTER 
+57247,Fathom Ray Wing,10052,1,0,BLOCK NO_STARTER 
+57248,Giant Crab Leg,10052,1,0,BLOCK NO_STARTER 
+57670,Unbeelievable Quality,9042,1,0,BLOCK NO_STARTER 
+54090,Toys For Destruction,10290,0,10,"WARN OBJ_NO_CREDIT creature 151006: no spawn, no credit; WARN OBJ_NO_CREDIT creature 151007: no spawn, no credit; WARN OBJ_NO_CREDIT creature 151350: no spawn, no credit; WARN OBJ_NO_CREDIT creature 151336: no spawn, no credit; WARN OBJ_NO_CREDIT creature 151355: no spawn, no credit; WARN OBJ_NO_CREDIT creature 153360: no spawn, no credit; WARN OBJ_NO_CREDIT creature 153362: no spawn, no credit; WARN OBJ_NO_CREDIT creature 151744: no spawn, no credit; WARN OBJ_NO_CREDIT creature 155754: no spawn, no credit; WARN NPC_OTHERMAP creature 19570 maps [,5,3,0,]"
+48678,Questionable Offerings,8721,0,7,"WARN OBJ_NO_CREDIT creature 127273: no spawn, no credit; WARN OBJ_NO_CREDIT creature 127274: no spawn, no credit; WARN OBJ_NO_CREDIT creature 127275: no spawn, no credit; WARN OBJ_NO_CREDIT creature 137960: no spawn, no credit; WARN OBJ_NO_CREDIT creature 137961: no spawn, no credit; WARN OBJ_NO_CREDIT creature 137962: no spawn, no credit; WARN OBJ_NO_CREDIT creature 137963: no spawn, no credit"
+55103,Ideas Can Come from Anywhere,10290,0,6,"WARN OBJ_NO_CREDIT creature 154384: no spawn, no credit; WARN OBJ_NO_CREDIT creature 154383: no spawn, no credit; WARN OBJ_NO_CREDIT creature 154382: no spawn, no credit; WARN OBJ_NO_CREDIT creature 154385: no spawn, no credit; WARN OBJ_NO_CREDIT creature 169240: no spawn, no credit; WARN OBJ_NO_CREDIT creature 154380: no spawn, no credit"
+48111,Trial by Superstition,8721,0,5,"WARN OBJ_NO_CREDIT creature 125940: no spawn, no credit; WARN OBJ_NO_CREDIT creature 125941: no spawn, no credit; WARN OBJ_NO_CREDIT creature 125942: no spawn, no credit; WARN OBJ_NO_CREDIT creature 125943: no spawn, no credit; WARN OBJ_NO_CREDIT creature 125944: no spawn, no credit"
+50266,Bittersweet,8721,0,5,"WARN OBJ_NO_CREDIT creature 134589: no spawn, no credit; WARN OBJ_NO_CREDIT creature 133174: no spawn, no credit; WARN OBJ_NO_CREDIT creature 133215: no spawn, no credit; WARN OBJ_NO_CREDIT creature 133216: no spawn, no credit; WARN OBJ_NO_CREDIT creature 133217: no spawn, no credit"
+50784,Eye of the Storm,9042,0,5,"WARN OBJ_NO_CREDIT creature 136757: no spawn, no credit; WARN OBJ_NO_CREDIT creature 136758: no spawn, no credit; WARN OBJ_NO_CREDIT creature 136759: no spawn, no credit; WARN OBJ_NO_CREDIT creature 136760: no spawn, no credit; WARN OBJ_NO_CREDIT creature 136761: no spawn, no credit"
+54082,More Power,10290,0,5,"WARN OBJ_NO_CREDIT creature 152022: no spawn, no credit; WARN OBJ_NO_CREDIT creature 152026: no spawn, no credit; WARN OBJ_NO_CREDIT creature 152027: no spawn, no credit; WARN OBJ_NO_CREDIT creature 152073: no spawn, no credit; WARN OBJ_NO_CREDIT creature 154622: no spawn, no credit"
+48943,Salvage Rights,8721,0,4,"WARN OBJ_NO_CREDIT creature 127726: no spawn, no credit; WARN OBJ_NO_CREDIT creature 127728: no spawn, no credit; WARN OBJ_NO_CREDIT creature 127727: no spawn, no credit; WARN OBJ_NO_CREDIT creature 127729: no spawn, no credit"
+54947,A Small Team,8567,0,4,"WARN OBJ_NO_CREDIT creature 150133: no spawn, no credit; WARN OBJ_NO_CREDIT creature 150272: no spawn, no credit; WARN OBJ_NO_CREDIT creature 150215: no spawn, no credit; WARN OBJ_NO_CREDIT creature 152410: no spawn, no credit"
+47098,Out Like Flynn,8567,0,3,"WARN OBJ_NO_CREDIT creature 0: no spawn, no credit; WARN OBJ_NO_CREDIT creature 138553: no spawn, no credit; WARN OBJ_NO_CREDIT creature 138554: no spawn, no credit"
+47241,The Shadow of Death,8500,0,3,"WARN OBJ_NO_CREDIT creature 122071: no spawn, no credit; WARN OBJ_NO_CREDIT creature 123046: no spawn, no credit; WARN OBJ_NO_CREDIT creature 122956: no spawn, no credit"
+47880,A Tribute for Death,8500,0,3,"WARN OBJ_NO_CREDIT creature 126479: no spawn, no credit; WARN OBJ_NO_CREDIT creature 124578: no spawn, no credit; WARN OBJ_NO_CREDIT creature 126563: no spawn, no credit"
+47968,Signs and Portents,8721,0,3,"WARN OBJ_NO_CREDIT creature 124937: no spawn, no credit; WARN OBJ_NO_CREDIT creature 124939: no spawn, no credit; WARN OBJ_NO_CREDIT creature 124940: no spawn, no credit"
+49278,Spiritual Restoration,8500,0,3,"WARN OBJ_NO_CREDIT creature 128885: no spawn, no credit; WARN OBJ_NO_CREDIT creature 128899: no spawn, no credit; WARN OBJ_NO_CREDIT creature 134365: no spawn, no credit"
+50583,To the Other Side,8721,0,3,"WARN OBJ_NO_CREDIT creature 134334: no spawn, no credit; WARN OBJ_NO_CREDIT creature 134335: no spawn, no credit; WARN OBJ_NO_CREDIT creature 134336: no spawn, no credit"
+55248,Greener Pastures,8499,0,3,"WARN OBJ_NO_CREDIT creature 151856: no spawn, no credit; WARN OBJ_NO_CREDIT creature 151864: no spawn, no credit; WARN NPC_LUA_ONLY creature 151286 no spawn (script/credit)"
+56210,Scrying Stones,10052,0,3,"WARN OBJ_NO_CREDIT creature 152219: no spawn, no credit; WARN OBJ_NO_CREDIT creature 154373: no spawn, no credit; WARN OBJ_NO_CREDIT creature 154410: no spawn, no credit"
+56211,Scrying Stones,10052,0,3,"WARN OBJ_NO_CREDIT creature 152219: no spawn, no credit; WARN OBJ_NO_CREDIT creature 154373: no spawn, no credit; WARN OBJ_NO_CREDIT creature 154410: no spawn, no credit"
+56378,The Missing Crew,10052,0,3,"WARN OBJ_NO_CREDIT creature 154901: no spawn, no credit; WARN OBJ_NO_CREDIT creature 154896: no spawn, no credit; WARN OBJ_NO_CREDIT creature 154899: no spawn, no credit"
+56379,The Missing Crew,10052,0,3,"WARN OBJ_NO_CREDIT creature 154895: no spawn, no credit; WARN OBJ_NO_CREDIT creature 154897: no spawn, no credit; WARN OBJ_NO_CREDIT creature 154898: no spawn, no credit"
+56471,Unprofitable Ventures,10290,0,3,"WARN OBJ_NO_CREDIT creature 155228: no spawn, no credit; WARN OBJ_NO_CREDIT creature 155220: no spawn, no credit; WARN OBJ_NO_CREDIT creature 155227: no spawn, no credit"
+47315,Into the Dunes,8501,0,2,"WARN OBJ_NO_CREDIT creature 122161: no spawn, no credit; WARN OBJ_NO_CREDIT creature 137354: no spawn, no credit"
+48553,Let it Flow,8501,0,2,"WARN OBJ_NO_CREDIT creature 138754: no spawn, no credit; WARN OBJ_NO_CREDIT creature 138756: no spawn, no credit"
+49495,Enforcing Fate,8499,0,2,"WARN OBJ_NO_CREDIT creature 131232: no spawn, no credit; WARN OBJ_NO_CREDIT creature 138407: no spawn, no credit"
+49676,Dressed for Battle,8501,0,2,"WARN OBJ_NO_CREDIT creature 130460: no spawn, no credit; WARN OBJ_NO_CREDIT creature 130459: no spawn, no credit"
+49744,"Bombs, Away",9042,0,2,"WARN OBJ_NO_CREDIT creature 136577: no spawn, no credit; WARN OBJ_NO_CREDIT creature 136578: no spawn, no credit"
+50586,The Fall of Corlain,8721,0,2,"WARN OBJ_NO_CREDIT creature 134347: no spawn, no credit; WARN OBJ_NO_CREDIT creature 134748: no spawn, no credit"
+50697,Bomb Beats Rock,9042,0,2,"WARN OBJ_NO_CREDIT creature 135017: no spawn, no credit; WARN OBJ_NO_CREDIT creature 137357: no spawn, no credit"
+51061,The First Time I Died,8501,0,2,"WARN OBJ_NO_CREDIT creature 137869: no spawn, no credit; WARN OBJ_NO_CREDIT creature 136792: no spawn, no credit"
+52073,Petitioning Krag'wa,8500,0,2,"WARN OBJ_NO_CREDIT creature 140306: no spawn, no credit; WARN OBJ_NO_CREDIT creature 140314: no spawn, no credit"
+53371,Let's Bee Friends,9042,0,2,"WARN OBJ_NO_CREDIT creature 143654: no spawn, no credit; WARN OBJ_NO_CREDIT creature 143655: no spawn, no credit"
+54965,Chopped Bots,10290,0,2,"WARN OBJ_NO_CREDIT creature 150425: no spawn, no credit; WARN OBJ_NO_CREDIT creature 156166: no spawn, no credit"
+55213,Energy Cells for Everyone,10290,0,2,"WARN OBJ_NO_CREDIT creature 150606: no spawn, no credit; WARN OBJ_NO_CREDIT creature 151935: no spawn, no credit"
+55249,Away From the Herd,8499,0,2,"WARN OBJ_NO_CREDIT creature 154537: no spawn, no credit; WARN NPC_LUA_ONLY creature 151286 no spawn (script/credit)"
+55250,A Growing Appetite,8499,0,2,"WARN OBJ_NO_CREDIT creature 151293: no spawn, no credit; WARN NPC_LUA_ONLY creature 151286 no spawn (script/credit)"
+55252,A Loa Without a Temple,8499,0,2,"WARN OBJ_NO_CREDIT creature 151241: no spawn, no credit; WARN OBJ_NO_CREDIT creature 151253: no spawn, no credit"
+55463,Aid From Nordrassil,10290,0,2,"WARN OBJ_NO_CREDIT creature 151860: no spawn, no credit; WARN NPC_OTHERMAP creature 52671 maps [,1,]"
+55504,Wayshrines of Zuldazar,8499,0,2,"WARN OBJ_NO_CREDIT creature 152044: no spawn, no credit; WARN OBJ_NO_CREDIT creature 152050: no spawn, no credit"
+55632,You Must be This Height,8567,0,2,"WARN OBJ_NO_CREDIT creature 152617: no spawn, no credit; WARN NPC_OTHERMAP creature 78466 maps [,1,1,1,6,]"
+55647,A Quick Ear Hustle,10290,0,2,"WARN OBJ_NO_CREDIT creature 154250: no spawn, no credit; WARN OBJ_NO_CREDIT creature 152609: no spawn, no credit"
+55648,This is Our Vault Now,10290,0,2,"WARN OBJ_NO_CREDIT creature 152936: no spawn, no credit; WARN OBJ_NO_CREDIT creature 152940: no spawn, no credit"
+55874,Plug the Geysers,10052,0,2,"WARN OBJ_NO_CREDIT creature 153525: no spawn, no credit; WARN OBJ_NO_CREDIT creature 150834: no spawn, no credit"
+55875,Plug the Geysers,10052,0,2,"WARN OBJ_NO_CREDIT creature 153836: no spawn, no credit; WARN OBJ_NO_CREDIT creature 150834: no spawn, no credit"
+55905,Abduction Reduction,10290,0,2,"WARN OBJ_NO_CREDIT creature 153381: no spawn, no credit; WARN NPC_OTHERMAP creature 82574 maps [,1,1,1,6,]"
+56155,Plug the Geysers,10052,0,2,"WARN OBJ_NO_CREDIT creature 153525: no spawn, no credit; WARN OBJ_NO_CREDIT creature 150834: no spawn, no credit"
+56157,Plug the Geysers,10052,0,2,"WARN OBJ_NO_CREDIT creature 153836: no spawn, no credit; WARN OBJ_NO_CREDIT creature 150834: no spawn, no credit"
+56161,Back Out to Sea,10052,0,2,"WARN NPC_OTHERMAP creature 136907 maps [,1,9,2,9,]; WARN NPC_OTHERMAP creature 152206 maps [,1,9,2,9,]"
+56162,Back Out to Sea,10052,0,2,"WARN NPC_OTHERMAP creature 136907 maps [,1,9,2,9,]; WARN NPC_OTHERMAP creature 152206 maps [,1,9,2,9,]"
+56184,"Pirates, Sea Monsters, Robots",10290,0,2,"WARN OBJ_NO_CREDIT creature 154340: no spawn, no credit; WARN NPC_OTHERMAP creature 28048 maps [,0,]"
+56205,Just Ptrust Me On This,8499,0,2,"WARN OBJ_NO_CREDIT creature 154355: no spawn, no credit; WARN OBJ_NO_CREDIT creature 154348: no spawn, no credit"
+56301,Go For The Gold,10290,0,2,"WARN OBJ_NO_CREDIT creature 154491: no spawn, no credit; WARN NPC_OTHERMAP creature 14508 maps [,0,]"
+56327,Chopped Bots,10290,0,2,"WARN OBJ_NO_CREDIT creature 150425: no spawn, no credit; WARN OBJ_NO_CREDIT creature 156166: no spawn, no credit"
+56405,Cogfrenzy's Construction Frenzy,10290,0,2,"WARN OBJ_NO_CREDIT creature 155074: no spawn, no credit; WARN OBJ_NO_CREDIT creature 150970: no spawn, no credit"
+56421,Cracked Numeric Cylinder,10290,0,2,"WARN OBJ_NO_CREDIT creature 155105: no spawn, no credit; WARN OBJ_NO_CREDIT creature 155104: no spawn, no credit"
+56423,Large Storage Fragment,10290,0,2,"WARN OBJ_NO_CREDIT creature 155107: no spawn, no credit; WARN OBJ_NO_CREDIT creature 155109: no spawn, no credit"
+56424,Rust Covered Disc,10290,0,2,"WARN OBJ_NO_CREDIT creature 155114: no spawn, no credit; WARN OBJ_NO_CREDIT creature 155111: no spawn, no credit"
+56425,Scorched Data Disc,10290,0,2,"WARN OBJ_NO_CREDIT creature 155115: no spawn, no credit; WARN OBJ_NO_CREDIT creature 155116: no spawn, no credit"
+56523,My Chickens are Not for Eating!,10290,0,2,"WARN OBJ_NO_CREDIT creature 155306: no spawn, no credit; WARN NPC_OTHERMAP creature 7406 maps [,0,]"
+58672,A Gathering of Champions,8499,0,2,"WARN NPC_OTHERMAP creature 157230 maps [,0,]; WARN NPC_OTHERMAP creature 162190 maps [,0,,, ,1,]"
+4948800,Tal'gurub,8499,0,2,"WARN OBJ_NO_CREDIT creature 206525: no spawn, no credit; WARN OBJ_NO_CREDIT creature 204941: no spawn, no credit"
+45079,The Village of Glenbrook,8721,0,1,"WARN OBJ_NO_CREDIT creature 116035: no spawn, no credit"
+46846,The Word of Zul,8499,0,1,"WARN OBJ_NO_CREDIT creature 125881: no spawn, no credit"
+47249,Soulbound,8500,0,1,"WARN OBJ_NO_CREDIT creature 122710: no spawn, no credit"
+47498,Rhan'ka's Lost Friend,8501,0,1,"WARN OBJ_NO_CREDIT creature 138760: no spawn, no credit"
+47501,Dirty Work for Dirty Drinks,8501,0,1,"WARN OBJ_NO_CREDIT creature 138760: no spawn, no credit"
+47540,Totemic Restoration,8500,0,1,"WARN OBJ_NO_CREDIT creature 124752: no spawn, no credit"
+47580,The Curse of Mepjila,8501,0,1,"WARN OBJ_NO_CREDIT creature 138897: no spawn, no credit"
+47602,Ready For Action,8500,0,1,"WARN OBJ_NO_CREDIT creature 125245: no spawn, no credit"
+47623,The Last Witch Doctor of Krag'wa,8500,0,1,"WARN OBJ_NO_CREDIT creature 123129: no spawn, no credit"
+47638,Powerful Spirits,8501,0,1,"WARN OBJ_NO_CREDIT creature 134054: no spawn, no credit"
+47738,The Will of the Loa,8499,0,1,"WARN OBJ_NO_CREDIT creature 138698: no spawn, no credit"
+48004,Beginner Equitation,8567,0,1,"WARN OBJ_NO_CREDIT creature 127708: no spawn, no credit"
+48113,A Pungent Solution,8721,0,1,"WARN OBJ_NO_CREDIT creature 125415: no spawn, no credit"
+48170,"Once Bitten, Twice Shy",8721,0,1,"WARN OBJ_NO_CREDIT creature 128532: no spawn, no credit"
+48182,Total Cairnage,8721,0,1,"WARN OBJ_NO_CREDIT creature 126488: no spawn, no credit"
+48326,This Be Mutiny,8501,0,1,"WARN OBJ_NO_CREDIT creature 136921: no spawn, no credit"
+48366,Paddle to Safety,8567,0,1,"WARN OBJ_NO_CREDIT creature 131348: no spawn, no credit"
+48402,A Poisonous Touch,8500,0,1,"WARN OBJ_NO_CREDIT creature 126038: no spawn, no credit"
+48475,Seeing Spirits,8721,0,1,"WARN OBJ_NO_CREDIT creature 128221: no spawn, no credit"
+48478,Kel'vax's Home,8500,0,1,"WARN OBJ_NO_CREDIT creature 0: no spawn, no credit"
+48539,Freehold,8567,0,1,"WARN OBJ_NO_CREDIT creature 143710: no spawn, no credit"
+48939,Show Me What You've Got,8567,0,1,"WARN OBJ_NO_CREDIT creature 127716: no spawn, no credit"
+48945,The Ruins of Gol Var,8721,0,1,"WARN OBJ_NO_CREDIT creature 128103: no spawn, no credit"
+49002,Forced Grounding,8501,0,1,"WARN OBJ_NO_CREDIT creature 129848: no spawn, no credit"
+49036,Best In Show,8567,0,1,"WARN OBJ_NO_CREDIT creature 128034: no spawn, no credit"
+49145,No Troll Left Behind,8499,0,1,"WARN OBJ_NO_CREDIT creature 128982: no spawn, no credit"
+49302,The Deadliest Catch,8567,0,1,"WARN OBJ_NO_CREDIT creature 129456: no spawn, no credit"
+49310,The Prophet's Ploy,8499,0,1,"WARN OBJ_NO_CREDIT creature 129417: no spawn, no credit"
+49398,Raise a Glass!,8567,0,1,"WARN OBJ_NO_CREDIT creature 129349: no spawn, no credit"
+49403,Rodrigo's Revenge,8567,0,1,"WARN OBJ_NO_CREDIT creature 145236: no spawn, no credit"
+49706,Proclamation Investigation,9042,0,1,"WARN OBJ_NO_CREDIT creature 133272: no spawn, no credit"
+49725,A Risky Ploy,9042,0,1,"WARN OBJ_NO_CREDIT creature 134241: no spawn, no credit"
+49755,Heavy Artillery,9042,0,1,"WARN OBJ_NO_CREDIT creature 139245: no spawn, no credit"
+49805,Implements of Ill Intent,8721,0,1,"WARN OBJ_NO_CREDIT creature 131189: no spawn, no credit"
+49902,To Gloom Hollow,8500,0,1,"WARN OBJ_NO_CREDIT creature 0: no spawn, no credit"
+50065,A Reason to Stay,9042,0,1,"WARN OBJ_NO_CREDIT creature 135498: no spawn, no credit"
+50070,Detective Mildenhall,9042,0,1,"WARN OBJ_NO_CREDIT creature 134449: no spawn, no credit"
+50076,Rally the Warriors,8500,0,1,"WARN OBJ_NO_CREDIT creature 132028: no spawn, no credit"
+50253,An Improvised Arsenal,8721,0,1,"WARN OBJ_NO_CREDIT creature 133291: no spawn, no credit"
+50297,The Head of Her Enemy,8499,0,1,"WARN OBJ_NO_CREDIT creature 133397: no spawn, no credit"
+50385,Indefatigable Purpose,9042,0,1,"WARN OBJ_NO_CREDIT creature 133758: no spawn, no credit"
+50386,Flush Them Out,9042,0,1,"WARN OBJ_NO_CREDIT creature 133758: no spawn, no credit"
+50387,Trinkets and Baubles,9042,0,1,"WARN OBJ_NO_CREDIT creature 133758: no spawn, no credit"
+50455,Leaving the Nest,8721,0,1,"WARN OBJ_NO_CREDIT creature 134030: no spawn, no credit"
+50533,Stick It To 'Em!,8721,0,1,"WARN OBJ_NO_CREDIT creature 65587: no spawn, no credit"
+50611,Storm's Vengeance,9042,0,1,"WARN OBJ_NO_CREDIT creature 135151: no spawn, no credit"
+50754,To Have Loved and Lost,8721,0,1,"WARN OBJ_NO_CREDIT creature 135408: no spawn, no credit"
+50758,Painful Memories,8721,0,1,"WARN OBJ_NO_CREDIT creature 135143: no spawn, no credit"
+50810,Break 'Em Out,9042,0,1,"WARN OBJ_NO_CREDIT creature 140047: no spawn, no credit"
+50942,"Dress for the Slide, Not the Ride",8499,0,1,"WARN OBJ_NO_CREDIT creature 141544: no spawn, no credit"
+51335,Cookies and Cream,9042,0,1,"WARN OBJ_NO_CREDIT creature 137863: no spawn, no credit"
+51357,Armed and Ready,8501,0,1,"WARN OBJ_NO_CREDIT creature 130458: no spawn, no credit"
+51364,An Explosive Exit,8501,0,1,"WARN OBJ_NO_CREDIT creature 137503: no spawn, no credit"
+51488,Archived Knowledge,9042,0,1,"WARN OBJ_NO_CREDIT creature 144495: no spawn, no credit"
+51712,Eye for an Eye,9042,0,1,"WARN OBJ_NO_CREDIT creature 138904: no spawn, no credit"
+52130,Deadliest Cache: Carpe Diem,9042,0,1,"WARN OBJ_NO_CREDIT creature 0: no spawn, no credit"
+53105,Misplaced Faith,9042,0,1,"WARN OBJ_NO_CREDIT creature 133758: no spawn, no credit"
+54086,Right Bot for the Job,10290,0,1,"WARN OBJ_NO_CREDIT creature 156163: no spawn, no credit"
+54087,You Must be This Height,8567,0,1,"WARN OBJ_NO_CREDIT creature 152617: no spawn, no credit"
+54946,Report to Gila,8567,0,1,"WARN OBJ_NO_CREDIT creature 152382: no spawn, no credit"
+55032,Unchained Resistance,10052,0,1,"WARN OBJ_NO_CREDIT creature 150422: no spawn, no credit"
+55211,Recharging Rustbolt,10290,0,1,"WARN OBJ_NO_CREDIT creature 0: no spawn, no credit"
+55251,A Daughter of Torcali,8499,0,1,WARN NPC_LUA_ONLY creature 151286 no spawn (script/credit)
+55253,A Show of Faith,8499,0,1,WARN NPC_LUA_ONLY creature 151286 no spawn (script/credit)
+55258,"Sleep, Eat, Repeat",8499,0,1,WARN NPC_LUA_ONLY creature 151286 no spawn (script/credit)
+55363,Rescue The Farseer,10052,0,1,"WARN OBJ_NO_CREDIT creature 151765: no spawn, no credit"
+55486,Secrets of Telemancy,10052,0,1,"WARN OBJ_NO_CREDIT creature 152370: no spawn, no credit"
+55507,Torcali's Blessing,8499,0,1,WARN NPC_LUA_ONLY creature 151286 no spawn (script/credit)
+55528,Playtime's Over,10290,0,1,"WARN NPC_OTHERMAP creature 19570 maps [,5,3,0,]"
+55575,One Gnome's Trash,10290,0,1,"WARN OBJ_NO_CREDIT creature 152606: no spawn, no credit"
+55609,Operation: Mechagon - The Mechoriginator,10290,0,1,"WARN OBJ_NO_CREDIT creature 150397: no spawn, no credit"
+55637,"Poor, Unfortunate Souls",10052,0,1,"WARN OBJ_NO_CREDIT creature 152492: no spawn, no credit"
+55646,The Legend of Mechagon,10290,0,1,"WARN NPC_OTHERMAP creature 78466 maps [,1,1,1,6,]"
+55649,Machinations for Mechagon,10290,0,1,"WARN NPC_OTHERMAP creature 78466 maps [,1,1,1,6,]"
+55718,Strange Discovery,10290,0,1,"WARN NPC_OTHERMAP creature 228605 maps [,2,5,5,2,]"
+55727,Requisition: A Few Flotsam,10052,0,1,"WARN OBJ_NO_CREDIT creature 155256: no spawn, no credit"
+55729,The Resistance Needs YOU!,10290,0,1,"WARN OBJ_NO_CREDIT creature 0: no spawn, no credit"
+55753,Knock His Bot Off,10290,0,1,"WARN OBJ_NO_CREDIT creature 168305: no spawn, no credit"
+55765,"Bugs, Lots of 'Em!",10290,0,1,"WARN NPC_OTHERMAP creature 21118 maps [,5,3,0,]"
+55767,Misdirection,10052,0,1,"WARN OBJ_NO_CREDIT creature 155132: no spawn, no credit"
+55793,Requisition: More Flotsam,10052,0,1,"WARN OBJ_NO_CREDIT creature 155256: no spawn, no credit"
+55797,The Direhorn Mother's Fury,8499,0,1,"WARN OBJ_NO_CREDIT creature 153117: no spawn, no credit"
+55872,Where They Hide,10052,0,1,"WARN OBJ_NO_CREDIT creature 153352: no spawn, no credit"
+55873,Kill the Kritch,10052,0,1,"WARN OBJ_NO_CREDIT creature 153263: no spawn, no credit"
+55877,Plug the Geysers,10052,0,1,"WARN OBJ_NO_CREDIT creature 153480: no spawn, no credit"
+55878,Plug the Geysers,10052,0,1,"WARN OBJ_NO_CREDIT creature 153820: no spawn, no credit"
+55967,Sating Snapdragons,10052,0,1,"WARN OBJ_NO_CREDIT creature 0: no spawn, no credit"
+56095,Legacy of Nar'anan,10052,0,1,"WARN OBJ_NO_CREDIT creature 154108: no spawn, no credit"
+56143,The Fate of Professor Elryna,10052,0,1,"WARN OBJ_NO_CREDIT creature 154215: no spawn, no credit"
+56150,Kill the Kritch,10052,0,1,"WARN OBJ_NO_CREDIT creature 153263: no spawn, no credit"
+56154,Where They Hide,10052,0,1,"WARN OBJ_NO_CREDIT creature 153352: no spawn, no credit"
+56156,A Tempered Blade,10052,0,1,"WARN OBJ_NO_CREDIT creature 154271: no spawn, no credit"
+56158,Plug the Geysers,10052,0,1,"WARN OBJ_NO_CREDIT creature 153821: no spawn, no credit"
+56159,Plug the Geysers,10052,0,1,"WARN OBJ_NO_CREDIT creature 153480: no spawn, no credit"
+56160,Plug the Geysers,10052,0,1,"WARN OBJ_NO_CREDIT creature 153820: no spawn, no credit"
+56234,Friends In Need,10052,0,1,"WARN OBJ_NO_CREDIT creature 0: no spawn, no credit"
+56245,Enchanted Lock,10052,0,1,"WARN OBJ_NO_CREDIT creature 94878: no spawn, no credit"
+56246,Enchanted Lock,10052,0,1,"WARN OBJ_NO_CREDIT creature 94878: no spawn, no credit"
+56249,I Am the Trashmaster,8499,0,1,"WARN OBJ_NO_CREDIT creature 154458: no spawn, no credit"
+56365,"Be Kind, Rewind",10290,0,1,"WARN OBJ_NO_CREDIT creature 154968: no spawn, no credit"
+56373,A Gulper Ate The Rolly,10290,0,1,"WARN OBJ_NO_CREDIT creature 154816: no spawn, no credit"
+56501,Taking The Air Out,10290,0,1,"WARN OBJ_NO_CREDIT creature 155223: no spawn, no credit"
+56552,Off-the-Books Brawlin',10290,0,1,"WARN OBJ_NO_CREDIT creature 155444: no spawn, no credit"
+56558,Off-the-Books Brawlin',10290,0,1,"WARN OBJ_NO_CREDIT creature 155358: no spawn, no credit"
+56621,Real Ultimate Power,10290,0,1,"WARN OBJ_NO_CREDIT creature 155472: no spawn, no credit"
+57005,Becoming a Friend,10052,0,1,"WARN OBJ_NO_CREDIT creature 156266: no spawn, no credit"
+58708,Fame Waits for Gnome One,10290,0,1,"WARN OBJ_NO_CREDIT creature 156184: no spawn, no credit"

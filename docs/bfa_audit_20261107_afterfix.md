@@ -1,0 +1,6565 @@
+# BfA spawn / phasing audit — 2026-11-07
+
+Read-only audit of `world` against retail `phase_area`/`phase` DB2 and wago AreaTable.
+
+## Spawn summary
+
+### creature
+
+| map | total | phase 0 | OK | OK_MAP | ORPHAN_ALL | OTHER_MAP |
+|---|---:|---:|---:|---:|---:|---:|
+| 1642 Zandalar | 33020 | 27866 | 3293 | 1743 | 101 | 17 |
+| 1643 Kul Tiras | 35905 | 30981 | 3297 | 1281 | 344 | 2 |
+| 1718 Nazjatar | 5370 | 5109 | 44 | 216 | 1 | 0 |
+| 2268 Mechagon | 42 | 0 | 38 | 4 | 0 | 0 |
+
+zoneId=0: total 5373, phased 3255, phase0 2118
+
+### gameobject
+
+| map | total | phase 0 | OK | OK_MAP | ORPHAN_ALL | OTHER_MAP |
+|---|---:|---:|---:|---:|---:|---:|
+| 1642 Zandalar | 2212 | 1715 | 14 | 483 | 0 | 0 |
+| 1643 Kul Tiras | 8564 | 7868 | 126 | 568 | 2 | 0 |
+| 1718 Nazjatar | 94 | 80 | 0 | 14 | 0 | 0 |
+| 2268 Mechagon | 84 | 0 | 84 | 0 | 0 | 0 |
+
+zoneId=0: total 2522, phased 916, phase0 1606
+
+## Top orphan phase IDs (creature)
+
+| phase | name | total | ORPHAN_ALL | OTHER_MAP |
+|---|---|---:|---:|---:|
+| 50 | Gilneas Lev 6 | 399 | 399 | 0 |
+| 49405 |  | 15 | 15 | 0 |
+| 41649 | 8.0 Horde in Reißzahnfeste(H)  | 132 | 0 | 15 |
+| 19866 | Thaldraszus Dragon Glyph: Valdrakken | 13 | 13 | 0 |
+| 9464 |  | 12 | 12 | 0 |
+| 54958 |  | 4 | 4 | 0 |
+| 10613 |  | 1 | 1 | 0 |
+| 41483 |  GallxyVoidNPCALi#2 | 1 | 0 | 1 |
+| 42070 |  Zolani in the Grand Bazaar | 4 | 0 | 1 |
+| 9465 |  | 1 | 1 | 0 |
+| 44716 | Defense Line Argus | 1 | 0 | 1 |
+| 44283 |  | 1 | 1 | 0 |
+| 45226 | Meerah within Suramar's Twilight Vineyards | 1 | 0 | 1 |
+
+## Missing templates in BfA maps
+
+- creature: 0 (map, entry, spawns) rows=[]
+- gameobject: 0 (map, entry, spawns) rows=[]
+
+## Quest audit
+
+Quests: 2998, flagged: 1580, with BLOCK: 1413
+
+| code | count |
+|---|---:|
+| NO_STARTER | 1203 |
+| OBJ_NO_CREDIT | 1187 |
+| NO_ENDER | 1127 |
+| GO_NOSPAWN | 142 |
+| NPC_NOSPAWN | 102 |
+| OBJ_GO_NOSPAWN | 91 |
+| NPC_OTHERMAP | 27 |
+| NPC_NOQUESTFLAG | 25 |
+| CHAIN_DISABLED | 14 |
+| NPC_LUA_ONLY | 11 |
+| GO_OTHERMAP | 9 |
+| QPHASE_ORPHAN | 1 |
+
+## Quests with BLOCK
+
+### 53755 Blight and Sound (zone 8567) — BLOCK 10 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 307029: no spawn
+- BLOCK OBJ_GO_NOSPAWN GO 307032: no spawn
+- BLOCK OBJ_GO_NOSPAWN GO 278495: no spawn
+- BLOCK OBJ_GO_NOSPAWN GO 307429: no spawn
+- BLOCK GO_NOSPAWN GO 278495 no spawn
+- BLOCK GO_NOSPAWN GO 307029 no spawn
+- BLOCK GO_NOSPAWN GO 307032 no spawn
+- BLOCK GO_NOSPAWN GO 307429 no spawn
+- WARN OBJ_NO_CREDIT creature 145177: no spawn, no credit
+
+### 51900 Faithless Follow-Through (zone 8501) — BLOCK 8 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 281656: no spawn
+- BLOCK OBJ_GO_NOSPAWN GO 281664: no spawn
+- BLOCK OBJ_GO_NOSPAWN GO 281667: no spawn
+- BLOCK GO_NOSPAWN GO 281656 no spawn
+- BLOCK GO_NOSPAWN GO 281664 no spawn
+- BLOCK GO_NOSPAWN GO 281667 no spawn
+- WARN GO_OTHERMAP GO 281643 maps [,0,]
+
+### 51924 Faithless Follow-Through (zone 8501) — BLOCK 8 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 281656: no spawn
+- BLOCK OBJ_GO_NOSPAWN GO 281664: no spawn
+- BLOCK OBJ_GO_NOSPAWN GO 281667: no spawn
+- BLOCK GO_NOSPAWN GO 281656 no spawn
+- BLOCK GO_NOSPAWN GO 281664 no spawn
+- BLOCK GO_NOSPAWN GO 281667 no spawn
+- WARN GO_OTHERMAP GO 281643 maps [,0,]
+
+### 55801 Requisition: We Need It All (zone 10052) — BLOCK 8 WARN 1
+- BLOCK OBJ_GO_NOSPAWN GO 325884: no spawn
+- BLOCK OBJ_GO_NOSPAWN GO 325912: no spawn
+- BLOCK OBJ_GO_NOSPAWN GO 325914: no spawn
+- BLOCK OBJ_GO_NOSPAWN GO 325916: no spawn
+- BLOCK GO_NOSPAWN GO 325884 no spawn
+- BLOCK GO_NOSPAWN GO 325912 no spawn
+- BLOCK GO_NOSPAWN GO 325914 no spawn
+- BLOCK GO_NOSPAWN GO 325916 no spawn
+- WARN OBJ_NO_CREDIT creature 155256: no spawn, no credit
+
+### 50975 Azerite Mining (zone 8501) — BLOCK 6 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 287086: no spawn
+- BLOCK OBJ_GO_NOSPAWN GO 287497: no spawn
+- BLOCK GO_NOSPAWN GO 287086 no spawn
+- BLOCK GO_NOSPAWN GO 287497 no spawn
+- WARN OBJ_NO_CREDIT creature 146022: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 146023: no spawn, no credit
+
+### 51411 Azerite Mining (zone 8500) — BLOCK 6 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 289535: no spawn
+- BLOCK OBJ_GO_NOSPAWN GO 289534: no spawn
+- BLOCK GO_NOSPAWN GO 289534 no spawn
+- BLOCK GO_NOSPAWN GO 289535 no spawn
+- WARN OBJ_NO_CREDIT creature 146022: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 146023: no spawn, no credit
+
+### 51450 Azerite Mining (zone 8499) — BLOCK 6 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 289638: no spawn
+- BLOCK OBJ_GO_NOSPAWN GO 289637: no spawn
+- BLOCK GO_NOSPAWN GO 289637 no spawn
+- BLOCK GO_NOSPAWN GO 289638 no spawn
+- WARN OBJ_NO_CREDIT creature 146022: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 146023: no spawn, no credit
+
+### 51581 Azerite Mining (zone 8567) — BLOCK 6 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 290535: no spawn
+- BLOCK OBJ_GO_NOSPAWN GO 290536: no spawn
+- BLOCK GO_NOSPAWN GO 290535 no spawn
+- BLOCK GO_NOSPAWN GO 290536 no spawn
+- WARN OBJ_NO_CREDIT creature 146022: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 146023: no spawn, no credit
+
+### 51644 Azerite Mining (zone 9042) — BLOCK 6 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 290723: no spawn
+- BLOCK OBJ_GO_NOSPAWN GO 290721: no spawn
+- BLOCK GO_NOSPAWN GO 290721 no spawn
+- BLOCK GO_NOSPAWN GO 290723 no spawn
+- WARN OBJ_NO_CREDIT creature 146022: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 146023: no spawn, no credit
+
+### 52873 Azerite Mining (zone 9042) — BLOCK 6 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 293977: no spawn
+- BLOCK OBJ_GO_NOSPAWN GO 293974: no spawn
+- BLOCK GO_NOSPAWN GO 293974 no spawn
+- BLOCK GO_NOSPAWN GO 293977 no spawn
+- WARN OBJ_NO_CREDIT creature 146022: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 146023: no spawn, no credit
+
+### 52874 Azerite Mining (zone 8567) — BLOCK 6 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 293978: no spawn
+- BLOCK OBJ_GO_NOSPAWN GO 293973: no spawn
+- BLOCK GO_NOSPAWN GO 293973 no spawn
+- BLOCK GO_NOSPAWN GO 293978 no spawn
+- WARN OBJ_NO_CREDIT creature 146022: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 146023: no spawn, no credit
+
+### 52875 Azerite Mining (zone 8501) — BLOCK 6 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 293979: no spawn
+- BLOCK OBJ_GO_NOSPAWN GO 293971: no spawn
+- BLOCK GO_NOSPAWN GO 293971 no spawn
+- BLOCK GO_NOSPAWN GO 293979 no spawn
+- WARN OBJ_NO_CREDIT creature 146022: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 146023: no spawn, no credit
+
+### 50524 Purify the Temple (zone 8499) — BLOCK 6 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 272388: no spawn
+- BLOCK OBJ_GO_NOSPAWN GO 281675: no spawn
+- BLOCK GO_NOSPAWN GO 272388 no spawn
+- BLOCK GO_NOSPAWN GO 281675 no spawn
+
+### 52144 Foundry Meltdown (zone 8567) — BLOCK 6 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 295817: no spawn
+- BLOCK OBJ_GO_NOSPAWN GO 296064: no spawn
+- BLOCK GO_NOSPAWN GO 295817 no spawn
+- BLOCK GO_NOSPAWN GO 296064 no spawn
+
+### 53076 Foundry Meltdown (zone 8567) — BLOCK 6 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 295817: no spawn
+- BLOCK OBJ_GO_NOSPAWN GO 296064: no spawn
+- BLOCK GO_NOSPAWN GO 295817 no spawn
+- BLOCK GO_NOSPAWN GO 296064 no spawn
+
+### 56325 Changing Tides (zone 10052) — BLOCK 5 WARN 1
+- BLOCK OBJ_GO_NOSPAWN GO 326149: no spawn
+- BLOCK OBJ_GO_NOSPAWN GO 326150: no spawn
+- BLOCK NPC_NOQUESTFLAG creature 153193 npcflag=1
+- BLOCK GO_NOSPAWN GO 326149 no spawn
+- BLOCK GO_NOSPAWN GO 326150 no spawn
+- WARN OBJ_NO_CREDIT creature 153044: no spawn, no credit
+
+### 54503 This Gang of Mine (zone 8500) — BLOCK 4 WARN 14
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 312313: no spawn
+- BLOCK GO_NOSPAWN GO 312313 no spawn
+- WARN OBJ_NO_CREDIT creature 148206: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148217: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148213: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148255: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148256: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148277: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148251: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148278: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148659: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148660: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148684: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148183: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148710: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 149044: no spawn, no credit
+
+### 52475 Where Eagles Prey (zone 8567) — BLOCK 4 WARN 7
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 304011: no spawn
+- BLOCK GO_NOSPAWN GO 304011 no spawn
+- WARN OBJ_NO_CREDIT creature 144662: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 144659: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 144672: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 144674: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 144673: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 144660: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 144677: no spawn, no credit
+
+### 53712 Unfriendly Skies (zone 9042) — BLOCK 4 WARN 4
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 309886: no spawn
+- BLOCK GO_NOSPAWN GO 309886 no spawn
+- WARN OBJ_NO_CREDIT creature 145557: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 146024: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 146035: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 149629: no spawn, no credit
+
+### 51615 Azerite Mining (zone 8721) — BLOCK 4 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 290610: no spawn
+- BLOCK GO_NOSPAWN GO 290610 no spawn
+- WARN OBJ_NO_CREDIT creature 146022: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 146023: no spawn, no credit
+- WARN GO_OTHERMAP GO 290611 maps [,1,9,2,9,]
+
+### 52872 Azerite Mining (zone 8721) — BLOCK 4 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 293972: no spawn
+- BLOCK GO_NOSPAWN GO 293972 no spawn
+- WARN OBJ_NO_CREDIT creature 146022: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 146023: no spawn, no credit
+- WARN GO_OTHERMAP GO 293980 maps [,1,]
+
+### 52877 Azerite Mining (zone 8499) — BLOCK 4 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 293975: no spawn
+- BLOCK GO_NOSPAWN GO 293975 no spawn
+- WARN OBJ_NO_CREDIT creature 146022: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 146023: no spawn, no credit
+- WARN GO_OTHERMAP GO 293970 maps [,1,9,2,9,,, ,1,9,5,5,]
+
+### 53886 Self Guided Tour (zone 8500) — BLOCK 4 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 307749: no spawn
+- BLOCK GO_NOSPAWN GO 307749 no spawn
+- WARN OBJ_NO_CREDIT creature 146286: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 146289: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 149628: no spawn, no credit
+
+### 50444 Taking the Loa Road (zone 8500) — BLOCK 4 WARN 2
+- BLOCK OBJ_GO_NOSPAWN GO 281406: no spawn
+- BLOCK NPC_NOQUESTFLAG creature 133828 npcflag=1
+- BLOCK NPC_NOQUESTFLAG creature 133845 npcflag=1
+- BLOCK GO_NOSPAWN GO 281406 no spawn
+- WARN OBJ_NO_CREDIT creature 133869: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 133894: no spawn, no credit
+
+### 53808 Crawl To Victory (zone 8567) — BLOCK 4 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 307424: no spawn
+- BLOCK GO_NOSPAWN GO 307424 no spawn
+- WARN OBJ_NO_CREDIT creature 145314: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 149044: no spawn, no credit
+
+### 54189 Desert Crawl (zone 8501) — BLOCK 4 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 311183: no spawn
+- BLOCK GO_NOSPAWN GO 311183 no spawn
+- WARN OBJ_NO_CREDIT creature 147115: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 149044: no spawn, no credit
+
+### 50421 Sparring on the Spar (zone 8567) — BLOCK 4 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 281297: no spawn
+- BLOCK GO_NOSPAWN GO 281297 no spawn
+- WARN OBJ_NO_CREDIT creature 133810: no spawn, no credit
+
+### 50587 Nagative Feedback (zone 8500) — BLOCK 4 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 287159: no spawn
+- BLOCK GO_NOSPAWN GO 287159 no spawn
+- WARN OBJ_NO_CREDIT creature 134372: no spawn, no credit
+
+### 51548 Nagative Feedback (zone 8500) — BLOCK 4 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 287159: no spawn
+- BLOCK GO_NOSPAWN GO 287159 no spawn
+- WARN OBJ_NO_CREDIT creature 134372: no spawn, no credit
+
+### 52507 Sticky Mess (zone 9042) — BLOCK 4 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 293681: no spawn
+- BLOCK GO_NOSPAWN GO 293681 no spawn
+- WARN OBJ_NO_CREDIT creature 141351: no spawn, no credit
+
+### 53950 Explosive Relief (zone 8567) — BLOCK 4 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 307028: no spawn
+- BLOCK GO_NOSPAWN GO 307028 no spawn
+- WARN OBJ_NO_CREDIT creature 145818: no spawn, no credit
+
+### 53951 Explosive Relief (zone 8567) — BLOCK 4 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 307028: no spawn
+- BLOCK GO_NOSPAWN GO 307028 no spawn
+- WARN OBJ_NO_CREDIT creature 145817: no spawn, no credit
+
+### 54016 Azerite Transport (zone 8499) — BLOCK 4 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 313780: no spawn
+- BLOCK GO_NOSPAWN GO 313780 no spawn
+- WARN OBJ_NO_CREDIT creature 145391: no spawn, no credit
+
+### 54644 Azerite Transport (zone 8501) — BLOCK 4 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 316399: no spawn
+- BLOCK GO_NOSPAWN GO 316399 no spawn
+- WARN OBJ_NO_CREDIT creature 148550: no spawn, no credit
+
+### 54664 Azerite Transport (zone 8500) — BLOCK 4 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 316434: no spawn
+- BLOCK GO_NOSPAWN GO 316434 no spawn
+- WARN OBJ_NO_CREDIT creature 148642: no spawn, no credit
+
+### 54681 Azerite Caravan (zone 8721) — BLOCK 4 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 316440: no spawn
+- BLOCK GO_NOSPAWN GO 316440 no spawn
+- WARN OBJ_NO_CREDIT creature 148676: no spawn, no credit
+
+### 55799 The Tide Turns (zone 10052) — BLOCK 4 WARN 1
+- BLOCK OBJ_GO_NOSPAWN GO 326149: no spawn
+- BLOCK OBJ_GO_NOSPAWN GO 326150: no spawn
+- BLOCK GO_NOSPAWN GO 326149 no spawn
+- BLOCK GO_NOSPAWN GO 326150 no spawn
+- WARN OBJ_NO_CREDIT creature 153044: no spawn, no credit
+
+### 48653 A Bejeweled Prison (zone 8500) — BLOCK 4 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 276184: no spawn
+- BLOCK GO_NOSPAWN GO 276184 no spawn
+
+### 50619 What Goes Up (zone 8499) — BLOCK 4 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 293683: no spawn
+- BLOCK GO_NOSPAWN GO 293683 no spawn
+
+### 50650 Smashing Zalamar (zone 8500) — BLOCK 4 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 281835: no spawn
+- BLOCK GO_NOSPAWN GO 281835 no spawn
+
+### 51388 Stopping the Infestation (zone 8567) — BLOCK 4 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 289363: no spawn
+- BLOCK GO_NOSPAWN GO 289363 no spawn
+
+### 51578 The Sea Runs Red (zone 8567) — BLOCK 4 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 290532: no spawn
+- BLOCK GO_NOSPAWN GO 290532 no spawn
+
+### 51824 You're Grounded (zone 8499) — BLOCK 4 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 293674: no spawn
+- BLOCK GO_NOSPAWN GO 293674 no spawn
+
+### 52124 Losers Weepers (zone 8567) — BLOCK 4 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 292613: no spawn
+- BLOCK GO_NOSPAWN GO 292613 no spawn
+
+### 52174 Snakes in the Shallows (zone 9042) — BLOCK 4 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 292530: no spawn
+- BLOCK GO_NOSPAWN GO 292530 no spawn
+
+### 52785 Smashing Zalamar (zone 8500) — BLOCK 4 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 281835: no spawn
+- BLOCK GO_NOSPAWN GO 281835 no spawn
+
+### 53874 End Their Vigil (zone 8567) — BLOCK 4 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 307674: no spawn
+- BLOCK GO_NOSPAWN GO 307674 no spawn
+
+### 56304 The High Life (zone 10052) — BLOCK 4 WARN 0
+- BLOCK OBJ_GO_NOSPAWN GO 327613: no spawn
+- BLOCK OBJ_GO_NOSPAWN GO 327628: no spawn
+- BLOCK GO_NOSPAWN GO 327613 no spawn
+- BLOCK GO_NOSPAWN GO 327628 no spawn
+
+### 47527 Rituals of Heresy (zone 8499) — BLOCK 3 WARN 2
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 272401: no spawn
+- BLOCK GO_NOSPAWN GO 272401 no spawn
+- WARN OBJ_NO_CREDIT creature 124803: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 122916: no spawn, no credit
+
+### 50798 Out on a Limb (zone 8499) — BLOCK 3 WARN 1
+- BLOCK NPC_NOSPAWN creature 133678 no spawn
+- BLOCK NPC_NOSPAWN creature 135296 no spawn
+- BLOCK NPC_NOSPAWN creature 135308 no spawn
+- WARN OBJ_NO_CREDIT creature 135296: no spawn, no credit
+
+### 50805 Skycaller Shutdown (zone 8501) — BLOCK 3 WARN 1
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 282461: no spawn
+- BLOCK GO_NOSPAWN GO 282461 no spawn
+- WARN OBJ_NO_CREDIT creature 140032: no spawn, no credit
+
+### 50842 Mast Effect (zone 8499) — BLOCK 3 WARN 1
+- BLOCK NPC_NOSPAWN creature 133679 no spawn
+- BLOCK NPC_NOSPAWN creature 135308 no spawn
+- BLOCK NPC_NOSPAWN creature 135481 no spawn
+- WARN OBJ_NO_CREDIT creature 135481: no spawn, no credit
+
+### 51146 Kua'fon's Day Off (zone 8499) — BLOCK 3 WARN 1
+- BLOCK NPC_NOSPAWN creature 133679 no spawn
+- BLOCK NPC_NOSPAWN creature 135308 no spawn
+- BLOCK NPC_NOSPAWN creature 136589 no spawn
+- WARN OBJ_NO_CREDIT creature 136589: no spawn, no credit
+
+### 51147 Kua'fon's Day Off (zone 8499) — BLOCK 3 WARN 1
+- BLOCK NPC_NOSPAWN creature 133680 no spawn
+- BLOCK NPC_NOSPAWN creature 135308 no spawn
+- BLOCK NPC_NOSPAWN creature 136581 no spawn
+- WARN OBJ_NO_CREDIT creature 136581: no spawn, no credit
+
+### 53108 Iconoclasm (zone 9042) — BLOCK 3 WARN 1
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 296463: no spawn
+- BLOCK GO_NOSPAWN GO 296463 no spawn
+- WARN OBJ_NO_CREDIT creature 133758: no spawn, no credit
+
+### 53344 Iconoclasm (zone 9042) — BLOCK 3 WARN 1
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 296463: no spawn
+- BLOCK GO_NOSPAWN GO 296463 no spawn
+- WARN OBJ_NO_CREDIT creature 133758: no spawn, no credit
+
+### 47797 Occupation Hazard (zone 8499) — BLOCK 3 WARN 0
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 272388: no spawn
+- BLOCK GO_NOSPAWN GO 272388 no spawn
+
+### 48093 Nagating the Threat (zone 8500) — BLOCK 3 WARN 0
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 272754: no spawn
+- BLOCK GO_NOSPAWN GO 272754 no spawn
+
+### 49409 Missing Treasure! (zone 8567) — BLOCK 3 WARN 0
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 278555: no spawn
+- BLOCK GO_NOSPAWN GO 278555 no spawn
+
+### 55719 Requisition: A Few Starfish (zone 10052) — BLOCK 3 WARN 0
+- BLOCK OBJ_GO_NOSPAWN GO 325884: no spawn
+- BLOCK NPC_NOQUESTFLAG creature 151633 npcflag=4224
+- BLOCK GO_NOSPAWN GO 325884 no spawn
+
+### 55726 Requisition: A Few Cone Shells (zone 10052) — BLOCK 3 WARN 0
+- BLOCK OBJ_GO_NOSPAWN GO 325916: no spawn
+- BLOCK NPC_NOQUESTFLAG creature 151633 npcflag=4224
+- BLOCK GO_NOSPAWN GO 325916 no spawn
+
+### 55785 Requisition: More Starfish (zone 10052) — BLOCK 3 WARN 0
+- BLOCK OBJ_GO_NOSPAWN GO 325884: no spawn
+- BLOCK NPC_NOQUESTFLAG creature 151633 npcflag=4224
+- BLOCK GO_NOSPAWN GO 325884 no spawn
+
+### 55792 Requisition: More Cone Shells (zone 10052) — BLOCK 3 WARN 0
+- BLOCK OBJ_GO_NOSPAWN GO 325916: no spawn
+- BLOCK NPC_NOQUESTFLAG creature 151633 npcflag=4224
+- BLOCK GO_NOSPAWN GO 325916 no spawn
+
+### 56739 The Power of Worship (zone 10052) — BLOCK 3 WARN 0
+- BLOCK NO_ENDER 
+- BLOCK OBJ_GO_NOSPAWN GO 330141: no spawn
+- BLOCK GO_NOSPAWN GO 330141 no spawn
+
+### 51804 Running Interference (zone 8501) — BLOCK 2 WARN 10
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 124195: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 139132: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 139138: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 139139: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 139154: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 139153: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 139159: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 139158: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 139155: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 139157: no spawn, no credit
+
+### 53704 Not Too Sober Citizens Brigade (zone 8567) — BLOCK 2 WARN 8
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 145099: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 145101: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 146295: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 145107: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 145103: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 145115: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 145105: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 146826: no spawn, no credit
+
+### 55111 Creature Study: Zanj'ir Naga (zone 10052) — BLOCK 2 WARN 8
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 150767: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 154876: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 150770: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 154877: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 154879: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 150772: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 150771: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 154878: no spawn, no credit
+
+### 47894 Jump Around (zone 8567) — BLOCK 2 WARN 7
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 124626: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 124610: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 124611: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 124612: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 124613: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 124614: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 124615: no spawn, no credit
+
+### 54127 Rocket Hop (zone 8501) — BLOCK 2 WARN 7
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 147043: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 147042: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 147046: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 147047: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 147050: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 147052: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 147060: no spawn, no credit
+
+### 54689 Lights Out (zone 8721) — BLOCK 2 WARN 7
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148725: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148946: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148730: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148731: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148852: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148855: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148732: no spawn, no credit
+
+### 56078 Time to Krill (zone 10052) — BLOCK 2 WARN 7
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 154077: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 154757: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 154756: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 154755: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 154754: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 154753: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 154752: no spawn, no credit
+
+### 50718 Agent of Death (zone 8500) — BLOCK 2 WARN 6
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134816: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 134812: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 134841: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 135280: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 134856: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 134852: no spawn, no credit
+
+### 51577 Defending the Academy (zone 8567) — BLOCK 2 WARN 6
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138166: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 138094: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 138136: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 138058: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 138029: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 141472: no spawn, no credit
+
+### 53875 Fogsail for a Day (zone 8567) — BLOCK 2 WARN 6
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 146293: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 145534: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 146393: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 146395: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 147482: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 147525: no spawn, no credit
+
+### 54268 Impulsive Propulsion (zone 8567) — BLOCK 2 WARN 6
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 147079: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 147624: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 147622: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 147660: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 147699: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 147697: no spawn, no credit
+
+### 54415 Vulpera for a Day (zone 8501) — BLOCK 2 WARN 6
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148458: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148447: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148448: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148449: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148503: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148461: no spawn, no credit
+
+### 54941 Scouting The Strand (zone 10052) — BLOCK 2 WARN 6
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 150265: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 150270: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 150266: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 150268: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 150269: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 150172: no spawn, no credit
+
+### 51397 Up In Your Drill (zone 8721) — BLOCK 2 WARN 5
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 137518: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 138456: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 138457: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 138459: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 138458: no spawn, no credit
+
+### 54500 Untapped Potential (zone 8500) — BLOCK 2 WARN 5
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148184: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148178: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148182: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148176: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 149192: no spawn, no credit
+
+### 54502 It's Raining Mana (zone 8500) — BLOCK 2 WARN 5
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148184: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148178: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148182: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148176: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 149192: no spawn, no credit
+
+### 49138 Captain Gulnaku's Treasure (zone 8501) — BLOCK 2 WARN 4
+- BLOCK GO_NOSPAWN GO 277530 no spawn
+- BLOCK GO_NOSPAWN GO 289728 no spawn
+- WARN OBJ_NO_CREDIT creature 128499: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 128500: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 128501: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 128502: no spawn, no credit
+
+### 50315 Not On the Itinerary (zone 8567) — BLOCK 2 WARN 4
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 133415: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 133418: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 133419: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 129988: no spawn, no credit
+
+### 50332 Big Hunter Mon (zone 8499) — BLOCK 2 WARN 4
+- BLOCK OBJ_GO_NOSPAWN GO 281251: no spawn
+- BLOCK GO_NOSPAWN GO 281251 no spawn
+- WARN OBJ_NO_CREDIT creature 133555: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 133979: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 133954: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 133984: no spawn, no credit
+
+### 52119 Goblin Azerite Extraction (zone 8567) — BLOCK 2 WARN 4
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139959: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 123712: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 142064: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 142070: no spawn, no credit
+
+### 52120 Gnomish Azerite Extraction (zone 8567) — BLOCK 2 WARN 4
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139965: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 123712: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 142064: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 142070: no spawn, no credit
+
+### 52941 Light in the Darkness (zone 9042) — BLOCK 2 WARN 4
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 142259: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 142260: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 142264: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 142262: no spawn, no credit
+
+### 53040 Squall Squelching (zone 9042) — BLOCK 2 WARN 4
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 142584: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 142585: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 142583: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 142575: no spawn, no credit
+
+### 53042 Stormcaller (zone 9042) — BLOCK 2 WARN 4
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 142584: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 142585: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 142583: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 142575: no spawn, no credit
+
+### 53726 Mechinations (zone 8567) — BLOCK 2 WARN 4
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 144705: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 144994: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 144718: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 145413: no spawn, no credit
+
+### 54647 Ale Intent (zone 9042) — BLOCK 2 WARN 4
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148598: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148608: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148668: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148666: no spawn, no credit
+
+### 47495 Insatiable Appetite [UNUSED] (zone 8499) — BLOCK 2 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 122111: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 122002: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 122000: no spawn, no credit
+
+### 50527 Behind Mogu Lines (zone 8499) — BLOCK 2 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134117: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 134125: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 134126: no spawn, no credit
+
+### 51475 Brutal Escort (zone 8499) — BLOCK 2 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 137729: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 137829: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 137840: no spawn, no credit
+
+### 52180 A Brennadam Shame (zone 9042) — BLOCK 2 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 140466: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 130747: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 103512: no spawn, no credit
+
+### 52251 Compromised Reconnaissance (zone 8499) — BLOCK 2 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 142075: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 142076: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 142082: no spawn, no credit
+
+### 52760 Like Fish in a Barrel (zone 8567) — BLOCK 2 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 141747: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 141731: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 141748: no spawn, no credit
+
+### 52936 Plagued Earth Policy (zone 9042) — BLOCK 2 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 142227: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 142229: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 142230: no spawn, no credit
+
+### 53773 Naga Attack! (zone 9042) — BLOCK 2 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 145207: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 145262: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 145265: no spawn, no credit
+
+### 53812 A Carefully Laid Trap (zone 8567) — BLOCK 2 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 145286: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 145287: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 145292: no spawn, no credit
+
+### 53945 Naga Attack! (zone 9042) — BLOCK 2 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 145214: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 145856: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 145855: no spawn, no credit
+
+### 53963 Naga Attack! (zone 8721) — BLOCK 2 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 145891: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 145875: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 145873: no spawn, no credit
+
+### 53979 Naga Attack! (zone 8721) — BLOCK 2 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 145950: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 145974: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 145959: no spawn, no credit
+
+### 53994 Naga Attack! (zone 8567) — BLOCK 2 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 146055: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 146056: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 146057: no spawn, no credit
+
+### 54051 Naga Attack! (zone 8499) — BLOCK 2 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 146376: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 146392: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 146397: no spawn, no credit
+
+### 54060 Naga Attack! (zone 8499) — BLOCK 2 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 146517: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 146518: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 146519: no spawn, no credit
+
+### 54188 Scrambled Bots (zone 8501) — BLOCK 2 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 144705: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 144994: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 147147: no spawn, no credit
+
+### 54236 Naga Attack! (zone 8500) — BLOCK 2 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 147326: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 147328: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 147331: no spawn, no credit
+
+### 54267 Naga Attack! (zone 8500) — BLOCK 2 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 147615: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 147616: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 147617: no spawn, no credit
+
+### 54287 Naga Attack! (zone 8501) — BLOCK 2 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 147752: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 147769: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 147763: no spawn, no credit
+
+### 54507 Fungal Infestation (zone 8721) — BLOCK 2 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148197: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148252: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148210: no spawn, no credit
+
+### 54511 Down with the Death Captains! (zone 8499) — BLOCK 2 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148253: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148257: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148259: no spawn, no credit
+
+### 54512 Cleansing Tide (zone 8500) — BLOCK 2 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148284: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148273: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148360: no spawn, no credit
+
+### 54786 Stop the Shipments (zone 8501) — BLOCK 2 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 149305: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 149304: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 149298: no spawn, no credit
+
+### 55982 The Lords of Water (zone 10052) — BLOCK 2 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 153604: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 153682: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 155488: no spawn, no credit
+
+### 55997 Hungry Hungry Hydras (zone 10052) — BLOCK 2 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 153823: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 153801: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 153825: no spawn, no credit
+
+### 56057 The Soulbinder (zone 10052) — BLOCK 2 WARN 3
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 152697: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 152729: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 152736: no spawn, no credit
+
+### 47647 Monsters of Zem'lan (zone 8501) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 129435: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 128369: no spawn, no credit
+
+### 47704 Ranishu Feeding Frenzy (zone 8501) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 137208: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 137194: no spawn, no credit
+
+### 49397 Sausage Party (zone 8721) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 137854: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 137865: no spawn, no credit
+
+### 50195 Bilgemaul's Brigade (zone 8721) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 132432: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 132479: no spawn, no credit
+
+### 50206 Strike Back (zone 8721) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 132451: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 132549: no spawn, no credit
+
+### 50324 Picturesque Fizzsprings Resort (zone 8567) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 133479: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 133484: no spawn, no credit
+
+### 50529 The Spirits Within (zone 8500) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134119: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 134140: no spawn, no credit
+
+### 50651 Cut Off Potential (zone 8499) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134315: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 134585: no spawn, no credit
+
+### 50665 Cancel the Blood Troll Apocalypse (zone 8500) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134758: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 134664: no spawn, no credit
+
+### 50735 Burial Detail (zone 8500) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134995: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 135028: no spawn, no credit
+
+### 51250 Buzz Off! (zone 8501) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 137063: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 136393: no spawn, no credit
+
+### 51454 Once More Into Battle (zone 8721) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 137788: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 137793: no spawn, no credit
+
+### 51530 Wedding Crashers (zone 8721) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 137909: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 137938: no spawn, no credit
+
+### 51566 Resurgence of the Beast (zone 8567) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 129456: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 132115: no spawn, no credit
+
+### 51585 Quit Your Witchin' (zone 8721) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 125023: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 128326: no spawn, no credit
+
+### 51625 Shell Game (zone 8721) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138476: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 137973: no spawn, no credit
+
+### 51626 Shell Game (zone 8567) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 144350: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 137973: no spawn, no credit
+
+### 51627 Shell Game (zone 9042) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 144351: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 137973: no spawn, no credit
+
+### 51628 Shell Game (zone 8500) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 144352: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 137973: no spawn, no credit
+
+### 51630 Shell Game (zone 8499) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 144354: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 137973: no spawn, no credit
+
+### 51633 Make Loh Go (zone 9042) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 144360: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 138037: no spawn, no credit
+
+### 51635 Make Loh Go (zone 8501) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138480: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 138037: no spawn, no credit
+
+### 51636 Make Loh Go (zone 8499) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 144362: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 138037: no spawn, no credit
+
+### 51637 Beachhead (zone 8721) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138478: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 138330: no spawn, no credit
+
+### 51638 Beachhead (zone 8567) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 144356: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 138330: no spawn, no credit
+
+### 51639 Beachhead (zone 9042) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 144355: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 138330: no spawn, no credit
+
+### 51640 Beachhead (zone 8500) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 144357: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 138330: no spawn, no credit
+
+### 51683 Slash and Burn Tactics (zone 8721) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138525: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 138527: no spawn, no credit
+
+### 51719 A Glaive Mistake (zone 8721) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138732: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 138752: no spawn, no credit
+
+### 51727 A Shot at the Dark Iron (zone 8721) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138768: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 138765: no spawn, no credit
+
+### 51747 Early Warning (zone 8721) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138810: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 138791: no spawn, no credit
+
+### 51760 Ranishu Feeding Frenzy (zone 8501) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 137208: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 137194: no spawn, no credit
+
+### 51827 They Came From Behind! (zone 9042) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139085: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 139149: no spawn, no credit
+
+### 51828 Burning the Legion (zone 9042) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139141: no spawn, no credit
+- WARN GO_OTHERMAP GO 291106 maps [,8,7,0,,, ,1,0,6,4,]
+
+### 51832 Beat Around The Bush (zone 8721) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139079: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 139092: no spawn, no credit
+
+### 51997 Thar She Sinks (zone 8501) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139508: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 139511: no spawn, no credit
+
+### 52004 Counter Intelligence (zone 9042) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139525: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 139518: no spawn, no credit
+
+### 52006 Preemptive Assault (zone 8500) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139554: no spawn, no credit
+- WARN GO_OTHERMAP GO 291215 maps [,0,]
+
+### 52007 Engines of War (zone 8500) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139316: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 139510: no spawn, no credit
+
+### 52047 Against the Storm (zone 8567) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 136166: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 139699: no spawn, no credit
+
+### 52057 Against the Storm (zone 8567) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 136166: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 139699: no spawn, no credit
+
+### 52059 Thar She Sinks (zone 8501) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139508: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 139511: no spawn, no credit
+
+### 52250 Saving Xibala (zone 8499) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 141793: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 141640: no spawn, no credit
+
+### 52317 No Ptake, Only Throw (zone 8499) — BLOCK 2 WARN 2
+- BLOCK NPC_NOSPAWN creature 133679 no spawn
+- BLOCK NPC_NOSPAWN creature 141025 no spawn
+- WARN OBJ_NO_CREDIT creature 141025: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 141220: no spawn, no credit
+
+### 52757 Grimestone Crimes (zone 8567) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 127290: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 141553: no spawn, no credit
+
+### 53706 Salvage the Supplies (zone 9042) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 144801: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 144897: no spawn, no credit
+
+### 53707 Smoke the Supplies (zone 9042) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 144801: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 144890: no spawn, no credit
+
+### 53771 Gurin Stonebinder (zone 9042) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 144997: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 145020: no spawn, no credit
+
+### 53832 Counter-Sabotage (zone 8567) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 145355: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 145410: no spawn, no credit
+
+### 54182 Bilgewater Bash Brothers (zone 8567) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 147061: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 147062: no spawn, no credit
+
+### 54245 Azerite Altercation (zone 8501) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 145432: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 146917: no spawn, no credit
+
+### 54246 Azerite Altercation (zone 8501) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 145432: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 146917: no spawn, no credit
+
+### 54251 The Ambassador (zone 8567) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 145392: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 145395: no spawn, no credit
+
+### 54403 Tidesage Clarissa (zone 9042) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 147941: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 147951: no spawn, no credit
+
+### 54414 Gale's Unrest (zone 9042) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148022: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 147931: no spawn, no credit
+
+### 54448 Elemental Azerite (zone 8721) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 145432: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 146917: no spawn, no credit
+
+### 54449 Elemental Azerite (zone 8721) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 145432: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 146917: no spawn, no credit
+
+### 54498 Stack On The Tank (zone 8499) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148174: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148179: no spawn, no credit
+
+### 54505 Get On The Payload (zone 8499) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148215: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148216: no spawn, no credit
+
+### 54506 Fungal Infestation (zone 8721) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148252: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148210: no spawn, no credit
+
+### 54516 Crate n' Barrel (zone 8499) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148229: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148281: no spawn, no credit
+
+### 54524 Crate n' Barrel (zone 8499) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148328: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148281: no spawn, no credit
+
+### 54532 Receding Treeline (zone 8499) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148390: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148393: no spawn, no credit
+
+### 54649 Flames of War (zone 8501) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148597: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148604: no spawn, no credit
+
+### 54662 Brought to Light (zone 8721) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148703: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148639: no spawn, no credit
+
+### 54685 They Love Iron (zone 8499) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148702: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 148433: no spawn, no credit
+
+### 55264 Calligraphy (zone 8721) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 151489: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 151379: no spawn, no credit
+
+### 55340 Calligraphy (zone 8567) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 151489: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 151379: no spawn, no credit
+
+### 55341 Calligraphy (zone 9042) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 151489: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 151379: no spawn, no credit
+
+### 55342 Calligraphy (zone 8500) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 151489: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 151379: no spawn, no credit
+
+### 55343 Calligraphy (zone 8501) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 151489: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 151379: no spawn, no credit
+
+### 55344 Calligraphy (zone 8499) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 151489: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 151379: no spawn, no credit
+
+### 55970 Attrition (zone 10052) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 153802: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 153758: no spawn, no credit
+
+### 56041 Give 'Em Shell (zone 10052) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 153944: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 153946: no spawn, no credit
+
+### 56419 The Doppel Gang (zone 10290) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 155060: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 155088: no spawn, no credit
+
+### 57335 Murloc Mayhem (zone 10052) — BLOCK 2 WARN 2
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 152641: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 152635: no spawn, no credit
+
+### 45972 The Accursed Thicket (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 129904: no spawn, no credit
+
+### 47529 Supernatural Support (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 122860: no spawn, no credit
+
+### 49073 Ritualistic Denial (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 127967: no spawn, no credit
+
+### 49413 Scamps With Scrolls (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 129394: no spawn, no credit
+
+### 49444 Underfoot (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 129646: no spawn, no credit
+
+### 49994 Sliding with Style (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 131573: no spawn, no credit
+
+### 50000 Beastly Dealings (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 144260: no spawn, no credit
+
+### 50164 Polly Want A Cracker? (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 132339: no spawn, no credit
+
+### 50299 Gryphon Wranglin' (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 133323: no spawn, no credit
+
+### 50321 Mojo Mischief (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 133460: no spawn, no credit
+
+### 50322 A Feathery Fad (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 141051: no spawn, no credit
+
+### 50375 Ride With Me (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 133580: no spawn, no credit
+
+### 50443 Down to the Roots (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 131596: no spawn, no credit
+
+### 50459 Vugthuth (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 128584: no spawn, no credit
+
+### 50461 Zujothgul (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 128578: no spawn, no credit
+
+### 50483 Underlord Xerxiz (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134002: no spawn, no credit
+
+### 50501 Queen Tzxi'kik (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 128974: no spawn, no credit
+
+### 50505 Kal'draxa (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 124397: no spawn, no credit
+
+### 50510 Overstuffed Saurolisk (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 124375: no spawn, no credit
+
+### 50521 Scorched Earth (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134065: no spawn, no credit
+
+### 50540 Rally the Rastari (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134196: no spawn, no credit
+
+### 50548 Enforcing the Will of the King (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 133375: no spawn, no credit
+
+### 50549 Absolutely Barbaric (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134259: no spawn, no credit
+
+### 50566 Lost Scroll (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134294: no spawn, no credit
+
+### 50568 Chag's Challenge (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134296: no spawn, no credit
+
+### 50574 Preservation Methods (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134315: no spawn, no credit
+
+### 50577 Unaccounted For (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134326: no spawn, no credit
+
+### 50591 Son of a Bee (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 140275: no spawn, no credit
+
+### 50648 Bubbles and Trouble (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134583: no spawn, no credit
+
+### 50667 Past Due (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 136316: no spawn, no credit
+
+### 50676 River Toll (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134740: no spawn, no credit
+
+### 50689 It's the Pits (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134759: no spawn, no credit
+
+### 50695 It's Never Time for Cannibalism (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134761: no spawn, no credit
+
+### 50756 Subterranean Evacuation (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 135122: no spawn, no credit
+
+### 50765 Herding Children (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 135152: no spawn, no credit
+
+### 50776 False Prophets (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 135233: no spawn, no credit
+
+### 50782 Word on the Streets (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 135218: no spawn, no credit
+
+### 50786 Revenge of Krag'wa (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134982: no spawn, no credit
+
+### 50796 SKREEEEE! (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NPC_NOSPAWN creature 133678 no spawn
+- BLOCK NPC_NOSPAWN creature 135279 no spawn
+- WARN OBJ_NO_CREDIT creature 135279: no spawn, no credit
+
+### 50801 A Nose for Ptrouble (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NPC_NOSPAWN creature 133678 no spawn
+- BLOCK NPC_NOSPAWN creature 135308 no spawn
+- WARN NPC_LUA_ONLY creature 135303 no spawn (script/credit)
+
+### 50813 Cargo Reclamation (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 135377: no spawn, no credit
+
+### 50838 A Nose for Ptrouble (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NPC_NOSPAWN creature 133679 no spawn
+- BLOCK NPC_NOSPAWN creature 135308 no spawn
+- WARN NPC_LUA_ONLY creature 135464 no spawn (script/credit)
+
+### 50839 SKREEEEE! (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NPC_NOSPAWN creature 133679 no spawn
+- BLOCK NPC_NOSPAWN creature 135455 no spawn
+- WARN OBJ_NO_CREDIT creature 135455: no spawn, no credit
+
+### 50841 SKREEEEE! (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NPC_NOSPAWN creature 133680 no spawn
+- BLOCK NPC_NOSPAWN creature 135502 no spawn
+- WARN OBJ_NO_CREDIT creature 135502: no spawn, no credit
+
+### 50847 Twisted Child of Rezan (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 130643: no spawn, no credit
+
+### 50848 Brgl-Lrgl the Basher (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134643: no spawn, no credit
+
+### 50849 Witch Doctor Habra'du (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134651: no spawn, no credit
+
+### 50850 Tia'Kawan (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 133163: no spawn, no credit
+
+### 50851 Mor'fani the Exile (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134694: no spawn, no credit
+
+### 50852 Lady Seirine (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134707: no spawn, no credit
+
+### 50853 Umbra'rix (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134717: no spawn, no credit
+
+### 50854 Crimsonclaw (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 122004: no spawn, no credit
+
+### 50857 Golrakahn (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 124185: no spawn, no credit
+
+### 50860 A Nose for Ptrouble (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NPC_NOSPAWN creature 133680 no spawn
+- BLOCK NPC_NOSPAWN creature 135308 no spawn
+- WARN NPC_LUA_ONLY creature 135504 no spawn (script/credit)
+
+### 50867 Tambano (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 131687: no spawn, no credit
+
+### 50869 Kiboku (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 132244: no spawn, no credit
+
+### 50871 Daggerjaw (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 133190: no spawn, no credit
+
+### 50876 Murderbeak (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134782: no spawn, no credit
+
+### 50930 Falling With Style (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NPC_NOSPAWN creature 135308 no spawn
+- BLOCK NPC_NOSPAWN creature 141026 no spawn
+- WARN OBJ_NO_CREDIT creature 141026: no spawn, no credit
+
+### 50957 Wrath of Rezan (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 135908: no spawn, no credit
+
+### 50959 Plundering Pirates (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 135898: no spawn, no credit
+
+### 50962 Cargo Reclamation (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 135377: no spawn, no credit
+
+### 50969 Emergency Management (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 136897: no spawn, no credit
+
+### 51064 Azerite Wounds (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 136306: no spawn, no credit
+
+### 51097 Bloated Krolusk (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 129476: no spawn, no credit
+
+### 51099 Gut-Gut the Glutton (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 128674: no spawn, no credit
+
+### 51102 Kamid the Trapper (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 128686: no spawn, no credit
+
+### 51105 Ak'tar (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 135852: no spawn, no credit
+
+### 51109 Scorched Earth (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134065: no spawn, no credit
+
+### 51115 Zunashi the Exile (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 129411: no spawn, no credit
+
+### 51116 Skycarver Krakit (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134745: no spawn, no credit
+
+### 51118 Bloodwing Bonepicker (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 136393: no spawn, no credit
+
+### 51119 Vathikur (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 130401: no spawn, no credit
+
+### 51120 Stef "Marrow" Quin (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 136346: no spawn, no credit
+
+### 51121 Enraged Krolusk (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 136335: no spawn, no credit
+
+### 51122 Scorpox (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 136336: no spawn, no credit
+
+### 51131 Absolutely Barbaric (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134259: no spawn, no credit
+
+### 51153 Mor'fani the Exile (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134694: no spawn, no credit
+
+### 51154 Past Due (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 136316: no spawn, no credit
+
+### 51155 Brgl-Lrgl the Basher (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134643: no spawn, no credit
+
+### 51156 Fangcaller Xorreth (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 136323: no spawn, no credit
+
+### 51157 Golanar (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 129027: no spawn, no credit
+
+### 51166 Down to the Roots (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 131596: no spawn, no credit
+
+### 51175 Azerite Wounds (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 136306: no spawn, no credit
+
+### 51176 Unaccounted For (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 136681: no spawn, no credit
+
+### 51185 Azerite Empowerment (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 136732: no spawn, no credit
+
+### 51198 Fertilizer Duty (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 136770: no spawn, no credit
+
+### 51225 Albatrocity (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 136284: no spawn, no credit
+
+### 51238 Abandoned in the Burrows (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138966: no spawn, no credit
+
+### 51285 Feeding Frenzy (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 137085: no spawn, no credit
+
+### 51315 Wild Flutterbies (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 150279: no spawn, no credit
+
+### 51318 Go for the Boat (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 137159: no spawn, no credit
+
+### 51406 The Lord's Hunt (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 125327: no spawn, no credit
+
+### 51412 Azerite Empowerment (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 137663: no spawn, no credit
+
+### 51428 Azerite Wounds (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 136306: no spawn, no credit
+
+### 51433 Matron Morana (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 137704: no spawn, no credit
+
+### 51434 Stone Golem (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 137708: no spawn, no credit
+
+### 51444 Azerite Empowerment (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 136702: no spawn, no credit
+
+### 51457 Whargarble the Ill-Tempered (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 128973: no spawn, no credit
+
+### 51461 Deathcap (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134706: no spawn, no credit
+
+### 51495 Old Rotana (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 137852: no spawn, no credit
+
+### 51496 Loa Your Standards (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 141913: no spawn, no credit
+
+### 51497 Hex Education (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 137870: no spawn, no credit
+
+### 51508 Vicemaul (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 127651: no spawn, no credit
+
+### 51542 Avalanche (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 137825: no spawn, no credit
+
+### 51546 It's the Pits (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139631: no spawn, no credit
+
+### 51550 Bubbles and Trouble (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134583: no spawn, no credit
+
+### 51558 Spider Scorching (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139271: no spawn, no credit
+
+### 51559 Damaged Goods (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139370: no spawn, no credit
+
+### 51561 Spider Scorching (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139271: no spawn, no credit
+
+### 51562 Damaged Goods (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139370: no spawn, no credit
+
+### 51564 Fertilizer Duty (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 136770: no spawn, no credit
+
+### 51565 Feeding Frenzy (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 137085: no spawn, no credit
+
+### 51576 Any Witch Way but Dead (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138156: no spawn, no credit
+
+### 51579 Dark Ranger Clea (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138039: no spawn, no credit
+
+### 51583 Azerite Wounds (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 136306: no spawn, no credit
+
+### 51586 Azerite Empowerment (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138226: no spawn, no credit
+
+### 51588 Familiar Foes (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 125094: no spawn, no credit
+
+### 51604 Hunters Hunted (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 129904: no spawn, no credit
+
+### 51609 Azerite Wounds (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 136306: no spawn, no credit
+
+### 51610 Adhara White (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138279: no spawn, no credit
+
+### 51611 Ghost of the Deep (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138288: no spawn, no credit
+
+### 51612 Azerite Empowerment (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138295: no spawn, no credit
+
+### 51613 Bloodmaw (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138299: no spawn, no credit
+
+### 51616 A Final Rest (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138320: no spawn, no credit
+
+### 51617 Azerite Empowerment (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138332: no spawn, no credit
+
+### 51619 Trapline (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN GO_OTHERMAP GO 290718 maps [,2,4,4,4,]
+
+### 51620 Natural Resources (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138357: no spawn, no credit
+
+### 51621 Tidal Teachings (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 136248: no spawn, no credit
+
+### 51622 Tidal Teachings (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 136248: no spawn, no credit
+
+### 51623 Azerite Wounds (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 136306: no spawn, no credit
+
+### 51629 Shell Game (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 137973: no spawn, no credit
+
+### 51632 Make Loh Go (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138037: no spawn, no credit
+
+### 51641 Beachhead (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138330: no spawn, no credit
+
+### 51642 Beachhead (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138330: no spawn, no credit
+
+### 51646 Polly Want A Cracker? (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 132339: no spawn, no credit
+
+### 51653 Auditor Dolp (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 132182: no spawn, no credit
+
+### 51656 Saurolisk Tamer Mugg (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 127290: no spawn, no credit
+
+### 51657 Twin-Hearted Construct (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 131984: no spawn, no credit
+
+### 51658 Fly the Coop! (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134030: no spawn, no credit
+
+### 51660 Pack Leader Asenya (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 131262: no spawn, no credit
+
+### 51666 Bashmu (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 132068: no spawn, no credit
+
+### 51667 This Bird You Cannot Change (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138405: no spawn, no credit
+
+### 51672 Tangled Webs (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 144214: no spawn, no credit
+
+### 51681 Basic Witch (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 129033: no spawn, no credit
+
+### 51690 The Shadows of Corlain (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138543: no spawn, no credit
+
+### 51694 Which Witch? (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 131189: no spawn, no credit
+
+### 51697 Hunting for Truffle Hunters (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138610: no spawn, no credit
+
+### 51699 Blighted Monstrosity (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138667: no spawn, no credit
+
+### 51706 Deadwood (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134323: no spawn, no credit
+
+### 51740 Hunting for Truffle Hunters (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138610: no spawn, no credit
+
+### 51746 The Shadows of Corlain (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138543: no spawn, no credit
+
+### 51754 Dogged Tenacity (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138874: no spawn, no credit
+
+### 51761 Familiar Foes (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 125094: no spawn, no credit
+
+### 51763 Zem'lan Rescue (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138974: no spawn, no credit
+
+### 51764 Hunters Hunted (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 129904: no spawn, no credit
+
+### 51765 Tangled Webs (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 144216: no spawn, no credit
+
+### 51767 Trapline (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN GO_OTHERMAP GO 290718 maps [,2,4,4,4,]
+
+### 51768 Natural Resources (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138357: no spawn, no credit
+
+### 51783 Zem'lan Rescue (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138974: no spawn, no credit
+
+### 51820 Oily Mess (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139215: no spawn, no credit
+
+### 51831 Swift Strike (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139296: no spawn, no credit
+
+### 51834 No Negotiations (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139234: no spawn, no credit
+
+### 51840 Oily Mess (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139215: no spawn, no credit
+
+### 51842 Carla Smirk (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139152: no spawn, no credit
+
+### 51844 Gulliver (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139233: no spawn, no credit
+
+### 51848 Captain Wintersail (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 132088: no spawn, no credit
+
+### 51849 Tempestria (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 133356: no spawn, no credit
+
+### 51850 Preserve the Oasis (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139249: no spawn, no credit
+
+### 51853 Preserve the Oasis (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139249: no spawn, no credit
+
+### 51855 A Pirate's Life For Me (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139262: no spawn, no credit
+
+### 51884 Haywire Golem (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138618: no spawn, no credit
+
+### 51893 Sawtooth (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139287: no spawn, no credit
+
+### 51894 Tentulos the Drifter (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139289: no spawn, no credit
+
+### 51895 Maison the Portable (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139290: no spawn, no credit
+
+### 51897 Rimestone (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 128707: no spawn, no credit
+
+### 51905 Reinforced Hullbreaker (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 132047: no spawn, no credit
+
+### 51906 Sister Martha (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138863: no spawn, no credit
+
+### 51917 Beshol (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 129805: no spawn, no credit
+
+### 51920 Cottontail Matron (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 129904: no spawn, no credit
+
+### 51921 Slickspill (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139319: no spawn, no credit
+
+### 51947 Sabertron (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139328: no spawn, no credit
+
+### 51972 Lost Goat (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 127844: no spawn, no credit
+
+### 51974 Sabertron (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139359: no spawn, no credit
+
+### 51977 Sabertron (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139335: no spawn, no credit
+
+### 51981 Earthcaller's Abode (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139451: no spawn, no credit
+
+### 51996 Earthcaller's Abode (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139451: no spawn, no credit
+
+### 52010 The Tendrils of Fate (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 136166: no spawn, no credit
+
+### 52011 Fiendish Fields (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139577: no spawn, no credit
+
+### 52054 Too Much To Bear (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139802: no spawn, no credit
+
+### 52056 The Tendrils of Fate (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 136166: no spawn, no credit
+
+### 52064 Fiendish Fields (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139577: no spawn, no credit
+
+### 52115 In the Shadow of the Kraken (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139930: no spawn, no credit
+
+### 52133 Good Boy! (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 140150: no spawn, no credit
+
+### 52140 A Thorny Problem (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 140629: no spawn, no credit
+
+### 52143 Smaller Haulers (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 142727: no spawn, no credit
+
+### 52157 A Chilling Encounter (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 140252: no spawn, no credit
+
+### 52159 Swab This! (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 145236: no spawn, no credit
+
+### 52163 The Winged Typhoon (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 136385: no spawn, no credit
+
+### 52164 Rum- Paaaage! (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 140365: no spawn, no credit
+
+### 52166 The Faceless Herald (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 140163: no spawn, no credit
+
+### 52167 Hardcore Raiders (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 142810: no spawn, no credit
+
+### 52168 It's Lit (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 140368: no spawn, no credit
+
+### 52179 Fortified Resistance (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 141200: no spawn, no credit
+
+### 52181 Smoke and Shadow (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 132701: no spawn, no credit
+
+### 52196 Sandswept Bones (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138794: no spawn, no credit
+
+### 52199 Rum- Paaaage! (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 140365: no spawn, no credit
+
+### 52230 Loose Change (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 129618: no spawn, no credit
+
+### 52236 A Thorny Problem (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 140629: no spawn, no credit
+
+### 52239 Loose Change (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 129618: no spawn, no credit
+
+### 52299 Whiplash (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 129803: no spawn, no credit
+
+### 52309 SandFang (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139988: no spawn, no credit
+
+### 52315 Severus the Outcast (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 140997: no spawn, no credit
+
+### 52322 Taja the Tidehowler (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139980: no spawn, no credit
+
+### 52328 Ice Sickle (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 141039: no spawn, no credit
+
+### 52330 Beehemoth (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 134147: no spawn, no credit
+
+### 52352 Zeritarj (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 140398: no spawn, no credit
+
+### 52748 Eyes on the Skies (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NPC_NOSPAWN creature 133682 no spawn
+- BLOCK NPC_NOSPAWN creature 135308 no spawn
+- WARN OBJ_NO_CREDIT creature 135595: no spawn, no credit
+
+### 52756 Snow Way Out (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 141548: no spawn, no credit
+
+### 52832 Azerite Empowerment (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 141905: no spawn, no credit
+
+### 52858 Azerite Empowerment (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 141959: no spawn, no credit
+
+### 52862 Azerite Empowerment (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 141970: no spawn, no credit
+
+### 52880 Milden Mud Snout (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 141977: no spawn, no credit
+
+### 52882 Controlled Burn (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 142093: no spawn, no credit
+
+### 52884 Azerite Wounds (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 142107: no spawn, no credit
+
+### 52889 Sandscour (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 139515: no spawn, no credit
+
+### 52891 Wendigo to Sleep (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 142790: no spawn, no credit
+
+### 52935 A New Era (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 142214: no spawn, no credit
+
+### 52947 Ettin Outta Here (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 142783: no spawn, no credit
+
+### 52964 Pest Problem (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 142743: no spawn, no credit
+
+### 52972 Favored Grandchild (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 142932: no spawn, no credit
+
+### 52979 Ritual Cleansing (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 142345: no spawn, no credit
+
+### 52982 Mine or Trouble (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 142817: no spawn, no credit
+
+### 52986 A Wicked Vessel (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 142345: no spawn, no credit
+
+### 52987 Let's Burn! (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 142394: no spawn, no credit
+
+### 52988 House Cleaning (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 142401: no spawn, no credit
+
+### 53008 Sage Wisdom (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 142401: no spawn, no credit
+
+### 53012 Put Away Your Toys (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 138904: no spawn, no credit
+
+### 53025 The Culling (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 142516: no spawn, no credit
+
+### 53027 Edge of Glory (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 142516: no spawn, no credit
+
+### 53188 Frozen Freestyle (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 131573: no spawn, no credit
+
+### 53189 Slippery Slopes (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 131573: no spawn, no credit
+
+### 53196 Swab This! (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 145236: no spawn, no credit
+
+### 53271 Blooming Star Moss (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 143403: no spawn, no credit
+
+### 53272 Blooming Siren's Sting (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 143404: no spawn, no credit
+
+### 53273 Winter's Kiss Cluster (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 143407: no spawn, no credit
+
+### 53279 Blooming Star Moss (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 143403: no spawn, no credit
+
+### 53280 Blooming Siren's Sting (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 143404: no spawn, no credit
+
+### 53281 Winter's Kiss Cluster (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 143407: no spawn, no credit
+
+### 53285 Blooming Star Moss (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 143403: no spawn, no credit
+
+### 53286 Blooming Siren's Sting (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 143404: no spawn, no credit
+
+### 53287 Winter's Kiss Cluster (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 143407: no spawn, no credit
+
+### 53291 Blooming Star Moss (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 143403: no spawn, no credit
+
+### 53292 Blooming Siren's Sting (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 143404: no spawn, no credit
+
+### 53294 Akunda's Bite Cluster (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 143427: no spawn, no credit
+
+### 53298 Blooming Star Moss (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 143403: no spawn, no credit
+
+### 53299 Blooming Siren's Sting (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 143404: no spawn, no credit
+
+### 53303 Blooming Star Moss (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 143403: no spawn, no credit
+
+### 53304 Blooming Siren's Sting (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 143404: no spawn, no credit
+
+### 53331 Show-Off (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 128034: no spawn, no credit
+
+### 53699 Gate Crashers (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 144728: no spawn, no credit
+
+### 53714 Apothecary Jerrod (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 144855: no spawn, no credit
+
+### 53715 Firewarden Viton Darkflare (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 144915: no spawn, no credit
+
+### 53716 Eastpoint Emergency (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 144911: no spawn, no credit
+
+### 53724 Shadow Hunter Mutumba (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 144987: no spawn, no credit
+
+### 53752 Shell Outs (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 131037: no spawn, no credit
+
+### 53753 Shell Outs (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 131053: no spawn, no credit
+
+### 53759 Look Out Below! (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 145241: no spawn, no credit
+
+### 53772 Zagg Brokeneye (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 145112: no spawn, no credit
+
+### 53784 Siege Engineer Krackleboom (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 145161: no spawn, no credit
+
+### 53804 Dinomancer Zakuru (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 145278: no spawn, no credit
+
+### 53814 First Sergeant Steelfang (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 145308: no spawn, no credit
+
+### 53857 Cap'n Gorok (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 145415: no spawn, no credit
+
+### 53867 Engineer Bolthold (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 145465: no spawn, no credit
+
+### 53878 Emergency Extrication (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 144911: no spawn, no credit
+
+### 53983 Wet Work: Fort Knight (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 147001: no spawn, no credit
+
+### 54089 Omgar Doombow (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 146607: no spawn, no credit
+
+### 54091 Strong Arm John (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 146611: no spawn, no credit
+
+### 54112 Mistweaver Nian (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 146651: no spawn, no credit
+
+### 54119 Hartford Sternbach (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 146675: no spawn, no credit
+
+### 54129 First Mate Malone (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 146773: no spawn, no credit
+
+### 54143 Bird's-Eye View (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 146819: no spawn, no credit
+
+### 54154 The Hills Have Spies (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 146946: no spawn, no credit
+
+### 54162 Hard Landing (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 147778: no spawn, no credit
+
+### 54166 Set Sail (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 147590: no spawn, no credit
+
+### 54167 Set Sail (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 147590: no spawn, no credit
+
+### 54170 Ormin Rocketbop (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 146979: no spawn, no credit
+
+### 54237 Togoth Cruelarm (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 144722: no spawn, no credit
+
+### 54253 Bombs Away (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 147449: no spawn, no credit
+
+### 54257 Captain Greensails (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 147489: no spawn, no credit
+
+### 54266 Mortar Master Zapfritz (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 147562: no spawn, no credit
+
+### 54272 Battle Bots (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 147649: no spawn, no credit
+
+### 54273 Battle Bots (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 147638: no spawn, no credit
+
+### 54281 Bombing Ballistae (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 147706: no spawn, no credit
+
+### 54295 Artillery Master Goodwin (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 147750: no spawn, no credit
+
+### 54298 Gravity Matters (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 147839: no spawn, no credit
+
+### 54328 Knight-Captain Joesiph (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 147923: no spawn, no credit
+
+### 54434 Voidmaster Evenshade (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 147998: no spawn, no credit
+
+### 54437 Owynn Graddock (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148044: no spawn, no credit
+
+### 54442 Beast Tamer Watkins (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148075: no spawn, no credit
+
+### 54468 Nalaess Featherseeker (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148092: no spawn, no credit
+
+### 54471 Tend the Wounded (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148129: no spawn, no credit
+
+### 54488 Zul'aki the Headhunter (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148146: no spawn, no credit
+
+### 54504 Scout Captain Grizzleknob (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148198: no spawn, no credit
+
+### 54508 No Bridge Too Dire (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148231: no spawn, no credit
+
+### 54513 Dino Time! (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148264: no spawn, no credit
+
+### 54515 Tidebinder Maka (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148276: no spawn, no credit
+
+### 54522 Short for an Orc (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148308: no spawn, no credit
+
+### 54523 Blinky Gizmospark (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148322: no spawn, no credit
+
+### 54527 Dinohunter Wildbeard (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148343: no spawn, no credit
+
+### 54533 Barreling Through (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148405: no spawn, no credit
+
+### 54534 The Blightest Touch (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148405: no spawn, no credit
+
+### 54535 Portal Keeper Romiir (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148403: no spawn, no credit
+
+### 54537 Bilestomper (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148428: no spawn, no credit
+
+### 54554 Wolfleader Skraug (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148446: no spawn, no credit
+
+### 54555 Siege O' Matic 9000 (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148451: no spawn, no credit
+
+### 54574 Jin'tago (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148456: no spawn, no credit
+
+### 54609 Beastlord Drakara (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148477: no spawn, no credit
+
+### 54636 Sandbinder Sodir (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148494: no spawn, no credit
+
+### 54638 Beat Up the Drums (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148510: no spawn, no credit
+
+### 54643 Evezon the Eternal (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148534: no spawn, no credit
+
+### 54645 Fury of the Earth (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148558: no spawn, no credit
+
+### 54646 Grand Marshal Fury (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 146942: no spawn, no credit
+
+### 54650 Muk'luk (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148155: no spawn, no credit
+
+### 54663 Shadow Hunter Vol'tris (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148637: no spawn, no credit
+
+### 54665 Duchess Fallensong (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148563: no spawn, no credit
+
+### 54666 Packmaster Swiftarrow (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148648: no spawn, no credit
+
+### 54671 Overgrown Ancient (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148651: no spawn, no credit
+
+### 54680 Plague Master Herbert (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148674: no spawn, no credit
+
+### 54684 Arcanist Quintril (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148679: no spawn, no credit
+
+### 54686 Medical Emergency (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148695: no spawn, no credit
+
+### 54688 Inquisitor Erik (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148717: no spawn, no credit
+
+### 54690 Maddok the Sniper (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148723: no spawn, no credit
+
+### 54691 Brewmaster Lin (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148744: no spawn, no credit
+
+### 54692 Magister Crystalynn (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148739: no spawn, no credit
+
+### 54693 Pterror of the Horde (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148753: no spawn, no credit
+
+### 54694 Stormcaller Morka (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148759: no spawn, no credit
+
+### 54697 Lightforged Warframe (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148779: no spawn, no credit
+
+### 54699 Classic Gnomish Engineering (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148792: no spawn, no credit
+
+### 54700 Thomas Vandergrief (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148813: no spawn, no credit
+
+### 54701 Wrath of the Ravasaur (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148849: no spawn, no credit
+
+### 54707 Siegeotron (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148842: no spawn, no credit
+
+### 54711 Zillie Wunderwrench and Grizzwald (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148862: no spawn, no credit
+
+### 54712 Spell Components (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 148895: no spawn, no credit
+
+### 54839 Rightfully Ours (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 149383: no spawn, no credit
+
+### 55215 The Cycle of Life (zone 8721) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 150646: no spawn, no credit
+
+### 55300 The Cycle of Life (zone 8567) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 150646: no spawn, no credit
+
+### 55301 The Cycle of Life (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 150646: no spawn, no credit
+
+### 55302 The Cycle of Life (zone 8500) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 150646: no spawn, no credit
+
+### 55303 The Cycle of Life (zone 8501) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 150646: no spawn, no credit
+
+### 55304 The Cycle of Life (zone 8499) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 150646: no spawn, no credit
+
+### 55887 Champion Alzana, Arrow of Thunder (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 153309: no spawn, no credit
+
+### 55888 Champion Qalina, Spear of Ice (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 153310: no spawn, no credit
+
+### 55889 Champion Kyx'zhul the Deepspeaker (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 153312: no spawn, no credit
+
+### 55891 Champion Aldrantiss, Defender of Her Kingdom (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 153314: no spawn, no credit
+
+### 55892 Champion Eldanar, Shield of Her Glory (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 153315: no spawn, no credit
+
+### 55893 Azanz, the Slitherblade (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 153311: no spawn, no credit
+
+### 55895 Frozen Winds of Zhiela (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 153302: no spawn, no credit
+
+### 55896 Undana, Chilling Assassin (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 153304: no spawn, no credit
+
+### 55897 Szun, Breaker of Slaves (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 153299: no spawn, no credit
+
+### 55898 Tempest-Speaker Shalan'ali (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 153296: no spawn, no credit
+
+### 55899 Starseeker of the Shirakess (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 153301: no spawn, no credit
+
+### 55900 Kassar, Wielder of Dark Blades (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 153303: no spawn, no credit
+
+### 55973 Deepcoil Experiments (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 153835: no spawn, no credit
+
+### 56003 Runelocked Chest (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 94878: no spawn, no credit
+
+### 56006 Runelocked Chest (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 94878: no spawn, no credit
+
+### 56007 Runelocked Chest (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 94878: no spawn, no credit
+
+### 56008 Runelocked Chest (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 94878: no spawn, no credit
+
+### 56009 Runelocked Chest (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 94878: no spawn, no credit
+
+### 56010 Runelocked Chest (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 94878: no spawn, no credit
+
+### 56011 Runelocked Chest (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 93588: no spawn, no credit
+
+### 56012 Runelocked Chest (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 93588: no spawn, no credit
+
+### 56013 Runelocked Chest (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 93588: no spawn, no credit
+
+### 56014 Runelocked Chest (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 93588: no spawn, no credit
+
+### 56015 Runelocked Chest (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 93588: no spawn, no credit
+
+### 56016 Runelocked Chest (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 93588: no spawn, no credit
+
+### 56017 Runelocked Chest (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 94848: no spawn, no credit
+
+### 56018 Runelocked Chest (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 94848: no spawn, no credit
+
+### 56019 Runelocked Chest (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 94848: no spawn, no credit
+
+### 56020 Runelocked Chest (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 94848: no spawn, no credit
+
+### 56021 Runelocked Chest (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 94848: no spawn, no credit
+
+### 56022 Runelocked Chest (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 94848: no spawn, no credit
+
+### 56023 Leylocked Chest (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 91947: no spawn, no credit
+
+### 56024 Leylocked Chest (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 91365: no spawn, no credit
+
+### 56025 Leylocked Chest (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 92323: no spawn, no credit
+
+### 56032 Dirty Dozen (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 153893: no spawn, no credit
+
+### 56036 A Steamy Situation (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 153916: no spawn, no credit
+
+### 56048 The Drowned Oracles (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 153948: no spawn, no credit
+
+### 56107 One of the Hive (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 153365: no spawn, no credit
+
+### 56108 Leaving the Hive (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NPC_NOQUESTFLAG creature 155558 npcflag=0
+- BLOCK NPC_NOSPAWN creature 155744 no spawn
+- WARN OBJ_NO_CREDIT creature 153365: no spawn, no credit
+
+### 56109 Defender of the Hive (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 153365: no spawn, no credit
+
+### 56110 A Defender Emerges (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 153365: no spawn, no credit
+
+### 56111 The Usurper (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 153365: no spawn, no credit
+
+### 56112 A Royal Awakening (zone 9042) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 153365: no spawn, no credit
+
+### 56778 A Glint in the Darkness (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 155661: no spawn, no credit
+
+### 56780 Hidden, But Dangerous (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 155670: no spawn, no credit
+
+### 56781 Treasure In The Deep (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 155673: no spawn, no credit
+
+### 56783 The Lambent Lockbox (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 155662: no spawn, no credit
+
+### 56785 The Mystic Chest (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 155671: no spawn, no credit
+
+### 56788 Reclaimed Treasure (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 155672: no spawn, no credit
+
+### 56790 Treasure To Find (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 155663: no spawn, no credit
+
+### 56791 Mysterious Treasure (zone 10052) — BLOCK 2 WARN 1
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 155674: no spawn, no credit
+
+### 47246 Remnants of the Damned (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 47512 Nazmir (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 47514 Zuldazar (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 47518 Raal (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NPC_NOSPAWN creature 132041 no spawn
+- BLOCK NPC_NOSPAWN creature 133302 no spawn
+
+### 47520 Walls Have Ears (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NPC_NOSPAWN creature 132041 no spawn
+- BLOCK NPC_NOSPAWN creature 133302 no spawn
+
+### 47588 King of the Hunt (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 47695 Sound the Alarm (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 47952 The Missing Fleet (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 47960 Tiragarde Sound (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 47962 Stormsong Valley (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 47982 The Final Effigy (zone 8721) — BLOCK 2 WARN 0
+- BLOCK GO_NOSPAWN GO 124417 no spawn
+- BLOCK GO_NOSPAWN GO 278675 no spawn
+
+### 48023 Orders Received (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 48104 A Greater Challenge (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 48176 Big Trouble in Little Tortolla (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 48452 The Red Market (zone 8499) — BLOCK 2 WARN 0
+- BLOCK OBJ_GO_NOSPAWN GO 273454: no spawn
+- BLOCK GO_NOSPAWN GO 273454 no spawn
+
+### 48515 Silver Blades (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 48604 Home Again, Home Again (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 48808 Thesis Statement (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 48852 Stopping Zardrax (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 48905 Unappreciated Scrolls (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 48949 Weeds of the Mire (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 49013 A Jolt of Power (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 49068 Quelling the Cove (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 49123 Killer Crawgs (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 49124 Tortollan Rescue (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 49315 Dreadpearl Collusion (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 49345 Buried Treasure (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 49376 Just One Thing (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 49408 Pirate Dice (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 49464 Saurolisk Tails (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 49488 Tal'gurub (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 49661 Locally Sourced Eggs (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 49766 Your Next Move (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 49767 Your Next Move (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 49769 Wreckage of the Cataclysm (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 49952 The Essence of G'huun (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 49991 Featherfeet's Fun Falling's Fun Fee! (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50084 Back On Your Feet, Soldier (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50091 Village Repair (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50234 Crews of Freehold (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50287 Unending Gorilla Warfare (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50295 Like Pulling Teeth (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50296 Billy Goat Barber (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50350 We Need a Chemist (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50369 Bruin Potions (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50448 Reclaiming Corlain (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50468 Shul-Nagruth (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50474 The Other Side (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50488 Ancient Jawbreaker (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50489 Xu'ba (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50490 Uroku the Bound (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50491 Corpse Bringer Yal'kar (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50492 Cursed Chest (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50496 Glompmaw (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50497 Krag'wa's Favor (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50498 Gutrip (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50499 Gwugnug (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50502 Jax'teb the Reanimated (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50503 Juba the Scarred (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50506 King Kooba (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50507 Krubbs (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50509 Lo'kuno (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50511 Bajiatha (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50512 Scout Skrasniss (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50513 Tainted Guardian (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50514 Totem Maker Jash'ga (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50515 Venomjaw (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50516 Wardrummer Zurula (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50517 Mala'kili and Rohnkor (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50518 Zanxib (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50519 Za'amar (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50545 Forked Lightning (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50547 Knives of Zul (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50559 Getting Out of Hand (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50564 Azerite Infused Slag (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50570 Azerite Infused Elemental (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50571 Eggstermination (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50572 Bloody Intrusion (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50578 Bring Ruin Again (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50581 Scrolls and Scales (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50592 Tiny Terror (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50633 Pterrible Ingredients (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50634 Save Our Scrolls! (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50636 Ravoracious (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50652 Biting the Hand that Feeds Them (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50660 Survival Strategy (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50717 Don't Stalk Me, Troll (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50737 Silence the Speakers (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50743 The Immediate Problem (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50744 Refresh Their Memory (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50747 No Good Amani (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50767 The Scrimshaw Gang (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50792 Taking Bribes (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50845 Kul'krazahn (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50846 Headhunter Lee'za (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50855 Old R'gal (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50858 Sky Queen (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50859 Kandak (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50861 Torraske the Eternal (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50862 Bloodbulge (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50863 Avatar of Xolotal (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50864 Atal'zul Gotaka (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50866 Zayoos (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50868 Bramblewing (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50870 G'Naat (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50872 Warcrawler Karkithiss (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50873 Strange Egg (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50874 Hakbi the Risen (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50875 Darkspeaker Jo'la (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50877 Gahz'ralka (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50885 Lei-zhi (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50899 Don't Stalk Me, Troll (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50936 Survival Strategy (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50958 Watch Your Wallets (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50961 Save Our Scrolls! (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50964 Ritual Combat (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50966 Cleanup Crew (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50977 Smuggler Shakedown (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 50990 Cutting Edge Poultry Science (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51081 Syrawon the Dominus (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51084 Dark Chronicler (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51090 Picturesque Norwington Estate (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51092 Picturesque Boralus (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51095 Ashmane (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51096 Azer'tor (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51098 Commodore Calhoun (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51100 Jumbo Sandsnapper (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51103 Nez'ara (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51104 Skycaller Teskris (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51106 Songstress Nahjeen (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51107 Scaleclaw Broodmother (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51108 Hivemother Kraxi (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51112 Warbringer Hozzik (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51113 Warlord Zothix (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51114 Warmother Captive (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51117 Bajiani the Slick (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51123 Sirokar (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51124 Relic Hunter Hazaak (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51125 Jungleweb Hunter (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51127 Getting Out of Hand (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51172 Forked Lightning (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51173 Sandfishing (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51174 Instructions Not Included (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51178 Hundred Troll Holdout (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51179 Azerite Madness (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51180 Instructions Not Included (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51181 Instructions Not Included (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51210 Blast Back the Siege (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51223 Walking on Broken Glass (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51228 Instant Meat, Ready to Eat (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51232 Hundred Troll Holdout (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51239 Instructions Not Included (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51241 The Bear Witch Project (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51245 I'm a Lumberjack and I'm Okay (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51252 Kiro's Desert Flower (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51284 Falcon Hunt (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51305 Jelly Clouds (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51311 Energizing Extract (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51316 Walking in a Spiderweb (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51317 Grounding the Grimestone (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51322 Wings and Stingers (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51330 Resilient Seeds (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51333 Anchors Aweigh! (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51373 Ears Everywhere (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51374 Unending Gorilla Warfare (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51385 A Supply of Stingers (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51405 Corruption in the Bay (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51415 Azerite Madness (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51422 Azerite Madness (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51429 King Clickyclack (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51431 Soul Goliath (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51462 Paratroopers (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51463 Sky Drop Rescue (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51466 Arvon the Betrayed (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51467 Hyo'gi (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51468 Bonesquall (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51469 Betsy (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51491 Balethorn (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51494 The Blood Gate (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51505 Quillrat Matriarch (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51506 Barbthorn Queen (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51507 Gorehorn (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51512 Bilefang Mother (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51527 Executioner Blackwell (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51528 Captain Leadfist (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51529 Talon (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51541 Arclight (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51557 Irontide Warning (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51580 Rear Admiral Hainsworth (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51584 Azerite Madness (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51608 Azerite Madness (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51618 Azerite Madness (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51647 Crews of Freehold (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51651 Squacks (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51652 Barman Bill (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51654 Fowlmouth (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51655 Teres (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51659 Merianae (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51661 Raging Swell (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51662 Foxhollow Skyterror (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51664 Kulett the Ornery (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51665 Broodmother Razora (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51669 Black-Eyed Bart (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51670 Lumbergrasp Sentinel (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51671 Billy Goat Barber (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51676 What a Gull Wants (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51682 Witches by the Dozen (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51686 Where My Witches at? (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51687 A Smelly Solution (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51693 Intercepting the Irontide (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51707 More Valuable Than Gold (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51709 Bombarbment (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51710 Rise of the Yetis (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51737 Bruin Potions (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51738 Witches by the Dozen (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51739 Rise of the Yetis (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51741 Bombarbment (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51742 Intercepting the Irontide (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51743 More Valuable Than Gold (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51745 A Smelly Solution (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51758 Weapons Shipment (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51759 Seabreaker Skoloth (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51769 What a Gull Wants (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51774 Ragna (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51776 Galestorm (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51777 Dagrus the Scorned (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51778 Deepfang (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51779 Grimscowl the Hairbrained (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51780 Dinner for Dolly and Dot (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51781 Foreman Scripps (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51782 Captain Razorspine (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51791 Bubbling Totem Testing (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51792 Erupting Totem Testing (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51793 Bubbling Totem Testing (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51794 Erupting Totem Testing (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51806 Pest Remover Mk. II (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51811 Trapped Tortollans (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51814 Ravoracious (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51815 Eggstermination (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51816 Pterrible Ingredients (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51817 Trapped Tortollans (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51821 Quelling the Cove (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51822 Scrolls and Scales (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51836 Sourcing Resources (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51839 Squirgle of the Depths (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51841 Blackthorne (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51843 P4-N73R4 (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51847 Tort Jaw (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51854 I Am the Shark (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51874 Gorged Boar (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51886 Pinku'shon (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51887 Fungi Trio (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51890 Ranja the Last Chillpaw (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51891 Sythian the Swift (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51892 Shiverscale the Toxic (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51901 Crushtacean (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51908 Nevermore (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51909 Grozgore (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51919 Emily Mayville (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51925 Instructions Not Included (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51928 Instructions Not Included (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51931 Instructions Not Included (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51933 Instructions Not Included (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51957 The Wrath of Vorrik (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51963 The Wrath of Vorrik (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51970 The Caterer (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51976 Sabertron (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51978 Sabertron (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51983 Vorrik's Vengeance (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51988 Whitney "Steelclaw" Ramsay (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51989 Braedan Whitewall (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 51995 Vorrik's Vengeance (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52009 Crab People (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52023 Informing the Horde (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52024 Informing the Horde (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52045 Boarder Patrol (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52063 Boarder Patrol (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52071 Briarback Mountain (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52117 Briarback Mountain (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52126 This Little Piggy Has Sharp Tusks (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52142 Restocking (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52145 Heave-Ho! (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52155 Treasure in the Tides (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52160 Restocking (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52165 Automated Chaos (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52198 Tank and Spank (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52200 Turtle Tactics (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52209 Turtle Tactics (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52211 Red Sunrise (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52218 Night Horrors (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52229 Too Much To Bear (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52248 The Shores of Xibala (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52249 The Shores of Xibala (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52271 Sea Salt Flavored (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52278 Rogue Azerite (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52280 Sea Salt Flavored (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52297 What's the Buzz? (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52300 Wagga Snarltusk (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52301 Vinespeaker Ratha (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52305 Nature Versus Nurture (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NPC_NOSPAWN creature 133678 no spawn
+- BLOCK NPC_NOSPAWN creature 135308 no spawn
+
+### 52306 Croaker (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52310 Corrupted Tideskipper (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52316 Sea Creatures Are Weird (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52321 Kickers (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52325 Captured Evil (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52430 Not So Bad Down Here (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52432 Squall (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52446 Sister Absinthe (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52447 Room To Grow (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NPC_NOSPAWN creature 133679 no spawn
+- BLOCK NPC_NOSPAWN creature 135308 no spawn
+
+### 52452 Song Mistress Dadalea (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52455 Unbreakable (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52459 Whirlwing (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52463 Haegol the Hammer (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52464 Osca the Bloodied (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52471 That's a Big Carcass (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52474 Poacher Zane (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52476 The Lichen King (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52751 Strange Looking Dogs (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52752 Vigilant Lookouts (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52754 Marshdwellers (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52755 Bringing the Heat (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52779 Crawg in the Bog (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52794 Lizards and Ledgers (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52798 A Few More Charges (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52799 Pack Leader (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52803 Accidental Dread (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52804 Something Stirs in the Depths (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52805 Like Pulling Teeth (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52849 Azerite Empowerment (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52850 Keeyo's Champions of Vol'dun (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52856 Snakes on a Terrace (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52864 What Do You Mean, Mind Controlling Plants? (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52865 Blockade Runner (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52869 Azerite Empowerment (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52871 Azerite Empowerment (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52878 Desert Survivors (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52879 Stiff Policy (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52892 Critters are Friends, Not Food (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52923 Add More to the Collection (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52924 Mead Some Help? (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52937 You've Never Seen Jammer Upset (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52938 Small Beginnings (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52939 Ordnance Orders (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52940 Arms Deal (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 52968 Time for a Little Blood (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53078 Treasure in the Tides (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53165 Stopping Antiquities Theft (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53266 Flourishing Sea Stalks (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53270 Flourishing Riverbud (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53274 Overgrown Anchor Weed (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53277 Flourishing Sea Stalks (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53278 Flourishing Riverbud (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53282 Overgrown Anchor Weed (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53283 Flourishing Sea Stalks (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53284 Flourishing Riverbud (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53288 Overgrown Anchor Weed (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53289 Flourishing Sea Stalks (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53290 Flourishing Riverbud (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53293 Overgrown Anchor Weed (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53296 Flourishing Sea Stalks (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53297 Flourishing Riverbud (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53300 Overgrown Anchor Weed (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53301 Flourishing Sea Stalks (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53302 Flourishing Riverbud (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53305 Overgrown Anchor Weed (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53308 Luminous Monelite (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53311 Gleaming Storm Silver (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53312 Burnished Platinum (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53313 Rough Monelite (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53314 Coarse Storm Silver (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53315 Smooth Platinum (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53316 Hardened Monelite (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53317 Dense Storm Silver (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53318 Ductile Platinum (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53321 Luminous Monelite (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53322 Gleaming Storm Silver (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53323 Burnished Platinum (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53324 Rough Monelite (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53325 Coarse Storm Silver (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53326 Smooth Platinum (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53327 Hardened Monelite (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53328 Dense Storm Silver (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53329 Ductile Platinum (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53346 Trogg Tromping (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53430 Order of Embers Crossbow (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53431 Order of Embers Flask (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53432 Order of Embers Knife (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53433 Order of Embers Hat (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53451 WANTED: Raging Earthguard (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NPC_NOSPAWN creature 143785 no spawn
+
+### 53454 WANTED: Quartermaster Ssylis (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NPC_NOSPAWN creature 143785 no spawn
+
+### 53713 Wet Work: Bridgeport (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53717 Hold the Highland (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53768 Furious Fracas (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53769 Furious Fracas (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 53877 Eastpoint Encounter (zone 8567) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 54011 Wet Work: Arom's Stand (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 54014 Wet Work: Blood in the Sand (zone 8501) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 54017 Wet Work: Warbeast Kraal (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 54020 Wet Work: Gloomwater Span (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 54187 Tea for Two (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 54190 Tea for Two (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 54308 Mine Your Business (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 54472 Plowing the Field (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 54538 Skirmish at the Span (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 54539 Skirmish at the Span (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 54627 Paragon of the Order of Embers (zone 8721) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 54630 Paragon of Talanji's Expedition (zone 8500) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55099 TBD NOT USED (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55148 Reclamation Rig (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55224 Rank 2 - Poen test (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55225 Special Juices (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55226 Drive the Enemy (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55319 Tonk the Terrible (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55320 Vehicle: TK02[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55321 Vehicle: TK03[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55322 Vehicle: TK04[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55323 Vehicle: TK05[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55324 Vehicle: TK06[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55325 Vehicle: TK07[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55326 Vehicle: TK08[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55327 Vehicle: TK09[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55328 Vehicle: TK10[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55329 Vehicle: TK11[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55330 Vehicle: TK12[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55331 Vehicle: TK13[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55332 Vehicle: TK14[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55333 Vehicle: TK15[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55334 Vehicle: TK16[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55335 Vehicle: TK17[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55336 Vehicle: TK18[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55337 Vehicle: TK19[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55338 Vehicle: TK20[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55523 Bring Him Some... (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55524 Bring Him Some... (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55525 Bring Him Some... (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55526 Bring Him Some... (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55527 Bring Him Some... (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55573 Purging the Defilers (zone 10052) — BLOCK 2 WARN 0
+- BLOCK OBJ_GO_NOSPAWN GO 326015: no spawn
+- BLOCK GO_NOSPAWN GO 326015 no spawn
+
+### 55605 NOT USED (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55638 Making Kelpberry Wine (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NPC_NOSPAWN creature 150344 no spawn
+- BLOCK GO_NOSPAWN GO 325869 no spawn
+
+### 55669 Encrypted Radio Receiver TBD (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55681 Crab Marks The Spot (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_ENDER 
+- BLOCK GO_NOSPAWN GO 325954 no spawn
+
+### 55721 Requisition: A Few Kelp Buds (zone 10052) — BLOCK 2 WARN 0
+- BLOCK OBJ_GO_NOSPAWN GO 325912: no spawn
+- BLOCK GO_NOSPAWN GO 325912 no spawn
+
+### 55725 Requisition: A Few Spiral Leaf (zone 10052) — BLOCK 2 WARN 0
+- BLOCK OBJ_GO_NOSPAWN GO 325914: no spawn
+- BLOCK GO_NOSPAWN GO 325914 no spawn
+
+### 55738 TBD NOT USED (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55740 TBD NOT USED (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55742 Bundle of Corroded Parts (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55787 Requisition: More Kelp Buds (zone 10052) — BLOCK 2 WARN 0
+- BLOCK OBJ_GO_NOSPAWN GO 325912: no spawn
+- BLOCK GO_NOSPAWN GO 325912 no spawn
+
+### 55791 Requisition: More Spiral Leaf (zone 10052) — BLOCK 2 WARN 0
+- BLOCK OBJ_GO_NOSPAWN GO 325914: no spawn
+- BLOCK GO_NOSPAWN GO 325914 no spawn
+
+### 55794 Reclamation Rig (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55884 Infestation of Madness (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55886 The Zanj'ir Brutalizer (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55890 Champion Vyz'olgo the Mind-Taker (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55894 Zoko, Her Iron Defender (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56050 PvP Event: Battle for Nazjatar (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56056 Terror of the Depths (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56071 De-Synced Vibro Blade (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56072 De-Synced Vibro Blade (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56080 March of the Murlocs (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56081 Octo-Grab (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56091 Usurper's Scent Gland (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NPC_NOSPAWN creature 153365 no spawn
+
+### 56092 Hivethief's Jelly Stash (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NPC_NOSPAWN creature 153365 no spawn
+
+### 56097 Grime-Coated Disc (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56121 Jumping Jellies (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56141 Security First (zone 10290) — BLOCK 2 WARN 0
+- BLOCK CHAIN_DISABLED PrevQuestID=999999
+- BLOCK NO_ENDER 
+
+### 56144 Old Nasha's Paw (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NPC_NOSPAWN creature 153365 no spawn
+
+### 56146 Making Kelpberry Wine (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NPC_NOSPAWN creature 150344 no spawn
+- BLOCK GO_NOSPAWN GO 325869 no spawn
+
+### 56191 Blueprint: TK32[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56192 Blueprint: TK33[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56193 Blueprint: TK34[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56194 Blueprint: TK35[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56195 Blueprint: TK36[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56196 Blueprint: TK37[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56197 Blueprint: TK38[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56198 Blueprint: TK39[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56199 Blueprint: TK40[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56200 Blueprint: TK41[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56201 Blueprint: TK42[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56202 Blueprint: TK43[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56203 Blueprint: TK44[DNT] (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56214 Good Girl (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56215 Glittering Shell (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56216 Last Heirloom (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56217 Wild Tame (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56218 Beauty in the Deeps (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56219 Tome of Tears (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56381 Prince Wiggletail (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56382 Chomp (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56383 Silence (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56384 Shadowspike Lurker (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56385 Pearlhusk Crawler (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56386 Elderspawn of Nalaada (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56387 Ravenous Scalespawn (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56388 Mindshackle (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56389 Kelpstone (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56390 Voltgorger (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56391 Frenzied Knifefang (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56392 Giant Opaline Conch (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56393 Gnomefeaster (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56394 Sputtertube (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56395 Goldenbot XD (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56396 Creakclank (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56397 CK-9 Micro-Oppression Unit (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56398 Unit 35 (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56399 Unit 6 (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56400 Unit 17 (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56436 Small Skull (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NPC_NOSPAWN creature 150629 no spawn
+
+### 56437 Rusty Tube (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NPC_NOSPAWN creature 150629 no spawn
+
+### 56438 Flashing Siren (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NPC_NOSPAWN creature 150629 no spawn
+
+### 56439 Mechanical Egg Sac (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NPC_NOSPAWN creature 150629 no spawn
+
+### 56440 Can of Critter Spray (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NPC_NOSPAWN creature 150629 no spawn
+
+### 56441 Cluckbox (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NPC_NOSPAWN creature 150629 no spawn
+
+### 56442 Broken Unit 6 (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NPC_NOSPAWN creature 150629 no spawn
+
+### 56443 Mechanical Eye (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NPC_NOSPAWN creature 150629 no spawn
+
+### 56473 Envenomed Spider Fang (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NPC_NOSPAWN creature 153365 no spawn
+
+### 56474 Hivekiller Stinger (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NPC_NOSPAWN creature 153365 no spawn
+
+### 56475 Spiral Yeti Horn (zone 9042) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NPC_NOSPAWN creature 153365 no spawn
+
+### 56515 Vinyl: Gnomeregan Forever (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NPC_NOSPAWN creature 151201 no spawn
+
+### 56516 Vinyl: Mimiron's Brainstorm (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NPC_NOSPAWN creature 151201 no spawn
+
+### 56517 Vinyl: Battle of Gnomeregan (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NPC_NOSPAWN creature 151201 no spawn
+
+### 56518 Vinyl: Depths of Ulduar (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NPC_NOSPAWN creature 151201 no spawn
+
+### 56519 Vinyl: Triumph of Gnomeregan (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NPC_NOSPAWN creature 151201 no spawn
+
+### 56759 Rustbolt Requisitions: Tempest Hide (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56760 Rustbolt Requisitions: Tempest Hide (zone 10290) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56786 Naga Treasure (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56804 With Friends Like You, Who Needs Anemones? (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56806 Friends Through Eternity (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56807 Real Friends Help Hide Bodies (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56809 Super Friends (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56811 You've Got A Friend In Me (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56812 Friendship Is Magic (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56814 Anytime You Need A Friend (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56816 A Kelfin's Best Friend (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56817 Thank You For Being A Friend (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 56830 Summons from the Deep (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 57330 Time for Revenge (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 57331 Salvage Operations (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 57333 Terrace Terrors (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 57334 Cave of Murlocs (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 57336 Putting the Past to Rest (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 57338 Depopulation Effort (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 57340 Fathom Ray Feast (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 57353 Deepcoil Cleansing (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 57354 Overdue (zone 10052) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 59225 [DNT] Azerite Reward Test Quest - BJI (zone 8499) — BLOCK 2 WARN 0
+- BLOCK NO_STARTER 
+- BLOCK NO_ENDER 
+
+### 55531 What Will It Mine? (zone 10052) — BLOCK 1 WARN 7
+- BLOCK NO_STARTER 
+- WARN OBJ_NO_CREDIT creature 152217: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 152181: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 152179: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 152210: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 152211: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 152212: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 152213: no spawn, no credit
+
+### 55901 Rustbolt Rebellion (zone 10290) — BLOCK 1 WARN 6
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 153353: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 153979: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 153354: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 153672: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 150614: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 154252: no spawn, no credit
+
+### 50397 Aerial Aspirations (zone 8499) — BLOCK 1 WARN 4
+- BLOCK NPC_NOSPAWN creature 133682 no spawn
+- WARN OBJ_NO_CREDIT creature 133682: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 135786: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 135787: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 135788: no spawn, no credit
+
+### 50901 Saurid Surprise (zone 8501) — BLOCK 1 WARN 4
+- BLOCK NPC_NOQUESTFLAG creature 135536 npcflag=1
+- WARN OBJ_NO_CREDIT creature 135659: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 135638: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 135665: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 135639: no spawn, no credit
+
+### 55426 What Will It Grow? (zone 10052) — BLOCK 1 WARN 4
+- BLOCK NO_STARTER 
+- WARN OBJ_NO_CREDIT creature 151767: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 152214: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 151770: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 151791: no spawn, no credit
+
+### 55885 Rico's Rescue (zone 10290) — BLOCK 1 WARN 4
+- BLOCK NPC_NOSPAWN creature 153324 no spawn
+- WARN OBJ_NO_CREDIT creature 153344: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 153336: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 153342: no spawn, no credit
+- WARN NPC_OTHERMAP creature 21118 maps [,5,3,0,]
+
+### 56572 Toys Like Us (zone 10290) — BLOCK 1 WARN 4
+- BLOCK NPC_NOQUESTFLAG creature 211728 npcflag=0
+- WARN OBJ_NO_CREDIT creature 155461: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 155462: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 155460: no spawn, no credit
+- WARN NPC_OTHERMAP creature 211728 maps [,2,6,0,1,]
+
+### 55602 What Will It Lure? (zone 10052) — BLOCK 1 WARN 3
+- BLOCK NO_STARTER 
+- WARN OBJ_NO_CREDIT creature 152472: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 152469: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 152406: no spawn, no credit
+
+### 55717 Time for Heroics (zone 10290) — BLOCK 1 WARN 3
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 153349: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 153535: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 153538: no spawn, no credit
+
+### 55816 The Other Place (zone 10290) — BLOCK 1 WARN 3
+- BLOCK NPC_NOQUESTFLAG creature 204390 npcflag=0
+- WARN OBJ_NO_CREDIT creature 153994: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 153997: no spawn, no credit
+- WARN NPC_OTHERMAP creature 204390 maps [,2,5,7,9,]
+
+### 56532 Nuke 'Em Norbit (zone 10290) — BLOCK 1 WARN 3
+- BLOCK NPC_NOSPAWN creature 153701 no spawn
+- WARN OBJ_NO_CREDIT creature 155339: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 155341: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 155343: no spawn, no credit
+
+### 47969 Fallhaven's Curse (zone 8721) — BLOCK 1 WARN 2
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 125023: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 128326: no spawn, no credit
+
+### 48474 Crypt Keepers (zone 8721) — BLOCK 1 WARN 2
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 126282: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 126671: no spawn, no credit
+
+### 50395 The Call of the Skies (zone 8499) — BLOCK 1 WARN 2
+- BLOCK NPC_NOSPAWN creature 133678 no spawn
+- WARN OBJ_NO_CREDIT creature 133678: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 135392: no spawn, no credit
+
+### 50887 Ptrust Fall (zone 8499) — BLOCK 1 WARN 2
+- BLOCK NPC_NOSPAWN creature 135308 no spawn
+- WARN OBJ_NO_CREDIT creature 135550: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 135577: no spawn, no credit
+
+### 51145 Curse of Jani (zone 8501) — BLOCK 1 WARN 2
+- BLOCK NPC_NOQUESTFLAG creature 135536 npcflag=1
+- WARN OBJ_NO_CREDIT creature 136572: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 136563: no spawn, no credit
+
+### 55244 Away From the Herd (zone 8499) — BLOCK 1 WARN 2
+- BLOCK NPC_NOSPAWN creature 152258 no spawn
+- WARN OBJ_NO_CREDIT creature 152258: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 153002: no spawn, no credit
+
+### 55246 Even Greener Pastures (zone 8499) — BLOCK 1 WARN 2
+- BLOCK NPC_NOSPAWN creature 152258 no spawn
+- WARN OBJ_NO_CREDIT creature 152280: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 151864: no spawn, no credit
+
+### 55658 Clues Abound (zone 10290) — BLOCK 1 WARN 2
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 152626: no spawn, no credit
+- WARN NPC_OTHERMAP creature 228605 maps [,2,5,5,2,]
+
+### 55734 Drill Rig Construction (zone 10290) — BLOCK 1 WARN 2
+- BLOCK NPC_NOSPAWN creature 153670 no spawn
+- WARN OBJ_NO_CREDIT creature 151075: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 153770: no spawn, no credit
+
+### 56410 Discs of Norgannon (zone 10290) — BLOCK 1 WARN 2
+- BLOCK NPC_NOSPAWN creature 154982 no spawn
+- WARN OBJ_NO_CREDIT creature 155057: no spawn, no credit
+- WARN OBJ_NO_CREDIT creature 155058: no spawn, no credit
+
+### 47981 Cracking the Curse (zone 8721) — BLOCK 1 WARN 1
+- BLOCK GO_NOSPAWN GO 278675 no spawn
+- WARN OBJ_NO_CREDIT creature 125112: no spawn, no credit
+
+### 48181 Nooooope (zone 8721) — BLOCK 1 WARN 1
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 128916: no spawn, no credit
+
+### 48525 Break Them to Splinters (zone 8721) — BLOCK 1 WARN 1
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 129033: no spawn, no credit
+
+### 49079 Hir'eek, the Bat Loa (zone 8500) — BLOCK 1 WARN 1
+- BLOCK NPC_NOQUESTFLAG creature 127475 npcflag=0
+- WARN OBJ_NO_CREDIT creature 129395: no spawn, no credit
+
+### 49529 Spring Cleaning (zone 8567) — BLOCK 1 WARN 1
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 129988: no spawn, no credit
+
+### 50080 Raiding the Raiders (zone 8500) — BLOCK 1 WARN 1
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 133357: no spawn, no credit
+
+### 50133 Weed Whacking (zone 9042) — BLOCK 1 WARN 1
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 140629: no spawn, no credit
+
+### 50394 Your Problem Now (zone 8499) — BLOCK 1 WARN 1
+- BLOCK NPC_NOSPAWN creature 133678 no spawn
+- WARN OBJ_NO_CREDIT creature 133676: no spawn, no credit
+
+### 50412 Back to the Nest (zone 8499) — BLOCK 1 WARN 1
+- BLOCK NPC_NOSPAWN creature 133678 no spawn
+- WARN OBJ_NO_CREDIT creature 133720: no spawn, no credit
+
+### 50696 Fun With Magnets (zone 9042) — BLOCK 1 WARN 1
+- BLOCK NPC_NOQUESTFLAG creature 136165 npcflag=0
+- WARN OBJ_NO_CREDIT creature 129618: no spawn, no credit
+
+### 50791 Skree... (zone 8499) — BLOCK 1 WARN 1
+- BLOCK NPC_NOSPAWN creature 133678 no spawn
+- WARN NPC_LUA_ONLY creature 135272 no spawn (script/credit)
+
+### 50900 Maybe When You're Older (zone 8499) — BLOCK 1 WARN 1
+- BLOCK NPC_NOSPAWN creature 135308 no spawn
+- WARN OBJ_NO_CREDIT creature 135594: no spawn, no credit
+
+### 51142 Pests (zone 8501) — BLOCK 1 WARN 1
+- BLOCK NPC_NOQUESTFLAG creature 135536 npcflag=1
+- WARN OBJ_NO_CREDIT creature 136561: no spawn, no credit
+
+### 51534 The Battle for Brennadam (zone 9042) — BLOCK 1 WARN 1
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 130747: no spawn, no credit
+
+### 53106 Censership (zone 9042) — BLOCK 1 WARN 1
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 133758: no spawn, no credit
+
+### 53107 Plunder and Provisions (zone 9042) — BLOCK 1 WARN 1
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 133758: no spawn, no credit
+
+### 53343 Censership (zone 9042) — BLOCK 1 WARN 1
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 133758: no spawn, no credit
+
+### 53345 Plunder and Provisions (zone 9042) — BLOCK 1 WARN 1
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 133758: no spawn, no credit
+
+### 53435 Azerite for the Horde (zone 8499) — BLOCK 1 WARN 1
+- BLOCK NO_STARTER 
+- WARN OBJ_NO_CREDIT creature 132935: no spawn, no credit
+
+### 53436 Azerite for the Alliance (zone 8567) — BLOCK 1 WARN 1
+- BLOCK NO_STARTER 
+- WARN OBJ_NO_CREDIT creature 132935: no spawn, no credit
+
+### 53456 WANTED: The Rime Huntress (zone 8721) — BLOCK 1 WARN 1
+- BLOCK NO_STARTER 
+- WARN NPC_OTHERMAP creature 228469 maps [,2,1,2,7,]
+
+### 53458 WANTED: Rindlewoe (zone 8721) — BLOCK 1 WARN 1
+- BLOCK NO_STARTER 
+- WARN NPC_OTHERMAP creature 228469 maps [,2,1,2,7,]
+
+### 53459 WANTED: Sister Lilias (zone 8721) — BLOCK 1 WARN 1
+- BLOCK NO_STARTER 
+- WARN NPC_OTHERMAP creature 228469 maps [,2,1,2,7,]
+
+### 54254 Bombs Away (zone 8501) — BLOCK 1 WARN 1
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 147451: no spawn, no credit
+
+### 54992 The Start of Something Bigger (zone 8567) — BLOCK 1 WARN 1
+- BLOCK NPC_NOSPAWN creature 152482 no spawn
+- WARN OBJ_NO_CREDIT creature 152488: no spawn, no credit
+
+### 55245 Eat Like a Direhorn (zone 8499) — BLOCK 1 WARN 1
+- BLOCK NPC_NOSPAWN creature 152258 no spawn
+- WARN OBJ_NO_CREDIT creature 151293: no spawn, no credit
+
+### 55876 Plug the Geysers (zone 10052) — BLOCK 1 WARN 1
+- BLOCK NPC_NOSPAWN creature 153833 no spawn
+- WARN OBJ_NO_CREDIT creature 153821: no spawn, no credit
+
+### 56053 The Final Act (zone 10290) — BLOCK 1 WARN 1
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 153984: no spawn, no credit
+
+### 56139 Junkyard Treasures (zone 10290) — BLOCK 1 WARN 1
+- BLOCK NO_ENDER 
+- WARN OBJ_NO_CREDIT creature 154252: no spawn, no credit
+
+### 56250 I Am the Trashmaster (zone 8501) — BLOCK 1 WARN 1
+- BLOCK NPC_NOQUESTFLAG creature 135536 npcflag=1
+- WARN OBJ_NO_CREDIT creature 154458: no spawn, no credit
+
+### 56326 Ravenous Rescue (zone 10290) — BLOCK 1 WARN 1
+- BLOCK NPC_NOSPAWN creature 154568 no spawn
+- WARN OBJ_NO_CREDIT creature 153271: no spawn, no credit
+
+### 56334 Bots Gone Wild (zone 10290) — BLOCK 1 WARN 1
+- BLOCK NPC_NOSPAWN creature 154655 no spawn
+- WARN OBJ_NO_CREDIT creature 154608: no spawn, no credit
+
+### 56380 Grounded (zone 10290) — BLOCK 1 WARN 1
+- BLOCK NPC_NOSPAWN creature 154906 no spawn
+- WARN OBJ_NO_CREDIT creature 149850: no spawn, no credit
+
+### 56433 Drowning the Alliance (zone 10052) — BLOCK 1 WARN 1
+- BLOCK NPC_NOQUESTFLAG creature 85115 npcflag=128
+- WARN NPC_OTHERMAP creature 85115 maps [,1,1,1,6,]
+
+### 56469 Pirates? I Hate Those Guys! (zone 10290) — BLOCK 1 WARN 1
+- BLOCK NPC_NOQUESTFLAG creature 119430 npcflag=0
+- WARN NPC_OTHERMAP creature 119430 maps [,1,2,2,0,]
+
+### 57009 Fame Waits for Gnome One (zone 10290) — BLOCK 1 WARN 1
+- BLOCK NO_STARTER 
+- WARN OBJ_NO_CREDIT creature 156184: no spawn, no credit
+
+### 47332 Your Next Move (zone 8499) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 47440 Pa'ku, Master of Winds (zone 8499) — BLOCK 1 WARN 0
+- BLOCK CHAIN_DISABLED PrevQuestID=999999
+
+### 47513 Vol'dun (zone 8499) — BLOCK 1 WARN 0
+- BLOCK CHAIN_DISABLED PrevQuestID=999999
+
+### 47599 Revenge: Served Hot (zone 8500) — BLOCK 1 WARN 0
+- BLOCK NPC_NOQUESTFLAG creature 123883 npcflag=0
+
+### 47706 Hunt for King K'tal (zone 8499) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 271706 no spawn
+
+### 47756 The Libation's Liberation (zone 8500) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 47961 Drustvar (zone 8567) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 47978 The Wayward Crone (zone 8721) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 124922 no spawn
+
+### 47979 Witch Hunt (zone 8721) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 47980 Furious Familiars (zone 8721) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 47996 Mawfiend Extermination (zone 8500) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 48329 Beaten But Not Broken (zone 8501) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 48456 Witch Doctor Jala (zone 8499) — BLOCK 1 WARN 0
+- BLOCK CHAIN_DISABLED PrevQuestID=999999
+
+### 48585 Wasteland Survivor (zone 8501) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 273854 no spawn
+
+### 48655 The Chef's Apprentice (zone 8501) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 276187 no spawn
+
+### 48656 Savage Saurolisks (zone 8501) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 276187 no spawn
+
+### 48657 They Might Be Delicious (zone 8501) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 276187 no spawn
+
+### 48680 Not the Bees! (zone 8721) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 48778 Stone Soup (zone 8567) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 48897 The Bargain is Struck (zone 8499) — BLOCK 1 WARN 0
+- BLOCK CHAIN_DISABLED PrevQuestID=999999
+
+### 48934 Mark of the Damned (zone 8500) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 49300 Creature Corruption (zone 8567) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 49406 Zalamar Slaughter (zone 8500) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 49424 The Full Prophecy (zone 8499) — BLOCK 1 WARN 0
+- BLOCK NPC_NOSPAWN creature 132041 no spawn
+
+### 49437 Tattered Note (zone 8501) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 49522 Carentan's Payment (zone 8567) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 49731 Fond Farewells (zone 8501) — BLOCK 1 WARN 0
+- BLOCK CHAIN_DISABLED PrevQuestID=999999
+
+### 49818 Trouble at Fort Daelin (zone 9042) — BLOCK 1 WARN 0
+- BLOCK CHAIN_DISABLED PrevQuestID=999999
+
+### 49832 An Illegible Scroll (zone 9042) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 49918 Gorilla Gorge (zone 8499) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 50009 Shipwreck Recovery Crew (zone 8567) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 50178 Trouble in the Rootway (zone 8499) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 50240 A Slip of the Tongue (zone 8499) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 50363 War Pigs (zone 9042) — BLOCK 1 WARN 0
+- BLOCK NPC_NOQUESTFLAG creature 134095 npcflag=1
+
+### 50367 Anger in a Bottle (zone 9042) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 50393 A Child of Pa'ku (zone 8499) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 50396 A Pterrible Fate (zone 8499) — BLOCK 1 WARN 0
+- BLOCK NPC_NOSPAWN creature 133679 no spawn
+
+### 50401 Fear of Falling (zone 8499) — BLOCK 1 WARN 0
+- BLOCK NPC_NOSPAWN creature 133678 no spawn
+
+### 50402 SKREEEEE! (zone 8499) — BLOCK 1 WARN 0
+- BLOCK NPC_NOSPAWN creature 133678 no spawn
+
+### 50433 Zanchuli Disbanded (zone 8499) — BLOCK 1 WARN 0
+- BLOCK CHAIN_DISABLED PrevQuestID=999999
+
+### 50593 A Bloody Mess (zone 9042) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 50598 Zandalari Empire (zone 8499) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 50599 Proudmoore Admiralty (zone 8567) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 50600 Order of Embers (zone 8721) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 50601 Storm's Wake (zone 9042) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 50602 Talanji's Expedition (zone 8500) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 50603 Voldunai (zone 8501) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 50605 Alliance War Effort (zone 8567) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 50606 Horde War Effort (zone 8499) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 50779 A Clean Slate (zone 9042) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 50788 Enemies Within (zone 8567) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 50789 Clear the Air (zone 8567) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 50886 Surrogate Wings (zone 8499) — BLOCK 1 WARN 0
+- BLOCK NPC_NOSPAWN creature 135308 no spawn
+
+### 50940 Wisdom of the Wingless (zone 8499) — BLOCK 1 WARN 0
+- BLOCK NPC_NOSPAWN creature 133682 no spawn
+
+### 50943 The Joy of Flight (zone 8499) — BLOCK 1 WARN 0
+- BLOCK NPC_NOSPAWN creature 135744 no spawn
+
+### 50944 Down, But Not Out (zone 8499) — BLOCK 1 WARN 0
+- BLOCK NPC_NOSPAWN creature 135744 no spawn
+
+### 50956 Walking-Around Money (zone 9042) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 50976 An Ancient Curse (zone 8500) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 51089 WANTED: Tojek (zone 8500) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 51091 WANTED: Ten'gor and Nol'ixwan (zone 8499) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 271706 no spawn
+
+### 51139 WANTED: Tojek (zone 8500) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 51161 WANTED: Za'roco (zone 8501) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 287398 no spawn
+
+### 51162 WANTED: Taz'raka the Traitor (zone 8501) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 287440 no spawn
+
+### 51164 WANTED: Cobra Excursion Participants (zone 8501) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 287442 no spawn
+
+### 51199 The Glory of the Hunt (zone 8567) — BLOCK 1 WARN 0
+- BLOCK CHAIN_DISABLED PrevQuestID=999999
+
+### 51200 The Black Sheep (zone 9042) — BLOCK 1 WARN 0
+- BLOCK QPHASE_ORPHAN phase 44310 (area 9042) no phase_area
+
+### 51218 Undelivered Package (zone 9042) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 51547 WANTED: Rindlewoe (zone 8721) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 124417 no spawn
+
+### 51689 Tortollan Rescue (zone 8500) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 51829 Ranah's Wrench (zone 8501) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 291143 no spawn
+
+### 51980 WANTED: Jabra'kan (zone 8499) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 291291 no spawn
+
+### 52061 Taptaf the Pig! (zone 8721) — BLOCK 1 WARN 0
+- BLOCK NPC_NOSPAWN creature 139380 no spawn
+
+### 52070 Bauer Backup (zone 9042) — BLOCK 1 WARN 0
+- BLOCK CHAIN_DISABLED PrevQuestID=999999
+
+### 52294 Fallen Idols (zone 8500) — BLOCK 1 WARN 0
+- BLOCK CHAIN_DISABLED PrevQuestID=999999
+
+### 52472 Make Loh Go (zone 8499) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 52480 WANTED: Ayame (zone 8500) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 53330 WANTED: Razorclaw Alpha (zone 9042) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 53348 WANTED: Thundersnout (zone 9042) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 53369 Make Loh Go (zone 9042) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 53434 The Vanishing Lord (zone 8721) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 53438 WANTED: Wyvern Poachers (zone 8567) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 53440 WANTED: The Hornet (zone 8567) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 53455 WANTED: The Crimson Cutthroats (zone 8721) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 53465 Tea Party (zone 8721) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 53982 Supplies From The Unshackled (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 54454 Supplies from the 7th Legion (zone 8567) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 54455 Supplies from the Honorbound (zone 8499) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 54456 Supplies from the Order of Embers (zone 8721) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 54457 Supplies from Storm's Wake (zone 9042) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 54458 Supplies from the Proudmoore Admiralty (zone 8567) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 54460 Supplies from Talanji's Expedition (zone 8500) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 54461 Supplies from the Voldunai (zone 8501) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 54462 Supplies from the Zandalari Empire (zone 8499) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 54618 Paragon of the 7th Legion (zone 8567) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 54626 Paragon of the Honorbound (zone 8499) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 54628 Paragon of the Storm's Wake (zone 9042) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 54629 Paragon of the Proudmoore Admiralty (zone 8567) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 54631 Paragon of the Voldunai (zone 8501) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 54632 Paragon of the Zandalari Empire (zone 8499) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 54756 Garbage for the Garbage God (zone 8499) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 55121 The Laboratory of Mardivas (zone 10052) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 322533 no spawn
+
+### 55243 A Daughter of Torcali (zone 8499) — BLOCK 1 WARN 0
+- BLOCK NPC_NOSPAWN creature 152258 no spawn
+
+### 55247 The Trust You've Earned (zone 8499) — BLOCK 1 WARN 0
+- BLOCK NPC_NOSPAWN creature 19 no spawn
+
+### 55299 Bottom Feeding Stinkfish (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 55305 Bolted Steelhead (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 55306 Pond Hopping Springfish (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 55307 Shadowy Cave Eel (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 55308 Mechanical Blowfish (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 55309 Spitting Clownfish (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 55310 Sludge-fouled Carp (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 55311 Energized Lightning Cod (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 55312 Solarsprocket Barbel (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 55313 Tasty Steelfin (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 55348 Supplies from the Rustbolt Resistance (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 55451 Paint Vial: Fireball Red (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 55452 Paint Vial: Fel Mint Green (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 55454 Paint Vial: Lemonade Steel (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 55455 Paint Vial: Mechagon Gold (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 55456 Paint Vial: Copper Trim (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 55457 Paint Vial: Overload Orange (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 55517 Paint Vial: Big-ol Bronze (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 55534 Rustbolt Gramophone (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NPC_NOSPAWN creature 155181 no spawn
+
+### 55535 The Tipsy Tinkerer (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 55633 The Sunken Chest (zone 10052) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 325795 no spawn
+
+### 55636 A Life's Work (zone 10052) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 325853 no spawn
+
+### 55662 Arcane Cache (zone 10052) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 325894 no spawn
+
+### 55672 A Historical Mess (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 55688 A Growing Mystery (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 55714 Void Cache (zone 10052) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 326026 no spawn
+
+### 55724 Requisition: A Few Deepcoral Buds (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NPC_NOQUESTFLAG creature 153772 npcflag=8192
+
+### 55728 Reinforced Cache (zone 10052) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 326047 no spawn
+
+### 55730 Rescuing the Resistance (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NPC_NOSPAWN creature 153670 no spawn
+
+### 55731 My Father's Armies (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NPC_NOSPAWN creature 153670 no spawn
+
+### 55743 More Recycling (zone 10290) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 326027 no spawn
+
+### 55770 WANTED: Commander Sarj'eth (zone 10052) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 326141 no spawn
+
+### 55772 WANTED: Lady Narjiss (zone 10052) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 326141 no spawn
+
+### 55774 WANTED: Inquisitor Ithriza (zone 10052) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 326141 no spawn
+
+### 55775 WANTED: Haggronar (zone 10052) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 326140 no spawn
+
+### 55776 WANTED: Emorneth (zone 10052) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 326140 no spawn
+
+### 55777 WANTED: Braxicus (zone 10052) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 326140 no spawn
+
+### 55790 Requisition: More Deepcoral Buds (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NPC_NOQUESTFLAG creature 153772 npcflag=8192
+
+### 55813 Aim High (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NPC_NOSPAWN creature 154568 no spawn
+
+### 55825 Bounty: A Few Fathom Rays (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NPC_NOQUESTFLAG creature 153772 npcflag=8192
+
+### 55834 Bounty: More Fathom Rays (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NPC_NOQUESTFLAG creature 153772 npcflag=8192
+
+### 55845 Plans of Attack (zone 10052) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 326148 no spawn
+
+### 55869 Clearing Out the Cache (zone 10052) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 326588 no spawn
+
+### 55871 Gather Friends (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NPC_NOSPAWN creature 151311 no spawn
+
+### 55976 Supplies From the Waveblade Ankoan (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 55993 A Little Edge (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NPC_NOSPAWN creature 153743 no spawn
+
+### 55995 We Can Fix It (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NPC_NOSPAWN creature 153670 no spawn
+
+### 56049 Deck 'Em (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NPC_NOSPAWN creature 153538 no spawn
+
+### 56116 Even More Recycling (zone 10290) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 326027 no spawn
+
+### 56117 Recyclable Parts (zone 10290) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 326027 no spawn
+
+### 56119 The Waveblade Ankoan (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56120 The Unshackled (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56131 Security First (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NO_ENDER 
+
+### 56172 Other Interests (zone 10290) — BLOCK 1 WARN 0
+- BLOCK CHAIN_DISABLED PrevQuestID=999999
+
+### 56173 Other Interests (zone 10290) — BLOCK 1 WARN 0
+- BLOCK CHAIN_DISABLED PrevQuestID=999999
+
+### 56174 Other Interests (zone 10290) — BLOCK 1 WARN 0
+- BLOCK CHAIN_DISABLED PrevQuestID=999999
+
+### 56222 WANTED: Lady Naz'jess (zone 10052) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 327585 no spawn
+
+### 56223 WANTED: Commander Sarj'eth (zone 10052) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 327585 no spawn
+
+### 56224 WANTED: Lord Ha'kass (zone 10052) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 327585 no spawn
+
+### 56225 WANTED: Lady Narjiss (zone 10052) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 327585 no spawn
+
+### 56226 WANTED: Gler'thogg (zone 10052) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 327585 no spawn
+
+### 56227 WANTED: Inquisitor Ithriza (zone 10052) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 327585 no spawn
+
+### 56231 Reinforced Cache (zone 10052) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 326047 no spawn
+
+### 56232 Void Cache (zone 10052) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 326026 no spawn
+
+### 56233 Arcane Cache (zone 10052) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 325894 no spawn
+
+### 56306 The Family Jewels (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NPC_NOQUESTFLAG creature 137302 npcflag=1
+
+### 56355 Battle Tested (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NPC_NOSPAWN creature 151006 no spawn
+
+### 56370 Break a Few Eggs (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NPC_NOSPAWN creature 155844 no spawn
+
+### 56434 WANTED: Junkbrat and Roadtrogg (zone 10290) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 329641 no spawn
+
+### 56444 Wiggletail's Poking Fork (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56445 Wiggletail's Poking Fork (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56446 Leathery Venom Gland (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56447 Half-Digested Deepcoral Pod (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56448 Molted Spineshell (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56449 Pearlescent Shell (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56450 Eel Jelly (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56451 Mottled Hydra Scale (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56452 Strange Organ (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56453 Overgrown Stone (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56454 Crackling Mandible (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56455 Frenzy Fang (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56456 Opaline Conch (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56457 Leathery Venom Gland (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56458 Opaline Conch (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56459 Half-Digested Deepcoral Pod (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56460 Molted Spineshell (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56461 Pearlescent Shell (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56462 Eel Jelly (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56463 Mottled Hydra Scale (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56464 Strange Organ (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56465 Overgrown Stone (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56466 Crackling Mandible (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56467 Frenzy Fang (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56508 Waste Not (zone 10290) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 329715 no spawn
+
+### 56560 A Curious Discovery (zone 10052) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 329805 no spawn
+
+### 56561 A Curious Discovery (zone 10052) — BLOCK 1 WARN 0
+- BLOCK GO_NOSPAWN GO 329805 no spawn
+
+### 56746 Our Direct Line (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56779 A Valorous Reward (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56784 Helpful Provisions (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56789 A Gift of Supplies (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56805 That's What Friends Are For (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56810 A Friend Indeed (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56815 With A Little Help From My Friends (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56907 Paint Bottle: Nukular Red (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56908 Paint Bottle: Goblin Green (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56909 Paint Bottle: Electric Blue (zone 10290) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56971 Eel Filet (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56972 Fathom Ray Wing (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 56973 Giant Crab Leg (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 57086 Legacy of the Mad Mage (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 57246 Eel Filet (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 57247 Fathom Ray Wing (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 57248 Giant Crab Leg (zone 10052) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
+### 57670 Unbeelievable Quality (zone 9042) — BLOCK 1 WARN 0
+- BLOCK NO_STARTER 
+
