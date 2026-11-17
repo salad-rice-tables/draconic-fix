@@ -56,7 +56,7 @@ def ancestors(a):
 
 # ----------------------------- db -----------------------------------------
 def conn(db):
-    return pymysql.connect(host='127.0.0.1', user='root', password='admin', db=db,
+    return pymysql.connect(host='127.0.0.1', user='root', password=os.environ.get('DB_PASSWORD', ''), db=db,
                            charset='utf8mb4', autocommit=True)
 
 W = conn('world')

@@ -2,7 +2,7 @@
 
 Everything here was learned while fixing the Midnight (Arator/Hammerfall/Burning Steppes) and Suramar (Nightborne) questlines.
 Real examples live in `C:\WowServer\Custom\sql\2026102*.sql` and `lua\suramar_*.lua`, `hammerfall_*.lua`, `relics_*.lua`, `final_relic.lua`, `scarlet_power.lua`, `infusion_relics.lua`: COPY the pattern from the closest example.
-Long history/quirks of every tested quest: `C:\Users\brani\.claude\projects\C--Games-Wow\memory\midnight-questline-progress.md` (70 KB, read the part about the questline you touch).
+Long history/quirks of every tested quest: `C:/Users/<user>\.claude\projects\C--Games-Wow\memory\midnight-questline-progress.md` (70 KB, read the part about the questline you touch).
 
 ## A. Helper scripts (all in `C:\WowServer\Custom\tools`, run with `python`)
 | Script | Use |

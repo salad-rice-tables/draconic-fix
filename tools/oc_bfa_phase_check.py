@@ -1,3 +1,4 @@
+import os
 # Read-only BfA phase-mapping check. Finds phases used in BfA maps that retail
 # phase_area does not associate with any area of the same continent/map.
 import csv, collections, sys
@@ -15,7 +16,7 @@ with open(AREA_CSV, encoding='utf-8-sig') as f:
         parent[i] = int(r['ParentAreaID'] or 0)
         name[i] = (r.get('AreaName_lang') or r.get('ZoneName') or '').strip()
 
-W = pymysql.connect(host='127.0.0.1', user='root', password='admin', database='world', charset='utf8mb4')
+W = pymysql.connect(host='127.0.0.1', user='root', password=os.environ.get('DB_PASSWORD', ''), database='world', charset='utf8mb4')
 wc = W.cursor()
 def q(sql):
     wc.execute(sql); return wc.fetchall()

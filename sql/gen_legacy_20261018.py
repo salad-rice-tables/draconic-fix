@@ -25,7 +25,7 @@ import datetime
 import pymysql
 
 SQL_DIR = r"C:\WowServer\Custom\sql"
-WIKI = r"C:\Users\brani\AppData\Local\Temp\opencode\wiki_sections.txt"
+WIKI = r"C:/Users/<user>\AppData\Local\Temp\opencode\wiki_sections.txt"
 WAGO = r"C:\WowServer\Custom\data\wago"
 
 QUESTS = [92901, 92904, 92907, 92951, 92952, 92953, 92954, 92955, 92957, 92958, 93010, 93011, 93012]
@@ -204,7 +204,7 @@ def parse_wiki():
 def main():
     apply = "--apply" in sys.argv
     now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
-    conn = pymysql.connect(host="127.0.0.1", port=3306, user="root", password="admin",
+    conn = pymysql.connect(host="127.0.0.1", port=3306, user="root", password=os.environ.get('DB_PASSWORD', ''),
                            charset="utf8mb4", cursorclass=pymysql.cursors.DictCursor, autocommit=True)
     s = Sql(conn)
     wiki = parse_wiki()
