@@ -1,6 +1,7 @@
+import os
 import sys, pymysql
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
-con = pymysql.connect(host='127.0.0.1', port=3306, user='root', password='admin', db='world', charset='utf8mb4')
+con = pymysql.connect(host='127.0.0.1', port=3306, user='root', password=os.environ.get('DB_PASSWORD', ''), db='world', charset='utf8mb4')
 cur = con.cursor()
 raw = open(r'C:\WowServer\Custom\sql\20261017_dor_86519_86522.sql', encoding='utf-8').read()
 lines = [l for l in raw.split('\n') if not l.strip().startswith('--')]

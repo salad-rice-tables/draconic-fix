@@ -1,0 +1,14 @@
+## Interface: 120105
+## Title: CoA UI
+## Notes: Conquest of AzerothCore class resources and windows for Midnight (art: CoA, layout/templates: Blizzard)
+## Author: Draconic-WoW
+## Version: 0.1
+## SavedVariables: CoAUIDB
+Atlas.lua
+TalentData.lua
+SpellIndex.lua
+Core.lua
+LifeForce.lua
+Bars.lua
+MinionBar.lua
+Talents.lua

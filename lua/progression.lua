@@ -315,11 +315,34 @@ end
 -- ---------------------------------------------------------------- Mentoring
 local MENTOR_GAP = 15
 local mentorKills, mentorDay = {}, {}
+local function GroupMembers(player, g)
+    -- Group:GetMembers() is registered for the WORLD Eluna state only. Player
+    -- events fire in the map state, where that method is absent; use the
+    -- map-scoped player list there instead of throwing every kill.
+    if IS_WORLD_STATE then
+        local ok, members = pcall(function() return g:GetMembers() end)
+        return (ok and members) or {}
+    end
+
+    local out = {}
+    local ok, players = pcall(GetPlayersOnMap)
+    if not ok or not players then return out end
+
+    local gguid = tostring(g:GetGUID())
+    for _, m in ipairs(players) do
+        local mg = m:GetGroup()
+        if mg and tostring(mg:GetGUID()) == gguid then
+            out[#out + 1] = m
+        end
+    end
+    return out
+end
+
 local function Mentors(player)
     local okG, g = pcall(function() return player:GetGroup() end)
     if not (okG and g) then return {} end
     local out = {}
-    for _, m in ipairs(g:GetMembers() or {}) do
+    for _, m in ipairs(GroupMembers(player, g)) do
         if m ~= player and m:IsInWorld() and m:GetMapId() == player:GetMapId() and m:GetDistance(player) < 100 and m:GetLevel() >= player:GetLevel() + MENTOR_GAP then
             out[#out + 1] = m
         end

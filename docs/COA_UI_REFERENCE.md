@@ -1,0 +1,43 @@
+# CoA UI reference (observed in the real Conquest of AzerothCore client, 2026-11-06, Necromancer lvl 30)
+- **Life Force bar**: bottom centre, above the action bars: teal orb with text "5/5" (free/capacity) + 5 slots to its right showing the portraits of raised minions. Tooltip "Life Force - You may Raise minions from the dead with Life Force. Right click to customize menu. Drag to move". Movable frame.
+- A separate red-bordered aura icon under the minimap shows stack count (5) = Life Force capacity (aura 805011: stacks = capacity; occupancy tracked server side, see CoA repo docs/coa/necromancer-completion.md).
+- **Player frame**: portrait with level badge, name, health (green), a second brown bar "0/100" (Runic Power), mana (blue).
+- **N = "Conquest of Azeroth - Character Advancement"**: left tree = class (Necromancer) with points counter, right tree = active spec (Animation), vertical milestone strip at the far right, level-gate numbers (14 / 13) on the tree rows. Bottom: Change Active Specialization, Find Premade Builds, Search, Save Changes, Reset Trees, Change Talents. Tabs: Character Advancement | Vanity | Wardrobe.
+- **Wardrobe** (transmog): Disable Transmog / Disable Spell Visuals / Save Outfit; tabs Items, Incarnations, Cosmetics, Sets, Mounts, Companions, Toys, Outfits; "Collected 7 / 2744".
+- **Spellbook (P)**: only Auto Attack, passives, racials; tabs Spells / Professions + class icons. Class spells live on the action bars (learned via the tree), not as a long list.
+- **Character (C)**: 3.3.5 style + extras ("Prestige Level", item level, tabs Character/Pets/Reputation/Skills/Currency).
+- Screenshots: C:/Users/<user>\.claude\projects\C--Games-Wow\10c53a51-3617-4e4d-9932-490b2b219491\tool-results\ (mcp-computer-use-blob-17939772*).
+
+## Correction + books (observed 2026-11-06)
+- Spellbook (P) shows only passives/racials. **Class spells are learned from the "Book of Ascension"**: C -> Pets -> Companions tab lists "Book of Artisans" (professions, "Right Click to summon and dismiss your personal guide of Ascension") and "Book of Ascension" (class trainer). Summon button in that tab; the book follows you as a companion with its own unit frame (HP 69/69, level 1), a pink/purple ground circle under it.
+- **Right-click the summoned book -> standard trainer window** titled "Book of Ascension", greeting "Hello! Ready for some training?", list grouped by tab (All / Death / ...), spells with ranks (Call of The Scourge Rank 3..5, Create Bone Reliquary...), requirement line "Requires: Level 30", cost, description, Train / Exit buttons, filter dropdown. No gossip menu in between.
+- Client UI (Life Force orb, N window, wardrobe) is packed in the client's patch MPQs under C:\Games\Conquest of Azerothcore\COA\Data (patch.MPQ 4 GB, patch-*.MPQ); the CoA GitHub repo only has a few small client Lua files (client/Interface/FrameXML/CoA*.lua).
+
+## Extracted CoA client UI (tools/coa_mpq_extract.py -> data/coa_client/<archive>/..., 1978 files, 643 MB)
+- patch-B: Interface\FrameXML\Ascension_CoAResources\ = per-class resource UI in Lua (aura-driven, e.g. Cultist reads aura 500706/800431; textures via atlases/flipbooks): Barbarian, Chronomancer, Cultist, Necromancer, Primalist, Reaper, RuneMaster, Starcaller, Stormbringer, SunCleric, Templar, Tinker, Worgen(Bloodmage), Pyromancer, Knight of Xoroth(FLESHWARDEN) + Ascension_CoAMultiCast (minion/Life Force orb bar) + CoAResource_Orb.
+- patch-B: Interface\AddOns\Ascension_CoATalents (N window: CoATalentFrame, CoATreeViewMixin, CoASpecViewMixin, CoACharacterAdvancementUtil, templates), Ascension_CharacterAdvancement, Ascension_Collections (wardrobe), Ascension_VanityCollection, Ascension_WildCard, Ascension_InspectUI, ...
+- patch-A (632 MB): textures: Interface\CoAMultiCast\*.blp (atlas_main, necro_flipbook_1/2), Interface\CoAResource\*.blp (CultistFlipbook, KoXAtlas, PyromancerAtlas, RangerAtlas, ReaperAtlas, RunemasterRunesAtlas, TinkerAmmoAtlas, chronomancer_atlas, sunpwr_*, ...), Interface\TALENTFRAME\*.
+- UI is WotLK 3.3.5 + Ascension API (C_Player:GetClass, AuraUtil, MixinAndLoadScripts): must be ported to the Midnight client API; resource auras are keyed by CoA spell ids (Midnight copies are 7000000 + id).
+
+## Fresh CoA Necromancer (Jada, lvl 1, Undead, Shadow Grave) - observed 2026-11-06
+- Creation: 21 classes (rows: Necromancer, Pyromancer, Cultist, Starcaller, Sun Cleric, Tinker, Runemaster, Primalist, Reaper, Venomancer / Chronomancer, Bloodmage, Guardian, Stormbringer, Felsworn, Barbarian, Witch Doctor, Witch Hunter, Knight of Xoroth, Templar, Ranger); only 10 races (Human, Dwarf, Night Elf, Gnome, Draenei / Orc, Undead, Tauren, Troll, Blood Elf). Class tooltip = role, Primary/Secondary resource, armor type, "Combat Style" per spec, class paragraph (texts in client GlobalStrings.dbc patch-M; data/coa/global_strings.json).
+- First login: dialog "Choose your leveling experience!" (Enable / Disable Level Scaling; changeable with a Guard or Destiny Weaver) - Ascension feature, not ported.
+- Quest accepted at start: "Rude Awakening" (Shadow Grave / Deathknell).
+- Player frame lvl 1: HP 125, Runic Power 0/100 (brown bar), Mana 215. Life Force orb above the bars with 2 empty minion slots (skull placeholders); a small buff icon left of the action bar; bar 1 pre-filled with 5 spells (Auto Attack, skull = raise, green shield = Undead: Protect, dark = Necromancy?, frost crystal).
+- Spellbook (P) lvl 1, tab "Spells": Auto Attack, Block, Cannibalize (racial), Dodge, High-Risk (PvP), PvE Mode, Resilient Constitution, Resurrect in Capital City, Resurrect in Closest Town, Shadow Resistance, Specialization I, Summon Personal Bank; side tabs (3 icons), Professions tab; class spells themselves are NOT listed at level 1 beyond the bar.
+- N window remembers its last tab: Character Advancement | Vanity | Wardrobe. Vanity Item Collection sells "Book of Descension" (1500) and "Book of Artisans" (1500), Personal Bank, Travel Permit, ... - the books are VANITY ITEMS summoned from C -> Pets -> Companions.
+- Mouse input into the CoA client is not delivered when driven by the tool (keyboard works): use keys (P, N, C) only.
+
+## Verified in the CoA client with mouse (game window in front; Dock_64/other windows in front block clicks) - Jada lvl 1
+- N window tab "Character Advancement" is LOCKED until level 10 ("This feature becomes available at level 10"); Vanity and Wardrobe work at level 1. => talents (Character Advancement) start at level 10.
+- A fresh character already has BOTH companions in C -> Pets -> Companions: "Book of Artisans" and "Book of Ascension" (no vanity purchase needed). Summon button; right click the summoned book = trainer.
+- Book of Ascension trainer at level 1: window "Book of Ascension - Hello! Ready for some training?", list (all red = not yet trainable, sorted by level): Grave March (Requires Level 2, cost 6 copper), Bone Ward, Raise: Crypt Fiend, Undead: Pacify, Scourge Apprentice Training, Raise: Greater Skeletal Warrior (Rank 2), Undead: Assault, Create Bone Reliquary (Rank 1), Call of The Scourge (Rank 1/2), Unholy Frenzy ... Level-1 spells (Raise: Lesser Skeletal Warrior, Undead: Protect, ...) are NOT in the list = already known at creation.
+- Raise: Lesser Skeletal Warrior tooltip: "28 Mana, 2 sec cast, Raise a Lesser Skeletal Warrior to aid you in combat, occupying 1 Life Force. Command: Strikes an enemy in front of it and deals Weapon Damage plus 1." The minion is shown as "<Name>'s Guardian".
+- Life Force minion slots: hover a slot -> yellow arrow above it -> flyout column (empty at the bottom, known raise spells above). Slots = capacity (2 at lvl 1).
+- Character sheet lvl 1 Undead Necromancer: Str 18 Agi 11 Int 27 Spi 29 Sta 24; HP 125, Mana 215, Runic 0/100; equipment slots nearly empty (one chest item).
+
+## CoA Character Advancement (Grenth lvl 30 Animation Necromancer), seen in the real client
+- Dragonflight-style trees (retail atlases talents-node-*): left = class tree ("NECROMANCER", points left shown under the name, 1), right = active spec tree ("ANIMATION", 0 left) + a vertical strip of 5 spec milestone nodes on the far right. Nodes: circle (talent), square (ability), diamond with arrows (choice node); yellow ring = learned with rank text "1/1", "2/2"; green ring = learnable; gray = locked; gold arrows = prerequisite edges (directed, parent -> child).
+- Gate rows: red lock + number at row 8: 14 for the class tree, 13 for the spec tree (points that must be invested).
+- Buttons: Change Active Specialization, Find Premade Builds, Search, Save Changes, Reset Trees, Change Talents. Points at level 30: class ~11 (10 invested + 1 left) => (level-8)/2 matches.
+- Tab Character Advancement is locked until level 10.

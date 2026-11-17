@@ -1,5 +1,5 @@
 From 0d7dfd0ee4c27dc4b8a5c92845ae7350bd833627 Mon Sep 17 00:00:00 2001
-From: =?UTF-8?q?Bran=C4=8Di?= <branislav.kukula@gmail.com>
+From: =?UTF-8?q?salad-rice-tables?= <salad-rice-tables@users.noreply.github.com>
 Date: Sun, 18 Oct 2026 19:10:24 +0200
 Subject: [PATCH] Core/Collections: fix OOB write when learning collections on
  new characters

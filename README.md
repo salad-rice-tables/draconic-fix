@@ -1,74 +1,59 @@
-# draconic-fix — Some quests fixes
+# draconic-fix — Custom CoA Midnight
 
-Verified faithful fixes for *12** quests
-(Into the Abyss chain + related SM City quests) on a TrinityCore-based
-(updated `master`, ~12.x) server.
+Fixes and ports for a **World of Warcraft: Midnight (12.1.5)** private server built on
+TrinityCore, aiming to play the **Conquest of AzerothCore (CoA)** classes and systems
+on the Midnight client. CoA spell ids map to `+7,000,000`; CoA creatures likewise.
 
-Every text, NPC, reward and line of dialogue is verified against
-**Wowhead** (tooltip API), **Warcraft Wiki** and the core sources.
-No fan-fiction, no guessed IDs. Each fix ships with an `_undo.sql`.
+## What we are fixing
 
-## Covered quests
+### Necromancer (CoA class port) — `cpp/necromancer`, `lua/coa_necro_*`, `sql/*necro*`
+- Minions: autonomous abilities, scaling, role loops, Order / Command spells, correct display ids
+- Undead stances (Assault / Pacify / Protect): mutually exclusive, applied to minions only;
+  Assault speed no longer lands on the owner
+- Ally buffs (Razorice, Mandates, Foul Mandate): refuse hostile targets, land on minions only
+- Sacrifice Undead (all ranks): destroys every minion and heals per minion
+- Phylactery / Shade chain, Corpse Explosion, Virulency / Infest, disease spread
+- Talent procs (about 40) ported to a C++ aura script, proc data imported from the CoA repo
+  (`tools/coa_spell_proc.py`, `tools/coa_aura_options.py`)
+- Runic Power / Life Force UI bars in the `CoAUI` addon
 
-| Quest | ID | Status |
-|---|---|---|
-| Voidstorm (optional pre-quest) | 89388 | starter fixed |
-| Rising Storm (Into the Abyss #1) | 92061 | full fix: texts, rewards, gossip, credits, says, phases |
-| Magisters' Terrace: Homecoming (#2) | 86543 | completion, next quest, accept/terrace says |
-| You Know This Evil? (83-88) | 91967 | full fix: menus, buttons, credits, Anduin scene, rewards |
-| Diplomacy (Silvermoon) | 86734 | full fix: retail gossip flow, 8-line scene with retail voices, credit at the end (`docs/quest_86734_diplomacy_fix.md`) |
+### Quests and world (original scope of this repo)
+- Retail-faithful Midnight quest fixes (Into the Abyss chain, Silvermoon), see `docs/`
+- 2026-10-27 archive sync: Midnight campaign (VO/soundkit, scenes, gossip/credit, objectives, phases),
+  Suramar (quest gameobjects, questgiver flags, phasing), Broken Shore props, Harandar / Legion chains
+- Lua world scripts in `lua/` (Eluna), SQL in `sql/` (apply alphabetically; fixes have `_undo.sql`)
 
-Details: `docs/quest_92061_rising_storm_fix.md`.
-Reusable recipe: `docs/gossip_credit_quest_pattern.md`.
-
-## 2026-10-27 archive sync
-
-The repository now also contains the later server-fix archive through
-**2026-10-27**:
-
-- **Midnight campaign** — VO/soundkit wiring, scenes, gossip/credit flows,
-  objective/phase corrections and the later chain fixes.
-- **Suramar** — missing quest gameobject spawns, NPC questgiver flags,
-  phasing corrections and side-quest fixes.
-- **Broken Shore** — quest props and dressing object spawns.
-- **Harandar / Legion** — quest-chain, reward, spawn and audit fixes.
-- Updated `addon/`, `lua/`, `docs/` and the SQL fix files from the live
-  server archive.
-
-The table above is the original verified set; the archive contains the
-broader working history. Apply only the SQL/Lua files relevant to the
-content you are restoring.
-
-## Apply order
-
-SQL files are prefixed by date — **apply alphabetically** against MySQL
-(`world` + `hotfixes` databases, statements are fully qualified):
-
-```sql
-SOURCE sql/20261010_rising_storm_wiki.sql;
--- ... one by one in alphabetical order ...
-SOURCE sql/20261011_evil91967.sql;
-```
-
-Then copy `lua/*.lua` to the server's `lua_scripts/` folder and **restart
-worldserver** (gossip/smart/lua load at startup).
-
-Verify: `ready` in `Server.log`, empty `DBErrors` log, Eluna
-`Successfully loaded` for both lua files, then test in game
-(EN window text → button → credit + NPC say).
-
-## Revert
-
-Fix files are paired with an `*_undo.sql` where a safe rollback exists.
-Apply rollback SQL in reverse alphabetical order.
+### Tools
+- `tools/casc_*.py`, `tools/wow_casc.py`: read client files by FileDataID from CASC
+- `tools/coa_*.py`: CoA data import (spells, creatures, display ids, procs, icons)
 
 ## Layout
 
-- `sql/` — fixes + undo files (English comments, sources cited per file)
-- `lua/` — Eluna dialogue/credit scripts (primary credit path)
-- `docs/` — patterns, quest write-ups, audits and worklists
-- `addon/` — client-side addon sources used by the server fixes
-- `cpp/` — core patch snapshots for reference
+| Folder | Content |
+|---|---|
+| `cpp/necromancer` | C++ scripts (defence rules, procs, abilities) for `src/server/scripts/Custom` |
+| `cpp` | core patch snapshots for reference |
+| `lua` | Eluna scripts, copy to the server's `lua_scripts/` |
+| `sql` | world / hotfixes SQL, apply alphabetically; undo files where a safe rollback exists |
+| `addon` | client addons (`CoAUI`: Life Force, Runic Power, talents, minion bar) |
+| `tools` | Python data tools |
+| `docs` | audits, patterns and notes |
 
-No credentials, no client binaries, and no raw database dumps. Audit and
-worklist CSV/JSON files live under `docs/`.
+## Apply order
+
+SQL files are prefixed by date: apply alphabetically against MySQL (`world` + `hotfixes`),
+statements are fully qualified. Then copy `lua/*.lua` to the server's `lua_scripts/` and restart
+worldserver. Roll back with the `*_undo.sql` files in reverse order.
+
+## Setup notes
+
+- Python tools read the database password from the `DB_PASSWORD` environment variable.
+  No credentials are stored in this repo.
+- Register the C++ scripts in `custom_script_loader.cpp`
+  (`AddSC_necromancer_defense`, `AddSC_necromancer_events`, `AddSC_necromancer_abilities`).
+- Not ported yet: Ready charges, frost-damage proc 531135, Command-time summon procs.
+
+## Status
+
+Verified in game: stances, ally buffs, Sacrifice Undead, Phylactery / Shade, Corpse Explosion,
+cast checks, minion spawns. Other CoA classes are not audited yet.
